@@ -1,0 +1,16 @@
+
+En aquest directori teniu tots els fitxers font necessaris per a
+reconstruir una còpia del llibre "Informàtica Aplicada a la Traducció:
+notes de classe amb exercicis i problemes resolts".  També trobareu la
+llicència del document (llicencia GPL de GNU) en català i en anglés.
+
+El "Makefile" està pensat per a reconstruir el llibre fàcilment sobre un
+sistema operatiu de l'estil de Linux. Si voleu reconstruir el llibre
+sobre altres sistemes operatius com Windows, haureu de treballar una
+miqueta més. 
+
+Sort!
+
+Mikel L. Forcada  <mlf@dlsi.ua.es>
+Juan Antonio Pérez Ortiz <japerez@dlsi.ua.es>
+
