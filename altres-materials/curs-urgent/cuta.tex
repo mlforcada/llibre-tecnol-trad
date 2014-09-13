@@ -1,0 +1,1396 @@
+\documentclass[letterpaper,landscape]{slides}
+\usepackage[catalan]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{alltt}
+\usepackage{url}
+%\usepackage{fixseminar}
+
+\usepackage{marvosym}
+\usepackage{wasysym}
+
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\pagestyle{slide}
+\usepackage[display,coloremph,colormath,colorhighlight,lightbackground]{texpower}
+%\usepackage[printout,coloremph,colormath,colorhighlight,lightbackground]{texpower}
+\usepackage{soul}
+%\usepackage{hyperref}
+%\def\pdfBorderAttrs{/Border [0 0 0] } % No border arround Links
+\newcommand{\tu}[2]{(\texttt{``#1''},\texttt{``#2''})}
+
+\newcommand{\catala}{català}
+\newcommand{\catalana}{catalana}
+\newcommand{\espanyol}{espanyol}
+\newcommand{\delespanyol}{de l'espanyol}
+\newcommand{\lespanyola}{l'espanyola}
+\newcommand{\menjo}{menjo}
+\newcommand{\uneixi}{uneixi}
+\newcommand{\atura}{atura}
+
+\newcommand{\curs}{Traducció Automàtica: Fonaments i Aplicacions}
+\newcommand{\llocidata}{Universitat d'Alacant, 2004}
+
+\begin{document}
+
+\begin{slide}{}
+\begin{center}
+\textbf{\large Curs urgent de traducció automàtica}\\[1cm]
+Mikel L.\ Forcada
+\\ Departament de Llenguatges i Sistemes Informàtics
+\\ Universitat d'Alacant 
+\\ E-03071 Alacant, Spain \\[1cm] \curs \\ \llocidata
+
+
+\end{center}
+\end{slide}
+%%%%%%%%%%%
+\begin{slide}
+
+\textbf{Llicència}
+
+    © 2004--2008 Mikel L.\ Forcada
+
+    © 2004--2008 Universitat d'Alacant.  
+
+    Aquest material pot ser distribuït, copiat i exhibit si els
+    noms dels autors es mostren en els crèdits. Les obres derivades han de
+    distribuir-se sota els mateixos termes de llicència que el treball
+    original. Més detalls:
+    \url{http://creativecommons.org/licenses/by-sa/3.0/deed.ca}.
+    Podeu demanar els fonts LaTeX a Mikel L.\ Forcada
+    (\url{mlf@ua.es})
+\end{slide}
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Índex}
+\stepwise[\let\hidestepcontents=\hidedimmed]
+{
+\begin{enumerate}\setlength{\itemsep}{-0.3ex}
+
+\vstep{\item Què és la traducció automàtica (TA)? Aplicacions}
+
+\vstep{\item Formats de text}
+
+\vstep{\item Com funciona la TA?}
+
+\vstep{\item Per què és difícil la TA?}
+
+\vstep{\item Avaluació de la traducció automàtica}
+
+\vstep{\item TA de pàgines web}
+
+\vstep{\item Memòries de traducció}
+
+
+\end{enumerate}
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+\textbf{\large Què és la traducció automàtica (TA)? /1}
+\stepwise
+{
+\vstep{La \emph{traducció}, \ldots }
+
+\vstep{\ldots mitjançant un \emph{sistema informàtic} \ldots}
+
+\vstep{\ldots (ordinador(s) +
+  programes) \ldots}
+
+\vstep{\ldots de \emph{textos informatitzats} en la \emph{llengua
+    origen} (LO)\ldots}
+
+\vstep{\ldots a \emph{textos informatitzats} en la \emph{llengua meta}
+  (LM).}
+
+\vstep{[Atenció al \emph{format} dels textos!!]}
+
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+\textbf{\large Què és la traducció automàtica (TA)? /2}
+
+Esquemàticament:
+
+\begin{center}
+\begin{tabular}{ccccc}
+\highlighttext{Text LO} & $\to$ & \framebox{\parbox{4.5cm}{Sistema de traducció
+    automàtica}} & $\to$ & \parbox{3.5cm}{\highlighttext{Text LM} (en brut)} \\ 
+\end{tabular}
+\end{center}
+
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+
+\begin{slide}{}
+\textbf{\large Aplicacions de la TA /1}
+\stepwise
+{
+\vstep{Dos grans grups:}
+\begin{itemize}
+\vstep{\item\concept{Assimilació:} traducció \highlighttext{efímera}, idealment \highlighttext{instantània}, per a la
+  revisió o la \highlighttext{comprensió} 
+de documents en una altra llengua. P.e.,
+  \emph{navegació per internet}, \emph{xat (\textit{chat})}, etc.}
+
+\vstep{\item\concept{Disseminació:} traducció \highlighttext{permanent}, idealment
+  \highlighttext{amb pocs errors}, per a la \highlighttext{publicació}. P.e., \emph{producció d'esborranys per
+  a \textit{posteditar}}.}
+\end{itemize}
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+
+
+\begin{slide}{}
+\textbf{\large Aplicacions de la TA /2}
+\stepwise
+{
+\vstep{\concept{Preedició i postedició}: els professionals col·laboren amb el
+  sistema de TA en aplicacions de disseminació:}
+\begin{itemize}
+\vstep{\item\concept{Preedició:} preparació del text per a evitar
+  lèxic o construccions que donen problemes de traducció amb un
+  sistema de traducció automàtica.}
+\vstep{\item\concept{Postedició:} correcció del text traduït en brut
+  per a fer-lo adequat al propòsit previst.}
+\end{itemize}
+\vstep{Conéixer bé \emph{com funciona} el sistema de TA ajuda molt en
+ ambdues tasques.}
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+
+\begin{slide}{}
+\textbf{\large Aplicacions de la TA /3}
+\stepwise
+{
+\vstep{Alternativa a la preedició: \emph{llenguatge controlat}.}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item Els autors escriuen ja pensant en el tractament automatitzat
+  del text.}
+\vstep{\item S'eviten lèxic i construccions problemàtiques.}
+\vstep{\item Es minimitza la postedició.}
+\vstep{\item Consistència d'estil, comprensibilitat, mantenibilitat.}
+\vstep{\item Però els autors l'han de conéixer i aplicar!}
+\vstep{\item Se'ls pot ajudar amb eines informàtiques.}
+\end{itemize}
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+
+
+\begin{slide}{}
+\textbf{\large Aplicacions de la TA /4}
+\stepwise
+{
+\vstep{La postedició és convenient quan 
+$$\textbf{cost}\left(\mbox{\begin{tabular}{c}traducció automàtica\\ +\\
+  postedició\end{tabular}}\right) < \textbf{cost}(\mbox{traducció humana}).  
+$$
+}
+
+\vstep{Perquè siga eficient:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item cal ser competent en la llengua meta $\to$ generar un
+  text genuí a partir del text en brut}
+\vstep{\item cal conéixer el sistema de TA $\to$ reconéixer l'origen dels
+  errors, predir-ne el comportament}
+\end{itemize}
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+\textbf{\large Formats de text /1}
+\stepwise
+{
+\vstep{Un \emph{text informatitzat} és, com qualsevol porció de dades
+informatitzada, una \emph{seqüència de bits}, és a dir, d'\emph{uns} i
+\emph{zeros}: \texttt{000101010010100111101001010010\ldots}.}
+
+\vstep{Els \emph{bits} van normalment en grups de 8 (\emph{bytes} o
+\emph{octets}). Amb 8 bits es poden fer $2\times 2\times
+2\times2\times2\times2\times2\times2\times2$}\vstep{$=2^8$}\vstep{$=256$~combinacions:}
+\vstep{\texttt{00000000} (0),} \vstep{\texttt{00000001} (1),} \vstep{\texttt{00000010} (2),}
+\vstep{\ldots, \texttt{11111111} (255).}
+
+\vstep{Hi ha moltes maneres d'organitzar els octets per a emmagatzemar
+textos. Molts problemes provenen de discrepàncies quant a la manera de
+fer-ho.}
+}
+
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+\textbf{\large Formats de text /2}
+\stepwise
+{
+\vstep{Dos aspectes importants: \concept{codificació} i
+  \concept{format} propiament dit.}
+\begin{itemize}\setlength{\itemsep}{0pt}
+    \vstep{\item\concept{Codificació:} Assignació d'un \emph{codi} (una
+    seqüència d'un o més \emph{octets} concreta) a cada caràcter
+    possible de la llengua corresponent (per exemple: ``\texttt{a}''
+    $\to$ \texttt{01100001} (97); ``\texttt{?}'' $\to$
+    ``\texttt{00111111}'' (63), etc.)}
+\end{itemize}
+}
+\end{slide}
+
+
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Formats de text /3}
+\stepwise
+{
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item\concept{Format propiament dit:} Els textos, a més de
+      caràcters, contenen informació de format.}
+
+\vstep{És necessària l'assignació de 
+      \emph{codis} per a regular altres característiques del text:}
+\setlength{\parsep}{0pt}
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \vstep{\item Per a codificar l'aparença \emph{visual} o de
+    presentació, per exemple, ``inici cursives'', ``final negretes'',
+    ``lletra de 16 punts''), o} \vstep{\item Per a codificar
+    l'\emph{estructura} (és a dir, l'organització del contingut, per
+    exemple, ``títol de secció'', ``llista numerada'', ``nota a peu de
+    pàgina'', ``fila d'una taula'', etc.).}
+\end{itemize}
+\end{itemize}
+}
+\end{slide}
+
+
+%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Formats de text /4}
+\stepwise
+{
+\vstep{Codificacions d'1 octet (``unibyte''):}
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \vstep{\item\concept{ASCII:} Assigna codis de 7 bits, del
+    \texttt{0000000} (0) al \texttt{1111111} (127), (sobra un bit de
+    l'octet) als caràcters anglesos (sense accents, etc.)}
+  \vstep{\item\concept{ANSI o ISO:} \emph{familia} de codificacions que
+    aprofiten els codis del 128 al 255 per a caràcters internacionals.
+ 
+    En Europa occidental: \emph{ISO-8859-1} (o Latin-1); més recentment,
+    \emph{ISO-8859-15} (o Latin-9; conté el símbol de l'euro)}
+
+  \vstep{En Windows s'usa \emph{CP-1252} que és molt similar (però no
+  idèntic) a l'ISO-8859-1.}
+\end{itemize}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Formats de text /5} \stepwise { \vstep{Codificacions
+      de més d'1 octet (``multibyte'': japonés, xinés, coreà,
+      devanagari\ldots :)}
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \vstep{\item\concept{Unicode (ISO-10646):} Assigna codis de 31 bits
+    (4 octets) i permet codificar $2^{31}=2~147~483~648$ caràcters.}
+  \vstep{\item\concept{UTF-8:} Versió d'Unicode que només usa més d'un
+    octet quan cal:} 
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item codis del 0 al 127: 1 octet (compatible amb  ASCII):}
+\vstep{\item codis del 128 al 2047: 2 octets;}
+\vstep{\item codis del 2048 al 65535: 3 octets, etc.}
+\end{itemize}
+\end{itemize}
+}
+\end{slide}
+
+
+%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Formats de text /6}
+\stepwise
+{
+\vstep{Necessitat de format (estructural o presentacional) 
+més enllà de la codificació de caràcters. La informació de format es
+pot codificar:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \vstep{\item\concept{Com a
+      seqüències de caràcters} (anomenades \concept{marques}) que es poden llegir amb un
+      editor senzill de text com el \emph{Bloc de notes}: La família SGML (ara XML):
+    HTML i XHTML (pàgines web), NewsML (notícies), etc.; RTF, TeX
+    (processadors de textos); Postscript (impressores), etc.}
+\vstep{Un exemple:
+     \begin{center}
+     \texttt{<p>Un paràgraf curt amb un mot <em>emfatitzat</em>.</p>} \\
+     (HTML vist a través d'un editor de text)
+     \end{center}
+ }
+\end{itemize}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Formats de text /7}
+\stepwise
+{
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \vstep{\item\concept{Amb codis no interpretables com a caràcters:}
+    (no visibles a través d'un editor de text senzill)
+    Adobe PDF (impressió, presentació), formats semisecrets de
+    processadors de textos comercials com \texttt{.doc} de Microsoft,
+    etc.}
+\end{itemize}
+}
+\end{slide}
+
+
+%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Formats de text /8}
+
+El problema \emph{wysiwyg} (``what you see is what you get'': ``el que veus és
+el que obtindràs''):
+\stepwise
+{
+\vstep{Les persones usen la \emph{presentació visual} per a comunicar
+  \emph{l'estructura lògica} dels documents (a persones vidents!).}
+
+\vstep{Els processadors de textos actuals ens mostren el document \emph{tal
+    com quedarà imprés} mentres l'estem editant.}
+
+\vstep{Sucumbim a la temptació de treballar directament sobre la
+  \emph{presentació} (negretes, màrgens, tipus) en comptes de sobre
+  l'\emph{estructura lògica} (seccions, títols, etc.)}
+
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Formats de text /9}
+
+El problema \emph{wysiwyg}:
+\stepwise
+{
+\vstep{Si fem això, i més endavant  volem canviar el tipus de lletra dels
+  títols de secció o de les paraules estrangeres\ldots } 
+
+\vstep{\ldots ens toca canviar-los un per un!}
+
+\vstep{Resultat: ``el que veus és tot el que tens''}
+
+\vstep{Podem evitar-ho? Sí.} 
+}
+\end{slide}
+
+\begin{slide}{}
+\textbf{\large Formats de text /10}
+
+\stepwise
+{
+\vstep{Com? Usant \emph{estils}.}
+
+\vstep{Marquem \emph{estructuralment} les parts (elements): \emph{títol de
+    segon nivell}, \emph{text emfatitzat}, \emph{exemple}, etc.}
+
+\vstep{I després assignem un \emph{estil} de presentació a cada part (per
+  exemple, els títols de segon nivell pode anar numerats automàticament i en
+  Helvètica de 14 punts, l'èmfasi pot ser en negreta i l'exemple en cursiva)}
+
+\vstep{Canviar la presentació de totes les aparicions d'un element és fàcil:
+  només cal canviar l'estil associat a l'element.}
+
+}
+\end{slide}
+
+\begin{slide}
+\textbf{\large Formats de text /11}
+\stepwise{
+  
+  \vstep{En aplicacions d'internet, la separació estructura--presentació es fa
+    així:}
+\begin{itemize}
+\vstep{\item La informació ---el contingut--- s'estructura usant XML o HTML}
+
+\vstep{\item La presentació es genera (en el servidor o en el navegador) usant
+  \emph{fulls d'estil} escrits en CSS o en XSL}
+\end{itemize}
+
+}
+\end{slide}
+
+\begin{slide}
+\textbf{\large Formats de text /12}
+
+$$
+\left.
+\begin{array}{rcl}
+\mbox{\textsf{document (XML o HTML)}} & 
+\to \\
+\mbox{\textsf{full d'estil (XSL o CSS)}} &\to 
+ \\
+\end{array}
+\right.
+\mbox{\framebox{\parbox[l]{4.2cm}{\textsf{Processador de fulls d'estil}}}}
+\to \mbox{\parbox{4.9cm}{\textsf{presentació}}}
+$$
+\end{slide}
+
+\begin{slide}
+ \textbf{\large Formats de text /13}
+
+Accessibilitat (no tots els receptors són vidents):
+  \centering
+  \setlength{\unitlength}{1.9cm}  
+  \begin{picture}(11,6)(0,1.5)
+    \put(0,1){\makebox(3,2){\sf Fitxer de so}}
+    \put(4,1){\makebox(3,2){\sf Document Braille}}
+    \put(8,1){\makebox(3,2){\sf Document per a mòbils}}
+    \put(1.5,2.6){\makebox(0,0){\LARGE \twonotes}}
+    \put(5.5,2.6){\makebox(0,0){\LARGE \Printer}}
+    \put(9.5,2.6){\makebox(0,0){\LARGE \Mobilefone}}
+    \put(0,4){\framebox(3,1){\sf Full d'estil 1}}
+    \put(4,4){\framebox(3,1){\sf Full d'estil 2}}
+    \put(8,4){\framebox(3,1){\sf Full d'estil 3}}
+    \put(4,6){\makebox(3,2){\sf Document XML}}
+\put(5.5,6.5){\line(0,-1){0.75}}
+\put(1.5,5.75){\line(1,0){8}}
+\put(1.5,5.75){\vector(0,-1){0.5}}
+\put(5.5,5.75){\vector(0,-1){0.5}}
+\put(9.5,5.75){\vector(0,-1){0.5}}
+\put(1.5,4){\vector(0,-1){1}}
+\put(5.5,4){\vector(0,-1){1}}
+\put(9.5,4){\vector(0,-1){1}}
+  \end{picture}
+
+
+\end{slide}
+
+
+%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Formats de text /14}
+\stepwise
+{
+\vstep{Els sistemes de TA han de ser capaços:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \vstep{\item De separar  del text a traduir la informació de format;}
+  \vstep{\item de reintegrar adequadament la informació de format al
+  text després de traduir-lo;}
+\vstep{\item i, idealment, d'usar la informació de format per a
+  decidir quines parts cal traduir.}
+\end{itemize}
+\vstep{La preservació del format estalvia temps a la persona
+traductora/correctora (que es concentra en la part \emph{lingüística} de la
+faena).}
+}
+\end{slide}
+
+
+
+%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Com funciona la TA? /1}
+
+\highlighttext{Primera aproximació} [!!]: Traduir textos és
+\emph{traduir oracions}.
+
+Traduir oracions suposa:
+\stepwise
+{
+\begin{itemize}
+  \vstep{\item \emph{Construir una interpretació} (un
+    \emph{significat}) a partir de l'oració en LO.}  \vstep{\item
+  \emph{Construir una oració en LM} a partir de la interpretació.}
+\end{itemize}
+}
+\end{slide}
+\begin{slide}{}
+%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+\textbf{\large Com funciona la TA? /2}
+
+\concept{Principi de composicionalitat [semàntica]}:
+
+\stepwise
+{
+\vstep{La \highlighttext{interpretació d'una oració} es construeix \ldots}
+
+\vstep{\ldots a partir de les \highlighttext{interpretacions dels
+    mots} \ldots}
+
+\vstep{\begin{center}\textit{Escriuen \emph{cartes}} $\neq$ \textit{Escriuen \emph{articles}}\end{center}}
+
+\vstep{\ldots \emph{component-les} seguint les agrupacions indicades 
+per l'\highlighttext{estructura sintàctica} de
+  l'oració.}
+
+\vstep{\begin{center} \textit{Israel amenaça Palestina} $\neq$ \textit{Palestina amenaça Israel} \end{center}}
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+
+\textbf{\large Com funciona la TA? /3}
+
+Però alerta!  Les \highlighttext{oracions} poden ser
+\highlighttext{ambigües} (\'es a dir, tenir m\'es d'una
+interpretaci\'o):
+
+\stepwise
+{
+\begin{itemize}\itemsep 0ex
+\vstep{\item perqu\`e els mots
+tenen m\'es d'una
+interpretaci\'{o} (ambig\"uitat
+\concept{l\`exica})}
+ 
+
+\vstep{\item perqu\`{e}
+l'oraci\'{o} t\'{e} m\'{e}s
+d'una possible an\`alisi
+sint\`actica (ambig\"uitat 
+\concept{sint\`actica})}
+
+\vstep{\item per ambdues coses
+alhora.}
+\end{itemize}
+\vstep{(en veurem exemples més endavant)}
+
+\vstep{Elegir la
+interpretaci\'{o} correcta no
+\'es trivial per a un sistema
+inform\`atic (normalment només pot usar part del \highlighttext{cotext}).} }
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+\textbf{\large Com funciona la TA? /4}
+
+Esquemàticament:
+\stepwise
+{
+\vstep{
+\begin{center}
+\begin{tabular}{cccccc}
+\parbox{1.8cm}{Oració LO}
+& $\to$ 
+& interpretació 
+& $\to$ 
+& \parbox{1.8cm}{Oració LM} \\ 
+\end{tabular}
+\end{center}
+}
+
+\vstep{ En alguns sistemes de TA s'intenta representar directament les
+  \emph{interpretacions} amb una \emph{interlingua} (un llenguatge estructurat
+  artificial).}  }
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large Com funciona la TA? /5}
+
+\stepwise { \vstep{Però... els \highlighttext{traductors
+      professionals} realment necessiten \highlighttext{interpretar} o
+    comprendre \highlighttext{completament} una oració per a
+    traduir-la?}
+
+\vstep{
+\begin{center}
+  \textsl{``... interacciones independientes del espín en unidades de la
+  sección eficaz del neutrino de Dirac...''} $\to$ \\
+  \textsl{\emph{``... interaccions independents de l'espín en unitats de la secció
+  eficaç del neutrí de Dirac...''}}
+\end{center}
+}
+\vstep{
+\begin{center}
+\textsl{``\ldots tornillos que unen el volante de inercia al árbol de levas}
+ $\to$ \\
+\textsl{\emph{``\ldots caragols que uneixen el volant d'inèrcia a l'arbre
+de lleves \ldots''}}
+\end{center}
+} \vstep{No: \highlighttext{Transformen estructures} o patrons i
+\highlighttext{substitueixen el lèxic} (parant especial esment al
+terminològic).} 
+}
+
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+\textbf{\large Com funciona la TA?  /6}
+\stepwise
+{
+\vstep{Això permet fer la \highlighttext{segona aproximació} [!!]:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item[] La majoria dels sistemes de TA \highlighttext{no construeixen
+    completament la interpretació}, \ldots}
+\vstep{\item[]\ldots sinó que \highlighttext{transformen l'estructura sintàctica} de
+  l'oració en LO en una estructura sintàctica vàlida per a l'oració en
+  LM i\ldots}
+\vstep{\item[]\ldots \highlighttext{substitueixen} els  mots de l'oració en LO per
+  equivalents adequats en LM\ldots }
+\vstep{\item[]\ldots fent les dues operacions \highlighttext{bastant
+    independentment}.}
+\end{itemize}
+}
+
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\begin{slide}{}
+\textbf{\large Com funciona la TA? /7}
+\stepwise
+{
+  
+  \vstep{ Per a programar un sistema de TA cal \highlighttext{formular
+      tots els processos de traducció de forma} \emph{\highlighttext{explícita}} i
+    \emph{\highlighttext{mecanitzable}}} \vstep{(adéu ``intuïció
+    lingüística''!).}
+  
+  \vstep{A més, la mecanització ha de ser \emph{eficient} (programes
+    \highlighttext{ràpids} i \highlighttext{compactes}) i s'ha de
+    \highlighttext{dur a terme en un temps raonable}:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item Això exigeix una \highlighttext{reflexió lingüística}
+  (traductològica) sobre els processos de traducció per part dels
+  dissenyadors del sistema.}
+\vstep{\item A més, pot comportar més \highlighttext{aproximacions},
+  \highlighttext{simplificacions}, \highlighttext{compromisos} i
+  \highlighttext{sacrificis}.}
+\end{itemize}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+  \textbf{\large Com funciona la TA? /8} 
+  
+  \textbf{Per tant...}
+
+  \stepwise {
+  
+    \vstep{\concept{Podem esperar} que un bon sistema de TA ens allibere de la
+      part més mecànica (mecanitzable) de la tasca de traducció.}
+    
+    \vstep{Però \concept{no podem esperar} ---per bo que siga--- que comprenga
+      el text, resolga les ambigüitats sempre correctament i produïsca
+      textos en una variant genuïna de la llengua meta}.
+ }
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+  \textbf{\large Per què és difícil la TA? /1} 
+
+  \stepwise {
+  \vstep{Els quatre problemes de la traducció automàtica (Arnold 2003):}
+  \begin{enumerate}
+   \vstep{\item El problema de l'anàlisi}
+   \vstep{\item El problema de la síntesi}
+   \vstep{\item El problema de la transferència}
+   \vstep{\item El problema de la descripció}
+  \end{enumerate}
+  }
+
+  
+\end{slide}
+\begin{slide}{}
+  \textbf{\large Per què és difícil la TA? /2} 
+  
+  \textbf{El problema de l'anàlisi:} La forma no determina completament el
+  contingut (la \emph{interpretació}). També s'anomena \emph{ambigüitat}:
+  \begin{itemize}
+  \item \emph{Portaven notícies de Grècia} (tema o procedència?)
+  \item \emph{Ha venut les taronges que ha
+  comprat a Joan} (Joan ven o compra?)
+  \item \emph{Treballa en l'estudi que li han encarregat} (prepara un document
+  o dissenya un taller d'artista?)
+  \end{itemize}
+\end{slide}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Per què és difícil la TA? /3} 
+  
+  \textbf{El problema de la síntesi:} El contingut no determina completament
+  la forma (hi ha més d'una manera de dir el mateix en qualsevol
+  llengua):
+  \begin{itemize}
+  \item \emph{Quina hora és?}
+  \item \emph{Com és de tard?} (\texttt{de}: \emph{Wie spät ist es?})
+  \item \emph{Quines hores són} (\texttt{pt}: \emph{Que horas s\~{a}o?}
+  \end{itemize}
+
+  Els \emph{expedients} s'\emph{obrin} o s'\emph{inicien}?
+
+  Les sessions es \emph{clouen}, es \emph{tanquen}, es \emph{rematen} o \emph{s'alcen}?
+
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Per què és difícil la TA? /4} 
+  
+  \textbf{El problema de la transferència:} Les llengües divergeixen. És a
+  dir, hi ha diferències irreductibles en la manera en que el mateix contingut
+  s'expressa en llengües diferents:
+  \begin{itemize}\itemsep 0ex
+  \item \texttt{ca:} \emph{M'agrada nadar} (\emph{M'} objecte, \emph{agrada},
+    verb, \emph{nadar} subjecte)
+  \item \texttt{en:} \emph{I like swimming} (\emph{I} subjecte, \emph{like}
+  verb, 
+  \emph{swimming} objecte)
+  \item \texttt{de:} \emph{Ich schwimme gern} (\emph{Ich} subjecte,
+  \emph{schwimme}, verb,  \emph{gern}, adverbi)
+  \end{itemize}
+  Totes volen dir \texttt{produir\_plaer(agent=nadar(agent=jo),destinatari=jo)}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Per què és difícil la TA? /5} 
+  
+  \textbf{El problema de la descripció} (represa): construir un sistema de
+  traducció automàtica comporta la gestió d'una gran quantitat de coneixement,
+  que s'ha d'elicitar, aplegar, descriure, i representar en una forma útil i
+  computable.
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{slide}{}
+  \textbf{\large Avaluació de la traducció automàtica /1}
+\stepwise{
+\vstep{Volem avaluar \emph{l'adopció} d'un sistema de traducció
+  automàtica per a la \emph{disseminació}.}
+
+\vstep{Les traduccions en brut s'hauran de \emph{posteditar} (corregir): com
+  menys correccions, més \emph{qualitat}: millor.} 
+
+\vstep{D'acord: com avaluem la \emph{qualitat}?}
+
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Avaluació de la traducció automàtica /2}
+\stepwise{
+\vstep{Per avaluar la \emph{qualitat}, cal:}
+\begin{itemize}\itemsep 0ex
+\vstep{\item elegir una mostra suficient de textos representatius,}
+\vstep{\item traduir-la automàticament,}
+\vstep{\item i comptar la quantitat de correcció \emph{mínima} necessària per
+  a fer que la traducció siga \emph{adequada al propòsit previst}.}
+\end{itemize}
+\vstep{Sembla senzill, però...}
+
+
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Avaluació de la traducció automàtica /3}
+\stepwise{
+\vstep{...no ho és gens!}
+\begin{itemize}\itemsep 0ex
+\vstep{\item és difícil elegir prou text representatiu per endavant;}
+\vstep{\item la noció d'\emph{adequació} és de vegades difícil d'especificar:}
+\vstep{\item és difícil fer el \emph{mínim} de correccions (cal buscar
+  traduccions adequades que se n'obtinguen amb poques correccions);}
+\vstep{\item tot el procés és molt costós (temps de correcció).}
+\end{itemize}
+
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Avaluació de la traducció automàtica /4}
+\stepwise{
+\vstep{Però la qualitat dels textos traduïts en brut no ho és tot!}
+
+\vstep{Fem un pressupost: si adoptem la traducció automàtica,}
+
+\vstep{d'una banda, ens estalviem els costos de traducció humana,}
+
+\vstep{però tenim despeses noves:}
+
+\begin{itemize}\itemsep 0ex
+\vstep{\item despeses de \emph{funcionament} i}
+\vstep{\item despeses de \emph{formació} (s'ha d'aprendre a usar una nova
+  tecnologia)} 
+\end{itemize}
+
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Avaluació de la traducció automàtica /5}
+\stepwise{
+\vstep{Despeses de funcionament:}
+\begin{itemize}\itemsep 0ex
+  \vstep{\item \textbf{Cost del sistema de TA} (cost efectiu per mot):
+    amortització (sistema en propietat), cost per mot (sistema llogat), servei
+    tècnic i manteniment, costos de migració (adaptació de programes,
+    adquisició de sistemes), i (no oblidem) el cost d'avaluació!}
+  \vstep{\item \textbf{Cost de preedició i preparació:} cal preparar i potser
+    preeditar els textos i això ho ha de fer algú, cobrant.}   \vstep{\item
+      \textbf{Cost de postedició}: depén de la \emph{qualitat}; pot baixar amb
+      la formació; depén de com paguem als posteditors (per mot, per temps),
+      etc.}
+\end{itemize}
+
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Avaluació de la traducció automàtica /6}
+\stepwise{
+\vstep{Despeses de formació:}
+\begin{itemize}\itemsep 0ex
+  \vstep{\item \textbf{Formació en ús del programa de TA}: ús pròpiament dit,
+    configuració i manteniment; ús de nou programari associat.}  
+  
+  \vstep{\item \textbf{Formació en postedició:}}
+    \begin{itemize}\itemsep 0ex
+    \vstep{\item coneixement del programa de TA
+    (errors típics);}
+    \vstep{\item tècniques de correcció, ús avançat del processador de textos,
+    macroinstruccions, substitució de patrons, etc.}
+    \end{itemize}
+\end{itemize}
+}
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+  \textbf{\large Avaluació de la traducció automàtica /7}
+\stepwise
+{
+\vstep{I potser ens hem deixat encara alguna cosa!}
+
+\vstep{Avaluar la traducció automàtica no és fàcil.}
+
+\vstep{La lliçò? Desconfieu de les primeres impressions.}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{slide}{}
+\textbf{\large TA de pàgines web/1}
+\stepwise
+{
+\vstep{La traducció automàtica de pàgines \emph{web} 
+és com la TA d'altres documents de text,
+però hi ha algunes diferències:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item les pàgines \emph{web} són \emph{hipertextos}: contenen 
+enllaços a d'altres pàgines \emph{web}}
+\vstep{\item de vegades són \emph{actives}: contenen programes 
+que s'executen durant la presentació}
+\vstep{\item de vegades són \emph{dinàmiques}: el servidor no les té
+  guardades sinó que les 
+genera automàticament quan se sol·liciten}
+\end{itemize}
+}
+\end{slide}
+
+\begin{slide}{}
+\textbf{\large TA de pàgines web/2}
+\stepwise
+{
+\vstep{Dos usos bàsics de la TA de pàgines web:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item \concept{Disseminació}: TA per a construir i 
+mantenir servidors d'internet 
+multilingües
+}
+\vstep{\item \concept{Assimilació}: TA durant la navegació 
+("navegació traduïda"), en el client, en el 
+servidor que conté la informació, o en 
+un altre servidor (p.e., interNOSTRUM)
+}
+
+\end{itemize}
+}
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%
+
+
+\begin{slide}{}
+\textbf{\large TA de pàgines web/3}
+\stepwise
+{
+\vstep{Els requisits són diferents en cada cas:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item \emph{Disseminació}: la TA ha de ser de 
+qualitat, potser seguida de postedició (la 
+\emph{web} traduïda és percebuda com a definitiva)}
+\vstep{\item \emph{Assimilació}: la TA ha de ser molt ràpida, 
+``instantània'', com si formara part del 
+procés de presentació de la traducció: la qualitat no és 
+tan crucial (la traducció és percebuda com a 
+provisional)}
+\end{itemize}
+}
+\end{slide}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\textbf{\large Un incís: el format de les pàgines web/1}
+\stepwise
+{
+Les pàgines web són documents especials:
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item La majoria de les pàgines web estan 
+escrites en (algun dialecte no estàndard de) HTML (HyperText Markup 
+Language, ``llenguatge de marques per a 
+hipertextos'').}
+\vstep{\item HTML conté, a més de text senzill, 
+marques per a controlar la presentació i 
+per a \emph{enllaçar} altres documents.}
+\vstep{\item Quan editem amb programes especialitzats
+  (\emph{Composer}, \emph{Frontpage}, \emph{Dreamweaver}, etc.) no
+  veiem les marques sinó l'aparença aproximada del document.}
+\end{itemize}
+\vstep{La transparència següent conté un exemple.}
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\textbf{\large Un incís: el format de les pàgines web/2}
+{\small
+\begin{alltt}
+\emph{<HTML>}
+\emph{<HEAD>}
+\emph{<TITLE>}Títol del document\emph{</TITLE>}
+\emph{</HEAD>}
+\emph{<BODY>}
+\emph{<H1>}Encapçalament de nivell 1\emph{</H1>}
+\emph{<H2>}Encapçalament de nivell 2\emph{</H2>}
+\emph{<P>}Aquest és el \emph{<EM>}primer\emph{</EM>} paràgraf 
+d'aquest document. El navegador decideix com dividir-lo 
+en línies per a presentar-lo. Idealment, hauria 
+d'acabar amb una marca de final de paràgraf.\emph{</P>}
+\emph{<H2>}Un altre encapçalament de nivell 2\emph{</H2>}
+\emph{<P>}Aquest és l'\emph{<EM>}últim\emph{</EM>} paràgraf 
+d'aquest document HTML. Els documents HTML poden contenir 
+\emph{<A HREF="http://www.internostrum.com">}enllaços\emph{</A>} 
+a altres documents HTML, locals o remots.\emph{</P>}
+\emph{</BODY>}
+\emph{</HTML>}
+\end{alltt}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\textbf{\large Un incís: el format de les pàgines web/3}
+
+\textbf{Encapçalament de nivell 1}
+
+{\small
+\textbf{Encapçalament de nivell 2}
+
+Aquest és el \textsl{primer} paràgraf d'aquest document. El navegador decideix
+com dividir-lo en línies per a presentar-lo. Idealment, hauria
+d'acabar amb una marca de final de paràgraf.
+
+\textbf{Un altre encapçalament de nivell 2}
+
+Aquest és l'últim paràgraf d'aquest
+document HTML. Els documents HTML poden contenir \underline{enllaços} a d'altres
+documents HTML, locals o remots.
+
+}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+  
+\textbf{\large TA de pàgines web (represa)/4}
+\stepwise
+{  
+\vstep{Traduir un document HTML comporta:}
+\begin{itemize}
+
+\vstep{\item  \emph{Identificar} les porcions del document que corresponen a \emph{text} que
+  ha de ser llegit i traduir-les;}
+  
+\vstep{\item  \emph{Adaptar els enllaços} a la nova situació (potser ja no poden enllaçar
+  el mateix document!).}
+\end{itemize}
+\vstep{L'adaptació d'enllaços depén de la situació.}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+
+\textbf{\large TA de pàgines web /5}
+\stepwise
+{
+\vstep{Els enllaços contenen URIs (adreces d'altres documents):}
+
+\vstep{
+\begin{alltt}
+Podeu visitar també els nostres \\
+\emph{<a href="}\underline{http://www.servidor.ct/es/prod/ta.html}\emph{"}\emph{>}\\
+productes\emph{</a>}.\\
+\end{alltt}
+}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+\textbf{\large TA de pàgines web/6}
+\stepwise
+{
+\vstep{Una miradeta als URIs dels enllaços:}
+\vstep{
+\begin{center}
+\emph{http://www.servidor.ct/es/prod/ta.html}
+\end{center}
+}
+\vstep{L'URI (localitzador) indica:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item L'esquema (\texttt{http:} protocol de 
+transferència d'hipertext)}
+\vstep{\item El nom de la màquina que fa de servidor (\texttt{www.servidor.ct}).}
+\vstep{\item La ruta que identifica el 
+recurs concret (\texttt{/es/prod/ta.html}) dins del servidor}
+\end{itemize}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{}
+
+\textbf{\large TA de pàgines web/7}
+
+\stepwise{ \vstep{Traduir suposa adaptar els URIs dels enllaços. Per
+    exemple, en un servidor bilingüe \espanyol{}--\catala{}, si un enllaç
+    des d'una pàgina en \espanyol{} apunta a l'URI
+\begin{center}
+      \texttt{http://www.servidor.ct/\underline{es}/prod/ta.html}
+\end{center}}
+\vstep{La traducció \catalana{} hauria d'apuntar a l'URI:
+\begin{center}\texttt{http://www.servidor.ct/\underline{ca}/prod/ta.html}\end{center}
+}
+}
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\begin{slide}{}
+\textbf{\large TA de pàgines web/8}
+\stepwise{
+\vstep{Però \emph{el text mateix} de les pàgines web conté de 
+vegades material especial que no cal 
+traduir:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item \concept{URIs}: \texttt{www.pujol.com} (no és ``\texttt{www.colina.como}'')}
+\vstep{\item \concept{Adreces de correu electrònic:}
+\texttt{andreu.fuster@correu.com} (no és 
+``\texttt{andrés.carpintero@correo.como}'')}
+\end{itemize}
+}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}
+\textbf{\large TA de pàgines web/9: pàgines generades al servidor}
+
+\stepwise{ 
+  
+  \vstep{Moltes vegades els documents HTML no són al disc dur, sinó
+    que són generats per un programa que s'executa en el servidor
+    durant la navegació.}
+  
+  \vstep{Possiblement es generen pàgines diferents per a cada perfil
+    de visitant.}
+
+  \vstep{Els detalls de la traducció d'aquest tipus de documents
+  queden fora de l'abast d'aquest curs, però presenten reptes considerables.}
+
+}
+\end{slide}
+
+
+\begin{slide}{}
+
+\textbf{\large Webs preparades per a la TA: 
+aspectes lingüístics/1}
+\stepwise{
+
+\vstep{Si \emph{preveiem} que una web \emph{ha de ser 
+traduïda automàticament} a una altra llengua, podem 
+\emph{preparar el text origen}.}
+
+\vstep{\emph{Conéixer el sistema concret de TA ens 
+pot ajudar} a evitar els mots o les 
+construccions que donen lloc a 
+problemes.}
+
+\vstep{La noció és coneguda de fa temps i 
+s'anomena \concept{llenguatge controlat}.}
+
+}
+\end{slide}
+
+\begin{slide}{}
+
+\textbf{\large Webs preparades per a la TA: 
+aspectes lingüístics/2}
+\stepwise
+{
+\vstep{Alguns consells independents de l'idioma:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item Fer pàgines i paràgrafs curts.}
+\vstep{\item No usar textos en gràfics (imatges), sinó icones.}
+\vstep{\item Usar estructures gramaticals senzilles.}
+\vstep{\item Usar vocabulari bàsic (freqüent, quotidià), però\ldots}
+\vstep{\item Evitar els mots polisèmics i els homògrafs (homònims).}
+\vstep{\item Evitar les abreviatures.}
+\end{itemize}
+}
+\end{slide}
+
+\begin{slide}{}
+\textbf{\large Webs preparades per a la TA: 
+aspectes lingüístics/3}
+\stepwise{
+\vstep{Més consells independents de l'idioma:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item No usar el format per a transmetre 
+informació crucial; millor usar text.}
+\vstep{\item Repassar l'ortografia.}
+\vstep{\item Evitar les expressions idiomàtiques (no 
+òbviament composicionals).}
+\end{itemize}
+}
+\end{slide}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}{}
+\textbf{\large Memòries de traducció/1}
+\stepwise
+{
+\vstep{Els traductors (humans) han generat 
+\emph{moltíssimes traduccions}.}
+
+\vstep{Hi ha a l'abast \emph{nombrosos textos electrònics bilingües}
+  on la versió en un idioma  és una bona traducció de la versió en l'altre i
+  viceversa.}
+
+\vstep{No es podria \emph{aprofitar} aquest treball per 
+a traduir documents nous (\emph{reciclatge automàtic de 
+traduccions}?) $\to$ Alternativa a la traducció automàtica.}
+}
+\end{slide}
+
+\begin{slide}{}
+\textbf{\large Memòries de traducció /2}
+\stepwise
+{
+
+\vstep{Per a aprofitar aquests \emph{bitextos} cal:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item \emph{Alinear-los} (indicar quines parts són 
+traducció de quines);}
+\vstep{\item \emph{Segmentar-los} en unitats de traducció (UT);}
+\vstep{\item \emph{Organitzar les UT} en una base de dades eficient.}
+\end{itemize}
+\vstep{Totes aquestes tasques, tan automàticament com 
+siga possible.}
+}
+\end{slide}
+
+\begin{slide}{}
+
+\textbf{\large Memòries de traducció/3}
+
+Esquema del procés de \emph{segmentació} i d'\emph{alineament} d'un
+  parell de textos existent per a alimentar
+  una memòria de traducció.
+
+
+$$
+\begin{array}{rcl}
+\mbox{\textsf{text esquerre $E$}} &\to \mbox{\framebox{\parbox{2.8cm}{\textsf{segmen-
+      tació}}}} 
+\to \\
+\mbox{\textsf{text dret $D$}} &\to \mbox{\framebox{\parbox{2.8cm}{\textsf{segmen- tació}}}} 
+\to \\
+\end{array}
+%\right.
+\mbox{\framebox{\parbox{3.4cm}{\textsf{alineador- corrector assistit}}}}
+\to \mbox{\parbox{2.2cm}{\textsf{UTs} $(e,d)$}} \to \mbox{\framebox{\parbox{3.0cm}{\textsf{Memòria de traducció}}}}$$
+
+
+
+
+\end{slide}
+
+\begin{slide}{}
+
+\textbf{\large Memòries de traducció/4}
+\stepwise{
+\vstep{Per a traduir textos nous cal:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item \emph{Segmentar-los} en unitats que puguen 
+correspondre amb les UT existents}
+\vstep{\item \emph{Substituir} els segments trobats per les 
+traduccions corresponents.}
+\end{itemize}
+\vstep{Aquest és el fonament de les \emph{memòries de 
+traducció}.}
+
+}
+
+\end{slide}
+
+\begin{slide}{}
+
+\textbf{\large Memòries de traducció/5}
+
+Esquema del procés de \emph{pretraducció} d'un nou text esquerre $E'$
+usant una memòria de traducció.
+
+$$
+\begin{array}{rcl}
+\mbox{\textsf{text esquerre $E'$}} \to
+\mbox{\framebox{\textsf{segmentació}}} \to &
+\mbox{\framebox{\textsf{pretraducció}}} & \to \mbox{\parbox{4cm}{\textsf{text dret
+    pretraduït i segmentat}}} \\
+& \uparrow \downarrow \mbox{\textsf{UTs}}& \\[1cm]
+& \mbox{\framebox{\parbox{4.2cm}{\textsf{Memòria de traducció}}}} & \\
+\end{array}
+$$
+\end{slide}
+
+\begin{slide}{}
+
+\textbf{\large Memòries de traducció/6}
+\stepwise{
+\vstep{Alguns productes comercials (preus de 600 euros cap amunt):}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item \emph{Déjà Vu} d'Atril (\texttt{http://www.atril.com/ca/}) }
+\vstep{\item \emph{Transit} de Star
+  (\texttt{http://www.star-transit.com/es/})}
+\vstep{\item \emph{Trados} (\texttt{www.trados.com})}
+\vstep{\item \emph{SDLX} (\texttt{www.sdlintl.com})}
+\end{itemize}
+\vstep{Solen contenir, a més de la \emph{memòria de traducció}, altres
+útils com ara \emph{bases de dades lèxiques} (``terminològiques''), etc.}
+\vstep{Hi ha productes \emph{Open Source} com ara \texttt{OmegaT}.}
+}
+
+\end{slide}
+
+
+\begin{slide}{}
+
+\textbf{\large Memòries de traducció/7}
+\stepwise{
+\vstep{\emph{Quan funcionen bé} les memòries de 
+traducció?}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item Quan tenim moltes traduccions alineades en la memòria}
+\vstep{\item Quan els tipus de textos a traduir són 
+\emph{molt repetitius}}
+\vstep{\item Quan la \emph{terminologia} i la \emph{fraseologia} són 
+\emph{estables} en la memòria}
+\end{itemize}
+\vstep{Però:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item  sempre cal revisar la pretraducció}
+\vstep{\item A canvi: la pretraducció revisada es pot 
+afegir ja a la memòria de traducció per usar-la en el futur.}
+\end{itemize}
+}
+\end{slide}
+
+
+\begin{slide}
+\textbf{\large Memòries de traducció/8}
+\stepwise{
+\vstep{Sobre la segmentació:}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\vstep{\item Els programes de MT segmenten els textos en 
+\emph{``oracions''} usant la \emph{puntuació} i el \emph{format}.}
+\vstep{\item A canvi, troben en la memòria segments \emph{aproximats} a 
+més dels idèntics (i produeixen traduccions aproximades).}
+\vstep{\item Hi ha (des de 1998) un format estàndard internacional
+de MT independent del programa: TMX 
+(Translation Memory eXchange), que permet l'intercanvi de memòries
+entre equips de traducció.}
+\end{itemize}
+}
+\end{slide}
+
+\begin{slide}
+
+  © 2007 Universitat d'Alacant
+
+  © 2007 Mikel L. Forcada
+
+Aquest treball es pot distribuir lliurement en els termes de qualsevol d'aquestes dues llicències:
+\begin{itemize}
+\item la llicència Creative Commons
+  Attribution--Share Alike:
+  \url{http://creativecommons.org/licenses/by-sa/3.0/deed.ca} 
+\item la llicència GNU GPL v. 3.0: \url{http://www.gnu.org/licenses/gpl.html}
+\end{itemize}
+Per a obtenir els fonts \LaTeX{}, només cal escriure a:\texttt{mlf@ua.es}
+
+
+\end{slide}
+
+
+\end{document}
