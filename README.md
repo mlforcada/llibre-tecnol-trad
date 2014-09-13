@@ -9,3 +9,6 @@ La idea és:
 * afegir més exemples i materials dispersos que s'han usat en l'assignatura
 * generar una versió en espanyol usant les memòries de traducció preparades pels alumnes en el curs 2011–2012.
 
+Mikel L. Forcada
+Felipe Sánchez-Martínez
+
