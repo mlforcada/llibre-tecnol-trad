@@ -1,0 +1,37 @@
+all: llibrett.pdf # llibrett.ps
+
+llibrett.pdf : llibrett.tex llibrett.bib angoixa.pdf triangle.pdf covington.sty\
+              apalikecat.bst
+	rm -f llibrett.log llibrett.aux llibrett.toc llibrett.blg llibrett.bbl
+	pdflatex llibrett
+	bibtex llibrett
+	pdflatex llibrett
+	pdflatex llibrett
+	pdflatex llibrett
+
+
+# llibrett.ps : llibrett.tex llibrett.bib angoixa.eps triangle.eps covington.sty\
+#               apalikecat.bst
+# 	rm -f llibrett.log llibrett.aux llibrett.toc llibrett.blg llibrett.bbl
+# 	latex llibrett
+#	bibtex llibrett
+#	latex llibrett
+#	latex llibrett
+#	latex llibrett
+#  	dvips -o llibrett.ps llibrett
+
+
+angoixa.pdf : angoixa.eps
+	epstopdf angoixa.eps
+
+triangle.pdf : triangle.eps
+	epstopdf triangle.eps
+
+angoixa.eps : angoixa.obj
+	tgif -print -eps angoixa.obj
+
+triangle.eps : triangle.obj
+	tgif -print -eps triangle.obj
+
+esborrar:
+	rm -f *.dvi *.log *.aux *.*~ triangle.pdf angoixa.pdf *.eps
