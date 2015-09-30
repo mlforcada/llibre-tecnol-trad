@@ -4,6 +4,7 @@
 \usepackage[catalan]{babel}
 \usepackage{fancyhdr}
 \usepackage{ifthen}
+\usepackage{alltt}
 \usepackage{covington}
 \usepackage[bf,small]{caption}
 \usepackage{xcolor}
@@ -23,9 +24,17 @@
 %\RequirePackage[colorlinks,hyperindex]{hyperref}
 % \def\pdfBorderAttrs{/Border [0 0 0] } % No border around Links
 % \fi
-\newcommand{\comprof}[1]{}
+%\newcommand{\comprof}[1]{}
+\newcommand{\comprof}[1]{
+  \begin{quote}
+    \begin{sf}
+      #1
+    \end{sf}
+  \end{quote}
+}
 \newcommand{\pair}[2]{(\texttt{#1},\texttt{#2})}%
 \pagestyle{headings} % canviar a alguna classe de fancyhdr
+
 
 \markboth{Tecnologies de la Traducció: notes de classe}
          {Tecnologies de la Traducció: notes de classe}
@@ -323,7 +332,7 @@ l'apartat~\ref{ss:programari}--- s'encarrega de copiar-los de la memòria al disc
             anteriors.}) de silici.
       
     \item[Memòria secundària:] memòria de llarg termini,
-      permanent.  Exemples: els antics disquets disquets, discos fixos o durs interns i externs, memòries USB (també anomenades llapis o \emph{pendrive}) i diverses formes de ROM (\emph{read-only memory},
+      permanent.  Exemples: els antics disquets, discos fixos o durs interns i externs, memòries USB (també anomenades llapis o \emph{pendrive}) i diverses formes de ROM (\emph{read-only memory},
       memòria de lectura nom\'{e}s), com els xips ROM, els CD-ROM o els DVD.
       Els discos fixos (i els antics disquets) són dispositius
       d'emmagatzematge magnètic, poc m\'{e}s o menys com ho eren
@@ -855,39 +864,46 @@ $$1~\mbox{MB} = 1.024 \times 1.024~\mbox{octets}= 1.048.576~\mbox{octets}.$$
 \item \emph{gigaoctets} o \emph{gigabytes} (GB), o milers de milions ---una mica m\'{e}s---
 d'octets:
 $$1~\mbox{GB}=1.024~\mbox{MB}=1.048.576~\mbox{kB}=1.073.741.824~\mbox{octets}.$$
+\item \emph{teraoctets} o \emph{terabytes} (TB), o bilions (milions de milions) ---de nou, una mica m\'{e}s---
+d'octets:
+\[
+\begin{array}{c}
+$$1~\mbox{TB}=1.024~\mbox{GB}=1.048.576~\mbox{MB}=1.073.741.824~\mbox{kB}=\\
+=1.099.511.627.776~\mbox{octets}.$$
+\end{array}
+\]
 \end{itemize}
+Com que els prefixos \emph{k}, \emph{M}, \emph{G} i \emph{T} s'usen en la resta de les disciplines científiques per expressar a potències exactes de 10 (de 1.000), hi ha qui prefereix parlar de \emph{kibioctets} o \emph{kibibytes} (kiB), \emph{mibioctets} o \emph{mibibytes} (MiB), \emph{gibioctets} o \emph{gibibytes} (GiB) i \emph{tebibytes} o \emph{tebioctets} (TiB) per a referir-se a les unitats de capacitat d'emmagatzematge basades en múltiples de 1.024.
 
-Per exemple, actualment \'{e}s comú que un PC tinga un processador
-AMD ATHLON 64 X2 Dual-Core (vegeu el glossari, apartat~\ref{ss:OiPgloss}) a 2~GHz  o
-un processador equivalent de la marca Intel (p.e., un Intel Pentium D 925 a 3~GHz), 1~GB de
-memòria RAM i uns 80~GB de disc dur. Els disquets de densitat alta
-(marcats ``HD'') de 3,5~polzades, emmagatzemen 1,44~MB de dades i són un tipus un tipus de suport en desús.  Un
-CD-ROM cont\'{e} uns 700~MB, \begin{ja} 
-tot i que també n'hi ha varietats que
-arriben als 900~MB. Els DVD actuals contenen uns 4,7~GB, però ja s'han
-devolupat tècniques que n'amplien considerablement 
-la capacitat.\end{ja}  \com{No oblidar els CD-ROM més grans, de
-  quant són?} %\jacom{Fet!}
+Per exemple, actualment (any 2015) \'{e}s comú que un PC de taula
+tinga 8~GB de memòria RAM i un disc dur d'1~TB.
 
-\com{Actualitzar correctament i, potser, passar-ho a la següent
-  secció.
-No sé si cal dir alguna cosa dels Macintosh,}
+% Els disquets de densitat alta
+% (marcats ``HD'') de 3,5~polzades, emmagatzemen 1,44~MB de dades i són un tipus un tipus de suport en desús.  
 
-%\jacom{Fet allò del Macintosh.}
+Quant a l'emmagatzematge òptic, un CD-ROM cont\'{e} uns 700~MB, tot i
+que també n'hi ha varietats que arriben als 900~MB. Els DVD actuals
+contenen uns 4,7~GB, però ja s'han desenvolupat tècniques que n'amplien
+considerablement la capacitat.
+
+Les memòries USB típiques (i també les targetes de memòria SD, micro
+SD, etc. que s'usen de memòria suplementària en mòbils, tauletes i
+càmeres) solen tenir 16, 32 o 64~GB.
 
 \section{Configuració d'un ordinador personal}
 
-La configuració clàssica d'un ordinador personal model 2006
+La configuració clàssica d'un ordinador personal de sobretaula model 2015
 sol ser m\'{e}s o menys com segueix:
 \begin{itemize}
 \item La unitat base (la ``caixa'' o la ``torre'') cont\'{e}:
 \begin{itemize}
-\item El processador (típicament un Pentium d'Intel d'uns 3~GHz o un
-  processador equivalent de la marca AMD),
-\item La memòria RAM
-  (per exemple, de 1~GB), 
-\item Una bona targeta gràfica, 
-\item Un disc fix amb una capacitat de l'ordre dels 320~GB, la unitat de disquet, 
+\item Un processador compost de quatre nuclis o processadors
+  individuals (\emph{quad-core}) o més, com ara un \emph{Intel Core
+    i5} o més o un processador equivalent de la marca AMD (vegeu el
+  glossari, apartat~\ref{ss:OiPgloss}) a 3~GHz.
+\item La memòria RAM (per exemple, de 8~GB).
+\item Una bona targeta gràfica, amb la seua pròpia unitat independent de processament gràfic o GPU (\emph{graphics processing units}),
+\item Un disc fix amb una capacitat de l'ordre d'1~GB 
 \item Una unitat enregistradora de DVD\footnote{Els DVD són una classe de disc
     òptic més veloç i amb més capacitat que els CD-ROM} i de
   CD-ROM\footnote{En les unitats de CD-ROM \'{e}s important la velocitat
@@ -898,42 +914,40 @@ sol ser m\'{e}s o menys com segueix:
     lectura i d'escriptura de 52$\times$ o més.  De tota manera, les
     velocitats \emph{mitjanes} de tot un procés de lectura i escriptura solen
     ser més baixes.}  
-\item Una targeta de so amb altaveus i micròfon.  
-\item Una targeta de comunicacions (mòdem o targeta de xarxa, amb fils o sense fils vegeu el
-  glossari, apartat~\ref{ss:OiPgloss}).
+\item Una targeta de so amb altaveus i micròfon.
+\item Una càmera (de vegades anomenada \emph{webcam})
+\item Una o més targetes de comunicacions incorporades (amb fils o sense fils, vegeu el glossari, apartat~\ref{ss:OiPgloss}).
 \end{itemize}
-\item Un monitor o pantalla, normalment una pantalla plana TFT\footnote{
-    \begin{ja}
-      Les pantalles TFT (de l'anglés \emph{thin-film transistor}) no
-      porten cap tub de raigs catòdics, sinó que usen un o més
-      transistors per a cada punt de la pantalla. Això evita el
-      parpalleig de les pantalles clàssiques i en redueix la grandària, 
-      tot i que també
-      incrementa el preu. Els portàtils actuals porten quasi tots
-      pantalles TFT.
-    \end{ja}
- } de 17 polzades (pràcticament ja no s'instal·len monitors de tubs catòdics).
-\item Un teclat separat i  un ratolí, típicament de tres botons.
+\item Un monitor o pantalla, normalment una pantalla LCD\footnote{\emph{liquid-crystal display} o pantalla de cristall líquid} de 17 o més  polzades,
+\item Un teclat separat i un ratolí.
 \item Una impressora (d'injecció o de raig de tinta
   ---la m\'{e}s típica---, o làser\footnote{Impressores
     matricials o d'agulles ja no se'n fan.}).
 \end{itemize}
+Les especificacions dels portàtils (memòria, processador) solen ser similars,
+normalment una miqueta més reduïdes. Els telèfons mòbils intel·ligents
+o \emph{smartphones} i les tauletes no solen tenir disc, sinó una
+memòria RAM no volàtil, per exemple, de 8~GB, i una memòria RAM de
+l'ordre d'1~GB.  
 
-\comprof{És aquesta l'única menció als tres tipus bàsics d'impressora?}
+\comprof{És aquesta l'única menció als tres tipus
+  bàsics d'impressora?}
 
-\section{Sobre algorismes}
+\begin{persabermes}
+
+%\section{Sobre algorismes}
 \label{ss:algorismes}
 
-El nom \emph{algorisme}  ve del nom d'un matemàtic
-que treballava a Bagdad vora l'any 825 de  la nostra era, Muhammad ibn
-Musa al Khwarizmi, anomenat així perquè sembla que era d'una
-ciutat al sud del mar d'Aral anomenada Khwarizm (ara Kheva). Aquest
-matemàtic va introduir el sistema decimal hindú en el món
-àrab. El seu llibre, \emph{Kitab al-jabr wa al-muqabalah}, o {\em
-Llibre de la integració i l'equació}, va donar nom tamb\'{e} a
+\paragraph{Sobre algorismes:} El nom \emph{algorisme} ve del nom d'un
+matemàtic que treballava a Bagdad vora l'any 825 de la nostra era,
+Muhammad ibn Musa al Khwarizmi, anomenat així perquè sembla que era
+d'una ciutat al sud del mar d'Aral anomenada Khwarizm (ara
+Kheva). Aquest matemàtic va introduir el sistema decimal hindú en el
+món àrab. El seu llibre, \emph{Kitab al-jabr wa al-muqabalah}, o {\em
+  Llibre de la integració i l'equació}, va donar nom tamb\'{e} a
 l'\emph{àlgebra} quan es va traduir al llatí en el segle XII. El
-llibre \'{e}s bàsicament una compilació de procediments
-algebraics i geomètrics, \'{e}s a dir, d'\emph{algorismes}.
+llibre \'{e}s bàsicament una compilació de procediments algebraics i
+geomètrics, \'{e}s a dir, d'\emph{algorismes}.
 
 Un exemple d'algorisme/programa \'{e}s el següent, que diu si dues
 seqüències de caràcters (també anomenades \emph{cadenes}
@@ -985,28 +999,42 @@ Eixida:  \emph{Sí}, si són iguals; \emph{no} si no ho són.
 \item[4.] Suma 1 a p.
 \item[5.] V\'{e}s al pas 2.
 \end{itemize}
-}
-Aquest algorisme es pot convertir a un programa d'ordinador.
-Si existira un llenguatge de programació
-de l'estil de Pascal en català,
-potser tindria una forma com aquesta:\par
+} 
+Aquest algorisme es pot convertir a un programa d'ordinador.  Per
+exemple, en Pascal tindria una forma com aquesta:
+\begin{alltt}
+function compare(A, B : string);
+  var p : int ;
+  labels : 2 ;
+  begin
+    p:=1;
+ 2: if A[p]<>B[p] then return "no";
+    if A[p]='$' then return "yes"
+    p:=p+1;
+    goto 2;
+  end;
+\end{alltt}
 
-\vspace{0.4cm}
-{\tt
-func compara(A, B : sequencia de car);\newline
-\mbox{}~~~~var p : entera ;\newline
-\mbox{}~~~~etiquetes : 2 ;\newline
-\mbox{}~~~~inici\newline
-\mbox{}~~~~~~~p:=1;\newline
-\mbox{}~~~~2:~si A[p]<>B[p] llavors retorna 'no';\newline
-\mbox{}~~~~~~~si A[p]='\$'  llavors retorna 'si'\newline
-\mbox{}~~~~~~~p:=p+1;\newline
-\mbox{}~~~~~~~ves\_a 2;\newline
-\mbox{}~~~~fi;\newline
-}
+% \vspace{0.4cm}
+% {\tt
+% func compara(A, B : sequencia de car);\newline
+% \mbox{}~~~~var p : entera ;\newline
+% \mbox{}~~~~etiquetes : 2 ;\newline
+% \mbox{}~~~~inici\newline
+% \mbox{}~~~~~~~p:=1;\newline
+% \mbox{}~~~~2:~si A[p]<>B[p] llavors retorna 'no';\newline
+% \mbox{}~~~~~~~si A[p]='\$'  llavors retorna 'si'\newline
+% \mbox{}~~~~~~~p:=p+1;\newline
+% \mbox{}~~~~~~~ves\_a 2;\newline
+% \mbox{}~~~~fi;\newline
+% }
 
 \noindent on \texttt{A[p]} representa el caràcter que hi ha en la
 posició \texttt{p} de la seqüència \texttt{A}.
+\end{persabermes}
+
+
+ 
 \section{Un petit glossari}
 \label{ss:OiPgloss}
 
