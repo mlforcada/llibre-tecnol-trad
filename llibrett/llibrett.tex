@@ -202,7 +202,7 @@ També hi falten referències
 \item Potser s'ha d'ampliar la descripció dels sistemes de traducció
   automàtica basats en transferència semàntica i en interlingua.
 \item Cal fer més èmfasi sobre les aplicacions de codi obert i en concret a
-la possibilitat d'una estació de treball de traducció basada en elles: Linux
+la possibilitat d'una estació de treball de traducció basada en elles: GNU/Linux
 (p.ex., Ubuntu Linux), OpenOffice.org, Mozilla, el programa de traducció
 assistida OmegaT i l'alineador bitext2tmx, etc.
 \item Cal descriure la plataforma de traducció automàtica de codi obert
@@ -1037,6 +1037,7 @@ posició \texttt{p} de la seqüència \texttt{A}.
  
 \section{Un petit glossari}
 \label{ss:OiPgloss}
+\comprof{Comprovar si cal afegir alguna cosa més}
 
 
 Aquest glossari arreplega alguns termes d'ús comú en la descripció
@@ -1046,39 +1047,28 @@ amunt.
 
 \begin{description}
 
-\item[386:] Un model de processador central de la família 86,
-dissenyat per Intel i comercialitzat tamb\'{e} per altres companyies,
-que es troba en ordinadors personals del tipus PC. \'{E}s capa\c{c} de
-processar 32 bits per cicle. Deriva del processador de 16 bits 286
-(80286), que al seu torn deriva del 8086, un dels primers processadors
-instal$\cdot$lat en els PC.
 
-\item[486:] Un model de processador central de la família 86, dissenyat
-per Intel i tamb\'{e} per
-altres companyies, que es troba en ordinadors personals
-del tipus PC. \'{E}s el successor del 386 ---t\'{e} un conjunt d'instruccions
-m\'{e}s complet---, i processa, com aquest, 32 bits
-per cicle; tots els programes escrits per a ser executats pels processadors 386
-poden ser executats pels processadors 486.
 
-\item[adaptador de vídeo] (tamb\'{e} anomenada targeta
-  gràfica o controlador de vídeo): Targeta que permet
-  connectar un monitor a l'ordinador. Hi ha molts tipus d'adaptadors
-  de vídeo. Se n'ha de considerar la \emph{resolució}, \'{e}s
-  a dir, el nombre de punts, elements d'imatge (\emph{píxels})
-  que caben en una imatge, per exemple $1024 \times 768$ (horitzontal
-  $\times$ vertical), i altres paràmetres com la {\em
-    freqüència de refrescament} (que es mesura en hertzs o
-  cicles per segon; vegeu ``megahertz''). Els adaptadors de vídeo
-  bàsics m\'{e}s comuns són els adaptadors VGA o SuperVGA,
-  encara que actualment n'hi ha de molt m\'{e}s avan\c{c}ats.
+\item[adaptador de vídeo] (tamb\'{e} anomenada targeta gràfica o
+  controlador de vídeo): Dispositiu (targeta independent, o integrada
+  en la placa base) que permet connectar un monitor a l'ordinador. Hi
+  ha molts tipus d'adaptadors de vídeo. Se n'ha de considerar la
+  \emph{resolució}, \'{e}s a dir, el nombre de punts, elements
+  d'imatge (\emph{píxels}) que caben en una imatge, per exemple $1024
+  \times 768$ (horitzontal $\times$ vertical), la \emph{profunditat de
+    color} (en bits: per exemple 24 bits permeten $2^{24}=16~777~216$
+  colors diferents) i altres paràmetres com la {\em freqüència de
+    refrescament} (que es mesura en hertzs o cicles per segon; vegeu
+  ``megahertz''). Actualment no és estrany tenir en ordinadors de
+  taula o portàtils resolucions com l'anomenada \emph{HD 1080} (1920
+  $\times$ 1080) o fins i tot més grans.
   
 \item[ADSL] (de l'anglés \emph{asymmetric digital subscriber line},
   línia d'abonat digital asimètrica): Versió asimètrica de DSL (vegeu
   DSL). L'asimetria fa referència al fet que la velocitat de
   transmissió de dades de la central cap a l'abonat és superior que la
   velocitat de transmissió de dades de l'abonat cap a la central (per
-  exemple, 256 kB/s cap a l'abonat i 128 kB/s cap a la central).
+  exemple, 8 Mb/s cap a l'abonat i 512 kb/s cap a la central).
 
 \item[cache] o \emph{memòria cau}: Memòria RAM intermèdia, d'acc\'{e}s m\'{e}s
 ràpid per part del processador, on es copia de quan en quan un bloc
@@ -1092,46 +1082,64 @@ demanat la 2.000.000 es copien en la \emph{memòria cau} les 524.288 posicions
 que van de la 1.572.864 a la 2.097.151, l'acc\'{e}s a la posició
 2.000.003 serà m\'{e}s ràpida.
 
-\com{Explicar millor? Està bé? \emph{Write-through}, i tot aixo?}
+%\com{Explicar millor? Està bé? \emph{Write-through}, i tot aixo?}
 
 % \jacom{
 %   Vote en contra d'explicar el write-through.}
 
-\item[densitat alta:] Quan els disquets de 3 polzades i mitja (uns
-  90~mm) són de densitat alta solen estar marcats amb les lletres
-  HD (\emph{high density}) i poden emmagatzemar 1,44~MB de dades. Els
-  anomenats de \emph{densitat doble} (DD) ---molt poc usats
-  actualment--- poden contenir 720~kB, \'{e}s a dir, la meitat. Es
-  distingeixen perquè els primers tenen un petit foradet quadrat
-  addicional (a la part inferior dreta si posem la finestra dalt).
+% \item[densitat alta:] Quan els disquets de 3 polzades i mitja (uns
+%   90~mm) són de densitat alta solen estar marcats amb les lletres
+%   HD (\emph{high density}) i poden emmagatzemar 1,44~MB de dades. Els
+%   anomenats de \emph{densitat doble} (DD) ---molt poc usats
+%   actualment--- poden contenir 720~kB, \'{e}s a dir, la meitat. Es
+%   distingeixen perquè els primers tenen un petit foradet quadrat
+%   addicional (a la part inferior dreta si posem la finestra dalt).
   
 \item[DSL] (de l'anglés \emph{digital subscriber line}, línia d'abonat
   digital), Tecnología de connexió que permet aprofitar les línies
   telefòniques i elèctriques per a fer connexions d'alta velocitat
-  (des dels 128 kbps fins als 2 Mbps). En el cas de les línies
-  elèctriques, la tecnologia rep també el nom de PLC (\emph{power line
-  communications} o comunicacions a través de les línies de força).
+  (fins a uns 10 Mb/s). En el cas d'usar les línies elèctriques, la
+  tecnologia rep també el nom de PLC (\emph{power line communications}
+  o comunicacions a través de les línies de força), però a Espanya no
+  s'usa per a proveir serveis d'Internet a les llars.
 
 \item[GHz:] vegeu gigahertz.
 
 \item[gigahertz:] un gigahertz són 1000 megahertz (vegeu
   \emph{megahertz} en aquest glossari).
   
-\item[Linux:] un sistema operatiu multitasca i multiusuari
-  gratu\"{\i}t, de l'estil de l'Unix que es podia trobar en els
-  miniordinadors, desenvolupat de manera no lucrativa per milers de
-  voluntaris arreu del món i que es pot copiar lliurement complint
-  certes condicions. Es pot instal$\cdot$lar Linux (que es presenta en
-  moltes \emph{distribucions} diferents) en un PC amb
-  processador 386 o superior i en molts altres tipus d'ordinador.
+\item[GNU/Linux:] un sistema operatiu multitasca i multiusuari
+  gratu\"{\i}t, de l'estil de l'Unix, que es podia trobar en els
+  miniordinadors, desenvolupat de manera col·laborativa per milers de
+  voluntaris independent i empreses arreu del món i que és
+  \emph{programari lliure} (vegeu l'entrada en aquest glossari): es
+  pot copiar lliurement si es compleixen certes condicions. Es pot
+  instal$\cdot$lar GNU/Linux (que es presenta en moltes
+  \emph{distribucions} diferents) en un PC amb processador de la
+  família x86 (vegeu \emph{Pentium}) o superior i en molts altres
+  tipus d'ordinador.
   
 \item[Macintosh] o \emph{Mac}: nom genèric (i comercial) d'una família
   d'ordinadors constru\"{\i}ts per Apple Computer i que són bàsicament
-  equivalents als PC. Aquests ordinadors, llançats al mercat el 1984, popularitzaren la interfície gràfica d'usuari, tota una revolució per a l'època. Fa uns anys havia diferències significatives entre els PC i els \emph{Mac} de manera que no eren compatibles, es a dir, que els programes d'un no funcionaven en l'altre, s'havien d'adaptar a les característiques particulars de cadascun. Aquestes diferències eren degudes al fet que el processador del \emph{Mac} no era de la família 86 (386, 486, Pentium) d'Intel, sinó d'una altra (antigament la família 68000 de Motorola, i després l'anomenat PowerPC). En l'actualitat esta diferència no existeix i tant uns com altres empren processadors de la família 86. En el cas dels \emph{Mac} des de l'any 2006 incorporen processadors Intel, així que podem instal·lar-hi Microsoft Windows o GNU/Linux amb tots els seus programes, encara que també podem usar el sistema operatiu propi anomenat Mac OS X.
+  equivalents als PC. Aquests ordinadors, llançats al mercat el 1984,
+  popularitzaren la interfície gràfica d'usuari, tota una revolució
+  per a l'època. Fa uns anys havia diferències significatives entre
+  els PC i els \emph{Mac} de manera que no eren compatibles, es a dir,
+  que els programes d'un no funcionaven en l'altre, s'havien d'adaptar
+  a les característiques particulars de cadascun. Aquestes diferències
+  eren degudes al fet que el processador del \emph{Mac} no era de la
+  família x86 (vegeu \emph{Pentium}), sinó d'una altra (antigament la
+  família 68000 de Motorola, i després l'anomenat PowerPC). En
+  l'actualitat esta diferència no existeix i tant uns com altres
+  empren processadors de la família x86. En el cas dels \emph{Mac} des
+  de l'any 2006 incorporen processadors Intel, així que podem
+  instal·lar-hi Microsoft Windows o GNU/Linux amb tots els seus
+  programes, encara que també podem usar el sistema operatiu propi
+  dels Mac, anomenat \emph{MacOS}.
   
 \item[megahertz:] Un megahertz (MHz) \'{e}s un milió de hertzs (Hz), \'{e}s a
   dir, un milió de cicles per segon. La velocitat de les unitats centrals dels
-  ordinadors es mesura en MHz o GHz, \'{e}s a dir, en milions o milers de
+  ordinadors es mesura en MHz i més recentment en GHz, \'{e}s a dir, en milions o milers de
   milions de cicles bàsics de processament d'informació ---corresponents als
   \emph{tics} o impulsos del rellotge que sincronitza tots els circuits de
   l'ordinador--- per segon.  L'execució d'una instrucció per part del
@@ -1149,75 +1157,103 @@ que van de la 1.572.864 a la 2.097.151, l'acc\'{e}s a la posició
 \item[MHz:] vegeu megahertz.
   
 \item[mòdem:] abreviatura de modulador-desmodulador. En el cas del
-  mòdem més comú, el \emph{mòdem telefònic}, es tracta d'un dispositiu
-  (normalment una placa interna, encara que tamb\'{e} pot ser extern)
-  que permet usar la línia telefònica (senyals analògics) per a
-  comunicacions informàtiques (digitals) entre dos ordinadors. Un dels
+  mòdem més comú a finals del segle passat, el \emph{mòdem telefònic},
+  es tractava d'un dispositiu (normalment una placa interna, encara
+  que tamb\'{e} pot ser extern) que permetia usar la línia telefònica
+  (senyals analògics) per a comunicacions informàtiques (digitals)
+  entre dos ordinadors, establint una telefonada; era aleshores la
+  manera estàndard d'accedir a Internet des de casa. Un dels
   paràmetres m\'{e}s interessants d'un mòdem \'{e}s la
-  \emph{velocitat} de transmissió de dades, que es mesura en bps (bits
-  per segon). Una velocitat clàssica en mòdems domèstics \'{e}s 33.600
+  \emph{velocitat} de transmissió de dades, que es mesura en b/s (bits
+  per segon). Una velocitat clàssica en mòdems domèstics era 33.600
   bps (m\'{e}s recentment, 57.600 bps; les línies telefòniques actuals
   poden admetre potser velocitats al voltant dels 100.000 bps).  Això
-  permet enviar una carta d'una pàgina en unes dècimes de segon.
-  Actualment, un dels usos m\'{e}s populars dels mòdems telefònics
-  \'{e}s la connexió del PC domèstic a Internet (vegeu
-  l'apartat~\ref{ss:adaI}).\footnote{Hi ha mòdems \emph{interns}, que
-    s'instal·len dins de la caixa o torre de l'ordinador, i
-    \emph{externs}. Molts mòdems interns fan part de les seues
-    funcions usant programari que s'executa en l'ordinador en comptes
-    de maquinari especialitzat (``mitjos mòdems''), cosa que els fa
-    dependents d'un sistema operatiu concret; això no passa amb els
-    mòdems externs. } Hi ha altres tipus de mòdems, normalment més
-  ràpids: \emph{mòdems de cable}, que permeten connectar l'ordinador a
-  Internet a través dels cables d'empreses especialitzares que
-  ofereixen televisió, telèfon i Internet, \emph{mòdems ADSL} (vegeu
-  \emph{ADSL} en aquest glossari), etc.
+  permetia enviar una carta d'una pàgina en unes dècimes de segon però
+  no seria suficient per a la major part dels usos actuals d'Internet.
 
-\item[PCMCIA] (de l'anglés \emph{Personal Computer Memory Card
-    International Association}, associació internacional de targetes
-  de memòria per a ordinadors personals): nom d'un estàndard de
-  targetes de memòria, mòdems, discos, unitats de disquets, targetes
-  de xarxa i altres dispositius perifèrics per a ordinadors portàtils.
-  Aquestes targetes no són massa diferents en grandària d'una targeta
-  de crèdit i s'insereixen en el port corresponent de l'ordinador, amb
-  la peculiaritat que en permeten l'inserció i l'extracció ``en
-  calent'', és a dir, sense haver d'apagar l'ordinador.
+  La paraula \emph{mòdem} es pot usar també per a altres tipus de
+  mòdems, normalment més ràpids: els \emph{mòdems de cable}, que
+  permeten connectar l'ordinador a Internet a través dels cables
+  d'empreses especialitzares que ofereixen televisió, telèfon i
+  Internet, els \emph{mòdems ADSL} (vegeu \emph{ADSL} en aquest
+  glossari), etc.
+\comprof{Posem alguna cosa sobre fibra?}
+
+% \item[PCMCIA] (de l'anglés \emph{Personal Computer Memory Card
+%     International Association}, associació internacional de targetes
+%   de memòria per a ordinadors personals): nom d'un estàndard de
+%   targetes de memòria, mòdems, discos, unitats de disquets, targetes
+%   de xarxa i altres dispositius perifèrics per a ordinadors portàtils.
+%   Aquestes targetes no són massa diferents en grandària d'una targeta
+%   de crèdit i s'insereixen en el port corresponent de l'ordinador, amb
+%   la peculiaritat que en permeten l'inserció i l'extracció ``en
+%   calent'', és a dir, sense haver d'apagar l'ordinador.
+
+\item[Programari lliure:] (\emph{free software}, també anomenat
+  \emph{programari de codi font obert} o \emph{open-source software})
+  és el programari que es distribueix amb llicències que dónen una
+  sèrie de llibertats a qui rep el programari: la llibertat d'usar-lo per
+  a qualsevol propòsit sense restricció, la llibertat d'examinar-lo
+  per veure com funciona i modificar-lo per adaptar-lo a un nou ús, i
+  la llibertat de distribuir còpies ---originals o modificades---
+  lliurement a qui desitgem. Per a poder modificar el programari, hem
+  de tenir accés, a més de a la versió executable en l'ordinador, a
+  l'anomenat \emph{codi font}, és a dir, a la versió del programari
+  que escriuen i modifiquen les persones que programen (d'ací el nom
+  \emph{de codi font obert}) i que després es tradueix automàticament
+  a la versió executable. Exemples de programari lliure són: el
+  sistema operatiu GNU/Linux, el navegador Firefox, o el processador
+  de textos LibreOffice. No s'ha de confondre \emph{programari lliure}
+  amb \emph{programari gratuït} (o \emph{freeware}). Hi ha programari
+  gratuït que no és lliure perquè no atorga totes les llibertats (per
+  exemple, el lector de PDF \emph{Adobe Acrobat}, o el programa de
+  telefonia per Internet \emph{Skype}: per exemple, no tenim accés al
+  seu codi font).
   
-\item[Pentium:] nom genèric de diverses famílies de processadors
-  d'Intel, successors del 486, amb un conjunt d'instruccions m\'{e}s
-  complet i amb moltes millores internes. El Pentium original ha anat
-  evolucionant durant els últims anys: Pentium Pro, Pentium II,
-  Pentium III, Pentium 4 etc. 
+\item[Pentium:] nom genèric d'una família actual de processadors
+  centrals de la companyia Intel, els més recents de la sèrie ``x86''
+  de processadors que començà amb el 8086 a principis dels anys 80,
+  passant pel 80286, el (80)386 i el (80)486.\footnote{El nom
+    \emph{Pentium} es va triar perquè Intel no podia registrar ``586''
+    com a marca.}. Els nous processadors tenien jocs d'instruccions
+  més complexos i eren capaços d'executar els programes que executaven
+  els anteriors (per exemple, un Pentium pot executar qualsevol
+  programa escrit per a un 386) però introduïen millores que permetien
+  ordinadors més ràpids, amb capacitat més gran de càlcul, capaços de
+  processar més dades en cada instrucció (8, 16, 32 ---a partir del
+  386---, i actualment 64 bits) i de gestionar més memòria. Els
+  Pentium més recents tenen més d'un \emph{nucli} o sub-processador, i
+  poden, per tant, executar instruccions de programa en paral·lel.
 
-\comprof{Cal dir en algun lloc que, a més dels d'Intel, també hi ha els AMD}
+\item[placa de so:] En els ordinadors més antics, s'havia de comprar a
+  banda una placa (o targeta) de so si es volia usar l'ordinador per a
+  processar, enregistrar, reproduir, i manipular sons
+  digitalitzats. En l'actualitat tots els ordinadors porten aquestes
+  capacitats incorporades.
 
-\item[placa de so:] Una placa (o targeta) de so permet
-usar l'ordinador per a processar, enregistrar, reproduir, i manipular
-sons digitalitzats.
-
-
-\item[targeta de xarxa:] per a connectar ordinadors i formar una xarxa
-(normalment local) per a compartir recursos, cada ordinador ha de tenir
-una placa o targeta de xarxa. Hi ha diversos estàndards de
-connexió en xarxa; els m\'{e}s anomenats són Ethernet i Token
-Ring. També és possible (i molt còmoda) la connexió sense fils (vegeu
-\emph{Wi-Fi} en aquest glossari).
+\item[targeta de xarxa:] En els ordinadors més antics, per a connectar
+  ordinadors i formar una xarxa (normalment local) per a compartir
+  recursos, calia dotar a cada ordinador d'una placa o targeta de
+  xarxa. Hi ha diversos estàndards de connexió en xarxa; els m\'{e}s
+  anomenats són Ethernet (per a connexions amb fils) i \emph{Wi-Fi}
+  (vegeu \emph{Wi-Fi} en aquest glossari).
 
 \item[USB] (de l'anglés \emph{universal serial bus}, bus sèrie
   universal): Estàndard o norma de connexió de dispositius perifèrics
   (impressores, mòdems, reproductors digitals de música, càmeres
   digitals, unitats de memòria) que transmet les dades en sèrie (és a
-  dir, un bit darrere de l'altre) a velocitats que poden arribar als
-  12 Mbps, i que permet la connexió i desconnexió de dispositius ``en
+  dir, un bit darrere de l'altre) a velocitats que en les versions més
+  modernes de l'estàndard poden arribar als Gb/s, i que permet la
+  connexió i desconnexió de dispositius de moltes classes ``en
   calent'', és a dir, sense haver d'apagar l'ordinador.
 
-\item[Wi-Fi] (de l'anglés \emph{wireless fidelity}, fidelitat sense
-  fils): tecnologia de connexió sense fils (via ràdio), principalment
-  per a formar xarxes locals, que pot arribar fins als 54 Mbps de
-  velocitat de transmissió.
+\item[Wi-Fi] (probablement de l'anglés \emph{wireless fidelity},
+  fidelitat sense fils): tecnologia de connexió sense fils (via
+  ràdio), principalment per a formar xarxes locals, i que en
+  l'actualitat (estàndard 802.11n) permet velocitats de transmissió de
+  fins a 600~Mb/s.
 
 \end{description}
-
 
 
 \section{Qüestions i exercicis}
@@ -11600,14 +11636,14 @@ espanyol--català.
 
 \subsection{Característiques informàtiques}
 
-El traductor s'executa actualment sobre el sistema operatiu Linux i és
+El traductor s'executa actualment sobre el sistema operatiu GNU/Linux i és
 accessible, com ja s'ha dit, a través d'un servidor
 d'Internet;\footnote{També hi ha disponible una versió per a servidors
   basats en el sistema operatiu Windows.} está constituït per 8
 subprogrames independents que s'executen simultàniament (en
 paral·lel), elaboren la traducció per etapes i es comuniquen
 mitjançant canals de text ANSI legible\footnote{El sistema operatiu
-  Linux permet construir una canonada (\emph{pipeline}) o cadena de
+  GNU/Linux permet construir una canonada (\emph{pipeline}) o cadena de
   muntatge en la qual el text d'eixida d'un programa s'envia com a
   entrada a un altre (en comptes d'enviar-lo a la pantalla), i així
   successivament.} (cosa que facilita enormement el diagnòstic dels
