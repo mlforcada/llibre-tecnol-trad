@@ -52,10 +52,10 @@ backgroundcolor=psm,
 outerlinewidth=2pt,innerlinewidth=0pt, roundcorner=5pt,
 }
 
-\newenvironment{persabermes}{%
+\newenvironment{persabermes}[1]{%
 \begin{mdframed}[style=exampledefault]
 \begin{small}
-\subsection*{Per saber més}
+\subsection*{Per saber més sobre #1}
 }
 {%
 \end{small}
@@ -529,8 +529,7 @@ necessitats dels usuaris. Se'n podrien fer dos grups:
 \end{description}
 
 
-\begin{persabermes}
-
+\begin{persabermes}{instruccions de programa}
 Com ja s'ha dit m\'{e}s amunt, un programari \'{e}s un conjunt de
 programes, cada un dels quals consisteix en una llista d'instruccions
 vàlides (executables per l'ordinador) que s'executen en l'ordre
@@ -933,12 +932,12 @@ l'ordre d'1~GB.
 \comprof{És aquesta l'única menció als tres tipus
   bàsics d'impressora?}
 
-\begin{persabermes}
+\begin{persabermes}{sobre algorismes}
 
 %\section{Sobre algorismes}
 \label{ss:algorismes}
 
-\paragraph{Sobre algorismes:} El nom \emph{algorisme} ve del nom d'un
+El nom \emph{algorisme} ve del nom d'un
 matemàtic que treballava a Bagdad vora l'any 825 de la nostra era,
 Muhammad ibn Musa al Khwarizmi, anomenat així perquè sembla que era
 d'una ciutat al sud del mar d'Aral anomenada Khwarizm (ara
@@ -1703,17 +1702,36 @@ Llista de coses a fer del capítol:
 \end{itemize}
 }
 
-Una de les eines informàtiques bàsiques que es troben a l'abast del
-professional de la traducció és Internet. Per exemple, Internet permet
-que els professionals puguen usar recursos remots, o que puguen rebre
-originals dels seus clients i remetre'ls-en les traduccions.
+Una de les eines informàtiques bàsiques que es troben a l'abast de les
+persones que es dediquen professionalment a la traducció és
+Internet. Internet permet bàsicament tres tipus d'ús:\todo{Per a millorar, tot afegint-hi referències creuades!}
+\begin{description}
+\item[Com a mitjà de comunicació:] Internet permet la comunicació
+  i l'intercanvi d'arxius amb clients o proveïdors, la participació en fòrums de
+  professionals, la realització de consultes, etc.
+\item[Com a font de documentació:] A més de contenir textos de moltes
+  classes que poden servir d'exemple o inspiració a l'hora de fer
+  traduccions, s'hi poden trobar enciclopèdies, diccionaris,
+  glossaris, memòries de traducció, i moltes altres fonts de
+  documentació.
+\item[Com a rebost de programari d'assistència a la traducció:] Molts
+  dels programes específics d'assistència a la traducció estan
+  disponibles a Internet, com ara els sistemes de traducció automàtica
+  en línia o els programes de concordances bilingües. L'accés pot ser
+  a través d'un navegador, o a través d'altres programes que tinguem
+  instal·lats localment en el nostre ordinador.\footnote{Usant
+    protocols ben especificats, normalment a través d'API,
+    \emph{Application Program Interfaces} o \emph{interfícies de
+      programació d'aplicacions}.}
+\end{description}
+
 
 
 \section{Què \'{e}s Internet?}
 
-S'anomena \emph{Internet} a un conjunt d'ordinadors, distribu\"{\i}ts
+Anomenem \emph{Internet}  un conjunt d'ordinadors, distribu\"{\i}ts
 arreu del món i interconnectats mitjan\c{c}ant un protocol
-estàndard (el protocol d'Internet o IP) de manera que els recursos
+estàndard (el \emph{protocol d'Internet} o IP) de manera que els recursos
 presents en uns ordinadors (normalment, informació) estan
 disponibles per a ser usats pels usuaris d'altres ordinadors. Es diu que
 els ordinadors d'Internet formen una \emph{xarxa}, en la qual els nodes
@@ -1748,17 +1766,49 @@ que es troba a Espanya ({\tt es}) (en això els noms s'assemblen a
 les adreces postals: primer es dóna el m\'{e}s concret i al final
 el país; aquest ordre és l'invers al dels números IP).
 
+\todo{Comprovar el \emph{Per saber més}}
+\begin{persabermes}{servidors de noms}
+  Podríem fer una analogia entre la relació entre els noms i els
+  números IP dels ordinadors d'Internet i els noms i els números de
+  telèfon de l'agenda del nostre mòbil. Quan telefonem a una persona,
+  normalment ho fem buscant el seu nom en l'agenda, i poques vegades
+  ho fem pel número, però per fer la telefonada és necessari el
+  número. Quan accedim a ordinadors d'Internet, ho fem de manera
+  similar: accedim pel nom i no pel número IP, el qual és
+  indispensable per a fer la connexió. Però, en contrast amb l'agenda
+  del nostre mòbil, seria impracticable tenir tots els noms i els
+  números IP corresponents a tots els ordinadors del món en el nostre
+  ordinador. Per això s'usen \emph{servidors de noms}: ordinadors als
+  quals el nostre ordinador es connecta pel número IP i als quals pot
+  preguntar per l'IP corresponent a un nom. Els \emph{servidors de
+    noms} s'organitzen de manera que es distribueixen la
+  informació. Per exemple, quan volem connectar a
+  \url{cercador.dlsi.ua.es}, el primer servidor de noms veu que el nom
+  acaba en \texttt{.es} i pregunta al servidor de noms que s'encarrega
+  d'aquest \emph{domini}; aquest servidor veu que l'element anterior
+  és \texttt{.ua} i pregunta al servidor de noms de la Universitat
+  d'Alacant (UA), i aquest, al seu torn, pregunta al servidor de noms
+  del Departament de Llenguatges i Sistemes Informàtics (DLSI), ja que
+  l'element anterior és \texttt{.dlsi}. Aquest últim, finalment,
+  entrega el número IP de l'ordinador anomenat \texttt{cercador} al
+  servidor de la UA, i aquest al servidor del domini geogràfic
+  \texttt{.es}, qui l'entrega al nostre ordinador per a fer la
+  connexió. Per això, quan naveguem, la primera connexió tarda més:
+  s'està \emph{resolent} el nom que hem teclejat. Una vegada resolt,
+  el nostre ordinador es guarda l'IP durant un temops per evitar
+  preguntar de nou.
+\end{persabermes}
+
 La taula~\ref{tb:pais} dóna alguns exemples d'indicatius de
 pa\"{\i}sos. De vegades, l'últim component d'un nom no es correspon
-amb l'indicatiu d'un país, sinó que indica la naturalesa del
-lloc (es tracta d'una relíquia del sistema de noms anterior); fins
-fa poc calia sobreentendre que es tractava d'un ordinador situat
-físicament als Estats Units d'Amèrica, però ara això ja
-no \'{e}s necessàriament així. Aquests indicatius apareixen
-en la taula~\ref{tb:tipus}. En altres pa\"{\i}sos ({\tt .uk}, {\tt .nz},
+amb l'indicatiu d'un país, sinó que indica la naturalesa del lloc;
+antigament calia sobreentendre que es tractava d'un ordinador situat
+físicament als Estats Units d'Amèrica, però ara això ja no \'{e}s
+necessàriament així. Aquests indicatius apareixen en la
+taula~\ref{tb:tipus}. En altres pa\"{\i}sos ({\tt .uk}, {\tt .nz},
 {\tt .za}) s'usen indicatius similars ({\tt .co}(mercial), {\tt
-.ac}(adèmic), etc.) davant de l'indicatiu de país (per exemple,
-{\tt www.shef.ac.uk} \'{e}s la Universitat de Sheffield).
+  .ac}(adèmic), etc.) davant de l'indicatiu de país (per exemple, {\tt
+  www.shef.ac.uk} \'{e}s la Universitat de Sheffield).
 
 \begin{table}
 \begin{center}
