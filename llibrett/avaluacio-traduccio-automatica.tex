@@ -1,0 +1,285 @@
+\chapter[Avaluació de la traducció automàtica]{L'avaluació dels sistemes de traducció
+  automàtica}
+\label{se:ASTA}
+
+Aquest capítol pretén enunciar i descriure molt breument
+alguns dels aspectes rellevants de l'avaluació dels sistemes de
+traducció automàtica i donar algunes referències que
+puguen ser d'interés per a qui vulga aprofundir en aquest tema.
+
+\section{Qüestions bàsiques} 
+Quan ens plantegem l'avaluació dels
+sistemes de traducció automàtica (TA), hi ha algunes preguntes
+bàsiques que cal respondre. \citet{arnold94b} plantegen
+el problema així:
+\begin{itemize}
+\item Com es pot decidir si un sistema de TA és \emph{bo}?
+\item Com es pot decidir si un sistema de TA és \emph{millor} que
+  un altre?
+\end{itemize}
+i afegeixen la pregunta clau: 
+``Què vol dir \emph{bo} o \emph{millor} en aquest
+context?'' La resposta a totes aquestes preguntes és molt difícil,
+com diu \citet{minnis94j}: ``el fet que no s'haja proposat cap métode
+d'avaluació o de mesurament estàndard és un bon indicador
+de la magnitud del problema''. 
+
+\section{Tipus d'avaluació}
+La naturalesa de l'avaluació d'un sistema de TA
+depén de diversos factors:
+\begin{enumerate}
+\item \emph{Per a què} es fa l'avaluació? \citet{hutchins96u} distingeix
+  entre tres tipus bàsics d'avaluació: 
+\begin{enumerate}
+\item l'\emph{avaluació
+  d'adequació}, que serveix per a ``determinar la idoneïtat
+dels sistemes de TA en un context operacional especificat'' ---per
+exemple, per a decidir si el sistema de TA és bo per a traduir el correu
+comercial d'una empresa alimentària---;
+\item l'{\em
+  avaluació diagnòstica}, que serveix per a ``identificar
+limitacions, errors o deficiències, les quals poden ser corregides
+o millorades'' ---per exemple, defectes en el tractament de la
+concordança verbal de les oracions subordinades---, i
+\item l'\emph{avaluació de funcionament},  ``per a valorar l'estat de
+  desenvolupament del sistema o les diferents realitzacions
+  tècniques'' ---per exemple, si el programa és robust,
+  ràpid, fa un ús racional de la memòria del sistema, etc.
+\end{enumerate}
+Quant a l'\emph{avaluació diagnòstica}, vegeu en la
+secció~\ref{ss:avalpred} la discussió sobre la noció
+d'\emph{avaluació predictiva}.
+\item \emph{Qui} fa l'avaluació? L'avaluació la poden fer:
+  \begin{enumerate} 
+  \item les
+  persones que presumiblement usaran el sistema o l'adquiriran per a
+  una empresa   (avaluació d'adequació) o professionals externs
+  (\emph{consultors}) contractats a l'efecte;
+  \item els investigadors, equips de desenvolupament, programadors
+    (avaluació diagnòstica), molt especialment durant el
+    desenvolupament d'un sistema de TA;
+  \item qualsevol dels dos grups anteriors (avaluació del funcionament).
+  \end{enumerate}
+\item \emph{Com} es fa l'avaluació? Quan s'avalua un sistema de
+  TA es tenen en compte:
+\begin{enumerate}
+\item \emph{La qualitat de les traduccions en brut}
+  produïdes pel sistema. La qualitat és una combinació
+  (en proporcions difícils de determinar\footnote{\citet{minnis94j}
+    diu: ``La raó per la qual el mesurament de la qualitat és
+    difícil és, per descomptat, el fet que la qualitat siga
+    un concepte tan polifacètic i intangible''.})
+  de diversos factors, com ara: 
+  l'\emph{intel·ligibilitat} 
+  dels documents traduïts per part dels usuaris; 
+  la \emph{precisió} o \emph{fidelitat} amb què el text
+  traduït comunica el significat del document original (les quals
+  han de ser jutjades per part
+  de persones bilingües coneixedores de la temàtica dels
+  documents); l'adequació de l'estil o del registre dels documents
+  traduïts, etc. 
+
+  Aquesta avaluació es pot fer mitjançant
+  l'ús de col·leccions de documents típics o representatius 
+  (com se sol
+  fer en les avaluacions d'adequació) o mitjançant sèries de
+  proves objectives (angl.\ \emph{test suites}),   
+  usades en les avaluacions diagnòstiques\footnote{Però no
+    únicament, com indica  \citet{lewis97j}, ja que també poden
+    servir perquè els usuaris jutgen l'adequació de l'eixida
+    produïda pel sistema.} i dissenyades per a
+  abraçar conjunts complets de fenòmens lingüístics que 
+  es manifesten en la traducció.\footnote{Per exemple, el reordenament
+  dels mots dels sintagmes nominals quan es tradueix de l'anglés
+  a l'espanyol \citep{mira98j,forcada00p}.}
+
+Una possible mesura quantitativa de la qualitat d'un text produït per
+un sistema de TA a partir d'un text representatiu és el nombre mínim
+d'insercions, esborraments i substitucions de mots necessaris (per
+exemple, per cada 100 mots de text) per a transformar-lo en un text
+que siga una traducció acceptable\footnote{De qualsevol manera, queda
+  el problema que un text que per a un lector és acceptable pot no
+  ser-ho per a un altre.} de l'original. A més, la determinació de la
+qualitat d'una traducció en brut per còmput del nombre de correccions
+necessàries no està exempta de problemes:
+\begin{itemize}
+\item Aquest mètode dóna la mateixa importància a totes les operacions
+  de correcció, independentment del mot. Això pot no ser adequat.
+\item Si suposem que existeix una única traducció acceptable del text
+  origen i l'usem com a referència, hi ha més d'una manera de corregir
+  la traducció en brut de manera que el resultat siga idèntic al de
+  referència. Per a poder fer comparacions, estem interessats en la
+  correcció produïda amb el nombre mínim d'operacions d'inserció,
+  esborrament i substitució de mots; aquest nombre mínim es pot
+  considerar una \emph{distància}.\footnote{De fet, matemàticament, ho
+    és: s'anomena \emph{distància d'edició} (angl.~\emph{edit
+      distance}).} La recerca d'aquesta manera òptima de corregir pot
+  no ser trivial per a una persona, especialment si els errors
+  apareixen junts i agrupats. 
+\item Però és que, a més, la traducció de referència pot no estar
+  disponible; a més, en la majoria dels casos no hi ha una única
+  traducció acceptable. De nou, si volem comparar, voldríem trobar la
+  traducció acceptable més pròxima a la traducció en brut, és a dir,
+  la que s'obté amb el mínim de correccions possibles. És a dir,
+  avaluar (corregir) la traducció en brut comporta per tant fer una
+  doble recerca: la persona que corregeix ha de buscar mentalment la
+  traducció acceptable més propera (tot tenint en compte els criteris
+  que fan acceptable una traducció, els quals poden no ser fàcils
+  d'aplicar), però la \emph{distància} entre els dos textos també es
+  calcula fent una recerca mental del nombre mínim de correccions
+  necessàries.
+\end{itemize}
+\com{Repassar aquesta discussió i millorar-la?}  El fet que és
+possible que l'avaluació per recompte de correccions no siga òptima en
+vista d'aquests problemes fa que, a més, siga especialment difícil
+comparar les avaluacions fetes per persones diferents. A més, aquest
+tipus d'avaluació és molt costós, ja que per a obtenir una medició
+fiable de la qualitat és necessari corregir textos de milers de
+paraules.
+
+D'altra banda, sempre s'ha de tenir en compte que els mètodes
+d'avaluació de la qualitat depenen de l'ús que es pensa donar al
+sistema de TA \citep{arnold93j}; per exemple, l'avaluació d'un sistema
+que s'usa per a la \emph{disseminació} de material és ben diferent de
+l'avaluació d'un sistema usat per a l'\emph{assimilació}
+d'informació.\footnote{De nou, com s'ha discutit en el capítol~\ref{se:TiTA}, la
+  noció central és la de \emph{propòsit} de la traducció.}
+
+\item \emph{La qualitat del sistema de TA mateix}: per exemple, ``la facilitat amb
+  què es poden crear i actualitzar diccionaris, posteditar els
+  textos, controlar el llenguatge d'entrada'' o
+  ``l'extensibilitat [del sistema] a parells nous d'idiomes o a noves temàtiques''
+  \citep{hutchins96u}.
+\item \emph{La comparació dels costos i dels beneficis} d'usar un
+  sistema de TA en comptes dels serveis de professionals de la
+  traducció: per exemple, si costa més (en despeses de personal) la
+  postedició (revisió) dels textos meta produïts pel sistema
+  (afegint-hi el cost d'usar el sistema de TA) que la traducció
+  completa dels textos origen per part de professionals, l'adopció del
+  sistema de TA no convé a una empresa (p.~\pageref{pg:cost}).
+\end{enumerate}
+\end{enumerate}
+
+\section[Traducció automàtica i traducció humana]{Sobre la comparació entre traducció auto\-mà\-tica i
+  traducció humana} 
+\label{ss:humaut}
+Una visió predominant de l'avaluació dels sistemes de TA és
+l'anomenada \emph{metàfora del traductor humà}, segons la qual
+\citep{krauwer93j} la tasca consisteix a ``determinar fins a quin punt
+els constructors del sistema han aconseguit imitar el comportament
+d'un traductor humà''. \citet{sager93b} ho formula dient que ``S'ha
+argumentat que la qualitat dels documents produïts mitjançant
+traducció automàtica s'hauria d'avaluar en termes de la identitat amb
+productes humans''.
+  
+Tant \citet{krauwer93j} com \citet{sager93b} qüestionen aquesta visió;
+aquest últim argumenta que ``s'ha d'acceptar que no hi ha cap situació
+que puga servir com a punt de comparació entre la traducció humana i
+l'automàtica, i que potser no hi ha cap situació en la qual la
+traducció humana i l'automàtica siguen igualment adequades'' i proposa
+que, en canvi, les traduccions poden ser comparades per a veure ``si
+satisfan, i fins a quin punt, les expectatives de l'usuari final [dels
+documents traduïts]'', ja que la traducció és una ``activitat de
+mediació, la forma particular de la qual està determinada tant pel
+text com per les circumstàncies comunicatives que requereixen aquesta
+mediació''.  En concret, la
+traducció automàtica pot ser la més adequada en algunes
+circumstàncies, en vista de l'enorme demanda general existent i, més
+concretament, de la demanda de traduccions ràpides i barates que no
+poden ser produïdes per professionals.
+
+\section{Avaluació predictiva}
+\label{ss:avalpred}
+
+Hi ha un tipus d'avaluació que es pot considerar com a cas particular
+de l'avaluació diagnòstica definida més amunt, encara que no s'use
+estrictament per a millorar el funcionament d'un sistema, sinó només
+per a predir el comportament del sistema en situacions noves.
+L'anomenarem ací \emph{avaluació predictiva}.
+
+Per a poder fer l'avaluació predictiva, és crucial que els avaluadors
+tinguen, en primer lloc, un model que descriga aproximadament el
+funcionament del sistema de traducció automàtica (relacionat amb la
+tipologia del sistema, és a dir, de transferència morfològica,
+sintàctica, etc., vegeu el cap.~\ref{se:TdTA}), i, en segon lloc, un
+conjunt de textos o frases d'avaluació (\emph{test suite}) que els
+permeta obtenir detalls concrets sobre les dades lingüístiques (p.ex.,
+regles) que usa aquell model.  Les prediccions serien de l'estil de
+``com que sembla usar regles patró--acció de l'estil de ``si troba un
+patró $X$ farà l'acció $Y$'' i en una sèrie de casos troba el patró
+$X_1$ i fa l'acció $Y_1$, podem predir que sempre que trobe aquest
+mateix patró farà la mateixa acció''. Com que la majoria dels sistemes
+comercials no ens donen suficient informació sobre la naturalesa del
+model, els haurem de tractar com una \emph{caixa negra}; la
+intuïció de la persona avaluadora, el seu coneixement d'altres
+sistemes o de la història de les empreses involucrades (per exemple,
+quant a l'adquisició de tecnologia d'altres empreses) i la seua
+habilitat per a elegir exemples reveladors li permetran determinar
+aspectes bàsics del model de traducció. En particular, qualsevol
+avaluació predictiva necessita tenir una idea clara sobre el nivell
+d'anàlisi que es fa en el sistema de TA, ja que el nivell d'anàlisi és
+el que determina més la naturalesa d'un sistema (vegeu
+l'apartat~\ref{ss:classtrans}).  L'avaluació predictiva pot tenir, a
+més, un paper fonamental en l'educació dels futurs traductors
+\citep{mira98j,forcada00p}, en vista de la disponibilitat creixent de
+sistemes comercials (per exemple, a través d'Internet).\footnote{Una
+  altra aplicació de les tècniques descrites és l'anomenada
+  \emph{enginyeria inversa}, o determinació detallada de l'estratègia
+  usada per un programa (en aquest cas, de traducció automàtica) per a
+  programar-la en un altre.}
+
+D'altra banda, perquè l'avaluació siga útil els conjunts de prova
+haurien d'estar dissenyats de manera que abraçaren conjunts complets
+de fenòmens lingüístics que es manifesten amb freqüència rellevant en
+les situacions reals de traducció que es volen avaluar, ja que es vol
+predir el comportament del sistema en aquestes situacions concretes.
+
+
+\section{Qüestions i exercicis}
+
+\begin{enumerate}
+\item Quina característica d'un sistema de traducció automàtica
+   s'ha de considerar com a especialment important quan s'avalua
+   l'aplicació del sistema a l'\emph{assimilació}?
+   
+\begin{enumerate}
+\item els seus útils de postedició assistida
+\item els seus útils de preedició assistida
+\item la velocitat de resposta
+\end{enumerate}
+
+\item Per què és difícil avaluar la qualitat d'una traducció automàtica
+   comptant la quantitat mínima de postedició necessària per fer-lo adequat
+   quan no hi ha una traducció de referència?
+   
+\begin{enumerate}
+\item No és que siga difícil; sense
+      traducció de referència és absolutament impossible.
+\item Perquè aquesta tasca no es pot fer sense conéixer
+      profundament l'estratègia usada pel sistema de traducció
+      automàtica.
+\item És relativament senzill corregir el text perquè
+      siga adequat però és molt difícil fer-ho fent-hi el mínim nombre
+      de canvis necessaris.
+\end{enumerate}
+
+% < QT11
+
+\end{enumerate}
+
+Quant al concepte d'\emph{avaluació predictiva}, mireu a més els
+exercicis~\ref{ex:cascat}, \ref{ex:zkanagg} i \ref{ex:postres} del capítol~\ref{se:TdTA}.
+
+
+\section{Solucions}
+
+
+\begin{enumerate}
+\item (c)
+\item (c)
+
+% < SL11
+
+\end{enumerate}
+
+

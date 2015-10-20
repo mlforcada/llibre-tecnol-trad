@@ -1,0 +1,466 @@
+\chapter{Traducció i traducció automàtica}
+\label{se:TiTA}
+
+Una de les aplicacions més importants de la informàtica a la
+traducció és la \emph{traducció automàtica} (TA).  Abans de considerar
+l'automatització de la traducció fóra bo que ens paràrem un poc per a
+discutir què vol dir exactament el mot \emph{traducció}. Sobre la
+relació entre traducció humana i traducció automàtica, vegeu la
+secció~\ref{ss:humaut}.
+
+\section{Què és la traducció?}
+\label{ss:trad}
+
+Per començar, s'ha de tenir en compte que 
+el mot \emph{traducció} és ambigu\footnote{Com molts altres
+  substantius acabats en \emph{-ció}} perquè es pot
+referir al \emph{procés} de traduir o al
+\emph{producte} (resultat) d'aquest procés.
+
+\citet{sager93b}\footnote{Els conceptes
+d'aquesta secció estan presos quasi íntegrament d'aquesta
+obra.} comença la seua definició dient que, com a procés,
+es pot anomenar traducció ``un rang d'activitats humanes
+deliberades, que es fan com a resultat d'instruccions rebudes d'un tercer,
+i que consisteixen en la producció de textos en una llengua meta (LM),
+basada, entre altres coses, en la modificació d'un text en una llengua
+origen (LO) per a fer-lo adequat a un propòsit nou'', però encara no
+descriu la naturalesa de la modificació.
+
+Com a producte, una \emph{traducció} es pot identificar com a tal
+perquè és un document (en LM)  derivat d'un altre document en un altre
+idioma (LO), i que manté una certa similitud de contingut amb aquest.
+
+Es poden dir encara més coses sobre la traducció:
+\begin{itemize}
+\item les traduccions solen estar escrites en un subllenguatge particular
+(registre, especialitat...) de la comunitat lingüística de la LM, basat en un subllenguatge
+paral$\cdot$lel de la LO;
+\item els documents i les traduccions corresponents es poden classificar en
+tipus\footnote{Per exemple, \emph{carta comercial}, \emph{edicte municipal},
+  \emph{comentari editorial}, \emph{manual tècnic informàtic} o \emph{recull de poemes}. } i aquesta tipologia afecta la traducció;
+\item la traducció es veu afectada per elements
+extralingüístics perquè, normalment, els documents són
+entitats que uneixen l'expressió lingüística amb
+l'expressió no lingüística;
+\item les traduccions tenen un \emph{receptor} o \emph{lector}; una 
+traducció, com a acte comunicatiu ha de considerar, a  més de la
+intenció de la traducció, les expectatives dels
+lectors, que resulten del seu rerefons cultural i de les seues necessitats
+comunicatives, i que influeixen en la recepció del text traduït;
+\item la traducció sempre té una motivació: la superació de
+barreres comunicatives; per això se n'ha creat una professió. 
+\end{itemize}
+
+Es pot aprofundir un poc més en la definició de
+traducció que hem considerat més amunt, revisant definicions
+existents (algunes preses de \citealt{sager93b}):
+\begin{itemize}
+\item \citet[p.~19]{nida59b}: ``La traducció consisteix a produir en la llengua meta
+l'equivalent natural més proper del missatge en la llengua origen,
+primerament quant al significat i segonament quant a l'estil.'' Sager diu
+que, més que \emph{natural} (en sentit absolut) caldria dir \emph{adequat}
+(a la tasca concreta). Aquesta definició introdueix dues de les tres
+dimensions bàsiques d'un document escrit (original o traduït):
+el \emph{contingut} (significat) i la \emph{forma} (estil), però oblida el 
+\emph{propòsit}. 
+\item \citet{flamand83b}: traduir és representar amb precisió
+(fidelitat a l'autor) un missatge
+en LO 
+en una forma autèntica i correcta de la LM,
+adaptada al contingut i al receptor (fidelitat al lector)''. El problema
+d'aquesta definició
+és la indefinició del concepte de \emph{fidelitat}.
+\item \citet{jakobson66b}: ``Traducció és la interpretació de signes
+verbals per mitjà d'una altra llengua''. Aquesta definició evita el
+concepte d'\emph{equi\-va\-lèn\-cia} i introdueix el d'\emph{interpretació}
+com a conjunt de processos cognitius que tenen lloc en la ment del
+traductor.
+\item En el \emph{Diccionari de la Llengua
+    Catalana}\footnote{Editorial Enciclopedia Catalana, 7a ed.,
+    1987-}  
+es defineix {\em
+    traducció} com la
+``reproducció del contingut
+d'un text o d'un enunciat oral, formulat en una llengua, en formes
+pròpies d'una altra llengua'' (i \emph{traduir} com  ``escriure o dir en una
+llengua allò que ha estat escrit o dit en una altra''). La 
+definició
+inclou, per tant, el tractament i la producció de missatges
+no textuals (orals).
+\item \citet{alcaraz97b} defineixen
+  traducció com ``expresión de un
+enunciado en la lengua de llegada [lengua meta] que sea equivalente al de la
+lengua de partida [lengua origen]''; queda per definir la noció
+d'\emph{equivalència}, que els mateixos autors defineixen així: ``la
+posesión del mismo valor por parte de los enunciados de la lengua de
+partida y de la de llegada''; l'equivalència pot ser {\em
+semàntica}, \emph{estilística} i \emph{textual}. 
+\end{itemize}
+
+Per a acabar aquest apartat, convé esmentar alguns processos que no
+s'anomenaran \emph{traducció} en aquest curs:
+\begin{itemize}
+\item l'adaptació de textos antics a la forma moderna d'un idioma;
+\item la traducció de mots i frases quan s'ensenya un nou idioma;
+\item la interpretació (de missatges parlats);
+\item la codificació (en Morse, etc.).
+\end{itemize}
+
+
+\section{Traducció automàtica}
+
+\subsection{Definició}
+
+La traducció automàtica (TA) es pot definir com el procés (o el
+producte) de traduir un text informatitzat\footnote{Anomenarem {\em
+    text informatitzat} un fitxer  d'ordinador que conté un
+  text codificat en un format conegut (vegeu el capítol~\ref{se:EPT}.)
+  } en una llengua origen a un text informatitzat en una llengua meta
+mitjançant l'ús d'un programa d'ordinador. Normalment es reserva
+la denominació \emph{traducció automàtica} per a la completament
+automàtica; quan s'hi produeix intervenció humana es parla de {\em
+  traducció assistida per l'ordinador} o de \emph{traducció
+  semi-automàtica}.  El capítol~\ref{se:UTA} està dedicat a analitzar
+les diverses modalitats d'interacció entre persones i màquines en
+traducció.
+
+Un aclariment és necessari sobre el tractament dels textos
+informatitzats. Quan els programes de traducció automàtica i
+semiautomàtica han de tractar documents estructurats (com els
+discutits en els epígrafs~\ref{s3:SGML} i \ref{s3:RTF}) han de ser
+capaços d'identificar les parts dels documents que corresponen als
+textos que s'han de traduir, destriant-les de les etiquetes.
+Normalment, els programes tenen un mòdul inicial que podríem anomenar
+\emph{desformatador} i un mòdul final que podríem anomenar
+\emph{reformatador} i que restitueix les etiquetes de manera que el
+format i l'estructura del document es conserven tant com siga
+possible. En general, aquestes operacions es poden considerar
+bàsicament independents del procés de traducció mateix ---com farem en
+aquest llibre---, però hi ha programes més avançats que són fins i tot
+capaços d'usar la informació de les etiquetes com a context per a
+elegir una traducció on hi ha més d'una alternativa.
+
+ Les referències que s'han fet en l'epígraf~\ref{ss:trad} al propòsit o
+motivació de la traducció i a la tipologia dels documents que han de
+ser traduïts són també molt importants a l'hora d'analitzar la
+traducció automàtica.
+
+
+\subsection{Sobre el nom en altres llengües}
+
+Convé comentar de pas que en anglés, la traducció automàtica
+s'anomena \emph{machine translation} i s'abreuja MT, paral$\cdot$lelament a
+l'alemany, que usa la denominació \emph{maschinelle
+  übersetzung}; en  aquestes dues llengües s'expressa la
+noció d'automatisme mitjançant la referència a una {\em
+  màquina}. En
+canvi, en francés o en rus es parla, com en català o en espanyol, de {\em
+traduction automatique} o \emph{avtomatitxeski perevod},
+respectivament.  
+
+
+\section{Història de la traducció automàtica}
+
+La major part del discutit en aquest apartat està pres dels treballs
+de John Hutchins, especialment de \cite{hutchins1995}
+i \cite{hutchins2001}.
+
+\subsection{Els pioners, --1954}
+
+La traducció mitjançant màquines és una ambició humana des de fa
+segles que no es va fer 
+realitat fins al XX. No feia molt que s'havia creat el primer
+ordinador, 
+quan ja es va 
+començar a pensar en la possibilitat d'usar-los
+per a traduir llenguatges 
+humans. 
+
+Tot i que en els decennis dels 1930 i 1940 
+hi va haver alguns treballs precursors,
+és als primers cinquanta quan comença realment la recerca en TA en moltes 
+universitats arreu al món, especialment als 
+Estats Units. Els recursos de maquinari, programari i 
+llenguatges de programació eren massa
+reduïts i la primera aproximació va ser la traducció 
+mot per mot 
+basada en diccionari amb algunes regles 
+senzilles de reordenament (actualment anomenada \emph{traducció
+  directa} (vegeu l'apartat~\ref{ss:traddir}). Aquesta manca
+de recursos va fer que els primers objectius foren
+molt modests i, així, els primers investigadors van concentrar-se
+en el desenvolupament de llenguatges 
+controlats (vegeu~\ref{ss:llecon}) i 
+en l'ajuda humana en tasques de preedició i postedició 
+(vegeu~\ref{ss:preedposted}); 
+era prou clar
+que els sistemes reals no podrien produir 
+més que traduccions de molt baixa qualitat. 
+El 1952 es va celebrar als Estats Units 
+el primer 
+congrés sobre TA on es van definir les línies fonamentals a seguir.
+
+\subsection{El decenni de l'optimisme, 1954--1966}
+
+La primera demostració pública d'un sistema de TA
+va ser desenvolupada per IBM i la Universitat Georgetown el 1954. 
+Es va traduir a l'anglés un conjunt de 49 frases en rus\footnote{Per 
+raons polítiques i militars 
+aquestes llengues van ser les elegides per als primers sistemes de
+TA.} usant un diccionari de 
+només 250 mots i 6 regles gramaticals.
+Tot i que els resultats no eren massa bons, 
+el públic i la indústria van creure que en uns anys es 
+podrien aconseguir traduccions automàtiques de 
+qualitat de documents científics i tècnics. 
+Aquesta idea es va reforçar pel fet que van començar a 
+aparèixer millores significatives en el maquinari, 
+els primers llenguatges de programació i moltes 
+millores en la lingüística formal (especialment 
+en l'àrea de la sintaxi). L'entusiasme va fer que es 
+finançaren un munt de projectes entre la meitat dels 50 i la meitat
+dels 60, 
+projectes dins els 
+quals van nàixer la major part de les tècniques actuals, 
+com ara la traducció indirecta per 
+transferència o la traducció per interlingua (vegeu el
+capítol~\ref{se:TdTA}).
+
+
+L'objectiu era el desenvolupament de sistemes perfectes. Calia reduir 
+al mínim la intervenció 
+humana en el procés de TA, fins assolir la independència total i una 
+qualitat comparable a la dels 
+humans. Pràcticament ningú va considerar com es podria traure 
+profit d'un sistema imperfecte: 
+per què pensar-hi si aviat es disposaria de sistemes perfectes? Els
+traductors es van sentir 
+amenaçats. No obstant això, algunes veus es pronunciaren en contra 
+del perfeccionisme dominant i 
+defensaren una aproximació 
+més a llarg termini al problema i 
+la construcció de sistemes que feren 
+un ús efectiu de la interacció persona-màquina.
+
+Un decenni després, i com que les expectatives eren tan 
+altes, els avanços eren escassos
+i el futur pròxim no semblava poder millorar la situació. 
+Molts investigadors començaven a 
+trobar barreres de tot tipus, especialment semàntiques,
+que semblaven massa difícils de superar
+i que exigien mètodes més complexos. La Acadèmia Nacional de 
+les Ciències dels Estats Units va publicar el 1966
+l'informe ALPAC (Automatic Language Processing 
+Advisory Committee) en el qual es recomanava que els nombrosos 
+recursos que es dedicaven a 
+la recerca en TA s'utilitzaren per tasques menys pretensioses 
+i més bàsiques relacionades amb 
+el processament del llenguatge natural i amb el desenvolupament 
+d'eines de suport per als 
+traductors com ara diccionaris automàtics.
+La conclusió era que només després de conéixer les arrels del 
+problema, podria estudiar-se la realització 
+d'un sistema de TA real. L'informe assegurava que la TA era més 
+lenta i menys exacta que la feta pels humans, 
+a més de ser el doble de cara, i que no hi havia 
+cap indici de l'obtenció en el futur més o menys inmediat d'un 
+sistema de TA útil.
+L'informe va fer que es reduira significativament el nombre de 
+persones que es dedicaven a la TA i que 
+els laboratoris començaren a treballar en el que es va conéixer 
+com a lingüística computacional.
+
+\subsection{Des de l'informe ALPAC (1966) fins als vuitanta}
+
+L'informe va acabar quasi virtualment amb la 
+recerca en TA als Estats Units (també va tenir un 
+impacte negatiu en els projectes desenvolupats 
+a la resta del món) i durant molts anys la TA va 
+ser percebuda com un autèntic fracàs. Tot i això, 
+alguns grups van continuar treballant a Canadà i a Europa
+i van aparéixer els primers sistemes que funcionaven; 
+el 1970 el sistema Systran va començar a ser usat 
+per la USAF (United States Air Force) i 
+el 1976 per la Comissió de la Comunitat Europea.
+També el 1976 apareix Metéo, 
+desenvolupat per la Universitat de Montréal,
+que tradueix al francés els informes meteorològics. 
+Per aquesta època, a més, 
+els sistemes de TA comencen a ser demanats per empreses 
+i administracions i no sols per
+traduir textos científics i tècnics.
+
+Des de l'informe ALPAC
+el camp va patir una redefinició progressiva vers una 
+concepció de la TA 
+com un procés en el qual els traductors humans juguen 
+un paper bàsic, 
+i comencen a desenvolupar-se eines de traducció 
+pensant en aquesta intervenció.
+
+Els principals corrents dins la TA des dels 70 són, per tant: 
+eines de suport a la traducció per a traductors, 
+sistemes de TA amb intervenció humana i recerca teòrica 
+vers un sistema completament 
+automàtic de traducció.
+
+\subsection{Els primers vuitanta}
+
+Als 1980 apareixen nous sistemes de TA arreu del món
+amb expectatives més reals i l'interés en la TA
+resorgeix.
+Són especialment importants els resultats obtinguts a 
+diverses empreses com Xerox on s'elimina 
+quasi completament la postedició (vegeu la p.~\pageref{pg:homografia}) gràcies al control 
+de la llengua origen; això permet la traducció 
+senzilla dels manuals tècnics en anglés de la companyia 
+a un gran nombre d'idiomes (francés, 
+alemany, italià, espanyol, portugués i llengues escandinaves).
+
+Durant aquest decenni els esforços es dirigeixen vers la traducció indirecta 
+amb representacions 
+intermèdies o sense (com la interlingua; 
+vegeu l'apartat~\ref{ss:interlingua}) 
+mitjançant
+anàlisis morfològiques i sintàctiques i, de vegades, 
+coneixements no lingüistics. 
+Els projectes més notables són GETA-Ariane (Grenoble), SUSY 
+(Saarbrücken), Mu (Kyoto), DLT (Utrecht), Rosetta (Eindhoven), 
+el projecte de la Universitat 
+Carnegie-Mellon (Pittsburgh) i dos projectes internacionals: 
+Eurotra, finançat per la Comunitat 
+Europea i el projecte japonés CICC amb participants 
+a la Xina, Indonèsia i Tailàndia.
+
+Eurotra és un dels projectes de traducció més coneguts del decenni 
+dels 80. El seu objectiu era la 
+construcció d'un sistema de transferència multilingüe 
+que permetera la traducció entre totes les llengües 
+de la Comunitat Europea. 
+Tot i que la traducció resultant 
+tenia bastanta qualitat, necessitava una gran quantitat de 
+postedició. El projecte va estimular la investigació a
+tot Europa, però va ser abandonat finalment el 1992.
+
+En aquests anys es consolida la idea que els
+sistemes de TA no són per a traductors; un traductor necessita eines 
+que li faciliten el treball: diccionaris, 
+bases de dades terminològiques (vegeu el capítol~\ref{se:basesdades}), 
+sistemes de 
+comunicació, memòries de traducció (vegeu el
+capítol~\ref{se:memtrad}), etc.
+De fet, actualment la postedició no s'encarrega a 
+traductors (que no consideren açò 
+com a part del seu treball), 
+sinó a persones preparades específicament.
+
+Tothom accepta ja en aquest decenni la importància dels llenguatges
+controlats i els subllenguatges en la TA, com ja havien defensat els
+precursors de la TA durant el decenni dels cinquanta.
+
+El sistema comercial més sofisticat dels 1980 és Metal (1988),
+finançat per Siemens i 
+que tradueix de l'alemany a l'anglés. 
+Es tracta bàsicament d'un sistema per transferència, indicat per 
+a la traducció de documents 
+relacionats amb el processament de dades i les telecomunicacions. 
+
+Al final dels 1980 comença l'aplicació de tècniques d'inteligència
+artificial
+al processament del llenguatge 
+humà (sistemes experts i sistemes basats 
+en el coneixement dissenyats per entendre els textos).
+
+\subsection{Els primers noranta}
+
+Tots els sistemes de TA dels vuitanta, tant els de transferència 
+com els d'interlingua, funcionen bàsicament a 
+partir de regles lingüístiques. Als 1990, però,
+apareixen noves estratègies conegudes com a mètodes basats en 
+corpus. Els mètodes basats en corpus es poden dividir 
+en dos grups: estadístics i basats en exemples.
+
+Els mètodes estadístics ja van ser considerats als anys seixanta, però
+aviat van ser descartats perquè els resultats obtinguts no eren
+acceptables. Ara, però, el descobriment de noves tècniques va fer
+possible projectes com Candide a IBM. Candide usa mètodes estadístics
+per a l'anàlisi i la generació, però cap regla lingüística. Els
+treballs a IBM van utilitzar el gran corpus de textos en anglés i
+francés resultants de les sessions del Parlament de Canadà.  El mètode
+consisteix a alinear en primer lloc les frases, els grups de mots i
+els mots en els dos textos i calcular després la probabilitat que un
+mot del text origen corresponga a un o més mots del text meta amb el
+qual ha estat alineat.
+
+Els metodes basats en exemples (vegeu el capítol~\ref{se:memtrad})
+s'aprofiten també de l'existència de grans corpora de textos
+traduïts (per això també s'en diu basats en memòria). La idea
+fonamental es que el procés de traducció es pot fer sovint consultant
+traduccions anteriors i identificant frases o grups de mots en el
+corpus ja traduït. Per poder dur a terme la traducció és necessari que
+els textos del corpus hagen estat alineats prèviament (mitjançant
+mètodes estadístics o mètodes basats en regles).
+
+Tot i que la gran innovació dels noranta van ser els mètodes descrits
+abans, 
+la recerca i el desenvolupament 
+dels sistemes clàssics també va continuar: 
+per exemple, el projecte Eurolang basat en el sistema de 
+transferència Metal pot traduir de l'anglès al 
+francés, alemany, italià i espanyol, i 
+viceversa.
+Ens els darrers 10 anys, un dels camps amb més 
+investigacions ha estat el de traducció de la 
+parla, una idea que evidentment ha estat 
+present des de fa dècades, però que només ara es pot 
+materialitzar parcialment. 
+L'objectiu no és obtenir un sistema de traducció perfecta, 
+sinó un sistema adequat per a aplicacions amb 
+llenguatges, dominis i usuaris restringits. El 
+principals són els desenvolupats a ATR, 
+CMU i el projecte Verbmobil.
+
+Una característica important dels primers 1990 és l'aparició 
+de les primeres aplicacions 
+pràctiques per a traductors: eines de suport a la traducció, 
+diccionaris i bases de dades 
+terminològiques, processadors de text multilingües, 
+accés a glossaris i terminologies 
+electròniques, eines de comunicació (escàners, OCRs, Internet;
+vegeu els capítols~\ref{se:Internet} i~\ref{se:EPT}) o 
+eines per a entorns restringits. 
+La combinació d'algunes d'aquestes eines en un 
+programari concret és el que es coneix com 
+\emph{estacions de treball per a traductors} (per exemple, el 
+Translation Manager d'IBM o el Translator 
+Workbench de Trados). La major part 
+d'aquestes estacions de treball estan disponibles per a 
+ordinadors personals.
+
+\subsection{Dels darrers noranta a l'actualitat}
+
+La TA i les eines de suport a la traducció son cada 
+vegada més usades per les grans empreses i 
+per les administracions, principalment per a la 
+traducció de documentació tècnica. 
+
+Al llarg dels darrers anys, amb la generalització de l'ús
+d'Internet, s'han desenvolupat serveis de traducció 
+disponibles en línia i nombroses eines per a l'assimilació 
+de continguts electrònics com ara documents HTML i missatges de
+correu electrònic.
+
+Des dels seus inicis, quasi tota la recerca i quasi tots els 
+sistemes comercials de TA s'han centrat en els principals 
+idiomes internacionals: anglés, francés, espanyol, japonés, rus, etc.
+Encara resta molt a fer amb les 
+altres llengues del món.
+
+\com{2003}
+En el moment d'escriure aquestes línies s'observa un resorgiment de
+les tècniques de \emph{traducció automàtica estadística} com les que
+es van iniciar en IBM durant la dècada dels 1990; fins i tot han
+aparegut empreses que es proposen comercialitzar productes que
+\emph{aprenen} el vocabulari i les regles de traducció directament de
+grans textos bilingües.

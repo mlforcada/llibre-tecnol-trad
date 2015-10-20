@@ -1,0 +1,1591 @@
+\chapter{Ambigüitat}
+\label{se:ambig}
+
+\com{Fer potser més èmfasi en l'efecte que té l'ambigüitat en la
+  traducció?}
+
+\com{L'ambigüitat no és l'únic problema. L'ambigüitat és un problema
+  d'anàlisi. Però també hi ha problemes de generació importants
+  (elegir col·locacions o avinences, o la forma més adequada de dir
+  \emph{quina hora és?}: \emph{com és de tard?} (alemany),
+  \emph{quines hores són} (portugués), etc.}
+
+
+Un dels obstacles més importants per a la traducció automàtica (i en
+general, per a qualsevol programa que haja de processar textos
+naturals) és l'am\-bi\-güi\-tat inherent al llenguatge humà. 
+
+Podem dir que un enunciat (una oració, un text) és ambigu quan és
+susceptible de dues o més interpretacions
+\citep{alcaraz97b}\footnote{\citet{don96u} ho expressen dient que
+  l'ambigüitat és ``el fenomen pel qual una expressió té més d'un
+  significat''.}. Per tant, un enunciat ambigu pot tenir més d'una
+traducció a un altre idioma.\footnote{De vegades no és així: hi ha una
+  única traducció que conserva l'ambigüitat de la frase original;
+  d'això, se'n sol dir \emph{free ride} (``passi gratuït''). Per
+  exemple, l'oració espanyola \emph{Aprendió a afeitarse en dos
+    minutos} es pot traduir al català \emph{Va aprendre a afaitar-se
+    en dos minuts} sense resoldre l'ambigüitat següent: és el temps
+  que va tardar a aprendre o el temps que empra per afaitar-se?} En
+aquest capítol ens fixarem molt especialment en l'ambigüitat de les
+oracions.
+
+Una de les perspectives més interessants per a analitzar i ordenar els
+tipus d'ambigüitat descrits més amunt ens la proporciona l'anomenat
+\emph{principi de composicionalitat}  \citep{radford99b}:
+\begin{quote}
+{\sl
+La interpretació d'una oració està determinada per la interpretació
+dels mots que apareixen en l'oració i per l'estructura sin\-tàc\-tica de
+l'oració.
+}
+\end{quote}
+Aquest principi explica per què la interpretació de l'oració
+\begin{exemple}
+\label{eq:pare}
+El pare escura plats
+\end{exemple}
+ és diferent de la de l'oració
+\begin{exemple} 
+La mare llegeix
+  llibres
+\label{eq:mare}
+\end{exemple}
+Les oracions (\ref{eq:pare}) i (\ref{eq:mare}) tenen la mateixa sintaxi però diferent
+interpretació perquè contenen mots diferents amb interpretacions
+diferents. També explica per què l'oració 
+\begin{exemple}
+El gos va mossegar
+  l'home
+\end{exemple}
+ no té la mateixa interpretació que la frase 
+\begin{exemple}
+L'home va
+  mossegar el gos
+\end{exemple} 
+Aquestes oracions no volen dir el mateix perquè, malgrat tenir els
+mateixos mots, l'estructura sintàctica no és la mateixa.
+
+
+Per això, no és possible assignar una interpretació clara a oracions
+sin\-tàc\-ti\-ca\-ment incorrectes, com ara
+\begin{exemple}
+*Llegeix mare llibres la
+\end{exemple} 
+encara que els mots tinguen interpretació independentment, ni
+tampoc a una oració sintàcticament correcta que continga algun mot al
+qual no podem assignar cap interpretació:
+\begin{exemple}
+ La mare *ingurpleix llibres
+\end{exemple}
+Com veurem més endavant, trobem una complicació addicional: en algunes
+oracions, hi ha parts de l'estructura sintàctica que no
+es reflecteixen en cap mot, perquè generen \emph{categories buides} que
+no tenen una representació fonètica o gràfica explícita.  Per exemple,
+l'oració 
+\begin{exemple}
+Té molts amics
+\end{exemple} té un subjecte buit (també anomenat
+el·líptic). En aquests casos podem considerar que les categories
+buides són mots ``de zero lletres'' que tenen una interpretació.
+
+Si una oració és ambigua quan té més d'una interpretació possible, això
+pot tenir dues causes bàsiques:
+\begin{itemize}
+\item un o més mots de l'oració tenen més d'una interpretació possible
+  (és a dir, són \emph{lèxicament ambigus}).
+\item l'oració té més d'una estructura sintàctica possible (és a dir,
+  és \emph{estructuralment ambigua} o \emph{sintàcticament ambigua}).
+\end{itemize}
+Les dues causes poden concórrer. De fet, estudiarem tres casos:
+l'ambigüitat purament deguda a l'ambigüitat dels mots (explícits o
+nuls); l'ambigüitat purament deguda a l'existència de més d'una
+estructura sintàctica, l'ambigüitat deguda a les dues causes alhora.
+
+
+Hi ha també certs tipus d'ambigüitat que no es poden explicar de
+manera senzilla amb el principi de composicionalitat, com ara {\em
+  l'ambigüitat en l'abast dels quantificadors}, que també estudiarem
+en aquest capítol (apartat~\ref{ss:ambabast}).
+
+
+\section{Ambigüitat  deguda a l'ambigüitat lèxica}
+\label{ss:amblex}
+
+
+En moltes llengües, els mots es flexionen i prenen formes diferents.
+Un mot (i, en general, una unitat lèxica de més d'un mot) es pot veure
+des de dues perspectives; d'una banda, la \emph{forma superficial}
+del mot és la forma concreta que apareix en el text: \emph{cantàvem};
+d'altra banda, hi ha la \emph{forma lèxica}, que consisteix en
+\begin{itemize}
+\item un \emph{lema} o \emph{forma canònica} (\emph{cantar}), 
+\item una \emph{categoria lèxica},\label{pg:catlex}\footnote{Vegeu la nota al peu  de la pàg.~\pageref{pg:catgra}} classe de mot, o part de l'oració
+  (verb) i 
+\item uns \emph{indicadors de flexió} que expressen les característiques
+morfològiques o flexives (primera persona, nombre plural, temps
+pretèrit imperfet, mode indicatiu). 
+\end{itemize}
+Quan dues formes lèxiques diferents tenen la mateixa forma
+superficial; és a dir, quan s'escriuen de la mateixa manera, se sol dir que
+són \emph{homògrafes}\label{pg:homografia}; a més, s'anomena símplement \emph{homògraf} a
+la forma superficial a què correspon més d'una forma lèxica; el
+fenomen s'anomena \emph{homografia}. Per exemple, el mot \emph{riu} és
+homògraf perquè té tres formes lèxiques: \emph{riu}, substantiu,
+masculí singular; \emph{riure}, verb, 3a.\ persona del singular,
+present d'indicatiu, i \emph{riure}, verb, 2a. persona del singular,
+imperatiu.
+
+Però l'homografia no és l'única causa possible d'ambigüitat lèxica; hi
+ha mots que són ambigus tot i tenir la mateixa forma lèxica, perquè el
+que és ambigu és la interpretació del lema. Aquests mots s'anomenen
+habitualment \emph{polisèmics} i aquest tipus d'ambigüitat,
+\emph{polisèmia}. Per exemple, el mot \emph{estació} (forma lèxica:
+\emph{estació}, substantiu, femení singular) és polisèmic perquè el
+lema corresponent té més d'una interpretació: indret on s'aturen
+temporalment els trens, part de l'any compresa entre un solstici i un
+equinocci, conjunt d'instal·lacions per a un propòsit determinat (per
+exemple, l'esquí), etc. La polisèmia afecta totes les formes
+flexionades d'un determinat mot de la mateixa manera (\emph{estacions}
+té exactament la mateixa ambigüitat que \emph{estació}), ja que és una
+propietat del \emph{lema}.
+
+L'ambigüitat d'una oració pot ser causada per diversos tipus bàsics
+d'ambigüitat lèxica.
+\begin{enumerate}
+\item L'oració conté una o més unitats lèxiques (p.ex. mots)
+  polisèmiques: si diem que algú 
+\begin{exemple}
+Treballa en l'estudi que li van
+    encarregar
+\end{exemple} podem referir-nos a un investigador o a un decorador, depenent de
+  quina interpretació  assignem al mot polisèmic \emph{estudi}. De
+  l'ambigüitat d'aquestes unitats lèxiques, també se'n sol dir {\em
+    ambigüitat lèxica pura}.  Aquesta oració l'hem de desambiguar si
+  la volem traduir, per exemple, a l'anglés, perquè en el primer cas
+  hauríem de dir \emph{study} i en el segon, \emph{studio}; per això
+  l'efecte de la polisèmia en traducció pot causar en molts casos l'anomenada {\em
+    ambigüitat de transferència}.  L'ambigüitat lèxica de
+  transferència és especialment perillosa quan afecta un mot de la
+  llengua origen no percebut com a ambigu. Per exemple, el mot
+  espanyol \emph{destino} es pot traduir al català com a {\em
+    destí} (sort futura) o \emph{destinació} (punt d'arribada).
+  
+  Un altre exemple: l'oració 
+\begin{exemple}
+ Han posat un banc nou a la plaça
+\end{exemple}
+pot tenir dues interpretacions, segons la interpretació que s'assigne
+al mot polisèmic \emph{banc} (``seient estret i llarg'' o bé
+``institució financera'').
+  
+Una ambigüitat que és molt semblant a l'ambigüitat lèxica pura es
+produeix quan una expressió idiomàtica es pren bé com a tal o bé en
+sentit literal. Per exemple, la interpretació d'\emph{enviar algú a pastar
+fang} pot ser la idiomàtica de dir a algú que deixe de molestar
+(espanyol \emph{mandar a freír espárragos}) però podria ser també la
+literal en un taller de terrisseria.
+  
+\item L'oració conté homògraf que té dues o
+  més interpretacions però la mateixa categoria lèxica, i no afecta,
+  per tant, l'estructura de l'oració. Hi ha tres situacions possibles
+  \begin{itemize}
+  \item canvia només el lema però no els indicadors de flexió: el
+    mot espanyol \emph{creo} pot ser la 1a. persona del singular del
+    present d'indicatiu del verb \emph{creer} o del verb \emph{crear}.
+  \item no canvia el lema però sí els indicadors de flexió: el mot
+    espanyol \emph{cantamos} pot ser la 1a. persona del plural del
+    present d'indicatiu o del pretèrit indefinit (perfet simple) del
+    verb \emph{cantar}.
+  \item canvien el lema i els indicadors de flexió: el mot espanyol
+    \emph{salen} pot ser la 3a. persona del plural del present
+    d'indicatiu del verb salir o del present de subjuntiu del verb
+    \emph{salar}.
+  \end{itemize}
+  
+\item L'oració conté una \emph{expressió anafòrica}, com ara un
+  pronom, adjectiu possessiu, etc., la qual pot tenir, en principi,
+  més d'una possible interpretació, però aquesta interpretació està
+  determinada per la relació de \emph{coreferència} entre l'expressió
+  i el seu \emph{antecedent} (un sintagma que es pot trobar en la
+  mateixa oració o en una altra oració del text) o perquè es refereix
+  a algun objecte o concepte exterior al text. La relació que assigna
+  una interpretació a una expressió anafòrica s'anomena \emph{deïxi} o
+  \emph{dixi}: quan la interpretació és per \emph{co-referència} amb
+  un antecedent que apareix anteriorment en el text s'anomena {\em
+    anàfora}\label{pg:anafora}, i \emph{catàfora} si l'antecedent és
+  posterior.  En la frase
+\begin{exemple}
+Vaig obrir [la porta]$_i$ a [la cuinera]$_j$ i la$_{i/j?}$ vaig fer passar
+\end{exemple}
+els índexs ($i$, $j$, $i/j?$) indiquen que el pronom feble \emph{la} es
+pot referir a la mateixa persona a la qual ens hem referit amb el
+sintagma nominal \emph{la cuinera}, però no hi ha cap raó sintàctica
+perquè el referent no siga el mateix que el del sintagma \emph{la
+  porta}: aquesta pot ser una possible causa d'ambigüitat en la segona
+oració coordinada.
+
+  
+\item L'oració té constituents que no es reflecteixen com a mots però
+  als quals cal assignar una interpretació. En algunes llengües
+  romàniques (en italià, espanyol i català però no en francés) és
+  comuna l'absència del subjecte quan és de tercera persona. En aquest
+  cas, la posició on hauria d'anar el subjecte es pot suposar ocupada
+  per un pronom sense forma superficial que dóna lloc a ambigüitat
+  mitjançant mecanismes molt similars als de l'anàfora i per tant,
+  se'ls pot considerar mecanismes lèxics.  En el fragment
+  \begin{exemple}
+  Felip va apunyalar Marta. Joan va veure com queia redolant
+  \end{exemple}
+  qui va caure redolant, Felip o Marta?  O alguna altra persona?  El
+  problema és que falta el subjecte de l'oració subordinada \emph{com
+    queia rodolant}. Aquesta omissió dóna lloc a una ambigüitat. Quan
+  es tracta de l'omissió del subjecte, se sol postular en lingüística
+  l'existència d'un pronom especial anomenat PRO, sense forma
+  superficial, que fa de subjecte nul,
+  \begin{exemple}
+    Joan va veure com PRO queia redolant
+  \end{exemple}
+  i al qual s'assigna interpretació mitjançant processos
+  deïctics\footnote{També anomenats \emph{díctics}, relacionats amb la
+  \emph{deïxi} o \emph{dixi}.} o anafòrics com
+  els descrits per a altres expressions anafòriques.
+  
+  Aquesta classe d'ambigüitats se sol incloure dins d'un grup de
+  fenòmens més generals anomenats \emph{ambigüitats per el·lipsi}.
+  \citet{alcaraz97b} defineixen l'\emph{el·lipsi}\label{pg:ellipsi}
+  com l'omissió o l'absència d'alguna part d'una oració. Com veurem
+  més avall, de vegades l'el·lipsi dóna lloc a l'existència de més
+  d'un arbre d'anàlisi sintàctica per a l'oració i per tant aquests
+  tipus d'el·lipsi no es poden incloure pròpiament en aquest apartat
+  dedicat a l'ambigüitat purament lèxica.
+
+\end{enumerate} 
+
+\section{Ambigüitat estructural pura}
+\label{ss:ambest}
+L'ambigüitat d'una oració també pot estar deguda al simple fet que
+tinga més d'un arbre d'anàlisi sintàctica. S'hi poden distingir diversos
+casos:
+\begin{enumerate}
+\item \emph{Ambigüitat estructural d'origen coordinatiu}: 
+Per exemple, si
+  diem 
+\begin{exemple}
+Posa els llençols i els cobertors nets a l'armari
+\end{exemple} hi
+ha dues possibles interpretacions; en una els llençols no estan
+nets, en l'altra sí, segons que es considere que l'adjectiu \emph{nets}
+modifica els dos substantius coordinats o només l'últim (vegeu la
+fig.~\ref{fg:cobertors}). L'ambigüitat estructural associada a les
+conjuncions coordinatives se sol anomenar \emph{d'origen coordinatiu}.
+
+
+\begin{figure}
+\begin{center}
+\begin{parsetree}
+    ( .SN.
+      (.SN.
+        (.SN. ~ `els llençols' )
+        `i' 
+        (.SN. ~ `els cobertors' )
+      )
+      (.SA. ~ `nets' )
+    )
+\end{parsetree}
+\end{center}
+\begin{center}
+\begin{parsetree}
+    ( .SN.
+        (.SN. ~ `els llençols' )
+        `i' 
+        (.SN. 
+        (.SN. ~ `els cobertors' )
+        (.SA. ~ `nets' )
+        )
+    )
+\end{parsetree}
+\end{center}
+
+\caption{Dos arbres per a la frase ``Posa els llençols i els
+  cobertors nets a l'armari'' (SN = sintagma nominal, SA = sintagma adjectival).}
+\label{fg:cobertors}
+\end{figure}
+
+
+  
+\item \emph{Ambigüitat estructural d'adjunció} (angl.\ {\em
+    attachment ambiguity}): es tracta d'un cas típic
+  d'ambigüitat estructural que es manifesta quan hi ha un {\em
+    adjunt}\footnote{Un \emph{adjunt} és un sintagma o constituent que,
+    conjuntament amb un altre sintagma o constituent, forma un constituent del
+    mateix tipus que aquest últim (per exemple, un sintagma nominal
+    més un sintagma preposicional formen un sintagma nominal); en un cert sentit, l'adjunt no és
+    necessari sinó opcional.} (típicament un sintagma preposicional) que es pot
+  inserir de diverses maneres en l'arbre d'anàlisi sintàctica de la
+  frase.  Per exemple, la frase
+  \begin{exemple}
+    Joan va portar notícies de Grècia
+  \end{exemple} 
+  es pot interpretar de dues maneres: en una, el sintagma
+  preposicional \emph{de Grècia} modifica \emph{notícies}; en l'altra,
+  modifica \emph{portar} (vegeu els arbres de la
+  figura~\ref{fg:noticies}).  Més exemples:
+  \begin{exemple}
+  Va parlar amb l'encarregat de la neteja de la seua casa
+  \end{exemple}
+  \begin{exemple}
+  Hi ha una bossa de
+  roba perduda en la Secretaria de l'Escola
+  \label{ex:bossa}
+  \end{exemple}
+  \citet{tuson99b} explica que aquesta última oració pot tenir fins a 12
+  interpretacions possibles.
+
+\begin{figure}
+\begin{center}
+\begin{parsetree}
+(.SI. (.SN. ~ `Joan')
+      (.{\={I}}. 
+
+          (.I. `va' ) 
+          (.SV. 
+                (.V. `portar' )
+                (.SN. 
+                     (.N. `notícies' ) 
+                     (.SP. ~ `de Grècia' )
+                )
+          ) 
+      ) 
+) 
+\end{parsetree}
+\end{center}
+\begin{center}
+\begin{parsetree}
+(.SI. (.SN. ~ `Joan') (.{\={I}}. (.I. `va' ) (.SV. (.SV. (.V. `portar' )
+(.N. `notícies' ) )  (.SP. ~ `de Grècia' ) ) ) )
+\end{parsetree}
+\end{center}
+\caption{Dos arbres per a la frase ``Joan va portar notícies de
+  Grècia'' (SI = sintagma inflexional, \={I} = projecció intermèdia de
+  la inflexió, I = inflexió, SV = sintagma verbal, V = verb, N = nom,
+  SP = sintagma preposicional). }
+\label{fg:noticies}
+\end{figure}
+
+  
+\item L'\emph{ambigüitat estructural deguda a l'el·lipsi} d'un o més
+  constituents de l'oració, especialment quan aquesta oració hauria de
+  tenir, si s'hagués produït en forma explícita, una estructura
+  paral·lela a la d'una oració anterior (per exemple, en
+  coordinacions, comparacions, etc.). \com{Dir que en aquest cas
+    l'esborrat de les parts repetides és obligatori en la major part de les llengües} Considerem l'exemple següent,
+  tret de \citet{radford99b}: 
+  \begin{exemple}
+  \label{eq:escocesos}
+  Els escocesos aprecien el
+    whisky més que els gal·lesos
+  \end{exemple} L'oració té dues interpretacions:
+  \begin{exemple}
+  \item[(a)]  Els escocesos aprecien el whisky més que els gal·lesos
+    (aprecien el whisky)
+  \item[(b)] Els escocesos aprecien el whisky més que (els escocesos
+    aprecien) els gal·lesos\footnote{De fet, per a evitar aquesta
+      ambigüitat, es considera convenient \emph{però no obligatòria}
+      en català la solució alternativa amb preposició \emph{als
+        gal·lesos} per a la segona interpretació.}
+  \end{exemple}
+  En aquests dos casos, l'ambigüitat està causada pel fet que són
+  possibles dues estructures sintàctiques per a la segona oració
+  coordinada: en la primera estructura, el sintagma \emph{els
+    gal·lesos} és el subjecte mentre que en la segona estructura és
+  l'objecte (vegeu els arbres de la fig.~\ref{fg:whisky}).
+
+\begin{figure}
+\begin{center}
+\begin{parsetree}
+(.SI. (.SD. (.D. `els' ) (.N. `gal·lesos' ) ) (.{\={I}}. (.I.  `$\emptyset$' )
+(.SV. (.V. `[aprecien]' ) (.SD. (.D. `[el]' ) (.N. `[whisky]' ) ) ) ) )
+\end{parsetree}
+\end{center}
+\begin{center}
+\begin{parsetree}
+(.SI. (.SD. (.D. `[els]' ) (.N. `[escocesos]' ) ) (.{\={I}}. (.I. `$\emptyset$' )
+(.SV. (.V. `[aprecien]' ) (.SD. (.D. `els' ) (.N. `gal·lesos' ) ) ) ) )
+\end{parsetree}
+\end{center}
+\caption{Dos arbres per a la segona part de la comparació  ``Els
+  escocesos aprecien més el whisky que els gal·lesos'' (SD =sintagma
+  determinant, D = determinant).}
+\label{fg:whisky}
+\end{figure}
+
+\item De vegades, l'anàlisi sintàctica d'una oració es complica per la
+  presència de fenòmens de moviment de constituents. Considerem
+  l'oració
+\begin{example}
+Qui diu que vindrà?
+\end{example}
+Aquesta oració té, bàsicament, dues interpretacions. Una és
+\begin{example}
+Qui diu que PRO vindrà?
+\end{example}
+\com{Atenció: alguns lingüistes distingeixen \emph{pro} i
+  \emph{PRO}. Buscar i arreglar}
+i l'altra
+\begin{example}
+* PRO diu que qui vindrà?
+\end{example}
+És a dir, en la primera, el pronom interrogatiu \emph{qui} és el
+subjecte de l'oració principal; en la segona, és el subjecte de
+l'oració subordinada, el qual ha experimentat el \emph{moviment de Qu}
+(en anglés \emph{Wh-movement}) obligatori en molts idiomes per als
+mots amb funció interrogativa\footnote{No en totes les llengües és
+  obligatori moure els interrogatius al principi de la frase; per
+  exemple, en xinés, no.}. En aquest cas, com en
+l'exemple~\ref{eq:escocesos}, l'el·lipsi permet dos posicionaments
+diferents del pronom \emph{qui} abans del moviment de Qu, però les
+ambigüitats causades pel moviment de Qu poden produir-se també sense
+el·lipsi, com en l'exemple
+\begin{exemple}
+Com dius que ha explicat que vindria?
+\end{exemple}
+\com{Donar l'arbre de l'exemple amb la traça del moviment i tot això?}
+on la posició inicial de l'adverbi interrogatiu \emph{Com} pot
+resultar de la transformació per moviment de Qu de tres estructures
+hipotètiques diferents; en cada una d'elles, l'adverbi és adjunt d'un
+sintagma verbal diferent:
+  \begin{exemple}
+  \item[(a)] *Dius com que ha explicat que vindria?
+  \item[(b)] *Dius que ha explicat com que vindria?
+  \item[(c)] *Dius que ha explicat que vindria com?
+  \end{exemple}
+  En la primera interpretació es pregunta per la manera de dir-ho, en
+  la segona per la manera d'explicar-ho i en la tercera per la manera
+  de venir.
+  
+  Es produeixen també moviments similars amb els relatius; per
+  exemple, aquests es mouen cap a fora (cap amunt) des de les
+  subordinades substantives completives amb verbs del tipus de {\em
+    dir}, \emph{explicar}, etc. En l'oració
+\begin{example}
+No m'agrada la manera com vas dir que vivia encara.
+\end{example}
+el primer \emph{com} és un relatiu que pot modificar \emph{dir} en
+  l'oració \emph{vas dir que vivia encara} (``no m'agrada la manera de
+  dir-ho'')  o pot modificar  {\em
+  vivia} però ha estat mogut fora de la subordinada completiva \emph{vivia encara}, que modifica {\em
+  la manera} (``no m'agrada la manera com vivia, segons vas dir'').
+
+
+
+
+
+\end{enumerate}
+
+
+\section{Ambigüitats mixtes}
+Hi ha oracions que són ambigües tant perquè contenen mots ambigus com
+perquè tenen més d'una estructura sintàctica possible. N'estudiarem
+dos casos:
+\begin{enumerate}
+\item L'oració conté mots afectats d'ambigüitat lèxica categorial; és
+  a dir, conté un o més mots homògrafs  que pertanyen a més d'una {\em
+    categoria lèxica} (vegeu la pàg.~\pageref{pg:catlex} i la nota a
+  peu de la pàg.~\pageref{pg:catgra}) diferent.  Per exemple, el mot {\em
+    deu} pot voler dir ``nou més un'' (numeral) o ``ha de donar o
+  pagar'' (verb).  O el mot \emph{cap} pot ser un substantiu (``part
+  superior del cos''), un verb (forma del verb ``cabre''), un adjectiu
+  o pronom (``no n'hi ha cap''), o part de la preposició composta
+  ``cap a''.
+  
+  Aquest tipus d'ambigüitat lèxica pot provocar de vegades ambigüitat
+  estructural, causada per la presència de més d'una anàlisi
+  sintàctica acceptable (si, tot i els homògrafs, només n'hi ha una
+  anàlisi acceptable, l'ambigüitat passa desapercebuda per al
+  receptor; això és així perquè habitualment només es consideren
+  estructures acceptables quan es vol assignar interpretació a una
+  oració).  Per exemple, la frase anglesa
+  \begin{exemple}
+  Time flies like an arrow
+  \end{exemple}
+  vol dir normalment \emph{El temps vola (com una fletxa)} però també
+  són possibles altres dues interpretacions (semànticament
+  destrellatades però sintàcticament impecables): \emph{A les mosques
+    del temps els agrada una fletxa} o \emph{Cronometra les mosques
+    com una fletxa}.  Aquesta varietat d'interpretacions es deu al fet
+  que hi ha tres mots en la frase que poden pertànyer a dues
+  categories lèxiques diferents: \emph{time} pot ser verb (\emph{cronometrar}) i
+  substantiu (\emph{temps}), \emph{flies} pot ser verb (\emph{vola}) i
+  substantiu (\emph{mosques}) i \emph{like}
+  pot ser verb (\emph{agradar}) i preposició (\emph{com}).  De les 8 ($2\times 2\times 2$) anàlisis
+  morfològiques possibles de la frase, tres en resulten sintàcticament
+  acceptables, amb interpretacions molt diferents. Aquest tipus
+  d'ambigüitat se sol anomenar \emph{ambigüitat estructural d'origen
+    categorial}. En català ---i en general en les llengües romàniques--- són molt comunes les
+  ambigüitats degudes a la combinació d'un mot que pot ser pronom
+  feble de tercera persona o article (\emph{el}, \emph{la}, \emph{l'},
+  \emph{els}, \emph{les}) i un altre mot que pot ser substantiu o verb
+  conjugat. Per exemple, l'oració
+    \begin{exemple}
+    La mata el vol
+    \end{exemple} 
+    pot voler dir dues coses, segons l'elecció de categories
+    lèxiques (``l'acte de volar li provoca la mort'' o ``la planta
+    sent estima per ell'').
+  
+  \item Un altre tipus d'ambigüitat mixta succeeix quan l'ambigüitat
+    lèxica categorial d'alguns mots es combina amb mecanismes
+    d'el·lipsi com els descrits més amunt per a construccions
+    coordinatives o comparatives.  Per exemple, l'oració
+    \begin{exemple}
+    Les gallines han destrossat el sembrat, però no les
+        mates
+    \end{exemple}
+    té dues interpretacions:
+    \begin{exemple} 
+    \label{eq:gallines}
+    \item[(a)]  Les gallines han destrossat el sembrat, però (les
+      gallines) no  (han destrossat) les  mates.
+    \item[(b)]  [Les gallines]$_i$ han destrossat el sembrat, però (tu) no
+      les$_i$ mates.
+    \end{exemple}
+    En (\ref{eq:gallines}a) \emph{les mates} és un sintagma
+    determinant compost d'un article i un substantiu, que fa d'objecte del
+    verb el·líptic \emph{destrossat}, mentre que en (\ref{eq:gallines}b)
+    \emph{les mates} és un sintagma verbal compost d'un pronom ({\em
+      les}) que es refereix a \emph{Les gallines} i un verb ({\em
+      mates}), sintagma que constitueix un sintagma verbal en la
+    segona oració coordinada (vegeu la fig.~\ref{fg:mates}).
+\end{enumerate}
+
+\begin{figure}
+\begin{center}
+\begin{parsetree}
+(.SI. (.SD. ~ `[les gallines]' ) (.{\={I}}. (.NEG. `no' )
+(.{\={I}}. (.I. `[han]' ) (.SV. (.V. `[destrossat]' )  (.SD. ~ `les
+mates' ) ) ) ) ) 
+\end{parsetree}
+\end{center}
+\begin{center}
+\begin{parsetree}
+(.SI. (.SD. `[tu]' ) (.{\={I}}. (.NEG. `no' ) (.{\={I}}. ~ `les mates'
+) ) )
+\end{parsetree}
+\end{center}
+\caption{Dos arbres per a la segona oració coordinada en ``Les
+  gallines han destrossat el sembrat però no les mates'' (NEG =
+  negació).}
+\label{fg:mates}
+\end{figure}
+
+
+\section[Ambigüitat deguda als quantificadors]{Ambigüitat deguda a l'abast dels quantificadors}
+\label{ss:ambabast}
+
+Els quantificadors són mots com \emph{algun}, \emph{tot}, \emph{cada}.
+Quan l'abast d'un quantificador (és a dir, els mots que afecta) és imprecís, una oració pot tenir més
+d'una interpretació. Considerem l'exemple 
+\begin{exemple}
+Totes les dones no s'estimen els abrics de pell.
+\label{eq:abric}
+\end{exemple}
+\citep{hutchins92b}, el qual pot tenir dues interpretacions
+\begin{exemple}
+\item[(a)] No totes les dones s'estimen els abrics de pell.
+\item[(b)] No hi ha cap dona que s'estime els abrics de pell.
+\end{exemple}
+a pesar de no tenir cap ambigüitat lèxica ni estructural aparent.
+\com{Hi ha alguna traducció a alguna llengua en la qual s'haja de
+  decidir entre una interpretació o altra? Si no, no sé quin sentit té
+  això ací en aquest llibre.}
+Aquest tipus d'ambigüitat es pot explicar pel fet que el principi de
+composicionalitat per si sol no és suficient per a especificar
+completament l'assignació d'interpretació a una oració;\footnote{En
+  paraules de \citet[p.~364]{radford99b} ``hem de reconéixer
+  [l'existència] d'un buit inacceptable entre el que proporciona la
+  sintaxi i el que la semàntica necessita en el cas d'oracions que
+  continguen sintagmes nominals quantificats''} la interpretació de les
+oracions se sol explicar en termes de {\em
+  formes lògiques} \citep[p.~357]{radford99b}; en el cas de les
+oracions amb quantificadors, aquestes formes lògiques contenen d'una
+banda, \emph{variables} que poden referir-se a un rang d'objectes que
+cal considerar i, d'altra, operacions sobre aquestes variables.
+Doncs bé, en aquestos casos, es pot assignar més d'una forma lògica a
+una oració.
+
+
+
+
+\section{Estratègies de resolució de l'ambigüitat}
+
+En general, els humans usem les nostres creences sobre el funcionament
+del món real (o d'un món fictici concret, com en una novel·la) per a
+elegir una de les interpretacions com a més versemblant (és a dir, per
+a \emph{resoldre l'ambigüitat}); quan aquestes creences són compartides
+entre l'emissor i el receptor, es pot usar l'ambigüitat com un
+mecanisme molt eficient per a produir missatges més curts.
+
+Com hem vist, les causes de l'ambigüitat són molt diverses; per això,
+també són molt diverses les estratègies de resolució. Aquest epígraf
+recull unes notes ---no exhaustives--- sobre les estratègies de
+resolució d'alguns tipus d'ambigüitat en sistemes automàtics de
+tractament del llenguatge humà.
+
+\subsection{Resolució de l'ambigüitat lèxica categorial} 
+\label{s3:reshom}
+
+La resolució de l'ambigüitat lèxica categorial, altrament coneguda com
+etiquetatge (dels mots) amb parts de l'oració (en anglés,
+\emph{part-of-speech (PoS) tagging}) està molt ben estudiada.
+L'ambigüitat es resol normalment usant bé el coneixement lingüístic,
+bé tècniques estadístiques basades en la freqüència d'aparició en els
+textos de determinades seqüències curtes (combinacions) de categories
+lèxiques, o bé les dues aproximacions alhora.
+
+\comprof{Incloure la referència a l'Ars Minor de Donatus (S. IV)?}
+
+Considerem l'aproximació estadística. Per exemple, el mot espanyol
+\emph{ahorro} pot ser substantiu o verb. Si apareix entre un article i
+un adjectiu com ara en \emph{el ahorro doméstico} no hi ha cap dubte
+que es tracta d'un substantiu: la seqüència article--nom--adjectiu és
+molt més freqüent que no la seqüència article--verb en forma
+personal--substantiu (el coneixement lingüístic ens permetria
+descartar la segona possibilitat amb seguretat quasi total). Si prenem
+un corpus (conjunt) suficientment gran de textos correctes i comptem
+quantes voltes apareixen totes les seqüències possibles de tres
+categories lèxiques, podem usar aquestes freqüències per a assignar la
+categoria d'un mot ambigu: de totes les seqüències de tres mots
+possibles que es puguen formar amb aquest mot, en prendrem la més
+freqüent. 
+
+En general, el coneixement lingüístic permet establir
+\emph{restriccions} que prohibeixen certes seqüències de categories
+lèxiques, però no eliminen completament l'ambigüitat; per això, s'usen
+sempre conjuntament amb mètodes estadístics com els descrits, que
+permeten establir \emph{preferències}.
+
+\subsection{Resolució de la polisèmia}
+
+\comprof{Aquesta secció necessita millorar molt!! Crec que Juan Antonio ja té
+  material per a millorar-la. Cal donar més èmfasi al cas particular
+  de l'ambigüitat de transferència. Potser caldria demanara ajuda a
+ algú del pis de baix.} 
+
+La resolució de la polisèmia (en anglés habitualment \emph{word sense
+  disambiguation}) consisteix a assignar a un mot polisèmic, en un
+text o discurs, una interpretació concreta, possiblement diferent de
+les que podria tenir en altres textos (o contextos). La desambiguació
+s'efectua usant informació procedent de tres fonts: el \emph{cotext}
+(intern al text o discurs) i el \emph{context} (extern al text o
+discurs però relacionat amb ell) i fonts de coneixement addicionals.
+En traducció automàtica, estem interessats a elegir una de les
+interpretacions possibles, perquè és comú que els mots polisèmics
+tinguen diverses traduccions (l'\emph{ambigüitat de transferència}
+esmentada en l'apartat~\ref{ss:amblex}).
+
+S'accepta comunament que la major part dels mots polisèmics d'un text
+(o d'un fragment del text) solen tenir una única interpretació en un
+text donat, però aquest principi s'ha de concretar en un mètode
+concret per a resoldre la polisèmia.
+ 
+La resolució de la polisèmia s'ha abordat des de perspectives molt
+diverses (vegeu \citet{ide98j}); heus-ne ací dues:
+\begin{itemize}
+\item L'ús de \emph{xarxes semàntiques} on els conceptes se situen en
+  els nodes (nusos) de la xarxa i s'agrupen jeràrquicament en
+  superconceptes cada vegada més generals (per exemple, els conceptes
+  \emph{poma}, \emph{pera}, \emph{taronja} s'agruparien sota el
+  concepte \emph{fruita}).\footnote{L'exemple clàssic és
+    \emph{Wordnet}, \url{http://www.cogsci.princeton.edu/~wn/},
+    que s'està generalitzant a altres llengües d'Europa
+    (\url{http://www.dcs.shef.ac.uk/nlp/funded/eurowordnet.html}).}
+  Quan tenim un mot polisèmic, és que li podem associar més d'un
+  concepte. Per a elegir-ne un, podem, per exemple, prendre tots els
+  possibles sentits del mot ambigu i assignar-los el sentit associat
+  al concepte que està més prop dels conceptes representats pels mots
+  veïns en el text.  La informació present en diccionaris electrònics
+  preexistents pot servir per a construir aquestes xarxes o ser usada
+  directament per a la resolució de la polisèmia.
+\item L'estadística d'aparició conjunta de mots en corpus bilingües de
+  textos pot ajudar a resoldre directament l'ambigüitat de
+  transferència quan es disposa de diccionaris de transferència o quan
+  els textos estan alineats. Per exemple, si en un corpus bilingüe
+  espanyol--català l'aparició de \emph{destino} prop d'{\em
+    incierto} en espanyol coincideix amb l'aparició de \emph{destí}
+  en català, podem dir que el mot \emph{destino} té en aquest cas la interpretació de ``sort futura''; en canvi, si l'aparició de {\em
+    destino} prop d'\emph{estación} o \emph{aeropuerto} en espanyol
+  coincideix amb l'aparició \emph{destinació} en català, podem elegir
+  el sentit de ``punt d'arribada''. Aquesta informació podria servir
+  per a traduir després de l'espanyol a l'anglés i elegir {\em
+    destiny} o \emph{destination} en cada cas amb molta
+  probabilitat d'èxit.
+\end{itemize}
+
+
+\subsection{Resolució de l'anàfora}
+\com{Millorar aquest apartat. Parlar de les tècniques de resolució de
+  l'anàfora basades en la combinació de restriccions i de
+  preferències. Restriccions i preferències és també una estratègia
+  per a d'altres ambigüitats, veritat?}
+
+La resolució de l'anàfora ---és a dir, la determinació de l'{\em
+  antecedent} d'un pronom o d'una altra expressió anafòrica--- es pot
+basar en informació morfològica (com ara quant a la
+concordança de gènere i de nombre entre un pronom i el seu
+antecedent), sintàctica, o fins i tot semàntica, tant a través de
+  \emph{restriccions} (per exemple, un pronom femení no pot tenir un
+  antecedent masculí) com de \emph{preferències} (els antecedents més
+  recents o que han estat introduïts explícitament com l'assumpte del discurs
+  o de la conversa ---\emph{Doncs, pel que fa a Joan...}--- són preferibles als més antics). La informació
+sintàctica pot ser més rellevant que no ho sembla: si diem
+\begin{exemple}Marta va parlar amb ella\end{exemple}
+l'antecedent d'\emph{ella} no pot ser \emph{Marta} (es tracta d'una
+restricció sintàctica). En canvi, si diem
+\begin{exemple}Marta va parlar i ella va caure\end{exemple} 
+no es pot descartar completament que l'antecedent d'\emph{ella} siga
+\emph{Marta}. De fet, moltes vegades, només podem recórrer a la
+semàntica; en l'exemple (ja discutit en la secció~\ref{ss:UTA})
+\begin{exemple}
+\ [Els soldats]$_i$ van disparar [als xiquets]$_j$. Els$_{i/j?}$
+vaig veure caure
+\end{exemple}
+s'ha d'usar informació semàntica per a saber quin és l'antecedent
+d'\emph{els} en la segona oració (\emph{els soldats} o \emph{els
+  xiquets}).
+
+
+
+\subsection{Resolució de l'ambigüitat estructural}
+\label{s3:resambest}
+
+En principi, es podria dir que les persones resolem l'ambigüitat
+estructural ---pura o d'origen categorial--- elegint, usant les
+interpretacions assignades a cada una de les estructures possibles
+(principi de composicionalitat), quina és la més versemblant en una
+situació comunicativa determinada. Segons aquest model, les persones
+consideraríem sempre \emph{totes} les estructures sintàctiques. Es
+podria argumentar fàcilment en contra dient que en frases complexes
+(per exemple, l'oració~\ref{ex:bossa}) hi ha massa estructures a considerar. De
+fet, hi ha experiments psicolingüístics que indiquen que de vegades
+usem estratègies purament sintàctiques, elegint entre les possibles
+estructures fins i tot quan no hem sentit o llegit tota l'oració,
+potser per evitar un esforç intel·lectual excessiu, ja que hi pot
+haver moltíssimes interpretacions parcials. A canvi, hem de fer
+l'esforç (pressumiblement més lleuger) de predir una entre les
+possibles continuacions (sintàctiques) del que hem llegit; segons
+arriben mots, els anem encaixant en l'estructura predita i usem la
+sintaxi i la interpretació dels mots per a anar construint a poc a poc
+la interpretació de l'oració completa.  L'experiència ens ajuda a fer
+prediccions que en general tenen èxit, però de vegades hi ha oracions
+``enganyoses'' que ``ens porten a l'hort'' (anomenades, per això, en
+anglés \emph{garden-path sentences}; de fet) ja que en cert punt del
+procés ens obliguen a descartar la predicció feta i reinterpretar el
+que havíem llegit fins a aquell punt (l'estudi dels moviments oculars
+durant la lectura donen pistes molt rellevants sobre l'existència
+d'aquests processos).  Heus ací alguns exemples d'oracions que ``ens
+porten a l'hort'', amb una continuació inesperada en les notes a peu
+de pàgina:
+\begin{exemple}
+Joan besà Maria i la seua germana\ldots\footnote{\ldots el
+        va recriminar per haver-ho fet.}
+\end{exemple}
+\begin{exemple}
+    Com que Joan sempre corre un parell
+      de quilòmetres\ldots\footnote{\ldots li semblen poc.}
+\end{exemple}
+\begin{exemple}
+    En el otro accidente murieron sesenta y
+      cinco\ldots\footnote{\ldots resultaron heridos.} 
+\end{exemple}
+\begin{exemple}
+    The horse raced by the barn\ldots\footnote{\ldots fell
+        down.}
+\end{exemple}
+Aquests processos de selecció purament sintàctica dónen com a resultat
+que hi ha certes estructures finals que són preferides a altres,
+potser perquè simplifiquen la comprensió.  Per exemple, si llegim
+\begin{exemple}
+Va aprendre a afaitar-se en dos minuts
+\end{exemple} 
+podríem considerar la interpretació que s'hi parla de la durada de
+l'afaitat com a més probable que la que interpreta que s'hi parla de
+la durada de l'aprenentatge, ja que en el segon cas potser hauria
+estat més natural dir 
+\begin{exemple}
+Va aprendre en dos minuts a afaitar-se
+\end{exemple}
+La regla que afavoreix que els adjunts s'associen a l'últim sintagma
+que els admeta se sol anomenar regla de \emph{clausura tardana}
+---angl.\ \emph{late closure}---; per exemple, aquesta regla afavoreix
+el primer dels arbres de la figura~\ref{fg:noticies}. Una altra regla que
+se sol usar és la d'\emph{adjunció mínima} ---angl.\ \emph{minimal
+  attachment}--- que afavoreix l'arbre sintàctic amb el mínim de nodes
+(punts de ramificació).  Aquestes estratègies són d'utilitat en els
+sistemes de traducció automàtica per transferència sintàctica pura, ja
+que no s'hi fa cap processament semàntic.
+
+\comprof{A la vista del concepte, és ``clausura tardana'' una bona
+  traducció al català del terme?}
+
+El punt de vista purament sintàctic és clarament una simplificació
+excessiva; moltes vegades, les persones resolem l'ambigüitat
+estructural usant informació semàntica o fins i tot lèxico-semàntica.
+\footnote{Per exemple, el verb \emph{vendre} admet un objecte directe
+  i un d'indirecte, però el verb \emph{menjar} només el directe, de
+  manera que si diem ``Va presentar l'home que venia taronges a Joan''
+  es pot interpretar de dues maneres, però si diem la frase
+  estructuralment idèntica ``Va presentar l'home que menjava taronges
+  a Joan'' no hi ha més que una interpretació possible.} A tall
+d'exemple, considereu aquestes dues frases estructuralment idèntiques
+afectades per ambigüitat d'adjunció:
+\begin{exemple}
+\label{eq:armari}
+Porta'm les claus de l'armari gran
+\end{exemple} 
+\begin{exemple}
+\label{eq:cadira}
+Porta'm les claus de la cadira verda
+\end{exemple} 
+En l'oració~\ref{eq:armari}, podem dubtar, ja que no sabem si les
+claus són les que obrin l'armari o les que estan allà guardades. En
+canvi, en l'oració~\ref{eq:cadira} no considerem la primera
+interpretació (encara que siga la preferida sintàcticament), perquè no
+és gens versemblant que les cadires tinguen pany (hem usat informació
+semàntica basada en les nostres creences sobre el món). Si el sistema
+de traducció automàtica és capaç d'usar informació semàntica, podria
+elegir correctament en aquest cas.
+
+
+\section{Qüestions, exercicis i problemes}
+
+\begin{enumerate}
+\item Indiqueu quina classe d'ambigüitat presenten aquestes
+      frases (justifiqueu molt breument la vostra resposta):
+\com{Potser hi ha massa exemples i caldria seleccionar-ne alguns}
+      \begin{enumerate}
+      \item \emph{Expulsaran l'alcalde de la ciutat} (1:
+             ``L'alcalde de la ciutat serà expulsat.'' 
+             2: ``L'alcalde serà expulsat de la ciutat'').
+      \item \emph{Hi havia un gat sota l'automòbil} (1: ``...perquè
+        acabaven de reparar una roda''; 2: ``...i va eixir corrents
+        quan el vaig posar en marxa'')
+      \item \emph{Maria va entrar amb una bossa gran. Jo la vaig posar damunt de
+          la taula} (1: ``Vaig posar Maria damunt de la taula''; 2:
+        ``Vaig posar la bossa damunt de la taula'')
+      \item \emph{Què vols, galetes o pa de la tia Pepa?} (Les galetes
+        són també de la tia Pepa?)
+      \item \emph{Posa una mà de paper en la impressora i
+          connecta-la.} (Ha de connectar la mà de paper o la
+        impressora?)
+      \item \emph{Us han dit que vaja?} (Qui ha d'anar?).
+      \item (cast.) \emph{Vale más que las comas} (1: ``...que els signes de
+        puntuació''; 2:``...que les menges'')
+      \item ``El mecánico revisó la suspensión del auto de Garzón''
+        (1: Aquest mecànic és un expert en legislació i s'ha llegit
+        la resolució judicial sencera; 2: Els amortidors del cotxe de
+        Garzón ja necessitaven una revisió). 
+      \item ``Mi vecino aseguró que había bajado la bolsa'' (1:
+        La bossa d'escombraries ja és al contenidor; 2: Les meues
+        accions de borsa no deixen de donar-me disgustos).
+      \item ``A qui has dit que telefonarien''?  (1: Per a qui seria
+        la telefonada que has dit que farien? 2: A qui has dit que es
+        produiria una telefonada?)
+      \item ``A pesar de haber sido soldado, salió despedido del
+        avión'' (1: El sistema fotogràfic estava fortament fixat al
+        fuselatge però es va soltar de l'aparell quan l'avió va girar
+        en ple vol; 2: Malgrat el seu passat militar gloriós, el
+        president el va destituir abans d'arribar a l'aeroport de
+        destinació).
+      \item ``Els lladres van ser atrapats a una fàbrica incendiada
+      per un policia'' (1: Els lladres van ser capturats pel comissari
+      a una fàbrica abandonada; 2: La fàbrica on van ser capturats va
+      ser l'objectiu d'un agent piròman).
+      \item ``Coto privado de caza'' (1: Aquesta àrea de caça no és pública;
+      2: Aquesta és una àrea sense caça).
+    \item ``Vull ballar i cantar cançons de bressol'' (1: Ballarem
+      durant una estona i després et cantaré perquè et dormes; 2:
+      M'estime tant ballar cançons de bressol com cantar-ne).
+      \item ``El manifestant es refà de la pallissa que li van donar en
+      l'hospital'' (1: La manifestació va ser una mica violenta i
+      algunes persones han hagut de ser traslladades a l'hospital; 2:
+      Quina pallissa va donar-li l'infermera al quiròfan!).
+      \item ``Serviran polp a la gallega'' (1: Serviran polp a una
+        senyora de Galícia; 2: Serviran polp preparat a l'estil
+        gallec).
+      \item ``No puc veure bé la foto que m'has enviat per correu
+        electrònic perquè no puc tancar totes les finestres'' (1:
+        Encara hi entra sol i es reflecteix en la pantalla; 2: Tinc
+        l'escriptori ple de documents oberts).
+      \item ``Ens va explicar com deien que vindria'' (1: Ens va
+        explicar de quina manera ho deien; 2: Ens va explicar de quina
+        manera vindria segons deien'').
+      \item ``--- Hem rebut notícies que diuen que, per causa de
+        l'humitat i la calor en l'interior del temple, els bancs i els
+        altars de fusta han rebrotat i els han crescut branques i
+        fulles.  --- I les creus?'' (1: Creus aquestes notícies? 2:
+        Els crucifixos també han rebrotat?).
+      \item ``S'han de repassar les entrades i les despeses que
+        s'hagen fet en euros'' (1: Les entrades s'han de repassar
+        totes; les despeses només si s'han fet en euros; 2: De les
+        entrades, se n'han de repassar només les fetes en euros).
+      \item ``Després que la venedora acabà la descripció dels
+        avantatges de la urbanització projectada, el comentari unànime
+        dels inversors va ser que la trobaven molt interessant''. (1:
+        Els inversors, la veritat, prestaven més atenció a la venedora
+        que al producte; 2: Els va agradar l'estil de la descripció;
+        3: La venedora no parlava clar, la descripció era incompleta,
+        però a pesar de tot, la urbanització era una inversió
+        prometedora).
+      \item Els professors han renyat els alumnes. És que, quan es
+        barallen, se'ls nota. (1: Els professors estan barallats i al
+        final els alumnes ho paguen; 2: La baralla d'alumnes havia
+        acabat, però els professors ho van detectar i els van recriminar).
+      \item ``A la trapezista, últimament, no li eixien els números''
+        (1: Sempre acabava caent a la xarxa; 2: tenia més despeses que
+        ingressos).
+%       \item ``Van fer una manifestació pel parc científic'' (1: Van
+%         desfilar a través del parc científic; 2: La manifestació era a
+%         favor del parc científic)
+%       \item ``Els assassins són policies o milicians rebels'' (Els
+%         policies eren també rebels?) 
+%       \item ``Com penses que han arribat al cim?'' (1:  Com és possible que
+%         penses això? 2: Saps de quina manera hi han arribat?)
+%       \item ``Ocultó el rollo para que nadie conociese su verdadera orientación
+%         sexual'' (1: Les fotos, si les revelaven, podien descobrir les
+%         seues preferències sexuals; 2: aquella relació deixaria clares
+%         les seues orientacions sexuals)
+%       \item ``Els professors acompanyaven els xiquets quan els policies
+%         els van cridar'' (A qui van cridar?)
+%       \item ``És difícil però no impossible'' (Què és difícil?)  
+%       \item ``Será mejor que verse sobre la nueva construcción'' (1: Més
+%         val que tracte sobre el mateix tema; 2: és millor citar-se en
+%         aquell altre lloc).
+%       \item ``Aureli explicarà les històries que ha escoltat a Martí'' (1:
+%         li les explicarà a Martí; 2: li les ha escoltades a Martí);
+%       \item ``Com dius que l'has matat?'' (1: Com l'has matat?; 2: Com
+%         dius això?)
+%       \item ``Un problema de llengua li impedeix parlar bé'' (1: el
+%         problema és físic, anatòmic; 2: el problema és lingüístic,
+%         psicològic)
+%       \item ``Li he dit que vindria més tard'' (qui?)
+%       \item ``Connecteu el ratolí a l'ordinador i activeu-lo'' (1:
+%         activeu el ratolí; 2: activeu l'ordinador).
+%       \item ``Han trobat gerres i àmfores ibèriques'' (les gerres
+%         també són ibèriques?).
+%       \item ``Les gallines han destrossat el sembrat, però no les
+%         mates'' (1: no les sacrifiques; 2: no les plantes).
+
+      \end{enumerate}
+
+  \item Hi ha ambigüitats de tipus lèxic que poden ser sempre
+    correctament resoltes després de fer una anàlisi morfològica. No
+    obstant això, hi ha d'altres que només poden ser tractades si es
+    fa una anàlisi sintàctica (tot i que l'ambigüitat siga de tipus
+    lèxic) i fins i tot n'hi ha que requeririen una anàlisi semàntica
+    per a resoldre-les.
+    
+    Elegiu una llengua origen i una llengua meta (francés, anglés,
+    alemany, català o espanyol) i poseu un exemple d'oració per a cada
+    un dels tres casos anteriors, on siga necessari un determinat
+    nivell d'anàlisi per tal de resoldre una ambigüitat i produir-ne
+    la traducció correcta. Expliqueu quina informació usa el sistema
+    en cada cas per a prendre una decisió.
+
+
+      
+\item(*) Indiqueu breument quines estratègies es
+      podrien usar per a resoldre l'ambigüitat sintàctica d'adjunció.
+      Per a inspirar-vos, fixeu-vos en els següents exemples:
+  \begin{itemize}
+  \item \emph{Va aprendre en dos minuts a afaitar-se}
+  \item \emph{Va aprendre a afaitar-se en dos minuts} 
+  \item \emph{Porta'm les claus de l'armari gran}
+  \item \emph{Porta'm de l'armari gran les claus}
+  \item \emph{Porta'm les claus de la cadira verda}
+  \item \emph{Toni comprarà les taronges que ha de vendre a Reme}
+  \item \emph{Toni comprarà a Reme les taronges que ha de vendre} 
+  \end{itemize}
+
+\item Si una oració té només una ambigüitat
+lèxica pura\ldots
+ \begin{enumerate}
+ \item \ldots té un únic arbre d'anàlisi sintàctica,
+ pero més d'una anàlisi morfològica.
+ \item \ldots té un únic arbre d'anàlisi sintàctica i una
+única anàlisi morfològica, però 
+dues interpretacions se\-màn\-ti\-ques diferents.
+ \item \ldots té més d'un arbre d'anàlisi sintàctica.
+ \end{enumerate}
+
+\item La frase ``M'agrada més que la bata''
+pot tenir dues interpretacions; en la primera es parla d'una prenda de
+vestir; en la segona, d'una preferència a l'hora de preparar, per exemple,
+una salsa. Indiqueu de quina classe d'ambigüitat es tracta.
+\begin{enumerate}
+\item Estructural d'adjunció
+\item Lèxica categorial
+\item Estructural d'origen categorial.
+\end{enumerate}
+
+\item La frase ``baixa i puja amb ascensor'' pot voler dir 
+``(baixa) i (puja amb ascensor)'' o ``(baixa i puja) amb ascensor''.
+De quin tipus d'ambigüitat es tracta?
+\begin{enumerate}
+\item Lèxica categorial
+\item Estructural d'origen categorial
+\item Estructural d'origen coordinatiu
+\end{enumerate}
+
+\item En l'oració \emph{El cotxe s'ha cremat amb el garatge i
+    l'assegurança no el cobreix} no se sap quina de les dues coses
+  està coberta per l'assegurança, el garatge o el cotxe. L'ambigüitat...
+\begin{enumerate}
+\item ... es deu a l'el·lipsi.
+\item ... es deu a l'anàfora.
+\item ... és estructural d'origen coordinatiu.
+\end{enumerate}
+
+\item De quina classe és l'ambigüitat de l'oració ``Va vendre les taronges
+que havia comprat a Maria''?
+\begin{enumerate}
+\item Estructural d'origen coordinatiu
+\item Estructural d'adjunció
+\item Extrasentencial per anàfora
+\end{enumerate}
+
+\item Considereu l'homògraf espanyol \emph{vendo} (``Te vendo un
+  coche'' ``Y yo, ¿para qué quiero un coche vendado?''). Es pot
+  resoldre l'ambigüitat lèxica a què dóna lloc usant només informació
+  sintàctica (és a dir, sobre les categories lèxiques que
+  l'acompanyen en l'oració)?
+\begin{enumerate}
+\item No, perquè les dues formes \emph{vendo} s'escriuen exactament igual.
+\item No, perquè les dues formes \emph{vendo} tenen la mateixa categoria
+  lèxica i la mateixa anàlisi morfològica, tret del lema, i, per
+  tant, poden fer exactament les mateixes funcions sintàctiques.
+\item Sí, només mirant la categoria lèxica dels mots anteriors i la
+  dels posteriors ja hi ha prou per a saber en quin dels dos casos ens trobem.
+\end{enumerate}
+
+    \item Imagineu que teniu un text de 1.000.000 de mots en l'idioma
+      \emph{séverla} i un diccionari de correspondències
+      espanyol--\emph{séverla}. El diccionari estableix (entre
+      d'altres) les correspondències següents (s'hi indica la
+      freqüència del mot en el text en \emph{séverla}).
+      \begin{center}
+      \begin{tabular}{l|l|l}
+      \hline\hline
+      \textsc{Espanyol} & \textsc{séverla} & \textsc{freqüència} \\
+      \hline
+      \textsf{asistido, -a} & \textsf{aduya} & 123 \\
+      \textsf{aspecto} & \textsf{atnip} & 44 \\ 
+      \textsf{dirección} & \textsf{obmur} & 150  \\
+      \textsf{dirección} & \textsf{odnam} & 55 \\
+      \textsf{dirección} & \textsf{ragul} & 128 \\
+      \textsf{diseño} & \textsf{atnip} & 43 \\
+      \textsf{diseño} & \textsf{raerc} & 100 \\
+      \textsf{electrónico, -a} & \textsf{dered} & 100 \\
+      \textsf{general} & \textsf{latot}  & 43 \\
+      \textsf{moderno, -a} & \textsf{aídla} & 56 \\
+      \textsf{postal} & \textsf{atrac} & 188 \\
+      \hline
+      \end{tabular}
+    \end{center}
+    En el text en \emph{séverla} trobem, a més, les freqüències
+    següents per a grups de dos mots (només es llisten els grups que
+    apareixen alguna vegada):
+      \begin{center}
+        \begin{tabular}{l|l}  
+        \hline\hline 
+        \textsc{Grup} & \textsc{freqüència} \\\hline
+        \textsf{atrac ragul} & 25 \\
+        \textsf{atrac odnam} & 3 \\
+        \textsf{dered ragul} & 12 \\
+        \textsf{dered odnam} & 2 \\
+        \textsf{latot odnam} & 10 \\
+        \textsf{latot atnip} & 8 \\
+        \textsf{aduya odnam} & 10 \\
+        \textsf{aídla raerc} & 3 \\
+        \textsf{aídla atnip} & 15 \\
+        \textsf{aduya raerc} & 12 \\
+        \hline
+        \end{tabular}
+      \end{center}
+      Indiqueu com traduïríeu les següents expressions espanyoles
+      al séverla i perquè heu elegit aqueixa traducció i no una altra:
+      \begin{enumerate}
+      \item \textsf{dirección postal}
+      \item \textsf{dirección electrónica}
+      \item \textsf{dirección asistida} 
+      \item \textsf{dirección general} 
+      \item \textsf{diseño moderno} 
+      \item \textsf{diseño asistido}
+      \end{enumerate}
+
+    \item (!) Imaginem que tenim textos en la llengua $L_1$ i les
+      traduccions (correctes) corresponents en la llengua $L_2$, fetes
+      per una persona de manera que s'hi respecte tant com siga
+      possible l'estructura de les frases del text original. Indiqueu
+      com es podria usar la informació present en aquestes traduccions
+      per a resoldre les ambigüitats que es troba un sistema de
+      traducció automàtica quan tradueix \emph{els mateixos textos} a
+      una altra llengua $L_3$ (Martin Kay, de Xerox Palo Alto,
+      Califòrnia, anomena aquest procés \emph{triangulació en la
+        traducció}). Si voleu, fixeu-vos només en les ambigüitats
+      lèxiques.
+
+    \item Moltes vegades, l'ambigüitat lèxica no és ni polisèmia ({\em
+        estació}, {\em bomba}), ni ambigüitat lèxica amb canvi de
+      categoria gramatical ({\em sobre} [preposició, substantiu i,
+      en la varietat valenciana, verb], {\em riu} [substantiu i verb]) sinó
+      que succeeix perquè dues formes {\em de la mateixa categoria lèxica\/}
+      són homògrafes: {\em volem\/} pot ser una forma del verb {\em
+        volar\/} i del verb {\em voler\/}; {\em podeu\/} pot ser una
+      forma del verb {\em poder\/} i del verb {\em podar}; en
+      espanyol, {\em creo\/} és una forma de {\em creer\/} o de {\em
+        crear}, {\em fui} és una forma de {\em ir\/} o de {\em ser},
+      etc. Per a resoldre l'ambigüitat d'un mot polisèmic s'ha d'usar
+      informació semàntica; per a resoldre l'ambigüitat lèxica
+      categorial sol ser suficient usar informació sintàctica (per
+      exemple, la categoria gramatical del mots anterior i posterior);
+      però, és possible resoldre l'ambigüitat deguda a l'homografia de
+      mots de la mateixa categoria usant només la sintaxi o és
+      necessari l'ús d'informació semàntica?
+
+    \item Els sistemes de traducció mot per mot poden cometre, per
+      exemple, errors deguts a l'elecció incorrecta de la categoria
+      gramatical d'un mot lèxicament ambigu. Elegiu dues llengües,
+      $L_1$ i $L_2$ i poseu dos exemples de traduccions errònies de
+      $L_1$ a $L_2$, indicant la frase original, la frase mal traduïda
+      i la frase correcta.
+
+\item 
+   Si una forma superficial és ambigua però té només una forma lèxica{\ldots}
+   
+\begin{enumerate}
+\item {\ldots} es tracta d'un mot homògraf.
+\item {\ldots} hi ha algun error en l'anàlisi morfològica.
+\item {\ldots} podem dir que el lema és polisèmic.
+\end{enumerate}
+
+\item 
+   Pot una oració tenir més d'una traducció a un altre idioma malgrat
+   estar formada completament per mots que no són ni homògrafs ni
+   polisèmics en la llengua original?
+   
+\begin{enumerate}
+\item No: ho prohibeix el principi de composicionalitat.
+\item Sí, encara que no continga pronoms o altres
+     expressions anafòriques susceptibles de tenir més d'un antecedent
+     possible.
+\item Sí, però només si conté pronoms o altres
+     expressions anafòriques susceptibles de tenir més d'un antecedent
+     possible.
+\end{enumerate}
+
+
+\item En absència d'informació lèxica o semàntica, l'ambigüitat
+estructural{\ldots}
+\begin{enumerate}
+\item {\ldots} és impossible de resoldre.
+\item {\ldots} es pot resoldre usant regles derivades d'un estudi de les preferències
+sintàctiques observades en experiments psicolingüístics.
+\item {\ldots} no pot afectar mai el resultat de la traducció automàtica. 
+\end{enumerate}
+
+\item 
+És possible resoldre en alguns casos l'ambigüitat deguda a un
+mot homògraf utilitzant exclusivament informació morfològica?
+
+\begin{enumerate}
+\item No, aquest tipus d'ambigüitat exigeix un tractament semàntic
+com a mínim.
+\item No, sempre cal utilitzar informació de caràcter sintàctic per
+resoldre-la.
+\item Sí, usant la informació morfològica dels mots adjacents.
+\end{enumerate}
+
+\item Si un mot té només una forma lèxica i una única traducció a
+   una determinada llengua, pot ser encara ambigu?
+   
+\begin{enumerate}
+\item No.
+\item Sí, pot ser polisèmic encara que la traducció a aquesta
+      llengua de totes les interpretacions siga la mateixa.
+\item Sí; pot ser homògraf i tractar-se d'un passi gratuït.
+\end{enumerate}
+\item Si traduim automàticament la frase espanyola ``Ayer cantamos
+   las mismas canciones'' i obtenim en anglés ``Yesterday we sing
+   the same songs'' o en francés ``Hier nous chantons les mêmes
+   chansons'', quin tipus d'ambigüitat ha estat mal resolta? 
+   
+\begin{enumerate}
+\item Una ambigüitat lèxica per homografia d'un mot
+\item Una ambigüitat lèxica pura per polisèmia d'un mot
+\item Una anàfora
+\end{enumerate}
+\item Si traduim automàticament la frase catalana ``Hilari no
+   coneix bé la Mariona: cada dia troba sorprenent el que fa'' i
+   obtenim en anglés ``Hilari does not know Mariona well: every day he
+   finds what he does astonishing'' o en francés ``Hilari ne connaît
+   pas bien Mariona: tous les jours elle trouve ce qu'il fait
+   etonnant'', quin tipus d'ambigüitat ha estat mal resolta?
+   
+\begin{enumerate}
+\item L'anàfora d'un pronom buit
+\item L'anàfora del pronom \emph{que}.
+\item Una ambigüitat sintàctica de l'oració subordinada ``el que fa''
+\end{enumerate}
+
+\item 
+   El principi de composicionalitat diu que la interpretació d'una
+   oració està determinada per les interpretacions dels mots i per la
+   sintaxi. Quan es produeix una ambigüitat perquè no queda clara
+   l'adscripció d'un sintagma preposicional, com en \emph{porta la clau
+   de l'armari gran}, quina n'és la raó?
+
+   
+\begin{enumerate}
+\item La existència de més d'una estructura sintàctica possible.
+\item L'ambigüitat categorial de la preposició.
+\item La polisèmia de la preposició.
+\end{enumerate}
+\item 
+   En les frases comparatives de l'estil de
+   \begin{center}\emph{Els processadors 
+       processen més ràpidament les dades que els dispositius
+       perifèrics}\end{center} què fa que siga possible la existència
+   de dues interpretacions (els \emph{dispositius perifèrics} són
+   processats o processen?).
+   
+\begin{enumerate}
+\item L'ambigüitat d'adjunció del sintagma que comença per \emph{que}.
+\item L'elipsi d'un sintagma nominal, que queda substituït per un
+     pronom nul PRO.
+\item L'elipsi simultània d'un sintagma nominal i un sintagma
+     verbal, que fa dubtosa l'adscripció del sintagma nominal restant.
+\end{enumerate}
+
+\item L'ambigüitat lèxica categorial d'un mot{\ldots}
+\begin{enumerate}
+\item {\ldots}no es pot resoldre mai si no s'usa informació semàntica
+sobre el text o sobre els mots contigus.
+\item {\ldots}no es pot resoldre si no es fa l'anàlisi sintàctica
+completa de la frase, ja aquesta és l'única manera d'elegir l'anàlisi
+morfològica correcta.
+\item {\ldots} s'intenta resoldre normalment amb regles basades en les
+  categories lèxiques dels mots que l'acompanyen en la frase.
+\end{enumerate}
+
+\item Quin tipus d'ambigüitat 
+es produeix en el pronom feble \emph{li} de
+la frase ``\emph{Vaig veure Mario i la seua mare; li vaig dir que
+m'agradava molt el seu fill}''?
+
+\begin{enumerate}
+\item Polisèmia, perquè el pronom pot, en principi, estar substituint un
+nom o un altre.
+\item Una anàfora.
+\item Una mena de moviment de \emph{Qu}, però en aquest cas amb un
+pronom feble.
+\end{enumerate}
+
+% < QT8
+
+\end{enumerate}
+
+\section{Solucions}
+\com{Repassar-les}
+
+\begin{enumerate}\item \begin{enumerate}
+      \item Ambigüitat sintàctica o estructural (pura) d'adjunció: el sintagma
+        preposicional \emph{de la ciutat} es pot inserir en dues
+        posicions diferents de l'oració: pot modificar \emph{alcalde}
+        o \emph{expulsaran [l'alcalde]}.
+      \item Ambigüitat lèxica pura (polisèmia) del mot \emph{gat}.
+      \item Ambigüitat lèxica per anàfora: el pronom \emph{la}
+        pot tenir dos antecedents: \emph{Maria} i la \emph{bossa}.
+      \item Ambigüitat sintàctica o estructural (pura) d'origen
+        coordinatiu: el sintagma \emph{de la tia Pepa} pot modificar
+        als dos sintagmes nominals coordinats (\emph{galetes i pa}) o
+        només al segon (\emph{pa}).
+      \item Ambigüitat lèxica per anàfora: el pronom \emph{la}
+        pot tenir dos antecedents: \emph{mà [de paper]} i la \emph{impressora}.
+      \item Ambigüitat per el·lipsi: el subjecte de \emph{vaja} pot
+        ser \emph{jo}, \emph{ell}, \emph{ella}, etc. En el cas dels
+        pronoms de tercera persona, la interpretació estarà
+        determinada pels antecedents que se'ls assignen (ambigüitat
+        lèxica per anàfora).
+      \item Ambigüitat sintàctica o estructural d'origen categorial
+        deguda al fet que els mots \emph{las} (article o pronom) i
+        \emph{comas} (substantiu o verb) són homògrafs afectats
+        d'ambigüitat lèxica categorial. De les quatre combinacions
+        possibles, dues són sintàcticament acceptables.
+      \item         L'oració és ambigua perquè dos dels seus mots presenten
+        ambigüitat lèxica pura (polisèmia): \emph{auto} pot ser un
+        automòbil o un tipus de resolució judicial; \emph{suspensión}
+        pot ser l'acció de suspendre (la resolució) o el sistema
+        d'amortidors de l'automòbil. De les quatre combinacions
+        possibles, dues tenen un cert sentit.
+        
+      \item Ambigüitat estructural amb el·lipsi i moviment: en una
+        interpretació \emph{la bolsa} pot ser l'objecte de l'acció
+        (transitiva) de baixar si el subjecte (nul) és el mateix que
+        \emph{mi vecino} (``Mi vecino aseguró que (él mismo) había
+        bajado la bolsa''); en l'altra, \emph{la bolsa} és el subjecte
+        (mogut a posició postverbal) de l'acció intransitiva de
+        baixar.
+      \item Ambigüitat estructural pura per moviment de Qu. El SP
+        \emph{a qui} pot ser l'objecte indirecte del verb telefonar en
+        l'oració subordinada (\emph{Has dit [que [PRO telefonarien a
+          qui]]}) o l'objecte indirecte del verb dir en l'oració
+        principal (\emph{Has dit [que [PRO telefonarien]] a qui}).
+      \item  L'oració és ambigua per l'ambigüitat lèxica
+        (homografia) de \emph{soldado}. En la primera interpretació
+        és un participi en la forma passiva \emph{haber sido soldado};
+        en la segona és un substantiu masculí singular. També hi
+        intervé l'ambigüitat lèxica pura (polisèmia) de
+        \emph{despedir} (en la primera \emph{llançar}; en la segona,
+        \emph{deixar sense treball}). Dues de les quatre combinacions
+        tenen sentit.
+
+      \item Ambigüitat estructural pura d'adjunció. El sintagma
+        preposicional \emph{per un policia} pot modificar el sintagma
+        verbal \emph{atrapats a una fàbrica incendiada} o només el
+        sintagma verbal \emph{incendiada}.
+      \item Ambigüitat mixta. D'una banda,
+        lèxica: el mot \emph{privado} pot ser un adjectiu
+        (interpretació 1) o un participi (interpretació 2). D'altra
+        banda, estructural: en la primera interpretació, el sintagma
+        preposicional \emph{de caza} modifica el sintagma nominal
+        \emph{coto privado} (\emph{[[coto privado] [de caza]]}); en el
+        segon, només el participi \emph{privado} (\emph{[[coto]
+          [[privado] [de caza]]]}).
+    \item  Ambigüitat
+      estructural d'origen coordinatiu. El sintagma nominal 
+      \emph{cançons de bressol} pot modificar només el segon 
+     sintagma verbal \emph{cantar} o el sintagma verbal complet
+     \emph{ballar i cantar} (és a dir, \emph{cançons de bressol} pot
+     ser objecte directe només del segon verb o dels dos).
+      \item Ambigüitat estructural pura d'adjunció. El sintagma
+      preposicional \emph{a l'hospital} pot modificar el sintagma
+      verbal \emph{li van donar}  o el sintagma verbal \emph{es refà de
+      la pallisa que li van donar}.
+  \item Ambigüitat estructural d'adjunció: el sintagma preposicional
+    \emph{a la gallega} pot modificar el nom \emph{polp} per a formar
+    sintagma nominal \emph{polp a la gallega} o modificar el sintagma
+    verbal \emph{serviran polp} (amb nucli \emph{serviran}) i formar
+    el sintagma verbal \emph{serviran polp a la gallega}. 
+  \item L'oració és ambigua per polisèmia (ambigüitat lèxica) del
+    substantiu  \emph{finestra} (de la paret/ del sistema operatiu)
+  \item Ambigüitat estructural per moviment de constituents (en
+    concret, per moviment de l'element Qu \emph{com}). Aquest element
+    pot modificar els verbs \emph{deien} i \emph{vindria}.  Les
+    estructures, abans del moviment, i de la formació de l'estructura
+    de relatiu, es podrien representar així:
+    \begin{itemize}
+    \item Ens va explicar \emph{de quina manera}. Deien \emph{d'aquella
+      manera} que vindria.
+  \item Ens va explicar \emph{de quina manera}. Deien que vindria
+    \emph{d'aquella manera}.
+     \end{itemize}
+    Noteu que l'el·lipsi dels subjectes no hi està involucrada perquè
+    l'element Qu que es mou no és un sintagma nominal.
+  \item Ambigüitat estructural d'origen categorial. En la primera
+    interpretació \emph{les} és un pronom i \emph{creus} és un verb, i
+    formen junts un sintagma verbal; en la segona \emph{les} és un
+    article i \emph{creus} és un substantiu i formen junts un sintagma
+    nominal.
+  \item Ambigüitat estructural d'adjunció. El sintagma (oració
+    subordinada de relatiu) \emph{que s'hagen
+    fet en euros} pot modificar al segon sintagma nominal \emph{les
+    despeses} o al sintagma nominal complet \emph{les entrades i les
+    despeses}.
+\item Ambigüitat de l'oració deguda a l'ambigüitat lèxica per anàfora.
+  El pronom \emph{la} pot tenir tres antecedents: \emph{la venedora},
+  \emph{la descripció} o \emph{la urbanització projectada} i, per
+  tant, tres interpretacions diferents.
+\item Ambigüitat de l'oració deguda a l'ambigüitat lèxica per anàfora:
+  el pronom \emph{'ls} i el pronom nul PRO que fa de subjecte de
+  \emph{es barallen} poden tenir els antecedents \emph{els professors}
+  i \emph{els alumnes} i, per tant, poden tenir interpretacions
+  diferents.
+\item Ambigüitat de l'oració per polisèmia (ambigüitat lèxica) del mot
+  \emph{número} (part d'una actuació / comptes econòmics)
+%       \item ``Van fer una manifestació pel parc científic'' (1: Van
+%         desfilar a través del parc científic; 2: La manifestació era a
+%         favor del parc científic)
+%       \item ``Els assassins són policies o milicians rebels'' (Els
+%         policies eren també rebels?) 
+%       \item ``Com penses que han arribat al cim?'' (1:  Com és possible que
+%         penses això? 2: Saps de quina manera hi han arribat?)
+%       \item ``Ocultó el rollo para que nadie conociese su verdadera orientación
+%         sexual'' (1: Les fotos, si les revelaven, podien descobrir les
+%         seues preferències sexuals; 2: aquella relació deixaria clares
+%         les seues orientacions sexuals)
+%       \item ``Els professors acompanyaven els xiquets quan els policies
+%         els van cridar'' (A qui van cridar?)
+%       \item ``És difícil però no impossible'' (Què és difícil?)  
+%       \item ``Será mejor que verse sobre la nueva construcción'' (1: Més
+%         val que tracte sobre el mateix tema; 2: és millor citar-se en
+%         aquell altre lloc).
+%       \item Ambigüitat estructural pura d'adjunció: el sintagma
+%         preposicional ``a Martí'' pot modificar a ``explicarà''
+%         (oració principal) o a ``ha escoltat'' (oració subordinada).
+%       \item Ambigüitat estructural pura (d'adjunció): l'adverbi
+%         interrogatiu ``com'' pot pertànyer a l'oració principal o pot
+%         pertànyer a la subordinada i haver estat desplaçat
+%         obligatòriament (``moviment de Qu'') a la posició inicial.
+%       \item Ambigüitat lèxica del mot ``llengua''.
+%       \item Ambigüitat deguda a l'el·lipsi: el subjecte del verb
+%         ``vindria'' pot ser ``jo'', ``ell'', ``ella''.
+%       \item Ambigüitat extrasentencial deguda a l'anàfora: el pronom
+%         ``lo'' pot tenir dos antecedents diferents: ``l'ordinador'' i
+%         ``el ratolí''.
+%       \item Ambigüitat estructural pura d'origen coordinatiu:
+%         ``ibèriques'' pot modificar tot el sintagma nominal 
+%           coordinat o només el segon.
+%       \item Ambigüitat estructural d'origen coordinatiu, deguda a dues
+%         ambigüitats lèxiques categorials: ``les'' (pronom o article) i
+%         ``mates'' (substantiu i verb); de les quatre combinacions,
+%         dues són sintàcticament acceptables.
+ 
+      \end{enumerate}
+
+  \item Exemples de l'espanyol al català:
+    \begin{itemize}
+    \item Ambigüitat que es pot resoldre després de fer una anàlisi
+      morfològica de l'oració: en \emph{mi trabajo}, l'homògraf
+      \emph{trabajo} pot ser substantiu (català \emph{treballo}) o
+      verb (català \emph{treball}), però la presència de \emph{mi}
+      (determinant possessiu) desambigua l'homògraf perfectament.
+    \item Ambigüitat lèxica que necessita una anàlisi sintàctica per a
+      ser resolta: l'expressió multimot \emph{sesenta y cinco} pot ser
+      un únic numeral (català \emph{seixanta-cinc}) o dos numerals
+      coordinats (català \emph{seixanta i cinc}). L'anàlisi
+      morfològica no és suficient per a detectar que en la frase
+      \emph{En el lugar donde murieron sesenta y cinco quedaron
+        restos} és el primer cas i en la frase \emph{Murieron sesenta
+        y cinco quedaron malheridos} és el segon.
+    \item Ambigüitat lèxica que necessita una anàlisi semàntica per a
+      resoldre-la: el mot polisèmic \emph{destino} en l'oració
+      \emph{El destino estaba escrito en el billete arrugado que
+        encontraron} es traduiria pel català \emph{destinació} i en
+      canvi en l'oració \emph{El destino estaba escrito en el libro
+        sagrado que encontraron} es traduiria pel català \emph{destí};
+      l'elecció exigeix identificar relacions semàntiques entre les
+      interpretacions dels mots.
+
+    \end{itemize}
+
+
+      
+    \item(*) Vegeu la secció~\ref{s3:resambest}.  En el cas de les
+      frases ``Toni comprarà...'', sembla lògic usar la regla de {\em
+        clausura tardana}, ja que es correspon prou bé amb les
+      interpretacions preferides per les persones.
+
+\item (b)
+\item (c). Els mots \emph{la} i \emph{bata} poden pertànyer cada un
+  a dues categories lèxiques diferents. De les quatre combinacions
+  resultants, dues són sintàcticament acceptables.
+\item (c)
+\item (b). El pronom feble \emph{el} pot referir-se a \emph{garatge}
+  o a \emph{cotxe}.
+\item (b). El sintagma preposicional ``a Maria'' pot ser l'objecte
+  indirecte de l'oració principal i de la subordinada.
+\item (b)
+
+    \item Cada mot en espanyol es correspon, de vegades, amb més d'un
+      mot en séverla: es tracta d'un cas típic d'ambigüitat lèxica de
+      transferència. Buscarem, entre les possibles traduccions dels
+      grups de dos mots, les que apareguen més freqüentment en el
+      corpus i les elegirem.
+      \begin{description}
+      \item[dirección postal:] \emph{dirección} pot ser \emph{obmur},
+        \emph{odnam} o \emph{ragul}; \emph{postal} només és
+        \emph{atrac}. Les úniques combinacions (col·locacions) que
+        apareixen en els textos són \emph{atrac odnam} i \emph{atrac
+          ragul}; la segona és la més freqüent i, per tant, l'elegim.
+      \item[dirección electrónica:] \emph{electrónica} és
+        \emph{dered}; la combinació \emph{dered obmur} no s'hi dóna, i
+        \emph{dered odnam} és menys freqüent que \emph{dered
+          ragul}. Així doncs, elegim la segona.
+      \item[dirección asistida:] \emph{asistida} és \emph{aduya} i
+        només trobem \emph{aduya odnam}: per tant, l'elegim.
+      \item[dirección general:] \emph{general} és \emph{latot} i només
+        trobem \emph{latot odnam}. Per tant, l'elegim.
+      \item[diseño moderno:] \emph{diseño} pot ser \emph{raerc} o
+        \emph{atnip}; \emph{moderno} és \emph{aídla}; \emph{aídla
+          atnip} és molt més freqüent que \emph{aídla raerc}. Per
+        tant, elegim la primera.
+      \item[diseño asistido:] \emph{asistido} és \emph{aduya}. Només
+        trobem \emph{aduya raerc}; per tant, l'elegim.
+      \end{description}
+      Nota: \emph{séverla} és \emph{alrevés} al revés. Si llegiu els
+      mots al revés, veureu per què s'han elegit.
+
+
+    \item La traducció (humana) de les frases en la llengua $L_1$ a la
+      llengua $L_2$ ens pot servir per a determinar quina de les
+      anàlisis (interpretacions) de les frases en $L_1$ s'hauria
+      d'elegir i usar aquesta elecció abans de traduir automàticament
+      a $L_3$.
+      
+      Fixem-nos en l'ambigüitat lèxica deguda als mots polisèmics, i
+      imaginem que tenim $L_1$=espanyol, $L_2$=anglés i $L_3$=català.
+      Si la traducció del mot \emph{destino} a l'anglés és
+      \emph{destination}, la traducció correcta al català és
+      \emph{destinació}, ja que s'ha elegit la interpretació ``punt
+      final o finalitat d'un procés o desplaçament''; si és
+      \emph{destiny}, la traducció correcta al català és \emph{destí},
+      ja que s'ha elegit la interpretació ``sort futura que ens
+      reserva l'atzar''. Es podria fer similarment en el cas dels mots
+      homògrafs.
+      
+      Aquesta \emph{triangulació} també pot servir per a tractar altres tipus
+      d'ambigüitat, com ara la sintàctica.
+
+      
+    \item La solució semàntica és més potent i general però exigeix
+      una anàlisi molt profunda de la frase. En alguns casos, la
+      sintaxi podria donar pistes que permetrien una desambiguació
+      molt aproximada. Per exemple, si {\em fui\/} va seguit de la
+      preposició {\em a}, és molt probable que es tracte del verb {\em
+        ir}; d'altra banda, si va seguit d'un participi passat, és
+      molt probable que es tracte del verb {\em ser\/}: es podria fer
+      una categoria gramatical especial per al verb ser i usar
+      tècniques de desambiguació categorial. Si trobem {\em podem\/}
+      ({\em volem\/}) seguit d'infinitiu, és molt més probable que es
+      tracte del verb {\em poder\/} ({\em voler\/}) que del verb {\em
+        podar} ({\em volar\/}); de nou, caldria usar una categoria
+      gramatical especial, en aquest cas per als verbs modals.
+     
+    \item Es poden trobar molts exemples; per exemple, 
+     entre $L_1 =$ espanyol i $L_2 =$ català, tenim:
+    \begin{itemize}
+    \item Ayer por la mañana vino tarde $\rightarrow$ *Ahir pel demà vi
+      vesprada (Ahir de matí va venir tard).
+    \item Río porque no llegó a la meta $\rightarrow$ *Riu perquè no
+      va arribar a la fique (Ric perquè no va arribar a la meta).
+    \end{itemize}
+      
+\item (c)
+\item (b)
+\item (b). Pot tenir més d'un arbre d'anàlisi sintàctica (ambigüitat
+  estructural). 
+\item (c)
+\item (b)
+\item (a). \emph{Cantamos} pot ser present o passat.
+\item (a). El pronom buit que fa de subjecte de \emph{fa}.
+\item (a)
+\item (c). Mireu l'exemple~\ref{eq:escocesos}
+\item (c)
+\item (b). El pronom \emph{li} pot tenir els antecedents \emph{Mario}
+  i \emph{la seua mare}
+
+% < SL8
+
+\end{enumerate}
+
