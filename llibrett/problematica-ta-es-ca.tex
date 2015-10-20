@@ -1,0 +1,388 @@
+\chapter{Problemàtica de la TA espanyol--català}
+\label{se:PdTACC}
+
+La inclusió d'aquest capítol en el llibre té dues raons:
+\begin{itemize}
+\item D'una banda, estudiar amb una miqueta més de detall els
+  problemes que planteja la traducció automàtica entre dues llengües
+  emparentades. Podríeu pensar que, sent l'espanyol i el català tan
+  similars sintàcticament, els problemes serien poc importants: el
+  capítol intenta convéncer-vos que les coses no són tan senzilles com
+  podrien semblar a primera vista.
+\item D'altra banda, serveix per a il·lustrar, amb un parell de
+  llengües concret, alguns dels conceptes tractats en els capítols anteriors.
+\end{itemize}
+
+
+
+
+\section{Introducció}
+
+Les aplicacions potencialment més interessants de la TA
+espanyol--català s'em\-mar\-quen dins de l'anomenada {\em
+  normalització lingüística}, és a dir, l'esforç de les societats
+de parla catalana per promoure'n l'ús normal en tots els àmbits; un
+exemple actual el constitueixen els servidors d'Internet
+d'institucions públiques i d'empreses privades dels Països Catalans,
+on la presència del català és encara minoritària. Quan la llengua
+original dels documents és l'espanyol, es podria usar un sistema de
+TA per a generar esborranys de documents catalans (o, fins i tot,
+documents correctes si els documents espanyols estan escrits en un
+llenguatge controlat).
+
+En el cas concret de l'espanyol i el català, la proximitat lingüística
+entre les dues llengües fa que siga abordable el disseny de sistemes
+de traducció automàtica que generen textos d'un nivell de correcció
+tal que resulte més rendible revisar el resultat en brut produït pel
+programa que fer la traducció completa (mireu la p.~\ref{pg:cost}).
+
+
+En aquest capítol es presenten alguns dels problemes més importants
+amb què es pot trobar qui vulga dissenyar un sistema de traducció
+automàtica per a traduir textos de l'espanyol al català. A la vista de
+la notable similitud lingüística existent entre les dues llengües, es
+podria pensar que la tasca de traducció automàtica podria, en la
+majoria dels casos, ser tan senzilla com substituir un a un els mots
+espanyols pels seus equivalents catalans. De fet, el model de
+traducció automàtica \emph{mot per mot} (definit en la
+pàg.~\pageref{pg:mpm}, i que no s'ha de confondre amb el que els
+traductors humans anomenen \emph{traducció literal}) és el model de
+referència que usarem en aquest capítol: els tres grups de {\em
+  problemes} que es presenten en aquest capítol són alguns ---no
+tots--- dels que no resol el model mot per mot: la segmentació del
+text origen, l'homografia i les divergències sintàctiques.
+
+\section{Segmentació del text origen}
+
+La segmentació d'un text en mots sol ser normalment molt senzilla: el
+programa pot usar els blancs, els tabuladors, els finals de línia o
+els signes de puntuació com a fronteres entre mots. Però de vegades no
+és tan fàcil: per exemple, l'espanyol uneix moltes vegades diversos
+mots en un sol mot, sense que s'hi puguen distingir els mots
+components; en català, llevat de contraccions com \emph{al},
+\emph{pels}, i \emph{del}, sempre queda alguna indicació d'aquesta
+unió, com ara un apòstrof o un guionet. Per exemple, en espanyol, els
+pronoms enclítics s'uneixen a l'imperatiu, a l'infinitiu i al gerundi,
+i moltes voltes fan que en canvie la forma (vegeu
+l'epígraf~\ref{s3:STMorf}). Per sort, aquests problemes es poden
+resoldre de manera senzilla usant analitzadors morfològics com els que
+es descriuen en l'epígraf~\ref{s3:anmor}.
+
+\section{Homografia}
+
+L'homografia pot produir ambigüitat lèxica categorial o fins i tot aparéixer
+entre mots de la mateixa categoria lèxica. L'homografia apareix quan un mot
+(anomenat usualment \emph{homògraf}) té més d'una anàlisi morfològica
+possible (vegeu l'apartat~\ref{ss:amblex}). L'espanyol ---com les
+altres llengües romà\-ni\-ques--- té molts homògrafs. Una de les fonts més
+importants d'homografia és la coincidència entre algunes terminacions
+de la flexió verbal i algunes terminacions de la flexió nominal i
+adjectival (\emph{-a}, \emph{-as}, \emph{-o}, \emph{-e}, \emph{-es}), ja
+que involucra categories lèxiques obertes amb molts
+membres.\footnote{De vegades, els mots homògrafs comparteixen una
+  semàntica relacionada, com \emph{ahorro}, i altres vegades no, com
+  \emph{oso}.} Però hi ha, a més, altres fonts menys productives
+d'ambigüitat, com ara la coincidència d'algunes de les terminacions
+del present d'indicatiu dels verbs en \emph{-ar} amb les del present de
+subjuntiu dels verbs en \emph{-er} i \emph{-ir} i al revés. Finalment, hi ha
+algunes homografies fortuïtes (com ara \emph{para}: preposició i verb).
+
+Per a il·lustrar aquest fet, es presenta un assaig de classificació 
+---no exhaustiva---  dels homògrafs espanyols:
+
+\begin{enumerate}
+\item Homografia verb conjugat--substantiu:
+ \begin{enumerate}
+
+   \item En \emph{-a}: 
+   \begin{itemize}
+   \item Pres.\ ind., 3a pers.\  sing.\ (1a conj.) / subst.\ fem.\ sing.: \emph{casa}, \emph{pinta},
+   \emph{ sala}, \emph{toma}, \emph{entrega}, \emph{osa}.
+   \item Pres. subj., 1a i 3a pers.\ sing.\ (2a i 3a conj.) / subst.\ fem.\ sing.:
+       \emph{bata}, \emph{tema}, \emph{meta}
+   \item Altres: \emph{era} (verb \emph{ser}, 1a i 3a pers.\ sing.\
+     pretèrit imperf. i subst\. fem\. sing.).
+   \end{itemize} 
+
+   \item En \emph{-as}:
+   \begin{itemize}
+   \item Pres.\ ind. 2a pers.\ sing. (1a conj.) / subst.\ fem.\ pl.:
+       \emph{casas}, \emph{salas}, \emph{tomas}, \emph{entregas}, \emph{osas};
+   \item Pres.\ ind. 2a pers.\ sing (2a i 3a  conj.) / subst.\ fem.\ pl.:
+       \emph{batas}, \emph{temas}, \emph{metas}.
+   \item Altres: \emph{eras}.
+   \end{itemize}
+
+   \item En \emph{-e}:
+   \begin{itemize}
+   \item Pres.\ subj., 1a/3a pers.\ sing.\ (1a conj.) / subst.\ masc.\  i fem.\
+sing.:
+       \emph{cante}, \emph{deje}, \emph{sobre}, \emph{pose}, \emph{apunte}
+   \item Pres. ind., 3a pers.\ sing.\ (1a conj.) / subst.\ masc.\  i fem.\
+sing.: \emph{vale}.
+   \item Altres: \emph{traje} (verb \emph{traer}, 1a pers.\ sing.\
+     pretèrit indefinit i subst.\ masc.\ sing.)
+   \end{itemize}
+
+   \item En \emph{-es}:
+   \begin{itemize}
+   \item Pres.\ subj., 2a pers.\ sing.\ (1a conj.) / subst.\ masc.\  i fem.\
+pl.: \emph{sales} (verb \emph{salar}), \emph{ases} (verb \emph{asar}), 
+     \emph{cantes}, \emph{dejes}, \emph{sobres}, \emph{poses}, \emph{apuntes}
+   \item Pres. ind., 2a pers.\ sing.\ (1a conj.) / subst.\ masc.\  i fem.\
+pl.: \emph{vales}, \emph{sales} (verb \emph{salir}), \emph{ases} (verb
+\emph{asir}).
+   \end{itemize}
+ 
+
+   \item En \emph{-o}: 
+   \begin{itemize}
+     \item 1a pers.\ del
+      present d'indicatiu / subst.\ masc.\ sing.: \emph{oso}, \emph{remiendo}, \emph{riego}, \emph{mando}, 
+      \emph{canto}, \emph{cardo}, \emph{recibo}, \emph{abono}, \emph{saldo};
+     \item altres: \emph{vino}.
+   \end{itemize}  
+
+   \item En \emph{-os}:
+       marchamos (1a pers.\ pl. present i pretèrit perfet simple
+       d'indicatiu i subst.\ masc.\ pl.).
+
+   \item Altres terminacions: \emph{sal} (verb \emph{salir})
+       \emph{mentís}, \emph{pagaré}.
+  
+   
+\end{enumerate}
+\item Homografia verb conjugat--adjectiu:
+ \begin{enumerate}
+
+   \item En \emph{-a}: 
+   \begin{itemize}
+   \item Pres.\ ind., 3a pers.\  sing.\ (1a conj.) / adj.\ fem.\ sing.: {\em
+       pinta}, \emph{monda},
+   \emph{ baja}, \emph{linda}.
+   \item Pres. subj., 1a i 3a pers.\ sing.\ (2a i 3a conj.) / adj.\ fem.\ sing.:
+       \emph{viva}.
+   \end{itemize} 
+
+   \item En \emph{-as}:
+   \begin{itemize}
+   \item Pres.\ ind. 2a pers.\ sing. (1a conj.) / adj.\ fem.\ pl.:
+       \emph{pintas}, \emph{bajas}, \emph{mondas}, \emph{lindas};
+   \item Pres.\ ind. 2a pers.\ sing (2a i 3a  conj.) / adj.\ fem.\ pl.:
+       \emph{vivas}.
+   \end{itemize}
+
+   \item En \emph{-e}: 
+   \begin{itemize}
+   \item Pres.\ subj.\ 1a/3a. pers.\ sing. (1a conj.) / adj.\ masc.\ i fem.\
+     sing.: \emph{leve},  \emph{ausente}, \emph{presente}.
+   \end{itemize}
+
+   \item En \emph{-es}: 
+   \begin{itemize}
+   \item Pres.\ subj.\ 2a pers.\ sing. (1a conj.) / adj.\ masc.\ i fem.\
+     sing.: \emph{leves}, \emph{ausentes}, \emph{presentes}.
+   \end{itemize}
+
+   \item En \emph{-o}: 
+   \begin{itemize}
+     \item 1a pers.\ del
+      present d'indicatiu / adj.\ masc.\ sing.: \emph{pinto}, \emph{mondo}, \emph{bajo}, \emph{lindo},  \emph{vivo}.
+   \end{itemize}  
+
+\end{enumerate}
+
+\item Homografia verb conjugat--verb conjugat (molt difícil de resoldre):
+\begin{enumerate}
+\item Entre verbs de la 1a conj.\ i verbs de la 2a o 3a conj.:
+  \begin{itemize}
+  \item \emph{sentir}/\emph{sentar}: \emph{siento}, \emph{sientes}, {\em
+      siente}, \emph{sienten}, \emph{sienta}, \emph{sientas}, \emph{ sientan}.
+  \item \emph{mentir}/\emph{mentar}: com \emph{sentir}/\emph{sentar}
+  \item \emph{vendar}/\emph{vender}: \emph{vendo}, \emph{venda}, {\em
+      vendas}, \emph{vendamos}, \emph{vendáis}, \emph{vendan},
+    \emph{vende}, \emph{vendes}, \emph{vendemos}, \emph{vendéis}, {\em
+      venden}.
+  \item \emph{salir}/\emph{salar}: \emph{sales}, \emph{sale}, \emph{salen}
+  \item \emph{asir}/\emph{asar}: como \emph{salir}/\emph{salar}
+  \item \emph{poder}/\emph{podar}: \emph{podamos}, \emph{podáis}, {\em
+      podemos}, \emph{podéis}.
+  \item \emph{vengar}/\emph{venir}: \emph{vengo}, \emph{vengas}, {\em
+      venga}, \emph{vengamos}, \emph{vengáis}, \emph{vengan}.
+  \end{itemize}
+
+\item  Entre la 1a pers.\ pl. del present d'indicatiu i del pretèrit perfet
+     simple (``pretèrito indefinido'') dels verbs regulars de la 1a i
+     3a conjs.: {\em
+       amamos}, \emph{cantamos}, \emph{conseguimos}, etc.
+\item Altres casos: \emph{amase},  \emph{amasen}, \emph{amases} ({\em
+    amar}, \emph{amasar}); fui, fuiste, ... (\emph{ir} i \emph{ser}),
+  \emph{ven} (\emph{ver} i \emph{venir}), etc.
+\end{enumerate}
+
+
+\item Homògrafs verb conjugat--preposició: \emph{bajo}, {\em
+    cabe}, \emph{entre}, \emph{para}, \emph{sobre}.
+
+\item Homògrafs adjectiu--preposició: \emph{bajo}.
+
+\item Homògrafs substantiu--preposició: \emph{ante}, \emph{sobre}.
+
+\item Homògrafs verb conjugat--determinant:  \emph{uno}, \emph{una},
+  \emph{unas} (\emph{unir})
+    
+\item Homògrafs verb conjugat--adverbi: \emph{así} (\emph{asir}),
+    \emph{fuera} (\emph{ser}, \emph{ir}), \emph{ arriba} (\emph{arribar}), {\em
+      adelante} (\emph{adelantar}), \emph{cerca} (\emph{cercar}).
+
+\item Homògrafs adjectiu--adverbi: \emph{mucho}, \emph{poco}, {\em
+    fuerte}...
+
+\item Homògrafs substantiu--adverbi: \emph{antes}, \emph{tanto},
+  \emph{mal}, \emph{bien}...
+
+\item Homògrafs adjectiu--substantiu: \emph{complejo}, {\em
+    impreso}, \emph{derecho}...
+
+\item Homògrafs determinant--pronom
+    \emph{la}, \emph{los}, \emph{las}, \emph{lo} (en ``lo que'', ``lo grande'')
+
+\item Altres homògrafs: \emph{como} (conjunció i forma de \emph{comer}), \emph{ora} 
+  (conjunció i forma de \emph{orar}), \emph{bien} (conjunció, substantiu i
+adverbi)
+
+\end{enumerate}
+
+
+\section{Divergències de traducció}
+
+Imaginem que hem pogut segmentar el text espanyol i que hem resolt 
+correctament les ambigüitats
+lèxiques; si encara decidim fer la traducció mot per mot, ens
+trobarem que hi ha certes construccions per a les quals la
+traducció no és correcta, ja que els mots catalans no es
+corresponen mot per mot amb els espanyols. Vegem quins són 
+alguns dels problemes\footnote{Aquesta secció es basa parcialment 
+en un  document generat per Sandra Montserrat.}:
+
+\begin{description}
+\item[Concordança de gènere i nombre:] De vegades el gènere i el
+  nombre d'un mot varien de l'espanyol al català. La dificultat per a
+  un sistema de traducció automàtica apareix a l'hora de propagar el
+  gènere i el nombre del nucli d'un sintagma als modificadors que hi
+  hagen de concordar: \emph{su único amparo} $\rightarrow$ \emph{la
+    seua única empara}; \emph{un buen postre} $\rightarrow$ \emph{unes
+    bones postres}. Els problemes augmenten si la concordança s'ha
+  de produir entre sintagmes distants: \emph{el calor producido por el
+    motor ha resultado ser nefasto} $\rightarrow$ \emph{la calor
+    produïda pel motor ha resultat ser nefasta}. Un problema similar
+  el presenta l'establiment (opcional) de la concordança del
+  participi, inexistent en espanyol en situacions com ara
+  \emph{todavía no la hemos estudiado con profundidad} $\rightarrow$
+  \emph{encara no l'hem estudiada amb profunditat}.
+\item[L'article neutre:] L'espanyol posseeix l'anomenat {\em
+    article neutre}, que no té correspondència en  català
+  (\emph{lo que me dijiste} $\rightarrow$ \emph{el que em vas dir});
+  presenten dificultat especial les construccions usades per a
+  expressar l'abstracció o la intensitat: 
+  \emph{recibirá el informe lo más pronto posible}
+  $\rightarrow$ \emph{rebrà l'informe el més aviat possible};
+  \emph{me asusta lo grande que es} $\rightarrow$ \emph{m'espanta com
+    és de gran}.
+\item[Els possessius:] De vegades, el català usa articles
+  determinats i construccions amb el pronom feble \emph{en} 
+  on l'espanyol usa possessius: \emph{cuando hagas cosas así
+    debes valorar sus consecuencias} $\rightarrow$ \emph{quan
+    faces coses així n'has de valorar les
+    conseqüències}. 
+\item[Els relatius:]
+El principal problema apareix quan es volen traduir oracions que
+contenen 
+el relatiu possessiu \emph{cuyo},
+inexistent en català, on el més senzill és 
+usar una construcció amb {\em
+  qual}, que, a més, presenta un esquema de concordança
+diferent (\emph{qual} ha de concordar amb l'antecedent, mentre {\em
+  cuyo} concorda amb el nom que el segueix):
+\emph{el contribuyente cuyos informes hemos solicitado llegará tarde} 
+$\rightarrow$ \emph{el contribuent els informes del qual hem
+  sol·licitat 
+arribarà tard} (vegeu el final de l'apartat~\ref{s3:transyn}).
+\item[Els pronoms febles:]
+Els principals problemes es troben en la traducció de \emph{lo}, ja que
+pot correspondre 
+en català a alguna forma del pronom masculí singular {\em
+  lo} o a alguna forma del
+pronom neutre \emph{ho}; en la traducció de 
+\emph{se}, el qual correspon normalment al reflexiu 
+català \emph{se} però
+en les combinacions espanyoles \emph{se la}, \emph{se lo}, etc. pot
+correspondre de vegades a alguna forma de \emph{li} o \emph{els}, i en
+el fet que l'espanyol no té equivalents dels pronoms catalans
+adverbials \emph{en} i \emph{hi}  (\emph{me $\emptyset$ dio uno}
+$\rightarrow$
+\emph{me'n va donar un}); \emph{$\emptyset$ había dos salidas}
+$\rightarrow$ \emph{hi havia dues eixides}; \emph{no $\emptyset$
+  $\emptyset$ dejó una} $\rightarrow$ \emph{no n'hi va deixar cap}).
+\item[Règim preposicional:] Hi ha diferències notables entre
+  els règims preposicionals espanyol i català: les
+  preposicions espanyoles davant de \emph{que} completiu no apareixen
+  en català (\emph{el hecho de que me hable} $\rightarrow$ \emph{el
+    fet que em parle}); algunes preposicions no són possibles en català
+  davant d'infinitiu (\emph{el juego consiste en ganar...}
+  $\rightarrow$ \emph{el joc consisteix a guanyar...}), etc.
+\end{description}
+
+\section{Qüestions i exercicis}
+\begin{enumerate}
+\item Quina d'aquestes tres tasques és més difícil en un sistema de
+  traducció automàtica espanyol--català?
+\begin{enumerate}
+\item Decidir la traducció del pronom espanyol \emph{se} (pot ser \emph{se},
+\emph{li} o \emph{els}).
+\item Detectar les formes de \emph{tener que} i traduir-les per \emph{haver de}.
+\item Fer l'anàlisi morfològica de verbs seguits d'enclítics 
+com ara \emph{estudiémonoslos} o \emph{dándoselo}.
+\end{enumerate}
+
+\item Indica quina d'aquestes tres 
+és la font més important d'homografia (ambigüitat lèxica
+categorial) de l'espanyol:
+\begin{enumerate}
+\item Les coincidències d'algunes formes d'alguns  
+noms i d'alguns adjectius amb certes formes conjugades d'alguns verbs.
+\item Les coincidències d'algunes formes de noms amb preposicions.
+\item Les coincidències d'algunes formes de noms amb adverbis.
+\end{enumerate}
+
+\item El català no té cap construcció equivalent al \emph{cuyo}
+  espanyol. En traducció automàtica de l'espanyol al català, una
+  alternativa interessant és posar primer el sintagma nominal que
+  segueix al \emph{cuyo} i després, una forma de \emph{del
+    qual} que concorde amb l'antecedent. Es pot fer sempre
+  correctament aquesta operació 
+  en un sistema de traducció automàtica que no faça anàlisi
+  sintàctica?
+\begin{enumerate}
+\item Sí, hi ha prou amb fer l'anàlisi morfològica.
+\item No, perquè cal determinar bé la longitud del sintagma nominal
+  que segueix a \emph{cuyo} per a poder posar \emph{del qual} en la
+  posició correcta.
+\item No, perquè \emph{cuyo} no té un equivalent morfològic en
+  espanyol.
+\end{enumerate}
+
+
+% < QT12
+
+\end{enumerate}
+
+\section{Solucions}
+\begin{enumerate}
+\item (a)
+\item (a)
+\item (b)
+
+% < SL12
+
+\end{enumerate}
