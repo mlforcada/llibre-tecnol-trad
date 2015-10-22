@@ -116,21 +116,23 @@ Tots els sistemes informàtics tenen maquinari de les classes següents:
     d'emmagatzematge magnètic, poc més o menys com ho eren les
     antigues cassets. La informació s'emmagatzema fent servir les
     propietats magnètiques de determinats materials magnetitzables. En
-    la actualitat la grandària típica d'un dic fix és de 500~GB o
-    1~TB.
+    la actualitat la grandària típica d'un dic fix és de 500~GB o 1~TB
+    (vegeu l'apartat \ref{ss:memoria} per a assabentar-vos de les
+    mesures d'emmagatzemament de la informació).
 
     La memòria USB és un dispositiu de memòria flaix, un xip de
     memòria que manté el seu contingut en absència d'alimentació, que
     es connecta al port USB de l'ordinador. La grandària d'aquestes
-    memòries pot arribar fins a 1~TB.
+    memòries pot arribar fins a 1~TB, tot i que les grandàries més
+    típiques són 16, 32 i 64 MB.
 
     La memòria ROM sol estar feta de xips de silici. Els CD-ROM
-    (\emph{compact dics read-only memory}) ---idèntics en aparença
-    molt similars en molts aspectes als CD de música--- emmagatzemen
-    la informació òpticament.\footnote{Altres termes habituals són
-      CD-R (\emph{compact disc recordable}) ---que identifica els CD
-      en què es pot escriure informació només una vegada amb l'ajuda
-      de dispositius coneguts com a enregistradores--- i CD-RW
+    (\emph{compact dics read-only memory}) ---idèntics en aparença i
+    similars en molts aspectes als CD de música--- emmagatzemen la
+    informació òpticament.\footnote{Altres termes habituals són CD-R
+      (\emph{compact disc recordable}) ---que identifica els CD en què
+      es pot escriure informació només una vegada amb l'ajuda de
+      dispositius coneguts com a enregistradores--- i CD-RW
       (\emph{compact disc rewritable}) ---utilitzat per als CD que
       poden ser esborrats i reescrits un nombre il·limitat de
       vegades.} La grandària d'un CR-ROM sol ser de 650 MB o de 700
@@ -340,8 +342,6 @@ diferent amb els programes d'aplicació.%\footnote{En cert sentit, el
   \label{fg:aplicacio-so}
 \end{figure}
 
-
-
 \begin{persabermes}{programari}
 Com ja s'ha dit més amunt, un programari és un conjunt de programes,
 cada un dels quals consisteix en una llista d'instruccions vàlides
@@ -519,6 +519,178 @@ end.
 % posició \texttt{p} de la seqüència \texttt{A}.
 \end{persabermes}
 
+
+\section{Memòria}
+\label{ss:memoria}
+
+Tota la informació ---instruccions de programa o dades--- que
+s'emmagatzema en la memòria d'un ordinador s'hi guarda en forma
+binària; és a dir, cada dada és una cadena de dígits binaris o
+\emph{bits}. Un bit pot tenir dos valors: 0 (apagat, inactiu) o 1
+(encés, actiu); això és perquè el dispositiu electrònic corresponent
+pot estar en dos estats. Si necessitem guardar objectes o unitats
+d'informació que tenen més de dos valors possibles, no tindrem prou
+amb 1~bit; haurem de combinar més d'un bit. Per exemple, si tenim una
+unitat d'informació que pot presentar-se en 778 formes
+diferents,\footnote{Com, per exemple, els signes d'algun sistema
+  d'escriptura no alfabètic} necessitarem 10 bits, perquè amb 9 bits
+només podem fer $$2 \times 2 \times 2 \times 2 \times 2 \times 2
+\times 2 \times 2 \times 2 = 2^9 = 512$$ combinacions diferents, però
+amb 10, ja en podem fer suficients, perquè $2^{10}=1~024$ (en
+quedarien $1~024-778=246$ combinacions sense usar).
+
+Els bits s'agrupen normalment en grups de vuit, anomenats {\em octets}
+o \emph{bytes}. Un octet pot estar, per tant, en $2^8=256$ estats
+diferents. Per exemple, els caràcters i símbols més comunament usats
+en textos se guardaven històricament cada un en un octet, usant el
+codi ASCII\label{pg:ASCII} (\emph{American Standard Code for
+  Information Interchange}), on el codi de la ``{\tt A}'' és ``{\tt
+  01000001}'' o el de la ``{\tt z}'' és ``{\tt 01111010}'' (vegeu
+l'epígraf~\ref{ss:formats}).  El codi ASCII va ser el primer codi
+estàndard per a emmagatzemar textos; quan els textos són més rics i
+contenen informació sobre tipus i grandàries de lletra, diagramació,
+notes a peu de pàgina, etc., s'usen formats més avançats que
+s'expliquen en l'epígraf~\ref{ss:formats}.  Un octet pot contenir, per
+tant, molt poca informació (un caràcter, una instrucció senzilla del
+processador central, un nombre de 0 (``{\tt 00000000}'') a 255 (``{\tt
+  11111111}''), etc.).  Per exemple, un document de text com aquest té
+desenes de milers de caràcters, i una enciclopèdia, centenars de
+milions. En les imatges en blanc i negre, cada punt és un bit; una
+pantalla d'ordinador en conté més o menys un milió. Si són de colors,
+cal més d'un bit per a cada punt. Les instruccions dels programes que
+executa el processador central també s'emmagatzemen en
+octets.\footnote{En l'exemple de la secció anterior, la instrucció
+  {\tt inc A}, que incrementa el valor emmagatzemat l'acumulador en 1,
+  podria ser l'octet {\tt 11010110}}
+
+Com que un octet pot contenir poca informació, normalment es parla de:
+\begin{itemize}
+\item \emph{kilooctets} o \emph{kilobytes} (kB), o milers d'octets.
+  De fet, per fidelitat al sistema binari, un kilooctet no té 1.000,
+  sinó 1.024 octets ($2^{10}$ és $1.024$), és a dir
+  1.024$\times$8=8.192 bits.
+\item \emph{megaoctets} o \emph{megabytes} (MB), o milions d'octets.
+  De fet, com en el cas dels kilooctets, no exactament:
+$$1~\mbox{MB} = 1.024 \times 1.024~\mbox{octets}= 1.048.576~\mbox{octets}.$$
+\item \emph{gigaoctets} o \emph{gigabytes} (GB), o milers de milions
+  ---una mica més--- d'octets:
+$$1~\mbox{GB}=1.024~\mbox{MB}=1.048.576~\mbox{kB}=1.073.741.824~\mbox{octets}.$$
+\item \emph{teraoctets} o \emph{terabytes} (TB), o bilions (milions de
+  milions) ---de nou, una mica més--- d'octets:
+\[
+\begin{array}{c}
+$$1~\mbox{TB}=1.024~\mbox{GB}=1.048.576~\mbox{MB}=1.073.741.824~\mbox{kB}=\\
+=1.099.511.627.776~\mbox{octets}.$$
+\end{array}
+\]
+\end{itemize}
+Com que els prefixos \emph{k}, \emph{M}, \emph{G} i \emph{T} s'usen en
+la resta de les disciplines científiques per expressar a potències
+exactes de 10 (de 1.000), hi ha qui prefereix parlar de
+\emph{kibioctets} o \emph{kibibytes} (kiB), \emph{mibioctets} o
+\emph{mibibytes} (MiB), \emph{gibioctets} o \emph{gibibytes} (GiB) i
+\emph{tebibytes} o \emph{tebioctets} (TiB) per a referir-se a les
+unitats de capacitat d'emmagatzematge basades en múltiples de 1.024.
+
+%Per exemple, actualment (any 2015) és comú que un PC de taula
+%tinga 8~GB de memòria RAM i un disc dur d'1~TB.
+
+%Quant a l'emmagatzematge òptic, un CD-ROM conté uns 700~MB, tot i
+%que també n'hi ha varietats que arriben als 900~MB. Els DVD actuals
+%contenen uns 4,7~GB, però ja s'han desenvolupat tècniques que n'amplien
+%considerablement la capacitat.
+
+%Les memòries USB típiques (i també les targetes de memòria SD, micro
+%SD, etc. que s'usen de memòria suplementària en mòbils, tauletes i
+%càmeres) solen tenir 16, 32 o 64~GB.
+
+\section{Fitxers i directoris}
+\label{se:fitxers}
+\label{pg:fitxer}
+
+Com ja s'ha dit en la pàgina~\pageref{pg:menciofitxer}, és comú que
+les dades ---de qualsevol classe: textos, instruccions de programa,
+dades gràfiques,de so, de vídeo, etc.--- emmagatzemades en memòria
+secundària estiguen organitzades en {\em fitxers}, també anomenats
+\emph{documents} o \emph{arxius}. Els fitxers són conjunts de dades
+amb un nom que els identifica i que es manipulen ---s'obrin, es
+tanquen, es copien, s'esborren--- com un tot. En discos grans, seria
+molt incòmode tenir tots els fitxers un darrere l'altre; per això, és
+comú que els fitxers estiguen organitzats en {\em directoris}, també
+anomenats \emph{carpetes}. Els directoris són fitxers especials que
+agrupen els noms i les característiques d'altres fitxers; de fet, els
+directoris poden contenir zero o més fitxers o també zero o més
+directoris (sense restriccions de quantitat), i així successivament,
+de manera que la persona usuària pot establir una estructuració
+jeràrquica o arbòria dels seus fitxers en el disc.
+
+Normalment, cada disc té un {\em directori principal} o
+\emph{directori arrel} (el més elevat en la jerarquia de directoris),
+dins del qual es troba tota la resta de directoris. Dos fitxers
+---també dos directoris--- només poden tenir el mateix nom si es
+troben en directoris diferents. Per raons històriques, els noms de
+fitxers solen tenir dues parts: el \emph{nom} pròpiament dit i
+l'\emph{extensió}, separades per un punt (per exemple,
+\texttt{alacant.txt}). El nom sol ser normalment lliure, però
+l'extensió sol ser curta (entre una i quatre lletres) i el sistema
+operatiu la sol usar per a identificar el programa que s'ha d'usar per
+a processar-lo o el format en què es troben les dades que conté (per
+exemple, l'extensió \texttt{.txt} identifica normalment un fitxer de
+text pla, vegeu l'apartat~\ref{ss:formats}; l'extensió \texttt{.exe}
+s'usa per als programes d'ordinador, etc.).
+
+
+La seqüència dels noms de les carpetes que cal anar obrint fins que
+arribem a un fitxer s'anomena la \emph{trajectòria} o la \emph{ruta}
+del fitxer.  De fet, convé considerar la trajectòria com a part del
+nom del fitxer, cosa que ens permetria dir, senzillament, que en un
+disc no pot haver-hi dos fitxers amb el mateix nom.  
+
+\begin{figure}
+\centering
+\begin{parsetree}
+    ( .{$\Box$}.
+      (.{\carpeta{prac1}}.
+         (.{\carpeta{tt}}.
+               `\fitxer{tt1}{txt}'
+               `\fitxer{tt2}{txt}'
+      )
+         (.{\carpeta{reserva}}.
+         (.{\carpeta{tt}}.
+              `\fitxer{tt1}{txt}'
+         )
+         )
+      )
+    )
+\end{parsetree}
+\caption{Exemple d'estructura de fitxers i directoris en un dispositiu
+  d'emmagatzemament. El directori principal o arrel està
+  representat pel símbol $\Box$.}\label{fg:fitxersdirs}
+\end{figure}
+
+Tots aquests conceptes es veuen potser més clars amb l'exemple de la
+figura \ref{fg:fitxersdirs} en què es mostra l'estructura de fitxers i
+directoris en un dispositiu d'emmagatzemament qualsevol. En aquest
+dispositiu, el directori principal o arrel (representat amb el símbol
+$\Box$) conté un únic [sub]directori \carp{prac1}; aquest directori
+conté dos [sub]directoris, \carp{tt} (que conté els fitxers
+\texttt{tt1.txt} i \texttt{tt2.txt}) i \carp{reserva}.  El directori
+\carp{reserva} conté un subdirectori \carp{tt} (que conté l'arxiu
+\texttt{tt1.txt}). Fixeu-vos que dues carpetes diferents contenen
+arxius amb el mateix nom \texttt{tt1.txt}; això no és problema si
+considerem la trajectòria completa com a nom del fitxer. Si el disc es
+diu \texttt{C:} (típic en el cas del disc dur d'un PC amb sistema
+operatiu Windows), les trajectòries d'aquests dos fitxers serien
+\texttt{C:}\barra\carp{prac1}\barra\carp{tt}\barra\texttt{tt1.txt} i
+\texttt{C:}\barra\carp{prac1}\barra\carp{reserva}\barra\carp{tt}\barra\texttt{tt1.txt},
+i, per tant, serien diferents. En el cas d'el sistema operatiu
+GNU/Linux les trajectòries d'aquests dos fitxers serien
+\texttt{/}\carp{prac1/}\carp{tt/}\texttt{tt1.txt} i
+\texttt{/}\carp{prac1/}\carp{reserva/}\carp{tt/}\texttt{tt1.txt}. Fixeu-vos
+que cada sistema operatiu fa servir un símbol diferent per al
+directori principal o arrel i per a separa els noms dels directoris i
+arxius dins de la ruta o trajectòria.
+
 \section{Tipus d'ordinadors}
 Una classificació no gaire exhaustiva dels diferents tipus
 d'ordinadors que podem trobar-nos avui dia és la següent:
@@ -639,205 +811,26 @@ intel·ligents o \emph{smartphones} i les tauletes no solen tenir disc,
 sinó una memòria flaix no volàtil, per exemple, de 8~GB, i una memòria
 RAM de l'ordre d'1~GB.
 
-\section{Fitxers i directoris}
-\label{se:fitxers}
-\label{pg:fitxer}
-
-Com ja s'ha dit en la pàgina~\pageref{pg:menciofitxer}, és comú que
-les dades ---de qualsevol classe: textos, instruccions de programa,
-dades gràfiques,de so, de vídeo, etc.--- emmagatzemades en memòria
-secundària estiguen organitzades en {\em fitxers}, també
-  anomenats \emph{documents} o \emph{arxius}. Els fitxers són
-conjunts de dades amb un nom que els identifica i que es manipulen
----s'obrin, es tanquen, es copien, s'esborren--- com un tot. En discos
-grans, seria molt incòmode tenir tots els fitxers un darrere l'altre;
-per això, és comú que els fitxers estiguen organitzats en {\em
-  directoris}, també anomenats \emph{carpetes}. Els
-directoris són fitxers especials que agrupen els noms i les
-característiques d'altres fitxers; de fet, els directoris poden
-contenir zero o més fitxers o també zero o més directoris (sense
-restriccions de quantitat), i així successivament, de manera que la
-persona usuària pot establir una estructuració jeràrquica o arbòria
-dels seus fitxers en el disc.
-
-Normalment, cada disc té un {\em directori principal} o
-\emph{directori arrel} (el més elevat en la jerarquia de
-directoris), dins del qual es troba tota la resta de directoris. Dos
-fitxers ---també dos directoris--- només poden tenir el mateix nom si
-es troben en directoris diferents. Per raons històriques, els noms de
-fitxers solen tenir dues parts: el \emph{nom} pròpiament dit i
-l'\emph{extensió}, separades per un punt (per exemple,
-\texttt{alacant.txt}). El nom sol ser normalment lliure, però
-l'extensió sol ser curta (entre una i quatre lletres) i el sistema
-operatiu la sol usar per a identificar el programa que s'ha d'usar per
-a processar-lo o el format en què es troben les dades que conté (per
-exemple, l'extensió \texttt{.txt} identifica normalment un fitxer de text
-pla, vegeu l'apartat~\ref{ss:formats};
-l'extensió \texttt{.exe} s'usa per als programes d'ordinador, etc.).
-
-La seqüència dels noms de les carpetes que cal anar obrint fins que
-arribem a un fitxer s'anomena la \emph{trajectòria} o la \emph{ruta}
-del fitxer.  De fet, convé considerar la trajectòria com a part del
-nom del fitxer, cosa que ens permetria dir, senzillament, que en un
-disc no pot haver-hi dos fitxers amb el mateix nom.
-Tots aquests conceptes es veuen potser més clars amb un
-exemple. Imagineu que en un disc hem creat l'estructura de fitxers i
-directoris següent:
-\begin{center}
-\begin{parsetree}
-    ( .{\carpeta{}}.
-      (.{\carpeta{prac1}}.
-         (.{\carpeta{iat}}.  
-               `\fitxer{iat1}{txt}' 
-               `\fitxer{iat2}{txt}' 
-      )
-         (.{\carpeta{reserva}}. 
-         (.{\carpeta{iat}}. 
-              `\fitxer{iat1}{txt}'
- 
-         ) 
-         
-         )
-      )
-    )
-\end{parsetree}
-\end{center}
-En aquest disc, el directori principal, ``\carp{}'', conté un únic
-[sub]directori ``\carp{prac1}''; aquest directori conté dos
-[sub]directoris, ``\carp{iat}'' (que conté els fitxers
-``\texttt{iat1.txt}'' i ``\texttt{iat2.txt}'') i ``\carp{reserva}''.
-El directori ``\carp{reserva}'' conté un subdirectori ``\carp{iat}''
-(que conté l'arxiu ``\texttt{iat1.txt})''. Fixeu-vos que dues carpetes
-diferents contenen arxius amb el mateix nom ``\texttt{iat1.txt}'';
-això no és problema si considerem la trajectòria completa com a nom
-del fitxer. Si el disc es diu \texttt{f:} (típic en el cas
-d'una memòria USB en un PC amb sistema operatiu Windows), les
-trajectòries d'aquests dos fitxers serien
-\texttt{f:}\carp{}\carp{prac1}\carp{iat}\texttt{iat1.txt} i
-\texttt{f:}\carp{}\carp{prac1}\carp{reserva}\carp{iat}\texttt{iat1.txt},
-i, per tant, serien diferents.
-
-
-
-\com{Aquesta part de fitxers i directoris mereix una secció nova i més
-  àmplia, amb diagrames de l'estil dels que hi ha en la pràctica
-  corresponent del laboratori; a més, caldrà decidir on la col·loquem}
-
-% \jacom{Jo no ho faria ara: és un concepte que porten d'abans cada
-%   vegada més i que, amés, s'estudia en les pràctiques.}
-
-
-\section{Memòria}
-\com{En tot el llibre he canviat el símbol b per B quan es referia a
-  octets. Però potser me'n queda alguna.}
-\label{ss:memoria}
-
-Tota la informació ---instruccions de programa o dades--- que
-s'emmagatzema en la memòria d'un ordinador s'hi guarda en forma
-binària; és a dir, cada dada és una cadena de dígits
-binaris o \emph{bits}. Un bit pot tenir dos valors: 0 (apagat, inactiu)
-o 1 (encés, actiu); això és perquè el dispositiu
-electrònic corresponent pot estar en dos estats. Si necessitem
-guardar objectes o unitats d'informació que tenen més de dos
-valors possibles, no tindrem prou amb 1~bit; haurem de combinar
-més d'un bit. Per exemple, si tenim una unitat d'informació
-que pot presentar-se en 778 formes diferents,\footnote{Com, per
-  exemple, els signes d'algun sistema d'escriptura no alfabètic}
-necessitarem 10 bits, perquè amb 9 bits només podem fer $$2
-\times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times
-2 = 2^9 = 512$$
-combinacions, però amb 10, ja en podem fer
-suficients, perquè $2^{10}=1~024$ (en quedarien $1~024-778=246$
-combinacions sense usar).
-
-Els bits s'agrupen normalment en grups de vuit, anomenats {\em octets}
-o \emph{bytes}. Un octet pot estar, per tant, en $2^8=256$ estats
-diferents. Per exemple, els caràcters i símbols més comunament
-usats en textos se guardaven històricament cada un en un octet, usant
-el codi ASCII\label{pg:ASCII} (\emph{American Standard Code for
-  Information Interchange}), on el codi de la ``{\tt A}'' és
-``{\tt 01000001}'' o el de la ``{\tt z}'' és ``{\tt 01111010}''
-(vegeu l'epígraf~\ref{ss:formats}).  El codi ASCII va ser el primer
-codi estàndard per a emmagatzemar textos; quan els textos són més rics
-i contenen informació sobre tipus i grandàries de lletra, diagramació,
-notes a peu de pàgina, etc., s'usen formats més avançats que
-s'expliquen en l'epígraf~\ref{ss:formats}.  Un octet pot contenir, per
-tant, molt poca informació (un caràcter, una instrucció senzilla del
-processador central, un nombre de 0 (``{\tt 00000000}'') a 255 (``{\tt
-  11111111}''), etc.).  Per exemple, un document de text com aquest
-té desenes de milers de caràcters, i una enciclopèdia, centenars
-de milions. En les imatges en blanc i negre, cada punt és un bit;
-una pantalla d'ordinador en conté més o menys un milió. Si són
-de colors, cal més d'un bit per a cada punt. Les instruccions dels
-programes que executa el processador central també s'emmagatzemen
-en octets\footnote{En l'exemple de la secció anterior, la instrucció {\tt
-    inc A}, que incrementa el valor emmagatzemat l'acumulador en 1,
-  podria ser l'octet {\tt 11010110}}.
-
-Com que un octet pot contenir poca informació, normalment
-es parla de:
-\begin{itemize}
-\item \emph{kilooctets} o \emph{kilobytes} (kB), o milers d'octets.
-  De fet, per fidelitat al sistema binari, un kilooctet no té
-  1.000, sinó 1.024 octets ($2^{10}$ és $1.024$), és a dir
-  1.024$\times$8=8.192 bits.
-\item \emph{megaoctets} o  \emph{megabytes} (MB), o milions d'octets.
-De fet, com en el cas dels kilooctets, no exactament:
-$$1~\mbox{MB} = 1.024 \times 1.024~\mbox{octets}= 1.048.576~\mbox{octets}.$$
-\item \emph{gigaoctets} o \emph{gigabytes} (GB), o milers de milions ---una mica més---
-d'octets:
-$$1~\mbox{GB}=1.024~\mbox{MB}=1.048.576~\mbox{kB}=1.073.741.824~\mbox{octets}.$$
-\item \emph{teraoctets} o \emph{terabytes} (TB), o bilions (milions de milions) ---de nou, una mica més---
-d'octets:
-\[
-\begin{array}{c}
-$$1~\mbox{TB}=1.024~\mbox{GB}=1.048.576~\mbox{MB}=1.073.741.824~\mbox{kB}=\\
-=1.099.511.627.776~\mbox{octets}.$$
-\end{array}
-\]
-\end{itemize}
-Com que els prefixos \emph{k}, \emph{M}, \emph{G} i \emph{T} s'usen en la resta de les disciplines científiques per expressar a potències exactes de 10 (de 1.000), hi ha qui prefereix parlar de \emph{kibioctets} o \emph{kibibytes} (kiB), \emph{mibioctets} o \emph{mibibytes} (MiB), \emph{gibioctets} o \emph{gibibytes} (GiB) i \emph{tebibytes} o \emph{tebioctets} (TiB) per a referir-se a les unitats de capacitat d'emmagatzematge basades en múltiples de 1.024.
-
-Per exemple, actualment (any 2015) és comú que un PC de taula
-tinga 8~GB de memòria RAM i un disc dur d'1~TB.
-
-% Els disquets de densitat alta
-% (marcats ``HD'') de 3,5~polzades, emmagatzemen 1,44~MB de dades i són un tipus un tipus de suport en desús.  
-
-Quant a l'emmagatzematge òptic, un CD-ROM conté uns 700~MB, tot i
-que també n'hi ha varietats que arriben als 900~MB. Els DVD actuals
-contenen uns 4,7~GB, però ja s'han desenvolupat tècniques que n'amplien
-considerablement la capacitat.
-
-Les memòries USB típiques (i també les targetes de memòria SD, micro
-SD, etc. que s'usen de memòria suplementària en mòbils, tauletes i
-càmeres) solen tenir 16, 32 o 64~GB.
- 
 \section{Un petit glossari}
 \label{ss:OiPgloss}
 \comprof{Comprovar si cal afegir alguna cosa més}
 
-
 Aquest glossari arreplega alguns termes d'ús comú en la descripció
-d'or\-di\-na\-dors i programes que no han estat definits més
-amunt.
+d'ordinadors i programes que no han estat definits més amunt.
 
 
 \begin{description}
-
-
-
 \item[adaptador de vídeo] (també anomenada targeta gràfica o
   controlador de vídeo): Dispositiu (targeta independent, o integrada
   en la placa base) que permet connectar un monitor a l'ordinador. Hi
   ha molts tipus d'adaptadors de vídeo. Se n'ha de considerar la
-  \emph{resolució}, és a dir, el nombre de punts, elements
-  d'imatge (\emph{píxels}) que caben en una imatge, per exemple $1024
-  \times 768$ (horitzontal $\times$ vertical), la \emph{profunditat de
-    color} (en bits: per exemple 24 bits permeten $2^{24}=16~777~216$
-  colors diferents) i altres paràmetres com la {\em freqüència de
+  \emph{resolució}, és a dir, el nombre de punts, elements d'imatge
+  (\emph{píxels}) que caben en una imatge, per exemple $1024 \times
+  768$ (horitzontal $\times$ vertical), la \emph{profunditat de color}
+  (en bits: per exemple 24 bits permeten $2^{24}=16~777~216$ colors
+  diferents) i altres paràmetres com la {\em freqüència de
     refrescament} (que es mesura en hertzs o cicles per segon; vegeu
-  ``megahertz''). Actualment no és estrany tenir en ordinadors de
+  ``megahertz''). Actualment no és estrany tenir en 1ordinadors de
   taula o portàtils resolucions com l'anomenada \emph{HD 1080} (1920
   $\times$ 1080) o fins i tot més grans.
   
@@ -849,29 +842,25 @@ amunt.
   exemple, 8 Mb/s cap a l'abonat i 512 kb/s cap a la central).
 
 \item[cache] o \emph{memòria cau}: Memòria RAM intermèdia, d'accés més
-ràpid per part del processador, on es copia de quan en quan un bloc
-(també ``pàgina'') complet de posicions consecutives de la
-memòria RAM general per a simplificar accessos repetits a posicions
-en la mateixa zona. Per exemple, en un ordinador amb 512~kilooctets
-(524.288 octets) de \emph{memòria cau}, després
-d'accedir a la posició 2.000.000 és molt probable que el
-processador vulga accedir a la posició 2.000.003. Si quan s'ha
-demanat la 2.000.000 es copien en la \emph{memòria cau} les 524.288 posicions
-que van de la 1.572.864 a la 2.097.151, l'accés a la posició
-2.000.003 serà més ràpida.
+  ràpid per part del processador, on es copia de quan en quan un bloc
+  (també ``pàgina'') complet de posicions consecutives de la memòria
+  RAM general per a simplificar accessos repetits a posicions en la
+  mateixa zona. Per exemple, en un ordinador amb 512~kilooctets
+  (524.288 octets) de \emph{memòria cau}, després d'accedir a la
+  posició 2.000.000 és molt probable que el processador vulga accedir
+  a la posició 2.000.003. Si quan s'ha demanat la 2.000.000 es copien
+  en la \emph{memòria cau} les 524.288 posicions que van de la
+  1.572.864 a la 2.097.151, l'accés a la posició 2.000.003 serà més
+  ràpida.
 
-%\com{Explicar millor? Està bé? \emph{Write-through}, i tot aixo?}
-
-% \jacom{
-%   Vote en contra d'explicar el write-through.}
-
-% \item[densitat alta:] Quan els disquets de 3 polzades i mitja (uns
-%   90~mm) són de densitat alta solen estar marcats amb les lletres
-%   HD (\emph{high density}) i poden emmagatzemar 1,44~MB de dades. Els
-%   anomenats de \emph{densitat doble} (DD) ---molt poc usats
-%   actualment--- poden contenir 720~kB, és a dir, la meitat. Es
-%   distingeixen perquè els primers tenen un petit foradet quadrat
-%   addicional (a la part inferior dreta si posem la finestra dalt).
+  % \item[densitat alta:] Quan els disquets de 3 polzades i mitja (uns
+  %   90~mm) són de densitat alta solen estar marcats amb les lletres
+  %   HD (\emph{high density}) i poden emmagatzemar 1,44~MB de
+  %   dades. Els anomenats de \emph{densitat doble} (DD) ---molt poc
+  %   usats actualment--- poden contenir 720~kB, és a dir, la
+  %   meitat. Es distingeixen perquè els primers tenen un petit
+  %   foradet quadrat addicional (a la part inferior dreta si posem la
+  %   finestra dalt).
   
 \item[DSL] (de l'anglés \emph{digital subscriber line}, línia d'abonat
   digital), tecnologia de connexió que permet aprofitar les línies
@@ -899,7 +888,7 @@ que van de la 1.572.864 a la 2.097.151, l'accés a la posició
   molts altres tipus d'ordinador.
   
 \item[Macintosh] o \emph{Mac}: nom genèric (i comercial) d'una família
-  d'ordinadors constru\"{\i}ts per Apple Computer i que són bàsicament
+  d'ordinadors construïts per Apple Computer i que són bàsicament
   equivalents als PC. Aquests ordinadors, llançats al mercat el 1984,
   popularitzaren la interfície gràfica d'usuari, tota una revolució
   per a l'època. Fa uns anys havia diferències significatives entre
@@ -961,18 +950,19 @@ que van de la 1.572.864 a la 2.097.151, l'accés a la posició
 \comprof{Posem alguna cosa sobre fibra?}
 
 % \item[PCMCIA] (de l'anglés \emph{Personal Computer Memory Card
-%     International Association}, associació internacional de targetes
+%   International Association}, associació internacional de targetes
 %   de memòria per a ordinadors personals): nom d'un estàndard de
 %   targetes de memòria, mòdems, discos, unitats de disquets, targetes
-%   de xarxa i altres dispositius perifèrics per a ordinadors portàtils.
-%   Aquestes targetes no són massa diferents en grandària d'una targeta
-%   de crèdit i s'insereixen en el port corresponent de l'ordinador, amb
-%   la peculiaritat que en permeten l'inserció i l'extracció ``en
-%   calent'', és a dir, sense haver d'apagar l'ordinador.
+%   de xarxa i altres dispositius perifèrics per a ordinadors
+%   portàtils.  Aquestes targetes no són massa diferents en grandària
+%   d'una targeta de crèdit i s'insereixen en el port corresponent de
+%   l'ordinador, amb la peculiaritat que en permeten l'inserció i
+%   l'extracció ``en calent'', és a dir, sense haver d'apagar
+%   l'ordinador.
 
 \item[Programari lliure:] (\emph{free software}, també anomenat
   \emph{programari de codi font obert} o \emph{open-source software})
-  és el programari que es distribueix amb llicències que dónen una
+  és el programari que es distribueix amb llicències que donen una
   sèrie de llibertats a qui rep el programari: la llibertat d'usar-lo
   per a qualsevol propòsit sense restricció, la llibertat
   d'examinar-lo per veure com funciona i modificar-lo per adaptar-lo a
@@ -984,13 +974,13 @@ que van de la 1.572.864 a la 2.097.151, l'accés a la posició
   persones que programen (d'ací el nom \emph{de codi font obert}) i
   que després es converteix automàticament en la versió
   executable. Exemples de programari lliure són: el sistema operatiu
-  \emph{GNU/Linux}, el navegador \emph{Firefox}, o el processador de textos
-  \emph{LibreOffice}. No s'ha de confondre \emph{programari lliure} amb
-  \emph{programari gratuït} (o \emph{freeware}). Hi ha programari
-  gratuït que no és lliure perquè no atorga totes les llibertats (per
-  exemple, el lector de PDF \emph{Adobe Acrobat}, o el programa de
-  telefonia per Internet \emph{Skype}: per exemple, tot i tenir el
-  programari executable, no tenim accés al seu codi font).
+  \emph{GNU/Linux}, el navegador \emph{Firefox}, o el processador de
+  textos \emph{LibreOffice}. No s'ha de confondre \emph{programari
+    lliure} amb \emph{programari gratuït} (o \emph{freeware}). Hi ha
+  programari gratuït que no és lliure perquè no atorga totes les
+  llibertats (per exemple, el lector de PDF \emph{Adobe Acrobat}, o el
+  programa de telefonia per Internet \emph{Skype}: per exemple, tot i
+  tenir el programari executable, no tenim accés al seu codi font).
   
 \item[Pentium:] nom genèric d'una família actual de processadors
   centrals de la companyia Intel, els més recents de la sèrie ``x86''
@@ -1032,13 +1022,14 @@ que van de la 1.572.864 a la 2.097.151, l'accés a la posició
 \item[Wi-Fi] (probablement de l'anglés \emph{wireless fidelity},
   fidelitat sense fils): tecnologia de connexió sense fils (via
   ràdio), principalment per a formar xarxes locals, i que en
-  l'actualitat (estàndard 802.11n) permet velocitats de transmissió de
-  fins a 600~Mb/s.
-
+  l'actualitat (estàndard 802.11n; octubre de 2009) permet velocitats
+  de transmissió de fins a 600~Mb/s. \todo{Hay versiones más modernas:
+   802.11ac, hasta 6.77 Gb/s}
 \end{description}
 
 
 \section{Qüestions i exercicis}
+\todo{Revisar preguntas}
 \begin{enumerate}
 \item Quants \emph{kilobytes} (kilooctets) hi ha en un \emph{gigabyte}
   (gigaoctet)?
