@@ -574,29 +574,54 @@ pràctica d'IAT.</P>
 El format HTML (\emph{hypertext markup language} o \emph{llenguatge de
   marques per a hipertextos}) és un dels tipus de document que es
 poden definir amb SGML (però no exactament amb XML; la versió XML de
-HTML s'anomena XHTML\footnote{Definit en \url{http://www.w3.org/TR/xhtml1/}.}); HTML és molt important perquè és el llenguatge
-en el que estan escrits els hipertextos d'Internet (vegeu el
-capítol~\ref{se:Internet}) i el que interpreten els navegadors (vegeu
-l'apartat~\ref{ss:navegadors}). En HTML, les marques tenen un
-significat determinat. Originalment, les marques estaven pensades per
-a expressar l'estructura del document, però amb el pas del temps el
-significat de les marques ha canviat i actualment sol estar més aviat
-associat a la presentació del document durant la navegació (tot i que,
-darrerament, sembla que a poc a poc es va tornant al plantejament
-original amb iniciatives com ara XHTML, una versió compatible amb XML
-del llenguatge HTML). Per exemple, HTML indica el començament d'un
-segment de text emfatitzat amb la marca ``{\tt <em>}'' (4
-caràcters ASCII) i el final amb la marca ``{\tt </em>}'' (5
-caràcters). Els enllaços (hiperreferències) a altres documents
-comencen amb ``\texttt{<a href="} $URI$ \texttt{"}\texttt{>}'' ---on
-$URI$ és el identificador del document enllaçat--- i acaben amb
-``\texttt{</a>}'', etc. Els documents HTML comencen idealment amb la
-marca ``\texttt{<html>}'' i acaben amb la marca ``\texttt{</html>}'',
-i tenen, entre altres elements, un títol
+HTML s'anomena XHTML\footnote{Definit en
+  \url{http://www.w3.org/TR/xhtml1/}.}); HTML és molt important perquè
+és el llenguatge en el que estan escrits els hipertextos d'Internet
+(vegeu el capítol~\ref{se:Internet}) i el que interpreten els
+navegadors (vegeu l'apartat~\ref{ss:navegadors}). En HTML, les marques
+tenen un significat determinat. Originalment, les marques estaven
+pensades per a expressar l'estructura del document, però amb el pas
+del temps el significat de les marques ha canviat i actualment algunes
+estan més aïna associades a la presentació del document durant la
+navegació (tot i que, darrerament, sembla que a poc a poc es va
+tornant al plantejament original amb iniciatives com ara XHTML, una
+versió compatible amb XML del llenguatge HTML). Per exemple, HTML
+indica el començament d'un segment de text emfatitzat amb la marca
+``{\tt <em>}'' (4 caràcters ASCII) i el final amb la marca ``{\tt
+  </em>}'' (5 caràcters). HTML serveix per a codificar hipertextos:
+els enllaços (hiperreferències) a altres documents (que al seu torn
+poden també ser hipertextos) comencen amb ``\texttt{<a href="}
+$\mathit{URI}$ \texttt{"}\texttt{>}'' ---on $\mathit{URI}$ és el
+identificador del document enllaçat--- i acaben amb ``\texttt{</a>}'',
+etc. Els documents HTML comencen idealment amb la marca
+``\texttt{<html>}'' i acaben amb la marca ``\texttt{</html>}'', i
+tenen, entre altres elements, un títol
 (``\texttt{<title>}\ldots\texttt{</title>}'') i un cos
-(``\texttt{<body>}\ldots\texttt{</body>}''). Per exemple, el document
+(``\texttt{<body>}\ldots\texttt{</body>}'').  Per exemple, el document
 HTML que es mostra en la figura~\ref{fg:HTML} es mostraria en un
-navegador aproximadament com en la figura~\ref{fg:HTMLnav}.
+navegador aproximadament com en la figura~\ref{fg:HTMLnav}. Com es pot
+veure, la primera línia, que comença amb ``\texttt{<!DOCTYPE}''
+declara que el document és un tipus de document HTML estàndard segons
+la versió 4.01 \emph{estricta} de HTML (hi ha diverses versions).  En
+la tercera línia, l'etiqueta ``\texttt{<html>}'' indica el començament
+del document XHTML, i l'etiqueta ``\texttt{</html>}'' del final indica
+el final del document. Dins de l'element \texttt{html} trobem dos
+elements: \texttt{head} (l'\emph{encapçalament}) i \texttt{body} (el
+\emph{cos} del document).  Dins de l'encapçalament, un element
+\texttt{meta} que no té contingut (fixeu-vos com s'obri i es tanca al
+mateix temps) indica, a través de dues assignacions del tipus
+\emph{atribut}\texttt{="}\emph{valor}\texttt{"}, que el \emph{joc de
+  caràcters} que usa el document és l'ISO-8859-1, el més comú a Europa
+occidental.\footnote{Per a escriure documents en \emph{txec} o en
+  \emph{coreà}, caldria canviar part del valor de l'atribut
+  \texttt{content} perquè la codificació ISO-8859-1 no permet escriure
+  en aquests idiomes.} Dins de \texttt{head} també trobem l'element
+\texttt{title}, el qual conté un títol que es presentarà, quan obriu
+el document amb un navegador, en la barra del navegador, \emph{però no
+  com a part del text del document}. Dins de \texttt{body} veiem
+encapçalaments de nivell 1 (\texttt{h1}), encapçalaments de nivell 2
+(\texttt{h2}), paràgrafs (\texttt{p}), parts del text destacades
+(\texttt{em}), i enllaços (\texttt{a}). La taula~\ref{tb:15etiq} descriu algunes de les etiquetes més importants que s'usen en HTML.
 
 \begin{figure}
 \begin{center}
@@ -671,11 +696,48 @@ documents HTML, locals o remots.
 \label{fg:HTMLnav}
 \end{figure}
 
-Quan estem mirant un document HTML amb un navegador, podem veure les
-etiquetes HTML que el formaten si seleccionem l'opció ``veure font
-HTML'' (``view HTML source'') o similar que hi ha normalment en el menú ``veure''
-(``view'').
 
+\begin{table}
+\caption{Alguns elements bàsics d'XHTML, la versió XML de HTML.}
+\begin{center}
+\begin{tabular}{l|l|p{5.5cm}}
+  \hline\hline
+  \textsf{Element} & \textsf{Descripció} & \textsf{Més informació} \\
+  \hline
+  \texttt{<html>}\ldots\texttt{</html>} & Conté tot el document & \\
+  \hline
+  \texttt{<head>}\ldots\texttt{</head>} & Encapçalament & \\\hline
+  \texttt{<body>}\ldots\texttt{</body>} & Cos & \\\hline
+  \texttt{<meta}\ldots\texttt{/>} & Informació sobre el document & L'element és
+  buit \\\hline
+  \texttt{<title>}\ldots\texttt{</title>} & Conté el títol del document & \\\hline
+  \texttt{<br/>} & Salt de línia forçat & L'element és buit. \\\hline
+  \texttt{<h1>}\ldots\texttt{</h1>} & Encapçalament de nivell 1 & \\\hline
+  \texttt{<h2>}\ldots\texttt{</h2>} & Encapçalament de nivell 2 & \\\hline
+  \(\cdots\) & \(\cdots\) & \(\cdots\) \\\hline
+  \texttt{<h6>}\ldots\texttt{</h6>} & Encapçalament de nivell 6 & \\\hline
+  \texttt{<p>}\ldots\texttt{</p>} & Paràgraf & 
+  \\\hline
+  \texttt{<ul>}\ldots\texttt{</ul>} & Llista sense numerar & Conté elements \texttt{li} \\\hline
+  \texttt{<ol>}\ldots\texttt{</ol>} & Llista numerada & Conté elements \texttt{li} \\\hline
+  \texttt{<li>}\ldots\texttt{</li>} & Element de llista & Pot contenir una altra
+  llista en el seu interior. 
+\\\hline
+  \texttt{<em>}\ldots\texttt{</em>} & Èmfasi & \\\hline
+  \texttt{<strong>}\ldots\texttt{</strong>} & Èmfasi fort & \\\hline
+  \texttt{<code>}\ldots\texttt{</code>} & Exemple de codi & \\\hline
+  \texttt{<a}\ldots\texttt{>}\ldots\texttt{</a>} & ``Àncora'' & Si porta un atribut
+  \texttt{href="}URI\texttt{"}, el text entre ``\texttt{<a}\ldots\texttt{>}'' i
+  ``\texttt{</a>}'' funciona com un enllaç al document que hi ha en l'URI.\\\hline
+  \texttt{<img}\ldots\texttt{/>} & Imatge & L'atribut  \texttt{src="}URI\texttt{"} indica l'adreça on és la imatge. 
+  L'atribut \texttt{alt="}\emph{text}\texttt{"} descriu la imatge amb paraules. L'element és buit.\\\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Quan estem mirant un document HTML amb un navegador, podem veure les etiquetes HTML que el formaten si seleccionem l'opció ``veure font
+HTML'' (``view HTML source'') o similar que hi ha normalment en el
+menú ``veure'' (``view'').
 
 \subsection{RTF}
 \label{s3:RTF}
