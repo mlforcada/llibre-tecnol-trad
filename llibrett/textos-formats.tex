@@ -1,4 +1,4 @@
-\chapter{Textos y formats}
+\chapter{Textos i formats}
 \label{se:EPT}
 
 \section{Documents de text}
@@ -15,19 +15,20 @@ orígens diversos:
 \begin{itemize}
 \item Pot haver estat generat per un altre programa d'ordinador, per
   exemple a partir de les dades contingudes en alguna base de dades
-  (vegeu la pàg.~\pageref{pg:BD}).
-\item El podem haver rebut annex a un missatge electrònic (vegeu la
-  pàg.~\pageref{pg:annex}).
+  (vegeu el capítol.~\pageref{se:basesdades}).
+\item El podem haver rebut annex a un missatge de correu electrònic
+  (vegeu l'apartat~\ref{ss:correue} o per missatgeria instantània
+  (vegeu l'apartat~\ref{ss:missinst}).
 \item El podem haver descarregat (copiat) d'algun servidor d'Internet
   (vegeu la pàg.~\pageref{pg:ftp}).
 \item El podem haver generat, potser a partir d'un altre
   text, usant un \emph{processador de textos} (vegeu
   l'apartat~\ref{ss:proctext}).
-\item El pot haver generat un \emph{sistema de reconeixement de la parla}
-  (vegeu la secció~\ref{ss:recparla}) a
-  partir de la veu de la persona que l'ha dictat.
-\item El pot haver generat un \emph{sistema de reconeixement de
-    textos escrits} a partir d'un text tipografiat o manuscrit (vegeu la
+\item El pot haver generat un \emph{sistema de reconeixement de la
+    parla} (vegeu la secció~\ref{ss:recparla}) a partir de la veu de
+  la persona que l'ha dictat.
+\item El pot haver generat un \emph{sistema de reconeixement de textos
+    escrits} a partir d'un text tipografiat o manuscrit (vegeu la
   secció~\ref{ss:recautcar}).
 \end{itemize}
 
@@ -43,16 +44,20 @@ informatitzada, una \emph{seqüència de bits}, és a dir, d'\emph{uns} i
 \emph{zeros} de l'estil de la següent:
 
 \begin{center}
- \texttt{000101010010100111101001010010\ldots}
+ \texttt{010000010100110101001001\ldots}
 \end{center}
 
 Com ja hem vist en l'apartat~\ref{ss:memoria}, els \emph{bits} van
-normalment en grups de vuit (\emph{bytes} o \emph{octets}). Hi ha
-moltes maneres d'organitzar aquests octets per a emmagatzemar els
-textos.  Molts dels problemes que apareixen quan es tracten textos amb
-l'ordinador provenen de discrepàncies quant a la manera de fer-ho.
+normalment en grups de vuit (\emph{bytes} o \emph{octets}):
+\begin{center}
+ \texttt{01000001 01001101 01001001\ldots}
+\end{center}
+
+Hi ha moltes maneres d'organitzar aquests octets per a emmagatzemar
+els textos.  Molts dels problemes que apareixen quan es tracten textos
+amb l'ordinador provenen de discrepàncies quant a la manera de fer-ho.
 En les seccions següents estudiarem dos aspectes importants que
-anomenarem \emph{codificació} i \emph{format} propiament dit. 
+anomenarem \emph{codificació} i \emph{format} propiament dit.
 
 La \emph{codificació} és l'assignació d'una seqüència concreta, d'un o més
 \emph{octets}, a cada caràcter possible d'un text. Aquesta codificació consta de dues fases: en la
@@ -65,7 +70,7 @@ converteixen en octets assignant-los una determinada seqüència de bits
 
 
 D'altra banda, els textos, a més de caràcters, contenen informació de
-format. Per això, és necessària l'assignació de \emph{codis} (que
+\emph{format}. Per això, és necessària l'assignació de \emph{codis} (que
 també es convertiran en octets) per a regular altres característiques
 del text:
 \begin{itemize}
@@ -82,52 +87,61 @@ del text:
 \subsection{L'ASCII original de 7 bits}
 
 Com ja s'ha comentat en la pàgina~\pageref{pg:ASCII}, per a
-emmagatzemar textos s'usa el codi ASCII com a codi bàsic. Aquest codi
-assigna un número de 7 bits a cada caràcter, de manera que permet
-emmagatzemar un caràcter per octet i encara en sobra un bit. La
-taula~\ref{tb:ASCII} mostra alguns exemples de codis ASCII. Els codis
-ASCII del 0 al 31 no corresponen a caràcters imprimibles sinó a
-\emph{caràcters de control} que tenen noms especials i s'usen per a un
-control rudimentari del format i de la transmissió dels textos.
+emmagatzemar textos s'ha usat històricament el codi ASCII com a codi
+bàsic. Aquest codi assigna un número de 7 bits a cada caràcter, de
+manera que permet emmagatzemar un caràcter per octet i encara en sobra
+un bit. La taula~\ref{tb:ASCII} mostra alguns exemples de codis
+ASCII. Els codis ASCII del 0 al 31 no corresponen a caràcters
+imprimibles sinó a \emph{caràcters de control} que tenen noms
+especials i s'usen per a un control rudimentari del format i de la
+transmissió dels textos.
 
 \subsection{Extensions d'ASCII a 8 bits}
+\label{s3:ISO}
 
 ASCII no té codis per als caràcters especials que usen algunes
 llengües europees com \texttt{ç}, \texttt{ä}, \texttt{ú}, etc.; amb
-l'arribada dels microordinadors es va decidir ampliar el codi ASCII,
-de 7 bits i per tant amb $2^7=128$ possibilitats, a un codi de 8 bits
-amb $2^8=256$ possibilitats; el vuité bit o ``bit
-7''\footnote{Recordeu que en informàtica és comú comptar començant pel
-  zero.}---el primer per l'esquerra--- és 1 per als caràcters
-especials (numerats del 128 al 255) i zero per als caràcters
-estàndards d'ASCII.  El fet que hi haja més d'una manera estàndard
-d'usar els nous codis fa que de vegades els textos amb caràcters
-especials no queden bé quan passem d'un processador de textos (o un
-editor de textos) a un altre (els caràcters d'ASCII es veuen
-normalment bé: els que fallen són els nous).  En la nostra àrea
+l'arribada dels microordinadors en els anys vuitanta es va decidir
+ampliar el codi ASCII, de 7 bits i per tant amb $2^7=128$
+possibilitats, a un codi de 8 bits amb $2^8=256$ possibilitats; el
+vuité bit o ``bit 7''\footnote{Recordeu que en informàtica és comú
+  comptar començant pel zero.}---el primer per l'esquerra--- és 1 per
+als caràcters especials (numerats del 128 al 255) i zero per als
+caràcters estàndards d'ASCII.  El fet que hi haja més d'una manera
+estàndard d'usar els nous codis fa que de vegades els textos amb
+caràcters especials no queden bé quan passem d'un processador de
+textos (o un editor de textos) a un altre (els caràcters d'ASCII es
+veuen normalment bé: els que fallen són els nous).  En la nostra àrea
 geogràfica s'usa normalment la codificació ANSI Latin-1, també
-coneguda com a ISO-8859-1 (vegeu la taula~\ref{tb:ISO88591});
-aquesta codificació serveix per a les llengües següents:
-\emph{afrikaans} (llengua germànica parlada en la República de Sudàfrica),
-alemany, anglés, basc, català, danés, escocés,
-espanyol, feroés, finés, francés, gallec, irlandés, islandés, italià,
-neerlandés, noruec, portugués i suec.\footnote{Recentment s'ha fet una
-  modificació anomenada ISO-8859-15, per a incloure, entre altres, el
-  símbol de l'euro i resoldre alguns problemes referents al francés i
-  al finés.}  El sistema operatiu Windows de Microsoft usa la
-codificació anomenada CP-1252, també anomenada \emph{WinLatin-1}, que
-és més àmplia que ISO-8859-1 ja que usa alguns dels codis 128--159 per
-a caràcters (per exemple, usa el
-codi 128 per al símbol de l'euro). Hi ha altres
-codificacions en la família ISO-8859; per exemple, l'albanés, el
-bosni, el croat, el txec, l'hongarés, o el romanés usen una
-codificació anomenada ISO-8859-2 o \emph{Latin-2}, el letó, el lituà i
-l'estonià usen l'ISO-8859-4 o \emph{Latin 4}, el rus usa l'ISO-8859-5
-que conté l'alfabet ciríl·lic a més de l'alfabet llatí bàsic, etc. Per
-això, és molt important conéixer quin esquema de codificació de
-caràcters s'ha usat en un document de text determinat per a poder-lo
-llegir correctament; alguns formats de text inclouen aquesta
-informació dins del mateix document.
+coneguda com a ISO-8859-1 (vegeu la taula~\ref{tb:ISO88591}); aquesta
+codificació serveix per a les llengües següents: \emph{afrikaans}
+(llengua germànica parlada en la República de Sudàfrica), alemany,
+anglés, basc, català, danés, escocés, espanyol, feroés, finés,
+francés, gallec, irlandés, islandés, italià, neerlandés, noruec,
+portugués i suec.\footnote{Recentment s'ha fet una modificació
+  anomenada ISO-8859-15, per a incloure, entre altres, el símbol de
+  l'euro i resoldre alguns problemes referents al francés i al finés.}
+El sistema operatiu Windows de Microsoft usa la codificació de 8 bits
+anomenada CP-1252, també anomenada \emph{WinLatin-1}, que és més
+àmplia que ISO-8859-1 ja que usa alguns dels codis 128--159 per a
+caràcters (per exemple, usa el codi 128 per al símbol de l'euro). Hi
+ha altres codificacions en la família ISO-8859; per exemple,
+l'albanés, el bosni, el croat, el txec, l'hongarés, o el romanés usen
+una codificació anomenada ISO-8859-2 o \emph{Latin-2}, el letó, el
+lituà i l'estonià usen l'ISO-8859-4 o \emph{Latin 4}, el rus usa
+l'ISO-8859-5 que conté l'alfabet ciríl·lic a més de l'alfabet llatí
+bàsic, etc. Per això, és molt important conéixer quin esquema de
+codificació de caràcters s'ha usat en un document de text determinat
+per a poder-lo llegir correctament; alguns formats de text inclouen
+aquesta informació dins del mateix document.
+
+Fixeu-vos que si en un document ISO-8859-1 s'escriu la frase \emph{Què
+  és això?}, on els caràcters ``\texttt{è}'', ``\texttt{é}'' i
+``\texttt{ò}'' tenen codis més alts (233, 232 i 242 respectivament), i
+provem a llegir-lo com si fóra un document ISO-8859-2, llegirem
+\emph{Quč és aixň?}, ja dos d'aquests codis (233 i 242) tenen una
+altra interpretació en aquesta codificació (``\texttt{č}'' i
+``\texttt{ň}'' respectivament).
 
 
 \begin{table}
@@ -232,22 +246,20 @@ modificacions, però hi ha llengües al món que tenen sistemes
 d'escriptura molt complexos amb milers de símbols diferents, com ara
 el xinés o el japonés. Dues-centes cinquanta-sis combinacions no són
 suficients per a aquestes llengües i s'hi han proposat diverses
-solucions. 
-\emph{Unicode}\footnote{URI \url{http://www.unicode.org}} 
-(ISO 10646) és un nou estàndard per a
-fitxers de text que permet codificar pràcticament totes les llengües
-del món i fins i tot mesclar diversos alfabets en un mateix
-fitxer.\footnote{Unicode té 31 bits; és a dir, permet
-  $2^{31}=2.147.483.648$ caràcters diferents} La versió més comunament
-usada d'Unicode (BMP, \emph{Basic Multilingual Plane}) té 65534
-caràcters; això comportaria l'ús de 2 octets (16 bits) en comptes d'un
-($2^{16}=65536$); això fa  que un text Unicode senzill siga el doble
-de gran que el text ASCII corresponent, però hi ha mètodes de
-serialització d'Unicode, com l'UTF-8, que en el cas de les llengües
-europees amb alfabet llatí estalvia espai perquè usa un únic octet per
-als codis ASCII (del 0 al 127, els més freqüents), i més d'un octet
-per als codis següents (així, a més, és compatible amb l'ASCII). En
-concret, UTF-8 usa
+solucions.  \emph{Unicode}\footnote{URI \url{http://www.unicode.org}}
+(ISO 10646) és un nou estàndard per a fitxers de text que permet
+codificar pràcticament totes les llengües del món i fins i tot mesclar
+diversos alfabets en un mateix fitxer (Unicode té 31 bits; és a dir,
+permet $2^{31}=2.147.483.648$ caràcters diferents). La versió més
+comunament usada d'Unicode (BMP, \emph{Basic Multilingual Plane}) té
+65534 caràcters; això comportaria l'ús de 2 octets (16 bits) en
+comptes d'un ($2^{16}=65536$); això faria que un text Unicode senzill
+fóra el doble de gran que el text ASCII corresponent, però hi ha
+mètodes de serialització d'Unicode, com l'UTF-8, que en el cas de les
+llengües europees amb alfabet llatí estalvia espai perquè usa un únic
+octet per als codis ASCII (del 0 al 127, els més freqüents), i més
+d'un octet per als codis següents (així, a més, és compatible amb
+l'ASCII). En concret, UTF-8 usa
 \begin{itemize}
 \item per als codis del 0 al 127, 1 octet (compatible amb  ASCII)
 \item per als codis del 128 al 2047, 2 octets
@@ -256,46 +268,46 @@ concret, UTF-8 usa
 
 \subsection{Limitacions}
 
-Tot i que ampliem l'ASCII a ANSI o Unicode, encara és molt limitat.
-Per exemple, si volem que un text tinga un cert format, només podrem
-usar caràcters de control con l'espai en blanc, el tabulador, el salt
-de línia, etc.  Per exemple, no podrem canviar fàcilment de tipus o de
-grandària de lletra, o indicar que una determinada part del text és el
-títol d'una secció o el text d'una nota a peu de pàgina. De qualsevol
-manera, ASCII i ANSI s'usen en aplicacions com ara el correu
-electrònic, o quan volem que un text ---el contingut del qual és molt
-més important que l'aparença--- puga ser llegit per qualsevol usuari
-sense importar el processador de textos que use; els textos d'aquesta
-mena s'anomenen de vegades \emph{textos plans} i s'emmagatzemen
-normalment en fitxers amb noms que tenen l'extensió \texttt{.txt}.
-Aquests textos es poden produir i llegir amb qualsevol \emph{editor de
-  textos} (vegeu l'epígraf~\ref{ss:proctext}).
+Tot i que ampliem l'ASCII a ISO-8859 o Unicode, encara és molt
+limitat.  Per exemple, si volem que un text tinga un cert format,
+només podrem usar caràcters de control com ara l'espai en blanc, el
+tabulador, el salt de línia, etc.  Per exemple, no podrem canviar
+fàcilment de tipus o de grandària de lletra, o indicar que una
+determinada part del text és el títol d'una secció o el text d'una
+nota a peu de pàgina. De qualsevol manera, ASCII i les codificacions
+ISO-8859-$X$, o Unicode, encara s'usen en aplicacions com ara el
+correu electrònic, o quan volem que un text ---el contingut del qual
+és molt més important que l'aparença--- puga ser llegit per qualsevol
+usuari sense importar el processador de textos que use; els textos
+d'aquesta mena s'anomenen de vegades \emph{textos plans} i
+s'emmagatzemen normalment en fitxers amb noms que tenen l'extensió
+\texttt{.txt}.  Aquests textos es poden produir i llegir amb qualsevol
+\emph{editor de textos} (vegeu l'epígraf~\ref{ss:proctext}).
 
 
 \section{Format pròpiament dit}
 
-Però els documents de text són en general més rics que simples
-seqüències de caràcters. Necessitem codificar-hi informació
-estructural (sobre l'organització del contingut del document) o
-presentacional (sobre l'aparença que tindrà quan es presente): 
-tipus i grandàries de lletra, format dels paràgrafs, notes a peu
-de pàgina, etc. Per a guardar aquesta informació, s'usen:
+Els documents de text són en general més rics que simples seqüències
+de caràcters. Necessitem codificar-hi informació estructural (sobre
+l'organització del contingut del document) o presentacional (sobre
+l'aparença que tindrà quan es presente): tipus i grandàries de lletra,
+format dels paràgrafs, notes a peu de pàgina, etc. Per a guardar
+aquesta informació, s'usen:
 \begin{itemize}
-\item D'una banda, codificacions o formats basats en text (ANSI,
-  Unicode, etc.) com ara
-  SGML (\emph{standardized generalized markup language}), la seua
-  versió simplificada XML (\emph{extensible markup language}), el
-  tipus SGML anomenat HTML (\emph{hypertext markup language}), el
-  format proposat per Microsoft anomenat RTF (\emph{rich text format},
-  no relacionat amb SGML), o el llenguatge per a impressores anomenat
+\item D'una banda, codificacions o formats basats en text
+  (ISO-8859-$X$, Unicode, etc.) com ara SGML (\emph{standardized
+    generalized markup language}), la seua versió simplificada (i molt
+  més estesa) XML (\emph{extensible markup language}), el tipus SGML
+  anomenat HTML (\emph{hypertext markup language}), el format proposat
+  per Microsoft anomenat RTF (\emph{rich text format}, no relacionat
+  amb SGML), o el llenguatge per a impressores anomenat
   Postscript. Tots aquests formats usen combinacions
-  especials\footnote{i poc freqüents en textos usuals} de
-  caràcters de text per a indicar aquestes característiques
-  d'estructuració o de presentació.\footnote{Aquests caràcters que
-    indiquen el format són
-    normalment invisibles per a la persona usuària mentre redacta o
+  especials\footnote{i poc freqüents en textos usuals} de caràcters de
+  text per a indicar aquestes característiques d'estructuració o de
+  presentació.\footnote{Aquests caràcters que indiquen el format no són
+    normalment visibles per a la persona usuària mentre redacta o
     veu el document, excepte si demana explícitament que els vol
-    veure.}
+    veure.} 
 \item D'altra banda, hi ha els formats particulars dels processadors
   de textos comercials com ara Corel WordPerfect o Microsoft Word, que
   usen esquemes diferents, basats en codis binaris no relacionats amb
@@ -303,11 +315,11 @@ de pàgina, etc. Per a guardar aquesta informació, s'usen:
     document de Microsoft Word, amb extensió \texttt{.doc}, com la
     manera estàndard d'enviar documents de text annexos a un missatge
     electrònic, sense considerar el fet que aquest format és privat i
-    està
-    associat a l'ús d'un determinat producte comercial. De fet, les
-    persones que fan això reforcen, involuntàriament, la
-    posició monopolística de Microsoft en el mercat del programari per
-  a ordinadors personals.}
+    està associat a l'ús d'un determinat producte no lliure i de codi
+    font tancat. El format \texttt{.docx} també anomenat Office Open
+    XML o OOXML, està millor documentat i estandarditzat i pot ser
+    processat més satisfactòriament amb processadors lliures i de codi
+    font obert.}
 \end{itemize}
 Com ja s'ha dit, l'ús de formats de text més avançats no només serveix
 per a determinar-ne la presentació en la pantalla o quan són impresos;
@@ -335,17 +347,17 @@ definides (vegeu la secció~\ref{ss:separac}).
 \subsection{SGML}
 
 SGML, el llenguatge estàndar generalitzat de marques, havia tingut un
-èxit relatiu fins a mitjans dels noranta; però l'aparició d'una versió
-restringida i simplificada de SGML anomenada XML ha impulsat
-enormement l'adopció dels formats d'estructuració de documents, de tal
-manera que en l'actualitat s'usa XML moltíssim més que el SGML
-original;\footnote{Per exemple, XML és especialment popular com a eina
-  per a definir l'estructura dels documents presents en les
-  biblioteques digitals.} per això, ens centrarem en aquest últim
+èxit relatiu fins a mitjans dels noranta; però l'aparició cap a finals
+dels noranta d'una versió restringida i simplificada de SGML anomenada
+XML ha impulsat enormement l'adopció dels formats d'estructuració de
+documents, de tal manera que en l'actualitat s'usa XML moltíssim més
+que el SGML original; per això, ens centrarem en aquest últim
 format. De tota manera, encara hi ha formats molt importants que es
-basen en SGML, com el llenguatge de marques per a hipertextos HTML,
-  encara que les revisions més recents de HTML ---conegudes com
-  XHTML--- es basen directament en XML. 
+basen en SGML, com el llenguatge de marques per a hipertextos HTML (vegeu l'apartat~\ref{s3:HTML})
+(excepte pel més recent, HTML5, estandarditzat el 2014, que ja no és
+una aplicació SGML). Hi ha també versions estàndards de HTML conegudes
+com XHTML, que es basen directament en XML (vegeu l'apartat~\ref{s3:XML}).\footnote{Noteu que
+  HTML5 també té una versió \emph{serialitzada en XML}, XHTML4}
 
 \subsection{XML}
 \label{s3:XML}
@@ -357,10 +369,10 @@ dit, podem trobar \emph{etiquetes} o \emph{marques} (en anglés
 \emph{tags}) que donen informació sobre la naturalesa i l'organització
 de cada un dels continguts del document; com ja s'ha dit, un document
 XML és un document \emph{estructurat}. Per exemple, un document XML
-corresponent a un FAX podria tenir l'aparença que es mostra en la
+corresponent a un FAX\todo{Per discutir: canviar el document de FAX per un altre que tinga més sentit.} podria tenir l'aparença que es mostra en la
 figura~\ref{fg:faxXML}.  La primera línia declara que el document és
 un document XML de la versió 1.0 i que el joc de caràcters que usa és
-l'ISO-8859-1 (o ``Latin 1''). Com s'hi pot veure, les etiquetes que
+l'ISO-8859-1 (o ``Latin 1''), vegeu l'apartat~\ref{s3:ISO}. Com s'hi pot veure, les etiquetes que
 apareixen entre parèntesis angulars indiquen les diverses parts del
 document, anomenades \emph{elements}.  Típicament, s'obrin amb
 \texttt{<}\emph{nom}\texttt{>} i es tanquen amb
@@ -398,7 +410,7 @@ altra cosa:
 \item Els elements no es poden solapar o creuar: no és possible
   escriure, per exemple, \texttt{<a>text<b>més text</a>més text encara
     </b>}.
-\item El document conté només un element \emph{arrel} que conté tots
+\item El document conté un únic element \emph{arrel} que conté tots
   els elements del text.
 \item El document pot contenir comentaris entre \texttt{<!--} i
   \texttt{-->} o instruccions de processament del tipus
@@ -409,9 +421,11 @@ altra cosa:
   (\texttt{'}\emph{valor}\texttt{'}).
 \item Un element no pot tenir dos atributs amb el mateix nom.
 \item Els caràcters \texttt{<} i \texttt{\&} no poden aparéixer en el
-  text dels elements ni dels atributs (si es necessiten aquests
-  caràcters s'han d'escriure \texttt{\&lt;} i \texttt{\&amp;}). 
-\com{Aquesta afirmació pot no ser certa i caldria comprovar-la}
+  text dels elements ni dels atributs. Això és perquè \texttt{<}
+  indica el començament d'une etiqueta i \texttt{\&} el començament
+  d'una \emph{entitat} com ara \texttt{\&copy;} que es pot usar per a
+  representar el càracter \emph{©}: si es necessiten aquests caràcters
+  s'han d'escriure \texttt{\&lt;} i \texttt{\&amp;}.  
 \end{itemize}
 Com es pot veure, aquestes regles que defineixen un document XML ben
 format no diuen quines etiquetes són vàlides i quines no, o quins
@@ -426,8 +440,11 @@ quantitat.
 Per a especificar, per a un tipus determinat de document XML, quines
 etiquetes són vàlides, quins atributs pot tenir cada element, o quins
 elements poden anar dins d'un determinat element, en quin ordre o en
-quina quantitat, s'usa una DTD (\emph{document type definition} o
-definició del tipus de document).
+quina quantitat, es pot usar una DTD (\emph{document type definition} o
+definició del tipus de document).\footnote{Les DTD no són l'única manera d'especificar
+    famílies de documents XML; una altra manera més potent són els
+    anomenats \emph{esquemes XML} (anglés \emph{XML schema}).} 
+\todo{Hauríem de posar el material sobre validació de les pràctiques ací?}
 
 La segona línia del fax de la figura~\ref{fg:faxXML} especifica el
 tipus del document tot indicant d'una banda l'etiqueta arrel o
@@ -486,25 +503,22 @@ es compon (en l'ordre especificat) d'un \texttt{DESTINATARI}, un
 \end{enumerate}
 Una de les aplicacions més importants de les DTD és que serveixen per a la
 validació automàtica dels documents: un programa \emph{validador} llegeix la
-DTD i el document XML i decideix si és vàlid, és a dir, si segueix
-l'especificació donada en la DTD, però les DTD poden servir també per a
-construir programes que processen o transformen els documents XML, com ara
-quan es vol produir una presentació visual del document (o de determinades
-estructures del document).  De fet, el \emph{significat} de les etiquetes (és
+DTD i el document XML i decideix si aquest últim és vàlid, és a dir, si segueix
+l'especificació donada en la DTD
+De fet, el \emph{significat} de les etiquetes (és
 a dir, quines conseqüències tindran quan es processe el document XML) l'ha
-d'establir el programa o els programes que processaran els documents. Com ja
+d'establir el programa o els programes que processaran els documents. 
+(i les DTD poden servir també per a assegurar que els documents processats són vàlids).
+Com ja
 s'ha dit, el significat de les etiquetes pot estar associat, per exemple, a la
 manera (\emph{estil}, vegeu la p.~\pageref{pg:estil}) de presentar el document
 quan s'imprimeix (per exemple, el destinatari del fax pot anar en negretes),
 però també podria servir per a facilitar el processament de la informació (per
-exemple, buscar tots els faxos que tenen un determinat destinatari, o, en
+exemple, buscar tots els faxos que tenen un determinat destinatari,\todo{cal canviar-ho si canviem l'exemple} o, en
 llibres codificats en XML, decidir quines parts han de ser traduïdes
 automàticament de l'espanyol a l'anglés i quines no perquè són cites
-literàries\footnote{De fet, existeix una DTD SGML (i la DTD XML simplificada
-  corresponent) per a codificar documents de text de l'estil dels llibres, els
-  articles, etc., que s'anomena TEI, de l'anglés \emph{text encoding
-    initiative}, ``iniciativa de codificació de textos''
-  (\url{http://www.tei-c.org}).}). Fins i tot fitxers que normalment no
+literàries.\footnote{Hi ha un estàndard anomenat TEI, de l'anglés \emph{text encoding initiative}, ``iniciativa de codificació de textos'' (\url{http://www.tei-c.org}) que usa famílies de DTD per a definir diferents tipus d'obres (literàries i no literàries). De fet, existeixen, d'una banda, les antigues DTD  per a SGML, i, d'altra, les DTD TEI per a XML.}
+  \todo{Introduïm TEI ací com a exemple d'aplicació XML??} Fins i tot fitxers que normalment no
 consideraríem documents, com ara les memòries de traducció (vegeu el
 capítol~\ref{se:memtrad}) s'estructuren de manera estàndard usant un format
 basat en XML anomenat TMX.  \com{L'últim paràgraf es pot millorar}
@@ -514,9 +528,7 @@ basat en XML anomenat TMX.  \com{L'últim paràgraf es pot millorar}
   l'edició de documents XML vàlids: un editor de documents XML pot
   consultar la DTD per suggerir a la persona usuària l'element o
   elements correctes en el context actual, o per emetre un missatge
-  d'error tan aviat com el document perda la seua validesa\footnote{A
-  més de les DTD, hi ha altres mètodes per a especificar tipus de
-  documents XML, com els \emph{esquemes} (\emph{XML schema}).}. 
+  d'error tan aviat com el document perda la seua validesa.
 
 
 \begin{figure}
@@ -566,6 +578,7 @@ pràctica d'IAT.</P>
 \end{figure}
 
 \subsection{HTML}
+\label{s3:HTML}
 
 \com{Potser hi ha material sobre HTML del laboratori que es podria
   incloure ací per a completar la informació sobre com està
@@ -586,7 +599,7 @@ estan més aïna associades a la presentació del document durant la
 navegació (tot i que, darrerament, sembla que a poc a poc es va
 tornant al plantejament original amb iniciatives com ara XHTML, una
 versió compatible amb XML del llenguatge HTML). Per exemple, HTML
-indica el començament d'un segment de text emfatitzat amb la marca
+indica el començament d'un segment de text destacat (emfatitzat) amb la marca
 ``{\tt <em>}'' (4 caràcters ASCII) i el final amb la marca ``{\tt
   </em>}'' (5 caràcters). HTML serveix per a codificar hipertextos:
 els enllaços (hiperreferències) a altres documents (que al seu torn
@@ -670,31 +683,41 @@ encapçalaments de nivell 1 (\texttt{h1}), encapçalaments de nivell 2
 
 \begin{figure}
 \begin{center}
-\framebox{\parbox{10cm}{\textsf{Títol del document
-}}}
-\framebox{\parbox{10cm}{
-\noindent{\bf\large Encapçalament de nivell 1}\vspace{1ex}
-
-\noindent{\bf Encapçalament de nivell 2}\vspace{1ex}
-
-\noindent\raggedright Aquest és el \textit{primer} paràgraf d'aquest document. El
-navegador decideix com dividir-lo en línies per a
-presentar-lo. Idealment, hauria d'acabar amb una marca de final de
-paràgraf.\vspace{1ex}
-
-\noindent{\bf Un altre encapçalament de nivell 2}\vspace{1ex}
-
-\noindent\raggedright Aquest és  l'\textit{últim}  paràgraf d'aquest document
-HTML. Els documents HTML poden contenir \underline{enllaços} a altres
-documents HTML, locals o remots. 
-
-}
-}
-\end{center}
+\includegraphics[scale=0.5]{vista-chromium.jpg}
+  \end{center}
 \caption{El document HTML de la figura~\protect\ref{fg:HTML}, vist a
   través d'un navegador determinat.}
 \label{fg:HTMLnav}
+
 \end{figure}
+
+% \begin{figure}
+% \begin{center}
+% \framebox{\parbox{10cm}{\textsf{Títol del document
+% }}}
+% \framebox{\parbox{10cm}{
+% \noindent{\bf\large Encapçalament de nivell 1}\vspace{1ex}
+
+% \noindent{\bf Encapçalament de nivell 2}\vspace{1ex}
+
+% \noindent\raggedright Aquest és el \textit{primer} paràgraf d'aquest document. El
+% navegador decideix com dividir-lo en línies per a
+% presentar-lo. Idealment, hauria d'acabar amb una marca de final de
+% paràgraf.\vspace{1ex}
+
+% \noindent{\bf Un altre encapçalament de nivell 2}\vspace{1ex}
+
+% \noindent\raggedright Aquest és  l'\textit{últim}  paràgraf d'aquest document
+% HTML. Els documents HTML poden contenir \underline{enllaços} a altres
+% documents HTML, locals o remots. 
+
+% }
+% }
+% \end{center}
+% \caption{El document HTML de la figura~\protect\ref{fg:HTML}, vist a
+%   través d'un navegador determinat.}
+% \label{fg:HTMLnav}
+% \end{figure}
 
 
 \begin{table}
@@ -742,10 +765,10 @@ menú ``veure'' (``view'').
 \subsection{RTF}
 \label{s3:RTF}
 
-RTF (\emph{rich text format}, és a dir, \emph{format de text ric}) és
+RTF (\emph{rich text format}, és a dir, \emph{format de text ric}) va ser 
 un format impulsat per l'empresa Microsoft per a facilitar
 l'intercanvi de documents entre processadors de textos mantenint-ne el
-format. RTF també té etiquetes, les quals comencen normalment per una
+format, i que encara s'usa de vegades. RTF també té etiquetes, les quals comencen normalment per una
 barra invertida (\verb+\+); però els àmbits d'acció de les etiquetes
 estan delimitats per claus (``\verb+{+\ldots\verb+}+'') en comptes de
 per parelles d'etiquetes; per exemple, un segment en negretes s'indica
@@ -779,7 +802,8 @@ document), com per exemple en el mot
 \label{fg:RTF}
 \end{figure}
 
-\subsection{PDF}
+
+\subsection{PDF}\todo{Abans del PDF, afegir ODF i OOXML?}
 
 PDF (de l'anglés \emph{portable document format}, format portable de
 document) és un altre format desenvolupat per a capturar completament
@@ -787,14 +811,15 @@ les característiques presentacionals dels documents. En PDF, el
 document es mostra exactament amb la mateixa aparença independentment
 de l'ordinador, sistema operatiu o aplicació que fem servir per
 veure'l. Els documents PDF poden emmagatzemar, a banda del text, tipus
-de lletra, gràfics, sons, etc. Aquest format ha estat impulsat per
-l'empresa Adobe, que ofereix un programa gratuït ---l'Acrobat
-Reader\footnote{URI: \url{http://www.adobe.com/}; a més, també es
-  pot usar els programes gratuïts de codi obert GhostScript i Ghostview
-  (\url{http://www.cs.wisc.edu/~ghost/}).}--- per visualitzar els
-documents; per crear-los podem usar programes especialitzats o
-qualsevol processador de textos que permeta \emph{exportar} (realment
-\emph{imprimir}) el nostre document a PDF.
+de lletra, gràfics, sons, etc. Aquest format va ser impulsat en els
+anys noranta per l'empresa Adobe, que ofereix en l'actualitat un
+programa gratuït\footnote{però no lliure ni de codi font obert}
+anomenat Adobe Acrobat Reader DC--- per visualitzar els
+documents;\footnote{Hi ha alternatives lliures i de codi font obert
+  com ara Sumatra PDF, Evince, Okular, etc. Fins i tot, els mateixos
+  navegadors vénen ja amb visors de PDF.}  per crear-los podem usar
+programes especialitzats o qualsevol processador de textos que permeta
+\emph{exportar} (realment \emph{imprimir}) el nostre document a PDF.
 
 \section{Processadors de textos}
 \label{ss:proctext}
@@ -803,11 +828,11 @@ Un \emph{processador de textos} és un programa que permet crear i
 modificar documents de text informatitzats. També s'hi poden usar {\em
   editors}: la diferència entre un processador de textos i un {\em
   editor} és que aquest últim programa és un processador de textos
-ASCII,  ANSI o Unicode senzills (sense informació de format, etc.) que normalment s'usa
-per a preparar textos en algun llenguatge artificial (per exemple,
-programes escrits en algun llenguatge de programació) que serviran de
-entrada per a un altre programa, o textos molt senzills on el format
-no és crucial, com un missatge electrònic senzill.
+plans (sense informació de format, etc.) que normalment s'usa per a
+preparar textos en algun llenguatge artificial (per exemple, programes
+escrits en algun llenguatge de programació) que serviran de entrada
+per a un altre programa, o textos molt senzills on el format no és
+crucial, com un missatge electrònic senzill.
 
 El processament de textos també s'anomena \emph{tractament de
   textos} (paral$\cdot$le\-la\-ment al francés, \emph{traitement
@@ -833,7 +858,7 @@ finestres, cada una de les quals mostra una secció d'algun dels
 documents de text informatitzats que estem creant i modificant (els
 documents que tenim \emph{oberts}).  La tendència actual afavoreix que
 el text es mostre tan paregut com siga possible a la versió impresa
-que se'n produirà, quant a format, tipus de lletra, etc. (en anglés,
+que se'n produirà, quant a format, tipus de lletra, etc.\ (en anglés,
 aquest concepte de fidelitat visual es resumeix amb el mot {\em
   wysiwyg}, fet amb les sigles de ``what you see is what you get'', és
 a dir, ``el que veieu és el que obtindreu''); la
@@ -885,7 +910,7 @@ trobarem en un processador de text:
      \item \emph{imprimir} el document actual;
      \item fer una \emph{presentació preliminar} en pantalla del document tal com
        quedarà imprés (quan
-           el processador no és completament \emph{wysiwyg})
+           no és possible una presentació completament \emph{wysiwyg})
 
      \item \emph{eixir} del processador de textos.
      \end{itemize}
@@ -909,13 +934,19 @@ trobarem en un processador de text:
 \item Operacions de cerca i substitució:
      \begin{itemize}
      \item \emph{buscar} una determinada paraula o seqüència de
-caràcters en el text;\footnote{Alguns programes permeten buscar
-  usant les anomenades \emph{expressions regulars}, clàssiques en el
-  sistema operatiu Unix, les quals permeten, mitjançant caràcters
-  especials anomenats \emph{jòquers} (anglés \emph{wildcards}), buscar
-  tots els mots que segueixen un patró determinat. Per exemple, una
-  recerca amb l'expressió regular \texttt{pres*a} trobaria els mots
-  \emph{prea}, \emph{presa}, \emph{pressa}, \emph{presssa}, etc.}
+       caràcters en el text;\footnote{Alguns programes permeten buscar
+         usant les anomenades \emph{expressions regulars}, les quals
+         permeten, mitjançant caràcters especials anomenats
+         \emph{jòquers} (anglés \emph{wildcards}), buscar tots els
+         mots i totes les porcions de text que segueixen un patró
+         determinat. Per exemple, una recerca amb l'expressió regular
+         \texttt{pres*a} trobaria els mots \emph{prea}, \emph{presa},
+         \emph{pressa}, \emph{presssa}, etc., o l'expressió regular 
+\texttt{<[\^{}>]+>} 
+         que trobaria totes les etiquetes de l'estil de XML, ja que
+         comencen per \texttt{<}, tenen un o més (\emph{+}) caràcters
+         que \emph{no} (\texttt{\^}) són \texttt{>}, i acaben amb
+         \texttt{>}.}
      \item repetir l'última recerca;
      \item buscar una determinada paraula o seqüència de
            caràcters en el text i \emph{substituir-la} per una altra
@@ -939,7 +970,7 @@ caràcters en el text;\footnote{Alguns programes permeten buscar
            (alineades a la dreta, a l'esquerra, centrades, o
            justificades\footnote{No s'ha de dir \emph{justificat a la
                dreta}: la justificació és sempre als dos marges
-             alhora; el que s'ha de dir en aquest cas és \emph{alineat
+             al mateix temps; el que s'ha de dir en aquest cas és \emph{alineat
                a la dreta}.});
      \item seleccionar el format de la pàgina (grandària del
        paper, marges inferior,
@@ -1019,8 +1050,8 @@ dels continguts. Imaginem les següents situacions problemàtiques:
   \emph{wysiwyg} actuals permeten un cert nivell de codificació de
   l'\emph{estructura}, a través dels anomenats
   \emph{estils}:\footnote{Aquesta és la denominació usada per
-    \emph{Word} i pel processador gratuït de codi obert
-    \emph{OpenOffice.org}} hi ha \emph{estils de paràgraf} (paràgraf
+    \emph{Word} i pels processadors lliures i de codi obert
+    \emph{OpenOffice.org} i \emph{LibreOffice}.} hi ha \emph{estils de paràgraf} (paràgraf
   del cos de text, encapçalaments de diversos nivells, etc.) i
   \emph{estils de caràcter} (definicions, èmfasi, èmfasi forta, text
   d'ordinador, etc.).\label{pg:estil} A cada estil se li assignen unes determinades
@@ -1087,9 +1118,10 @@ de 0,2 cm.
 
 Els fulls d'estil es poden usar també per a visualitzar documents XML
 directament en els navegadors més recents. Per exemple, podem fer que
-la presentació visual del FAX de la figura~\ref{fg:faxXML} tinga un
-encapçalament amb el mot FAX amb aquesta ordre CSS (amb comentaris
-entre \texttt{/*} i \texttt{*/}):
+la presentació visual del FAX de la figura~\ref{fg:faxXML}\todo{Si
+  canviem l'exemple ho hem de canviar tot!} tinga un encapçalament amb
+el mot FAX centrat, gran i en negretes amb aquesta ordre CSS (amb
+comentaris entre \texttt{/*} i \texttt{*/}):
 \begin{verbatim}
 FAX:before {                         /* Abans del FAX */
         content : "FAX" ;            /* El mot FAX */
@@ -1214,21 +1246,26 @@ persona cega?  Mecanismes com els tipus o grandàries de lletra o la
 forma o l'alineament visual dels paràgrafs, llistes o taules no li
 serveixen; aquesta persona potser vol accedir als documents mitjançant
 un tauler Braille (una espècie de pantalla tàctil on es formen els
-signes de l'alfabet dels invidents) o mitjançant un sistema de síntesi
-de veu que llig la pàgina en veu alta.  Si qui ha escrit el document
-només ha codificat l'estructura lògica que tenia en el seu cap
-mitjançant indicadors visuals de format (negretes o cursives per a
-l'èmfasi, paràgrafs d'una línia en lletra més grossa per a títols,
-etc.) serà difícil transformar aquest format per a una altra
-presentació.
+signes de l'alfabet dels invidents, vegeu la
+fig.~\ref{fg:taulerbraille}) o mitjançant un sistema de síntesi de veu
+que llig la pàgina en veu alta.  Si qui ha escrit el document només ha
+codificat l'estructura lògica que tenia en el seu cap mitjançant
+indicadors visuals de format (negretes o cursives per a l'èmfasi,
+paràgrafs d'una línia en lletra més grossa per a títols, etc.) serà
+difícil transformar aquest format per a una altra presentació.
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{Refreshable_Braille_display.jpg}
+  \caption{Tauler braille (imatge presa de l'entrada \emph{Refreshable Braille Display} de la Wikipedia en anglés)}
+\end{figure}
 
 Però no només les persones amb discapacitats visuals poden tenir
 problemes; qui llig un document ho pot estar fent a través d'una
-pantalla de text (no gràfica) o molt menuda (com la d'un telèfon mòbil
-o un assistent digital personal o PDA), o a través d'una connexió molt
-lenta a la xarxa, o pot estar en una situació en la qual els seus ulls
-estiguen ocupats (per exemple, quan condueix un vehicle). La
-presentació de documents en aquests mitjans té problemes similars.
+pantalla de text (no gràfica) o menuda (com la d'un telèfon mòbil), o
+a través d'una connexió molt lenta a la xarxa, o pot estar en una
+situació en la qual els seus ulls estiguen ocupats (per exemple, quan
+condueix un vehicle). La presentació de documents en aquests mitjans
+té problemes similars.
 
 Si l'èmfasi en el document ha estat emmagatzemat com a èmfasi i no amb
 lletra negreta o cursiva, si els títols de secció estan indicats com a
@@ -1252,19 +1289,20 @@ persones discapacitades o en situacions especials.
 \com{Cal explicar millor: vocabulari obert/tancat, facilitat relativa del
 reconeixement independent del parlant i dependent del parlant, etc.}
 
-El \emph{reconeixement automàtic de la parla} (RAP) es pot definir
-com la producció de textos informatitzats ---en \emph{temps real}, és
-a dir, tan instantàniament com siga possible--- a partir de la veu
-humana (vegeu \citealt{samuelson-brown96b}). El RAP de propòsit general
-està encara molt lluny de ser perfecte, i, de fet, és encara un camp
-de recerca actiu.  En canvi, el RAP per a un propòsit específic (per
-exemple, la consulta telefònica d'horaris de trens o de les condicions del
-trànsit) està molt més
-avançat. La major part de la inversió de la comunitat internacional en
-RAP és, per raons òbvies, sobre l'anglés.
+El \emph{reconeixement automàtic de la parla} (RAP) es pot definir com
+la producció de textos informatitzats ---en \emph{temps real}, és a
+dir, tan instantàniament com siga possible--- a partir de la veu
+humana (vegeu \citealt{samuelson-brown96b}). El RAP de propòsit
+general està encara molt lluny de ser perfecte, i, de fet, és encara
+un camp de recerca actiu, encara que recentment s'ha incorporat
+bastant satisfactòriament en dispositius com ara telèfons mòbils.\footnote{Per exemple, els dispositius amb sistema operatiu Android permeten fer recerques per veu}  En
+canvi, el RAP per a un propòsit específic (per exemple, la consulta
+telefònica d'horaris de trens o de les condicions del trànsit) està
+molt més avançat. La major part de la inversió de la comunitat
+internacional en RAP és, per raons òbvies, sobre l'anglés.
 
 El RAP genera text a partir de la veu recollida a través d'un micròfon
-utilitzant una targeta de so per a digitalitzar-la i després un
+utilitzant una dispositiu de captura de  per a digitalitzar-la i després un
 sistema de reconeixement automàtic de la veu (\emph{automatic
   speech recognition}) per a detectar fonemes, síl·labes o paraules
 completes (depén del sistema concret) i traduir-les posteriorment
@@ -1291,15 +1329,16 @@ en ``passeig curt'' ---sord--- que en ``passeig allargat''
 humans fem un ús molt intensiu dels coneixements lingüístics que tenim
 sobre l'idioma que estem escoltant i del context comunicatiu: així, si
 sentim dir ``\emph{percà nom} passes l'\emph{antre xoc} de
-\emph{craus}'' a un amic quan veiem que no pot obrir el cotxe, entenem
-perfectament què ens vol dir; o si sentim dir en veu alta ``mu han dim
+\emph{craus}?'' a un amic quan veiem que no pot obrir el cotxe, entenem
+perfectament què ens vol dir;\footnote{\emph{Per què no em passes
+    l'altre joc de claus?}} o si sentim dir en veu alta ``mu han dim
 moltis baltes'' és molt probable que entenguem clarament ``m'ho han
 dit moltes voltes'' a pesar dels canvis fonètics, ja que
 inconscientment busquem la interpretació correcta més propera al que
 hem sentit (en el context concret en què es diu la
-frase).\footnote{Considereu aquest doblet anglés clàssic sobre el tema:
-  \emph{people can easily recognize speech} no és molt diferent de
-  {\em people can easily wreck a nice beach.}; un altre doblet el
+frase).\footnote{Considereu aquest doblet anglés clàssic sobre el
+  tema: \emph{people can easily recognize speech} no és molt diferent
+  de {\em people can easily wreck a nice beach}; un altre doblet el
   formen les expressions \emph{sax and violins on TV} i la més
   versemblant \emph{sex and violence on TV}} Els resultats de la RAP
 són especialment dependents de les particularitats lingüístiques de la
@@ -1320,21 +1359,20 @@ El \emph{reconeixement automàtic de textos escrits} (RATE) es pot definir
   tasca és molt més senzilla; en el cas de manuscrits, la complexitat
   és comparable a la del reconeixement de la parla.
   
-  El RATE genera un text informatitzat a partir d'un document
-  imprés, usant un escàner (o \emph{scanner}) i un programa
-  de reconeixement òptic (tam\-bé se'n diu {\em
-    automàtic}) de caràcters (OCR, \emph{optical character
-    recognition}).  Primerament, el document imprés és llegit
-  (escandit o escanejat) usant l'escàner, i se'n genera un fitxer
-  que en conté la imatge digital (per exemple, una graella molt fina
-  de quadrats blancs i negres).  Després, el programa d'OCR llig
-  la pàgina, descobreix on són els paràgrafs, les
-  línies i, finalment, els caràcters concrets, i els
+  El RATE genera un text informatitzat a partir d'un document imprés,
+  usant un escàner (o \emph{scanner}) i càmera i un programa de
+  reconeixement òptic (tam\-bé se'n diu {\em automàtic}) de caràcters
+  (OCR, \emph{optical character recognition}).  Primerament, el
+  document imprés és llegit (escanejat o escandit) usant l'escàner o
+  la càmera, i se'n genera un fitxer que en conté la imatge digital
+  (per exemple, una graella molt fina de quadrats blancs i negres).
+  Després, el programa d'OCR llig la pàgina, descobreix on són els
+  paràgrafs, les línies i, finalment, els caràcters concrets, i els
   transforma en un text informatitzat (normalment bastant imperfecte,
   especialment si és manuscrit).  Com en el cas del reconeixement de
   la parla, és crucial l'ús d'informació sobre l'idioma concret
-  (diccionaris, estadística sobre les seqüencies de lletres) per
-  a corregir els errors de l'OCR.  Per exemple, si un programa de
+  (diccionaris, estadística sobre les seqüencies de lletres) per a
+  corregir els errors de l'OCR.  Per exemple, si un programa de
   lectura automàtica de textos produeix per error el text ``4ixò 6s
   uua mcrda'' no cal dir què hi llegim sense massa problemes, malgrat
   els errors en tots els mots; això és gràcies als nostres
