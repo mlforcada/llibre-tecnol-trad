@@ -1777,7 +1777,82 @@ seua presentació.
 \end{enumerate}
 
 
+\item En XHTML (o HTML) hi ha elements buits (sense contingut). 
+Digues en quina d'aquestes tres opcions els dos elements són buits.
+\begin{enumerate}
+\item \texttt{h1} i \texttt{meta}.
+\item \texttt{meta} i \texttt{img}.
+\texttt{meta} i \texttt{head}.
 \end{enumerate}
+
+\item En XML, què vol dir \texttt{<mang/>}? 
+  \begin{enumerate}
+  \item No vol dir res, perquè no hi ha cap element que es diga \texttt{mang}.
+  \item El mateix que \texttt{<mang></mang>}.
+  \item No vol dir res, perquè hauria de ser \texttt{</mang>}.
+  \end{enumerate}
+
+\item Quin d'aquests tres elements XHTML (o HTML) no pot anar dins de l'element \texttt{body}? 
+
+  \begin{enumerate}
+  \item \texttt{meta}.
+  \item \texttt{img}.
+  \item \texttt{h1}.
+  \end{enumerate}
+
+
+\item Tenim un document XML que és vàlid d'acord amb una determinada DTD. Esborrem un element complet (per exemple \texttt{<element>text</element>}), el qual no és l'element arrel del document. Quina d'aquestes tres situacions no és possible? 
+  \begin{enumerate}
+  \item Que el document XML resultant no siga vàlid respecte de la DTD.
+  \item Que el document XML siga vàlid respecte de la DTD.
+  \item Que el document XML no siga un document XML ben format.
+  \end{enumerate}
+
+\item En HTML, podem posar un enllaç \texttt{<a href="..."}\texttt{>...</a>} dins d'un element de llista \texttt{<li>...</li>?}  
+  \begin{enumerate}
+  \item Sí.
+  \item No, perquè el document estaria mal format.
+  \item No, perquè el document no seria vàlid.
+  \end{enumerate}
+
+\item Un fitxer de text escrit en anglés conté només caràcters ASCII. L'obrim amb un editor i el guardem en format Unicode (UTF-8). Ara ocupa{\ldots} 
+  \begin{enumerate}
+  \item {\ldots} el doble d'espai.
+  \item {\ldots} exactament el mateix espai.
+  \item {\ldots} la meitat d'espai.
+  \end{enumerate}
+
+\item En un document HTML que tindrà l'URI \texttt{http://fic.ti.cia/a.html} volem que la frase \emph{aquest document} siga un enllaç a un fitxer \texttt{http://fic.ti.cia/b.html}: quina de les següents porcions d'HTML és l'única correcta de les tres?   
+  \begin{enumerate}
+  \item \texttt{<a href="b.html"}\texttt{>aquest document</a>} 
+  \item \texttt{<link url="http://fic.ti.cia/b.html"}\texttt{>aquest document</link>}
+  \item \texttt{<a url="b.html"}\texttt{>aquest document</a>}
+  \end{enumerate}
+
+\item El fragment XML \texttt{<a><b><c></c></b></a>} no és vàlid segons una de les següents regles de DTD. Segons quina?  
+  \begin{enumerate}
+  \item \texttt{<!ELEMENT a (b+,c?)>}
+  \item \texttt{<!ELEMENT a (b+)>}
+  \item \texttt{<!ELEMENT a (b,c)>}
+  \end{enumerate}
+
+\item  Assenyala el fragment d'HTML que generarà el text més gran:  
+  \begin{enumerate}
+  \item \texttt{<h1>Títol</h1>}
+  \item \texttt{<h2>Títol</h2>}
+  \item \texttt{<h3>Títol</h3>}
+  \end{enumerate}
+
+\item Com es diu el joc de caràcters estàndard universal, el que assigna un número de codi diferent i únic a cada un dels caràcters de cada una de les llengües del món?  
+  \begin{enumerate}
+  \item Unicode.
+  \item \emph{Latin-1}.
+  \item XML.
+  \end{enumerate}
+
+
+\end{enumerate}
+\todo{Algunes de les preguntes potser no es poden respondre amb els materials del text i caldrà eliminar-les}
 
 \section{Solucions}
 \begin{enumerate}
@@ -1815,7 +1890,15 @@ seua presentació.
 \item (a)
 \item (a)
 \item (b)
-
+\item (b)
+\item (c)
+\item (a)
+\item (c)
+\item (b)
+\item (c)
+\item (c)
+\item (a)
+\item (a)
 % < SL4
 
 \end{enumerate}
