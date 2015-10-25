@@ -8,8 +8,6 @@
     necessari per a realitzar les tasques corresponents sinó que es
     recolzen en el sistema operatiu (i per això no funcionen, en
     general amb sistemes diferents de Windows).
-  \item Mirar on explicar què es un DVD, quants megaoctets hi caben,
-  etc. 
   \end{itemize}
 }
 \label{se:OiP}
@@ -105,7 +103,7 @@ Tots els sistemes informàtics tenen maquinari de les classes següents:
       directament; en canvi, un casset (cinta magnètica) és d'accés
       seqüencial perquè per a accedir a la setzena cançó hem de passar
       per les 15 cançons anteriors.}) de silici.
-      
+    
   \item[Memòria secundària:] memòria de llarg termini, permanent.
     Exemples: els antics disquets, discos fixos o durs interns i
     externs, memòries USB (també anomenades llapis o \emph{pendrive})
@@ -241,91 +239,86 @@ Hi ha tres classes bàsiques de programari:
   \item Executar programes i controlar-ne l'execució.
   \item Establir connexions amb altres ordinadors o dispositius en
     xarxa.
-\end{itemize}
-De fet, els programes d'aplicació solen estar escrits per a ser
-executats \emph{sobre un sistema operatiu}, és a dir, els programes
-d'aplicació \emph{assumeixen} que el sistema operatiu farà totes
-aquestes operacions senzilles i no contenen instruccions de programa
-per a fer-les, sinó només instruccions per a invocar els programes
-corresponents del sistema operatiu, cosa que simplifica enormement
-l'escriptura dels programes per part dels programadors.  Per això,
-quan s'especifiquen les característiques d'un programa d'ordinador
-s'ha de dir per a quin sistema operatiu està escrit, ja que cada
-sistema operatiu ofereix serveis diferents i interacciona de manera
-diferent amb els programes d'aplicació.%\footnote{En cert sentit, el
-%  sistema operatiu és com el \emph{factor comú} de tots els programes
-%  d'aplicació.}
+  \end{itemize}
+  De fet, els programes d'aplicació solen estar escrits per a ser
+  executats \emph{sobre un sistema operatiu}, és a dir, els programes
+  d'aplicació \emph{assumeixen} que el sistema operatiu farà totes
+  aquestes operacions senzilles i no contenen instruccions de programa
+  per a fer-les, sinó només instruccions per a invocar els programes
+  corresponents del sistema operatiu, cosa que simplifica enormement
+  l'escriptura dels programes per part dels programadors.  Per això,
+  quan s'especifiquen les característiques d'un programa d'ordinador
+  s'ha de dir per a quin sistema operatiu està escrit, ja que cada
+  sistema operatiu ofereix serveis diferents i interacciona de manera
+  diferent amb els programes d'aplicació.
+  % \footnote{En cert sentit, el sistema operatiu és com el
+  % \emph{factor comú} de tots els programes d'aplicació.}
 
 \item[Programes d'aplicació:] programari dissenyat específicament per
   a satisfer les necessitats dels usuaris (de vegades s'anomenen
   simplement {\em aplicacions}). Se'n podrien fer dos grups:
-        \begin{description}
-        \item[Programari d'ús específic:] programari dissenyat per a
-          un usuari molt concret amb unes necessitats molt concretes:
-          per exemple, el programa que gestiona els préstecs, les
-          quotes i les adquisicions d'un videoclub, fet a mida per a
-          ell.
-          \begin{description}
-          \item[Programari específic per a professionals de la
-            traducció:] sistemes de traducció automàtica
-            (capítols~\ref{se:TiTA} a \ref{se:ASTA}), sistemes de
-            traducció assistida basats en memòries de traducció
-            (capítol~\ref{se:memtrad}) i bases de dades
-            terminològiques (capítol~\ref{se:basesdades}).
-          \end{description}
-        \item[Programari d'ús general:] programari dissenyat per a fer
-          tasques més genèriques, interessants per a moltes classes
-          d'usuaris. Ací en teniu alguns exemples:
-                \begin{description}
-                \item[Editors i processadors de text] per a preparar,
-                  modificar, emmagatzemar i imprimir documents de text
-                  (vegeu la secció~\ref{ss:proctext}).
-                  % \item[Programes d'autopublicació o autoedició,]
-                  %   que
-                  %   integren textos, imatges, etc. fins a produir un
-                  %   document imprés amb característiques de
-                  %   publicació. Quan el disseny de la publicació no
-                  %   és
-                  %   massa complex, és possible usar senzillament un
-                  %   processador de textos.
-                \item[Fulls de càlcul,] que permeten automatitzar
-                  càlculs que es repeteixen sobre un conjunt més o
-                  menys gran de dades (per exemple, per a calcular la
-                  nota mitjana de cada estudiant d'una classe sencera
-                  a partir de les notes parcials), i presentar-ne els
-                  resultats de diverses maneres, per exemple, en
-                  gràfics de molts tipus.
-                \item[Gestors de bases de dades] \label{pg:BD} que
-                  serveixen per a emmagatzemar, organitzar i gestionar
-                  de diverses maneres la informació continguda en
-                  \emph{bases} o bancs de dades (vegeu el
-                  capítol~\ref{se:basesdades}).
-                % \item[Programes de comunicacions,] que permeten
-                % connectar el nostre ordinador a altres ordinadors,
-                % transferir
-                % fitxers, etc. Actualment, en molts casos, els programes
-                % de comunicació formen part dels sistemes operatius
-                % i l'usuari no s'adona que estiguen actius.
-                \item[Navegadors d'Internet:] programes que permeten
-                  accedir de manera senzilla als documents d'Internet
-                  en màquines connectades a aquesta xarxa.\footnote{El
-                    nom \emph{navegador} s'usa per l'analogia
-                    ---dèbil--- existent entre els mecanismes d'accés
-                    als documents de la Internet i la navegació
-                    mitjançant un mapa en una zona desconeguda.}
-                  Vegeu la secció \ref{ss:navegadors}.
-                % \item[Programes de gràfics,] que ens ajuden a presentar
-                % de manera més útil les dades de què disposem
-                % (aquests programes apareixen moltes
-                % voltes associats a fulls de càlcul).
-                \item[Jocs] de moltes classes.
-                \end{description}
-        \end{description}
-        Els programes d'aplicació els activa l'usuari per mitjà del
-        sistema operatiu, utilitzen el sistema operatiu per a accedir
-        als recursos (maquinari i altres programes) del sistema i
-        interaccionen amb l'usuari mitjançant el dispositius d'entrada
-        i d'eixida (vegeu la figura~\ref{fg:aplicacio-so}).
+  \begin{description}
+  \item[Programari d'ús específic:] programari dissenyat per a
+    un usuari molt concret amb unes necessitats molt concretes:
+    per exemple, el programa que gestiona els préstecs, les
+    quotes i les adquisicions d'un videoclub, fet a mida per a
+    ell.
+    \begin{description}
+    \item[Programari específic per a professionals de la
+      traducció:] sistemes de traducció automàtica
+      (capítols~\ref{se:TiTA} a \ref{se:ASTA}), sistemes de
+      traducció assistida basats en memòries de traducció
+      (capítol~\ref{se:memtrad}) i bases de dades
+      terminològiques (capítol~\ref{se:basesdades}).
+    \end{description}
+  \item[Programari d'ús general:] programari dissenyat per a fer
+    tasques més genèriques, interessants per a moltes classes
+    d'usuaris. Ací en teniu alguns exemples:
+    \begin{description}
+    \item[Editors i processadors de text] per a preparar,
+      modificar, emmagatzemar i imprimir documents de text
+      (vegeu la secció~\ref{ss:proctext}).
+      % \item[Programes d'autopublicació o autoedició,]
+      %   que% integren textos, imatges, etc. fins a produir un document
+      %   imprés amb característiques de publicació. Quan el disseny
+      %   de la publicació no és massa complex, és possible usar
+      %   senzillament un processador de textos.
+    \item[Fulls de càlcul,] que permeten automatitzar
+      càlculs que es repeteixen sobre un conjunt més o
+      menys gran de dades (per exemple, per a calcular la
+      nota mitjana de cada estudiant d'una classe sencera
+      a partir de les notes parcials), i presentar-ne els
+      resultats de diverses maneres, per exemple, en
+      gràfics de molts tipus.
+    \item[Gestors de bases de dades] \label{pg:BD} que
+      serveixen per a emmagatzemar, organitzar i gestionar
+      de diverses maneres la informació continguda en
+      \emph{bases} o bancs de dades (vegeu el
+      capítol~\ref{se:basesdades}).
+      % \item[Programes de comunicacions,] que permeten connectar el
+      %   nostre ordinador a altres ordinadors, transferir fitxers,
+      %   etc. Actualment, en molts casos, els programes de
+      %   comunicació formen part dels sistemes operatius i l'usuari
+      %   no s'adona que estiguen actius.
+    \item[Navegadors d'Internet:] programes que permeten
+      accedir de manera senzilla als documents d'Internet
+      en màquines connectades a aquesta xarxa.\footnote{El
+        nom \emph{navegador} s'usa per l'analogia
+        ---dèbil--- existent entre els mecanismes d'accés
+        als documents de la Internet i la navegació
+        mitjançant un mapa en una zona desconeguda.}
+      Vegeu la secció \ref{ss:navegadors}.
+      % \item[Programes de gràfics,] que ens ajuden a presentar de
+      %   manera més útil les dades de què disposem (aquests programes
+      %   apareixen moltes voltes associats a fulls de càlcul).
+    \item[Jocs] de moltes classes.
+    \end{description}
+  \end{description}
+  Els programes d'aplicació els activa l'usuari per mitjà del
+  sistema operatiu, utilitzen el sistema operatiu per a accedir
+  als recursos (maquinari i altres programes) del sistema i
+  interaccionen amb l'usuari mitjançant el dispositius d'entrada
+  i d'eixida (vegeu la figura~\ref{fg:aplicacio-so}).
 \end{description}
 
 \begin{figure}
@@ -337,43 +330,43 @@ diferent amb els programes d'aplicació.%\footnote{En cert sentit, el
 \end{figure}
 
 \begin{persabermes}{programari}
-Com ja s'ha dit més amunt, un programari és un conjunt de programes,
-cada un dels quals consisteix en una llista d'instruccions vàlides
-(executables per l'ordinador) que s'executen en l'ordre indicat, de
-la primera a l'última, excepte quan s'hi presenta alguna instrucció
-de \emph{salt} que indica quina és la següent instrucció que s'ha
-d'executar.
+  Com ja s'ha dit més amunt, un programari és un conjunt de programes,
+  cada un dels quals consisteix en una llista d'instruccions vàlides
+  (executables per l'ordinador) que s'executen en l'ordre indicat, de
+  la primera a l'última, excepte quan s'hi presenta alguna instrucció
+  de \emph{salt} que indica quina és la següent instrucció que s'ha
+  d'executar.
 
-Per exemple, un programa que suma tots els nombres enters del 1 al 10
-podria ser el següent, el qual usa dues posicions de memòria RAM per a
-guardar valors necessaris per al càlcul. Cada una de les ordres es
-correspon amb una instrucció bàsica de les que pot entendre qualsevol
-processador.
-\begin{enumerate}
-\item Fes que l'acumulador (un registre de la memòria interna del
-  processador) valga 1.
-\item Guarda el valor de l'acumulador en una posició de memòria que
-  anomenarem \emph{índex}.
-\item Fes que l'acumulador valga 0.
-\item Guarda el valor de l'acumulador en una posició de memòria que
-  anomenarem \emph{suma}, la qual contindrà la suma total.
-\item \label{en:z} Carrega el valor de \emph{suma} en l'acumulador.
-\item Suma el valor d'\emph{índex} a l'acumulador.
-\item Guarda el valor de l'acumulador en \emph{suma}.
-\item Carrega el valor d'\emph{índex} en l'acumulador.
-\item Compara el valor de l'acumulador amb 10.
-\item Si és igual, salta a la instrucció~\ref{en:q}
-\item Incrementa en 1 el valor de l'acumulador.
-\item Guarda el valor de l'acumulador en \emph{índex}.
-\item Salta a la instrucció~\ref{en:z}.
-\item \label{en:q} Para.
-\end{enumerate}
+  Per exemple, un programa que suma tots els nombres enters del 1 al 10
+  podria ser el següent, el qual usa dues posicions de memòria RAM per a
+  guardar valors necessaris per al càlcul. Cada una de les ordres es
+  correspon amb una instrucció bàsica de les que pot entendre qualsevol
+  processador.
+  \begin{enumerate}
+  \item Fes que l'acumulador (un registre de la memòria interna del
+    processador) valga 1.
+  \item Guarda el valor de l'acumulador en una posició de memòria que
+    anomenarem \emph{índex}.
+  \item Fes que l'acumulador valga 0.
+  \item Guarda el valor de l'acumulador en una posició de memòria que
+    anomenarem \emph{suma}, la qual contindrà la suma total.
+  \item \label{en:z} Carrega el valor de \emph{suma} en l'acumulador.
+  \item Suma el valor d'\emph{índex} a l'acumulador.
+  \item Guarda el valor de l'acumulador en \emph{suma}.
+  \item Carrega el valor d'\emph{índex} en l'acumulador.
+  \item Compara el valor de l'acumulador amb 10.
+  \item Si és igual, salta a la instrucció~\ref{en:q}
+  \item Incrementa en 1 el valor de l'acumulador.
+  \item Guarda el valor de l'acumulador en \emph{índex}.
+  \item Salta a la instrucció~\ref{en:z}.
+  \item \label{en:q} Para.
+  \end{enumerate}
 
-Moltes voltes s'usen noms curts (en anglés \emph{mnemonics}) per a les
-instruccions del processador i també noms elegits pel programador per
-a referir-se a posicions del programa (aquesta notació se sol anomenar
-\emph{llenguatge assemblador}). El programa de dalt tindria l'aparença
-següent:
+  Moltes voltes s'usen noms curts (en anglés \emph{mnemonics}) per a les
+  instruccions del processador i també noms elegits pel programador per
+  a referir-se a posicions del programa (aquesta notació se sol anomenar
+  \emph{llenguatge assemblador}). El programa de dalt tindria l'aparença
+  següent:
 \begin{verbatim}
          mov #1,A
          mov A,index
@@ -391,24 +384,24 @@ següent:
  final:  hlt
 \end{verbatim}
 
-\paragraph{Processadors de llenguatges de programació:} les
-instruccions que executa el processador central d'un ordinador són
-massa senzilles perquè un programador humà en faça programes útils;
-seria llarg i enutjós, com hem vist en l'exemple de programa que
-sumava els enters de l'1 al 10.  Els programadors normalment escriuen
-els seus programes en {\em llenguatges de programació} basats en
-instruccions més potents (com ara BASIC, Java, C, C++, Pascal, Perl o
-Python) i usen programes especials ---els processadors de
-llenguatges--- per a traduir-los a les instruccions senzilles que
-entén la màquina.\footnote{Hi ha dos famílies bàsiques de processadors
-  de llenguatges: els \emph{compiladors}, que tradueixen tot el
-  programa al llenguatge de la màquina abans d'executar-lo, i els
-  \emph{intèrprets}, que lligen el programa línia a línia i executen
-  petits programes ja escrits en el llenguatge de la màquina i que
-  corresponen a les sentències del llenguatge de programació.} Quasi
-tots els programes que s'executen en un ordinador han estat escrits en
-algun llenguatge de programació. El programa que suma els nombres de
-l'1 al 10 quedaria així en el llenguatge Pascal:
+  \paragraph{Processadors de llenguatges de programació:} les
+  instruccions que executa el processador central d'un ordinador són
+  massa senzilles perquè un programador humà en faça programes útils;
+  seria llarg i enutjós, com hem vist en l'exemple de programa que
+  sumava els enters de l'1 al 10.  Els programadors normalment escriuen
+  els seus programes en {\em llenguatges de programació} basats en
+  instruccions més potents (com ara BASIC, Java, C, C++, Pascal, Perl o
+  Python) i usen programes especials ---els processadors de
+  llenguatges--- per a traduir-los a les instruccions senzilles que
+  entén la màquina.\footnote{Hi ha dos famílies bàsiques de processadors
+    de llenguatges: els \emph{compiladors}, que tradueixen tot el
+    programa al llenguatge de la màquina abans d'executar-lo, i els
+    \emph{intèrprets}, que lligen el programa línia a línia i executen
+    petits programes ja escrits en el llenguatge de la màquina i que
+    corresponen a les sentències del llenguatge de programació.} Quasi
+  tots els programes que s'executen en un ordinador han estat escrits en
+  algun llenguatge de programació. El programa que suma els nombres de
+  l'1 al 10 quedaria així en el llenguatge Pascal:
 \begin{verbatim}
 program SUMA;
 var
@@ -420,97 +413,97 @@ begin
 end.
 \end{verbatim}
 
-% \paragraph{Programes i algorismes:} Moltes voltes, un programa és la
-% realització (entre informàtics se'n diu {\em implementació}) d'un
-% \emph{algorisme}. Un algorisme (també \emph{algoritme}, per
-% interferència amb \emph{aritmètica}) és una seqüència finita
-% d'operacions executables i no ambigües\footnote{Aquestes operacions no
-%   necessàriament han de ser comprensibles per a un ordinador.} que
-% defineix un procediment que sempre es deté. El nom \emph{algorisme} ve
-% del nom d'un matemàtic que treballava a Bagdad vora l'any 825 de la
-% nostra era, Muhammad ibn Musa al Khwarizmi, anomenat així perquè
-% sembla que era d'una ciutat al sud del mar d'Aral anomenada Khwarizm
-% (ara Kheva). Aquest matemàtic va introduir el sistema decimal hindú en
-% el món àrab. El seu llibre, \emph{Kitab al-jabr wa al-muqabalah}, o
-% {\em Llibre de la integració i l'equació}, va donar nom també a
-% l'\emph{àlgebra} quan es va traduir al llatí en el segle XII. El
-% llibre és bàsicament una compilació de procediments algebraics i
-% geomètrics, és a dir, d'\emph{algorismes}.
+  % \paragraph{Programes i algorismes:} Moltes voltes, un programa és la
+  % realització (entre informàtics se'n diu {\em implementació}) d'un
+  % \emph{algorisme}. Un algorisme (també \emph{algoritme}, per
+  % interferència amb \emph{aritmètica}) és una seqüència finita
+  % d'operacions executables i no ambigües\footnote{Aquestes operacions no
+  % necessàriament han de ser comprensibles per a un ordinador.} que
+  % defineix un procediment que sempre es deté. El nom \emph{algorisme} ve
+  % del nom d'un matemàtic que treballava a Bagdad vora l'any 825 de la
+  % nostra era, Muhammad ibn Musa al Khwarizmi, anomenat així perquè
+  % sembla que era d'una ciutat al sud del mar d'Aral anomenada Khwarizm
+  % (ara Kheva). Aquest matemàtic va introduir el sistema decimal hindú en
+  % el món àrab. El seu llibre, \emph{Kitab al-jabr wa al-muqabalah}, o
+  % {\em Llibre de la integració i l'equació}, va donar nom també a
+  % l'\emph{àlgebra} quan es va traduir al llatí en el segle XII. El
+  % llibre és bàsicament una compilació de procediments algebraics i
+  % geomètrics, és a dir, d'\emph{algorismes}.
 
-% Normalment els algorismes especifiquen un mètode general per a obtenir
-% la resposta (correcta o incorrecta) a qualsevol cas particular d'un
-% problema o pregunta, com ara ``quin és el quocient de la divisió de
-% dos nombres enters''?  Els algorismes es poden convertir fàcilment en
-% programes d'ordinador si es canvien les instruccions bàsiques de
-% l'algorisme per instruccions en un llenguatge de programació que es
-% puguen traduir a les instruccions senzilles que entén la màquina.
+  % Normalment els algorismes especifiquen un mètode general per a obtenir
+  % la resposta (correcta o incorrecta) a qualsevol cas particular d'un
+  % problema o pregunta, com ara ``quin és el quocient de la divisió de
+  % dos nombres enters''?  Els algorismes es poden convertir fàcilment en
+  % programes d'ordinador si es canvien les instruccions bàsiques de
+  % l'algorisme per instruccions en un llenguatge de programació que es
+  % puguen traduir a les instruccions senzilles que entén la màquina.
 
-% Un exemple d'algorisme/programa és el següent, que diu si dues
-% seqüències de caràcters (també anomenades \emph{cadenes} de caràcters)
-% són iguals o no. Aquest algorisme està relacionat amb la recerca d'un
-% mot en un diccionari, per exemple.  Els algorismes s'enuncien \emph{en
-%   imperatiu}, com si fossen ordres que es donen a algú perquè les
-% execute seqüencialment, excepte quan es trenca l'ordre amb una
-% instrucció ``Vés a''.  \vspace{0.4cm}
+  % Un exemple d'algorisme/programa és el següent, que diu si dues
+  % seqüències de caràcters (també anomenades \emph{cadenes} de caràcters)
+  % són iguals o no. Aquest algorisme està relacionat amb la recerca d'un
+  % mot en un diccionari, per exemple.  Els algorismes s'enuncien \emph{en
+  % imperatiu}, com si fossen ordres que es donen a algú perquè les
+  % execute seqüencialment, excepte quan es trenca l'ordre amb una
+  % instrucció ``Vés a''.  \vspace{0.4cm}
 
-% {\sf
-% \noindent ALGORISME COMPARA\newline
-% \noindent Entrada: Dues seqüències de caràcters $A$ i $B$.\newline
-% Eixida:  \emph{Sí}, si són iguals; \emph{no} si no ho són.
+  % {\sf
+  % \noindent ALGORISME COMPARA\newline
+  % \noindent Entrada: Dues seqüències de caràcters $A$ i $B$.\newline
+  % Eixida:  \emph{Sí}, si són iguals; \emph{no} si no ho són.
 
-% \begin{itemize}
-% \item[1.] Fes que $p$ valga 1 ($p$ indica la posició actual dins
-%   de les seqüències que estem comparant: $p=1$, per al primer
-%   caràcter, $p=2$, per al segon, etc.)
-% \item[2.] Si no existeix la posició $p$ de $A$, vés a 7.
-% \item[3.] Si no existeix la posició $p$ de $B$, vés a 8.
-% \item[4.] Si el caràcter en la posició  $p$ de $A$ no és
-%           igual al caràcter en la posició $p$ de $B$, vés
-%           a 8.
-% \item[5.] Suma 1 a $p$.
-% \item[6.] Vés al pas 2.
-% \item[7.] Si no existeix la posició $p$ de $B$, digues \emph{sí} i
-% para.
-% \item[8.] Digues \emph{no} i para.
-% \end{itemize} 
-% } %
-% Si es pot suposar que a les cadenes de caràcters s'afegeix un símbol
-% especial de final de cadena (per exemple, `\$'), l'algorisme se
-% simplifica: \vspace{0.4cm}
+  % \begin{itemize}
+  % \item[1.] Fes que $p$ valga 1 ($p$ indica la posició actual dins
+  %   de les seqüències que estem comparant: $p=1$, per al primer
+  %   caràcter, $p=2$, per al segon, etc.)
+  % \item[2.] Si no existeix la posició $p$ de $A$, vés a 7.
+  % \item[3.] Si no existeix la posició $p$ de $B$, vés a 8.
+  % \item[4.] Si el caràcter en la posició  $p$ de $A$ no és
+  %   igual al caràcter en la posició $p$ de $B$, vés
+  %   a 8.
+  % \item[5.] Suma 1 a $p$.
+  % \item[6.] Vés al pas 2.
+  % \item[7.] Si no existeix la posició $p$ de $B$, digues \emph{sí} i
+  %   para.
+  % \item[8.] Digues \emph{no} i para.
+  % \end{itemize} 
+  % } %
+  %   Si es pot suposar que a les cadenes de caràcters s'afegeix un símbol
+  %   especial de final de cadena (per exemple, `\$'), l'algorisme se
+  %   simplifica: \vspace{0.4cm}
 
-% {\sf
-% \noindent ALGORISME COMPARA2\newline
-% \noindent Entrada: Dues seqüències de caràcters $A$ i $B$,
-%          acabades en `\$'.\newline
-% Eixida:  \emph{Sí}, si són iguals; \emph{no} si no ho són.
+  %   {\sf
+  %   \noindent ALGORISME COMPARA2\newline
+  %   \noindent Entrada: Dues seqüències de caràcters $A$ i $B$,
+  %   acabades en `\$'.\newline
+  %   Eixida:  \emph{Sí}, si són iguals; \emph{no} si no ho són.
 
-% \begin{itemize}
-% \item[1.] Fes que $p$ valga 1.
-% \item[2.] Si el caràcter en la posició  $p$ de $A$ no és
-%           igual al caràcter en la posició $p$ de $B$, digues
-%           \emph{no} i para.
-% \item[3.] Si el caràcter en la posició  $p$ de $A$ és `\$',
-%           digues \emph{sí} i para.
-% \item[4.] Suma 1 a p.
-% \item[5.] Vés al pas 2.
-% \end{itemize}
-% } 
-% Aquest algorisme es pot convertir a un programa d'ordinador.  Per
-% exemple, en Pascal tindria una forma com aquesta:
-% \begin{alltt}
-% function compare(A, B : string);
-%   var p : int ;
-%   labels : 2 ;
-%   begin
-%     p:=1;
-%  2: if A[p]<>B[p] then return "no";
-%     if A[p]='\$' then return "yes"
-%     p:=p+1;
-%     goto 2;
-%   end;
-% \end{alltt}
-% \noindent on \texttt{A[p]} representa el caràcter que hi ha en la
-% posició \texttt{p} de la seqüència \texttt{A}.
+  %   \begin{itemize}
+  %   \item[1.] Fes que $p$ valga 1.
+  %   \item[2.] Si el caràcter en la posició  $p$ de $A$ no és
+  %     igual al caràcter en la posició $p$ de $B$, digues
+  %     \emph{no} i para.
+  %   \item[3.] Si el caràcter en la posició  $p$ de $A$ és `\$',
+  %     digues \emph{sí} i para.
+  %   \item[4.] Suma 1 a p.
+  %   \item[5.] Vés al pas 2.
+  %   \end{itemize}
+  % } 
+  %   Aquest algorisme es pot convertir a un programa d'ordinador.  Per
+  %   exemple, en Pascal tindria una forma com aquesta:
+  %   \begin{alltt}
+  %     function compare(A, B : string);
+  %     var p : int ;
+  %     labels : 2 ;
+  %     begin
+  %     p:=1;
+  %     2: if A[p]<>B[p] then return "no";
+  %     if A[p]='\$' then return "yes"
+  %     p:=p+1;
+  %     goto 2;
+  %     end;
+  %   \end{alltt}
+  %   \noindent on \texttt{A[p]} representa el caràcter que hi ha en la
+  %   posició \texttt{p} de la seqüència \texttt{A}.
 \end{persabermes}
 
 
@@ -565,18 +558,18 @@ Com que un octet pot contenir poca informació, normalment es parla de:
   1.024$\times$8=8.192 bits.
 \item \emph{megaoctets} o \emph{megabytes} (MB), o milions d'octets.
   De fet, com en el cas dels kilooctets, no exactament:
-$$1~\mbox{MB} = 1.024 \times 1.024~\mbox{octets}= 1.048.576~\mbox{octets}.$$
+  $$1~\mbox{MB} = 1.024 \times 1.024~\mbox{octets}= 1.048.576~\mbox{octets}.$$
 \item \emph{gigaoctets} o \emph{gigabytes} (GB), o milers de milions
   ---una mica més--- d'octets:
-$$1~\mbox{GB}=1.024~\mbox{MB}=1.048.576~\mbox{kB}=1.073.741.824~\mbox{octets}.$$
+  $$1~\mbox{GB}=1.024~\mbox{MB}=1.048.576~\mbox{kB}=1.073.741.824~\mbox{octets}.$$
 \item \emph{teraoctets} o \emph{terabytes} (TB), o bilions (milions de
   milions) ---de nou, una mica més--- d'octets:
-\[
-\begin{array}{c}
-$$1~\mbox{TB}=1.024~\mbox{GB}=1.048.576~\mbox{MB}=1.073.741.824~\mbox{kB}=\\
-=1.099.511.627.776~\mbox{octets}.$$
-\end{array}
-\]
+  \[
+  \begin{array}{c}
+    $$1~\mbox{TB}=1.024~\mbox{GB}=1.048.576~\mbox{MB}=1.073.741.824~\mbox{kB}=\\
+    =1.099.511.627.776~\mbox{octets}.$$
+  \end{array}
+  \]
 \end{itemize}
 Com que els prefixos \emph{k}, \emph{M}, \emph{G} i \emph{T} s'usen en
 la resta de les disciplines científiques per expressar a potències
@@ -586,17 +579,17 @@ exactes de 10 (de 1.000), hi ha qui prefereix parlar de
 \emph{tebibytes} o \emph{tebioctets} (TiB) per a referir-se a les
 unitats de capacitat d'emmagatzematge basades en múltiples de 1.024.
 
-%Per exemple, actualment (any 2015) és comú que un PC de taula
-%tinga 8~GB de memòria RAM i un disc dur d'1~TB.
+% Per exemple, actualment (any 2015) és comú que un PC de taula
+% tinga 8~GB de memòria RAM i un disc dur d'1~TB.
 
-%Quant a l'emmagatzematge òptic, un CD-ROM conté uns 700~MB, tot i
-%que també n'hi ha varietats que arriben als 900~MB. Els DVD actuals
-%contenen uns 4,7~GB, però ja s'han desenvolupat tècniques que n'amplien
-%considerablement la capacitat.
+% Quant a l'emmagatzematge òptic, un CD-ROM conté uns 700~MB, tot i
+% que també n'hi ha varietats que arriben als 900~MB. Els DVD actuals
+% contenen uns 4,7~GB, però ja s'han desenvolupat tècniques que n'amplien
+% considerablement la capacitat.
 
-%Les memòries USB típiques (i també les targetes de memòria SD, micro
-%SD, etc. que s'usen de memòria suplementària en mòbils, tauletes i
-%càmeres) solen tenir 16, 32 o 64~GB.
+% Les memòries USB típiques (i també les targetes de memòria SD, micro
+% SD, etc. que s'usen de memòria suplementària en mòbils, tauletes i
+% càmeres) solen tenir 16, 32 o 64~GB.
 
 \section{Fitxers i directoris}
 \label{se:fitxers}
@@ -633,7 +626,6 @@ exemple, l'extensió \texttt{.txt} identifica normalment un fitxer de
 text pla, vegeu l'apartat~\ref{ss:formats}; l'extensió \texttt{.exe}
 s'usa per als programes d'ordinador, etc.).
 
-
 La seqüència dels noms de les carpetes que cal anar obrint fins que
 arribem a un fitxer s'anomena la \emph{trajectòria} o la \emph{ruta}
 del fitxer.  De fet, convé considerar la trajectòria com a part del
@@ -641,25 +633,25 @@ nom del fitxer, cosa que ens permetria dir, senzillament, que en un
 disc no pot haver-hi dos fitxers amb el mateix nom.  
 
 \begin{figure}
-\centering
-\begin{parsetree}
+  \centering
+  \begin{parsetree}
     ( .{$\Box$}.
-      (.{\carpeta{prac1}}.
-         (.{\carpeta{tt}}.
-               `\fitxer{tt1}{txt}'
-               `\fitxer{tt2}{txt}'
-      )
-         (.{\carpeta{reserva}}.
-         (.{\carpeta{tt}}.
-              `\fitxer{tt1}{txt}'
-         )
-         )
-      )
+    (.{\carpeta{prac1}}.
+    (.{\carpeta{tt}}.
+    `\fitxer{tt1}{txt}'
+    `\fitxer{tt2}{txt}'
     )
-\end{parsetree}
-\caption{Exemple d'estructura de fitxers i directoris en un dispositiu
-  d'emmagatzemament. El directori principal o arrel està
-  representat pel símbol $\Box$.}\label{fg:fitxersdirs}
+    (.{\carpeta{reserva}}.
+    (.{\carpeta{tt}}.
+    `\fitxer{tt1}{txt}'
+    )
+    )
+    )
+    )
+  \end{parsetree}
+  \caption{Exemple d'estructura de fitxers i directoris en un
+    dispositiu d'emmagatzemament. El directori principal o arrel està
+    representat pel símbol $\Box$.}\label{fg:fitxersdirs}
 \end{figure}
 
 Tots aquests conceptes es veuen potser més clars amb l'exemple de la
@@ -702,9 +694,9 @@ d'ordinadors que podem trobar-nos avui dia és la següent:
   reduït limita les possibilitats de fer-hi ampliacions i, per tant,
   el seu temps de vida pot ser més curt que el dels ordinadors de
   sobretaula. 
-%Tot i que fa uns anys el seu preu era molt superior al
-%  d'un ordinador de sobretaula, avui la diferència és cada vegada més
-%  reduïda.
+  % Tot i que fa uns anys el seu preu era molt superior al d'un
+  % ordinador de sobretaula, avui la diferència és cada vegada
+  % més reduïda.
 \item[Tauletes i \emph{smartphones}]: les tauletes (en anglés
   \emph{tablets}) i els telèfons mòbils més moderns, anomenats
   \emph{smartphones}, són veritables ordinadors por\-tà\-tils, amb una
@@ -768,29 +760,29 @@ La configuració clàssica d'un ordinador personal de sobretaula model
 2015 sol ser més o menys com segueix:
 \begin{itemize}
 \item La unitat base (la ``caixa'' o la ``torre'') conté:
-\begin{itemize}
-\item Un processador compost de quatre nuclis o processadors
-  individuals (\emph{quad-core}) o més, com ara un \emph{Intel Core
-    i5} o més o un processador equivalent de la marca AMD (vegeu el
-  glossari, apartat~\ref{ss:OiPgloss}) a 3~GHz.
-\item La memòria RAM (per exemple, de 8~GB).
-\item Una bona targeta gràfica, amb la seua pròpia unitat independent
-  de processament gràfic o GPU (\emph{graphics processing units}),
-\item Un disc fix amb una capacitat de l'ordre d'1~TB
-\item Una unitat enregistradora de DVD i de CD-ROM\footnote{En les
-    unitats de CD-ROM és important la velocitat màxima de
-    transferència de dades, que es dóna com a múltiple de l'estàndard
-    (la d'un CD de música, de l'ordre d'uns 150~kilooctets per segon):
-    quàdrupla (4$\times$), sèxtupla (6$\times$), etc.  Actualment no
-    és estrany que una unitat de CD-ROM tinga una velocitat punta de
-    lectura i d'escriptura de 52$\times$ o més.  De tota manera, les
-    velocitats \emph{mitjanes} de tot un procés de lectura i
-    escriptura solen ser més baixes.}
-\item Una targeta de so amb altaveus i micròfon.
-\item Una càmera (de vegades anomenada \emph{webcam})
-\item Una o més targetes de comunicacions incorporades (amb fils o
-  sense fils, vegeu el glossari, apartat~\ref{ss:OiPgloss}).
-\end{itemize}
+  \begin{itemize}
+  \item Un processador compost de quatre nuclis o processadors
+    individuals (\emph{quad-core}) o més, com ara un \emph{Intel Core
+      i5} o més o un processador equivalent de la marca AMD (vegeu el
+    glossari, apartat~\ref{ss:OiPgloss}) a 3~GHz.
+  \item La memòria RAM (per exemple, de 8~GB).
+  \item Una bona targeta gràfica, amb la seua pròpia unitat independent
+    de processament gràfic o GPU (\emph{graphics processing units}),
+  \item Un disc fix amb una capacitat de l'ordre d'1~TB
+  \item Una unitat enregistradora de DVD i de CD-ROM\footnote{En les
+      unitats de CD-ROM és important la velocitat màxima de
+      transferència de dades, que es dóna com a múltiple de l'estàndard
+      (la d'un CD de música, de l'ordre d'uns 150~kilooctets per segon):
+      quàdrupla (4$\times$), sèxtupla (6$\times$), etc.  Actualment no
+      és estrany que una unitat de CD-ROM tinga una velocitat punta de
+      lectura i d'escriptura de 52$\times$ o més.  De tota manera, les
+      velocitats \emph{mitjanes} de tot un procés de lectura i
+      escriptura solen ser més baixes.}
+  \item Una targeta de so amb altaveus i micròfon.
+  \item Una càmera (de vegades anomenada \emph{webcam})
+  \item Una o més targetes de comunicacions incorporades (amb fils o
+    sense fils, vegeu el glossari, apartat~\ref{ss:OiPgloss}).
+  \end{itemize}
 \item Un monitor o pantalla, normalment una pantalla
   LCD\footnote{\emph{liquid-crystal display} o pantalla de cristall
     líquid} de 17 o més polzades,
@@ -807,11 +799,8 @@ RAM de l'ordre d'1~GB.
 
 \section{Un petit glossari}
 \label{ss:OiPgloss}
-\comprof{Comprovar si cal afegir alguna cosa més}
-
 Aquest glossari arreplega alguns termes d'ús comú en la descripció
 d'ordinadors i programes que no han estat definits més amunt.
-
 
 \begin{description}
 \item[adaptador de vídeo] (també anomenada targeta gràfica o
@@ -899,24 +888,23 @@ d'ordinadors i programes que no han estat definits més amunt.
   programes, encara que també podem usar el sistema operatiu propi
   dels Mac, anomenat \emph{MacOS}.
   
-\item[megahertz:] Un megahertz (MHz) és un milió de hertzs (Hz),
-  és a dir, un milió de cicles per segon. La velocitat de les
-  unitats centrals dels ordinadors es mesura en MHz i més recentment
-  en GHz, és a dir, en milions o milers de milions de cicles
-  bàsics de processament d'informació ---corresponents als \emph{tics}
-  o impulsos del rellotge que sincronitza tots els circuits de
+\item[megahertz:] Un megahertz (MHz) és un milió de hertzs (Hz), és a
+  dir, un milió de cicles per segon. La velocitat de les unitats
+  centrals dels ordinadors es mesura en MHz i més recentment en GHz,
+  és a dir, en milions o milers de milions de cicles bàsics de
+  processament d'informació ---corresponents als \emph{tics} o
+  impulsos del rellotge que sincronitza tots els circuits de
   l'ordinador--- per segon.  L'execució d'una instrucció per part del
-  processador sol consumir un nombre menut de cicles, quasi sempre
-  més d'un. Els models actuals poden executar, en determinades
-  circumstàncies, més d'una instrucció al mateix temps, el que fa que de
-  vegades s'execute una instrucció per cicle de rellotge o fins i tot
-  més d'una.  Una velocitat típica en l'actualitat és 3~GHz, és a
+  processador sol consumir un nombre menut de cicles, quasi sempre més
+  d'un. Els models actuals poden executar, en determinades
+  circumstàncies, més d'una instrucció al mateix temps, el que fa que
+  de vegades s'execute una instrucció per cicle de rellotge o fins i
+  tot més d'una.  Una velocitat típica en l'actualitat és 3~GHz, és a
   dir, 3000~MHz. Una velocitat més gran implica una velocitat
   d'execució més gran, sempre que no hi haja altres circumstàncies
   limitants (per exemple, una falta de memòria).  Altres components,
   com ara la memòria RAM, també funcionen a una determinada velocitat,
   independent de la del processador, que es mesura també en MHz.
-
 
 \item[MHz:] vegeu megahertz.
   
@@ -940,19 +928,18 @@ d'ordinadors i programes que no han estat definits més amunt.
   permeten connectar l'ordinador a Internet a través dels cables
   d'empreses especialitzares que ofereixen televisió, telèfon i
   Internet, els \emph{mòdems ADSL} (vegeu \emph{ADSL} en aquest
-  glossari), etc.
-\comprof{Posem alguna cosa sobre fibra?}
+  glossari), etc.  \todo{Posem alguna cosa sobre fibra?}
 
-% \item[PCMCIA] (de l'anglés \emph{Personal Computer Memory Card
-%   International Association}, associació internacional de targetes
-%   de memòria per a ordinadors personals): nom d'un estàndard de
-%   targetes de memòria, mòdems, discos, unitats de disquets, targetes
-%   de xarxa i altres dispositius perifèrics per a ordinadors
-%   portàtils.  Aquestes targetes no són massa diferents en grandària
-%   d'una targeta de crèdit i s'insereixen en el port corresponent de
-%   l'ordinador, amb la peculiaritat que en permeten l'inserció i
-%   l'extracció ``en calent'', és a dir, sense haver d'apagar
-%   l'ordinador.
+  % \item[PCMCIA] (de l'anglés \emph{Personal Computer Memory Card
+  %   International Association}, associació internacional de targetes
+  %   de memòria per a ordinadors personals): nom d'un estàndard de
+  %   targetes de memòria, mòdems, discos, unitats de disquets, targetes
+  %   de xarxa i altres dispositius perifèrics per a ordinadors
+  %   portàtils.  Aquestes targetes no són massa diferents en grandària
+  %   d'una targeta de crèdit i s'insereixen en el port corresponent de
+  %   l'ordinador, amb la peculiaritat que en permeten l'inserció i
+  %   l'extracció ``en calent'', és a dir, sense haver d'apagar
+  %   l'ordinador.
 
 \item[Programari lliure:] (\emph{free software}, també anomenat
   \emph{programari de codi font obert} o \emph{open-source software})
@@ -1018,239 +1005,219 @@ d'ordinadors i programes que no han estat definits més amunt.
   ràdio), principalment per a formar xarxes locals, i que en
   l'actualitat (estàndard 802.11n; octubre de 2009) permet velocitats
   de transmissió de fins a 600~Mb/s. \todo{Hay versiones más modernas:
-   802.11ac, hasta 6.77 Gb/s}
+    802.11ac, hasta 6.77 Gb/s}
 \end{description}
 
 
 \section{Qüestions i exercicis}
-\todo{Revisar preguntas}
 \begin{enumerate}
 \item Quants \emph{kilobytes} (kilooctets) hi ha en un \emph{gigabyte}
   (gigaoctet)?
-        \begin{enumerate}
-        \item 1.024
-        \item 1.073.741.824
-        \item 1.048.576
-        \end{enumerate}
-        
-      \item Si una memòria USB té 6~\emph{gigabytes}
-        (gigaoctets) i una pàgina de text (europeu occidental) típica
-        té 50 línies de 60 caràcters (contant els blancs), quantes
-        pàgines caben aproximadament en la memòria?
-       \begin{enumerate}
-       \item 200
-       \item 20000
-       \item 2000000 
-       \end{enumerate}
-       
+  \begin{enumerate}
+  \item 1.024
+  \item 1.073.741.824
+  \item 1.048.576
+  \end{enumerate}
+  
+\item Si una memòria USB té 6~\emph{gigabytes} (gigaoctets), una
+  pàgina de text (europeu occidental) típica té 50 línies de 60
+  caràcters (contant els blancs) i cada caràcter ocupa 1~\emph{byte}
+  (octet), quantes pàgines caben aproximadament en la memòria?
+  \begin{enumerate}
+  \item 200
+  \item 20000
+  \item 2000000 
+  \end{enumerate}
 
 \item Una persona connectada a Internet per telèfon observa que les
   velocitats de transferència que li indica el seu navegador (vegeu el
-  capítol~\ref{se:Internet}) varien al
-  voltant dels 300~kilooctets (\emph{kilobytes}) per segon. Una
-  d'aquestes tres \emph{no} pot ser la velocitat del seu servei d'ADSL:
-     \begin{enumerate}
-     \item 1 megabit per segon
-     \item 6 megabits per segon
-     \item 4 megabits per segon
-     \end{enumerate}
- 
-% \item Quina d'aquestes condicions impedeix
-%       que un procediment o mètode siga un \emph{algorisme}?
-%         \begin{enumerate}
-%         \item Que la resposta siga incorrecta.
-%         \item Que s'execute indefinidament.
-%         \item Que continga instruccions innecesàries però que no
-%           destorben el seu funcionament.
-%         \end{enumerate}
+  capítol~\ref{se:Internet}) varien al voltant dels 300~kilooctets
+  (\emph{kilobytes}) per segon. Una d'aquestes tres \emph{no} pot ser
+  la velocitat del seu servei d'ADSL:
+  \begin{enumerate}
+  \item 1 Mb/s
+  \item 6 Mb/s
+  \item 4 Mb/s
+  \end{enumerate}
+  
+  % \item Quina d'aquestes condicions impedeix
+  %   que un procediment o mètode siga un \emph{algorisme}?
+  %   \begin{enumerate}
+  %   \item Que la resposta siga incorrecta.
+  %   \item Que s'execute indefinidament.
+  %   \item Que continga instruccions innecesàries però que no
+  %     destorben el seu funcionament.
+  %   \end{enumerate}
 
 \item Quina d'aquestes afirmacions és incorrecta?
-      \begin{enumerate}
-      \item Els mòdems converteixen informació digital en senyals
-            analògics però no al revés.
-          \item Les velocitats típiques de connexió a Internet via
-            ADSL són d'uns quants Mb/s.
-          \item El servei ADSL aprofita les línies de telefonia
-            convencional per a oferir connexió a Internet.
-      \end{enumerate}
-      
-    \item Es podria enregistrar (guardar) en un CD-ROM tota la
-      informació continguda en un instant determinat en la memòria RAM
-      d'un vell ordinador que en té 256 MB?
-      \begin{enumerate} 
-      \item Sí.
-      \item No, perquè no hi cap.
-      \item No, perquè un suport és electrònic i l'altre òptic.
-      \end{enumerate}
+  \begin{enumerate}
+  \item Els mòdems converteixen informació digital en senyals
+    analògics però no al revés.
+  \item Les velocitats típiques de connexió a Internet via ADSL són
+    d'uns quants Mb/s.
+  \item El servei ADSL aprofita les línies de telefonia convencional
+    per a oferir connexió a Internet.
+  \end{enumerate}
+  
+\item Es podria enregistrar (guardar) en un CD-ROM tota la informació
+  continguda en un instant determinat en la memòria RAM d'un ordinador
+  vell que en té 512 MB?
+  \begin{enumerate} 
+  \item Sí.
+  \item No, perquè no hi cap.
+  \item No, perquè un suport és electrònic i l'altre òptic.
+  \end{enumerate}
+
 \item Quina d'aquestes afirmacions es certa?
-        \begin{enumerate}
-        \item En qualsevol disc (disquet, dur, CD-ROM) sempre hi ha un directori especial que
-          es diu arrel.
-        \item Un disc no pot contenir més de dos nivells de jerarquia
-              de carpetes.
-        \item Una carpeta no pot contenir només una altra carpeta.
-        \end{enumerate}
+  \begin{enumerate}
+  \item En qualsevol dispositiu d'emmagatzemament (disc dur, CD-ROM,
+    memòria USB) sempre hi ha un directori principal o arrel.
+  \item Un disc no pot contenir més de dos nivells de jerarquia de
+    carpetes.
+  \item Una carpeta no pot contenir només una altra carpeta.
+  \end{enumerate}
 
 \item Pot haver-hi dos carpetes amb el mateix nom una dins de l'altra?
-        \begin{enumerate}
-        \item No.
-        \item Sí, si tenen data i hora diferents.
-        \item Sí.
-        \end{enumerate}
-
+  \begin{enumerate}
+  \item No.
+  \item Sí, si tenen data i hora diferents.
+  \item Sí.
+  \end{enumerate}
 
 \item Quants valors possibles pot prendre un octet o \emph{byte}?
- \begin{enumerate}
- \item 2
- \item 256
- \item 8
- \end{enumerate}
+  \begin{enumerate}
+  \item 2
+  \item 256
+  \item 8
+  \end{enumerate}
 
 \item Quin dels tres mitjans d'emmagatzemament següents no és òptic:
-        \begin{enumerate}
-        \item Un CD-ROM
-        \item Un DVD
-        \item Un disc fix.
-        \end{enumerate}
+  \begin{enumerate}
+  \item Un CD-ROM
+  \item Un DVD
+  \item Un disc fix.
+  \end{enumerate}
 
-\item On resideix un programa d'ordinador mentre  l'estem executant?
-        \begin{enumerate}
-        \item En el disc dur o en un disquet.
-        \item En la memòria RAM (almenys parcialment).
-        \item En el CD-ROM.
-        \end{enumerate} 
+\item On resideix un programa d'ordinador mentre l'estem executant?
+  \begin{enumerate}
+  \item En el disc dur.
+  \item En la memòria RAM (almenys parcialment).
+  \item En el CD-ROM.
+  \end{enumerate} 
 
-\item Quina d'aquestes definicions de fitxer és més
-        correcta?
-        \begin{enumerate}
-        \item Un conjunt de dades que es manipula com un tot, resideix
-              en algun mitjà d'emmagatzemament i  
-              té un nom.
-        \item Una estructura que conté els noms d'altres fitxers.
-        \item Una estructura de dades que representa el text generat
-              per un processador de textos i que té un nom associat.
-        \end{enumerate} 
+\item Quina d'aquestes definicions de fitxer és més correcta?
+  \begin{enumerate}
+  \item Un conjunt de dades que es manipula com un tot, resideix en
+    algun mitjà d'emmagatzemament i té un nom.
+  \item Una estructura que conté els noms d'altres fitxers.
+  \item Una estructura de dades que representa el text generat per un
+    processador de textos i que té un nom associat.
+  \end{enumerate} 
 
-\item Quines són les característiques de la memòria
-      RAM d'un ordinador de taula?
-       \begin{enumerate}
-       \item és lenta, volàtil i d'accés aleatori.
-       \item és ràpida, volàtil i d'accés aleatori.
-       \item és ràpida, permanent i d'accés seqüencial.
-       \end{enumerate}
+\item Quines són les característiques de la memòria RAM d'un ordinador
+  de taula?
+  \begin{enumerate}
+  \item és lenta, volàtil i d'accés aleatori.
+  \item és ràpida, volàtil i d'accés aleatori.
+  \item és ràpida, permanent i d'accés seqüencial.
+  \end{enumerate}
 
-     \item Es pot fer que diversos ordinadors compartisquen un recurs
-       connectat a un d'ells com, per exemple, una impressora?
-\begin{enumerate}
-\item Sí, si els ordinadors estan connectats formant una xarxa local.
-\item Només si la impressora està connectada a Internet.
-\item Sí, instal·lant-li un mòdem ADSL a la impressora.
-\end{enumerate} 
+\item Es pot fer que diversos ordinadors compartisquen un recurs
+  connectat a un d'ells com, per exemple, una impressora?
+  \begin{enumerate}
+  \item Sí, si els ordinadors estan connectats formant una xarxa local.
+  \item Només si la impressora està connectada a Internet.
+  \item Sí, instal·lant-li un mòdem ADSL a la impressora.
+  \end{enumerate} 
 
-\item 
-   Cada punt d'una pantalla pot tenir 256 colors: quants octets
-   (\emph{bytes}) de
-   memòria ocupa cada punt?
-   
-\begin{enumerate}
-\item 1
-\item 256
-\item 8
-\end{enumerate}
+\item Cada punt d'una pantalla pot tenir 256 colors: quants octets
+  (\emph{bytes}) de memòria ocupa cada punt?
+  \begin{enumerate}
+  \item 1
+  \item 256
+  \item 8
+  \end{enumerate}
 
-\item 
-   Quant es tarda aproximadament en enviar a través d'una connexió
-   via mòdem de 28800 bits per segon el contingut d'un disquet
-   de densitat alta de 3 polzades i mitja completament ple?
-   
-\begin{enumerate}
-\item Un minut aproximadament
-\item Uns 7 minuts
-\item Uns set segons
-\end{enumerate}
+% \item Quant es tarda aproximadament en enviar a través d'una connexió
+%   via mòdem de 28800 bits per segon el contingut d'un disquet de
+%   densitat alta de 3 polzades i mitja completament ple?
+%   \begin{enumerate}
+%   \item Un minut aproximadament
+%   \item Uns 7 minuts
+%   \item Uns set segons
+%   \end{enumerate}
 
-\item Quan el processador central està executant un programa, on espera
-  trobar la següent instrucció?
-  
-\begin{enumerate}
-\item en el CD-ROM
-\item en el disc fix
-\item en la memòria RAM
-\end{enumerate}
+\item Quan el processador central està executant un programa, on
+  espera trobar la següent instrucció?
+  \begin{enumerate}
+  \item En el CD-ROM.
+  \item En el disc dur.
+  \item En la memòria RAM.
+  \end{enumerate}
 
-\item És possible posar un fitxer de text en el directori (la
-  carpeta) arrel?
-  
-\begin{enumerate}
-\item Com en qualsevol directori.
-\item Només si és un fitxer propi del sistema operatiu.
-\item No, primer s'hi ha de crear una carpeta (un directori).
-\end{enumerate}
+\item És possible posar un fitxer de text en el directori (carpeta)
+  arrel?
+  \begin{enumerate}
+  \item Sí, com en qualsevol directori.
+  \item Només si és un fitxer propi del sistema operatiu.
+  \item No, primer s'hi ha de crear una carpeta (un directori).
+  \end{enumerate}
 
-\item En la Universitat d'Alacant hi havia 32050 alumnes durant el
-   curs 2001--2002. Si assignem un número a cada alumne, quants octets
-   (\emph{bytes}) fan falta per a guardar el número de cada alumne?
-   
-\begin{enumerate}
-\item 15
-\item 2
-\item 3
-\end{enumerate}
+\item En la Universitat d'Alacant hi ha al voltant de 35.000
+  alumnes. Si assignem un número a cada alumne, quants octets
+  (\emph{bytes}) fan falta per a guardar el número de cada alumne?
+  \begin{enumerate}
+  \item 15
+  \item 2
+  \item 3
+  \end{enumerate}
 
-\item Quin d'aquests tres mitjans d'emmagatzematge és el més ràpid?
-   
-\begin{enumerate}
-\item La memòria RAM
-\item Un CD-ROM
-\item Un disc dur.
-\end{enumerate}
+% \item Quin d'aquests tres mitjans d'emmagatzematge és el més ràpid?
+%   \begin{enumerate}
+%   \item La memòria RAM.
+%   \item Un CD-ROM.
+%   \item Un disc dur.
+%   \end{enumerate}
 
-
-\item Tenim dues unitats lectores de CD-ROM. La velocitat de la
-   primera és 40\begin{math}\times\end{math} i la de la segona
-   4\begin{math}\times\end{math}. Si en la segona unitat un programa tarda a
-   carregar-se 10 segons, quant tarda en la primera?
-   
-\begin{enumerate}
-\item 1 segon aproximadament
-\item 100 segons aproximadament
-\item el mateix temps
-\end{enumerate}
+% \item Tenim dues unitats lectores de CD-ROM. La velocitat de la
+%   primera és 40$\times$ i la de la segona 4$\times$. Si en la segona
+%   unitat un programa tarda a carregar-se 10 segons, quant tarda en la
+%   primera?
+%   \begin{enumerate}
+%   \item 1 segon aproximadament
+%   \item 100 segons aproximadament
+%   \item el mateix temps
+%   \end{enumerate}
 
 \item Pràcticament tots els programes necessiten fer operacions
-   bàsiques com ara obrir i tancar arxius o gestionar el ratolí i la
-   pantalla. Vol dir això que tant un navegador com un processador de
-   textos com una memòria de traducció contenen instruccions de
-   programa per a executar aquestes operacions bàsiques?
-   
-\begin{enumerate}
-\item No, només instruccions per a invocar els corresponents
-      programes del sistema operatiu.
-\item Sí, perquè formen part del processador central.
-\item Sí, perquè, si no, no les podrien executar.
-\end{enumerate}
+  bàsiques com ara obrir i tancar arxius o gestionar el ratolí i la
+  pantalla. Vol dir això que tant un navegador com un processador de
+  textos com una memòria de traducció contenen instruccions de
+  programa per a executar aquestes operacions bàsiques?
+  \begin{enumerate}
+  \item No, només instruccions per a invocar els corresponents
+    programes del sistema operatiu.
+  \item Sí, perquè formen part del processador central.
+  \item Sí, perquè, si no, no les podrien executar.
+  \end{enumerate}
 
-\item Dins d'una carpeta (directori) podem posar carpetes i
-   documents (fitxers)
-   mesclats? 
-   
-\begin{enumerate}
-\item No. Si una carpeta està dividida en subcarpetes no pot
-      contenir documents; els documents haurien d'anar dins de les subcarpetes
-\item Només en la carpeta arrel.
-\item Sí. 
-\end{enumerate}
+\item Dins d'una carpeta (directori) podem posar carpetes i documents
+  (fitxers) mesclats?
+  \begin{enumerate}
+  \item No. Si una carpeta està dividida en subcarpetes no pot
+    contenir documents; els documents haurien d'anar dins de les
+    subcarpetes
+  \item Només en la carpeta arrel.
+  \item Sí. 
+  \end{enumerate}
 
-\item 
-   Quanta memòria ocupa una imatge de 1024 per 1024 punts on cada punt
-   pot tenir 8 colors?
-   
-\begin{enumerate}
-\item 1 megaoctet (\emph{megabyte})
-\item 384 kilooctets (\emph{kilobytes})
-\item 8 megaoctets (\emph{megabytes})
-\end{enumerate}
-
+\item Quanta memòria ocupa una imatge de 1024$\times$1024 punts on
+  cada punt pot tenir 8 colors?
+  \begin{enumerate}
+  \item 1 megaoctet (\emph{megabyte})
+  \item 384 kilooctets (\emph{kilobytes})
+  \item 8 megaoctets (\emph{megabytes})
+  \end{enumerate}
 
 \item Alguns ordinadors portàtils estan dissenyats de manera que, quan
   les bateries estan a punt d'esgotar-se (o l'ordinador no s'està
@@ -1259,133 +1226,187 @@ d'ordinadors i programes que no han estat definits més amunt.
   fan l'operació inversa. Podem esperar que l'execució dels programes
   continue en el mateix punt on es trobava quan les bateries van
   fallar?
-  
-\begin{enumerate}
-\item No, perquè la memòria RAM s'esborra quan falta l'alimentació
-     elèctrica.
-\item No, perquè només s'hi ha guardat el sistema operatiu.
-\item Sí, perquè els programes en execució i les seues dades
-     estaven tots en la memòria RAM (si no eren ja al disc).
-\end{enumerate}
+  \begin{enumerate}
+  \item No, perquè la memòria RAM s'esborra quan falta l'alimentació
+    elèctrica.
+  \item No, perquè només s'hi ha guardat el sistema operatiu.
+  \item Sí, perquè els programes en execució i les seues dades estaven
+    tots en la memòria RAM (si no eren ja al disc).
+  \end{enumerate}
 
 \item Pot un fitxer contenir les instruccions d'un programa executable?
-\begin{enumerate}
-\item No.
-\item Només si està escrit en un llenguatge de programació d'alt nivell,
-perquè només així serà un text i podrà guardar-se en un fitxer.
-\item Sí.
-\end{enumerate}
+  \begin{enumerate}
+  \item No.
+  \item Només si està escrit en un llenguatge de programació d'alt
+    nivell, perquè només així serà un text i podrà guardar-se en un
+    fitxer.
+  \item Sí.
+  \end{enumerate}
+
 \item Si les imatges enviades per una vella càmera digital sense
   colors (blanc i negre) tenen 100$\times$100 píxels, quantes
-  d'aquestes imatges podriem emmagatzemar en una memòria USB d'1~GB?
-   
-\begin{enumerate}
-\item Depenent de la codificació escollida per als caràcters de la imatge, 
-   entre 400~000 i 800~000.
-\item Unes 10~000.
-\item Unes 800~000.
-\end{enumerate}
+  d'aquestes imatges podríem emmagatzemar en una memòria USB d'1~GB?
+  \begin{enumerate}
+  \item Depenent de la codificació escollida per als caràcters de la imatge, 
+    entre 400~000 i 800~000.
+  \item Unes 10~000.
+  \item Unes 800~000.
+  \end{enumerate}
 
 \item Quina característica és comuna a tots els tipus de programari?
-  
-\begin{enumerate}
-\item Que comencen a executar-se en connectar l'ordinador.
-\item Que consisteixen en una llista d'instruccions executables.
-\item Que s'encarreguen de la gestió de tots els recursos del 
-      maquinari de l'ordinador on s'executen.
-\end{enumerate}
+  \begin{enumerate}
+  \item Que comencen a executar-se en connectar l'ordinador.
+  \item Que consisteixen en una llista d'instruccions executables.
+  \item Que s'encarreguen de la gestió de tots els recursos del
+    maquinari de l'ordinador on s'executen.
+  \end{enumerate}
 
 \item És possible que un fitxer de text i la carpeta en què està
   inclòs tinguen el mateix nom?
-  
-\begin{enumerate}
-\item Només si el fitxer ha estat creat pel sistema operatiu.
-\item Només si es tracta del directori arrel.
-\item Sí, no importa el nom de la carpeta.
-\end{enumerate}
+  \begin{enumerate}
+  \item Només si el fitxer ha estat creat pel sistema operatiu.
+  \item Només si es tracta del directori arrel.
+  \item Sí, no importa el nom de la carpeta.
+  \end{enumerate}
 
 \item Quants bits necessitem per codificar un número de telèfon de 9
-xifres suposant que codifiquem els dígits un a un?
-\begin{enumerate}
-\item 27
-\item 36
-\item 9
-\end{enumerate}
+  xifres suposant que codifiquem els dígits un a un?
+  \begin{enumerate}
+  \item 27
+  \item 36
+  \item 9
+  \end{enumerate}
 
-\item La tarjeta Compact Flash on s'emmagatzemen les fotografies d'una
-   càmera digital té 2~GB. Si suposem que hem triat una
-  resolució i un format d'imatge que fa que cada fotografia necessite
-  un espai de 2048 kB, quantes tarjetes d'aquestes hem de comprar si
-  volem fer 2500 fotos al llarg d'un viatge?
-\begin{enumerate}
-\item 1
-\item 3
-\item 4
-\end{enumerate}
+\item La targeta Compact Flash on s'emmagatzemen les fotografies d'una
+  càmera digital té 2~GB. Si suposem que hem triat una resolució i un
+  format d'imatge que fa que cada fotografia necessite un espai de
+  2.048 kB, quantes targetes d'aquestes hem de comprar si volem fer
+  2.500 fotos al llarg d'un viatge?
+  \begin{enumerate}
+  \item 1
+  \item 3
+  \item 4
+  \end{enumerate}
 
 \item El \emph{sistema operatiu} d'un ordinador és{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} maquinari (\emph{hardware}).
-\item {\ldots} programari (\emph{software}).
-\item {\ldots} una manera d'especificar el format dels textos.
-\end{enumerate}
-\item Si reduïm de 3000~MHz a 1500~MHz la freqüència del rellotge
-   d'un ordinador i encara funciona{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} executarà els programes a la mateixa velocitat.
-\item {\ldots} executarà els programes més lentament.
-\item {\ldots} tardarà menys a executar els programes.
-\end{enumerate}
-\item Són les tres de la matinada i ja és hora d'anar a
-   dormir. Abans d'apagar l'ordinador, on es guarda el
-   treball que s'ha fet per a continuar-lo demà?
-   
-\begin{enumerate}
-\item En l'acumulador del processador central.
-\item En la memòria RAM de l'ordinador.
-\item En un suport magnètic, normalment.
-\end{enumerate}
+  \begin{enumerate}
+  \item {\ldots} maquinari (\emph{hardware}).
+  \item {\ldots} programari (\emph{software}).
+  \item {\ldots} una manera d'especificar el format dels textos.
+  \end{enumerate}
+
+\item Si reduïm de 3.000~MHz a 1.500~MHz la freqüència del rellotge
+  d'un ordinador i encara funciona{\ldots}
+  \begin{enumerate}
+  \item {\ldots} executarà els programes a la mateixa velocitat.
+  \item {\ldots} executarà els programes més lentament.
+  \item {\ldots} tardarà menys a executar els programes.
+  \end{enumerate}
+
+% \item Són les tres de la matinada i ja és hora d'anar a dormir. Abans
+%   d'apagar l'ordinador, on es guarda el treball que s'ha fet per a
+%   continuar-lo demà?
+%   \begin{enumerate}
+%   \item En l'acumulador del processador central.
+%   \item En la memòria RAM de l'ordinador.
+%   \item En un suport magnètic, normalment.
+%   \end{enumerate}
 
 \item Windows usa les \emph{extensions} dels noms de fitxers per
-   a{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} associar-los el programa que els obrirà quan
-      fem doble clic sobre la icona del fitxer.
-\item {\ldots} estalviar espai quan es guarden els fitxers.
-\item {\ldots} saber si estan buits o contenen text.
-\end{enumerate}
+  a{\ldots}
+  \begin{enumerate}
+  \item {\ldots} associar-los el programa que els obrirà quan fem
+    doble clic sobre la icona del fitxer.
+  \item {\ldots} estalviar espai quan es guarden els fitxers.
+  \item {\ldots} saber si estan buits o contenen text.
+  \end{enumerate}
+
 \item Un mòdem és un dispositiu que{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} converteix la informació digital en senyals analògics.
-\item {\ldots} converteix senyals analògics en informació digital.
-\item {\ldots} fa les dues coses.
+  \begin{enumerate}
+  \item {\ldots} converteix la informació digital en senyals
+    analògics.
+  \item {\ldots} converteix senyals analògics en informació digital.
+  \item {\ldots} fa les dues coses.
+  \end{enumerate}
+
+\item Indiqueu quina de les afirmacions següents és certa:
+  \begin{enumerate}
+  \item La memòria RAM emmagatzema programes i dades mentre s'executen
+    els programes.  
+  \item La memòria RAM és permanent i més ràpida que la memòria
+    secundària.
+  \item L'altres dues afirmacions són falses.
+  \end{enumerate}
+
+\item Els programes d'aplicació \ldots 
+  \begin{enumerate}
+  \item \ldots sempre interactuen directament amb el maquinari de
+    l'ordinador.  
+  \item \ldots els posa en execució el sistema operatiu.
+  \item \ldots no poden comunicar-se amb altres
+    aplicacions.
+  \end{enumerate}
+
+\item Indiqueu quina de les afirmacions següents és falsa:
+  \begin{enumerate}
+  \item Un \emph{gigabyte} o gigaoctet equival a 1.024 kilooctets o
+    \emph{kilobytes}.
+  \item Un octet o \emph{byte} equival a \emph{8 bits}.
+  \item Un kilooctet o \emph{kilobyte} equival a 1024 octets o
+    \emph{bytes}.
+  \end{enumerate}
+
+\item La informació s'emmagatzema en la memòria de l'ordinador en
+  forma binària. Què vol dir això? 
+  \begin{enumerate}
+  \item Que cada dada és una seqüència d'\emph{octets} i cada octet
+    pot adoptar 512 valors.  
+  \item Que cada dada és una seqüència de nombres codificats en
+    ASCII.
+  \item Que cada dada és una seqüència de \emph{bits}, cadascun dels
+    quals només pot adoptar dos valors.
+  \end{enumerate}
+
+\item Quants \emph{bits} fan falta per representar els 12 mesos de
+  l'any? 
+  \begin{enumerate}
+    \item 4 \emph{bits} i sobren 4 combinacions.
+    \item 12 \emph{bits}, un per cada mes de l'any.
+    \item 6 \emph{bits}, un per cada dos mesos.
+    \end{enumerate}
+
+  \item Indiqueu quina de les afirmacions següents és falsa. Els
+    programes d'aplicació \ldots 
+    \begin{enumerate}
+    \item \ldots solen estar escrits per ser executats sobre un
+      sistema operatiu concret.
+    \item \ldots accedeixen als recursos i dispositius connectats a
+      l'ordinador a través del sistema operatiu.
+    \item \ldots mai necessiten del sistema operatiu una vegada que
+      han començat a executar-se.
 \end{enumerate}
 
-% < QT2
-
 \end{enumerate}
-\section{Solucions}\todo{Comprovar les respostes}
+
+\section{Solucions}
 \begin{enumerate}
-\item (c). Un gigaoctet té 1024 megaoctets, i un megaoctet, 1024
-  kilooctets: $1024 \times 1024 = 1048576$.
-\item (c). Una memòria USB de 6 gigaoctets conté aproximadament 6.000.000.000
-  octets. Un carácter, en les codificacions usades comunament en
-  Europa occidental, ocupa un octet; per tant, la pàgina de $50\times
-  60$ ocupa 3.000 octets. Caben $6.000.000.000/3.000=2.000.000$
-  pàgines en un disc.
-\item (a). Una velocitat de 300 kilooctets per segon equival a uns
-$300000\times 8=2400000$ bits per segon.
-\item (a). Els mòdems modulen (converteixen senyals
-  digitals a analògics) i desmodulen (converteixen senyals analògics
-  en digitals) per a enviar i rebre dades a través d'un determinat mitjà. Les
+\item (c): Un gigaoctet té 1.024 megaoctets, i un megaoctet, 1.024
+  kilooctets: $1.024 \times 1.024 = 1.048.576$.
+\item (c): Una memòria USB de 6 GB (gigaoctets o gigabytes) conté
+  aproximadament 6.000.000.000 octets. Un carácter, en les
+  codificacions usades comunament en Europa occidental, ocupa un
+  octet; per tant, la pàgina de $50\times60$ ocupa 3.000 octets. Caben
+  $6.000.000.000/3.000=2.000.000$ pàgines en un disc.
+\item (a): Una velocitat de 300 kilooctets per segon equival a uns
+  $300 \times 8=2.400$ kilobits per segon; al voltant 2,3 Mb/s.
+\item (a): Els mòdems modulen (converteixen senyals digitals a
+  analògics) i desmodulen (converteixen senyals analògics en digitals)
+  per a enviar i rebre dades a través d'un determinat mitjà. Les
   línies ADSL domèstiques actuals admeten connexions via mòdem
-  telefònic d'uns quants megabits
-  per segon (vegeu la secció~\ref{ss:OiPgloss}).
-\item (a): Un CD-ROM  pot emmagatzemar 650~MB.
+  telefònic d'uns quants megabits per segon (vegeu la
+  secció~\ref{ss:OiPgloss}).
+\item (a): Un CD-ROM pot emmagatzemar com a mínim 650~MB. 
+%5
 \item (a)
 \item (c)
 \item (b): $2^8=2\times 2\times 2\times 2\times 2\times 2\times
@@ -1393,46 +1414,60 @@ $300000\times 8=2400000$ bits per segon.
 \item (c): Els discos fixos són generalment magnètics. 
 \item (b): Almenys la porció del programa que s'està executant ha de
   residir en la RAM.
+%10
 \item (a) 
 \item (b)
 \item (a)
 \item (a): Cada punt pot prendre un de 256 colors. Per a poder
   emmagatzemar el color cal un nombre de bits suficient per a fer 256
   combinacions. Amb 8 bits podem fer \(2^8=2\times2\times 2\times
-  2\times 2\times 2\times 2\times 2=256\) combinacions.Per tant, es necessiten 8 bits, és a dir, un octet.
+  2\times 2\times 2\times 2\times 2=256\) combinacions. Per tant, es
+  necessiten 8 bits, és a dir, un octet.
 \item (c)
+%15
 \item (a)
-\item (b). El nombre de bits necessari per a poder generar 32050
+\item (b): El nombre de bits necessari per a poder generar 35.000
   combinacions és el nombre de vegades que cal multiplicar \(2\times
-  2\times\ldots\) just fins al punt en què se supera 32050. Cal fer-ho
-  15 vegades; per tant, necessitem 15 bits. Com que cada octet son 8
-  bits, són necessaris 2 octets.
-\item (a)
-\item (a)
+  2\times\ldots\) just fins al punt en què se supera 35.000. Cal
+  fer-ho 16 vegades; per tant, necessitem 16 bits. Com que cada octet
+  són 8 bits, són necessaris 2 octets.
 \item (a)
 \item (c)
-\item (b). Cada punt pot presentar-se en 8 colors diferents. Amb 3
+\item (b): Cada punt pot presentar-se en 8 colors diferents. Amb 3
   bits podem emmagatzemar \(2\times2\times2=8\)~colors. Per tant, la
-  pantalla ocupa 1024?1024?3=3.145.728 bits, que són
-  3.145.728/8=393.216 octets, que són 393.216/1024=384 kilooctets. Si
-  els càlculs es fan amb números redons (1.000 en comptes de 1.024,
-  etc.) la resposta més aproximada (375 kB) és la correcta.
+  imatge ocupa $1.024 \times 1024 \times 3 = 3.145.728 bits$, que són
+  $3.145.728/8=393.216$ octets, que són $393.216/1024=384$
+  kilooctets. 
+%20
 \item (c)
 \item (c)
-\item (c)
-\item (c)
+\item (c): Cada imatge ocupa $100\times100 = 10.000$ bits, que són
+  $10.000 / 8 = 1.250$ octets. 1 GB = $1.024 \times 1.024 \times 1.204
+  = 1.073.741.824 $ octets. $ 1.073.741.824 / 1.250 = 858.993$. Podem
+  emmagatzemar més de 800.000 imatges.
 \item (b)
 \item (c)
-\item (b). Cada dígit decimal pot prendre, per separat, 10 valors
-  diferents. Tres bits per dígit decimal no són suficients (permeten només 8
-  combinacions); quatre, sí. Així, cada dígit decimal ocupa quatre
-  bits; si n'hi ha 9, necessitem 36 bits.
-\item (c)
+%25
+\item (b): Cada dígit decimal pot prendre, per separat, 10 valors
+  diferents (de zero al nou). Tres bits per dígit decimal no són
+  suficients (permeten només 8 combinacions); quatre, sí. Així, cada
+  dígit decimal ocupa 4 bits; si n'hi ha 9, necessitem 36 bits.
+\item (b): 2GB són $ 2\times 1.024 \times 1.024 = 2.097.152$ kB. En la
+  targeta Compact Flash hi caben $ 2.097.152 / 2.048 = 1.024$
+  imatges. Amb 3 targetes puc emmagatzemar $ 3 * 1024 = 3.072$
+  imatges.
 \item (b)
 \item (b)
+\item (a)
+%30
 \item (c)
 \item (a)
+\item (b)
+\item (a)
 \item (c)
-
-% < SL2
+%35
+\item (a): Tenim 12 valors diferents (de gener a desembre). Tres bits
+  per mes no són suficients (permeten només 8 combinacions); quatre sí
+  (permeten 16 combinacions).
+\item (c)
 \end{enumerate}
