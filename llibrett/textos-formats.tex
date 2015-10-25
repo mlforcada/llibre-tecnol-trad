@@ -15,19 +15,20 @@ orígens diversos:
 \begin{itemize}
 \item Pot haver estat generat per un altre programa d'ordinador, per
   exemple a partir de les dades contingudes en alguna base de dades
-  (vegeu la pàg.~\pageref{pg:BD}).
-\item El podem haver rebut annex a un missatge electrònic (vegeu la
-  pàg.~\pageref{pg:annex}).
+  (vegeu el capítol.~\pageref{se:basesdades}).
+\item El podem haver rebut annex a un missatge de correu electrònic
+  (vegeu l'apartat~\ref{ss:correue} o per missatgeria instantània
+  (vegeu l'apartat~\ref{ss:missinst}).
 \item El podem haver descarregat (copiat) d'algun servidor d'Internet
   (vegeu la pàg.~\pageref{pg:ftp}).
 \item El podem haver generat, potser a partir d'un altre
   text, usant un \emph{processador de textos} (vegeu
   l'apartat~\ref{ss:proctext}).
-\item El pot haver generat un \emph{sistema de reconeixement de la parla}
-  (vegeu la secció~\ref{ss:recparla}) a
-  partir de la veu de la persona que l'ha dictat.
-\item El pot haver generat un \emph{sistema de reconeixement de
-    textos escrits} a partir d'un text tipografiat o manuscrit (vegeu la
+\item El pot haver generat un \emph{sistema de reconeixement de la
+    parla} (vegeu la secció~\ref{ss:recparla}) a partir de la veu de
+  la persona que l'ha dictat.
+\item El pot haver generat un \emph{sistema de reconeixement de textos
+    escrits} a partir d'un text tipografiat o manuscrit (vegeu la
   secció~\ref{ss:recautcar}).
 \end{itemize}
 
@@ -43,16 +44,20 @@ informatitzada, una \emph{seqüència de bits}, és a dir, d'\emph{uns} i
 \emph{zeros} de l'estil de la següent:
 
 \begin{center}
- \texttt{000101010010100111101001010010\ldots}
+ \texttt{010000010100110101001001\ldots}
 \end{center}
 
 Com ja hem vist en l'apartat~\ref{ss:memoria}, els \emph{bits} van
-normalment en grups de vuit (\emph{bytes} o \emph{octets}). Hi ha
-moltes maneres d'organitzar aquests octets per a emmagatzemar els
-textos.  Molts dels problemes que apareixen quan es tracten textos amb
-l'ordinador provenen de discrepàncies quant a la manera de fer-ho.
+normalment en grups de vuit (\emph{bytes} o \emph{octets}):
+\begin{center}
+ \texttt{01000001 01001101 01001001\ldots}
+\end{center}
+
+Hi ha moltes maneres d'organitzar aquests octets per a emmagatzemar
+els textos.  Molts dels problemes que apareixen quan es tracten textos
+amb l'ordinador provenen de discrepàncies quant a la manera de fer-ho.
 En les seccions següents estudiarem dos aspectes importants que
-anomenarem \emph{codificació} i \emph{format} propiament dit. 
+anomenarem \emph{codificació} i \emph{format} propiament dit.
 
 La \emph{codificació} és l'assignació d'una seqüència concreta, d'un o més
 \emph{octets}, a cada caràcter possible d'un text. Aquesta codificació consta de dues fases: en la
@@ -65,7 +70,7 @@ converteixen en octets assignant-los una determinada seqüència de bits
 
 
 D'altra banda, els textos, a més de caràcters, contenen informació de
-format. Per això, és necessària l'assignació de \emph{codis} (que
+\emph{format}. Per això, és necessària l'assignació de \emph{codis} (que
 també es convertiran en octets) per a regular altres característiques
 del text:
 \begin{itemize}
@@ -82,52 +87,60 @@ del text:
 \subsection{L'ASCII original de 7 bits}
 
 Com ja s'ha comentat en la pàgina~\pageref{pg:ASCII}, per a
-emmagatzemar textos s'usa el codi ASCII com a codi bàsic. Aquest codi
-assigna un número de 7 bits a cada caràcter, de manera que permet
-emmagatzemar un caràcter per octet i encara en sobra un bit. La
-taula~\ref{tb:ASCII} mostra alguns exemples de codis ASCII. Els codis
-ASCII del 0 al 31 no corresponen a caràcters imprimibles sinó a
-\emph{caràcters de control} que tenen noms especials i s'usen per a un
-control rudimentari del format i de la transmissió dels textos.
+emmagatzemar textos s'ha usat històricament el codi ASCII com a codi
+bàsic. Aquest codi assigna un número de 7 bits a cada caràcter, de
+manera que permet emmagatzemar un caràcter per octet i encara en sobra
+un bit. La taula~\ref{tb:ASCII} mostra alguns exemples de codis
+ASCII. Els codis ASCII del 0 al 31 no corresponen a caràcters
+imprimibles sinó a \emph{caràcters de control} que tenen noms
+especials i s'usen per a un control rudimentari del format i de la
+transmissió dels textos.
 
 \subsection{Extensions d'ASCII a 8 bits}
 
 ASCII no té codis per als caràcters especials que usen algunes
 llengües europees com \texttt{ç}, \texttt{ä}, \texttt{ú}, etc.; amb
-l'arribada dels microordinadors es va decidir ampliar el codi ASCII,
-de 7 bits i per tant amb $2^7=128$ possibilitats, a un codi de 8 bits
-amb $2^8=256$ possibilitats; el vuité bit o ``bit
-7''\footnote{Recordeu que en informàtica és comú comptar començant pel
-  zero.}---el primer per l'esquerra--- és 1 per als caràcters
-especials (numerats del 128 al 255) i zero per als caràcters
-estàndards d'ASCII.  El fet que hi haja més d'una manera estàndard
-d'usar els nous codis fa que de vegades els textos amb caràcters
-especials no queden bé quan passem d'un processador de textos (o un
-editor de textos) a un altre (els caràcters d'ASCII es veuen
-normalment bé: els que fallen són els nous).  En la nostra àrea
+l'arribada dels microordinadors en els anys vuitanta es va decidir
+ampliar el codi ASCII, de 7 bits i per tant amb $2^7=128$
+possibilitats, a un codi de 8 bits amb $2^8=256$ possibilitats; el
+vuité bit o ``bit 7''\footnote{Recordeu que en informàtica és comú
+  comptar començant pel zero.}---el primer per l'esquerra--- és 1 per
+als caràcters especials (numerats del 128 al 255) i zero per als
+caràcters estàndards d'ASCII.  El fet que hi haja més d'una manera
+estàndard d'usar els nous codis fa que de vegades els textos amb
+caràcters especials no queden bé quan passem d'un processador de
+textos (o un editor de textos) a un altre (els caràcters d'ASCII es
+veuen normalment bé: els que fallen són els nous).  En la nostra àrea
 geogràfica s'usa normalment la codificació ANSI Latin-1, també
-coneguda com a ISO-8859-1 (vegeu la taula~\ref{tb:ISO88591});
-aquesta codificació serveix per a les llengües següents:
-\emph{afrikaans} (llengua germànica parlada en la República de Sudàfrica),
-alemany, anglés, basc, català, danés, escocés,
-espanyol, feroés, finés, francés, gallec, irlandés, islandés, italià,
-neerlandés, noruec, portugués i suec.\footnote{Recentment s'ha fet una
-  modificació anomenada ISO-8859-15, per a incloure, entre altres, el
-  símbol de l'euro i resoldre alguns problemes referents al francés i
-  al finés.}  El sistema operatiu Windows de Microsoft usa la
-codificació anomenada CP-1252, també anomenada \emph{WinLatin-1}, que
-és més àmplia que ISO-8859-1 ja que usa alguns dels codis 128--159 per
-a caràcters (per exemple, usa el
-codi 128 per al símbol de l'euro). Hi ha altres
-codificacions en la família ISO-8859; per exemple, l'albanés, el
-bosni, el croat, el txec, l'hongarés, o el romanés usen una
-codificació anomenada ISO-8859-2 o \emph{Latin-2}, el letó, el lituà i
-l'estonià usen l'ISO-8859-4 o \emph{Latin 4}, el rus usa l'ISO-8859-5
-que conté l'alfabet ciríl·lic a més de l'alfabet llatí bàsic, etc. Per
-això, és molt important conéixer quin esquema de codificació de
-caràcters s'ha usat en un document de text determinat per a poder-lo
-llegir correctament; alguns formats de text inclouen aquesta
-informació dins del mateix document.
+coneguda com a ISO-8859-1 (vegeu la taula~\ref{tb:ISO88591}); aquesta
+codificació serveix per a les llengües següents: \emph{afrikaans}
+(llengua germànica parlada en la República de Sudàfrica), alemany,
+anglés, basc, català, danés, escocés, espanyol, feroés, finés,
+francés, gallec, irlandés, islandés, italià, neerlandés, noruec,
+portugués i suec.\footnote{Recentment s'ha fet una modificació
+  anomenada ISO-8859-15, per a incloure, entre altres, el símbol de
+  l'euro i resoldre alguns problemes referents al francés i al finés.}
+El sistema operatiu Windows de Microsoft usa la codificació de 8 bits
+anomenada CP-1252, també anomenada \emph{WinLatin-1}, que és més
+àmplia que ISO-8859-1 ja que usa alguns dels codis 128--159 per a
+caràcters (per exemple, usa el codi 128 per al símbol de l'euro). Hi
+ha altres codificacions en la família ISO-8859; per exemple,
+l'albanés, el bosni, el croat, el txec, l'hongarés, o el romanés usen
+una codificació anomenada ISO-8859-2 o \emph{Latin-2}, el letó, el
+lituà i l'estonià usen l'ISO-8859-4 o \emph{Latin 4}, el rus usa
+l'ISO-8859-5 que conté l'alfabet ciríl·lic a més de l'alfabet llatí
+bàsic, etc. Per això, és molt important conéixer quin esquema de
+codificació de caràcters s'ha usat en un document de text determinat
+per a poder-lo llegir correctament; alguns formats de text inclouen
+aquesta informació dins del mateix document.
+
+Fixeu-vos que si en un document ISO-8859-1 s'escriu la frase \emph{Què
+  és això?}, on els caràcters ``\texttt{è}'', ``\texttt{é}'' i
+``\texttt{ò}'' tenen codis més alts (233, 232 i 242 respectivament), i
+provem a llegir-lo com si fóra un document ISO-8859-2, llegirem
+\emph{Quč és aixň?}, ja dos d'aquests codis (233 i 242) tenen una
+altra interpretació en aquesta codificació (``\texttt{č}'' i
+``\texttt{ň}'' respectivament).
 
 
 \begin{table}
@@ -232,22 +245,20 @@ modificacions, però hi ha llengües al món que tenen sistemes
 d'escriptura molt complexos amb milers de símbols diferents, com ara
 el xinés o el japonés. Dues-centes cinquanta-sis combinacions no són
 suficients per a aquestes llengües i s'hi han proposat diverses
-solucions. 
-\emph{Unicode}\footnote{URI \url{http://www.unicode.org}} 
-(ISO 10646) és un nou estàndard per a
-fitxers de text que permet codificar pràcticament totes les llengües
-del món i fins i tot mesclar diversos alfabets en un mateix
-fitxer.\footnote{Unicode té 31 bits; és a dir, permet
-  $2^{31}=2.147.483.648$ caràcters diferents} La versió més comunament
-usada d'Unicode (BMP, \emph{Basic Multilingual Plane}) té 65534
-caràcters; això comportaria l'ús de 2 octets (16 bits) en comptes d'un
-($2^{16}=65536$); això fa  que un text Unicode senzill siga el doble
-de gran que el text ASCII corresponent, però hi ha mètodes de
-serialització d'Unicode, com l'UTF-8, que en el cas de les llengües
-europees amb alfabet llatí estalvia espai perquè usa un únic octet per
-als codis ASCII (del 0 al 127, els més freqüents), i més d'un octet
-per als codis següents (així, a més, és compatible amb l'ASCII). En
-concret, UTF-8 usa
+solucions.  \emph{Unicode}\footnote{URI \url{http://www.unicode.org}}
+(ISO 10646) és un nou estàndard per a fitxers de text que permet
+codificar pràcticament totes les llengües del món i fins i tot mesclar
+diversos alfabets en un mateix fitxer (Unicode té 31 bits; és a dir,
+permet $2^{31}=2.147.483.648$ caràcters diferents). La versió més
+comunament usada d'Unicode (BMP, \emph{Basic Multilingual Plane}) té
+65534 caràcters; això comportaria l'ús de 2 octets (16 bits) en
+comptes d'un ($2^{16}=65536$); això faria que un text Unicode senzill
+fóra el doble de gran que el text ASCII corresponent, però hi ha
+mètodes de serialització d'Unicode, com l'UTF-8, que en el cas de les
+llengües europees amb alfabet llatí estalvia espai perquè usa un únic
+octet per als codis ASCII (del 0 al 127, els més freqüents), i més
+d'un octet per als codis següents (així, a més, és compatible amb
+l'ASCII). En concret, UTF-8 usa
 \begin{itemize}
 \item per als codis del 0 al 127, 1 octet (compatible amb  ASCII)
 \item per als codis del 128 al 2047, 2 octets
@@ -256,46 +267,46 @@ concret, UTF-8 usa
 
 \subsection{Limitacions}
 
-Tot i que ampliem l'ASCII a ANSI o Unicode, encara és molt limitat.
-Per exemple, si volem que un text tinga un cert format, només podrem
-usar caràcters de control con l'espai en blanc, el tabulador, el salt
-de línia, etc.  Per exemple, no podrem canviar fàcilment de tipus o de
-grandària de lletra, o indicar que una determinada part del text és el
-títol d'una secció o el text d'una nota a peu de pàgina. De qualsevol
-manera, ASCII i ANSI s'usen en aplicacions com ara el correu
-electrònic, o quan volem que un text ---el contingut del qual és molt
-més important que l'aparença--- puga ser llegit per qualsevol usuari
-sense importar el processador de textos que use; els textos d'aquesta
-mena s'anomenen de vegades \emph{textos plans} i s'emmagatzemen
-normalment en fitxers amb noms que tenen l'extensió \texttt{.txt}.
-Aquests textos es poden produir i llegir amb qualsevol \emph{editor de
-  textos} (vegeu l'epígraf~\ref{ss:proctext}).
+Tot i que ampliem l'ASCII a ISO-8859 o Unicode, encara és molt
+limitat.  Per exemple, si volem que un text tinga un cert format,
+només podrem usar caràcters de control com ara l'espai en blanc, el
+tabulador, el salt de línia, etc.  Per exemple, no podrem canviar
+fàcilment de tipus o de grandària de lletra, o indicar que una
+determinada part del text és el títol d'una secció o el text d'una
+nota a peu de pàgina. De qualsevol manera, ASCII i les codificacions
+ISO-8859-$X$, o Unicode, encara s'usen en aplicacions com ara el
+correu electrònic, o quan volem que un text ---el contingut del qual
+és molt més important que l'aparença--- puga ser llegit per qualsevol
+usuari sense importar el processador de textos que use; els textos
+d'aquesta mena s'anomenen de vegades \emph{textos plans} i
+s'emmagatzemen normalment en fitxers amb noms que tenen l'extensió
+\texttt{.txt}.  Aquests textos es poden produir i llegir amb qualsevol
+\emph{editor de textos} (vegeu l'epígraf~\ref{ss:proctext}).
 
 
 \section{Format pròpiament dit}
 
-Però els documents de text són en general més rics que simples
-seqüències de caràcters. Necessitem codificar-hi informació
-estructural (sobre l'organització del contingut del document) o
-presentacional (sobre l'aparença que tindrà quan es presente): 
-tipus i grandàries de lletra, format dels paràgrafs, notes a peu
-de pàgina, etc. Per a guardar aquesta informació, s'usen:
+Els documents de text són en general més rics que simples seqüències
+de caràcters. Necessitem codificar-hi informació estructural (sobre
+l'organització del contingut del document) o presentacional (sobre
+l'aparença que tindrà quan es presente): tipus i grandàries de lletra,
+format dels paràgrafs, notes a peu de pàgina, etc. Per a guardar
+aquesta informació, s'usen:
 \begin{itemize}
-\item D'una banda, codificacions o formats basats en text (ANSI,
-  Unicode, etc.) com ara
-  SGML (\emph{standardized generalized markup language}), la seua
-  versió simplificada XML (\emph{extensible markup language}), el
-  tipus SGML anomenat HTML (\emph{hypertext markup language}), el
-  format proposat per Microsoft anomenat RTF (\emph{rich text format},
-  no relacionat amb SGML), o el llenguatge per a impressores anomenat
+\item D'una banda, codificacions o formats basats en text
+  (ISO-8859-$X$, Unicode, etc.) com ara SGML (\emph{standardized
+    generalized markup language}), la seua versió simplificada (i molt
+  més estesa) XML (\emph{extensible markup language}), el tipus SGML
+  anomenat HTML (\emph{hypertext markup language}), el format proposat
+  per Microsoft anomenat RTF (\emph{rich text format}, no relacionat
+  amb SGML), o el llenguatge per a impressores anomenat
   Postscript. Tots aquests formats usen combinacions
-  especials\footnote{i poc freqüents en textos usuals} de
-  caràcters de text per a indicar aquestes característiques
-  d'estructuració o de presentació.\footnote{Aquests caràcters que
-    indiquen el format són
-    normalment invisibles per a la persona usuària mentre redacta o
+  especials\footnote{i poc freqüents en textos usuals} de caràcters de
+  text per a indicar aquestes característiques d'estructuració o de
+  presentació.\footnote{Aquests caràcters que indiquen el format no són
+    normalment visibles per a la persona usuària mentre redacta o
     veu el document, excepte si demana explícitament que els vol
-    veure.}
+    veure.} 
 \item D'altra banda, hi ha els formats particulars dels processadors
   de textos comercials com ara Corel WordPerfect o Microsoft Word, que
   usen esquemes diferents, basats en codis binaris no relacionats amb
@@ -303,11 +314,11 @@ de pàgina, etc. Per a guardar aquesta informació, s'usen:
     document de Microsoft Word, amb extensió \texttt{.doc}, com la
     manera estàndard d'enviar documents de text annexos a un missatge
     electrònic, sense considerar el fet que aquest format és privat i
-    està
-    associat a l'ús d'un determinat producte comercial. De fet, les
-    persones que fan això reforcen, involuntàriament, la
-    posició monopolística de Microsoft en el mercat del programari per
-  a ordinadors personals.}
+    està associat a l'ús d'un determinat producte no lliure i de codi
+    font tancat. El format \texttt{.docx} també anomenat Office Open
+    XML o OOXML, està millor documentat i estandarditzat i pot ser
+    processat més satisfactòriament amb processadors lliures i de codi
+    font obert.}
 \end{itemize}
 Com ja s'ha dit, l'ús de formats de text més avançats no només serveix
 per a determinar-ne la presentació en la pantalla o quan són impresos;
@@ -335,17 +346,17 @@ definides (vegeu la secció~\ref{ss:separac}).
 \subsection{SGML}
 
 SGML, el llenguatge estàndar generalitzat de marques, havia tingut un
-èxit relatiu fins a mitjans dels noranta; però l'aparició d'una versió
-restringida i simplificada de SGML anomenada XML ha impulsat
-enormement l'adopció dels formats d'estructuració de documents, de tal
-manera que en l'actualitat s'usa XML moltíssim més que el SGML
-original;\footnote{Per exemple, XML és especialment popular com a eina
-  per a definir l'estructura dels documents presents en les
-  biblioteques digitals.} per això, ens centrarem en aquest últim
+èxit relatiu fins a mitjans dels noranta; però l'aparició cap a finals
+dels noranta d'una versió restringida i simplificada de SGML anomenada
+XML ha impulsat enormement l'adopció dels formats d'estructuració de
+documents, de tal manera que en l'actualitat s'usa XML moltíssim més
+que el SGML original; per això, ens centrarem en aquest últim
 format. De tota manera, encara hi ha formats molt importants que es
-basen en SGML, com el llenguatge de marques per a hipertextos HTML,
-  encara que les revisions més recents de HTML ---conegudes com
-  XHTML--- es basen directament en XML. 
+basen en SGML, com el llenguatge de marques per a hipertextos HTML
+(excepte pel més recent, HTML5, estandarditzat el 2014, que ja no és
+una aplicació SGML). Hi ha també versions estàndards de HTML conegudes
+com XHTML, que es basen directament en XML.\footnote{Noteu que
+  HTML5 també té una versió \emph{serialitzada en XML}, XHTML4}
 
 \subsection{XML}
 \label{s3:XML}
@@ -357,7 +368,7 @@ dit, podem trobar \emph{etiquetes} o \emph{marques} (en anglés
 \emph{tags}) que donen informació sobre la naturalesa i l'organització
 de cada un dels continguts del document; com ja s'ha dit, un document
 XML és un document \emph{estructurat}. Per exemple, un document XML
-corresponent a un FAX podria tenir l'aparença que es mostra en la
+corresponent a un FAX\todo{Per discutir: canviar el document de FAX per un altre que tinga més sentit.} podria tenir l'aparença que es mostra en la
 figura~\ref{fg:faxXML}.  La primera línia declara que el document és
 un document XML de la versió 1.0 i que el joc de caràcters que usa és
 l'ISO-8859-1 (o ``Latin 1''). Com s'hi pot veure, les etiquetes que
@@ -398,7 +409,7 @@ altra cosa:
 \item Els elements no es poden solapar o creuar: no és possible
   escriure, per exemple, \texttt{<a>text<b>més text</a>més text encara
     </b>}.
-\item El document conté només un element \emph{arrel} que conté tots
+\item El document conté un únic element \emph{arrel} que conté tots
   els elements del text.
 \item El document pot contenir comentaris entre \texttt{<!--} i
   \texttt{-->} o instruccions de processament del tipus
@@ -409,9 +420,11 @@ altra cosa:
   (\texttt{'}\emph{valor}\texttt{'}).
 \item Un element no pot tenir dos atributs amb el mateix nom.
 \item Els caràcters \texttt{<} i \texttt{\&} no poden aparéixer en el
-  text dels elements ni dels atributs (si es necessiten aquests
-  caràcters s'han d'escriure \texttt{\&lt;} i \texttt{\&amp;}). 
-\com{Aquesta afirmació pot no ser certa i caldria comprovar-la}
+  text dels elements ni dels atributs. Això és perquè \texttt{<}
+  indica el començament d'une etiqueta i \texttt{\&} el començament
+  d'una \emph{entitat} com ara \texttt{\&copy;} que es pot usar per a
+  representar el càracter \emph{©}: si es necessiten aquests caràcters
+  s'han d'escriure \texttt{\&lt;} i \texttt{\&amp;}.  
 \end{itemize}
 Com es pot veure, aquestes regles que defineixen un document XML ben
 format no diuen quines etiquetes són vàlides i quines no, o quins
@@ -504,7 +517,7 @@ literàries\footnote{De fet, existeix una DTD SGML (i la DTD XML simplificada
   corresponent) per a codificar documents de text de l'estil dels llibres, els
   articles, etc., que s'anomena TEI, de l'anglés \emph{text encoding
     initiative}, ``iniciativa de codificació de textos''
-  (\url{http://www.tei-c.org}).}). Fins i tot fitxers que normalment no
+  (\url{http://www.tei-c.org}).}).\todo{Introduïm TEI ací com a exemple d'aplicació XML??} Fins i tot fitxers que normalment no
 consideraríem documents, com ara les memòries de traducció (vegeu el
 capítol~\ref{se:memtrad}) s'estructuren de manera estàndard usant un format
 basat en XML anomenat TMX.  \com{L'últim paràgraf es pot millorar}
