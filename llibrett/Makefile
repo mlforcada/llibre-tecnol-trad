@@ -1,4 +1,5 @@
-FIGS=angoixa.pdf triangle.pdf ordinador4.pdf aplicacio-so.pdf
+FIGS=angoixa.pdf triangle.pdf ordinador4.pdf aplicacio-so.pdf \
+     connex-internet.pdf
 
 TEX=ambiguitat.tex avaluacio-traduccio-automatica.tex bases-dades.tex \
     experiencies-ta-es-ca.tex internet.tex intro.tex llibrett.tex \
