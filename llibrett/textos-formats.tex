@@ -402,7 +402,7 @@ compon de paràgrafs (\texttt{<P>}\ldots\texttt{</P>}).
     <\textbf{ADREÇA}>fsanchez@dlsi.ua.es</\textbf{ADREÇA}>
   </\textbf{REMITENT}>
   <\textbf{DATA}>9 de novembre de 2015</\textbf{DATA}>
-  <\textbf{TITOL}>Capítol 4 del llibre de TT</\textbf{TITOL}>
+  <\textbf{ASSUMPTE}>Capítol 4 del llibre de TT</\textbf{ASSUMPTE}>
   <\textbf{TEXT}>
     <\textbf{P}>Mikel, estic acabant de fer modificacions al capítol 
     dedicat a textos i formats. Quan acabe t'avise.</\textbf{P}>
@@ -477,13 +477,13 @@ o definició del tipus de document).\footnote{Les DTD no són l'única
 \begin{alltt}
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- Aquest és l'exemple de DTD de EMAIL -->
-<!ELEMENT EMAIL (DESTINATARI+, REMITENT?, DATA, TITOL, TEXT)>
+<!ELEMENT EMAIL (DESTINATARI+, REMITENT?, DATA, ASSUMPTE, TEXT)>
 <!ELEMENT DESTINATARI (NOM?, ADREÇA)>
 <!ELEMENT REMITENT (NOM?, ADREÇA)>
 <!ELEMENT NOM (#PCDATA)>
 <!ELEMENT ADREÇA (#PCDATA)>
 <!ELEMENT DATA (#PCDATA)>
-<!ELEMENT TITOL (#PCDATA)>
+<!ELEMENT ASSUMPTE (#PCDATA)>
 <!ELEMENT TEXT (P)+>
 <!ELEMENT P (#PCDATA)>
 \end{alltt}
@@ -518,13 +518,13 @@ documents en XML:
 \item Les línies següents defineixen l'estructura del document
   definint els seus \emph{elements}. La línia
 \begin{small}\begin{alltt}
-<!ELEMENT EMAIL (DESTINATARI+, REMITENT?, DATA, TITOL, TEXT)>
+<!ELEMENT EMAIL (DESTINATARI+, REMITENT?, DATA, ASSUMPTE, TEXT)>
 \end{alltt}\end{small}
 defineix l'element arrel o principal, \texttt{EMAIL}, i especifica que
 es compon (en l'ordre especificat) d'un o més \texttt{DESTINATARI}s
 (el símbol \texttt{+} indica que pot haver-hi un o més), d'un
 \texttt{REMITENT} opcional (indicat amb \texttt{?}), d'una
-\texttt{DATA}, d'un \texttt{TITOL} i d'un \texttt{TEXT}.
+\texttt{DATA}, d'un \texttt{ASSUMPTE} i d'un \texttt{TEXT}.
 
 \item Un \texttt{DESTINATARI} del missatge de correu té dues parts: el
   \texttt{NOM} (opcional) i l'adreça de correu (\texttt{ADREÇA}):
@@ -536,13 +536,13 @@ es compon (en l'ordre especificat) d'un o més \texttt{DESTINATARI}s
 <!ELEMENT REMITENT (NOM?, ADREÇA)>
 \end{alltt}\end{small}
 \item El \texttt{NOM}, l'\texttt{ADREÇA} la \texttt{DATA} i el
-  \texttt{TITOL} contenen text sense marques (indicat amb
+  \texttt{ASSUMPTE} contenen text sense marques (indicat amb
   \texttt{\#PCDATA}):
 \begin{small}\begin{alltt}
 <!ELEMENT NOM (#PCDATA)>
 <!ELEMENT ADREÇA (#PCDATA)>
 <!ELEMENT DATA (#PCDATA)>
-<!ELEMENT TITOL (#PCDATA)>
+<!ELEMENT ASSUMPTE (#PCDATA)>
 \end{alltt}\end{small}
 
 \item El \texttt{TEXT} es compon d'un o més (\texttt{+}) paràgrafs
@@ -755,6 +755,45 @@ menú ``veure'' (``view'').
 \label{tb:15etiq}
 \end{table}
 
+\subsection{Altres formats basats en XML}
+Hui dia s'han popularitzat els formats de documents basats en
+XML. Alguns dels formats basats en XML que interessen als traductors
+són: el format TMX (\emph{translation memory exchange}) que s'usa per
+al intercanvi de memòries de traducció (fitxers amb extensió
+\texttt{.tmx}, vegeu el capítol~\ref{se:memtrad}), el format TBX
+(\emph{termbase exchange}) per al intercanvi de bases de dades
+terminològiques (fitxers amb extensió \texttt{.tbx}, vegeu el
+capítol~\ref{se:basesdades}) i el format XLIFF (\emph{XML localization
+  interchange file format}). Aquest últim és un format creat per a la
+estandardització del format empleat per les diverses ferramentes que
+s'utilitzen durant el procés de \emph{localització} d'un producte
+(vegeu el capítol~\ref{se:memtrad}).\footnote{La \emph{localització}
+  es pot definit com el procés d'adaptació d'un producte als usos de
+  una regió específica del món.}
+
+A més dels formats descrits en el paràgraf anterior hi ha dos formats
+usats pels processadors de textos més moderns que estan basats en
+XML. Aquest formats són OpenDocument i Office Open XML. 
+
+\subsubsection{OpenDocument}
+OpenDocument és un format d'arxius obert i estàndard per a
+emmagatzemar, entre altes, textos (fitxers amb extensió \texttt{.odt})
+fulls de càlcul (fitxers amb extensió \texttt{.ods}) i presentacions
+(fitxers amb extensió \texttt{.odp}). Aquest format es el emprat per
+defecte per les aplicacions ofimàtiques LibreOffice i OpenOffice.org i
+consisteix en un diversos documents XML ---per al contingut, els
+estíls usats en el document, etc.--- comprimits amb ZIP.\footnote{ZIP
+  és un format per a l'emmagatzemament de fitxers comprimits; els
+  fitxers d'aquest tipus solen tenir l'extensió \texttt{.zip}.}
+
+\subsubsection{Office Open XML}
+Office Open XML, també conegut com OOXML o OpenXML, és un altre format
+estàndard ---impulsat per Microsoft--- bastat en XML que s'utilitza
+per a emmagatzemar textos (fitxers amb extensió \texttt{.docx}), fulls
+de càlcul (fitxers amb extensió \texttt{.xlsx}) i presentacions
+(fitxers amb extensió \texttt{.pptx}). Al igual que OpenDocument, un
+arxiu OpenXML consisteix en diversos documents XML comprimits amb ZIP.
+
 \section{Altres formats}
 \subsection{RTF}
 \label{s3:RTF}
@@ -798,7 +837,7 @@ document), com per exemple en el mot
 \end{figure}
 
 
-\subsection{PDF}\todo{Abans del PDF, afegir ODF i OOXML?}
+\subsection{PDF}
 PDF (de l'anglés \emph{portable document format}, format portable de
 document) és un altre format desenvolupat per a capturar completament
 les característiques presentacionals dels documents. En PDF, el
@@ -877,6 +916,21 @@ d'altres que no s'usen tan sovint, també estan accessibles mitjançant
 en la part de dalt de la finestra: si s'hi fa un clic del ratolí, es
 despleguen i ens mostren les opcions que contenen, que podem elegir
 amb el ratolí.
+
+\paragraph{Sobre la cerca de paraules.}
+Alguns processadors de textos permeten buscar usant les anomenades
+\emph{expressions regulars}, les quals permeten, mitjançant caràcters
+especials anomenats \emph{jòquers} (anglés \emph{wildcards}), buscar
+tots els mots i totes les porcions de text que segueixen un patró
+determinat. Per exemple, una recerca amb l'expressió regular
+\texttt{pres*a} trobaria els mots \emph{prea}, \emph{presa},
+\emph{pressa}, \emph{presssa}, etc., o l'expressió regular
+\texttt{<[\^{}>]+>} que trobaria totes les etiquetes de l'estil de
+XML, ja que comencen per \texttt{<}, tenen un o més (\emph{+})
+caràcters que \emph{no} (\texttt{\^}) són \texttt{>}, i acaben amb
+\texttt{>}. Per saber més sobre expressions regular podeu consultar la
+pàgina de la Viquipèdia
+\url{https://ca.wikipedia.org/wiki/Expressi%C3%B3_regular}.
 
 % A més de l'accés als menús, hi ha operacions que normalment es fan amb
 % el ratolí: una de les més importants és \emph{marcar} o
@@ -1108,12 +1162,12 @@ figura~\ref{fg:faxXML} tinga un encapçalament amb el text
 ``\emph{Missatge de correu}'' centrat, gran i en negretes amb aquesta
 ordre CSS (amb comentaris entre \texttt{/*} i \texttt{*/}):
 \begin{verbatim}
-EMAIL:before {                            /* Abans del EMAIL */
-        content : "Missatge de correu" ;  /* El text desitjat */
-        display : block ;                 /* com un bloc */
-        font-weight : bold ;              /* en negreta */
-        text-align : center ;             /* centrat */
-        font-size : x-large ;             /* i amb lletra extra-gran */
+EMAIL:before {                      /*Abans del EMAIL*/
+   content : "Missatge de correu" ; /*El text desitjat*/
+   display : block ;                /*com un bloc*/
+   font-weight : bold ;             /*en negreta*/
+   text-align : center ;            /*centrat */
+   font-size : x-large ;            /*i amb lletra extra-gran*/
 }
 \end{verbatim}
 
@@ -1256,620 +1310,479 @@ l'\emph{accessibilitat} al document a través de diversos mitjans a
 persones discapacitades o en situacions especials.
 
 \begin{persabermes}{tecnologies auxiliars per a la generació de textos}
+  \paragraph{Reconeixement automàtic de la parla.}
+  El \emph{reconeixement automàtic de la parla} (RAP) es pot definir
+  com la producció de textos informatitzats ---en \emph{temps real},
+  és a dir, tan instantàniament com siga possible--- a partir de la
+  veu humana (vegeu \citealt{samuelson-brown96b}). El RAP de propòsit
+  general està encara molt lluny de ser perfecte, i, de fet, és encara
+  un camp de recerca actiu, encara que recentment s'ha incorporat
+  bastant satisfactòriament en dispositius com ara telèfons
+  mòbils.\footnote{Els dispositius amb sistema operatiu Android
+    permeten fer recerques per veu.} En canvi, el RAP per a un
+  propòsit específic (per exemple, la consulta telefònica d'horaris de
+  trens o de les condicions del trànsit) està molt més avançat. La
+  major part de la inversió de la comunitat internacional en RAP és,
+  per raons òbvies, sobre l'anglés.
 
-\paragraph{Reconeixement automàtic de la parla}
+  El RAP genera text a partir de la veu recollida a través d'un
+  micròfon utilitzant una dispositiu de captura per a digitalitzar-la
+  i després un sistema de reconeixement automàtic de la veu
+  (\emph{automatic speech recognition}) per a detectar fonemes,
+  síl·labes o paraules completes (depén del sistema concret) i
+  traduir-les posteriorment a un text informatitzat.  Hi ha sistemes
+  de reconeixement {\em independents del parlant} i sistemes
+  \emph{dependents del parlant} (els últims normalment han de ser
+  \emph{entrenats} per la persona abans del seu ús).  El RAP és
+  especialment difícil per la gran variabilitat acústica que presenten
+  els fonemes:
+  \begin{itemize}
+  \item segons el context articulatori (per exemple, no és igual el so
+    del fonema palatal representat pel dígraf \emph{ig} en ``passeig
+    curt'' ---sord--- que en ``passeig allargat'' ---sonor---);
+  \item segons el parlant (cada persona té uns òrgans fonadors de
+    forma diferent ---acústicament diferents--- i processos de
+    producció de la parla diferents ---per exemple, n'hi ha qui parla
+    més a poc a poc i qui parla molt de pressa---);
+  \item segons el dialecte del parlant (per exemple, els valencians
+    fem africades les \emph{j} que en català central són palatals
+    fricatives sonores).
+  \item segons l'estat emocional del parlant, etc.
+  \end{itemize}
+  És un fet ben establert que, per a superar aquestes dificultats, els
+  humans fem un ús molt intensiu dels coneixements lingüístics que
+  tenim sobre l'idioma que estem escoltant i del context comunicatiu:
+  així, si sentim dir ``\emph{percà nom} passes l'\emph{antre xoc} de
+  \emph{craus}?'' a un amic quan veiem que no pot obrir el cotxe,
+  entenem perfectament què ens vol dir;\footnote{\emph{Per què no em
+      passes l'altre joc de claus?}} o si sentim dir en veu alta ``mu
+  han dim moltis baltes'' és molt probable que entenguem clarament
+  ``m'ho han dit moltes voltes'' a pesar dels canvis fonètics, ja que
+  inconscientment busquem la interpretació correcta més propera al que
+  hem sentit (en el context concret en què es diu la
+  frase).\footnote{Considereu aquest doblet anglés clàssic sobre el
+    tema: \emph{people can easily recognize speech} no és molt
+    diferent de {\em people can easily wreck a nice beach}. Un altre
+    doblet el formen les expressions \emph{sax and violins on TV} i la
+    més versemblant \emph{sex and violence on TV}.} Els resultats de
+  la RAP són especialment dependents de les particularitats
+  lingüístiques de la llengua involucrada i l'èxit depén de
+  l'existència d'un bon \emph{model de llengua} ---ràpid i concís, és
+  a dir, computacionalment eficient--- que simule la part no
+  contextual de la comprensió humana i permeta obtenir el text més
+  probable en un idioma determinat a partir del text en brut produït
+  pel sistema de RAP. La major part dels sistemes usen vocabularis
+  grans i models estadístics.
 
-El \emph{reconeixement automàtic de la parla} (RAP) es pot definir com
-la producció de textos informatitzats ---en \emph{temps real}, és a
-dir, tan instantàniament com siga possible--- a partir de la veu
-humana (vegeu \citealt{samuelson-brown96b}). El RAP de propòsit
-general està encara molt lluny de ser perfecte, i, de fet, és encara
-un camp de recerca actiu, encara que recentment s'ha incorporat
-bastant satisfactòriament en dispositius com ara telèfons
-mòbils.\footnote{Els dispositius amb sistema operatiu Android permeten
-  fer recerques per veu.} En canvi, el RAP per a un propòsit específic
-(per exemple, la consulta telefònica d'horaris de trens o de les
-condicions del trànsit) està molt més avançat. La major part de la
-inversió de la comunitat internacional en RAP és, per raons òbvies,
-sobre l'anglés.
-
-El RAP genera text a partir de la veu recollida a través d'un micròfon
-utilitzant una dispositiu de captura per a digitalitzar-la i després
-un sistema de reconeixement automàtic de la veu (\emph{automatic
-  speech recognition}) per a detectar fonemes, síl·labes o paraules
-completes (depén del sistema concret) i traduir-les posteriorment a un
-text informatitzat.  Hi ha sistemes de reconeixement {\em independents
-  del parlant} i sistemes \emph{dependents del parlant} (els últims
-normalment han de ser \emph{entrenats} per la persona abans del seu
-ús).  El RAP és especialment difícil per la gran variabilitat acústica
-que presenten els fonemes:
-\begin{itemize}
-\item segons el context articulatori (per exemple, no és igual el so
-  del fonema palatal representat pel dígraf \emph{ig} en ``passeig
-  curt'' ---sord--- que en ``passeig allargat'' ---sonor---);
-\item segons el parlant (cada persona té uns òrgans fonadors de forma
-  diferent ---acústicament diferents--- i processos de producció de la
-  parla diferents ---per exemple, n'hi ha qui parla més a poc a poc i
-  qui parla molt de pressa---);
-\item segons el dialecte del parlant (per exemple, els valencians fem
-  africades les \emph{j} que en català central són palatals fricatives
-  sonores).
-\item segons l'estat emocional del parlant, etc.
-\end{itemize}
-És un fet ben establert que, per a superar aquestes dificultats, els
-humans fem un ús molt intensiu dels coneixements lingüístics que tenim
-sobre l'idioma que estem escoltant i del context comunicatiu: així, si
-sentim dir ``\emph{percà nom} passes l'\emph{antre xoc} de
-\emph{craus}?'' a un amic quan veiem que no pot obrir el cotxe,
-entenem perfectament què ens vol dir;\footnote{\emph{Per què no em
-    passes l'altre joc de claus?}} o si sentim dir en veu alta ``mu
-han dim moltis baltes'' és molt probable que entenguem clarament
-``m'ho han dit moltes voltes'' a pesar dels canvis fonètics, ja que
-inconscientment busquem la interpretació correcta més propera al que
-hem sentit (en el context concret en què es diu la
-frase).\footnote{Considereu aquest doblet anglés clàssic sobre el
-  tema: \emph{people can easily recognize speech} no és molt diferent
-  de {\em people can easily wreck a nice beach}. Un altre doblet el
-  formen les expressions \emph{sax and violins on TV} i la més
-  versemblant \emph{sex and violence on TV}.} Els resultats de la RAP
-són especialment dependents de les particularitats lingüístiques de la
-llengua involucrada i l'èxit depén de l'existència d'un bon
-\emph{model de llengua} ---ràpid i concís, és a dir, computacionalment
-eficient--- que simule la part no contextual de la comprensió humana i
-permeta obtenir el text més probable en un idioma determinat a partir
-del text en brut produït pel sistema de RAP. La major part dels
-sistemes usen vocabularis grans i models estadístics.
-
-
-\paragraph{Reconeixement automàtic de textos escrits}
-
-El \emph{reconeixement automàtic de textos escrits} (RATE) es pot
-definir com la producció de textos informatitzats a partir de textos
-manuscrits o tipografiats. En el cas de textos tipografiats la tasca
-és molt més senzilla; en el cas de manuscrits, la complexitat és
-comparable a la del reconeixement de la parla.
+  \paragraph{Reconeixement automàtic de textos escrits.}
+  El \emph{reconeixement automàtic de textos escrits} (RATE) es pot
+  definir com la producció de textos informatitzats a partir de textos
+  manuscrits o tipografiats. En el cas de textos tipografiats la tasca
+  és molt més senzilla; en el cas de manuscrits, la complexitat és
+  comparable a la del reconeixement de la parla.
   
-El RATE genera un text informatitzat a partir d'un document imprés,
-usant un escàner (o \emph{scanner}) i un programa de reconeixement
-òptic (també se'n diu {\em automàtic}) de caràcters (OCR,
-\emph{optical character recognition}).  Primerament, el document
-imprés és llegit (escanejat o escandit) usant l'escàner, i se'n genera
-un fitxer que en conté la imatge digital (per exemple, una graella
-molt fina de quadrats blancs i negres).  Després, el programa d'OCR
-llig la pàgina, descobreix on són els paràgrafs, les línies i,
-finalment, els caràcters concrets, i els transforma en un text
-informatitzat (normalment bastant imperfecte, especialment si és
-manuscrit).  Com en el cas del reconeixement de la parla, és crucial
-l'ús d'informació sobre l'idioma concret (diccionaris, estadística
-sobre les seqüencies de lletres) per a corregir els errors de l'OCR.
-Per exemple, si un programa de lectura automàtica de textos produeix
-per error el text ``4ixò 6s uua mcrda'' no cal dir què hi llegim sense
-massa problemes, malgrat els errors en tots els mots; això és gràcies
-als nostres coneixements sobre les seqüències de lletres comunes en
-català.
+  El RATE genera un text informatitzat a partir d'un document imprés,
+  usant un escàner (o \emph{scanner}) i un programa de reconeixement
+  òptic (també se'n diu {\em automàtic}) de caràcters (OCR,
+  \emph{optical character recognition}).  Primerament, el document
+  imprés és llegit (escanejat o escandit) usant l'escàner, i se'n
+  genera un fitxer que en conté la imatge digital (per exemple, una
+  graella molt fina de quadrats blancs i negres).  Després, el
+  programa d'OCR llig la pàgina, descobreix on són els paràgrafs, les
+  línies i, finalment, els caràcters concrets, i els transforma en un
+  text informatitzat (normalment bastant imperfecte, especialment si
+  és manuscrit).  Com en el cas del reconeixement de la parla, és
+  crucial l'ús d'informació sobre l'idioma concret (diccionaris,
+  estadística sobre les seqüencies de lletres) per a corregir els
+  errors de l'OCR.  Per exemple, si un programa de lectura automàtica
+  de textos produeix per error el text ``4ixò 6s uua mcrda'' no cal
+  dir què hi llegim sense massa problemes, malgrat els errors en tots
+  els mots; això és gràcies als nostres coneixements sobre les
+  seqüències de lletres comunes en català.
 \end{persabermes}
 
 \section{Qüestions i exercicis}
 \begin{enumerate}
-\item Com es diuen les combinacions especials de caràcters ASCII
-  de l'estil de ``{\tt <B>}'' o ``{\tt </B>}'' que s'usen per a
-  indicar tipus de lletra, grandàries de lletra, formats, etc., en
-  algunes codificacions?
-\begin{enumerate}
-\item Marques
-\item Esquemes
-\item Carpetes
-\end{enumerate}
-\item 
-   Per a validar un document XML necessitem{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} un altre document XML, aquest últim amb les
-   marques sense contingut.
-\item {\ldots} un full d'estil.
-\item {\ldots} una definició de tipus de document.
+\item Per a validar un document XML necessitem {\ldots}
+  \begin{enumerate}
+  \item {\ldots} un altre document XML, aquest últim amb les marques
+    sense contingut.
+  \item {\ldots} un full d'estil CSS.
+  \item {\ldots} una definició de tipus de document (DTD).
+  \end{enumerate}
+
+\item Com s'indica en una DTD que l'element \texttt{teixit} conté
+  opcionalment els elements \texttt{grandaria} i \texttt{color} en
+  aquest ordre?
+  \begin{enumerate}
+  \item \verb|<!MARK teixit grandaria, color #OPTIONAL>|
+  \item \verb|<!MARK teixit (grandaria?,color?)>|
+  \item \verb|<!ELEMENT teixit (grandaria?,color?)>|
+  \end{enumerate}
+
+\item Un document XML és \emph{vàlid} {\ldots}
+  \begin{enumerate}
+  \item {\ldots} si només usa els noms d'elements definits a la DTD;
+    la resta de les directrius de la DTD només serveixen per fer
+    documents \emph{ben formats}.
+  \item {\ldots} si només usa les marques vàlides dels documents HTML.
+  \item {\ldots} si segueix les regles de la DTD quan inclou un
+    element dins d'un altre i, a més, no inclou cap element no definit
+    a la DTD.
 \end{enumerate}
 
-\item 
-   Com s'indica en una DTD que l'element \verb|teixit| conté
-   opcionalment els elements \verb|grandaria| 
-   i \verb|color|
-   en aquest ordre?
-   
-\begin{enumerate}
-\item \verb|<!MARK teixit grandaria, color #OPTIONAL>|
-\item \verb|<!MARK teixit (grandaria?,color?)>|
-\item \verb|<!ELEMENT teixit (grandaria?,color?)>|
+\item Un text informatitzat es caracteritza principalment {\ldots}
+  \begin{enumerate}
+  \item {\ldots} pel seu format, d'una banda, i pel joc de caràcters
+    amb què està codificat, d'altra.
+  \item {\ldots} per la versió del sistema operatiu i el processador
+    de textos amb què ha estat escrit.
+  \item {\ldots} pel full d'estil que indica els aspectes estètics de
+    la seua presentació.
 \end{enumerate}
 
-\item 
-Un document XML és \emph{vàlid}{\ldots}
+\item Què fa que el següent fragment de XML estiga \emph{mal format}?
+  \begin{center}\verb|<tit int=hi>Zjuknim agarnow</tit>|\end{center}
+  \begin{enumerate}
+  \item Entre \verb|tit| i \verb|>| no pot haver-hi res.
+  \item L'etiqueta \verb|tit| no és vàlida en XML; hauria de ser
+    \verb|title|.
+  \item Si hi ha algun atribut, el valor ha d'anar entre cometes.
+  \end{enumerate}
 
-\begin{enumerate}
-\item {\ldots} si només usa els noms d'elements definits a la DTD; la resta de
-les directrius de la DTD només serveixen per fer documents \emph{ben formats}.
-\item {\ldots} si només usa les marques vàlides dels documents HTML.
-\item {\ldots} si segueix les regles de la DTD quan inclou un element
-dins d'un altre i, a més, no inclou cap element no definit a la DTD.
-\end{enumerate}
-\item 
-Un text informatitzat es caracteritza principalment {\ldots} 
+\item Si en una DTD trobem les regles
+\begin{verbatim}
+<!ELEMENT taula (capçalera?,fila+)>
+<!ELEMENT fila (casella*)>
+<!ELEMENT casella (#PCDATA|taula)*>
+\end{verbatim}
+  quina de les tres situacions següents és vàlida d'acord amb aquesta
+  DTD?
+  \begin{enumerate}
+  \item \verb|<taula></taula>|
+  \item \verb|<taula><fila><casella>zz<taula><fila></fila></taula>zz|
+    \verb|</casella><fila></taula>|
+  \item \verb|<taula><fila><casella>zz</casella><casella>ww</casella>|
+    \verb|</fila></taula>|    
+  \end{enumerate}
 
-\begin{enumerate}
-\item  {\ldots}pel seu format, d'una banda, i pel joc de caràcters
-amb què està codificat, d'altra.
-\item  {\ldots} per la versió del sistema operatiu i el processador de
-textos amb què ha estat escrit.
-\item  {\ldots}pel full d'estil que indica els aspectes estètics de la
-seua presentació.
-\end{enumerate}
-\item Què fa que el següent fragment de XML estiga \emph{mal
-   format}?
-   \begin{center}\verb%<tit int=hi>Zjuknim agarnow</tit>%\end{center}
-   
-\begin{enumerate}
-\item Entre \verb%tit% i \verb%>% no pot haver-hi res.
-\item L'etiqueta \verb%tit% no és vàlida en XML; hauria de
-      ser \verb%title%.
-\item Si hi ha algun atribut, el valor ha d'anar entre cometes.
-\end{enumerate}
-\item 
-   Si en una DTD trobem les regles 
-   \verb%<!ELEMENT taula (capçalera?,fila+)>%, 
-   \verb%<!ELEMENT fila (casella*)>% i 
-   \verb%<!ELEMENT casella (#PCDATA|taula)*>% quina de les tres situacions
-   següents és vàlida d'acord amb aquesta DTD?
-   
-\begin{enumerate}
-\item 
-      \verb%<taula></taula>%
-      
-\item 
-      \verb%<taula><fila><casella>zz<taula><fila></fila></taula>zz%
+\item Què indica el fragment \texttt{encoding="\ldots"} en la primera
+  línia (\texttt{<?xml\ldots?>}) d'un document XML?
+  \begin{enumerate}
+  \item La versió de XML.
+  \item On és la DTD necessària per a validar-lo.
+  \item Quin és el joc de caràcters que usa el document XML.
+  \end{enumerate}
 
-      \verb%</casella><fila></taula>%
-      
-\item 
-      \verb%<taula><fila><casella>zz</casella><casella>ww% 
+\item Quants octets (\emph{bytes}) ocupa el segment de XML
+  següent: \begin{center}\verb|<qq>ww</qq>|\end{center}
+  \begin{enumerate}
+  \item 11 com a mínim, depenent de la codificació.
+  \item 11, independentment de la codificació.
+  \item 4 exactament.
+  \end{enumerate}
 
-      \verb%</casella></fila></taula>%
-      
-\end{enumerate}
-\item Què indica el fragment
-   \verb%encoding="%\ldots\verb%"% en la primera línia 
-   (\verb%<?xml%\ldots\verb%?>%) d'un document XML?
-   
-\begin{enumerate}
-\item La versió de XML.
-\item On és la DTD necessària per a validar-lo.
-\item Quin és el joc de caràcters que usa el document XML.
-\end{enumerate}
-\item Quants octets (\emph{bytes}) ocupa el segment de
-   XML següent: \begin{center}\verb%<qq>ww</qq>%\end{center}
-   
-\begin{enumerate}
-\item 11 com a mínim, depenent de la codificació.
-\item 11, independentment de la codificació.
-\item 4 exactament.
-\end{enumerate}
 \item Quan les marques de format només especifiquen el
-   \emph{contingut} d'un document (identificant les parts i
-   l'estructura de cada una), com s'assigna una \emph{presentació}
-   determinada al document?
-   
-\begin{enumerate}
-\item Amb un o més fulls d'estil.
-\item Amb una codificació de caràcters (p.e., Unicode o ISO-8859-1).
-\item No s'hi pot assignar presentació.
-\end{enumerate}
+  \emph{contingut} d'un document (identificant les parts i
+  l'estructura de cada una), com s'assigna una \emph{presentació}
+  determinada al document?
+  \begin{enumerate}
+  \item Amb un o més fulls d'estil.
+  \item Amb una codificació de caràcters (p.e., Unicode o ISO-8859-1).
+  \item No s'hi pot assignar presentació.
+  \end{enumerate}
+
 \item Què es conserva d'ASCII en els sistemes de codificació de
-   caràcters més avançats com Unicode, UTF-8, ISO-8859-1, etc.?
-   
-\begin{enumerate}
-\item Els caràcters i els seus números de codi.
-\item Els caràcters, però amb números de codi diferents.
-\item No en queda res. S'ha reorganitzat tota la codificació.
+  caràcters més avançats com Unicode UTF-8, ISO-8859-1
+  (\emph{Latin-1}), etc.?
+  \begin{enumerate}
+  \item Els caràcters i els seus números de codi.
+  \item Els caràcters, però amb números de codi diferents.
+  \item No en queda res. S'ha reorganitzat tota la codificació.
+  \end{enumerate}
+
+\item Som a Eslovàquia, on s'usa la codificació de caràcters
+  ISO-8859-2 (\emph{Latin-2}). Des d'Alacant, ens envien un document
+  de text pla, escrit en codificació ISO-8859-1 (\emph{Latin-1}) i
+  l'obrim com si fóra ISO-8859-2 (\emph{Latin-2}). Què passa?
+  \begin{enumerate}
+  \item No veiem bé cap lletra: tot són símbols estranys i
+    inintel·ligibles.
+  \item Veiem bé totes les lletres excepte les accentuades, les que
+    porten dièresi, la \emph{ñ} o la \emph{ç}: en el seu lloc
+    apareixen altres símbols o lletres típiques de les llengües
+    d'Europa de l'Est.
+  \item Veiem bé totes les lletres excepte les accentuades, les que
+    porten dièresi, la \emph{ñ} o la \emph{ç}: en el seu lloc
+    apareixen les versions sense accent, la \emph{n} o la \emph{c}.
 \end{enumerate}
-\item Som a Eslovàquia, on s'usa la codificació de caràcters 
-   ISO-8859-2. Des d'Alacant, ens envien un document de text pla,
-   escrit en codificació ISO-8859-1 i l'obrim com si fóra
-   ISO-8859-2. Què passa? 
-   
-\begin{enumerate}
-\item No veiem bé cap lletra: tot són símbols estranys i inintel·ligibles.
-\item Veiem bé totes
-   les lletres excepte les accentuades, les que porten dièresi, la
-   \emph{ñ} o la \emph{ç}: en el seu lloc apareixen altres símbols
-   o lletres típiques de les llengües d'Europa de l'Est.
-\item Veiem bé totes
-   les lletres excepte les accentuades, les que porten dièresi, la
-   \emph{ñ} o la \emph{ç}: en el seu lloc apareixen les versions
-   sense accent, la \emph{n} o la \emph{c}.
-\end{enumerate}
+
 \item Què és RTF?
-   
-\begin{enumerate}
-\item Un esquema avançat de codificació de caràcters.
-\item Un format obert d'intercanvi de memòries de traducció.
-\item Un format obert per a intercanviar documents de text entre
-      processadors de textos.
-\end{enumerate}
-\item Un document HTML té un enllaç amb el text ``Més informació''
-   i amb URI de destinació
-   \verb%http://www.detalls-e.com/mes.html%. Com és aquest
-   enllaç en HTML?
-   
-\begin{enumerate}
-\item \verb%<a href="http://www.detalls-e.com/mes.html">Més informació</a>%
-\item \verb%<a href="Més informació">http://www.detalls-e.com/mes.html</a>%
-\item \verb%<a htxt="Més informació" href="http://www.detalls-e.com/mes.html">%
-\end{enumerate}
+  \begin{enumerate}
+  \item Un esquema avançat de codificació de caràcters.
+  \item Un format obert d'intercanvi de memòries de traducció.
+  \item Un format obert per a intercanviar documents de text entre
+    processadors de textos.
+  \end{enumerate}
+
+\item Un document HTML té un enllaç amb el text ``Més informació'' i
+  amb URI de destinació
+  \verb|http://www.detalls-e.com/mes.html|. Com és aquest
+  enllaç en HTML?
+  \begin{enumerate}
+  \item \verb|<a href="http://www.detalls-e.com/mes.html">Més informació</a>|
+  \item \verb|<a href="Més informació">http://www.detalls-e.com/mes.html</a>|
+  \item \verb|<a htxt="Més informació" href="http://www.detalls-e.|
+    \verb|com/mes.html">|
+  \end{enumerate}
+
 \item On va el títol d'un document HTML (el que es mostra en la
-   \emph{barra} del navegador)?
-   
-\begin{enumerate}
-\item En un element \verb%title% dins de \verb%head%
-\item En un element \verb%title% dins de \verb%body%
-\item En un element \verb%h1% dins de \verb%head%
-\end{enumerate}
-\item Volem digitalitzar automàticament textos impresos en paper
-   que estan escrits en una llengua occidental que usa caràcters de
-   l'alfabet llatí i usen tipus de lletra comuns (com ara Times,
-   Courier, Arial, Helvetica, etc.). Ajuda conéixer en quina llengua
-   estan escrits?
-   
-\begin{enumerate}
-\item No, perquè la forma de les lletres no depén de la llengua,
-      ja que s'usen tipus de lletra comuns.
-\item No, perquè totes les llengües occidentals que usen l'alfabet
-      llatí es poden codificar amb el joc de caràcters ISO-8859-15.
-\item Sí, perquè cada llengua usa els caràcters de manera
-      diferent per a formar paraules.
-\end{enumerate}
-\item Imaginem una al·locució (un segment de veu humana) en espanyol
-   que pot tenir (entre d'altres) les interpretacions ``millones de
-   oros'' i ``millones de euros''. Clarament, la primera és menys
-   comuna que la segona. Com pot fer un sistema de reconeixement
-   automàtic de parla per a elegir la segona?
-   
-\begin{enumerate}
-\item Fent una anàlisi semàntica profunda de la frase.
-\item No pot, perquè és impossible que comprenga l'espanyol parlat.
-\item Usant estadístiques de aparició conjunta de paraules
-      en espanyol.
-\end{enumerate}
+  \emph{barra} del navegador)?
+  \begin{enumerate}
+  \item En un element \verb|title| dins de \verb|head|.
+  \item En un element \verb|title| dins de \verb|body|.
+  \item En un element \verb|h1| dins de \verb|head|.
+  \end{enumerate}
 
-\item 
-   Si els caràcters d'un text estan codificats usant el joc Latin-1
-   (ISO-8859-1), quins codis tenen les lletres de la \verb|A| a
-   la \verb|Z|?
-   
-\begin{enumerate}
-\item Depén del format del text (HTML, etc.)
-\item Els mateixos que en la codificació ASCII
-\item Els que tenien en la codificació ASCII més 128.
-\end{enumerate}
+\item Si els caràcters d'un text estan codificats usant el joc de
+  caràcters ISO-8859-1 (\emph{Latin-1}), quins codis tenen les lletres
+  de la \verb|A| a la \verb|Z|?
+  \begin{enumerate}
+  \item Depén del format del text (HTML, etc.).
+  \item Els mateixos que en la codificació ASCII.
+  \item Els que tenien en la codificació ASCII més 128.
+  \end{enumerate}
 
-\item En un sistema de reconeixement automàtic de la parla, com es
-  fa per a elegir entre \emph{efectiu} en frases com ``en efectiu''
-  o ``treball efectiu'' o \emph{afectiu} en ``desenvolupament
-  afectiu'' o ``àmbit afectiu''? (recordeu que en català oriental
-  aquests mots es pronuncien idènticament)
-  
-\begin{enumerate}
-\item D'acord amb la categoria lèxica del mot anterior
-\item Usant la semàntica dels mots
-\item Usant un model estadístic de grups de dos mots en català
-\end{enumerate}
+\item Quants octets (\emph{bytes}) ocupa com a mínim el següent fitxer
+  HTML?
+  \begin{center}
+    \verb|<html><body><p>Text.</p></body></html>|
+  \end{center}
+  \begin{enumerate}
+  \item 11
+  \item 38
+  \item 76
+  \end{enumerate}
 
-\item 
-   Quants octets (\emph{bytes}) ocupa com a mínim el següent fitxer HTML?
-   \begin{center}
-   \verb|<html><body><p>Text.</p></body></html>|
-   \end{center}
-   
-\begin{enumerate}
-\item 11
-\item 38
-\item 76
-\end{enumerate}
+\item En la codificació de caràcters ISO-8859-1 (\emph{Latin-1}), tots
+  els caràcters accentuats de l'espanyol o del català tenen
+  codis {\ldots}
+  \begin{enumerate}
+  \item {\ldots} entre 0 i 127.
+  \item {\ldots} entre 128 i 255.
+  \item {\ldots} més grans que 256.
+  \end{enumerate}
 
-\item En la codificació ANSI ISO-8859-1, tots els caràcters
-   accentuats  de l'espanyol o del català tenen codis{\ldots}
-   
-\begin{enumerate}
-\item {\ldots}entre 0 i 127.
-\item {\ldots}entre 128 i 255.
-\item {\ldots}més grans que 256.
-\end{enumerate}
-\item Un text ANSI ISO-8859-1 té 1000 caràcters justos (comptant
-   els espais en blanc i els salts de línia). Quants octets
-   (\emph{bytes}) ocupa?
-   
-\begin{enumerate}
-\item 1000 exactament, 1 per caràcter
-\item 2000 exactament, 2 per caràcter
-\item entre 1000 i 2000, entre 1 octet i 2 octets per caràcter
-\end{enumerate}
-\item En XML, si s'obri un element amb la marca
-   \verb|<frase>|, amb quina marca es tanca?
-   
-\begin{enumerate}
-\item Amb \verb|</frase>|
-\item Amb \verb|<frase>|
-\item Automàticament quan s'obri qualsevol altre element.
-\end{enumerate}
-\item   
-   Si en un document XML trobem la situació
-   \begin{center}\verb|<rec><id>Zork</id><addr>Zmeggs</addr></rec>|\end{center}   i una DTD defineix l'element \verb|rec| amb la regla
+\item Un text codificat en ISO-8859-1 (\emph{Latin-1}) té 1000
+  caràcters justos (comptant els espais en blanc i els salts de
+  línia). Quants octets (\emph{bytes}) ocupa?
+  \begin{enumerate}
+  \item 1000 exactament, 1 per caràcter.
+  \item 2000 exactament, 2 per caràcter.
+  \item entre 1000 i 2000, entre 1 octet i 2 octets per caràcter.
+  \end{enumerate}
+
+\item En XML, si s'obri un element amb la marca \verb|<frase>|, amb
+  quina marca es tanca?
+  \begin{enumerate}
+  \item Amb \verb|</frase>|.
+  \item Amb \verb|<frase>|.
+  \item Automàticament quan s'obri qualsevol altre element.
+  \end{enumerate}
+
+\item Si en un document XML trobem la situació
+  \begin{center}\verb|<rec><id>Zork</id><addr>Zmeggs</addr></rec>|\end{center}
+  i una DTD defineix l'element \verb|rec| amb la regla
    \begin{center}\verb|<!ELEMENT rec (id,up?,addr*)>|\end{center} Pot
    ser que el document siga vàlid segons la DTD?
-   
-\begin{enumerate}
-\item Depén de com siga d'estricte el programa validador
-\item No, perquè aquesta situació no és vàlida.
-\item Sí, si la resta del document és vàlida.
+   \begin{enumerate}
+   \item Depén de com siga d'estricte el programa validador.
+   \item No, perquè aquesta situació no és vàlida.
+   \item Sí, si la resta del document és vàlida.
+   \end{enumerate}
+
+\item Què veiem si obrim un text HTML amb un editor de textos senzill
+  com el \emph{Bloc de notes}, \emph{Llibreta} o \emph{Notepad} de
+  Windows?
+  \begin{enumerate}
+  \item El text HTML però sense les marques entre ``\verb|<|'' i
+    ``\verb|/>|''.
+  \item El text HTML tal com està fet per dins, amb les marques entre
+    ``\verb|<|'' i ``\verb|>|'' i tot.
+  \item Una pantalla en blanc.
+  \end{enumerate}
+
+\item En què es diferencien dues extensions d'ASCII diferents?
+  \begin{enumerate}
+  \item En els caràcters assignats als 256 codis.
+  \item En els caràcters assignats als codis del 0 al 127.
+  \item En els caràcters assignats als codis del 128 al 255.
 \end{enumerate}
 
-\item 
-   Què veiem si obrim un text HTML amb un editor de textos senzill com
-   el \emph{bloc de notes} o \emph{Notepad} de Windows?
-   
-\begin{enumerate}
-\item El text HTML però sense les marques entre ``\verb|<|'' i
-     ``\verb|/>|''.
-\item El text HTML tal com està fet per dins, amb les marques
-     entre ``\verb|<|'' i
-     ``\verb|>|'' i tot.
-\item Una pantalla en blanc.
-\end{enumerate}
-\item 
-   En què es diferencien dues codificacions de caràcters ANSI diferents?
-   
-\begin{enumerate}
-\item En els caràcters assignats als 256 codis.
-\item En els caràcters assignats als codis del 0 al 127.
-\item En els caràcters assignats als codis del 128 al 255.
-\end{enumerate}
-
-\item 
-   XML és {\ldots}
-   
-\begin{enumerate}
-\item {\ldots}una evolució de SGML, més complexa i rica
-\item {\ldots}un conjunt concret de marques entre ``\verb|<|'' i
-     ``\verb|>|'' i de regles d'inclusió dels elements que
-     defineixen en altres elements.
-\item {\ldots}un conjunt de directrius per a definir diferents
-     llenguatges consistents en marques entre ``\verb|<|'' i
-     ``\verb|>|'' i en regles d'inclusió dels elements que
-     defineixen en altres elements.
-\end{enumerate}
-\item 
-   Si en una DTD trobem la regla
+\item Si en una DTD trobem la regla
    \begin{center}\verb|<!ELEMENT cv (nom,any?,ob+)>|\end{center}
    quina de les tres situacions següents no és vàlida d'acord amb
    aquesta DTD?
-   
-\begin{enumerate}
-\item 
-      \verb|<cv><nom>Pere</nom><any>1992</any></cv>|
-      
-\item 
-      \verb|<cv><nom>Pere</nom><ob>Escrits</ob></cv>|
-      
-\item 
-      \verb|<cv><nom>Pere</nom><any>1992</any><ob>Crits</ob><ob>Plors</ob></cv>|
-      
-\end{enumerate}
+   \begin{enumerate}
+   \item \verb|<cv><nom>Pere</nom><any>1992</any></cv>|
+   \item \verb|<cv><nom>Pere</nom><ob>Escrits</ob></cv>|
+   \item \verb|<cv><nom>Pere</nom><any>1992</any><ob>Crits</ob><ob>Plors</ob></cv>|
+   \end{enumerate}
 
-\item 
-   En un document HTML volem que la frase \emph{aquest document}
+ \item En un document HTML volem que la frase \emph{aquest document}
    siga un enllaç al document que té l'URI
-   \verb|http://www.uc.za/t.html|: quina de les següents
-   porcions de HTML és la correcta?
-   
-\begin{enumerate}
-\item 
-    \verb|<a url="http://www.uc.za/t.html">aquest document</a>|
-   
-\item 
-     \verb|<a href="http://www.uc.za/t.html">aquest document</a>|
-      
-\item 
-     \verb|<link url="http://www.uc.za/t.html">aquest document</link>|
-     
-\end{enumerate}
+   \verb|http://www.uc.za/t.html|: quina de les següents porcions de
+   HTML és la correcta?
+   \begin{enumerate}
+   \item \verb|<a url="http://www.uc.za/t.html">aquest document</a>|
+   \item \verb|<a href="http://www.uc.za/t.html">aquest document</a>|
+   \item \verb|<link url="http://www.uc.za/t.html">aquest document</link>|
+   \end{enumerate}
 
-\item El fragment de document HTML
-``\verb|<strong><em>link</strong></em>|'' 
-té una errada. Quina n'és la causa?
-\begin{enumerate}
-\item El nom de les marques no és vàlid, perquè no n'indica cap informació
-sobre el contingut.
-\item L'ordre de les marques d'obertura i clausura no és correcte.
-\item No s'ha indicat el valor de l'atribut \verb|href| de
-l'element \verb|em|.
-\end{enumerate}
+ \item El fragment de document HTML
+   ``\verb|<strong><em>link</strong></em>|'' té una errada. Quina n'és
+   la causa?
+   \begin{enumerate}
+   \item El nom de les marques no és vàlid, perquè no n'indica cap
+     informació sobre el contingut.
+   \item L'ordre de les marques d'obertura i clausura no és correcte.
+   \item No s'ha indicat el valor de l'atribut \verb|href| de
+     l'element \verb|em|.
+   \end{enumerate}
 
-
-\item 
-Un text informatitzat es caracteritza principalment {\ldots} 
-
-\begin{enumerate}
-\item  {\ldots}pel seu format, d'una banda, i pel joc de caràcters
-amb què està codificat, d'altra.
-\item  {\ldots} per la versió del sistema operatiu i el processador de
-textos amb què ha estat escrit.
-\item  {\ldots}pel full d'estil que indica els aspectes estètics de la
-seua presentació.
-\end{enumerate}
-
-\item La longitud mitjana d'un mot en gondavés és de 5,5 caràcters i
+ \item La longitud mitjana d'un mot en gondavés és de 5,5 caràcters i
    l'edició electrònica de \emph{Gundhawól Vlâj} (``La Veu de
-   Gondàvia''), té uns 100.000 mots diaris com a
-   mitjana. Si el gondavés s'escriu en codificació ISO-8859-1, quants
-   exemplars del diari es poden guardar en un CD-ROM?
-   
-\begin{enumerate}
-\item Més de dos anys.
-\item Un exemplar només.
-\item Un mes aproximadament.
-\end{enumerate}
+   Gondàvia''), té uns 100.000 mots diaris com a mitjana. Si el
+   gondavés s'escriu usant la codificació ISO-8859-1 (\emph{Latin-1}),
+   quants exemplars del diari es poden guardar en un CD-ROM?
+   \begin{enumerate}
+   \item Més de dos anys.
+   \item Un exemplar només.
+   \item Un mes aproximadament.
+   \end{enumerate}
 
+ \item Com s'indica en una DTD que l'element \verb|<fitxa>| conté
+   obligatòriament els camps \verb|<nom>| i \verb|<tel>| i,
+   opcionalment, el camp \verb|<email>|?
+   \begin{enumerate}
+   \item \verb|<!ELEMENT fitxa (nom,tel,email?)>|
+   \item \verb|<!ELEMENT fitxa (nom,tel,email+)>|
+   \item \verb|<!ATTLIST fitxa nom CDATA #required| \newline
+     \verb| tel CDATA #required email CDATA>|
+   \end{enumerate}
 
+% \item En XHTML (o HTML) hi ha elements buits (sense contingut).
+%   Digues en quina d'aquestes tres opcions els dos elements són buits.
+%   \begin{enumerate}
+%   \item \texttt{h1} i \texttt{meta}.
+%   \item \texttt{meta} i \texttt{img}.
+%   \item \texttt{meta} i \texttt{head}.
+%   \end{enumerate}
 
-% < QT4
+ \item En XML, què vol dir \texttt{<mang/>}?
+   \begin{enumerate}
+   \item No vol dir res, perquè no hi ha cap element que es diga
+     \texttt{mang}.
+   \item El mateix que \texttt{<mang></mang>}.
+   \item No vol dir res, perquè hauria de ser \texttt{</mang>}.
+   \end{enumerate}
 
-\item 
-   Com s'indica en una DTD que l'element \verb|<fitxa>| conté
-   obligatòriament els camps \verb|<nom>| i
-   \verb|<tel>| i, opcionalment, el camp \verb|<email>|?
-   
-\begin{enumerate}
-\item \verb|<!ELEMENT fitxa (nom,tel,email?)>|
-\item \verb|<!ELEMENT fitxa (nom,tel,email+)>|
-\item \verb|<!ATTLIST fitxa nom CDATA #required tel CDATA #required email CDATA>|
-\end{enumerate}
+ \item Quin d'aquests tres elements XHTML (o HTML) no pot anar dins de
+   l'element \texttt{body}?
+   \begin{enumerate}
+   \item \texttt{meta}.
+   \item \texttt{img}.
+   \item \texttt{h1}.
+   \end{enumerate}
 
-\item En un sistema de reconeixement automàtic dels textos escrits,
-  si un mot és reconegut com a un d'aquests quatre:
-  \verb|eorren|, \verb|eorrcn|, \verb|corren| o
-  \verb|corrcn|, quina és la millor estratègia per a triar-ne
-  una sense usar un diccionari de català (o d'espanyol)?
-  
-\begin{enumerate}
-\item No n'hi ha, cal un diccionari.
-\item Usant regles o un model estadístic que indiquen quins
-  grups de dues i tres lletres estan permesos o són més freqüents en
-  català (espanyol)
-\item Usant regles que diuen quina lletra és més freqüent en la
-  llengua corresponent.
-\end{enumerate}
+ \item Tenim un document XML que és vàlid d'acord amb una determinada
+   DTD. Esborrem un element complet (per exemple
+   \texttt{<element>text</element>}), el qual no és l'element arrel
+   del document. Quina d'aquestes tres situacions no és possible?
+   \begin{enumerate}
+   \item Que el document XML resultant no siga vàlid respecte de la
+     DTD.
+   \item Que el document XML siga vàlid respecte de la DTD.
+   \item Que el document XML no siga un document XML ben format.
+   \end{enumerate}
 
+ \item En HTML, podem posar un enllaç \texttt{<a
+     href="..."}\texttt{>...</a>} dins d'un element de llista
+   \texttt{<li>...</li>?}
+   \begin{enumerate}
+   \item Sí.
+   \item No, perquè el document estaria mal format.
+   \item No, perquè el document no seria vàlid.
+   \end{enumerate}
 
-\item En XHTML (o HTML) hi ha elements buits (sense contingut). 
-Digues en quina d'aquestes tres opcions els dos elements són buits.
-\begin{enumerate}
-\item \texttt{h1} i \texttt{meta}.
-\item \texttt{meta} i \texttt{img}.
-\texttt{meta} i \texttt{head}.
-\end{enumerate}
-
-\item En XML, què vol dir \texttt{<mang/>}? 
-  \begin{enumerate}
-  \item No vol dir res, perquè no hi ha cap element que es diga \texttt{mang}.
-  \item El mateix que \texttt{<mang></mang>}.
-  \item No vol dir res, perquè hauria de ser \texttt{</mang>}.
-  \end{enumerate}
-
-\item Quin d'aquests tres elements XHTML (o HTML) no pot anar dins de l'element \texttt{body}? 
-
-  \begin{enumerate}
-  \item \texttt{meta}.
-  \item \texttt{img}.
-  \item \texttt{h1}.
-  \end{enumerate}
-
-
-\item Tenim un document XML que és vàlid d'acord amb una determinada DTD. Esborrem un element complet (per exemple \texttt{<element>text</element>}), el qual no és l'element arrel del document. Quina d'aquestes tres situacions no és possible? 
-  \begin{enumerate}
-  \item Que el document XML resultant no siga vàlid respecte de la DTD.
-  \item Que el document XML siga vàlid respecte de la DTD.
-  \item Que el document XML no siga un document XML ben format.
-  \end{enumerate}
-
-\item En HTML, podem posar un enllaç \texttt{<a href="..."}\texttt{>...</a>} dins d'un element de llista \texttt{<li>...</li>?}  
-  \begin{enumerate}
-  \item Sí.
-  \item No, perquè el document estaria mal format.
-  \item No, perquè el document no seria vàlid.
-  \end{enumerate}
-
-\item Un fitxer de text escrit en anglés conté només caràcters ASCII. L'obrim amb un editor i el guardem en format Unicode (UTF-8). Ara ocupa{\ldots} 
+ \item Un fitxer de text escrit en anglés conté només caràcters
+   ASCII. L'obrim amb un editor i el guardem en format Unicode
+   UTF-8. Ara ocupa {\ldots}
   \begin{enumerate}
   \item {\ldots} el doble d'espai.
   \item {\ldots} exactament el mateix espai.
   \item {\ldots} la meitat d'espai.
   \end{enumerate}
 
-\item En un document HTML que tindrà l'URI \texttt{http://fic.ti.cia/a.html} volem que la frase \emph{aquest document} siga un enllaç a un fitxer \texttt{http://fic.ti.cia/b.html}: quina de les següents porcions d'HTML és l'única correcta de les tres?   
-  \begin{enumerate}
-  \item \texttt{<a href="b.html"}\texttt{>aquest document</a>} 
-  \item \texttt{<link url="http://fic.ti.cia/b.html"}\texttt{>aquest document</link>}
-  \item \texttt{<a url="b.html"}\texttt{>aquest document</a>}
-  \end{enumerate}
-
-\item El fragment XML \texttt{<a><b><c></c></b></a>} no és vàlid segons una de les següents regles de DTD. Segons quina?  
-  \begin{enumerate}
-  \item \texttt{<!ELEMENT a (b+,c?)>}
-  \item \texttt{<!ELEMENT a (b+)>}
-  \item \texttt{<!ELEMENT a (b,c)>}
-  \end{enumerate}
-
-\item  Assenyala el fragment d'HTML que generarà el text més gran:  
+\item Assenyala el fragment d'HTML que generarà el text més gran:
   \begin{enumerate}
   \item \texttt{<h1>Títol</h1>}
   \item \texttt{<h2>Títol</h2>}
   \item \texttt{<h3>Títol</h3>}
   \end{enumerate}
 
-\item Com es diu el joc de caràcters estàndard universal, el que assigna un número de codi diferent i únic a cada un dels caràcters de cada una de les llengües del món?  
+\item Com es diu el joc de caràcters estàndard universal, el que
+  assigna un número de codi diferent i únic a cada un dels caràcters
+  de cada una de les llengües del món?
   \begin{enumerate}
   \item Unicode.
-  \item \emph{Latin-1}.
+  \item ISO-8859-1 (\emph{Latin-1}).
   \item XML.
   \end{enumerate}
 
-
 \end{enumerate}
-\todo{Algunes de les preguntes potser no es poden respondre amb els materials del text i caldrà eliminar-les}
 
 \section{Solucions}
 \begin{enumerate}
-\item (a)
 \item (c)
 \item (c)
 \item (c)
 \item (a)
 \item (c)
+%
 \item (c)
 \item (c)
 \item (a)
 \item (a)
 \item (a)
+%
 \item (b)
 \item (c)
 \item (a)
 \item (a)
-\item (c)
-\item (c)
 \item (b)
-\item (c)
+%
 \item (b)
 \item (b)
 \item (a)
 \item (a)
 \item (c)
-\item (b)
-\item (c)
-\item (c)
-\item (a)
-\item (b)
-\item (b)
-\item (a)
-\item (a)
-\item (a)
-\item (b)
+%
 \item (b)
 \item (c)
 \item (a)
-\item (c)
 \item (b)
-\item (c)
-\item (c)
+\item (b)
+%
 \item (a)
 \item (a)
-% < SL4
-
+\item (b)
+\item (a)
+\item (c)
+%
+\item (a)
+\item (b)
+\item (a)
+\item (a)
 \end{enumerate}
+
