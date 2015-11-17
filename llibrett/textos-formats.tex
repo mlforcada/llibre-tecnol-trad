@@ -1740,6 +1740,46 @@ persones discapacitades o en situacions especials.
   \item XML.
   \end{enumerate}
 
+\item Quan és preferible utilitzar el joc de caràcters Unicode en lloc
+  de l'ISO-8859-1 (\emph{Latin-1})? 
+  \begin{enumerate}
+  \item Quan anem a mesclar text en diferents idiomes.
+  \item Quan un text en espanyol té molts accents.
+  \item Quan el text només s'usarà en una situació
+    d'assimilació.
+  \end{enumerate}
+
+\item Podem emmagatzemar correctament el text és espanyol ``\emph{La
+    España de charanga y pandereta, cerrado y sacristía, devota de
+    Frascuelo y de María, de espíritu burlón y de alma quieta}'' usant
+  el joc de caràcters ASCII? 
+  \begin{enumerate}
+  \item Sí, sense problemes.
+  \item Sí, si abans l'hem convertit a UTF-8.
+  \item No. 
+  \end{enumerate}
+
+\item Quant ocupa un fitxer de text que conté 2000 caràcters
+  pertanyents a l'alfabet espanyol? 
+  \begin{enumerate}
+  \item Si s'ha codificat en ISO-8859-1 (\emph{Latin-1}), entre 2000 i
+    4000 octets.
+  \item Si s'ha codificat en ASCII, 2000 octets.  
+  \item Si s'ha codificat en UTF-8, entre 2000 i 4000
+    octets. 
+  \end{enumerate}
+
+\item Si en visualitzar el document de text \texttt{noticia.txt} en el
+  navegador hi apareixen paraules com \texttt{camiÃ\(^3\)n} e
+  \texttt{InformÃ¡tica}, quina en pot ser la causa? 
+  \begin{enumerate}
+  \item Un error per part de la persona que ha escrit el document de
+    text.
+  \item Que el navegador està usant per llegir el document un joc de
+    caràcters diferent del que es va usar en escriure'l.
+  \item Que el document no és un document HTML.
+  \end{enumerate}
+
 \end{enumerate}
 
 \section{Solucions}
@@ -1784,5 +1824,10 @@ persones discapacitades o en situacions especials.
 \item (b)
 \item (a)
 \item (a)
+\item (a)
+%
+\item (c)
+\item (c)
+\item (b)
 \end{enumerate}
 
