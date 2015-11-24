@@ -368,27 +368,26 @@ recerques ràpides per aquests camps.
 \begin{persabermes}{la indexació de bases de dades}
 
   Si les consultes més freqüents d'una base de dades es refereixen a
-  un camp ---o a una combinació de camps, com ara el dia, el mes
-    i l'any que formen una data--- que pren valors que es poden
-  ordenar, els registres es poden ordenar per aquest camp, igual que
-  el fitxer de fitxes de cartolina. Però un dels avantatges més clars
-  de les bases de dades és que permeten que els registres estiguen
-  ordenats per més d'un camp, sense haver de duplicar la base de
-  dades (Tot i que la duplicació d'una 
-  base de dades menuda pot no semblar en principi problemàtica,
-  les coses canvien si considerem una base de dades amb milers de
-  registres i amb un gran nombre de camps, tots plens d'informació. 
-  És evident, doncs, que cal establir un sistema alternatiu per poder
-  fer recerques ràpides per més d'un camp).
-  Això s'aconsegueix mitjançant un procediment anomenat
-\emph{indexació}: bàsicament, s'assigna un número a cada fitxa i es
-construeix una taula o \emph{índex} ordenat (una altra base de dades)
-que conté registres amb dos camps: un, el camp pel qual es vol
-ordenar, i l'altre, la posició en la base de dades del registre que
-conté aquest valor del camp (en cert sentit, aquest índex no és massa
-diferent de l'índex alfabètic que hi ha al final d'alguns llibres:
-busquem el mot alfabèticament i ens diu en quina o en quines pàgines
-se'n parla).
+  un camp ---o a una combinació de camps, com ara el dia, el mes i
+  l'any que formen una data--- que pren valors que es poden ordenar,
+  els registres es poden ordenar per aquest camp, igual que el fitxer
+  de fitxes de cartolina. Però un dels avantatges més clars de les
+  bases de dades és que permeten que els registres estiguen ordenats
+  per més d'un camp, sense haver de duplicar la base de dades (Tot i
+  que la duplicació d'una base de dades menuda pot no semblar en
+  principi problemàtica, les coses canvien si considerem una base de
+  dades amb milers de registres i amb un gran nombre de camps, tots
+  plens d'informació.  És evident, doncs, que cal establir un sistema
+  alternatiu per poder fer recerques ràpides per més d'un camp).  Això
+  s'aconsegueix mitjançant un procediment anomenat \emph{indexació}:
+  bàsicament, s'assigna un número a cada fitxa i es construeix una
+  taula o \emph{índex} ordenat (una altra base de dades) que conté
+  registres amb dos camps: un, el camp pel qual es vol ordenar, i
+  l'altre, la posició en la base de dades del registre que conté
+  aquest valor del camp (en cert sentit, aquest índex no és massa
+  diferent de l'índex alfabètic que hi ha al final d'alguns llibres:
+  busquem el mot alfabèticament i ens diu en quina o en quines pàgines
+  se'n parla).
 
 Es pot construir un índex per a cada un dels camps associats a les
 consultes més freqüents i així s'evita recórrer tota la base de dades
