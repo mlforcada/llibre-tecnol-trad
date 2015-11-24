@@ -574,10 +574,27 @@ Un dels programes més comunament usats pels professionals de la
 traducció són els gestors de bases de dades lèxiques (normalment
 anomenats gestors de bases de dades \emph{terminològiques}, encara que
 es poden usar per a moltes altres aplicacions a més de les
-estrictament terminològiques). 
+estrictament terminològiques). Els professionals de la traducció
+gestionen, amb aquests gestors, bases de dades lèxiques que els ajuden
+a traduir consistentment els termes i, potser, les locucions i frases
+d'una determinada àrea de coneixement (terminologia). 
 
-Els registres d'una base de dades lèxica multilingüe poden contenir
-molts tipus de camps:
+Els registres o les fitxes d'una base de dades lèxica multilingüe
+estableixen correspondències entre els termes usats en diverses
+llengües en un camp determinat de coneixement. En aquestes bases de
+dades, \emph{cada fitxa representa un concepte} i conté un camp índex
+per a emmagatzemar el terme corresponent en cada llengua. Aquesta
+organització (una fitxa per concepte) és coherent amb la definició de
+terminologia com la disciplina l'objecte de la qual és l'estudi
+sistemàtic de l'etiquetatge o designació de \emph{conceptes}
+particulars d'una o més àrees temàtiques o d'un o àmbits de
+l'activitat humana amb el propòsit de documentar i promoure l'ús
+correcte;\footnote{\url{https://ca.wikipedia.org/wiki/Terminologia},
+  24 de novembre de 2015 a més, és especialment adequada quan la base
+  de dades terminològica és multilingüe.}
+
+Les bases de dades lèxiques o terminològiques poden contenir molts
+tipus de camps:
 \begin{itemize}
 \item El terme en cada una de les llengües (camps que normalment s'usen
   d'índex per a fer les recerques més eficients).
@@ -585,6 +602,7 @@ molts tipus de camps:
   refereix la fitxa o registre actual.
 \item L'autor de la fitxa (quan més d'una persona gestiona la base de
   dades).
+\item La data de creació i de modificació de la fitxa.
 \item La definició del terme en una o més llengües. La major part dels
   gestor permeten que els termes usats en la definició d'un determinat
   terme es marquen \emph{remissions}, és a dir, enllaços actius a les
@@ -594,7 +612,6 @@ molts tipus de camps:
 \item Informació sobre la morfologia o la flexió del terme en cada una
   de les llengües.
 \item 
-  
     Variants ortogràfiques o geogràfiques; sinònims; antònims;
     etimologia, etc. 
   
@@ -603,32 +620,46 @@ molts tipus de camps:
 Una base de dades d'aquesta mena la pot consultar una persona mentre
 està fent una traducció manualment o pot estar inclosa dins d'un
 programa de traducció automàtica o assistida per ordinador. Per
-exemple, moltes memòries de traducció (vegeu el
-capítol~\ref{se:memtrad}) inclouen bases de dades terminològiques
+exemple, molts programes de traducció assistida per ordinador (vegeu
+el capítol~\ref{se:memtrad}) inclouen bases de dades terminològiques
 d'aquesta mena i permeten que la persona usuària les mantinga i les
 consulte, bé usant un programa independent, o bé des del processador
-de textos que preferisca.
-  Alguns exemples de gestors  de BD terminològiques disponibles comercialment
-  són Termwatch (inclòs en la memòria de traducció Déjà Vu de la
-  companyia Atril), SDL Multiterm (abans Trados Multiterm), o Termstar de 
-  Star Group.
+de textos que preferisca. 
+
+També hi ha bases de dades terminològiques que es poden consultar en
+línia: 
+\begin{itemize}
+\item L'Institut d'Estudis Catalans manté el TERMCAT
+(\url{http://www.termcat.cat}). La intenció de TERMCAT és principalment normativa: s'hi associa a cada concepte el terme preferit en català (i també els termes usuals en espanyol, anglés, francés, etc.).
+\item IATE (\emph{Inter-Active Terminology for Europe},
+  \url{http://iate.europa.eu/}) és la base de dades terminològica de
+  referència de la Unió Europea i proporciona termes per a cada
+  concepte en les 24 llengües oficials de la Unió Europea i en
+  llatí. La base de dades, en format TBX (vegeu
+  l'apartat~\ref{s3:tbx}) es pot descarregar total o parcialment per a
+  usar-la fora de línia.
+\end{itemize}
 
 \subsection{L'intercanvi de bases de dades terminològiques}
+\label{s3:tbx}
 
 La creació i el manteniment d'una bona base de dades terminològica
-requereix un gran esforç i moltes hores de treball. Això, la
-converteix en un recurs valuós i sovint els traductors en fan
-intercanvi. Però la informació emmagatzemada sobre cada terme pot ser
-molt diferent d'una base de dades a una altra i, per tant, fer servir
-una base de dades terminològica en diferents sistemes alhora no és una
-tasca fàcil. Afortunadament, en els darrers anys s'ha desenvolupat un
+requereix un gran esforç i moltes hores de treball. Això la converteix
+en un recurs valuós i sovint els traductors en fan intercanvi. Però la
+informació emmagatzemada sobre cada terme pot ser molt diferent d'una
+base de dades a una altra i, per tant, fer servir una base de dades
+terminològica en diferents sistemes alhora no és una tasca
+fàcil. Afortunadament, en els darrers anys s'ha desenvolupat un
 conjunt de formats estàndards per facilitar aquest intercanvi; un dels
-més coneguts es TBX\footnote{L'URI per a més informació és 
-\url{http://www.lisa.org/tbx/}.} 
-(per \emph{TermBase exchange}, ``intercanvi de bases de dades 
-terminològiques''). Amb el temps, 
-molts dels programes que inclouen una base de dades terminològica
-podran llegir i escriure documents en aquest format.
+més coneguts es TBX\footnote{L'URI per a més informació és
+  \url{http://www.lisa.org/tbx/}.}, (per \emph{TermBase exchange},
+``intercanvi de bases de dades terminològiques''), encara que hi ha
+altres com OLIF (\emph{Open Lexicon Interchange Format}). Amb el
+temps, els programes que inclouen una base de dades terminològica van
+incorporant la capacitat de llegir i escriure documents en format TBX.
+
+\begin{persabermes}{el format TBX}
+  
 
 El format TBX segueix les especificacions XML (vegeu l'apartat 
 \ref{s3:SGML}); és a dir, els documents TBX són un tipus de document
@@ -694,7 +725,8 @@ amb informació sobre l'origen de la base de dades. El terme hongarés
 és ``{\usefont{T1}{ec}{m}{n}Alfa simítási tényez\symbol{'256}}''; en
 el document d'exemple, els caràcters especials s'indiquen amb el seu
 codi Unicode (per exemple,\, \verb+&#x0151;+ \ és el caràcter
-``{\usefont{T1}{ec}{m}{n}\symbol{'256}}'').
+``{\usefont{T1}{ec}{m}{n}\symbol{'256}}'')
+\end{persabermes}
 
 
 \section{Qüestions i exercicis}
@@ -798,6 +830,57 @@ codi Unicode (per exemple,\, \verb+&#x0151;+ \ és el caràcter
 \end{enumerate}
 
 % < QT5
+\item En una base de dades lèxica o terminològica amb 2.000 fitxes, quan demanem al programa gestor que busque un determinat terme en una determinada llengua, quantes consultes ha de fer en el pitjor cas per a entregar-nos la fitxa?
+  \begin{enumerate}
+  \item Ha de fer, necessàriament, 2.000 consultes perquè hi ha 2.000 fitxes.
+  \item No ha de fer cap consulta, va directament a la fitxa.
+  \item Depén. Si està indexada pel terme en aquella llengua, farà com a molt 11 consultes, i si no, com a molt 2.000 consultes.
+  \end{enumerate}
+
+\item En una base de dades terminològica, cada concepte \ldots 
+  \begin{enumerate}
+  \item \ldots es correspon amb un camp d'un registre
+      general.
+  \item \ldots es correspon amb múltiples
+      registres, un per cadascun dels termes usats en cada llengua per
+      a representar aquest concepte.
+    \item \ldots es correspon amb un registre en el qual es troben els
+      termes usats en cada llengua per a representar aquest concepte.
+  \end{enumerate}
+
+\item Hem cronometrat el temps que tarda un programa gestor de bases
+  de dades en trobar la fitxa que té un determinat valor per un camp
+  determinat, quan augmenta el nombre de fitxes. Els resultats són:
+\begin{center}
+\begin{tabular}{c|c}
+\hline\hline
+\textsc{Nombre de fitxes} & \textsc{Temps} \\
+\hline
+1.000.000 & 4,9~s \\
+2.000.000 & 5,1~s \\
+3.000.000 & 5,3~s \\
+4.000.000 & 5,4~s \\
+6.000.000 & 5,5~s \\
+\hline
+\end{tabular}
+\end{center}
+Què podem dir de la base de dades?
+\begin{enumerate}
+\item Que no està ordenada pel camp pel qual estem buscant.
+\item Que usa XML per a obtenir una velocitat acceptable.
+\item Que està ordenada pel camp pel qual estem buscant.
+\end{enumerate}
+
+\item 
+El programa gestor d'una base de dades lèxica feia en el pitjor cas 480 consultes abans de trobar la fitxa corresponent a un terme anglés concret, abans d'ordenar-la pel terme en anglés. Després d'ordenar-la fa
+\begin{enumerate}
+\item 240, la meitat.
+\item moltes menys consultes: 9.
+\item 480 consultes igualment.
+\end{enumerate}
+
+\end{question}
+
 
 \end{enumerate}
 
@@ -813,6 +896,10 @@ codi Unicode (per exemple,\, \verb+&#x0151;+ \ és el caràcter
 \item (a)
 \item (c)
 \item (c)
+\item (c)
+\item (c)
+\item (c)
+\item (b) 
 
 % < SL5
 
