@@ -24,64 +24,81 @@ l'epígraf~\ref{ss:formats}, però també n'hi ha que es corresponen amb
 el significat del mot \emph{fitxer} fora de la informàtica: contenen
 \emph{fitxes}, totes amb un format més o menys constant; per exemple,
 totes les fitxes d'un fitxer bibliogràfic contenen informació sobre
-els autors, el títol, l'any de publicació, etc. En informàtica, els
-fitxers d'aquesta mena se solen anomenar normalment \emph{bases de
-  dades}; les fitxes s'anomenen \emph{registres} i cada element
-d'informació de la fitxa s'anomena \emph{camp}. 
+els autors, el títol, l'any de publicació, etc. 
 
-Així, els registres
-d'una base de dades bibliogràfica contenen informació en camps: un per
-als autors, altre per al títol, etc.; 
-  d'altra banda, 
-  els registres de les bases de dades usades per a la
-  gestió d'un vídeoclub
-  contenen camps per a emmagatzemar la informació referent als socis
-  (com ara, el nom, el telèfon o el domicili),
-  a les pel·lícules (el títol, la persona que l'ha dirigida o el nombre
-  de còpies disponibles) i als prèstecs (les dades d'inici i termini
-  del prèstec o el preu de lloguer). Els camps poden ser de diversos
-  \emph{tipus}, segons la naturalesa de les dades que s'hi guarden
-  (cadenes de caràcters, valors numèrics enters o amb decimals, dates
-  de calendari, etc.)
+En informàtica, els fitxers d'aquesta mena se solen anomenar
+normalment \emph{bases de dades} (BD); les fitxes s'anomenen
+\emph{registres} i cada element d'informació de la fitxa s'anomena
+\emph{camp}. 
+
+Més generalment, Una BD es pot veure (en l'anomenat model \emph{pla} o
+\emph{de taules}) com un conjunt de taules en les quals les columnes o
+\emph{camps} guarden valors del mateix tipus i on els elements d'una
+fila o \emph{registre} estan relacionats entre ells. Així, una taula
+és un conjunt de registres (fitxes) cada un dels quals té la mateixa
+estructura de camps (informacions), emmagatzemades en un fitxer
+informàtic.
+
+Així, els registres d'una base de dades bibliogràfica contenen
+informació en camps: un per als autors, altre per al títol, etc.;
+d'altra banda, els registres de les bases de dades usades per a la
+gestió d'un vídeoclub contenen camps per a emmagatzemar la informació
+referent als socis (com ara, el nom, el telèfon o el domicili), a les
+pel·lícules (el títol, la persona que l'ha dirigida o el nombre de
+còpies disponibles) i als prèstecs (les dades d'inici i termini del
+prèstec o el preu de lloguer). Els camps poden ser de diversos
+\emph{tipus}, segons la naturalesa de les dades que s'hi guarden
+(cadenes de caràcters, valors numèrics enters o amb decimals, dates de
+calendari, etc.)
 
 \section{Operacions amb bases de dades}
 
-
-Les operacions més comunes 
-que es realitzen sobre una base de dades també són
-similars a aquelles que podem fer amb un fitxer de fitxes de 
-cartolina:
+Les operacions més comunes que es realitzen sobre una base de dades
+també són similars a aquelles que podem fer amb un fitxer de fitxes de
+cartolina, però la gestió és més senzilla i són possibles molts més usos:
 \begin{itemize}
-\item \emph{Recerques o consultes:} buscar un o més registres que
-  compleixen un determinat criteri de búsqueda.
+\item \emph{Creació de l'estructura de la base de dades}: definir cada taula (definint
+  l'estructura de les fitxes)
 \item \emph{Altes o addicions:} afegir un nou registre a la base de dades,
   tot fent que els seus camps prenguen els valors corresponents.
 \item \emph{Baixes o esborrats:} eliminar un o més registres.
 \item \emph{Modificacions:} canviar el valor d'un o més camps d'un o
   més registres de la base de dades.
+\item \emph{Recerques o consultes:} buscar un o més registres que
+  compleixen un determinat criteri de recerca. L'organització de la
+  informació en forma de base de dades simplifica enormement les
+  consultes, ja que els ordinadors són molt més ràpids i segurs a
+  l'hora de, per exemple, comparar el contingut d'un determinat camp
+  de totes les fitxes amb un cert valor o patró (per exemple, els
+  autors que comencen per \emph{Per}) i llistar el contingut d'un
+  altre camp (per exemple, el títol) per a cada fitxa coincident.
+\item \emph{Explotació:} a més de fer recerques o consultes, es pot
+  explotar la informació obtinguda de la base de dades, combinant
+  diverses estratègies de recerca i presentant només els camps
+  necessaris en algun format convenient per a la reutilització
+  informatitzada o per a la publicació: per exemple, generar, a partir
+  d'un fitxer bibliogràfic, les referències bibliogràfiques citades en
+  un text ordenades alfabèticament i en el format requerit per una
+  determinada revista, o generar, a partir d'una base de dades de
+  clients, una carta de recordatori per als morosos, amb detalls sobre
+  els seus deutes.
 \end{itemize}
-
-El programa que permet fer, entre altres, aquestes operacions
-de manera senzilla o fins i tot automàtica
-(aspecte molt important quan la base de dades conté milers de
-registres)  és un programa \emph{gestor de bases de
-  dades}, o bé l'inclou o l'invoca.
-
-
-L'organització de la informació en forma de base de dades simplifica
-enormement les consultes, ja que els ordinadors són molt més ràpids i
-segurs a l'hora de, per exemple, comparar el contingut d'un
-determinat camp de totes les fitxes amb un cert valor o patró (per
-exemple, els autors que comencen per \emph{Per}) i llistar el
-contingut d'un altre camp (per exemple, el títol) per a cada fitxa
-coincident. 
+El programa que permet fer, entre altres, aquestes operacions de
+manera senzilla o fins i tot automàtica (aspecte molt important quan
+la base de dades conté milers de registres) és un programa
+\emph{gestor de bases de dades}, o bé el programa inclou un gestor de
+bases de dades o l'invoca.\footnote{De vegades, quan es parla
+  descuradament, s'anomena per metonímia \emph{base de dades} al
+  programa gestor.}
 
 Normalment, els usuaris reals no executen un programa gestor de bases
-de dades universal, sinó que usen programes o \emph{aplicacions} que
+de dades universal o genèric, sinó que usen programes o \emph{aplicacions} que
 simplifiquen la creació, el manteniment i l'ús de la base de dades per
 a un perfil d'usuari concret.
 
-\com{Tipus de dades: cadena, numèric, data de calendari, etc.?}
+En particular, és possible organitzar les bases de dades de manera que
+estiguen instal·lades en un o més servidor es puguen consultar i
+explotar des d'un altre ordinador a través d'Internet.
 
 
 \subsection{Recerques}
@@ -99,37 +116,50 @@ l'ordenació, és molt més senzilla que si es refereix a un altre camp,
 i es pot completar sense mirar totes les fitxes; per exemple, fent-hi
 una \emph{recerca dicotòmica}.
 
-En una recerca dicotòmica mirem la fitxa que hi ha enmig del
-fitxer; si ens hem passat, repetim l'operació amb la primera meitat
-del fitxer, i si ens hem quedat curts, ho fem amb la segona meitat. Es
-pot demostrar que la recerca dicotòmica mira com a molt $n$ fitxes si
-el fitxer té entre $2^{n-1}$ i $2^n$ fitxes, 
-  perquè després de cada consulta es redueix a la meitat la
-  grandària del fitxer que cal explorar;
-per exemple, si el fitxer té
-1234 fitxes, hi ha prou amb $n=11$ recerques perquè $2^{10}=1024$ i
-$2^{11}=2048$. 
+En una recerca dicotòmica mirem la fitxa que hi ha enmig del fitxer;
+si ens hem passat, repetim l'operació amb la primera meitat del
+fitxer, i si ens hem quedat curts, ho fem amb la segona meitat. Es pot
+demostrar que la recerca dicotòmica mira com a molt $n$ fitxes si el
+fitxer té entre $2^{n-1}$ i $2^n$ fitxes, perquè després de cada
+consulta es redueix a la meitat la grandària del fitxer que cal
+explorar; per exemple, si el fitxer té 1234 fitxes, hi ha prou amb
+$n=11$ recerques perquè $2^{10}=1024$ i $2^{11}=2048$.
 
-  La taula~\ref{tb:dicotomica} conté una llista de cognoms ordenats
-  alfabèticament. Imaginem, en primer lloc, que volem buscar
-  l'element ``Garrido''. Inicialment, mirem l'element d'enmig (el 13)
-  de la
-  llista sencera (la llista que inclou els elements de l'1 al 25) i hi
-  trobem ``Larrañaga''; com que ens hem passat, ens quedem amb la
-  meitat baixa de la llista (que inclou els elements de l'1 al 12)
-  oblidant-nos de l'altra meitat. Ara repetim el procés i mirem
-  l'element d'enmig (el 6) de la nova subllista i hi trobem l'element
-  ``Esteve''; com que és menor alfabèticament que l'element que estem
-  buscant, ens quedem amb la meitat alta (que inclou els elements del
-  7 al 12) de la subllista actual. Tornem a repetir el procés, aquesta
-  vegada considerant només la subllista d'elements entre el 7 i el 12;
-  tenim sort i en mirar l'element central (el 9) ens adonem que
-  coincideix amb l'element buscat: la recerca, doncs, acaba amb èxit. 
-  Podeu veure una representació gràfica de tot el procés en les
-  taules~\ref{tb:dico1} a~\ref{tb:dicoult}: s'hi mostra 
-   en negretes l'element consultat
-  en cada moment i ombrejada la
-  part de la llista descartada.
+Per descomptat, és possible calcular el nombre màxim de consultes de
+manera més pedestre, dividint el nombre de fitxes per 2 i posant-nos
+en el cas pitjor. En l'exemple de les 1234 fitxes:
+\begin{itemize}
+\item Després de la 1a consulta, si la fitxa central no és la que busquem, ens queden dues meitats: una de 616 fitxes, i una altra de 617. Imaginem que anem al pitjor cas: 617 fitxes.
+\item Després de la 2a consulta, si la fitxa central no és la que busquem, ens queden dues meitats de 308 fitxes.
+\item 3a consulta: o la trobem, o hem de buscar en 154 fitxes.
+\item 4a consulta: o la trobem, o hem de buscar en 77 fitxes.
+\item 5a consulta: o la trobem, o hem de buscar en 38 fitxes.
+\item 6a consulta: o la trobem, o hem de buscar en 19 fitxes.
+\item 7a consulta: o la trobem, o hem de buscar en 9 fitxes.
+\item 8a consulta: o la trobem, o hem de buscar en 4 fitxes.
+\item 9a consulta: o la trobem, o hem de buscar en 2 fitxes.
+\item 10a consulta: o la trobem, o hem de buscar en 1 fitxa.
+\item 11a consulta: o és la que busquem, o no ho és.
+\end{itemize}
+Total, 11 consultes com a molt.
+
+Un altre exemple: la taula~\ref{tb:dicotomica} conté una llista de cognoms ordenats
+alfabèticament. Imaginem, en primer lloc, que volem buscar l'element
+``Garrido''. Inicialment, mirem l'element d'enmig (el 13) de la llista
+sencera (la llista que inclou els elements de l'1 al 25) i hi trobem
+``Larrañaga''; com que ens hem passat, ens quedem amb la meitat baixa
+de la llista (que inclou els elements de l'1 al 12) oblidant-nos de
+l'altra meitat. Ara repetim el procés i mirem l'element d'enmig (el 6)
+de la nova subllista i hi trobem l'element ``Esteve''; com que és
+menor alfabèticament que l'element que estem buscant, ens quedem amb
+la meitat alta (que inclou els elements del 7 al 12) de la subllista
+actual. Tornem a repetir el procés, aquesta vegada considerant només
+la subllista d'elements entre el 7 i el 12; tenim sort i en mirar
+l'element central (el 9) ens adonem que coincideix amb l'element
+buscat: la recerca, doncs, acaba amb èxit.  Podeu veure una
+representació gràfica de tot el procés en les taules~\ref{tb:dico1}
+a~\ref{tb:dicoult}: s'hi mostra en negretes l'element consultat en
+cada moment i ombrejada la part de la llista descartada.
 
   Si la recerca haguera estat de l'element ``González'', els passos
   anteriors haurien estat els mateixos, però a més hauríem mirat
@@ -327,36 +357,38 @@ tècnica de recerca depenent del seu disseny o del tipus de camp.
 Però un fitxer de fitxes de cartolina només es pot ordenar seguint un
 únic criteri. Si volem facilitar les consultes associades a més d'un
 camp (per exemple, autors i matèries) ens veurem obligats a mantenir
-dues còpies del fitxer sencer, cada còpia ordenada per un criteri; com
-veurem tot seguit, amb un sistema de bases de dades no cal fer aquesta
-duplicació.
+dues còpies del fitxer sencer, cada còpia ordenada per un criteri; amb
+un sistema de bases de dades no cal fer aquesta duplicació: només cal
+marcar els camps pels que buscarem més freqüentment (els quals de
+vegades se solen anomenar \emph{índexs}), i el programa gestor de
+bases de dades \emph{indexarà} la base de dades per a permetre
+recerques ràpides per aquests camps.
 
-\subsection{Indexació}
 
-Si les consultes més freqüents es refereixen a un camp\footnote{O a
-  una combinació de camps, com ara el dia, el mes i l'any que formen
-  una data.} que pren valors que es poden ordenar, els registres es
-poden ordenar per aquest camp, igual que el fitxer de fitxes de
-cartolina. Però un dels avantatges més clars de les bases de dades és
-que permeten que els registres estiguen ordenats per més d'un camp,
-sense haver de duplicar la base de dades.\footnote{
-  
-  Tot i que la duplicació d'una 
+\begin{persabermes}{la indexació de bases de dades}
+
+  Si les consultes més freqüents d'una base de dades es refereixen a
+  un camp ---o a una combinació de camps, com ara el dia, el mes
+    i l'any que formen una data--- que pren valors que es poden
+  ordenar, els registres es poden ordenar per aquest camp, igual que
+  el fitxer de fitxes de cartolina. Però un dels avantatges més clars
+  de les bases de dades és que permeten que els registres estiguen
+  ordenats per més d'un camp, sense haver de duplicar la base de
+  dades (Tot i que la duplicació d'una 
   base de dades menuda pot no semblar en principi problemàtica,
   les coses canvien si considerem una base de dades amb milers de
   registres i amb un gran nombre de camps, tots plens d'informació. 
   És evident, doncs, que cal establir un sistema alternatiu per poder
-  fer recerques ràpides per més d'un camp.
-  
-} Això s'aconsegueix
-mitjançant un procediment anomenat \emph{indexació}: bàsicament,
-s'assigna un número a cada fitxa i es construeix una taula o
-\emph{índex} ordenat (una altra base de dades) que conté registres amb
-dos camps: un, el camp pel qual es vol ordenar, i l'altre, la posició
-en la base de dades del registre que conté aquest valor del camp (en
-cert sentit, aquest índex no és massa diferent de l'índex alfabètic
-que hi ha al final d'alguns llibres: busquem el mot alfabèticament i
-ens diu en quina o en quines pàgines se'n parla).
+  fer recerques ràpides per més d'un camp).
+  Això s'aconsegueix mitjançant un procediment anomenat
+\emph{indexació}: bàsicament, s'assigna un número a cada fitxa i es
+construeix una taula o \emph{índex} ordenat (una altra base de dades)
+que conté registres amb dos camps: un, el camp pel qual es vol
+ordenar, i l'altre, la posició en la base de dades del registre que
+conté aquest valor del camp (en cert sentit, aquest índex no és massa
+diferent de l'índex alfabètic que hi ha al final d'alguns llibres:
+busquem el mot alfabèticament i ens diu en quina o en quines pàgines
+se'n parla).
 
 Es pot construir un índex per a cada un dels camps associats a les
 consultes més freqüents i així s'evita recórrer tota la base de dades
@@ -376,22 +408,10 @@ l'estructura de camps que tindrà cada un dels seus registres, podem
 designar quins dels camps corresponen als índexs; el gestor de la base
 de dades crearà automàticament els índexs corresponents.
 
-
-  Considereu la base de dades de la taula~\ref{tb:indextot}. Com hi
-  podeu veure, la base de dades conté 10 registres amb 4 camps; els
-  registres estan ordenats pel camp ``\texttt{NÚM}'', que indica la
-  posició de cada registre. Si volem fer consultes ràpides pels camps
-  ``\texttt{BASC}'' i ``\texttt{SERBO-CROAT}'' sense haver de visitar
-  (en el cas pitjor) tots els registres, el gestor de bases de dades
-  ha de definir un índex per a cada un d'aquests camps com els de les
-  taules~\ref{tb:indexbasc}; hi podeu comprovar com cada fitxa de
-  l'índex conté només el camp indexat i una referència a la seua
-  posició en la base de dades. Si penseu en el cas que la base de
-  dades de la taula~\ref{tb:indextot} tingués, diguem-ne, 20 camps més
-  (amb els equivalents en 20 llengües més), us podeu fer una idea de
-  l'estalvi que s'aconsegueix respecte a la duplicació sencera.
-
- \begin{table}
+  Considereu la base de dades amb 10 registres de la taula
+%~\ref{tb:indextot}.
+següent:
+% \begin{table}
  \begin{center}
  \begin{tabular}{clll}
  \hline
@@ -410,12 +430,22 @@ de dades crearà automàticament els índexs corresponents.
  10 & hamar &    deset  &      deu \\
  \hline
  \end{tabular}
- \caption{Exemple de base de dades amb 10 fitxes.}
- \label{tb:indextot}
+% \caption{Exemple de base de dades amb 10 fitxes.}
+% \label{tb:indextot}
  \end{center}
- \end{table}
+% \end{table}
 
-\begin{table}
+ Com hi
+  podeu veure, la base de dades conté 10 registres amb 4 camps; els
+  registres estan ordenats pel camp ``\texttt{NÚM}'', que indica la
+  posició de cada registre. Si volem fer consultes ràpides pels camps
+  ``\texttt{BASC}'' i ``\texttt{SERBO-CROAT}'' sense haver de visitar
+  (en el cas pitjor) tots els registres, el gestor de bases de dades
+  ha de definir un índex per a cada un d'aquests camps com els de les
+  taules següents, que mostren els índexs corresponents 
+    als camps ``\texttt{SERBO-CROAT}'' (esquerra) i 
+    ``\texttt{BASC}'' (dreta) de la base de dades de la
+    taula anterior:
  \begin{center}
  \parbox{0.25\textwidth}{
  \begin{tabular}{lc}
@@ -455,17 +485,88 @@ de dades crearà automàticament els índexs corresponents.
    \hline
    \end{tabular}}%
   \end{center}
-  \caption{Índexs corresponents 
-    als camps ``\texttt{SERBO-CROAT}'' (esquerra) i 
-    ``\texttt{BASC}'' (dreta) de la base de dades de la
-    taula~\ref{tb:indextot}.}
-   \label{tb:indexbasc}
-\end{table}
+ Hi podeu comprovar com cada fitxa de
+  l'índex conté només el camp indexat i una referència a la seua
+  posició en la base de dades. Si penseu en el cas que la base de
+  dades de la taula anterior tinguera, diguem-ne, 20 camps més
+  (amb els equivalents en 20 llengües més), us podeu fer una idea de
+  l'estalvi que s'aconsegueix respecte a la duplicació sencera.
+
+ % \begin{table}
+ % \begin{center}
+ % \begin{tabular}{clll}
+ % \hline
+ % {\sc núm} & {\sc basc} & {\sc serbo-croat} & {\sc català} \\
+ % \hline 
+ % \hline
+ %  1 & bat  &     jedin &       un \\
+ %  2 & bi   &     dva   &       dos \\
+ %  3 & hiru &     tri   &       tres \\
+ %  4 & lau  &     \v{c}etiri &      quatre \\
+ %  5 & bost &     pet    &      cinc \\
+ %  6 & sei  &     \v{s}est   &      sis \\
+ %  7 & zazpi &    sedam  &      set \\
+ %  8 & zortzi &   osam   &      vuit \\
+ %  9 & bederatzi & devet &       nou \\
+ % 10 & hamar &    deset  &      deu \\
+ % \hline
+ % \end{tabular}
+ % \caption{Exemple de base de dades amb 10 fitxes.}
+ % \label{tb:indextot}
+ % \end{center}
+ % \end{table}
+
+% \begin{table}
+%  \begin{center}
+%  \parbox{0.25\textwidth}{
+%  \begin{tabular}{lc}
+%  \hline
+%  {\sc serbo-croat} & {\sc núm} \\
+%  \hline
+%  \hline
+%  \v{c}etiri &     4 \\
+%  deset &      10 \\
+%  devet &      9 \\
+%  dva &        2 \\
+%  jedin &      1 \\
+%  osam &       8 \\
+%  pet &        5 \\
+%  sedam &      7 \\
+%  \v{s}est &       6 \\
+%  tri &        3 \\
+%  \hline
+%  \end{tabular}}%
+% \hspace{0.2\textwidth}%
+% \parbox{0.25\textwidth}{
+%    \begin{tabular}{lc}
+%    \hline
+%    {\sc basc\phantom{o-croat}} & {\sc núm} \\
+%    \hline
+%    \hline
+%   bat &       1 \\
+%   bederatzi  & 9 \\  
+%   bi &        2 \\   
+%   bost &      5 \\   
+%   hamar &     10 \\   
+%   hiru &       3 \\   
+%   lau &       4 \\   
+%   sei &        6 \\    
+%   zazpi &      7 \\ 
+%   zortzi &    8 \\
+%    \hline
+%    \end{tabular}}%
+%   \end{center}
+%   \caption{Índexs corresponents 
+%     als camps ``\texttt{SERBO-CROAT}'' (esquerra) i 
+%     ``\texttt{BASC}'' (dreta) de la base de dades de la
+%     taula~\ref{tb:indextot}.}
+%    \label{tb:indexbasc}
+% \end{table}
+\end{persabermes}
 
 
-
-\com{Alguna cosa sobre recerques combinades o parcials i la facilitat
-  de la seua automatització amb BBDD?}
+%\com{Alguna cosa sobre recerques combinades o parcials i la facilitat
+%  de la seua automatització amb BBDD?}
 
 \section{Bases de dades lèxiques o terminològiques}
 \label{ss:bdterm}
