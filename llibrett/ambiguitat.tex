@@ -1,19 +1,62 @@
-\chapter{Ambigüitat}
+\chapter[Per què és difícil la TA? Ambigüitat.]{Per què és difícil la traducció automàtica? Ambigüitat}
 \label{se:ambig}
+
+
+\section{Els quatre problemes de la traducció automàtica}
+
+Per què és difícil per a un sistema informàtic traduir com un
+professional?  Una classificació interessant dels problemes de la
+traducció automàtica la dóna \cite{arnold03p}. Segons aquest autor, la traducció automàtica té quatre grans problemes:
+\begin{enumerate}
+\item \emph{La forma no determina completament el contingut} (és a
+  dir, la \emph{interpretació}). És a dir, no és sempre fàcil
+  determinar la interpretació que es volia que tinguera el que s'ha
+  escrit. Aquest és el \emph{problema de l'anàlisi}, també anomenat
+  \emph{ambigüitat}. Exemples:
+  \emph{Portaven notícies de Grècia}, \emph{Ha venut les taronges que
+    ha comprat a Joan}, \emph{Treballa en l'estudi que li han
+    encarregat}, etc.
+\item \emph{El contingut no determina completament la forma}. És a
+  dir, és difícil determinar com s'ha d'expressar una interpretació
+  concreta (perquè hi ha més d'una manera de dir el mateix en
+  qualsevol llengua). Aquest és el \emph{problema de la
+    síntesi}. Exemples: com es diu en quin moment del dia ens trobem?
+  Cada idioma ho fa diferentment: \emph{Quina hora és?},
+  $^?$\emph{Quines hores són} (portugués: \emph{Que horas são?}),
+  $^?$\emph{Com és de tard?}  (alemany: \emph{Wie spät ist es?}),
+  $^?$\emph{Quantes del rellotge són?} (alemany: \emph{Wieviel Uhr ist
+    es?}), etc.
+\item \emph{Les llengües divergeixen.} És a dir, hi ha diferències
+  irreductibles en la manera que el mateix contingut s'expressa en
+  llengües diferents. Aquest és el \emph{problema de la
+    transferència}, perquè es manifesta típicament en els sistemes de
+  transferència (vegeu~\ref{ss:classtrans}). Per exemple, l'ordre
+  estàndard de les oracions en català és
+  \emph{subjecte}--\emph{verb}--\emph{objecte}, mentres que en basc o
+  en turc és \emph{subjecte}--\emph{objecte}--\emph{verb}, en irlandés
+  és \emph{verb}--\emph{subjecte}--\emph{objecte} i en malgaix és
+  \emph{verb}--\emph{objecte}--\emph{subjecte}.  O per exemple, els
+  idiomes difereixen en la manera en la qual expressen les relacions
+  entre dos noms: on en català diem \emph{president \textbf{de}
+    Kazakhstan}, el rus diu \emph{prezident Kazakhstan\textbf{a}}, el
+  basc diu \emph{Kazakstan\textbf{go} presidente}, o el Kazakh diu
+  \emph{Qazaqstan prezident\textbf{i}}.
+  \item Construir un sistema de traducció automàtica comporta la
+    gestió d'una gran quantitat de coneixement, que s'ha d'aplegar,
+    descriure, i representar en una forma útil per al processament per
+    ordinador. Aquest és el \emph{problema de la descripció}.
+\end{enumerate}
+
 
 \com{Fer potser més èmfasi en l'efecte que té l'ambigüitat en la
   traducció?}
 
-\com{L'ambigüitat no és l'únic problema. L'ambigüitat és un problema
-  d'anàlisi. Però també hi ha problemes de generació importants
-  (elegir col·locacions o avinences, o la forma més adequada de dir
-  \emph{quina hora és?}: \emph{com és de tard?} (alemany),
-  \emph{quines hores són} (portugués), etc.}
+D'aquests quatre, dedicarem la resta del capítol a descriure amb més
+detall el més important per a la traducció automàtica (i en general,
+per a qualsevol programa que haja de processar textos
+naturals):l'am\-bi\-güi\-tat inherent al llenguatge humà.
 
-
-Un dels obstacles més importants per a la traducció automàtica (i en
-general, per a qualsevol programa que haja de processar textos
-naturals) és l'am\-bi\-güi\-tat inherent al llenguatge humà. 
+\section{Ambigüitat}
 
 Podem dir que un enunciat (una oració, un text) és ambigu quan és
 susceptible de dues o més interpretacions
@@ -105,7 +148,7 @@ estructura sintàctica, l'ambigüitat deguda a les dues causes alhora.
 
 
 
-\section{Ambigüitat  deguda a l'ambigüitat lèxica}
+\subsection{Ambigüitat  deguda a l'ambigüitat lèxica}
 \label{ss:amblex}
 
 
@@ -268,7 +311,7 @@ oració coordinada.
 
 \end{enumerate} 
 
-\section{Ambigüitat estructural pura}
+\subsection{Ambigüitat estructural pura}
 \label{ss:ambest}
 L'ambigüitat d'una oració també pot estar deguda al simple fet que
 tinga més d'un arbre d'anàlisi sintàctica. S'hi poden distingir diversos
@@ -494,7 +537,7 @@ el primer \emph{com} és un relatiu que pot modificar \emph{dir} en
 \end{enumerate}
 
 
-\section{Ambigüitats mixtes}
+\subsection{Ambigüitats mixtes}
 Hi ha oracions que són ambigües tant perquè contenen mots ambigus com
 perquè tenen més d'una estructura sintàctica possible. N'estudiarem
 dos casos:
@@ -636,7 +679,7 @@ oració.
 
 
 
-\section{Estratègies de resolució de l'ambigüitat}
+\subsection{Estratègies de resolució de l'ambigüitat}
 
 En general, els humans usem les nostres creences sobre el funcionament
 del món real (o d'un món fictici concret, com en una novel·la) per a
@@ -651,7 +694,7 @@ recull unes notes ---no exhaustives--- sobre les estratègies de
 resolució d'alguns tipus d'ambigüitat en sistemes automàtics de
 tractament del llenguatge humà.
 
-\subsection{Resolució de l'ambigüitat lèxica categorial} 
+\subsubsection{Resolució de l'ambigüitat lèxica categorial} 
 \label{s3:reshom}
 
 La resolució de l'ambigüitat lèxica categorial, altrament coneguda com
@@ -662,7 +705,7 @@ bé tècniques estadístiques basades en la freqüència d'aparició en els
 textos de determinades seqüències curtes (combinacions) de categories
 lèxiques, o bé les dues aproximacions alhora.
 
-\comprof{Incloure la referència a l'Ars Minor de Donatus (S. IV)?}
+\todo{Incloure la referència a l'Ars Minor de Donatus (S. IV)?}
 
 Considerem l'aproximació estadística. Per exemple, el mot espanyol
 \emph{ahorro} pot ser substantiu o verb. Si apareix entre un article i
@@ -684,12 +727,11 @@ lèxiques, però no eliminen completament l'ambigüitat; per això, s'usen
 sempre conjuntament amb mètodes estadístics com els descrits, que
 permeten establir \emph{preferències}.
 
-\subsection{Resolució de la polisèmia}
+\subsubsection{Resolució de la polisèmia}
 
-\comprof{Aquesta secció necessita millorar molt!! Crec que Juan Antonio ja té
-  material per a millorar-la. Cal donar més èmfasi al cas particular
-  de l'ambigüitat de transferència. Potser caldria demanara ajuda a
- algú del pis de baix.} 
+ \todo{Aquesta secció necessita millorar molt!! Crec que Juan Antonio ja té
+   material per a millorar-la. Cal donar més èmfasi al cas particular
+   de l'ambigüitat de transferència.} 
 
 La resolució de la polisèmia (en anglés habitualment \emph{word sense
   disambiguation}) consisteix a assignar a un mot polisèmic, en un
@@ -742,7 +784,7 @@ diverses (vegeu \citet{ide98j}); heus-ne ací dues:
 \end{itemize}
 
 
-\subsection{Resolució de l'anàfora}
+\subsubsection{Resolució de l'anàfora}
 \com{Millorar aquest apartat. Parlar de les tècniques de resolució de
   l'anàfora basades en la combinació de restriccions i de
   preferències. Restriccions i preferències és també una estratègia
@@ -763,7 +805,7 @@ l'antecedent d'\emph{ella} no pot ser \emph{Marta} (es tracta d'una
 restricció sintàctica). En canvi, si diem
 \begin{exemple}Marta va parlar i ella va caure\end{exemple} 
 no es pot descartar completament que l'antecedent d'\emph{ella} siga
-\emph{Marta}. De fet, moltes vegades, només podem recórrer a la
+\emph{Marta}. \todo{Atenció: apareix abans en el tema} De fet, moltes vegades, només podem recórrer a la
 semàntica; en l'exemple (ja discutit en la secció~\ref{ss:UTA})
 \begin{exemple}
 \ [Els soldats]$_i$ van disparar [als xiquets]$_j$. Els$_{i/j?}$
@@ -775,7 +817,7 @@ d'\emph{els} en la segona oració (\emph{els soldats} o \emph{els
 
 
 
-\subsection{Resolució de l'ambigüitat estructural}
+\subsubsection{Resolució de l'ambigüitat estructural}
 \label{s3:resambest}
 
 En principi, es podria dir que les persones resolem l'ambigüitat
@@ -844,8 +886,8 @@ se sol usar és la d'\emph{adjunció mínima} ---angl.\ \emph{minimal
 sistemes de traducció automàtica per transferència sintàctica pura, ja
 que no s'hi fa cap processament semàntic.
 
-\comprof{A la vista del concepte, és ``clausura tardana'' una bona
-  traducció al català del terme?}
+\todo{A la vista del concepte, és ``clausura tardana'' una bona
+traducció al català del terme?}
 
 El punt de vista purament sintàctic és clarament una simplificació
 excessiva; moltes vegades, les persones resolem l'ambigüitat
