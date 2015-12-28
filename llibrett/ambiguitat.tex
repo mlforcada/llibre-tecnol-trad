@@ -32,7 +32,7 @@ oracions.
 
 Una de les perspectives més interessants per a analitzar i ordenar els
 tipus d'ambigüitat descrits més amunt ens la proporciona l'anomenat
-\emph{principi de composicionalitat}  \citep{radford99b}:
+\emph{principi de composicionalitat}  \citep[cap.~23]{radford09b}:
 \begin{quote}
 {\sl
 La interpretació d'una oració està determinada per la interpretació
@@ -103,10 +103,6 @@ nuls); l'ambigüitat purament deguda a l'existència de més d'una
 estructura sintàctica, l'ambigüitat deguda a les dues causes alhora.
 
 
-Hi ha també certs tipus d'ambigüitat que no es poden explicar de
-manera senzilla amb el principi de composicionalitat, com ara {\em
-  l'ambigüitat en l'abast dels quantificadors}, que també estudiarem
-en aquest capítol (apartat~\ref{ss:ambabast}).
 
 
 \section{Ambigüitat  deguda a l'ambigüitat lèxica}
@@ -148,7 +144,17 @@ equinocci, conjunt d'instal·lacions per a un propòsit determinat (per
 exemple, l'esquí), etc. La polisèmia afecta totes les formes
 flexionades d'un determinat mot de la mateixa manera (\emph{estacions}
 té exactament la mateixa ambigüitat que \emph{estació}), ja que és una
-propietat del \emph{lema}.
+propietat del \emph{lema}.\footnote{Hi ha casos que no són tan
+  senzills. Per exemple, en anglés, el mot \emph{case}, un substantiu
+  singular, pot referir-se a un tipus de contenidor (\emph{a case of
+    wine}) o a un exemple o situació particular (\emph{It does not
+    apply in this case}). Cada un dels mots ve d'un mot llatí
+  diferent: el primer del mot femení \emph{capsa}, i el segon de
+  \emph{casus}, el participi de \emph{cad\-{o}} `caure'. Els
+  diccionaris anglesos, que solen agrupar els mots polisèmics en una
+  entrada, típicament en fan dues entrades diferents, i, de fet, en
+  lexicografia no és estrany referir-se a \emph{case} com un
+  homògraf.}
 
 L'ambigüitat d'una oració pot ser causada per diversos tipus bàsics
 d'ambigüitat lèxica.
@@ -191,14 +197,14 @@ literal en un taller de terrisseria.
   per tant, l'estructura de l'oració. Hi ha tres situacions possibles
   \begin{itemize}
   \item canvia només el lema però no els indicadors de flexió: el
-    mot espanyol \emph{creo} pot ser la 1a. persona del singular del
+    mot espanyol \emph{creo} pot ser la 1a.\ persona del singular del
     present d'indicatiu del verb \emph{creer} o del verb \emph{crear}.
   \item no canvia el lema però sí els indicadors de flexió: el mot
-    espanyol \emph{cantamos} pot ser la 1a. persona del plural del
+    espanyol \emph{cantamos} pot ser la 1a.\ persona del plural del
     present d'indicatiu o del pretèrit indefinit (perfet simple) del
     verb \emph{cantar}.
   \item canvien el lema i els indicadors de flexió: el mot espanyol
-    \emph{salen} pot ser la 3a. persona del plural del present
+    \emph{salen} pot ser la 3a.\ persona del plural del present
     d'indicatiu del verb salir o del present de subjuntiu del verb
     \emph{salar}.
   \end{itemize}
@@ -380,7 +386,7 @@ conjuncions coordinatives se sol anomenar \emph{d'origen coordinatiu}.
   paral·lela a la d'una oració anterior (per exemple, en
   coordinacions, comparacions, etc.). \com{Dir que en aquest cas
     l'esborrat de les parts repetides és obligatori en la major part de les llengües} Considerem l'exemple següent,
-  tret de \citet{radford99b}: 
+  tret de \citet[p.~399]{radford09b}: 
   \begin{exemple}
   \label{eq:escocesos}
   Els escocesos aprecien el
@@ -414,13 +420,14 @@ conjuncions coordinatives se sol anomenar \emph{d'origen coordinatiu}.
 (.SV. (.V. `[aprecien]' ) (.SD. (.D. `els' ) (.N. `gal·lesos' ) ) ) ) )
 \end{parsetree}
 \end{center}
-\caption{Dos arbres per a la segona part de la comparació  ``Els
-  escocesos aprecien més el whisky que els gal·lesos'' (SD =sintagma
-  determinant, D = determinant).}
+\caption{Dos arbres per a la segona part (``els gal·lesos'') de la
+  comparació ``Els escocesos aprecien més el whisky que els
+  gal·lesos'' (SD =sintagma determinant, D = determinant).}
 \label{fg:whisky}
 \end{figure}
 
-\item De vegades, l'anàlisi sintàctica d'una oració es complica per la
+\begin{persabermes}{ambigüitat estructural}
+De vegades, l'anàlisi de la sintaxi d'una oració es complica per la
   presència de fenòmens de moviment de constituents. Considerem
   l'oració
 \begin{example}
@@ -439,16 +446,15 @@ i l'altra
 És a dir, en la primera, el pronom interrogatiu \emph{qui} és el
 subjecte de l'oració principal; en la segona, és el subjecte de
 l'oració subordinada, el qual ha experimentat el \emph{moviment de Qu}
-(en anglés \emph{Wh-movement}) obligatori en molts idiomes per als
-mots amb funció interrogativa\footnote{No en totes les llengües és
-  obligatori moure els interrogatius al principi de la frase; per
-  exemple, en xinés, no.}. En aquest cas, com en
-l'exemple~\ref{eq:escocesos}, l'el·lipsi permet dos posicionaments
-diferents del pronom \emph{qui} abans del moviment de Qu, però les
-ambigüitats causades pel moviment de Qu poden produir-se també sense
-el·lipsi, com en l'exemple
+(en anglés \emph{Wh-movement}) al principi de l'oració, el qual
+obligatori en molts idiomes ---no en tots: el xinés o el turc no ho
+fan, per exemple--- per als mots amb funció interrogativa. En aquest
+cas, com en l'exemple~\ref{eq:escocesos}, l'el·lipsi permet dos
+posicionaments diferents del pronom \emph{qui} abans del moviment de
+Qu, però les ambigüitats causades pel moviment de Qu poden produir-se
+també sense el·lipsi, com en l'exemple
 \begin{exemple}
-Com dius que ha explicat que vindria?
+Com dius que Jordi ha explicat que vindria?
 \end{exemple}
 \com{Donar l'arbre de l'exemple amb la traça del moviment i tot això?}
 on la posició inicial de l'adverbi interrogatiu \emph{Com} pot
@@ -456,18 +462,19 @@ resultar de la transformació per moviment de Qu de tres estructures
 hipotètiques diferents; en cada una d'elles, l'adverbi és adjunt d'un
 sintagma verbal diferent:
   \begin{exemple}
-  \item[(a)] *Dius com que ha explicat que vindria?
-  \item[(b)] *Dius que ha explicat com que vindria?
-  \item[(c)] *Dius que ha explicat que vindria com?
+  \item[(a)] *Dius \emph{com} que Jordi ha explicat que vindria?
+  \item[(b)] *Dius que Jordi ha explicat \emph{com} que vindria?
+  \item[(c)] *Dius que Jordi ha explicat que vindria \emph{com}?
   \end{exemple}
   En la primera interpretació es pregunta per la manera de dir-ho, en
   la segona per la manera d'explicar-ho i en la tercera per la manera
   de venir.
   
   Es produeixen també moviments similars amb els relatius; per
-  exemple, aquests es mouen cap a fora (cap amunt) des de les
-  subordinades substantives completives amb verbs del tipus de {\em
-    dir}, \emph{explicar}, etc. En l'oració
+  exemple, aquests es mouen \emph{cap a fora}, és a dir, cap a l'arrel
+  de l'arbre d'anàlisi sintàctica, des de les subordinades
+  substantives completives amb verbs del tipus de {\em dir},
+  \emph{explicar}, etc. En l'oració
 \begin{example}
 No m'agrada la manera com vas dir que vivia encara.
 \end{example}
@@ -475,8 +482,11 @@ el primer \emph{com} és un relatiu que pot modificar \emph{dir} en
   l'oració \emph{vas dir que vivia encara} (``no m'agrada la manera de
   dir-ho'')  o pot modificar  {\em
   vivia} però ha estat mogut fora de la subordinada completiva \emph{vivia encara}, que modifica {\em
-  la manera} (``no m'agrada la manera com vivia, segons vas dir'').
+  la manera} (``no m'agrada la manera com vivia, segons que vas dir'').
 
+
+\mbox{}%dirty trick
+\end{persabermes}
 
 
 
@@ -556,7 +566,7 @@ dos casos:
     \emph{les mates} és un sintagma verbal compost d'un pronom ({\em
       les}) que es refereix a \emph{Les gallines} i un verb ({\em
       mates}), sintagma que constitueix un sintagma verbal en la
-    segona oració coordinada (vegeu la fig.~\ref{fg:mates}).
+    segona oració coordinada (vegeu la fig.~\ref{fg:mates}).\footnote{Dir que l'anàfora és només un procés lèxic és una simplificació. Hi ha involucrats aspectes sintàctics. Per exemple, en l'oració \emph{Maria va parlar amb ella}, el pronom \emph{ella} no es pot mai referir a \emph{Maria}, però en l'oració \emph{Maria va parlar amb una amiga d'ella}, sí que pot, i això és degut al fet que en l'estructura sintàctica de la primera oració hi ha una \emph{barrera} a la co-referència que en la segona no existeix.}
 \end{enumerate}
 
 \begin{figure}
@@ -575,45 +585,54 @@ mates' ) ) ) ) )
 \end{center}
 \caption{Dos arbres per a la segona oració coordinada en ``Les
   gallines han destrossat el sembrat però no les mates'' (NEG =
-  negació).}
+  negació). Els triangles s'usen per a no haver d'indicar tots els detalls d'un subarbre concret.}
 \label{fg:mates}
 \end{figure}
 
 
-\section[Ambigüitat deguda als quantificadors]{Ambigüitat deguda a l'abast dels quantificadors}
-\label{ss:ambabast}
 
-Els quantificadors són mots com \emph{algun}, \emph{tot}, \emph{cada}.
-Quan l'abast d'un quantificador (és a dir, els mots que afecta) és imprecís, una oració pot tenir més
-d'una interpretació. Considerem l'exemple 
+
+% \section[Ambigüitat deguda als quantificadors]{Ambigüitat deguda a l'abast dels quantificadors}
+% \label{ss:ambabast}
+
+
+\begin{persabermes}{ambigüitats més complexes}
+  Hi ha també certs tipus d'ambigüitat que no es poden explicar de
+  manera senzilla amb el principi de composicionalitat, com ara {\em
+    l'ambigüitat en l'abast dels quantificadors}. Els quantificadors
+  són mots com \emph{algun}, \emph{tot}, \emph{cada}.  Quan l'abast
+  d'un quantificador (és a dir, els mots que afecta) és imprecís, una
+  oració pot tenir més d'una interpretació. Considerem l'exemple de \cite{hutchins92b}
 \begin{exemple}
 Totes les dones no s'estimen els abrics de pell.
 \label{eq:abric}
 \end{exemple}
-\citep{hutchins92b}, el qual pot tenir dues interpretacions
+Aquest exemple pot tenir dues interpretacions
 \begin{exemple}
 \item[(a)] No totes les dones s'estimen els abrics de pell.
 \item[(b)] No hi ha cap dona que s'estime els abrics de pell.
 \end{exemple}
 a pesar de no tenir cap ambigüitat lèxica ni estructural aparent.
-\com{Hi ha alguna traducció a alguna llengua en la qual s'haja de
-  decidir entre una interpretació o altra? Si no, no sé quin sentit té
-  això ací en aquest llibre.}
-Aquest tipus d'ambigüitat es pot explicar pel fet que el principi de
-composicionalitat per si sol no és suficient per a especificar
-completament l'assignació d'interpretació a una oració;\footnote{En
-  paraules de \citet[p.~364]{radford99b} ``hem de reconéixer
-  [l'existència] d'un buit inacceptable entre el que proporciona la
-  sintaxi i el que la semàntica necessita en el cas d'oracions que
-  continguen sintagmes nominals quantificats''} la interpretació de les
-oracions se sol explicar en termes de {\em
-  formes lògiques} \citep[p.~357]{radford99b}; en el cas de les
+  Aquest tipus d'ambigüitat es pot
+explicar pel fet que el principi de composicionalitat per si sol no és
+suficient per a especificar completament l'assignació d'interpretació
+a una oració. En paraules de \citet[p.~364]{radford99b} ``hem de
+reconéixer [l'existència] d'un buit inacceptable entre el que
+proporciona la sintaxi i el que la semàntica necessita en el cas
+d'oracions que continguen sintagmes nominals quantificats''. La
+interpretació de les oracions se sol explicar de vegades en termes de
+{\em formes lògiques} \citep[cap.~23]{radford09b}; en el cas de les
 oracions amb quantificadors, aquestes formes lògiques contenen d'una
 banda, \emph{variables} que poden referir-se a un rang d'objectes que
-cal considerar i, d'altra, operacions sobre aquestes variables.
-Doncs bé, en aquestos casos, es pot assignar més d'una forma lògica a
-una oració.
+cal considerar i, d'altra, operacions sobre aquestes variables.  Doncs
+bé, en aquestos casos, es pot assignar més d'una forma lògica a una
+oració.
 
+\mbox{}%truc brut
+\end{persabermes}
+\todo{Hi ha alguna traducció a alguna llengua en la qual s'haja de
+  decidir entre una interpretació o altra? Si no, no sé quin sentit té
+  això ací en aquest llibre.}
 
 
 

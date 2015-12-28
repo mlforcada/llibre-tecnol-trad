@@ -5,7 +5,7 @@ TEX=ambiguitat.tex avaluacio-traduccio-automatica.tex bases-dades.tex \
     experiencies-ta-es-ca.tex internet.tex intro.tex llibrett.tex \
     memories-traduccio.tex ordinadors-programes.tex \
     problematica-ta-es-ca.tex tecniques-traduccio-automatica.tex \
-    textos-formats.tex traduccio-automatica.tex usos-traduccio-automatica.tex
+    textos-formats.tex usos-traduccio-automatica.tex
 
 all: llibrett.pdf
 
