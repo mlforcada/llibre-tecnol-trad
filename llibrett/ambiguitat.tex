@@ -476,7 +476,7 @@ De vegades, l'anàlisi de la sintaxi d'una oració es complica per la
 \begin{example}
 Qui diu que vindrà?
 \end{example}
-Aquesta oració té, bàsicament, dues interpretacions. Una és
+Aquesta oració té, fonamentalment, dues interpretacions. Una és
 \begin{example}
 Qui diu que PRO vindrà?
 \end{example}
@@ -681,12 +681,14 @@ oració.
 
 \subsection{Estratègies de resolució de l'ambigüitat}
 
-En general, els humans usem les nostres creences sobre el funcionament
-del món real (o d'un món fictici concret, com en una novel·la) per a
-elegir una de les interpretacions com a més versemblant (és a dir, per
-a \emph{resoldre l'ambigüitat}); quan aquestes creences són compartides
-entre l'emissor i el receptor, es pot usar l'ambigüitat com un
-mecanisme molt eficient per a produir missatges més curts.
+En general, els humans usem els nostres coneixements, les nostres
+expectatives i les nostres creences sobre el funcionament del món real
+(o d'un món fictici concret, com en una novel·la) per a elegir una de
+les interpretacions com a més versemblant (és a dir, per a
+\emph{resoldre l'ambigüitat}); quan els coneixements, les creeneces i
+les expectatives són compartides entre l'emissor i el receptor, es pot
+usar l'ambigüitat com un mecanisme molt eficient per a produir
+missatges més curts.
 
 Com hem vist, les causes de l'ambigüitat són molt diverses; per això,
 també són molt diverses les estratègies de resolució. Aquest epígraf
@@ -694,38 +696,63 @@ recull unes notes ---no exhaustives--- sobre les estratègies de
 resolució d'alguns tipus d'ambigüitat en sistemes automàtics de
 tractament del llenguatge humà.
 
+Les estratègies de resolució de l'ambigüitat solen basar-se en
+\emph{restriccions} i \emph{preferències}. Com veurem, les
+restriccions són normalment de naturalesa lingüística ---per tant,
+requereixen un cert nivell d'anàlisi del text--- i permeten descartar
+certes interpretacions, però no eliminen completament l'ambigüitat.
+Per a acabar de resoldre l'ambigüitat, s'usen preferències: s'assigna
+algun tipus de puntuació o valor a cada interpretació per elegir la
+millor. Les preferències se solen basar freqüentment en mètodes
+estadístics, basats en observacions obtingudes en grans quantitats de
+text.
+
+
 \subsubsection{Resolució de l'ambigüitat lèxica categorial} 
 \label{s3:reshom}
 
-La resolució de l'ambigüitat lèxica categorial, altrament coneguda com
-etiquetatge (dels mots) amb parts de l'oració (en anglés,
-\emph{part-of-speech (PoS) tagging}) està molt ben estudiada.
-L'ambigüitat es resol normalment usant bé el coneixement lingüístic,
-bé tècniques estadístiques basades en la freqüència d'aparició en els
-textos de determinades seqüències curtes (combinacions) de categories
-lèxiques, o bé les dues aproximacions alhora.
+La resolució de l'ambigüitat lèxica categorial dels mots homògrafs,
+altrament coneguda com etiquetatge (dels mots) amb parts de l'oració
+(en anglés, \emph{part-of-speech (PoS) tagging}) està molt ben
+estudiada.  L'ambigüitat es redueix normalment usant restriccions
+basades en el coneixement lingüístic, i, com que normalment això no
+sol ser suficient, s'hi estableixen preferències basades en l'estudi
+estadístic de la freqüència d'aparició conjunta en els textos de
+determinades seqüències curtes de categories lèxiques.
 
-\todo{Incloure la referència a l'Ars Minor de Donatus (S. IV)?}
+En alguns casos, les restriccions poden ser suficients. Per exemple,
+el mot espanyol \emph{ahorro} pot ser substantiu o verb. Si apareix
+entre un article i un adjectiu com ara en \emph{el ahorro doméstico}
+no hi ha cap dubte que es tracta d'un substantiu: la seqüència
+determinant--verb personal no és permesa.
 
-Considerem l'aproximació estadística. Per exemple, el mot espanyol
-\emph{ahorro} pot ser substantiu o verb. Si apareix entre un article i
-un adjectiu com ara en \emph{el ahorro doméstico} no hi ha cap dubte
-que es tracta d'un substantiu: la seqüència article--nom--adjectiu és
-molt més freqüent que no la seqüència article--verb en forma
-personal--substantiu (el coneixement lingüístic ens permetria
-descartar la segona possibilitat amb seguretat quasi total). Si prenem
-un corpus (conjunt) suficientment gran de textos correctes i comptem
-quantes voltes apareixen totes les seqüències possibles de tres
-categories lèxiques, podem usar aquestes freqüències per a assignar la
-categoria d'un mot ambigu: de totes les seqüències de tres mots
-possibles que es puguen formar amb aquest mot, en prendrem la més
-freqüent. 
+Però de vegades, les restriccions només redueixen l'ambigüitat sense
+eliminar-la completament.  Per exemple, la paraula \emph{sobre} pot
+ser un substantiu masculí singular, una preposició, i tres formes del
+verb \emph{sobrar} (present de subjuntiu, 1a.\ i 3a.\ persona del
+singular, i un imperatiu cortés de 3a.\ persona del singular). En el
+context \emph{Porta'm aquell sobre de la caixa}, una vegada feta
+l'anàlisi morfològica dels mots de l'oració, es podrien aplicar
+restriccions lingüístiques basades en seqüències de dues categories
+lèxiques per a reduir l'ambigüitat. Per exemple, una preposició no pot
+anar seguida d'una altra preposició. Com que \emph{sobre} va seguit de
+\emph{de} que només pot ser preposició, podem descartar que
+\emph{sobre} siga una preposició. Però no es poden descartar la resta
+de les lectures: si \emph{aquell} és un determinant, \emph{sobre} pot
+ser un nom (com és el cas); si \emph{aquell} és un pronom,
+\emph{sobre} podria ser un verb (com en les oracions \emph{Ara ens han
+  sobrat dos cotxes, però pot ser que aquell sobre també més
+  endavant.}). 
 
-En general, el coneixement lingüístic permet establir
-\emph{restriccions} que prohibeixen certes seqüències de categories
-lèxiques, però no eliminen completament l'ambigüitat; per això, s'usen
-sempre conjuntament amb mètodes estadístics com els descrits, que
-permeten establir \emph{preferències}.
+Per tant, cal considerar l'ús de preferències. Per exemple, podem usar
+l'aproximació estadística.  Si prenem un corpus (conjunt)
+suficientment gran de textos on un expert ha indicat la categoria
+lèxica de cada mot i comptem quantes voltes apareixen totes les
+seqüències possibles de dues categories lèxiques, podem usar aquestes
+freqüències per a assignar la categoria d'un mot ambigu: de totes les
+seqüències de tres mots possibles que es puguen formar amb aquest mot,
+en prendrem la més freqüent.
+
 
 \subsubsection{Resolució de la polisèmia}
 
@@ -733,54 +760,67 @@ permeten establir \emph{preferències}.
    material per a millorar-la. Cal donar més èmfasi al cas particular
    de l'ambigüitat de transferència.} 
 
-La resolució de la polisèmia (en anglés habitualment \emph{word sense
-  disambiguation}) consisteix a assignar a un mot polisèmic, en un
-text o discurs, una interpretació concreta, possiblement diferent de
-les que podria tenir en altres textos (o contextos). La desambiguació
-s'efectua usant informació procedent de tres fonts: el \emph{cotext}
-(intern al text o discurs) i el \emph{context} (extern al text o
-discurs però relacionat amb ell) i fonts de coneixement addicionals.
-En traducció automàtica, estem interessats a elegir una de les
-interpretacions possibles, perquè és comú que els mots polisèmics
-tinguen diverses traduccions (l'\emph{ambigüitat de transferència}
-esmentada en l'apartat~\ref{ss:amblex}).
+ La resolució de la polisèmia (en anglés habitualment \emph{word sense
+   disambiguation}) consisteix a assignar a un mot polisèmic, en un
+ text o discurs, una interpretació concreta, possiblement diferent de
+ les que podria tenir en altres textos (o contextos). La desambiguació
+ s'efectua usant informació procedent de tres fonts: el \emph{cotext}
+ (intern al text o discurs) i el \emph{context} (extern al text o
+ discurs però relacionat amb ell) i fonts de coneixement addicionals.
+ En traducció automàtica, estem interessats a elegir una de les
+ interpretacions possibles, perquè és comú que els mots polisèmics
+ tinguen diverses traduccions (l'\emph{ambigüitat de transferència}
+ esmentada en l'apartat~\ref{ss:amblex}).
 
-S'accepta comunament que la major part dels mots polisèmics d'un text
-(o d'un fragment del text) solen tenir una única interpretació en un
-text donat, però aquest principi s'ha de concretar en un mètode
-concret per a resoldre la polisèmia.
+ S'accepta comunament que la major part dels mots polisèmics d'un text
+ (o d'un fragment del text) solen tenir una única interpretació en un
+ text donat, però aquest principi s'ha de concretar en un mètode
+ concret per a resoldre la polisèmia.
+
+ La resolució de la polisèmia s'ha abordat des de perspectives molt
+ diverses (vegeu \citet{ide98j}).
+
+ És possible aplicar restriccions per resoldre la polisèmia però s'han
+ de basar en una anàlisi bastant profunda, de naturalesa. Per exemple,
+ podem decidir que el mot espanyol \emph{gato} és un animal i no una
+ ferramenta per alçar vehicles en la frase \emph{El gato me miró desde
+   debajo del coche}, perquè \emph{gato} és el subjecte de
+ \emph{miró}, i el verb \emph{mirar} requereix un subjecte animat,
+ però com es pot veure, això requereix que s'hi haja fet una anàlisi
+ sintàctica i semàntica.
  
-La resolució de la polisèmia s'ha abordat des de perspectives molt
-diverses (vegeu \citet{ide98j}); heus-ne ací dues:
+ Per això, en general s'usen mètodes basats en preferències. Heus ací
+ dos exemples:
 \begin{itemize}
 \item L'ús de \emph{xarxes semàntiques} on els conceptes se situen en
   els nodes (nusos) de la xarxa i s'agrupen jeràrquicament en
   superconceptes cada vegada més generals (per exemple, els conceptes
   \emph{poma}, \emph{pera}, \emph{taronja} s'agruparien sota el
   concepte \emph{fruita}).\footnote{L'exemple clàssic és
-    \emph{Wordnet}, \url{http://www.cogsci.princeton.edu/~wn/},
-    que s'està generalitzant a altres llengües d'Europa
-    (\url{http://www.dcs.shef.ac.uk/nlp/funded/eurowordnet.html}).}
-  Quan tenim un mot polisèmic, és que li podem associar més d'un
-  concepte. Per a elegir-ne un, podem, per exemple, prendre tots els
-  possibles sentits del mot ambigu i assignar-los el sentit associat
-  al concepte que està més prop dels conceptes representats pels mots
-  veïns en el text.  La informació present en diccionaris electrònics
-  preexistents pot servir per a construir aquestes xarxes o ser usada
-  directament per a la resolució de la polisèmia.
+    \emph{Wordnet}, \url{http://wordnet.princeton.edu}, que s'està
+    generalitzant a altres llengües d'Europa
+    (\url{http://www.illc.uva.nl/EuroWordNet/}).}  Quan tenim un mot
+  polisèmic, li podem associar més d'un concepte o \emph{sentit}. Per
+  a elegir-ne un, podem, per exemple, prendre tots els possibles
+  sentits del mot ambigu i assignar-los el sentit associat al concepte
+  que està més prop dels conceptes representats pels mots veïns en el
+  text.  La informació present en diccionaris electrònics preexistents
+  pot servir per a construir aquestes xarxes o ser usada directament
+  per a la resolució de la polisèmia.
 \item L'estadística d'aparició conjunta de mots en corpus bilingües de
   textos pot ajudar a resoldre directament l'ambigüitat de
   transferència quan es disposa de diccionaris de transferència o quan
   els textos estan alineats. Per exemple, si en un corpus bilingüe
-  espanyol--català l'aparició de \emph{destino} prop d'{\em
-    incierto} en espanyol coincideix amb l'aparició de \emph{destí}
-  en català, podem dir que el mot \emph{destino} té en aquest cas la interpretació de ``sort futura''; en canvi, si l'aparició de {\em
+  espanyol--català l'aparició de \emph{destino} prop d'{\em incierto}
+  en espanyol coincideix amb l'aparició de \emph{destí} en català,
+  podem dir que el mot \emph{destino} té en aquest cas la
+  interpretació de ``sort futura''; en canvi, si l'aparició de {\em
     destino} prop d'\emph{estación} o \emph{aeropuerto} en espanyol
   coincideix amb l'aparició \emph{destinació} en català, podem elegir
   el sentit de ``punt d'arribada''. Aquesta informació podria servir
   per a traduir després de l'espanyol a l'anglés i elegir {\em
-    destiny} o \emph{destination} en cada cas amb molta
-  probabilitat d'èxit.
+    destiny} o \emph{destination} en cada cas amb molta probabilitat
+  d'èxit.\todo{Potser caldria  esmentar ací els sistemes de TA estadística basat en frases}
 \end{itemize}
 
 
@@ -792,29 +832,49 @@ diverses (vegeu \citet{ide98j}); heus-ne ací dues:
 
 La resolució de l'anàfora ---és a dir, la determinació de l'{\em
   antecedent} d'un pronom o d'una altra expressió anafòrica--- es pot
-basar en informació morfològica (com ara quant a la
-concordança de gènere i de nombre entre un pronom i el seu
-antecedent), sintàctica, o fins i tot semàntica, tant a través de
-  \emph{restriccions} (per exemple, un pronom femení no pot tenir un
-  antecedent masculí) com de \emph{preferències} (els antecedents més
-  recents o que han estat introduïts explícitament com l'assumpte del discurs
-  o de la conversa ---\emph{Doncs, pel que fa a Joan...}--- són preferibles als més antics). La informació
-sintàctica pot ser més rellevant que no ho sembla: si diem
-\begin{exemple}Marta va parlar amb ella\end{exemple}
-l'antecedent d'\emph{ella} no pot ser \emph{Marta} (es tracta d'una
-restricció sintàctica). En canvi, si diem
-\begin{exemple}Marta va parlar i ella va caure\end{exemple} 
-no es pot descartar completament que l'antecedent d'\emph{ella} siga
-\emph{Marta}. \todo{Atenció: apareix abans en el tema} De fet, moltes vegades, només podem recórrer a la
-semàntica; en l'exemple (ja discutit en la secció~\ref{ss:UTA})
+basar també en restriccions i preferències. 
+
+Les \emph{restriccions} es poden basar en informació morfològica ,
+sintàctica, o fins i tot semàntica; tot depén del nivell d'anàlisi que
+estiga disponible:
+\begin{itemize}
+\item Un pronom masculí no pot tenir un antecedent femení (restricció
+  morfològica): \emph{Maria} no pot ser l'antecedent de \emph{ell} en
+  l'oració \emph{Maria es va passar tot el dia parlant d'ell}.
+\item La informació sintàctica pot ser més rellevant que no ho sembla:
+  si diem
+  \begin{exemple}Marta la va veure\end{exemple} l'antecedent
+  d'\emph{la} no pot ser \emph{Marta}, per causa d'una restricció
+  associada a determinades característiques de l'estructura sintàctica
+  que té l'oració.\footnote{Aquestes restriccions sintàctiques se
+    solen anomenar \emph{barreres}.}  En canvi, si diem
+  \begin{exemple}Marta va parlar amb qui la va veure.\end{exemple} no
+  es pot descartar completament que l'antecedent d'\emph{la} siga
+  \emph{Marta}.
+\item Hi ha vegades que només podem recórrer a una anàlisi semàntica;
+  en l'exemple (ja discutit en la secció~\ref{ss:UTA})
 \begin{exemple}
-\ [Els soldats]$_i$ van disparar [als xiquets]$_j$. Els$_{i/j?}$
+[Els soldats]$_i$ van disparar [als xiquets]$_j$. Els$_{i/j?}$
 vaig veure caure
 \end{exemple}
 s'ha d'usar informació semàntica per a saber quin és l'antecedent
 d'\emph{els} en la segona oració (\emph{els soldats} o \emph{els
   xiquets}).
+\end{itemize}
 
+Les restriccions no solen ser suficients, i sol ser necessari
+l'establiment de \emph{preferències}. Per exemple, es poden preferir
+\begin{itemize}
+\item els antecedents més recents,
+\item els antecedents que fan de subjecte als que fan d'objecte, o
+\item els antecedents que han estat introduïts explícitament com
+  l'assumpte del discurs o de la conversa: \emph{Doncs, pel que fa a
+    \underline{Joan}\ldots}.
+\end{itemize}
+Açò se sol instrumentar a través d'un sistema que assigna
+\emph{puntuacions} per cada una de les característiques: se sumen les
+puntuacions per a tots els antecedents possibles i s'elegeix el que
+obté la puntuació més alta \citep{lappin94p}.
 
 
 \subsubsection{Resolució de l'ambigüitat estructural}
@@ -829,7 +889,7 @@ consideraríem sempre \emph{totes} les estructures sintàctiques. Es
 podria argumentar fàcilment en contra dient que en frases complexes
 (per exemple, l'oració~\ref{ex:bossa}) hi ha massa estructures a considerar. De
 fet, hi ha experiments psicolingüístics que indiquen que de vegades
-usem estratègies purament sintàctiques, elegint entre les possibles
+usem estratègies fonamentalment sintàctiques, elegint entre les possibles
 estructures fins i tot quan no hem sentit o llegit tota l'oració,
 potser per evitar un esforç intel·lectual excessiu, ja que hi pot
 haver moltíssimes interpretacions parcials. A canvi, hem de fer
@@ -878,7 +938,7 @@ Va aprendre en dos minuts a afaitar-se
 \end{exemple}
 La regla que afavoreix que els adjunts s'associen a l'últim sintagma
 que els admeta se sol anomenar regla de \emph{clausura tardana}
----angl.\ \emph{late closure}---; per exemple, aquesta regla afavoreix
+---en anglés \emph{late closure}---; per exemple, aquesta regla afavoreix
 el primer dels arbres de la figura~\ref{fg:noticies}. Una altra regla que
 se sol usar és la d'\emph{adjunció mínima} ---angl.\ \emph{minimal
   attachment}--- que afavoreix l'arbre sintàctic amb el mínim de nodes
