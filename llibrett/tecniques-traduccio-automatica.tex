@@ -108,79 +108,102 @@ directa és la que s'usa en les anomenades \emph{memòries de traducció}
 \section{Traducció  indirecta per transferència}
 
 \label{ss:classtrans}
-Molts dels sistemes indirectes són sistemes de \emph{transferència}. Un
-\emph{sistema de transferència} és el que fa les traduccions en tres fases
-ben diferenciades anomenades \emph{anàlisi}, \emph{transferència}
-i \emph{generació}:
+Molts dels sistemes indirectes són sistemes de
+\emph{transferència}. Un \emph{sistema de traducció automàtica
+  indirecta per transferència}, o, abreviadament, \emph{sistema de
+  transferència} és el que fa les traduccions en tres fases ben
+diferenciades anomenades \emph{anàlisi}, \emph{transferència} i
+\emph{generació}; cada una d'aquestes fases és realitzada per un mòdul
+(un subprograma) del sistema:
 \begin{itemize}
-\item La fase d'\emph{anàlisi} produeix, a partir de la frase en 
-la LO, una representació abstracta (RALO).
-En la RALO s'eliminen tots els detalls de la frase en LO que
-no són rellevants per a la traducció i se'n destaquen aquelles
-característiques i relacions que sí que ho són.
-Per exemple, podria convenir que les frases angleses ``Sam gave a book to Leslie''
-i ``Sam gave Leslie a book'' \citep{arnold93j} tingueren la mateixa
-RALO.
-\item La fase de \emph{transferència} converteix la RALO
-en una altra representació abstracta similar, però
-per a la llengua meta (RALM).
-\item La fase de \emph{generació} (o \emph{síntesi}) produeix la frase en la llengua
-meta a partir de la RALM.
+\item El mòdul d'\emph{anàlisi} és un mòdul monolingüe que produeix, a
+  partir de la frase en la LO, una \emph{representació abstracta del text
+  origen} (RATO). En la RATO s'eliminen tots els detalls de la frase
+  en LO que no es consideren rellevants per a la traducció i se'n destaquen
+  aquelles característiques i relacions que sí que ho són.  Per
+  exemple, podria convenir que les frases angleses ``Sam gave a book
+  to Leslie'' i ``Sam gave Leslie a book'' \citep{arnold93j} tingueren
+  la mateixa RATO.
+\item El mòdul de \emph{transferència} és un mòdul bilingüe que llig
+  la RATO i genera una altra representació abstracta similar, però per
+  a la llengua meta, la \emph{representació abstracta del text meta}
+  (RATM).
+\item El mòdul de \emph{generació} (o, menys comunament,
+  \emph{síntesi}) genera a partir de la RATM un text \emph{concret}: la
+  traducció en brut.
 \end{itemize}
 Aquestes tres fases s'esquematitzen en la
 figura~\ref{fg:transfer}. 
 
-Les representacions abstractes
-\emph{apropen} les dues llengües eliminant-ne alguns detalls
-específics i destacant característiques generals que poden així ser
-tractades més fàcilment pel mòdul de transferència. Per exemple, els
-adjectius catalans van normalment darrere dels substantius mentre que
-els anglesos van normalment davant; traduir comporta, per tant,
-canviar els adjectius de posició. Però per a això, cal identificar
-quines paraules són adjectius i substantius: la fase d'anàlisi es pot
-encarregar d'aquesta tasca perquè la fase de transferència puga
-aplicar regles generals sense preocupar-se de quins són els adjectius
-o els substantius concrets.
+
 \begin{figure}
 \begin{center}
-%TexCad Options
-%\grade{\off}
-%\emlines{\off}
-%\beziermacro{\on}
-%\reduce{\on}
-%\snapping{\off}
-%\quality{2.00}
-%\graddiff{0.01}
-%\snapasp{1}
-%\zoom{1.00}
-\unitlength 1.00mm
-\linethickness{0.4pt}
-\begin{picture}(100.00,20.00)
-\put(10.00,10.00){\makebox(0,0)[cc]{text LO}}
-\put(40.00,10.00){\makebox(0,0)[cc]{RALO}}
-\put(70.00,10.00){\makebox(0,0)[cc]{RALM}}
-\put(100.00,10.00){\makebox(0,0)[cc]{text LM}}
-%\vector(20.00,10.00)(30.00,10.00)
-\put(30.00,10.00){\vector(1,0){0.2}}
-\put(20.00,10.00){\line(1,0){10.00}}
-%\end
-%\vector(50.00,10.00)(60.00,10.00)
-\put(60.00,10.00){\vector(1,0){0.2}}
-\put(50.00,10.00){\line(1,0){10.00}}
-%\end
-%\vector(80.00,10.00)(90.00,10.00)
-\put(90.00,10.00){\vector(1,0){0.2}}
-\put(80.00,10.00){\line(1,0){10.00}}
-%\end
-\put(25.00,15.00){\makebox(0,0)[cc]{anàl.}}
-\put(55.00,15.00){\makebox(0,0)[cc]{transf.}}
-\put(85.00,15.00){\makebox(0,0)[cc]{gen.}}
-\end{picture}
+\parbox{0.5cm}{TO} $\to$
+\framebox{\parbox{0.2cm}{A}} $\to$ 
+\parbox{1.0cm}{RATO} $\to$
+\framebox{\parbox{0.2cm}{T}} $\to$
+\parbox{1.25cm}{RATM} $\to$
+\framebox{\parbox{0.25cm}{G}} $\to$
+\parbox{0.5cm}{TM} 
 \end{center}
-\caption{Fases d'anàlisi, transferència i generació en un
-sistema de traducció indirecta per transferència.}
+\caption{Fases d'anàlisi (A), transferència (T) i generació (G) en un
+sistema de traducció indirecta per transferència (TO = text origen; RATO = representació abstracta del text origen; RATM = representació abstracta del text meta; TM = text meta.}
 \label{fg:transfer} 
 \end{figure}
+
+Les representacions abstractes \emph{apropen} les dues llengües
+eliminant-ne alguns detalls específics i destacant característiques
+generals que poden així ser tractades més fàcilment pel mòdul de
+transferència. Per exemple, els adjectius catalans van normalment
+darrere dels substantius mentre que els anglesos van normalment
+davant; traduir comporta, per tant, canviar els adjectius de
+posició. Però per a això, cal identificar quines paraules són
+adjectius i substantius: la fase d'anàlisi es pot encarregar d'aquesta
+tasca perquè la fase de transferència puga aplicar regles generals
+sense preocupar-se de quins són els adjectius o els substantius
+concrets.
+
+
+% \begin{figure} % figura vella
+% \begin{center}
+% %TexCad Options
+% %\grade{\off}
+% %\emlines{\off}
+% %\beziermacro{\on}
+% %\reduce{\on}
+% %\snapping{\off}
+% %\quality{2.00}
+% %\graddiff{0.01}
+% %\snapasp{1}
+% %\zoom{1.00}
+% \unitlength 1.00mm
+% \linethickness{0.4pt}
+% \begin{picture}(100.00,20.00)
+% \put(10.00,10.00){\makebox(0,0)[cc]{text LO}}
+% \put(40.00,10.00){\makebox(0,0)[cc]{RALO}}
+% \put(70.00,10.00){\makebox(0,0)[cc]{RALM}}
+% \put(100.00,10.00){\makebox(0,0)[cc]{text LM}}
+% %\vector(20.00,10.00)(30.00,10.00)
+% \put(30.00,10.00){\vector(1,0){0.2}}
+% \put(20.00,10.00){\line(1,0){10.00}}
+% %\end
+% %\vector(50.00,10.00)(60.00,10.00)
+% \put(60.00,10.00){\vector(1,0){0.2}}
+% \put(50.00,10.00){\line(1,0){10.00}}
+% %\end
+% %\vector(80.00,10.00)(90.00,10.00)
+% \put(90.00,10.00){\vector(1,0){0.2}}
+% \put(80.00,10.00){\line(1,0){10.00}}
+% %\end
+% \put(25.00,15.00){\makebox(0,0)[cc]{anàl.}}
+% \put(55.00,15.00){\makebox(0,0)[cc]{transf.}}
+% \put(85.00,15.00){\makebox(0,0)[cc]{gen.}}
+% \end{picture}
+% \end{center}
+% \caption{Fases d'anàlisi, transferència i generació en un
+% sistema de traducció indirecta per transferència.}
+% \label{fg:transfer} 
+% \end{figure}
 L'arquitectura de transferència és el model estàndard 
 per a la traducció automàtica contemporània, i ho ha estat
 per molts anys \citep{arnold93j}.
@@ -194,41 +217,106 @@ L'elecció de la profunditat de l'anàlisi s'ha de fonamentar en la
 naturalesa i la profunditat de les divergències de traducció
 \citep{vandooren93b} entre les llengües implicades.
 
-L'arquitectura de transferència té dues característiques interessants
+L'arquitectura de transferència té tres característiques interessants
 que mereixen ser esmentades:
 \begin{itemize}
-\item D'una banda, la \emph{modularitat}. La divisió en \emph{mòduls}
+\item \textbf{Funcionament com a cadena de muntatge}. El sistema de
+  transferència funciona com una \emph{cadena de muntatge}: com que
+  els tres mòduls treballen d'esquerra a dreta i en una única passada,
+  no cal que un mòdul espere que l'anterior acabe amb el text: poden
+  treballar paral·lelament; això fa que els sistemes d'aquesta
+  naturalesa siguen molt ràpids.
+\item \textbf{Modularitat}. La divisió en \emph{mòduls}
   o etapes ben diferenciades (anàlisi, transferència i generació) en
   permet la reutilització. Per exemple, 
-  \begin{itemize}
-  \item si hem construït un sistema de transferència que tradueix de
-    l'anglés al català, podem usar el mòdul d'anàlisi de l'anglés per
-    a construir un sistema de l'anglés a l'espanyol.
-  \item Si hem contruït un sistema que tradueix del català a
-    l'alemany, podem usar el mòdul de generació de l'alemany per a
-    construir un sistema de l'espanyol a l'alemany.
+ si hem construït un sistema de transferència que tradueix de
+    l'anglés a l'espanyol: 
+    \begin{center}
+ \parbox{0.5cm}{en} $\to$
+ \framebox{\parbox{0.5cm}{A\(_\mathrm{en}\)}} $\to$ 
+ \framebox{\parbox{1.125cm}{T\(_\mathrm{en\to es}\)}} $\to$
+ \framebox{\parbox{0.5cm}{G\(_\mathrm{es}\)}} $\to$
+ \parbox{0.5cm}{es} 
+ \end{center}
+ podem aprofitar el mòdul d'anàlisi de l'anglés (A\(_\mathrm{en}\)) per a construir un sistema
+ de l'anglés al català:
+ \begin{center}
+ \parbox{0.5cm}{en} $\to$
+ \framebox{\parbox{0.5cm}{A\(_\mathrm{en}\)}} $\to$ 
+ \framebox{\parbox{1.125cm}{T\(_\mathrm{en\to ca}\)}} $\to$
+ \framebox{\parbox{0.5cm}{G\(_\mathrm{ca}\)}} $\to$
+ \parbox{0.5cm}{ca} 
+ \end{center}
+ o usar el mòdul de generació de l'espanyol G\(_\mathrm{es}\) per a
+ construir un sistema del neerlandés a l'espanyol:
+ \begin{center}
+ \parbox{0.5cm}{en} $\to$
+ \framebox{\parbox{0.5cm}{A\(_\mathrm{nl}\)}} $\to$ 
+ \framebox{\parbox{1.125cm}{T\(_\mathrm{nl\to es}\)}} $\to$
+ \framebox{\parbox{0.5cm}{G\(_\mathrm{es}\)}} $\to$
+ \parbox{0.5cm}{es} 
+ \end{center}
+\item \textbf{Reversibilitat parcial}. 
+Si se separen les dades
+ lingüístiques usades per cada un dels tres mòduls, és possible una
+ \emph{reversibilitat parcial}. 
+Si en el sistema anglés--espanyol de
+dalt separem les \emph{dades lingüístiques} de cada un dels tres
+mòduls del \emph{programari} que processa aquestes dades
+(dA\(_\mathrm{en}\), dT\(_\mathrm{en\to es}\), dG\(_\mathrm{es}\))
+podem definir un \emph{motor} genèric de traducció (A, T, G) que val
+per a qualsevol parell de llengües:
+ \begin{center}
+ \parbox{0.5cm}{en} $\to$
+\framebox{\parbox{0.75cm}{dA\(_\mathrm{en}\)\\ A}} $\to$
+\framebox{\parbox{1.5cm}{dT\(_\mathrm{en\to es}\)\\ T}} $\to$
+\framebox{\parbox{0.75cm}{dG\(_\mathrm{es}\)\\ G}} $\to$
+ \parbox{0.5cm}{es}
+ \end{center} Si ara volem escriure el sistema de traducció invers,
+espanyol--anglés, és a dir,
+ \begin{center}
+ \parbox{0.5cm}{es} $\to$
+\framebox{\parbox{0.75cm}{dA\(_\mathrm{es}\)\\ A}} $\to$
+\framebox{\parbox{1.5cm}{dT\(_\mathrm{es\to en}\)\\ T}} $\to$
+\framebox{\parbox{0.75cm}{dG\(_\mathrm{en}\)\\ G}} $\to$
+ \parbox{0.5cm}{en}
+ \end{center} podríem traure avantatge del fet que hi ha grans
+semblances entre les dades lingüístiques de aquest sistema i les del
+sistema anterior:
+\begin{itemize}
+\item les dades que necessitem per a l'anàlisi de l'espanyol
+  dA\(_\mathrm{es}\) són molt similars a les dades de generació de
+  l'espanyol dG\(_\mathrm{es}\) del sistema existent: per a analitzar
+  l'espanyol podem reciclar una bona part de les dades que s'usaven
+  per a generar-lo en el sistema anterior;
+\item les dades que necessitem per a la generació de l'anglés
+  dG\(_\mathrm{en}\) són molt similars a les dades d'anàlisi de
+  l'anglés dA\(_\mathrm{en}\) del sistema existent: per a generar
+  l'anglés podem reciclar una bona part de les dades que s'usaven per
+  a analitzar-lo en el sistema anterior;
+\item les dades de transferència de l'espanyol a l'anglés
+  dT\(_\mathrm{es\to en}\) són molt similars a les dades de
+  transferència de l'anglés a l'espanyol dT\(_\mathrm{en\to es}\) del
+  sistema existent: per a transferir d'espanyol a anglés podem usar
+  una bona part de les dades que s'usaven per a transferir des de
+  l'anglés a l'espanyol en el sistema anterior (per exemple, podem
+  ``pegar la volta'' als diccionaris bilingües i podríem aprofitar-ne
+  moltes entrades).
 \end{itemize}
-\item D'altra banda, la \emph{reversibilitat}; per exemple, la representació
-  abstracta que produeix el mòdul d'anàlisi en un sistema que va del
-  català al francés pot ser la mateixa que processa el mòdul de
-  generació d'un sistema francés--català, i viceversa, la
-  representació abstracta que processa el mòdul de generació de
-  francés del sistema català--francés pot ser la mateixa que genera
-  l'analitzador de francés d'un  sistema francés--català. Això fa que
-  les dades lingüístiques que usen els mòduls d'anàlisi es
-  puguen usar per a construir mòduls de generació i viceversa.
+
 \end{itemize}
 
 
-\subsection{Sistemes de transferència morfològica}
+\subsection{Sistemes de transferència morfològica avançada}
 \label{s3:STMorf}
 
-Els sistemes de transferència morfològica no són molt diferents
-dels ``directes'' descrits més amunt: la fase d'\emph{anàlisi}
-analitza morfològicament els mots de la frase però no identifica les
-relacions (sintàctiques) entre ells. La secció~\ref{s3:anmor}
-dóna més detalls sobre l'anàlisi i la generació
-morfològiques.
+Els sistemes de \emph{transferència morfològica avançada} no són molt
+diferents dels ``directes'' descrits més amunt: la fase
+d'\emph{anàlisi} analitza morfològicament els mots de la frase i els
+desambigua en cas d'ambigüitat categorial però només identifica les
+relacions (sintàctiques) entre ells usant patrons molt senzills. La
+secció~\ref{s3:anmor} dóna més detalls sobre els processos i els
+mètodes d'anàlisi i generació morfològiques.
 
 De vegades l'anàlisi morfològica pot ser més difícil del que sembla,
 com per exemple, en el cas de la morfologia verbal de les llengües
@@ -249,94 +337,106 @@ La fase de \emph{transferència} pot consistir en un reordenament local
 exemple, quan es tradueix de l'anglés al català, els parells
 adjectiu--substantiu es podrien reordenar a substantiu--adjectiu) i en
 la conversió de les formes lèxiques de la LO en les corresponents de
-la LM mitjançant l'ús d'un diccionari bilingüe
-(\emph{transferència lèxica}).
+la LM mitjançant l'ús d'un diccionari bilingüe (\emph{transferència
+  lèxica}).
 
-\com{En un futur, distingir encara més les fases estructural i lèxica
-  del mòdul de transferència}
+La fase de \emph{generació} podria efectuar la substitució de les
+formes lèxiques de la LM per les corresponents formes superficials.
 
-La fase de \emph{generació} podria efectuar la substitució de les formes
-lèxiques de la LM per les corresponents formes superficials.  
-
-Com que els sistemes de transferència morfològica no identifiquen
-les relacions sintàctiques entre els mots de la frase en la llengua
-d'origen, per a fer els reordenaments 
-han d'identificar les seqüències de mots
-que necessiten ser reordenats. La capacitat d'un sistema de
-transferència morfològica per a produir traduccions acceptables
-dependrà de la seua capacitat per a detectar seqüències de mots que
-es corresponguen amb els sintagmes que necessiten ser reordenats. 
-Imaginem que volem traduir de l'anglés al
-català i hem decidit que s'han d'usar aquestes regles
-de reordenament: 
+Com que els sistemes de transferència morfològica avançada no
+identifiquen realment les relacions sintàctiques entre els mots de la frase en
+la llengua d'origen, per a fer els reordenaments han d'identificar les
+seqüències de mots que necessiten ser reordenats. La capacitat d'un
+sistema de transferència morfològica per a produir traduccions
+acceptables dependrà de la seua capacitat per a detectar seqüències de
+mots que es corresponguen amb els sintagmes que necessiten ser
+reordenats.  Imaginem que volem traduir de l'anglés al català i hem
+decidit que s'han d'usar aquestes regles de reordenament:
 \begin{itemize}
-\item [$R_1$] \emph{adj} \emph{subst} $\rightarrow$ \emph{subst} \emph{adj}
-\item [$R_2$] \emph{subst}$_1$ \emph{subst}$_2$ $\rightarrow$ {\em
-subst}$_2$ \emph{prep\_de} \emph{subst}$_1$
+\item [$R_1$] (en) \textbf{adj} \textbf{subst} $\rightarrow$ (ca)
+  \textbf{subst} \textbf{adj}
+\item [$R_2$] (en) \textbf{subst}$_1$ \textbf{subst}$_2$ $\rightarrow$
+  (ca) \textbf{subst}$_2$ \textbf{prep\_de} \textbf{subst}$_1$
 \end{itemize}
 Per exemple, la regla $R_1$ reordenaria ``tall driver'' en
 ``conductor alt'' i la regla $R_2$ reordenaria ``truck driver''
 en ``conductor de camió''. 
 
-Ara, pensem què li
-succeiria a ``tall truck driver''. Si s'aplica primer la regla
-$R_1$ a ``tall truck'' ja no podem aplicar-hi la $R_2$. Si s'hi aplica primer
-la $R_2$ i després
- la $R_1$, s'obté la traducció correcta:
-``conductor alt de camió''. Quan tenim més d'una regla, no sabem 
-en quin ordre
-cal aplicar-les-hi. Si tenim ``tall gasoline truck driver''
-(``conductor alt de camió de gasolina''), no hi ha cap
-ordre d'aplicació de $R_2$ i $R_1$ que done una traducció acceptable.
-Això suggereix la necessitat d'una nova regla que detecte
-i reordene el patró llarg adjectiu--substantiu--substantiu--substantiu, per exemple:
+Ara, pensem què li succeiria a ``tall truck driver''. Si s'aplica
+primer la regla $R_1$ a ``tall truck'' ja no podem aplicar-hi la
+$R_2$. Si s'hi aplica primer la $R_2$ i després la $R_1$, s'obté la
+traducció correcta: ``conductor alt de camió''. Quan tenim més d'una
+regla, no sabem en quin ordre cal aplicar-les-hi. Si tenim ``tall
+gasoline truck driver'' (``conductor alt de camió de gasolina''), no
+hi ha cap ordre d'aplicació de $R_2$ i $R_1$ que done una traducció
+acceptable.  Això suggereix la necessitat d'una nova regla que detecte
+i reordene el patró llarg
+adjectiu--substantiu--substantiu--substantiu, per exemple:
 \begin{itemize}
-\item[$R_3$] \emph{adj} \emph{subst}$_1$ \emph{subst}$_2$ \emph{subst}$_3$
-$\rightarrow$ \emph{subst}$_3$ \emph{adj} \emph{prep\_de} {\em
-subst}$_2$ \emph{prep\_de} \emph{subst}$_1$
+\item[$R_3$] (en) \textbf{adj} \textbf{subst}$_1$ \textbf{subst}$_2$ \textbf{subst}$_3$
+$\rightarrow$ (ca) \textbf{subst}$_3$ \textbf{adj} \textbf{prep\_de} \textbf{subst}$_2$ \textbf{prep\_de} \textbf{subst}$_1$
 \end{itemize}  
 Aquesta regla podria reordenar correctament aquesta seqüència de
 quatre mots. Com es pot veure, les regles de reordenament intenten
 descobrir unitats sintàctiques (sintagmes) usant un nombre limitat de
 patrons que representen les seqüències de mots que poden formar
 aquestes unitats; el problema és que els sintagmes poden ser, en
-principi, indefinidament llargs\footnote{En el paradigma generatiu, si la
-mateixa regla de generació es pot aplicar repetidament a un sintagma,
-aquest sintagma es pot allargar indefinidament. Un exemple clàssic
-d'això el
-donen les oracions adjectives de relatiu; la sèrie de sintagmes nominals
-``el cotxe'', ``el cotxe que va dur l'home'', ``el cotxe que va dur l'home
-que va vindre del poble'', ``el cotxe que va dur l'home que va vindre del
-poble que vam visitar durant el viatge'', etc., demostra que no hi ha
-límits a la longitud d'un sintagma (nominal, en aquest cas).}, i el conjunt de regles de
-reordenament ha de ser forçosament limitat.  Queda, a més, per
-determinar, en els casos en què es pot aplicar més d'una regla, quina s'hi
-ha d'aplicar abans.\footnote{Una tècnica observada en alguns programes
-és la següent: (a) els reordenaments es
+principi, indefinidament llargs,\footnote{En la gramàtica de la
+  llengua, si una regla que estén un sintagma es pot aplicar
+  repetidament a un determinat tipus de sintagma, aquest sintagma es
+  pot allargar indefinidament. Un exemple clàssic d'això el donen les
+  oracions adjectives de relatiu; la sèrie de sintagmes nominals ``el
+  cotxe'', ``el cotxe que va dur l'home'', ``el cotxe que va dur
+  l'home que va vindre del poble'', ``el cotxe que va dur l'home que
+  va vindre del poble que vam visitar durant el viatge'', etc.,
+  demostra que no hi ha límits a la longitud d'un sintagma (nominal,
+  en aquest cas).} i el conjunt de regles de reordenament ha de ser
+forçosament limitat.
+
+Queda, a més, per determinar, en els casos en què es pot aplicar més
+d'una regla, quina s'hi ha d'aplicar abans; en una oració llarga i amb
+moltes regles disponibles, açò pot ser un problema greu. Una tècnica
+observada en alguns programes és la següent: (a) els reordenaments es
 van aplicant segons es recorre la frase d'esquerra a dreta; (b) els
-reordenaments de seqüències més llargues tenen prioritat, i (c) 
-els mots
-afectats per un reordenament no tornen a estar involucrats en cap altre
-reordenament. Així només es visita una vegada cada mot de la
+reordenaments de seqüències més llargues tenen prioritat, i (c) els
+mots afectats per un reordenament no tornen a estar involucrats en cap
+altre reordenament. Així només es visita una vegada cada mot de la
 frase. Si no es pot aplicar un reordenament al primer mot pendent de
-processar, es tradueix aïlladament i es continua amb el següent mot.}
+processar, es tradueix aïlladament i es continua amb el següent mot.
+
+Per a poder traduir \emph{tall truck driver} seguint aquest esquema, caldria una regla que combinara \(R_1\) i \(R_2\):
+\begin{itemize}
+\item[$R_4$] (en) \textbf{adj} \textbf{subst}$_1$ \textbf{subst}$_2$ 
+$\rightarrow$ (ca) \textbf{subst}$_2$ \textbf{adj} \textbf{prep\_de} \textbf{subst}$_1$ 
+\end{itemize}  
+
 
 La identificació de patrons de categories morfològiques que es
-corresponguen amb els sintagmes més freqüents pot servir, a més
-de per a fer reordenaments, per a resoldre la concordança de nombre i gènere. Per
-exemple, si usem el patró 
-\begin{center}
-\emph{subst} \emph{adj}
-\end{center}
-per a identificar una classe de sintagmes nominals senzills, podem fer
-que la traducció correcta al català del sintagma nominal espanyol {\em
-  postre buenísimo} siga \emph{postres boníssimes}, ja que el gènere
-i el nombre de l'adjectiu que modifica a un substantiu ha de
+corresponguen amb els sintagmes més freqüents pot servir, a més de per
+a fer reordenaments, per a resoldre la concordança de nombre i
+gènere. Per exemple, si usem el patró substantiu--adjectiu per a
+identificar una classe de sintagmes nominals senzills, podem fer que
+la traducció correcta al català del sintagma nominal espanyol {\em
+  postre buenísimo} siga \emph{postres boníssimes}, ja que el gènere i
+el nombre de l'adjectiu que modifica a un substantiu ha de
 concordar-hi i el substantiu espanyol \emph{postre} (masculí singular)
 es correspon amb el substantiu català \emph{postres} (femení plural).
 Com que una vegada identificada la classe de sintagma queda clar que
 el nucli és el primer element (el substantiu), ja es pot propagar el
-gènere i el nombre del primer element al segon (l'adjectiu).
+gènere i el nombre del primer element al segon (l'adjectiu):
+\begin{center}
+ (es) \textbf{subst} \textbf{adj}  \(\to\) (ca) \textbf{subst} \textbf{adj} \\
+  assigna gènere meta: \textbf{subst} \(\to\) \textbf{adj}\\
+  assigna nombre meta: \textbf{subst} \(\to\) \textbf{adj}
+    \end{center}
+
+    El reordenament i la concordança es poden combinar en la mateixa
+    regla; per exemple, quan es tradueix de l'anglés al català la seqüència adjectiu--substantiu, la regla podria tenir aquesta forma:    \begin{center}
+      (en) \textbf{adj} \textbf{subst} \(\to\) (ca) \textbf{subst} \textbf{adj} \\
+      assigna gènere meta: \textbf{subst} \(\to\) \textbf{adj}\\
+      assigna nombre meta: \textbf{subst} \(\to\) \textbf{adj}
+    \end{center}
+
 
 Les figures~\ref{fg:tmaa}, \ref{fg:tmat} i \ref{fg:tmag} il·lustren el
 funcionament de les fases d'anàlisi, transferència i generació,
@@ -504,6 +604,8 @@ següent sobre la llengua dels textos que s'han d'analitzar:
 el vocabulari o conjunt de lemes, els paradigmes de
 flexió, i la correspondència entre lemes i paradigmes.
 
+\begin{persabermes}{l'anàlisi morfològica}
+
 Quan els mecanismes de flexió de les llengües són, com en
 la major part de les llengües indoeuropees, per modificació de
 les terminacions (\emph{desi\-nèn\-cies}) dels mots, un mètode
@@ -568,25 +670,31 @@ Tot això permet representar l'analitzador morfològic com el que els
 matemà\-tics anomenen \emph{graf dirigit acíclic} (GDA). Un \emph{graf
   dirigit} té dues parts: un conjunt de nodes, nusos o \emph{vèrtexs}
 (representats gràficament com a punts o cercles) i un conjunt de
-fletxes cada una de les quals va d'un vèrtex a altre. El graf és {\em
+fletxes cada una de les quals va d'un vèrtex a altre. 
+
+\includegraphics[angle=-90,scale=0.85]{angoixa}
+
+
+El graf és {\em
   acíclic} si, seguint les fletxes, no es pot passar dues voltes pel
 mateix \emph{vèrtex}. El GDA d'un analitzador morfològic té un vèrtex
-inicial únic (del qual només poden eixir fletxes) que representa
-l'estat inicial de l'analitzador abans de començar a llegir un
-mot. Els altres vèrtexs representen l'estat de l'analitzador després
-d'haver llegit una o més lletres. Les fletxes que ixen d'un vèrtex
-qualsevol del graf tenen dues etiquetes separades per ``{\tt :}''. La
-primera (d'entrada) indica la lletra que es llig; la segona (d'eixida)
-indica el que s'ha de produir (zero, un o més símbols). Els estats
-finals (representats amb dos cercles concèntrics) indiquen estats en
-els quals l'analitzador determina que ha llegit una forma superficial
-completa si no queden més lletres a llegir; en alguns estats finals
-s'escriuen símbols addicionals per a completar l'anàlisi i, en el cas
-d'un homògraf (ambigüitat lèxica), totes les opcions. L'analitzador
-llig la forma superficial lletra per lletra, va d'estat en estat, i va
+inicial únic (indicat amb una fletxa que no ve de cap lloc i del qual
+només poden eixir fletxes) que representa l'estat inicial de
+l'analitzador abans de començar a llegir un mot. Els altres vèrtexs
+representen l'estat de l'analitzador després d'haver llegit una o més
+lletres. Les fletxes que ixen d'un vèrtex qualsevol del graf tenen
+dues etiquetes separades per ``{\tt :}''. La primera (d'entrada)
+indica la lletra que es llig; la segona (d'eixida) indica el que s'ha
+de produir (zero, un o més símbols). Els estats finals (representats
+amb dos cercles concèntrics) indiquen estats en els quals
+l'analitzador determina que ha llegit una forma superficial completa
+si no queden més lletres a llegir; en alguns estats finals s'escriuen
+símbols addicionals per a completar l'anàlisi i, en el cas d'un
+homògraf (ambigüitat lèxica), totes les opcions. L'analitzador llig la
+forma superficial lletra per lletra, va d'estat en estat, i va
 produint la forma lèxica, fins que llig tot el mot; si arriba a un
 estat final, accepta el mot i en retorna la forma lèxica. En la
-figura~\ref{fg:ang} es pot veure una part de l'analitzador morfològic,
+figura anterior es pot veure una part de l'analitzador morfològic,
 corresponent als mots que comencen per \emph{ang-}. En informàtica
 teòrica, les màquines idealitzades que representen aquesta classe de
 GDA s'anomenen \emph{transductors d'estats finits $p$-subseqüencials
@@ -595,12 +703,18 @@ estats finals. Els \emph{generadors morfològics} es poden organitzar
 de forma molt similar: lligen símbol a símbol la forma lèxica i
 produeixen la forma superficial.
 
-\begin{figure}[h!]
-\includegraphics[angle=-90,scale=1.1]{angoixa}
-\caption{Detall de l'analitzador morfològic. L'estat inicial, indicat
-  amb una fletxa entrant, és el situat més a l'esquerra en el graf.}
-\label{fg:ang}
-\end{figure}
+%\begin{figure}[h!]
+%\includegraphics[angle=-90,scale=0.85]{angoixa}
+%\caption{Detall de l'analitzador morfològic. L'estat inicial, indicat
+%  amb una fletxa entrant, és el situat més a l'esquerra en el graf.}
+%\label{fg:ang}
+%\end{figure}
+
+
+\mbox{}
+\end{persabermes}
+
+
 
 
 \subsection{Sistemes de transferència sintàctica} 
@@ -805,28 +919,34 @@ manera molt natural en un sistema de transferència sintàctica.
 
 \subsection{Anàlisi sintàctica}
 \label{s3:ansyn}
-L'anàlisi sintàctica pressuposa l'existència d'una \emph{gramàtica}
-de la LO, és a dir, d'un conjunt de regles que descriuen com es
-construeixen, sintagma per sintagma, totes les frases vàlides de la
-LO:\footnote{Escriure una gramàtica que cobrisca completament totes
-  les possibles frases sintàcticament correctes d'una llengua és una
-  tasca que està molt lluny de ser trivial.} l'analitzador sintàctic
-actua després de l'analitzador morfològic, i obté l'\emph{arbre
-  d'anàlisi sintàctica} (o els arbres, si n'hi ha més d'un) a partir
-de la seqüència de categories lèxiques de la frase; cada arbre indica
-una possible combinació i ordre d'aplicació de regles que dóna lloc a
-la frase en qüestió.\footnote{Les regles són, en el fons, els
-  subarbres bàsics amb els quals es construeixen els arbres d'anàlisi
-  sintàctica de totes les frases sintàcticament acceptables; és a dir,
-  aquestes regles especifiquen com es pot construir un sintagma o {\em
-    constituent} a partir d'altres sintagmes i de categories
-  lèxiques.}  Els algorismes d'anàlisi sintàctica poden ser {\em
+L'anàlisi sintàctica pressuposa l'existència d'una \emph{gramàtica} de
+la LO, és a dir, d'un conjunt de regles que descriuen com es
+construeixen, sintagma per sintagma, les oracions vàlides de la
+LO. S'ha de tenir en compte que escriure una gramàtica que cobrisca
+completament totes les possibles frases sintàcticament correctes d'una
+llengua és una tasca que està molt lluny de ser trivial; per això, els
+analitzadors han de ser \emph{robustos} i ser capaços d'entregar
+anàlisis parcials o incompletes per a oracions que no estaven
+previstes. l'analitzador sintàctic actua després de l'analitzador
+morfològic, i obté l'\emph{arbre d'anàlisi sintàctica} (o els arbres,
+si n'hi ha més d'un) a partir de la seqüència de categories lèxiques
+de la frase; cada arbre indica una possible combinació i ordre
+d'aplicació de regles que dóna lloc a la frase en qüestió. Les regles
+solen correspondre's normalment amb els subarbres bàsics amb els quals
+es construeixen els arbres d'anàlisi sintàctica de totes les frases
+sintàcticament acceptables; és a dir, aquestes regles especifiquen com
+es pot construir un sintagma o {\em constituent} a partir d'altres
+sintagmes i de categories lèxiques.
+
+\begin{persabermes}{l'anàlisi sintàctica}  
+
+Els algorismes d'anàlisi sintàctica poden ser {\em
   ascendents} (anglés \emph{bottom-up}) quan construeixen l'arbre
 començant a partir de les fulles ---les categories lèxiques de cada
 mot--- anant cap a l'arrel ---el qual correspon al sintagma
 complet---, o \emph{descendents} (anglés \emph{top-down}), en cas
-contrari.\footnote{Recordeu que els arbres d'anàlisi sintàctica estan
-  ``cap per avall'': l'arrel és a dalt i les fulles, a baix.} Si la
+contrar (recordeu que els arbres d'anàlisi sintàctica estan
+  ``cap per avall'': l'arrel és a dalt i les fulles, a baix). Si la
 frase és estructuralment ambigua (vegeu l'apartat~\ref{ss:ambest}), té
 més d'un arbre d'anàlisi sintàctica: alguns analitzadors produeixen
 tots els arbres possibles; d'altres, n'elegeixen un (usant alguna
@@ -841,8 +961,6 @@ morfològic haja analitzat tota l'oració i (b) pot proveïr el mòdul de
 transferència amb anàlisis parcials que li poden servir per a anar
 preparant la traducció parcial de les parts ja analitzades.
 
-\subsubsection{Exemple d'anàlisi ascendent}
-
 Com a exemple, descriurem un tipus bastant estés d'analitzador
 ascendent, anomenat usualment GLR (\emph{generalized LR} o LR
 generalitzat, on LR és l'abreviació de \emph{left-to-right, rightmost
@@ -850,19 +968,18 @@ generalitzat, on LR és l'abreviació de \emph{left-to-right, rightmost
 Els analitzadors GLR lligen les categories lèxiques d'esquerra a
 dreta, les \emph{desplacen} a un tipus de memòria especial anomenat
 pila (és a dir, les hi \emph{apilen}) i quan el cim de la pila conté
-elements que segons la gramàtica 
-  i el context immediat posterior
-es poden agrupar en un subarbre, els
-desapila, els \emph{redueix} a un subarbre, i deixa el subarbre en el
-cim de la pila. Per a saber quan ha de desplaçar una categoria lèxica
-a la pila o quan i com ha de reduir el cim de la pila, té en compte
-una o més categories lèxiques de les que està a punt de llegir i un o
-més elements del cim de la pila, i fa l'acció que li indica una
-\emph{taula d'anàlisi sintàctica} que es construeix a partir de la
-gramàtica que s'haja proposat per a la llengua origen i que l'analitzador
- consulta en cada pas de l'anàlisi.\footnote{L'ús de la
-  taula permet construir el programa analitzador independentment de la
-  gramàtica concreta: si canvia la gramàtica, només canvia la taula.}
+elements que segons la gramàtica i el context immediat posterior es
+poden agrupar en un subarbre, els desapila, els \emph{redueix} a un
+subarbre, i deixa el subarbre en el cim de la pila. Per a saber quan
+ha de desplaçar una categoria lèxica a la pila o quan i com ha de
+reduir el cim de la pila, té en compte una o més categories lèxiques
+de les que està a punt de llegir i un o més elements del cim de la
+pila, i fa l'acció que li indica una \emph{taula d'anàlisi sintàctica}
+que es construeix a partir de la gramàtica que s'haja proposat per a
+la llengua origen i que l'analitzador consulta en cada pas de
+l'anàlisi. L'ús de la taula permet construir el programa analitzador
+independentment de la gramàtica concreta: si canvia la gramàtica,
+només canvia la taula.
 
 Un exemple servirà per a il·lustrar tots aquests conceptes. Imaginem
 la següent gramàtica simplificada que accepta un bon nombre d'oracions
@@ -886,24 +1003,12 @@ d'anàlisi sintàctica per a oracions com ara ``L'home porta la clau de
 l'armari gran''.
 
 Usant un algorisme estàndard que no ve al cas detallar ací, la
-gramàtica es transforma en la taula d'anàlisi sintàctica corresponent
-(taula~\ref{tb:tabansyn}), que indica què cal fer en cada pas de
-l'anàlisi. En la taula, el símbol $\bullet$ indica tant el principi
-com el final de la oració (l'anàlisi d'una oració comença apilant
-$\bullet$ en la pila). Quan la situació a la qual s'arriba no està
-prevista en la taula, és perquè l'oració no és correcta d'acord amb la
-gramàtica donada; aquesta situació d'error s'ha de resoldre de manera
-que l'anàlisi puga continuar, encara que el resultat siga una anàlisi
-parcial, ja que ens interessa produir una traducció aproximada; el
-tractament de les situacions d'error és complex i cau fora de l'abast
-d'aquest llibre. Quan en una situació hi ha més d'una acció possible
----circumstància que pot ser deguda, com en l'exemple, al fet que la
-gramàtica és ambigua--- es pot fer una d'aquestes dues coses: elegir
-sempre una acció fixa o bé ``duplicar'' l'analitzador de manera que cada
-còpia continue l'anàlisi per cada un dels camins.
+gramàtica es transforma en la taula d'anàlisi sintàctica corresponent:
 
-\begin{table}[htbp]
-  \begin{tabular}{l|l|l}
+
+
+\begin{center}
+    \begin{tabular}{l|l|l}
   \hline
   \textsf{Si el cim de la pila és\ldots} & \textsf{I hi ha a la vista\ldots} & \textsf{L'acció pertinent
   és\ldots} \\
@@ -972,12 +1077,23 @@ còpia continue l'anàlisi per cada un dels camins.
 %  $[_{SP} \textbf{prep}  [_{SN} \cdots ] ]$ \\
   \hline
   \end{tabular}
-  \caption{Taula d'anàlisi sintàctica per a les oracions senzilles
-  descrites per la gramàtica de la p.~\pageref{pg:gramsenz}. Les
-  situacions no previstes indiquen que l'oració d'entrada no és
-  acceptada per la gramàtica i donen lloc a una situació d'error.}
-  \label{tb:tabansyn}
-\end{table}
+\end{center}
+
+Aquesta taula indica què cal fer en cada pas de l'anàlisi. En la
+taula, el símbol $\bullet$ indica tant el principi com el final de la
+oració (l'anàlisi d'una oració comença apilant $\bullet$ en la
+pila). Quan la situació a la qual s'arriba no està prevista en la
+taula, és perquè l'oració no és correcta d'acord amb la gramàtica
+donada; aquesta situació d'error s'ha de resoldre de manera que
+l'anàlisi puga continuar, encara que el resultat siga una anàlisi
+parcial, ja que ens interessa produir una traducció aproximada; el
+tractament de les situacions d'error és complex i cau fora de l'abast
+d'aquest llibre. Quan en una situació hi ha més d'una acció possible
+---circumstància que pot ser deguda, com en l'exemple, al fet que la
+gramàtica és ambigua--- es pot fer una d'aquestes dues coses: elegir
+sempre una acció fixa o bé ``duplicar'' l'analitzador de manera que
+cada còpia continue l'anàlisi per cada un dels camins.
+
 
 Vegem com es faria l'anàlisi de l'oració (no ambigua)
 \begin{example}
@@ -988,10 +1104,8 @@ de categories lèxiques:
 \begin{example}
 \textbf{det} \textbf{n} \textbf{v} \textbf{det} \textbf{n} \mbox{$\bullet$}
 \end{example}
-L'anàlisi, pas a pas, es mostra en la taula~\ref{tb:traca}.
-
-
-\begin{table}[htbp]
+L'anàlisi, pas a pas, és la següent:
+\begin{center}
   \begin{tabular}{l|r|l}
   \hline
   Pila & Entrada restant\ldots & Acció  \\
@@ -1076,16 +1190,10 @@ L'anàlisi, pas a pas, es mostra en la taula~\ref{tb:traca}.
   \\
   \hline
   \end{tabular}
-  \caption{Anàlisi sintàctica de la seqüència de categories lèxiques 
-  \textbf{det} \textbf{n} \textbf{v} \textbf{det} \textbf{n} $\bullet$
-  segons
-  les accions especificades en la 
-  taula~\ref{tb:tabansyn}.}
-  \label{tb:traca}
-\end{table}
+\end{center}
+\end{persabermes}
 
-
-\comprof{No sé si posar algun exemple de frase errònia o ambigua...}
+%\comprof{No sé si posar algun exemple de frase errònia o ambigua...}
 
 \subsection{Sistemes de transferència semàntica}
 
@@ -1144,13 +1252,18 @@ L'anàlisi, pas a pas, es mostra en la taula~\ref{tb:traca}.
     interlingua}}
 \label{ss:interlingua}
 
-Els sistemes anomenats d'\emph{interlingua} apareixen en el cas extrem
-en què l'anàlisi de la frase d'origen és tan profunda que 
-la traducció es pot generar directament a partir d'aquesta sense fer-hi
-transferència (vegeu la fig.~\ref{fg:triangle}). En particular, es parla d'\emph{interlingua} quan la
-representació interna que s'obté de l'anàlisi és independent
+Els sistemes anomenats d'\emph{interlingua}\footnote{S'ha de tenir en
+  compte que el terme \emph{interlingua} es pot referir també a una
+  llengua internacional planificada ---no tan famosa com
+  l'\emph{esperanto}--- molt basada en el llatí i amb vocabulari
+  europeu, i que no té res a veure amb la traducció automàtica.}
+apareixen en el cas extrem en què l'anàlisi de la frase d'origen és
+tan profunda que la traducció es pot generar directament a partir
+d'aquesta sense fer-hi transferència (vegeu la
+fig.~\ref{fg:triangle}). En particular, es parla d'\emph{interlingua}
+quan la representació interna que s'obté de l'anàlisi és independent
 de quines siguen la LO i la LM, és a dir, la interlingua és {\em
-lingüísticament  neutral}. 
+  lingüísticament neutral}.
 
 
 
@@ -1172,7 +1285,7 @@ les relacions semàntiques entre els elements de la frase (de l'estil
 de les de la solució a l'exercici~\ref{exer:agradar}). Però les
 interlingües no han de ser necessàriament el resultat d'una anàlisi
 profunda: el que han de ser necessàriament és \emph{neutrals}; per
-exemple, alguns sistemes com DLT \citep[cap.~17]{hutchins92b} usen com
+exemple, alguns sistemes històrics com DLT \citep[cap.~17]{hutchins92b} usen com
 a una llengua \emph{pivot} ``natural'' com l'esperanto, amb anotacions
 que resolen algunes ambigüitats típiques.\footnote{Aquesta aproximació
   pot ser particularmentt útil quan les llengües entre les quals ha de
@@ -1186,7 +1299,7 @@ totes les llengües, les interlingües clàssiques acabarien per ser
 desenvolupat sistemes d'interlingua clàssics per a àmbits temàtics
 molt concrets.
 
-Un dels avantatges més importants de tots sistemes d'interlingua respecte
+Un dels avantatges més importants dels sistemes d'interlingua respecte
 dels sistemes de transferència és la facilitat amb què es pot afegir
 una llengua nova a un sistema de traducció automàtica multilingüe.
 Imaginem tres llengües que anomenarem $L_1$, $L_2$ i $L_3$. Un sistema
@@ -1524,11 +1637,11 @@ d'aproximacions successives sobre la traducció automàtica \emph{ideal}:
   estructural és parcial i local i només es fa on és necessària.
   Aquesta aproximació és l'aproximació de la \emph{transferència
     parcial}. Els sistemes anomenats \emph{transformers} o també de
-  transferència morfològica (vegeu~\ref{s3:STMorf})
+  transferència morfològica avançada (vegeu~\ref{s3:STMorf})
   \citep[4.2]{arnold94b}, molts dels quals estan disponibles per
-  internet\footnote{Per exemple, SDL Transcend està disponible en
+  Internet,\footnote{Per exemple, SDL Transcend està disponible en
     \url{http://www.freetranslation.com} i Reverso, en
-    \url{http://www.reverso.net}.}, són exemples d'aquesta
+    \url{http://www.reverso.net}.} són exemples d'aquesta
   aproximació.
 \end{enumerate}
 
@@ -1765,8 +1878,8 @@ adequada un sistema de traducció automàtica?
 \begin{enumerate}
 \item ... produeix un arbre d'anàlisi.
 \item ... produeix, per a cada mot, totes les formes superficials corresponents.
-\item ... produeix, per a cada mot, totes les parelles
-  lema--informació morfològica possibles.
+\item ... produeix, per a cada mot, totes les tripletes
+  lema--categoria--informació morfològica possibles.
 \end{enumerate}
 
 
@@ -1782,7 +1895,7 @@ adequada un sistema de traducció automàtica?
 automàtica faciliten més l'addició d'una nova 
 llengua?
 \begin{enumerate}
-\item Els sistemes de transferència morfològica.
+\item Els sistemes de transferència morfològica avançada.
 \item Els sistemes de transferència semàntica superficial.
 \item Els sistemes d'\emph{interlingua}.
 \end{enumerate}
@@ -1791,7 +1904,7 @@ llengua?
 \item Quin dels següents tipus de sistema de traducció
 automàtica tenen la fase de transferència més senzilla possible?
 \begin{enumerate}
-\item Els sistemes de transferència morfològica
+\item Els sistemes de transferència morfològica avançada
 \item Els sistemes de transferència semàntica superficial
 \item Els sistemes d'\emph{interlingua}
 \end{enumerate}
@@ -2016,13 +2129,13 @@ Lluc'' i ``Lluc veu David''?
 \item En un sistema de transferència semàntica o d'interlingua clàssic.
 \item En un sistema de transferència sintàctica
 \end{enumerate}
-\item Quantes llengües (naturals) ha de conéixer l'equip d'experts
+\item Quantes llengües naturals ha de conéixer l'equip d'experts
    que ha d'incorporar una nova llengua a un sistema de traducció
    automàtica basat en interlingua que ja en té 7?
    
 \begin{enumerate}
 \item Set.
-\item Una
+\item Una.
 \item Vuit.
 \end{enumerate}
 \item Com més profunda és l'anàlisi en un sistema de traducció
@@ -2053,8 +2166,8 @@ Lluc'' i ``Lluc veu David''?
 \begin{enumerate}
 \item Els sistemes de transferència semàntica fan
      anàlisi semàntica sense fer anàlisi sintàctica.
-\item Els sistemes de transferència sintàctica usen
-     informació únicament monolingüe en dues de les tres fases.
+\item Els sistemes de transferència sintàctica usen únicament 
+     informació monolingüe en dues de les tres fases.
 \item La fase de transferència d'un sistema de transferència
      sintàctica es realitza basant-se en el fet que els arbres
      d'anàlisi sintàctica són invariables.
@@ -2130,7 +2243,7 @@ sentit com en l'altre) entre totes les llengües existents i la nova?
 \item {\ldots} es tracta d'un mot homògraf.
 \item {\ldots} probablement un sistema autòmatic haurà de
     recòrrer a informació estadística o regles sobre el context
-    per triar-ne una.
+    per triar una de les solucions.
 \end{enumerate}
 
 \item En un corpus de textos en espanyol sobre economia de 925.461
