@@ -455,23 +455,22 @@ $\downarrow$ \\
 \framebox{\parbox{10cm}{
 \begin{center}
 $\downarrow$ \\
-\framebox{ANÀLISI 
-          MORFOLÒGICA} \\
+\framebox{\textbf{Anàlisi morfològica}} \\
 $\downarrow$ \\
 \texttt{\ldots} , \\
-\texttt{art[lema=the, nbr=?],} \\
-\texttt{n[lema=complex, nbr=sg] + adj[lema=complex, nbr=?],} \\
-\texttt{n[lema=situation, nbr=pl], }\\
+\texttt{det[lema="the"],} \\
+\texttt{n[lema="{}complex", nbr="sg"] + adj[lema="{}complex"],} \\
+\texttt{n[lema="situation", nbr="pl"], }\\
 \texttt{\ldots} \\
 $\downarrow$ \\
 \framebox{\parbox{9cm}{\begin{center}
-          DESAMBIGUACIÓ CATEGORIAL\\
+          \textbf{Desambiguació categorial}\\
           Regles: \\
           \ldots \\
           \framebox{\parbox{7cm}{
-           $$\mbox{art} \left\{ \begin{array}{c}\mbox{n} \\
+           $$\mbox{det} \left\{ \begin{array}{c}\mbox{n} \\
                 \mbox{adj}\end{array}\right\} \mbox{n} \rightarrow
-            \mbox{adj}$$}} \\
+            \mbox{det}\; \mbox{adj}\; \mbox{n}$$}} \\
           \ldots \\
           \end{center} 
           }} \\
@@ -480,30 +479,33 @@ $\downarrow$
 }
 } \\
 $\downarrow$ \\
-REPRESENTACIÓ ABSTRACTA DEL TEXT ORIGEN: \\
+\textbf{Representació abstracta del text origen:} \\
 \texttt{\ldots} , \\
-\texttt{art[lema=the, nbr=?],} \\
-\texttt{adj[lema=complex, nbr=?],} \\
-\texttt{n[lema=situation, nbr=pl], }\\
+\texttt{det[lema="the"],} \\
+\texttt{adj[lema="{}complex"],} \\
+\texttt{n[lema="situation", nbr="pl"], }\\
 \texttt{\ldots} \\
 \end{center}
 }%textsf
 \caption{Fase d'anàlisi d'un sistema senzill de transferència
-  morfològica avançada}
+  morfològica avançada. El segment de text \emph{the complex
+    situations} conté el mot \emph{complex} que pot ser un adjectiu
+  (\textsf{adj}) o un substantiu (\textsf{n}); entre les regles del
+  desambiguador categorial hi ha una regla que en aquest cas assigna
+  la categoria d'adjectiu quan va entre un determinant i un
+  substantiu.}
 \label{fg:tmaa}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{figure}
 \textsf{
 \begin{center}
-REPRESENTACIÓ ABSTRACTA DEL TEXT ORIGEN: \\
+\textbf{Representació abstracta del text origen:} \\
 \texttt{\ldots} , \\
-\texttt{art[lema=the, nbr=?],} \\
-\texttt{adj[lema=complex, nbr=?],} \\
-\texttt{n[lema=situation, nbr=pl], }\\
+\texttt{art[lema="the"],} \\
+\texttt{adj[lema="complex"],} \\
+\texttt{n[lema="situation", nbr="pl"], }\\
 \texttt{\ldots} \\
 $\downarrow$ \\ 
 \parbox{10cm}{\hfill \textbf{TRANSFERÈNCIA}}
@@ -511,71 +513,79 @@ $\downarrow$ \\
 \begin{center}
 \framebox{\parbox{9cm}{
 \begin{center}
-REGLES DE REORDENAMENT I CONCORDANÇA: \\
-\ldots \\[0.2cm]
-\framebox{\parbox{8cm}{
-\begin{center}
-$\mbox{\textbf{art}}\;\mbox{\textbf{adj}}\;\mbox{\textbf{n}}\;\rightarrow\;\mbox{\textbf{art}}\;\mbox{\textbf{n}}\;\mbox{\textbf{adj}}$\\
-Propaga \{\texttt{gen}, \texttt{nbr}\} de \textbf{n} a
-\textbf{art}, \textbf{adj}
-\end{center}
-}}\\[0.2cm]
-\ldots
-\end{center}
-}} 
-\\[0.2cm]
-\framebox{\parbox{9cm}{
-\begin{center}
-DICCIONARI BILINGÜE: \\
+\textbf{Transferència lèxica:}\\
+diccionari bilingüe \\
 \ldots \\
 complex \textbf{adj} $\rightarrow$ complex \textbf{adj} \\
 \ldots \\
 situation \textbf{n} $\rightarrow$ situació \textbf{n}, \texttt{gen=f} \\
 \ldots \\
-the \textbf{art} $\rightarrow$ el \textbf{art} \\
+the \textbf{det} $\rightarrow$ el \textbf{det} \\
 \ldots \\
+\end{center}
+}} 
+\\[0.2cm]
+\framebox{\parbox{9cm}{
+\begin{center}
+ \textbf{Transferència estructural}\\
+ (regles de reordenament i concordança) \\
+ \ldots \\[0.2cm]
+ \framebox{\parbox{8cm}{
+ \begin{center}
+ $\mbox{\textbf{det}}\;\mbox{\textbf{adj}}\;\mbox{\textbf{n}}\;\rightarrow\;\mbox{\textbf{det}}\;\mbox{\textbf{n}}\;\mbox{\textbf{adj}}$\\
+ Propaga \texttt{gen} de \textbf{n} a
+ \textbf{det}, \textbf{adj}
+ \\
+ Propaga \texttt{nbr} de \textbf{n} a
+ \textbf{det}, \textbf{adj}
+ \end{center}
+ }}\\[0.2cm]
+\ldots
 \end{center}
 }} \\
 \end{center}
 }}
  \\
 $\downarrow$ \\
-REPRESENTACIÓ ABSTRACTA DEL TEXT META: \\
+\textbf{Representació abstracta del text meta}: \\
 \texttt{\ldots} , \\
-\texttt{art[lema=el, nbr=pl, gen=f],} \\
-\texttt{adj[lema=complex, nbr=pl, gen=f],} \\
-\texttt{n[lema=situació, nbr=pl, gen=f], }\\
+\texttt{det[lema="el", nbr="pl", gen="f"],} \\
+\texttt{adj[lema="{}complex", nbr="pl", gen="f"],} \\
+\texttt{n[lema="situació", nbr="pl", gen="f"], }\\
 \texttt{\ldots} 
 \end{center}
 }%textsf
 
 \caption{Fase de transferència d'un sistema senzill de transferència
-  morfològica avançada, amb regles de reordenament i de concordança}
+  morfològica avançada, amb regles de transferència estructural que
+  fan el reordenament i la concordança, entre les quals hi ha la regla per reordenar la seqüència determinant--adjectiu--substantiu i assegurar la concordança de nombre i gènere en la llengua meta.}
 \label{fg:tmat}
 \end{figure}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \textsf{
 \begin{center}
-REPRESENTACIÓ ABSTRACTA DEL TEXT META: \\
+\textbf{Representació abstracta del text meta:} \\
 \texttt{\ldots} , \\
-\texttt{art[lema=el, nbr=pl, gen=f],} \\
-\texttt{adj[lema=complex, nbr=pl, gen=f],} \\
-\texttt{n[lema=situació, nbr=pl, gen=f], }\\
-\texttt{\ldots} \\
+\texttt{det[lema="el", nbr="pl", gen="f"],} \\
+\texttt{adj[lema="{}complex", nbr="pl", gen="f"],} \\
+\texttt{n[lema="situació", nbr="pl", gen="f"], }\\
+\texttt{\ldots} 
 $\downarrow$ \\
 \parbox{10cm}{\hfill \textbf{GENERACIÓ}}
 \framebox{\parbox{10cm}{
 \begin{center}
 \framebox{\parbox{9cm}{
-GENERACIÓ MORFOLÒGICA
+\textbf{Generació morfològica}
 }}
 \end{center}
 }} \\
 $\downarrow$ \\
-TEXT META: \\
+\textbf{Text meta}: \\
 \textsl{\ldots les situacions complexes \ldots}
 \end{center}
 }
