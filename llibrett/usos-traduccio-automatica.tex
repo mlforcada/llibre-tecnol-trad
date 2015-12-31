@@ -1,14 +1,13 @@
 \chapter{La traducció automàtica i les seues aplicacions}
-\label{se:UTA}
-\label{se:TiTA}
-% dos etiquetes per si cal agarrar-ho tot.
+\label{se:UTA} \label{se:TiTA} % dos etiquetes per si cal agarrar-ho tot.
 
 Una de les aplicacions més importants de la informàtica a la traducció
-és la \emph{traducció automàtica} (TA).  Abans de considerar
+és la \emph{traducció automàtica} (TA). Però abans de considerar
 l'automatització de la traducció i les seues aplicacions fóra bo que
 ens paràrem un poc per a discutir què vol dir exactament el mot
-\emph{traducció}. Sobre la relació entre traducció humana i traducció
-automàtica, vegeu la secció~\ref{ss:humaut}.
+\emph{traducció}. Més endavant, en la secció~\ref{ss:humaut},
+discutirem sobre la relació entre traducció humana i traducció
+automàtica.
 
 \section{Què és la traducció?}
 \label{ss:trad}
@@ -28,78 +27,72 @@ text en una llengua origen (LO) per a fer-lo adequat a un propòsit
 nou'', però encara no descriu la naturalesa de la modificació.
 
 Com a producte, una \emph{traducció} es pot identificar com a tal
-perquè és un document (en LM)  derivat d'un altre document en un altre
+perquè és un document (en LM) derivat d'un altre document en un altre
 idioma (LO), i que manté una certa similitud de contingut amb aquest.
 
 Es poden dir encara més coses sobre la traducció:
 \begin{itemize}
-\item les traduccions solen estar escrites en un subllenguatge particular
-(registre, especialitat...) de la comunitat lingüística de la LM, basat en un subllenguatge
-paral$\cdot$lel de la LO;
-\item els documents i les traduccions corresponents es poden classificar en
-tipus\footnote{Per exemple, \emph{carta comercial}, \emph{edicte municipal},
-  \emph{comentari editorial}, \emph{manual tècnic informàtic} o \emph{recull de poemes}. } i aquesta tipologia afecta la traducció;
-\item la traducció es veu afectada per elements
-extralingüístics perquè, normalment, els documents són
-entitats que uneixen l'expressió lingüística amb
-l'expressió no lingüística;
-\item les traduccions tenen un \emph{receptor} o \emph{lector}; una 
-traducció, com a acte comunicatiu ha de considerar, a  més de la
-intenció de la traducció, les expectatives dels
-lectors, que resulten del seu rerefons cultural i de les seues necessitats
-comunicatives, i que influeixen en la recepció del text traduït;
-\item la traducció sempre té una motivació: la superació de
-barreres comunicatives; per això se n'ha creat una professió. 
+\item les traduccions solen estar escrites en un subllenguatge
+  particular (registre, especialitat, etc.) de la comunitat
+  lingüística de la LM, basat en un subllenguatge paral·lel de la LO;
+\item els documents i les traduccions corresponents es poden
+  classificar en tipus\footnote{Per exemple, \emph{carta comercial},
+    \emph{edicte municipal}, \emph{comentari editorial}, \emph{manual
+      tècnic informàtic} o \emph{recull de poemes}. } i aquesta
+  tipologia afecta la traducció;
+\item la traducció es veu afectada per elements extralingüístics
+  perquè, normalment, els documents són entitats que uneixen
+  l'expressió lingüística amb l'expressió no lingüística;
+\item les traduccions tenen un \emph{receptor} o \emph{lector}; una
+  traducció, com a acte comunicatiu ha de considerar, a més de la
+  intenció de la traducció, les expectatives dels lectors, que
+  resulten del seu rerefons cultural i de les seues necessitats
+  comunicatives, i que influeixen en la recepció del text traduït;
+\item la traducció sempre té una motivació: la superació de barreres
+  comunicatives; per això se n'ha creat una professió.
 \end{itemize}
 
-Es pot aprofundir un poc més en la definició de
-traducció que hem considerat més amunt, revisant definicions
-existents (algunes preses de \citealt{sager93b}):
+Es pot aprofundir un poc més en la definició de traducció que hem
+considerat més amunt, revisant definicions existents (algunes preses
+de \citealt{sager93b}):
 \begin{itemize}
-\item \citet[p.~19]{nida59b}: ``La traducció consisteix a produir en la llengua meta
-l'equivalent natural més proper del missatge en la llengua origen,
-primerament quant al significat i segonament quant a l'estil.'' Sager diu
-que, més que \emph{natural} (en sentit absolut) caldria dir \emph{adequat}
-(a la tasca concreta). Aquesta definició introdueix dues de les tres
-dimensions bàsiques d'un document escrit (original o traduït):
-el \emph{contingut} (significat) i la \emph{forma} (estil), però oblida el 
-\emph{propòsit}. 
+\item \citet[p.~19]{nida59b}: ``La traducció consisteix a produir en
+  la llengua meta l'equivalent natural més proper del missatge en la
+  llengua origen, primerament quant al significat i segonament quant a
+  l'estil.'' Sager diu que, més que \emph{natural} (en sentit absolut)
+  caldria dir \emph{adequat} (a la tasca concreta). Aquesta definició
+  introdueix dues de les tres dimensions bàsiques d'un document escrit
+  (original o traduït): el \emph{contingut} (significat) i la
+  \emph{forma} (estil), però oblida el \emph{propòsit}.
 \item \citet{flamand83b}: traduir és representar amb precisió
-(fidelitat a l'autor) un missatge
-en LO 
-en una forma autèntica i correcta de la LM,
-adaptada al contingut i al receptor (fidelitat al lector)''. El problema
-d'aquesta definició
-és la indefinició del concepte de \emph{fidelitat}.
+  (fidelitat a l'autor) un missatge en LO en una forma autèntica i
+  correcta de la LM, adaptada al contingut i al receptor (fidelitat al
+  lector)''. El problema d'aquesta definició és la indefinició del
+  concepte de \emph{fidelitat}.
 \item \citet{jakobson66b}: ``Traducció és la interpretació de signes
-verbals per mitjà d'una altra llengua''. Aquesta definició evita el
-concepte d'\emph{equi\-va\-lèn\-cia} i introdueix el d'\emph{interpretació}
-com a conjunt de processos cognitius que tenen lloc en la ment del
-traductor.
+  verbals per mitjà d'una altra llengua''. Aquesta definició evita el
+  concepte d'\emph{equi\-va\-lèn\-cia} i introdueix el
+  d'\emph{interpretació} com a conjunt de processos cognitius que
+  tenen lloc en la ment del traductor.
 \item En el \emph{Diccionari de la Llengua
-    Catalana}\footnote{Editorial Enciclopedia Catalana, 7a ed.,
-    1987-}  
-es defineix {\em
-    traducció} com la
-``reproducció del contingut
-d'un text o d'un enunciat oral, formulat en una llengua, en formes
-pròpies d'una altra llengua'' (i \emph{traduir} com  ``escriure o dir en una
-llengua allò que ha estat escrit o dit en una altra''). La 
-definició
-inclou, per tant, el tractament i la producció de missatges
-no textuals (orals).
-\item \citet{alcaraz97b} defineixen
-  traducció com ``expresión de un
-enunciado en la lengua de llegada [lengua meta] que sea equivalente al de la
-lengua de partida [lengua origen]''; queda per definir la noció
-d'\emph{equivalència}, que els mateixos autors defineixen així: ``la
-posesión del mismo valor por parte de los enunciados de la lengua de
-partida y de la de llegada''; l'equivalència pot ser {\em
-semàntica}, \emph{estilística} i \emph{textual}. 
+    Catalana}\footnote{Editorial Enciclopedia Catalana, 7a ed., 1987-}
+  es defineix {\em traducció} com la ``reproducció del contingut d'un
+  text o d'un enunciat oral, formulat en una llengua, en formes
+  pròpies d'una altra llengua'' (i \emph{traduir} com ``escriure o dir
+  en una llengua allò que ha estat escrit o dit en una altra''). La
+  definició inclou, per tant, el tractament i la producció de
+  missatges no textuals (orals).
+\item \citet{alcaraz97b} defineixen traducció com ``expresión de un
+  enunciado en la lengua de llegada [lengua meta] que sea equivalente
+  al de la lengua de partida [lengua origen]''; queda per definir la
+  noció d'\emph{equivalència}, que els mateixos autors defineixen
+  així: ``la posesión del mismo valor por parte de los enunciados de
+  la lengua de partida y de la de llegada''; l'equivalència pot ser
+  {\em semàntica}, \emph{estilística} i \emph{textual}.
 \end{itemize}
 
 Per a acabar aquest apartat, convé esmentar alguns processos que no
-s'anomenaran \emph{traducció} en aquest curs:
+s'anomenaran \emph{traducció} en el context d'aquest llibre:
 \begin{itemize}
 \item l'adaptació de textos antics a la forma moderna d'un idioma;
 \item la traducció de mots i frases quan s'ensenya un nou idioma;
@@ -107,27 +100,26 @@ s'anomenaran \emph{traducció} en aquest curs:
 \item la codificació (en Morse, etc.).
 \end{itemize}
 
-
 \section{Traducció automàtica}
 \label{ss:TA}
 
-\subsection{Definició}
+%\subsection{Definició}
 
 La traducció automàtica (TA) es pot definir com el procés (o el
-producte) de traduir un text informatitzat\footnote{Anomenarem {\em
-    text informatitzat} un fitxer d'ordinador que conté un text
-  codificat en un format conegut (vegeu el capítol~\ref{se:EPT}), i que pot ser editar amb un editor o amb un processador de textos adequat.  }
-en una llengua origen a un text informatitzat en una llengua meta
-mitjançant l'ús d'un programa d'ordinador. Normalment es reserva la
-denominació \emph{traducció automàtica} per a la completament
-automàtica; quan s'hi produeix intervenció humana es parla de {\em
-  traducció assistida per l'ordinador} o de \emph{traducció
-  semi-automàtica}.  El resultat de la traducció automàtica és
-normalment un producte bastant diferent a la traducció professional, i
-en la majoria dels casos no es pot usar en el seu lloc tal com
-està; per això, el capítol~\ref{se:UTA} està dedicat a analitzar les
-diverses modalitats d'interacció entre persones i màquines en
-traducció.
+producte) de traduir un text informatitzat\footnote{Anomenarem
+  \emph{text informatitzat} un fitxer que conté un text codificat en
+  un format conegut (vegeu el capítol~\ref{se:EPT}), i que pot ser
+  editar amb un editor o amb un processador de textos adequat.} en una
+llengua origen a un text informatitzat en una llengua meta mitjançant
+l'ús d'un programa d'ordinador. Normalment es reserva la denominació
+\emph{traducció automàtica} per a la completament automàtica; quan
+s'hi produeix intervenció humana es parla de {\em traducció assistida
+  per l'ordinador} o de \emph{traducció semi-automàtica}.  El resultat
+de la traducció automàtica és normalment un producte bastant diferent
+a la traducció professional, i en la majoria dels casos no es pot usar
+en el seu lloc tal com està; per això, el capítol~\ref{se:UTA} està
+dedicat a analitzar les diverses modalitats d'interacció entre
+persones i màquines en traducció.
 
 Un aclariment és necessari sobre el tractament dels textos
 informatitzats. Quan els programes de traducció automàtica i
@@ -145,26 +137,24 @@ aquest llibre---, però hi ha programes més avançats que són fins i tot
 capaços d'usar la informació de les etiquetes com a context per a
 elegir una traducció on hi ha més d'una alternativa.
 
- Les referències que s'han fet en l'epígraf~\ref{ss:trad} al propòsit o
+Les referències que s'han fet en l'epígraf~\ref{ss:trad} al propòsit o
 motivació de la traducció i a la tipologia dels documents que han de
 ser traduïts són també molt importants a l'hora d'analitzar la
 traducció automàtica.
 
 
-\subsection{Sobre el nom en altres llengües}
-
-Convé comentar de pas que en anglés, la traducció automàtica s'anomena
-\emph{machine translation} i s'abreuja MT, paral$\cdot$lelament a
-l'alemany, que usa la denominació \emph{maschinelle übersetzung}; en
-aquestes dues llengües s'expressa la noció d'automatisme mitjançant la
-referència a una {\em màquina}. En canvi, en francés es parla, com en
-català o en espanyol, de {\em traduction automatique}. Altres
-llengües, com ara el neerlandés, usen un mot compost amb la paraula
-\emph{ordinador}: \emph{Computervertaling}.
+\paragraph{Sobre el nom en altres llengües.}
+En anglés, la traducció automàtica s'anomena \emph{machine
+  translation} i s'abreuja MT, paral·lelament a l'alemany, que usa la
+denominació \emph{maschinelle übersetzung}; en aquestes dues llengües
+s'expressa la noció d'automatisme mitjançant la referència a una {\em
+  màquina}. En canvi, en francés es parla, com en català o en
+espanyol, de {\em traduction automatique}. Altres llengües, com ara el
+neerlandés, usen un mot compost amb la paraula \emph{ordinador}:
+\emph{Computervertaling}.
 
 \begin{persabermes}{la història de la traducció automàtica}
-
-  La major part del discutit en aquest apartat està pres dels treballs
+  La major part del discutit d'aquest apartat està pres dels treballs
   de John Hutchins, especialment de \cite{hutchins1995} i
   \cite{hutchins2001}. El Dr.\ John Hutchins és considerat
   l'historiador de la traducció automàtica, i fins fa poc mantenia
@@ -172,277 +162,274 @@ llengües, com ara el neerlandés, usen un mot compost amb la paraula
   reproduccions facsímils de molts articles dels inicis d'aquesta
   disciplina.
 
-\paragraph{Els pioners, fins 1954:} La traducció mitjançant màquines
-és una ambició humana des de fa segles que no es va fer realitat fins
-al XX. No feia molt que s'havia creat el primer ordinador, quan ja es
-va començar a pensar en la possibilitat d'usar-los per a traduir
-llenguatges humans.
+  \paragraph{Els pioners, fins 1954:} La traducció mitjançant màquines
+  és una ambició humana des de fa segles que no es va fer realitat
+  fins al segle XX. No feia molt que s'havia creat el primer
+  ordinador, quan ja es va començar a pensar en la possibilitat
+  d'usar-los per a traduir llenguatges humans.
 
-Tot i que en els decennis dels 1930 i 1940 hi va haver alguns treballs
-precursors, és als primers cinquanta quan comença realment la recerca
-en TA en moltes universitats arreu al món, especialment als Estats
-Units. Els recursos de maquinari, programari i llenguatges de
-programació eren massa reduïts i la primera aproximació va ser la
-traducció mot per mot basada en diccionari amb algunes regles
-senzilles de reordenament (de vegades erròniament anomenada
-\emph{traducció directa}, vegeu l'apartat~\ref{ss:traddir}). Aquesta
-manca de recursos va fer que els primers objectius foren molt modests
-i, així, els primers investigadors van concentrar-se en el
-desenvolupament de llenguatges controlats (vegeu~\ref{ss:llecon}) i en
-l'ajuda humana en tasques de preedició i postedició
-(vegeu~\ref{ss:preedposted}); era prou clar que els sistemes reals no
-podrien produir més que traduccions de molt baixa qualitat.  El 1952
-es va celebrar als Estats Units el primer congrés sobre TA on es van
-definir les línies fonamentals a seguir.
+  Tot i que en els decennis dels 1930 i 1940 hi va haver alguns
+  treballs precursors, és als primers cinquanta quan comença realment
+  la recerca en TA en moltes universitats arreu del món, especialment
+  als Estats Units. Els recursos de maquinari, programari i
+  llenguatges de programació eren massa reduïts i la primera
+  aproximació va ser la traducció mot per mot basada en diccionari amb
+  algunes regles senzilles de reordenament (de vegades erròniament
+  anomenada \emph{traducció directa}, vegeu
+  l'apartat~\ref{ss:traddir}). Aquesta manca de recursos va fer que
+  els primers objectius foren molt modests i, així, els primers
+  investigadors van concentrar-se en el desenvolupament de llenguatges
+  controlats (vegeu~\ref{ss:llecon}) i en l'ajuda humana en tasques de
+  preedició i postedició (vegeu~\ref{ss:preedposted}); era prou clar
+  que els sistemes reals no podrien produir més que traduccions de
+  molt baixa qualitat.  El 1952 es va celebrar als Estats Units el
+  primer congrés sobre TA on es van definir les línies fonamentals a
+  seguir.
 
-\paragraph{El decenni de l'optimisme, 1954--1966:}
-La primera demostració pública d'un sistema de TA va ser desenvolupada
-per IBM i la Universitat Georgetown el 1954.  Es va traduir a l'anglés
-un conjunt de 49 frases en rus usant un diccionari de només 250 mots i
-6 regles gramaticals; aquestes llengues van ser les elegides per raons
-geopolítiques per als primers sistemes de TA.  que els resultats no
-eren massa bons, el públic i la indústria van creure que en uns anys
-es podrien aconseguir traduccions automàtiques de qualitat de
-documents científics i tècnics.  Aquesta idea es va reforçar pel fet
-que van començar a aparèixer millores significatives en el maquinari,
-els primers llenguatges de programació i moltes millores en la
-lingüística formal (especialment en l'àrea de la
-sintaxi). L'entusiasme va fer que es finançaren un gran nombre de projectes
-entre la meitat dels 50 i la meitat dels 60, projectes dins els quals
-van nàixer la major part de les tècniques actuals, com ara la
-traducció indirecta per transferència o la traducció per interlingua
-(vegeu el capítol~\ref{se:TdTA}).
+  \paragraph{El decenni de l'optimisme, 1954--1966:}
+  La primera demostració pública d'un sistema de TA va ser
+  desenvolupada per IBM i la Universitat Georgetown el 1954.  Es va
+  traduir a l'anglés un conjunt de 49 frases en rus usant un
+  diccionari de només 250 mots i 6 regles gramaticals; aquestes
+  llengues van ser les elegides per raons geopolítiques per als
+  primers sistemes de TA.  Tot i que els resultats no eren massa bons,
+  el públic i la indústria van creure que en uns anys es podrien
+  aconseguir traduccions automàtiques de qualitat de documents
+  científics i tècnics.  Aquesta idea es va reforçar pel fet que van
+  començar a aparèixer millores significatives en el maquinari, els
+  primers llenguatges de programació i moltes millores en la
+  lingüística formal (especialment en l'àrea de la
+  sintaxi). L'entusiasme va fer que es finançaren un gran nombre de
+  projectes entre la meitat dels 50 i la meitat dels 60, projectes
+  dins els quals van nàixer la major part de les tècniques actuals,
+  com ara la traducció indirecta per transferència o la traducció per
+  interlingua (vegeu el capítol~\ref{se:TdTA}).
 
+  L'objectiu era el desenvolupament de sistemes perfectes. Calia
+  reduir al mínim la intervenció humana en el procés de TA, fins
+  assolir la independència total i una qualitat comparable a la dels
+  humans. Pràcticament ningú va considerar com es podria traure profit
+  d'un sistema imperfecte ---amb excepcions comptades:
+  \cite{masterman67b} va estudiar la utilitat de la traducció
+  \emph{mot per mot} com a \emph{pidgin}, és a dir, com a llengua de
+  contacte, en comparació amb una traducció \emph{nativa}. Per què
+  pensar-hi si molt prompte es disposaria de sistemes perfectes? Els
+  traductors es van sentir amenaçats. No obstant això, algunes veus es
+  pronunciaren en contra del perfeccionisme dominant i defensaren una
+  aproximació més a llarg termini al problema i la construcció de
+  sistemes que feren un ús efectiu de la interacció persona--màquina.
 
-L'objectiu era el desenvolupament de sistemes perfectes. Calia reduir
-al mínim la intervenció humana en el procés de TA, fins assolir la
-independència total i una qualitat comparable a la dels
-humans. Pràcticament ningú va considerar com es podria traure profit
-d'un sistema imperfecte ---amb excepcions comptades:
-\cite{masterman67b} va estudiar la utilitat de la traducció \emph{mot
-  a mot} com a \emph{pidgin}, és a dir, com a llengua de contacte, en
-comparació amb una traducció \emph{nativa}. Per què pensar-hi si molt prompte
-es disposaria de sistemes perfectes? Els traductors es van sentir
-amenaçats. No obstant això, algunes veus es pronunciaren en contra del
-perfeccionisme dominant i defensaren una aproximació més a llarg
-termini al problema i la construcció de sistemes que feren un ús
-efectiu de la interacció persona--màquina.
+  Un decenni després, i com que les expectatives eren tan altes, els
+  avanços eren escassos i el futur pròxim no semblava poder millorar
+  la situació.  Molts investigadors començaven a trobar barreres de
+  tot tipus, especialment semàntiques, que semblaven massa difícils de
+  superar i que exigien mètodes més complexos. La Acadèmia Nacional de
+  les Ciències dels Estats Units va publicar el 1966 l'informe ALPAC
+  (Automatic Language Processing Advisory Committee) en el qual es
+  recomanava que els nombrosos recursos que es dedicaven a la recerca
+  en TA s'utilitzaren per a tasques menys ambicioses i més bàsiques
+  relacionades amb el processament del llenguatge natural i amb el
+  desenvolupament d'eines de suport per als traductors com ara
+  diccionaris automàtics.  La conclusió era que només després de
+  conéixer les arrels del problema, podria estudiar-se la realització
+  d'un sistema de TA real. L'informe assegurava que la TA era més
+  lenta i menys exacta que la feta pels humans, a més de ser el doble
+  de cara, i que no hi havia cap indici de l'obtenció en el futur més
+  o menys inmediat d'un sistema de TA útil.  L'informe va fer que es
+  reduira significativament el nombre de persones que es dedicaven a
+  la TA i que els laboratoris començaren a treballar en el que es va
+  conéixer com a lingüística computacional.
 
-Un decenni després, i com que les expectatives eren tan altes, els
-avanços eren escassos i el futur pròxim no semblava poder millorar la
-situació.  Molts investigadors començaven a trobar barreres de tot
-tipus, especialment semàntiques, que semblaven massa difícils de
-superar i que exigien mètodes més complexos. La Acadèmia Nacional de
-les Ciències dels Estats Units va publicar el 1966 l'informe ALPAC
-(Automatic Language Processing Advisory Committee) en el qual es
-recomanava que els nombrosos recursos que es dedicaven a la recerca en
-TA s'utilitzaren per tasques menys ambicioses i més bàsiques
-relacionades amb el processament del llenguatge natural i amb el
-desenvolupament d'eines de suport per als traductors com ara
-diccionaris automàtics.  La conclusió era que només després de
-conéixer les arrels del problema, podria estudiar-se la realització
-d'un sistema de TA real. L'informe assegurava que la TA era més lenta
-i menys exacta que la feta pels humans, a més de ser el doble de cara,
-i que no hi havia cap indici de l'obtenció en el futur més o menys
-inmediat d'un sistema de TA útil.  L'informe va fer que es reduira
-significativament el nombre de persones que es dedicaven a la TA i que
-els laboratoris començaren a treballar en el que es va conéixer com a
-lingüística computacional.
+  \paragraph{Des de l'informe ALPAC (1966) fins als vuitanta}:
+  L'informe va acabar quasi virtualment amb la recerca en TA als
+  Estats Units (també va tenir un impacte negatiu en els projectes
+  desenvolupats a la resta del món) i durant molts anys la TA va ser
+  percebuda com un autèntic fracàs. Tot i això, alguns grups van
+  continuar treballant a Canadà i a Europa i van aparéixer els primers
+  sistemes que funcionaven; el 1970 el sistema Systran va començar a
+  ser usat per la USAF (United States Air Force) i el 1976 per la
+  Comissió de la Comunitat Europea.  També el 1976 apareix Metéo,
+  desenvolupat per la Universitat de Montréal, que tradueix al francés
+  els informes meteorològics.  Per aquesta època, a més, els sistemes
+  de TA comencen a ser demanats per empreses i administracions i no
+  sols per traduir textos científics i tècnics.
 
-\paragraph{Des de l'informe ALPAC (1966) fins als vuitanta}: L'informe
-va acabar quasi virtualment amb la recerca en TA als Estats Units
-(també va tenir un impacte negatiu en els projectes desenvolupats a la
-resta del món) i durant molts anys la TA va ser percebuda com un
-autèntic fracàs. Tot i això, alguns grups van continuar treballant a
-Canadà i a Europa i van aparéixer els primers sistemes que
-funcionaven; el 1970 el sistema Systran va començar a ser usat per la
-USAF (United States Air Force) i el 1976 per la Comissió de la
-Comunitat Europea.  També el 1976 apareix Metéo, desenvolupat per la
-Universitat de Montréal, que tradueix al francés els informes
-meteorològics.  Per aquesta època, a més, els sistemes de TA comencen
-a ser demanats per empreses i administracions i no sols per traduir
-textos científics i tècnics.
+  Des de l'informe ALPAC el camp va patir una redefinició progressiva
+  vers una concepció de la TA com un procés en el qual els traductors
+  humans juguen un paper bàsic, i comencen a desenvolupar-se eines de
+  traducció pensant en aquesta intervenció.
 
-Des de l'informe ALPAC el camp va patir una redefinició progressiva
-vers una concepció de la TA com un procés en el qual els traductors
-humans juguen un paper bàsic, i comencen a desenvolupar-se eines de
-traducció pensant en aquesta intervenció.
+  Els principals corrents dins la TA des dels 70 són, per tant: eines
+  de suport a la traducció per a traductors, sistemes de TA amb
+  intervenció humana i recerca teòrica vers un sistema completament
+  automàtic de traducció.
 
-Els principals corrents dins la TA des dels 70 són, per tant: eines de
-suport a la traducció per a traductors, sistemes de TA amb intervenció
-humana i recerca teòrica vers un sistema completament automàtic de
-traducció.
+  \paragraph{Els primers vuitanta:} Als 1980 apareixen nous sistemes
+  de TA arreu del món amb expectatives més reals i l'interés en la TA
+  resorgeix.  Són especialment importants els resultats obtinguts a
+  diverses empreses com Xerox on s'elimina quasi completament la
+  postedició (vegeu la p.~\pageref{pg:homografia}) gràcies al control
+  de la llengua origen (vegeu l'apartat~\ref{ss:llecon}); això permet
+  la traducció senzilla dels manuals tècnics en anglés de la companyia
+  a un gran nombre d'idiomes (francés, alemany, italià, espanyol,
+  portugués i llengues escandinaves).
 
-\paragraph{Els primers vuitanta:} Als 1980 apareixen nous sistemes de
-TA arreu del món amb expectatives més reals i l'interés en la TA
-resorgeix.  Són especialment importants els resultats obtinguts a
-diverses empreses com Xerox on s'elimina quasi completament la
-postedició (vegeu la p.~\pageref{pg:homografia}) gràcies al control de
-la llengua origen (vegeu~\ref{ss:llecon}); això permet la traducció senzilla dels manuals
-tècnics en anglés de la companyia a un gran nombre d'idiomes (francés,
-alemany, italià, espanyol, portugués i llengues escandinaves).
+  Durant aquest decenni els esforços es dirigeixen vers la traducció
+  indirecta amb representacions intermèdies o sense (com la
+  interlingua; vegeu l'apartat~\ref{ss:interlingua}) mitjançant
+  anàlisis morfològiques i sintàctiques i, de vegades, coneixements
+  semàntics.  Els projectes més notables són GETA-Ariane (Grenoble),
+  SUSY (Saarbrücken), Mu (Kyoto), DLT (Utrecht), Rosetta (Eindhoven),
+  el projecte de la Universitat Carnegie-Mellon (Pittsburgh) i dos
+  projectes internacionals: Eurotra, finançat per la Comunitat Europea
+  i el projecte japonés CICC amb participants a la Xina, Indonèsia i
+  Tailàndia.
 
-Durant aquest decenni els esforços es dirigeixen vers la traducció
-indirecta amb representacions intermèdies o sense (com la interlingua;
-vegeu l'apartat~\ref{ss:interlingua}) mitjançant anàlisis
-morfològiques i sintàctiques i, de vegades, coneixements semàntics.
-Els projectes més notables són GETA-Ariane (Grenoble), SUSY
-(Saarbrücken), Mu (Kyoto), DLT (Utrecht), Rosetta (Eindhoven), el
-projecte de la Universitat Carnegie-Mellon (Pittsburgh) i dos
-projectes internacionals: Eurotra, finançat per la Comunitat Europea i
-el projecte japonés CICC amb participants a la Xina, Indonèsia i
-Tailàndia.
+  Eurotra és un dels projectes de traducció més coneguts del decenni
+  dels 80. El seu objectiu era la construcció d'un sistema de
+  transferència multilingüe que permetera la traducció entre totes les
+  llengües de la Comunitat Europea.  Tot i que s'esperava que la
+  traducció resultant seria de gran qualitat, encara es preveia una
+  gran quantitat de postedició. El projecte, que va ser abandonat el
+  1992, no va ser capaç d'entregar un sistema de TA funcional, però va
+  estimular la investigació sobre tecnologies lingüístiques a tot
+  Europa.
 
-Eurotra és un dels projectes de traducció més coneguts del decenni
-dels 80. El seu objectiu era la construcció d'un sistema de
-transferència multilingüe que permetera la traducció entre totes les
-llengües de la Comunitat Europea.  Tot i que s'esperava que la
-traducció resultant seria de gran qualitat, encara es preveia una gran
-quantitat de postedició. El projecte, que va ser abandonat el 1992, no
-va ser capaç d'entregar un sistema de TA funcional, però va estimular
-la investigació sobre tecnologies lingüístiques a tot Europa.
+  En aquests anys es consolida la idea que els sistemes de TA no són
+  per a traductors; un traductor necessita eines que li faciliten el
+  treball: diccionaris, bases de dades terminològiques (vegeu el
+  capítol~\ref{se:basesdades}), sistemes de comunicació, memòries de
+  traducció (vegeu el capítol~\ref{se:memtrad}), etc.  De fet,
+  actualment, la postedició no s'encarrega sempre a traductors (molts
+  dels quals no no consideren açò com a part del seu treball), sinó a
+  persones que es presumeix preparades específicament.
 
-En aquests anys es consolida la idea que els sistemes de TA no són per
-a traductors; un traductor necessita eines que li faciliten el
-treball: diccionaris, bases de dades terminològiques (vegeu el
-capítol~\ref{se:basesdades}), sistemes de comunicació, memòries de
-traducció (vegeu el capítol~\ref{se:memtrad}), etc.  De fet,
-actualment, la postedició no s'encarrega sempre a traductors (molts
-dels quals no no consideren açò com a part del seu treball), sinó a
-persones que es presumeix preparades específicament.
+  Tothom accepta ja en aquest decenni la importància dels llenguatges
+  controlats i els subllenguatges en la TA, com ja havien defensat els
+  precursors de la TA durant el decenni dels cinquanta.
 
-Tothom accepta ja en aquest decenni la importància dels llenguatges
-controlats i els subllenguatges en la TA, com ja havien defensat els
-precursors de la TA durant el decenni dels cinquanta.
+  El sistema comercial més sofisticat dels 1980 és Metal (1988),
+  finançat per Siemens i que tradueix de l'alemany a l'anglés.  Es
+  tracta bàsicament d'un sistema per transferència, indicat per a la
+  traducció de documents relacionats amb el processament de dades i
+  les telecomunicacions.
 
-El sistema comercial més sofisticat dels 1980 és Metal (1988),
-finançat per Siemens i que tradueix de l'alemany a l'anglés.  Es
-tracta bàsicament d'un sistema per transferència, indicat per a la
-traducció de documents relacionats amb el processament de dades i les
-telecomunicacions.
+  Al final dels 1980 comença l'aplicació de tècniques d'intel·ligència
+  artificial al processament del llenguatge humà (sistemes experts i
+  sistemes basats en el coneixement dissenyats per entendre els
+  textos).
 
-Al final dels 1980 comença l'aplicació de tècniques d'inteligència
-artificial al processament del llenguatge humà (sistemes experts i
-sistemes basats en el coneixement dissenyats per entendre els textos).
+  \paragraph{Els primers noranta:} Tots els sistemes de TA dels
+  vuitanta, tant els de transferència com els d'interlingua, funcionen
+  bàsicament a partir de regles lingüístiques. Als 1990, però,
+  apareixen noves estratègies conegudes com a mètodes basats en
+  corpus. Els mètodes basats en corpus es poden dividir en dos grups:
+  estadístics i basats en exemples.
 
-\paragraph{Els primers noranta:} Tots els sistemes de TA dels
-vuitanta, tant els de transferència com els d'interlingua, funcionen
-bàsicament a partir de regles lingüístiques. Als 1990, però, apareixen
-noves estratègies conegudes com a mètodes basats en corpus. Els
-mètodes basats en corpus es poden dividir en dos grups: estadístics i
-basats en exemples.
+  Els mètodes estadístics ja van ser considerats als anys seixanta,
+  però prompte van ser descartats perquè els resultats obtinguts no
+  eren acceptables. Ara, però, el descobriment de noves tècniques va
+  fer possible projectes com Candide a IBM. Candide usa mètodes
+  estadístics per a l'anàlisi i la generació, però cap regla
+  lingüística. Els treballs a IBM van utilitzar el corpus de textos en
+  anglés i francés resultants de les sessions del Parlament de Canadà.
+  El mètode consisteix a alinear en primer lloc les frases, els grups
+  de mots i els mots en els dos textos i calcular després la
+  probabilitat que un mot del text origen corresponga a un o més mots
+  del text meta amb el qual ha estat alineat.
 
-Els mètodes estadístics ja van ser considerats als anys seixanta, però
-prompte van ser descartats perquè els resultats obtinguts no eren
-acceptables. Ara, però, el descobriment de noves tècniques va fer
-possible projectes com Candide a IBM. Candide usa mètodes estadístics
-per a l'anàlisi i la generació, però cap regla lingüística. Els
-treballs a IBM van utilitzar el corpus de textos en anglés i francés
-resultants de les sessions del Parlament de Canadà.  El mètode
-consisteix a alinear en primer lloc les frases, els grups de mots i
-els mots en els dos textos i calcular després la probabilitat que un
-mot del text origen corresponga a un o més mots del text meta amb el
-qual ha estat alineat.
+  Els mètodes basats en exemples (vegeu el capítol~\ref{se:memtrad})
+  s'aprofiten també de l'existència de grans corpora de textos
+  traduïts (per això també s'en diu basats en memòria). La idea
+  fonamental es que el procés de traducció es pot fer sovint
+  consultant traduccions anteriors i identificant frases o grups de
+  mots en el corpus ja traduït. Per poder dur a terme la traducció és
+  necessari que els textos del corpus hagen estat alineats prèviament
+  (mitjançant mètodes estadístics o mètodes basats en regles).
 
-Els metodes basats en exemples (vegeu el capítol~\ref{se:memtrad})
-s'aprofiten també de l'existència de grans corpora de textos
-traduïts (per això també s'en diu basats en memòria). La idea
-fonamental es que el procés de traducció es pot fer sovint consultant
-traduccions anteriors i identificant frases o grups de mots en el
-corpus ja traduït. Per poder dur a terme la traducció és necessari que
-els textos del corpus hagen estat alineats prèviament (mitjançant
-mètodes estadístics o mètodes basats en regles).
+  Tot i que la gran innovació dels noranta van ser els mètodes
+  descrits adés, la recerca i el desenvolupament dels sistemes
+  clàssics també va continuar: per exemple, el projecte Eurolang basat
+  en el sistema de transferència Metal pot traduir de l'anglès al
+  francés, alemany, italià i espanyol, i viceversa.  Ens els darrers
+  10 anys, un dels camps amb més investigacions ha estat el de
+  traducció de la parla, una idea que evidentment ha estat present des
+  de fa dècades, però que només ara es pot materialitzar parcialment.
+  L'objectiu no és obtenir un sistema de traducció perfecta, sinó un
+  sistema adequat per a aplicacions amb llenguatges, dominis i usuaris
+  restringits. El principals són els desenvolupats a ATR, CMU i el
+  projecte Verbmobil.
 
-Tot i que la gran innovació dels noranta van ser els mètodes descrits
-adés, la recerca i el desenvolupament dels sistemes clàssics també va
-continuar: per exemple, el projecte Eurolang basat en el sistema de
-transferència Metal pot traduir de l'anglès al francés, alemany,
-italià i espanyol, i viceversa.  Ens els darrers 10 anys, un dels
-camps amb més investigacions ha estat el de traducció de la parla, una
-idea que evidentment ha estat present des de fa dècades, però que
-només ara es pot materialitzar parcialment.  L'objectiu no és obtenir
-un sistema de traducció perfecta, sinó un sistema adequat per a
-aplicacions amb llenguatges, dominis i usuaris restringits. El
-principals són els desenvolupats a ATR, CMU i el projecte Verbmobil.
+  Una característica important dels primers 1990 és l'aparició de les
+  primeres aplicacions pràctiques per a traductors: eines de suport a
+  la traducció, diccionaris i bases de dades terminològiques,
+  processadors de text multilingües, accés a glossaris i terminologies
+  electròniques, eines de comunicació (escàners, OCRs, Internet; vegeu
+  els capítols~\ref{se:Internet} i~\ref{se:EPT}) o eines per a entorns
+  restringits.  La combinació d'algunes d'aquestes eines en un
+  programari concret és el que es coneix com \emph{estacions de
+    treball per a traductors}; per exemple, el Translation Manager
+  d'IBM, recentment alliberat com a programari lliure/de codi font
+  obert amb el nom OpenTM2, \url{http://www.opentm2.org}, o el
+  Translator Workbench de Trados, ara anomenat SDL Trados Studio. La
+  major part d'aquestes estacions de treball estan disponibles per a
+  ordinadors personals.
 
-Una característica important dels primers 1990 és l'aparició de les
-primeres aplicacions pràctiques per a traductors: eines de suport a la
-traducció, diccionaris i bases de dades terminològiques, processadors
-de text multilingües, accés a glossaris i terminologies electròniques,
-eines de comunicació (escàners, OCRs, Internet; vegeu els
-capítols~\ref{se:Internet} i~\ref{se:EPT}) o eines per a entorns
-restringits.  La combinació d'algunes d'aquestes eines en un
-programari concret és el que es coneix com \emph{estacions de treball
-  per a traductors}; per exemple, el Translation Manager d'IBM,
-recentment alliberat com a programari lliure/de codi font obert amb el
-nom OpenTM2, \url{http://www.opentm2.org}, o el Translator Workbench
-de Trados, ara anomenat SDL Trados Studio. La major part d'aquestes estacions
-de treball estan disponibles per a ordinadors personals.
+  \paragraph{Dels darrers noranta a l'actualitat:}
+  La TA i les eines de suport a la traducció son cada vegada més
+  usades per les grans empreses i per les administracions,
+  principalment per a la traducció de documentació tècnica.
 
-\paragraph{Dels darrers noranta a l'actualitat:}
+  Al llarg dels darrers anys, amb la generalització de l'ús
+  d'Internet, s'han desenvolupat serveis de traducció disponibles en
+  línia, com ara Google Translate, \url{http://translate.google.com} o
+  Bing Translator, \url{http://translator.bing.com}, d'ús molt comú
+  per part del públic en general per a l'\emph{assimilació} (vegeu
+  l'apartat~\ref{s3:assim}) de continguts web escrits en altres
+  llengües i fins i tot per a la traducció de cartells i textos
+  fotografiats amb la càmera del telèfon mòbil.
 
-La TA i les eines de suport a la traducció son cada vegada més usades
-per les grans empreses i per les administracions, principalment per a
-la traducció de documentació tècnica.
+  Des dels seus inicis, quasi tota la recerca i quasi tots els
+  sistemes comercials de TA s'han centrat en els principals idiomes
+  internacionals: anglés, francés, espanyol, japonés, rus, etc.
+  Encara resta molt a fer amb les altres llengues del món; amb
+  excepcions com ara el projecte Apertium
+  (\url{http://www.apertium.org}), que ofereix traducció automàtica
+  per a llengües menys centrals, com ara el gallec, l'occità, el
+  bretó.
 
-Al llarg dels darrers anys, amb la generalització de l'ús d'Internet,
-s'han desenvolupat serveis de traducció disponibles en línia, com ara
-Google Translate, \url{http://translate.google.com} o Bing Translator,
-\url{http://translator.bing.com}, d'ús molt comú per part del públic
-en general per a l'\emph{assimilació} (vegeu l'apartat~\ref{s3:assim})
-de continguts web escrits en altres llengües i fins i tot per a la
-traducció de cartells i textos fotografiats amb la càmera del telèfon
-mòbil.
+  En el moment d'escriure aquestes línies (desembre de 2015), la major
+  part dels sistemes de traducció automàtica es basen en una evolució
+  de la \emph{traducció automàtica estadística} iniciada en IBM durant
+  la dècada dels 1990; se sol parlar de \emph{traducció automàtica
+    estadística basada en frases}, en anglés \emph{phrase-based
+    statistical machine translation}. Aquesta hegemonia es deu en gran
+  part a la disponibilitat de programari lliure/de codi font obert per
+  a \emph{entrenar} i aplicar sistemes de traducció automàtica, com
+  ara Moses (\url{http://statmt.org/moses}). Fins i tot hi ha empreses
+  com ara KantanMT (\url{http://kantanmt.com}) que construeixen
+  sistemes a mida per als seus clients usant simplement un navegador.
 
-Des dels seus inicis, quasi tota la recerca i quasi tots els sistemes
-comercials de TA s'han centrat en els principals idiomes
-internacionals: anglés, francés, espanyol, japonés, rus, etc.  Encara
-resta molt a fer amb les altres llengues del món; amb excepcions com
-ara el projecte Apertium (\url{http://www.apertium.org}), que ofereix
-traducció automàtica per a llengües menys centrals, com ara el gallec,
-l'occità, el bretó.
+  En els últims anys s'està investigant una nova modalitat de
+  traducció basada en l'anomenat \emph{aprenentatge profund}, en
+  anglés \emph{deep learning}, que usa mètodes d'un camp de la
+  intel·ligència artificial anomenat \emph{xarxes neurals}, i els
+  resultats comencen a ser, en proves de laboratori, comparables als
+  millors disponibles.
 
-En el moment d'escriure aquestes línies (desembre de 2015), la major
-part dels sistemes de traducció automàtica es basen en una evolució de
-la \emph{traducció automàtica estadística} iniciada en IBM durant la
-dècada dels 1990; se sol parlar de \emph{traducció automàtica
-  estadística basada en frases}, en anglés \emph{phrase-based
-  statistical machine translation}. Aquesta hegemonia es deu en gran
-part a la disponibilitat de programari lliure/de codi font obert per a
-\emph{entrenar} i aplicar sistemes de traducció automàtica, com ara
-Moses (\url{http://statmt.org/moses}). Fins i tot hi ha empreses com
-ara KantanMT (\url{http://kantanmt.com}) que construeixen sistemes a
-mida per als seus usant simplement un navegador.
-
-En els últims anys s'està investigant una nova modalitat de traducció
-basada en l'anomenat \emph{aprenentatge profund}, en anglés \emph{deep
-  learning}, que usa mètodes d'un camp de la intel·ligència artificial
-anomenat \emph{xarxes neurals}, i els resultats comencen a ser, en
-proves de laboratori, comparables als millors disponibles.
-
-\mbox{}% per evitar un problema de formatatge en el "persabermes".
-
-
+%\mbox{}% per evitar un problema de formatatge en el "persabermes".
 \end{persabermes}
 
 
 \section{Utilitat de la traducció automàtica}
 \label{ss:UTA}
-
 La traducció automàtica produeix resultats que normalment no poden
 substituir directament els produïts per professionals de la traducció
-(vegeu el capítol~\ref{se:ASTA}).
-
-%En molts àmbits la traducció automàtica està encara molt
-%lluny de poder competir en qualitat amb la realitzada per traductors
-%professionals (vegeu el capítol~\ref{se:ASTA}). 
-
-Per exemple, en molts casos és difícil aconseguir que l'ordinador
-sàpia elegir la interpretació correcta  entre les possibles
-interpretacions 
-d'un enunciat ambigu com 
+(vegeu el capítol~\ref{se:ASTA}).  Per exemple, en molts casos és
+difícil aconseguir que l'ordinador sàpia elegir la interpretació
+correcta entre les possibles interpretacions d'un enunciat ambigu com
 \begin{center}
-\emph{Els soldats van disparar als xiquets. Els vaig veure caure.}
+  \emph{Els soldats van disparar als xiquets. Els vaig veure caure.}
 \end{center} 
 ja que això requereix l'ús de quantitats enormes de coneixement
 enciclopèdic sobre el funcionament del ``món real''. En aquest cas, el
@@ -455,6 +442,9 @@ naturalesa diversa, en moltes aplicacions, la traducció produïda per
 un bon programa s'ha de considerar com un esborrany que ha de ser
 revisat abans de la publicació.
 
+% En molts àmbits la traducció automàtica està encara molt lluny de
+% poder competir en qualitat amb la realitzada per traductors
+% professionals (vegeu el capítol~\ref{se:ASTA}).
 
 Però, per posar-nos en l'altre extrem, ha de quedar clar que la
 traducció automàtica pot ser molt útil en aquelles situacions en què
@@ -473,12 +463,11 @@ situacions són:
   manuals tècnics d'una família de productes (per exemple, els manuals
   de manteniment d'una gamma d'automòbils).
 \end{itemize}
-En els epígrafs successius d'aquesta secció es donen alguns detalls sobre
-com es pot usar la traducció automàtica en situacions
-similars a les esmentades.
+En els epígrafs successius d'aquesta secció es donen alguns detalls
+sobre com es pot usar la traducció automàtica en situacions similars a
+les esmentades.
 
 \section{Assimilació i disseminació} 
-
 Moltes de les aplicacions de la traducció automàtica es poden dividir
 en dos grans grups: l'\emph{assimilació} d'informació (quan una
 persona usa la traducció automàtica per a obtenir informació a partir
@@ -492,49 +481,52 @@ pot ser una eina molt útil en aquests dos grups d'aplicacions.
 \subsection{Assimilació} 
 \label{s3:assim}
 Per una banda, en situacions d'{\em assimilació} de la informació no
-sembla necessària una traducció gramaticalment correcta i similar al text que produiria una persona nativa, sinó més aïna una traducció ràpida i
-raonablement intel·ligible.\footnote{Hi ha característiques
+sembla necessària una traducció gramaticalment correcta i similar al
+text que produiria una persona nativa, sinó més aïna una traducció
+ràpida i raonablement intel·ligible.\footnote{Hi ha característiques
   dels textos natius que poden no ser necessàries per a la
   comprensió. Per exemple, un text pot ser intel·ligible encara que no
   concorden els adjectius amb els noms o fins i tot encara que se
   n'hagen eliminat els articles (\emph{A amic meu li agraden xiques
     vell}), o encara que l'ordre dels mots no siga gramatical
-  (\emph{La guerra evitar no podrem}), i de fet, hom podria dissenyar els sistemes de traducció automàtica perquè no es \emph{preocuparen} d'aquests assumptes menors.} , És el cas de la traducció de
-  correu electrònic, de documents d'Internet (durant la
-  \emph{navegació}) o de despatxos de premsa en altres idiomes.  Una
-  altra aplicació d'assimilació de la informació és l'anomenat
-  \emph{screening} o exploració de documents per a decidir quins són
-  rellevants i mereixen una atenció més detallada; de fet, aquesta va
-  ser una de les primeres aplicacions de la traducció automàtica als
-  EUA: es volia tenir accés a la informació tecnològica present en
-  documents de la Unió Soviètica. Els usos civils de
-  l'\emph{screening} han superat actualment l'ús tradicional, el
-  militar. En el cas de l'\emph{screening}, fins i tot una traducció
-  incompleta a més d'incorrecta (per exemple, només dels mots
-  terminològics) pot ser de gran utilitat.  L'\emph{screening} es pot
-  fer usant un ordinador personal tot sol, o accedint a ordinadors
-  servidors d'informació, en el cas de grans instal·lacions. És
-  important indicar que en quasi totes les situacions d'assimilació el
-  paper del traductor professional és inexistent, ja que el treball és
-  de naturalesa molt diferent, i l'ús d'un traductor professional
-  seria molt car i molt lent.  Una altra aplicació interessant és la
-  traducció automàtica de \emph{converses electròniques} (usant el
-  teclat i la pantalla d'ordinadors connectats entre si) entre
-  persones que parlen dos idiomes diferents. Les mancances de la
-  traducció automàtica es poden compensar amb preguntes o dient les
-  coses d'una altra manera fins que els dos interlocutors s'entenguen
-  (és a dir, mitjançant una \emph{negociació}).
+  (\emph{La guerra evitar no podrem}), i de fet, hom podria dissenyar
+  els sistemes de traducció automàtica perquè no es \emph{preocuparen}
+  d'aquests assumptes menors.} , És el cas de la traducció de correu
+electrònic, de documents d'Internet (durant la \emph{navegació}) o de
+despatxos de premsa en altres idiomes.  Una altra aplicació
+d'assimilació de la informació és l'anomenat \emph{screening} o
+exploració de documents per a decidir quins són rellevants i mereixen
+una atenció més detallada; de fet, aquesta va ser una de les primeres
+aplicacions de la traducció automàtica als EUA: es volia tenir accés a
+la informació tecnològica present en documents de la Unió
+Soviètica. Els usos civils de l'\emph{screening} han superat
+actualment l'ús tradicional, el militar. En el cas de
+l'\emph{screening}, fins i tot una traducció incompleta a més
+d'incorrecta (per exemple, només dels mots terminològics) pot ser de
+gran utilitat.  L'\emph{screening} es pot fer usant un ordinador
+personal tot sol, o accedint a ordinadors servidors d'informació, en
+el cas de grans instal·lacions. És important indicar que en quasi
+totes les situacions d'assimilació el paper del traductor professional
+és inexistent, ja que el treball és de naturalesa molt diferent, i
+l'ús d'un traductor professional seria molt car i molt lent.  Una
+altra aplicació interessant és la traducció automàtica de
+\emph{converses electròniques} (usant el teclat i la pantalla
+d'ordinadors connectats entre si) entre persones que parlen dos
+idiomes diferents. Les mancances de la traducció automàtica es poden
+compensar amb preguntes o dient les coses d'una altra manera fins que
+els dos interlocutors s'entenguen (és a dir, mitjançant una
+\emph{negociació}).
 
 Per rudimentari que siga un sistema de traducció automàtica, pot ser
 molt útil en tasques d'assimilació. Una de les aproximacions més
 simples a la TA és l'anomenada \emph{traducció mot per
-mot}\label{pg:mpm}, en què el programa
-identifica cada mot, el busca en un diccionari bilingüe i el substitueix
-per una traducció aproximada. A tall d'exemple, considereu el
-següent text en tok pisin\footnote{Llengua 
-de contacte que es parla a Papua Nova Guinea i que té 50.000 parlants
-que la parlen com a primera llengua i més de dos milions de parlants 
-que la parlen com a segona llengua.} (el text està pres de \citealt{lyovin97b}):
+  mot}\label{pg:mpm}, en què el programa identifica cada mot, el busca
+en un diccionari bilingüe i el substitueix per una traducció
+aproximada. A tall d'exemple, considereu el següent text en tok
+pisin\footnote{Llengua de contacte que es parla a Papua Nova Guinea i
+  que té 50.000 parlants que la parlen com a primera llengua i més de
+  dos milions de parlants que la parlen com a segona llengua.} (el
+text està pres de \citealt{lyovin97b}):
 \begin{quote}{\sl
 Long taim bifo, wanpela ailan, draipela pik i save stap ya, na em i save
 kaikai ol man. Em i save kaikai ol man nau; wanpela taim, wanpela taim nau
@@ -543,56 +535,49 @@ em i tok: ``Orait yumi mas painim nupela ailan''. }
 \end{quote} 
 Si prenem un diccionari i traduïm el text mot per mot, prenent la
 primera traducció possible en cada cas ---pot haver-n'hi més d'una---,
-s'obté el text següent:\footnote{És possible que ja us hàgeu
-adonat que el tok pisin té molt vocabulari pres de l'anglés, com a
-llengua de contacte que és.}
-\begin{quote}{\sl
-En temps passat, un illa, enorme porc - soler viure esmentat i ell - soler menjar
-més-d'un home. Ell - soler menjar més-d'un home aleshores; un temps,
-un temps aleshores, més-d'un home anar parlar gran home en més-d'un,
-cap en més-d'un,
-més-d'un - anar parlar ell aleshores, ell - dir: ``Molt-bé,
-vosaltres-i-jo haver-de trobar nou illa''.}
+s'obté el text següent:\footnote{És possible que ja us hàgeu adonat
+  que el tok pisin té molt vocabulari pres de l'anglés, com a llengua
+  de contacte que és.}
+\begin{quote}{\sl En temps passat, un illa, enorme porc - soler viure
+    esmentat i ell - soler menjar més-d'un home. Ell - soler menjar
+    més-d'un home aleshores; un temps, un temps aleshores, més-d'un
+    home anar parlar gran home en més-d'un, cap en més-d'un, més-d'un
+    - anar parlar ell aleshores, ell - dir: ``Molt-bé, vosaltres-i-jo
+    haver-de trobar nou illa''.}
 \end{quote}
 I ara, veritat que s'entén una miqueta més? Una traducció
 més idiomàtica podria ser:
-\begin{quote}{\sl
-Fa molt temps, en una certa illa, vivia un gran porc i se solia menjar la
-gent. Se solia menjar la gent, i una vegada, la gent va anar i va dir al seu
-gran home, al seu cap, va anar i van parlar amb ell. Ell va dir: ``Molt
-bé, hem de trobar una nova illa''.}
+\begin{quote}{\sl Fa molt temps, en una certa illa, vivia un gran porc
+    i se solia menjar la gent. Se solia menjar la gent, i una vegada,
+    la gent va anar i va dir al seu gran home, al seu cap, va anar i
+    van parlar amb ell. Ell va dir: ``Molt bé, hem de trobar una nova
+    illa''.}
 \end{quote}
-L'ordre dels mots no és molt diferent en tok
-pisin i en català i això fa que la traducció mot per mot siga
-prou llegidora. En canvi, si el text original està en basc,
-les coses no són
-tan senzilles. El text, pràcticament inintel·ligible per a qui no sàpia
-basc:
-\begin{quote}{\sl
-Bazkaria bukatu ondoren Koldo egunkarira joan zen eta Teoren foto bat
-hartu zuen. Gero, egunkariaren ale zaharrak irakurri zituen, boxeo
-txapelketako berriak aztertzeko. Boxealarien izenak apuntatu zituen.}
+L'ordre dels mots no és molt diferent en tok pisin i en català i això
+fa que la traducció mot per mot siga prou llegidora. En canvi, si el
+text original està en basc, les coses no són tan senzilles. El text,
+pràcticament inintel·ligible per a qui no sàpia basc:
+\begin{quote}{\sl Bazkaria bukatu ondoren Koldo egunkarira joan zen
+    eta Teoren foto bat hartu zuen. Gero, egunkariaren ale zaharrak
+    irakurri zituen, boxeo txapelketako berriak
+    aztertzeko. Boxealarien izenak apuntatu zituen.}
 \end{quote}
 es pot traduir mot per mot com:
-\begin{quote}{\sl
- El-dinar acabat després Koldo al-diari anat era i de-Teo foto una
-pres l'havia. Després, del-diari número els-vells llegit els-havia,
-boxa del-campionat les-notícies per-a-examinar. Dels-boxadors els noms
-apuntat els-havia.}
+\begin{quote}{\sl El-dinar acabat després Koldo al-diari anat era i
+    de-Teo foto una pres l'havia. Després, del-diari número els-vells
+    llegit els-havia, boxa del-campionat les-notícies
+    per-a-examinar. Dels-boxadors els noms apuntat els-havia.}
 \end{quote}
-que és molt més difícil 
-de llegir que el resultat de traduir el text en
-tok pisin mot per mot. Una traducció idiomàtica possible
-és:
-\begin{quote}{\sl
-Després de dinar Koldo va anar al diari i va prendre una foto de
-Teo. Després, va llegir [els] números vells del diari per a examinar
-les notícies del campionat de boxa. Va apuntar els noms dels boxadors.}
+que és molt més difícil de llegir que el resultat de traduir el text
+en tok pisin mot per mot. Una traducció idiomàtica possible és:
+\begin{quote}{\sl Després de dinar Koldo va anar al diari i va prendre
+    una foto de Teo. Després, va llegir [els] números vells del diari
+    per a examinar les notícies del campionat de boxa. Va apuntar els
+    noms dels boxadors.}
 \end{quote}   
 Fixeu-vos que fins i tot en aquest cas tan desfavorable el text
 traduït mot per mot dóna bastantes pistes sobre el significat del text
 original.
-
 
 En els últims anys, especialment des que s'ha generalitzat l'accés
 públic a Internet, s'observa una tendència a incorporar sistemes de
@@ -604,17 +589,17 @@ aquests sistemes, la TA no s'invoca explícitament, sinó implícitament
 quan usem el servei.
 
 \subsection{Disseminació} 
-Per altra banda, en situacions de \emph{disseminació} de la informació,
-pot ser útil restringir la llengua d'origen (no permetre'n totes les
-realitzacions possibles, ni tot el lèxic, ni tots els registres) a un
-llenguatge que puga ser traduït automàticament amb el mínim possible
-de problemes, és a dir, amb el mínim esforç de postedició, o
-almenys, amb un esforç acceptable per un revisor.\footnote{És a
-  dir, quan la revisió no és més costosa que refer tota la traducció a
-  mà.} Açò és especialment important quan es tracta de traduir
-manuals tècnics a diversos idiomes. Les restriccions es poden
-expressar sota la forma de missatges interactius dirigits a la persona
-que prepara el document original.\footnote{Vegeu
+Per altra banda, en situacions de \emph{disseminació} de la
+informació, pot ser útil restringir la llengua d'origen (no permetre'n
+totes les realitzacions possibles, ni tot el lèxic, ni tots els
+registres) a un llenguatge que puga ser traduït automàticament amb el
+mínim possible de problemes, és a dir, amb el mínim esforç de
+postedició, o almenys, amb un esforç acceptable per un
+revisor.\footnote{És a dir, quan la revisió no és més costosa que
+  refer tota la traducció a mà.} Açò és especialment important quan es
+tracta de traduir manuals tècnics a diversos idiomes. Les restriccions
+es poden expressar sota la forma de missatges interactius dirigits a
+la persona que prepara el document original.\footnote{Vegeu
   l'apartat~\ref{ss:llecon}, on es discuteix un concepte molt
   relacionat, el de \emph{llenguatge controlat}.}
 
@@ -632,15 +617,14 @@ Moltes situacions de traducció automàtica es poden classificar com a
 situacions de CAT, {\em computer-aided translation} o traducció
 assistida per ordinador, també anomenada de vegades \emph{traducció
   semiautomàtica}. Però cal precisar millor què volem dir amb això
-d'``assistida per ordinador''. 
+d'``assistida per ordinador''.
 
-Ací són rellevants les nocions de MAHT
-(\emph{machine-aided human translation}, traducció humana assistida
-per una màquina) i HAMT (\emph{human-aided machine translation},
-traducció automàtica assistida per un humà), que estableixen les dues
-situacions bàsiques d'interacció entre una persona i un ordinador a
-l'hora de fer la traducció. Els paràgrafs següents en donen alguns
-exemples.
+Ací són rellevants les nocions de MAHT (\emph{machine-aided human
+  translation}, traducció humana assistida per una màquina) i HAMT
+(\emph{human-aided machine translation}, traducció automàtica
+assistida per un humà), que estableixen les dues situacions bàsiques
+d'interacció entre una persona i un ordinador a l'hora de fer la
+traducció. Els paràgrafs següents en donen alguns exemples.
 
 \paragraph{HAMT:} Un programa de traducció automàtica pregunta a
 l'usuari quan té més d'una possible traducció per a un mot o per a una
@@ -669,7 +653,7 @@ textos. Altres eines ---d'ús comú entre diversos traductors, i
 accessibles normalment com a recursos remots--- poden ser les bases de
 dades terminològiques i les bases de dades lèxiques multilingües
 (vegeu l'epígraf~\ref{ss:bdterm}), o les memòries de traducció (vegeu
-el capítol~\ref{se:memtrad}). 
+el capítol~\ref{se:memtrad}).
 
 Val a dir que el terme \emph{computer-aided translation} s'usa
 normalment per a referir-se a l'entorn de programari que permet la
@@ -695,78 +679,79 @@ el text meta produït pel sistema es refina o revisa ({\em postedita})
 perquè siga gramaticalment correcte o estiga escrit d'acord amb un
 registre determinat.
 
-  En primera aproximació, la postedició seria convenient quan
-  $$\textbf{cost}\left(\mbox{\begin{tabular}{c}traducció automàtica\\ +\\
-        postedició\end{tabular}}\right) <
-  \textbf{cost}(\mbox{traducció professional}).
-  $$
-  \label{pg:cost}
-  Cal comprovar que la fórmula anterior es compleix, tot i que siga a
-  llarg termini, abans de triar una estratègia de traducció per a
-  disseminació basada en la postedició.  
+En primera aproximació, la postedició seria convenient quan
+$$\textbf{cost}\left(\mbox{\begin{tabular}{c}traducció automàtica\\ +\\
+      postedició\end{tabular}}\right) <
+\textbf{cost}(\mbox{traducció professional}).
+$$
+\label{pg:cost}
 
-  \begin{persabermes}{anàlisi de costos en postedició}
-    L'anàlisi de costos sol ser en general més complexa, i ha de tenir
-    en compte totes les despeses en què s'incorre quan s'adopta la
-    traducció automàtica seguida de postedició:
-    \begin{itemize} 
-    \item \textbf{Costos de \emph{funcionament}} (cost efectiu per
-      mot), que ha de tenir en compte:
-        \begin{itemize} 
-        \item l'amortització del traductor automàtic (en cas d'adquisició)
-        \item el servei tècnic i el manteniment del sistema
-        \item la migració (adaptació dels programes que s'usen,
-          l'adquisició de sistemes informàtics) 
-        \end{itemize} 
+Cal comprovar que la fórmula anterior es compleix, tot i que siga a
+llarg termini, abans de triar una estratègia de traducció per a
+disseminació basada en la postedició.
 
-      \item \textbf{Costos de \emph{preedició} i de preparació}: cal
-        preparar i potser preeditar (vegeu l'apartat~\ref{ss:preedposted}) els textos que s'han de traduir
+\begin{persabermes}{anàlisi de costos en postedició}
+  L'anàlisi de costos sol ser en general més complexa, i ha de tenir
+  en compte totes les despeses en què s'incorre quan s'adopta la
+  traducció automàtica seguida de postedició:
+  \begin{itemize}
+  \item \textbf{Costos de \emph{funcionament}} (cost efectiu per mot),
+    que ha de tenir en compte:
+    \begin{itemize}
+    \item l'amortització del traductor automàtic (en cas d'adquisició)
+    \item el servei tècnic i el manteniment del sistema
+    \item la migració (adaptació dels programes que s'usen,
+      l'adquisició de sistemes informàtics)
+    \end{itemize}
 
-      \item \textbf{Costos de postedició}: depén de la \emph{qualitat}
-        del text en brut i de la formació dels posteditors, als quals
-        se'ls pot pagar per hores de treball, per quantitat de text
-        corregit, etc.
+  \item \textbf{Costos de \emph{preedició} i de preparació}: cal
+    preparar i potser preeditar (vegeu l'apartat~\ref{ss:preedposted})
+    els textos que s'han de traduir
 
-      \item \textbf{Costos de formació}, ja que els professionals han
-        d'aprendre a usar una nova tecnologia:
-        \begin{itemize} 
-        \item \textbf{Formació en l'ús del programa de traducció
-            automàtica}: els professionals han d'aprendre a usar,
-          configurar i potser mantenir el nou programari associat
-        \item \textbf{Formació en postedició,} la qual ha de permetre
-          que els professionals
-          \begin{itemize} 
-          \item coneguen el comportament del programa de traducció
-            automàtica (per exemple, quins són els errors típics que
-            comet);
-          \item aprenguen tècniques de correcció, com ara l'ús avançat
-            del processador de textos (macroinstruccions, substitució
-            de patrons, etc.)
-           \end{itemize}
-        \end{itemize}
-   \end{itemize}
-  \end{persabermes}
-  \todo{El text venia de les transparències d'avaluació. Ací no parlem
-    d'avaluació, de manera que més avant podem fer-hi referència. Una
-    altra opció és no parlar-ne ací, i referir al capítol
-    d'avaluació.}
+  \item \textbf{Costos de postedició}: depén de la \emph{qualitat} del
+    text en brut i de la formació dels posteditors, als quals se'ls
+    pot pagar per hores de treball, per quantitat de text corregit,
+    etc.
 
-  Hem de tenir en compte que la persona posteditora, a més de conéixer
-  la llengua meta i ser capaç de convertir el text en brut a una forma
-  genuïna en aquesta llengua (és a dir, a més de ser professional de
-  la traducció), ha de ser una veritable especialista en postedició,
-  que coneix el sistema de traducció automàtica i quins en són els
-  errors més típics. Així, la tasca de postedició és molt més
-  eficient, ja que en conéixer l'origen i la causa dels errors se'n fa
-  més fàcil i ràpida la correcció.
+  \item \textbf{Costos de formació}, ja que els professionals han
+    d'aprendre a usar una nova tecnologia:
+    \begin{itemize}
+    \item \textbf{Formació en l'ús del programa de traducció
+        automàtica}: els professionals han d'aprendre a usar,
+      configurar i potser mantenir el nou programari associat
+    \item \textbf{Formació en postedició,} la qual ha de permetre que
+      els professionals
+      \begin{itemize}
+      \item coneguen el comportament del programa de traducció
+        automàtica (per exemple, quins són els errors típics que
+        comet);
+      \item aprenguen tècniques de correcció, com ara l'ús avançat del
+        processador de textos (macroinstruccions, substitució de
+        patrons, etc.)
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{persabermes}
+\todo{El text venia de les transparències d'avaluació. Ací no parlem
+  d'avaluació, de manera que més avant podem fer-hi referència. Una
+  altra opció és no parlar-ne ací, i referir al capítol d'avaluació.}
+
+Hem de tenir en compte que la persona posteditora, a més de conéixer
+la llengua meta i ser capaç de convertir el text en brut a una forma
+genuïna en aquesta llengua (és a dir, a més de ser professional de la
+traducció), ha de ser una veritable especialista en postedició, que
+coneix el sistema de traducció automàtica i quins en són els errors
+més típics. Així, la tasca de postedició és molt més eficient, ja que
+en conéixer l'origen i la causa dels errors se'n fa més fàcil i ràpida
+la correcció.
 
 En resum, hi ha tres modalitats bàsiques d'interacció entre les
 persones i els programes de traducció automàtica:
 \begin{itemize}
 \item la preedició (preparació del text \emph{abans} de la traducció
   automàtica),
-\item la postedició (correcció del text \emph{després} de la
-  traducció automàtica) i
+\item la postedició (correcció del text \emph{després} de la traducció
+  automàtica) i
 \item la interacció de la persona amb el sistema de traducció
   automàtica durant el procés de traducció.
 \end{itemize}
@@ -777,7 +762,6 @@ persones i els programes de traducció automàtica:
 
 \section{Llenguatges controlats}
 \label{ss:llecon}
-
 Quan la traducció automàtica s'usa per a la disseminació de documents
 tècnics de temàtica homogènia, pot ser interessant fer que els
 documents originals estiguen escrits usant un lèxic estàndard sense
@@ -793,12 +777,10 @@ gramàtica i a l'estil, i d'una altra, possiblement estés amb
 terminologia i construccions gramaticals específiques d'un domini''
 \citep{huijsen98u}. 
 
-
-  Un llenguatge controlat té sovint associat un conjunt de programes
-  de suport que ajuden a avaluar i escriure documents que en
-  complisquen les restriccions. L'escriptor de llenguatges controlats
-  usa normalment un editor de textos intel·ligent que fa les següents
-  tasques:
+Un llenguatge controlat té sovint associat un conjunt de programes de
+suport que ajuden a avaluar i escriure documents que en complisquen
+les restriccions. L'escriptor de llenguatges controlats usa normalment
+un editor de textos intel·ligent que fa les següents tasques:
 \begin{itemize}
 \item Comprovar el compliment de les restriccions:
   \begin{itemize}
@@ -809,12 +791,12 @@ terminologia i construccions gramaticals específiques d'un domini''
   \item sintàctiques (per exemple, fent l'anàlisi sintàctica de les
     oracions i detectant les ambigüitats estructurals, vegeu
     l'apartat~\ref{ss:ambest}), i
-  \item  d'estil (per exemple,
-  especificant quin ha de ser el format de les dates o de les hores).
+  \item d'estil (per exemple, especificant quin ha de ser el format de
+    les dates o de les hores).
   \end{itemize}
 
-\item Emetre un missatge d'error com més informatiu millor quan
-  es detecte una violació de les especificacions del llenguatge.
+\item Emetre un missatge d'error com més informatiu millor quan es
+  detecte una violació de les especificacions del llenguatge.
 \item Proposar a la persona usuària formes alternatives vàlides al
   text erroni.
 \end{itemize}
@@ -840,8 +822,8 @@ autobusos Scania \citep{almqvist96p}, o el {\em Caterpillar Technical
   English} de la companyia de maquinària d'excavació Caterpillar.
 
 També hi ha llenguatges controlats no específicament dissenyats per a
-la traducció automàtica, com ara l'anglés simplificat ({\em
-  Simplified English}) de l'AECMA (Associació Europea d'Indústries
+la traducció automàtica, com ara l'anglés simplificat ({\em Simplified
+  English}) de l'AECMA (Associació Europea d'Indústries
 Aeroespacials), que es caracteritza per ``una sintaxi senzilla, un
 nombre limitat de mots, un nombre limitat de significats ben definits
 per mot (normalment un), i un nombre limitat de categories
@@ -857,133 +839,115 @@ lèxiques\footnote{Les \emph{categories lèxiques} (o simplement {\em
 per mot (normalment una)'', amb ``l'objectiu de produir textos breus i
 no ambigus'' \citep{AECMA07u}.
 
-
-Alguns dels avantatges de l'ús de llenguatges controlats \citep{schwitten07u} es poden
-resumir com segueix:
+Alguns dels avantatges de l'ús de llenguatges controlats
+\citep{schwitten07u} es poden resumir com segueix:
 \begin{itemize}
 \item els textos són més senzills i intel·ligibles;
 \item el manteniment dels documents es facilita;
-\item se simplifica el tractament computacional dels documents,  en
-particular la traducció automàtica.
-\end{itemize} 
+\item se simplifica el tractament computacional dels documents, en
+  particular la traducció automàtica.
+\end{itemize}
 Quant als desavantatges, podem dir que:
 \begin{itemize}
-\item 
-    el disseny d'un llenguatge controlat no és gens trivial: cal
-    estudiar amb profunditat corpus de textos pertanyents al domini i
-    prendre decisions difícils;
-\item el poder d'expressió d'un llenguatge controlat és sempre
-més restringit;
+\item el disseny d'un llenguatge controlat no és gens trivial: cal
+  estudiar amb profunditat corpus de textos pertanyents al domini i
+  prendre decisions difícils;
+\item el poder d'expressió d'un llenguatge controlat és sempre més
+  restringit;
 \item l'escriptura de textos en llenguatge controlat és més lenta;
-\item és necessària una inversió addicional de temps en
-l'aprenentatge del llenguatge controlat per part dels autors.  
-\end{itemize}  
+\item és necessària una inversió addicional de temps en l'aprenentatge
+  del llenguatge controlat per part dels autors.
+\end{itemize}
 Els dos últims desavantatges es poden reduir si es dota els autors
-d'eines informàtiques, com ara d'un
-editor de textos intel·ligent que els ajude a escriure en el llenguatge
-controlat.
+d'eines informàtiques, com ara d'un editor de textos intel·ligent que
+els ajude a escriure en el llenguatge controlat.
 
 
-
-
-\section{Qüestions, exercicis i problemes}
+\section{Qüestions i exercicis}
 \begin{enumerate}
 \item(*) Elegiu un idioma qualsevol que conegueu bé, $L$. És ben segur
-  que $L$ té mots polisèmics que en una altra llengua $L'$ tenen més d'una
-  traducció, segons el sentit que se'n prenga. Elegiu tres mots de $L$
-  que tinguen aquest problema i descrigueu com els tractaríeu en un
-  llenguatge controlat basat en $L$. Les regles que formuleu per als
-  autors que escriguen en el llenguatge controlat han de estar
+  que $L$ té mots polisèmics que en una altra llengua $L'$ tenen més
+  d'una traducció, segons el sentit que se'n prenga. Elegiu tres mots
+  de $L$ que tinguen aquest problema i descrigueu com els tractaríeu
+  en un llenguatge controlat basat en $L$. Les regles que formuleu per
+  als autors que escriguen en el llenguatge controlat han de estar
   escrites en $L$ i no han de contenir referències a altres llengues.
 
-\item En els sistemes de traducció automàtica, la
-preedició...
- \begin{enumerate}
- \item ... redueix la quantitat de postedició.
- \item ... és una alternativa a la postedició, que elimina completament
- aquesta
- última fase.
- \item ... imposibilita l'ús del sistema per a tasques de
- disseminació d'informació.
+\item En els sistemes de traducció automàtica, la preedició...
+  \begin{enumerate}
+  \item ... redueix la quantitat de postedició.
+  \item ... és una alternativa a la postedició, que elimina
+    completament aquesta última fase.
+  \item ... impossibilita l'ús del sistema per a tasques de
+    disseminació d'informació.
  \end{enumerate}
-
 
 \item Indica en quina d'aquestes situacions de traducció automàtica
-      són menys crucials la gramaticalitat o naturalitat lingüística
-      de la traducció.
-        \begin{enumerate}
-        \item Joan usa el Web Translator mentre navega 
-              per les
-              pàgines d'Internet de la Universit\"{a}t Mainz 
-              per a saber quina assignatura
-              dóna el  professor
-              Karl-Hans Lehninger i quins són els seus interessos
-              investigadors.
-        \item Joan usa el Web Translator per a fer una versió en
-              alemany de la seua pàgina Web.
-        \item El personal d'IBM tradueix patents europees
-               per a
-              detectar possibles avanços
-              en correcció d'errors de comunicacions digitals.
-
-        \end{enumerate}
+  són menys crucials la gramaticalitat o naturalitat lingüística de la
+  traducció.
+  \begin{enumerate}
+  \item Joan usa el Web Translator mentre navega per les pàgines
+    d'Internet de la Universität Mainz per a saber quina assignatura
+    dóna el professor Karl-Hans Lehninger i quins són els seus
+    interessos investigadors.
+  \item Joan usa el Web Translator per a fer una versió en alemany de
+    la seua pàgina Web.
+  \item El personal d'IBM tradueix patents europees per a detectar
+    possibles avanços en correcció d'errors de comunicacions digitals.
+  \end{enumerate}
 
 \item Imagineu que podem elegir entre dos sistemes de traducció
-      automàtica diferent $t_A$ i $t_B$ per a traduir manuals de
-      televisors de l'anglés al francés, i que s'ha de dissenyar un
-      anglés controlat per a minimitzar la postedició. Les regles
-      de l'anglés controlat, poden dependre del sistema de TA elegit?
-      \begin{enumerate}
-      \item No, perquè els llenguatges controlats s'han de dissenyar
-            independentment dels sistemes de TA.
-      \item Sí, perquè en cada cas s'han d'evitar problemes
-            diferents.
-      \item No, perquè la llengua meta dels dos sistemes és la
-            mateixa.
-      \end{enumerate}
+  automàtica diferent $t_A$ i $t_B$ per a traduir manuals de
+  televisors de l'anglés al francés, i que s'ha de dissenyar un anglés
+  controlat per a minimitzar la postedició. Les regles de l'anglés
+  controlat, poden dependre del sistema de TA elegit?
+  \begin{enumerate}
+  \item No, perquè els llenguatges controlats s'han de dissenyar
+    independentment dels sistemes de TA.
+  \item Sí, perquè en cada cas s'han d'evitar problemes diferents.
+  \item No, perquè la llengua meta dels dos sistemes és la mateixa.
+  \end{enumerate}
 
- \item Indica quina d'aquestes situacions de traducció automàtica
- és d'\emph{assimilació} d'informació:
- \begin{enumerate}
- \item Narcís usa el programa traductor de l'anglés a l'espanyol
-  Spanish Assistant per a
- llegir els documents electrònics que troba en Internet sobre
- la influència de l'èuscar sobre el gascó.
- \item Joan usa el Web Translator per a fer una versió en
- alemany de la seua pàgina Web abans de publicar-la en
- Internet.
- \item L'empresa Into the Wind tradueix automàticament
- el seu catàleg de
- milotxes i catxerulos a diverses llengües.
- \end{enumerate}
+\item Indica quina d'aquestes situacions de traducció automàtica és
+  d'\emph{assimilació} d'informació:
+  \begin{enumerate}
+  \item Narcís usa el programa traductor de l'anglés a l'espanyol
+    Spanish Assistant per a llegir els documents electrònics que troba
+    en Internet sobre la influència de l'èuscar sobre el gascó.
+  \item Joan usa el Web Translator per a fer una versió en alemany de
+    la seua pàgina Web abans de publicar-la en Internet.
+  \item L'empresa Into the Wind tradueix automàticament el seu catàleg
+    de milotxes i catxerulos a diverses llengües.
+  \end{enumerate}
 
-\item Moltes voltes, la preedició la fa l'autor quan interacciona amb el
-programa de traducció automàtica. és possible dissenyar un
-sistema de preedició interactiva per a autors monolingües?
- \begin{enumerate}
- \item Sí.
- \item No. Per a preeditar correctament cal conéixer l'idioma de
- destinació.
- \item Només per a certs idiomes amb estructura gramatical
- senzilla com l'anglés.
- \end{enumerate}
+\item Moltes voltes, la preedició la fa l'autor quan interacciona amb
+  el programa de traducció automàtica. és possible dissenyar un
+  sistema de preedició interactiva per a autors monolingües?
+  \begin{enumerate}
+  \item Sí.
+  \item No. Per a preeditar correctament cal conéixer l'idioma de
+    destinació.
+  \item Només per a certs idiomes amb estructura gramatical senzilla
+    com l'anglés.
+  \end{enumerate}
 
 \item Quin dels següents \emph{no} és un avantatge dels llenguatges
   controlats?
-\begin{enumerate}
-\item S'evita la necessitat que una persona interaccione amb el programa
-  de traducció automàtica per a resoldre ambigüitats durant la traducció.
-\item Els textos meta resultants són molt més curts.
-\item Els textos origen es fan més intel·ligibles.
+  \begin{enumerate}
+  \item S'evita la necessitat que una persona interaccione amb el
+    programa de traducció automàtica per a resoldre ambigüitats durant
+    la traducció.
+  \item Els textos meta resultants són molt més curts.
+  \item Els textos origen es fan més intel·ligibles.
 \end{enumerate}
 
-\item Per què és necessària la preedició en els sistemes
- de traducció automàtica?
- \begin{enumerate}
- \item Per a evitar construccions o frases difícils de traduir.
- \item Perquè el format quede més agradable a la vista.
- \item és una alternativa a la postedició.
- \end{enumerate}
+\item Per què és necessària la preedició en els sistemes de traducció
+  automàtica?
+  \begin{enumerate}
+  \item Per a evitar construccions o frases difícils de traduir.
+  \item Perquè el format quede més agradable a la vista.
+  \item és una alternativa a la postedició.
+  \end{enumerate}
 
 \item Imagineu que un traductor professional cobra 0,05 euros per mot
   de text traduït i que un corrector de textos cobra 0,10 euros per
@@ -994,103 +958,94 @@ sistema de preedició interactiva per a autors monolingües?
   traductor professional? (si no sabeu calcular-ho en general, feu els
   càlculs amb un text de, per exemple, 1000 mots).
 
-\item 
-   La traducció automàtica instantània de pàgines \emph{web} durant
-   la navegació és un cas de traducció automàtica{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} amb preedició.
-\item {\ldots} per a la disseminació.
-\item {\ldots} per a l'assimilació.
+\item La traducció automàtica instantània de pàgines \emph{web} durant
+  la navegació és un cas de traducció automàtica{\ldots}
+  \begin{enumerate}
+  \item {\ldots} amb preedició.
+  \item {\ldots} per a la disseminació.
+  \item {\ldots} per a l'assimilació.
 \end{enumerate}
 
-\item 
- El ``control'' dels llenguatges controlats{\ldots}
+\item El ``control'' dels llenguatges controlats{\ldots}
+  \begin{enumerate}
+  \item {\ldots} es refereix tant a la terminologia com a la sintaxi.
+  \item {\ldots} només pot referir-se a la sintaxi.
+  \item {\ldots} només pot referir-se a la terminologia.
+  \end{enumerate}
 
-\begin{enumerate}
-\item {\ldots} es refereix tant a la terminologia com a la sintaxi.
-\item {\ldots} només pot referir-se a la sintaxi.
-\item {\ldots} només pot referir-se a la terminologia.
-\end{enumerate}
-\item Quan s'usen per a la traducció, 
-els llenguatges controlats restringeixen directament{\ldots}
-\begin{enumerate}
-\item {\ldots} la llengua meta.
-\item {\ldots} la llengua origen.
-\item {\ldots} tant la llengua origen com la llengua meta.
-\end{enumerate}
+\item Quan s'usen per a la traducció, els llenguatges controlats
+  restringeixen directament{\ldots}
+  \begin{enumerate}
+  \item {\ldots} la llengua meta.
+  \item {\ldots} la llengua origen.
+  \item {\ldots} tant la llengua origen com la llengua meta.
+  \end{enumerate}
 
-\item Si un angloparlant usa el traductor automàtic
-   portugués--anglés de \verb|babelfish.altavista.com| 
-   per a llegir en línia el diari brasileny \emph{O Globo},
-   està usant la traducció automàtica per a un propòsit\ldots
-   
-\begin{enumerate}
-\item \ldots d'assimilació d'informació.
-\item \ldots de disseminació.
-\item \ldots per al qual no està pensada.
-\end{enumerate}
-\item Quina és l'alternativa estàndar a la preedició en un entorn
-   de producció massiva de documentació multilingüe?
-   
-\begin{enumerate}
-\item L'ús d'un llenguatge controlat
-\item L'ús d'un sistema d'interlingua.
-\item La postedició sistemàtica
-\end{enumerate}
-\item Frans consulta a través d'Internet la base de dades terminològica
-   IATE (vegeu l'apartat~\ref{ss:bdterm}) quan tradueix dossiers antiglobalització de l'anglés
-   al neerlandés. En quina de les tres situacions següents es troba?
-   
-\begin{enumerate}
-\item Traducció automàtica assistida per la persona
-\item Traducció humana assistida per la màquina
-\item Usa un llenguatge controlat
-\end{enumerate}
+\item Si un angloparlant usa el traductor automàtic portugués--anglés
+  de \verb|babelfish.altavista.com| per a llegir en línia el diari
+  brasileny \emph{O Globo}, està usant la traducció automàtica per a
+  un propòsit\ldots
+  \begin{enumerate}
+  \item \ldots d'assimilació d'informació.
+  \item \ldots de disseminació.
+  \item \ldots per al qual no està pensada.
+  \end{enumerate}
 
+\item Quina és l'alternativa estàndar a la preedició en un entorn de
+  producció massiva de documentació multilingüe?
+  \begin{enumerate}
+  \item L'ús d'un llenguatge controlat
+  \item L'ús d'un sistema d'interlingua.
+  \item La postedició sistemàtica
+  \end{enumerate}
+
+\item Frans consulta a través d'Internet la base de dades
+  terminològica IATE (vegeu l'apartat~\ref{ss:bdterm}) quan tradueix
+  dossiers antiglobalització de l'anglés al neerlandés. En quina de
+  les tres situacions següents es troba?  
+  \begin{enumerate}
+  \item Traducció automàtica assistida per la persona
+  \item Traducció humana assistida per la màquina
+  \item Usa un llenguatge controlat
+\end{enumerate}
 
 \item Si enviem un document HTML a un servidor de traducció automàtica
   i després posteditem el resultat perquè siga una traducció
   acceptable de l'original abans de publicar-la, estem usant la
-  traducció automàtica{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} amb memòria de traducció.
-\item {\ldots} per a la disseminació.
-\item {\ldots} per a l'assimilació.
-\end{enumerate}
+  traducció automàtica{\ldots}   
+  \begin{enumerate}
+  \item {\ldots} amb memòria de traducció.
+  \item {\ldots} per a la disseminació.
+  \item {\ldots} per a l'assimilació.
+  \end{enumerate}
 
 \item L'adopció d'un llenguatge controlat en una situació de traducció
-de documents d'una llengua a moltes llengües per a la disseminació
-és, en el procés complet, una alternativa a{\ldots}
-\begin{enumerate}
-\item {\ldots}la postedició repetitiva dels documents meta.
-\item {\ldots}la preedició repetitiva dels documents origen.
-\item {\ldots}la traducció de fragments ja traduïts anteriorment.
+  de documents d'una llengua a moltes llengües per a la disseminació
+  és, en el procés complet, una alternativa a{\ldots}
+  \begin{enumerate}
+  \item {\ldots}la postedició repetitiva dels documents meta.
+  \item {\ldots}la preedició repetitiva dels documents origen.
+  \item {\ldots}la traducció de fragments ja traduïts anteriorment.
+  \end{enumerate}
+
+\item Un sistema que suggereix millores a l'estil d'un document es pot
+  considerar com {\ldots}
+  \begin{enumerate}
+  \item {\ldots} HAMT.
+  \item {\ldots} MAHT.
+  \item {\ldots} un sistema de traducció automàtica ergonòmic.
 \end{enumerate}
 
-\item 
-Un sistema que suggereix millores a l'estil d'un document es pot
-considerar com {\ldots}
-
-\begin{enumerate}
-\item {\ldots} HAMT.
-\item {\ldots} MAHT.
-\item {\ldots} un sistema de traducció automàtica ergonòmic.
-\end{enumerate}
-
-\item 
-Una inventora monolingüe consulta documents web traduïts a
-la seua llengua per tal de descobrir si el seu nou invent ha estat
-patentat abans. Si la traducció es fa mitjançant un sistema automàtic,
-quin ús n'està fent?
-
-\begin{enumerate}
-\item Assimilació; més concretament per a allò que 
-          es diu \emph{screening}.
-\item Disseminació.
-\item Postedició, ja que l'idioma del document canvia per què puga
-ser entés.
+\item Una inventora monolingüe consulta documents web traduïts a la
+  seua llengua per tal de descobrir si el seu nou invent ha estat
+  patentat abans. Si la traducció es fa mitjançant un sistema
+  automàtic, quin ús n'està fent?
+  \begin{enumerate}
+  \item Assimilació; més concretament per a allò que es diu
+    \emph{screening}.
+  \item Disseminació.
+  \item Postedició, ja que l'idioma del document canvia per què puga
+    ser entés.
 \end{enumerate}
 
 \item El programa de la Generalitat Valenciana SALT 4.0 tradueix
@@ -1098,24 +1053,23 @@ ser entés.
   esporàdicament a la persona usuària quin equivalent és més adequat
   per a alguns mots ambigus difícils.  Aquesta és una situació
   de{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} postedició.
-\item {\ldots} traducció automàtica assistida per la persona.
-\item {\ldots} traducció humana assistida per l'ordinador.
-\end{enumerate}
+  \begin{enumerate}
+  \item {\ldots} postedició.
+  \item {\ldots} traducció automàtica assistida per la persona.
+  \item {\ldots} traducció humana assistida per l'ordinador.
+  \end{enumerate}
 
-\item Volem posteditar un text traduït automàticament mirant tan
-   poc com siga possible el text original. Ens ajuda conéixer quins
-   són els mots homògrafs (vegeu la p.~\pageref{pg:homografia}) més comuns de la llengua origen?
-   
-\begin{enumerate}
-\item No, perquè els homògrafs del text origen no afecten el text meta en brut.
-\item No, perquè només estem mirant el text meta.
-\item Sí, perquè són una font molt important d'errors
-      especialment difícils
-      de corregir si no es coneix què ha passat.
-\end{enumerate}
+\item Volem posteditar un text traduït automàticament mirant tan poc
+  com siga possible el text original. Ens ajuda conéixer quins són els
+  mots homògrafs (vegeu la p.~\pageref{pg:homografia}) més comuns de
+  la llengua origen?
+  \begin{enumerate}
+  \item No, perquè els homògrafs del text origen no afecten el text
+    meta en brut.
+  \item No, perquè només estem mirant el text meta.
+  \item Sí, perquè són una font molt important d'errors especialment
+    difícils de corregir si no es coneix què ha passat.
+  \end{enumerate}
 
 \item Una persona està escrivint un document en llengua origen que
   després serà traduït automàticament a més d'una llengua meta i el
@@ -1123,25 +1077,24 @@ ser entés.
   donarà problemes de traducció ---i li suggereix alternatives--- o
   quan escriu una estructura que serà difícil de traduir. Aquesta és
   una situació\ldots
-\begin{enumerate}
-\item \ldots de preedició.
-\item \ldots d'aplicació d'un llenguatge controlat.
-\item \ldots de postedició.
-\end{enumerate}
-
-
-\item Quina de les següents situacions és absurda en traducció automàtica? 
   \begin{enumerate}
-   \item La postedició en una aplicació d'assimilació.
-   \item La postedició en una aplicació de disseminació.
-   \item L'ús d'un llenguatge controlat en una aplicació de disseminació.
+  \item \ldots de preedició.
+  \item \ldots d'aplicació d'un llenguatge controlat.
+  \item \ldots de postedició.
   \end{enumerate}
 
+\item Quina de les següents situacions és absurda en traducció
+  automàtica?
+  \begin{enumerate}
+  \item La postedició en una aplicació d'assimilació.
+  \item La postedició en una aplicació de disseminació.
+  \item L'ús d'un llenguatge controlat en una aplicació de
+    disseminació.
+  \end{enumerate}
 
 \item Només una d'aquestes tres afirmacions és certa. Quina?
   \begin{enumerate}
-  \item Els llenguatges controlats defineixen regles de
-    postedició.
+  \item Els llenguatges controlats defineixen regles de postedició.
   \item L'ús d'un llenguatge controlat elimina completament la
     necessitat de postedició.
   \item Quan s'apliquen les regles d'un llenguatge controlat, el text
@@ -1149,35 +1102,33 @@ ser entés.
     construccions i mots que donen problemes.
   \end{enumerate}
 
-
-
 \item Un sistema de traducció automàtica hipotètic del rus al català
   produeix text que és bàsicament correcte excepte pel fet que no
   genera ni articles determinats (\emph{el}, \emph{la}, \emph{l'},
   \emph{els}, \emph{les}) ni indeterminats (\emph{un}, \emph{una},
   \emph{uns}, \emph{unes}). Què diríeu d'aquest sistema?
-\begin{enumerate}
-\item Que és especialment adequat per a l'assimilació, però
-    no tant per a la disseminació en vista que els articles són més
-    del 10\% del text.  
-\item Que és especialment adequat per a la
-    disseminació, perquè els articles són paraules molt poc freqüents
-    en el text i per tant no serà necessària molta postedició.
-\item Que no és útil ni per a l'assimilació ni per a la
-    disseminació.
-\end{enumerate}
-
-\item Es pot posteditar sense mirar el text original?  
   \begin{enumerate}
-  \item Sí.  
+  \item Que és especialment adequat per a l'assimilació, però no tant
+    per a la disseminació en vista que els articles són més del 10\%
+    del text.
+  \item Que és especialment adequat per a la disseminació, perquè els
+    articles són paraules molt poc freqüents en el text i per tant no
+    serà necessària molta postedició.
+  \item Que no és útil ni per a l'assimilació ni per a la
+    disseminació.
+  \end{enumerate}
+
+\item Es pot posteditar sense mirar el text original?
+  \begin{enumerate}
+  \item Sí.
   \item En general, no. Qui postedita produeix una traducció. Per
     tant, ha d'estar segur que el resultat és traducció del text
-    original.  
+    original.
   \item Si el text és tècnic es pot fer sense mirar. En altre cas, cal
     sempre mirar mai el text original.
   \end{enumerate}
 
-\item L'ús d'un llenguatge controlat fa que \ldots 
+\item L'ús d'un llenguatge controlat fa que \ldots
   \begin{enumerate}
   \item \ldots l'escriptura siga més ràpida.
   \item \ldots l'estil del document resultant siga més homogeni.
@@ -1189,13 +1140,14 @@ ser entés.
   origen. No obstant això, aquest error no ha afectat a la traducció
   de la resta de l'oració. Què hem de fer?
   \begin{enumerate}
-  \item Preeditar el text original complet substituint la paraula per un sinònim que sí que reconega el traductor automàtic i tornar a traduir tot el text.
+  \item Preeditar el text original complet substituint la paraula per
+    un sinònim que sí que reconega el traductor automàtic i tornar a
+    traduir tot el text.
   \item Provar a traduir tot el text amb un altre traductor automàtic.
   \item Corregir-la i seguir posteditant.
   \end{enumerate}
 
-
-\item   Si en una fàbrica de frigorífics s'usen sistemes de traducció
+\item Si en una fàbrica de frigorífics s'usen sistemes de traducció
   automàtica per a traduir a moltes altres llengües els manuals dels
   nombrosos models que s'hi fabriquen (i que són molt similars entre
   ells), la solució més eficient per a evitar errors de traducció
@@ -1207,23 +1159,18 @@ ser entés.
   \item \ldots preeditar els manuals abans de traduir-los.
   \end{enumerate}
 
-
-% < QT7
-
-
 \end{enumerate}
 
 \section{Solucions}
 \begin{enumerate}
-\item(*) \label{pr:escondite} Per exemple, si $L$ és l'espanyol, mots com {\em
-    escondite} poden referir-se a un lloc on amagar-se (1) o a un
-  joc (2) (en $L'$=català, \emph{amagatall} (1) i \emph{fet}, {\em
-    amagar}, \emph{fet a amagar} o \emph{conillets a amagar}
-  (2)). En el llenguatge controlat, es podria evitar el primer
-  significat proposant els autors que feren servir el mot alternatiu {\em
+\item(*) \label{pr:escondite} Per exemple, si $L$ és l'espanyol, mots
+  com {\em escondite} poden referir-se a un lloc on amagar-se (1) o a
+  un joc (2) (en $L'$=català, \emph{amagatall} (1) i \emph{fet}, {\em
+    amagar}, \emph{fet a amagar} o \emph{conillets a amagar} (2)). En
+  el llenguatge controlat, es podria evitar el primer significat
+  proposant els autors que feren servir el mot alternatiu {\em
     escondrijo}. Les regles es podrien formular com segueix en
   espanyol:
-
   {\sl
   \begin{description}
   \item[escondite] úsese sólo en el sentido de ``juego del
@@ -1238,55 +1185,58 @@ ser entés.
     ``deflagrar'' (una bomba, etc.) o ``reventar'' (un globo, etc.).
   \end{description}
 }
-
 \item (a)
 \item (a)
 \item (b)
 \item (a)
-\item (a). Les preguntes es poden plantejar com en el problema~\ref{pr:escondite}.
+% 5
+\item (a). Les preguntes es poden plantejar com en el
+  problema~\ref{pr:escondite}.
 \item (b)
 \item (a) 
 \item
-  \begin{description} 
+  \begin{description}
   \item [Solució 1 ($n$ mots):] El traductor professional tradueix un
-  text de $n$ mots per 0,05$\times n$ euros. El sistema de traducció
-  automàtica el tradueix per 0,03$\times n$ i corregir-lo costa
-  0,10$\times($10$/$100$)\times n$, és a dir, 0,01$\times n$ euros
-  perquè només 10 de cada 100 mots són incorrectes. Per tant, el
-  sistema semiautomàtic costa només $($0,03$+$0,01$)\times n =
-  $0,04$\times n$ euros, davant dels 0,05$\times n$ euros del
-  traductor professional.
+    text de $n$ mots per 0,05$\times n$ euros. El sistema de traducció
+    automàtica el tradueix per 0,03$\times n$ i corregir-lo costa
+    0,10$\times($10$/$100$)\times n$, és a dir, 0,01$\times n$ euros
+    perquè només 10 de cada 100 mots són incorrectes. Per tant, el
+    sistema semiautomàtic costa només $($0,03$+$0,01$)\times n =
+    $0,04$\times n$ euros, davant dels 0,05$\times n$ euros del
+    traductor professional.
  
-  \item[Solució 2 (1000 mots):] El traductor professional tradueix un text de 1000 mots
-  per 0,05$\times$1000$=$50 euros. El sistema de traducció automàtica
-  el tradueix per 0,03$\times$1000$=$30 euros, i corregir-lo costa 10
-  euros, perquè en 1000 parules hi ha 1000$\times $10$/$100$=$100
-  mots incorrectes i corregir cada un costa 0,10 euros:
-  0,10$\times$100$=$10.  Per tant, el sistema semiautomàtic costa
-  només 40 euros, davant dels 50 del traductor professional.
-\end{description}
-
+  \item[Solució 2 (1000 mots):] El traductor professional tradueix un
+    text de 1000 mots per 0,05$\times$1000$=$50 euros. El sistema de
+    traducció automàtica el tradueix per 0,03$\times$1000$=$30 euros,
+    i corregir-lo costa 10 euros, perquè en 1000 parules hi ha
+    1000$\times $10$/$100$=$100 mots incorrectes i corregir cada un
+    costa 0,10 euros: 0,10$\times$100$=$10.  Per tant, el sistema
+    semiautomàtic costa només 40 euros, davant dels 50 del traductor
+    professional.
+  \end{description}
 \item (c)
+% 10
 \item (a)
 \item (b)
 \item (a)
 \item (a)
 \item (b)
+% 15
 \item (b)
 \item (b)
 \item (b)
 \item (a)
 \item (b)
+% 20
 \item (c)
 \item (b)
 \item (a)
 \item (c) 
 \item (a)
+% 25
 \item (b)
 \item (b)
 \item (c)
 \item (a)
-% < SL7
- 
 \end{enumerate}
 
