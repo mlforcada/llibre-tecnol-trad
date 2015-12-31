@@ -1207,56 +1207,90 @@ L'anàlisi, pas a pas, és la següent:
 
 \subsection{Sistemes de transferència semàntica}
 
-  
-  Els sistemes de traducció automàtica basats en la transferència
-  sintàctica (és a dir, en la aproximació que diu que es poden
-  transformar d'una banda les estructures sintàctiques
-  ---\emph{transferència estructural}--- i d'altra banda substituir el
-  lèxic ---\emph{transferència lèxica}--- fent ambdues operacions
-  independentment) solen funcionar bé en casos senzills, però en
-  general es fa necessària una anàlisi més profunda \citep{hovy93j},
-  ja que la correspondència entre les relacions sintàctiques
-  (subjecte, objecte, etc.)  i les relacions semàntiques (agent,
-  pacient, etc.)  dels constituents d'una frase poden variar d'una
-  llengua a una altra. Per exemple, en la frase catalana ``m'agraden
-  els llimons'', qui produeix el plaer (``els llimons'') fa de
-  subjecte en l'oració, mentre que en l'equivalent anglesa (``I like
-  lemons'') hi fa d'objecte directe.\footnote{Hi ha més exemples
-  interessants: en anglés \emph{sink} (\emph{enfonsar}) és un verb
-  \emph{ergatiu}: quan porta subjecte i objecte, no és especial: el
-  subjecte és l'agent i l'objecte el pacient: \emph{we sank the ship},
-  però quan 
-  porta només un subjecte, aquest correspon al \emph{pacient} de
-  l'acció: \emph{the ship sinks}. En català podem dir \emph{vam enfonsar
-  el vaixell} però no \emph{*el vaixell enfonsa}, perquè en català el
-  verb no és ergatiu: la transferència sintàctica fallaria. Un altre exemple
-  clàssic el constitueixen les tres maneres diferents en què es pot
-  expressar que a algú li produeix plaer fer una acció: la primera, la
-  catalana \emph{m'agrada nadar} o l'espanyola \emph{me gusta nadar},
-  on l'acció de nadar és el subjecte i el receptor de plaer l'objecte indirecte; la
-  segona, la de l'anglés \emph{I like swimming} o el francés
-  \emph{j'aime nager}, on el receptor de plaer és subjecte i l'acció
-  de nadar
-  l'objecte; la tercera, la neerlandesa \emph{ik swemme graag} o
-  l'alemanya \emph{ich schwimme gern} on l'acció de nadar passa a ser el
-  verb principal i l'acció d'agradar es converteix en un adverbi.} És cert que aquest cas es podria
-  tractar de manera particular en un sistema de transferència
-  sintàctica, fent la transformació corresponent en l'arbre d'anàlisi
-  sintàctica quan el verb fos ``agradar'' (és a dir, fent una
-  transferència estructural dependent del lèxic: vegeu l'exercici~\ref{exer:agradar}), però hi ha casos en
-  què també convé oblidar l'estructura sintàctica concreta de la frase
-  en LO i fixar-se més aviat en la semàntica, com per exemple quan cal
-  resoldre ambigüitats causades per l'anàfora o l'el·lipsi (vegeu
-  les pàgines~\pageref{pg:anafora} i \pageref{pg:ellipsi}).  Per
-  exemple, les dues frases angleses esmentades més amunt ``Sam gave a
-  book to Leslie'' i ``Sam gave Leslie a book'' tenen una sintaxi
-  diferent però volen dir exactament el mateix: ``Sam va donar un
-  llibre a Leslie''; el que més compta és qui fa l'acció, quin objecte
-  afecta i qui n'és el destinatari, però no l'ordre en què aquestes
-  entitats apareixen en la frase en LO \citep{arnold93j}. Els sistemes
-  de transferència semàntica construeixen representacions intermèdies
-  més profundes; l'anàlisi i la generació són més complexes, però la
-  transferència se simplifica.
+Els sistemes de traducció automàtica basats en la transferència
+sintàctica (és a dir, en la aproximació que diu que es poden
+transformar d'una banda les estructures sintàctiques
+---\emph{transferència estructural}--- i d'altra banda substituir el
+lèxic ---\emph{transferència lèxica}--- fent ambdues operacions
+independentment) solen funcionar bé en casos senzills, però en general
+es fa necessària una anàlisi més profunda \citep{hovy93j}, ja que la
+correspondència entre les relacions sintàctiques (subjecte, objecte,
+etc.)  i les relacions semàntiques (agent, pacient, etc.)  dels
+constituents d'una frase poden variar d'una llengua a una altra.  Heus
+ací alguns exemples:
+
+\begin{itemize}
+\item En la frase catalana \emph{m'agraden els llimons}, qui produeix
+  el plaer, és a dir, l'agent, (\emph{els llimons}) fa de subjecte en
+  l'oració, mentre que en l'equivalent anglesa (\emph{I like lemons})
+  hi fa d'objecte directe o en l'equivalent portugués (\emph{Eu gosto
+    de limões}) apareix com a complement preposicional; qui
+  experimenta el plaer fa d'objecte en català i de subjecte en anglés
+  i en portugués. La semàntica d'aquestes frases es podria resumir en
+  l'estructura abstracta
+  \begin{center}
+    \texttt{donar\_plaer(agent=llimons,dest=jo)}
+  \end{center}
+\item \label{pg:magradanadar} Però encara pot haver-hi més maneres d'expressar
+  sintàcticament quan el que a algú li produeix plaer fer una acció:
+  \begin{itemize}
+  \item la catalana \emph{m'agrada nadar} o l'espanyola \emph{me gusta
+      nadar}, on l'acció de nadar és el subjecte i el receptor de
+    plaer l'objecte indirecte;
+  \item la de l'anglés \emph{I like swimming} o el francés
+    \emph{j'aime nager}, on el receptor de plaer és subjecte i l'acció
+    de nadar l'objecte;
+  \item la del portugués, que introdueix l'acció amb preposició:
+    \emph{eu gosto de nadar}, o
+  \item la neerlandesa \emph{ik swemme graag} o l'alemanya \emph{ich
+      schwimme gern} on l'acció de nadar passa a ser el verb principal
+    i l'acció d'agradar es converteix en un adverbi.
+  \end{itemize}
+La semàntica de totes aquestes frases es podria resumir en l'estructura abstracta 
+\begin{center}
+  \texttt{donar\_plaer(agent=nadar(agent=jo),experimentador=jo)}.
+\end{center}
+\item La noció de \emph{portar un nom} també sol expressar-se de
+  manera sintàcticament divergent. Per exemple, en català diem
+  \emph{Em dic Joan} o \emph{Em diuen Joan}; en anglés \emph{My name
+    is Joan} o \emph{I am called Joan}; en alemany \emph{Ich hei{\ss}e
+    Joan}, etc.\footnote{En català de Mallorca s'usa una estructura
+    similar amb el verb defectiu \emph{nòmer}: \emph{Jo nom Joan}.}
+\item En algunes llengües, trobem verbs que de vegades se solen
+  anomenar \emph{ergatius}, com ara en anglés el verb \emph{sink}
+  (\emph{enfonsar}) quan porta subjecte i objecte, no és especial: el
+  subjecte és l'agent i l'objecte el pacient: \emph{we sank the ship}:
+  \begin{center}
+    \texttt{enfonsar(agent=nosaltres,pacient=vaixell)}
+  \end{center}
+  però quan porta només un subjecte, aquest correspon al
+  \emph{pacient} de l'acció: \emph{the ship sinks}
+  \begin{center}
+    \texttt{enfonsar(pacient=vaixell)},
+  \end{center}
+  i l'agent sense especificar. En català també hi
+  ha verbs ergatius com ara \emph{bullir} (\emph{Jo bull la llet} /
+  \emph{La llet bull}).
+
+\end{itemize}
+
+És cert que aquests casos es podrien tractar de manera particular en
+un sistema de transferència sintàctica, fent la transformació
+corresponent en l'arbre d'anàlisi sintàctica per a cada verb específic
+(és a dir, fent una transferència estructural dependent del lèxic)
+però hi ha casos en què també convé oblidar l'estructura sintàctica
+concreta de la frase en LO i fixar-se més aviat en la semàntica, com
+per exemple quan cal resoldre ambigüitats causades per l'anàfora o
+l'el·lipsi (vegeu les pàgines~\pageref{pg:anafora} i
+\pageref{pg:ellipsi}).  Per exemple, les dues frases angleses
+esmentades més amunt ``Sam gave a book to Leslie'' i ``Sam gave Leslie
+a book'' tenen una sintaxi diferent però volen dir exactament el
+mateix: ``Sam va donar un llibre a Leslie''; el que més compta és qui
+fa l'acció, quin objecte afecta i qui n'és el destinatari, però no
+l'ordre en què aquestes entitats apareixen en la frase en LO
+\citep{arnold93j}. Els sistemes de transferència semàntica
+construeixen representacions intermèdies més profundes; l'anàlisi i la
+generació són més complexes, però la transferència se simplifica.
 
 \section[Sistemes sense transferència: interlingua]{Sistemes sense transferència: els sistemes d'{\em
     interlingua}}
@@ -1292,7 +1326,7 @@ de quines siguen la LO i la LM, és a dir, la interlingua és {\em
 Les interlingües poden ser de molts tipus. Els sistemes clàssics usen
 representacions estructurals més o menys complexes per a representar
 les relacions semàntiques entre els elements de la frase (de l'estil
-de les de la solució a l'exercici~\ref{exer:agradar}). Però les
+de les de la solució a l'exercici~\ref{exer:agradar}).  Però les
 interlingües no han de ser necessàriament el resultat d'una anàlisi
 profunda: el que han de ser necessàriament és \emph{neutrals}; per
 exemple, alguns sistemes històrics com DLT \citep[cap.~17]{hutchins92b} usen com
@@ -2023,40 +2057,40 @@ automàtica tenen la fase de transferència més senzilla possible?
      \end{example}
 
 
-\item \label{exer:agradar} Les estructures sintàctiques usades per diverses llengües a
-  l'hora d'expressar el fet que alguna acció agrada a algú són molt
-  diverses. La frase ``m'agrada nadar'' té una estructura sintàctica molt
-  diferent en anglés (\ref{ex:angles}) i en alemany (\ref{ex:alemany}).
-\begin{example}
-\gll Peter likes swimming.
-     Peter s'estima nadant.
-\glt\glend
-\label{ex:angles}
-\end{example}
-\begin{example}
-\gll Peter schwimmt gern.
-     Peter nada {amb gust}.
-\glt\glend
-\label{ex:alemany}
-\end{example}
-Altre exemple el tenim en la frase  ``li diuen Joan'':
-\begin{example}
-\gll He is called Joan.
-     Ell és anomenat Joan.
-\glt\glend
-\label{ex:angles2}
-\end{example}
-\begin{example}
-\gll Er hei{\ss}t Joan.
-     Ell {s'anomena}  Joan.
-\glt\glend
-\label{ex:alemany2}
-\end{example}
-En canvi, les estructures que serveixen per a expressar altres
-conceptes poden ser completament paral·leles. Quines conseqüències té
-això per al disseny d'un sistema de traducció automàtica de
-transferència sintàctica entre llengües amb aquestes característiques?
-Com es podrien evitar els problemes observats?
+% \item \label{exer:agradar} Les estructures sintàctiques usades per diverses llengües a
+%   l'hora d'expressar el fet que alguna acció agrada a algú són molt
+%   diverses. La frase ``m'agrada nadar'' té una estructura sintàctica molt
+%   diferent en anglés (\ref{ex:angles}) i en alemany (\ref{ex:alemany}).
+% \begin{example}
+% \gll Peter likes swimming.
+%      Peter s'estima nadant.
+% \glt\glend
+% \label{ex:angles}
+% \end{example}
+% \begin{example}
+% \gll Peter schwimmt gern.
+%      Peter nada {amb gust}.
+% \glt\glend
+% \label{ex:alemany}
+% \end{example}
+% Altre exemple el tenim en la frase  ``li diuen Joan'':
+% \begin{example}
+% \gll He is called Joan.
+%      Ell és anomenat Joan.
+% \glt\glend
+% \label{ex:angles2}
+% \end{example}
+% \begin{example}
+% \gll Er hei{\ss}t Joan.
+%      Ell {s'anomena}  Joan.
+% \glt\glend
+% \label{ex:alemany2}
+% \end{example}
+% En canvi, les estructures que serveixen per a expressar altres
+% conceptes poden ser completament paral·leles. Quines conseqüències té
+% això per al disseny d'un sistema de traducció automàtica de
+% transferència sintàctica entre llengües amb aquestes característiques?
+% Com es podrien evitar els problemes observats?
 
 \item Els mots no són tots igualment freqüents en els textos. De
   fet, si ordenem els mots d'un gran corpus de text real (de qualsevol
@@ -2598,50 +2632,50 @@ es
      que concorda. El resultat és que el sintagma preposicional
      \emph{de Zkannag} queda darrere del verb.
 
-\item El problema és que moltes vegades les funcions que assigna
-  l'estructura sintàctica no es corresponen de la mateixa manera en
-  totes les llengües amb els rols o els actors semàntics
-  de l'acció. La semàntica de les frases del primer exemple es podria representar
-  així:
+  %  \item El problema és que moltes vegades les funcions que assigna
+  %    l'estructura sintàctica no es corresponen de la mateixa manera en
+  %    totes les llengües amb els rols o els actors semàntics de
+  %    l'acció. La semàntica de les frases del primer exemple es podria
+  %    representar així:
 
-  \begin{parsetree}
-    ( .{\texttt{ACCIÓ=DONAR\_PLAER}}.
-      (.{\texttt{AGENT=}}.
-        (.{\texttt{ACCIÓ=NADAR}}.
-          `\texttt{AGENT=JO}' ) )
-      `\texttt{DESTINATARI=JO}'
-      `\texttt{TEMPS=PRESENT}' )
-  \end{parsetree} 
+  % \begin{parsetree}
+  %   ( .{\texttt{ACCIÓ=DONAR\_PLAER}}.
+  %     (.{\texttt{AGENT=}}.
+  %       (.{\texttt{ACCIÓ=NADAR}}.
+  %         `\texttt{AGENT=JO}' ) )
+  %     `\texttt{DESTINATARI=JO}'
+  %     `\texttt{TEMPS=PRESENT}' )
+  % \end{parsetree} 
 
-  Per exemple, en català, l'agent de l'acció de donar plaer es
-  representa com a subjecte, però en anglés com a objecte. El cas de
-  l'alemany és encara més complicat perquè l'acció de donar plaer es
-  representa com a adverbi.
+  % Per exemple, en català, l'agent de l'acció de donar plaer es
+  % representa com a subjecte, però en anglés com a objecte. El cas de
+  % l'alemany és encara més complicat perquè l'acció de donar plaer es
+  % representa com a adverbi.
   
-  Si es vol mantenir el disseny de transferència sintàctica, la única
-  solució és que les regles per a aquestes transformacions depenguen
-  del component lèxic (en aquest cas, un verb) concret. Això només és
-  viable si n'hi ha poques excepcions d'aquesta mena, com sembla que
-  és el cas.
+  % Si es vol mantenir el disseny de transferència sintàctica, la única
+  % solució és que les regles per a aquestes transformacions depenguen
+  % del component lèxic (en aquest cas, un verb) concret. Això només és
+  % viable si n'hi ha poques excepcions d'aquesta mena, com sembla que
+  % és el cas.
   
-  Alternativament, es pot aprofundir en l'anàlisi i baixar a un nivell
-  semàntic de l'estil del representat més amunt, i generar en cada cas
-  la traducció a partir d'aquesta representació semàntica, que ja no
-  depén tant de la llengua concreta.
+  % Alternativament, es pot aprofundir en l'anàlisi i baixar a un nivell
+  % semàntic de l'estil del representat més amunt, i generar en cada cas
+  % la traducció a partir d'aquesta representació semàntica, que ja no
+  % depén tant de la llengua concreta.
 
-  La representació anàloga per al segon exemple podria ser:
+  % La representació anàloga per al segon exemple podria ser:
 
-  \begin{parsetree}
-    ( .{\texttt{ACCIÓ=DONAR\_NOM}}.
-      `{\texttt{AGENT=?}}'
-      `{\texttt{DESTINATARI=ELL}}'
-      `{\texttt{OBJECTE=JOAN}}'
-    )
-  \end{parsetree}
+  % \begin{parsetree}
+  %   ( .{\texttt{ACCIÓ=DONAR\_NOM}}.
+  %     `{\texttt{AGENT=?}}'
+  %     `{\texttt{DESTINATARI=ELL}}'
+  %     `{\texttt{OBJECTE=JOAN}}'
+  %   )
+  % \end{parsetree}
     
-    On no s'especifica l'agent de l'acció de donar nom; la casella
-    d'agent podria ser útil per a representar frases de l'estil de `Jo
-    l'anomene Joan'.
+  %   On no s'especifica l'agent de l'acció de donar nom; la casella
+  %   d'agent podria ser útil per a representar frases de l'estil de `Jo
+  %   l'anomene Joan'.
 
   \item Com que l'objectiu de l'equip que dissenya els diccionaris és
     que tinguen la cobertura més alta possible (és a dir, que deixen
