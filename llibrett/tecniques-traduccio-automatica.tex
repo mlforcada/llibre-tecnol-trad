@@ -886,8 +886,8 @@ s'han de moure els adjectius; la traducció correcta de
 sistema real de transferència sintàctica hauria de considerar
 aquests casos de manera especial.}
 \begin{center}
-$R_1:$ \begin{parsetree} (.\textrm{SN}$_1$. `A' `SN$_2$' )
-\end{parsetree}
+ $R_1:$ \begin{parsetree} (.\textrm{SN}$_1$. `A' `SN$_2$' )
+ \end{parsetree}
 $\longrightarrow$ 
 \begin{parsetree} (.SN$_1$.  `SN$_2$' `A' ) \end{parsetree}
 \end{center}
@@ -961,18 +961,18 @@ i es correspon amb l'arbre d'anàlisi sintàctica de la
 traducció, ``El cotxe roig de l'amiga intel·ligent del professor
 vell'', la qual es podria generar directament a partir de l'arbre.
 
-Quan es tradueix de l'espanyol al català, poques vegades es
-donen situacions com aquesta, ja que, en general, l'ordre dels mots no
-sol canviar tan radicalment; una construcció espanyola que sí que
-podria requerir la identificació i el desplaçament d'un
-sintagma nominal complet per a traduir-lo al català seria la
-construcció de relatiu possessiu amb \emph{cuyo}, ja que el
-català no en té. Una possible solució usa frases
-preposicionals del tipus de \emph{del qual} postposades a la
-traducció del sintagma nominal que segueix a \emph{cuyo}. Fixeu-vos en
-aquests dos exemples, on s'ha fet una anàlisi sintàctica
-parcial\footnote{És a dir, sense construir l'arbre complet.}
-per a marcar els sintagmes nominals amb claudàtors:
+Quan es tradueix entre llengües emparentades, com per exemple de
+l'espanyol al català, poques vegades es donen situacions com aquesta,
+ja que, en general, l'ordre dels mots no sol canviar tan radicalment;
+una construcció espanyola que sí que podria requerir la identificació
+i el desplaçament d'un sintagma nominal complet per a traduir-lo al
+català seria la construcció de relatiu possessiu amb \emph{cuyo}, ja
+que el català no en té. Una possible solució usa frases preposicionals
+del tipus de \emph{del qual} postposades a la traducció del sintagma
+nominal que segueix a \emph{cuyo}. Fixeu-vos en aquests dos exemples,
+on s'ha fet una anàlisi sintàctica parcial\footnote{És a dir, sense
+  construir l'arbre complet.}  per a marcar els sintagmes nominals amb
+claudàtors:
 $$\begin{array}{ll}
 & [_{SN} \mbox{ las hijas }] [_{SN} \mbox{ cuyo } [_{SN} \mbox{ padre } ] ] 
 \\ \rightarrow  &
@@ -997,7 +997,7 @@ relativa {\em
 del qual} de manera que 
 concorde ara (en gènere i nombre) amb l'antecedent (el sintagma nominal
 anterior al \emph{cuyo}). Aquestes operacions es poden resoldre de
-manera molt natural en un sistema de transferència sintàctica.
+manera natural en un sistema de transferència sintàctica.
 
 \subsection{Anàlisi sintàctica}
 \label{s3:ansyn}
@@ -1287,10 +1287,11 @@ transformar d'una banda les estructures sintàctiques
 lèxic ---\emph{transferència lèxica}--- fent ambdues operacions
 independentment) solen funcionar bé en casos senzills, però en general
 es fa necessària una anàlisi més profunda \citep{hovy93j}, ja que la
-correspondència entre les relacions sintàctiques (subjecte, objecte,
-etc.)  i les relacions semàntiques (agent, pacient, etc.)  dels
-constituents d'una frase poden variar d'una llengua a una altra.  Heus
-ací alguns exemples:
+correspondència entre les relacions sintàctiques (\emph{subjecte},
+\emph{objecte directe}, \emph{objecte indirecte}, etc.)  i les
+relacions semàntiques (\emph{agent}, \emph{pacient},
+\emph{destinatari} etc.)  dels constituents d'una frase poden variar
+d'una llengua a una altra.  Heus ací alguns exemples:
 
 \begin{itemize}
 \item En la frase catalana \emph{m'agraden els llimons}, qui produeix
@@ -1791,15 +1792,15 @@ transferència discutits amb més detall més amunt
 
 
 \section[Aproximacions inductives a la TA]{Aproximacions inductives a la traducció automàtica}
-\todo{Millorar aquest apartat: aprofitar les transparències de Felipe,
-  el que Mikel va fer a Castelló, col·locant material avançat en
+\todo{Millorar aquest apartat (ho deixe per a Felipe): aprofitar les transparències de Felipe,
+  potser el que Mikel va fer a Castelló, col·locant material avançat en
   \emph{per saber més}; deixar clar que SMT es SotA; connectar amb
   exercicis com el del \emph{séverla}}
 \label{ss:induc}
 
 Totes les aproximacions a la traducció automàtica descrites fins ara
 són de naturalesa \emph{deductiva}, és a dir, estan programades a
-partir de teories i dades lingüístiques sobre la traducció. Però
+partir de teories i coneixements lingüístics sobre la traducció. Però
 recentment (sobretot en els primers anys del tercer mil·leni) s'està
 produint un creixement espectacular de les aproximacions
 \emph{inductives} a la traducció automàtica, en les quals el sistema
@@ -1845,9 +1846,11 @@ estructures funcionen com un nom).
 
 
 \section{Qüestions, exercicis i problemes}
-\todo{Repassar-los; afegir-ne més; seleccionar-los si hi ha
-  repeticions; marcar els difícils i dir-ho; separar els de respostes
-  alternatives dels de respostes obertes.}
+\todo{Repassar-los; seleccionar-los si hi ha
+  repeticions;  separar els de respostes
+  alternatives dels de respostes obertes? Falta algun de TA estadística. S'han marcat els més difícils.}
+
+Els exercicis marcats amb ``(*)'' són més difícils.
 
 \begin{enumerate}
 \item Els sistemes de traducció mot per mot poden cometre, per
@@ -1855,7 +1858,7 @@ estructures funcionen com un nom).
   dues llengües $L_1$ i $L_2$ i poseu almenys dos exemples de
   traduccions mot per mot de $L_1$ a $L_2$ amb problemes de concordança.
 
-\item \label{ex:cascat} CasCat és un sistema de traducció automàtica
+\item (*) \label{ex:cascat} CasCat és un sistema de traducció automàtica
   de l'espanyol al català que usa regles que reordenen seqüències de
   formes lèxiques d'acord segons les categories lèxiques. Les regles
   s'apliquen de la manera usual: d'esquerra a dreta, reordenant la
@@ -1926,7 +1929,7 @@ traduccions observat. En quins casos es ``trenquen'' sintagmes?
       amb un exemple. Heu d'indicar \emph{tres tipus diferents} de
       canvi.
 
-    \item Imagineu que sou part d'un equip de desenvolupament d'un
+    \item (*) Imagineu que sou part d'un equip de desenvolupament d'un
       sistema de traducció automàtica de l'anglés al català basat en
       l'estrategia que hem anomenat a classe transferència morfològica
       avançada (apartat~\ref{s3:STMorf}). Els informàtics del projecte us demanen consell sobre
@@ -2102,7 +2105,7 @@ automàtica tenen la fase de transferència més senzilla possible?
       \item \textsf{Un bon solution} 
       \end{enumerate}
 
-    \item La traducció d'una oració es pot veure com una interpretació
+    \item (*) La traducció d'una oració es pot veure com una interpretació
       d'aquesta (és a dir, com l'expressió en la llengua meta del seu
       significat). El \emph{principi de composicionalitat} postula que
       la interpretació d'una oració es construeix combinant les
@@ -2206,7 +2209,7 @@ automàtica tenen la fase de transferència més senzilla possible?
   de traducció automàtica, per a què us podrien servir aquestes
   constatacions estadístiques?
 
-    \item \label{ex:postres} Els sistemes de traducció automàtica entre dues llengües amb
+    \item (*) \label{ex:postres} Els sistemes de traducció automàtica entre dues llengües amb
       sintaxi similar no necessiten fer massa reordenaments perquè
       l'ordre dels mots no varia massa d'una llengua a altra. A pesar
       d'això, la traducció mot per mot no és practicable perquè el
@@ -2240,7 +2243,7 @@ automàtica tenen la fase de transferència més senzilla possible?
 \end{enumerate}
 
 \item 
-   Indica quina d'aquestes afirmacions és falsa.
+(*)   Indiqueu quina d'aquestes afirmacions és falsa.
    
 \begin{enumerate}
 \item Els sistemes de transferència sintàctica fan
@@ -2253,7 +2256,7 @@ automàtica tenen la fase de transferència més senzilla possible?
 \end{enumerate}
 
 
-\item Elegeix la seqüència que està en l'ordre temporal correcte
+\item Elegeix la seqüència que està en l'ordre temporal correcte:
    
 \begin{enumerate}
 \item Preedició, postedició, traducció per transferència, disseminació.
@@ -2301,7 +2304,7 @@ Lluc'' i ``Lluc veu David''?
 \end{enumerate}
 
 \item 
-   Indica quina d'aquestes afirmacions és certa.
+   Indiqueu quina d'aquestes afirmacions és certa.
    
 \begin{enumerate}
 \item Els sistemes de transferència semàntica fan
@@ -2386,7 +2389,7 @@ sentit com en l'altre) entre totes les llengües existents i la nova?
     per triar una de les solucions.
 \end{enumerate}
 
-\item En un corpus de textos en espanyol sobre economia de 925.461
+\item (*) En un corpus de textos en espanyol sobre economia de 925.461
       mots estudiem quan apareixen mots conjuntament. En concret, i
       per posar un exemple, estudiem parells de mots gramaticalment
       vàlids on el primer mot apareix unes 400 vegades en total en el
@@ -2436,7 +2439,7 @@ sentit com en l'altre) entre totes les llengües existents i la nova?
   incorrecta ha de ser diferent.
 
 \item 
-    Estudieu els següents sintagmes nominals en maori (una
+    (*) Estudieu els següents sintagmes nominals en maori (una
      llengua polinèsia parlada en Nova Zelanda):
 
      \begin{example}
@@ -2478,18 +2481,18 @@ sentit com en l'altre) entre totes les llengües existents i la nova?
      Com en els exemples, en maori la majoria dels noms i adjectius
      són invariables.  Imagineu que sou part d'un equip de
      desenvolupament d'un sistema de traducció automàtica del maori al
-     català (o a l'espanyol) basat en l'estrategia que hem anomenat a
-     classe transferència morfològica avançada\footnote{És a dir, llig
-       les oracions mot a mot d'esquerra a dreta i fa l'anàlisi
-       morfològica de cada mot, prova de detectar la seqüència més
-       llarga de mots que concorda amb alguna seqüència de categories
-       lèxiques que té en el seu catàleg, processa la seqüència, i
-       continua immediatament després de la seqüència processada.}.
-     Especifica completament \emph{dues} regles (indicant possibles
-     reordenaments i operacions per a assegurar la concordança) que
-     permeten donar la traducció correcta de les oracions de dalt i de
-     les següents.  No us preocupeu de la contracció
-     preposició--article.
+     català (o a l'espanyol) basat en l'estrategia que hem anomenat en
+     l'apartat~\ref{s3:STMorf} \emph{transferència morfològica avançada}\footnote{És a
+       dir, llig les oracions mot a mot d'esquerra a dreta i fa
+       l'anàlisi morfològica de cada mot, prova de detectar la
+       seqüència més llarga de mots que concorda amb alguna seqüència
+       de categories lèxiques que té en el seu catàleg, processa la
+       seqüència, i continua immediatament després de la seqüència
+       processada.}.  Especifica completament \emph{dues} regles
+     (indicant possibles reordenaments i operacions per a assegurar la
+     concordança) que permeten donar la traducció correcta de les
+     oracions de dalt i de les següents.  No us preocupeu de la
+     contracció preposició--article.
 
      \begin{example}
        Ng\={a} whare nui o te aroha (Les cases grans de l'amor)
@@ -2530,9 +2533,77 @@ sentit com en l'altre) entre totes les llengües existents i la nova?
 \item De transferència amb 4 llengües (hem afegit la quinta)
 \end{enumerate}
 
+
 % < QT9
 
+\item Quin dels tres mòduls d'un sistema de traducció automàtica de
+  transferència espanyol--anglés conté les regles que indiquen que el
+  passat de \emph{bring} és \emph{brought} i que el plural de
+  \emph{foot} és \emph{feet}?  
+  \begin{enumerate}
+  \item  El de transferència.
+  \item El d'anàlisi.  
+  \item El de generació.
+  \end{enumerate}
+
+\item Quin tipus de sistema de traducció automàtica per transferència
+  analitza els textos originals fins arribar a categories com ara
+  \emph{agent}, \emph{pacient}, \emph{destinatari}, \emph{instrument},
+  \emph{experimentador}, etc.?  
+  \begin{enumerate}
+  \item Els de transferència
+    morfològica avançada.
+  \item Els de transferència sintàctica.
+  \item Els de transferència semàntica.
+
+  \end{enumerate}
+
+  \item Tenim un sistema basat en interlingua que tradueix
+    entre 6 idiomes ($L_1$, $L_2$, \ldots, $L_6$) i volem incorporar
+    l'idioma $L_7$. Els experts que hi treballaran\ldots
+  
+    \begin{enumerate}
+    \item \ldots han de saber traduir entre la llengua $L_7$ i les
+      altres sis.
+    \item \ldots no necessiten saber res de les
+      llengües $L_1$ a $L_6.$
+    \item \ldots han d'escriure 12 mòduls
+      de transferència més, 6 des de la llengua $L_7$ i 6 cap a la
+      llengua $L_7$.
+    \end{enumerate}
+
+  \item Teníem un sistema de traducció automàtica que traduïa entre 4
+    llengües diferents en totes direccions (de cada una de les 4 a les
+    altres tres). Hem afegit una quinta llengua al sistema de manera
+    que ara es pot traduir en qualsevol direcció entre les 5
+    llengües. Hem hagut d'afegir 8 mòduls bilingües i 2
+    monolingües. Quina de les afirmacions següents és correcta?
+      \begin{enumerate}
+      \item El sistema és de
+        transferència.
+      \item  El sistema és d'interlingua.
+      \item Aquesta situació és impossible.
+      \end{enumerate}
+
+\item 
+Quin dels tres mòduls d'un sistema de traducció automàtica indirecta per transferència és monolingüe i tracta amb la llengua meta? 
+\begin{enumerate}
+\item El de generació.
+\item Tots els mòduls són
+    bilingües, no n'hi ha cap de monolingüe.
+  \item El de transferència.
 \end{enumerate}
+
+\item En quin dels tres mòduls d'un sistema de traducció automàtica indirecta per transferència es fan els reordenaments dels mots de la llengua original perquè l'ordre siga l'adequat en la llengua meta?
+  \begin{itemize}
+  \item En el d'anàlisi.
+  \item En el de transferència.
+  \item En el de generació.
+  \end{itemize}
+
+
+\end{enumerate}
+
 \section{Solucions}
 \begin{enumerate}
   \item Per exemple, $L_1$=espanyol i $L_2$=català: \emph{un buen
@@ -2871,8 +2942,8 @@ El sistema només ha usat dues seqüències (1: {\bf art}--{\bf subst} i
      El [canto] de la moneda $\rightarrow$ El [cant] de la moneda$^*$.
      (correcte: cantell, viu)
      \item[Concordança de gènere o nombre]: 
-     [La] indicació era [inequívoca]
-     $\rightarrow$ La [indicació] era [inequívoca]; 
+     [La] indicación era [inequívoca]
+     $\rightarrow$ [La] indicació era [inequívoca]; 
      [La] señal era [inequívoca]
      $\rightarrow$ [La] senyal era [inequívoca]$^*$ (correcte: 
      el, inequívoc)
@@ -2940,23 +3011,31 @@ El sistema només ha usat dues seqüències (1: {\bf art}--{\bf subst} i
   \end{itemize}
   
   Els desavantatges d'interlingua s'atenuarien si en comptes d'una
-  representació interlingual semàntica (basada en nocions com agent,
-  pacient, temps, etc.) fóra més aviat de naturalesa lèxica. Fins i
-  tot, podria ser similar a una llengua humana. El llatí clàssic no,
-  perquè a pesar de ser l'origen de totes les llengües del sistema té
-  una sintaxi ---verb final--- i morfologia --declinació--- molt
-  diferents; la llengua artificial anomenada interlingua ---``le
-  lingua international facile e de aspecto natural elaborate per
-  linguistas professional como denominator commun del linguas le plus
-  diffundite in le mundo''\footnote{URI:
-    \url{http://www.interlingua.com}.}--- amb anotacions
-  sintàctiques i marques de desambiguació podria ser una millor opció.
+  representació interlingual semàntica (basada en nocions com ara
+  \emph{agent}, \emph{pacient}, \emph{destinatari}, \emph{temps},
+  etc.) fóra més aviat de naturalesa lèxica. Fins i tot, podria ser
+  similar a una llengua humana. El llatí clàssic no, perquè a pesar de
+  ser l'origen de totes les llengües del sistema té una sintaxi
+  ---verb final--- i morfologia --declinació--- molt diferents; la
+  llengua artificial anomenada interlingua ---``le lingua
+  international facile e de aspecto natural elaborate per linguistas
+  professional como denominator commun del linguas le plus diffundite
+  in le mundo''\footnote{URI: \url{http://www.interlingua.com}.}---
+  amb anotacions sintàctiques i marques de desambiguació podria ser
+  una millor opció.
 
 \item (b)
+
 
 \com{Posem un exercici pràctic del laboratori?}
 
 % < SL9
+\item(c)
+\item(c)
+\item(b)
+\item(a)
+\item(a)
+\item(b)
 
 \end{enumerate}
 
