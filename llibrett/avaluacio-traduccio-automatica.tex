@@ -82,59 +82,62 @@ depén de diversos factors:
 \item \emph{Com} es fa l'avaluació? Quan s'avalua un sistema de
   TA es tenen en compte:
 \begin{enumerate}
-\item \emph{La qualitat de les traduccions en brut}
-  produïdes pel sistema. La qualitat és una combinació
-  (en proporcions difícils de determinar\footnote{\citet{minnis94j}
-    diu: ``La raó per la qual el mesurament de la qualitat és
-    difícil és, per descomptat, el fet que la qualitat siga
-    un concepte tan polifacètic i intangible''.})
-  de diversos factors, com ara: 
-  l'\emph{intel·ligibilitat} 
-  dels documents traduïts per part dels usuaris; 
-  la \emph{precisió} o \emph{fidelitat} amb què el text
-  traduït comunica el significat del document original (les quals
-  han de ser jutjades per part
-  de persones bilingües coneixedores de la temàtica dels
-  documents); l'adequació de l'estil o del registre dels documents
-  traduïts, etc. 
+\item \emph{La qualitat de les traduccions en brut} produïdes pel
+  sistema. Tradicionalment, la qualitat s'ha considerat de manera
+  relativament desconnectada de les aplicacions concretes, i s'ha vist
+  com una combinació (en proporcions difícils de
+  determinar\footnote{\citet{minnis94j} diu: ``La raó per la qual el
+    mesurament de la qualitat és difícil és, per descomptat, el fet
+    que la qualitat siga un concepte tan polifacètic i intangible''.})
+  de diversos factors, com ara: l'\emph{intel·ligibilitat} dels
+  documents traduïts per part dels usuaris; la \emph{precisió} o
+  \emph{fidelitat} amb què el text traduït comunica el significat del
+  document original (les quals han de ser jutjades per part de
+  persones bilingües coneixedores de la temàtica dels documents); la
+  \emph{naturalitat} o \emph{gramaticalitat} del text; l'adequació de
+  l'estil o del registre dels documents traduïts, etc.
 
-  Aquesta avaluació es pot fer mitjançant
-  l'ús de col·leccions de documents típics o representatius 
-  (com se sol
-  fer en les avaluacions d'adequació) o mitjançant sèries de
-  proves objectives (angl.\ \emph{test suites}),   
-  usades en les avaluacions diagnòstiques\footnote{Però no
-    únicament, com indica  \citet{lewis97j}, ja que també poden
-    servir perquè els usuaris jutgen l'adequació de l'eixida
-    produïda pel sistema.} i dissenyades per a
-  abraçar conjunts complets de fenòmens lingüístics que 
-  es manifesten en la traducció.\footnote{Per exemple, el reordenament
-  dels mots dels sintagmes nominals quan es tradueix de l'anglés
-  a l'espanyol \citep{mira98j,forcada00p}.}
+  Aquesta avaluació se sol fer mitjançant l'ús de col·leccions de
+  documents típics o representatius (com se sol fer en les avaluacions
+  d'adequació) o mitjançant sèries de proves objectives (angl.\
+  \emph{test suites}), usades en les avaluacions
+  diagnòstiques\footnote{Però no únicament, com indica
+    \citet{lewis97j}, ja que també poden servir perquè els usuaris
+    jutgen l'adequació de l'eixida produïda pel sistema.} i
+  dissenyades per a abraçar conjunts complets de fenòmens lingüístics
+  que es manifesten en la traducció.\footnote{Per exemple, el
+    reordenament dels mots dels sintagmes nominals quan es tradueix de
+    l'anglés a l'espanyol \citep{mira98j,forcada00p}.}
 
-Una possible mesura quantitativa de la qualitat d'un text produït per
-un sistema de TA a partir d'un text representatiu és el nombre mínim
-d'insercions, esborraments i substitucions de mots necessaris (per
-exemple, per cada 100 mots de text) per a transformar-lo en un text
-que siga una traducció acceptable\footnote{De qualsevol manera, queda
-  el problema que un text que per a un lector és acceptable pot no
-  ser-ho per a un altre.} de l'original. A més, la determinació de la
-qualitat d'una traducció en brut per còmput del nombre de correccions
-necessàries no està exempta de problemes:
+  Una possible mesura quantitativa de la qualitat d'un text produït
+  per un sistema de TA a partir d'un conjunt suficientment gran de
+  textos representatiu és el nombre mínim d'insercions, esborraments i
+  substitucions de mots estrictament necessaris (per exemple, per cada
+  100 mots de text) per a transformar-lo en un text que siga una
+  traducció acceptable\footnote{De qualsevol manera, queda el problema
+    que un text que per a un lector és acceptable pot no ser-ho per a
+    un altre.} de l'original. Aquesta mesura aproxima
+  \cite[p.~264]{sager93b} l'esforç de postedició per part de
+  professionals de la traducció.
+
+\begin{persabermes}{els problemes de posteditar per determinar la qualitat}
+  La determinació de la qualitat d'una traducció en brut per còmput
+  del nombre de correccions necessàries no està exempta de problemes:
 \begin{itemize}
-\item Aquest mètode dóna la mateixa importància a totes les operacions
-  de correcció, independentment del mot. Això pot no ser adequat.
+\item El mètode descrit més amunt (taxa de mots corregits) dóna la
+  mateixa importància a totes les operacions de correcció,
+  independentment del mot. Això pot no ser adequat.
 \item Si suposem que existeix una única traducció acceptable del text
   origen (el que és suposar molt) i l'usem com a referència, hi ha més
   d'una manera de corregir la traducció en brut de manera que el
   resultat siga idèntic al de referència. Per a poder fer
   comparacions, estem interessats en la correcció produïda amb el
   nombre mínim d'operacions d'inserció, esborrament i substitució de
-  mots; aquest nombre mínim es pot considerar una
-  \emph{distància}.\footnote{De fet, matemàticament, ho és: s'anomena
-    \emph{distància d'edició} (en anglés \emph{edit distance}).} La
-  recerca d'aquesta manera òptima de corregir pot no ser trivial per a
-  una persona, especialment si els errors apareixen junts i agrupats.
+  mots; aquest nombre mínim es pot considerar una \emph{distància}, i,
+  de fet, matemàticament, ho és: s'anomena \emph{distància d'edició}
+  (en anglés \emph{edit distance}). La recerca d'aquesta manera òptima
+  de corregir pot no ser trivial per a una persona, especialment si
+  els errors apareixen junts i agrupats.
 \item Però és que, a més, la traducció de referència pot no estar
   disponible; a més, en la majoria dels casos no hi ha una única
   traducció acceptable. De nou, si volem comparar, voldríem trobar la
@@ -148,36 +151,56 @@ necessàries no està exempta de problemes:
   calcula fent una recerca mental del nombre mínim de correccions
   necessàries.
 \end{itemize}
-\com{Repassar aquesta discussió i millorar-la?}  El fet que és
-possible que l'avaluació per recompte de correccions no siga òptima en
-vista d'aquests problemes fa que, a més, siga especialment difícil
-comparar les avaluacions fetes per persones diferents. A més, aquest
-tipus d'avaluació és molt costós, ja que per a obtenir una medició
-fiable de la qualitat és necessari corregir textos de milers de
-paraules.
+El fet que és possible que l'avaluació per recompte de correccions no
+siga òptima en vista d'aquests problemes fa que, a més, siga
+especialment difícil comparar les avaluacions fetes per persones
+diferents. A més, aquest tipus d'avaluació és bastant costós, ja que
+per a obtenir una medició fiable de la qualitat és necessari corregir
+textos de milers de paraules.  
+
+\mbox{}
+
+\end{persabermes}
 
 D'altra banda, sempre s'ha de tenir en compte que els mètodes
 d'avaluació de la qualitat depenen de l'ús que es pensa donar al
-sistema de TA \citep{arnold93j}; per exemple, l'avaluació d'un sistema
-que s'usa per a la \emph{disseminació} de material és ben diferent de
-l'avaluació d'un sistema usat per a l'\emph{assimilació}
-d'informació.\footnote{De nou, com s'ha discutit en el capítol~\ref{se:TiTA}, la
-  noció central és la de \emph{propòsit} de la traducció.}
+sistema de TA \citep{arnold93j}; com s'ha discutit en el
+capítol~\ref{se:TiTA}, la noció central és la de \emph{propòsit} de la
+traducció.
 
-\item \emph{La qualitat del sistema de TA mateix}: per exemple, ``la facilitat amb
-  què es poden crear i actualitzar diccionaris, posteditar els
-  textos, controlar el llenguatge d'entrada'' o
-  ``l'extensibilitat [del sistema] a parells nous d'idiomes o a noves temàtiques''
-  \citep{hutchins96u}.
-\item \label{pg:costdetall}
-\emph{La comparació dels costos i dels beneficis} d'usar un
-  sistema de TA en comptes dels serveis de professionals de la
-  traducció: per exemple, si costa més (en despeses de personal) la
-  postedició (revisió) dels textos meta produïts pel sistema
-  (afegint-hi el cost d'usar el sistema de TA) que la traducció
-  completa dels textos origen per part de professionals, l'adopció del
-  sistema de TA no convé a una empresa. Per ampliar la primera
-  aproximació esmentada en la pàgina~\pageref{pg:cost},
+Per exemple, l'avaluació d'un sistema que s'usa per a la
+\emph{disseminació} de textos s'ha de fer estimant d'alguna manera
+l'esforç de postedició ja que el sistema serà més útil com més reduït
+siga aquest esforç; en canvi, l'avaluació d'un sistema usat per a
+l'\emph{assimilació} d'informació s'ha de fer de manera diferent: ací
+la utilitat està relacionada més amb la intel·ligibilitat, i es podria
+detrminar directament a través de qüestionaris de comprensió
+\citep{jones2007} o similars \citep{oregan13p,ageeva15p} o
+indirectament, per exemple, estudiant l'èxit a l'hora d'executar una
+tasca amb les instruccions traduïdes automàticament
+\citep{doherty12p}.
+
+\item \emph{La facilitat d'ús del sistema de TA mateix}: per exemple,
+  ``la facilitat amb què es poden crear i actualitzar diccionaris,
+  posteditar els textos, controlar el llenguatge d'entrada'' o
+  ``l'extensibilitat [del sistema] a parells nous d'idiomes o a noves
+  temàtiques'' \citep{hutchins96u}. 
+\end{enumerate}
+\end{enumerate}
+
+\subsection{Anàlisi de costos i beneficis}
+ \label{ss:costdetall} En el cas concret d'una aplicació de
+  disseminació, finalment, des d'un punt de vista econòmic, el que és
+  rellevant a l'hora de decidir si s'adopta o no un sistema de
+  traducció automàtica és \emph{una comparació dels costos i dels
+    beneficis} d'usar aquest sistema de TA en comptes d'usar exclusivament els serveis de
+  professionals de la traducció: per exemple, si
+  costa més (en despeses de personal) la postedició (revisió) dels
+  textos meta produïts pel sistema (afegint-hi el cost d'usar el
+  sistema de TA) que la traducció completa dels textos origen per part
+  de professionals, l'adopció del sistema de TA no convé a una
+  empresa. Per ampliar la primera aproximació esmentada en la
+  pàgina~\pageref{pg:cost},
 $$\textbf{cost}\left(\mbox{\begin{tabular}{c}traducció automàtica\\ +\\
       postedició\end{tabular}}\right) <
 \textbf{cost}(\mbox{traducció professional}).
@@ -222,12 +245,8 @@ postedició:
       \end{itemize}
     \end{itemize}
   \end{itemize}
-\todo{Al final, l'avaluació en una situació de postedició hauria de ser bàsicament aixo: cal integrar millor aquest últim punt.}
-
 
 %Z%Z%
-\end{enumerate}
-\end{enumerate}
 
 \section[Traducció automàtica i traducció humana]{Sobre la comparació entre traducció auto\-mà\-tica i
   traducció humana} 
@@ -354,6 +373,29 @@ poden ser produïdes per professionals.
 \item Velocitat.
 \end{enumerate}
 
+\item Trieu la resposta errònia. A l'hora de decidir l'adopció d'un sistema de traducció automàtica per a la  postedició \ldots
+  \begin{enumerate}
+  \item \ldots haurem de fer una avaluació amb textos semblants als que cal traduir.
+  \item \ldots els textos a usar en l'avaluació hauran de tenir un nombre de mots suficient que ens permeta extrapolar els resultats a la resta de texts.
+  \item \ldots haurem d'avaluar, mitjançant qüestionaris o un mètode equivalent, la intel·ligibilitat dels textos traduïts en brut.
+  \end{enumerate}
+
+
+\item Esteu avaluant un sistema de traducció automàtica. Indiqueu
+  quina d'aquestes tres magnituds no usaríeu com a indicador directe
+  de l'esforç de postedició.  
+  \begin{enumerate}
+  \item La intel·ligibilitat del text
+    meta en brut.
+  \item El nombre mínim de mots que cal canviar en
+    el text meta en brut per a fer-lo adequat al propòsit previst,
+    expressat com a percentatge respecte al nombre total de mots.
+  \item El temps necessari que cal invertir per a convertir el text
+    meta en brut en un text adequat al propòsit previst, expressat com
+    a minuts per cada 1.000 paraules.
+  \end{enumerate}
+  
+
 
 % < QT11
 
@@ -368,6 +410,8 @@ exercicis~\ref{ex:cascat}, \ref{ex:zkanagg} i \ref{ex:postres} del capítol~\ref
 
 \begin{enumerate}
 \item (c)
+\item (c)
+\item (a)
 \item (c)
 \item (a)
 
