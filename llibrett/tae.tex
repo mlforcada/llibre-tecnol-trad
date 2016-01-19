@@ -1,0 +1,46 @@
+\todo{Millorar aquest apartat (ho deixe per a Felipe): aprofitar les transparències de Felipe,
+  potser el que Mikel va fer a Castelló, col·locant material avançat en
+  \emph{per saber més}; deixar clar que SMT es SotA; connectar amb
+  exercicis com el del \emph{séverla}}
+\label{ss:induc}
+
+Totes les aproximacions a la traducció automàtica descrites fins ara
+són de naturalesa \emph{deductiva}, és a dir, estan programades a
+partir de teories i coneixements lingüístics sobre la traducció. Però
+recentment (sobretot en els primers anys del tercer mil·leni) s'està
+produint un creixement espectacular de les aproximacions
+\emph{inductives} a la traducció automàtica, en les quals el sistema
+\emph{aprén} a traduir entre dues llengües $L_1$ i $L_2$ a partir
+d'una mostra o corpus suficientment gran de frases en $L_1$
+acompanyades de la traducció a $L_2$ (vegeu
+l'apartat~\ref{ss:bitextos}). Aquestes aproximacions inductives també
+reben el nom de \emph{traducció automàtica basada en corpus}.
+
+Hi ha diverses aproximacions a la traducció automàtica basada en
+corpus. En mencionarem molt breument dues:
+\begin{itemize}
+\item La \emph{traducció automàtica estadística},
+inventada cap a finals dels vuitanta per un grup d'investigadors d'IBM
+\citep{brown90j} construeix models probabilístics que indiquen, per
+exemple, la probabilitat que els mots d'una oració en llengua meta
+s'ordenen d'una determinada manera, la probabilitat que la traducció
+d'un determinat mot en una llengua siga traducció d'un determinat mot
+en l'altra, la probabilitat que la traducció d'un mot siga una
+expressió de més d'un mot o la probabilitat de determinats
+reordenaments, i, usa aquests models per a obtenir la \emph{traducció
+  més probable} de noves oracions que no ha vist anteriorment. 
+\item La \emph{traducció automàtica basada en exemples} que intenta
+construir \emph{plantilles} de traducció a partir dels exemples
+observats i \emph{generalitzar-les} perquè servisquen en noves
+situacions. Per exemple, si sabem que el substantiu anglés \emph{ski}
+es tradueix per \emph{esquí} i que la locució substantiva \emph{ski
+  station} es tradueix per \emph{estació d'esquí} podem generalitzar
+aquesta última locució substituint \emph{ski} per qualsevol altres
+substantiu $N$, de manera que la traducció de ``$N$ \emph{station}''
+és ``estació de $N$''; així, si la traducció de \emph{train} és
+\emph{tren}, la traducció de \emph{train station} és \emph{estació de
+  tren}, etc. (exemple pres de \citealt{carl01j}). Fixeu-vos que la traducció automàtica basada en exemples
+pot necessitar que la mostra de frases i traduccions estiga, a més,
+anotada lingüísticament (en l'exemple, indicant quins mots o
+estructures funcionen com un nom).
+\end{itemize}
