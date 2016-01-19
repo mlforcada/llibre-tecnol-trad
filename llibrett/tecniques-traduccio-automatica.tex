@@ -98,8 +98,9 @@ Hi ha dos grans grups de sistemes de traducció automàtica:
 \section[La traducció automàtica real entre\ldots]{La traducció
   automàtica basada en regles, entre el principi de composicionalitat
   semàntica i la traducció mot per mot}
+\label{se:aprox}
 
-La traducció automàtica basada en regres \emph{real}, és a dir, la que
+La traducció automàtica basada en regles \emph{real}, és a dir, la que
 s'usa en la realitat, es pot veure, d'una banda, com el resultat d'una
 sèrie d'aproximacions (moltes d'elles inevitables) sobre un model
 ideal i teòricament motivat basat en el \emph{principi de
@@ -134,7 +135,7 @@ d'aproximacions successives sobre la traducció automàtica \emph{ideal}:
     l'arbre.
   \end{itemize}
   Aquest és bàsicament el \emph{modus
-    operandi} dels sistemes d'interlingua i constitueix
+    operandi} dels sistemes d'interlingua (que es discutiran en la secció~\ref{ss:interlingua}) i constitueix
     l'\emph{aproximació composicional}. No oblidem que aquesta
     descripció assumeix que l'ambigüitat lèxica (múltiples
     interpretacions dels mots) i estructural (més d'un arbre d'anàlisi
@@ -156,41 +157,39 @@ d'aproximacions successives sobre la traducció automàtica \emph{ideal}:
     construir una representació explícita de la interpretació. Aquesta
     és una aproximació addicional, l'\emph{aproximació de
       transferència}.
-  \item[Aproximació núm.\ 3:] Quan les llengües involucrades són
-    sintàcticament similars (per exemple, quan estan emparentades), no
-    es fa l'anàlisi sintàctica completa: la transferència lèxica és
-    completa però la transferència estructural és parcial i local i
-    només es fa on és necessària.  Aquesta aproximació és
-    l'aproximació de la \emph{transferència parcial}. Els sistemes
-    anomenats \emph{transformers} o també de transferència morfològica
-    avançada (vegeu~\ref{s3:STMorf}) \citep[4.2]{arnold94b}, molts
-    dels quals estan disponibles per Internet,\footnote{Per exemple,
-      SDL Transcend està disponible en
-      \url{http://www.freetranslation.com} i Reverso, en
-      \url{http://www.reverso.net}.} són exemples d'aquesta
-    aproximació.
+  % \item[Aproximació núm.\ 3:] Quan les llengües involucrades són
+  %   sintàcticament similars (per exemple, quan estan emparentades), no
+  %   es fa l'anàlisi sintàctica completa: la transferència lèxica és
+  %   completa però la transferència estructural és parcial i local i
+  %   només es fa on és necessària.  Aquesta aproximació és
+  %   l'aproximació de la \emph{transferència parcial}. Els sistemes
+  %   anomenats \emph{transformers} o també de transferència morfològica
+  %   avançada (vegeu~\ref{s3:STMorf}) \citep[4.2]{arnold94b}, molts
+  %   dels quals estan disponibles per Internet,\footnote{Per exemple,
+  %     SDL Transcend està disponible en
+  %     \url{http://www.freetranslation.com} i Reverso, en
+  %     \url{http://www.reverso.net}.} són exemples d'aquesta
+  %   aproximació.
 \end{description}
 Encara són possibles més aproximacions, com veurem més avall.
 
-Però és que d'altra banda, la TA real es pot veure com un refinament
-necessari sobre el que es podria anomenar TA \emph{mot per mot},
-discutida en l'apartat~\ref{ss:dirindir}, és a dir, com una sèrie
-d'operacions addicionals que s'han de fer a més d'anar substituint
-cada mot per un equivalent constant.  Per exemple, per a produir
-traduccions acceptables, ràpides i intel·ligibles, fins i tot entre
-llengües molt semblants, s'ha d'afegir un processament lèxic robust
-(per exemple, per a tractar expressions multimot o per a elegir
-equivalents adequats per a mots lèxicament ambigus) i un processament
-estructural local o global que es basa en regles simples i ben
-formulades per a algunes transformacions estructurals (reordenaments,
-concordança, etc.). Aquests refinaments impliquen necessàriament un
-cert nivell d'anàlisi del text original, el qual produeix una
-representació intermèdia, abstracta, d'aquest: el sistema de traducció
-automàtica esdevé \emph{indirecte}, com ara els sistemes de
-transferència discutits amb més detall més amunt
-(apartat~\ref{ss:classtrans}).
-
- 
+Però és que d'altra banda, la TA basada en regles, tal com s'aplica en
+la realitat es pot veure com un refinament necessari sobre el que es
+podria anomenar TA \emph{mot per mot}, discutida en
+l'apartat~\ref{ss:dirindir}, és a dir, com una sèrie d'operacions
+addicionals que s'han de fer a més d'anar substituint cada mot per un
+equivalent constant.  Per exemple, per a produir traduccions
+acceptables, ràpides i intel·ligibles, fins i tot entre llengües molt
+semblants, s'ha d'afegir un processament lèxic robust (per exemple,
+per a tractar expressions multimot o per a elegir equivalents adequats
+per a mots lèxicament ambigus) i un processament estructural local o
+global que es basa en regles simples i ben formulades per a algunes
+transformacions estructurals (reordenaments, concordança,
+etc.). Aquests refinaments impliquen necessàriament un cert nivell
+d'anàlisi del text original, el qual produeix una representació
+intermèdia, abstracta, d'aquest: el sistema de traducció automàtica
+esdevé \emph{indirecte}, com ara els sistemes de transferència
+discutits amb més detall més avall (apartat~\ref{ss:classtrans}). 
 
 \section{Traducció directa i traducció indirecta}
 \label{ss:dirindir} 
@@ -242,37 +241,6 @@ dir, semiautomàtica) que es pot veure com un tipus de traducció
 directa ---que usa segments de text més llargs com ara les oracions en
 compte dels mots--- és la que s'usa en les anomenades \emph{memòries
   de traducció} (vegeu el capítol~\ref{se:memtrad}).
-
-% \section{Traducció \emph{directa}?} 
-% \label{ss:traddir}
-% L'estratègia directa es correspon molt bé amb la que s'usa en els
-% programes de traducció automàtica de primera generació (decenni de
-% 1950).  Com es veurà, molt freqüentment es qualifiquen de directes
-% estratègies que sí que generen representacions intermèdies molt
-% rudimentàries, i que, per tant, en sentit estricte, haurien de ser
-% classificades com a indirectes.  Els sistemes anomenats {\em
-%   directes} de primera generació tradueixen en tres fases
-% \citep[secció~4.2]{hutchins92b}:
-% \begin{itemize}
-% \item En la primera fase d'\emph{anàlisi morfològica}
-% rudimentària s'identifiquen les categories lèxiques i 
-% es redueixen les paraules a les formes no flexionades.
-% \item En la segona, es consulta el diccionari bilingüe per a traduir les
-%       paraules de la frase a la llengua meta (LM).
-% \item Finalment s'apliquen ajustos locals que afecten l'ordre dels
-%       mots en la frase (reordenaments locals) i es flexionen les
-%       paraules en la LM.
-% \end{itemize}
-% Si demanàrem a una persona no experta que dissenyara un sistema de
-% traducció automàtica, el primer disseny no seria molt diferent del
-% que s'ha descrit.  El resultat \citep[secció~4.2]{hutchins92b}, de
-% vegades erròniament anomenat \emph{traducció directa} en vista de la
-% seua simplicitat, és el que es podria esperar ``d'una persona que
-% comptara únicament amb un diccionari bilingüe molt barat i amb un
-% coneixement molt rudimentari de la gramàtica de la llengua meta'',
-% amb ``errors freqüents de naturalesa lèxica en la traducció i
-% estructures sintàctiques inadequades'' que reflecteixen ``les
-% estructures pròpies de la llengua d'origen''.
 
   
 
@@ -481,27 +449,30 @@ sistema anterior:
 \subsection{Sistemes de transferència morfològica avançada}
 \label{s3:STMorf}
 
-Els sistemes de \emph{transferència morfològica avançada} no són molt
-diferents dels ``directes'' descrits més amunt: la fase
+En els sistemes de \emph{transferència morfològica avançada}, la fase
 d'\emph{anàlisi} analitza morfològicament els mots de la frase i els
 desambigua en cas d'ambigüitat categorial però només identifica les
 relacions (sintàctiques) entre ells usant patrons molt senzills. La
 secció~\ref{s3:anmor} dóna més detalls sobre els processos i els
 mètodes d'anàlisi i generació morfològiques.
 
-De vegades l'anàlisi morfològica pot ser més difícil del que sembla,
-com per exemple, en el cas de la morfologia verbal de les llengües
-romàniques. I pot complicar-se més. Per exemple, fixeu-vos en
-l'imperatiu espanyol \emph{demos}: si va seguit del pronom enclític
-\emph{le}, forma amb aquest un únic mot i rep un nou accent
-ortogràfic: \emph{démosle}; si el pronom és \emph{nos}, a més es perd
-una consonant: \emph{démonos}; amb dos pronoms, pot ser {\em
-  démonoslos}, etc.  Altres vegades es dóna el problema de
-l'ambigüitat lèxica categorial (vegeu l'apartat~\ref{ss:amblex}): és a
-dir, el mot pot pertànyer a dues categories lèxiques diferents i
-cal usar informació sobre les categories morfològiques dels mots
-anteriors i posteriors (en absència d'informació sintàctica) per a
-desfer l'ambigüitat.
+De fet, els sistemes de transferència morfològica avançada es poden
+veure com el resultat de fer una tercera aproximació, afegida a les dues discutides en l'apartat~\ref{se:aprox}:
+\begin{quote}
+  \textbf{Aproximació núm.\ 3:}, Quan les llengües involucrades no són
+  massa diferents sintàcticament (per exemple, quan estan
+  emparentades), no cal fer l'anàlisi sintàctica completa: la
+  transferència lèxica és completa però la transferència estructural
+  és parcial i local i només es fa on és necessària.  Aquesta
+  aproximació és l'aproximació de la \emph{transferència parcial}. Els
+  sistemes anomenats \emph{transformers} o també de transferència
+  morfològica avançada (vegeu~\ref{s3:STMorf}) \citep[4.2]{arnold94b},
+  molts dels quals estan disponibles per Internet,\footnote{Per
+    exemple, SDL Transcend està disponible en
+    \url{http://www.freetranslation.com} i Reverso, en
+    \url{http://www.reverso.net}.} són exemples d'aquesta aproximació.
+\end{quote}
+
 
 La fase de \emph{transferència} pot consistir en un reordenament local
 (\emph{transferència estructural}) d'algunes seqüències de mots (per
@@ -614,6 +585,30 @@ funcionament de les fases d'anàlisi, transferència i generació,
 respectivament, d'un sistema de transferència morfològica avançada (és
 a dir, amb reconeixement de patrons senzills que representen
 sintagmes) de l'anglés al català.
+
+
+L'estratègia de \emph{transferència morfològica avançada} es pot veure
+com una formalització de l'estratègia mal anomenada \emph{directa} que
+s'usava en els programes de traducció automàtica de primera generació
+(anys cinquanta i seixanta del segle passat): anàlisi morfològica
+rudimentària, consulta del diccionari bilingüe, i ajustos locals com
+ara reordenaments. Si demanàrem a una persona no experta que
+dissenyara un sistema de traducció automàtica, el primer disseny no
+seria molt diferent del que s'ha descrit.  El resultat
+\citep[secció~4.2]{hutchins92b}, de vegades erròniament anomenat
+\emph{traducció directa} en vista de la seua simplicitat, és el que es
+podria esperar ``d'una persona que comptara únicament amb un
+diccionari bilingüe molt barat i amb un coneixement molt rudimentari
+de la gramàtica de la llengua meta'', amb ``errors freqüents de
+naturalesa lèxica en la traducció i estructures sintàctiques
+inadequades'' que reflecteixen ``les estructures pròpies de la llengua
+d'origen''.
+
+
+
+
+
+
 
 
 \begin{figure}
@@ -784,6 +779,19 @@ Un analitzador morfològic, per tant, ha de tenir la informació
 següent sobre la llengua dels textos que s'han d'analitzar:
 el vocabulari o conjunt de lemes, els paradigmes de
 flexió, i la correspondència entre lemes i paradigmes.
+
+De vegades l'anàlisi morfològica pot ser més difícil del que sembla,
+com per exemple, en el cas de la morfologia verbal de les llengües
+romàniques. Fixeu-vos en l'imperatiu espanyol \emph{demos}: si va
+seguit del pronom enclític \emph{le}, forma amb aquest un únic mot i
+rep un nou accent ortogràfic: \emph{démosle}; si el pronom és
+\emph{nos}, a més es perd una consonant: \emph{démonos}; amb dos
+pronoms, pot ser {\em démonoslos}, etc.  Altres vegades es dóna el
+problema de l'ambigüitat lèxica categorial (vegeu
+l'apartat~\ref{ss:amblex}): és a dir, el mot pot pertànyer a dues
+categories lèxiques diferents i cal usar informació sobre les
+categories morfològiques dels mots anteriors i posteriors (en absència
+d'informació sintàctica) per a desfer l'ambigüitat.
 
 \begin{persabermes}{l'anàlisi morfològica}
 
@@ -1800,6 +1808,7 @@ il·lustra el cost d'afegir $L_4$ al sistema.
 
 \section[Aproximacions inductives a la TA]{Aproximacions inductives a
   la traducció automàtica}
+\label{ss:induc}
 \input{tae.tex}
 
 
