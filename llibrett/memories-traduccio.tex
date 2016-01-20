@@ -42,7 +42,7 @@ Suposarem que, com a resultat del treball anterior de traducció, tenim
 parells de textos $(E,D)$ on $E$ és el \emph{text esquerre} (en la
 \emph{llengua esquerra}) i $D$ és el \emph{text dret} (en la
 \emph{llengua dreta}), i volem traduir de la llengua esquerra a la
-llengua dreta. De fet, quan dos textos $E$ i $D$ són equivalents (és a
+llengua dreta.\footnote{Parlem d'\emph{esquerra} i \emph{dreta} perquè pot ser que no siga important (o que no se sàpia) quin dels dos textos és l'original i quin és la traducció.}  De fet, quan dos textos $E$ i $D$ són equivalents (és a
 dir, traducció un de l'altre) direm que el parell $(E,D)$ és un
 \emph{bitext}.
 
@@ -64,18 +64,74 @@ tasca de traducció, és a dir, que ens encarreguen traduir de nou un
 text $E'$ quan tenim ja el bitext $(E',D')$, però el que sí que és
 probable és que algunes parts del text nou $E'$ apareguen també en la
 part esquerra d'alguns dels bitextos que ja tenim. Per això,
-necessitem \emph{segmentar} o \emph{dividir} els bitextos que tenim en bitextos més
-menuts, amb parts esquerres que tinguen possibilitats de aparéixer de
-nou. Això s'anomena \emph{alineament}.
+necessitem obtenir a partir d'ells bitextos més menuts, amb parts esquerres que tinguen possibilitat de aparéixer de nou en el futur.
+
+\subsection{Segmentació de bitextos}
+La primera operació consisteix a \emph{segmentar} o \emph{dividir}
+automàticament cada un dels dos textos en unitats més menudes
+\emph{segments}, usant algun criteri programable (vegeu més avall).
+La figura~\ref{fg:segmentat} mostra el resultat de la segmentació dels textos $E$ i $D$. Com s'hi veu, pot ser que inicialment el nombre de segments del text esquerre $E$ siga diferent del nombre de segments del text dret $D$.
+\begin{figure}
+  \begin{center}
+    \begin{tabular}{p{3cm}p{3cm}}
+           $E$ & $D$      
+    \end{tabular}
+    \begin{tabular}{|p{3cm}|p{3cm}|}
+\hline
+        $e_1$ & $d_1$ \\\hline
+        $e_2$ & $d_2$ \\\hline
+        $e_3$ & $d_3$ \\\hline
+        \ldots & \ldots \\\hline
+        \ldots  & $d_M$ \\\hline
+        \ldots \\\cline{1-1}
+        $e_L$ \\\cline{1-1}
+    \end{tabular}
+  \end{center}
+  \caption{Els bitextos $E$ i $D$, segmentats, respectivament, en $L$
+    i $M$ segments: $E=e_1e_2\ldots e_L$ i $D=d_1d_2\ldots d_M$. En
+    l'exemple, el text esquerre té dos segments més (és a dir, $L=M+2$).}
+  \label{fg:segmentat}  
+\end{figure}
+
 
 \subsection{Alineament de bitextos. Unitats de traducció}
 
-Direm que un bitext $(E,D)$ està \emph{alineat} si hem dividit $E$ i
-$D$ en $N$ segments, $E= e_1 e_2 e_3 \ldots e_N$ i $D= d_1 d_2 d_3
-\ldots d_N$, de manera que tenim $N$ bitextos $(e_1,d_1)$,
-$(e_2,d_2)$, $(e_3,d_3)$, etc., més menuts (per això els escrivim amb
-minúscula); aquests bitextos s'anomenen normalment \emph{unitats de
-  traducció} (UT). Així és més probable que quan ens donen un text nou
+El resultat de la segmentació encara no és útil: no queda clara la
+correspondència entre els segments esquerres i els segments
+drets. Necessitem \emph{revisar la segmentació}, és a dir, juntar
+segments o partir segments, en un costat o en altre, fins que tinguem
+el mateix nombre de segments i siguen traducció mútua. D'aquesta
+operació se'n diu \emph{alinear} el bitext.
+
+Direm que un bitext $(E,D)$ està \emph{alineat} si les dues parts
+tenen el mateix nombre $N$ de segments, $E= e_1 e_2 e_3 \ldots e_N$ i
+$D= d_1 d_2 d_3 \ldots d_N$ i els segments es corresponen: $e_1$
+correspon a $d_1$, $e_2$ a $d_2$, etc. És a dir, el text alineat ens
+proporiciona $N$ bitextos $(e_1,d_1)$, $(e_2,d_2)$, $(e_3,d_3)$, etc.,
+més menuts (per això els escrivim amb minúscula); aquests bitextos
+s'anomenen normalment \emph{unitats de traducció} (UT): vegeu la
+figura~\ref{fg:alineat}.
+\begin{figure}
+  \begin{center}
+    \begin{tabular}{p{3cm}p{3cm}}
+           $E$ & $D$      
+    \end{tabular}
+    \begin{tabular}{|p{3cm}|p{3cm}|}
+\hline
+        $e_1$ & $d_1$ \\\hline
+        $e_2$ & $d_2$ \\\hline
+        $e_3$ & $d_3$ \\\hline
+        \ldots & \ldots \\\hline
+        $e_N$ & $d_N$ \\\hline
+    \end{tabular}
+  \end{center}
+  \caption{Els bitextos $E$ i $D$, segmentats i alineats, en $N$ unitats de traducció $(e_1,d_1), (e_2,d_2), \ldots (e_N,d_N)$}
+  \label{fg:alineat}
+\end{figure}
+
+
+
+Així és més probable que quan ens donen un text nou
 $E'$ tinguem traduccions per a alguns dels seus fragments. El bitext
 de més amunt es podria alinear per a formar les unitats de traducció 
 \begin{center}
@@ -125,24 +181,26 @@ de dividir-lo en unitats de traducció?  La longitud de les unitats de
 traducció pot anar des dels mots fins a les oracions senceres. La
 probabilitat que un fragment esquerre (procedent dels bitextos ja
 existents) $e$ aparega en un nou text $E'$ és tant més gran com més
-menut és el fragment. Però si el fragment és massa menut és més probable que
-la traducció present en la memòria de traducció siga més imprecisa per
-ambigua (poden aparéixer correspondències múltiples entre les quals
-s'hauria d'elegir).  D'altra banda, si els fragments són massa llargs
-és molt menys probable que es repetisquen exactament en textos futurs,
-però és més improbable que siguen ambigus.\footnote{Per exemple, el
-  fragment espanyol \emph{las decepciones} es pot correspondre en
-  català amb \emph{les decebis} o \emph{les decepcions} però el
-  fragment \emph{las decepciones sufridas} només pot aparéixer alineat
-  amb \emph{les decepcions patides}.} El \emph{fragment ideal} seria
-el que és suficientment menut per a aparéixer sovint però
-suficientment complet com per a tenir una traducció constant. És a
-dir, per una banda, es dóna un compromís entre la \emph{cobertura}
-(fracció d'un text nou que podria ser traduït usant els fragments
-alineats) i la \emph{precisió} (correcció de les traduccions
-resultants).  La grandària ideal és, per tant, un compromís entre la
-cobertura dels fragments menuts i la precisió dels fragments més
-grans.
+menut és el fragment. Però si el fragment és massa menut és més
+probable que la traducció present en la memòria de traducció siga més
+imprecisa per ambigua (poden aparéixer correspondències múltiples
+entre les quals s'hauria d'elegir: per exemple a una part esquerra $e$
+li poden correspondre dues parts dretes $d$ i $d'$ diferents en
+unitats de traducció diferents).  D'altra banda, si els fragments són
+massa llargs és més improbable que siguen ambigus, però és molt menys probable que es repetisquen exactament en
+textos futurs.\footnote{Per
+  exemple, el fragment espanyol \emph{las decepciones} es pot
+  correspondre en català amb \emph{les decebis} o \emph{les
+    decepcions} però el fragment \emph{las decepciones sufridas} només
+  pot aparéixer alineat amb \emph{les decepcions patides}.} El
+\emph{fragment ideal} seria el que és suficientment menut per a
+aparéixer sovint però suficientment complet com per a tenir una
+traducció constant. És a dir, per una banda, es dóna un compromís
+entre la \emph{cobertura} (fracció d'un text nou que podria ser
+traduït usant els fragments alineats) i la \emph{precisió} (correcció
+de les traduccions resultants).  La grandària ideal és, per tant, un
+compromís entre la cobertura dels fragments menuts i la precisió dels
+fragments més grans.
 
 \subsubsection{L'alineament real}
 
@@ -170,8 +228,10 @@ d'una oració:
 \end{verbatim}
 En els dos primers casos el punt és el final de l'oració però en els
 dos últims no. Cal definir clarament les regles de segmentació; els
-programes de memòria de traducció solen permetre que la persona
-usuària modifique o refine aquestes regles.
+programes de memòries de traducció solen permetre que la persona
+usuària modifique o refine aquestes regles. De fet, hi ha un format
+XML estándar per a especificar i intercanviar regles de segmentació,
+anomenat SRX\footnote{\url{http://www.unicode.org/uli/pas/srx/srx20.html}} (\emph{segmentation rules exchange}).
 
 Convé, a més, esmentar un altre aspecte addicional important. Els
 documents de text, a més de caràcters i paraules, contenen informació
@@ -184,15 +244,16 @@ alineament.\footnote{La situació és diferent quan s'estan traduïnt els
   part de les tasques anomenades genèricament de \emph{localització}
   (adaptació de programes d'ordinador als usuaris d'una regió i idioma
   concrets); en aquest cas, pot molt útil en alguns casos veure tot el
-  programa a més dels textos.} A més, les unitats de traducció que
-se n'obtinguen de l'alineament haurien de ser independents del format del
+  programa a més dels textos.} A més, les unitats de traducció que se
+n'obtinguen de l'alineament haurien de ser independents del format del
 document. Els programes més recents resolen això amb \emph{filtres} o
 \emph{conversors} per als formats de text més freqüents, filtres que
-fan invisibles a la persona usuària les característiques de format
-dels documents perquè puguen concentrar-se en les textuals. Els
-professionals valoren molt la capacitat de gestionar el format de
-manera senzilla i eficient, ja que la preservació del format de les
-traduccions és una de les tasques que els fa perdre més temps.
+tracten d'ocultar al màxim possible a la persona usuària les
+característiques de format dels documents perquè puguen concentrar-se
+en les textuals.\footnote{I això que, a voltes, qui tradueix ha de gestionar exolícitament les etiquetes de format per assegurar una bona traducció: tots els programes ofereixen la possibilitat d'\emph{editar etiquetes} manualment: les etiquetes s'agrupen i simplifiquen per fer més fàcil la faena.} Els professionals valoren molt la capacitat de
+gestionar el format de manera senzilla i eficient, ja que la
+preservació del format de les traduccions és una de les tasques que
+els fa perdre més temps.
 
 
 \subsubsection{Alineament assistit}
@@ -211,110 +272,166 @@ resultants a la memòria de traducció.
 \subsection{La memòria de traducció com a base de dades}
 
 Una vegada alineats els bitextos les unitats de traducció s'organitzen
-en una base de dades perquè tant el programa com la persona usuària hi
-puguen accedir eficientment. S'ha de tenir en compte que la utilitat
-de les memòries de traducció millora considerablement amb la grandària
-del corpus de traduccions usades per a omplir-les; per tant, no és
-estrany que una memòria de traducció haja de gestionar una gran
-quantitat de fragments. Molts programes marquen els fragments amb un
-codi que indica la temàtica o la naturalesa del document del qual s'ha
-extret el fragment, de manera que la temàtica del nou document
-servisca per a localitzar el fragment més adequat en cada cas.
+perquè tant el programa com la persona usuària hi puguen accedir
+eficientment; per exemple, com una base de dades. S'ha de tenir en
+compte que la utilitat de les memòries de traducció millora
+considerablement amb la grandària del corpus de traduccions usades per
+a omplir-les; per tant, no és estrany que una memòria de traducció
+haja de gestionar una gran quantitat de fragments. Molts programes
+marquen els fragments amb un codi que indica la temàtica o la
+naturalesa o el nom del document del qual s'ha extret el fragment, de manera
+que la temàtica del nou document servisca per a localitzar el fragment
+més adequat en cada cas.
 
-\subsection{Pretraducció}
+\subsection{Pretraducció i traducció interactiva}
 
 L'organització de les UT en una base de dades permet, a més,
 \emph{recuperar} de la memòria de traducció, quan s'està traduint un
-text nou, els fragments més adequats i \emph{construir} amb ells la
-traducció. El resultat de segmentar el text nou i substituir els
-segments que s'han trobat en la memòria de traducció pels equivalents
-drets corresponents s'anomena \emph{pretraducció} i es mostra en la
-figura~\ref{fg:preMT}.
+text nou $E'$, els segments esquerres, $e'_1, e'_2, \ldots$ i
+\emph{construir}, partint dels segments drets corresponents, la
+traducció desitjada $D'$.
+
+La memòria de traducció pot contenir unitats de traducció amb segments
+esquerres idèntics o similars. En cas de trobar un segment idèntic
+(\emph{concordància exacta}, en anglés \emph{exact match}) per al qual
+només hi haja una traducció disponible, només cal inserir-ne la
+traducció directament.
+
+
+Però, com que això succeix poques vegades, ja que els segments són
+normalment oracions i és difícil que es repetisca \emph{exactament},
+la major part dels sistemes comercials usen estratègies per a no
+desaprofitar unitats de traducció que continguen parts esquerres
+\emph{similars} a la nova (les anomenades \emph{concordances
+  parcials}, o, en anglés, \emph{fuzzy matches}). 
+
+
+Alguns programes, si no troben una UT que té la part esquerra idèntica
+a l'observada en el nou text ($e'$), però troben una, $(e,d)$, la part
+esquerra $e$ de la qual es diferencia en un mot o en un cert
+percentatge dels mots de $e'$, presenten com a \emph{traducció
+  aproximada} la part dreta ($d$) corresponent a $e$.  Normalment, els
+sistemes, quan troben un fragment similar però no idèntic, destaquen
+gràficament les diferències (per exemple, amb colors); així, la
+persona usuària pot fer-hi les modificacions necessària perquè la
+traducció resultant siga correcta. Normalment, se sol establir un
+\emph{llindar} (en anglés \emph{fuzzy match threshold}) de manera que
+no es presenten propostes per davall d'una certa \emph{puntuació de
+  concordança parcial} mínima (en anglés \emph{fuzzy match
+  score}). Les puntuacions de concordança parcial se solen expressar
+com a percentatges, on 0\% indica falta total de concordança i el
+100\% una concordança exacta.
+
+
+Alguns sistemes, fins i tot, són
+capaços d'usar les bases de dades lèxiques o terminològiques de la
+persona usuària per a proposar traduccions per als mots discordants.
+Per exemple, si a la memòria hi ha la UT \pair{"{}Connecteu
+  l'ordinador a la impressora."}{"{}Conecte el ordenador a la
+  impresora"} però el nou text conté la frase \texttt{"{}Connecteu
+  l'ordinador a la \emph{xarxa}"}, el programa pot trobar les
+correspondències \pair{"{}impressora"}{"{}impresora"}
+\pair{"xarxa"}{"red"} en una base de dades lèxica i usar-les per a
+proposar la traducció correcta (\texttt{"{}Conecte el ordenador a la
+  red}).  D'altres programes usen estratègies pròpies (no descrites)
+per a ``assemblar'' o ``construir'' traduccions usant fragments de
+parts dretes de més d'una UT.  En general, la utilitat d'una memòria
+de traducció depén en gran part de la capacitat del sistema per a
+proposar traduccions per a segments {\em similars} (i per a això s'han
+de definir i usar criteris adequats de \emph{similitud}).
+
+Hi ha dues modalitats d'ús de les memòries de traducció:
+\begin{description}
+\item[Interactiva:] Qui està traduint rep diverses propostes per a
+  cada nou segment $e'$, entre les quals elegeix la més adequada per a
+  produir la traducció corresponent $d'$. Aquesta modalitat comporta
+  l'accés per part de qui tradueix a la memòria de traducció.
+\item[Pretraducció:] Qui està traduint rep com a molt una única
+  proposta per a cada nou segment $e'$, elegida automàticament. En
+  aquesta modalitat, qui tradueix no té accés a la memòria de
+  traducció.
+\end{description}
+\begin{figure}
+  \begin{center}
+    \begin{tabular}{p{3cm}p{4cm}}
+           $E'$ & $D'$ en construcció      
+    \end{tabular}
+    \begin{tabular}{|p{3cm}|p{4cm}|}
+\hline
+        $e'_1=e_{234}$ (100\%)& $d'_1=d_{234}$ \\\hline
+        $e'_2\simeq e_{112}$ (87\%) & posteditar $d_{112} \to d'_2$ \\\hline
+        $e'_3\simeq e_{47}$ (93\%) & posteditar $d_{47} \to d'_3$ \\\hline
+        $e'_4$ & generar $d_4$ desde zero \\\hline
+        $e'_5=e_{51}$ (100\%) & $d'_5=d_{51}$ \\\hline
+        \ldots & \ldots \\\hline
+    \end{tabular}
+  \end{center}
+  \caption{Traducció d'un nou bitext $E'$ i els tipus de situacions de concordança que s'hi poden donar: concordança exacta per a $e'_1$ i $e'_5$, concordança parcial per a $e'_2$ i $e'_3$, i absència de concordança raonable per a $e'_4$.}
+  \label{fg:pretrad}
+\end{figure}
+Tant en un cas com en l'altre, poden passar tres coses, tal com es veu en l'exemple de la figura~\ref{fg:pretrad}
+\begin{itemize}
+\item Que es dóne una concordança exacta, com en el cas dels segments $e'_1$ i
+  $e'_5$ i per tant, només calga comprovar que la proposta de la
+  memòria es pot usar com la seua traducció.
+\item Que es dóne una concordança parcial, com en el cas dels segments
+  $e'_2$ (similar a $e_{112}$) i $e'_3$ (similar a $e_{47}$), i calga
+  posteditar, respectivament, les propostes $d_{112}$ i $d_{47}$ de la
+  memòria de traducció, per a produir $d'_2$ i $d'_3$.
+\item Que no es done cap concordança raonable, com en el cas del segment $e'_4$, i calga generar la traducció $d'_4$ des de zero.
+\end{itemize}
+
+Tant en el cas interactiu com en el de la pretraducció, qui tradueix ha d'acabar la traducció. El
+procés i es mostra en la figura~\ref{fg:preMT}.
 \begin{figure}
 $$
 \begin{array}{rcl}
-\mbox{\textsf{text esquerre $E'$}} \to
-\mbox{\framebox{\textsf{segmentació}}} \to &
-\mbox{\framebox{\textsf{pretraducció}}} & \to \mbox{\parbox{2cm}{\textsf{text dret
-    pretraduït i segmentat}}} \\
-& \uparrow \downarrow \mbox{\textsf{UTs}}& \\[0.5cm]
-& \mbox{\framebox{\parbox{2.1cm}{\textsf{Memòria de traducció}}}} & \\
+\mbox{\small\textsf{text esquerre}} \to
+\mbox{\small\framebox{\textsf{segmentació}}} \to &
+\mbox{\small\framebox{\parbox{1.9cm}{\textsf{concordança i selecció de propostes}}}} & \to \mbox{\small\framebox{\textsf{postedició}}} \to \mbox{\parbox{1.4cm}{\textsf{text dret
+    traduït i segmentat}}} \\
+& \uparrow \downarrow \mbox{\small\textsf{UTs}}& \\[0.5cm]
+& \mbox{\small\framebox{\parbox{1.9cm}{\textsf{Memòria de traducció}}}} & \\
 \end{array}
 $$
-\caption{Esquema del procés de \emph{pretraducció} d'un nou text esquerre usant
+\caption{Esquema del procés de traducció d'un nou text esquerre usant
   una memòria de traducció.}
 \label{fg:preMT}
 \end{figure}
 
-Aquests fragments poden ser idèntics o similars. En cas de trobar
-fragments \emph{idèntics} per als quals només hi haja una traducció
-disponible, només cal inserir-ne la traducció directament. Però, com
-que això succeix poques vegades, ja que és difícil que una oració es
-repetisca \emph{exactament}, la major part dels sistemes comercials
-usen estratègies per a no desaprofitar unitats de traducció que
-continguen oracions \emph{similars} a la nova:
-\begin{itemize}
-\item Alguns programes, si no troben una UT que té la part esquerra
-  idèntica a l'observada en el nou text ($e'$), però troben una,
-  $(e,d)$, la part esquerra $e$ de la qual es diferencia en un mot o
-  en un cert percentatge dels mots de $e'$, presenten com a
-  \emph{traducció aproximada} la part dreta ($d$) corresponent a $e$.
-  Normalment, els sistemes, quan troben un fragment similar però no
-  idèntic, destaquen gràficament les diferències (per exemple, amb
-  colors); així, la persona usuària pot fer-hi les modificacions
-  necessària perquè la traducció resultant siga correcta; alguns
-  sistemes, fins i tot, són capaços d'usar les bases de dades lèxiques
-  o terminològiques de la persona usuària per a proposar traduccions
-  per als mots discordants.
-  
-  Per exemple, si a la memòria hi ha la UT \pair{"{}Connecteu
-  l'ordinador a la impressora."}{"{}Conecte el ordenador a la
-  impresora"} però el nou text conté la frase \texttt{"{}Connecteu
-  l'ordinador a la \emph{xarxa}"}, el programa pot trobar les
-  correspondències \pair{"{}impressora"}{"{}impresora"}
-  \pair{"xarxa"}{"red"} en una base de dades lèxica i usar-les per a
-  proposar la traducció correcta (\texttt{"{}Conecte el ordenador a la
-  red}).
-
-La utilitat d'una memòria de traducció depén en gran part de la
-capacitat del sistema per a proposar traduccions per a segments {\em
-  similars} (i per a això s'han de definir i usar criteris adequats
-de \emph{similitud}). 
 
 
-\item D'altres programes usen estratègies pròpies (no descrites) per a
-  ``assemblar'' o ``construir'' traduccions usant fragments de parts
-  dretes de més d'una UT.
+\subsection{Ampliació de la memòria}
 
-\end{itemize}
-
-\subsection{Correcció de la pretraducció. Ampliació de la memòria}
-
-Una vegada feta la pretraducció del text esquerre $E'$ a la llengua
-dreta, el programa la mostra alineada amb el text esquerre perquè la
-persona usuària la puga corregir i produir el text dret
-correcte $D'$. Les noves unitats de traducció $(e',d')$ que s'hagen produït en
-el procés es poden enviar a la memòria de traducció. El procés
-s'esquematitza en la figura~\ref{fg:corMT}; la repetició del cicle
-pretraducció--correcció--enviament de noves UT a la memòria enriqueix
-la memòria de traducció i permet obtenir cada vegada pretraduccions
-més completes i correctes.
-\begin{figure}
-$$
-\begin{array}{r}
-\mbox{\textsf{text esquerre segmentat}} \to \\
-\mbox{\textsf{text dret pretraduït i segmentat}} \to \\ \end{array}
-\mbox{\framebox{\parbox{1.6cm}{\textsf{alineador- corrector assistit}}}}
-\begin{array}{l}\to \mbox{\textsf{UTs}} \to
-  \mbox{\framebox{\parbox{2.1cm}{\textsf{Memòria de traducció}}}} \\
-  \to \mbox{\textsf{text dret corregit}}\end{array}
-$$
-\caption{Esquema del procés de \emph{correcció} del text pretraduït i
-  \emph{actualització} de la memòria de traducció.}
-\label{fg:corMT}
+Una vegada feta la pretraducció o la selecció interactiva de propostes
+de traducció para cada un dels segments del text esquerre $E'$, el
+programa les mostra alineades amb els segments del text esquerre
+perquè la persona usuària les puga posteditar i produir el text dret
+correcte $D'$. Les noves unitats de traducció $(e',d')$ que s'hagen
+produït en el procés es poden enviar a la memòria de traducció.
+%El procés
+%s'esquematitza en la figura~\ref{fg:corMT}; <---- ELIMINADA
+La repetició del cicle pretraducció--correcció--enviament de noves UT
+a la memòria enriqueix la memòria de traducció i permet obtenir cada
+vegada traduir amb menys esforç, ja que la cobertura de la memòria
+augmenta.
+% FIGURA ELIMINADA POR CONFUSA
+% \begin{figure}
+% $$
+% \begin{array}{r}
+% \mbox{\textsf{text esquerre segmentat}} \to \\
+% \mbox{\textsf{text dret pretraduït i segmentat}} \to \\ \end{array}
+% \mbox{\framebox{\parbox{1.6cm}{\textsf{alineador- corrector assistit}}}}
+% \begin{array}{l}\to \mbox{\textsf{UTs}} \to
+%   \mbox{\framebox{\parbox{2.1cm}{\textsf{Memòria de traducció}}}} \\
+%   \to \mbox{\textsf{text dret corregit}}\end{array}
+% $$
+% \caption{Esquema del procés de \emph{correcció} del text pretraduït i
+%   \emph{actualització} de la memòria de traducció.}
+% \label{fg:corMT}
 
 
-\end{figure}
+% \end{figure}
 
 
 % TEXT que n'he eliminat...
@@ -328,30 +445,45 @@ $$
 
 \section{Productes}
 
-En l'actualitat, hi ha molts programes de memòria de traducció de
-propòsit general disponibles comercialment (\emph{SDL Trados} de SDL
-International, \emph{Déjà
-  Vu} d'Atril, \emph{IBM Translation Manager}, \emph{Transit} de Star,
-etc., per nomenar algunes de les més
-conegudes). També hi ha una alternativa interessant de codi obert i
-distribució gratuïta, anomenada
-OmegaT\footnote{\url{http://www.omegat.org/omegat/omegat.html}}. Aquests programes són molt populars entre les persones que
-es dediquen professionalment a la traducció, molt més populars que els
+En l'actualitat, hi ha molts programes de traducció assistida per
+ordinador basats en memòries de traducció disponibles comercialment
+(\emph{SDL Trados} de SDL International, \emph{Déjà Vu} d'Atril,
+\emph{IBM Translation Manager}, \emph{Transit} de Star, etc., per
+nomenar algunes de les més conegudes). També hi ha una alternativa
+interessant de codi obert i distribució gratuïta, anomenada
+OmegaT.\footnote{\url{http://www.omegat.org}} Aquests programes de
+traducció assistida són molt populars entre les persones que es
+dediquen professionalment a la traducció, molt més populars que els
 programes de traducció automàtica. Això pot ser, d'una banda, perquè
 els professionals tenen així la impressió que el programa no tradueix
-sinó que \emph{organitza} i fa més eficient el treball de traducció
-humana i, d'altra banda, perquè les memòries de traducció
-\emph{conserven l'estil} i \emph{les decisions terminològiques} de
-traduccions anteriors, que poden variar d'un equip a altre, mentres
-que els sistemes de traducció automàtica solen basar-se en seleccions
-terminològiques i d'estil de propòsit general, encara que siga dins
-d'una temàtica concreta.
+i els relega a un mer paper de correctors, sinó que \emph{organitza} i
+fa més eficient el treball de traducció professional i, d'altra banda,
+perquè les memòries de traducció \emph{conserven l'estil} i \emph{les
+  decisions terminològiques} de traduccions anteriors, que poden
+variar d'un equip a altre, mentres que els sistemes de traducció
+automàtica solen basar-se en seleccions terminològiques i d'estil de
+propòsit general, encara que siga dins d'una temàtica concreta.
 
-Hi ha, a més, tecnologies de
-traducció automàtica directa que s'assemblen molt al funcionament de
-les memòries de traducció; per exemple, l'edició bilingüe
-(espanyol--català) d'\emph{El Periódico de Catalunya} (vegeu
-l'epígraf~\ref{ss:ePdC}) es prepara diàriament amb un mètode
+S'ha de tenir en compte que la traducció automàtica pot constituir una
+alternativa acceptable en aquells segments on la memòria de traducció
+no pot fer una proposta raonable, i, de fet, molts programes de
+traducció assistida per ordinador combinen l'accés a memòries de
+traducció i l'accés a la traducció automàtica. El punt en el que les
+propostes de la memòria de traducció començen a ser menys útils que la
+traducció automàtica depén de la cobertura de la memòria de traducció
+per al tipus de text, de la llengua origen i la llengua meta, i, per
+descomptat, del sistema concret de traducció automàtica: per a
+llengües molt similars com ara l'espanyol i el català, podria passar
+que només les concordançes millors que, diguem-ne, el 95\% foren
+acceptables, mentre que si les llengües són més distants, com
+l'espanyol i el turc, podria passar que la traducció automàtica només
+fóra útil per a puntuacions de concordança molt baixes.
+
+Hi ha tecnologies de traducció automàtica que s'assemblen molt
+al funcionament de les memòries de traducció, com ara la traducció
+automàtica estadística~\ref{ss:induc}. Un exemple clàssic és l'edició
+bilingüe (espanyol--català) d'\emph{El Periódico de Catalunya} (vegeu
+l'epígraf~\ref{ss:ePdC}), que es prepara diàriament amb un mètode
 completament automàtic que funciona en molts aspectes de manera
 similar a una memòria de traducció.
 
@@ -373,16 +505,10 @@ memòries de traducció que hagen anat construint? Per sort, no. En
 agost de 1998 es va aprovar la versió 1.1 d'un format estàndard
 anomenat TMX (\emph{Translation Memory eXchange}, ``intercanvi de
 memòries de traducció''); quasi tots els programes gestors de memòries
-de traducció poden escriure i llegir memòries en aquest format, que
-a l'abril del 2004 arribava a la versió 1.4b.  El format
-TMX segueix les especificacions XML (vegeu l'apartat~\ref{s3:SGML});
-és a dir, les memòries TMX són un tipus de document XML, definit, per
-tant, per una DTD concreta.\footnote{Tota la informació sobre TMX es
-  troba en el servidor de LISA (\emph{Localisation Industry Standard
-    Organization}), un consorci d'empreses de \emph{localització}
-  (adaptació del programari a les llengües locals dels usuaris) per a
-  la creació d'estàndards com ara el TMX. L'URI és
-  \url{http://www.lisa.org/tmx/}.}
+de traducció poden escriure i llegir memòries en aquest format.  El
+format TMX segueix les especificacions XML (vegeu
+l'apartat~\ref{s3:SGML}); és a dir, les memòries TMX són un tipus de
+document XML, definit, per tant, per una DTD concreta.\footnote{\url{http://www.ttt.org/oscarstandards/tmx/tmx14b.html}}
 
 Heus ací part d'una memòria de traducció en TMX (s'hi mostren només
 \emph{dues} UTs):
@@ -475,7 +601,7 @@ veus que n'han expressat la necessitat i la conveniència.
      originals i traduïts que hagen estat alineats.
 \end{enumerate}
 
-\item Una memòria de traducció és una base de dades 
+\item Una memòria de traducció es pot veure com una base de dades 
    
 \begin{enumerate}
 \item on cada registre és una llengua i cada camp una unitat de
@@ -484,6 +610,7 @@ veus que n'han expressat la necessitat i la conveniència.
 \item on cada registre és una unitat de traducció i la variant en
       cada llengua es guarda en un camp diferent
 \end{enumerate}
+
 \item Quina característica dels textos que s'han de traduir fa que
    l'ús de memòries de traducció siga la solució adequada?
    
@@ -502,7 +629,7 @@ memòries de traducció?
 \item Als sistemes de traducció automàtica per interlingua.
 \item Als sistemes de traducció automàtica per transferència.
 \end{enumerate}
-\item Les memòries de traducció comercials actuals alineen els textos
+\item Les memòries de traducció comercials actuals segmenten i alineen els textos
 {\ldots}
 \begin{enumerate}
 \item {\ldots}fent un balanç òptim entre cobertura i precisió.
@@ -515,12 +642,12 @@ memòries de traducció?
 \item Els resultats produïts per una memòria de traducció no
      necessiten revisió, ja que es basen en traduccions correctes realizades
      anteriorment per professionals.
-\item Les memòries de traducció organitzen els fragments i les
-     traduccions corresponents en bases
-     de dades similars a les bases de dades lèxiques o terminològiques.
+   \item Les memòries de traducció poden organitzar els fragments i
+     les traduccions corresponents en bases de dades similars a les
+     bases de dades lèxiques o terminològiques.
 \item Una memòria de traducció és un sistema de traducció
-     directa amb equivalències entre fragments de text 
-     extretes de textos anteriorment traduïts.
+     directa amb equivalències entre segments de text 
+     observades en textos anteriorment traduïts.
 \end{enumerate}
 
 \item Les memòries de traducció usen els signes de puntuació per a 
@@ -555,6 +682,56 @@ memòries de traducció?
 \item Segmentar cada un dels dos textos en oracions.
 \item Segmentar els dos textos i alinear-los.
 \end{enumerate}
+
+\item Estem traduint un segment en un programa de traducció assistida
+  (com ara OmegaT) i el programa ens dóna una sèrie de propostes que
+  vénen de la memòria de traducció. Quin d'aquests indicadors indica
+  millor l'esforç que haurem de fer per acabar de traduir el segment?
+  \begin{enumerate}
+\item El percentatge de concordança parcial de la millor
+    proposta
+\item El nombre de propostes
+\item La longitud en
+    paraules de la millor proposta (com més llarga, millor)
+  \end{enumerate}
+
+
+\item La majoria dels programes de traducció assistida basats en
+  memòries de traducció no donen una de les tres informacions
+  següents: 
+  \begin{enumerate}
+  \item El percentatge de coincidència entre el nou
+    segment a traduir i el segment origen de la unitat de traducció
+    proposada. 
+  \item Els mots que cal canviar en el segment
+    meta de la unitat de traducció proposada.
+  \item Els mots del
+    segment origen de la unitat de traducció proposada que es
+    diferencien de les del nou segment a traduir.
+  \end{enumerate}
+
+
+\item Indiqueu quina d'aquestes afirmacions és certa. 
+  \begin{enumerate}
+  \item Les
+    memòries de traducció són bàsicament sistemes de traducció directa
+    i, per tant, la unitat bàsica de traducció que usen és el mot.
+  \item Les memòries de traducció usen informació sobre les
+    categories lèxiques dels mots per a decidir els alineaments.
+  \item Per a no haver de traduir un text nou des de zero amb un
+    sistema de ajuda a la traducció basat en memòries de traducció, és
+    necessari que hi haja textos originals i traduïts que hagen estat
+    alineats.
+  \end{enumerate}
+
+\item Quina d'aquestes característiques d'un treball de traducció el fa més tractable amb memòries de traducció? 
+  \begin{enumerate}
+  \item La repetitivitat dels textos.
+  \item La proximitat entre les llengües origen i meta.
+  \item Que els textos origen i meta estiguen codificats en ISO-8859-1 (\emph{Latin-1}).
+  \end{enumerate}
+
+
 
 % < QT10
 
@@ -610,6 +787,10 @@ memòries de traducció?
 
 \item (a)
 \item (c)
+\item (a)
+\item (b)
+\item (c)
+\item (a)
 
 % < SL10
 
