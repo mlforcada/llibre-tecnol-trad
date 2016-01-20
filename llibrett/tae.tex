@@ -1,34 +1,112 @@
-\todo{Millorar aquest apartat (ho deixe per a Felipe): aprofitar les transparències de Felipe,
-  potser el que Mikel va fer a Castelló, col·locant material avançat en
-  \emph{per saber més}; deixar clar que SMT es SotA; connectar amb
-  exercicis com el del \emph{séverla}}
-\label{ss:induc}
+% \todo{Millorar aquest apartat (ho deixe per a Felipe): aprofitar les
+% transparències de Felipe, potser el que Mikel va fer a Castelló,
+% col·locant material avançat en \emph{per saber més}; deixar clar que
+% SMT es SotA; connectar amb exercicis com el del \emph{séverla}}
 
-Totes les aproximacions a la traducció automàtica descrites fins ara
-són de naturalesa \emph{deductiva}, és a dir, estan programades a
-partir de teories i coneixements lingüístics sobre la traducció. Però
-recentment (sobretot en els primers anys del tercer mil·leni) s'està
-produint un creixement espectacular de les aproximacions
-\emph{inductives} a la traducció automàtica, en les quals el sistema
-\emph{aprén} a traduir entre dues llengües $L_1$ i $L_2$ a partir
-d'una mostra o corpus suficientment gran de frases en $L_1$
-acompanyades de la traducció a $L_2$ (vegeu
-l'apartat~\ref{ss:bitextos}). Aquestes aproximacions inductives també
-reben el nom de \emph{traducció automàtica basada en corpus}.
+%\section{Sistemes de traducció automàtica estadística}
+
+Totes les tècniques de traducció automàtica descrites fins ara són de
+naturalesa \emph{deductiva}, és a dir, estan basades en teories i
+coneixements lingüístics sobre la traducció. Però recentment (sobretot
+en els primers anys del tercer mil·lenni) s'està produint un
+creixement espectacular de tècniques de traducció automàtica
+\emph{inductives}, en les quals el sistema \emph{aprén} automàticament
+a traduir entre dues llengües $L_1$ i $L_2$ a partir d'una mostra o
+corpus paral·lel suficientment gran de frases en $L_1$ acompanyades de
+la traducció a $L_2$ (vegeu l'apartat~\ref{ss:bitextos}). Aquestes
+aproximacions inductives també reben el nom de \emph{traducció
+  automàtica basada en corpus}.
+
+La principal tècnica de traducció automàtica basada en corpus es la
+\emph{traducció automàtica estadística} (en anglés \emph{statistical
+  machine trnaslation}; SMT), la qual va ser inventada cap a finals
+dels vuitanta per un grup d'investigadors d'IBM \citep{brown90j}; el
+sistemes actuals, com veurem més endavant, són una evolució d'aquests
+sistemes.
+
+A l'hora de traduir hi ha una diferència fonamental entre els sistemes
+basats en regles o coneixement i el sistemes estadístics: mentres que
+el sistemes basat en regles produeixen una única traducció, el
+sistemes estadístics generen una gran quantitat d'\emph{hipòtesis de
+  traducció} (idealment totes les possibles) i utilitzen models
+estadístics per \emph{puntuar} les hipòtesis generades i escollir la
+millor de totes. Els principals models estadístics que s'usen per
+puntuar les hipòtesis de traducció son el \emph{model de traducció} i
+el \emph{model de llengua}.
+
+\begin{table}[tb]
+\begin{tabular}{p{5cm}|p{5cm}}
+  \textbf{Anglés} & \textbf{Espanyol}\\
+  It has been exciting in many ways . &
+  Ha sido un trabajo apasionante en varios sentidos . \\
+  \hline
+  As the shadow rapporteurs know , this has been my first report
+  during my time in Parliament and it has been a good learning
+  experience . &
+  Como bien saben los ponentes alternativos , éste ha sido el primer
+  informe en el que he trabajado durante mi mandato parlamentario , y
+  me ha venido muy bien como experiencia formativa . \\
+  \hline
+  It has also been very challenging to work on three reports and
+  therefore also with other rapporteurs . &
+  También ha sido un gran desafío trabajar en tres informes , y por lo
+  tanto con otros ponentes . \\
+  \hline
+  It has been exciting ! &&
+  ¡ Ha sido emocionante \\
+  \hline
+\end{tabular}
+\caption{Oracions paral·leles extretes del  corpus paral·lel amb les actes del
+  Parlament Europeu.}
+\label{fg:alinora}
+\end{table}
+
+El \textbf{model de traducció} s'aprén a partir d'un corpus paral·lel
+alineat a nivell d'oració com el que es mostra a la figura
+\ref{fg:alinora}. Primerament, s'han d'obtenir els alineaments a
+nivell paraula (vegeu la figura \ref{fg:alinpar}) per a després
+estimar el model de traducció a partir d'aquestos. 
+
+
+
+
+
+
+
+
+
+
+
+
+Els primer sistemes de traducció automàtica estadística ja vn
+construeix models probabilístics que indiquen, per exemple, la
+probabilitat que els mots d'una oració en llengua meta s'ordenen d'una
+determinada manera, la probabilitat que la traducció d'un determinat
+mot en una llengua siga traducció d'un determinat mot en l'altra, la
+probabilitat que la traducció d'un mot siga una expressió de més d'un
+mot o la probabilitat de determinats reordenaments, i, usa aquests
+models per a obtenir la \emph{traducció més probable} de noves
+oracions que no ha vist anteriorment.
+
+
+
+
+
+
+, i més
+concretament la traducció automàtica estadística basada en segments
+bilingües (en anglés \emph{phrase-based statistical machine
+  translation}).
+
+Els primer sistemes
+
+
+
 
 Hi ha diverses aproximacions a la traducció automàtica basada en
 corpus. En mencionarem molt breument dues:
 \begin{itemize}
-\item La \emph{traducció automàtica estadística},
-inventada cap a finals dels vuitanta per un grup d'investigadors d'IBM
-\citep{brown90j} construeix models probabilístics que indiquen, per
-exemple, la probabilitat que els mots d'una oració en llengua meta
-s'ordenen d'una determinada manera, la probabilitat que la traducció
-d'un determinat mot en una llengua siga traducció d'un determinat mot
-en l'altra, la probabilitat que la traducció d'un mot siga una
-expressió de més d'un mot o la probabilitat de determinats
-reordenaments, i, usa aquests models per a obtenir la \emph{traducció
-  més probable} de noves oracions que no ha vist anteriorment. 
+\item 
 \item La \emph{traducció automàtica basada en exemples} que intenta
 construir \emph{plantilles} de traducció a partir dels exemples
 observats i \emph{generalitzar-les} perquè servisquen en noves
