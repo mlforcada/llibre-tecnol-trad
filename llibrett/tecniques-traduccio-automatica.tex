@@ -1778,38 +1778,87 @@ millor de totes. Els principals models estadístics que s'usen per
 puntuar les hipòtesis de traducció son el \emph{model de traducció} i
 el \emph{model de llengua}.
 
-% \begin{table}[tb]
-% \begin{tabular}{p{5cm}|p{5cm}}
-%   \textbf{Anglés} & \textbf{Espanyol}\\
-%   It has been exciting in many ways . &
-%   Ha sido un trabajo apasionante en varios sentidos . \\
-%   \hline
-%   As the shadow rapporteurs know , this has been my first report
-%   during my time in Parliament and it has been a good learning
-%   experience . &
-%   Como bien saben los ponentes alternativos , éste ha sido el primer
-%   informe en el que he trabajado durante mi mandato parlamentario , y
-%   me ha venido muy bien como experiencia formativa . \\
-%   \hline
-%   It has also been very challenging to work on three reports and
-%   therefore also with other rapporteurs . &
-%   También ha sido un gran desafío trabajar en tres informes , y por lo
-%   tanto con otros ponentes . \\
-%   \hline
-%   It has been exciting  &
-%   Ha sido emocionante \\
-%   \hline
-% \end{tabular}
-% \caption{Oracions paral·leles extretes del  corpus paral·lel amb les actes del
-%   Parlament Europeu.}
-% \label{fg:alinora}
-% \end{table}
+\begin{figure}
+\centering
+\begin{tabular}{p{6cm}|p{6cm}}
+  \multicolumn{1}{c|}{\textbf{Anglés}} & \multicolumn{1}{c}{\textbf{Espanyol}}\\
+  \hline
+  It has been exciting in many ways . &
+  Ha sido un trabajo apasionante en varios sentidos . \\
+  \hline
+  As the shadow rapporteurs know , this has been my first report
+  during my time in Parliament and it has been a good learning
+  experience . &
+  Como bien saben los ponentes alternativos , éste ha sido el primer
+  informe en el que he trabajado durante mi mandato parlamentario , y
+  me ha venido muy bien como experiencia formativa . \\
+  \hline
+  It has also been very challenging to work on three reports and
+  therefore also with other rapporteurs . &
+  También ha sido un gran desafío trabajar en tres informes , y por lo
+  tanto con otros ponentes . \\
+  \hline
+  It has been exciting  &
+  Ha sido emocionante \\
+  \hline
+\end{tabular}
+\caption{Oracions paral·leles anglés-espanyol extretes del corpus
+  paral·lel Europarl (\texttt{http://www.statmt.org/europarl/}) amb
+  les actes del Parlament Europeu de període 1996--2011.}
+\label{fg:alinora}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{alin-paraules}
+\caption{Alineament entre les paraules de l'oració en anglés
+  \emph{The white bird decided to fly.} and les paraules de l'oració en
+català \emph{El pardal blanc va decidir volar.}}
+\label{fg:alinpar}
+\end{figure}
 
 El \textbf{model de traducció} s'aprén a partir d'un corpus paral·lel
 alineat a nivell d'oració com el que es mostra a la figura
-\ref{fg:alinora}. Primerament, s'han d'obtenir els alineaments a
-nivell paraula (vegeu la figura \ref{fg:alinpar}) per a després
-estimar el model de traducció a partir d'aquestos. 
+\ref{fg:alinora}. Primerament, s'han d'obtenir els \emph{alineaments a
+  nivell paraula} (vegeu un exemple en la figura \ref{fg:alinpar}) per
+a després estimar el model de traducció a partir d'aquests
+alineaments. 
+
+\begin{figure}
+  \centering %
+  \subfigure[\label{fg:pasosalin1}Inicialització: Tots els alineament
+  són igualment probables.]{\includegraphics[scale=0.5]{ibm1/ibm2}} 
+
+  \subfigure[\label{fg:pasosalin2}Primera iteració: El alineament
+  entre \emph{yn} i \emph{gur} guanya
+  força.]{\includegraphics[scale=0.5]{ibm1/ibm3}}
+
+  \subfigure[\label{fg:pasosalin3}Segona iteració: El alineament entre
+  \emph{pifo} i \emph{ubhfo} guanya
+  força.]{\includegraphics[scale=0.5]{ibm1/ibm4}}
+
+  \subfigure[\label{fg:pasosalin4}Tercera i última iteració:
+  L'estructura d'alineament que estava ``oculta'' queda al
+  descobert.]{\includegraphics[scale=0.5]{ibm1/ibm5}}
+  \caption{Exemple que il·lustrar el procés iteratiu que permet
+    obtenir l'alineament entre les paraules de les oracions d'un
+    corpus paral·lel. En aquest exemple el corpus consta de tres
+    oracions paral·leles en dos llengües inventades. Aquestes oracions
+    paral·leles són: \emph{yn pifo}--\emph{gur ubhfo}, \emph{yn pifo
+      oynapi}--\emph{gur juvga ubhfo} i \emph{yn sybe}--\emph{gur
+      subjre}. El grossor de les línies que connecten les paraules
+    representa la probabilitat de l'alineament.}
+\label{fg:pasosalin}
+\end{figure}
+
+Tot i que sembla una tasca difícil per a un ordinador, els alineaments
+a nivell de paraula es poden obtenir automàticament sense usar cap
+coneixement sobre les llengües del textos a alinear. La figura
+\ref{fg:pasosalin} mostra pas per pas com s'obté alineament a nivell
+de paraula mitjançant un procés iteratiu.
+
+
 
 
 
