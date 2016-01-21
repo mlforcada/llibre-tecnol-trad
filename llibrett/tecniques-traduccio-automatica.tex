@@ -1,8 +1,6 @@
 \chapter{Tècniques de traducció automàtica}
 \label{se:TdTA}
 
-\com{Uf. Cal rellegir aquest capítol.}
-
 \com{Ací faltaria parlar, en algun lloc, de la relació entre les
   arquitectures de traducció automàtica i el \emph{principi de
     composicionalitat}: treball per a Mikel, que ja té coses escrites.
@@ -1755,28 +1753,30 @@ coneixements lingüístics sobre la traducció. Però recentment (sobretot
 en els primers anys del tercer mil·lenni) s'està produint un
 creixement espectacular de tècniques de traducció automàtica
 \emph{inductives}, en les quals el sistema \emph{aprén} automàticament
-a traduir entre dues llengües $L_1$ i $L_2$ a partir d'una mostra o
-corpus paral·lel suficientment gran de frases en $L_1$ acompanyades de
-la traducció a $L_2$ (vegeu l'apartat~\ref{ss:bitextos}). Aquestes
-aproximacions inductives també reben el nom de \emph{traducció
-  automàtica basada en corpus}.
+a traduir entre dues llengües a partir d'una mostra o corpus paral·lel
+suficientment gran de frases en la llengua origen acompanyades de la
+traducció a la llengua meta (vegeu
+l'apartat~\ref{ss:bitextos}). Aquestes aproximacions inductives també
+reben el nom de \emph{traducció automàtica basada en corpus}.
 
 La principal tècnica de traducció automàtica basada en corpus es la
 \emph{traducció automàtica estadística} (en anglés \emph{statistical
   machine trnaslation}; SMT), la qual va ser inventada cap a finals
 dels vuitanta per un grup d'investigadors d'IBM \citep{brown90j}; el
-sistemes actuals, com veurem més endavant, són una evolució d'aquests
-sistemes.
+sistemes actuals, són una evolució d'aquests sistemes.
 
 A l'hora de traduir hi ha una diferència fonamental entre els sistemes
 basats en regles o coneixement i el sistemes estadístics: mentres que
-el sistemes basat en regles produeixen una única traducció, el
+el sistemes basat en regles produeixen únicament una traducció, els
 sistemes estadístics generen una gran quantitat d'\emph{hipòtesis de
   traducció} (idealment totes les possibles) i utilitzen models
 estadístics per \emph{puntuar} les hipòtesis generades i escollir la
 millor de totes. Els principals models estadístics que s'usen per
 puntuar les hipòtesis de traducció son el \emph{model de traducció} i
-el \emph{model de llengua}.
+el \emph{model de llengua}. La combinació d'aquests models fa que la
+hipòtesis de traducció que rep la puntuació \emph{global} més alta no
+necessàriament és la hipòtesis de traducció millor si ens atenem a
+cada model per separat.
 
 \begin{figure}
 \centering
@@ -1821,9 +1821,9 @@ català \emph{El pardal blanc va decidir volar.}}
 El \textbf{model de traducció} s'aprén a partir d'un corpus paral·lel
 alineat a nivell d'oració com el que es mostra a la figura
 \ref{fg:alinora}. Primerament, s'han d'obtenir els \emph{alineaments a
-  nivell paraula} (vegeu un exemple en la figura \ref{fg:alinpar}) per
-a després estimar el model de traducció a partir d'aquests
-alineaments. 
+  nivell de paraula} (vegeu un exemple en la figura \ref{fg:alinpar})
+per a després estimar el model de traducció a partir d'aquests
+alineaments.
 
 \begin{figure}[tb]
   \centering %
@@ -1854,68 +1854,135 @@ alineaments.
 
 Tot i que sembla una tasca difícil per a un ordinador, els alineaments
 a nivell de paraula es poden obtenir automàticament sense usar cap
-coneixement sobre les llengües del textos a alinear. La figura
-\ref{fg:pasosalin} mostra pas per pas com s'obté alineament a nivell
-de paraula mitjançant un procés iteratiu.
+coneixement sobre les llengües del textos a alinear mitjançat un
+procés iteratiu. La figura \ref{fg:pasosalin} il·lustra aquest procés
+amb un petit corpus de tres oracions paral·leles; si us fixeu, sense
+tenir cap coneixement de les llengües (perquè han estat inventades)
+els humans també som capaços d'obtenir aquests alineaments. El procés
+comença assumint que, per a cada oració paral·lela, totes les paraules
+de l'oració en llengua meta poden ser traducció de cadascuna de les
+paraules de l'oració en la llengua origen i les assigna la mateixa
+probabilitat.  En cada iteració el programa alineador visita totes les
+oracions paral·leles del corpus i va refinant aquestes probabilitats
+fins que l'estructura d'alineament queda al descobert. Aquest
+refinament és possible perquè els mots que són traducció mútua solen
+coocórrer en les mateixes oracions paral·leles, cosa que no succeïx si
+dos mots no són traducció un de l'altre.
+
+Una vegada obtingut els alineaments a nivell de paraula, podem
+aprendre models probabilístics que indiquen, per exemple, la
+probabilitat que la traducció d'un determinat mot en una llengua siga
+la traducció d'un determinat mot en l'altra (un model de traducció de
+paraules o diccionari bilingüe probabilístic), o la probabilitat que
+la traducció d'una seqüència (segment) de mots en una llengua siga la
+traducció d'una seqüència (segment) de mots mot en l'altra (un model
+de traducció de segments). Aquest últim model l'usen el sistemes de
+traducció automàtica estadística basats en segments bilingües (en
+anglés \emph{phrase-based statistica machine translation};
+\cite{koehnbook}), els quals són els més usat en l'actualitat.
+
+Però, per produir bones traduccions no podem usar el model de
+traducció a soles perquè les traduccions serien poc fluents. El motiu
+és que el model de traducció no té en compte l'ordre en què apareixen
+els segments traduïts en la llengua meta, ni el context en què
+apareixen els segments en llengua origen a l'hora de puntuar les seues
+possibles traduccions. Aquestes deficiències es mitiguen parcialment
+amb l'ús d'un model de la llengua meta.
+
+Un \textbf{model de llengua} es un model probabilístic que serveix per
+a mesurar la versemblança que una oració o text té en la llengua meta;
+es a dir, la seua fluïdesa. Aquests models s'aprenen de forma
+automàtica a partir d'un corpus de text en la llengua meta i es basen
+en segments de longitud fixa, normalment segments de cinc paraules,
+per evitar assignar una versemblança nul·la a oracions que, tot i que
+són correctes, no apareixen en els corpus d'entrenament.\footnote{Per
+  evitar assignar versemblances nul·les a una oració, a més
+  d'utilitzar segments de poques paraules, aquests models també usen
+  tècniques de suavitzat (en anglés \emph{smoothing}) de les
+  probabilitat.} El model de llengua té en compte l'ordre de les
+paraules i per tant assigna un versemblança major a l'oració
+\emph{M'agrada menjar pernill del bo} que a l'oració \emph{del bo
+  menjar pernill M'agrada}, tot i que contenen els mateix segments de
+text (\emph{del bo}, \emph{menjar pernill} i \emph{M'agrada}). A més
+té en compte, tot i que indirectament, el context en el que apareixen
+les paraules en llengua meta, de forma que assigna una versemblança
+major a l'oració en espanyol (llengua meta) \emph{No piensa con la
+  cabeza} que a l'oració \emph{No piensa con el cabo}, on els segments
+\emph{la cabeza} i \emph{el cabo} són dues possibles traduccions del
+segment en català \emph{el cap} que apareix en l'oració en llengua
+origen \emph{No pensa amb el cap}.
+
+\begin{persabermes}{sistemes de traducció automàtica estadística}
+  A més dels models de traducció i de la llengua meta els sistemes de
+  traducció automàtica estadística basats en segments bilingües usen
+  altres models. A continuació es descriuen molt breument aquests
+  models i per a que s'usen:
+  \begin{description}
+  \item[Model de reordenament lèxic:] La seua funció és modelar
+    distintes operacions de reordenament que es poden fer a l'hora de
+    disposar les traduccions dels segments en llengua origen. Les
+    probabilitats d'aquestes operacions depenen dels segments concrets
+    que s'està reordenant i són tres: traducció monòtona (quan no hi
+    ha reordenament), reordenament (quan la posició de la traducció
+    del segment en qüestió i la de l'anterior s'intercanvien) i
+    traducció discontinua (qual la traducció del segment es mou a una
+    altra posició en l'oració en llengua meta; es a dir, quan no és
+    cap de les altres dues operacions).
+  \item[Ponderació lèxica:] Com què els segments usats per traduir
+    poden ser molt llargs (normalment fins a 7 paraules) i és molt
+    difícil estimar bones probabilitats de traducció en aquestos casos
+    perquè apareixeran poques vegades en els corpus d'entrenament, el
+    que es fa es usar un diccionari bilingüe probabilístic (un model
+    de traducció de paraules) per estimar la qualitat de les
+    traduccions a nivell de mot dins de cada parell de segments
+    bilingües.
+  \item[Nombre de paraules:] Al puntuar les hipòtesis de traducció es
+    multipliquen moltes probabilitats, és a dir valors entre 0 i 1, de
+    manera que com més llarga siga una traducció més probabilitats es
+    multipliquen i més fàcil es arribar a tenir una puntuació molt
+    prop a zero. Això fa que els sistemes preferisquen les traduccions
+    curtes. Per a evitar això s'introdueix un model que compta el
+    nombre de paraules en la hipòtesi de traducció.
+  \item[Nombre de segments:] Aquest model es similar al anterior, però
+    comptant el nombre de segments bilingües que s'han usat per a
+    produir una hipòtesi de traducció. Quant més llargs siguen els
+    segments, menys segments s'usaran i més context tindran; i a
+    l'inrevés, com més curts siguen els segments més segments faran
+    falta per produir la hipòtesis de traducció.
+  \end{description}
+
+  Tots aquest models es combinen per a obtenir una puntuació global
+  per a cada hipòtesi de traducció i poder així escollir la
+  millor. Aquesta combinació es fa assignant un pes (importància) a
+  cada model que s'obté mitjançat un procés automàtic (\emph{tuning})
+  que intenta maximitzar la \emph{qualitat} de les traduccions
+  proporcionades pel sistema al traduir un corpus de
+  \emph{desenvolupament}. Consulteu el llibre de \citet{koehnbook} per
+  saber més sobre aquest procés i les mesures automàtiques de la
+  qualitat que usen.
+\end{persabermes}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Els primer sistemes de traducció automàtica estadística ja vn
-construeix models probabilístics que indiquen, per exemple, la
-probabilitat que els mots d'una oració en llengua meta s'ordenen d'una
-determinada manera, la probabilitat que la traducció d'un determinat
-mot en una llengua siga traducció d'un determinat mot en l'altra, la
-probabilitat que la traducció d'un mot siga una expressió de més d'un
-mot o la probabilitat de determinats reordenaments, i, usa aquests
-models per a obtenir la \emph{traducció més probable} de noves
-oracions que no ha vist anteriorment.
-
-
-
-
-
-
-, i més
-concretament la traducció automàtica estadística basada en segments
-bilingües (en anglés \emph{phrase-based statistical machine
-  translation}).
-
-Els primer sistemes
-
-
-
-
-Hi ha diverses aproximacions a la traducció automàtica basada en
-corpus. En mencionarem molt breument dues:
-\begin{itemize}
-\item 
-\item La \emph{traducció automàtica basada en exemples} que intenta
-construir \emph{plantilles} de traducció a partir dels exemples
-observats i \emph{generalitzar-les} perquè servisquen en noves
-situacions. Per exemple, si sabem que el substantiu anglés \emph{ski}
-es tradueix per \emph{esquí} i que la locució substantiva \emph{ski
-  station} es tradueix per \emph{estació d'esquí} podem generalitzar
-aquesta última locució substituint \emph{ski} per qualsevol altres
-substantiu $N$, de manera que la traducció de ``$N$ \emph{station}''
-és ``estació de $N$''; així, si la traducció de \emph{train} és
-\emph{tren}, la traducció de \emph{train station} és \emph{estació de
-  tren}, etc. (exemple pres de \citealt{carl01j}). Fixeu-vos que la traducció automàtica basada en exemples
-pot necessitar que la mostra de frases i traduccions estiga, a més,
-anotada lingüísticament (en l'exemple, indicant quins mots o
-estructures funcionen com un nom).
-\end{itemize}
-
+\begin{persabermes}{sistemes basats en corpus}
+  Hi ha hagut altres aproximacions inductives a la traducció
+  automàtica, como ara els sistemes de \emph{traducció automàtica
+    basada en exemples}, tot i que a hores d'ara ja no s'usen.  La
+  \emph{traducció automàtica basada en exemples} intenta construir
+  \emph{plantilles} de traducció a partir dels exemples observats en
+  el corpus d'oracions paral·leles i \emph{generalitzar-les} perquè
+  servisquen en noves situacions. Per exemple, si sabem que el
+  substantiu anglés \emph{ski} es tradueix per \emph{esquí} i que la
+  locució substantiva \emph{ski station} es tradueix per \emph{estació
+    d'esquí} podem generalitzar aquesta última locució substituint
+  \emph{ski} per qualsevol altres substantiu $N$, de manera que la
+  traducció de ``$N$ \emph{station}'' és ``estació de $N$''; així, si
+  la traducció de \emph{train} és \emph{tren}, la traducció de
+  \emph{train station} és \emph{estació de tren}, etc. (exemple pres
+  de \citealt{carl01j}). Fixeu-vos que la traducció automàtica basada
+  en exemples pot necessitar que la mostra de frases i traduccions
+  estiga, a més, anotada lingüísticament (en l'exemple, indicant quins
+  mots o estructures funcionen com un nom).
+\end{persabermes}
 
 
 \section{Qüestions i exercicis}
