@@ -742,9 +742,9 @@ diverses \emph{formes lèxiques}, consistents en una \emph{forma
 mot i la flexió (vegeu la secció~\ref{ss:amblex}).  La {\em generació}
 morfològica fa l'operació inversa.  Per exemple, l'anàlisi morfològica
 de la forma superficial \emph{vius} (ambigua) donaria com a resultat
-dues formes lèxiques: {\tt viure<verb><pres.\ ind.><2a pers.><sing.>}
-i {\tt viu<adj.><masc.><pl.>}, on els lemes són, respectivament,
-\emph{viure} i \emph{viu}.
+dues formes lèxiques: \emph{viure}, verb, present d'indicatiu, 2a.\
+persona del singular i \emph{viu}, masculí, plural, on els lemes són,
+respectivament, \emph{viure} i \emph{viu}.
 
 Un analitzador morfològic, per tant, ha de tenir la informació següent
 sobre la llengua dels textos que s'han d'analitzar: el vocabulari o
@@ -765,7 +765,6 @@ categories morfològiques dels mots anteriors i posteriors (en absència
 d'informació sintàctica) per a desfer l'ambigüitat.
 
 \begin{persabermes}{l'anàlisi morfològica}
-
   Quan els mecanismes de flexió de les llengües són, com en la major
   part de les llengües indoeuropees, per modificació de les
   terminacions (\emph{desi\-nèn\-cies}) dels mots, un mètode atractiu
@@ -796,27 +795,27 @@ d'informació sintàctica) per a desfer l'ambigüitat.
 \item Quan hem vist \emph{angoixav-} ja podem dir que el lema és
   \emph{angoixar}, que es tracta d'un verb, i que estem, amb tota
   seguretat, davant d'una forma de l'imperfet
-  d'indicatiu. L'analitzador ens pot dir ja {\tt
-    angoixar<verb>\-<impind>}.
+  d'indicatiu. L'analitzador ens pot dir ja
+  \texttt{angoixar<verb><imp>}.
 \item Després de veure \emph{angoixave-} encara no sabem la persona
   del verb (pot ser la segona del singular o la tercera del plural).
 \item Finalment, quan veiem \emph{angoixaven} ja sabem que és la
-  tercera del plural. L'analitzador produeix: {\tt
-    angoixar<verb><impind><3><pl>}.
+  tercera del plural. L'analitzador produeix:
+  \texttt{angoixar<verb><imp><3p><pl>}.
 \end{itemize}
 El procés es pot resumir en l'alineament següent:
 \begin{verbatim}
-a n g o i   x a v               e n
-a n g o ixa - - r<verb><impind> - <3><pl>
+a n g o i   x a v            e n
+a n g o ixa - - r<verb><imp> - <3p><pl>
 \end{verbatim}
 Si la forma superficial haguera estat \emph{angostes}, tot el procés
 fins a \emph{ango-} hauria estat idèntic. En el cas d'{\em angoixem},
 el procés hauria estat idèntic fins a {\em angoixe-}:
 \begin{verbatim}
 a n g o i   x e m
-a n g o ixa - - r<verb><presind><1><pl>
-                r<verb><pressub><1><pl>
-                r<verb><imper><1><pl> 
+a n g o ixa - - r<verb><presind><1p><pl>
+                r<verb><pressubj><1p><pl>
+                r<verb><imp><1p><pl> 
 \end{verbatim}
 En aquest cas, el mot té tres anàlisis morfològiques diferents.  Per
 altra banda, la part final del processament d'\emph{angoixaven} i de
@@ -863,7 +862,7 @@ produeixen la forma superficial.
 \label{s3:transyn}
 
 En aquests sistemes, la representació abstracta (RALO) que s'obté en
-l'anàlisi inclou un arbre d'anàlisi sintàctica de la frase en la LO (o
+l'anàlisi inclou un arbre d'anàlisi sintàctica de la frase en LO (o
 una entitat equivalent), que descriu les relacions sintàctiques
 existents entre les parts de la frase, a més de la informació
 morfològica necessària per a fer-ne la traducció. És a dir, es fa una
@@ -895,28 +894,31 @@ per a reordenar adequadament els mots de les frases.\footnote{Els
   molt limitat en moltes aplicacions de traducció automàtica.}
 
 
-Imaginem el sintagma nominal següent en anglés: ``The old professor's
-smart girlfriend's red car''; el sintagma és massa llarg per a la
+Imaginem el sintagma nominal següent en anglés: \emph{The old professor's
+smart girlfriend's red car}; el sintagma és massa llarg per a la
 major part dels programes de transferència morfològica, perquè
 involucra una seqüència massa llarga de reordenament.  Si, en canvi,
 tenim un sistema de TA per transferència sintàctica i suposem que la
-gramàtica conté les regles següents\footnote{La sintaxi generativa
-  actual (vegeu \citealt{chomsky96b}, \cite{ramos92}) prediu molts
+gramàtica conté les regles següents:\footnote{La sintaxi generativa
+  actual (vegeu \cite{chomsky96b}, \cite{ramos92}) prediu molts
   aspectes de les llengües naturals postulant l'existència d'un
   conjunt de regles universals molt senzilles o \emph{principis} amb
   variacions que en cada llengua estan determinades per
   \emph{paràmetres}; la gramàtica que es considera en aquesta
   discussió no és, en principi, la postulada per aquesta formulació,
-  sinó una adequada per a la tasca concreta.}: $\mathrm{SN}\rightarrow
-\mathrm{SG}\;\mathrm{SN}$, $\mathrm{SN} \rightarrow
-\mathrm{A}\;\mathrm{SN}$, $\mathrm{SN}\rightarrow \mathrm{N}$ i
-$\mathrm{SG}\rightarrow \mathrm{SN}\;\mathrm{GS}$, on $\mathrm{SN}$ és
-un sintagma nominal, $\mathrm{SG}$ un ``sintagma de genitiu'',
-$\mathrm{A}$ un adjectiu, $\mathrm{N}$ un substantiu i $\mathrm{GS}$
-la partícula de genitiu saxó (\emph{'s}, \emph{'}), l'estructura
-d'aquest sintagma nominal es podria representar, usant un arbre
-d'anàlisi sintàctica (sense tenir en compte els determinants, per a
-simplificar) com es veu en la fig.~\ref{fg:arbre1}.
+  sinó una adequada per a la tasca concreta.} 
+\begin{tabular}{l}
+$\mathrm{SN}\rightarrow \mathrm{SG}\;\mathrm{SN}$\\
+$\mathrm{SN} \rightarrow \mathrm{A}\;\mathrm{SN}$\\
+ $\mathrm{SN}\rightarrow \mathrm{N}$\\
+$\mathrm{SG}\rightarrow \mathrm{SN}\;\mathrm{GS}$\\
+\end{tabular}\\
+on $\mathrm{SN}$ és un sintagma nominal, $\mathrm{SG}$ un ``sintagma
+de genitiu'', $\mathrm{A}$ un adjectiu, $\mathrm{N}$ un substantiu i
+$\mathrm{GS}$ la partícula de genitiu saxó (\emph{'s}, \emph{'}). 
+L'estructura d'aquest sintagma nominal es podria representar, usant un
+arbre d'anàlisi sintàctica (sense tenir en compte els determinants,
+per a simplificar) com es veu en la figura~\ref{fg:arbre1}.
 \begin{figure}
 \begin{center}
 \begin{parsetree}
@@ -933,15 +935,15 @@ simplificar) com es veu en la fig.~\ref{fg:arbre1}.
 )                  
 \end{parsetree}
 \end{center}
-\caption{Arbre d'anàlisi sintàctica del sintagma nominal ``The old
-  professor's smart girlfriend's red car''}
+\caption{Arbre d'anàlisi sintàctica del sintagma nominal \emph{The old
+  professor's smart girlfriend's red car}.}
 \label{fg:arbre1}
 \end{figure}  
 Un sistema de transferència sintàctica de l'anglés al català podria
 usar dues regles per a transformar subarbres (parts de l'arbre), una
 per a moure els adjectius:\footnote{Evidentment, no sempre s'han de
-  moure els adjectius; la traducció correcta de ``the last car'' és
-  ``l'últim cotxe'', sense canviar l'ordre. Un sistema real de
+  moure els adjectius; la traducció correcta de \emph{the last car} és
+  \emph{l'últim cotxe}, sense canviar l'ordre. Un sistema real de
   transferència sintàctica hauria de considerar aquests casos de
   manera especial.}
 \begin{center}
@@ -980,16 +982,16 @@ veu en la figura~\ref{fg:arbre2}.
 )                  
 \end{parsetree}
 \end{center}
-\caption{Arbre d'anàlisi sintàctica del sintagma ``The old professor's
-  smart girlfriend's red car'' després d'aplicar-hi la regla $R_2$ al
-  $SN$ principal o arrel (vegeu el text i la
+\caption{Arbre d'anàlisi sintàctica del sintagma \emph{The old
+    professor's smart girlfriend's red car} després d'aplicar-hi la
+  regla $R_2$ al $SN$ principal o arrel (vegeu el text i la
   figura~\protect\ref{fg:arbre1}).}
 \label{fg:arbre2}
 \end{figure}
 Després caldria aplicar la regla $R_1$ al $\mathrm{SN}$ que genera
-``red car'', després la regla $R_2$ al $SN$ que genera ``old
-professor's smart girlfriend'', etc.  El resultat final es mostra en
-la fig.~\ref{fg:arbre3}
+\emph{red car}, després la regla $R_2$ al $SN$ que genera \emph{old
+  professor's smart girlfriend}, etc.  El resultat final es mostra en
+la figura~\ref{fg:arbre3}
 \begin{figure}
 \begin{center}
 \begin{parsetree}
@@ -1009,15 +1011,16 @@ la fig.~\ref{fg:arbre3}
 )                  
 \end{parsetree}
 \end{center}
-\caption{Arbre d'anàlisi sintàctica del sintagma ``The old professor's
-  smart girlfriend's red car'' després d'haver-hi fet tots els
-  reordenaments possibles amb les regles $R_1$ i $R_2$ (vegeu el text
-  i les figures~\protect\ref{fg:arbre1} i \protect\ref{fg:arbre2}).}
+\caption{Arbre d'anàlisi sintàctica del sintagma \emph{The old
+    professor's smart girlfriend's red car} després d'haver-hi fet
+  tots els reordenaments possibles amb les regles $R_1$ i $R_2$ (vegeu
+  el text i les figures~\protect\ref{fg:arbre1} i
+  \protect\ref{fg:arbre2}).}
 \label{fg:arbre3}
 \end{figure}
-i es correspon amb l'arbre d'anàlisi sintàctica de la traducció, ``El
-cotxe roig de l'amiga intel·ligent del professor vell'', la qual es
-podria generar directament a partir de l'arbre.
+i es correspon amb l'arbre d'anàlisi sintàctica de la traducció,
+\emph{El cotxe roig de l'amiga intel·ligent del professor vell}, la
+qual es podria generar directament a partir de l'arbre.
 
 Quan es tradueix entre llengües emparentades, com per exemple de
 l'espanyol al català, poques vegades es donen situacions com aquesta,
@@ -1033,7 +1036,7 @@ on s'ha fet una anàlisi sintàctica parcial\footnote{És a dir, sense
 claudàtors:
 $$\begin{array}{ll}
 & [_{SN} \mbox{ las hijas }] [_{SN} \mbox{ cuyo } [_{SN} \mbox{ padre } ] ] 
-\\ \rightarrow  &
+\rightarrow \\   &
 [_{SN} \mbox{ les filles } ] [_{SN}
 \mbox{ el pare } [_{SP} \mbox{ de les quals } ] ] \ldots ] ] 
 \end{array}
@@ -1042,7 +1045,7 @@ $$
 \begin{array}{ll}
 & [_{SN} \mbox{ la comunidad }] [_{SN} \mbox{ cuyas } [_{SN} \mbox{ se\~{n}as de
 identidad básicas } ] ]
-\\ \rightarrow &
+\rightarrow \\  &
 [_{SN} \mbox{ la comunitat }] [_{SN}
 \mbox{ les senyes d'identitat bàsiques } [_{SP} \mbox{ de la qual } ] ] \ldots ] ] 
 \end{array}
@@ -1050,7 +1053,7 @@ $$
 El sintagma nominal que segueix a \emph{cuyo} (i hi concorda en gènere
 i nombre) pot ser, en principi, indefinidament llarg; cal
 identificar-lo correctament, moure'l com una unitat i afegir-li la
-frase relativa {\em del qual} de manera que concorde ara (en gènere i
+frase relativa \emph{del qual} de manera que concorde ara (en gènere i
 nombre) amb l'antecedent (el sintagma nominal anterior al
 \emph{cuyo}). Aquestes operacions es poden resoldre de manera natural
 en un sistema de transferència sintàctica.
@@ -1065,7 +1068,7 @@ completament totes les possibles frases sintàcticament correctes d'una
 llengua és una tasca que està molt lluny de ser trivial; per això, els
 analitzadors han de ser \emph{robustos} i ser capaços d'entregar
 anàlisis parcials o incompletes per a oracions que no estaven
-previstes. l'analitzador sintàctic actua després de l'analitzador
+previstes. L'analitzador sintàctic actua després de l'analitzador
 morfològic, i obté l'\emph{arbre d'anàlisi sintàctica} (o els arbres,
 si n'hi ha més d'un) a partir de la seqüència de categories lèxiques
 de la frase; cada arbre indica una possible combinació i ordre
@@ -1080,8 +1083,8 @@ sintagmes i de categories lèxiques.
   Els algorismes d'anàlisi sintàctica poden ser {\em ascendents}
   (anglés \emph{bottom-up}) quan construeixen l'arbre començant a
   partir de les fulles ---les categories lèxiques de cada mot--- anant
-  cap a l'arrel ---el qual correspon al sintagma complet---, o
-  \emph{descendents} (anglés \emph{top-down}), en cas contrar
+  cap a l'arrel ---el qual correspon a l'oració completa---, o
+  \emph{descendents} (anglés \emph{top-down}), en cas contrari
   (recordeu que els arbres d'anàlisi sintàctica estan ``cap per
   avall'': l'arrel és a dalt i les fulles, a baix). Si la frase és
   estructuralment ambigua (vegeu l'apartat~\ref{ss:ambest}), té més
@@ -1095,7 +1098,7 @@ sintagmes i de categories lèxiques.
   que puga construir progressivament els arbres llegint l'oració
   d'esquerra a dreta, ja que així (a) pot començar a treballar abans
   que l'analitzador morfològic haja analitzat tota l'oració i (b) pot
-  proveïr el mòdul de transferència amb anàlisis parcials que li poden
+  proveir el mòdul de transferència amb anàlisis parcials que li poden
   servir per a anar preparant la traducció parcial de les parts ja
   analitzades.
 
@@ -1137,8 +1140,8 @@ sintagmes i de categories lèxiques.
   \end{array}
   $$
   La gramàtica es ambigua, és a dir, capaç de generar dos arbres
-  d'anàlisi sintàctica per a oracions com ara ``L'home porta la clau
-  de l'armari gran''.
+  d'anàlisi sintàctica per a oracions com ara \emph{L'home porta la
+    clau de l'armari gran}.
 
   Usant un algorisme estàndard que no ve al cas detallar ací, la
   gramàtica es transforma en la taula d'anàlisi sintàctica
@@ -1217,7 +1220,7 @@ sintagmes i de categories lèxiques.
 
   Aquesta taula indica què cal fer en cada pas de l'anàlisi. En la
   taula, el símbol $\bullet$ indica tant el principi com el final de
-  la oració (l'anàlisi d'una oració comença apilant $\bullet$ en la
+  l'oració (l'anàlisi d'una oració comença apilant $\bullet$ en la
   pila). Quan la situació a la qual s'arriba no està prevista en la
   taula, és perquè l'oració no és correcta d'acord amb la gramàtica
   donada; aquesta situació d'error s'ha de resoldre de manera que
@@ -1229,7 +1232,6 @@ sintagmes i de categories lèxiques.
   fet que la gramàtica és ambigua--- es pot fer una d'aquestes dues
   coses: elegir sempre una acció fixa o bé ``duplicar'' l'analitzador
   de manera que cada còpia continue l'anàlisi per cada un dels camins.
-
 
   Vegem com es faria l'anàlisi de l'oració (no ambigua)
   \begin{example}
@@ -1359,8 +1361,8 @@ d'una llengua a una altra.  Heus ací alguns exemples:
     \texttt{donar\_plaer(agent=llimons,dest=jo)}
   \end{center}
 \item \label{pg:magradanadar} Però encara pot haver-hi més maneres
-  d'expressar sintàcticament quan el que a algú li produeix plaer fer
-  una acció:
+  d'expressar sintàcticament el que a algú li produeix plaer fer una
+  acció:
   \begin{itemize}
   \item la catalana \emph{m'agrada nadar} o l'espanyola \emph{me gusta
       nadar}, on l'acció de nadar és el subjecte i el receptor de
@@ -1390,7 +1392,7 @@ d'una llengua a una altra.  Heus ací alguns exemples:
   (\emph{enfonsar}) quan porta subjecte i objecte, no és especial: el
   subjecte és l'agent i l'objecte el pacient: \emph{we sank the ship}:
   \begin{center}
-    \texttt{enfonsar(agent=nosaltres,pacient=vaixell)}
+    \texttt{enfonsar(agent=nosaltres,pacient=vaixell)},
   \end{center}
   però quan porta només un subjecte, aquest correspon al
   \emph{pacient} de l'acció: \emph{the ship sinks}
@@ -1411,10 +1413,10 @@ concreta de la frase en LO i fixar-se més aviat en la semàntica, com
 per exemple quan cal resoldre ambigüitats causades per l'anàfora o
 l'el·lipsi (vegeu les pàgines~\pageref{pg:anafora} i
 \pageref{pg:ellipsi}).  Per exemple, les dues frases angleses
-esmentades més amunt ``Sam gave a book to Leslie'' i ``Sam gave Leslie
-a book'' tenen una sintaxi diferent però volen dir exactament el
-mateix: ``Sam va donar un llibre a Leslie''; el que més compta és qui
-fa l'acció, quin objecte afecta i qui n'és el destinatari, però no
+esmentades més amunt \emph{Sam gave a book to Leslie} i \emph{Sam gave
+  Leslie a book} tenen una sintaxi diferent però volen dir exactament
+el mateix: \emph{Sam va donar un llibre a Leslie}; el que més compta és
+qui fa l'acció, quin objecte afecta i qui n'és el destinatari, però no
 l'ordre en què aquestes entitats apareixen en la frase en LO
 \citep{arnold93j}. Els sistemes de transferència semàntica
 construeixen representacions intermèdies més profundes; l'anàlisi i la
@@ -1440,25 +1442,26 @@ de quines siguen la LO i la LM, és a dir, la interlingua és {\em
 \begin{center}
 \includegraphics{triangle}
 \end{center}
-\caption{Com més profunda és l'anàlisi del text origen, més senzilla
-  és (menys esforç comporta) la transferència a la representació
-  corresponent de la llengua meta i més complexa la generació.
-  L'anàlisi del text origen és tan profunda en els sistemes
-  d'interlingua clàssics que no és necessària la transferència.}
+\caption{Com més profunda i complexa és l'anàlisi del text origen, més
+  senzilla és (menys esforç comporta) la transferència a la
+  representació corresponent de la llengua meta i més complexa la
+  generació.  L'anàlisi del text origen és tan profunda en els
+  sistemes d'interlingua clàssics que no és necessària la
+  transferència.}
 \label{fg:triangle}
 \end{figure}
 
 Les interlingües poden ser de molts tipus. Els sistemes clàssics usen
 representacions estructurals més o menys complexes per a representar
-les relacions semàntiques entre els elements de la frase (de l'estil
-de les de la solució a l'exercici~\ref{exer:agradar}).  Però les
-interlingües no han de ser necessàriament el resultat d'una anàlisi
-profunda: el que han de ser necessàriament és \emph{neutrals}; per
-exemple, alguns sistemes històrics com DLT
-\citep[cap.~17]{hutchins92b} usen com a una llengua \emph{pivot}
-``natural'' com l'esperanto, amb anotacions que resolen algunes
-ambigüitats típiques.\footnote{Aquesta aproximació pot ser
-  particularmentt útil quan les llengües entre les quals ha de traduir
+les relacions semàntiques entre els elements de la frase. 
+% (de l'estil de les de la solució a l'exercici~\ref{exer:agradar}).  
+Però les interlingües no han de ser necessàriament el resultat d'una
+anàlisi profunda: el que han de ser necessàriament és \emph{neutrals};
+per exemple, alguns sistemes històrics com DLT
+\citep[cap.~17]{hutchins92b} usen com a \emph{interlingua} una llengua
+\emph{pivot} ``natural'' com l'esperanto, amb anotacions que resolen
+algunes ambigüitats típiques.\footnote{Aquesta aproximació pot ser
+  particularment útil quan les llengües entre les quals ha de traduir
   el sistema tenen una gran similitud sintàctica i semàntica, com en
   el cas de les llengües romàniques, amb l'excepció, potser, del
   romanés.}
@@ -1750,38 +1753,40 @@ il·lustra el cost d'afegir $L_4$ al sistema.
 \label{fg:afeinte}
 \end{figure} 
 
-\section{Sistemes de traducció automàtica estadística}
+\section{Sistemes de traducció automàtica basats en corpus}
 \label{ss:induc}
 Totes les tècniques de traducció automàtica descrites fins ara són de
 naturalesa \emph{deductiva}, és a dir, estan basades en teories i
 coneixements lingüístics sobre la traducció. Però recentment (sobretot
 en els primers anys del tercer mil·lenni) s'està produint un
-creixement espectacular de tècniques de traducció automàtica
-\emph{inductives}, en les quals el sistema \emph{aprén} automàticament
-a traduir entre dues llengües a partir d'una mostra o corpus paral·lel
-suficientment gran de frases en la llengua origen acompanyades de la
-traducció a la LM (vegeu l'apartat~\ref{ss:bitextos}). Aquestes
-aproximacions inductives també reben el nom de \emph{traducció
-  automàtica basada en corpus}.
+creixement espectacular de tècniques \emph{inductives} de traducció
+automàtica, en les quals el sistema \emph{aprén} automàticament a
+traduir entre dues llengües a partir d'un corpus paral·lel
+suficientment gran d'oracions en LO acompanyades de la seua traducció
+a la LM (vegeu l'apartat~\ref{ss:bitextos}). Aquestes aproximacions
+inductives també reben el nom de \emph{traducció automàtica basada en
+  corpus}.
 
+\subsection{Sistemes de traducció automàtica estadística}
+\label{ss:tae}
 La principal tècnica de traducció automàtica basada en corpus es la
 \emph{traducció automàtica estadística} (en anglés \emph{statistical
-  machine trnaslation}; SMT), la qual va ser inventada cap a finals
-dels vuitanta per un grup d'investigadors d'IBM \citep{brown90j}; el
-sistemes actuals, són una evolució d'aquests sistemes.
+  machine translation}; SMT), la qual va ser inventada cap a finals
+dels huitanta per un grup d'investigadors d'IBM \citep{brown90j}; els
+sistemes actuals són una evolució d'aquests.
 
 A l'hora de traduir hi ha una diferència fonamental entre els sistemes
-basats en regles o coneixement i el sistemes estadístics: mentres que
-el sistemes basat en regles produeixen únicament una traducció, els
+basats en regles o coneixement i els sistemes estadístics: mentres que
+els sistemes basat en regles produeixen únicament una traducció, els
 sistemes estadístics generen una gran quantitat d'\emph{hipòtesis de
   traducció} (idealment totes les possibles) i utilitzen models
 estadístics per \emph{puntuar} les hipòtesis generades i escollir la
 millor de totes. Els principals models estadístics que s'usen per
 puntuar les hipòtesis de traducció son el \emph{model de traducció} i
-el \emph{model de llengua}. La combinació d'aquests models fa que la
-hipòtesis de traducció que rep la puntuació \emph{global} més alta no
-necessàriament és la hipòtesis de traducció millor si ens atenem a
-cada model per separat.
+el \emph{model de llengua}, els qual s'expliquen més avall. La
+combinació d'aquests models fa que la hipòtesis de traducció que rep
+la puntuació \emph{global} més alta no siga necessàriament la hipòtesi
+de traducció millor segons cada model per separat.
 
 \begin{figure}
 \centering
@@ -1803,8 +1808,8 @@ cada model per separat.
   También ha sido un gran desafío trabajar en tres informes , y por lo
   tanto con otros ponentes . \\
   \hline
-  It has been exciting  &
-  Ha sido emocionante \\
+  It has been exciting . &
+  Ha sido emocionante . \\
   \hline
 \end{tabular}
 \caption{Oracions paral·leles anglés-espanyol extretes del corpus
@@ -1824,9 +1829,9 @@ català \emph{El pardal blanc va decidir volar.}}
 \end{figure}
 
 El \textbf{model de traducció} s'aprén a partir d'un corpus paral·lel
-alineat a nivell d'oració com el que es mostra a la figura
-\ref{fg:alinora}. Primerament, s'han d'obtenir els \emph{alineaments a
-  nivell de paraula} (vegeu un exemple en la figura \ref{fg:alinpar})
+amb les oracions ja alineades com el que es mostra en la figura
+\ref{fg:alinora}. Primerament, s'han d'obtenir els \emph{alineaments
+  entre els mots} (vegeu-ne un exemple en la figura \ref{fg:alinpar})
 per a després estimar el model de traducció a partir d'aquests
 alineaments.
 
@@ -1846,92 +1851,98 @@ alineaments.
   \subfigure[\label{fg:pasosalin4}Tercera i última iteració:
   L'estructura d'alineament que estava ``oculta'' queda al
   descobert.]{\includegraphics[scale=0.5]{ibm1/ibm5}}
-  \caption{Exemple que il·lustrar el procés iteratiu que permet
-    obtenir l'alineament entre les paraules de les oracions d'un
-    corpus paral·lel. En aquest exemple el corpus consta de tres
-    oracions paral·leles en dos llengües inventades. Aquestes oracions
+  \caption{Exemple que il·lustra el procés iteratiu que permet obtenir
+    l'alineament entre les paraules de les oracions d'un corpus
+    paral·lel. En aquest exemple el corpus consta de tres oracions
+    paral·leles en dos llengües inventades. Aquestes oracions
     paral·leles són: \emph{yn pifo}--\emph{gur ubhfo}, \emph{yn pifo
       oynapi}--\emph{gur juvga ubhfo} i \emph{yn sybe}--\emph{gur
-      subjre}. El grossor de les línies que connecten les paraules
+      subjre}. El gruix de les línies que connecten les paraules
     representa la probabilitat de l'alineament.}
 \label{fg:pasosalin}
 \end{figure}
 
 Tot i que sembla una tasca difícil per a un ordinador, els alineaments
-a nivell de paraula es poden obtenir automàticament sense usar cap
-coneixement sobre les llengües del textos a alinear mitjançat un
+entre els mots es poden obtenir automàticament sense usar cap
+coneixement sobre les llengües dels textos a alinear mitjançat un
 procés iteratiu. La figura \ref{fg:pasosalin} il·lustra aquest procés
-amb un petit corpus de tres oracions paral·leles; si us fixeu, sense
+amb un corpus menut de tres oracions paral·leles; si us fixeu, sense
 tenir cap coneixement de les llengües (perquè han estat inventades)
-els humans també som capaços d'obtenir aquests alineaments. El procés
-comença assumint que, per a cada oració paral·lela, totes les paraules
-de l'oració en LM poden ser traducció de cadascuna de les paraules de
-l'oració en la llengua origen i les assigna la mateixa probabilitat.
-En cada iteració el programa alineador visita totes les oracions
+les persones també som capaces d'obtenir aquests alineaments. El
+procés comença assumint que, per a cada oració paral·lela, tots els
+mots de l'oració en LM poden ser traducció de cadascun dels mots de
+l'oració en LO, i per tant, els assigna la mateixa probabilitat.  En
+cada iteració el programa alineador visita totes les oracions
 paral·leles del corpus i va refinant aquestes probabilitats fins que
-l'estructura d'alineament queda al descobert. Aquest refinament és
-possible perquè els mots que són traducció mútua solen coocórrer en
-les mateixes oracions paral·leles, cosa que no succeïx si dos mots no
-són traducció un de l'altre.
+l'estructura d'alineament queda definida. Aquest refinament es
+produeix perquè en cada iteració les probabilitats de la iteració
+anterior s'usen per acumular evidència en tot el corpus sobre la
+probabilitat de les correspondències entre mots i, a més, perquè els
+mots que són traducció mútua solen aparèixer junts en les mateixes
+oracions paral·leles, la qual cosa no succeïx si dos mots no són
+traducció un de l'altre.
 
-Una vegada obtingut els alineaments a nivell de paraula, podem
-aprendre models probabilístics que indiquen, per exemple, la
-probabilitat que la traducció d'un determinat mot en una llengua siga
-la traducció d'un determinat mot en l'altra (un model de traducció de
-paraules o diccionari bilingüe probabilístic), o la probabilitat que
-la traducció d'una seqüència (segment) de mots en una llengua siga la
-traducció d'una seqüència (segment) de mots mot en l'altra (un model
-de traducció de segments). Aquest últim model l'usen el sistemes de
-traducció automàtica estadística basats en segments bilingües (en
-anglés \emph{phrase-based statistica machine translation};
-\cite{koehnbook}), els quals són els més usat en l'actualitat.
+Una vegada obtinguts els alineaments entre el mots, podem aprendre
+models probabilístics que indiquen, per exemple, la probabilitat que
+la traducció d'un determinat mot en una llengua siga la traducció d'un
+determinat mot en l'altra (un model de traducció de paraules o
+diccionari bilingüe probabilístic), o la probabilitat que la traducció
+d'una seqüència (segment) de mots en una llengua siga la traducció
+d'una seqüència (segment) de mots en l'altra (un model de traducció de
+segments). Aquest últim model l'usen els sistemes de traducció
+automàtica estadística basats en segments bilingües (en anglés
+\emph{phrase-based statistical machine translation}; \cite{koehnbook}),
+els quals són els més usats en l'actualitat.
 
-Però, per produir bones traduccions no podem usar el model de
-traducció a soles perquè les traduccions serien poc fluents. El motiu
-és que el model de traducció no té en compte l'ordre en què apareixen
-els segments traduïts en la LM, ni el context en què apareixen els
-segments en llengua origen a l'hora de puntuar les seues possibles
+Però per produir bones traduccions no podem usar el model de traducció
+únicament perquè les traduccions serien poc naturals, gramaticals i
+fluides. El motiu és que el model de traducció no té en compte l'ordre
+en què apareixen els segments traduïts en la LM, ni el context en què
+apareixen els segments en LO a l'hora de puntuar les seues possibles
 traduccions. Aquestes deficiències es mitiguen parcialment amb l'ús
 d'un model de la LM.
 
 Un \textbf{model de llengua} es un model probabilístic que serveix per
-a mesurar la versemblança que una oració o text té en LM; es a dir, la
-seua fluïdesa. Aquests models s'aprenen de forma automàtica a partir
-d'un corpus de text en LM i es basen en segments de longitud fixa,
-normalment segments de cinc paraules, per evitar assignar una
-versemblança nul·la a oracions que, tot i que són correctes, no
+a mesurar la versemblança d'una oració o text en LM; es a dir, la seua
+fluïdesa o gramaticalitat.\footnote{S'assumeix que el model de llengua
+  s'aprén de textos naturals i gramaticalment correctes en LM.}
+Aquests models s'aprenen de forma automàtica a partir d'un corpus de
+text en LM i es basen en comptar la freqüència de segments de longitud
+fixa, normalment segments de fins a cinc paraules, per evitar assignar
+una versemblança nul·la a oracions que, tot i que són correctes, no
 apareixen en els corpus d'entrenament.\footnote{Per evitar assignar
   versemblances nul·les a una oració, a més d'utilitzar segments de
   poques paraules, aquests models també usen tècniques de suavitzat
   (en anglés \emph{smoothing}) de les probabilitat.} El model de
 llengua té en compte l'ordre de les paraules i per tant assigna un
-versemblança major a l'oració \emph{M'agrada menjar pernill del bo}
-que a l'oració \emph{del bo menjar pernill M'agrada}, tot i que
-contenen els mateix segments de text (\emph{del bo}, \emph{menjar
-  pernill} i \emph{M'agrada}). A més té en compte, tot i que
-indirectament, el context en el que apareixen les paraules en LM, de
-forma que assigna una versemblança major a l'oració en espanyol (LM)
-\emph{No piensa con la cabeza} que a l'oració \emph{No piensa con el
-  cabo}, on els segments \emph{la cabeza} i \emph{el cabo} són dues
-possibles traduccions del segment en català \emph{el cap} que apareix
-en l'oració en llengua origen \emph{No pensa amb el cap}.
+versemblança major a l'oració \emph{M'agrada menjar pernil del bo} que
+a l'oració \emph{del bo menjar pernil M'agrada}, tot i que contenen
+els mateixos segments de text (\emph{del bo}, \emph{menjar pernil} i
+\emph{M'agrada}). A més té en compte, tot i que indirectament, el
+context en el que apareixen les paraules en LM, de manera que assigna
+una versemblança major a l'oració en espanyol (LM) \emph{No piensa con
+  la cabeza} que a l'oració \emph{No piensa con el cabo}, on els
+segments \emph{la cabeza} i \emph{el cabo} són dues possibles
+traduccions del segment en català \emph{el cap} que apareix en
+l'oració en LO \emph{No pensa amb el cap}.
 
 \begin{persabermes}{sistemes de traducció automàtica estadística}
   A més dels models de traducció i de la LM els sistemes de traducció
-  automàtica estadística basats en segments bilingües usen altres
-  models. A continuació es descriuen molt breument aquests models i
+  automàtica estadística basats en segments bilingües combinen altres
+  models per a establir la puntuació global d'una hipòtesi de
+  traducció. A continuació es descriuen molt breument aquests models i
   per a que s'usen:
   \begin{description}
   \item[Model de reordenament lèxic:] La seua funció és modelar
-    distintes operacions de reordenament que es poden fer a l'hora de
-    disposar les traduccions dels segments en llengua origen. Les
-    probabilitats d'aquestes operacions depenen dels segments concrets
-    que s'està reordenant i són tres: traducció monòtona (quan no hi
-    ha reordenament), reordenament (quan la posició de la traducció
-    del segment en qüestió i la de l'anterior s'intercanvien) i
-    traducció discontinua (qual la traducció del segment es mou a una
-    altra posició en l'oració en LM; es a dir, quan no és cap de les
-    altres dues operacions).
+    diferents operacions de reordenament que es poden fer a l'hora de
+    disposar les traduccions dels segments en LO. Les probabilitats
+    d'aquestes operacions depenen dels segments concrets que s'estan
+    reordenant i són tres: traducció monòtona (quan no hi ha
+    reordenament), reordenament (quan la posició de la traducció del
+    segment en qüestió i la de l'anterior s'intercanvien) i traducció
+    discontinua (qual la traducció del segment es mou a una altra
+    posició en l'oració en LM; es a dir, quan no és cap de les altres
+    dues operacions).
   \item[Ponderació lèxica:] Com què els segments usats per traduir
     poden ser molt llargs (normalment fins a 7 paraules) i és molt
     difícil estimar bones probabilitats de traducció en aquestos casos
