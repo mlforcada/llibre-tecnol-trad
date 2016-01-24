@@ -31,22 +31,20 @@ Hi ha dos grans grups de sistemes de traducció automàtica:
   automàtica i n'han deduït la informació necessària per a
   realitzar-la. Entre aquests sistemes, podem distingir:
   \begin{itemize}
-  % \item Els sistemes anomenats \emph{directes}, que normalment no ho
-  %   són (apartat~\ref{ss:traddir}).
   \item Els sistemes de traducció automàtica \emph{indirecta per
       transferència} (apartat~\ref{ss:classtrans}), entre els quals,
     podem distingir, d'acord amb el nivell d'abstracció lingüística:
     \begin{itemize}
     \item els sistemes de transferència morfològica avançada (de
-      vegades anomenats de ``traducció directa''), discutits en
-      l'apartat~\ref{s3:STMorf};
+      vegades anomenats de ``traducció directa'', tot i que no ho són;
+      apartat~\ref{s3:STMorf});
     \item els sistemes de transferència sintàctica
       (apartat~\ref{s3:transyn}), i
     \item els sistemes de transferència semàntica
       (apartat~\ref{s3:transsem}).
     \end{itemize}
   \item Els sistemes de traducció automàtica \emph{per interlingua}
-    (apartat~\ref{ss:interlingua})
+    (apartat~\ref{ss:interlingua}).
   \end{itemize}
 \item D'altra banda, els sistemes de traducció automàtica
   \textbf{basats en corpus} (en anglés \emph{corpus-based machine
@@ -56,18 +54,16 @@ Hi ha dos grans grups de sistemes de traducció automàtica:
   \emph{inductiva} a partir d'un \emph{corpus} paral·lel, és a dir, de
   grans quantitats de textos i les seues traduccions, prèviament
   \emph{segmentats} i \emph{alineats} per posar cada oració d'un text
-  en correspondència amb la seua traducció en l'altre.\footnote{i
-    potser anotats o processats amb algun tipus de processador
-    lingüístic com ara un analitzador morfològic o sintàctic} Els
-  sistemes basats en corpus més comuns són els de \emph{traducció
-    automàtica estadística}, on el que s'aprenen són models
-  probabilístics de traducció. Durant el decenni de 2010 s'està
-  investigant en sistemes que usen l'anomenat \emph{aprenentatge
-    profund} (en anglés \emph{deep learning}) basat en \emph{xarxes
-    neurals artificials}, les quals es basen vagament en com funciona
-  el cervell humà. \todo{Referència a la part corresponent del tema
-    d'usos?}\todo{Felipe té material sobre STA que cal afegir en
-    aquest tema.}
+  en correspondència amb la seua traducció en l'altre.\footnote{El
+    textos del corpus d'aprenentatge poden a més ser anotats o
+    processats amb algun tipus de processador lingüístic com ara un
+    analitzador morfològic o sintàctic.} Els sistemes basats en corpus
+  més comuns són els de \emph{traducció automàtica estadística}, on el
+  que s'aprenen són models probabilístics de traducció. Durant el
+  decenni de 2010 s'està investigant en sistemes que usen l'anomenat
+  \emph{aprenentatge profund} (en anglés \emph{deep learning}) basat
+  en \emph{xarxes neurals artificials}, les quals es basen vagament en
+  com funciona el cervell humà. 
 \end{itemize}
 
 
@@ -76,96 +72,109 @@ Hi ha dos grans grups de sistemes de traducció automàtica:
 \section{Funcionament de la traducció automàtica}
 \label{se:aprox}
 
-La traducció automàtica basada en regles \emph{real}, és a dir, la que
-s'usa en la realitat, es pot veure, d'una banda, com el resultat d'una
-sèrie d'aproximacions (moltes d'elles inevitables) sobre un model
-ideal i teòricament motivat basat en el \emph{principi de
-  composicionalitat semàntica} (vegeu el capítol~\ref{se:ambig}) i,
-d'altra banda, com el resultat d'una sèrie de refinaments inevitables
-sobre un sistema \emph{mot per mot} que substitueix rudimentàriament
-els mots de les oracions per equivalents constants sense fer cap altra
-operació.
+Els sistemes de traducció automàtica \emph{reals}, és a dir, els que
+s'usen en la realitat, són el resultat de fer una series
+d'aproximacions sobre la traducció automàtica \emph{ideal} per fer el
+problema de la traducció computacionalment abordable.
 
-És a dir, d'una banda, la traducció automàtica real és el resultat
-d'aproximacions successives sobre la traducció automàtica
-\emph{ideal}:
-\begin{description}
-\item[Aproximació núm.\ 1:] La majoria dels sistemes de TA adopten
-  l'aproximació segons la qual \emph{traduir texts és traduir
-    oracions}, la qual, per exemple, exclou el tractament d'alguns
-  aspectes de l'estructura del discurs. Una vegada feta aquesta
-  aproximació, podem abordar la traducció com l'aplicació del
-  \emph{principi de composicionalitat semàntica} (PCS,
-  capítol~\ref{se:ambig}), el qual afirma que la interpretació (el
-  significat) d'una oració es construeix composicionalment a partir de
-  les interpretacions dels mots, seguint els agrupaments dictats pel
-  seu arbre d'anàlisi sintàctica, i també al revés, que les oracions
-  es poden construir composicionalment a partir de les interpretacions
-  \citep{tellier00p}. Traduir una oració, en aquest esquema, comporta:
-  \begin{itemize}
-  \item fer-ne l'anàlisi sintàctica completa
-  \item assignar interpretació a cada mot
-  \item construir composicionalment una interpretació de l'oració
-  \item analitzar-la per a obtenir mots i un arbre d'anàlisi
-    sintàctica per a la llengua meta i
-  \item generar una oració en llengua meta a partir dels mots i
-    l'arbre.
-  \end{itemize}
-  Aquest és bàsicament el \emph{modus operandi} dels sistemes
-  d'interlingua (que es discutiran en la secció~\ref{ss:interlingua})
-  i constitueix l'\emph{aproximació composicional}. No oblidem que
-  aquesta descripció assumeix que l'ambigüitat lèxica (múltiples
-  interpretacions dels mots) i estructural (més d'un arbre d'anàlisi
-  sintàctica) ha estat idealment resolta.
-\item[Aproximació núm.\ 2:] Com es podria argumentar que és el cas
-  dels traductors professionals, els sistemes de traducció automàtica
-  no sempre necessiten \emph{comprendre} les frases en LO (és a dir,
-  construir-ne una interpretació explícita). Aquesta noció, que pot
-  semblar polèmica, no ho és tant: qui tradueix com a professional un
-  manual de mecànica de l'automòbil o un text de física teòrica ho pot
-  fer sense haver d'entendre completament les disciplines
-  corresponents. Els sistemes de \emph{transferència} (sintàctica,
-  vegeu l'apartat \ref{s3:transyn}) prenen una drecera i van
-  directament de l'arbre d'anàlisi sintàctica i els mots en LO a
-  l'arbre i els mots en LM. Ho fan aplicant transformacions a l'arbre
-  d'anàlisi sintàctica (\emph{transferència estructural}) i
-  substituint els mots (\emph{transferència lèxica}), sense construir
-  una representació explícita de la interpretació. Aquesta és una
-  aproximació addicional, l'\emph{aproximació de transferència}.
-  % \item[Aproximació núm.\ 3:] Quan les llengües involucrades són
-  %   sintàcticament similars (per exemple, quan estan emparentades),
-  %   no es fa l'anàlisi sintàctica completa: la transferència lèxica
-  %   és completa però la transferència estructural és parcial i local
-  %   i només es fa on és necessària.  Aquesta aproximació és
-  %   l'aproximació de la \emph{transferència parcial}. Els sistemes
-  %   anomenats \emph{transformers} o també de transferència
-  %   morfològica
-  %   avançada (vegeu~\ref{s3:STMorf}) \citep[4.2]{arnold94b}, molts
-  %   dels quals estan disponibles per Internet,\footnote{Per exemple,
-  %   SDL Transcend està disponible en
-  %   \url{http://www.freetranslation.com} i Reverso, en
-  %   \url{http://www.reverso.net}.} són exemples d'aquesta
-  %   aproximació.
-\end{description}
-Encara són possibles més aproximacions, com veurem més avall.
+La majoria dels sistemes de traducció automàtica, independentment de
+si són basats en regles o en corpus, adopten la que podrien anomenar
+\textbf{aproximació oracional}, segons la qual \emph{traduir texts és
+  traduir oracions}. Aquesta aproximació exclou el tractament d'alguns
+aspectes de l'estructura del discurs.
 
-Però és que d'altra banda, la TA basada en regles, tal com s'aplica en
-la realitat es pot veure com un refinament necessari sobre el que es
-podria anomenar TA \emph{mot per mot}, discutida en
-l'apartat~\ref{ss:dirindir}, és a dir, com una sèrie d'operacions
+Una vegada feta aquesta aproximació general, la resta d'aproximacions
+depenen del tipus de sistema de traducció automàtica. La majoria dels
+sistemes de traducció automàtica basats en coneixement aborden la
+traducció com l'aplicació del \emph{principi de composicionalitat
+  semàntica} (PCS, capítol~\ref{se:ambig}), el qual afirma que la
+interpretació (el significat) d'una oració es construeix
+composicionalment a partir de les interpretacions dels mots, seguint
+els agrupaments dictats pel seu arbre d'anàlisi sintàctica, i també al
+revés, que les oracions es poden construir composicionalment a partir
+de les interpretacions \citep{tellier00p}. Traduir una oració, en
+aquest esquema, comporta:
+\begin{itemize}
+\item fer-ne l'anàlisi sintàctica completa,
+\item assignar interpretació a cada mot,
+\item construir composicionalment una interpretació de l'oració,
+\item analitzar-la per a obtenir mots i un arbre d'anàlisi sintàctica
+  per a la llengua meta (LM), i
+\item generar una oració en LM a partir dels mots i l'arbre.
+\end{itemize}
+Aquest és bàsicament el \emph{modus operandi} dels sistemes
+d'\emph{interlingua} (que es discutiran en la
+secció~\ref{ss:interlingua}) i constitueix l'\textbf{aproximació
+  composicional}. No oblidem que aquesta descripció assumeix que
+l'ambigüitat lèxica (múltiples interpretacions dels mots) i
+estructural (més d'un arbre d'anàlisi sintàctica) ha estat idealment
+resolta.
+
+D'una altra part, els sistemes de traducció automàtica indirecta per
+transferència (que es discutiran en l'apartat \ref{ss:classtrans}) són
+el resultat d'una sèrie d'aproximacions (moltes d'elles inevitables)
+sobre un model ideal i teòricament motivat basat en el \emph{principi
+  de composicionalitat semàntica}. Aquest sistemes també es poden ver
+como el resultat d'una sèrie de refinaments inevitables sobre un
+sistema de traducció \emph{mot per mot} (vegeu
+l'apartat~\ref{ss:dirindir}), és a dir, com una sèrie d'operacions
 addicionals que s'han de fer a més d'anar substituint cada mot per un
-equivalent constant.  Per exemple, per a produir traduccions
+equivalent constant. Per exemple, per a produir traduccions
 acceptables, ràpides i intel·ligibles, fins i tot entre llengües molt
 semblants, s'ha d'afegir un processament lèxic robust (per exemple,
 per a tractar expressions multimot o per a elegir equivalents adequats
 per a mots lèxicament ambigus) i un processament estructural local o
 global que es basa en regles simples i ben formulades per a algunes
 transformacions estructurals (reordenaments, concordança,
-etc.). Aquests refinaments impliquen necessàriament un cert nivell
-d'anàlisi del text original, el qual produeix una representació
-intermèdia, abstracta, d'aquest: el sistema de traducció automàtica
-esdevé \emph{indirecte}, com ara els sistemes de transferència
-discutits amb més detall més avall (apartat~\ref{ss:classtrans}).
+etc.). 
+
+% Aquests refinaments impliquen necessàriament un cert nivell
+% d'anàlisi del text original, el qual produeix una representació
+% intermèdia, abstracta, d'aquest: el sistema de traducció automàtica
+% esdevé \emph{indirecte}, com ara els sistemes de transferència
+% discutits amb més detall més avall (apartat~\ref{ss:classtrans}).
+
+Com en el cas dels traductors professionals, els sistemes de traducció
+automàtica no sempre necessiten \emph{comprendre} les frases en
+llengua origen (LO) , és a dir, construir-ne una interpretació
+explícita. Aquesta noció, que pot semblar polèmica, no ho és tant: qui
+tradueix com a professional un manual de mecànica de l'automòbil o un
+text de física teòrica ho pot fer sense haver d'entendre completament
+les disciplines corresponents. Els sistemes de \emph{transferència}
+sintàctica (vegeu l'apartat \ref{s3:transyn}) prenen una drecera i van
+directament de l'arbre d'anàlisi sintàctica i els mots en LO a l'arbre
+i els mots en LM. Ho fan aplicant transformacions a l'arbre d'anàlisi
+sintàctica (\emph{transferència estructural}) i substituint els mots
+(\emph{transferència lèxica}), sense construir una representació
+explícita de la interpretació; aquesta és l'\textbf{aproximació de
+  transferència}. Depenent del tipus concret de sistema de traducció
+automàtica per transferència, encara són possibles més aproximacions,
+com veurem més avall.
+
+% \item[Aproximació núm.\ 3:] Quan les llengües involucrades són
+%   sintàcticament similars (per exemple, quan estan emparentades),
+%   no es fa l'anàlisi sintàctica completa: la transferència lèxica
+%   és completa però la transferència estructural és parcial i local
+%   i només es fa on és necessària.  Aquesta aproximació és
+%   l'aproximació de la \emph{transferència parcial}. Els sistemes
+%   anomenats \emph{transformers} o també de transferència
+%   morfològica
+%   avançada (vegeu~\ref{s3:STMorf}) \citep[4.2]{arnold94b}, molts
+%   dels quals estan disponibles per Internet,\footnote{Per exemple,
+%   SDL Transcend està disponible en
+%   \url{http://www.freetranslation.com} i Reverso, en
+%   \url{http://www.reverso.net}.} són exemples d'aquesta
+%   aproximació.
+
+Per últim, el sistemes de traducció automàtica estadística (que es
+discutiran en l'apartat \ref{ss:induc}) fan \textbf{assumpcions
+  d'independència estadística} per poder modelar estadísticament el
+procés de traducció. Per exemple, el \emph{model de traducció}, que
+s'usa per estimar la probabilitat de què un segment de text en LM siga
+la traducció d'un segment de text en LO, assumeix que la traducció
+d'un segment és independent de la traducció de la resta de segments de
+l'oració; és a dir, assumeix que no cal tenir en compte el context per
+a traduir cadascun dels segments de l'oració en LO.
 
 \section{Traducció directa i traducció indirecta}
 \label{ss:dirindir} 
@@ -175,9 +184,9 @@ grups, les \emph{directes} i les \emph{indirectes}. L'estratègia
 produeix directament, sense que es genere una representació intermèdia
 de la frase; de vegades també se sol anomenar vagament traducció
 \emph{mot per mot}. L'estratègia \emph{indirecta} produeix, a partir
-de la frase en la llengua d'origen (LO), una representació intermèdia
-de la frase que després s'usa per a traduir-la. Veurem més endavant de
-quina naturalesa són aquestes representacions intermèdies.
+de la frase en LO, una representació intermèdia de la frase que
+després s'usa per a traduir-la. Veurem més endavant de quina
+naturalesa són aquestes representacions intermèdies.
 
 Una formalització possible de la traducció automàtica directa més
 senzilla possible és la traducció \emph{mot a mot}: el sistema llig el
@@ -186,20 +195,19 @@ text original mot a mot d'esquerra a dreta,\footnote{S'assumeix que el
   alguns idiomes com ara el japonés o el xinès, que no usen espais en
   blanc per a separar els mots.} substitueix cada mot original per un
 equivalent fix (d'un mot, de més mots, o fins i tot de zero mots) en
-llengua meta sense tenir en compte el context i escriu els mots un a
-un i en el mateix ordre en el text meta.  Per exemple, si la frase té
-\(N\) mots,
+LM sense tenir en compte el context i escriu els mots un a un i en el
+mateix ordre en el text meta.  Per exemple, si la frase té \(N\) mots,
 \begin{displaymath}
   m_1\; m_2\; m_3\; \cdots \;m_N
 \end{displaymath}
-la traducció \emph{model zero} és
+la traducció \emph{mot per mot} és
 \begin{displaymath}
   T(m_1)\; T(m_2)\; T(m_3)\; \cdots\; T(m_N)
 \end{displaymath}
-on \(T(m)\) representa l'equivalent fix del mot \(m\) en la llengua
-meta, que pot tenir zero, un o més mots. Per exemple, la traducció
-\emph{model zero} a l'anglés de la frase catalana \emph{Aquest
-  exercici pràctic és molt senzill}, amb \(m_1=\mbox{\emph{Aquest}}\),
+on \(T(m)\) representa l'equivalent fix del mot \(m\) en la LM, que
+pot tenir zero, un o més mots. Per exemple, la traducció \emph{mot per
+  mot} a l'anglés de la frase catalana \emph{Aquest exercici pràctic
+  és molt senzill}, amb \(m_1=\mbox{\emph{Aquest}}\),
 \(m_2=\mbox{\emph{exercici}}\), etc., podria ser \emph{This exercise
   practical it is very simple} (incorrecta), on, per exemple,
 \(T(m_4)=T(\mbox{\emph{és}})=\mbox{\emph{it is}}\).
@@ -213,15 +221,15 @@ referència o \emph{model zero} a l'hora d'estudiar què més fan els
 sistemes existents, o què més cal fer per a produir traduccions
 automàtiques útils per a un parell de llengües.
 
-Una aproximació a la traducció humana assistida per ordinador (és a
-dir, semiautomàtica) que es pot veure com un tipus de traducció
-directa ---que usa segments de text més llargs com ara les oracions en
-compte dels mots--- és la que s'usa en les anomenades \emph{memòries
-  de traducció} (vegeu el capítol~\ref{se:memtrad}).
+% Una aproximació a la traducció humana assistida per ordinador (és a
+% dir, semiautomàtica) que es pot veure com un tipus de traducció
+% directa ---que usa segments de text més llargs com ara les oracions
+% en compte dels mots--- és la que s'usa en les anomenades
+% \emph{memòries de traducció} (vegeu el capítol~\ref{se:memtrad}).
  
 \section{Traducció indirecta per transferència}
-
 \label{ss:classtrans}
+
 Molts dels sistemes indirectes basats en regles són sistemes de
 \emph{transferència}. Un \emph{sistema de traducció automàtica
   indirecta per transferència}, o, abreviadament, \emph{sistema de
@@ -231,17 +239,16 @@ diferenciades anomenades \emph{anàlisi}, \emph{transferència} i
 (un subprograma) del sistema:
 \begin{itemize}
 \item El mòdul d'\emph{anàlisi} és un mòdul monolingüe que produeix, a
-  partir de la frase en la LO, una \emph{representació abstracta del
-    text origen} (RATO). En la RATO s'eliminen tots els detalls de la
-  frase en LO que no es consideren rellevants per a la traducció i
-  se'n destaquen aquelles característiques i relacions que sí que ho
-  són.  Per exemple, podria convenir que les frases angleses ``Sam
-  gave a book to Leslie'' i ``Sam gave Leslie a book''
-  \citep{arnold93j} tingueren la mateixa RATO.
+  partir de la frase en LO, una \emph{representació abstracta del text
+    origen} (RATO). En la RATO s'eliminen tots els detalls de la frase
+  en LO que no es consideren rellevants per a la traducció i se'n
+  destaquen aquelles característiques i relacions que sí que ho són.
+  Per exemple, podria convenir que les frases angleses ``Sam gave a
+  book to Leslie'' i ``Sam gave Leslie a book'' \citep{arnold93j}
+  tingueren la mateixa RATO.
 \item El mòdul de \emph{transferència} és un mòdul bilingüe que llig
   la RATO i genera una altra representació abstracta similar, però per
-  a la llengua meta, la \emph{representació abstracta del text meta}
-  (RATM).
+  a la LM, la \emph{representació abstracta del text meta} (RATM).
 \item El mòdul de \emph{generació} (o, menys comunament,
   \emph{síntesi}) genera a partir de la RATM un text \emph{concret}:
   la traducció en brut.
@@ -262,7 +269,7 @@ Aquestes tres fases s'esquematitzen en la figura~\ref{fg:transfer}.
 \caption{Fases d'anàlisi (A), transferència (T) i generació (G) en un
   sistema de traducció indirecta per transferència (TO = text origen;
   RATO = representació abstracta del text origen; RATM = representació
-  abstracta del text meta; TM = text meta.}
+  abstracta del text meta; TM = text meta).}
 \label{fg:transfer} 
 \end{figure}
 
@@ -277,7 +284,6 @@ adjectius i substantius: la fase d'anàlisi es pot encarregar d'aquesta
 tasca perquè la fase de transferència puga aplicar regles generals
 sense preocupar-se de quins són els adjectius o els substantius
 concrets.
-
 
 % \begin{figure} % figura vella
 % \begin{center}
@@ -321,8 +327,8 @@ concrets.
 % \end{figure}
 
 L'arquitectura de transferència és el model estàndard per a la
-traducció automàtica contemporània, i ho ha estat per molts anys
-\citep{arnold93j}.
+traducció automàtica basada en regles o coneixement contemporània, i
+ho ha estat per molts anys \citep{arnold93j}.
 
 Els sistemes de transferència es classifiquen segons la naturalesa de
 les representacions abstractes que utilitzen: es pot parlar, en ordre
@@ -335,14 +341,14 @@ implicades.
 
 L'arquitectura de transferència té tres característiques interessants
 que mereixen ser esmentades:
-\begin{itemize}
-\item \textbf{Funcionament com a cadena de muntatge}. El sistema de
+\begin{description}
+\item[Funcionament com a cadena de muntatge.] El sistema de
   transferència funciona com una \emph{cadena de muntatge}: com que
   els tres mòduls treballen d'esquerra a dreta i en una única passada,
   no cal que un mòdul espere que l'anterior acabe amb el text: poden
   treballar paral·lelament; això fa que els sistemes d'aquesta
   naturalesa siguen molt ràpids.
-\item \textbf{Modularitat}. La divisió en \emph{mòduls} o etapes ben
+\item[Modularitat.] La divisió en \emph{mòduls} o etapes ben
   diferenciades (anàlisi, transferència i generació) en permet la
   reutilització. Per exemple, si hem construït un sistema de
   transferència que tradueix de l'anglés a l'espanyol:
@@ -353,8 +359,8 @@ que mereixen ser esmentades:
  \framebox{\parbox{0.5cm}{G\(_\mathrm{es}\)}} $\to$
  \parbox{0.5cm}{es} 
  \end{center}
- podem aprofitar el mòdul d'anàlisi de l'anglés (A\(_\mathrm{en}\)) per a construir un sistema
- de l'anglés al català:
+ podem aprofitar el mòdul d'anàlisi de l'anglés (A\(_\mathrm{en}\))
+ per a construir un sistema de l'anglés al català:
  \begin{center}
  \parbox{0.5cm}{en} $\to$
  \framebox{\parbox{0.5cm}{A\(_\mathrm{en}\)}} $\to$ 
@@ -371,8 +377,8 @@ que mereixen ser esmentades:
  \framebox{\parbox{0.5cm}{G\(_\mathrm{es}\)}} $\to$
  \parbox{0.5cm}{es} 
  \end{center}
-\item \textbf{Reversibilitat parcial}.  Si se separen les dades
-  lingüístiques usades per cada un dels tres mòduls, és possible una
+\item[Reversibilitat parcial.]  Si se separen les dades lingüístiques
+  usades per cada un dels tres mòduls, és possible una
   \emph{reversibilitat parcial}.  Si en el sistema anglés--espanyol de
   dalt separem les \emph{dades lingüístiques} de cada un dels tres
   mòduls del \emph{programari} que processa aquestes dades
@@ -417,35 +423,34 @@ espanyol--anglés, és a dir,
   ``pegar la volta'' als diccionaris bilingües i podríem aprofitar-ne
   moltes entrades).
 \end{itemize}
-\end{itemize}
-
+\end{description}
 
 \subsection{Sistemes de transferència morfològica avançada}
 \label{s3:STMorf}
 
-En els sistemes de \emph{transferència morfològica avançada}, la fase
-d'\emph{anàlisi} analitza morfològicament els mots de la frase i els
-desambigua en cas d'ambigüitat categorial però només identifica les
-relacions (sintàctiques) entre ells usant patrons molt senzills. La
-secció~\ref{s3:anmor} dóna més detalls sobre els processos i els
-mètodes d'anàlisi i generació morfològiques.
+En els sistemes de \emph{transferència morfològica avançada} ---també
+anomenats sistemes de \emph{transferència sintàctica parcial} o
+\emph{transformers} \citep[4.2]{arnold94b}--- la fase d'\emph{anàlisi}
+analitza morfològicament els mots de la frase i els desambigua en cas
+d'ambigüitat lèxica categorial però només identifica les relacions
+(sintàctiques) entre ells usant patrons molt senzills.\footnote{Alguns
+  sistemes de transferència morfològica avançada disponibles en
+  Internet són: SDL Transcend (\url{http://www.freetranslation.com})
+  Reverso (\url{http://www.reverso.net}), i Apertium
+  (\url{http://www.apertium.org}).}  La secció~\ref{s3:anmor} dóna més
+detalls sobre els processos i els mètodes d'anàlisi i generació
+morfològiques.
 
 De fet, els sistemes de transferència morfològica avançada es poden
 veure com el resultat de fer una tercera aproximació, afegida a les
-dues discutides en l'apartat~\ref{se:aprox}:
+dues (\emph{aproximació oracional} i \emph{aproximació de
+  transferència}) discutides en l'apartat~\ref{se:aprox}:
 \begin{quote}
-  \textbf{Aproximació núm.\ 3:}, Quan les llengües involucrades no són
-  massa diferents sintàcticament (per exemple, quan estan
-  emparentades), no cal fer l'anàlisi sintàctica completa: la
-  transferència lèxica és completa però la transferència estructural
-  és parcial i local i només es fa on és necessària.  Aquesta
-  aproximació és l'aproximació de la \emph{transferència parcial}. Els
-  sistemes anomenats \emph{transformers} o també de transferència
-  morfològica avançada (vegeu~\ref{s3:STMorf}) \citep[4.2]{arnold94b},
-  molts dels quals estan disponibles per Internet,\footnote{Per
-    exemple, SDL Transcend està disponible en
-    \url{http://www.freetranslation.com} i Reverso, en
-    \url{http://www.reverso.net}.} són exemples d'aquesta aproximació.
+  \textbf{Aproximació de transferència parcial:} Quan les llengües
+  involucrades no són massa diferents sintàcticament (per exemple,
+  quan estan emparentades), no cal fer l'anàlisi sintàctica completa:
+  la transferència lèxica és completa però la transferència
+  estructural és parcial i local i només es fa on és necessària.
 \end{quote}
 
 La fase de \emph{transferència} pot consistir en un reordenament local
@@ -727,12 +732,12 @@ $\downarrow$ \\
 \end{figure}
 
 
-\subsubsection{Anàlisi i generació morfològiques}
+\subsection{Anàlisi i generació morfològiques}
 \label{s3:anmor}
 
 L'\emph{anàlisi morfològica} és el procés que determina, per a cada
 mot d'un text (forma \emph{superficial} o \emph{flexionada}) una o
-diverses \emph{formes lèxiques} , consistents en una \emph{forma
+diverses \emph{formes lèxiques}, consistents en una \emph{forma
   canònica} o \emph{lema} i informació sobre la categoria lèxica del
 mot i la flexió (vegeu la secció~\ref{ss:amblex}).  La {\em generació}
 morfològica fa l'operació inversa.  Per exemple, l'anàlisi morfològica
@@ -1050,7 +1055,7 @@ nombre) amb l'antecedent (el sintagma nominal anterior al
 \emph{cuyo}). Aquestes operacions es poden resoldre de manera natural
 en un sistema de transferència sintàctica.
 
-\subsubsection{Anàlisi sintàctica}
+\subsection{Anàlisi sintàctica}
 \label{s3:ansyn}
 L'anàlisi sintàctica pressuposa l'existència d'una \emph{gramàtica} de
 la LO, és a dir, d'un conjunt de regles que descriuen com es
@@ -1755,9 +1760,9 @@ creixement espectacular de tècniques de traducció automàtica
 \emph{inductives}, en les quals el sistema \emph{aprén} automàticament
 a traduir entre dues llengües a partir d'una mostra o corpus paral·lel
 suficientment gran de frases en la llengua origen acompanyades de la
-traducció a la llengua meta (vegeu
-l'apartat~\ref{ss:bitextos}). Aquestes aproximacions inductives també
-reben el nom de \emph{traducció automàtica basada en corpus}.
+traducció a la LM (vegeu l'apartat~\ref{ss:bitextos}). Aquestes
+aproximacions inductives també reben el nom de \emph{traducció
+  automàtica basada en corpus}.
 
 La principal tècnica de traducció automàtica basada en corpus es la
 \emph{traducció automàtica estadística} (en anglés \emph{statistical
@@ -1860,14 +1865,14 @@ amb un petit corpus de tres oracions paral·leles; si us fixeu, sense
 tenir cap coneixement de les llengües (perquè han estat inventades)
 els humans també som capaços d'obtenir aquests alineaments. El procés
 comença assumint que, per a cada oració paral·lela, totes les paraules
-de l'oració en llengua meta poden ser traducció de cadascuna de les
-paraules de l'oració en la llengua origen i les assigna la mateixa
-probabilitat.  En cada iteració el programa alineador visita totes les
-oracions paral·leles del corpus i va refinant aquestes probabilitats
-fins que l'estructura d'alineament queda al descobert. Aquest
-refinament és possible perquè els mots que són traducció mútua solen
-coocórrer en les mateixes oracions paral·leles, cosa que no succeïx si
-dos mots no són traducció un de l'altre.
+de l'oració en LM poden ser traducció de cadascuna de les paraules de
+l'oració en la llengua origen i les assigna la mateixa probabilitat.
+En cada iteració el programa alineador visita totes les oracions
+paral·leles del corpus i va refinant aquestes probabilitats fins que
+l'estructura d'alineament queda al descobert. Aquest refinament és
+possible perquè els mots que són traducció mútua solen coocórrer en
+les mateixes oracions paral·leles, cosa que no succeïx si dos mots no
+són traducció un de l'altre.
 
 Una vegada obtingut els alineaments a nivell de paraula, podem
 aprendre models probabilístics que indiquen, per exemple, la
@@ -1884,39 +1889,38 @@ anglés \emph{phrase-based statistica machine translation};
 Però, per produir bones traduccions no podem usar el model de
 traducció a soles perquè les traduccions serien poc fluents. El motiu
 és que el model de traducció no té en compte l'ordre en què apareixen
-els segments traduïts en la llengua meta, ni el context en què
-apareixen els segments en llengua origen a l'hora de puntuar les seues
-possibles traduccions. Aquestes deficiències es mitiguen parcialment
-amb l'ús d'un model de la llengua meta.
+els segments traduïts en la LM, ni el context en què apareixen els
+segments en llengua origen a l'hora de puntuar les seues possibles
+traduccions. Aquestes deficiències es mitiguen parcialment amb l'ús
+d'un model de la LM.
 
 Un \textbf{model de llengua} es un model probabilístic que serveix per
-a mesurar la versemblança que una oració o text té en la llengua meta;
-es a dir, la seua fluïdesa. Aquests models s'aprenen de forma
-automàtica a partir d'un corpus de text en la llengua meta i es basen
-en segments de longitud fixa, normalment segments de cinc paraules,
-per evitar assignar una versemblança nul·la a oracions que, tot i que
-són correctes, no apareixen en els corpus d'entrenament.\footnote{Per
-  evitar assignar versemblances nul·les a una oració, a més
-  d'utilitzar segments de poques paraules, aquests models també usen
-  tècniques de suavitzat (en anglés \emph{smoothing}) de les
-  probabilitat.} El model de llengua té en compte l'ordre de les
-paraules i per tant assigna un versemblança major a l'oració
-\emph{M'agrada menjar pernill del bo} que a l'oració \emph{del bo
-  menjar pernill M'agrada}, tot i que contenen els mateix segments de
-text (\emph{del bo}, \emph{menjar pernill} i \emph{M'agrada}). A més
-té en compte, tot i que indirectament, el context en el que apareixen
-les paraules en llengua meta, de forma que assigna una versemblança
-major a l'oració en espanyol (llengua meta) \emph{No piensa con la
-  cabeza} que a l'oració \emph{No piensa con el cabo}, on els segments
-\emph{la cabeza} i \emph{el cabo} són dues possibles traduccions del
-segment en català \emph{el cap} que apareix en l'oració en llengua
-origen \emph{No pensa amb el cap}.
+a mesurar la versemblança que una oració o text té en LM; es a dir, la
+seua fluïdesa. Aquests models s'aprenen de forma automàtica a partir
+d'un corpus de text en LM i es basen en segments de longitud fixa,
+normalment segments de cinc paraules, per evitar assignar una
+versemblança nul·la a oracions que, tot i que són correctes, no
+apareixen en els corpus d'entrenament.\footnote{Per evitar assignar
+  versemblances nul·les a una oració, a més d'utilitzar segments de
+  poques paraules, aquests models també usen tècniques de suavitzat
+  (en anglés \emph{smoothing}) de les probabilitat.} El model de
+llengua té en compte l'ordre de les paraules i per tant assigna un
+versemblança major a l'oració \emph{M'agrada menjar pernill del bo}
+que a l'oració \emph{del bo menjar pernill M'agrada}, tot i que
+contenen els mateix segments de text (\emph{del bo}, \emph{menjar
+  pernill} i \emph{M'agrada}). A més té en compte, tot i que
+indirectament, el context en el que apareixen les paraules en LM, de
+forma que assigna una versemblança major a l'oració en espanyol (LM)
+\emph{No piensa con la cabeza} que a l'oració \emph{No piensa con el
+  cabo}, on els segments \emph{la cabeza} i \emph{el cabo} són dues
+possibles traduccions del segment en català \emph{el cap} que apareix
+en l'oració en llengua origen \emph{No pensa amb el cap}.
 
 \begin{persabermes}{sistemes de traducció automàtica estadística}
-  A més dels models de traducció i de la llengua meta els sistemes de
-  traducció automàtica estadística basats en segments bilingües usen
-  altres models. A continuació es descriuen molt breument aquests
-  models i per a que s'usen:
+  A més dels models de traducció i de la LM els sistemes de traducció
+  automàtica estadística basats en segments bilingües usen altres
+  models. A continuació es descriuen molt breument aquests models i
+  per a que s'usen:
   \begin{description}
   \item[Model de reordenament lèxic:] La seua funció és modelar
     distintes operacions de reordenament que es poden fer a l'hora de
@@ -1926,8 +1930,8 @@ origen \emph{No pensa amb el cap}.
     ha reordenament), reordenament (quan la posició de la traducció
     del segment en qüestió i la de l'anterior s'intercanvien) i
     traducció discontinua (qual la traducció del segment es mou a una
-    altra posició en l'oració en llengua meta; es a dir, quan no és
-    cap de les altres dues operacions).
+    altra posició en l'oració en LM; es a dir, quan no és cap de les
+    altres dues operacions).
   \item[Ponderació lèxica:] Com què els segments usats per traduir
     poden ser molt llargs (normalment fins a 7 paraules) i és molt
     difícil estimar bones probabilitats de traducció en aquestos casos
