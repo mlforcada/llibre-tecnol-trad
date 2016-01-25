@@ -1943,38 +1943,49 @@ l'oració en LO \emph{No pensa amb el cap}.
     discontinua (qual la traducció del segment es mou a una altra
     posició en l'oració en LM; es a dir, quan no és cap de les altres
     dues operacions).
-  \item[Ponderació lèxica:] Com què els segments usats per traduir
-    poden ser molt llargs (normalment fins a 7 paraules) i és molt
-    difícil estimar bones probabilitats de traducció en aquestos casos
-    perquè apareixeran poques vegades en els corpus d'entrenament, el
-    que es fa es usar un diccionari bilingüe probabilístic (un model
-    de traducció de paraules) per estimar la qualitat de les
-    traduccions a nivell de mot dins de cada parell de segments
-    bilingües.
-  \item[Nombre de paraules:] Al puntuar les hipòtesis de traducció es
-    multipliquen moltes probabilitats, és a dir valors entre 0 i 1, de
-    manera que com més llarga siga una traducció més probabilitats es
-    multipliquen i més fàcil es arribar a tenir una puntuació molt
-    prop a zero. Això fa que els sistemes preferisquen les traduccions
-    curtes. Per a evitar això s'introdueix un model que compta el
-    nombre de paraules en la hipòtesi de traducció.
+  \item[Ponderació lèxica:] Els segments usats per traduir poden ser
+    molt llargs (normalment fins a 7 paraules), la qual cosa fa molt
+    difícil estimar bé la seua probabilitat de traducció perquè els
+    segments llargs solen aparèixer poques vegades en els corpus
+    d'entrenament; això fa necessari l'ús d'un altre model per estimar
+    la qualitat dels segments bilingües. Aquest model usa les
+    probabilitats de traducció entre els mots (un diccionari bilingüe
+    probabilístic) per obtenir un indicador de la qualitat d'els
+    segments bilingües. Per exemple, la qualitat del segment bilingüe
+    (\emph{la comissió de balanços de finançament}, \emph{the funding
+      balance comission}), on l'alineament entre els mots és
+    \emph{la}--\emph{the}, \emph{comissió}--\emph{comission},
+    \emph{balanços}--\emph{balance} i
+    \emph{finançament}--\emph{funding}, depén de les probabilitat de
+    traducció dels mots que han estat alineats.
+  \item[Nombre total de paraules de l'oració:] Quan es puntuen les
+    hipòtesis de traducció es multipliquen moltes probabilitats, és a
+    dir valors entre 0 i 1, de manera que com més llarga siga una
+    traducció més probabilitats es multipliquen i més fàcil es arribar
+    a tenir una puntuació molt prop de zero. Això fa que els sistemes
+    preferisquen les traduccions curtes. Per a evitar això
+    s'introdueix un model que compta el nombre de paraules en la
+    hipòtesi de traducció i que fa que tinga relació amb el nombre de
+    paraules de la oració origen.
   \item[Nombre de segments:] Aquest model es similar al anterior, però
     comptant el nombre de segments bilingües que s'han usat per a
-    produir una hipòtesi de traducció. Quant més llargs siguen els
+    produir una hipòtesi de traducció. Com més llargs siguen els
     segments, menys segments s'usaran i més context tindran; i a
     l'inrevés, com més curts siguen els segments més segments faran
     falta per produir la hipòtesis de traducció.
   \end{description}
 
-  Tots aquest models es combinen per a obtenir una puntuació global
-  per a cada hipòtesi de traducció i poder així escollir la
-  millor. Aquesta combinació es fa assignant un pes (importància) a
-  cada model que s'obté mitjançat un procés automàtic (\emph{tuning})
-  que intenta maximitzar la \emph{qualitat} de les traduccions
-  proporcionades pel sistema al traduir un corpus de
-  \emph{desenvolupament}. Consulteu el llibre de \citet{koehnbook} per
-  saber més sobre aquest procés i les mesures automàtiques de la
-  qualitat que usen.
+  Tots aquests models (i els anteriors) es combinen per a obtenir una
+  puntuació global per a cada hipòtesi de traducció i poder escollir
+  així la millor. Aquesta combinació es fa assignant un pes
+  (importància) a cada model que s'obté mitjançat un procés automàtic
+  (\emph{tuning}) que intenta maximitzar la \emph{qualitat} de les
+  traduccions proporcionades pel sistema al traduir un corpus de
+  \emph{desenvolupament}.  
+
+  Consulteu el llibre de \citet{koehnbook} per saber més sobre els
+  models que s'usen per a traduir, el procés de \emph{tuning} i les
+  mesures automàtiques de la qualitat que usen.
 \end{persabermes}
 
 
