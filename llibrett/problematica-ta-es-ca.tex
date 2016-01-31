@@ -417,7 +417,6 @@ AutomaticTrans i ara probablement el comercialitza l'empresaAT
 Language
 Solutions\footnote{\url{https://www.at-languagesolutions.com/}}
 
-\todo{Reduce the description of interNOSTRUM and describe Apertium better}
 
 \subsection{interNOSTRUM}
 
@@ -455,11 +454,11 @@ secció~\ref{ss:apertium}, del qual és precursor.
 \subsection{Apertium}
 \label{ss:apertium}
 
-Apertium\footnote{\url{www.apertium.org}}, iniciat a la Universitat
-d'Alacant el 2005, és una plataforma de programari lliure o de codi
-font obert que permet construir sistemes de traducció automàtica de
-transferència morfològica avançada (com els de
-l'apartat~\ref{s3:STMorf}); això vol dir que es pot descarregar i
+Apertium\footnote{\url{www.apertium.org}} \citep{forcada2011apertium},
+iniciat a la Universitat d'Alacant el 2005, és una plataforma de
+programari lliure o de codi font obert que permet construir sistemes
+de traducció automàtica de transferència morfològica avançada (com els
+de l'apartat~\ref{s3:STMorf}); això vol dir que es pot descarregar i
 copiar lliurement però també que programadors i lingüistes poden
 modificar el programari, els diccionaris, les regles, etc. i
 distribuir versions modificades, ja que a més de l'executable del
@@ -486,197 +485,226 @@ operatiu GNU/Linux, però hi ha moltes altres versions que funcionen sense neces
   \footnote{\url{http://wiki.apertium.org/wiki/Apertium-Caffeine}} per
   a GNU/Linux, Windows o MacOS (requereix que s'hi haja instal·lat
   Java);
-\item Un extensió per al programa de traducció assistida OmegaT, anomenada \emph{apertium-omegat};\footnote{\url{http://wiki.apertium.org/wiki/Apertium-OmegaT}}.
+\item Un extensió per al programa de traducció assistida OmegaT, anomenada \emph{apertium-omegat}.\footnote{\url{http://wiki.apertium.org/wiki/Apertium-OmegaT}}
 \end{itemize}
 
 
-% \begin{figure}
-% {\small
-% \setlength{\tabcolsep}{0.5mm}
-% \begin{center}
-% \begin{tabular}{cccccccccc}
-% \\
-% \parbox{0.7cm}{text LO} $\rightarrow$ &
-% \framebox{\parbox{1.4cm}{desfor\-matador}} $\rightarrow$ &
-% \framebox{\parbox{0.8cm}{anal. morf.}}  $\rightarrow$ &
-% \framebox{\parbox{1.2cm}{desamb. categ.}} $\rightarrow$ & \framebox{\parbox{1.1cm}{transf.\ estruc.}} $\rightarrow$ &
-% \framebox{\parbox{0.8cm}{gen. morf.}} 
-% $\rightarrow$ & \framebox{\parbox{1.0cm}{post\-genera\-dor}}
-% $\rightarrow$ & \framebox{\parbox{1.2cm}{reforma\-tador}} $\rightarrow$ &
-% \parbox{0.7cm}{text LM}\\\\
-% & &  & & $\updownarrow$   & \\\\
-% & &
-%  &  & \framebox{\parbox{1.0cm}{transf.\ lèxica}}                &   \\
-% \end{tabular}
-% \end{center}
-% }
-% \caption{Els 8 mòduls que formen la cadena de muntatge d'interNOSTRUM.}
-% \label{fg:modules}
-% \end{figure}
 
 
+\begin{figure}
+{\scriptsize\sf
+\setlength{\tabcolsep}{0.5mm}
+\begin{center}
+text LO \\
+\(\downarrow\)\\
+\framebox{Desformatador} \\
+\(\downarrow\)\\
+\framebox{\parbox{6cm}{
+\begin{flushright}
+\vspace{-3ex}
+Anàlisi
+\vspace{-5ex}
+\end{flushright}
+\begin{center}
+\(\downarrow\)\\
+\framebox{Analitzador morfològic} \\
+\(\downarrow\)\\
+\framebox{Desambiguador categorial} \\
+\(\downarrow\)\\
+\vspace{-3ex}
+\end{center}
+}}\\
+\(\downarrow\)\\
+\framebox{\parbox{6cm}{
+\begin{flushright}
+\vspace{-3ex}
+Transferència
+\vspace{-5ex}
+\end{flushright}
+\begin{center}
+\(\downarrow\)\\
+\framebox{Mòdul de transferència lèxica} \\
+\(\downarrow\)\\
+\framebox{Mòdul de selecció lèxica} \\
+\(\downarrow\)\\
+\framebox{Mòdul de transferència estructural} \\
+\(\downarrow\)
+\vspace{-3ex}
+\end{center}
+}}\\
+\(\downarrow\)\\
+\framebox{\parbox{6cm}{
+\begin{flushright}
+\vspace{-3ex}
+Generació
+\vspace{-5ex}
+\end{flushright}
+\begin{center}
+\(\downarrow\)\\
+\framebox{Generador morfològic} \\
+\(\downarrow\)\\
+\framebox{Post-generador} \\
+\(\downarrow\)\\
+\vspace{-3ex}
+\end{center}
+}}
+\\
+\(\downarrow\)\\
+\framebox{Re-formatador} \\
+\(\downarrow\)\\
+text LM \\
+\end{center}
+}
+\caption{Arquitectura més comuna dels sistemes de traducció automàtica basats en Apertium.}
+\label{fg:modules}
+\end{figure}
+
+\paragraph{El disseny d'Apertium}
+Com s'ha dit més amunt, els sistemes de traducció automàtica basats en
+l'arquitectura Apertium són tots sistemes de transferència morfològica
+avançada. L'arquitectura d'un sistema de traducció concret basat en
+Apertium és flexible: depenent de la llengua origen i la llengua meta,
+es poden seleccionar mòduls diferents. La figura~\ref{fg:modules}
+representa la configuració més comuna d'un sistema de traducció
+automàtica basat en Apertium: la construcció del text d'entrada es va
+fent etapa per etapa, com en la cadena de muntatge d'una fàbrica
+d'automòbils. El sistema espanyol--català segueix l'arquitectura de la
+figura~\ref{fg:modules} però la versió disponible en 2016 no té
+(encara) mòdul de selecció lèxica.
+
+Apertium separa efectivament el \emph{motor de traducció} (que
+consisteix en mòduls genèrics, comuns a totes les parelles llengua
+origen--llengua meta) i les \emph{dades lingüístiques} específiques
+d'una parella llengua origen--llengua meta, tal com es discuteix en
+la~\pageref{pg:separacio}. Això permet que les persones expertes que
+desenvolupen dades lingüístiques (diccionaris, regles) per a un
+sistema determinat no hagen de preocupar-se de com està programat el
+motor de traducció.
+
+Els següents paràgrafs descriuen alguns dels mòduls amb més detall.
 
 
+\paragraph{Subprogrames basats en tècniques d'estats finits:}
+Els mòduls d'\emph{anàlisi morfològica}, \emph{transferència
+  lèxica}, \emph{generació morfològica} i {\em postgeneració} estan
+basats en \emph{transductors d'estats finits}, similars als descrits
+en el quadre ``per saber més'' de l'epígraf~\ref{s3:anmor}. Aquesta
+tecnologia permet velocitats de processament de l'ordre de 10.000 mots
+per segon en equips estàndards, velocitats que pràcticament no depenen
+de la grandària dels diccionaris. Els \emph{transductors d'estats
+  finits} usats en Apertium lligen l'entrada símbol a
+símbol; cada vegada que es llegeix una lletra canvien d'estat i van
+produint, també lletra a lletra, una o més sortides.
+\begin{description}
+\item[Analitzador morfològic:] L'analitzador morfològic es genera
+  automàticament a partir d'un \emph{diccionari morfològic} de la
+  llengua origen (LO), el qual conté els lemes, els paradigmes de
+  flexió i les connexions entre ells. L'entrada són les formes
+  superficials del text i la sortida, formes lèxiques consistents en
+  lema, categoria lèxica i informació de flexió.
+ \item[Transferència lèxica] (transferència lèxica): El subprograma de
+   consulta del diccionari bilingüe es genera automàticament a partir
+   d'un fitxer que conté les correspondències bilingües. L'entrada és
+   la forma lèxica de la LO i la sortida, la forma lèxica o formes
+   lèxiques corresponents en la llengua meta (LM).
+ \item[Generació morfològica:] El generador morfològic fa l'operació
+   inversa a l'analitzador morfològic però amb formes de la LM i es
+   genera automàticament a partir d'un diccionari morfològic de la LM.
+ \item[Postgeneració:] Les formes superficials que estan implicades en
+   processos d'apostrofació i guionatge (pronoms febles, articles,
+   algunes preposicions, etc.) activen aquest subprograma, que
+   normalment es troba inactiu. El postgenerador es genera a partir de
+   regles senzilles d'apostrofació, guionatge i combinació de pronoms
+   febles.
+ \end{description}
+ Com ja s'ha discutit en el capítol~\ref{se:PdTACC}, la divisió d'un
+ text en mots presenta alguns aspectes no trivials; se n'esmenten dos:
+ les \emph{locucions} (o \emph{girs}) i els pronoms enclítics.
 
-% \paragraph{Subprogrames basats en tècniques d'estats finits:} 
-% Els subprogrames d'\emph{anàlisi morfològica}, \emph{consulta del
-%   diccionari bilingüe}, \emph{generació morfològica} i {\em
-%   postgeneració} estan basats en \emph{transductors d'estats finits},
-% similars als descrits en l'epígraf~\ref{s3:anmor}. Aquesta
-% tecnologia permet velocitats de processament de l'ordre de 10.000 mots
-% per segon, velocitats que pràcticament no depenen de la grandària dels
-% diccionaris. Els \emph{transductors d'estats finits} usats en
-% interNOSTRUM lligen l'entrada símbol a símbol; cada vegada que es
-% llegeix una lletra canvien d'estat i van produint, també lletra a
-% lletra, una o més sortides.
-% \begin{description}
-% \item[Anàlisi morfològica:] El subprograma d'anàlisi morfològica, que es
-%   genera automàticament a partir d'un \emph{diccionari morfològic} de
-%   la llengua origen (LO), el qual conté els lemes, els paradigmes de flexió
-%   i les connexions entre ells. L'entrada són les formes superficials
-%   del text i la sortida, formes lèxiques consistents en lema, categoria
-%   lèxica i informació de flexió. 
-% \item[Consulta del diccionari bilingüe] (transferència lèxica): El subprograma de consulta del
-%   diccionari bilingüe és invocat pel subprograma de tractament de patrons
-%   (vegeu més avall); es genera automàticament a partir d'un fitxer que
-%   conté les correspondències bilingües. L'entrada és la forma lèxica
-%   de la LO i la sortida, la forma lèxica corresponent en
-%   la llengua meta (LM).
-% \item[Generació morfològica:] El generador morfològic fa l'operació
-%   inversa a l'analitzador morfològic però amb formes de la LM i es
-%   genera automàticament a partir d'un diccionari morfològic de la LM.
-% \item[Postgeneració:] Les formes superficials que estan implicades en
-%   processos d'apostrofació i guionatge (pronoms febles, articles,
-%   algunes preposicions, etc.) activen aquest subprograma, que
-%   normalment es troba inactiu. El postgenerador es genera a partir de
-%   regles senzilles d'apostrofació, guionatge i combinació de pronoms febles.
-% \end{description}
-% Com ja s'ha discutit en el capítol~\ref{se:PdTACC}, la divisió d'un
-% text en mots presenta alguns aspectes no trivials; se n'esmenten dos:
-% les \emph{locucions} (o \emph{girs}) i els pronoms enclítics.
+ \paragraph{Locucions i girs:} Hi ha nombroses locucions i girs que es
+ poden trctar com a \emph{unitats lèxiques multimot} i s'estan
+ incorporant gradualment als diccionaris morfològics de les dues
+ llengües i al diccionari bilingüe:
+ \begin{itemize}
+ \item \emph{con cargo a} $\rightarrow$ \emph{a càrrec de}
+ \item \emph{por adelantado} $\rightarrow$ \emph{per endavant}, \emph{a la bestrta}
+ \item \emph{el abajo firmante} $\rightarrow$ \emph{el sotasignat}
+ \item \emph{{\bf echar} de menos} $\rightarrow$ \emph{{\bf trobar} a faltar}
+ \end{itemize}
+ En l'últim exemple, el gir no és invariable sinó que té un element que
+ es flexiona (en negretes).
 
-% \paragraph{Locucions i girs:} Hi ha nombroses locucions i girs que es poden tractar com a \emph{unitats
-%   multimot} i s'estan incorporant gradualment als diccionaris
-% morfològics de les dues llengües i al diccionari bilingüe:
-% \begin{itemize}
-% \item \emph{con cargo a} $\rightarrow$ \emph{a càrrec de}
-% \item \emph{por adelantado} $\rightarrow$ \emph{per endavant}, \emph{a la bestreta}
-% \item \emph{el abajo firmante} $\rightarrow$ \emph{el sotasignat}
-% \item \emph{{\bf echar} de menos} $\rightarrow$ \emph{{\bf trobar} a faltar}
-% \end{itemize}
-% En l'últim exemple, el gir no és invariable sinó que té un element que
-% es flexiona (en negretes).
+ \paragraph{Pronoms enclítics:} El subprograma d'anàlisi morfològica també és capaç de resoldre les
+ combinacions de verbs i pronoms febles enclítics en espanyol, les
+ quals presenten variacions ortogràfiques com ara canvis d'accentuació
+ o pèrdua de consonants:
+ \begin{itemize}
+ \item \emph{d\'{a}melo} = \emph{da} $+$ \emph{me} $+$ \emph{lo} $\rightarrow$
+ \emph{dóna} $+$ \emph{me} $+$ \emph{lo} = \emph{dóna-me'l}
+ \item \emph{pong\'{a}monos} = \emph{pongamos} $+$ \emph{nos} $\rightarrow$ {\em
+ posem} $+$ \emph{nos} = \emph{posem-nos}.  
+ \end{itemize}
 
-% \paragraph{Pronoms enclítics:} El subprograma d'anàlisi morfològica també és capaç de resoldre les
-% combinacions de verbs i pronoms febles enclítics en espanyol, les
-% quals presenten variacions ortogràfiques com ara canvis d'accentuació
-% o pèrdua de consonants:
-% \begin{itemize}
-% \item \emph{d\'{a}melo} = \emph{da} $+$ \emph{me} $+$ \emph{lo} $\rightarrow$
-% \emph{dóna} $+$ \emph{me} $+$ \emph{lo} = \emph{dóna-me'l}
-% \item \emph{pong\'{a}monos} = \emph{pongamos} $+$ \emph{nos} $\rightarrow$ {\em
-% posem} $+$ \emph{nos} = \emph{posem-nos}.  
-% \end{itemize}
+ El sistema Apertium tracta aquests dos problemes amb l'analitzador
+ morfològic, el qual és capaç de decidir quan un grup de mots s'ha de
+ tractar conjuntament o per separat.
 
-% El sistema interNOSTRUM tracta aquests dos problemes amb l'analitzador
-% morfològic, el qual és capaç de decidir quan un grup de mots s'ha de
-% tractar conjuntament o per separat. 
+ \paragraph{El mòdul de desambiguació lèxica categorial:}
+Aquest programa s'encarrega de decidir, quan l'analitzador morfològic
+entrega, per a un mot homògraf, més d'una forma lèxica, quina és la
+forma lèxica més adequada en el context. Els desambiguadors lèxics
+categorials combinen (vegeu l'apartat~\ref{s3:reshom}) regles de base
+lingüística que permeten eliminar algunes formes lèxiques i models
+estadístics, entrenats sobre un corpus de referència, que assignen una
+probabilitat a cada possible desambiguació de la frase que conté mots
+amb ambigüitat categorial: la desambiguació més probable (la més
+versemblant) és l'elegida.
 
-% \paragraph{El subprograma de desambiguació lèxica categorial:} 
-% Aquest subprograma usa un model de llenguatge basat en trigrames
-% (se\-qüèn\-cies de tres categories lèxiques), de l'estil del descrit
-% en la secció~\ref{s3:reshom}. Aquest model es basa en les freqüències
-% observades per a aquests trigrames en un corpus de referència, i
-% assigna una probabilitat a cada possible desambiguació de la frase que
-% conté mots amb ambigüitat categorial. La desambiguació més probable
-% (la més versemblant) és l'elegida. En l'actualitat, les prestacions
-% d'aquest subprograma són molt millorables perquè els corpus de
-% referència actualment en ús no són encara suficientment
-% representatius.
+ \paragraph{El mòdul de transferència
+   estructural:} 
+ Malgrat la gran semblança entre l'espanyol i el català, hi ha
+ divergències gramaticals considerables (vegeu el capítol~\ref{se:PdTACC}):
+ \begin{itemize}
+ \item perífrasis modals: \emph{tienen que firmar}
+ $\rightarrow$ \emph{han de firmar}; 
+ \item canvis de gènere i nombre: \emph{la deuda
+   contraída} $\rightarrow$ \emph{el deute contret} (masc.);
+ \item caiguda de preposicions: \emph{la intención de que el cliente} $\rightarrow$ \emph{la
+ intenció $\emptyset$ que el client}; 
+ \item construccions relatives: \emph{la cuenta cuyo titular es} $\rightarrow$ \emph{el compte el
+     titular del qual és}.
+ \end{itemize}
+ Aquestes divergències s'han de tractar amb les regles gramaticals
+ escaients, molt similars a les que es discuteixen en
+ l'apartat~\ref{s3:STMorf}: la solució es basa en la detecció i el tractament de
+ seqüències predefinides de categories lèxiques (anomenades
+ \emph{patrons}), és a dir, una mena de sintagmes rudimentaris, com
+ ara {\bf art}--{\bf nom} o {\bf art}--{\bf
+   nom}--{\bf adj}. Les seqüències considerades pel mòdul en
+ formen el \emph{catàleg} de patrons. El funcionament del subprograma es
+ basa en un esquema patró--acció:
+ \begin{itemize}
+ \item Llegeix el text (analitzat i ja desambiguat) d'esquerra a dreta,
+   categoria lèxica a categoria lèxica.
+ \item Busca, en la posició actual de la frase, el patró més llarg que
+   concorda amb un patró del seu catàleg (per exemple, si en la posició
+   actual es llegeix ``un senyal inequívoc\ldots'', tria {\bf
+     art}--{\bf nom}--{\bf adj} en comptes de {\bf art}--{\bf nom}).
+ \item Opera sobre aquest patró (propagació de gènere i nombre,
+   reordenament, canvis lèxics) seguint les regles associades a ell.
+ \item Continua immediatament darrere del patró tractat (no torna a
+   visitar els mots sobre els quals ha operat).
+ \end{itemize}
+ Quan no es detecta cap patró en la posició actual, es tradueix
+ literalment un mot i es torna a iniciar el procés.  Els fenòmens ``a
+ la llarga'' com la concordança subjecte--predicat són una mica més
+ difícils de tractar; s'usen variables d'\emph{estat}, una espècie de
+ \emph{memòria} que recorda certes informacions al llarg del procés.
 
-% Els pocs errors en homògrafs \emph{difícils} i \emph{freqüents}, com
-% ara \emph{una} (article/verb, freqüència 0,77\%), \emph{para}
-% (verb/prep., freqüència 0,77\%) i \emph{como} (conj./verb, freqüència
-% 0,43\%) degraden actualment molt la qualitat de la traducció. Altres
-% homògrafs freqüents no són tan difícils de desambiguar.
-
-% Les ambigüitats lèxiques no categorials s'aborden amb estratègies {\em
-%   ad hoc} provisionals. En el futur, molts d'aquests homògrafs
-% s'inclouran en la definició d'un \emph{llenguatge controlat},
-% alternativa a la preedició consistent en l'aplicació de restriccions
-% lèxiques, sintàctiques i d'estil als textos de la LO. La CAM ha
-% encarregat també el disseny d'un espanyol controlat per a textos
-% financers i dels \emph{assistents d'estil} corresponents per als
-% autors.
-
-
-% \paragraph{El subprograma de tractament de patrons (transferència
-%   estructural):} 
-% Malgrat la gran semblança entre l'espanyol i el català, hi ha
-% divergències gramaticals considerables (vegeu el capítol~\ref{se:PdTACC}):
-% \begin{itemize}
-% \item perífrasis modals: \emph{tienen que firmar}
-% $\rightarrow$ \emph{han de firmar}; 
-% \item canvis de gènere i nombre: \emph{la deuda
-%   contraída} $\rightarrow$ \emph{el deute contret} (masc.);
-% \item caiguda de preposicions: \emph{la intención de que el cliente} $\rightarrow$ \emph{la
-% intenció $\emptyset$ que el client}; 
-% \item construccions relatives: \emph{la cuenta cuyo titular es} $\rightarrow$ \emph{el compte el
-%     titular del qual és}.
-% \end{itemize}
-% Aquestes divergències s'han de tractar amb les regles gramaticals
-% escaients.  
-
-% \com{Fer referència a les seccions corresponents de la resta del llibre!!!}
-% La solució elegida (estàndard en sistemes comercials, vegeu
-% \citet{mira98j}, \citet{forcada00p}) es basa en la detecció i el
-% tractament de seqüències predefinides de categories lèxiques
-% (anomenades \emph{patrons}), és a dir, una mena de sintagmes
-% rudimentaris, com ara {\bf art}--{\bf nom} o {\bf art}--{\bf
-%   nom}--{\bf adj}. Les seqüències considerades pel subprograma en
-% formen el \emph{catàleg} de patrons. El funcionament del subprograma es
-% basa en un esquema patró--acció:
-% \begin{itemize}
-% \item Llegeix el text (analitzat i desambiguat) d'esquerra a dreta,
-%   categoria lèxica a categoria lèxica.
-% \item Busca, en la posició actual de la frase, el patró més llarg que
-%   concorda amb un patró del seu catàleg (per exemple, si en la posició
-%   actual es llegeix ``un senyal inequívoc\ldots'', tria {\bf
-%     art}--{\bf nom}--{\bf adj} en comptes de {\bf art}--{\bf nom}).
-% \item Opera sobre aquest patró (propagació de gènere i nombre,
-%   reordenament, canvis lèxics) seguint les regles associades a ell.
-% \item Continua immediatament darrere del patró tractat (no torna a
-%   visitar els mots sobre els quals ha operat).
-% \end{itemize}
-% Quan no es detecta cap patró en la posició actual, es tradueix
-% literalment un mot i es torna a iniciar el procés.  Els fenòmens ``a
-% la llarga'' com la concordança subjecte--predicat són una mica més
-% difícils de tractar; s'usa un registre \emph{estat} o  \emph{memòria}
-% que recorda certes informacions al llarg del procés.
-
-% El subprograma de tractament de patrons es genera automàticament a
-% partir d'un fitxer de regles que especifica els patrons i les accions
-% associades \citep{garridoalenda01j}.  Aquest és molt probablement el
-% subprograma més lent (uns 5.000 mots/segon).
-
-% \subsection{Eines de suport a {\sf interNOSTRUM}}
-% \com{Fa temps que ``es projecta'' i no fem res: llevar?}
-
-% Es projecta construir les eines següents:
-% \begin{itemize}
-% \item Un assistent d'estil que permetrà l'autor d'un text en espanyol
-%   evitar moltes ambigüitats difícils de resoldre usant regles
-%   lèxiques, sintàctiques i d'estil (un  \emph{llenguatge controlat},
-%   vegeu la secció~\ref{ss:llecon}).
-% \item Un assistent de preedició, que permetrà una desambiguació manual
-%   de mots i estructures problemàtiques (simplement fent-hi clic per
-%   accedir als menús corresponents) quan els mètodes estadístics
-%   indicats més amunt siguen incapaços de fer les tries correctes.
-% \item Un assistent de postedició, que permetrà fer clic sobre un mot
-%   sospitós de ser una traducció incorrecta i substituir-lo per altres
-%   alternatives tenint en compte el text original i farà possible en
-%   general qualsevol canvi del text meta.
-% \end{itemize}
+ El subprograma de tractament de patrons es genera automàticament a
+ partir d'un fitxer de regles que especifica els patrons i les accions
+ associades. Aquest és molt probablement el subprograma més lent
+ (uns pocs milers de mots per segon).
 
 
 \section{Qüestions i exercicis}

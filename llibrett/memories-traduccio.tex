@@ -155,6 +155,7 @@ L'operació d'alineament de bitextos existents és una de les tasques
 que es pot realitzar amb l'ajuda d'un programa de memòries de
 traducció. La figura~\ref{fg:aliMT} mostra un esquema del procés.
 \begin{figure}
+{\small
 $$
 \mbox{\textsf{bitext}}\;\;\left\{\begin{array}{rcl}
 \mbox{\textsf{text esquerre $E$}} &\to \mbox{\framebox{\parbox{1.25cm}{\textsf{segmen-
@@ -167,6 +168,7 @@ $$
 \mbox{\framebox{\parbox{1.6cm}{\textsf{alineador- corrector assistit}}}}
 \to \mbox{\parbox{1cm}{\textsf{UTs} $(e,d)$}} \to \mbox{\framebox{\parbox{1.4cm}{\textsf{Memòria de traducció}}}}
 $$
+}
 \caption{Esquema del procés d'\emph{alineament} d'un bitext existent per a alimentar
   una memòria de traducció.}
 \label{fg:aliMT}
@@ -330,8 +332,8 @@ Per exemple, si a la memòria hi ha la UT \pair{"{}Connecteu
   l'ordinador a la impressora."}{"{}Conecte el ordenador a la
   impresora"} però el nou text conté la frase \texttt{"{}Connecteu
   l'ordinador a la \emph{xarxa}"}, el programa pot trobar les
-correspondències \pair{"{}impressora"}{"{}impresora"}
-\pair{"xarxa"}{"red"} en una base de dades lèxica i usar-les per a
+correspondències 
+\pair{"xarxa"}{"red"} i \pair{"{}impressora"}{"{}impresora"}  en una base de dades lèxica i usar-les per a
 proposar la traducció correcta (\texttt{"{}Conecte el ordenador a la
   red}).  D'altres programes usen estratègies pròpies (no descrites)
 per a ``assemblar'' o ``construir'' traduccions usant fragments de
@@ -371,10 +373,10 @@ Hi ha dues modalitats d'ús de les memòries de traducció:
 \end{figure}
 Tant en un cas com en l'altre, poden passar tres coses, tal com es veu en l'exemple de la figura~\ref{fg:pretrad}
 \begin{itemize}
-\item Que es dóne una concordança exacta, com en el cas dels segments $e'_1$ i
+\item Que es done una concordança exacta, com en el cas dels segments $e'_1$ i
   $e'_5$ i per tant, només calga comprovar que la proposta de la
   memòria es pot usar com la seua traducció.
-\item Que es dóne una concordança parcial, com en el cas dels segments
+\item Que es done una concordança parcial, com en el cas dels segments
   $e'_2$ (similar a $e_{112}$) i $e'_3$ (similar a $e_{47}$), i calga
   posteditar, respectivament, les propostes $d_{112}$ i $d_{47}$ de la
   memòria de traducció, per a produir $d'_2$ i $d'_3$.
@@ -384,16 +386,18 @@ Tant en un cas com en l'altre, poden passar tres coses, tal com es veu en l'exem
 Tant en el cas interactiu com en el de la pretraducció, qui tradueix ha d'acabar la traducció. El
 procés i es mostra en la figura~\ref{fg:preMT}.
 \begin{figure}
+{\small
 $$
 \begin{array}{rcl}
-\mbox{\small\textsf{text esquerre}} \to
-\mbox{\small\framebox{\textsf{segmentació}}} \to &
-\mbox{\small\framebox{\parbox{1.9cm}{\textsf{concordança i selecció de propostes}}}} & \to \mbox{\small\framebox{\textsf{postedició}}} \to \mbox{\parbox{1.4cm}{\textsf{text dret
-    traduït i segmentat}}} \\
-& \uparrow \downarrow \mbox{\small\textsf{UTs}}& \\[0.5cm]
-& \mbox{\small\framebox{\parbox{1.9cm}{\textsf{Memòria de traducció}}}} & \\
+\mbox{\textsf{text esquerre}} \to
+\mbox{\framebox{\textsf{segmentació}}} \to &
+\mbox{\framebox{\parbox{1.9cm}{\textsf{concordança i selecció de propostes}}}} & \to \mbox{\framebox{\textsf{postedició}}} \to \mbox{\parbox{1.4cm}{\textsf{text dret
+    traduït i segmentat}}} \\[0.8cm]
+& \uparrow \downarrow \mbox{\textsf{UTs}}& \\[0.5cm]
+& \mbox{\framebox{\parbox{1.9cm}{\textsf{Memòria de traducció}}}} & \\
 \end{array}
 $$
+}
 \caption{Esquema del procés de traducció d'un nou text esquerre usant
   una memòria de traducció.}
 \label{fg:preMT}
