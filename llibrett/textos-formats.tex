@@ -7,7 +7,7 @@ també anomenat \emph{document de text}. Aquest fitxer pot contenir, a
 més del text mateix, informació sobre la presentació (el format dels
 paràgrafs i de les pàgines, els tipus i les grandàries de lletra que
 s'usen amb cada mot, etc.) o sobre l'organització del contingut
-(indicacions de que una determinada part del text és un títol de
+(indicacions  que una determinada part del text és un títol de
 capítol, el títol d'una secció o una nota a peu de pàgina, etc.).
 
 Un text informatitzat pot tenir orígens diversos:
@@ -72,7 +72,7 @@ La codificació dels caràcters d'un text consta de dues fases:
 Com ja s'ha comentat en la pàgina~\pageref{pg:ASCII}, per a
 emmagatzemar textos s'ha usat històricament l'estàndard ASCII
 (\emph{American Standard Code for Information Interchange}). Aquest
-estàndard assigna un número del 0 al 127 a cada caràcter del alfabet
+estàndard assigna un número del 0 al 127 a cada caràcter de l'alfabet
 llatí usat en anglés i fa servir 7 bits per a
 codificar-lo,\footnote{Amb 7 bits es poden fer $2^7=128$
   combinacions. Per això els codis assignats per ASCII van del 0 al
@@ -138,7 +138,7 @@ lletres especials com \emph{ß}.
 
 \subsection{Extensions d'ASCII} \label{s3:ISO}
 Amb l'arribada dels microordinadors\footnote{Els primers ordinadors
-  que tenien una grandària que permetia tindre un a casa.} en els anys
+  que tenien una grandària que permetia tindre'n un a casa.} en els anys
 vuitanta es va decidir ampliar l'estàndard ASCII, de 7 bits i per tant
 amb $2^7=128$ caràcters diferents, a un codi de 8 bits amb $2^8=256$
 caràcters diferents. El vuité bit o ``bit 7''\footnote{Recordeu que en
@@ -151,14 +151,14 @@ llengües concret que fan servir (quasi) el mateix alfabet. En la
 nostra àrea geogràfica s'usa normalment la codificació ISO-8859-1 o
 \emph{Latin-1} (vegeu la taula~\ref{tb:ISO88591}); aquesta codificació
 serveix per a les llengües següents: \emph{afrikaans} (llengua
-germànica parlada en la República de Sudàfrica), alemany, anglés,
+germànica parlada en la República de Sud-àfrica), alemany, anglés,
 basc, català, danés, escocés, espanyol, feroés, finés, francés,
 gallec, irlandés, islandés, italià, neerlandés, noruec, portugués i
 suec.\footnote{Hi ha una modificació anomenada ISO-8859-15, que
   inclou, entre altres, el símbol de l'euro i resol alguns problemes
   referents al francés i al finés.}  El sistema operatiu Windows de
 Microsoft usa la codificació de 8 bits anomenada CP-1252, també
-anomenada \emph{WinLatin-1}, que és més àmplia que ISO-8859-1 ja que
+anomenada \emph{WinLatin-1}, que és més àmplia que ISO-8859-1, ja que
 usa alguns dels codis 128--159 per a caràcters (per exemple, usa el
 codi 128 per al símbol de l'euro).
 
@@ -451,16 +451,16 @@ altra cosa:
 \item Un element no pot tenir dos atributs amb el mateix nom.
 \item Els caràcters \texttt{<} i \texttt{\&} no poden aparéixer en el
   text dels elements ni dels atributs. Això és perquè \texttt{<}
-  indica el començament d'une etiqueta i \texttt{\&} el començament
+  indica el començament d'una etiqueta i \texttt{\&} el començament
   d'una \emph{entitat} com ara \texttt{\&copy;} que es pot usar per a
-  representar el càracter \emph{©}: si es necessiten aquests caràcters
+  representar el càracter \emph{©}: si es necessiten aquests caràcters,
   s'han d'escriure les entitats \texttt{\&lt;} i \texttt{\&amp;},
   respectivament.
 \end{itemize}
 Com es pot veure, aquestes regles que defineixen un document XML ben
 format no diuen quines etiquetes són vàlides i quines no, o quins
 atributs pot tenir un determinat element, o quins elements poden anar
-dins de un determinat element, en quin ordre o en quina quantitat.
+dins d'un determinat element, en quin ordre o en quina quantitat.
 
 \subsubsection{Tipus de documents}
 Per a especificar, per a un tipus determinat de document XML, quines
@@ -535,8 +535,8 @@ es compon (en l'ordre especificat) d'un o més \texttt{DESTINATARI}s
 \begin{small}\begin{alltt}
 <!ELEMENT REMITENT (NOM?, ADREÇA)>
 \end{alltt}\end{small}
-\item El \texttt{NOM}, l'\texttt{ADREÇA} la \texttt{DATA} i el
-  \texttt{ASSUMPTE} contenen text sense marques (indicat amb
+\item El \texttt{NOM}, l'\texttt{ADREÇA} la \texttt{DATA} i
+l'\texttt{ASSUMPTE} contenen text sense marques (indicat amb
   \texttt{\#PCDATA}):
 \begin{small}\begin{alltt}
 <!ELEMENT NOM (#PCDATA)>
@@ -562,7 +562,7 @@ es compon (en l'ordre especificat) d'un o més \texttt{DESTINATARI}s
 Una de les aplicacions més importants de les DTD és que serveixen per
 a la validació automàtica dels documents: un programa \emph{validador}
 llegeix la DTD i el document XML i decideix si aquest últim és vàlid,
-és a dir, si segueix l'especificació donada en la DTD. Per a què un
+és a dir, si segueix l'especificació donada en la DTD. Perquè un
 document siga vàlid con respecte a una DTD qualsevol, primer ha
 d'estar ben format, és a dir, ha de complir amb les regles bàsiques
 d'escriptura de documents XML esmentades més amunt.
@@ -622,7 +622,7 @@ i el final amb la marca ``{\tt </em>}'' (5 caràcters). (X)HTML serveix
 per a codificar hipertextos: els enllaços (hiperreferències) a altres
 documents (que al seu torn poden també ser hipertextos) comencen amb
 ``\texttt{<a href="} $\mathit{URI}$ \texttt{"}\texttt{>}'' ---on
-$\mathit{URI}$ és el identificador del document enllaçat--- i acaben
+$\mathit{URI}$ és l'identificador del document enllaçat--- i acaben
 amb ``\texttt{</a>}'', etc. Els documents (X)HTML comencen idealment
 amb la marca ``\texttt{<html>}'' i acaben amb la marca
 ``\texttt{</html>}'', i tenen, entre altres elements, un títol
@@ -631,10 +631,10 @@ amb la marca ``\texttt{<html>}'' i acaben amb la marca
 
 La principal diferència entre HTML i XHTML és que com aquest últim
 està basat en XML, el document ha de ser XML ben format i per tant no
-pot haver-hi elements que s'obrin però no es tanquen; això sí és valid
+pot haver-hi elements que s'obrin però no es tanquen; això sí que és valid
 en HTML quan es tracta d'elements buits com \texttt{img} o
 \texttt{meta}. Altra diferència notable és que en XHTML els noms dels
-elements van sempre en minúscula, mentres que en HTML poden anar en
+elements van sempre en minúscula, mentre que en HTML poden anar en
 majúscules.
 
 \begin{figure}
@@ -759,21 +759,21 @@ menú ``veure'' (``view'').
 Hui dia s'han popularitzat els formats de documents basats en
 XML. Alguns dels formats basats en XML que interessen als traductors
 són: el format TMX (\emph{translation memory exchange}) que s'usa per
-al intercanvi de memòries de traducció (fitxers amb extensió
+a l'intercanvi de memòries de traducció (fitxers amb extensió
 \texttt{.tmx}, vegeu el capítol~\ref{se:memtrad}), el format TBX
-(\emph{termbase exchange}) per al intercanvi de bases de dades
+(\emph{termbase exchange}) per a l'intercanvi de bases de dades
 terminològiques (fitxers amb extensió \texttt{.tbx}, vegeu el
 capítol~\ref{se:basesdades}) i el format XLIFF (\emph{XML localization
   interchange file format}). Aquest últim és un format creat per a la
 estandardització del format empleat per les diverses ferramentes que
 s'utilitzen durant el procés de \emph{localització} d'un producte
 (vegeu el capítol~\ref{se:memtrad}).\footnote{La \emph{localització}
-  es pot definit com el procés d'adaptació d'un producte als usos de
-  una regió específica del món.}
+  es pot definir com el procés d'adaptació d'un producte als usos 
+d'una regió específica del món.}
 
 A més dels formats descrits en el paràgraf anterior hi ha dos formats
 usats pels processadors de textos més moderns que estan basats en
-XML. Aquest formats són OpenDocument i Office Open XML. 
+XML. Aquests formats són OpenDocument i Office Open XML. 
 
 \subsubsection{OpenDocument}
 OpenDocument és un format d'arxius obert i estàndard per a
@@ -781,8 +781,8 @@ emmagatzemar, entre altes, textos (fitxers amb extensió \texttt{.odt})
 fulls de càlcul (fitxers amb extensió \texttt{.ods}) i presentacions
 (fitxers amb extensió \texttt{.odp}). Aquest format es el emprat per
 defecte per les aplicacions ofimàtiques LibreOffice i OpenOffice.org i
-consisteix en un diversos documents XML ---per al contingut, els
-estíls usats en el document, etc.--- comprimits amb ZIP.\footnote{ZIP
+consisteix en diversos documents XML ---per al contingut, els
+estils usats en el document, etc.--- comprimits amb ZIP.\footnote{ZIP
   és un format per a l'emmagatzemament de fitxers comprimits; els
   fitxers d'aquest tipus solen tenir l'extensió \texttt{.zip}.}
 
@@ -791,7 +791,7 @@ Office Open XML, també conegut com OOXML o OpenXML, és un altre format
 estàndard ---impulsat per Microsoft--- bastat en XML que s'utilitza
 per a emmagatzemar textos (fitxers amb extensió \texttt{.docx}), fulls
 de càlcul (fitxers amb extensió \texttt{.xlsx}) i presentacions
-(fitxers amb extensió \texttt{.pptx}). Al igual que OpenDocument, un
+(fitxers amb extensió \texttt{.pptx}). Igual que OpenDocument, un
 arxiu OpenXML consisteix en diversos documents XML comprimits amb ZIP.
 
 \section{Altres formats}
@@ -842,8 +842,8 @@ PDF (de l'anglés \emph{portable document format}, format portable de
 document) és un altre format desenvolupat per a capturar completament
 les característiques presentacionals dels documents. En PDF, el
 document es mostra exactament amb la mateixa aparença independentment
-de l'ordinador, sistema operatiu o aplicació que fem servir per
-veure'l. Els documents PDF poden emmagatzemar, a banda del text, tipus
+de l'ordinador, sistema operatiu o aplicació que user per
+a veure'l. Els documents PDF poden emmagatzemar, a banda del text, tipus
 de lletra, gràfics, sons, etc. Aquest format va ser impulsat en els
 anys noranta per l'empresa Adobe, que ofereix en l'actualitat un
 programa gratuït\footnote{però no lliure ni de codi font obert}
@@ -861,7 +861,7 @@ modificar documents de text informatitzats. També s'hi poden usar
 \emph{editor} és que aquest últim programa és un processador de textos
 plans (sense informació de format, etc.) que normalment s'usa per a
 preparar textos en algun llenguatge artificial (per exemple, programes
-escrits en algun llenguatge de programació) que serviran de entrada
+escrits en algun llenguatge de programació) que serviran d'entrada
 per a un altre programa, o textos molt senzills on el format no és
 crucial, com un missatge electrònic senzill.
 
@@ -900,7 +900,7 @@ major part dels caràcters que teclegem s'han d'inserir darrere del
 caràcter que actualment es troba destacat amb una marca anomenada {\em
   cursor} de text (pot ser diferent del cursor o apuntador que indica
 la posició virtual del ratolí en la pantalla), o bé l'han de
-sobrescriure. No obstant això, es reserven determinades tecles
+sobreescriure. No obstant això, es reserven determinades tecles
 (algunes senzilles, i altres en combinació amb les tecles especials
 ``Alt'' o ``Control'') per a fer operacions, algunes molt bàsiques com
 ara moure el cursor de text o esborrar caràcters i altres més
@@ -1054,8 +1054,8 @@ continguts. Imaginem les següents situacions problemàtiques:
     directora no li agraden així i li'ls ha fet canviar a Lucida Sans
     de 14, negreta i Lucida de 12, negreta sense cursives. Com que
     l'informe ha d'estar acabat per a demà de matí, Vladimir es queda
-    a l'oficina fins a les 11 de la nit, canviant un a un els tipus de
-    lletra del títols de seccions i subseccions. A l'endemà, de matí,
+    a l'oficina fins a les 11 de la nit, canviant un per un els tipus de
+    lletra dels títols de seccions i subseccions. L'endemà, de matí,
     Marina, la directora, li passa un document amb una secció més que
     s'ha d'inserir entre la 4 i la 5. Vladimir no pot anar a esmorzar:
     ha de canviar els números de seccions i subseccions a partir de la
@@ -1076,7 +1076,7 @@ continguts. Imaginem les següents situacions problemàtiques:
     porten punt al final (``1.1 Introducció''). El text ha estat
     traduït mantenint les convencions de la llengua d'origen: per a
     fer-lo adequat a la llengua d'arribada, ens toca, d'una banda,
-    anar mirant un a un els segments de text en cursives, decidir si
+    anar mirant un per un els segments de text en cursives, decidir si
     són definicions, i canviar-los a negretes si cal; d'altra banda,
     ens toca anar llevant el puntet final de tots els números de
     secció.
@@ -1084,7 +1084,7 @@ continguts. Imaginem les següents situacions problemàtiques:
   
   En aquests dos casos, si la persona que va escriure els textos només
   va codificar informació relativa a la presentació visual no podrem
-  evitar fer els treballs tediosos descrits. Se podria dir que si qui
+  evitar fer els treballs tediosos descrits. Es podria dir que si qui
   escriu es deixa portar per la filosofia ``what you see is what you
   get'' acaba amb ``what you see is \emph{all} you get'', és a dir,
   només té el que veu. Però la majoria dels processadors de textos
@@ -1134,7 +1134,7 @@ presentació d'un document s'executa a través d'especificacions
 anomenades \emph{fulls d'estil}. Un dels tipus més senzills de fulls
 d'estil són els anomenats fulls d'estil en cascada\footnote{Més
   informació en \url{http://www.w3c.org/Style/CSS/}.} (CSS,
-\emph{cascaded style sheets}) que s'usen sobre tot amb navegadors i
+\emph{cascaded style sheets}) que s'usen sobretot amb navegadors i
 HTML, encara que també es poden usar per a presentar XML directament
 en els navegadors.
 
@@ -1299,7 +1299,7 @@ té problemes similars.
 Si l'èmfasi en el document ha estat emmagatzemat com a èmfasi i no amb
 lletra negreta o cursiva, si els títols de secció estan indicats com a
 tals i no perquè són paràgrafs d'una única línia en negretes grosses,
-serà molt més fàcil transformar-lo per a la presentar-lo en un mitjà
+serà molt més fàcil transformar-lo per a presentar-lo en un mitjà
 no visual o en una pantalla reduïda o limitada, per exemple, usant
 \emph{fulls d'estil} especialment concebuts per a la presentació
 \emph{aural} (sonora), \emph{tàctil} (Braille), etc.
@@ -1328,7 +1328,7 @@ persones discapacitades o en situacions especials.
   per raons òbvies, sobre l'anglés.
 
   El RAP genera text a partir de la veu recollida a través d'un
-  micròfon utilitzant una dispositiu de captura per a digitalitzar-la
+  micròfon utilitzant un dispositiu de captura per a digitalitzar-la
   i després un sistema de reconeixement automàtic de la veu
   (\emph{automatic speech recognition}) per a detectar fonemes,
   síl·labes o paraules completes (depén del sistema concret) i
@@ -1395,7 +1395,7 @@ persones discapacitades o en situacions especials.
   text informatitzat (normalment bastant imperfecte, especialment si
   és manuscrit).  Com en el cas del reconeixement de la parla, és
   crucial l'ús d'informació sobre l'idioma concret (diccionaris,
-  estadística sobre les seqüencies de lletres) per a corregir els
+  estadística sobre les seqüències de lletres) per a corregir els
   errors de l'OCR.  Per exemple, si un programa de lectura automàtica
   de textos produeix per error el text ``4ixò 6s uua mcrda'' no cal
   dir què hi llegim sense massa problemes, malgrat els errors en tots
@@ -1430,7 +1430,7 @@ persones discapacitades o en situacions especials.
 \item Un document XML és \emph{vàlid} {\ldots}
   \begin{enumerate}
   \item {\ldots} si només usa els noms d'elements definits a la DTD;
-    la resta de les directrius de la DTD només serveixen per fer
+    la resta de les directrius de la DTD només serveixen per a fer
     documents \emph{ben formats}.
   \item {\ldots} si només usa les marques vàlides dels documents HTML.
   \item {\ldots} si segueix les regles de la DTD quan inclou un
