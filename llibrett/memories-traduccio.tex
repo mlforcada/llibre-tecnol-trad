@@ -1,9 +1,10 @@
 \chapter{Memòries de traducció}
 \label{se:memtrad}
 
-
-\begin{quote}\textsl{Existing translations contain more solutions to more translation
-  problems than any other existing resource} \citep{isabelle93p}
+\begin{quote}
+  \textsl{Existing translations contain more solutions to more
+    translation problems than any other existing resource}
+  \citep{isabelle93p}
 \end{quote}
 
 \section{Introducció}
@@ -11,29 +12,29 @@
 Una aproximació a la traducció humana assistida per ordinador (és a
 dir, semiautomàtica) que està molt relacionada amb la traducció
 directa és la que s'usa en les anomenades \emph{memòries de
-  traducció}.\footnote{Com veurem més avall, en comptes de traduir mot a mot fent una simple
-  substitució de cada mot origen pel(s) mot(s) meta corresponents, les
-  memòries de traducció fan substitucions de fragments de més d'un
-  mot, i, en lloc d'usar un diccionari bilingüe, usen una base de
-  dades de fragments de més d'un mot prèviament traduïts.}  La noció
-bàsica \citep{somers96b,samuelson-brown96b} és la utilitat de tenir a
-mà, quan s'està traduint un text nou, exemples de frases similars i de
-les traduccions corresponents, provinents de traduccions realitzades
-anteriorment. De fet, certs tipus de textos com ara documents tècnics,
-informes anuals o manuals d'instruccions, els quals se solen revisar
-freqüentment, sovint tenen moltes repeticions. En aquests casos, la
-comparació de versions diferents del que és essencialment el mateix
-text i la traducció repetitiva de textos similars és innecessàriament
-laboriosa. A més, moltes vegades el treball de traducció comporta un
-esforç creatiu considerable, com ara quan es tracta de trobar una
-equivalència adequada a alguna expressió especialment difícil de
-traduir; les memòries de traducció permetrien no haver de repetir
-aquest esforç en el futur.
+  traducció}.\footnote{Com veurem més avall, en comptes de traduir mot
+  a mot fent una simple substitució de cada mot origen pel(s) mot(s)
+  meta corresponents, les memòries de traducció fan substitucions de
+  fragments de més d'un mot, i, en lloc d'usar un diccionari bilingüe,
+  usen una base de dades de fragments de més d'un mot prèviament
+  traduïts.}  La noció bàsica \citep{somers96b,samuelson-brown96b} és
+la utilitat de tenir a mà, quan s'està traduint un text nou, exemples
+de frases similars i de les traduccions corresponents, provinents de
+traduccions realitzades anteriorment. De fet, certs tipus de textos
+com ara documents tècnics, informes anuals o manuals d'instruccions,
+els quals se solen revisar freqüentment, sovint tenen moltes
+repeticions. En aquests casos, la comparació de versions diferents del
+que és essencialment el mateix text i la traducció repetitiva de
+textos similars és innecessàriament laboriosa. A més, moltes vegades
+el treball de traducció comporta un esforç creatiu considerable, com
+ara quan es tracta de trobar una equivalència adequada a alguna
+expressió especialment difícil de traduir; les memòries de traducció
+permetrien no haver de repetir aquest esforç en el futur.
 
-L'objectiu és, per tant, aprofitar traduccions anteriors per a no
-repetir l'esforç quan s'han de fer traduccions noves. Ha de quedar
-clar que, per a poder fer-ho, els textos originals i les traduccions
-han d'estar en format informatitzat (fitxers de text).
+L'\textbf{objectiu} és, per tant, aprofitar traduccions anteriors per
+a no repetir l'esforç quan s'han de fer traduccions noves. Ha de
+quedar clar que, per a poder fer-ho, els textos originals i les
+traduccions han d'estar en format informatitzat (fitxers de text).
 
 \section{Bitextos}
 \label{ss:bitextos}
@@ -42,20 +43,23 @@ Suposarem que, com a resultat del treball anterior de traducció, tenim
 parells de textos $(E,D)$ on $E$ és el \emph{text esquerre} (en la
 \emph{llengua esquerra}) i $D$ és el \emph{text dret} (en la
 \emph{llengua dreta}), i volem traduir de la llengua esquerra a la
-llengua dreta.\footnote{Parlem d'\emph{esquerra} i \emph{dreta} perquè pot ser que no siga important (o que no se sàpia) quin dels dos textos és l'original i quin és la traducció.}  De fet, quan dos textos $E$ i $D$ són equivalents (és a
-dir, traducció un de l'altre) direm que el parell $(E,D)$ és un
-\emph{bitext}.
+llengua dreta.\footnote{Parlem d'\emph{esquerra} i \emph{dreta} perquè
+  pot ser que no siga important (o que no se sàpia) quin dels dos
+  textos és l'original i quin és la traducció.}  De fet, quan dos
+textos $E$ i $D$ són equivalents (és a dir, traducció un de l'altre)
+direm que el parell $(E,D)$ és un \emph{bitext} o \emph{text
+  paral·lel}.
 
 Vegeu aquest exemple on la llengua esquerra és el català i la llengua
 dreta, l'espanyol:
 \begin{quote}
-  $E$: ``Tenim textos equivalents i els volem aprofitar per a fer noves
-      traduccions. Quan dos textos són equivalents diem que formen un
-      bitext.''
+  $E$: ``Tenim textos equivalents i els volem aprofitar per a fer
+  noves traduccions. Quan dos textos són equivalents diem que formen
+  un bitext.''
 
-  $D$: ``Tenemos textos equivalentes y los queremos aprovechar para hacer
-      nuevas traducciones. Cuando dos textos son equivalentes decimos
-      que forman un bitexto.''
+  $D$: ``Tenemos textos equivalentes y los queremos aprovechar para
+  hacer nuevas traducciones. Cuando dos textos son equivalentes
+  decimos que forman un bitexto.''
 \end{quote}
 
 Però els bitextos complets no es poden aprofitar tal com estan perquè
