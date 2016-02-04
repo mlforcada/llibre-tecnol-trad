@@ -65,16 +65,20 @@ dreta, l'espanyol:
 Però els bitextos complets no es poden aprofitar tal com estan perquè
 és molt improbable que ens encarreguen de nou exactament la mateixa
 tasca de traducció, és a dir, que ens encarreguen traduir de nou un
-text $E'$ quan tenim ja el bitext $(E',D')$, però el que sí que és
-probable és que algunes parts del text nou $E'$ apareguen també en la
-part esquerra d'alguns dels bitextos que ja tenim. Per això,
-necessitem obtenir a partir d'ells bitextos més menuts, amb parts esquerres que tinguen possibilitat de aparéixer de nou en el futur.
+text $E'$ quan tenim ja el bitext $(E',D')$. El que sí que és probable
+és que algunes parts del text nou $E'$ apareguen també en la part
+esquerra d'alguns dels bitextos que ja tenim. Per això, necessitem
+obtenir a partir d'ells bitextos més menuts, amb parts esquerres que
+tinguen possibilitat de aparéixer de nou en el futur.
 
 \subsection{Segmentació de bitextos}
 La primera operació consisteix a \emph{segmentar} o \emph{dividir}
-automàticament cada un dels dos textos en unitats més menudes
-\emph{segments}, usant algun criteri programable (vegeu més avall).
-La figura~\ref{fg:segmentat} mostra el resultat de la segmentació dels textos $E$ i $D$. Com s'hi veu, pot ser que inicialment el nombre de segments del text esquerre $E$ siga diferent del nombre de segments del text dret $D$.
+automàticament cada un dels dos textos en unitats més menudes, que
+anomenarem \emph{segments}, usant algun criteri programable (vegeu més
+avall).  La figura~\ref{fg:segmentat} mostra el resultat de la
+segmentació dels textos $E$ i $D$. Com s'hi veu, pot ser que
+inicialment el nombre de segments del text esquerre $E$ siga diferent
+del nombre de segments del text dret $D$.
 \begin{figure}
   \begin{center}
     \begin{tabular}{p{3cm}p{3cm}}
@@ -102,17 +106,18 @@ La figura~\ref{fg:segmentat} mostra el resultat de la segmentació dels textos $
 
 El resultat de la segmentació encara no és útil: no queda clara la
 correspondència entre els segments esquerres i els segments
-drets. Necessitem \emph{revisar la segmentació}, és a dir, juntar
+drets. Necessitem \emph{revisar la segmentació}, és a dir, ajuntar
 segments o partir segments, en un costat o en altre, fins que tinguem
 el mateix nombre de segments i siguen traducció mútua. D'aquesta
 operació se'n diu \emph{alinear} el bitext.
 
 Direm que un bitext $(E,D)$ està \emph{alineat} si les dues parts
 tenen el mateix nombre $N$ de segments, $E= e_1 e_2 e_3 \ldots e_N$ i
-$D= d_1 d_2 d_3 \ldots d_N$ i els segments es corresponen: $e_1$
-correspon a $d_1$, $e_2$ a $d_2$, etc. És a dir, el text alineat ens
-proporiciona $N$ bitextos $(e_1,d_1)$, $(e_2,d_2)$, $(e_3,d_3)$, etc.,
-més menuts (per això els escrivim amb minúscula); aquests bitextos
+$D= d_1 d_2 d_3 \ldots d_N$, i els seus segments són traducció mútua:
+$e_1$ és traducció de $d_1$ (o viceversa), $e_2$ és traducció de
+$d_2$, etc. És a dir, el text alineat ens proporciona $N$ bitextos
+(segments paral·lels) $(e_1,d_1)$, $(e_2,d_2)$, $(e_3,d_3)$, etc., més
+menuts (per això els escrivim amb minúscula); aquests bitextos
 s'anomenen normalment \emph{unitats de traducció} (UT): vegeu la
 figura~\ref{fg:alineat}.
 \begin{figure}
@@ -129,21 +134,22 @@ figura~\ref{fg:alineat}.
         $e_N$ & $d_N$ \\\hline
     \end{tabular}
   \end{center}
-  \caption{Els bitextos $E$ i $D$, segmentats i alineats, en $N$ unitats de traducció $(e_1,d_1), (e_2,d_2), \ldots (e_N,d_N)$}
+  \caption{Els bitextos $E$ i $D$, segmentats i alineats, en $N$
+    unitats de traducció $(e_1,d_1), (e_2,d_2), \ldots (e_N,d_N)$}
   \label{fg:alineat}
 \end{figure}
 
 
 
-Així és més probable que quan ens donen un text nou
-$E'$ tinguem traduccions per a alguns dels seus fragments. El bitext
-de més amunt es podria alinear per a formar les unitats de traducció 
+Així és més probable que quan ens donen un text nou $E'$ tinguem
+traduccions per a alguns dels seus fragments. El bitext de més amunt
+es podria alinear per a formar les unitats de traducció
 \begin{center}
-\pair{"Tenemos"}{"Tenim"}\\ 
-\pair{"textos equivalents"}{"textos  equivalents"}\\ 
-\pair{"{}i els volem aprofitar"}{"y los queremos  aprovechar"}\\ 
+\pair{\em Tenemos}{\em~Tenim}\\ 
+\pair{\em textos equivalents}{\em~textos  equivalents}\\ 
+\pair{\em i els volem aprofitar}{\em~y los queremos  aprovechar}\\ 
 \ldots\\ 
-\pair{"formen un bitext"}{"forman un bitexto"}
+\pair{\em formen un bitext}{\em~forman un bitexto}
 \end{center}
 
 Com ja s'ha dit més amunt, una operació molt important per a la
