@@ -54,7 +54,7 @@ Hi ha dos grans grups de sistemes de traducció automàtica:
   \emph{inductiva} a partir d'un \emph{corpus} paral·lel, és a dir, de
   grans quantitats de textos i les seues traduccions, prèviament
   \emph{segmentats} i \emph{alineats} per posar cada oració d'un text
-  en correspondència amb la seua traducció en l'altre.\footnote{El
+  en correspondència amb la seua traducció en l'altre.\footnote{Els
     textos del corpus d'aprenentatge poden a més ser anotats o
     processats amb algun tipus de processador lingüístic com ara un
     analitzador morfològic o sintàctic.} Els sistemes basats en corpus
@@ -114,8 +114,8 @@ D'una altra part, els sistemes de traducció automàtica indirecta per
 transferència (que es discutiran en l'apartat \ref{ss:classtrans}) són
 el resultat d'una sèrie d'aproximacions (moltes d'elles inevitables)
 sobre un model ideal i teòricament motivat basat en el \emph{principi
-  de composicionalitat semàntica}. Aquest sistemes també es poden ver
-como el resultat d'una sèrie de refinaments inevitables sobre un
+  de composicionalitat semàntica}. Aquests sistemes també es poden veure
+com el resultat d'una sèrie de refinaments inevitables sobre un
 sistema de traducció \emph{mot per mot} (vegeu
 l'apartat~\ref{ss:dirindir}), és a dir, com una sèrie d'operacions
 addicionals que s'han de fer a més d'anar substituint cada mot per un
@@ -1109,9 +1109,9 @@ sintagmes i de categories lèxiques.
     rightmost derivation}, ``d'esquerra a dreta i amb derivació per la
   dreta'').  Els analitzadors GLR lligen les categories lèxiques
   d'esquerra a dreta, les \emph{desplacen} a un tipus de memòria
-  especial anomenat pila (és a dir, les hi \emph{apilen}) i quan el
+  especial anomenat pila (és a dir, les hi \emph{empilen}) i quan el
   cim de la pila conté elements que segons la gramàtica i el context
-  immediat posterior es poden agrupar en un subarbre, els desapila,
+  immediat posterior es poden agrupar en un subarbre, els desempila,
   els \emph{redueix} a un subarbre, i deixa el subarbre en el cim de
   la pila. Per a saber quan ha de desplaçar una categoria lèxica a la
   pila o quan i com ha de reduir el cim de la pila, té en compte una o
@@ -1154,11 +1154,11 @@ sintagmes i de categories lèxiques.
       \textsf{Si el cim de la pila és\ldots} & \textsf{I hi ha a la vista\ldots} & \textsf{L'acció pertinent
         és\ldots} \\
       \hline
-      $\bullet$             & \textbf{det} o \textbf{n} & apilar-lo \\
+      $\bullet$             & \textbf{det} o \textbf{n} & empilar-lo \\
       \hline
       $\bullet\; [_O \cdots ]$ & $\bullet$ & anàlisi finalitzada \\
       \hline 
-      $\bullet\; [_{SN} \cdots ]$  & \textbf{v} o \textbf{prep} & apilar-lo \\
+      $\bullet\; [_{SN} \cdots ]$  & \textbf{v} o \textbf{prep} & empilar-lo \\
 
       \hline
   
@@ -1170,17 +1170,17 @@ sintagmes i de categories lèxiques.
       o $\bullet$ & reduir a $[_{SN}
       [_{\bar{N}} \cdots ] ]$ \\
 
+      \hline&&
+      $\cdots\;\textbf{det}$ & \textbf{n} & empilar-lo \\
       \hline
-      $\cdots\;\textbf{det}$ & \textbf{n} & apilar-lo \\
-      \hline
-      $\cdots\;\textbf{n}$ & \textbf{adj} & apilar-lo \\
+      $\cdots\;\textbf{n}$ & \textbf{adj} & empilar-lo \\
       \cline{2-3}
       & \textbf{v}, \textbf{prep} o $\bullet$ & reduir a $[_N\;\textbf{n}]$
       \\
       \hline
       $\bullet [_{SN} \cdots ] [_{SV} \cdots ]$ & $\bullet$ & reduir a
       $[_O [_{SN} \ldots ] [_{SV} \ldots ] ]$ \\
-      \cline{2-3} & \textbf{prep} & apilar-la \\
+      \cline{2-3} & \textbf{prep} & empilar-la \\
       \hline
       $\cdots\;[_{SN} \cdots ]\;[_{SP} \cdots ]$ & \textbf{v},
       \textbf{prep} o $\bullet$ & reduir a
@@ -1188,9 +1188,9 @@ sintagmes i de categories lèxiques.
       \hline
       $\cdots \textbf{v}$ & \textbf{prep} o $\bullet$ & reduir a $[_{SV} \textbf{v} ]$
       \\
-      \cline{2-3}        & \textbf{det} o \textbf{n} & apilar-lo  \\
+      \cline{2-3}        & \textbf{det} o \textbf{n} & empilar-lo  \\
       \hline   
-      $\cdots \textbf{prep}$ & \textbf{det} o \textbf{n} & apilar-lo \\
+      $\cdots \textbf{prep}$ & \textbf{det} o \textbf{n} & empilar-lo \\
       \hline
       $\cdots \textbf{n} \; \textbf{adj}$ & \textbf{v}, \textbf{prep} o $\bullet$ & reduir a
       $[_{\bar{N}} \textbf{n}\; \textbf{adj} ]$ \\
@@ -1202,7 +1202,7 @@ sintagmes i de categories lèxiques.
       $\cdots\;\textbf{v}\;[_{SN} \cdots ]$ & $\bullet$ & reduir a
       $[_{SV} \textbf{v}  [_{SN} \cdots ] ]$ \\
       \cline{2-3}          & \textbf{prep} & \framebox{\parbox{4cm}{CONFLICTE: reduir a
-          $[_{SV} \textbf{v}  [_{SN} \cdots ] ]$ o apilar-la}}
+          $[_{SV} \textbf{v}  [_{SN} \cdots ] ]$ o empilar-la}}
       \\
       \hline 
       $\cdots\;\textbf{prep}\;[_{SN} \cdots ]$ & \textbf{v}
@@ -1210,7 +1210,7 @@ sintagmes i de categories lèxiques.
       $[_{SP} \textbf{prep}  [_{SN} \cdots ] ]$ \\
       \cline{2-3}          & \textbf{prep} &
       \framebox{\parbox{4cm}{CONFLICTE: reduir a
-          $[_{SP} \textbf{prep}  [_{SN} \cdots ] ]$ o apilar-la}}
+          $[_{SP} \textbf{prep}  [_{SN} \cdots ] ]$ o empilar-la}}
       \\
       % \hline $\cdots\;\textbf{prep}\;[_{SN} \cdots ]$ &
       % \textbf{prep}, \textbf{v} o $\bullet$ & reduir a
@@ -1221,7 +1221,7 @@ sintagmes i de categories lèxiques.
 
   Aquesta taula indica què cal fer en cada pas de l'anàlisi. En la
   taula, el símbol $\bullet$ indica tant el principi com el final de
-  l'oració (l'anàlisi d'una oració comença apilant $\bullet$ en la
+  l'oració (l'anàlisi d'una oració comença empilant $\bullet$ en la
   pila). Quan la situació a la qual s'arriba no està prevista en la
   taula, és perquè l'oració no és correcta d'acord amb la gramàtica
   donada; aquesta situació d'error s'ha de resoldre de manera que
@@ -1254,13 +1254,13 @@ sintagmes i de categories lèxiques.
       & 
       \textbf{det} \textbf{n} \textbf{v} \textbf{det} \textbf{n} $\bullet$
       & 
-      apilar \textbf{det} 
+      empilar \textbf{det} 
       \\
       $\bullet$ \textbf{det}
       & 
       \textbf{n} \textbf{v} \textbf{det} \textbf{n} $\bullet$
       & 
-      apilar \textbf{n} 
+      empilar \textbf{n} 
       \\
       $\bullet$ \textbf{det} \textbf{n}
       & 
@@ -1278,20 +1278,20 @@ sintagmes i de categories lèxiques.
       & 
       \textbf{v} \textbf{det} \textbf{n} $\bullet$
       & 
-      apilar \textbf{v}
+      empilar \textbf{v}
       \\
       $\bullet$ $[_{SN} \textbf{det} [_{\bar{N}} \textbf{n} ] ]$ \textbf{v}
       & 
       \textbf{det} \textbf{n} $\bullet$
       & 
-      apilar \textbf{det}
+      empilar \textbf{det}
       \\
       $\bullet$ $[_{SN} \textbf{det} [_{\bar{N}} \textbf{n} ] ]$
       \textbf{v} \textbf{det}
       & 
       \textbf{n} $\bullet$
       & 
-      apilar \textbf{n}
+      empilar \textbf{n}
       \\
       $\bullet$ $[_{SN} \textbf{det} [_{\bar{N}} \textbf{n} ] ]$
       \textbf{v} \textbf{det} \textbf{n}
@@ -1337,7 +1337,7 @@ sintagmes i de categories lèxiques.
 \label{s3:transsem}
 
 Els sistemes de traducció automàtica basats en la transferència
-sintàctica (és a dir, en la aproximació que diu que es poden
+sintàctica (és a dir, en l'aproximació que diu que es poden
 transformar d'una banda les estructures sintàctiques
 ---\emph{transferència estructural}--- i d'altra banda substituir el
 lèxic ---\emph{transferència lèxica}--- fent ambdues operacions
@@ -1783,9 +1783,9 @@ sistemes estadístics generen una gran quantitat d'\emph{hipòtesis de
   traducció} (idealment totes les possibles) i utilitzen models
 estadístics per \emph{puntuar} les hipòtesis generades i escollir la
 millor de totes. Els principals models estadístics que s'usen per
-puntuar les hipòtesis de traducció son el \emph{model de traducció} i
-el \emph{model de llengua}, els qual s'expliquen més avall. La
-combinació d'aquests models fa que la hipòtesis de traducció que rep
+puntuar les hipòtesis de traducció són el \emph{model de traducció} i
+el \emph{model de llengua}, els quals s'expliquen més avall. La
+combinació d'aquests models fa que la hipòtesi de traducció que rep
 la puntuació \emph{global} més alta no siga necessàriament la hipòtesi
 de traducció millor segons cada model per separat.
 
@@ -1879,11 +1879,11 @@ l'estructura d'alineament queda definida. Aquest refinament es
 produeix perquè en cada iteració les probabilitats de la iteració
 anterior s'usen per acumular evidència en tot el corpus sobre la
 probabilitat de les correspondències entre mots i, a més, perquè els
-mots que són traducció mútua solen aparèixer junts en les mateixes
-oracions paral·leles, la qual cosa no succeïx si dos mots no són
+mots que són traducció mútua solen aparéixer junts en les mateixes
+oracions paral·leles, la qual cosa no succeeix si dos mots no són
 traducció un de l'altre.
 
-Una vegada obtinguts els alineaments entre el mots, podem aprendre
+Una vegada obtinguts els alineaments entre els mots, podem aprendre
 models probabilístics que indiquen, per exemple, la probabilitat que
 la traducció d'un determinat mot en una llengua siga la traducció d'un
 determinat mot en l'altra (un model de traducció de paraules o
@@ -1915,12 +1915,12 @@ apareixen en els corpus d'entrenament.\footnote{Per evitar assignar
   versemblances nul·les a una oració, a més d'utilitzar segments de
   poques paraules, aquests models també usen tècniques de suavitzat
   (en anglés \emph{smoothing}) de les probabilitat.} El model de
-llengua té en compte l'ordre de les paraules i per tant assigna un
+llengua té en compte l'ordre de les paraules i per tant assigna una
 versemblança major a l'oració \emph{M'agrada menjar pernil del bo} que
 a l'oració \emph{del bo menjar pernil M'agrada}, tot i que contenen
 els mateixos segments de text (\emph{del bo}, \emph{menjar pernil} i
 \emph{M'agrada}). A més té en compte, tot i que indirectament, el
-context en el que apareixen les paraules en LM, de manera que assigna
+context en què apareixen les paraules en LM, de manera que assigna
 una versemblança major a l'oració en espanyol (LM) \emph{No piensa con
   la cabeza} que a l'oració \emph{No piensa con el cabo}, on els
 segments \emph{la cabeza} i \emph{el cabo} són dues possibles
@@ -1932,7 +1932,7 @@ l'oració en LO \emph{No pensa amb el cap}.
   automàtica estadística basats en segments bilingües combinen altres
   models per a establir la puntuació global d'una hipòtesi de
   traducció. A continuació es descriuen molt breument aquests models i
-  per a que s'usen:
+  per a què s'usen:
   \begin{description}
   \item[Model de reordenament lèxic:] La seua funció és modelar
     diferents operacions de reordenament que es poden fer a l'hora de
@@ -1947,7 +1947,7 @@ l'oració en LO \emph{No pensa amb el cap}.
   \item[Ponderació lèxica:] Els segments usats per traduir poden ser
     molt llargs (normalment fins a 7 paraules), la qual cosa fa molt
     difícil estimar bé la seua probabilitat de traducció perquè els
-    segments llargs solen aparèixer poques vegades en els corpus
+    segments llargs solen aparéixer poques vegades en els corpus
     d'entrenament; això fa necessari l'ús d'un altre model per estimar
     la qualitat dels segments bilingües. Aquest model usa les
     probabilitats de traducció entre els mots (un diccionari bilingüe
@@ -1957,7 +1957,7 @@ l'oració en LO \emph{No pensa amb el cap}.
       balance comission}), on l'alineament entre els mots és
     \emph{la}--\emph{the}, \emph{comissió}--\emph{comission},
     \emph{balanços}--\emph{balance} i
-    \emph{finançament}--\emph{funding}, depén de les probabilitat de
+    \emph{finançament}--\emph{funding}, depén de les probabilitats de
     traducció dels mots que han estat alineats.
   \item[Nombre total de paraules de l'oració:] Quan es puntuen les
     hipòtesis de traducció es multipliquen moltes probabilitats, és a
@@ -1967,13 +1967,13 @@ l'oració en LO \emph{No pensa amb el cap}.
     preferisquen les traduccions curtes. Per a evitar això
     s'introdueix un model que compta el nombre de paraules en la
     hipòtesi de traducció i que fa que tinga relació amb el nombre de
-    paraules de la oració origen.
-  \item[Nombre de segments:] Aquest model es similar al anterior, però
+    paraules de l'oració origen.
+  \item[Nombre de segments:] Aquest model es similar a l'anterior, però
     comptant el nombre de segments bilingües que s'han usat per a
     produir una hipòtesi de traducció. Com més llargs siguen els
     segments, menys segments s'usaran i més context tindran; i a
     l'inrevés, com més curts siguen els segments més segments faran
-    falta per produir la hipòtesis de traducció.
+    falta per produir la hipòtesi de traducció.
   \end{description}
 
   Tots aquests models (i els anteriors) es combinen per a obtenir una
@@ -1981,7 +1981,7 @@ l'oració en LO \emph{No pensa amb el cap}.
   així la millor. Aquesta combinació es fa assignant un pes
   (importància) a cada model que s'obté mitjançat un procés automàtic
   (\emph{tuning}) que intenta maximitzar la \emph{qualitat} de les
-  traduccions proporcionades pel sistema al traduir un corpus de
+  traduccions proporcionades pel sistema en traduir un corpus de
   \emph{desenvolupament}.  
 
   Consulteu el llibre de \citet{koehnbook} per saber més sobre els
@@ -1992,7 +1992,7 @@ l'oració en LO \emph{No pensa amb el cap}.
 
 \begin{persabermes}{sistemes basats en corpus}
   Hi ha hagut altres aproximacions inductives a la traducció
-  automàtica, como ara els sistemes de \emph{traducció automàtica
+  automàtica, com ara els sistemes de \emph{traducció automàtica
     basada en exemples}, tot i que a hores d'ara ja no s'usen.  La
   \emph{traducció automàtica basada en exemples} intenta construir
   \emph{plantilles} de traducció a partir dels exemples observats en
@@ -2061,10 +2061,10 @@ Els exercicis marcats amb (*) són més difícils.
 \item La multinacional WorldTrans ha decidit ampliar el seu sistema de
   traducció automàtica multilingüe LetTrans (que tradueix
   correspondència comercial entre qualssevol dues llengües d'un grup
-  de quinze) i afegir-hi la capacitat de traduir del swahili a les
-  quinze llengües i de les quinze llengües cap al swahili. En una
-  oferta de treball, WorldTrans demana experts en swahili però no
-  demana cap expert en traducció entre swahili i cap de les quinze
+  de quinze) i afegir-hi la capacitat de traduir del suahili a les
+  quinze llengües i de les quinze llengües cap al suahili. En una
+  oferta de treball, WorldTrans demana experts en suahili però no
+  demana cap expert en traducció entre suahili i cap de les quinze
   llengües. Quina classe de sistema de traducció automàtica és
   LetTrans?  Justifiqueu la resposta.
 
@@ -2082,7 +2082,7 @@ Els exercicis marcats amb (*) són més difícils.
   \end{equation}
   El text $T''$ serà previsiblement diferent del text $T$.  Trieu dues
   llengües $A$ i $B$ i indiqueu quins canvis són previsibles,
-  classificant-los segons la naturalesa lingüística dels fenomens que
+  classificant-los segons la naturalesa lingüística dels fenòmens que
   han causat els canvis, explicant la raó del resultat si cal amb un
   exemple. Heu d'indicar \emph{tres tipus diferents} de canvi.
 
@@ -2096,7 +2096,7 @@ Els exercicis marcats amb (*) són més difícils.
   Indiqueu quines serien les 3 regles que proposaríeu, tenint en
   compte que han de produir, com a mínim, tres oracions ben traduïdes
   en el corpus d'oracions següents (la traducció ideal s'indica entre
-  parèntesi, tot i que no sempre podrà ser aconseguida):
+  parèntesis, tot i que no sempre podrà ser aconseguida):
   \begin{enumerate}
   \item \emph{A dark autumn night} (\emph{Una nit fosca de
       tardor})
@@ -2444,7 +2444,7 @@ Els exercicis marcats amb (*) són més difícils.
     sintàctic
   \item {\ldots}l'ambigüitat lèxica no afecta el resultat perquè no
     afecta la sintaxi
-  \item {\ldots}pot encara produirse un error en la traducció per
+  \item {\ldots}pot encara produir-se un error en la traducció per
     causa de l'ambigüitat lèxica de transferència
   \end{enumerate}
 
@@ -2480,21 +2480,21 @@ Els exercicis marcats amb (*) són més difícils.
 \item Un amic meu ha dissenyat un sistema de traducció automàtica
   entre l'espanyol i el portugués, però tot i que m'assegura que no ha
   programat cap tractament de l'ambigüitat estructural, el seu sistema
-  tradueix perfectament un munt d'oracions amb aquest tipus de
-  ambigüitat. Es açò possible?
+  tradueix perfectament un munt d'oracions amb aquest tipus 
+  d'ambigüitat. És açò possible?
   \begin{enumerate}
   \item No. Probablement ha dissenyat també un mòdul de preedició i el
     sistema elimina automàticament qualsevol causa d'ambigüitat.
   \item Sí, açò pot ocòrrer quan es donen els anomenats \emph{passis
       gratuïts}; de segur que, si insistim, trobarem alguna oració que
     hi serà traduïda malament.
-  \item Sí, si es tracta de oracions en què aquesta ambigüitat es deu
+  \item Sí, si es tracta d'oracions en què aquesta ambigüitat es deu
     a mots polisèmics i el programa té un diccionari prou complet.
   \end{enumerate}
 
 \item Els informàtics que participen en el disseny d'un sistema de
   traducció per interlingua t'informen que cada una de les fases del
-  sistema s'ha de executar en un ordinador diferent. Quants ordinadors
+  sistema s'ha d'executar en un ordinador diferent. Quants ordinadors
   hem de comprar?
   \begin{enumerate}
   \item Dos, un per a la fase d'anàlisi i un altre per a la de
@@ -2521,7 +2521,7 @@ Els exercicis marcats amb (*) són més difícils.
   \begin{enumerate}
   \item {\ldots} es tracta d'un mot homòfon.
   \item {\ldots} es tracta d'un mot homògraf.
-  \item {\ldots} probablement un sistema autòmatic haurà de recòrrer a
+  \item {\ldots} probablement un sistema autòmatic haurà de recórrer a
     informació estadística o regles sobre el context per triar una de
     les solucions.
   \end{enumerate}
@@ -2615,7 +2615,7 @@ Els exercicis marcats amb (*) són més difícils.
   Com en els exemples, en maori la majoria dels noms i adjectius són
   invariables.  Imagineu que sou part d'un equip de desenvolupament
   d'un sistema de traducció automàtica del maori al català (o a
-  l'espanyol) basat en l'estrategia que hem anomenat en
+  l'espanyol) basat en l'estratègia que hem anomenat en
   l'apartat~\ref{s3:STMorf} \emph{transferència morfològica
     avançada}.\footnote{És a dir, llig les oracions mot a mot
     d'esquerra a dreta i fa l'anàlisi morfològica de cada mot, prova
@@ -2741,7 +2741,7 @@ Els exercicis marcats amb (*) són més difícils.
 \item Indiqueu quina de les afirmacions següents és certa. Per norma
   general, els sistemes de traducció automàtica \ldots
   \begin{enumerate}
-  \item \ldots tradueixen cadascuna de les oracions una a una sense
+  \item \ldots tradueixen cadascuna de les oracions una per una sense
     tenir en compte la resta d'oracions del text a traduir.
   \item \ldots tradueixen directament (mot per mot) de a llengua
     origen a la llengua meta.
@@ -2793,18 +2793,18 @@ Els exercicis marcats amb (*) són més difícils.
   \item $R_1$
   \item $R_2$
   \item $R_3$
-  \item $R_2$; no abarca el segment \emph{de francés} i trenca el
+  \item $R_2$; no abraça el segment \emph{de francés} i trenca el
     sintagma;
-  \item $R_3$; no abarca el segment \emph{de clase} i trenca el
+  \item $R_3$; no abraça el segment \emph{de clase} i trenca el
     sintagma;
-  \item $R_3$; no abarca el segment \emph{de clase de francés} i
+  \item $R_3$; no abraça el segment \emph{de clase de francés} i
     trenca el sintagma.
   \end{enumerate}
 
-\item LetTrans és un sistema d'interlingua: per a afegir el swahili
-  només es necessiten experts en swahili i en la interlingua de
+\item LetTrans és un sistema d'interlingua: per a afegir el suahili
+  només es necessiten experts en suahili i en la interlingua de
   LetTrans. Si fóra un sistema de transferència seria necessària la
-  participació d'experts bilingües en swahili i cada una de les quinze
+  participació d'experts bilingües en suahili i cada una de les quinze
   llengües que ja hi ha en el sistema.
 
 \item Tipus de canvis (per exemple, català$\to$espanyol$\to$català):
@@ -2982,7 +2982,7 @@ Els exercicis marcats amb (*) són més difícils.
   % l'alemany és encara més complicat perquè l'acció de donar plaer es
   % representa com a adverbi.
   
-  % Si es vol mantenir el disseny de transferència sintàctica, la única
+  % Si es vol mantenir el disseny de transferència sintàctica, l'única
   % solució és que les regles per a aquestes transformacions depenguen
   % del component lèxic (en aquest cas, un verb) concret. Això només és
   % viable si n'hi ha poques excepcions d'aquesta mena, com sembla que
@@ -3009,7 +3009,7 @@ Els exercicis marcats amb (*) són més difícils.
 
 \item Com que l'objectiu de l'equip que dissenya els diccionaris és
   que tinguen la cobertura més alta possible (és a dir, que deixen el
-  mínim possible de mots sense traduir), la única estratègia raonable
+  mínim possible de mots sense traduir), l'única estratègia raonable
   és la d'ordenar els mots de la llengua original per freqüències
   d'aparició i anar introduint-los en el diccionari en aquest ordre,
   de manera que en cada moment sempre estem augmentant la cobertura
