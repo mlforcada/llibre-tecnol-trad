@@ -229,21 +229,21 @@ alineament.\footnote{La situació és diferent quan s'estan traduint els
   missatges o textos inclosos en \emph{programes} d'ordinador, com a
   part de les tasques anomenades genèricament de \emph{localització}
   (adaptació de programes d'ordinador als usuaris d'una regió i idioma
-  concrets, vegeu l'apartat \ref{se:usosmemtrad}); en aquest cas, pot
-  ser molt útil veure tot el programa a més dels textos.}  A més, les
-unitats de traducció que se n'obtinguen de l'alineament haurien de ser
-independents del format del document. Els programes més recents
-resolen això amb \emph{filtres} o \emph{conversors} per als formats de
-text més freqüents, filtres que tracten d'ocultar al màxim possible a
-la persona usuària les característiques de format dels documents
-perquè puguen concentrar-se en les textuals.\footnote{A voltes, qui
-  tradueix ha de gestionar explícitament les etiquetes de format per
-  assegurar una bona traducció: tots els programes ofereixen la
-  possibilitat d'\emph{editar etiquetes} manualment: les etiquetes
-  s'agrupen i simplifiquen per fer més fàcil la faena.} Els
-professionals valoren molt la capacitat de gestionar el format de
-manera senzilla i eficient, ja que la preservació del format de les
-traduccions és una de les tasques que els fa perdre més temps.
+  concrets); en aquest cas, pot ser molt útil veure tot el programa a
+  més dels textos.}  A més, les unitats de traducció que se
+n'obtinguen de l'alineament haurien de ser independents del format del
+document. Els programes més recents resolen això amb \emph{filtres} o
+\emph{conversors} per als formats de text més freqüents, filtres que
+tracten d'ocultar al màxim possible a la persona usuària les
+característiques de format dels documents perquè puguen concentrar-se
+en les textuals.\footnote{A voltes, qui tradueix ha de gestionar
+  explícitament les etiquetes de format per assegurar una bona
+  traducció: tots els programes ofereixen la possibilitat
+  d'\emph{editar etiquetes} manualment: les etiquetes s'agrupen i
+  simplifiquen per fer més fàcil la faena.} Els professionals valoren
+molt la capacitat de gestionar el format de manera senzilla i
+eficient, ja que la preservació del format de les traduccions és una
+de les tasques que els fa perdre més temps.
 
 \subsubsection{Alineament assistit}
 
@@ -419,8 +419,6 @@ $$
 \label{fg:preMT}
 \end{figure}
 
-
-
 \subsection{Ampliació de la memòria}
 
 Una vegada feta la pretraducció o la selecció interactiva de propostes
@@ -509,10 +507,9 @@ aspectes de manera similar a una memòria de traducció.
 %gran quantitat de documents pretraduïts.  
 
 
-\section{L'intercanvi de memòries de traducció}
+\section{Intercanvi de memòries de traducció}
 
 \subsection{El format d'intercanvi TMX}
-
 
 Freqüentment, els traductors formen equips que col·laboren a l'hora de
 produir les traduccions; quan usen memòries de traducció, és possible
@@ -525,66 +522,72 @@ memòries de traducció''); quasi tots els programes gestors de memòries
 de traducció poden escriure i llegir memòries en aquest format.  El
 format TMX segueix les especificacions XML (vegeu
 l'apartat~\ref{s3:SGML}); és a dir, les memòries TMX són un tipus de
-document XML, definit, per tant, per una DTD concreta.\footnote{\url{http://www.ttt.org/oscarstandards/tmx/tmx14b.html}}
+document XML, definit, per tant, per una DTD
+concreta.\footnote{\url{http://www.ttt.org/oscarstandards/tmx/tmx14b.html}}
 
-Heus ací part d'una memòria de traducció en TMX (s'hi mostren només
-\emph{dues} UTs):
-\begin{verbatim}
+\begin{figure}
+\begin{center}
+\begin{alltt}
 <?xml version='1.0' encoding='ISO-8859-1' ?>
 <!DOCTYPE tmx SYSTEM 'tmx13.dtd'>
-<tmx version='1.3'>
- <header
-  creationtool='Waikoloa'
-  creationtoolversion='1.00'
-  datatype='plaintext'
-  segtype='paragraph'
-  adminlang='EN-US'
-  srclang='EN-US'
-  o-tmf='okLiteTM'
- >
- </header>
- <body>
+<\textbf{tmx} version='1.3'>
+ <\textbf{header} creationtool='Waikoloa' 
+                  creationtoolversion='1.00'
+                  datatype='plaintext'
+                  segtype='paragraph'
+                  adminlang='EN-US'
+                  srclang='EN-US'
+                  o-tmf='okLiteTM'>
+ </\textbf{header}>
+ <\textbf{body}>
  <!-- ... -->
-   <tu tuid='511'>
-   <prop type='tmkey'>a thesaurus error occurred word 
-   is ending the current session</prop>
-   <tuv xml:lang='EN-US'> 
-    <seg>A thesaurus error occurred. Word is ending 
-    the current session.</seg>
-   </tuv>
-   <tuv xml:lang='FR-FR'> 
-    <seg>Une erreur s'est produite pendant l'exécution 
+   <\textbf{tu} tuid='511'>
+   <\textbf{prop} type='tmkey'>a thesaurus error occurred word 
+   is ending the current session</\textbf{prop}>
+   <\textbf{tuv} xml:lang='EN-US'> 
+    <\textbf{seg}>A thesaurus error occurred. Word is ending 
+    the current session.</\textbf{seg}>
+   </\textbf{tuv}>
+   <\textbf{tuv} xml:lang='FR-FR'> 
+    <\textbf{seg}>Une erreur s'est produite pendant l'exécution 
     du dictionnaire des synonymes. Word met fin à la 
-    session en cours.</seg>
-   </tuv>
-  </tu>
-  <tu tuid='512'>
-   <prop type='tmkey'>a thumbnail preview is not 
-    available for this file</prop>
-   <tuv xml:lang='EN-US'>
-    <seg>A thumbnail preview is not available 
-         for this file.</seg>
-   </tuv>
-   <tuv xml:lang='FR-FR'>
-    <seg>Il n'y a pas d'aperçu disponible 
-         pour cette image.</seg>
-   </tuv>
-  </tu>
+    session en cours.</\textbf{seg}>
+   </\textbf{tuv}>
+  </\textbf{tu}>
+  <\textbf{tu} tuid='512'>
+   <\textbf{prop} type='tmkey'>a thumbnail preview is not 
+    available for this file</\textbf{prop}>
+   <\textbf{tuv} xml:lang='EN-US'>
+    <\textbf{seg}>A thumbnail preview is not available for
+         this file.</\textbf{seg}>
+   </\textbf{tuv}>
+   <\textbf{tuv} xml:lang='FR-FR'>
+    <\textbf{seg}>Il n'y a pas d'aperçu disponible pour
+         cette image.</\textbf{seg}>
+   </\textbf{tuv}>
+  </\textbf{tu}>
   <!-- ... -->
-</body>
-</tmx>
-\end{verbatim}
-En l'exemple, les unitats de traducció (\texttt{tu}) del cos
-(\texttt{body}), cada una amb el seu identificador únic
-(\texttt{tuid}) contenen dues variants (\texttt{tuv}), cada una en una
-llengua (\texttt{xml:lang="}\ldots\texttt{"}), a més d'un element
-\texttt{prop} que conté la clau (\texttt{key}) per a cercar la UT en
-la base de dades. Abans del cos, l'element arrel \texttt{tmx} conté
-una capçalera (\texttt{header}) amb informació sobre la creació i les
-característiques de la memòria.
+</\textbf{body}>
+</\textbf{tmx}>
+\end{alltt}
+\end{center}
+\caption{Exemple de memòria de traducció en TMX; s'hi mostren només
+  dues unitats de traducció.}
+\label{fg:tmx}
+\end{figure}
+
+La figura \ref{fg:tmx} mostra part d'una memòria de traducció en el
+format TMX. S'hi mostren només dues unitats de traducció (\texttt{tu})
+dins del cos (\texttt{body}), cada una amb el seu identificador únic
+(\texttt{tuid}). Cada unitat de traducció conté dues variants
+(\texttt{tuv}), cada una en una llengua
+(\texttt{xml:lang="}\ldots\texttt{"}), a més d'un element
+\texttt{prop} que conté la clau (\texttt{key}) per a cercar la unitat
+de traducció en la base de dades. Abans del cos, l'element arrel
+\texttt{tmx} conté una capçalera (\texttt{header}) amb informació
+sobre la creació i les característiques de la memòria.
 
 \subsection{Altres problemes}
-
 Però, fins i tot quan ja s'ha resolt aquest problema tècnic,
 l'intercanvi de memòries de traducció entre traductors o equips de
 traducció diferents no està exempt de problemes. D'una banda, es poden
@@ -594,166 +597,182 @@ comporten mecanismes complexos de reconeixement d'autoritat o de
 prestigi, que poden ser difícils de consensuar. D'altra banda,
 l'organització, el manteniment i la explotació de grans memòries de
 traducció distribuïdes (en les diverses màquines d'una xarxa) està
-lluny de ser trivial. Per exemple, en el cas de l'espanyol i el català,
-una gran memòria de traducció alimentada amb les traduccions fetes
-només en l'àmbit de les administracions autonòmiques i locals
+lluny de ser trivial. Per exemple, en el cas de l'espanyol i el
+català, una gran memòria de traducció alimentada amb les traduccions
+fetes només en l'àmbit de les administracions autonòmiques i locals
 estalviaria grans quantitats de temps i diners a l'hora de mantenir la
 documentació bilingüe d'aquestes institucions, però encara no s'ha
 substanciat un recurs d'aquesta mena, malgrat la gran quantitat de
 veus que n'han expressat la necessitat i la conveniència.
 
-\section{Usos més comuns de les memòries de traducció}
-\label{se:usosmemtrad}
-
 \section{Qüestions i exercicis}
 
 \begin{enumerate}
-\item Indica quina d'aquestes afirmacions és certa.
-\begin{enumerate}
-\item Les memòries de traducció són bàsicament sistemes de
-     traducció directa i, per tant, la unitat bàsica de traducció que
-     usen és el mot.
-\item Les memòries de traducció usen informació sobre les
-     categories lèxiques dels mots per a decidir els alineaments.
-\item Per a traduir un text nou amb una memòria de traducció
-     és necessari que hi haja textos
-     originals i traduïts que hagen estat alineats.
-\end{enumerate}
 
-\item Una memòria de traducció es pot veure com una base de dades 
-   
-\begin{enumerate}
-\item on cada registre és una llengua i cada camp una unitat de
-      traducció
-\item on cada registre és una oració i cada camp un mot
-\item on cada registre és una unitat de traducció i la variant en
-      cada llengua es guarda en un camp diferent
-\end{enumerate}
-
-\item Quina característica dels textos que s'han de traduir fa que
-   l'ús de memòries de traducció siga la solució adequada?
-   
-\begin{enumerate}
-\item El fet que els textos estiguen escrits amb un lèxic
-      monosèmic, és a dir, precís i no gens ambigu.
-\item La repetitivitat
-\item La similitud entre les llengües origen i meta
-\end{enumerate}
-
-\item Quant al funcionament, 
-a quins sistemes de traducció automàtica s'assemblen més les
-memòries de traducció?
-\begin{enumerate}
-\item Als sistemes de traducció automàtica directes o mot per mot.
-\item Als sistemes de traducció automàtica per interlingua.
-\item Als sistemes de traducció automàtica per transferència.
-\end{enumerate}
-\item Les memòries de traducció comercials actuals segmenten i alineen els textos
-{\ldots}
-\begin{enumerate}
-\item {\ldots}fent un balanç òptim entre cobertura i precisió.
-\item {\ldots}usant la informació sintàctica com a pista.
-\item {\ldots}usant regles que analitzen la puntuació i el format.
-\end{enumerate}
-
-\item Indica quina d'aquestes afirmacions és falsa.
-\begin{enumerate}
-\item Els resultats produïts per una memòria de traducció no
-     necessiten revisió, ja que es basen en traduccions correctes realizades
-     anteriorment per professionals.
-   \item Les memòries de traducció poden organitzar els fragments i
-     les traduccions corresponents en bases de dades similars a les
-     bases de dades lèxiques o terminològiques.
-\item Una memòria de traducció és un sistema de traducció
-     directa amb equivalències entre segments de text 
-     observades en textos anteriorment traduïts.
-\end{enumerate}
-
-\item Les memòries de traducció usen els signes de puntuació per a 
-     segmentar les oracions abans d'alinear els textos. En particular,
-     l'aparició d'un punt (``\texttt{.}'') és moltes vegades un bon  
-     indicador del final d'una oració, però no sempre. Quan no? Doneu
-     almenys \emph{quatre} excepcions diferents a aquesta regla i   
-     descrigueu, en cada cas, una regla senzilla que permeta decidir
-     amb seguretat raonable quan ens trobem en cada una d'aquestes
-     excepcions, usant el mínim possible d'anàlisi lingüística del
-     text.
-
-\item La majoria de les memòries de traducció comercials divideixen
-      els bitextos en unitats de traducció{\ldots}
-   
-\begin{enumerate}
-\item {\ldots} aproximadament equivalents a una oració, usant
-      regles senzilles i relativament independents de la llengua per a
-      segmentar (dividir) cada text en oracions.
-\item {\ldots} en mots i petites unitats multimot (entre dos i
-      quatre mots) de gran repetitivitat.
-\item {\ldots} equivalents a una oració, usant una anàlisi
-      lingüística detallada del
-      text per a determinar l'extensió de cada oració.
-\end{enumerate}
-\item Que hem de fer amb els bitextos existents per a poder reutilitzar la
-   informació que contenen per a fer noves traduccions amb una memòria
-   de traducció?
-   
-\begin{enumerate}
-\item Passar-los a XML.
-\item Segmentar cada un dels dos textos en oracions.
-\item Segmentar els dos textos i alinear-los.
-\end{enumerate}
-
-\item Estem traduint un segment en un programa de traducció assistida
-  (com ara OmegaT) i el programa ens dóna una sèrie de propostes que
-  vénen de la memòria de traducció. Quin d'aquests indicadors indica
-  millor l'esforç que haurem de fer per acabar de traduir el segment?
+\item Indica quina d'aquestes afirmacions és certa:
   \begin{enumerate}
-\item El percentatge de concordança parcial de la millor
-    proposta
-\item El nombre de propostes
-\item La longitud en
-    paraules de la millor proposta (com més llarga, millor)
-  \end{enumerate}
-
-
-\item La majoria dels programes de traducció assistida basats en
-  memòries de traducció no donen una de les tres informacions
-  següents: 
-  \begin{enumerate}
-  \item El percentatge de coincidència entre el nou
-    segment a traduir i el segment origen de la unitat de traducció
-    proposada. 
-  \item Els mots que cal canviar en el segment
-    meta de la unitat de traducció proposada.
-  \item Els mots del
-    segment origen de la unitat de traducció proposada que es
-    diferencien de les del nou segment a traduir.
-  \end{enumerate}
-
-
-\item Indiqueu quina d'aquestes afirmacions és certa. 
-  \begin{enumerate}
-  \item Les
-    memòries de traducció són bàsicament sistemes de traducció directa
-    i, per tant, la unitat bàsica de traducció que usen és el mot.
-  \item Les memòries de traducció usen informació sobre les
-    categories lèxiques dels mots per a decidir els alineaments.
+  \item Les memòries de traducció són bàsicament sistemes de traducció
+    directa i, per tant, la unitat bàsica de traducció que usen és el
+    mot.
+  \item Les memòries de traducció usen informació sobre les categories
+    lèxiques dels mots per a decidir els alineaments.
   \item Per a no haver de traduir un text nou des de zero amb un
     sistema de ajuda a la traducció basat en memòries de traducció, és
     necessari que hi haja textos originals i traduïts que hagen estat
     alineats.
   \end{enumerate}
 
-\item Quina d'aquestes característiques d'un treball de traducció el fa més tractable amb memòries de traducció? 
+\item Una memòria de traducció es pot veure com una base de dades
+  \ldots
+  \begin{enumerate}
+  \item \ldots on cada registre és una llengua i cada camp una unitat
+    de traducció.
+  \item \ldots on cada registre és una oració i cada camp un mot.
+  \item \ldots on cada registre és una unitat de traducció i la
+    variant en cada llengua es guarda en un camp diferent.
+  \end{enumerate}
+
+\item Quina característica dels textos que s'han de traduir fa que
+  l'ús de memòries de traducció siga la solució adequada?
+  \begin{enumerate}
+  \item El fet que els textos estiguen escrits amb un lèxic monosèmic,
+    és a dir, precís i no gens ambigu.
+  \item La repetitivitat.
+  \item La similitud entre les llengües origen i meta.
+  \end{enumerate}
+
+\item Quant al funcionament, a quins sistemes de traducció automàtica
+  s'assemblen més les memòries de traducció?
+  \begin{enumerate}
+  \item Als sistemes de traducció automàtica directes o mot per mot.
+  \item Als sistemes de traducció automàtica per interlingua.
+  \item Als sistemes de traducció automàtica per transferència.
+  \end{enumerate}
+
+\item Les memòries de traducció comercials actuals segmenten i alineen
+  els textos {\ldots}
+  \begin{enumerate}
+  \item {\ldots} fent un balanç òptim entre cobertura i precisió.
+  \item {\ldots} usant la informació sintàctica com a pista.
+  \item {\ldots} usant regles que analitzen la puntuació i el format.
+  \end{enumerate}
+
+\item Indica quina d'aquestes afirmacions és falsa:
+  \begin{enumerate}
+  \item Els resultats produïts per una memòria de traducció no
+    necessiten revisió, ja que es basen en traduccions correctes
+    realitzades anteriorment per professionals.
+  \item Les memòries de traducció poden organitzar els segments i les
+    traduccions corresponents en bases de dades similars a les bases
+    de dades lèxiques o terminològiques.
+  \item Una memòria de traducció és un sistema de traducció directa
+    amb equivalències entre segments de text observades en textos
+    anteriorment traduïts.
+  \end{enumerate}
+
+\item Les memòries de traducció usen els signes de puntuació per a
+  segmentar les oracions abans d'alinear els textos. En particular,
+  l'aparició d'un punt (``\texttt{.}'') és moltes vegades un bon
+  indicador del final d'una oració, però no sempre. Quan no? Doneu
+  almenys \emph{quatre} excepcions diferents a aquesta regla i
+  descrigueu, en cada cas, una regla senzilla que permeta decidir amb
+  seguretat raonable quan ens trobem en cada una d'aquestes
+  excepcions, usant el mínim possible d'anàlisi lingüística del text.
+
+\item La majoria de les memòries de traducció comercials divideixen
+  els bitextos en unitats de traducció {\ldots}
+  \begin{enumerate}
+  \item {\ldots} aproximadament equivalents a una oració, usant regles
+    senzilles i relativament independents de la llengua per a
+    segmentar (dividir) cada text en oracions.
+  \item {\ldots} en mots i petites unitats multimot (entre dos i
+    quatre mots) de gran repetitivitat.
+  \item {\ldots} equivalents a una oració, usant una anàlisi
+    lingüística detallada del text per a determinar l'extensió de cada
+    oració.
+  \end{enumerate}
+
+\item Que hem de fer amb els bitextos existents per a poder
+  reutilitzar la informació que contenen per a fer noves traduccions
+  amb una memòria de traducció?
+  \begin{enumerate}
+  \item Passar-los a XML.
+  \item Segmentar cada un dels dos textos en oracions.
+  \item Segmentar els dos textos i alinear-los.
+  \end{enumerate}
+
+\item Estem traduint un segment en un programa de traducció assistida
+  (com ara OmegaT) i el programa ens dóna una sèrie de propostes que
+  vénen de la memòria de traducció. Quin d'aquests indicadors indica
+  millor l'esforç que haurem de fer per acabar de traduir el segment?
+  \begin{enumerate}
+  \item El percentatge de concordança parcial de la millor proposta.
+  \item El nombre de propostes.
+  \item La longitud en paraules de la millor proposta (com més llarga,
+    millor).
+  \end{enumerate}
+
+\item La majoria dels programes de traducció assistida basats en
+  memòries de traducció no donen una de les tres informacions
+  següents:
+  \begin{enumerate}
+
+  \item El percentatge de coincidència entre el nou segment a traduir
+    i el segment origen de la unitat de traducció proposada.
+  \item Els mots que cal canviar en el segment meta de la unitat de
+    traducció proposada.
+  \item Els mots del segment origen de la unitat de traducció
+    proposada que es diferencien de les del nou segment a traduir.
+  \end{enumerate}
+
+\item Quina d'aquestes característiques d'un treball de traducció el
+  fa més tractable amb memòries de traducció?
   \begin{enumerate}
   \item La repetitivitat dels textos.
   \item La proximitat entre les llengües origen i meta.
-  \item Que els textos origen i meta estiguen codificats en ISO-8859-1 (\emph{Latin-1}).
+  \item Que els textos origen i meta estiguen codificats en ISO-8859-1
+    (\emph{Latin-1}).
   \end{enumerate}
 
+\item Per poder explotar les traduccions presents en un bitext (o text
+  paral·lel) en un programa d'ajuda a la traducció basat en memòries
+  de traducció \ldots 
+  \begin{enumerate} 
+  \item \ldots hi ha prou amb incloure els bitexts com a font
+    d'unitats de traducció per al seu ús.
+  \item \ldots és necessari alinear els segments prèviament; aquesta
+    operació es pot fer automàticament, encara que pot requerir
+    supervisió.
+  \item \ldots primer cal convertir el bitext al format binari que use
+    el programa d'ajuda a la traducció que estiguem utilitzant.
+  \end{enumerate}
 
+\item En general, l'ús d'un programa gestor de memòries de traducció
+  fa que el procés de traducció siga més eficient quan \ldots
+  \begin{enumerate}
+  \item \ldots els textos a traduir són curts.
+  \item \ldots els textos a traduir són molt repetitius.
+  \item \ldots la llengua origen i meta de la traducció pertanyen a la
+    mateixa família de llengües.
+  \end{enumerate}
 
-% < QT10
+\item Com podem generar una memòria de traducció a partir d'un text i
+  de la seua traducció? 
+  \begin{enumerate}
+  \item Cal segmentar i alinear els segments.
+  \item Cal segmentar el text, però l'alineament no és necessari
+    perquè ja sabem que un text és traducció de l'altre.
+  \item No es pot, les memòries de traducció es creen en anar traduint
+    els segments.
+  \end{enumerate}
 
+\item Podem usar una memòria de traducció amb segments en anglés i
+  espanyol per traduir de l'alemany a l'espanyol? 
+  \begin{enumerate}
+  \item Sí, si tracten del mateix tema.
+  \item Sí, si la longitud dels segments és la mateixa.
+  \item No.
+  \end{enumerate}
 \end{enumerate}
 
 \section{Solucions}
@@ -764,54 +783,49 @@ memòries de traducció?
 \item (a)
 \item (c)
 \item (a)
-\item El punt apareix en moltes construccions que no indiquen el final de
-   una oració. Heus ací uns exemples i com detectar-los per a no
-   segmentar.
-
-   \begin{enumerate}
-   \item Punts de milers (1.259), milions (1.032.200), decimals saxons
-     (3.4), números de telèfon francesos (01.10.23.87.49), dates
-     (20.01.1999), etc. \emph{Solució:} 
-     Si detectem [xifra] ``.'' [xifra] (sense blancs), no
-     segmentem.
+\item El punt apareix en moltes construccions que no indiquen el final
+  de una oració. Heus ací uns exemples i com detectar-los per a no
+  segmentar.
+  \begin{enumerate}
+  \item Punts de milers (1.259), milions (1.032.200), decimals saxons
+    (3.4), números de telèfon francesos (01.10.23.87.49), dates
+    (20.01.1999), etc. \emph{Solució:} Si detectem [xifra] ``.''
+    [xifra] (sense blancs), no segmentem.
      
-    \item Punts en mig de sigles: CC(.)OO., EE(.)UU.,
-      etc. \emph{Solució:} 
-      si detectem [majúscula] ``.'' [majúscula] (sense blancs),
-     no segmentem.
+  \item Punts en mig de sigles: CC(.)OO., EE(.)UU.,
+    etc. \emph{Solució:} si detectem [majúscula] ``.'' [majúscula]
+    (sense blancs), no segmentem.
      
-    \item Punts al final d'abreviatura de cortesia: Sr(.), Dra(.),
-     Excm(.), etc. o d'altres que precedeixen noms propis (Avda.,
-     Pça.) o números (Tel.). \emph{Estratègia de solució:}
-     si detectem ``.'' [blanc] [minúscula], no segmentem;  si detectem
-     ``.'' [blanc] [número], no segmentem;    
-     si detectem ``.'' [blanc] [majúscula], què fem?: depén de
-     l'abreviatura (la decisió és impracticable sense vocabularis de
-     noms propis).
+  \item Punts al final d'abreviatura de cortesia: Sr(.), Dra(.),
+    Excm(.), etc. o d'altres que precedeixen noms propis (Avda., Pça.)
+    o números (Tel.). \emph{Estratègia de solució:} si detectem ``.''
+    [blanc] [minúscula], no segmentem; si detectem ``.'' [blanc]
+    [número], no segmentem; si detectem ``.'' [blanc] [majúscula], què
+    fem?: depén de l'abreviatura (la decisió és impracticable sense
+    vocabularis de noms propis).
   
-     \item Punts al final de sigles: CC.OO(.), O.N.U(.). \emph{Solució:}
-      si detectem [majúscules] ``.'' [majúscules] ``.'', no segmentar.
+  \item Punts al final de sigles: CC.OO(.), O.N.U(.). \emph{Solució:}
+    si detectem [majúscules] ``.'' [majúscules] ``.'', no segmentar.
      
-     \item Punts en URIs i adreces de correu electrònic.
-       \emph{Solució:} la millor seria una regla general (patró o expressió
-     regular) que detectara aquestes entitats i evitara segmentar-les.
-     Possibles escapatòries:  
-     si detectem [minúscula] ``.'' [minúscula] (sense blancs), no
-     segmentem.
+  \item Punts en URIs i adreces de correu electrònic.  \emph{Solució:}
+    la millor seria una regla general (patró o expressió regular) que
+    detectara aquestes entitats i evitara segmentar-les.  Possibles
+    escapatòries: si detectem [minúscula] ``.'' [minúscula] (sense
+    blancs), no segmentem.
      
-     \item Punts suspensius (``...''). \emph{Solució:}
-      no segmentar mai ``...'' si es troba.
-     
- \end{enumerate}
+  \item Punts suspensius (``...''). \emph{Solució:} no segmentar mai
+    ``...'' si es troba.     
+  \end{enumerate}
 
 \item (a)
 \item (c)
 \item (a)
 \item (b)
-\item (c)
 \item (a)
-
-% < SL10
+\item (b)
+\item (b)
+\item (a)
+\item (c)
 
 \end{enumerate}
 
