@@ -69,7 +69,7 @@ text $E'$ quan tenim ja el bitext $(E',D')$. El que sí que és probable
 és que algunes parts del text nou $E'$ apareguen també en la part
 esquerra d'alguns dels bitextos que ja tenim. Per això, necessitem
 obtenir a partir d'ells bitextos més menuts, amb parts esquerres que
-tinguen possibilitat de aparéixer de nou en el futur.
+tinguen possibilitat d'aparéixer de nou en el futur.
 
 \subsection{Segmentació de bitextos}
 La primera operació consisteix a \emph{segmentar} o \emph{dividir}
@@ -190,13 +190,13 @@ L'alineament automàtic de textos traduïts no és una tasca senzilla;
 són necessaris coneixements previs sobre les llengües involucrades
 (per exemple, correspondències entre mots o alineaments prèviament
 validats per una persona experta\footnote{O obtingut mitjançant
-  mètodes estadístics con els descrits en l'apartat~\ref{ss:induc}.}),
+  mètodes estadístics com els descrits en l'apartat~\ref{ss:induc}.}),
 per això, la majoria dels sistemes de memòria de traducció usen
 mecanismes molt senzills per a segmentar els textos, tant per a
 alinear bitextos com per a dividir un text esquerre nou en segments
 per a cercar-los en la base de dades.\footnote{És important usar el
-  mateix mètode per segmentar el bitext abans d'alinear-lo i per
-  segmentar els nou text esquerre a traduir.} Per tant, els segments
+  mateix mètode per a segmentar el bitext abans d'alinear-lo i per
+   a segmentar el nou text esquerre a traduir.} Per tant, els segments
 obtinguts no són en general els \emph{ideals} (vegeu més avall).  Els
 mecanismes de segmentació usuals intenten identificar unitats similars
 a l'oració usant la puntuació i el format com a indicadors, amb la
@@ -257,7 +257,7 @@ senzilla i intuïtiva abans d'incorporar els segments resultants a la
 memòria de traducció.
 
 \begin{persabermes}{l'alineament ideal}
-  Quin és l'alineament òptim d'un bitext? Quina és la millor manera de
+  Hem descrit un tipus d'alineament possible, basat en unitats fonamentalment equivalent a les oracions, però, quin seria l'alineament òptim d'un bitext? És a dir, quina seria la millor manera de
   dividir-lo en unitats de traducció?  La longitud de les unitats de
   traducció pot anar des dels mots fins a les oracions senceres. La
   probabilitat que un fragment esquerre (procedent dels bitextos ja
@@ -268,13 +268,13 @@ memòria de traducció.
   múltiples entre les quals s'hauria d'elegir: per exemple a una part
   esquerra $e$ li poden correspondre dues parts dretes $d$ i $d'$
   diferents en unitats de traducció diferents).  D'altra banda, si els
-  fragments són massa llargs és més improbable que siguen ambigus,
+  fragments són massa llargs, és més improbable que siguen ambigus,
   però és molt menys probable que es repetisquen exactament en textos
-  futurs.\footnote{Per exemple, el fragment espanyol \emph{las
+  futurs. Per exemple, el fragment espanyol \emph{las
       decepciones} es pot correspondre en català amb \emph{les
-      decebis} o \emph{les decepcions} però el fragment \emph{las
+      decebes} o \emph{les decepcions} però el fragment \emph{las
       decepciones sufridas} només pot aparéixer alineat amb \emph{les
-      decepcions patides}.} El \emph{fragment ideal} seria el que és
+      decepcions patides}. El \emph{fragment ideal} seria el que és
   suficientment menut per a aparéixer sovint però suficientment
   complet com per a tenir una traducció constant. És a dir, per una
   banda, es dóna un compromís entre la \emph{cobertura} (fracció d'un
@@ -315,7 +315,7 @@ només hi haja una traducció disponible, només cal inserir-ne la
 traducció directament.
 
 
-Però, com que això succeïx poques vegades, ja que els segments són
+Però, com que això succeeïx poques vegades, ja que els segments són
 normalment oracions i és difícil que es repetisquen \emph{exactament},
 la major part dels sistemes comercials usen estratègies per a no
 desaprofitar unitats de traducció que continguen parts esquerres
@@ -330,13 +330,13 @@ percentatge dels mots de $e'$, presenten com a \emph{traducció
   aproximada} la part dreta ($d$) corresponent a $e$.  Normalment, els
 sistemes, quan troben un segment similar però no idèntic, destaquen
 gràficament les diferències (per exemple, amb colors); així, la
-persona usuària pot fer-hi les modificacions necessària perquè la
+persona usuària pot fer-hi les modificacions necessàries perquè la
 traducció resultant siga correcta. Normalment, se sol establir un
 \emph{llindar} (en anglés \emph{fuzzy match threshold}) de manera que
 no es presenten propostes per davall d'una certa \emph{puntuació de
   concordança parcial} mínima (en anglés \emph{fuzzy match
   score}). Les puntuacions de concordança parcial se solen expressar
-com a percentatges, on 0\% indica falta total de concordança i 100\%
+com a percentatges, on el 0\% indica falta total de concordança i el 100\%
 concordança exacta, i el llindar se sol establir per damunt del 60\%.
 
 Alguns sistemes, fins i tot, són capaços d'usar les bases de dades
@@ -349,7 +349,7 @@ trobar les correspondències \pair{\em xarxa}{\em red} i \pair{\em
   impressora}{\em impresora} en una base de dades lèxica i usar-les
 per a proposar la traducció correcta (\emph{Conecte el ordenador a la
   red}).  D'altres programes usen estratègies pròpies (no descrites)
-per a ``assemblar'' o ``construir'' traduccions usant fragments de
+per a construir traduccions usant fragments de
 parts dretes de més d'una UT.  En general, la utilitat d'una memòria
 de traducció depén en gran part de la capacitat del sistema per a
 proposar traduccions per a segments {\em similars} (i per a això s'han
@@ -376,7 +376,7 @@ Hi ha dues modalitats d'ús de les memòries de traducció:
         $e'_1=e_{234}$ (100\%)& $d'_1=d_{234}$ \\\hline
         $e'_2\simeq e_{112}$ (87\%) & posteditar $d_{112} \to d'_2$ \\\hline
         $e'_3\simeq e_{47}$ (93\%) & posteditar $d_{47} \to d'_3$ \\\hline
-        $e'_4$ & generar $d_4$ desde zero \\\hline
+        $e'_4$ & generar $d_4$ des de zero \\\hline
         $e'_5=e_{51}$ (100\%) & $d'_5=d_{51}$ \\\hline
         \ldots & \ldots \\\hline
     \end{tabular}
@@ -475,7 +475,7 @@ i els relega a un mer paper de correctors, sinó que \emph{organitza} i
 fa més eficient el treball de traducció professional i, d'altra banda,
 perquè les memòries de traducció \emph{conserven l'estil} i \emph{les
   decisions terminològiques} de traduccions anteriors, que poden
-variar d'un equip a altre, mentres que els sistemes de traducció
+variar d'un equip a altre, mentre que els sistemes de traducció
 automàtica solen basar-se en seleccions terminològiques i d'estil de
 propòsit general, encara que siga dins d'una temàtica concreta.
 
@@ -483,7 +483,7 @@ S'ha de tenir en compte que la traducció automàtica pot constituir una
 alternativa acceptable en aquells segments on la memòria de traducció
 no pot fer una proposta raonable, i, de fet, molts programes de
 traducció assistida per ordinador combinen l'accés a memòries de
-traducció i l'accés a la traducció automàtica. El punt en el que les
+traducció amb l'accés a la traducció automàtica. La puntuació de concordança parcial per davall de la qual  
 propostes de la memòria de traducció comencen a ser menys útils que la
 traducció automàtica depén de la cobertura de la memòria de traducció
 per al tipus de text, de la llengua origen i la llengua meta, i, per
@@ -595,7 +595,7 @@ produir incoherències terminològiques i d'estil entre els fragments
 procedents de grups diferents; les decisions en cas de conflicte
 comporten mecanismes complexos de reconeixement d'autoritat o de
 prestigi, que poden ser difícils de consensuar. D'altra banda,
-l'organització, el manteniment i la explotació de grans memòries de
+l'organització, el manteniment i l'explotació de grans memòries de
 traducció distribuïdes (en les diverses màquines d'una xarxa) està
 lluny de ser trivial. Per exemple, en el cas de l'espanyol i el
 català, una gran memòria de traducció alimentada amb les traduccions
