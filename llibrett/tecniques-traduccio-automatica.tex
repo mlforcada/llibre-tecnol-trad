@@ -1140,7 +1140,7 @@ sintagmes i de categories lèxiques.
   \nter{SP} \der \ter{prep} \nter{SN} \\
   \end{array}
   $$
-  La gramàtica es ambigua, és a dir, capaç de generar dos arbres
+  La gramàtica és ambigua, és a dir, capaç de generar dos arbres
   d'anàlisi sintàctica per a oracions com ara \emph{L'home porta la
     clau de l'armari gran}.
 
@@ -1903,8 +1903,8 @@ apareixen els segments en LO a l'hora de puntuar les seues possibles
 traduccions. Aquestes deficiències es mitiguen parcialment amb l'ús
 d'un model de la LM.
 
-Un \textbf{model de llengua} es un model probabilístic que serveix per
-a mesurar la versemblança d'una oració o text en LM; es a dir, la seua
+Un \textbf{model de llengua} és un model probabilístic que serveix per
+a mesurar la versemblança d'una oració o text en LM; és a dir, la seua
 fluïdesa o gramaticalitat.\footnote{S'assumeix que el model de llengua
   s'aprén de textos naturals i gramaticalment correctes en LM.}
 Aquests models s'aprenen de forma automàtica a partir d'un corpus de
@@ -1962,13 +1962,13 @@ l'oració en LO \emph{No pensa amb el cap}.
   \item[Nombre total de paraules de l'oració:] Quan es puntuen les
     hipòtesis de traducció es multipliquen moltes probabilitats, és a
     dir valors entre 0 i 1, de manera que com més llarga siga una
-    traducció més probabilitats es multipliquen i més fàcil es arribar
+    traducció més probabilitats es multipliquen i més fàcil és arribar
     a tenir una puntuació molt prop de zero. Això fa que els sistemes
     preferisquen les traduccions curtes. Per a evitar això
     s'introdueix un model que compta el nombre de paraules en la
     hipòtesi de traducció i que fa que tinga relació amb el nombre de
     paraules de l'oració origen.
-  \item[Nombre de segments:] Aquest model es similar a l'anterior, però
+  \item[Nombre de segments:] Aquest model és similar a l'anterior, però
     comptant el nombre de segments bilingües que s'han usat per a
     produir una hipòtesi de traducció. Com més llargs siguen els
     segments, menys segments s'usaran i més context tindran; i a
@@ -2743,7 +2743,7 @@ Els exercicis marcats amb (*) són més difícils.
   \begin{enumerate}
   \item \ldots tradueixen cadascuna de les oracions una per una sense
     tenir en compte la resta d'oracions del text a traduir.
-  \item \ldots tradueixen directament (mot per mot) de a llengua
+  \item \ldots tradueixen directament (mot per mot) de la llengua
     origen a la llengua meta.
   \item \ldots necessiten construir una interpretació completa del
     text abans de traduir-ho.
