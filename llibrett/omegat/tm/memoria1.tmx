@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.5.3" segtype="sentence" srclang="CA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="CA">
+        <seg>#x0151;+ &lt;u0&gt;és el caràcter ``{&lt;u1&gt;{T1}{ec}{m}{n}&lt;u2&gt;{'256}}'').</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173905Z">
+        <seg>#x0151;+ &lt;u0&gt;es el caracter ``{&lt;u1&gt;{T1}{ec}{m}{n}&lt;u2&gt;{'256}}'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>240 &lt;u1&gt; 120 &lt;u2&gt; 9 &lt;n1&gt; &lt;u3&gt; Quan volem tenir els registres (les fitxes) d'una base de dades ordenada simultàniament per dos camps per a optimitzar les recerques construïm dos índexs.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174346Z">
+        <seg>240 &lt;u1&gt; 120 &lt;u2&gt; 9 &lt;n1&gt; &lt;u3&gt; Cuando queremos tener los registros (las fichas) de una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas construimos dos índices.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Depén; si els camps són numèrics no és necessari.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174131Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Depende; si los campos son numéricos no es necesario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; &lt;u3&gt; En què es diferencia un camp clau o camp índex de la resta dels camps d'una fitxa?{&lt;u4&gt;}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174454Z">
+        <seg>&lt;n1&gt; &lt;u3&gt;¿ En que se diferencia un campo clave o campo índice del resto de los campos de una ficha?{&lt;u4&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; &lt;u3&gt; Quan es duplica el nombre de fitxes d'una taula determinada d'una base de dades, què succeeix amb el nombre de consultes que realitza una recerca dicotòmica?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174909Z">
+        <seg>&lt;n1&gt; &lt;u3&gt; Cuando se duplica el número de fichas de una tabla determinada de una base de datos, ¿qué sucede con el número de consultas que realiza una búsqueda dicotómica?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; &lt;u4&gt; Quan usem un programa gestor de bases de dades terminològiques per a buscar un terme en una base de dades{&lt;u5&gt;}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T174028Z">
+        <seg>&lt;n1&gt; &lt;u4&gt; Cuando usamos un programa gestor de bases de datos terminológicas para buscar un término en una base de datos{&lt;u5&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; &lt;i1&gt;Altes o addicions:&lt;/i1&gt; afegir un nou registre a la base de dades, tot fent que els seus camps prenguen els valors corresponents.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T153019Z">
+        <seg>&lt;u1&gt; &lt;i1&gt;Altas o adiciones:&lt;/i1&gt; añadir un nuevo registro a la base de datos, haciendo que sus campos tomen los valores correspondientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; El sentit (entre els possibles sentits del terme) al qual es refereix la fitxa o registre actual.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172915Z">
+        <seg>&lt;u1&gt; El sentido (entre los posibles sentidos del término) al cual se refiere la ficha o registro actual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Es queda exactament com està.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174915Z">
+        <seg>&lt;u1&gt; Se queda exactamente como está.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Es refereixen al mateix terme.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174436Z">
+        <seg>&lt;u1&gt; Se refieren al mismo término.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; La manera d'emmagatzemar el camp és diferent (els camps índex o clau s'emmagatzemen de manera comprimida i els altres no).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174711Z">
+        <seg>&lt;u1&gt; La manera de almacenar el campo es diferente (los campos índice o clave se almacenan de manera comprimida y los otros no).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Només els números de les fitxes ordenats segons el valor del camp.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174406Z">
+        <seg>&lt;u1&gt; Sólo los números de las fichas ordenados según el valor del campo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Sí, però és necessari duplicar totes les fitxes en memòria.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174046Z">
+        <seg>&lt;u1&gt; Sí, pero es necesario duplicar todas las fichas en memoria.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; {&lt;u4&gt;} hem de conéixer com s'escriu exactament el terme per a poder trobar-lo.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174218Z">
+        <seg>&lt;u1&gt; {&lt;u4&gt;} tenemos que conocer como se escribe exactamente el término para poder encontrarlo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;i2&gt;Baixes o esborrats:&lt;/i2&gt; eliminar un o més registres.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T153031Z">
+        <seg>&lt;u2&gt; &lt;i2&gt;Bajas o borrados:&lt;/i2&gt; eliminar uno o más registros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u7&gt;{flamand83b}: traduir és representar amb precisió (fidelitat a l'autor) un missatge en LO en una forma autèntica i correcta de la LM, adaptada al contingut i al receptor (fidelitat al lector)''.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120508T162111Z">
+        <seg>&lt;u2&gt; &lt;u7&gt;{flamand83b}: traducir es representar con precisión (fidelidad al autor) un mensaje en LO en una forma auténtica y correcta de la LM, adaptada al contenido y al receptor (fidelidad al lector)''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Es troben en el mateix índex.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174439Z">
+        <seg>&lt;u2&gt; Se encuentran en el mismo índice.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; L'autor de la fitxa (quan més d'una persona gestiona la base de dades).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172933Z">
+        <seg>&lt;u2&gt; El autor de la ficha (cuando más de una persona gestiona la base de datos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Les recerques de fitxes per aquest camp són molt més ràpides que les que es facen per camps que no són clau o índex.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174738Z">
+        <seg>&lt;u2&gt; Las búsquedas de fichas por este campo son mucho más rápidas que las que se hacen por campos que no son clave o índice.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; No hi ha cap altre remei: cal duplicar la base de dades.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174143Z">
+        <seg>&lt;u2&gt; No hay ninguno otro remedio: hay que duplicar la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; S'incrementa en 1 com a promedi.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174921Z">
+        <seg>&lt;u2&gt; Se incrementa en 1 como promedio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Una còpia de les fitxes ordenades pel camp índex corresponent.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174413Z">
+        <seg>&lt;u2&gt; Una copia de las fichas ordenadas por el campo índice correspondiente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u5&gt;}sempre és necessari conéixer-ne la categoria lèxica i indicar-la al gestor</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174225Z">
+        <seg>&lt;u2&gt; {&lt;u5&gt;}siempre es necesario conocer la categoría léxica e indicarla al gestor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;i3&gt;Modificacions:&lt;/i3&gt; canviar el valor d'un o més camps d'un o més registres de la base de dades.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T153052Z">
+        <seg>&lt;u3&gt; &lt;i3&gt;Modificaciones:&lt;/i3&gt; cambiar el valor de uno o más campos de uno o más registros de la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u8&gt;{jakobson66b}: ``Traducció és la interpretació de signes verbals per mitjà d'una altra llengua''.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120508T162130Z">
+        <seg>&lt;u3&gt; &lt;u8&gt;{jakobson66b}: ``Traducción es la interpretación de signos verbales por medio de otra lengua''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; La definició del terme en una o més llengües.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172941Z">
+        <seg>&lt;u3&gt; La definición del término en una o más lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; No; s'hi pot crear més d'un &lt;i0&gt;índex&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174151Z">
+        <seg>&lt;u3&gt; No; se  puede crear más de un &lt;i0&gt;índice&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; El camp temàtic de la fitxa.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173031Z">
+        <seg>&lt;u4&gt; El campo temático de la ficha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; En el &lt;i8&gt;Diccionari de la Llengua Catalana&lt;/i8&gt;&lt;p0&gt; es defineix {&lt;u10&gt; traducció} com la ``reproducció del contingut d'un text o d'un enunciat oral, formulat en una llengua, en formes pròpies d'una altra llengua'' (i &lt;i9&gt;traduir&lt;/i9&gt; com ``escriure o dir en una llengua allò que ha estat escrit o dit en una altra'').</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120508T162255Z">
+        <seg>&lt;u4&gt; En el &lt;i8&gt;Diccionari de la Llengua Catalana&lt;/i8&gt;&lt;p0&gt; se define {&lt;u10&gt; traducción} como la ``reproducción del contenido de un texto o de un enunciado oral, formulado en una lengua, en formas propias de otra lengua'' (y  &lt;i9&gt;traducir&lt;/i9&gt; como ``escribir o decir en una lengua aquello que ha sido escrito o dicho en otra'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u5&gt; &lt;u9&gt;{alcaraz97b} defineixen traducció com ``expresión de un enunciado en la lengua de llegada [lengua meta] que sea equivalente al de la lengua de partida [lengua origen]''; queda per definir la noció d'&lt;i10&gt;equivalència&lt;/i10&gt;, que els mateixos autors defineixen així: ``la posesión del mismo valor por parte de los enunciados de la lengua de partida y de la de llegada''; l'equivalència pot ser {&lt;u11&gt; semàntica}, &lt;i11&gt;estilística&lt;/i11&gt; i &lt;i12&gt;textual&lt;/i12&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120508T164848Z">
+        <seg>&lt;u5&gt; &lt;u9&gt;{alcaraz97b} definen traducción como ``expresión de un enunciado en la lengua de llegada [lengua meta] que sea equivalente al de la lengua de partida [lengua origen]''; queda por definir la noción de &lt;i10&gt;equivalencia&lt;/i10&gt;, que los mismos autores definen así: ``la posesión del mismo valor por parte de los enunciados de la lengua de partida y de la de llegada''; la equivalencia puede ser {&lt;u11&gt; semántica}, &lt;i11&gt;estilística&lt;/i11&gt; y textual &lt;i12&gt;&lt;/i12&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u5&gt; Altres termes relacionats.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173043Z">
+        <seg>&lt;u5&gt; Otros términos relacionados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u6&gt; Informació sobre la morfologia o la flexió del terme en cada una de les llengües.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173051Z">
+        <seg>&lt;u6&gt; Información sobre la morfología o la flexión del término en cada una de las lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A més, també segueix les directrius de l'estàndar ISO 12620, que defineix un conjunt de camps, i els seus possibles valors, per a la informació terminològica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173553Z">
+        <seg>Además, también sigue las directrices del estàndar ISO 12620, que define un conjunto de campos, y sus posibles valores, para la información terminológica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Abans de considerar l'automatització de la traducció fóra bo que ens paràrem un poc per a discutir què vol dir exactament el mot &lt;i1&gt;traducció&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T152157Z">
+        <seg>Antes de considerar la automatización de la traducción sería bueno que nos detuviésemos a discutir qué quiere decir exactamente la palabra &lt;i1&gt;traducción&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Abans del cos (&lt;i3&gt;body&lt;/i3&gt;), l'element arrel {&lt;u2&gt; martif} conté una capçalera (&lt;i4&gt;martifHeader&lt;/i4&gt;) amb informació sobre l'origen de la base de dades.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173740Z">
+        <seg>Antes del cuerpo (&lt;i3&gt;body&lt;/i3&gt;), el elemento raíz {&lt;u2&gt; martif} contiene una cabecera (&lt;i4&gt;martifHeader&lt;/i4&gt;) con información sobre el origen de la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Afortunadament, en els darrers anys s'ha desenvolupat un conjunt de formats estàndards per facilitar aquest intercanvi; un dels més coneguts es TBX&lt;p0&gt;.} (per &lt;i0&gt;TermBase exchange&lt;/i0&gt;, ``intercanvi de bases de dades terminològiques'').</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173448Z">
+        <seg>Afortunadamente, en los últimos años se ha desarrollado un conjunto de formatos estándares para facilitar este intercambio; uno de los más conocidos es TBX&lt;p0&gt;.} (por &lt;i0&gt;TermBase exchange&lt;/i0&gt;, ``intercambio de bases de datos terminológicas'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Així, els registres d'una base de dades bibliogràfica contenen informació en camps: un per als autors, altre per al títol, etc.; d'altra banda, els registres de les bases de dades usades per a la gestió d'un vídeoclub contenen camps per a emmagatzemar la informació referent als socis (com ara, el nom, el telèfon o el domicili), a les pel·lícules (el títol, la persona que l'ha dirigida o el nombre de còpies disponibles) i als prèstecs (les dades d'inici i termini del prèstec o el preu de lloguer).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T170726Z">
+        <seg>Así, los registros de una base de datos bibliográfica contienen información en campos: uno para los autores, otro para el título, etc.; por otro lado, los registros de las bases de datos usadas para la gestión de un videoclub contienen campos para almacenar la información en lo referente a los socios (como por ejemplo, el nombre, el teléfono o el domicilio), a las películas (el título, la persona que la ha dirigido o el número de copias disponibles) y a los préstamos (los datos de inicio y plazo del préstamo o el precio de alquiler).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Això, la converteix en un recurs valuós i sovint els traductors en fan intercanvi.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173343Z">
+        <seg>Esto, la convierte en un recurso valioso y a menudo los traductores  hacen intercambios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Al final dels 1980 comença l'aplicació de tècniques d'inteligència artificial al processament del llenguatge humà (sistemes experts i sistemes basats en el coneixement dissenyats per entendre els textos).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163633Z">
+        <seg>Al final de los ochenta empieza la aplicación de técnicas de inteligencia artificial al procesamiento del lenguaje humano (sistemas expertos y sistemas basados en el conocimiento diseñados para entender los textos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Al llarg dels darrers anys, amb la generalització de l'ús d'Internet, s'han desenvolupat serveis de traducció disponibles en línia i nombroses eines per a l'assimilació de continguts electrònics com ara documents HTML i missatges de correu electrònic.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T151019Z">
+        <seg>A lo largo de los últimos años, con la generalización del uso de Internet, se han desarrollado servicios de traducción disponibles en línea y numerosas herramientas para la asimilación de contenidos electrónicos como por ejemplo documentos HTML y mensajes de correo electrónico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Alguns exemples de gestors de BD terminològiques disponibles comercialment són Termwatch (inclòs en la memòria de traducció Déjà Vu de la companyia Atril), SDL Multiterm (abans Trados Multiterm), o Termstar de Star Group.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173242Z">
+        <seg>Algunos ejemplos de gestores de BD terminológicas disponibles comercialmente son Termwatch (incluido en la memoria de traducción Déjà Vu de la compañía Atril), SDL Multiterm (antes Trados Multiterm), o Termstar de Star Group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Als 1980 apareixen nous sistemes de TA arreu del món amb expectatives més reals i l'interés en la TA resorgeix.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T160249Z">
+        <seg>En los ochenta aparecen nuevos sistemas de TA en todo el mundo con expectativas más reales y resurge el interés por la TA.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Als 1990, però, apareixen noves estratègies conegudes com a mètodes basats en corpus.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T164217Z">
+        <seg>En los noventa, en cambio, aparecen nuevas estrategias conocidas como métodos basados en corpus.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Amb el temps, molts dels programes que inclouen una base de dades terminològica podran llegir i escriure documents en aquest format.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173510Z">
+        <seg>Con el tiempo, muchos de los programas que incluyen una base de datos terminológica podrán leer y escribir documentos en este formato.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Anomenarem {&lt;u0&gt; text informatitzat</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T151732Z">
+        <seg>Denominaremos {&lt;u0&gt; texto informatizado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta definició evita el concepte d'&lt;i6&gt;equivalència&lt;/i6&gt; i introdueix el d'&lt;i7&gt;interpretació&lt;/i7&gt; com a conjunt de processos cognitius que tenen lloc en la ment del traductor.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120508T162140Z">
+        <seg>Esta definición evita el concepto de &lt;i6&gt;equivalencia&lt;/i6&gt; e introduce el de &lt;i7&gt;interpretación&lt;/i7&gt; como conjunto de procesos cognitivos que tienen lugar en la mente del traductor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta definició introdueix dues de les tres dimensions bàsiques d'un document escrit (original o traduït): el &lt;i2&gt;contingut&lt;/i2&gt; (significat) i la &lt;i3&gt;forma&lt;/i3&gt; (estil), però oblida el &lt;i4&gt;propòsit&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120508T161451Z">
+        <seg>Esta definición introduce dos de las tres dimensiones básicas de un documento escrito (original o traducido): el &lt;i2&gt;contenido&lt;/i2&gt; (significado) y la forma &lt;i3&gt;&lt;/i3&gt; (estilo), pero olvida el &lt;i4&gt;propósito&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta idea es va reforçar pel fet que van començar a aparèixer millores significatives en el maquinari, els primers llenguatges de programació i moltes millores en la lingüística formal (especialment en l'àrea de la sintaxi).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T154907Z">
+        <seg>Esta idea se reforzó cuando empezaron a aparecer mejoras significativas en el hardware, los primeros lenguajes de programación y muchas mejoras en la lingüística formal (especialmente en el área de la sintaxis).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta manca de recursos va fer que els primers objectius foren molt modests i, així, els primers investigadors van concentrar-se en el desenvolupament de llenguatges controlats (vegeu &lt;n1&gt;) i en l'ajuda humana en tasques de preedició i postedició (vegeu &lt;n2&gt;); era prou clar que els sistemes reals no podrien produir més que traduccions de molt baixa qualitat.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T154611Z">
+        <seg>Esta carencia de recursos hizo que los primeros objetivos fueran muy modestos y, así, los primeros investigadores se centraron en el desarrollo de lenguajes controlados (véase &lt;n1&gt;) y en la ayuda humana en tareas de preedición y postedición (véase &lt;n2&gt;); estaba bastante claro que los sistemas reales no podrían producir más que traducciones de muy baja calidad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ara repetim el procés i mirem l'element d'enmig (el 6) de la nova subllista i hi trobem l'element ``Esteve''; com que és menor alfabèticament que l'element que estem buscant, ens quedem amb la meitat alta (que inclou els elements del 7 al 12) de la subllista actual.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T155749Z">
+        <seg>Ahora repetimos el proceso y miramos el elemento de en medio (el 6) de la nueva sublista y  encontramos el elemento ``Esteve''; como es menor alfabéticamente que el elemento que estamos buscando, nos quedamos con la mitad alta (que incluye los elementos del 7 al 12) de la sublista actual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ara, però, el descobriment de noves tècniques va fer possible projectes com Candide a IBM.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T164301Z">
+        <seg>Ahora, sin embargo, el descubrimiento de nuevas técnicas hizo posible proyectos como Candide a IBM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Bases de dades</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T160807Z">
+        <seg>Bases de datos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Bases de dades lèxiques o terminològiques</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172755Z">
+        <seg>Bases de datos léxicas o terminológicas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Calia reduir al mínim la intervenció humana en el procés de TA, fins assolir la independència total i una qualitat comparable a la dels humans.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T155115Z">
+        <seg>Había que reducir al mínimo la intervención humana en el proceso de TA, hasta lograr la independencia total y una calidad comparable a la de los humanos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Candide usa mètodes estadístics per a l'anàlisi i la generació, però cap regla lingüística.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T164307Z">
+        <seg>Candide usa métodos estadísticos para el análisis y la generación, pero ninguna regla lingüística.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com a producte, una &lt;i0&gt;traducció&lt;/i0&gt; es pot identificar com a tal perquè és un document (en LM) derivat d'un altre document en un altre idioma (LO), i que manté una certa similitud de contingut amb aquest.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T152622Z">
+        <seg>Como producto, una &lt;i0&gt;traducción&lt;/i0&gt; se puede identificar como tal porque es un documento (en LM) derivado de otro documento en un idioma distinto (LO), y que mantiene una cierta similitud de contenido con este.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com hi podeu veure, la base de dades conté 10 registres amb 4 camps; els registres estan ordenats pel camp ``&lt;i0&gt;NÚM&lt;/i0&gt;'', que indica la posició de cada registre.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172454Z">
+        <seg>Como  podéis ver, la base de datos contiene 10 registros con 4 campos; los registros están ordenados por el campo ``&lt;i0&gt;NÚM&lt;/i0&gt;'', que indica la posición de cada registro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com molts altres substantius acabats en &lt;i1&gt;-ció</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T163702Z">
+        <seg>Como muchos otros sustantivos acabados en &lt;i1&gt;-ción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com que es tracta d'un cas especial d'allò que s'anomena en informàtica &lt;i0&gt;bases de dades&lt;/i0&gt;, introduirem primer aquest concepte i llavors n'estudiarem l'aplicació a la gestió terminològica a través de les bases de dades terminològiques.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T161213Z">
+        <seg>Como se trata de un caso especial de aquello que se denomina en informática &lt;i0&gt;bases de datos&lt;/i0&gt;, introduciremos primero este concepto y entonces  estudiaremos la aplicación en la gestión terminológica a través de las bases de datos terminológicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com s'explica en la pàg. &lt;n0&gt;, anomenem &lt;i0&gt;fitxers&lt;/i0&gt; els conjunts de dades que es guarden en un mitjà d'emmagatzematge secundari, que es manipulen com un tot i que s'identifiquen per un nom.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T170626Z">
+        <seg>Cómo se explica en la pág. &lt;n0&gt;, denominamos &lt;i0&gt;ficheros&lt;/i0&gt; a los conjuntos de datos que se guardan en un medio de almacenamiento secundario, que se manipulan como un todo y se identifican por un nombre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174033Z">
+        <seg>¿Cómo?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Considereu la base de dades de la taula &lt;n0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T175715Z">
+        <seg>Considerad la base de datos de la tabla &lt;n0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Convé comentar de pas que en anglés, la traducció automàtica s'anomena &lt;i0&gt;machine translation&lt;/i0&gt; i s'abreuja MT, paral·lelament a l'alemany, que usa la denominació &lt;i1&gt;maschinelle übersetzung&lt;/i1&gt;; en aquestes dues llengües s'expressa la noció d'automatisme mitjançant la referència a una {&lt;u0&gt; màquina}.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T152750Z">
+        <seg>Conviene comentar de paso que en inglés, la traducción automática se denomina &lt;i0&gt;machine translation&lt;/i0&gt; y se abrevia MT, de forma paralela al alemán, que usa la denominación &lt;i1&gt;maschinelle übersetzung&lt;/i1&gt;; en estas dos lenguas se expresa la noción de automatismo mediante la referencia a una {&lt;u0&gt; máquina}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, actualment la postedició no s'encarrega a traductors (que no consideren açò com a part del seu treball), sinó a persones preparades específicament.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163401Z">
+        <seg>De hecho, actualmente la postedición no se encarga a traductores (que no consideran esto como parte de su trabajo), sino a personas preparadas específicamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Des de l'informe ALPAC el camp va patir una redefinició progressiva vers una concepció de la TA com un procés en el qual els traductors humans juguen un paper bàsic, i comencen a desenvolupar-se eines de traducció pensant en aquesta intervenció.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T160959Z">
+        <seg>Desde el informe ALPAC el campo sufrió una redefinición progresiva hacia una concepción de la TA como un proceso en el cual los traductores humanos juegan un papel básico, y empiezan a desarrollarse herramientas de traducción pensando en esta intervención.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Des dels seus inicis, quasi tota la recerca i quasi tots els sistemes comercials de TA s'han centrat en els principals idiomes internacionals: anglés, francés, espanyol, japonés, rus, etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T151034Z">
+        <seg>Desde sus inicios, casi toda la investigación y casi todos los sistemas comerciales de TA se han centrado en los principales idiomas internacionales: inglés, francés, español, japonés, ruso, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Durant aquest decenni els esforços es dirigeixen vers la traducció indirecta amb representacions intermèdies o sense (com la interlingua; vegeu l'apartat &lt;n0&gt;) mitjançant anàlisis morfològiques i sintàctiques i, de vegades, coneixements no lingüistics.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T160633Z">
+        <seg>Durando ésta década los esfuerzos se dirigen hacia la traducción indirecta con representaciones intermedias o sin (como la interlingua; véase el apartado &lt;n0&gt;) mediante análisis morfológicos y sintácticos y, a veces, conocimientos no lingüisticos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El 1952 es va celebrar als Estats Units el primer congrés sobre TA on es van definir les línies fonamentals a seguir.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T154631Z">
+        <seg>En 1952 se celebró en los Estados Unidos el primer congreso sobre TA donde se definieron las líneas fundamentales a seguir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El capítol &lt;n1&gt; està dedicat a analitzar les diverses modalitats d'interacció entre persones i màquines en traducció.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T152029Z">
+        <seg>El capítulo &lt;n1&gt; está dedicado a analizar las diversas modalidades de interacción entre personas y máquinas en traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El format TBX segueix les especificacions XML (vegeu l'apartat &lt;n0&gt;); és a dir, els documents TBX són un tipus de document XML definit per una DTD concreta.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173531Z">
+        <seg>El formato TBX sigue las especificaciones XML (véase el apartado &lt;n0&gt;); es decir, los documentos TBX son un tipo de documento XML definido por una DTD concreta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El mètode consisteix a alinear en primer lloc les frases, els grups de mots i els mots en els dos textos i calcular després la probabilitat que un mot del text origen corresponga a un o més mots del text meta amb el qual ha estat alineat.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T124241Z">
+        <seg>El método consiste en alinear en primer lugar las frases, los grupos de palabras y las palabras en los dos textos y calcular después la probabilidad de que una palabra del texto origen corresponda a una o más palabras del texto meta con el cual ha sido alineado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El principals són els desenvolupats a ATR, CMU i el projecte Verbmobil.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T124343Z">
+        <seg>Los principales son los desarrollados en ATR, CMU y el proyecto Verbmobil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El problema d'aquesta definició és la indefinició del concepte de &lt;i5&gt;fidelitat&lt;/i5&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120508T162120Z">
+        <seg>El problema de esta definición es la indefinición del concepto de fidelidad &lt;i5&gt;&lt;/i5&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El programa que permet fer, entre altres, aquestes operacions de manera senzilla o fins i tot automàtica (aspecte molt important quan la base de dades conté milers de registres) és un programa &lt;i0&gt;gestor de bases de dades&lt;/i0&gt;, o bé l'inclou o l'invoca.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T153605Z">
+        <seg>El programa que permite hacer, entre otras, estas operaciones de manera sencilla o incluso automática (aspecto muy importante cuando la base de datos contiene miles de registros) es un programa &lt;i0&gt;gestor de bases de datos&lt;/i0&gt;, o bien lo incluye o lo invoca.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El projecte va estimular la investigació a tot Europa, però va ser abandonat finalment el 1992.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T160725Z">
+        <seg>El proyecto estimuló la investigación en toda Europa, pero fue abandonado finalmente en 1992.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El seu objectiu era la construcció d'un sistema de transferència multilingüe que permetera la traducció entre totes les llengües de la Comunitat Europea.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163243Z">
+        <seg>Su objetivo era la construcción de un sistema de transferencia multilingüe que permitiera la traducción entre todas las lenguas de la Comunidad Europea.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El sistema comercial més sofisticat dels 1980 és Metal (1988), finançat per Siemens i que tradueix de l'alemany a l'anglés.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163544Z">
+        <seg>El sistema comercial más sofisticado de los ochenta es Metal (1988), financiado por Siemens y que traduce del alemán al inglés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El terme hongarés és ``{&lt;u3&gt;{T1}{ec}{m}{n}Alfa simítási tényez&lt;u4&gt;{'256}}''; en el document d'exemple, els caràcters especials s'indiquen amb el seu codi Unicode (per exemple,  &lt;u5&gt;+</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173832Z">
+        <seg>El término húngaro es ``{&lt;u3&gt;{T1}{ec}{m}{n}Alfa simítási tényez&lt;u4&gt;{'256}}''; en el documento de ejemplo, los caracteres especiales se indican con su código Unicode (por ejemplo,  &lt;u5&gt;+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els camps poden ser de diversos &lt;i0&gt;tipus&lt;/i0&gt;, segons la naturalesa de les dades que s'hi guarden (cadenes de caràcters, valors numèrics enters o amb decimals, dates de calendari, etc.)</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T171411Z">
+        <seg>Los campos pueden ser de varios &lt;i0&gt;tipos&lt;/i0&gt;, según la naturaleza de los datos que se  guarden (cadenas de caracteres, valores numéricos enteros o con decimales, fechas de calendario, etc.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els conceptes d'aquesta secció estan presos quasi íntegrament d'aquesta obra.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T163926Z">
+        <seg>Los conceptos de esta sección están tomados casi íntegramente de esta obra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els gestors de terminologia són uns dels programes de MAHT (traducció humana assistida per una màquina; vegeu l'apartat &lt;n0&gt;) més usats pels traductors.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T175235Z">
+        <seg>Los gestores de terminología son unos de los programas de MAHT (traducción humana asistida por una máquina; véase el apartado &lt;n0&gt;) más usados por los traductores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els metodes basats en exemples (vegeu el capítol &lt;n0&gt;) s'aprofiten també de l'existència de grans corpora de textos traduïts (per això també s'en diu basats en memòria).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150223Z">
+        <seg>Los métodos basados en ejemplos (véase el capítulo &lt;n0&gt;) se aprovechan también de la existencia de grandes conjuntos de corpus de textos traducidos (por eso también se  dice basados en memoria).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els mètodes basats en corpus es poden dividir en dos grups: estadístics i basats en exemples.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T164223Z">
+        <seg>Los métodos basados en corpus se pueden dividir en dos grupos: estadísticos y basados en ejemplos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els mètodes estadístics ja van ser considerats als anys seixanta, però aviat van ser descartats perquè els resultats obtinguts no eren acceptables.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T164234Z">
+        <seg>Los métodos estadísticos ya fueron considerados en los años sesenta, pero pronto fueron descartados porque los resultados obtenidos no eran aceptables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els principals corrents dins la TA des dels 70 són, per tant: eines de suport a la traducció per a traductors, sistemes de TA amb intervenció humana i recerca teòrica vers un sistema completament automàtic de traducció.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T161017Z">
+        <seg>Las principales corrientes dentro de la TA desde los 70 son, por lo tanto: herramientas de apoyo a la traducción para traductores, sistemas de TA con intervención humana e investigación teórica hacia un sistema completamente automático de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els projectes més notables són GETA-Ariane (Grenoble), SUSY (Saarbrücken), Mu (Kyoto), DLT (Utrecht), Rosetta (Eindhoven), el projecte de la Universitat Carnegie-Mellon (Pittsburgh) i dos projectes internacionals: Eurotra, finançat per la Comunitat Europea i el projecte japonés CICC amb participants a la Xina, Indonèsia i Tailàndia.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T162956Z">
+        <seg>Los proyectos más notables son GETA-Ariane (Grenoble), SUSY (Saarbrücken), Mu (Kyoto), DLT (Utrecht), Rosetta (Eindhoven), el proyecto de la Universidad Carnegie-Mellon (Pittsburgh) y dos proyectos internacionales: Eurotra, financiado por la Comunidad Europea y el proyecto japonés CICC con participantes en China, Indonesia y Tailandia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els recursos de maquinari, programari i llenguatges de programació eren massa reduïts i la primera aproximació va ser la traducció mot per mot basada en diccionari amb algunes regles senzilles de reordenament (actualment anomenada &lt;i0&gt;traducció directa&lt;/i0&gt; (vegeu l'apartat &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T154439Z">
+        <seg>Los recursos de hardware, software y lenguajes de programación eran demasiado reducidos y la primera aproximación fue la traducción palabra por palabra basada en diccionarios con algunas reglas sencillas de reordenamiento (actualmente llamada &lt;i0&gt;traducción directa&lt;/i0&gt; (véase el apartado &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els registres d'una base de dades lèxica multilingüe poden contenir molts tipus de camps: &lt;n0&gt; &lt;u0&gt; El terme en cada una de les llengües (camps que normalment s'usen d'índex per a fer les recerques més eficients).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172901Z">
+        <seg>Los registros de una base de datos léxica multilingüe pueden contener muchos tipos de campos: &lt;n0&gt; &lt;u0&gt; El término en cada una de las lenguas (campos que normalmente se usan de índice para hacer las busquedas más eficientes).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els traductors es van sentir amenaçats.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T155257Z">
+        <seg>Los traductores se sintieron amenazados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els treballs a IBM van utilitzar el gran corpus de textos en anglés i francés resultants de les sessions del Parlament de Canadà.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T164330Z">
+        <seg>Los trabajos en IBM utilizaron el gran corpus de textos en inglés y francés resultantes de las sesiones del Parlamento de Canadá.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els índexs contenen{&lt;u4&gt;}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174349Z">
+        <seg>Los índices contienen{&lt;u4&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els índexs s'han de refer parcialment quan es fan altes, baixes o modificacions de registres per tal que les consultes continuen sent eficients.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172310Z">
+        <seg>Los índices se tienen que rehacer parcialmente cuando se hacen altas, bajas o modificaciones de registros para que las consultas continúen siendo eficientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En aquest cas, el nombre de consultes hauria estat de 5 i, doncs, es compleix l'afirmació anterior: la recerca dicotòmica mira com a molt $n$ fitxes si el fitxer té entre $2^{n-1}$ i $2^n$ fitxes; ací el nombre d'elements total (25) està entre $2^5=32$ i $2^4=16$, i el nombre d'elements consultats ha estat $n=5$.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T170011Z">
+        <seg>En este caso, el número de consultas habría sido de 5 y, entonces, se cumple la afirmación anterior: la búsqueda dicotómica mira como mucho $n$ fichas si el fichero tiene entre $2^{n-1}$ y $2^n$ fichas; aquí el número de elementos total (25) está entre $2^5=32$ y $2^4=16$, y el número de elementos consultados ha sido $n=5$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En aquests anys es consolida la idea que els sistemes de TA no són per a traductors; un traductor necessita eines que li faciliten el treball: diccionaris, bases de dades terminològiques (vegeu el capítol &lt;n0&gt;), sistemes de comunicació, memòries de traducció (vegeu el capítol &lt;n1&gt;), etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T124149Z">
+        <seg>En estos años se consolida la idea de que los sistemas de TA no son para traductores; un traductor necesita herramientas que le faciliten el trabajo: diccionarios, bases de datos terminológicas (véase el capítulo &lt;n0&gt;), sistemas de comunicación, memorias de traducción (véase el capítulo &lt;n1&gt;), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En canvi, en francés o en rus es parla, com en català o en espanyol, de {&lt;u1&gt; traduction automatique} o &lt;i2&gt;avtomatitxeski perevod&lt;/i2&gt;, respectivament.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T123548Z">
+        <seg>En cambio, en francés o en ruso se habla, como en catalán o en español, de {&lt;u1&gt; traduction automatique} o &lt;i2&gt;avtomatitxeski perevod&lt;/i2&gt;, respectivamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En el moment d'escriure aquestes línies s'observa un resorgiment de les tècniques de &lt;i0&gt;traducció automàtica estadística&lt;/i0&gt; com les que es van iniciar en IBM durant la dècada dels 1990; fins i tot han aparegut empreses que es proposen comercialitzar productes que &lt;i1&gt;aprenen&lt;/i1&gt; el vocabulari i les regles de traducció directament de grans textos bilingües.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T124539Z">
+        <seg>En el momento de escribir estas líneas se observa un resurgimiento de las técnicas de &lt;i0&gt;traducción automática estadística&lt;/i0&gt; como las que se iniciaron en IBM durante la década de los noventa; incluso han aparecido empresas que se proponen comercializar productos que &lt;i1&gt;aprenden&lt;/i1&gt; el vocabulario y las reglas de traducción directamente de grandes textos bilingües.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En general, aquestes operacions es poden considerar bàsicament independents del procés de traducció mateix ---com farem en aquest llibre---, però hi ha programes més avançats que són fins i tot capaços d'usar la informació de les etiquetes com a context per a elegir una traducció on hi ha més d'una alternativa.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T153251Z">
+        <seg>En general, estas operaciones se pueden considerar básicamente independientes del propio proceso de traducción ---como haremos en este libro---, pero hay programas más avanzados que son incluso capaces de usar la información de las etiquetas como contexto para elegir una traducción concreta cuando hay más de una alternativa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En informàtica, els fitxers d'aquesta mena se solen anomenar normalment &lt;i4&gt;bases de dades&lt;/i4&gt;; les fitxes s'anomenen &lt;i5&gt;registres&lt;/i5&gt; i cada element d'informació de la fitxa s'anomena &lt;i6&gt;camp&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T152133Z">
+        <seg>En informática, los ficheros de este tipo se suelen denominar normalmente &lt;i4&gt;bases de datos&lt;/i4&gt;; las fichas se denominan &lt;i5&gt;registros&lt;/i5&gt; y cada elemento de información de la ficha se denomina &lt;i6&gt;campo&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En una recerca dicotòmica mirem la fitxa que hi ha enmig del fitxer; si ens hem passat, repetim l'operació amb la primera meitat del fitxer, i si ens hem quedat curts, ho fem amb la segona meitat.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T154828Z">
+        <seg>En una búsqueda dicotómica miramos la ficha que hay en medio del fichero; si nos hemos pasado, repetimos la operación con la primera mitad del fichero, y si nos hemos quedado cortos, lo hacemos con la segunda mitad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Encara resta molt a fer amb les altres llengues del món.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T151052Z">
+        <seg>Todavía queda mucho que hacer con las otras lenguas del mundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ens els darrers 10 anys, un dels camps amb més investigacions ha estat el de traducció de la parla, una idea que evidentment ha estat present des de fa dècades, però que només ara es pot materialitzar parcialment.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150502Z">
+        <seg>En los últimos 10 años, uno de los campos con más investigaciones ha sido el de "traducción del habla", una idea que evidentemente ha estado presente desde hace décadas, pero que solo ahora se puede materializar parcialmente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Entrades compostes pel valor del camp índex i el número de la fitxa (del registre).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174400Z">
+        <seg>Entradas compuestas por el valor del campo índice y el número de la ficha (del registro).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es duplica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174911Z">
+        <seg>Se duplica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es guarda en un tipus de memòria RAM més ràpida anomenada &lt;i0&gt;cache&lt;/i0&gt; o &lt;i1&gt;memòria cau&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174659Z">
+        <seg>Se guarda en un tipo de memoria RAM más rápida llamada &lt;i0&gt;cache&lt;/i0&gt; o &lt;i1&gt;memoria cau&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es poden dir encara més coses sobre la traducció: &lt;n0&gt; &lt;u0&gt; les traduccions solen estar escrites en un subllenguatge particular (registre, especialitat...) de la comunitat lingüística de la LM, basat en un subllenguatge paral·lel de la LO; &lt;u1&gt; els documents i les traduccions corresponents es poden classificar en tipus&lt;p0&gt; i aquesta tipologia afecta la traducció; &lt;u2&gt; la traducció es veu afectada per elements extralingüístics perquè, normalment, els documents són entitats que uneixen l'expressió lingüística amb l'expressió no lingüística; &lt;u3&gt; les traduccions tenen un &lt;i5&gt;receptor&lt;/i5&gt; o &lt;i6&gt;lector&lt;/i6&gt;; una traducció, com a acte comunicatiu ha de considerar, a més de la intenció de la traducció, les expectatives dels lectors, que resulten del seu rerefons cultural i de les seues necessitats comunicatives, i que influeixen en la recepció del text traduït; &lt;u4&gt; la traducció sempre té una motivació: la superació de barreres comunicatives; per això se n'ha creat una professió.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T164833Z">
+        <seg>Se pueden decir más cosas todavía sobre la traducción: &lt;n0&gt; &lt;u0&gt; las traducciones suelen estar escritas en un sublenguaje particular (registro, especialidad...) de la comunidad lingüística de la LM, basado en un sublenguaje paralelo de la LO; &lt;u1&gt; los documentos y las traducciones correspondientes se pueden clasificar en tipos&lt;p0&gt; y esta tipología afecta la traducción; &lt;u2&gt; la traducción se ve afectada por elementos extralingüísticos porque, normalmente, los documentos son entidades que unen la expresión lingüística con la no lingüística; &lt;u3&gt; las traducciones tienen un &lt;i5&gt;receptor&lt;/i5&gt; o  &lt;i6&gt;lector&lt;/i6&gt;; una traducción, como acto comunicativo tiene que considerar, además de la intención de la traducción, las expectativas de los lectores, que resultan de su trasfondo cultural y sus necesidades comunicativas, y que influyen en la recepción del texto traducido; &lt;u4&gt; la traducción siempre tiene una motivación: la superación de barreras comunicativas; por eso se  ha creado una profesión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es pot aprofundir un poc més en la definició de traducció que hem considerat més amunt, revisant definicions existents (algunes preses de &lt;u0&gt;{sager93b}): &lt;n0&gt; &lt;u1&gt; &lt;u6&gt;[p. 19]{nida59b}: ``La traducció consisteix a produir en la llengua meta l'equivalent natural més proper del missatge en la llengua origen, primerament quant al significat i segonament quant a l'estil.'' Sager diu que, més que &lt;i0&gt;natural&lt;/i0&gt; (en sentit absolut) caldria dir &lt;i1&gt;adequat&lt;/i1&gt; (a la tasca concreta).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T152859Z">
+        <seg>Se puede profundizar un poco más en la definición de traducción que hemos considerado más arriba, revisando definiciones existentes (algunas tomadas de &lt;u0&gt;sager93b}): &lt;n0&gt; &lt;u1&gt; &lt;u6&gt;[p. 19]{nida59b}: ``La traducción consiste en producir en la lengua meta el equivalente natural más cercano del mensaje de la lengua origen, primero en cuanto al significado y segundo en cuanto al estilo.'' Sager dice que, más que &lt;i0&gt;natural&lt;/i0&gt; (en sentido absoluto) habría que decir &lt;i1&gt;adecuado&lt;/i1&gt; (a la tarea concreta).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es pot construir un índex per a cada un dels camps associats a les consultes més freqüents i així s'evita recórrer tota la base de dades cada vegada que es fa una consulta: es busca el valor del camp en el registre corresponent i, quan es troba, s'usa la posició del registre per a accedir-hi directament.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172052Z">
+        <seg>Se puede construir un índice para cada uno de los campos asociados a las consultas más frecuentes y así se evita recorrer toda la base de datos cada vez que se hace una consulta: se busca el valor del campo en el registro correspondiente y, cuando se encuentra, se usa la posición del registro para acceder directamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es pot demostrar que la recerca dicotòmica mira com a molt $n$ fitxes si el fitxer té entre $2^{n-1}$ i $2^n$ fitxes, perquè després de cada consulta es redueix a la meitat la grandària del fitxer que cal explorar; per exemple, si el fitxer té 1234 fitxes, hi ha prou amb $n=11$ recerques perquè $2^{10}=1024$ i $2^{11}=2048$.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T155139Z">
+        <seg>Se puede demostrar que la búsqueda dicotómica mira como mucho $n$ fichas si el fichero tiene entre $2^{n-1}$ y $2^n$ fichas, porque después de cada consulta se reduce a la mitad el tamaño del fichero que hay que explorar; por ejemplo, si el fichero tiene 1234 fichas, hay bastante con $n=11$ búsquedas porque $2^{10}=1024$ y $2^{11}=2048$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es refereixen al mateix concepte.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174431Z">
+        <seg>Se refieren al mismo concepto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es tracta bàsicament d'un sistema per transferència, indicat per a la traducció de documents relacionats amb el processament de dades i les telecomunicacions.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163600Z">
+        <seg>Se trata básicamente de un sistema por transferencia, indicado para la traducción de documentos relacionados con el procesamiento de datos y las telecomunicaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es va traduir a l'anglés un conjunt de 49 frases en rus&lt;p0&gt; usant un diccionari de només 250 mots i 6 regles gramaticals.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T154755Z">
+        <seg>Se tradujo al inglés un conjunto de 49 frases en ruso&lt;p0&gt; usando un diccionario de sólo 250 palabras y 6 reglas gramaticales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Eurotra és un dels projectes de traducció més coneguts del decenni dels 80.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163117Z">
+        <seg>Eurotra es uno de los proyectos de traducción más conocidos de la década de los 80.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Heus ací un exemple de document TBX: &lt;n0&gt; &lt;?xml version='1.0'?&gt; &lt;!DOCTYPE martif SYSTEM "./TBXcoreStructureDTD-v-1-0.DTD"&gt; &lt;martif type='TBX' xml:lang='en' &gt; &lt;martifHeader&gt; &lt;fileDesc&gt; &lt;sourceDesc&gt; &lt;p&gt;from an Oracle corporation termBase&lt;/p&gt; &lt;/sourceDesc&gt; &lt;/fileDesc&gt; &lt;encodingDesc&gt; &lt;p type='DCSName'&gt;TBXdefaultXCS-v-1-0.XML&lt;/p&gt; &lt;/encodingDesc&gt; &lt;/martifHeader&gt; &lt;text&gt; &lt;body&gt; &lt;termEntry id='eid-Oracle-67'&gt; &lt;descrip type='subjectField'&gt; manufacturing &lt;/descrip&gt; &lt;descrip type='definition'&gt; A value between 0 and 1 used in ... &lt;/descrip&gt; &lt;langSet xml:lang='en'&gt; &lt;tig&gt; &lt;term tid='tid-Oracle-67-en1'&gt; alpha smoothing factor &lt;/term&gt; &lt;termNote type='termType'&gt; fullForm &lt;/termNote&gt; &lt;/tig&gt; &lt;/langSet&gt; &lt;langSet xml:lang='hu'&gt; &lt;tig&gt; &lt;term tid='tid-Oracle-67-hu1'&gt; Alfa sim</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173612Z">
+        <seg>He aquí un ejemplo de documento TBX: &lt;n0&gt; &lt;?xml version='1.0'?&gt; &lt;!DOCTYPE martif SYSTEM "./TBXcoreStructureDTD-v-1-0.DTD"&gt; &lt;martif type='TBX' xml:lang='en' &gt; &lt;martifHeader&gt; &lt;fileDesc&gt; &lt;sourceDesc&gt; &lt;p&gt;from an Oráculo corporation termBase&lt;/p&gt; &lt;/sourceDesc&gt; &lt;/fileDesc&gt; &lt;encodingDesc&gt; &lt;p type='DCSName'&gt;TBXdefaultXCS-v-1-0.XML&lt;/p&gt; &lt;/encodingDesc&gt; &lt;/martifHeader&gt; &lt;text&gt; &lt;body&gt; &lt;termEntry id='eid-Oracle-67'&gt; &lt;descrip type='subjectField'&gt; manufacturing &lt;/descrip&gt; &lt;descrip type='definition'&gt; A value between 0 and 1 used in ... &lt;/descrip&gt; &lt;langSet xml:lang='en'&gt; &lt;tig&gt; &lt;term tid='tid-Oracle-67-en1'&gt; alpha smoothing factor &lt;/term&gt; &lt;termNote type='termType'&gt; fullForm &lt;/termNote&gt; &lt;/tig&gt; &lt;/langSet&gt; &lt;langSet xml:lang='hu'&gt; &lt;tig&gt; &lt;term tid='tid-Oracle-67-hu1'&gt; Alfa sim</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Història de la traducció automàtica</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T152906Z">
+        <seg>Historia de la traducción automática</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imaginem, en primer lloc, que volem buscar l'element ``Garrido''.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T171856Z">
+        <seg>Imaginemos, en primer lugar, que queremos buscar el elemento ``Garrido''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Inicialment, mirem l'element d'enmig (el 13) de la llista sencera (la llista que inclou els elements de l'1 al 25) i hi trobem ``Larrañaga''; com que ens hem passat, ens quedem amb la meitat baixa de la llista (que inclou els elements de l'1 al 12) oblidant-nos de l'altra meitat.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T155719Z">
+        <seg>Inicialmente, miramos el elemento de en medio (el 13) de la lista entera (la lista que incluye los elementos del 1 al 25) y  encontramos ``Larrañaga''; como nos hemos pasado, nos quedamos con la mitad baja de la lista (que incluye los elementos del 1 al 12) olvidándonos de la otra mitad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'entusiasme va fer que es finançaren un munt de projectes entre la meitat dels 50 i la meitat dels 60, projectes dins els quals van nàixer la major part de les tècniques actuals, com ara la traducció indirecta per transferència o la traducció per interlingua (vegeu el capítol &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163138Z">
+        <seg>El entusiasmo hizo que se financiaran un montón de proyectos entre la mitad de los cincuenta y la mitad de los sesenta, proyectos dentro de los cuales nacieron la mayor parte de las técnicas actuales, como por ejemplo la traducción indirecta por transferencia o la traducción por interlingua (véase el capítulo &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'informe assegurava que la TA era més lenta i menys exacta que la feta pels humans, a més de ser el doble de cara, i que no hi havia cap indici de l'obtenció en el futur més o menys inmediat d'un sistema de TA útil.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T160627Z">
+        <seg>El informe aseguraba que la TA era más lenta y menos exacta que la hecha por los humanos, además de ser el doble de cara, y que no  había ningún indicio de la obtención, en el futuro más o menos inmediato, de un sistema de TA útil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'informe va acabar quasi virtualment amb la recerca en TA als Estats Units (també va tenir un impacte negatiu en els projectes desenvolupats a la resta del món) i durant molts anys la TA va ser percebuda com un autèntic fracàs.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T160055Z">
+        <seg>El informe acabó casi virtualmente con la investigación de la TA en los Estados Unidos (también tuvo un impacto negativo en los proyectos desarrollados en el resto del mundo) y durante muchos años la TA estuvo vista como un auténtico fracaso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'informe va fer que es reduira significativament el nombre de persones que es dedicaven a la TA i que els laboratoris començaren a treballar en el que es va conéixer com a lingüística computacional.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T160709Z">
+        <seg>El informe hizo que se redujera significativamente el número de personas que se dedicaban a la TA y que los laboratorios empezaran a trabajar en lo que se conoció como lingüística computacional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'objectiu era el desenvolupament de sistemes perfectes.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T155007Z">
+        <seg>El objetivo era el desarrollo de sistemas perfectos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'objectiu no és obtenir un sistema de traducció perfecta, sinó un sistema adequat per a aplicacions amb llenguatges, dominis i usuaris restringits.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150520Z">
+        <seg>El objetivo no es obtener un sistema de traducción perfecto, sino un sistema adecuado para aplicaciones con lenguajes, dominios y usuarios restringidos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'organització de la informació en forma de base de dades simplifica enormement les consultes, ja que els ordinadors són molt més ràpids i segurs a l'hora de, per exemple, comparar el contingut d'un determinat camp de totes les fitxes amb un cert valor o patró (per exemple, els autors que comencen per &lt;i0&gt;Per&lt;/i0&gt;) i llistar el contingut d'un altre camp (per exemple, el títol) per a cada fitxa coincident.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T171427Z">
+        <seg>La organización de la información en forma de base de datos simplifica enormemente las consultas, puesto que los ordenadores son mucho más rápidos y seguros a la hora de, por ejemplo, comparar el contenido de un determinado campo de todas las fichas con un cierto valor o patrón (por ejemplo, los autores que empiezan por  &lt;i0&gt;Por&lt;/i0&gt;) y listar el contenido de otro campo (por ejemplo, el título) para cada ficha coincidente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La Acadèmia Nacional de les Ciències dels Estats Units va publicar el 1966 l'informe ALPAC (Automatic Language Processing Advisory Committee) en el qual es recomanava que els nombrosos recursos que es dedicaven a la recerca en TA s'utilitzaren per tasques menys pretensioses i més bàsiques relacionades amb el processament del llenguatge natural i amb el desenvolupament d'eines de suport per als traductors com ara diccionaris automàtics.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T160340Z">
+        <seg>La Academia Nacional de las Ciencias de los Estados Unidos publicó en 1966 el informe ALPAC (Automatic Language Processing Advisory Committee) en el cual se recomendaba que los numerosos recursos que se dedicaban a la investigación en TA se utilizaran para tareas menos pretenciosas y más básicas relacionadas con el procesamiento del lenguaje natural y con el desarrollo de herramientas de apoyo para los traductores, como por ejemplo diccionarios automáticos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La TA i les eines de suport a la traducció son cada vegada més usades per les grans empreses i per les administracions, principalment per a la traducció de documentació tècnica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150952Z">
+        <seg>La TA y las herramientas de apoyo a la traducción son cada vez más utilizadas por las grandes empresas y por las administraciones, principalmente para la traducción de documentos técnicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La combinació d'algunes d'aquestes eines en un programari concret és el que es coneix com &lt;i0&gt;estacions de treball per a traductors&lt;/i0&gt; (per exemple, el Translation Manager d'IBM o el Translator Workbench de Trados).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T161433Z">
+        <seg>La combinación de algunas de estas herramientas en un software concreto es lo que se conoce como &lt;i0&gt;estaciones de trabajo para traductores&lt;/i0&gt; (por ejemplo, el Translation Manager de IBM o el Translator Workbench de Trados).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La conclusió era que només després de conéixer les arrels del problema, podria estudiar-se la realització d'un sistema de TA real.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T160522Z">
+        <seg>La conclusión era que solo después de conocer las raíces del problema, podría estudiarse la realización de un sistema de TA real.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La creació i el manteniment d'una bona base de dades terminològica requereix un gran esforç i moltes hores de treball.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173304Z">
+        <seg>La creación y el mantenimiento de una buena base de datos terminológica requiere un gran esfuerzo y muchas horas de trabajo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La definició inclou, per tant, el tractament i la producció de missatges no textuals (orals).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120508T162315Z">
+        <seg>La definición incluye, por tanto, el tratamiento y la producción de mensajes no textuales (orales).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La idea fonamental es que el procés de traducció es pot fer sovint consultant traduccions anteriors i identificant frases o grups de mots en el corpus ja traduït.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150251Z">
+        <seg>La idea fundamental es que el proceso de traducción se puede hacer a menudo consultando traducciones anteriores e identificando frases o grupos de palabras en el corpus ya traducido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La informació de cada terme (en l'exemple només un) s'inclou dins de l'element {&lt;u0&gt; termEntry}, que conté descripcions (&lt;i0&gt;descrip&lt;/i0&gt;) sobre el domini d'ús i la definició del terme, a més d'una secció {&lt;u1&gt; langSet} per a cada idioma (ací, anglés i hongarés) on s'especifica el terme (&lt;i1&gt;term&lt;/i1&gt;) i informació sobre ell (&lt;i2&gt;termNote&lt;/i2&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T174013Z">
+        <seg>La información de cada término (en el ejemplo solo uno) se incluye dentro del elemento {&lt;u0&gt; termEntry}, que contiene descripciones (&lt;i0&gt;descrip&lt;/i0&gt;) sobre el dominio de uso y la definición del término, además de una sección {&lt;u1&gt; langSet} para cada idioma (aquí, inglés y húngaro) donde se especifica el término (&lt;i1&gt;term&lt;/i1&gt;) e información sobre él (&lt;i2&gt;termNote&lt;/i2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La major part d'aquestes estacions de treball estan disponibles per a ordinadors personals.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150858Z">
+        <seg>La mayor parte de estas estaciones de trabajo están disponibles para ordenadores personales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La major part del discutit en aquest apartat està pres dels treballs de John Hutchins, especialment de &lt;n0&gt; i &lt;n1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T153316Z">
+        <seg>La mayor parte de lo expuesto en este apartado está tomado de los trabajos de John Hutchins, especialmente de  &lt;n0&gt; y &lt;n1&gt;. .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La major part dels gestor permeten que els termes usats en la definició d'un determinat terme es marquen &lt;i0&gt;remissions&lt;/i0&gt;, és a dir, enllaços actius a les fitxes on es defineixen.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T173942Z">
+        <seg>La mayor parte de los gestores permiten que los términos usados en la definición de un determinado término se marquen &lt;i0&gt;remisiones&lt;/i0&gt;, es decir, enlaces activos a las fichas donde se definen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La primera demostració pública d'un sistema de TA va ser desenvolupada per IBM i la Universitat Georgetown el 1954.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T153739Z">
+        <seg>La primera demostración pública de un sistema de TA fue desarrollada por IBM y la Universidad Georgetown en 1954.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La recerca dicotòmica és només una de les moltes tècniques que es poden fer servir per a accelerar les consultes que es refereixen a un camp ordenat; el programa gestor de bases de dades pot usar una altra tècnica de recerca depenent del seu disseny o del tipus de camp.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T172513Z">
+        <seg>La búsqueda dicotómica es sólo una de las muchas técnicas que se pueden usar para acelerar las consultas que se refieren a un campo ordenado; el programa gestor de bases de datos puede usar otra técnica de busqueda dependiendo de su diseño o del tipo de campo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La taula &lt;n0&gt; conté una llista de cognoms ordenats alfabèticament.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T175414Z">
+        <seg>La tabla &lt;n0&gt; contiene una lista de apellidos ordenados alfabéticamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La traducció automàtica (TA) es pot definir com el procés (o el producte) de traduir un text informatitzat&lt;p0&gt; un fitxer d'ordinador que conté un text codificat en un format conegut (vegeu el capítol &lt;n0&gt;.) } en una llengua origen a un text informatitzat en una llengua meta mitjançant l'ús d'un programa d'ordinador.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T154432Z">
+        <seg>La traducción automática (TA) se puede definir como el proceso (o el producto) de traducir un texto informatizado&lt;p0&gt; un fichero de ordenador que contiene un texto codificado en un formato conocido (véase el capítulo &lt;n0&gt;.) } en una lengua origen a un texto informatizado en una lengua meta mediante el uso de un programa de ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La traducció mitjançant màquines és una ambició humana des de fa segles que no es va fer realitat fins al XX.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T153340Z">
+        <seg>La traducción mediante máquinas es una ambición humana desde hace siglos que no se hizo realidad hasta el siglo XX.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les operacions més comunes que es realitzen sobre una base de dades també són similars a aquelles que podem fer amb un fitxer de fitxes de cartolina: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;Recerques o consultes:&lt;/i0&gt; buscar un o més registres que compleixen un determinat criteri de búsqueda.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T152945Z">
+        <seg>Las operaciones más comunes que se realizan sobre una base de datos también son similares a aquellas que podemos hacer con un fichero de fichas de cartulina: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;Investigaciones o consultas:&lt;/i0&gt; buscar uno o más registros que cumplen un determinado criterio de búsqueda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les referències que s'han fet en l'epígraf &lt;n0&gt; al propòsit o motivació de la traducció i a la tipologia dels documents que han de ser traduïts són també molt importants a l'hora d'analitzar la traducció automàtica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T152632Z">
+        <seg>Las referencias que se han hecho en el epígrafe &lt;n0&gt; al propósito o motivación de la traducción y a la tipología de los documentos que se tienen que traducir son también muy importantes a la hora de analizar la traducción automática.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Molts dels fitxers que usen les persones que es dediquen a la traducció són fitxers (o &lt;i1&gt;documents&lt;/i1&gt;) de text de diversos formats, com els descrits en l'epígraf &lt;n1&gt;, però també n'hi ha que es corresponen amb el significat del mot &lt;i2&gt;fitxer&lt;/i2&gt; fora de la informàtica: contenen &lt;i3&gt;fitxes&lt;/i3&gt;, totes amb un format més o menys constant; per exemple, totes les fitxes d'un fitxer bibliogràfic contenen informació sobre els autors, el títol, l'any de publicació, etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T152002Z">
+        <seg>Muchos de los ficheros que usan las personas que se dedican a la traducción son ficheros (o &lt;i1&gt;documentos&lt;/i1&gt;) de texto de varios formatos, como los descritos en el epígrafe &lt;n1&gt;, pero también hay que se corresponden con el significado de la palabra &lt;i2&gt;fichero&lt;/i2&gt; fuera de la informática: contienen &lt;i3&gt;fichas&lt;/i3&gt;, todas con un formato más o menos constante; por ejemplo, todas las fichas de un fichero bibliográfico contienen información sobre los autores, el título, el año de publicación, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Molts investigadors començaven a trobar barreres de tot tipus, especialment semàntiques, que semblaven massa difícils de superar i que exigien mètodes més complexos.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T123908Z">
+        <seg>muchos investigadores empezaban a encontrar barreras de todo tipo, especialmente semánticas, que parecían demasiado difíciles de superar y que exigían métodos más complejos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No feia molt que s'havia creat el primer ordinador, quan ja es va començar a pensar en la possibilitat d'usar-los per a traduir llenguatges humans.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T153358Z">
+        <seg>No hacía mucho que se había creado el primer ordenador cuando ya se empezó a pensar en la posibilidad de usarlos para traducir lenguajes humanos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No obstant això, algunes veus es pronunciaren en contra del perfeccionisme dominant i defensaren una aproximació més a llarg termini al problema i la construcció de sistemes que feren un ús efectiu de la interacció persona-màquina.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T155806Z">
+        <seg>Sin embargo, algunos se pronunciaron en contra del perfeccionismo dominante y defendieron una aproximación más a largo plazo al problema y la construcción de sistemas que hicieran un uso efectivo de la interacción persona-máquina.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No és possible.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174037Z">
+        <seg>No es posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Normalment es reserva la denominació &lt;i0&gt;traducció automàtica&lt;/i0&gt; per a la completament automàtica; quan s'hi produeix intervenció humana es parla de {&lt;u0&gt; traducció assistida per l'ordinador} o de &lt;i1&gt;traducció semi-automàtica&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T123802Z">
+        <seg>Normalmente se reserva la denominación &lt;i0&gt;traducción automática&lt;/i0&gt; para la completamente automática; cuando se  produce intervención humana se habla de {&lt;u0&gt; traducción asistida por el ordenador} o de &lt;i1&gt;traducción semi-automática&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Normalment, els programes tenen un mòdul inicial que podríem anomenar &lt;i0&gt;desformatador&lt;/i0&gt; i un mòdul final que podríem anomenar &lt;i1&gt;reformatador&lt;/i1&gt; i que restitueix les etiquetes de manera que el format i l'estructura del document es conserven tant com siga possible.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T152404Z">
+        <seg>Normalmente, los programas tienen un módulo inicial que podríamos denominar &lt;i0&gt;desformatador&lt;/i0&gt; y un módulo final que podríamos llamar &lt;i1&gt;reformatador&lt;/i1&gt; y que restituye las etiquetas de forma que el formato y la estructura del documento se conservan tanto como sea posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Normalment, els usuaris reals no executen un programa gestor de bases de dades universal, sinó que usen programes o &lt;i0&gt;aplicacions&lt;/i0&gt; que simplifiquen la creació, el manteniment i l'ús de la base de dades per a un perfil d'usuari concret.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T171512Z">
+        <seg>Normalmente, los usuarios reales no ejecutan un programa gestor de bases de datos universal, sino que usan programas o  &lt;i0&gt;aplicaciones&lt;/i0&gt; que simplifican la creación, el mantenimiento y el uso de la base de datos para un perfil de usuario concreto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>O a una combinació de camps, com ara el dia, el mes i l'any que formen una data.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T171329Z">
+        <seg>O a una combinación de campos, como por ejemplo el día, el mes y el año que forman una fecha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Operacions amb bases de dades</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T152900Z">
+        <seg>Operaciones con bases de datos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a acabar aquest apartat, convé esmentar alguns processos que no s'anomenaran &lt;i0&gt;traducció&lt;/i0&gt; en aquest curs: &lt;n0&gt; &lt;u0&gt; l'adaptació de textos antics a la forma moderna d'un idioma; &lt;u1&gt; la traducció de mots i frases quan s'ensenya un nou idioma; &lt;u2&gt; la interpretació (de missatges parlats); &lt;u3&gt; la codificació (en Morse, etc.).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T151659Z">
+        <seg>Para acabar este apartado, conviene mencionar algunos procesos que no se denominarán &lt;i0&gt;traducción&lt;/i0&gt; en este curso: &lt;n0&gt; &lt;u0&gt; la adaptación de textos antiguos a la forma moderna de una lengua; &lt;u1&gt; la traducción de palabras y frases cuando se enseña un nuevo idioma; &lt;u2&gt; la interpretación (de mensajes hablados); &lt;u3&gt; la codificación (en Morse, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per aquesta època, a més, els sistemes de TA comencen a ser demanats per empreses i administracions i no sols per traduir textos científics i tècnics.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T124032Z">
+        <seg>Por esta época, además, los sistemas de TA empiezan a ser demandados por empresas y administraciones y no solo para traducir textos científicos y técnicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per començar, s'ha de tenir en compte que el mot &lt;i0&gt;traducció&lt;/i0&gt; és ambigu&lt;p0&gt; perquè es pot referir al &lt;i2&gt;procés&lt;/i2&gt; de traduir o al &lt;i3&gt;producte&lt;/i3&gt; (resultat) d'aquest procés.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T163744Z">
+        <seg>Para empezar, debe tenerse en cuenta que la palabra &lt;i0&gt;traducción&lt;/i0&gt; es ambigua&lt;p0&gt; porque se puede referir al &lt;i2&gt;proceso&lt;/i2&gt; de traducir o al &lt;i3&gt;producto&lt;/i3&gt; (resultado) de este proceso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, &lt;i0&gt;carta comercial&lt;/i0&gt;, &lt;i1&gt;edicte municipal&lt;/i1&gt;, &lt;i2&gt;comentari editorial&lt;/i2&gt;, &lt;i3&gt;manual tècnic informàtic&lt;/i3&gt; o &lt;i4&gt;recull de poemes&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T164406Z">
+        <seg>Por ejemplo, &lt;i0&gt;carta comercial&lt;/i0&gt;, &lt;i1&gt;edicto municipal&lt;/i1&gt;, &lt;i2&gt;comentario editorial&lt;/i2&gt;, &lt;i3&gt;manual técnico informático&lt;/i3&gt; o &lt;i4&gt;compilación de poemas&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, moltes memòries de traducció (vegeu el capítol &lt;n0&gt;) inclouen bases de dades terminològiques d'aquesta mena i permeten que la persona usuària les mantinga i les consulte, bé usant un programa independent, o bé des del processador de textos que preferisca.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173205Z">
+        <seg>Por ejemplo, muchas memorias de traducción (véase el capítulo &lt;n0&gt;) incluyen bases de datos terminológicas de este tipo y permiten que la persona usuaria las mantenga y las consulte, bien usando un programa independiente, o bien desde el procesador de textos que prefiera.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per poder dur a terme la traducció és necessari que els textos del corpus hagen estat alineats prèviament (mitjançant mètodes estadístics o mètodes basats en regles).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150302Z">
+        <seg>Para poder llevar a cabo la traducción es necesario que los textos del corpus hayan sido alineados previamente (mediante métodos estadísticos o métodos basados en reglas).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per raons polítiques i militars aquestes llengues van ser les elegides per als primers sistemes de TA.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T154708Z">
+        <seg>Por razones políticas y militares estas lenguas fueron las elegidas para los primeros sistemas de TA.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però la informació emmagatzemada sobre cada terme pot ser molt diferent d'una base de dades a una altra i, per tant, fer servir una base de dades terminològica en diferents sistemes alhora no és una tasca fàcil.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173415Z">
+        <seg>Pero la información almacenada sobre cada término puede ser muy diferente de una base de datos a otra y, por lo tanto, usar una base de datos terminológica en diferentes sistemas a la vez no es una tarea fácil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però un dels avantatges més clars de les bases de dades és que permeten que els registres estiguen ordenats per més d'un camp, sense haver de duplicar la base de dades.&lt;u0&gt;{</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T171419Z">
+        <seg>Pero uno de las ventajas más claras de las bases de datos es que permiten que los registros estén ordenados por más de un campo, sin tener que duplicar la base de datos.&lt;u0&gt;{</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però un fitxer de fitxes de cartolina només es pot ordenar seguint un únic criteri.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T172555Z">
+        <seg>No obstante, un fichero de fichas de cartulina sólo se puede ordenar siguiendo un único criterio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però és comú que els fitxers estiguen ordenats segons un dels seus camps: per exemple, un fitxer bibliogràfic pot estar ordenat pel cognom del primer autor, o per la matèria.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T172031Z">
+        <seg>Sin embargo, es común que los ficheros estén ordenados según uno de sus campos: por ejemplo, un fichero bibliográfico puede estar ordenado por el apellido del primer autor o por la materia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Podeu veure una representació gràfica de tot el procés en les taules &lt;n1&gt; a &lt;n2&gt;: s'hi mostra en negretes l'element consultat en cada moment i ombrejada la part de la llista descartada.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T171809Z">
+        <seg>Podéis ver una representación gráfica de todo el proceso en las tablas &lt;n1&gt; a &lt;n2&gt;: se  muestra en negrita el elemento consultado en cada momento y sombreada la parte de la lista descartada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pràcticament ningú va considerar com es podria traure profit d'un sistema imperfecte: per què pensar-hi si aviat es disposaria de sistemes perfectes?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T155252Z">
+        <seg>Prácticamente nadie consideró como se podría sacar provecho de un sistema imperfecto: ¿por qué pensarlo si pronto se dispondría de sistemas perfectos?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan creem una nova base de dades i definim l'estructura de camps que tindrà cada un dels seus registres, podem designar quins dels camps corresponen als índexs; el gestor de la base de dades crearà automàticament els índexs corresponents.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172418Z">
+        <seg>Cuando creamos una nueva base de datos y definimos la estructura de campos que tendrá cada uno de sus registros, podemos designar que campos corresponden a los índices; el gestor de la base de datos creará automáticamente los índices correspondientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan els programes de traducció automàtica i semiautomàtica han de tractar documents estructurats (com els discutits en els epígrafs &lt;n0&gt; i &lt;n1&gt;) han de ser capaços d'identificar les parts dels documents que corresponen als textos que s'han de traduir, destriant-les de les etiquetes.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T152232Z">
+        <seg>Cuando los programas de traducción automática y semiautomática tienen que tratar documentos estructurados (como los discutidos en los epígrafes &lt;n0&gt; y &lt;n1&gt;) deben ser capaces de identificar las partes de los documentos que corresponden a los textos que se han de traducir, diferenciándolas de las etiquetas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan volem buscar una determinada informació en un fitxer de fitxes de cartolina (per exemple, quins autors han usat el mot &lt;i0&gt;arbre&lt;/i0&gt; en el títol de les seues obres), i aquest fitxer no està ordenat d'acord amb cap criteri convenient, ens veurem obligats a mirar totes les fitxes una per una.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T154402Z">
+        <seg>Cuando queremos buscar una determinada información en un fichero de fichas de cartulina (por ejemplo, qué autores han usado la palabra &lt;i0&gt;árbol&lt;/i0&gt; en el título de sus obras), y este fichero no está ordenado de acuerdo con ningún criterio conveniente, nos veremos obligados a mirar todas las fichas una por una.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què tenen en comú tots els camps d'una fitxa terminològica?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174427Z">
+        <seg>¿Qué tienen en común todos los campos de una ficha terminológica?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què és la traducció?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T163637Z">
+        <seg>¿Qué es la traducción?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què és una base de dades?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T160850Z">
+        <seg>Bases de datos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Qüestions i exercicis</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173916Z">
+        <seg>Cuestiones y ejercicios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S'han de construir dos índexs, un per a cada camp.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174055Z">
+        <seg>Se tienen que construir dos índices, uno para cada campo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si busquem en una base de dades de 240 fitxes d'alumnes una fitxa (un registre) pel número de telèfon, un camp pel qual no està ordenada, quantes consultes haurà de fer, com a màxim, el programa gestor de la base de dades fins arribar a la fitxa desitjada?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174311Z">
+        <seg>Si buscamos en una base de datos de 240 fichas de alumnos una ficha (un registro) por el número de teléfono, un campo por el cual no está ordenada, ¿cuántas consultas tendrá que hacer, como máximo, el programa gestor de la base de datos hasta llegar a la ficha deseada?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si busquem una alumna pel NIF, quantes consultes fa, com a màxim, el programa gestor de la base de dades fins arribar a la fitxa desitjada?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173951Z">
+        <seg>Si buscamos una alumna por el NIF, ¿cuántas consultas hace, como máximo, el programa gestor de la base de datos hasta llegar a la ficha deseada?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si la consulta o la recerca que volem fer es refereix al camp pel qual s'ha establit l'ordenació, és molt més senzilla que si es refereix a un altre camp, i es pot completar sense mirar totes les fitxes; per exemple, fent-hi una &lt;i1&gt;recerca dicotòmica&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T171915Z">
+        <seg>Si la consulta o la investigación que queremos hacer se refiere al campo por el cual se ha establecido la ordenación, es mucho más sencilla que si se refiere a otro campo, y se puede completar sin mirar todas las fichas; por ejemplo, haciendo una  &lt;i1&gt;búsqueda dicotómica&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si la recerca haguera estat de l'element ``González'', els passos anteriors haurien estat els mateixos, però a més hauríem mirat l'element 11, l'element 10 i, finalment, hauríem conclòs que l'element no es troba a la llista.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T160036Z">
+        <seg>Si la búsqueda hubiera sido del elemento ``González'', los pasos anteriores habrían sido los mismos, pero además habríamos mirado el elemento 11, el elemento 10 y, finalmente, habríamos concluido que el elemento no se encuentra a la lista.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si les consultes més freqüents es refereixen a un camp&lt;p0&gt; que pren valors que es poden ordenar, els registres es poden ordenar per aquest camp, igual que el fitxer de fitxes de cartolina.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T171335Z">
+        <seg>Si las consultas más frecuentes se refieren a un campo&lt;p0&gt; que toma valores que se pueden ordenar, los registros se pueden ordenar por este campo, igual que el fichero de fichas de cartulina.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si penseu en el cas que la base de dades de la taula &lt;n2&gt; tingués, diguem-ne, 20 camps més (amb els equivalents en 20 llengües més), us podeu fer una idea de l'estalvi que s'aconsegueix respecte a la duplicació sencera.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T175748Z">
+        <seg>Si pensáis en el supuesto de que la base de datos de la tabla &lt;n2&gt; tuviera, digamos, 20 campos más (con los equivalentes en 20 lenguas más), os podéis hacer una idea del ahorro que se consigue respecto a la duplicación entera.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si volem facilitar les consultes associades a més d'un camp (per exemple, autors i matèries) ens veurem obligats a mantenir dues còpies del fitxer sencer, cada còpia ordenada per un criteri; com veurem tot seguit, amb un sistema de bases de dades no cal fer aquesta duplicació.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T173136Z">
+        <seg>Si queremos facilitar las consultas asociadas a más de un campo (por ejemplo, autores y materias) nos veremos obligados a mantener dos copias del fichero entero, cada copia ordenada por un criterio; como veremos a continuación, con un sistema de bases de datos no hay que hacer esta duplicación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si volem fer consultes ràpides pels camps ``&lt;i1&gt;BASC&lt;/i1&gt;'' i ``&lt;i2&gt;SERBO-CROAT&lt;/i2&gt;'' sense haver de visitar (en el cas pitjor) tots els registres, el gestor de bases de dades ha de definir un índex per a cada un d'aquests camps com els de les taules &lt;n1&gt;; hi podeu comprovar com cada fitxa de l'índex conté només el camp indexat i una referència a la seua posició en la base de dades.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T173710Z">
+        <seg>Si queremos hacer consultas rápidas por los campos ``&lt;i1&gt;VASCO&lt;/i1&gt;'' y ``&lt;i2&gt;SERBO-CROATA&lt;/i2&gt;'' sin tener que visitar (en el peor caso) todos los registros, el gestor de bases de datos tiene que definir un índice para cada uno de estos campos como los de las tablas &lt;n1&gt;;  podéis comprobar como cada ficha del índice contiene solo el campo indexado y una referencia a su posición en la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Sobre la relació entre traducció humana i traducció automàtica, vegeu la secció &lt;n0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T152410Z">
+        <seg>Sobre la relación entre traducción humana y traducción automática, véase la sección &lt;n0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Solucions</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174925Z">
+        <seg>Soluciones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Són especialment importants els resultats obtinguts a diverses empreses com Xerox on s'elimina quasi completament la postedició (vegeu la p. &lt;n0&gt;) gràcies al control de la llengua origen; això permet la traducció senzilla dels manuals tècnics en anglés de la companyia a un gran nombre d'idiomes (francés, alemany, italià, espanyol, portugués i llengues escandinaves).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T160320Z">
+        <seg>Son especialmente relevantes los resultados obtenidos en varias empresas como Xerox, donde se elimina casi completamente la postedición (véase la p. &lt;n0&gt;) gracias al control de la lengua origen; esto permite la traducción sencilla de los manuales técnicos en inglés de la compañía a un gran número de idiomas (francés, alemán, italiano, español, portugués y lenguas escandinavas).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També el 1976 apareix Metéo, desenvolupat per la Universitat de Montréal, que tradueix al francés els informes meteorològics.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T160857Z">
+        <seg>También el 1976 aparece Metéo, desarrollado por la Universidad de Montreal, que traduce al francés los informes meteorológicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tenim una base de dades amb fitxes de 100 alumnes ordenada pel NIF.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173925Z">
+        <seg>Tenemos una base de datos con fichas de 100 alumnas ordenada por el NIF.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tornem a repetir el procés, aquesta vegada considerant només la subllista d'elements entre el 7 i el 12; tenim sort i en mirar l'element central (el 9) ens adonem que coincideix amb l'element buscat: la recerca, doncs, acaba amb èxit.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T171829Z">
+        <seg>Volvemos a repetir el proceso, esta vez considerando sólo la sublista de elementos entre el 7 y el 12; tenemos suerte y al mirar el elemento central (el 9) nos damos cuenta de que coincide con el elemento buscado: la búsqueda, pues, acaba con éxito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tot i això, alguns grups van continuar treballant a Canadà i a Europa i van aparéixer els primers sistemes que funcionaven; el 1970 el sistema Systran va començar a ser usat per la USAF (United States Air Force) i el 1976 per la Comissió de la Comunitat Europea.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T160125Z">
+        <seg>Aún así, algunos grupos siguieron trabajando en Canadá y en Europa y aparecieron los primeros sistemas que funcionaban; en 1970 el sistema Systran empezó a ser usado por la USAF (United States Air Force) y en 1976 por la Comisión de la Comunidad Europea.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tot i que els resultats no eren massa bons, el públic i la indústria van creure que en uns anys es podrien aconseguir traduccions automàtiques de qualitat de documents científics i tècnics.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T154816Z">
+        <seg>A pesar de que los resultados no eran demasiados buenos, el público y la industria creyeron que en unos años se podrían conseguir traducciones automáticas de calidad de documentos científicos y técnicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tot i que en els decennis dels 1930 i 1940 hi va haver alguns treballs precursors, és als primers cinquanta quan comença realment la recerca en TA en moltes universitats arreu al món, especialment als Estats Units.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163212Z">
+        <seg>A pesar de que en las décadas de los treinta y los cuarenta hubo algunos trabajos precursores, es a principios de los cincuenta cuando empieza realmente la investigación en TA en muchas universidades alrededor del mundo, especialmente en los Estados Unidos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tot i que la duplicació d'una base de dades menuda pot no semblar en principi problemàtica, les coses canvien si considerem una base de dades amb milers de registres i amb un gran nombre de camps, tots plens d'informació.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T171502Z">
+        <seg>A pesar de que la duplicación de una base de datos pequeña puede no parecer en principio problemática, las cosas cambian si consideramos una base de datos con miles de registros y con un gran número de campos, todos llenos de información.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tot i que la gran innovació dels noranta van ser els mètodes descrits abans, la recerca i el desenvolupament dels sistemes clàssics també va continuar: per exemple, el projecte Eurolang basat en el sistema de transferència Metal pot traduir de l'anglès al francés, alemany, italià i espanyol, i viceversa.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150327Z">
+        <seg>A pesar de que la gran innovación de los noventa fueron los métodos descritos antes, la investigación y el desarrollo de los sistemas clásicos también continuó: por ejemplo, el proyecto Eurolang basado en el sistema de transferencia Metal puede traducir del inglés al francés, alemán, italiano y español, y viceversa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tot i que la traducció resultant tenia bastanta qualitat, necessitava una gran quantitat de postedició.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163255Z">
+        <seg>A pesar de que la traducción resultante tenía bastante calidad, necesitaba una gran cantidad de postedición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tothom accepta ja en aquest decenni la importància dels llenguatges controlats i els subllenguatges en la TA, com ja havien defensat els precursors de la TA durant el decenni dels cinquanta.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163435Z">
+        <seg>Todo el mundo acepta ya en esta década la importancia de los lenguajes controlados y los sublenguajes en la TA, como ya habían defendido los precursores de la TA durante la década de los cincuenta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tots els sistemes de TA dels vuitanta, tant els de transferència com els d'interlingua, funcionen bàsicament a partir de regles lingüístiques.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T164200Z">
+        <seg>Todos los sistemas de TA de los ochenta, tanto los de transferencia como los de interlingua, funcionan básicamente a partir de reglas lingüísticas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Traducció automàtica</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T151704Z">
+        <seg>Traducción automática</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Traducció i traducció automàtica</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T163257Z">
+        <seg>Traducción y traducción automática</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un aclariment és necessari sobre el tractament dels textos informatitzats.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T152100Z">
+        <seg>Es necesaria una aclaración sobre el tratamiento de los textos informatizados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un decenni després, i com que les expectatives eren tan altes, els avanços eren escassos i el futur pròxim no semblava poder millorar la situació.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T123812Z">
+        <seg>Una década después, y como las expectativas eran tan altas, los avances escasos y el futuro próximo no parecía poder mejorar la situación,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un dels programes més comunament usats pels professionals de la traducció són els gestors de bases de dades lèxiques (normalment anomenats gestors de bases de dades &lt;i0&gt;terminològiques&lt;/i0&gt;, encara que es poden usar per a moltes altres aplicacions a més de les estrictament terminològiques).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172831Z">
+        <seg>Uno de los programas más comúnmente usados por los profesionales de la traducción son los gestores de bases de datos léxicas (normalmente llamados gestores de bases de datos &lt;i0&gt;terminológicas&lt;/i0&gt;, aunque se pueden usar para otras muchas aplicaciones además de las estrictamente terminológicas).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una base de dades amb aquestes propietats està &lt;i0&gt;indexada&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172106Z">
+        <seg>Una base de datos con estas propiedades está &lt;i0&gt;indexada&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una base de dades d'aquesta mena la pot consultar una persona mentre està fent una traducció manualment o pot estar inclosa dins d'un programa de traducció automàtica o assistida per ordinador.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173122Z">
+        <seg>Una base de datos de este tipo la puede consultar una persona mientras está haciendo una traducción manualmente o puede estar incluida dentro de un programa de traducción automática o asistida por ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una característica important dels primers 1990 és l'aparició de les primeres aplicacions pràctiques per a traductors: eines de suport a la traducció, diccionaris i bases de dades terminològiques, processadors de text multilingües, accés a glossaris i terminologies electròniques, eines de comunicació (escàners, OCRs, Internet; vegeu els capítols &lt;n0&gt; i &lt;n1&gt;) o eines per a entorns restringits.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120602T124427Z">
+        <seg>Una característica importante de principios de los noventa es la aparición de las primeras aplicaciones prácticas para traductores: herramientas de apoyo a la traducción, diccionarios y bases de datos terminológicas, procesadores de texto multilingües, acceso a glosarios y terminologías electrónicas, herramientas de comunicación (escáners, OCRs, Internet; véanse los capítulos &lt;n0&gt; y &lt;n1&gt;) o herramientas para entornos restringidos.i</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una de les aplicacions més importants de la informàtica a la traducció és la &lt;i0&gt;traducció automàtica&lt;/i0&gt; (TA).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T163449Z">
+        <seg>Una de las aplicaciones más importantes de la informática en la traducción es la traducción &lt;i0&gt;automática&lt;/i0&gt; (TA).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Variants ortogràfiques o geogràfiques; sinònims; antònims; etimologia, etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173058Z">
+        <seg>Variantes ortográficas o geográficas; sinónimos; antónimos; etimología, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Volem tenir una base de dades ordenada simultàniament per dos camps per a optimitzar les recerques.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174014Z">
+        <seg>Queremos tener una base de datos ordenada simultáneamente por dos campos para optimizar las busquedas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; basc&lt;u1&gt;{o-croat}}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T175215Z">
+        <seg>{&lt;u0&gt; vasco&lt;u1&gt;{o-croat}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; basc}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T175237Z">
+        <seg>{&lt;u0&gt; vasco}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; català} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T173512Z">
+        <seg>{&lt;u0&gt; catalán} &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; serbo-croat}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T173154Z">
+        <seg>{&lt;u0&gt; serbo-croata}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u3&gt;} alguns gestors ens permeten buscar-lo sense conéixer-ne la forma exacta.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174210Z">
+        <seg>{&lt;u3&gt;} algunos gestores nos permiten buscarlo sin conocer la forma exacta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Definició}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T151706Z">
+        <seg>{Definición}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Dels darrers noranta a l'actualitat}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120521T150911Z">
+        <seg>{De finales de los noventa a la actualidad}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Des de l'informe ALPAC (1966) fins als vuitanta}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T160713Z">
+        <seg>{Desde el informe ALPAC (1966) hasta los ochenta}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{El decenni de l'optimisme, 1954--1966}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163204Z">
+        <seg>{La década del optimismo, 1954--1966}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Els pioners, --1954}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T153310Z">
+        <seg>{Los pioneros, --1954}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Els primers noranta}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T163704Z">
+        <seg>{Principios de los noventa}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Els primers vuitanta}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T162042Z">
+        <seg>{Principios de los ochenta}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Exemple de base de dades amb 10 fitxes.}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T172654Z">
+        <seg>{Ejemplo de base de datos con 10 fichas.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Indexació}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T171312Z">
+        <seg>{Indexación}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{L'intercanvi de bases de dades terminològiques}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T173248Z">
+        <seg>{El intercambio de bases de datos terminológicas}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Llista ordenada alfabèticament usada per mostrar un exemple de recerca dicotòmica.}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T170137Z">
+        <seg>{Lista ordenada alfabéticamente usada para mostrar un ejemplo de búsqueda dicotómica.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Primer pas de la recerca dicotòmica de l'element ``Garrido'': mirem l'element 13 i ens quedem amb la meitat baixa de la llista.}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T170214Z">
+        <seg>{Primer paso de la búsqueda dicotómica del elemento ``Garrido'': miramos el elemento 13 y nos quedamos con la mitad baja de la lista.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Recerques}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120605T172450Z">
+        <seg>{Búsquedas}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Segon pas de la recerca dicotòmica de l'element ``Garrido'': mirem l'element 6 i ens quedem amb la meitat alta de la subllista anterior.}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T170337Z">
+        <seg>{Segundo paso de la búsqueda dicotómica del elemento ``Garrido'': miramos el elemento 6 y nos quedamos con la mitad alta de la sublista anterior.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Sobre el nom en altres llengües}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120514T152641Z">
+        <seg>{Sobre el nombre en otras lenguas}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Tercer i últim pas de la recerca dicotòmica de l'element ``Garrido'': mirem l'element 9 i trobem l'element buscat.}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T170547Z">
+        <seg>{Tercer y último paso de la búsqueda dicotómica del elemento ``Garrido'': miramos el elemento 9 y encontramos el elemento buscado.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{sager93b}&lt;p0&gt; comença la seua definició dient que, com a procés, es pot anomenar traducció ``un rang d'activitats humanes deliberades, que es fan com a resultat d'instruccions rebudes d'un tercer, i que consisteixen en la producció de textos en una llengua meta (LM), basada, entre altres coses, en la modificació d'un text en una llengua origen (LO) per a fer-lo adequat a un propòsit nou'', però encara no descriu la naturalesa de la modificació.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120507T164016Z">
+        <seg>{sager93b}&lt;p0&gt; empieza su definición diciendo que, como proceso, se puede denominar traducción a ``un rango de actividades humanas deliberadas, que se hacen como resultado de instrucciones recibidas de un tercero, y que consisten en la producción de textos en una lengua meta (LM), basada, entre otras cosas, en la modificación de un texto en una lengua origen (LO) para hacerlo adecuado a un propósito nuevo'', pero todavía no describe la naturaleza de la modificación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>} &lt;n1&gt; &lt;u0&gt;{Índexs corresponents als camps ``&lt;i0&gt;SERBO-CROAT&lt;/i0&gt;'' (esquerra) i ``&lt;i1&gt;BASC&lt;/i1&gt;'' (dreta) de la base de dades de la taula &lt;n3&gt;.}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T175819Z">
+        <seg>} &lt;n1&gt; &lt;u0&gt;{Índices correspondientes a los campos ``&lt;i0&gt;SERBO-CROATA&lt;/i0&gt;'' (izquierda) y ``&lt;i1&gt;VASCO&lt;/i1&gt;'' (derecha) de la base de datos de la tabla &lt;n3&gt;.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>} Això s'aconsegueix mitjançant un procediment anomenat &lt;i0&gt;indexació&lt;/i0&gt;: bàsicament, s'assigna un número a cada fitxa i es construeix una taula o &lt;i1&gt;índex&lt;/i1&gt; ordenat (una altra base de dades) que conté registres amb dos camps: un, el camp pel qual es vol ordenar, i l'altre, la posició en la base de dades del registre que conté aquest valor del camp (en cert sentit, aquest índex no és massa diferent de l'índex alfabètic que hi ha al final d'alguns llibres: busquem el mot alfabèticament i ens diu en quina o en quines pàgines se'n parla).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T175650Z">
+        <seg>} Esto se consigue mediante un procedimiento llamado  &lt;i0&gt;indexación&lt;/i0&gt;: básicamente, se asigna un número a cada ficha y se construye una tabla o  &lt;i1&gt;índice&lt;/i1&gt; ordenado (otra base de datos) que contiene registros con dos campos: uno, el campo por el cual se quiere ordenar, y el otro, la posición en la base de datos del registro que contiene este valor del campo (en cierto sentido, este índice no es demasiado diferente del índice alfabético que hay al final de algunos libros: buscamos la palabra alfabéticamente y nos dice en qué páginas sale).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És això possible?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174023Z">
+        <seg>¿Es esto posible?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És evident, doncs, que cal establir un sistema alternatiu per poder fer recerques ràpides per més d'un camp.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T171524Z">
+        <seg>Es evidente, pues, que hay que establecer un sistema alternativo para poder hacer búsquedas rápidas por más de un campo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És necessari tenir dues còpies de totes les fitxes d'una base de dades per a poder-la tenir ordenada per més d'un camp?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Victor" changedate="20120526T174123Z">
+        <seg>¿Es necesario tener dos copias de todas las fichas de una base de datos para poder tenerla ordenada por más de un campo?</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

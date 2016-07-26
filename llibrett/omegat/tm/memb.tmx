@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="2.3.0_8"
+    segtype="sentence"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="CAT"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u1&gt; Una impressora (d'injecció o de raig de tinta ---la més típica---, o làser&lt;p0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135611Z" changeid="AinoSM">
+        <seg>&lt;u1&gt; Una impresora (de inyección o de tinta --- la más típica ---, o de láser &lt;p0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[386:] Un model de processador central de la família 86, dissenyat per Intel i comercialitzat també per altres companyies, que es troba en ordinadors personals del tipus PC.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T170705Z" changeid="Pc">
+        <seg>[386:] Un modelo de procesador central de la familia 86, diseñado por Intel y comercializado también por otras compañías, que se encuentra en ordenadores personales del tipo PC.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>(.{&lt;u2&gt;{iat}}.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132722Z" changeid="AinoSM">
+        <seg>(. {&lt;u2&gt; {iat}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u2&gt;[3.] Si el caràcter en la posició $p$ de $A$ és `\$', digues &lt;i1&gt;sí&lt;/i1&gt; i para.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140713Z" changeid="AinoSM">
+        <seg>] Si el carácter en la posición $ p $ de $ A $ es `\ $ ', di &lt;i1&gt; sí &lt;/ i1&gt; y para.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Altres components, com ara la memòria RAM, també funcionen a una determinada velocitat, independent de la del processador, que es mesura també en MHz.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172912Z" changeid="Pc">
+        <seg>Otros componentes, como la memoria RAM, también funcionan con una velocidad determinada, independiente de la del procesador, que se mide también en MHz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u3&gt;[4.] Si el caràcter en la posició $p$ de $A$ no és igual al caràcter en la posició $p$ de $B$, vés a 8.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140333Z" changeid="AinoSM">
+        <seg>] Si el carácter en la posición $ p $ de $ A $ no es igual al carácter en la posición $ p $ de $ B $, ve a 8.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>En el cas de les línies elèctriques, la tecnologia rep també el nom de PLC (&lt;i1&gt;power line communications&lt;/i1&gt; o comunicacions a través de les línies de força).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172302Z" changeid="Pc">
+        <seg>En el caso de las líneas eléctricas , la tecnología recibe también el nombre de PLC (&lt;I1&gt; powe line communications&lt;/i1&gt; o comunicaciones a través de líneas de fuerza.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[PCMCIA] (de l'anglés &lt;i0&gt;Personal Computer Memory Card International Association&lt;/i0&gt;, associació internacional de targetes de memòria per a ordinadors personals): nom d'un estàndard de targetes de memòria, mòdems, discos, unitats de disquets, targetes de xarxa i altres dispositius perifèrics per a ordinadors portàtils.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173522Z" changeid="Pc">
+        <seg>[PCMCIA] (del inglés &lt;i0&gt; Personal Computer Memory Card International Association &lt;/ i0&gt;, asociación internacional de tarjetas de memoria para ordenadores personales): nombre de un estándar de tarjetas de memoria, módems, discos, unidades de disquetes, tarjetas de red y otros dispositivos periféricos para ordenadores portátiles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u7&gt;[8.] Digues &lt;i1&gt;no&lt;/i1&gt; i para.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140412Z" changeid="AinoSM">
+        <seg>] Di &lt;i1&gt; no &lt;/ i1&gt; y para.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els anomenats de &lt;i1&gt;densitat doble&lt;/i1&gt; (DD) ---molt poc usats actualment--- poden contenir 720 kB, és a dir, la meitat.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171904Z" changeid="Pc">
+        <seg>Los conocidos como  &lt;i1&gt;densidad doble&lt;/i1&gt; (DD) ---poco usados en la acutalidad--- pueden contener 720 kB, es decir, la mitad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Hi ha molts tipus d'adaptadors de vídeo.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T170955Z" changeid="Pc">
+        <seg>Hay muchos tipos de adaptadores de vídeo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els fitxers són conjunts de dades amb un nom que els identifica i que es manipulen ---s'obrin, es tanquen, es copien, s'esborren--- com un tot.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132047Z" changeid="AinoSM">
+        <seg>Los ficheros son conjuntos de datos con un nombre que los identifica y que se manipulan --- abrir, cerrar, copiar,borrar --- como un todo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Per exemple, actualment és comú que un PC tinga un processador AMD ATHLON 64 X2 Dual-Core (vegeu el glossari, apartat &lt;n0&gt;) a 2 GHz o un processador equivalent de la marca Intel (p.e., un Intel Pentium D 925 a 3 GHz), 1 GB de memòria RAM i uns 80 GB de disc dur.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134816Z" changeid="AinoSM">
+        <seg>Por ejemplo, actualmente es común que un PC tenga un procesador AMD ATHLON 64 X2 Dual-Core (ver el glosario, apartado 2.8 &lt;n0&gt;) a 2 GHz o un procesador equivalente de la marca Intel (p.e, un Intel Pentium D 925 a 3 GHz), 1 GB de memoria RAM y unos 80 GB de disco duro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Aquests ordinadors es poden presentar en grups connectats entre sí per a oferir major potència i capacitat i es munten de vegades en armaris especials anomenats &lt;i6&gt;racks&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131700Z" changeid="AinoSM">
+        <seg>Estos ordenadores se pueden presentar en grupos conectados entre sí para ofrecer mayor potencia y capacidad y se montan a veces en armarios especiales llamados &lt;i6&gt; racks &lt;/ e6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Tota la informació ---instruccions de programa o dades--- que s'emmagatzema en la memòria d'un ordinador s'hi guarda en forma binària; és a dir, cada dada és una cadena de dígits binaris o &lt;i0&gt;bits&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T133253Z" changeid="AinoSM">
+        <seg>Toda la información --- instrucciones de programa o datos --- que se almacena en la memoria de un ordenador se guarda en forma binaria, es decir, cada dato es una cadena de dígitos binarios o &lt;i0&gt; bits &lt;/ i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>`&lt;u7&gt;{iat1}{txt}'</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132626Z" changeid="AinoSM">
+        <seg>`&lt;u7&gt; {Iat1} {txt} ')))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>(.{&lt;u4&gt;{iat}}.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132817Z" changeid="AinoSM">
+        <seg>(. {&lt;u4&gt; {iat}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Tot i que fa uns anys el seu preu era molt superior al d'un ordinador de sobretaula, avui la diferència és cada vegada més reduïda.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131204Z" changeid="AinoSM">
+        <seg>Aunque hace algunos años su precio era muy superior al de un ordenador de sobremesa, hoy la diferencia es cada vez más reducida.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u5&gt;[6.] Vés al pas 2.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140341Z" changeid="AinoSM">
+        <seg>] Ir al paso 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>En discos grans, seria molt incòmode tenir tots els fitxers un darrere l'altre; per això, és comú que els fitxers estiguen organitzats en {&lt;u1&gt; directoris}&lt;p1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132136Z" changeid="AinoSM">
+        <seg>En discos grandes, sería muy incómodo tener todos los archivos uno tras otro, por lo que es normal que los archivos estén organizados en {&lt;u1&gt; directorios} &lt;p1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Aquestes targetes no són massa diferents en grandària d'una targeta de crèdit i s'insereixen en el port corresponent de l'ordinador, amb la peculiaritat que en permeten l'inserció i l'extracció ``en calent'', és a dir, sense haver d'apagar l'ordinador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173529Z" changeid="Pc">
+        <seg>Estas tarjetas no son demasiado diferentes en tamaño de una tarjeta de crédito y se insertan en el puerto correspondiente del ordenador, con la peculiaridad de que permiten su inserción y la extracción &quot; en caliente&quot;, es decir , sin tener que apagar el ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u2&gt;[De mà o de butxaca] (en anglés &lt;i7&gt;handheld&lt;/i7&gt;): Tenen una grandària una mica més gran que la d'una calculadora i poden considerar-se hereus de les antigues agendes electròniques, tot i que els ordinadors de mà (coneguts també com a &lt;i4&gt;PDA&lt;/i4&gt; per &lt;i5&gt;Personal Digital Assistant&lt;/i5&gt;, assistent digital personal) porten un sistema operatiu potent que permet fer-los servir en tasques como ara l'edició de documents o la navegació per Internet a través d'una connexió sense fils.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131456Z" changeid="AinoSM">
+        <seg>&lt;u2&gt; [De mano o de bolsillo] (en inglés &lt;i7&gt; handheld &lt;/ i7&gt;): Tienen un tamaño algo mayor que la de una calculadora y pueden considerarse herederos de las antiguas agendas electrónicas, aunque los ordenadores de mano (conocidos también como &lt;i4&gt; PDA &lt;/ i4&gt; para &lt;i5&gt; Personal Digital Assistant &lt;/ i5&gt;, asistente digital personal) llevan un sistema operativo potente que permite utilizarlos en tareas tales como la edición de documentos o la navegación por Internet a través de conexión inalámbrica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els portàtils actuals porten quasi tots pantalles TFT.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135510Z" changeid="AinoSM">
+        <seg>Los portátiles actuales llevan casi todos pantallas TFT.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>on &lt;i0&gt;A[p]&lt;/i0&gt; representa el caràcter que hi ha en la posició &lt;i1&gt;p&lt;/i1&gt; de la seqüència &lt;i2&gt;A&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T170501Z" changeid="Pc">
+        <seg>on &lt;i0&gt;A[p]&lt;/i0&gt; representa el carácter que hi ha en la posició &lt;i1&gt;p&lt;/i1&gt; de la secuencia &lt;i2&gt;A&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Aquest matemàtic va introduir el sistema decimal hindú en el món àrab.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135927Z" changeid="AinoSM">
+        <seg>Este matemático introdujo el sistema decimal hindú en el mundo árabe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Aquest algorisme està relacionat amb la recerca d'un mot en un diccionari, per exemple.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140009Z" changeid="AinoSM">
+        <seg>Este algoritmo está relacionado con la búsqueda de una palabra en un diccionario, por ejemplo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Un octet pot contenir, per tant, molt poca informació (un caràcter, una instrucció senzilla del processador central, un nombre de 0 (``{&lt;u5&gt; 00000000}'') a 255 (``{&lt;u6&gt; 11111111}''), etc.).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134058Z" changeid="AinoSM">
+        <seg>Un byte puede contener, por tanto, muy poca información (un carácter, una instrucción sencilla del procesador central, un número de 0 (&quot; {&lt;u5&gt; 00000000}&quot;) a 255 (&quot; {&lt;u6&gt; 11111111} ' '), etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[Wi-Fi] (de l'anglés &lt;i0&gt;wireless fidelity&lt;/i0&gt;, fidelitat sense fils): tecnologia de connexió sense fils (via ràdio), principalment per a formar xarxes locals, que pot arribar fins als 54 Mbps de velocitat de transmissió.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173946Z" changeid="Pc">
+        <seg>[Wi-Fi] (del inglés &lt;i0&gt;wireless fidelity&lt;/i0&gt;, fidelidad inalámbrica): tecnología de conexión inalámbrica ( vía radio), principalmente para formar redes locales, que puede llegar hasta los 54Mbps de velocidad de transmisión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els ordinadors de mà es poden connectar (amb cables o mitjançant tecnologies sense cables) a altres dispositius (ordinadors, telèfons mòbils, impressores, etc.) per compartir dades.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131557Z" changeid="AinoSM">
+        <seg>Los ordenadores de mano se pueden conectar (con cables o a través de tecnologías sin cables) a otros dispositivos (ordenadores, teléfonos móviles, impresoras, etc.) para compartir datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Memòria</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132947Z" changeid="AinoSM">
+        <seg>Memoria</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u2&gt;[3.] Si no existeix la posició $p$ de $B$, vés a 8.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140325Z" changeid="AinoSM">
+        <seg>] Si no existe la posición $ p $ de $ A $, ve a 7.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u3&gt;[Servidors:] Els servidors són ordinadors que contenen i gestionen informació que s'utilitzarà en d'altres ordinadors (``clients'') connectats a ells a través d'una xarxa interna o a través d'Internet; no són massa diferents d'un ordinador de sobretaula, típicament més potents quant a memòria, disc i processador, però, com que ningú ha de seure davant d'ells no solen tenir pantalles, teclats o ratolins.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131632Z" changeid="AinoSM">
+        <seg>&lt;u3&gt; [Servidores:] Los servidores son ordenadores que contienen y gestionan información que se utilizará en otros ordenadores (&quot; clientes&quot;) conectados a ellos a través de una red interna o a través de Internet, no son demasiado diferentes de un ordenador de sobremesa, típicamente más potentes en cuanto a memoria, disco y procesador, pero como nadie tiene que sentarse delante de ellos no suelen tener pantallas, teclados o ratones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els directoris són fitxers especials que agrupen els noms i les característiques d'altres fitxers; de fet, els directoris poden contenir zero o més fitxers o també zero o més directoris (sense restriccions de quantitat), i així successivament, de manera que la persona usuària pot establir una estructuració jeràrquica o arbòria dels seus fitxers en el disc.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132248Z" changeid="AinoSM">
+        <seg>Los directorios son ficheros especiales que agrupan  los nombres y las características de otros ficheros, de hecho, los directorios pueden contener cero o varios archivos o cero o más directorios (sin restricciones de cantidad), y así sucesivamente, de modo que la persona usuaria puede establecer una estructuración jerárquica o arbórea de sus ficheros en el disco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>) ) ) &lt;n0&gt; &lt;n1&gt; En aquest disc, el directori principal, ``&lt;u0&gt;{}'', conté un únic [sub]directori ``&lt;u1&gt;{prac1}''; aquest directori conté dos [sub]directoris, ``&lt;u2&gt;{iat}'' (que conté els fitxers ``&lt;i0&gt;iat1.txt&lt;/i0&gt;'' i ``&lt;i1&gt;iat2.txt&lt;/i1&gt;'') i ``&lt;u3&gt;{reserva}''.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132656Z" changeid="AinoSM">
+        <seg>&lt;n0&gt; &lt;n1&gt; En este disco, el directorio principal, &quot; &lt;u0&gt; {}&quot;, contiene un único [sub] directorio &quot; &lt;u1&gt; {prac1}&quot;; este directorio contiene dos [ sub] directorios, &quot; &lt;u2&gt; {iado}&quot; (que contiene los archivos &quot; &lt;i0&gt; iat1.txt &lt;/ i0&gt;&quot; y &quot; &lt;i1&gt; iat2.txt &lt;/ i1&gt;&quot;) y &quot; &lt;u3&gt; {reserva}&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>{&lt;u0&gt; func compara(A, B : sequencia de car);&lt;u1&gt; &lt;i0&gt;&lt;/i0&gt;    var p : entera ;&lt;u2&gt; &lt;i1&gt;&lt;/i1&gt;    etiquetes : 2 ;&lt;u3&gt; &lt;i2&gt;&lt;/i2&gt;    inici&lt;u4&gt; &lt;i3&gt;&lt;/i3&gt;       p:=1;&lt;u5&gt; &lt;i4&gt;&lt;/i4&gt;    2: si A[p]&lt;&gt;B[p] llavors retorna 'no';&lt;u6&gt; &lt;i5&gt;&lt;/i5&gt;       si A[p]='\$' llavors retorna 'si'&lt;u7&gt; &lt;i6&gt;&lt;/i6&gt;       p:=p+1;&lt;u8&gt; &lt;i7&gt;&lt;/i7&gt;       ves&lt;u11&gt;a 2;&lt;u9&gt; &lt;i8&gt;&lt;/i8&gt;    fi;&lt;u10&gt; }</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140944Z" changeid="AinoSM">
+        <seg>{&lt;u0&gt; Func compara (A, B: secuencia de caro); &lt;u1&gt; &lt;i0&gt; &lt;/ i0&gt; var p: entera; &lt;u2&gt; &lt;i1&gt; &lt;/ i1&gt; etiquetas: 2; &lt;u3&gt; &lt;i2 &gt; &lt;/ i2&gt; inicio &lt;u4&gt; &lt;i3&gt; &lt;/ i3&gt; p: = 1; &lt;u5&gt; &lt;i4&gt; &lt;/ i4&gt; 2: si A [p] &lt;&gt; B [p] entonces devuelve 'no'; &lt;u6&gt; &lt;i5&gt; &lt;/ i5&gt; si A [p] = '\ $' entonces vuelve 'si' &lt;u7&gt; &lt;i6&gt; &lt;/ e6&gt; p: = p +1; &lt;u8&gt; &lt;i7&gt; &lt;/ i7&gt; ve a  &lt;u11&gt; a 2; &lt;u9&gt; &lt;i8&gt; &lt;/ i8&gt; fin; &lt;u10&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>El Pentium original ha anat evolucionant durant els últims anys: Pentium Pro, Pentium II, Pentium III, Pentium 4 etc.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173559Z" changeid="Pc">
+        <seg>El Pentium original ha ido evolucionando durante los últimos años: Pentium Pro, Pentium II, Pentium III, Pentium 4 etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Fixeu-vos que dues carpetes diferents contenen arxius amb el mateix nom ``&lt;i3&gt;iat1.txt&lt;/i3&gt;''; això no és problema si considerem la trajectòria completa com a nom del fitxer.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132914Z" changeid="AinoSM">
+        <seg>Tenga en cuenta que dos carpetas diferentes contienen archivos con el mismo nombre &quot; &lt;i3&gt; iat1.txt &lt;/ i3&gt;&quot;; eso no es problema si consideramos la trayectoria completa como nombre del archivo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u1&gt;[2.] Si el caràcter en la posició $p$ de $A$ no és igual al caràcter en la posició $p$ de $B$, digues &lt;i0&gt;no&lt;/i0&gt; i para.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140707Z" changeid="AinoSM">
+        <seg>] Si el carácter en la posición $ p $ de $ A $ no es igual al carácter en la posición $ p $ de $ B $, di &lt;i0&gt; no &lt;/ i0&gt; y para.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>L'execució d'una instrucció per part del processador sol consumir un nombre menut de cicles, quasi sempre més d'un.&lt;p0&gt; Una velocitat típica (any 2006) és 3 GHz, és a dir, 3000 MHz.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172714Z" changeid="Pc">
+        <seg>La ejecución de una instrucción por parte del procesador suele consumer un número pequeño de ciclos, casi siempre más de uno.&lt;p0&gt; Una velocidad típica (año 2006) es de 3 GHz, es decir, 3000 Mhz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>És el successor del 386 ---té un conjunt d'instruccions més complet---, i processa, com aquest, 32 bits per cicle; tots els programes escrits per a ser executats pels processadors 386 poden ser executats pels processadors 486.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T170806Z" changeid="Pc">
+        <seg>Es el sucesor del 386 --- tiene un conjunto de instrucciones más completo ---, y procesa, como éste, 32 bits por ciclo; todos los programas escritos para ser ejecutados por los procesadores 386 pueden ser ejecutados por los procesadores 486</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u7&gt; Una targeta de comunicacions (mòdem o targeta de xarxa, amb fils o sense fils vegeu el glossari, apartat &lt;n2&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135429Z" changeid="AinoSM">
+        <seg>&lt;u7&gt; Una tarjeta de comunicaciones (módem o tarjeta de red, con cables o sin cables, véase el glosario, apartado &lt;n2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Tipus d'ordinadors</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T130832Z" changeid="AinoSM">
+        <seg>Tipos de ordenadores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Es pot instal·lar Linux (que es presenta en moltes &lt;i0&gt;distribucions&lt;/i0&gt; diferents) en un PC amb processador 386 o superior i en molts altres tipus d'ordinador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172336Z" changeid="Pc">
+        <seg>Se puede instalar Linux (que se presenta en muchas &lt;i0&gt; distribuciones &lt;/ i0&gt; diferentes) en un PC con procesador 386 o superior y en muchos otros tipos de ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Per exemple, els caràcters i símbols més comunament usats en textos se solen guardar cada un en un octet, usant el codi ASCII&lt;n0&gt; (&lt;i1&gt;American Standard Code for Information Interchange&lt;/i1&gt;), on el codi de la ``{&lt;u1&gt; A}'' és ``{&lt;u2&gt; 01000001}'' o el de la ``{&lt;u3&gt; z}'' és ``{&lt;u4&gt; 01111010}'' (vegeu l'epígraf &lt;n1&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134008Z" changeid="AinoSM">
+        <seg>Por ejemplo, los caracteres y símbolos más comúnmente usados en textos se suelen guardar cada uno en un byte, usando el código ASCII &lt;n0&gt; (&lt;i1&gt; American Standard Code for Information Interchange &lt;/ i1&gt;), donde el código de la ` `{&lt;u1&gt; A}&quot; es &quot; {&lt;u2&gt; 01000001}&quot; o el de la &quot; {&lt;u3&gt; z}&quot; es &quot; {&lt;u4&gt; 01111010}&quot; (véase el epígrafe &lt;n1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[Linux:] un sistema operatiu multitasca i multiusuari gratuït, de l'estil de l'Unix que es podia trobar en els miniordinadors, desenvolupat de manera no lucrativa per milers de voluntaris arreu del món i que es pot copiar lliurement complint certes condicions.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172330Z" changeid="Pc">
+        <seg>[Linux:] un sistema operativo multitarea y multiusuario gratuito, del estilo de Unix que se podía encontrar en los miniordenadores, desarrollado de manera no lucrativa por miles de voluntarios en todo el mundo y que se puede copiar libremente cumpliendo ciertas condiciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>El nom &lt;i0&gt;algorisme&lt;/i0&gt; ve del nom d'un matemàtic que treballava a Bagdad vora l'any 825 de la nostra era, Muhammad ibn Musa al Khwarizmi, anomenat així perquè sembla que era d'una ciutat al sud del mar d'Aral anomenada Khwarizm (ara Kheva).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135921Z" changeid="AinoSM">
+        <seg>El nombre &lt;i0&gt; algoritmo &lt;/ i0&gt; viene del nombre de un matemático que trabajaba en Bagdad cerca del año 825 de nuestra era, Muhammad ibn Musa al Khwarizmi, llamado así porque se cree que pertenecía  de una ciudad al sur del Mar de Aral llamada Khwarizm (ahora Kheva).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[USB] (de l'anglés &lt;i0&gt;universal serial bus&lt;/i0&gt;, bus sèrie universal): Estàndard o norma de connexió de dispositius perifèrics (impressores, mòdems, reproductors digitals de música, càmeres digitals, unitats de memòria) que transmet les dades en sèrie (és a dir, un bit darrere de l'altre) a velocitats que poden arribar als 12 Mbps, i que permet la connexió i desconnexió de dispositius ``en calent'', és a dir, sense haver d'apagar l'ordinador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173657Z" changeid="Pc">
+        <seg> (USB) (del inglés &lt;i0&gt; universal serial bus &lt;/ i0&gt;, bus serie universal): Estándar o norma de conexión de dispositivos periféricos (impresoras, módems, reproductores digitales de música, cámaras digitales, unidades de memoria) que transmite los datos en serie (es decir, un bit detrás del otro) a velocidades que pueden alcanzar los 12 Mbps, y que permite la conexión y desconexión de dispositivos &quot; en caliente&quot;, es decir, sin tener que apagar el ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Hi ha mòdems &lt;i2&gt;interns&lt;/i2&gt;, que s'instal·len dins de la caixa o torre de l'ordinador, i &lt;i3&gt;externs&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173415Z" changeid="Pc">
+        <seg>Hay módems &lt;i2&gt;internos&lt;/i2&gt;, que se instalan dentro de la caja o torre del ordenador, y  &lt;i3&gt;externos&lt;/i3&gt;ó</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>També anomenats &lt;i0&gt;documents&lt;/i0&gt; o &lt;i1&gt;arxius&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131859Z" changeid="AinoSM">
+        <seg>También llamados &lt;i0&gt; documentos &lt;/ i0&gt; o &lt;i1&gt; archivos &lt;/ i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[targeta de xarxa:] per a connectar ordinadors i formar una xarxa (normalment local) per a compartir recursos, cada ordinador ha de tenir una placa o targeta de xarxa.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173632Z" changeid="Pc">
+        <seg>[Tarjeta de red:] para conectar ordenadores y formar una red (normalmente local) para compartir recursos, cada ordenador debe tener una placa o tarjeta de red.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Aquest glossari arreplega alguns termes d'ús comú en la descripció d'ordinadors i programes que no han estat definits més amunt.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T170521Z" changeid="Pc">
+        <seg>Este glosario recoge algunos términos de uso común en la descripción de ordenadores y programas que no han sido definidos más arriba.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Com ja s'ha dit en la pàgina &lt;n0&gt;, és comú que les dades ---de qualsevol classe: textos, programes, gràfics, so, vídeo, etc.--- emmagatzemades en memòria secundària estiguen organitzades en {&lt;u0&gt; fitxers}&lt;p0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131935Z" changeid="AinoSM">
+        <seg>Como ya se ha dicho en la página &lt;n0&gt;, es habitual que los datos --- de cualquier clase: textos, programas, gráficos, sonido, vídeo, etc. --- Almacenados en memoria secundaria estén organizadas en {&lt;u0 &gt; archivos} &lt;p0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u1&gt;[Portàtils] (en anglés &lt;i2&gt;laptop&lt;/i2&gt; i de vegades &lt;i3&gt;notebook&lt;/i3&gt;): Tenen una grandària menor que la d'un maletí i un pes lleuger que permet dur-los sense massa esforç d'un lloc a un altre.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131112Z" changeid="AinoSM">
+        <seg>&lt;u1&gt; [Portátiles] (en inglés &lt;i2&gt; laptop &lt;/ i2&gt; a veces &lt;i3&gt; notebook &lt;/ i3&gt;): Tienen un tamaño menor que el de un maletín y su peso ligero que permite llevarlos sin demasiado esfuerzo de un lugar a otro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Per exemple, un document de text com aquest té desenes de milers de caràcters, i una enciclopèdia, centenars de milions.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134107Z" changeid="AinoSM">
+        <seg>Por ejemplo, un documento de texto como éste tiene decenas de miles de caracteres, y una enciclopedia, cientos de millones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Si quan s'ha demanat la 2.000.000 es copien en la &lt;i2&gt;memòria cau&lt;/i2&gt; les 524.288 posicions que van de la 1.572.864 a la 2.097.151, l'accés a la posició 2.000.003 serà més ràpida.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171559Z" changeid="Pc">
+        <seg>Si cuando se ha pedido la 2.000.000 se copian en el &lt;i2&gt; caché &lt;/ i2&gt; las 524.288 posiciones que van de la 1572864 a la 2097151, el acceso a la posición 2.000.003 será más rápido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Actualment no és estrany que una unitat de CD-ROM tinga una velocitat punta de lectura i d'escriptura de 52$&lt;u2&gt;$ o més.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135107Z" changeid="AinoSM">
+        <seg>Actualmente no es extraño que una unidad de CD-ROM tenga una velocidad punta de lectura y de escritura de 52X &lt;u2&gt; o más.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u4&gt;[5.] Suma 1 a $p$.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140337Z" changeid="AinoSM">
+        <seg>] Suma 1 a $ p $.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[DSL] (de l'anglés &lt;i0&gt;digital subscriber line&lt;/i0&gt;, línia d'abonat digital), Tecnología de connexió que permet aprofitar les línies telefòniques i elèctriques per a fer connexions d'alta velocitat (des dels 128 kbps fins als 2 Mbps).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172135Z" changeid="Pc">
+        <seg>[DSL] (del inglés &lt;i0&gt;digital subscriber line&lt;/i0&gt;, línea de abonado digital), tecnología de conexión que permite aprovechar las líneas telefónicas y eléctricas para hacer conexiones de alta velocidad ( desde 128 kbps hasta los 2 Mbps)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Si el disc es diu &lt;i4&gt;a:&lt;/i4&gt; (típic d'un disquet en un PC amb sistema operatiu Windows), les trajectòries d'aquests dos fitxers serien &lt;i5&gt;a:&lt;/i5&gt;&lt;u6&gt;{}&lt;u7&gt;{prac1}&lt;u8&gt;{iat}&lt;i6&gt;iat1.txt&lt;/i6&gt; i &lt;i7&gt;a:&lt;/i7&gt;&lt;u9&gt;{}&lt;u10&gt;{prac1}&lt;u11&gt;{reserva}&lt;u12&gt;{iat}&lt;i8&gt;iat1.txt&lt;/i8&gt;, i, per tant, serien diferents.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132944Z" changeid="AinoSM">
+        <seg>Si el disco se llama &lt;i4&gt; a: &lt;/ i4&gt; (típico de un disquete en un PC con sistema operativo Windows), las trayectorias de estos dos ficheros serían &lt;i5&gt; a: &lt;/ i5&gt; &lt;u6&gt; { } &lt;u7&gt; {prac1} &lt;u8&gt; {iat} &lt;i6&gt; iat1.txt &lt;/ e6&gt; y &lt;i7&gt; a: &lt;/ i7&gt; &lt;u9&gt; {} &lt;u10&gt; {prac1} &lt;u11&gt; {reserva} &lt;u12&gt; {iat} &lt;i8&gt; iat1.txt &lt;/ i8&gt;, y, por tanto, serían diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Si existira un llenguatge de programació de l'estil de Pascal en català, potser tindria una forma com aquesta:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140753Z" changeid="AinoSM">
+        <seg>Si existiera un lenguaje de programación del estilo de Pascal en catalán, quizás tendría una forma como esta:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>El directori ``&lt;u4&gt;{reserva}'' conté un subdirectori ``&lt;u5&gt;{iat}'' (que conté l'arxiu ``&lt;i2&gt;iat1.txt&lt;/i2&gt;)''.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132829Z" changeid="AinoSM">
+        <seg>El directorio &quot; &lt;u4&gt; {reserva}&quot; contiene un subdirectorio &quot; &lt;u5&gt; {iat}&quot; (que contiene el archivo &quot; &lt;i2&gt; iat1.txt &lt;/ i2&gt;)&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Les instruccions dels programes, com el de l'exemple, que sumava tots els enters del 1 al 10, també s'emmagatzemen en octets: per exemple, la instrucció {&lt;u7&gt; inc A}, que incrementa l'acumulador en 1, podria ser l'octet {&lt;u8&gt; 11010110}.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134147Z" changeid="AinoSM">
+        <seg>Las instrucciones de los programas, como el del ejemplo, que sumaban todos los enteros del 1 al 10, también se almacenan en bytes: por ejemplo, la instrucción {&lt;u7&gt; inc A}, que incrementa el acumulador en 1, podría ser el byte {&lt;u8&gt; 11010110}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u3&gt;[4.] Suma 1 a p. &lt;u4&gt;[5.] Vés al pas 2.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140741Z" changeid="AinoSM">
+        <seg>] Suma 1 a p. Ve al paso 2 &lt;u4&gt; [5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>D'altra banda, sovint es fa la distinció entre els ordinadors de tipus PC i els Macinstosh (sovint anomenats Mac); els PC són l'evolució dels primers ordinadors personals desenvolupats per IBM, tot i que actualment són fabricats per un nombre molt gran d'empreses; els Mac són fabricats exclusivament per l'empresa Apple Computers, tenen un sistema operatiu propi i una quota de mercat molt més reduïda.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131845Z" changeid="AinoSM">
+        <seg>Por otro lado, a menudo se hace la distinción entre los ordenadores de tipo PC y los Macintosh (conocidos también como Mac), los PC son la evolución de los primeros ordenadores personales desarrollados por IBM, aunque actualmente son fabricados por un número muy grande de empresas; los Mac son fabricados exclusivamente por la empresa Apple Computers, tienen un sistema operativo propio y una cuota de mercado mucho más reducida</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>També és possible (i molt còmoda) la connexió sense fils (vegeu &lt;i0&gt;Wi-Fi&lt;/i0&gt; en aquest glossari).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173703Z" changeid="Pc">
+        <seg>También es posible (y muy cómoda) la conexión inalámbrica (ver &lt;i0&gt; Wi-Fi &lt;/ i0&gt; en este glosario).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;n1&gt; } Si es pot suposar que a les cadenes de caràcters s'afegeix un símbol especial de final de cadena (per exemple, `\$'), l'algorisme se simplifica:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140540Z" changeid="AinoSM">
+        <seg>&lt;n1&gt;} Si se puede suponer que en las cadenas de caracteres se añade un símbolo especial de fin de cadena (por ejemplo, '$'), el algoritmo se simplifica</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>De fet, com en el cas dels kilooctets, no exactament: $$1 &lt;i6&gt;MB&lt;/i6&gt; = 1.024 &lt;u4&gt; 1.024 &lt;i7&gt;octets&lt;/i7&gt;= 1.048.576 &lt;i8&gt;octets&lt;/i8&gt;.$$ &lt;u2&gt; &lt;i4&gt;gigaoctets&lt;/i4&gt; o &lt;i5&gt;gigabytes&lt;/i5&gt; (GB), o milers de milions ---una mica més--- d'octets: $$1 &lt;i9&gt;GB&lt;/i9&gt;=1.024 &lt;i10&gt;MB&lt;/i10&gt;=1.048.576 &lt;i11&gt;kB&lt;/i11&gt;=1.073.741.824 &lt;i12&gt;octets&lt;/i12&gt;.$$</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134702Z" changeid="AinoSM">
+        <seg>De hecho, como en el caso de los kilobytes, no exactamente: 1 &lt;i6&gt; MB &lt;/ e6&gt; = 1.024 x &lt;u4&gt; 1.024 &lt;i7&gt; bytes &lt;/ i7&gt; = 1.048.576 &lt;i8&gt; bytes &lt;/ i8&gt;.  &lt;u2&gt; &lt;i4&gt; gigabytes &lt;/ i4&gt; (GB), o miles de millones --- un poco más --- de bytes:  1 &lt;i9&gt; GB &lt; / i9&gt; = 1.024 &lt;i10&gt; MB &lt;/ i10&gt; = 1.048.576 &lt;i11&gt; KB &lt;/ I11&gt; = 1073741824 &lt;i12&gt; bytes &lt;/ i12&gt;. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[GHz:] vegeu gigahertz.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172307Z" changeid="Pc">
+        <seg>[GHz:] ver gigahertz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Però, el seu volum reduït limita les possibilitats de fer-hi ampliacions i, per tant, el seu temps de vida és sovint més curt que el dels ordinadors de sobretaula.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131145Z" changeid="AinoSM">
+        <seg>Sin embargo,su volumen reducido limita las posibilidades de hacer ampliaciones y, por tanto, su tiempo de vida es ,a menudo, más corto que el de los ordenadores de sobremesa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[mòdem:] abreviatura de modulador-desmodulador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173213Z" changeid="Pc">
+        <seg>[Módem:] abreviatura de modulador-demodulador..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[1.] Fes que $p$ valga 1.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140625Z" changeid="AinoSM">
+        <seg>] Haz que $ p $ valga 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>La seqüència dels noms de les carpetes que cal anar obrint fins que arribem a un fitxer s'anomena la &lt;i0&gt;trajectòria&lt;/i0&gt; o la &lt;i1&gt;ruta&lt;/i1&gt; del fitxer.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132503Z" changeid="AinoSM">
+        <seg>La secuencia de los nombres de las carpetas que hay que ir abriendo hasta que lleguemos a un fichero se conoce como &lt;i0&gt; trayectoria &lt;/ i0&gt; o &lt;i1&gt; ruta &lt;/ ??i1&gt; del fichero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Una velocitat més gran implica una velocitat d'execució més gran, sempre que no hi haja altres circumstàncies limitants (per exemple, una falta de memòria).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172803Z" changeid="Pc">
+        <seg>Una velocidad más alta implica una velocidad de ejecución más alta, siempre que no haya otras circustancias limitantes( por ejemplo, falta de memoria).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>El llibre és bàsicament una compilació de procediments algebraics i geomètrics, és a dir, d'&lt;i3&gt;algorismes&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135949Z" changeid="AinoSM">
+        <seg>El libro es básicamente una compilación de procedimientos algebraicos y geométricos, es decir, de &lt;i3&gt; algoritmos &lt;/ i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els DVD actuals contenen uns 4,7 GB, però ja s'han devolupat tècniques que n'amplien considerablement la capacitat.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134917Z" changeid="AinoSM">
+        <seg>Los DVD actuales contienen unos 4,7 GB, pero ya se han desarrollado técnicas que amplían considerablemente la capacidad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Una classificació no gaire exhaustiva dels diferents tipus d'ordinadors que podem trobar-nos avui dia és la següent:</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T130919Z" changeid="AinoSM">
+        <seg>A continuación una clasificación no muy exhaustiva de los diferentes tipos de ordenadores:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>En les unitats de CD-ROM és important la velocitat màxima de transferència de dades, que es dóna com a múltiple de l'estàndard (la d'un CD de música, de l'ordre d'uns 150 kilooctets per segon): quàdrupla (4$&lt;u0&gt;$), sèxtupla (6$&lt;u1&gt;$), etc.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135034Z" changeid="AinoSM">
+        <seg>En las unidades de CD-ROM es importante la velocidad máxima de transferencia de datos, que se da como múltiple del estándar (la de un CD de música, del orden de unos 150 kilobytes por segundo): Cuatro ( 4X&lt;u0&gt;), séxtuplo (6X &lt;u1&gt; ), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>En el cas del mòdem més comú, el &lt;i0&gt;mòdem telefònic&lt;/i0&gt;, es tracta d'un dispositiu (normalment una placa interna, encara que també pot ser extern) que permet usar la línia telefònica (senyals analògics) per a comunicacions informàtiques (digitals) entre dos ordinadors.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173257Z" changeid="Pc">
+        <seg>En el caso del módem más común, el &lt;i0&gt; módem telefónico &lt;/ i0&gt;, se trata de un dispositivo (normalmente una placa interna, aunque también puede ser externo) que permite usar la línea telefónica (señales analógicas) para comunicaciones informáticas (digitales) entre dos ordenadores..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Això evita el parpalleig de les pantalles clàssiques i en redueix la grandària, tot i que també incrementa el preu.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135503Z" changeid="AinoSM">
+        <seg>Esto evita el parpadeo de las pantallas clásicas y reduce su tamaño, aunque también incrementa el precio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[gigahertz:] un gigahertz són 1000 megahertz (vegeu &lt;i0&gt;megahertz&lt;/i0&gt; en aquest glossari).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172315Z" changeid="Pc">
+        <seg>[Gigahertz:] un gigahertz son 1000 megahertz (véase &lt;i0&gt; megahertz &lt;/ i0&gt; en este glosario).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Sobre algorismes</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135806Z" changeid="AinoSM">
+        <seg>Sobre algoritmos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>(.{&lt;u1&gt;{prac1}}.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132609Z" changeid="AinoSM">
+        <seg>(. {&lt;u1&gt; {Prac1}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[adaptador de vídeo] (també anomenada targeta gràfica o controlador de vídeo): Targeta que permet connectar un monitor a l'ordinador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171140Z" changeid="Pc">
+        <seg>[adaptador de vídeo] (conocido también como tarjeta gráfica o controlador de vídeo): Tejeta que permite conectar un monitor al ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>El seu llibre, &lt;i1&gt;Kitab al-jabr wa al-muqabalah&lt;/i1&gt;, o {&lt;u0&gt; Llibre de la integració i l'equació}, va donar nom també a l'&lt;i2&gt;àlgebra&lt;/i2&gt; quan es va traduir al llatí en el segle XII.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135943Z" changeid="AinoSM">
+        <seg>Su libro, &lt;i1&gt; Kitab al-jabr wa al-muqabalah &lt;/ i1&gt; o {&lt;u0&gt; Libro de la integración y la ecuación}, dio nombre también a wl &lt;i2&gt; álgebra &lt;/ i2&gt; cuando se tradujo al latín en el siglo XII.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els DVD són una classe de disc òptic més veloç i amb més capacitat que els CD-ROM</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134929Z" changeid="AinoSM">
+        <seg>Los DVD son una clase de disco óptico más veloz y con más capacidad que los CD-ROM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Configuració d'un ordinador personal</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134921Z" changeid="AinoSM">
+        <seg>Configuración de un ordenador personal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Se n'ha de considerar la &lt;i0&gt;resolució&lt;/i0&gt;, és a dir, el nombre de punts, elements d'imatge (&lt;i1&gt;píxels&lt;/i1&gt;) que caben en una imatge, per exemple $1024 &lt;u1&gt; 768$ (horitzontal $&lt;u2&gt;$ vertical), i altres paràmetres com la {&lt;u3&gt; freqüència de refrescament} (que es mesura en hertzs o cicles per segon; vegeu ``megahertz'').</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171259Z" changeid="Pc">
+        <seg>Se debe considerar la &lt;i0&gt; resolución &lt;/ i0&gt;, es decir, el número de puntos, elementos de imagen (&lt;i1&gt; píxeles &lt;/ i1&gt;) que caben en una imagen, por ejemplo 1.024  x 768 (horizontal x vertical), y otros parámetros como la {&lt;u3&gt; frecuencia de refresco} (que se mide en hercios o ciclos por segundo; véase &quot; megahercio&quot;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Hi ha diversos estàndards de connexió en xarxa; els més anomenats són Ethernet i Token Ring.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173644Z" changeid="Pc">
+        <seg>Hay varios estándares de conexión en red, los más llamados son Ethernet y Token Ring.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els algorismes s'enuncien &lt;i1&gt;en imperatiu&lt;/i1&gt;, com si fossen ordres que es donen a algú perquè les execute seqüencialment, excepte quan es trenca l'ordre amb una instrucció ``Vés a''.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140021Z" changeid="AinoSM">
+        <seg>Los algoritmos se enuncian &lt;i1&gt; en imperativo &lt;/ i1&gt;, como si fueran órdenes que se dan a alguien para que las ejecute secuencialmente, excepto cuando se rompe el orden con una instrucción &quot; Ver&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>De fet, per fidelitat al sistema binari, un kilooctet no té 1.000, sinó 1.024 octets ($2^{10}$ és $1.024$), és a dir 1.024$&lt;u3&gt;$8=8.192 bits.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134448Z" changeid="AinoSM">
+        <seg>De hecho, por fidelidad al sistema binario, un kilobyte no tiene 1.000, sino 1.024 bytes ($ 2 ¹° son 1.024 bytes), es decir 1.024x &lt;u3&gt; 8 = 8192 bits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>La velocitat de les unitats centrals dels ordinadors es mesura en MHz o GHz, és a dir, en milions o milers de milions de cicles bàsics de processament d'informació ---corresponents als &lt;i0&gt;tics&lt;/i0&gt; o impulsos del rellotge que sincronitza tots els circuits de l'ordinador--- per segon.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172602Z" changeid="Pc">
+        <seg>La velocidad de las unidades centrales de los ordenadores se miden en MHz o GHz, es decir, en millones o millares de millones de ciclos básicos de procesamiento de información ---correspondientes a los  &lt;i0&gt;tics&lt;/i0&gt; o impulsos del reloj que sincroniza todos los dispositivos del ordenador--- por segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[cache] o &lt;i0&gt;memòria cau&lt;/i0&gt;: Memòria RAM intermèdia, d'accés més ràpid per part del processador, on es copia de quan en quan un bloc (també ``pàgina'') complet de posicions consecutives de la memòria RAM general per a simplificar accessos repetits a posicions en la mateixa zona.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171448Z" changeid="Pc">
+        <seg>[Cache] : Memoria RAM intermedia, de acceso más rápido por parte del procesador, donde se copia de cuando en cuando un blog (también &quot; página&quot;) completo de posiciones consecutivas de la memoria RAM general para simplificar accesos repetidos a posiciones en la misma zona.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u1&gt; &lt;i2&gt;megaoctets&lt;/i2&gt; o &lt;i3&gt;megabytes&lt;/i3&gt; (MB), o milions d'octets.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134508Z" changeid="AinoSM">
+        <seg>&lt;u1&gt; &lt;i2&gt; megabytes &lt;/ i2&gt; (MB), o millones de bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;n1&gt; } Aquest algorisme es pot convertir a un programa d'ordinador.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140745Z" changeid="AinoSM">
+        <seg>&lt;n1&gt;} Este algoritmo se puede convertir en un programa de ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[densitat alta:] Quan els disquets de 3 polzades i mitja (uns 90 mm) són de densitat alta solen estar marcats amb les lletres HD (&lt;i0&gt;high density&lt;/i0&gt;) i poden emmagatzemar 1,44 MB de dades.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171817Z" changeid="Pc">
+        <seg>[densidad alta]: Cuando los disquets de 3 pulgadas y media( unos 90mm) son de densidad alta y están marcado con las letras HD (&lt;i0&gt;high density&lt;/i0&gt;) pueden almacenar 1,44 MB de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>De tota manera, les velocitats &lt;i0&gt;mitjanes&lt;/i0&gt; de tot un procés de lectura i escriptura solen ser més baixes.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135121Z" changeid="AinoSM">
+        <seg>De todas formas, las velocidades &lt;i0&gt; medias &lt;/ i0&gt; de todo un proceso de lectura y escritura suelen ser más bajas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[486:] Un model de processador central de la família 86, dissenyat per Intel i també per altres companyies, que es troba en ordinadors personals del tipus PC.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T170748Z" changeid="Pc">
+        <seg>[486:] Un modelo de procesador central de la familia 86, diseñado por Intel y también por otras compañías, que se encuentra en ordenadores personales del tipo PC.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Si són de colors, cal més d'un bit per a cada punt.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134122Z" changeid="AinoSM">
+        <seg>Si son de colores, hay más de un bit por cada punto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[MHz:] vegeu megahertz.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172940Z" changeid="Pc">
+        <seg>[MHGz:] ver megahercio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Es distingeixen perquè els primers tenen un petit foradet quadrat addicional (a la part inferior dreta si posem la finestra dalt).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T172003Z" changeid="Pc">
+        <seg>Se distingue porque los primeros tienen un agujerito cuadrado adicional ( en la parte inferior derecha si ponemos la ventana arriba).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Un dels paràmetres més interessants d'un mòdem és la &lt;i1&gt;velocitat&lt;/i1&gt; de transmissió de dades, que es mesura en bps (bits per segon).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173323Z" changeid="Pc">
+        <seg>Uno de los parámetros más interesantes de un módem es la &lt;i1&gt; velocidad &lt;/ i1&gt; de transmisión de datos, que se mide en bps (bits por segundo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[ADSL] (de l'anglés &lt;i0&gt;asymmetric digital subscriber line&lt;/i0&gt;, línia d'abonat digital asimètrica): Versió asimètrica de DSL (vegeu DSL).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171329Z" changeid="Pc">
+        <seg>[ADSL] (del inglés &lt;i0&gt; Asymmetric digital subscriber line &lt;/ i0&gt;, línea de abonado digital asimétrica): Versión asimétrica de DSL (ver DSL).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>La configuració clàssica d'un ordinador personal model 2006 sol ser més o menys com segueix: &lt;n0&gt; &lt;u0&gt; La unitat base (la ``caixa'' o la ``torre'') conté: &lt;n1&gt; &lt;u1&gt; El processador (típicament un Pentium d'Intel d'uns 3 GHz o un processador equivalent de la marca AMD), &lt;u2&gt; La memòria RAM (per exemple, de 1 GB), &lt;u3&gt; Una bona targeta gràfica, &lt;u4&gt; Un disc fix amb una capacitat de l'ordre dels 320 GB, la unitat de disquet, &lt;u5&gt; Una unitat enregistradora de DVD&lt;p0&gt; i de CD-ROM&lt;p1&gt; &lt;u6&gt; Una targeta de so amb altaveus i micròfon.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135253Z" changeid="AinoSM">
+        <seg>La configuración clásica de un ordenador personal modelo 2006 suele ser más o menos como la siguiente: &lt;n0&gt; &lt;u0&gt; La unidad base (la &quot; caja&quot; o la &quot; torre&quot;) contiene: &lt;n1&gt; &lt;u1&gt; El procesador (típicamente un Pentium de Intel de unos 3 GHz o un procesador equivalente de la marca AMD), &lt;u2&gt; La memoria RAM (por ejemplo, de 1 GB), &lt;u3&gt; Una buena tarjeta gráfica, &lt;u4&gt; Un disco fijo con una capacidad del orden de los 320 GB, la unidad de disquete, &lt;u5&gt; Una unidad grabadora de DVD &lt;p0&gt; y de CD-ROM &lt;p1&gt; &lt;u6&gt; Una tarjeta de sonido con altavoces y micrófono.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Un CD-ROM conté uns 700 MB, tot i que també n'hi ha varietats que arriben als 900 MB.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134856Z" changeid="AinoSM">
+        <seg>Un CD-ROM contiene unos 700 MB, aunque también hay variedades que llegan a los 900 MB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>{&lt;u0&gt; &lt;u1&gt; ALGORISME COMPARA&lt;u3&gt; &lt;u2&gt; Entrada: Dues seqüències de caràcters $A$ i $B$.&lt;u4&gt; Eixida: &lt;i0&gt;Sí&lt;/i0&gt;, si són iguals; &lt;i1&gt;no&lt;/i1&gt; si no ho són.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140056Z" changeid="AinoSM">
+        <seg>{&lt;u0&gt; &lt;u1&gt; ALGORITMO COMPARA &lt;u3&gt; &lt;u2&gt; Entrada: Dos secuencias de caracteres $ A $ y $ B $. &lt;u4&gt; Salida: &lt;i0&gt; Sí &lt;/ i0&gt;, si son iguales; &lt;i1&gt; no &lt;/ i1&gt; si no lo son.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Una velocitat clàssica en mòdems domèstics és 33.600 bps (més recentment, 57.600 bps; les línies telefòniques actuals poden admetre potser velocitats al voltant dels 100.000 bps).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173341Z" changeid="Pc">
+        <seg>Una velocidad clásica en módems domésticos es 33.600 bps (más recientemente, 57.600 bps; las líneas telefónicas actuales pueden admitir quizá velocidades alrededor de los 100.000 bps).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Són, amb diferència, els ordinadors més habituals.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131005Z" changeid="AinoSM">
+        <seg>Son, con diferencia, los ordenadores más habituales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Impressores matricials o d'agulles ja no se'n fan.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135516Z" changeid="AinoSM">
+        <seg>Impresoras matriciales o de agujas ya no se hacen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els adaptadors de vídeo bàsics més comuns són els adaptadors VGA o SuperVGA, encara que actualment n'hi ha de molt més avançats.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171305Z" changeid="Pc">
+        <seg>Los adaptadores de vídeo básicos más comunes son los adaptadores VGA o SuperVGA, aunque actualmente hay mucho más avanzados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[1.] Fes que $p$ valga 1 ($p$ indica la posició actual dins de les seqüències que estem comparant: $p=1$, per al primer caràcter, $p=2$, per al segon, etc.) &lt;u1&gt;[2.] Si no existeix la posició $p$ de $A$, vés a 7.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140318Z" changeid="AinoSM">
+        <seg>] Haz que $ p $ sirva 1 ($ p $ indica la posición actual dentro de las secuencias que estamos comparando: $ p = 1 $, para el primer carácter, $ p = 2 $, para el segundo, etc. ) &lt;u1&gt; [2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els disquets de densitat alta (marcats ``HD'') de 3,5 polzades, emmagatzemen 1,44 MB de dades i són un tipus un tipus de suport en desús.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134845Z" changeid="AinoSM">
+        <seg>Los disquetes de alta densidad (marcados &quot; HD&quot;) de 3,5 pulgadas, almacenan 1,44 MB de datos y son un tipo de apoyo en desuso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>{&lt;u0&gt; &lt;u1&gt; ALGORISME COMPARA2&lt;u3&gt; &lt;u2&gt; Entrada: Dues seqüències de caràcters $A$ i $B$, acabades en `\$'.&lt;u4&gt; Eixida: &lt;i0&gt;Sí&lt;/i0&gt;, si són iguals; &lt;i1&gt;no&lt;/i1&gt; si no ho són.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140611Z" changeid="AinoSM">
+        <seg>{&lt;u0&gt; &lt;u1&gt; ALGORITMO COMPARA2 &lt;u3&gt; &lt;u2&gt; Entrada: Dos secuencias de caracteres $ A $ y $ B $, acabadas en `$ '. &lt;u4&gt; Salida: &lt;i0&gt; Sí &lt;/ i0&gt;, si son iguales; &lt;i1&gt; no &lt;/ i1&gt; si no lo son.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Com que un octet pot contenir poca informació, normalment es parla de: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;kilooctets&lt;/i0&gt; o &lt;i1&gt;kilobytes&lt;/i1&gt; (kB), o milers d'octets.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134222Z" changeid="AinoSM">
+        <seg>Como un byte puede contener poca información, normalmente se habla de: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt; kilobytes &lt;/ i0&gt; (kB), o miles de bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Fitxers i directoris</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131849Z" changeid="AinoSM">
+        <seg>Ficheros y directorios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Per exemple, en un ordinador amb 512 kilooctets (524.288 octets) de &lt;i1&gt;memòria cau&lt;/i1&gt;, després d'accedir a la posició 2.000.000 és molt probable que el processador vulga accedir a la posició 2.000.003.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171514Z" changeid="Pc">
+        <seg>Por ejemplo, en un ordenador con 512 kilooctets (524.288 bytes) de &lt;i1&gt; caché &lt;/ i1&gt;, tras acceder a la posición 2.000.000 es muy probable que el procesador quiera acceder a la posición 2.000.003.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Normalment, cada disc té un {&lt;u0&gt; directori principal} o &lt;i0&gt;directori arrel&lt;/i0&gt; (el més elevat en la jerarquia de directoris), dins del qual es troba tota la resta de directoris.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132306Z" changeid="AinoSM">
+        <seg>Normalmente, cada disco tiene un {&lt;u0&gt; directorio principal} o &lt;i0&gt; directorio raíz &lt;/ i0&gt; (el más elevado en la jerarquía de directorios), dentro del cual se encuentra el resto de directorios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>El codi ASCII és el codi bàsic per a emmagatzemar textos; quan els textos són més rics i contenen informació sobre tipus i grandàries de lletra, diagramació, notes a peu de pàgina, etc., s'usen formats més avançats que s'expliquen en l'epígraf &lt;n2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134041Z" changeid="AinoSM">
+        <seg>El código ASCII es el código básico para almacenar textos, cuando los textos son más ricos y contienen información sobre tipos y tamaños de letra, diagramación, notas a pie de página, etc.Se usan formatos más avanzados que se explican en el epígrafe &lt;n2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Actualment, un dels usos més populars dels mòdems telefònics és la connexió del PC domèstic a Internet (vegeu l'apartat &lt;n0&gt;).&lt;p0&gt; Hi ha altres tipus de mòdems, normalment més ràpids: &lt;i4&gt;mòdems de cable&lt;/i4&gt;, que permeten connectar l'ordinador a Internet a través dels cables d'empreses especialitzares que ofereixen televisió, telèfon i Internet, &lt;i5&gt;mòdems ADSL&lt;/i5&gt; (vegeu &lt;i6&gt;ADSL&lt;/i6&gt; en aquest glossari), etc.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173346Z" changeid="Pc">
+        <seg>Actualmente, uno de los usos más populares de los módems telefónicos es la conexión del PC doméstico a Internet (véase el apartado &lt;n0&gt;). &lt;p0&gt; Hay otros tipos de módems, normalmente más rápidos: &lt;i4&gt; módems de cable &lt;/ i4&gt;, que permiten conectar el ordenador a Internet a través de los cables de empresas especializado que ofrece televisión, teléfono e Internet, &lt;i5&gt; módems ADSL &lt;/ i5&gt; (ver &lt;i6&gt; ADSL &lt;/ e6&gt; en este glosario) , etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Dos fitxers ---també dos directoris--- només poden tenir el mateix nom si es troben en directoris diferents.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132315Z" changeid="AinoSM">
+        <seg>Dos ficheros --- también dos directorios --- sólo pueden tener el mismo nombre si se encuentran en directorios diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Imagineu que en un disc hem creat l'estructura de fitxers i directoris següent: &lt;n0&gt; &lt;n1&gt; ( .{&lt;u0&gt;{}}.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132605Z" changeid="AinoSM">
+        <seg>Imaginad que en un disco hemos creado la estructura de ficheros y directorios siguiente: &lt;n0&gt; &lt;n1&gt; (. {&lt;u0&gt; {}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[Pentium:] nom genèric de diverses famílies de processadors d'Intel, successors del 486, amb un conjunt d'instruccions més complet i amb moltes millores internes.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173552Z" changeid="Pc">
+        <seg>[Pentium:] nombre genérico de varias familias de procesadores de Intel, sucesores del 486, con un conjunto de instrucciones más completo y con muchas mejoras internas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>En les imatges en blanc i negre, cada punt és un bit; una pantalla d'ordinador en conté més o menys un milió.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T134113Z" changeid="AinoSM">
+        <seg>En las imágenes en blanco y negro, cada punto es un bit, una pantalla de ordenador contiene más o menos un millón.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>L'asimetria fa referència al fet que la velocitat de transmissió de dades de la central cap a l'abonat és superior que la velocitat de transmissió de dades de l'abonat cap a la central (per exemple, 256 kB/s cap a l'abonat i 128 kB/s cap a la central).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T171323Z" changeid="Pc">
+        <seg>La asimetría se refiere a que la velocidad de transmisión de datos de la central hacia el abonado es superior que la velocidad de transmisión de datos del abonado hacia la central (por ejemplo, 256 kB / s hacia la abonado y 128 kB / s hacia la central).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Tots aquests conceptes es veuen potser més clars amb un exemple.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132557Z" changeid="AinoSM">
+        <seg>Todos estos conceptos se ven quizás más claros con un ejemplo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>`&lt;u5&gt;{iat1}{txt}' `&lt;u6&gt;{iat2}{txt}' ) (.{&lt;u3&gt;{reserva}}.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132620Z" changeid="AinoSM">
+        <seg>`&lt;u5&gt; {Iat1} {txt} '` &lt;u6&gt; {iat2} {txt}') (. {&lt;u3&gt; {Reserva}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u6&gt;[7.] Si no existeix la posició $p$ de $B$, digues &lt;i0&gt;sí&lt;/i0&gt; i para.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T140405Z" changeid="AinoSM">
+        <seg>] Si no existe la posición $ p $ de $ B $, di &lt;i0&gt; sí &lt;/ i0&gt; y para.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[De sobretaula] (en anglés &lt;i0&gt;desktop&lt;/i0&gt;): Estan formats per una &lt;i1&gt;caixa&lt;/i1&gt; amb dispositius de processament i emmagatzematge i un conjunt de perifèrics com ara el teclat, el ratolí o la pantalla.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T130957Z" changeid="AinoSM">
+        <seg>[De sobremesa] (en inglés &lt;i0&gt; desktop &lt;/ i0&gt;): Están formados por una &lt;i1&gt; caja &lt;/ i1&gt; con dispositivos de procesamiento y almacenamiento y un conjunto de periféricos como el teclado, el ratón o la pantalla .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>De fet, convé considerar la trajectòria com a part del nom del fitxer, cosa que ens permetria dir, senzillament, que en un disc no pot haver-hi dos fitxers amb el mateix nom.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132550Z" changeid="AinoSM">
+        <seg>De hecho, conviene considerar la trayectoria como parte del nombre del archivo, lo que nos permitiría decir, sencillamente, que en un disco no puede haber dos archivos con el mismo nombre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>El nom sol ser normalment lliure, però l'extensió sol ser curta (entre una i quatre lletres) i sol identificar el programa que s'ha d'usar per a processar-lo o el format en què es troben les dades que conté (per exemple, l'extensió &lt;i4&gt;.txt&lt;/i4&gt; identifica normalment un text senzill en format ASCII o ANSI, vegeu l'apartat &lt;n0&gt;; l'extensió &lt;i5&gt;.exe&lt;/i5&gt; s'usa per als programes d'ordinador, etc.).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132420Z" changeid="AinoSM">
+        <seg>El nombre suele ser  libre, pero la extensión suele ser corta (entre una y cuatro letras) y suele identificar el programa que se debe usar para procesarlo o el formato en que se encuentran los datos que contiene ( por ejemplo, la extensión &lt;i4&gt;. txt &lt;/ i4&gt; identifica normalmente un texto sencillo en formato ASCII o ANSI, véase el apartado &lt;n0&gt;; la extensión &lt;i5&gt;. exe &lt;/ i5&gt; se usa para los programas de ordenador, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Si necessitem guardar objectes o unitats d'informació que tenen més de dos valors possibles, no tindrem prou amb 1 bit; haurem de combinar més d'un bit.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T133328Z" changeid="AinoSM">
+        <seg>Si necesitamos guardar objetos o unidades de información que tienen más de dos valores posibles, no tendremos suficiente con 1 bit; tendremos que combinar más de un bit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>També anomenats &lt;i2&gt;carpetes&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131903Z" changeid="AinoSM">
+        <seg>También llamados &lt;i2&gt; carpetas &lt;/ i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;u0&gt; Un teclat separat i un ratolí, típicament de tres botons.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135554Z" changeid="AinoSM">
+        <seg>&lt;u0&gt; Un teclado separado y un ratón, típicamente de tres botones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Com que sovint no porten teclat, els caràcters s'hi introdueixen escrivint-los directament sobre la seua pantalla tàctil mitjançant un punter.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T131526Z" changeid="AinoSM">
+        <seg>Como a menudo no llevan teclado, los caracteres se introducen escribiéndolos directamente sobre la pantalla táctil mediante un puntero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Molts mòdems interns fan part de les seues funcions usant programari que s'executa en l'ordinador en comptes de maquinari especialitzat (``mitjos mòdems''), cosa que els fa dependents d'un sistema operatiu concret; això no passa amb els mòdems externs.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173431Z" changeid="Pc">
+        <seg>Muchos módems internos realizan parte de sus funciones usando el programatio que se ejecuta en el ordenador en vez de la maquinaria especializada (&quot;medios modernos&quot;), cosa que los hace independientes de un sistempa operativo concreto; eso no pasa con los moódems externos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Per exemple, si tenim una unitat d'informació que pot presentar-se en 778 formes diferents&lt;p0&gt;, necessitarem 10 bits, perquè amb 9 bits només podem fer $$2 &lt;u0&gt; 2 &lt;u1&gt; 2 &lt;u2&gt; 2 &lt;u3&gt; 2 &lt;u4&gt; 2 &lt;u5&gt; 2 &lt;u6&gt; 2 &lt;u7&gt; 2 = 2^9 = 512$$ combinacions, però amb 10, ja en podem fer suficients, perquè $2^{10}=1.024$ (en quedarien $1024-778=246$ combinacions sense usar).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T133800Z" changeid="AinoSM">
+        <seg>Por ejemplo, si tenemos una unidad de información que puede presentarse en 778 formas diferentes &lt;p0&gt;, necesitaremos 10 bits, porque con 9 bits sólo podemos hacer  &lt;u0&gt; 2x &lt;u1&gt; 2x &lt;u2&gt; 2x &lt;u3 &gt; 2x &lt;u4&gt; 2x &lt;u5&gt; 2x &lt;u6&gt; 2x &lt;u7&gt;  = 2⁹ = 512  combinaciones, pero con 10, ya podemos hacer suficientes, porque $ 2 ¹° = 1.024  (quedarían  1024-778 = 246 combinaciones sin usar).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Això permet enviar una carta d'una pàgina en unes dècimes de segon.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173353Z" changeid="Pc">
+        <seg>Esto permite enviar una carta de una página en unas décimas de segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Deriva del processador de 16 bits 286 (80286), que al seu torn deriva del 8086, un dels primers processadors instal·lat en els PC.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T170717Z" changeid="Pc">
+        <seg>Deriva del procesador de 16 bits 286 (80.286), que a su vez deriva del 8086, uno de los primeros procesadores instalado en los PC.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Com, per exemple, els signes d'alguna escriptura ideogràfica oriental</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T133200Z" changeid="AinoSM">
+        <seg>Como, por ejemplo, los signos de alguna escritura ideográfica oriental</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>&lt;n3&gt; &lt;u8&gt; Un monitor o pantalla, normalment una pantalla plana TFT&lt;u9&gt;{Les pantalles TFT (de l'anglés &lt;i1&gt;thin-film transistor&lt;/i1&gt;) no porten cap tub de raigs catòdics, sinó que usen un o més transistors per a cada punt de la pantalla.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135455Z" changeid="AinoSM">
+        <seg>&lt;n3&gt; &lt;u8&gt; Un monitor o pantalla, normalmente una pantalla plana TFT &lt;u9&gt; {Las pantallas TFT (del inglés &lt;i1&gt; thin-film transistor &lt;/ i1&gt;) no llevan ningún tubo de rayos catódicos, sino que usan uno o más transistores para cada punto de la pantalla.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>[placa de so:] Una placa (o targeta) de so permet usar l'ordinador per a processar, enregistrar, reproduir, i manipular sons digitalitzats.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T173603Z" changeid="Pc">
+        <seg>[Placa de sonido:] Una placa (o tarjeta) de sonido permite usar el ordenador para procesar, registrar, reproducir, y manipular sonidos digitalizados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>} de 17 polzades (pràcticament ja no s'instal·len monitors de tubs catòdics).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135550Z" changeid="AinoSM">
+        <seg>} De 17 pulgadas (prácticamente ya no se instalan monitores de tubos catódicos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Un bit pot tenir dos valors: 0 (apagat, inactiu) o 1 (encés, actiu); això és perquè el dispositiu electrònic corresponent pot estar en dos estats.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T133318Z" changeid="AinoSM">
+        <seg>Un bit puede tener dos valores: 0 (apagado, inactivo) o 1 (encendido, activo); esto es porque el dispositivo electrónico correspondiente puede estar en dos estados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>És capaç de processar 32 bits per cicle.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120604T170655Z" changeid="Pc">
+        <seg>Es capaz de procesar 32 bits</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Per raons històriques, els noms de fitxers solen tenir dues parts: el &lt;i1&gt;nom&lt;/i1&gt; pròpiament dit i l'&lt;i2&gt;extensió&lt;/i2&gt;, separades per un punt (per exemple, &lt;i3&gt;alacant.txt&lt;/i3&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T132338Z" changeid="AinoSM">
+        <seg>Por razones históricas, los nombres de ficheros suelen tener dos partes: el &lt;i1&gt; nombre &lt;/ i1&gt; propiamente dicho y la &lt;i2&gt; extensión &lt;/ i2&gt;, separadas por un punto (por ejemplo, &lt;i3&gt; alacant.txt &lt;/ i3&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Un octet pot estar, per tant, en $2^8=256$ estats diferents.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T133910Z" changeid="AinoSM">
+        <seg>Un byte puede estar, por tanto, en 2⁸ = 256 estados diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Els bits s'agrupen normalment en grups de vuit, anomenats {&lt;u0&gt; octets} o &lt;i0&gt;bytes&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T133832Z" changeid="AinoSM">
+        <seg>Los bits se agrupan normalmente en grupos de ocho, llamados  &lt;i0&gt; bytes &lt;/ i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CAT">
+        <seg>Un exemple d'algorisme/programa és el següent, que diu si dues seqüències de caràcters (també anomenades &lt;i0&gt;cadenes&lt;/i0&gt; de caràcters) són iguals o no.</seg>
+      </tuv>
+      <tuv lang="ES" changedate="20120521T135959Z" changeid="AinoSM">
+        <seg>Un ejemplo de algoritmo / programa es el siguiente, que dice si dos secuencias de caracteres (también llamadas &lt;i0&gt; cadenas &lt;/ i0&gt; de caracteres) son iguales o no.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

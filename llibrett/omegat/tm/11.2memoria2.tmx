@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.5.2_2" segtype="sentence" srclang="CA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="1">&lt;u1&gt;</it> <bpt i="1" x="1">&lt;i1&gt;</bpt>La comparació dels costos i dels beneficis<ept i="1">&lt;/i1&gt;</ept> d'usar un sistema de TA en comptes dels serveis de professionals de la traducció: per exemple, si costa més (en despeses de personal) la postedició (revisió) dels textos meta produïts pel sistema (afegint-hi el cost d'usar el sistema de TA) que la traducció completa dels textos origen per part de professionals, l'adopció del sistema de TA no convé a una empresa (p. <it pos="begin" x="0">&lt;n0&gt;</it>).</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T160844Z">
+        <seg><it pos="begin" x="1">&lt;u1&gt;</it> <bpt i="1" x="1">&lt;i1&gt;</bpt>La comparación de los costes y de los beneficios<ept i="1">&lt;/i1&gt;</ept> de usar un sistema de TA en vez de los servicios de profesionales de la traducción: por ejemplo, si cuesta más (en gastos de personal) la postedición (revisión) de los textos meta producidos por el sistema (añadiendo el coste de usar el sistema de TA) que la traducción completa de los textos origen por parte de profesionales, la adopción del sistema de TA no conviene a una empresa (p. <it pos="begin" x="0">&lt;n0&gt;</it>).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="1">&lt;u1&gt;</it> Perquè aquesta tasca no es pot fer sense conéixer profundament l'estratègia usada pel sistema de traducció automàtica.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T154020Z">
+        <seg><it pos="begin" x="1">&lt;u1&gt;</it> Porque esta tarea no se puede hacer sin conocer profundamente la estrategia usada por el sistema de traducción automática.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="2">&lt;u2&gt;</it> És relativament senzill corregir el text perquè siga adequat però és molt difícil fer-ho fent-hi el mínim nombre de canvis necessaris.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="Usuario" changedate="20120526T115517Z">
+        <seg><it pos="begin" x="2">&lt;u2&gt;</it> Es relativamente sencillo corregir el texto para que sea adecuado, pero es muy difícil hacerlo haciendo el mínimo número de cambios necesarios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="2">&lt;u2&gt;</it>{sager93b} ho formula dient que ``S'ha argumentat que la qualitat dels documents produïts mitjançant traducció automàtica s'hauria d'avaluar en termes de la identitat amb productes humans''.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T161452Z">
+        <seg><it pos="begin" x="2">&lt;u2&gt;</it>{sager93b} lo formula diciendo que ``Se ha argumentado que la calidad de los documentos producidos mediante traducción automática se tendría que evaluar en términos de la identidad con productos humanos''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>A més, aquest tipus d'avaluació és molt costós, ja que per a obtenir una medició fiable de la qualitat és necessari corregir textos de milers de paraules.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T160249Z">
+        <seg>Además, este tipo de evaluación es muy costoso, puesto que para obtener una medición fiable de la calidad es necesario corregir textos de miles de palabras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Avaluació predictiva</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T162638Z">
+        <seg>Evaluación predictiva</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Com que la majoria dels sistemes comercials no ens donen suficient informació sobre la naturalesa del model, els haurem de tractar com una <bpt i="1" x="1">&lt;i1&gt;</bpt>caixa negra<ept i="1">&lt;/i1&gt;</ept>; la intuïció de la persona avaluadora, el seu coneixement d'altres sistemes o de la història de les empreses involucrades (per exemple, quant a l'adquisició de tecnologia d'altres empreses) i la seua habilitat per a elegir exemples reveladors li permetran determinar aspectes bàsics del model de traducció.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T153025Z">
+        <seg>Como la mayoría de los sistemas comerciales no nos dan suficiente información sobre la naturaleza del modelo, los tendremos que tratar como una <bpt i="1" x="1">&lt;i1&gt;</bpt>caja negra<ept i="1">&lt;/i1&gt;</ept>; la intuición de la persona evaluadora, su conocimiento de otros sistemas o de la historia de las empresas involucradas (por ejemplo, en cuanto a la adquisición de tecnología de otras empresas) y su habilidad para elegir ejemplos reveladores le permitirán determinar aspectos básicos del modelo de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>D'altra banda, perquè l'avaluació siga útil els conjunts de prova haurien d'estar dissenyats de manera que abraçaren conjunts complets de fenòmens lingüístics que es manifesten amb freqüència rellevant en les situacions reals de traducció que es volen avaluar, ja que es vol predir el comportament del sistema en aquestes situacions concretes.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="Usuario" changedate="20120603T190400Z">
+        <seg>Por otro lado, para que la evaluación sea útil los conjuntos de prueba tendrían que estar diseñados de forma que abarcaran conjuntos completos de fenómenos lingüísticos que se manifiestan con relevante frecuencia en las situaciones reales de traducción que se quieren evaluar, puesto que se quiere predecir el comportamiento del sistema en estas situaciones concretas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>D'altra banda, sempre s'ha de tenir en compte que els mètodes d'avaluació de la qualitat depenen de l'ús que es pensa donar al sistema de TA <it pos="begin" x="0">&lt;u0&gt;</it>{arnold93j}; per exemple, l'avaluació d'un sistema que s'usa per a la <bpt i="0" x="0">&lt;i0&gt;</bpt>disseminació<ept i="0">&lt;/i0&gt;</ept> de material és ben diferent de l'avaluació d'un sistema usat per a l'<bpt i="1" x="1">&lt;i1&gt;</bpt>assimilació<ept i="1">&lt;/i1&gt;</ept> d'informació.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="Usuario" changedate="20120526T114757Z">
+        <seg>Por otro lado, siempre se tiene que tener en cuenta que los métodos de evaluación de la calidad dependen del uso que se piensa dar al sistema de TA <it pos="begin" x="0">&lt;u0&gt;</it>{arnold93j}; por ejemplo, la evaluación de un sistema que se usa para la <bpt i="0" x="0">&lt;i0&gt;</bpt>diseminación<ept i="0">&lt;/i0&gt;</ept> de material es muy diferente de la evaluación de un sistema usado para la <bpt i="1" x="1">&lt;i1&gt;</bpt>asimilación<ept i="1">&lt;/i1&gt;</ept> de información.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>De nou, com s'ha discutit en el capítol <it pos="begin" x="0">&lt;n0&gt;</it>, la noció central és la de <bpt i="2" x="2">&lt;i2&gt;</bpt>propòsit<ept i="2">&lt;/i2&gt;</ept> de la traducció.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="Usuario" changedate="20120526T114812Z">
+        <seg>De nuevo, como se ha discutido en el capítulo <it pos="begin" x="0">&lt;n0&gt;</it>, la noción central es la de <bpt i="2" x="2">&lt;i2&gt;</bpt>propósito<ept i="2">&lt;/i2&gt;</ept> de la traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>En concret, la traducció automàtica pot ser la més adequada en algunes circumstàncies, en vista de l'enorme demanda general existent i, més concretament, de la demanda de traduccions ràpides i barates que no poden ser produïdes per professionals.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T162426Z">
+        <seg>En concreto, la traducción automática puede ser la más adecuada en algunas circunstancias, en vista de la enorme demanda general existente y, más concretamente, de la demanda de traducciones rápidas y baratas que no pueden ser producidas por profesionales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>En particular, qualsevol avaluació predictiva necessita tenir una idea clara sobre el nivell d'anàlisi que es fa en el sistema de TA, ja que el nivell d'anàlisi és el que determina més la naturalesa d'un sistema (vegeu l'apartat <it pos="begin" x="1">&lt;n1&gt;</it>).</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T153125Z">
+        <seg>En particular, cualquier evaluación predictiva necesita tener una idea clara sobre el nivel de análisis que se hace en el sistema de TA, puesto que el nivel de análisis es el que determina más la naturaleza de un sistema (ver apartado <it pos="begin" x="1">&lt;n1&gt;</it>).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Hi ha un tipus d'avaluació que es pot considerar com a cas particular de l'avaluació diagnòstica definida més amunt, encara que no s'use estrictament per a millorar el funcionament d'un sistema, sinó només per a predir el comportament del sistema en situacions noves.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T162758Z">
+        <seg>Hay un tipo de evaluación que se puede considerar como caso particular de la evaluación diagnóstica definida más arriba, aunque no se use estrictamente para mejorar el funcionamiento de un sistema, sino sólo para predecir el comportamiento del sistema en situaciones nuevas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>L'anomenarem ací <bpt i="0" x="0">&lt;i0&gt;</bpt>avaluació predictiva<ept i="0">&lt;/i0&gt;</ept>.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T162838Z">
+        <seg>Lo denominaremos aquí <bpt i="0" x="0">&lt;i0&gt;</bpt>evaluación predictiva<ept i="0">&lt;/i0&gt;</ept>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>L'avaluació predictiva pot tenir, a més, un paper fonamental en l'educació dels futurs traductors <it pos="begin" x="0">&lt;u0&gt;</it>{mira98j,forcada00p}, en vista de la disponibilitat creixent de sistemes comercials (per exemple, a través d'Internet).</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T153230Z">
+        <seg>La evaluación predictiva puede tener, además, un papel fundamental en la educación de los futuros traductores <it pos="begin" x="0">&lt;u0&gt;</it>{mira98j,forcada00p}, en vista de la disponibilidad creciente de sistemas comerciales (por ejemplo, a través de Internet).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>La qualitat del sistema de TA mateix<it pos="end" x="0">&lt;/i0&gt;</it>: per exemple, ``la facilitat amb què es poden crear i actualitzar diccionaris, posteditar els textos, controlar el llenguatge d'entrada'' o ``l'extensibilitat [del sistema] a parells nous d'idiomes o a noves temàtiques'' <it pos="begin" x="2">&lt;u2&gt;</it>{hutchins96u}.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T163850Z">
+        <seg>La calidad del sistema de TA mismo<it pos="end" x="0">&lt;/i0&gt;</it>: por ejemplo, ``la facilidad con que se pueden crear y actualizar diccionarios, posteditar los textos, controlar el lenguaje de entrada'' o ``la extensibilidad [del sistema] a pares nuevos de idiomas o a nuevas temáticas'' <it pos="begin" x="2">&lt;u2&gt;</it>{hutchins96u}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Les prediccions serien de l'estil de ``com que sembla usar regles patró--acció de l'estil de ``si troba un patró $X$ farà l'acció $Y$'' i en una sèrie de casos troba el patró $X_1$ i fa l'acció $Y_1$, podem predir que sempre que trobe aquest mateix patró farà la mateixa acció''.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T152534Z">
+        <seg>Las predicciones serían del estilo de ``como parece usar reglas patrón--acción del estilo de ``si encuentra un patrón $X$ hará la acción $Y$'' y en una serie de casos encuentra el patrón $X_1$ y hace la acción $Y_1$, podemos predecir que siempre que encuentre este mismo patrón hará la misma acción''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>No és que siga difícil; sense traducció de referència és absolutament impossible.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T153937Z">
+        <seg>No es que sea difícil; sin traducción de referencia es absolutamente imposible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Per a poder fer l'avaluació predictiva, és crucial que els avaluadors tinguen, en primer lloc, un model que descriga aproximadament el funcionament del sistema de traducció automàtica (relacionat amb la tipologia del sistema, és a dir, de transferència morfològica, sintàctica, etc., vegeu el cap. <it pos="begin" x="0">&lt;n0&gt;</it>), i, en segon lloc, un conjunt de textos o frases d'avaluació (<bpt i="0" x="0">&lt;i0&gt;</bpt>test suite<ept i="0">&lt;/i0&gt;</ept>) que els permeta obtenir detalls concrets sobre les dades lingüístiques (p.ex., regles) que usa aquell model.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T151219Z">
+        <seg>Para poder hacer la evaluación predictiva, es crucial que los evaluadores tengan, en primer lugar, un modelo que describa aproximadamente el funcionamiento del sistema de traducción automática (relacionado con la tipología del sistema, es decir, de transferencia morfológica, sintáctica, etc., ver cap. <it pos="begin" x="0">&lt;n0&gt;</it>), y, en segundo lugar, un conjunto de textos o frases de evaluación (<bpt i="0" x="0">&lt;i0&gt;</bpt>test suite<ept i="0">&lt;/i0&gt;</ept>) que les permita obtener detalles concretos sobre los datos lingüísticos (p.ej., reglas) que usa aquel modelo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Per què és difícil avaluar la qualitat d'una traducció automàtica comptant la quantitat mínima de postedició necessària per fer-lo adequat quan no hi ha una traducció de referència?</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T153926Z">
+        <seg>¿Por qué es difícil evaluar la calidad de una traducción automática contando la cantidad mínima de postedición necesaria para hacerlo adecuado cuando no hay una traducción de referencia?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Quant al concepte d'<bpt i="0" x="0">&lt;i0&gt;</bpt>avaluació predictiva<ept i="0">&lt;/i0&gt;</ept>, mireu a més els exercicis <it pos="begin" x="0">&lt;n0&gt;</it>, <it pos="begin" x="1">&lt;n1&gt;</it> i <it pos="begin" x="2">&lt;n2&gt;</it> del capítol <it pos="begin" x="3">&lt;n3&gt;</it>.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="Usuario" changedate="20120526T115301Z">
+        <seg>En cuanto al concepto de <bpt i="0" x="0">&lt;i0&gt;</bpt>evaluación predictiva<ept i="0">&lt;/i0&gt;</ept>, mirar además los ejercicios, <it pos="begin" x="0">&lt;n0&gt;</it> y <it pos="begin" x="1">&lt;n1&gt;</it> del <it pos="begin" x="2">&lt;n2&gt;</it> capítulo <it pos="begin" x="3">&lt;n3&gt;</it>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Quina característica d'un sistema de traducció automàtica s'ha de considerar com a especialment important quan s'avalua l'aplicació del sistema a l'<bpt i="0" x="0">&lt;i0&gt;</bpt>assimilació<ept i="0">&lt;/i0&gt;</ept>?</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T153613Z">
+        <seg>¿Qué característica de un sistema de traducción automática se tiene que considerar como especialmente importate cuando se evalúa la aplicación del sistema a la<bpt i="0" x="0">&lt;i0&gt;</bpt> asimilación<ept i="0">&lt;/i0&gt;</ept>?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Qüestions i exercicis</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T153530Z">
+        <seg>Cuestiones y ejercicios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Solucions</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T154327Z">
+        <seg>Soluciones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Tant <it pos="begin" x="0">&lt;u0&gt;</it>{krauwer93j} com <it pos="begin" x="1">&lt;u1&gt;</it>{sager93b} qüestionen aquesta visió; aquest últim argumenta que ``s'ha d'acceptar que no hi ha cap situació que puga servir com a punt de comparació entre la traducció humana i l'automàtica, i que potser no hi ha cap situació en la qual la traducció humana i l'automàtica siguen igualment adequades'' i proposa que, en canvi, les traduccions poden ser comparades per a veure ``si satisfan, i fins a quin punt, les expectatives de l'usuari final [dels documents traduïts]'', ja que la traducció és una ``activitat de mediació, la forma particular de la qual està determinada tant pel text com per les circumstàncies comunicatives que requereixen aquesta mediació''.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="Usuario" changedate="20120603T185523Z">
+        <seg>Tanto <it pos="begin" x="0">&lt;u0&gt;</it>{krauwer93j} como <it pos="begin" x="1">&lt;u1&gt;</it>{sager93b} cuestionan esta visión; este último argumenta que ``se tiene que aceptar que no hay ninguna situación que pueda servir como punto de comparación entre la traducción humana y la automática, y que quizás no hay ninguna situación en la que la traducción humana y la automática sean igualmente adecuadas'' y propone que, en cambio, las traducciones pueden ser comparadas para ver ``si satisfacen, y hasta qué punto, las expectativas del usuario final [de los documentos traducidos]'', puesto que la traducción es una ``actividad de mediación,cuya forma particular está determinada tanto por el texto como por las circunstancias comunicativas que requieren esta mediación''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Una altra aplicació de les tècniques descrites és l'anomenada <bpt i="2" x="2">&lt;i2&gt;</bpt>enginyeria inversa<ept i="2">&lt;/i2&gt;</ept>, o determinació detallada de l'estratègia usada per un programa (en aquest cas, de traducció automàtica) per a programar-la en un altre.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T162904Z">
+        <seg>Otra aplicación de las técnicas descritas es la llamada <bpt i="2" x="2">&lt;i2&gt;</bpt>ingeniería inversa<ept i="2">&lt;/i2&gt;</ept>, o determinación detallada de la estrategia usada por un programa (en este caso, de traducción automática) para programarla en otro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>[Traducció automàtica i traducció humana]{Sobre la comparació entre traducció auto­mà­tica i traducció humana} <it pos="begin" x="0">&lt;n0&gt;</it> Una visió predominant de l'avaluació dels sistemes de TA és l'anomenada <bpt i="0" x="0">&lt;i0&gt;</bpt>metàfora del traductor humà<ept i="0">&lt;/i0&gt;</ept>, segons la qual <it pos="begin" x="1">&lt;u1&gt;</it>{krauwer93j} la tasca consisteix a ``determinar fins a quin punt els constructors del sistema han aconseguit imitar el comportament d'un traductor humà''.</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120507T161448Z">
+        <seg>[Traducción automática y traducción humana]{Sobre la comparación entre traducción automática y traducción humana} <it pos="begin" x="0">&lt;n0&gt;</it> Una visión predominante de la evaluación de los sistemas de TA es la llamada <bpt i="0" x="0">&lt;i0&gt;</bpt>metáfora del traductor humano<ept i="0">&lt;/i0&gt;</ept>, según la cual <it pos="begin" x="1">&lt;u1&gt;</it>{krauwer93j} la tarea consiste en ``determinar hasta qué punto los constructores del sistema han conseguido imitar el comportamiento de un traductor humano''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>els seus útils de postedició assistida <it pos="begin" x="1">&lt;u1&gt;</it> els seus útils de preedició assistida <it pos="begin" x="2">&lt;u2&gt;</it> la velocitat de resposta</seg>
+      </tuv>
+      <tuv xml:lang="ES" changeid="alumno" changedate="20120508T153808Z">
+        <seg>sus útiles de postedición asistida <it pos="begin" x="1">&lt;u1&gt;</it> sus útiles de preedición asistida <it pos="begin" x="2">&lt;u2&gt;</it> la velocidad de respuesta</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

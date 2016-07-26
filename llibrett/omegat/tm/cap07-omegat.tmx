@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="2.3.0_8"
+    segtype="paragraph"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="CA"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan es vol usar un sistema de traducció automàtica per a l'&lt;i0&gt;assimilació&lt;/i0&gt; d'informació, a què donaríeu &lt;i1&gt;menys&lt;/i1&gt; pes en l'avaluació?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171526Z" changeid="antonio">
+        <seg>¿Cuando se quiere usar un sistema de traducción automática para la &lt;i0&gt;asimilación&lt;/i0&gt; de información, a quú daríais &lt;i1&gt;menos&lt;/i1&gt; peso en la evaluación?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Solució 1 ($n$ mots):] El traductor professional tradueix un text de $n$ mots per 0,05$&lt;u1&gt; n$ euros. El sistema de traducció automàtica el tradueix per 0,03$&lt;u2&gt; n$ i corregir-lo costa 0,10$&lt;u3&gt;($10$/$100$)&lt;u4&gt; n$, és a dir, 0,01$&lt;u5&gt; n$ euros perquè només 10 de cada 100 mots són incorrectes. Per tant, el sistema semiautomàtic costa només $($0,03$+$0,01$)&lt;u6&gt; n = $0,04$&lt;u7&gt; n$ euros, davant dels 0,05$&lt;u8&gt; n$ euros del traductor professional.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T022037Z" changeid="antonio">
+        <seg>[Solución 1 ($n$ palabras):] El traductor profesional traduce un texto de $n$ palabras por 0,05$&lt;u1&gt; n$ euros. El sistema de traducción automática lo traduce por 0,03$&lt;u2&gt; n$ y corregirlo cuesta 0,10$&lt;u3&gt;($10$/$100$)&lt;u4&gt; n$, es decir, 0,01$&lt;u5&gt; n$ euros porque sólo 10 de cada 100 palabras son incorrectas. Por lo tanto, el sistema semiautomático cuesta sólo $($0,03$+$0,01$)&lt;u6&gt; n = $0,04$&lt;u7&gt; n$ euros, ante los 0,05$&lt;u8&gt; n$ euros del traductor profesional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És possible que ja us hàgeu adonat que el tok pisin té molt vocabulari pres de l'anglés, com a llengua de contacte que és.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015710Z" changeid="antonio">
+        <seg>Es posible que ya os hayáis dado cuenta que el tok pisin tiene mucho vocabulario tomado del inglés, como lengua de contacto que es.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Alguns dels avantatges de l'ús de llenguatges controlats &lt;u0&gt;{schwitten07u} es poden resumir com segueix: &lt;n0&gt; &lt;u1&gt; els textos són més senzills i intel·ligibles; &lt;u2&gt; el manteniment dels documents es facilita; &lt;u3&gt; se simplifica el tractament computacional dels documents, en particular la traducció automàtica. &lt;n2&gt; Quant als desavantatges, podem dir que: &lt;n1&gt; &lt;u4&gt; el disseny d'un llenguatge controlat no és gens trivial: cal estudiar amb profunditat corpus de textos pertanyents al domini i prendre decisions difícils; &lt;u5&gt; el poder d'expressió d'un llenguatge controlat és sempre més restringit; &lt;u6&gt; l'escriptura de textos en llenguatge controlat és més lenta; &lt;u7&gt; és necessària una inversió addicional de temps en l'aprenentatge del llenguatge controlat per part dels autors. &lt;n3&gt; Els dos últims desavantatges es poden reduir si es dota els autors d'eines informàtiques, com ara d'un editor de textos intel·ligent que els ajude a escriure en el llenguatge controlat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T165802Z" changeid="antonio">
+        <seg>Algunas de las ventajas del uso de lenguajes controlados &lt;u0&gt;{schwitten07uno} se pueden resumir como sigue: &lt;n0&gt; &lt;u1&gt; los textos son más sencillos e inteligibles; &lt;u2&gt; el mantenimiento de los documentos se facilita; &lt;u3&gt; se simplifica el tratamiento computacional de los documentos, en particular la traducción automática. &lt;n2&gt; En cuanto a las desventajas, podemos decir que: &lt;n1&gt; &lt;u4&gt; el diseño de un lenguaje controlado no es nada trivial: hay que estudiar con profundidad corpus de textos pertenecientes al dominio y tomar decisiones difíciles; &lt;u5&gt; el poder de expresión de un lenguaje controlado es siempre más restringido; &lt;u6&gt; la escritura de textos en lenguaje controlado es más lenta; &lt;u7&gt; es necesaria una inversión adicional de tiempo en el aprendizaje del lenguaje controlado por parte de los autores. &lt;n3&gt; Las dos últimas desventajas se pueden reducir si se dota a los autores de herramientas informáticas, como por ejemplo de un editor de textos inteligente que los ayude a escribir en el lenguaje controlado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(a) &lt;u1&gt; (a) &lt;u2&gt; (b) &lt;u3&gt; (a) &lt;u4&gt; (a). Les preguntes es poden plantejar com en el problema &lt;n0&gt;. &lt;u5&gt; (b) &lt;u6&gt; (a)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T022013Z" changeid="antonio">
+        <seg>(a) &lt;u1&gt; (a) &lt;u2&gt; (b) &lt;u3&gt; (a) &lt;u4&gt; (a). Las preguntas se pueden plantear como en el problema &lt;n0&gt;. &lt;u5&gt; (b) &lt;u6&gt; (a)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En molts àmbits la traducció automàtica està encara molt lluny de poder competir en qualitat amb la realitzada per traductors professionals (vegeu el capítol &lt;n1&gt;). Per exemple, en molts casos és difícil aconseguir que l'ordinador sàpia elegir la interpretació correcta entre les possibles interpretacions d'un enunciat ambigu com &lt;n2&gt; &lt;i0&gt;Els soldats van disparar als xiquets. Els vaig veure caure.&lt;/i0&gt; &lt;n3&gt; ja que això requereix l'ús de quantitats enormes de coneixement enciclopèdic sobre el funcionament del ``món real''. En aquest cas, el sistema ha de saber: que els trets fereixen greument o maten les persones que els reben i que la condició de ferit greu o mort és incompatible amb mantenir-se dret, i que, per tot això, la interpretació més probable és que van caure els xiquets, no els soldats. Com a conseqüència de problemes com aquest i d'altres de naturalesa diversa, en moltes aplicacions, la traducció produïda per un bon programa s'ha de considerar com un esborrany que ha de ser revisat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T160724Z" changeid="antonio">
+        <seg>En muchos ámbitos la traducción automática está todavía muy lejos de poder competir en calidad con la realizada por traductores profesionales (veáis el capítulo &lt;n1&gt;). Por ejemplo, en muchos casos es difícil conseguir que el ordenador sepa elegir la interpretación correcta entre las posibles interpretaciones de un enunciado ambiguo como &lt;n2&gt; &lt;i0&gt;Los soldados dispararon a los niños. Los vi caer.&lt;/i0&gt; &lt;n3&gt; puesto que esto requiere el uso de cantidades enormes de conocimiento enciclopédico sobre el funcionamiento del ``mundo real''. En este caso, el sistema tiene que saber: que los disparos hieren gravemente o matan a las personas que los reciben y que la condición de herido grave o muerto es incompatible con mantenerse derecho, y que, por todo esto, la interpretación más probable es que cayeron los niños, no los soldados. Como consecuencia de problemas como este y otros de naturaleza diversa, en muchas aplicaciones, la traducción producida por un buen programa se tiene que considerar como un borrador que tiene que ser revisado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Solucions</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021932Z" changeid="antonio">
+        <seg>Soluciones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El ``control'' dels llenguatges controlats{&lt;u1&gt;}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021000Z" changeid="antonio">
+        <seg>El ``control'' de los lenguajes controlados{&lt;u1&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Assimilació; més concretament per a allò que es diu &lt;i0&gt;screening&lt;/i0&gt;. &lt;u1&gt; Disseminació. &lt;u2&gt; Postedició, ja que l'idioma del document canvia per què puga ser entés.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171405Z" changeid="antonio">
+        <seg>Asimilación; más concretamente para aquello que se llama &lt;i0&gt;screening&lt;/i0&gt;. &lt;u1&gt; Diseminación. &lt;u2&gt; Postedición, puesto que el idioma del documento cambia para qué pueda ser entendido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En els sistemes de traducció automàtica, la preedició... &lt;n0&gt; &lt;u1&gt; ... redueix la quantitat de postedició. &lt;u2&gt; ... és una alternativa a la postedició, que elimina completament aquesta última fase. &lt;u3&gt; ... imposibilita l'ús del sistema per a tasques de disseminació d'informació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020626Z" changeid="antonio">
+        <seg>En los sistemas de traducción automática, la preedición... &lt;n0&gt; &lt;u1&gt; ... reduce la cantidad de postedición. &lt;u2&gt; ... es una alternativa a la postedición, que elimina completamente esta última fase. &lt;u3&gt; ... imposibilita el uso del sistema para tareas de diseminación de información.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indica en quina d'aquestes situacions de traducció automàtica és menys crucial la perfecció lingüística de la traducció. &lt;n0&gt; &lt;u1&gt; Joan usa el Web Translator mentre navega per les pàgines d'Internet de la Universität Mainz per a saber quina assignatura dóna el professor Karl-Hans Lehninger i quins són els seus interessos investigadors. &lt;u2&gt; Joan usa el Web Translator per a fer una versió en alemany de la seua pàgina Web. &lt;u3&gt; El personal d'IBM tradueix patents europees per a detectar possibles avanços en correcció d'errors de comunicacions digitals.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T170105Z" changeid="antonio">
+        <seg>Indica en cuál de estas situaciones de traducción automática es menos crucial la perfección lingüística de la traducción. &lt;n0&gt; &lt;u1&gt; Joan usa el Web Translator mientras navega por las páginas de Internet de la Universität Mainz para saber qué asignatura da el profesor Karl-Hans Lehninger y cuáles son sus intereses investigadores. &lt;u2&gt; Joan usa el Web Translator para hacer una versión en alemán de su página Web. &lt;u3&gt; El personal de IBM traduce patentes europeas para detectar posibles avances en corrección de errores de comunicaciones digitales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(*) &lt;n1&gt; Per exemple, si $L$ és l'espanyol, mots com {&lt;u1&gt; escondite} poden referir-se a un lloc on amagar-se (1) o a un joc (2) (en $L'$=català, &lt;i0&gt;amagatall&lt;/i0&gt; (1) i &lt;i1&gt;fet&lt;/i1&gt;, {&lt;u2&gt; amagar}, &lt;i2&gt;fet a amagar&lt;/i2&gt; o &lt;i3&gt;conillets a amagar&lt;/i3&gt; (2)). En el llenguatge controlat, es podria evitar el primer significat proposant els autors que feren servir el mot alternatiu {&lt;u3&gt; escondrijo}. Les regles es podrien formular com segueix en espanyol:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021944Z" changeid="antonio">
+        <seg>() &lt;n1&gt; Por ejemplo, si $L$ es el español, palabras como {&lt;u1&gt; escondite} pueden referirse a un lugar donde esconderse (1) o a un juego (2) (en $El $=catalán, &lt;i0&gt;escondrijo&lt;/i0&gt; (1) y hecho &lt;i1&gt;&lt;/i1&gt;, {&lt;u2&gt; esconder}, &lt;i2&gt;hecho a esconder&lt;/i2&gt; o conillets &lt;i3&gt;a esconder&lt;/i3&gt; (2)). En el lenguaje controlado, se podría evitar el primer significado proponiendo los autores que usaron la palabra alternativa {&lt;u3&gt; escondrijo}. Las reglas se podrían formular como sigue en español:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En resum, hi ha tres modalitats bàsiques d'interacció entre les persones i els programes de traducció automàtica: &lt;n0&gt; &lt;u0&gt; la preedició (preparació del text &lt;i0&gt;abans&lt;/i0&gt; de la traducció automàtica), &lt;u1&gt; la postedició (correcció del text &lt;i1&gt;després&lt;/i1&gt; de la traducció automàtica) i &lt;u2&gt; la interacció de la persona amb el sistema de traducció automàtica durant el procés de traducció.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020210Z" changeid="antonio">
+        <seg>En resumen, hay tres modalidades básicas de interacción entre las personas y los programas de traducción automática: &lt;n0&gt; &lt;u0&gt; la preedición (preparación del texto &lt;i0&gt;antes&lt;/i0&gt; de la traducción automática), &lt;u1&gt; la postedición (corrección del texto &lt;i1&gt;después&lt;/i1&gt; de la traducción automática) y la interacción &lt;u2&gt; de la persona con el sistema de traducción automática durante el proceso de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Utilitat de la traducció automàtica</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015423Z" changeid="antonio">
+        <seg>Utilidad de la traducción automática</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En els últims anys, especialment des que s'ha generalitzat l'accés públic a Internet, s'observa una tendència a incorporar sistemes de traducció automàtica com un dels components de sistemes més grans de comunicació. Aquesta aplicació de la TA per a l'assimilació es pot veure en &lt;i0&gt;xats&lt;/i0&gt; bilingües, o en els sistemes que tradueixen les pàgines &lt;i1&gt;web&lt;/i1&gt; segons anem visitant-les seguint enllaços; en aquests sistemes, la TA no s'invoca explícitament, sinó implícitament quan usem el servei.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015754Z" changeid="antonio">
+        <seg>En los últimos años, especialmente desde que se ha generalizado el acceso público en Internet, se observa una tendencia a incorporar sistemas de traducción automática como uno de los componentes de sistemas más grandes de comunicación. Esta aplicación de la TA para la asimilación se puede ver &lt;i0&gt;en chats&lt;/i0&gt; bilingües, o en los sistemas que traducen las páginas &lt;i1&gt;web&lt;/i1&gt; según vamos visitándolas siguiendo enlaces; en estos sistemas, la TA no se invoca explícitamente, sino implícitamente cuando usamos el servicio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indica quina d'aquestes situacions de traducció automàtica és d'&lt;i0&gt;assimilació&lt;/i0&gt; d'informació: &lt;n0&gt; &lt;u1&gt; Narcís usa el programa traductor de l'anglés a l'espanyol Spanish Assistant per a llegir els documents electrònics que troba en Internet sobre la influència de l'èuscar sobre el gascó. &lt;u2&gt; Joan usa el Web Translator per a fer una versió en alemany de la seua pàgina Web abans de publicar-la en Internet. &lt;u3&gt; L'empresa Into the Wind tradueix automàticament el seu catàleg de milotxes i catxerulos a diverses llengües.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T170504Z" changeid="antonio">
+        <seg>Indica cuál de estas situaciones de traducción automática es de &lt;i0&gt;asimilación&lt;/i0&gt; de información: &lt;n0&gt; &lt;u1&gt; Narciso usa el programa traductor del inglés al español Spanish Assistant para leer los documentos electrónicos que encuentra en Internet sobre la influencia del euskera sobre el gascón. &lt;u2&gt; Joan usa el Web Translator para hacer una versión en alemán de su página Web antes de publicarla en Internet. &lt;u3&gt; La empresa Into the Wind traduce automáticamente su catálogo de dos tipos de cometas a varias lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un &lt;i0&gt;llenguatge controlat&lt;/i0&gt; és ``un subconjunt del llenguatge natural definit amb precisió, d'una banda restringit quant al lèxic, a la gramàtica i a l'estil, i d'una altra, possiblement estés amb terminologia i construccions gramaticals específiques d'un domini'' &lt;u0&gt;{huijsen98u}.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020402Z" changeid="antonio">
+        <seg>Un &lt;i0&gt;lenguaje controlado&lt;/i0&gt; es ``un subconjunto del lenguaje natural definido con precisión, por un lado restringido en cuanto al léxico, a la gramática y al estilo, y de otra, posiblemente extendido con terminología y construcciones gramaticales específicas de un dominio'' &lt;u0&gt;{huijsen98uno}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{MAHT:} L'usuari (un traductor competent o un professional independent) utilitza diccionaris bilingües, &lt;i0&gt;thesauri&lt;/i0&gt;, conjugadors i declinadors, correctors ortogràfics, sintàctics i d'estil, i formularis o models de documents, com a ajuda mentre produeix una traducció de manera manual usant un processador de textos. Altres eines ---d'ús comú entre diversos traductors, i accessibles normalment com a recursos remots--- poden ser les bases de dades terminològiques i les bases de dades lèxiques multilingües (vegeu l'epígraf &lt;n0&gt;), o les memòries de traducció (vegeu el capítol &lt;n1&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T164920Z" changeid="antonio">
+        <seg>{MAHT:} El usuario (un traductor competente o un profesional independiente) utiliza diccionarios bilingües, &lt;i0&gt;thesauri&lt;/i0&gt;, conjugadores y declinatorios, correctores ortográficos, sintácticos y de estilo, y formularios o modelos de documentos, como ayuda mientras produce una traducción de manera manual usando un procesador de textos. Otras herramientas ---de uso común entre varios traductores, y accesibles normalmente como recursos remotos--- pueden ser las bases de datos terminológicas y las bases de datos léxicas multilingües (veáis el epígrafe &lt;n0&gt;), o las memorias de traducción (veáis el capítulo &lt;n1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u7&gt;} es refereix tant a la terminologia com a la sintaxi. &lt;u1&gt; {&lt;u8&gt;} només pot referir-se a la sintaxi. &lt;u2&gt; {&lt;u9&gt;} només pot referir-se a la terminologia. &lt;n2&gt; &lt;u3&gt; Quan s'usen per a la traducció, els llenguatges controlats restringeixen directament{&lt;u10&gt;} &lt;n1&gt; &lt;u4&gt; {&lt;u11&gt;} la llengua meta. &lt;u5&gt; {&lt;u12&gt;} la llengua origen. &lt;u6&gt; {&lt;u13&gt;} tant la llengua origen com la llengua meta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171007Z" changeid="antonio">
+        <seg>{&lt;u7&gt;} se refiere tanto a la terminología como a la sintaxis. &lt;u1&gt; {&lt;u8&gt;} sólo puede referirse a la sintaxis. &lt;u2&gt; {&lt;u9&gt;} sólo puede referirse a la terminología. &lt;n2&gt; &lt;u3&gt; Cuando se usan para la traducción, los lenguajes controlados restringen directamente{&lt;u10&gt;} &lt;n1&gt; &lt;u4&gt; {&lt;u11&gt;} la lengua meta. &lt;u5&gt; {&lt;u12&gt;} la lengua origen. &lt;u6&gt; {&lt;u13&gt;} tanto la lengua origen como la lengua meta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La postedició és convenient quan $$&lt;i0&gt;cost&lt;/i0&gt;&lt;u0&gt;(&lt;i2&gt;&lt;n0&gt;{c&lt;/i2&gt;traducció automàtica&lt;br0&gt; +&lt;br0&gt; postedició&lt;n1&gt;}&lt;u1&gt;) &lt; &lt;i1&gt;cost&lt;/i1&gt;(&lt;i3&gt;traducció humana&lt;/i3&gt;). $$ &lt;n2&gt; Cal comprovar que la fórmula anterior es compleix, tot i que siga a llarg termini, abans de triar una estratègia de traducció per a disseminació basada en la postedició. Finalment, hem de tenir en compte que tot i que la persona posteditora coneix la llengua meta i converteix el text en brut a una forma genuïna en aquesta llengua, qui siga un veritable especialista en postedició, a més, també coneix el sistema de traducció automàtica i quins en són els errors més típics; així, la tasca de postedició és molt més eficient, ja que en conéixer l'origen i la causa dels errors se'n fa més fàcil i ràpida la correcció.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020144Z" changeid="antonio">
+        <seg>La postedición es conveniente cuando $$&lt;i0&gt;coste&lt;/i0&gt;&lt;u0&gt;(&lt;i2&gt;&lt;n0&gt;{c&lt;/i2&gt;traducción automática&lt;br0&gt; +&lt;br0&gt; postedición&lt;n1&gt;}&lt;u1&gt;) &lt; &lt;i1&gt;coste&lt;/i1&gt;(&lt;i3&gt;traducción humana&lt;/i3&gt;). $$ &lt;n2&gt; Hay que comprobar que la fórmula anterior se cumple, a pesar de que sea a largo plazo, antes de elegir una estrategia de traducción para diseminación basada en la postedición. Finalmente, tenemos que tener en cuenta que a pesar de que la persona posteditora conoce la lengua meta y convierte el texto en bruto a una forma genuina en esta lengua, quién sea un verdadero especialista en postedición, además, también conoce el sistema de traducción automática y qué  son los errores más típicos; así, la tarea de postedición es mucho más eficiente, puesto que al conocer el origen y la causa de los errores se  hace más fácil y rápida la corrección.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Moltes de les aplicacions de la traducció automàtica es poden dividir en dos grans grups: l'&lt;i0&gt;assimilació&lt;/i0&gt; d'informació (quan una persona usa la traducció automàtica per a obtenir informació a partir d'un document escrit en una altra llengua) i la &lt;i1&gt;disseminació&lt;/i1&gt; ---també anomenada &lt;i2&gt;difusió&lt;/i2&gt;--- d'informació (quan una persona usa la traducció automàtica per a produir documents que han de ser distribuïts a més d'un usuari). La traducció automàtica, tot i ser &lt;i3&gt;imperfecta&lt;/i3&gt;, pot ser una eina molt útil en aquests dos grups d'aplicacions.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T161040Z" changeid="antonio">
+        <seg>Muchas de las aplicaciones de la traducción automática se pueden dividir en dos grandes grupos: la &lt;i0&gt;asimilación&lt;/i0&gt; de información (cuando una persona usa la traducción automática para obtener información a partir de un documento escrito en otra lengua) y la diseminación &lt;i1&gt;&lt;/i1&gt; ---también llamada &lt;i2&gt;difusión&lt;/i2&gt;--- de información (cuando una persona usa la traducción automática para producir documentos que tienen que ser distribuidos a más de un usuario). La traducción automática, a pesar de ser &lt;i3&gt;imperfecta&lt;/i3&gt;, puede ser una herramienta muy útil en estos dos grupos de aplicaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>CAT, HAMT i MAHT</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015927Z" changeid="antonio">
+        <seg>CAT, HAMT y MAHT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Facilitat de postedició de la traducció en brut. &lt;u1&gt; Intel·ligibilitat de la traducció en brut. &lt;u2&gt; Velocitat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021922Z" changeid="antonio">
+        <seg>Facilidad de postedición de la traducción en bruto. &lt;u1&gt; Inteligibilidad de la traducción en bruto. &lt;u2&gt; Velocidad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Llenguatges controlats</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020322Z" changeid="antonio">
+        <seg>Lenguajes controlados</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Volem posteditar un text traduït automàticament mirant tan poc com siga possible el text original. Ens ajuda conéixer quins són els mots homògrafs (vegeu la p. &lt;n0&gt;) més comuns de la llengua origen?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171505Z" changeid="antonio">
+        <seg>Queremos posteditar un texto traducido automáticamente mirando tan poco como sea posible el texto original. ¿Nos ayuda conocer cuáles son las palabras homógrafas (veáis la p. &lt;n0&gt;) más comunes de la lengua origen?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una inventora monolingüe consulta documents web traduïts a la seua llengua per tal de descobrir si el seu nou invent ha estat patentat abans. Si la traducció es fa mitjançant un sistema automàtic, quin ús n'està fent?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171356Z" changeid="antonio">
+        <seg>Una inventora monolingüe consulta documentos web traducidos a su lengua para descubrir si su nuevo invento ha sido patentado antes. Si la traducción se hace mediante un sistema automático, ¿qué uso está haciendo?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Altres dos conceptes rellevants quan s'usen sistemes de traducció automàtica reals, és a dir, imperfectes, són els de &lt;i0&gt;preedició&lt;/i0&gt; i {&lt;u0&gt; postedició}. En el primer cas, el text origen es prepara o adapta (&lt;i1&gt;preedita&lt;/i1&gt;) per a millorar el comportament del sistema de traducció, eliminant, per exemple, l'ambigüitat del text,&lt;p0&gt; (vegeu l'apartat &lt;n0&gt;), ja que pot voler dir &lt;i3&gt;exchange&lt;/i3&gt; (reemplaçar) o &lt;i4&gt;put back&lt;/i4&gt; (tornar a col·locar).} o també per a marcar parts del text que no han de ser traduïdes, com ara una citació, o que han de ser tractades de manera especial per no ser frases completes, com un títol. En el segon cas, el text meta produït pel sistema es refina o revisa ({&lt;u1&gt; postedita}) perquè siga gramaticalment correcte o estiga escrit d'acord amb un registre determinat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T165221Z" changeid="antonio">
+        <seg>Otros dos conceptos relevantes cuando se usan sistemas de traducción automática reales, es decir, imperfectas, son los de preedición &lt;i0&gt;&lt;/i0&gt; y postedición {&lt;u0&gt; }. En el primer caso, el texto origen se prepara o adapta (&lt;i1&gt;preedita&lt;/i1&gt;) para mejorar el comportamiento del sistema de traducción, eliminando, por ejemplo, la ambigüedad del texto,&lt;p0&gt; (veáis el apartado &lt;n0&gt;), puesto que puede querer decir &lt;i3&gt;exchange&lt;/i3&gt; (reemplazar) o hede &lt;i4&gt;back&lt;/i4&gt; (volver a colocar).} o también para marcar partes del texto que no tienen que ser traducidas, como por ejemplo una citación, o que tienen que ser tratadas de manera especial para no ser frases completas, como un título. En el segundo caso, el texto meta producido por el sistema se refina o revisa ({&lt;u1&gt; postedita}) para que sea gramaticalmente correcto o esté escrito de acuerdo con un registro determinado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Assimilació i disseminació</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015535Z" changeid="antonio">
+        <seg>Asimilación y diseminación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les &lt;i0&gt;categories lèxiques&lt;/i0&gt; (o simplement {&lt;u0&gt; categories</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020436Z" changeid="antonio">
+        <seg>Las &lt;i0&gt;categorías léxicas&lt;/i0&gt; (o simplemente {&lt;u0&gt; categorías</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Traducció automàtica assistida per la persona &lt;u1&gt; Traducció humana assistida per la màquina &lt;u2&gt; Usa un llenguatge controlat</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021123Z" changeid="antonio">
+        <seg>Traducción automática asistida por la persona &lt;u1&gt; Traducción humana asistida por la máquina &lt;u2&gt; Usa un lenguaje controlado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És a dir, quan la revisió no és més costosa que refer tota la traducció a mà.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015814Z" changeid="antonio">
+        <seg>Es decir, cuando la revisión no es más costosa que rehacer toda la traducción a mano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vegeu l'apartat &lt;n0&gt;, on es discuteix un concepte molt relacionat, el de &lt;i1&gt;llenguatge controlat&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T161824Z" changeid="antonio">
+        <seg>Veáse el apartado &lt;n0&gt;, donde se discute un concepto muy relacionado, el de lenguaje &lt;i1&gt;controlado&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però, per posar-nos en l'altre extrem, ha de quedar clar que la traducció automàtica pot ser molt útil en aquelles situacions en què l'ús d'un traductor professional siga impracticable o impossible econòmicament. Algunes d'aquestes situacions són: &lt;n0&gt; &lt;u0&gt; La traducció automàtica de correu electrònic entre les persones d'un grup de treball internacional amb la finalitat d'agilitzar les comunicacions; la traducció immediata de documents durant la &lt;i0&gt;navegació&lt;/i0&gt; per Internet (de fet, hi ha programes especialment dissenyats per a aquesta finalitat), o la traducció automàtica de converses electròniques interactives (teclat i pantalla, &lt;i1&gt;chat&lt;/i1&gt;). &lt;u1&gt; La traducció i el manteniment de tots els manuals tècnics d'una família de productes (per exemple, els manuals de manteniment d'una gamma d'automòbils). &lt;n1&gt; En els epígrafs successius d'aquesta secció es donen alguns detalls sobre com es pot usar la traducció automàtica en situacions similars a les esmentades.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T160826Z" changeid="antonio">
+        <seg>Pero, para ponernos en el otro extremo, tiene que quedar claro que la traducción automática puede ser muy útil en aquellas situaciones en que el uso de un traductor profesional sea impracticable o imposible económicamente. Algunas de estas situaciones son: &lt;n0&gt; &lt;u0&gt; La traducción automática de correo electrónico entre las personas de un grupo de trabajo internacional con el fin de agilizar las comunicaciones; la traducción inmediata de documentos durante la navegación &lt;i0&gt;&lt;/i0&gt; por Internet (de hecho, hay programas especialmente diseñados para esta finalidad), o la traducción automática de conversaciones electrónicas interactivas (teclado y pantalla, &lt;i1&gt;chat&lt;/i1&gt;). &lt;u1&gt; La traducción y el mantenimiento de todos los manuales técnicos de una familia de productos (por ejemplo, los manuales de mantenimiento de una gama de automóviles). &lt;n1&gt; En los epígrafes sucesivos de esta sección se dan algunos detalles sobre cómo se puede usar la traducción automática en situaciones similares a las mencionadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(*) Elegiu un idioma qualsevol que conegueu bé, $L$. És ben segur que $L$ té mots polisèmics que en una altra llengua $L'$ tenen més d'una traducció, segons el sentit que se'n prenga. Elegiu tres mots de $L$ que tinguen aquest problema i descrigueu com els tractaríeu en un llenguatge controlat basat en $L$. Les regles que formuleu per als autors que escriguen en el llenguatge controlat han de estar escrites en $L$ i no han de contenir referències a altres llengues.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T165928Z" changeid="antonio">
+        <seg>() Elegís un idioma cualquiera que conozcáis bien, $L$. Es bastante seguro que $L$ tenga palabras polisémicas que en otra lengua $Lo $ tienen más de una traducción, según el sentido que se  tome. Elegís tres palabras de $L$ que tengan este problema y describáis como los trataríais en un lenguaje controlado basado en $L$. Las reglas que formuláis para los autores que escriban en el lenguaje controlado tienen que estar escritas en $L$ y no tienen que contener referencias a otras lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un llenguatge controlat té sovint associat un conjunt de programes de suport que ajuden a avaluar i escriure documents que en complisquen les restriccions. L'escriptor de llenguatges controlats usa normalment un editor de textos intel·ligent que fa les següents tasques: &lt;n0&gt; &lt;u0&gt; Comprovar el compliment de les restriccions terminològiques (per a això, pot ser útil accedir a una base de dades terminològica, com les esmentades en el capítol &lt;n1&gt;), sintàctiques (fent l'anàlisi sintàctica ---vegeu la secció &lt;n2&gt;--- i resolent les ambigüitats que hi apareguen), semàntiques i d'estil (per exemple, restringint el format de les dades). &lt;u1&gt; Emetre un missatge d'error el més informatiu possible quan detecta una violació de les especificacions del llenguatge. &lt;u2&gt; Proposar a la persona usuària formes alternatives vàlides al text erroni. &lt;n3&gt; Com es pot veure, els desenvolupaments tècnics fets al voltant del disseny d'un llenguatge controlat es relacionen amb molts conceptes que es tracten en aquest llibre.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T165515Z" changeid="antonio">
+        <seg>Un lenguaje controlado tiene a menudo asociado un conjunto de programas de apoyo que ayudan a evaluar y escribir documentos que  cumplan las restricciones. El escritor de lenguajes controlados usa normalmente un editor de textos inteligente que hace las siguientes tareas: &lt;n0&gt; &lt;u0&gt; Comprobar el cumplimiento de las restricciones terminológicas (para lo cual, puede ser útil acceder a una base de datos terminológica, como las mencionadas en el capítulo &lt;n1&gt;), sintácticas (haciendo el análisis sintáctico ---veáis la sección &lt;n2&gt;--- y resolviendo las ambigüedades que  aparezcan), semánticas y de estilo (por ejemplo, restringiendo el formato de los datos). &lt;u1&gt; Emitir un mensaje de error lo más informativo posible cuando detecta una violación de las especificaciones del lenguaje. &lt;u2&gt; Proponer a la persona usuaria formas alternativas válidas al texto erróneo. &lt;n3&gt; Cómo se puede ver, los desarrollos técnicos hechos alrededor del diseño de un lenguaje controlado se relacionan con muchos conceptos que se tratan en este libro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u3&gt;} amb memòria de traducció. &lt;u1&gt; {&lt;u4&gt;} per a la disseminació. &lt;u2&gt; {&lt;u5&gt;} per a l'assimilació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021151Z" changeid="antonio">
+        <seg>{&lt;u3&gt;} con memoria de traducción. &lt;u1&gt; {&lt;u4&gt;} para la diseminación. &lt;u2&gt; {&lt;u5&gt;} para la asimilación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un altre exemple clàssic de llenguatge controlat és PACE ({&lt;u0&gt; Perkins-approved controlled English}), l'anglés controlat usat per la companyia de motors Diesel Perkins, concebut especialment per a facilitar la traducció automàtica dels manuals que descriuen les característiques i el manteniment d'aquests motors &lt;u2&gt;{newton92b}. Altres exemples de llenguatges controlats són l'&lt;i0&gt;ScaniaSwedish&lt;/i0&gt; usat per la firma de camions i autobusos Scania &lt;u3&gt;{almqvist96p}, o el {&lt;u1&gt; Caterpillar Technical English} de la companyia de maquinària d'excavació Caterpillar.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020524Z" changeid="antonio">
+        <seg>Otro ejemplo clásico de lenguaje controlado es PACE ({&lt;u0&gt; Perkins-approved controlled English}), el inglés controlado usado por la compañía de motores Diesel Perkins, concebido especialmente para facilitar la traducción automática de los manuales que describen las características y el mantenimiento de estos motores &lt;u2&gt;{newton92b}. Otros ejemplos de lenguajes controlados son el &lt;i0&gt;ScaniaSwedish&lt;/i0&gt; usado por la firma de camiones y autobuses Scania &lt;u3&gt;{almqvist96p}, o el {&lt;u1&gt; Caterpillar Technical English} de la compañía de maquinaria de excavación Caterpillar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin dels següents &lt;i0&gt;no&lt;/i0&gt; és un avantatge dels llenguatges controlats? &lt;n0&gt; &lt;u1&gt; S'evita la necessitat que una persona interaccione amb el programa de traducció automàtica per a resoldre ambigüitats durant la traducció. &lt;u2&gt; Els textos meta resultants són molt més curts. &lt;u3&gt; Els textos origen es fan més intel·ligibles.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T170736Z" changeid="antonio">
+        <seg>¿Cuál de los siguientes &lt;i0&gt;no&lt;/i0&gt; es una ventaja de los lenguajes controlados? &lt;n0&gt; &lt;u1&gt; Se evita la necesidad que una persona interaccione con el programa de traducción automática para resolver ambigüedades durante la traducción. &lt;u2&gt; Los textos meta resultantes son mucho más cortos. &lt;u3&gt; Los textos origen se hacen más inteligibles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La traducció automàtica per a la disseminació és especialment eficient quan només es tradueixen textos pertanyents a una part molt reduïda i ben regulada de l'idioma en qüestió (un &lt;i0&gt;subllenguatge&lt;/i0&gt;). Un exemple n'és TAUM Méteo, el sistema que produeix informes meteorològics simultanis en francés i en anglés al Canadà des de fa més de vint anys.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T164753Z" changeid="antonio">
+        <seg>La traducción automática para la diseminación es especialmente eficiente cuando sólo se traducen textos pertenecientes a una parte muy reducida y muy regulada del idioma en cuestión (un &lt;i0&gt;subllenguatge&lt;/i0&gt;). Un ejemplo  es TAUM Méteo, el sistema que produce informes meteorológicos simultáneos en francés y en inglés en Canadá desde hace más de veinte años.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imagineu que un traductor professional cobra 0,05 euros per mot de text traduït i que un corrector de textos cobra 0,10 euros per mot de text corregit. Imagineu que tenim un sistema de traducció automàtica que ens costa uns 0,03 euros per mot traduït i que produeix un 10% de mots incorrectes en les traduccions. Convé adoptar-lo i contractar el corrector o és millor contractar el traductor professional? (si no sabeu calcular-ho en general, feu els càlculs amb un text de, per exemple, 1000 mots).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T170940Z" changeid="antonio">
+        <seg>Imaginad que un traductor profesional cobra 0,05 euros por palabra de texto traducido y que un corrector de textos cobra 0,10 euros por palabra de texto corregido. Imaginad que tenemos un sistema de traducción automática que nos cuesta unos 0,03 euros por palabra traducida y que produce un 10% de palabras incorrectas en las traducciones. ¿Conviene adoptarlo y contratar el corrector o es mejor contratar el traductor profesional? (si no sabéis calcularlo en general, haced los cálculos con un texto de, por ejemplo, 1000 palabras).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Moltes voltes, la preedició la fa l'autor quan interacciona amb el programa de traducció automàtica. És possible dissenyar un sistema de preedició interactiva per a autors monolingües? &lt;n0&gt; &lt;u1&gt; Sí. &lt;u2&gt; No. Per a preeditar correctament cal conéixer l'idioma de destinació. &lt;u3&gt; Només per a certs idiomes amb estructura gramatical senzilla com l'anglés.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T170617Z" changeid="antonio">
+        <seg>Muchas veces, la preedición la hace el autor cuando interacciona con el programa de traducción automática. ¿Es posible diseñar un sistema de preedición interactiva para autores monolingües? &lt;n0&gt; &lt;u1&gt; Sí. &lt;u2&gt; No. Para preeditar correctamente hay que conocer el idioma de destino. &lt;u3&gt; Sólo para ciertos idiomas con estructura gramatical sencilla como el inglés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u3&gt;} amb preedició. &lt;u1&gt; {&lt;u4&gt;} per a la disseminació. &lt;u2&gt; {&lt;u5&gt;} per a l'assimilació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020946Z" changeid="antonio">
+        <seg>{&lt;u3&gt;} con preedición. &lt;u1&gt; {&lt;u4&gt;} para la diseminación. &lt;u2&gt; {&lt;u5&gt;} para la asimilación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si un angloparlant usa el traductor automàtic portugués--anglés de &lt;u1&gt;|babelfish.altavista.com| per a llegir en línia el diari brasileny &lt;i0&gt;O Globo&lt;/i0&gt;, està usant la traducció automàtica per a un propòsit</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171042Z" changeid="antonio">
+        <seg>Si un angloparlante usa el traductor automático portugués--inglés de |babelfish.altavista.com| &lt;u1&gt;para leer en línea el diario brasileño &lt;i0&gt;O Globo&lt;/i0&gt;, está usando la traducción automática para un propósito</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No, perquè els homògrafs del text origen no afecten el text meta en brut. &lt;u1&gt; No, perquè només estem mirant el text meta. &lt;u2&gt; Sí, perquè són una font molt important d'errors especialment difícils de corregir si no es coneix què ha passat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021836Z" changeid="antonio">
+        <seg>No, porque los homógrafos del texto origen no afectan el texto meta en bruto. &lt;u1&gt; No, porque sólo estamos mirando el texto meta. &lt;u2&gt; Sí, porque son una fuente muy importante de errores especialmente difíciles de corregir si no se conoce qué ha pasado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Preedició i postedició</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020038Z" changeid="antonio">
+        <seg>Preedición y postedición</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ús d'un llenguatge controlat &lt;u1&gt; L'ús d'un sistema d'interlingua. &lt;u2&gt; La postedició sistemàtica &lt;n1&gt; &lt;u3&gt; Frans consulta a través d'Internet la base de dades terminològica Eurodicautom quan tradueix dossiers antiglobalització de l'anglés al neerlandés. En quina de les tres situacions següents es troba?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171212Z" changeid="antonio">
+        <seg>El uso de un lenguaje controlado &lt;u1&gt; El uso de un sistema de interlingua. &lt;u2&gt; La postedición sistemática &lt;n1&gt; &lt;u3&gt; Frans consulta a través de Internet la base de datos terminológica Eurodicautom cuando traduce dosieres antiglobalización del inglés al neerlandés. ¿En cuál de las tres situaciones siguientes se encuentra?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per què és necessària la preedició en els sistemes de traducció automàtica? &lt;n0&gt; &lt;u1&gt; Per a evitar construccions o frases difícils de traduir. &lt;u2&gt; Perquè el format quede més agradable a la vista. &lt;u3&gt; És una alternativa a la postedició.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T170759Z" changeid="antonio">
+        <seg>¿Por qué es necesaria la preedición en los sistemas de traducción automática? &lt;n0&gt; &lt;u1&gt; Para evitar construcciones o frases difíciles de traducir. &lt;u2&gt; Para que el formato quede más agradable a la vista. &lt;u3&gt; Es una alternativa a la postedición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Disseminació} Per altra banda, en situacions de &lt;i0&gt;disseminació&lt;/i0&gt; de la informació, pot ser útil restringir la llengua d'origen (no permetre'n totes les realitzacions possibles, ni tot el lèxic, ni tots els registres) a un llenguatge que puga ser traduït automàticament amb el mínim possible de problemes, és a dir, amb el mínim esforç de postedició, o almenys, amb un esforç acceptable per un revisor.&lt;p0&gt; Açò és especialment important quan es tracta de traduir manuals tècnics a diversos idiomes. Les restriccions es poden expressar sota la forma de missatges interactius dirigits a la persona que prepara el document original.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015853Z" changeid="antonio">
+        <seg>{Diseminación} Por otro lado, en situaciones de diseminación &lt;i0&gt;&lt;/i0&gt; de la información, puede ser útil restringir la lengua de origen (no permitir todas las realizaciones posibles, ni todo el léxico, ni todos los registros) a un lenguaje que pueda ser traducido automáticamente con el mínimo posible de problemas, es decir, con el mínimo esfuerzo de postedición, o al menos, con un esfuerzo aceptable por un revisor.&lt;p0&gt; Esto es especialmente importando cuando se trata de traducir manuales técnicos a varios idiomas. Las restricciones se pueden expresar bajo la forma de mensajes interactivos dirigidos a la persona que prepara el documento original.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u3&gt;} postedició. &lt;u1&gt; {&lt;u4&gt;} traducció automàtica assistida per la persona. &lt;u2&gt; {&lt;u5&gt;} traducció humana assistida per l'ordinador.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021459Z" changeid="antonio">
+        <seg>{&lt;u3&gt;} postedición. &lt;u1&gt; {&lt;u4&gt;} traducción automática asistida por la persona. &lt;u2&gt; {&lt;u5&gt;} traducción humana asistida por el ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imagineu que podem elegir entre dos sistemes de traducció automàtica diferent $t_A$ i $t_B$ per a traduir manuals de televisors de l'anglés al francés, i que s'ha de dissenyar un anglés controlat per a minimitzar la postedició. Les regles de l'anglés controlat, poden dependre del sistema de TA elegit? &lt;n0&gt; &lt;u1&gt; No, perquè els llenguatges controlats s'han de dissenyar independentment dels sistemes de TA. &lt;u2&gt; Sí, perquè en cada cas s'han d'evitar problemes diferents. &lt;u3&gt; No, perquè la llengua meta dels dos sistemes és la mateixa.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171949Z" changeid="antonio">
+        <seg>Imaginad que podemos elegir entre dos sistemas de traducción automática diferente $t_A$ y $t_B$ para traducir manuales de televisores del inglés al francés, y que se tiene que diseñar un inglés controlado para minimizar la postedición. Las reglas del inglés controlado, ¿pueden depender del sistema de TA elegido? &lt;n0&gt; &lt;u1&gt; No, porque los lenguajes controlados se tienen que diseñar independientemente de los sistemas de TA. &lt;u2&gt; Sí, porque en cada caso se tienen que evitar problemas diferentes. &lt;u3&gt; No, porque la lengua meta de los dos sistemas es la misma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{HAMT:} Un programa de traducció automàtica pregunta a l'usuari quan té més d'una possible traducció per a un mot o per a una frase. Aquesta i altres situacions de &lt;i0&gt;negociació&lt;/i0&gt; del text d'origen amb l'usuari del sistema impliquen una interacció que també pot ajudar a preparar un text més correcte, és a dir, a &lt;i1&gt;preeditar-lo&lt;/i1&gt; perquè puga ser traduït automàticament. Altres voltes, el programa pot analitzar l'estructura profunda de la frase i presentar-ne les possibles interpretacions a l'autor, per tal que resolga alguna possible ambigüitat. En aquests sistemes interactius, cal tenir en compte dos factors: el primer, que un sistema que pregunta massa no és còmode d'usar (no és &lt;i2&gt;ergonòmic&lt;/i2&gt;) i el segon, que pot passar que l'usuari siga monolingüe, circumstància que canvia molt la naturalesa de la interacció entre el programa i l'usuari. Els usuaris d'aquest tipus de sistemes es podrien classificar en tres grans grups: traductors ocasionals, traductors professionals individuals i traductors professionals que treballen per a empreses de traducció.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T164855Z" changeid="antonio">
+        <seg>{HAMT:} Un programa de traducción automática pregunta al usuario cuando tiene más de una posible traducción para una palabra o para una frase. Esta y otras situaciones de negociación &lt;i0&gt;&lt;/i0&gt; del texto de origen con el usuario del sistema implican una interacción que también puede ayudar a preparar un texto más correcto, es decir, a preeditarlo &lt;i1&gt;&lt;/i1&gt; para que pueda ser traducido automáticamente. Otras veces, el programa puede analizar la estructura profunda de la frase y presentar las posibles interpretaciones al autor, para que resuelva alguna posible ambigüedad. En estos sistemas interactivos, hay que tener en cuenta dos factores: el primero, que un sistema que pregunta demasiado no es cómodo de usar (no es &lt;i2&gt;ergonómico&lt;/i2&gt;) y el segundo, que puede pasar que el usuario sea monolingüe, circunstancia que cambia mucho la naturaleza de la interacción entre el programa y el usuario. Los usuarios de este tipo de sistemas se podrían clasificar en tres grandes grupos: traductores ocasionales, traductores profesionales individuales y traductores profesionales que trabajan para empresas de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Assimilació} &lt;n0&gt; Per una banda, en situacions d'{&lt;u1&gt; assimilació} de la informació no sembla necessària una traducció perfecta, sinó més aviat una traducció ràpida i raonablement intel·ligible. És el cas de la traducció de correu electrònic, de documents d'Internet (durant la &lt;i0&gt;navegació&lt;/i0&gt;) o de despatxos de premsa en altres idiomes. Una altra aplicació d'assimilació de la informació és l'anomenat &lt;i1&gt;screening&lt;/i1&gt; o exploració de documents per a decidir quins són rellevants i mereixen una atenció més detallada; de fet, aquesta va ser una de les primeres aplicacions de la traducció automàtica als EUA: es volia tenir accés a la informació tecnològica present en documents de la Unió Soviètica. Els usos civils de l'&lt;i2&gt;screening&lt;/i2&gt; han superat actualment l'ús tradicional, el militar. En el cas de l'&lt;i3&gt;screening&lt;/i3&gt;, fins i tot una traducció incompleta a més d'incorrecta (per exemple, només dels mots terminològics) pot ser de gran utilitat. L'&lt;i4&gt;screening&lt;/i4&gt; es pot fer usant un ordinador personal tot sol, o accedint a ordinadors servidors d'informació, en el cas de grans instal·lacions. És important indicar que en quasi totes les situacions d'assimilació el paper del traductor professional és inexistent, ja que el treball és de naturalesa molt diferent, i l'ús d'un traductor professional seria molt car i molt lent. Una altra aplicació interessant és la traducció automàtica de &lt;i5&gt;converses electròniques&lt;/i5&gt; (usant el teclat i la pantalla d'ordinadors connectats entre si) entre persones que parlen dos idiomes diferents. Les imperfeccions de la traducció es poden compensar amb preguntes o dient les coses d'una altra manera fins que els dos interlocutors s'entenguen (és a dir, mitjançant una &lt;i6&gt;negociació&lt;/i6&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T161226Z" changeid="antonio">
+        <seg>{Asimilación} &lt;n0&gt; Por un lado, en situaciones de {&lt;u1&gt; asimilación} de la información no parece necesaria una traducción perfecta, sino más bien una traducción rápida y razonablemente inteligible. Es el caso de la traducción de correo electrónico, de documentos de Internet (durante la navegación &lt;i0&gt;&lt;/i0&gt;) o de despachos de prensa en otros idiomas. Otra aplicación de asimilación de la información es el llamado &lt;i1&gt;screening&lt;/i1&gt; o exploración de documentos para decidir cuáles son relevantes y merecen una atención más detallada; de hecho, esta fue una de las primeras aplicaciones de la traducción automática en los EE.UU.: se quería tener acceso a la información tecnológica presente en documentos de la Unión Soviética. Los usos civiles del&lt;i2&gt; screening&lt;/i2&gt; han superado actualmente el uso tradicional, el militar. En el caso del&lt;i3&gt; screening&lt;/i3&gt;, incluso una traducción incompleta además de incorrecta (por ejemplo, sólo de las palabras terminológicas) puede ser de gran utilidad. El &lt;i4&gt;screening&lt;/i4&gt; se puede hacer usando un ordenador personal a solas, o accediendo a ordenadores servidores de información, en el caso de grandes instalaciones. Es importante indicar que en casi todas las situaciones de asimilación el papel del traductor profesional es inexistente, puesto que el trabajo es de naturaleza muy diferente, y el uso de un traductor profesional seria muy caro y muy lento. Otra aplicación interesante es la traducción automática de conversaciones &lt;i5&gt;electrónicas&lt;/i5&gt; (usando el teclado y la pantalla de ordenadores conectados entre sí) entre personas que hablan dos idiomas diferentes. Las imperfecciones de la traducción se pueden compensar con preguntas o diciendo las cosas de otro modo hasta que los dos interlocutores se entiendan (es decir, mediante una &lt;i6&gt;negociación&lt;/i6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Llengua de contacte que es parla a Papua Nova Guinea i que té 50.000 parlants que la parlen com a primera llengua i més de dos milions de parlants que la parlen com a segona llengua.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015643Z" changeid="antonio">
+        <seg>Lengua de contacto que se habla en Papúa Nueva Guinea y que tiene 50.000 hablantes que la hablan como primera lengua y más de dos millones de hablantes que la hablan como segunda lengua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Solució 2 (1000 mots):] El traductor professional tradueix un text de 1000 mots per 0,05$&lt;u1&gt;$1000$=$50 euros. El sistema de traducció automàtica el tradueix per 0,03$&lt;u2&gt;$1000$=$30 euros, i corregir-lo costa 10 euros, perquè en 1000 parules hi ha 1000$&lt;u3&gt; $10$/$100$=$100 mots incorrectes i corregir cada un costa 0,10 euros: 0,10$&lt;u4&gt;$100$=$10. Per tant, el sistema semiautomàtic costa només 40 euros, davant dels 50 del traductor professional.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171750Z" changeid="antonio">
+        <seg>[Solución 2 (1000 palabras):] El traductor profesional traduce un texto de 1000 palabras por 0,05$&lt;u1&gt;$1000$=$50 euros. El sistema de traducción automática lo traduce por 0,03$&lt;u2&gt;$1000$=$30 euros, y corregirlo cuesta 10 euros, porque en 1000 palabras hay 1000$&lt;u3&gt; $10$/$100$=$100 palabras incorrectas y corregir cada una cuesta 0,10 euros: 0,10$&lt;u4&gt;$100$=$10. Por lo tanto, el sistema semiautomático cuesta sólo 40 euros, ante los 50 del traductor profesional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'adopció d'un llenguatge controlat en una situació de traducció de documents d'una llengua a moltes llengües per a la disseminació és, en el procés complet, una alternativa a{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;}la postedició repetitiva dels documents meta. &lt;u2&gt; {&lt;u6&gt;}la preedició repetitiva dels documents origen. &lt;u3&gt; {&lt;u7&gt;}la traducció de fragments ja traduïts anteriorment.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021226Z" changeid="antonio">
+        <seg>La adopción de un lenguaje controlado en una situación de traducción de documentos de una lengua a muchas lenguas para la diseminación es, en el proceso completo, una alternativa a la{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;}postedición repetitiva de los documentos meta. &lt;u2&gt; {&lt;u6&gt;}la preedición repetitiva de los documentos origen. &lt;u3&gt; {&lt;u7&gt;}la traducción de fragmentos ya traducidos anteriormente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u3&gt;} HAMT. &lt;u1&gt; {&lt;u4&gt;} MAHT. &lt;u2&gt; {&lt;u5&gt;} un sistema de traducció automàtica ergonòmic.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021312Z" changeid="antonio">
+        <seg>{&lt;u3&gt;} HAMT. &lt;u1&gt; {&lt;u4&gt;} MAHT. &lt;u2&gt; {&lt;u5&gt;} un sistema de traducción automática ergonómico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un sistema que suggereix millores a l'estil d'un document es pot considerar com {&lt;u1&gt;}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T021302Z" changeid="antonio">
+        <seg>Un sistema que sugiere mejoras al estilo de un documento se puede considerar cómo {&lt;u1&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per rudimentari que siga un sistema de traducció automàtica, pot ser molt útil en tasques d'assimilació. Una de les aproximacions més simples a la TA és l'anomenada &lt;i0&gt;traducció mot per mot&lt;/i0&gt;&lt;n0&gt;, en què el programa identifica cada mot, el busca en un diccionari bilingüe i el substitueix per una traducció aproximada. A tall d'exemple, considereu el següent text en tok pisin&lt;p0&gt; (el text està pres de &lt;u0&gt;{lyovin97b}): &lt;n1&gt;{&lt;u1&gt; Long taim bifo, wanpela ailan, draipela pik i save stap ya, na em i save kaikai ol man. Em i save kaikai ol man nau; wanpela taim, wanpela taim nau ol man go tokim bikpela man bilong ol, bos bilong ol, ol i go tokim em nau, em i tok: ``Orait yumi mas painim nupela ailan''. } &lt;n7&gt; Si prenem un diccionari i traduïm el text mot per mot, prenent la primera traducció possible en cada cas ---pot haver-n'hi més d'una---, s'obté el text següent&lt;p1&gt;: &lt;n2&gt;{&lt;u2&gt; En temps passat, un illa, enorme porc - soler viure esmentat i ell - soler menjar més-d'un home. Ell - soler menjar més-d'un home aleshores; un temps, un temps aleshores, més-d'un home anar parlar gran home en més-d'un, cap en més-d'un, més-d'un - anar parlar ell aleshores, ell - dir: ``Molt-bé, vosaltres-i-jo haver-de trobar nou illa''.} &lt;n8&gt; I ara, veritat que s'entén una miqueta més? La traducció idiomàtica &lt;i1&gt;correcta&lt;/i1&gt; seria poc més o menys: &lt;n3&gt;{&lt;u3&gt; Fa molt temps, en una certa illa, vivia un gran porc i se solia menjar la gent. Se solia menjar la gent, i una vegada, la gent va anar i va dir al seu gran home, al seu cap, va anar i van parlar amb ell. Ell va dir: ``Molt bé, hem de trobar una nova illa''.} &lt;n9&gt; L'ordre dels mots no és molt diferent en tok pisin i en català i això fa que la traducció mot per mot siga prou llegidora. En canvi, si el text original està en basc, les coses no són tan senzilles. El text, pràcticament inintel·ligible per a qui no sàpia basc: &lt;n4&gt;{&lt;u4&gt; Bazkaria bukatu ondoren Koldo egunkarira joan zen eta Teoren foto bat hartu zuen. Gero, egunkariaren ale zaharrak irakurri zituen, boxeo txapelketako berriak aztertzeko. Boxealarien izenak apuntatu zituen.} &lt;n10&gt; es pot traduir mot per mot com: &lt;n5&gt;{&lt;u5&gt; El-dinar acabat després Koldo al-diari anat era i de-Teo foto una pres l'havia. Després, del-diari número els-vells llegit els-havia, boxa del-campionat les-notícies per-a-examinar. Dels-boxadors els noms apuntat els-havia.} &lt;n11&gt; que és molt més difícil de llegir que el resultat de traduir el text en tok pisin mot per mot. Una traducció idiomàtica possible és: &lt;n6&gt;{&lt;u6&gt; Després de dinar Koldo va anar al diari i va prendre una foto de Teo. Després, va llegir [els] números vells del diari per a examinar les notícies del campionat de boxa. Va apuntar els noms dels boxadors.} &lt;n12&gt; Fixeu-vos que fins i tot en aquest cas tan desfavorable el text traduït mot per mot dóna bastantes pistes sobre el significat del text original.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171921Z" changeid="antonio">
+        <seg>Por rudimentario que sea un sistema de traducción automática, puede ser muy útil en tareas de asimilación. Una de las aproximaciones más simples a la TA es la llamada &lt;i0&gt;traducción palabra por palabra&lt;/i0&gt;&lt;n0&gt;, en que el programa identifica cada palabra, lo busca en un diccionario bilingüe y lo sustituye por una traducción aproximada. A guisa de ejemplo, considerad el siguiente texto en tok pisin&lt;p0&gt; (el texto está tomado de lyovin97b &lt;u0&gt;{}): &lt;n1&gt;{&lt;u1&gt; Long taim bifo, wanpela ailan, draipela pik y save stap ya, na me y save kaikai ol man. Me y save kaikai ol man nave; wanpela taim, wanpela taim nave ol man go tokim bikpela man bilong ol, bos bilong ol, ol y go tokim me nave, me y tok: ``Orait yumi cortijo painim nupela ailan''. } &lt;n7&gt; Si tomamos un diccionario y traducimos el texto palabra por palabra, tomando la primera traducción posible en cada caso ---puede haber más de una---, se obtiene el texto siguiente&lt;p1&gt;: &lt;n2&gt;{&lt;u2&gt; En tiempo pasado, un isla, enorme cerdo - soler vivir mencionado y él - soler comer más-de un hombre. Él - soler comer más-de un hombre entonces; un tiempo, un tiempo entonces, más-de un hombre ir hablar gran hombre en más-de uno, ninguno en más-de uno, más-de un - ir hablar él entonces, él - decir: ``Muy-bien, vosotros-y-yo haber-de encontrar nueva isla''.} &lt;n8&gt; Y ahora, ¿verdad que se entiende un poquito más? La traducción idiomática &lt;i1&gt;correcta&lt;/i1&gt; sería poco más o menos: &lt;n3&gt;{&lt;u3&gt; Hace mucho tiempo, en una cierta isla, vivía un gran cerdo y se solía comer la gente. Se solía comer la gente, y una vez, la gente fue y dijo a su gran hombre, a su cabeza, fue y hablaron con él. Él dijo: ``Muy bien, tenemos que encontrar una nueva isla''.} &lt;n9&gt; La orden de las palabras no es muy diferente en tok pisin y en español, esto hace que la traducción palabra por palabra sea bastante legible. En cambio, si el texto original está en vasco, las cosas no son tan sencillas. El texto, prácticamente ininteligible para quien no sepa vasco: &lt;n4&gt;{&lt;u4&gt; Bazkaria bukatu ondoren Koldo egunkarira joan zen eta Teoren foto bate hartu zuen. Gero, egunkariaren ale zaharrak irakurri zituen, boxeo txapelketako berriak aztertzeko. Boxealarien izenak apuntatu zituen.} &lt;n10&gt; se puede traducir palabra por palabra cómo: &lt;n5&gt;{&lt;u5&gt; La-comida acabada después Koldo al-diario ido era y de-Teo foto una tomado lo había. Después, del-diario número los-viejos leído los-había, boxeo del-campeonato las-noticias por-a-examinar. De los-boxeadores los nombres apuntado los-había.} &lt;n11&gt; que es mucho más difícil de leer que el resultado de traducir el texto en tok pisin palabra por palabra. Una traducción idiomática posible es: &lt;n6&gt;{&lt;u6&gt; Después de comer Koldo fue al diario y tomó una foto de Teo. Después, leyó [los] números viejos del diario para examinar las noticias del campeonato de boxeo. Apuntó los nombres de los boxeadores.} &lt;n12&gt; Fijaos que incluso en este caso tan desfavorable el texto traducido palabra por palabra da bastantes pistas sobre el significado del texto original.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si enviem un document HTML a un servidor de traducció automàtica i després posteditem el resultat perquè siga una traducció acceptable de l'original abans de publicar-la, estem usant la traducció automàtica{&lt;u1&gt;}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171337Z" changeid="antonio">
+        <seg>Si enviamos un documento HTML a un servidor de traducción automática y después posteditamos el resultado para que sea una traducción aceptable del original antes de publicarla, estamos usando la traducción automática{&lt;u1&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, en anglés tècnic, el mot &lt;i2&gt;replace&lt;/i2&gt; presenta una {&lt;u0&gt; ambigüitat lèxica</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020055Z" changeid="antonio">
+        <seg>Por ejemplo, en inglés técnico, la palabra &lt;i2&gt;replace&lt;/i2&gt; presenta una {&lt;u0&gt; ambigüedad léxica</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>SALT 3.0 tradueix textos de l'espanyol a la varietat valenciana del català i pregunta esporàdicament a la persona usuària quin equivalent és més adequat per a alguns mots ambigus difícils. Aquesta és una situació de{&lt;u1&gt;}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171440Z" changeid="antonio">
+        <seg>SALT 3.0 traduce textos del español a la variedad valenciana del catalán y pregunta esporádicamente a la persona usuaria qué equivalente es más adecuado para algunas palabras ambiguas difíciles. Esta es una situación de{&lt;u1&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>d'assimilació d'informació &lt;u1&gt; de disseminació &lt;u2&gt; per al qual no està pensada &lt;n1&gt; &lt;u3&gt; Quina és l'alternativa estàndar a la preedició en un entorn de producció massiva de documentació multilingüe?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T171234Z" changeid="antonio">
+        <seg>de asimilación de información &lt;u1&gt; de diseminación &lt;u2&gt; para el cual no está pensado &lt;n1&gt; &lt;u3&gt; ¿Cuál es la alternativa estándar a la preedición en un entorno de producción masiva de documentación multilingüe?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Usos de la traducció automàtica</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015358Z" changeid="antonio">
+        <seg>Usos de la traducción automática</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un exemple de llenguatge controlat és l'anglés simplificat ({&lt;u0&gt; Simplified English}) de l'AECMA (Associació Europea d'Indústries Aeroespacials), que es caracteritza per ``una sintaxi senzilla, un nombre limitat de mots, un nombre limitat de significats ben definits per mot (normalment un), i un nombre limitat de categories lèxiques&lt;p0&gt;) són conjunts de mots que tenen la mateixa funció sintàctica; hi ha categories &lt;i1&gt;majors&lt;/i1&gt;, &lt;i2&gt;lèxiques&lt;/i2&gt; o &lt;i3&gt;de classe oberta&lt;/i3&gt; (substantiu, adjectiu, verb, etc.) que creixen quan s'afig nou lèxic a la llengua i categories &lt;i4&gt;menors&lt;/i4&gt;, {&lt;u1&gt; gramaticals} o &lt;i5&gt;de classe tancada&lt;/i5&gt; (articles, conjuncions, etc.), que no creixen i contenen mots amb funció gramatical. La sintaxi es defineix normalment, no en termes de mots, sinó en termes de categories lèxiques.}&lt;n0&gt; per mot (normalment una)'', amb ``l'objectiu de produir textos breus i no ambigus'' &lt;u2&gt;{AECMA07u}.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T165550Z" changeid="antonio">
+        <seg>Un ejemplo de lenguaje controlado es el inglés simplificado ({&lt;u0&gt; Simplified English}) del AECMA (Asociación Europea de Industrias Aeroespaciales), que se caracteriza por ``una sintaxis sencilla, un número limitado de palabras, un número limitado de significados muy definidos por palabra (normalmente uno), y un número limitado de categorías léxicas&lt;p0&gt;) son conjuntos de palabras que tienen la misma función sintáctica; hay categorías &lt;i1&gt;mayores&lt;/i1&gt;, &lt;i2&gt;léxicas&lt;/i2&gt; o de clase &lt;i3&gt;abierta&lt;/i3&gt; (sustantivo, adjetivo, verbo, etc.) que crecen cuando se añade nuevo léxico a la lengua y categorías &lt;i4&gt;menores&lt;/i4&gt;, {&lt;u1&gt; gramaticales} o de clase &lt;i5&gt;cerrada&lt;/i5&gt; (artículos, conjunciones, etc.), que no crecen y contienen palabras con función gramatical. La sintaxis se define normalmente, no en términos de palabras, sino en términos de categorías léxicas.}&lt;n0&gt; por palabra (normalmente una)'', con ``el objetivo de producir textos breves y no ambiguos'' &lt;u2&gt;{AECMA07uno}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Moltes situacions de traducció automàtica es poden classificar com a situacions de CAT, {&lt;u0&gt; computer-aided translation} o traducció assistida per ordinador, també anomenada &lt;i0&gt;traducció semiautomàtica&lt;/i0&gt;. Però cal precisar millor què volem dir amb això d'``assistida per ordinador''. Ací són rellevants les nocions de MAHT (&lt;i1&gt;machine-aided human translation&lt;/i1&gt;, traducció humana assistida per una màquina) i HAMT (&lt;i2&gt;human-aided machine translation&lt;/i2&gt;, traducció automàtica assistida per un humà), que estableixen les dues situacions bàsiques d'interacció entre una persona i un ordinador a l'hora de fer la traducció. Els paràgrafs següents en donen alguns exemples.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T015948Z" changeid="antonio">
+        <seg>Muchas situaciones de traducción automática se pueden clasificar como situaciones de CAT, {&lt;u0&gt; computer-aided translation} o traducción asistida por ordenador, también llamada &lt;i0&gt;traducción semiautomática&lt;/i0&gt;. Pero hay que precisar mejor que queremos decir con esto de ``asistida por ordenador''. Aquí son relevantes las nociones de MAHT (&lt;i1&gt;machine-aided human translation&lt;/i1&gt;, traducción humana asistida por una máquina) y HAMT (&lt;i2&gt;human-aided machine translation&lt;/i2&gt;, traducción automática asistida por un humano), que establecen las dos situaciones básicas de interacción entre una persona y un ordenador a la hora de hacer la traducción. Los párrafos siguientes  dan algunos ejemplos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan la traducció automàtica s'usa per a la disseminació de documents tècnics de temàtica homogènia, pot ser interessant fer que els documents originals estiguen escrits usant un lèxic estàndard sense ambigüitats semàn­ti­ques i seguint unes regles sintàctiques i d'estil ben determinades, és a dir, en un &lt;i0&gt;llenguatge controlat&lt;/i0&gt; &lt;u0&gt;{wojcik96u,arnold94b} dissenyat de manera que el resultat de la traducció automàtica puga ser usat directament per a publicar-lo amb el mínim possible de postedició.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T165432Z" changeid="antonio">
+        <seg>Cuando la traducción automática se usa para la diseminación de documentos técnicos de temática homogénea, puede ser interesante hacer que los documentos originales estén escritos usando un léxico estándar sin ambigüedades semánticas y siguiendo unas reglas sintácticas y de estilo muy determinadas, es decir, en &lt;i0&gt;un lenguaje controlado&lt;/i0&gt; &lt;u0&gt;{wojcik96uno,arnold94b} diseñado de forma que el resultado de la traducción automática pueda ser usado directamente para publicarlo con el mínimo posible de postedición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Qüestions, exercicis i problemes</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020535Z" changeid="antonio">
+        <seg>Cuestiones, ejercicios y problemas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La traducció automàtica instantània de pàgines &lt;i0&gt;web&lt;/i0&gt; durant la navegació és un cas de traducció automàtica{&lt;u1&gt;}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changedate="20120603T020924Z" changeid="antonio">
+        <seg>La traducción automática instantánea de páginas &lt;i0&gt;web&lt;/i0&gt; durante la navegación es un caso de traducción automática{&lt;u1&gt;}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

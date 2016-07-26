@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.5.2_2" segtype="sentence" srclang="CA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="1">&lt;n1&gt;</it> El fet que és possible que l'avaluació per recompte de correccions no siga òptima en vista d'aquests problemes fa que, a més, siga especialment difícil comparar les avaluacions fetes per persones diferents.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T162538Z">
+        <seg><it pos="begin" x="1">&lt;n1&gt;</it> El hecho de que sea posible que la evaluación por recuento de correcciones no sea óptima en vista de estos problemas hace que, además, sea especialmente difícil comparar las evaluaciones hechas por personas diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="1">&lt;n1&gt;</it> i afegeixen la pregunta clau: ``Què vol dir <bpt i="2" x="2">&lt;i2&gt;</bpt>bo<ept i="2">&lt;/i2&gt;</ept> o <bpt i="3" x="3">&lt;i3&gt;</bpt>millor<ept i="3">&lt;/i3&gt;</ept> en aquest context?'' La resposta a totes aquestes preguntes és molt difícil, com diu <it pos="begin" x="1">&lt;u1&gt;</it>{minnis94j}: ``el fet que no s'haja proposat cap métode d'avaluació o de mesurament estàndard és un bon indicador de la magnitud del problema''.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="Laura" changedate="20120528T155629Z">
+        <seg><it pos="begin" x="1">&lt;n1&gt;</it> y añaden la pregunta clave: ¿``Qué quiere decir <bpt i="2" x="2">&lt;i2&gt;</bpt>bueno<ept i="2">&lt;/i2&gt;</ept> o <bpt i="3" x="3">&lt;i3&gt;</bpt>mejor<ept i="3">&lt;/i3&gt;</ept> en este contexto''? La respuesta a todas estas preguntas es muy difícil, como dice <it pos="begin" x="1">&lt;u1&gt;</it>{minnis94j}: ``el hecho que no se haya propuesto ningún método de evaluación o de medición estándar es un buen indicador de la magnitud del problema''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="4">&lt;n4&gt;</it> Quant a l'<bpt i="3" x="3">&lt;i3&gt;</bpt>avaluació diagnòstica<ept i="3">&lt;/i3&gt;</ept>, vegeu en la secció <it pos="begin" x="6">&lt;n6&gt;</it> la discussió sobre la noció d'<bpt i="4" x="4">&lt;i4&gt;</bpt>avaluació predictiva<ept i="4">&lt;/i4&gt;</ept>.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161051Z">
+        <seg><it pos="begin" x="4">&lt;n4&gt;</it> En cuanto a la<bpt i="3" x="3">&lt;i3&gt;</bpt> evaluación diagnóstica<ept i="3">&lt;/i3&gt;</ept>, véase en la sección <it pos="begin" x="6">&lt;n6&gt;</it> la discusión sobre la noción de <bpt i="4" x="4">&lt;i4&gt;</bpt>evaluación predictiva<ept i="4">&lt;/i4&gt;</ept>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="5">&lt;n5&gt;</it> <it pos="begin" x="8">&lt;u8&gt;</it> <bpt i="7" x="7">&lt;i7&gt;</bpt>Com<ept i="7">&lt;/i7&gt;</ept> es fa l'avaluació?</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161249Z">
+        <seg><it pos="begin" x="5">&lt;n5&gt;</it> <it pos="begin" x="8">&lt;u8&gt;</it> <bpt i="7" x="7">&lt;i7&gt;</bpt>¿Cómo<ept i="7">&lt;/i7&gt;</ept> se hace la evaluación?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="0">&lt;u0&gt;</it>{arnold94b} plantegen el problema així: <it pos="begin" x="0">&lt;n0&gt;</it> <it pos="begin" x="2">&lt;u2&gt;</it> Com es pot decidir si un sistema de TA és <bpt i="0" x="0">&lt;i0&gt;</bpt>bo<ept i="0">&lt;/i0&gt;</ept>?</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161114Z">
+        <seg><it pos="begin" x="0">&lt;u0&gt;</it>{arnold94b} plantean el problema así: <it pos="begin" x="0">&lt;n0&gt;</it> <it pos="begin" x="2">&lt;u2&gt;</it>¿Cómo se puede decidir si un sistema de TA es <bpt i="0" x="0">&lt;i0&gt;</bpt>bueno<ept i="0">&lt;/i0&gt;</ept>?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="10">&lt;u10&gt;</it>{hutchins96u} distingeix entre tres tipus bàsics d'avaluació: <it pos="begin" x="1">&lt;n1&gt;</it> <it pos="begin" x="1">&lt;u1&gt;</it> l'<bpt i="1" x="1">&lt;i1&gt;</bpt>avaluació d'adequació<ept i="1">&lt;/i1&gt;</ept>, que serveix per a ``determinar la idoneïtat dels sistemes de TA en un context operacional especificat'' ---per exemple, per a decidir si el sistema de TA és bo per a traduir el correu comercial d'una empresa alimentària---; <it pos="begin" x="2">&lt;u2&gt;</it> l'{<it pos="begin" x="11">&lt;u11&gt;</it> avaluació diagnòstica}, que serveix per a ``identificar limitacions, errors o deficiències, les quals poden ser corregides o millorades'' ---per exemple, defectes en el tractament de la concordança verbal de les oracions subordinades---, i <it pos="begin" x="3">&lt;u3&gt;</it> l'<bpt i="2" x="2">&lt;i2&gt;</bpt>avaluació de funcionament<ept i="2">&lt;/i2&gt;</ept>, ``per a valorar l'estat de desenvolupament del sistema o les diferents realitzacions tècniques'' ---per exemple, si el programa és robust, ràpid, fa un ús racional de la memòria del sistema, etc.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161024Z">
+        <seg><it pos="begin" x="10">&lt;u10&gt;</it>{hutchins96uno} distingue entre tres tipos básicos de evaluación: <it pos="begin" x="1">&lt;n1&gt;</it> <it pos="begin" x="1">&lt;u1&gt;</it> la <bpt i="1" x="1">&lt;i1&gt;</bpt>evaluación de adecuación<ept i="1">&lt;/i1&gt;</ept>, que sirve para ``determinar la idoneidad de los sistemas de TA en un contexto operacional especificado'' ---por ejemplo, para decidir si el sistema de TA es bueno para traducir el correo comercial de una empresa alimentaria---; <it pos="begin" x="2">&lt;u2&gt;</it> la {<it pos="begin" x="11">&lt;u11&gt;</it> evaluación diagnóstica}, que sirve para ``identificar limitaciones, errores o deficiencias, las cuales pueden ser corregidas o mejoradas'' ---por ejemplo, defectos en el tratamiento de la concordancia verbal de las oraciones subordinadas---, y <it pos="begin" x="3">&lt;u3&gt;</it>la<bpt i="2" x="2">&lt;i2&gt;</bpt>evaluación de funcionamiento<ept i="2">&lt;/i2&gt;</ept>, ``para valorar el estado de desarrollo del sistema o las diferentes realizaciones técnicas'' ---por ejemplo, si el programa es robusto, rápido, hace un uso racional de la memoria del sistema, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="1">&lt;u1&gt;</it> Si suposem que existeix una única traducció acceptable del text origen i l'usem com a referència, hi ha més d'una manera de corregir la traducció en brut de manera que el resultat siga idèntic al de referència.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161900Z">
+        <seg><it pos="begin" x="1">&lt;u1&gt;</it> Si suponemos que existe una única traducción aceptable del texto origen y lo usamos como referencia, hay más de una manera de corregir la traducción en bruto de forma que el resultado sea idéntico al de referencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="2">&lt;u2&gt;</it> Però és que, a més, la traducció de referència pot no estar disponible; a més, en la majoria dels casos no hi ha una única traducció acceptable.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T162205Z">
+        <seg><it pos="begin" x="2">&lt;u2&gt;</it> Pero es que, además, la traducción de referencia puede no estar disponible; además, en la mayoría de los casos no hay una única traducción aceptable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="3">&lt;u3&gt;</it> Com es pot decidir si un sistema de TA és <bpt i="1" x="1">&lt;i1&gt;</bpt>millor<ept i="1">&lt;/i1&gt;</ept> que un altre?</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T160719Z">
+        <seg><it pos="begin" x="3">&lt;u3&gt;</it>¿ Cómo se puede decidir si un sistema de TA es <bpt i="1" x="1">&lt;i1&gt;</bpt>mejor<ept i="1">&lt;/i1&gt;</ept> que otro?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg><it pos="begin" x="4">&lt;u4&gt;</it> <bpt i="5" x="5">&lt;i5&gt;</bpt>Qui<ept i="5">&lt;/i5&gt;</ept> fa l'avaluació?</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161110Z">
+        <seg><it pos="begin" x="4">&lt;u4&gt;</it> <bpt i="5" x="5">&lt;i5&gt;</bpt>¿Quién<ept i="5">&lt;/i5&gt;</ept> hace la evaluación?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>A més, la determinació de la qualitat d'una traducció en brut per còmput del nombre de correccions necessàries no està exempta de problemes: <it pos="begin" x="0">&lt;n0&gt;</it> <it pos="begin" x="0">&lt;u0&gt;</it> Aquest mètode dóna la mateixa importància a totes les operacions de correcció, independentment del mot.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161843Z">
+        <seg>Además, la determinación de la calidad de una traducción en bruto por cómputo del número de correcciones necesarias no está exenta de problemas: <it pos="begin" x="0">&lt;n0&gt;</it> <it pos="begin" x="0">&lt;u0&gt;</it> Este método da la misma importancia a todas las operaciones de corrección, independientemente de la palabra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Això pot no ser adequat.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161848Z">
+        <seg>Esto puede no ser adecuado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Aquest capítol pretén enunciar i descriure molt breument alguns dels aspectes rellevants de l'avaluació dels sistemes de traducció automàtica i donar algunes referències que puguen ser d'interés per a qui vulga aprofundir en aquest tema.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T155936Z">
+        <seg>Este capítulo pretende enunciar y describir muy brevemente algunos de los aspectos relevantes de la evaluación de los sistemas de traducción automática y dar algunas referencias que puedan ser de interés para quien quiera profundizar en este tema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Aquesta avaluació es pot fer mitjançant l'ús de col·leccions de documents típics o representatius (com se sol fer en les avaluacions d'adequació) o mitjançant sèries de proves objectives (angl.<it pos="begin" x="0">&lt;u0&gt;</it><bpt i="0" x="0">&lt;i0&gt;</bpt>test suites<ept i="0">&lt;/i0&gt;</ept>), usades en les avaluacions diagnòstiques<it pos="begin" x="0">&lt;p0&gt;</it>, ja que també poden servir perquè els usuaris jutgen l'adequació de l'eixida produïda pel sistema.} i dissenyades per a abraçar conjunts complets de fenòmens lingüístics que es manifesten en la traducció.<it pos="begin" x="1">&lt;p1&gt;</it>.}</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161622Z">
+        <seg>Esta evaluación se puede hacer mediante el uso de colecciones de documentos típicos o representativos (cómo se suele hacer en las evaluaciones de adecuación) o mediante series de pruebas objetivas (angl.<it pos="begin" x="0">&lt;u0&gt;</it><bpt i="0" x="0">&lt;i0&gt;</bpt>test suites<ept i="0">&lt;/i0&gt;</ept>), usadas en las evaluaciones diagnósticas<it pos="begin" x="0">&lt;p0&gt;</it>, puesto que también pueden servir porque los usuarios juzgan la adecuación de la salida producida por el sistema.} y diseñadas para abrazar conjuntos completos de fenómenos lingüísticos que se manifiestan en la traducción.<it pos="begin" x="1">&lt;p1&gt;</it>.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>De fet, matemàticament, ho és: s'anomena <bpt i="1" x="1">&lt;i1&gt;</bpt>distància d'edició<ept i="1">&lt;/i1&gt;</ept> (angl. <bpt i="2" x="2">&lt;i2&gt;</bpt>edit distance<ept i="2">&lt;/i2&gt;</ept>).</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161640Z">
+        <seg>De hecho, matemáticamente, lo es: se denomina <bpt i="1" x="1">&lt;i1&gt;</bpt>distancia de edición<ept i="1">&lt;/i1&gt;</ept> (angl. <bpt i="2" x="2">&lt;i2&gt;</bpt>edit distance<ept i="2">&lt;/i2&gt;</ept>).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>De nou, si volem comparar, voldríem trobar la traducció acceptable més pròxima a la traducció en brut, és a dir, la que s'obté amb el mínim de correccions possibles.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T162230Z">
+        <seg>De nuevo, si queremos comparar, querríamos encontrar la traducción aceptable más próxima a la traducción en bruto, es decir, la que se obtiene con el mínimo de correcciones posibles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>De qualsevol manera, queda el problema que un text que per a un lector és acceptable pot no ser-ho per a un altre.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161633Z">
+        <seg>De cualquier manera, queda el problema de que un texto que para un lector es aceptable puede no serlo para otro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>L'avaluació la poden fer: <it pos="begin" x="2">&lt;n2&gt;</it> <it pos="begin" x="5">&lt;u5&gt;</it> les persones que presumiblement usaran el sistema o l'adquiriran per a una empresa (avaluació d'adequació) o professionals externs (<bpt i="6" x="6">&lt;i6&gt;</bpt>consultors<ept i="6">&lt;/i6&gt;</ept>) contractats a l'efecte; <it pos="begin" x="6">&lt;u6&gt;</it> els investigadors, equips de desenvolupament, programadors (avaluació diagnòstica), molt especialment durant el desenvolupament d'un sistema de TA; <it pos="begin" x="7">&lt;u7&gt;</it> qualsevol dels dos grups anteriors (avaluació del funcionament).</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161232Z">
+        <seg>La evaluación la pueden hacer: <it pos="begin" x="2">&lt;n2&gt;</it> <it pos="begin" x="5">&lt;u5&gt;</it> las personas que presumiblemente usarán el sistema o lo adquirirán para una empresa (evaluación de adecuación) o profesionales externos (<bpt i="6" x="6">&lt;i6&gt;</bpt>consultores<ept i="6">&lt;/i6&gt;</ept>) contratados al efecto; <it pos="begin" x="6">&lt;u6&gt;</it> los investigadores, equipos de desarrollo, programadores (evaluación diagnóstica), muy especialmente durante el desarrollo de un sistema de TA; <it pos="begin" x="7">&lt;u7&gt;</it> cualquiera de los dos grupos anteriores (evaluación del funcionamiento).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>La naturalesa de l'avaluació d'un sistema de TA depén de diversos factors: <it pos="begin" x="0">&lt;n0&gt;</it> <it pos="begin" x="0">&lt;u0&gt;</it> <bpt i="0" x="0">&lt;i0&gt;</bpt>Per a què<ept i="0">&lt;/i0&gt;</ept> es fa l'avaluació?</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="Laura" changedate="20120528T155733Z">
+        <seg>La naturaleza de la evaluación de un sistema de TA depende de varios factores: <it pos="begin" x="0">&lt;n0&gt;</it> <it pos="begin" x="0">&lt;u0&gt;</it> <bpt i="0" x="0">&lt;i0&gt;</bpt>¿Para qué<ept i="0">&lt;/i0&gt;</ept> se hace la evaluación?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>La qualitat és una combinació (en proporcions difícils de determinar<it pos="begin" x="1">&lt;p1&gt;</it> diu: ``La raó per la qual el mesurament de la qualitat és difícil és, per descomptat, el fet que la qualitat siga un concepte tan polifacètic i intangible''.}) de diversos factors, com ara: l'<bpt i="9" x="9">&lt;i9&gt;</bpt>intel·ligibilitat<ept i="9">&lt;/i9&gt;</ept> dels documents traduïts per part dels usuaris; la <bpt i="10" x="10">&lt;i10&gt;</bpt>precisió<ept i="10">&lt;/i10&gt;</ept> o <bpt i="11" x="11">&lt;i11&gt;</bpt>fidelitat<ept i="11">&lt;/i11&gt;</ept> amb què el text traduït comunica el significat del document original (les quals han de ser jutjades per part de persones bilingües coneixedores de la temàtica dels documents); l'adequació de l'estil o del registre dels documents traduïts, etc.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161519Z">
+        <seg>La calidad es una combinación (en proporciones difíciles de determinar<it pos="begin" x="1">&lt;p1&gt;</it> dice: ``La razón por la cual la medición de la calidad es difícil es, por supuesto, el hecho de que la calidad sea un concepto tan polifacético e intangible''.}) de varios factores, como por ejemplo: la <bpt i="9" x="9">&lt;i9&gt;</bpt>inteligibilidad<ept i="9">&lt;/i9&gt;</ept> de los documentos traducidos por parte de los usuarios; la  <bpt i="10" x="10">&lt;i10&gt;</bpt>precisión<ept i="10">&lt;/i10&gt;</ept> o  <bpt i="11" x="11">&lt;i11&gt;</bpt>fidelidad<ept i="11">&lt;/i11&gt;</ept> con que el texto traducido comunica el significado del documento original (las cuales tienen que ser juzgadas por parte de personas bilingües conocedoras de la temática de los documentos); la adecuación del estilo o del registro de los documentos traducidos, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Per a poder fer comparacions, estem interessats en la correcció produïda amb el nombre mínim d'operacions d'inserció, esborrament i substitució de mots; aquest nombre mínim es pot considerar una <bpt i="0" x="0">&lt;i0&gt;</bpt>distància<ept i="0">&lt;/i0&gt;</ept>.<it pos="begin" x="1">&lt;p1&gt;</it> La recerca d'aquesta manera òptima de corregir pot no ser trivial per a una persona, especialment si els errors apareixen junts i agrupats.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="Laura" changedate="20120528T155830Z">
+        <seg>Para poder hacer comparaciones, estamos interesados en la corrección producida con el número mínimo de operaciones de inserción, borrado y sustitución de palabras; este número mínimo se puede considerar una <bpt i="0" x="0">&lt;i0&gt;</bpt>distancia<ept i="0">&lt;/i0&gt;</ept>.<it pos="begin" x="1">&lt;p1&gt;</it> La investigación de esta forma óptima de corregir puede no ser trivial para una persona, especialmente si los errores aparecen juntos y agrupados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Per exemple, el reordenament dels mots dels sintagmes nominals quan es tradueix de l'anglés a l'espanyol <it pos="begin" x="0">&lt;u0&gt;</it>{mira98j,forcada00p</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161536Z">
+        <seg>Por ejemplo, el reordenamiento de las palabras de los sintagmas nominales cuando se traduce del inglés al español <it pos="begin" x="0">&lt;u0&gt;</it>{mira98j,forcada00p</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Però no únicament, com indica <it pos="begin" x="0">&lt;u0&gt;</it>{lewis97j</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161524Z">
+        <seg>Pero no únicamente, como indica <it pos="begin" x="0">&lt;u0&gt;</it>{lewis97j</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Quan ens plantegem l'avaluació dels sistemes de traducció automàtica (TA), hi ha algunes preguntes bàsiques que cal respondre.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T155946Z">
+        <seg>Cuando nos planteamos la evaluación de los sistemas de traducción automática (TA), hay algunas preguntas básicas que hay que responder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Quan s'avalua un sistema de TA es tenen en compte: <it pos="begin" x="3">&lt;n3&gt;</it> <it pos="begin" x="9">&lt;u9&gt;</it> <bpt i="8" x="8">&lt;i8&gt;</bpt>La qualitat de les traduccions en brut<ept i="8">&lt;/i8&gt;</ept> produïdes pel sistema.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T161304Z">
+        <seg>Cuando se evalúa un sistema de TA se tienen en cuenta: <it pos="begin" x="3">&lt;n3&gt;</it> <it pos="begin" x="9">&lt;u9&gt;</it> <bpt i="8" x="8">&lt;i8&gt;</bpt>La calidad de las traducciones en bruto<ept i="8">&lt;/i8&gt;</ept> producidas por el sistema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Qüestions bàsiques</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T155940Z">
+        <seg>Cuestiones básicas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Tipus d'avaluació</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T160604Z">
+        <seg>Tipo de evaluación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>Una possible mesura quantitativa de la qualitat d'un text produït per un sistema de TA a partir d'un text representatiu és el nombre mínim d'insercions, esborraments i substitucions de mots necessaris (per exemple, per cada 100 mots de text) per a transformar-lo en un text que siga una traducció acceptable<it pos="begin" x="0">&lt;p0&gt;</it> de l'original.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="Laura" changedate="20120528T155755Z">
+        <seg>Una posible medida cuantitativa de la calidad de un texto producido por un sistema de TA a partir de un texto representativo es el número mínimo de inserciones, borrados y sustituciones de palabras necesarias (por ejemplo, por cada 100 palabras de texto) para transformarlo en un texto que sea una traducción aceptable<it pos="begin" x="0">&lt;p0&gt;</it> del original.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>[Avaluació de la traducció automàtica]{L'avaluació dels sistemes de traducció automàtica}</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="alumno" changedate="20120514T155923Z">
+        <seg>[Evaluación de la traducción automática]{La evaluación de los sistemas de traducción automática}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="CA">
+        <seg>És a dir, avaluar (corregir) la traducció en brut comporta per tant fer una doble recerca: la persona que corregeix ha de buscar mentalment la traducció acceptable més propera (tot tenint en compte els criteris que fan acceptable una traducció, els quals poden no ser fàcils d'aplicar), però la <bpt i="3" x="3">&lt;i3&gt;</bpt>distància<ept i="3">&lt;/i3&gt;</ept> entre els dos textos també es calcula fent una recerca mental del nombre mínim de correccions necessàries.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES" changeid="Laura" changedate="20120528T155938Z">
+        <seg>Es decir, evaluar (corregir) la traducción en bruto comporta por lo tanto hacer una doble investigación: la persona que corrige tiene que buscar mentalmente la traducción aceptable más cercana (teniendo en cuenta los criterios que hacen aceptable una traducción, los cuales pueden no ser fáciles de aplicar), pero la  <bpt i="3" x="3">&lt;i3&gt;</bpt>distancia<ept i="3">&lt;/i3&gt;</ept> entre los dos textos también se calcula haciendo una investigación mental del número mínimo de correcciones necesarias.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

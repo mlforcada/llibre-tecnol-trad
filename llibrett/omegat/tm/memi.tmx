@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.5.4" segtype="sentence" srclang="CA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="CA">
+        <seg>$&lt;u0&gt; [_{&lt;u2&gt;{N}} &lt;u1&gt; ]$ (sense &lt;i0&gt;det&lt;/i0&gt;)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161022Z">
+        <seg>$&lt;u0&gt; [_{&lt;u2&gt;{N}} &lt;u1&gt; ]$ (sin &lt;i0&gt;det&lt;/i0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(exemple pres de &lt;u3&gt;{carl01j}).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T213045Z">
+        <seg>(ejemplo sacado de &lt;u3&gt;{carl01j}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Anàlisi, generació i traducció &lt;u2&gt; Anàlisi, transferència i generació &lt;u3&gt; Anàlisi i transferència.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014028Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Analisis, generación y traducción &lt;u2&gt; Analisis, transferencia y generación &lt;u3&gt; Analisis y transferencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Els arbres d'anàlisi sintàctica corresponents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013338Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Los árboles de análisis sintáctico correspondientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Els sistemes de transferència morfològica &lt;u2&gt; Els sistemes de transferència semàntica superficial &lt;u3&gt; Els sistemes d'&lt;i0&gt;interlingua</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014457Z">
+        <seg>&lt;n0&gt; &lt;u1&gt;Los sistemas de trasnferencia morfológica &lt;u2&gt; Los sistemas de transferencia semántica superficial &lt;u3&gt; Los sistemas de&lt;i0&gt;interlingua</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Els sistemes de transferència morfològica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014159Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Los sistemas de transferencia morfológica</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; L'obtenció de la forma lèxica d'un mot a partir de la forma superficial.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012738Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; La obtención de la forma léxica de una palabra a partir de la forma superficial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Posant-hi la traducció més probable, basada en les freqüències d'ús dels mots.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013024Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Poniendo la traducción más probable, basada en las frecuencias de uso de las palabras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; T &lt;u5&gt;{&lt;u7&gt; A&lt;u3&gt; B}{&lt;u9&gt;}T'&lt;u6&gt;{&lt;u8&gt; B&lt;u4&gt; A}{&lt;u10&gt;} T'' &lt;n1&gt; El text $T''$ serà previsiblement diferent del text $T$.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T215035Z">
+        <seg>&lt;n0&gt; T &lt;u5&gt;{&lt;u7&gt; A&lt;u3&gt; B}{&lt;u9&gt;}T'&lt;u6&gt;{&lt;u8&gt; B&lt;u4&gt; A}{&lt;u10&gt;} T'' &lt;n1&gt; El texto $T''$ será previsiblemente diferente del texto $T$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; Quina és?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013648Z">
+        <seg>&lt;n1&gt; ¿Cuál es?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n2&gt; $$ La gramàtica es ambigua, és a dir, capaç de generar dos arbres d'anàlisi sintàctica per a oracions com ara ``L'home porta la clau de l'armari gran''.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T155833Z">
+        <seg>&lt;n2&gt; $$ La gramática se ambigua, es decir, capaz de generar dos árboles de análisis sintáctico para oraciones como por ejemplo "El hombre trae la clave del armario grande''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n2&gt; D'aquesta oració, l'analitzador sintàctic, només en veu la seqüència de categories lèxiques: &lt;n1&gt; &lt;i0&gt;det&lt;/i0&gt; &lt;i1&gt;n&lt;/i1&gt; &lt;i2&gt;v&lt;/i2&gt; &lt;i3&gt;det&lt;/i3&gt; &lt;i4&gt;n&lt;/i4&gt; &lt;i5&gt;$&lt;u0&gt;$&lt;/i5&gt; &lt;n3&gt; L'anàlisi, pas a pas, es mostra en la taula &lt;n4&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161813Z">
+        <seg>&lt;n2&gt; De esta oración, el analizador sintáctico, sólo  ve la secuencia de categorías léxicas: &lt;n1&gt; &lt;i0&gt;det&lt;/i0&gt; &lt;i1&gt;n&lt;/i1&gt; &lt;i2&gt;v&lt;/i2&gt; &lt;i3&gt;det&lt;/i3&gt; &lt;i4&gt;n&lt;/i4&gt; &lt;i5&gt;$&lt;u0&gt;$&lt;/i5&gt; &lt;n3&gt; El análisis,  a paso, se muestra en la mesa  &lt;n4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n5&gt; Aquest és bàsicament el &lt;i3&gt;modus operandi&lt;/i3&gt; dels sistemes d'interlingua i constitueix l'&lt;i4&gt;aproximació composicional&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T211702Z">
+        <seg>&lt;n5&gt; Este es básicamente el &lt;i3&gt;modus operandi&lt;/i3&gt; de los sistemas de interlingua y constituye la&lt;i4&gt;aproximación composicional&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Crear un nou mòdul de generació ($G_4$).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T205955Z">
+        <seg>&lt;u1&gt; Crear un nuevo modulo de generación ($G_4$).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; El &lt;i2&gt;principi de composicionalitat semàntica&lt;/i2&gt; (PCS, capítol &lt;n2&gt;) afirma que la interpretació (el significat) d'una oració es construeix composicionalment a partir de les interpretacions dels mots, seguint els agrupaments dictats pel seu arbre d'anàlisi sintàctica, i també al revés, que les oracions es poden construir composicionalment a partir de les interpretacions &lt;u9&gt;{tellier00p}.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T211320Z">
+        <seg>&lt;u1&gt; El &lt;i2&gt;principio de composicionalitat semántica&lt;/i2&gt; (PCS, capítulo &lt;n2&gt;) afirma que la interpretación (el significado) de una oración se construye composicionalment a partir de las interpretaciones de las palabras, siguiendo los agrupamientos dictados por su árbol de análisis sintáctico, y también a la inversa, que las oraciones se pueden construir composicionalment a partir de las interpretaciones &lt;u9&gt;{tellier00p}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; La &lt;i2&gt;traducció automàtica basada en exemples&lt;/i2&gt; que intenta construir &lt;i3&gt;plantilles&lt;/i3&gt; de traducció a partir dels exemples observats i &lt;i4&gt;generalitzar-les&lt;/i4&gt; perquè servisquen en noves situacions.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212949Z">
+        <seg>&lt;u1&gt; La traducción &lt;i2&gt;automática basada en ejemplos&lt;/i2&gt; que intenta construir &lt;i3&gt;plantillas&lt;/i3&gt; de traducción a partir de los ejemplos observados y generalizarlas &lt;i4&gt;&lt;/i4&gt; porque sirvan en nuevas situaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; ... produeix, per a cada mot, totes les formes superficials corresponents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013743Z">
+        <seg>&lt;u2&gt; ... produce, para cada palabra, todas las formas superficiales correspondientes..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Construir 6 nous mòduls de transferència ($T_{14}$, $T_{24}$, $T_{34}$, $T_{41}$, $T_{42}$ i $T_{43}$).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T210112Z">
+        <seg>&lt;u2&gt; Construir 6 nuevos modulos de transferencia ($T_{14}$, $T_{24}$, $T_{34}$, $T_{41}$, $T_{42}$ y $T_{43}$).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Correcta: El navegant estelar de Zkannag va adquirir el control.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020654Z">
+        <seg>&lt;u2&gt; Correcta: El navegante estelar de Zkannag adquirió el control.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Els sistemes de transferència semàntica superficial.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014217Z">
+        <seg>&lt;u2&gt; Los sistemas de transferencia semántica superficial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; La generació morfològica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012752Z">
+        <seg>&lt;u2&gt; La generación morfológica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Les seqüències de categories morfològiques corresponents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013357Z">
+        <seg>&lt;u2&gt; Las secuencias de categoróas morfológicas correspondientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Una fase complexa de transferència en un sistema d'interlingua.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013556Z">
+        <seg>&lt;u2&gt; Una fase compleja de transferencia en un sistema de interlingua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Usant informació morfosintàctica, ja que en la posició concreta de la frase podria anar només un verb o un substantiu.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013146Z">
+        <seg>&lt;u2&gt; Usando información morfosintáctica, puesto que en la posición concreta de la frase podría ir sólo un verbo o un sustantivo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; ... produeix, per a cada mot, totes les parelles lema--informació morfològica possibles.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013900Z">
+        <seg>&lt;u3&gt; ... produce, para cada palabra, todas las parejas lema--información morfológica posibles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Els sistemes d'&lt;i0&gt;interlingua&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014232Z">
+        <seg>&lt;u3&gt; Los sistemas de&lt;i0&gt;interlingua&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; La preedició en un sistema de traducció automàtica usat per a la disseminació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013636Z">
+        <seg>&lt;u3&gt; La preedición en un sistema de traducción automática usado para  la disseminación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; La transferència morfològica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012804Z">
+        <seg>&lt;u3&gt; La transferencia morfológica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Les estructures semàntiques superficials corresponents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013414Z">
+        <seg>&lt;u3&gt; Las estructuras semánticas superficiales corresponendientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; No podria, perquè les dues traduccions són sempre possibles en qualsevol frase.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013220Z">
+        <seg>&lt;u3&gt; No podría, porque las dos traducciones son siempre posibles en cualquier frase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u6&gt;&lt;u10&gt; &lt;n2&gt; &lt;n12&gt; Altre exemple el tenim en la frase ``li diuen Joan'': &lt;n9&gt; &lt;u3&gt; He is called Joan.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020939Z">
+        <seg>&lt;u6&gt;&lt;u10&gt; &lt;n2&gt; &lt;n12&gt; Otro ejemplo lo tenemos en la frase "se llama Joan": &lt;n9&gt; &lt;u3&gt; He is called Joan.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u7&gt; Com en el cas dels traductors professionals, els sistemes de traducció automàtica no sempre necessiten &lt;i5&gt;comprendre&lt;/i5&gt; les frases en LO (és a dir, construir-ne una interpretació explícita).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T022230Z">
+        <seg>&lt;u7&gt; Como en el caso de los traductores profesionales, los sistemas de traducción automática no siempre necesitan &lt;i5&gt;comprender&lt;/i5&gt; las frases en LO (es decir, construir una interpretación explícita). </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u8&gt; Quan les llengües involucrades són sintàcticament similars (per exemple, quan estan emparentades), no es fa l'anàlisi sintàctica completa: la transferència lèxica és completa però la transferència estructural és parcial i local i només es fa on és necessària.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212352Z">
+        <seg>&lt;u8&gt; Cuando las lenguas involucradas son sintácticamente similares (por ejemplo, cuando están emparentadas), no se hace el análisis sintáctico completo: la transferencia léxica es completa pero la transferencia estructural es parcial y local y sólo se hace donde es necesaria.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u8&gt;&lt;u12&gt; &lt;n4&gt; &lt;n14&gt; En canvi, les estructures que serveixen per a expressar altres conceptes poden ser completament paral·leles.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021116Z">
+        <seg>&lt;u8&gt;&lt;u12&gt; &lt;n4&gt; &lt;n14&gt; En cambio, las estructuras que sirven para expresar otros conceptos pueden ser completamente paralelas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A dark autumn high tide&lt;/i0&gt; (&lt;i1&gt;Una marea alta de tardor fosca&lt;/i1&gt;)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012341Z">
+        <seg>A dark autumn high tide&lt;/i0&gt; (&lt;i1&gt;Una marea alta de otoño oscuro&lt;/i1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A dark autumn night&lt;/i0&gt; (&lt;i1&gt;Una nit fosca de tardor&lt;/i1&gt;)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012400Z">
+        <seg>A dark autumn night&lt;/i0&gt; (&lt;i1&gt;Una noche oscura de otoño&lt;/i1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A dark magic silhouette&lt;/i0&gt; (&lt;i1&gt;Una silueta màgica fosca&lt;/i1&gt;)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012315Z">
+        <seg>A dark magic silhouette&lt;/i0&gt; (&lt;i1&gt;Una silueta mágica oscura&lt;/i1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A dark night&lt;/i0&gt; (&lt;i1&gt;Una nit fosca&lt;/i1&gt;)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012417Z">
+        <seg>A dark night&lt;/i0&gt; (&lt;i1&gt;Una noche oscura&lt;/i1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A magic dark silhouette&lt;/i0&gt; (&lt;i1&gt;Una silueta fosca màgica&lt;/i1&gt;)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012252Z">
+        <seg>A magic dark silhouette&lt;/i0&gt; (&lt;i1&gt;Una silueta oscura mágica&lt;/i1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Acció &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161837Z">
+        <seg>Acción &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Això fa que, actualment, només s'hagen desenvolupat sistemes d'interlingua clàssics per a àmbits temàtics molt concrets.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T204723Z">
+        <seg>Esto hace que, actualmente, sólo se hayan desarrollado sistemas de interlingua clásicos para ámbitos temáticos muy concretos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Algunes traduccions són errònies perquè el sistema no té un catàleg massa complet de regles.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020134Z">
+        <seg>Algunas traducciones son erroneas porque el sistema no tiene un catálago demasiado completo de reglas </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>An autumn tide&lt;/i0&gt; (&lt;i1&gt;Una marea de tardor&lt;/i1&gt;)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012349Z">
+        <seg>An autumn tide&lt;/i0&gt; (&lt;i1&gt;Una marea de otoño&lt;/i1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest capítol descriu les tècniques o, dit d'una altra manera, les estratègies bàsiques usades pels programes de traducció automàtica&lt;p0&gt; també proposa una classificació general dels sistemes de traducció automàtica basada, entre altres criteris, en l'&lt;i0&gt;arquitectura&lt;/i0&gt; (estratègia).}, seguint aquest esquema:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120519T101703Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta aproximació pot ser particularmentt útil quan les llengües entre les quals ha de traduir el sistema tenen una gran similitud sintàctica i semàntica, com en el cas de les llengües romàniques, amb l'excepció, potser, del romanés.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T164619Z">
+        <seg>Esta aproximación puede ser particularmente útil cuando las lenguas entre las cuales tiene que traducir el sistema tienen una gran similitud sintáctica y semántica, como en el caso de las lenguas románicas, con la excepción, quizás, del rumano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta aproximació és l'aproximació de la &lt;i10&gt;transferència parcial&lt;/i10&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212406Z">
+        <seg>Esta aproximación es la aproximación de la &lt;i10&gt;transferencia parcial&lt;/i10&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta és una aproximació addicional, l'&lt;i9&gt;aproximació de transferència&lt;/i9&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212331Z">
+        <seg>Esta es una aproximación adicional, la &lt;i9&gt;aproximación de transferencia&lt;/i9&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquestes aproximacions inductives també reben el nom de &lt;i3&gt;traducció automàtica basada en corpus&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212722Z">
+        <seg>Estas aproximaciones inductivas también reciben el nombre de traducción &lt;i3&gt;automática basada en corpus&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Assenyaleu quina seria la traducció del sistema per a totes les oracions anteriors usant el conjunt de regles que heu proposat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012601Z">
+        <seg>Señalad cuál sería la traducción del sistema para todas las oraciones anteriores usando el conjunto de reglas que habéis propuesto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>CasCat és un sistema de traducció automàtica de l'espanyol al català que usa regles que reordenen seqüències de categories morfològiques.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T213313Z">
+        <seg>CasCat es un sistema de traducción automática del español al catalán que usa reglas que reordenan secuencias de categorías morfológicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com a exemple, descriurem un tipus bastant estés d'analitzador ascendent, anomenat usualment GLR (&lt;i0&gt;generalized LR&lt;/i0&gt; o LR generalitzat, on LR és l'abreviació de &lt;i1&gt;left-to-right, rightmost derivation&lt;/i1&gt;, ``d'esquerra a dreta i amb derivació per la dreta'').</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T130031Z">
+        <seg>Como ejemplo, describiremos un tipo bastante extendido de analizador ascendente, denominado usualmente GLR (&lt;i0&gt;generalized LR&lt;/i0&gt; o LR generalizado, donde LR es la abreviación de &lt;i1&gt;left-to-right, rightmost derivation&lt;/i1&gt;, "de izquierda a derecha y con derivación por la derecha'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com es podrien evitar els problemes observats?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021338Z">
+        <seg>¿Cómo se podrían evitar los problemas observados?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com podria fer l'elecció adequada un sistema de traducció automàtica?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013000Z">
+        <seg>¿Cómo podria hacer la elección adecuada un sistema de traducción automática?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, si ordenem els mots d'un gran corpus de text real (de qualsevol tipus i de qualsevol idioma) pel nombre de vegades que hi apareixen, començant pel més freqüent, el nombre d'aparicions es redueix dramàticament segons que anem baixant per la llista.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021732Z">
+        <seg>De hecho, si ordenamos las palabras de un gran corpus de texto real (de cualquier tipo y de cualquier idioma) por el número de veces que aparecen, empezando por la más frecuente, el número de apariciones se reduce dramáticamente según vayamos bajando por la lista.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, és típic que la majoria dels mots siguen &lt;i0&gt;hapax legomena&lt;/i0&gt;, és a dir, mots que han aparegut només una vegada en tot el corpus.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021856Z">
+        <seg>De hecho, es típico que la mayoría de las palabras sean &lt;i0&gt;hapax legomena&lt;/i0&gt;, es decir, palabras que han aparecido sólo una vez en todo el corpus.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Deixeu de banda la concordança i centreu-vos només en els reordenaments.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012501Z">
+        <seg>Dejad a un lado la concordancia y centraos sólo en los reordenamientos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Després, per als idiomes elegits, doneu un exemple de traducció mot a mot inacceptable en &lt;i0&gt;tres&lt;/i0&gt; d'aquests cinc casos: &lt;n0&gt; &lt;u1&gt; homografia mal resolta d'un mot &lt;u2&gt; polisèmia mal resolta d'un mot &lt;u3&gt; problemes de concordança &lt;u4&gt; ambigüitat estructural mal resolta &lt;u5&gt; problemes amb l'ordre dels mots</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014651Z">
+        <seg>Después, para los idiomas elegidos, dáis un ejemplo de traducción palabra a palabra inaceptable en &lt;i0&gt;tres&lt;/i0&gt; de estos cinco casos: &lt;n0&gt; &lt;u1&gt; homografía mal resuelta de una palabra &lt;u2&gt; polisemia mal resuelta de una palabra &lt;u3&gt; problemas de concordancia &lt;u4&gt; ambigüedad estructural mal resuelta &lt;u5&gt; problemas con el orden de las palabras</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Dues traduccions possibles del mot català &lt;i0&gt;cap&lt;/i0&gt; a l'espanyol són &lt;i1&gt;cabe&lt;/i1&gt; o &lt;i2&gt;cabeza&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012908Z">
+        <seg>Dos traducciones posibles de la palabra catalana &lt;i0&gt;cap&lt;/i0&gt; al espanyol son &lt;i1&gt;cabe&lt;/i1&gt; o &lt;i2&gt;cabeza&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El &lt;i0&gt;principi de composicionalitat&lt;/i0&gt; postula que la interpretació d'una oració es construeix combinant les interpretacions dels mots seguint precisament les agrupacions successives (constituents) que indica l'arbre d'anàlisi sintàctica de l'oració, partint dels mots i anant cap a l'arrel de l'arbre.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T015414Z">
+        <seg>El &lt;i0&gt;principio de composicionalitat&lt;/i0&gt; postula que la interpretación de una oración se construye combinando las interpretaciones de las palabras siguiendo precisamente las agrupaciones sucesivas (constituyentes) que indica el árbol de análisis sintáctico de la oración, partiendo de las palabras y yendo hacia la raíz del árbol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El programari que porten instal·lat les naus de la confederació galàctica inclou un programa que tradueix una de les llengües majoritàries del planeta Zkanagg, el tazkannwat, al català.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T015934Z">
+        <seg>El programario que llevan instalado las naves de la confederación galáctica incluye un programa que tarduce una de las lenguas mayoritárias del planta Zkanagg, el tazkannwat, al catalán.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El sistema és un sistema de transferència morfològica avançada estàndard, que llegeix els textos d'esquerra a dreta, mot a mot, busca en l'entrada els patrons de categories lèxiques que conté en el seu catàleg, selecciona el més llarg, reordena i concorda els mots del patró, els escriu, i continua després de la zona reordenada.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020034Z">
+        <seg>El sistema es un sistema de transferencia morfológica avanczada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Elegiu dues llengües $L_1$ i $L_2$ i poseu almenys dos exemples de traduccions mot per mot de $L_1$ a $L_2$ amb problemes de concordança.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T213242Z">
+        <seg>Elegís dos lenguas $L_1$ y $L_2$ y ponéis al menos dos ejemplos de traducciones palabra por palabra de $L_1$ a $L_2$ con problemas de concordancia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ell {s'anomena} Joan.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021021Z">
+        <seg>Él {se denomina} Joan.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ell és anomenat Joan.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020958Z">
+        <seg>Él es denominado Joan.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els analitzadors GLR lligen les categories lèxiques d'esquerra a dreta, les &lt;i2&gt;desplacen&lt;/i2&gt; a un tipus de memòria especial anomenat pila (és a dir, les hi &lt;i3&gt;apilen&lt;/i3&gt;) i quan el cim de la pila conté elements que segons la gramàtica i el context immediat posterior es poden agrupar en un subarbre, els desapila, els &lt;i4&gt;redueix&lt;/i4&gt; a un subarbre, i deixa el subarbre en el cim de la pila.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T130110Z">
+        <seg>Los analizadores GLR leen las categorías léxicas de izquierda a derecha, las &lt;i2&gt;desplazan&lt;/i2&gt; a un tipo de memoria especial denominada pila (es decir, se las &lt;i3&gt;apilan&lt;/i3&gt;) y cuando la cumbre de la pila contiene elementos que según la gramática y el contexto inmediato posterior se pueden agrupar en un subárbol, los desapila, los &lt;i4&gt;reduce&lt;/i4&gt; a un subárbol, y deja el subárbol en la cumbre de la pila.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els informàtics del projecte us demanen consell sobre les regles de reordenament del sistema, ja que, per motius tècnics, només poden afegir-n'hi tres.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T220509Z">
+        <seg>Los informáticos del proyecto os piden consejo sobre las reglas de reordenamiento del sistema, puesto que, por motivos técnicos, sólo pueden añadir tres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els mots no són tots igualment freqüents en els textos.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021405Z">
+        <seg>Las palabras no son todas igualmente frecuentes en los textos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els plurals dels noms es fan amb &lt;i7&gt;-s&lt;/i7&gt; o &lt;i8&gt;-es&lt;/i8&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014913Z">
+        <seg>Los plurales de los nombres se hacen con  &lt;i7&gt;-s&lt;/i7&gt; o &lt;i8&gt;-es&lt;/i8&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els sistemes anomenats &lt;i11&gt;transformers&lt;/i11&gt; o també de transferència morfològica (vegeu &lt;n4&gt;) &lt;u10&gt;[4.2]{arnold94b}, molts dels quals estan disponibles per internet&lt;p0&gt; i Reverso, en &lt;u11&gt;{http://www.reverso.net}.}, són exemples d'aquesta aproximació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212550Z">
+        <seg>Los sistemas llamados &lt;i11&gt;transformers&lt;/i11&gt; o también de transferencia morfológica (ved &lt;n4&gt;) &lt;u10&gt;[4.2]{arnold94b}, muchos de los cuales están disponibles por internet&lt;p0&gt; y Reverso, en &lt;u11&gt;{http://www.reverso.net}.}, son ejemplos de esta aproximación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els sistemes anomenats d'&lt;i0&gt;interlingua&lt;/i0&gt; apareixen en el cas extrem en què l'anàlisi de la frase d'origen és tan profunda que la traducció es pot generar directament a partir d'aquesta sense fer-hi transferència (vegeu la fig. &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T164109Z">
+        <seg>Los sistemas denominados de &lt;i0&gt;interlingua&lt;/i0&gt; aparecen en el caso extremo en que el análisis de la frase de origen es tan profunda que la traducción se puede generar directamente a partir de esta sin hacer transferencia (vease la fig. &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els sistemes clàssics usen representacions estructurals més o menys complexes per a representar les relacions semàntiques entre els elements de la frase (de l'estil de les de la solució a l'exercici &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T204030Z">
+        <seg>Los sistemas clásicos usan representaciones estructurales más o menos complejas para representar las relaciones semánticas entre los elementos de la frase (del estilo de las de la solución al ejercicio &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els sistemes de &lt;i6&gt;transferència&lt;/i6&gt; (sintàctica, &lt;n3&gt;) prenen una drecera i van directament de l'arbre d'anàlisi sintàctica i els mots en LO a l'arbre i els mots en LM.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212248Z">
+        <seg>Los sistemas de transferencia &lt;i6&gt;&lt;/i6&gt; (sintáctica, &lt;n3&gt;) toman un atajo y van directamente del árbol de análisis sintáctico y las palabras en LO al árbol y las palabras en LM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els sistemes de traducció automàtica basats en la transferència sintàctica (és a dir, en la aproximació que diu que es poden transformar d'una banda les estructures sintàctiques ---&lt;i0&gt;transferència estructural&lt;/i0&gt;--- i d'altra banda substituir el lèxic ---&lt;i1&gt;transferència lèxica&lt;/i1&gt;--- fent ambdues operacions independentment) solen funcionar bé en casos senzills, però en general es fa necessària una anàlisi més profunda &lt;u0&gt;{hovy93j}, ja que la correspondència entre les relacions sintàctiques (subjecte, objecte, etc.) i les relacions semàntiques (agent, pacient, etc.) dels constituents d'una frase poden variar d'una llengua a una altra.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T163440Z">
+        <seg>Los sistemas de traducción automática basados en la transferencia sintáctica (es decir, en la aproximación que dice que se pueden transformar por un lado las estructuras sintácticas---&lt;i0&gt;transferrncia estructural&lt;/i0&gt;--- y por otro lado sustituir el léxico---&lt;i1&gt;transferencia léxica&lt;/i1&gt;--- haciendo ambas operaciones independientemente) suelen funcionar bien en casos sencillos, pero en general se hace necesaria un análisis más profundo &lt;u0&gt;{hovy93j}, puesto que la correspondencia entre las relaciones sintácticas (sujete, objeto, etc.) y las relaciones semánticas (agente, paciente, etc.) de los constituyentes de una frase pueden variar de una lengua a otra. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els sistemes de traducció mot per mot poden cometre, per exemple, errors en la concordança de gènere o de nombre.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T213224Z">
+        <seg>Los sistemas de traducción palabra por palabra pueden cometer, por ejemplo, errores en la concordancia de género o de número.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els sistemes de transferència semàntica construeixen representacions intermèdies més profundes; l'anàlisi i la generació són més complexes, però la transferència se simplifica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T163906Z">
+        <seg>Los sistemas de transferencia semántica construyen representaciones intermedias más profundas; el análisis y la generación son más complejas, pero la transferencia se simplifica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En català podem dir &lt;i8&gt;vam enfonsar el vaixell&lt;/i8&gt; però no &lt;i9&gt;*el vaixell enfonsa&lt;/i9&gt;, perquè en català el verb no és ergatiu: la transferència sintàctica fallaria.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T162844Z">
+        <seg> En catalán podemos decir &lt;i8&gt;hundimos el barco&lt;/i8&gt;vam enfonsar el vaixell&lt;/i8&gt; pero no &lt;i9&gt;el barcon hunde&lt;/i9&gt;, porque en catalán el verbo no es ergativo: la transferencia sintáctica fallaría.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En el cas general d'afegir una llengua a un conjunt de $N$ llengües, calen $2N$ nous mòduls de transferència.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T205736Z">
+        <seg>En el caso general de añadir una lengua a un conjunto de $N$ lenguas, hacen falta $2N$ nuevos módulos de transferencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En general, per a $N$ llengües $L_1, L_2, &lt;u0&gt;, L_N$ hi hauria $N$ mòduls d'anàlisi, $N$ mòduls de generació i $N(N-1)$ mòduls de transferència.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T205636Z">
+        <seg>En general, para$N$ lenguas $L_1, L_2, &lt;u0&gt;, L_N$ habría $N$ modulos de análisis, $N$ modulos de generación y $N(N-1)$ modulos de transferencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En l'intent de representar els significats de totes les frases de totes les llengües, les interlingües clàssiques acabarien per ser ``models del món''.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T132157Z">
+        <seg>En el intento de representar los significados de todas las frases de todas las lenguas, las interlinguas clásicas acabarían para ser "modelos del mundo''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En la taula, el símbol $&lt;u0&gt;$ indica tant el principi com el final de la oració (l'anàlisi d'una oració comença apilant $&lt;u1&gt;$ en la pila).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T160436Z">
+        <seg>En la tabla, el símbolo $&lt;uno0&gt;$ indica tanto el principio como el final de la oración (el análisis de una oración empieza apilando $&lt;uno1&gt;$ en la pila).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En mencionarem molt breument dues: &lt;n0&gt; &lt;u0&gt; La &lt;i0&gt;traducció automàtica estadística&lt;/i0&gt;, inventada cap a finals dels vuitanta per un grup d'investigadors d'IBM &lt;u2&gt;{brown90j} construeix models probabilístics que indiquen, per exemple, la probabilitat que els mots d'una oració en llengua meta s'ordenen d'una determinada manera, la probabilitat que la traducció d'un determinat mot en una llengua siga traducció d'un determinat mot en l'altra, la probabilitat que la traducció d'un mot siga una expressió de més d'un mot o la probabilitat de determinats reordenaments, i, usa aquests models per a obtenir la &lt;i1&gt;traducció més probable&lt;/i1&gt; de noves oracions que no ha vist anteriorment.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212925Z">
+        <seg>En mencionarem muy brevemente dos: &lt;n0&gt; &lt;u0&gt; La traducción &lt;i0&gt;automática estadística&lt;/i0&gt;, inventada hacia finales de los ochenta por un grupo de investigadores de IBM &lt;u2&gt;{brown90j} construye modelos probabilísticos que indican, por ejemplo, la probabilidad que las palabras de una oración en lengua meta se ordenan de una determinada manera, la probabilidad que la traducción de una determinada palabra en una lengua sea traducción de una determinada palabra en la otra, la probabilidad que la traducción de una palabra sea una expresión de más de una palabra o la probabilidad de determinados reordenamientos, y, usa estos modelos para obtener la traducción &lt;i1&gt;más probable&lt;/i1&gt; de nuevas oraciones que no ha visto anteriormente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En particular, es parla d'&lt;i1&gt;interlingua&lt;/i1&gt; quan la representació interna que s'obté de l'anàlisi és independent de quines siguen la LO i la LM, és a dir, la interlingua és {&lt;u0&gt; lingüísticament neutral}.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T164223Z">
+        <seg>En particular, se habla de&lt;i1&gt;interlingua&lt;/i1&gt; cuando la representación interna que se obtiene del análisis es independiente de qué sean la LO y la Lm, es decir, la interlingua es&lt;u0&gt; lingüísticamente neutral}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En quins casos es ``trenquen'' sintagmes?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214618Z">
+        <seg>En qué casos se '' rompen" sintagmas?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En resum, la distribució no és gens homogènia: uns pocs mots són els més freqüents i la majoria són moltíssim menys freqüents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021823Z">
+        <seg>En resumen, la distribución no es nada homogénea: unas pocas palabras son las más frecuentes y la mayoría son muchísimo menos frecuentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En una oferta de treball, WorldTrans demana experts en swahili però no demana cap expert en traducció entre swahili i cap de les quinze llengües.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214832Z">
+        <seg>En una oferta de trabajo, WorldTrans pide expertos en swahili pero no pide ningún experto en traducción entre swahili y ninguno de las quince lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Entrada restant</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161827Z">
+        <seg>Entrada restante</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Fixeu-vos en els exemples i digueu quins són els patrons que detecta i quines les regles de reordenament associades.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020219Z">
+        <seg>Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Fixeu-vos que la traducció automàtica basada en exemples pot necessitar que la mostra de frases i traduccions estiga, a més, anotada lingüísticament (en l'exemple, indicant quins mots o estructures funcionen com un nom).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T213119Z">
+        <seg>Fijaos que la traducción automática basada en ejemplos puede necesitar que la muestra de frases y traducciones esté, además, anotada lingüísticamente (en el ejemplo, indicando qué palabras o estructuras funcionan como un nombre).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Heu d'indicar &lt;i0&gt;tres tipus diferents&lt;/i0&gt; de canvi.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T215153Z">
+        <seg>Tenéis que indicar &lt;i0&gt;tres tipos diferentes&lt;/i0&gt; de cambio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Heus ací algunes frases espanyoles amb {&lt;u1&gt; cuyo}, les traduccions produïdes per CasCat, i, on la traducció és incorrecta, una alternativa acceptable.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214149Z">
+        <seg>He aquí algunas frases españolas con {&lt;u1&gt; cuyo}, las traducciones producidas por CasCat, y, donde la traducción es incorrecta, una alternativa aceptable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha diverses aproximacions a la traducció automàtica basada en corpus.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212737Z">
+        <seg>Hay varias aproximaciones a la traducción automática basada en corpus.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha més exemples interessants: en anglés &lt;i2&gt;sink&lt;/i2&gt; (&lt;i3&gt;enfonsar&lt;/i3&gt;) és un verb &lt;i4&gt;ergatiu&lt;/i4&gt;: quan porta subjecte i objecte, no és especial: el subjecte és l'agent i l'objecte el pacient: &lt;i5&gt;we sank the ship&lt;/i5&gt;, però quan porta només un subjecte, aquest correspon al &lt;i6&gt;pacient&lt;/i6&gt; de l'acció: &lt;i7&gt;the ship sinks&lt;/i7&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T162625Z">
+        <seg>Hay más ejemplos interesantes: en inglés &lt;i2&gt;sink&lt;/i2&gt; (&lt;i3&gt;enfonsar&lt;/i3&gt;) es un verbo&lt;i4&gt;ergativo&lt;/i4&gt;: cuando lleve sujeto y objeto, no es especial: el sujeto es el agente i el objeto el paciente: &lt;i5&gt;we sank the ship&lt;/i5&gt;,pero cuando lleva sólo un sujeto, ñeste corresponde al &lt;i6&gt;paciente&lt;/i6&gt; de la acción: &lt;i7&gt;the ship sinks&lt;/i7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ho fan aplicant transformacions a l'arbre d'anàlisi sintàctica (&lt;i7&gt;transferència estructural&lt;/i7&gt;) i substituint els mots (&lt;i8&gt;transferència lèxica&lt;/i8&gt;), sense construir una representació explícita de la interpretació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212313Z">
+        <seg>Lo hacen aplicando transformaciones al árbol de análisis sintáctico (&lt;i7&gt;transferencia estructural&lt;/i7&gt;) y sustituyendo las palabras (&lt;i8&gt;transferencia léxica&lt;/i8&gt;), sin construir una representación explícita de la interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>I hi ha a la vista</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T160749Z">
+        <seg>Y hay a la vista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imaginem tres llengües que anomenarem $L_1$, $L_2$ i $L_3$.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T205816Z">
+        <seg>Imaginamos tres lenguas que denominaremos $L_1$, $L_2$ i $L_3$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imagineu que sou part d'un equip de desenvolupament d'un sistema de traducció automàtica de l'anglés al català basat en l'estrategia que hem anomenat a classe transferència morfològica avançada (apartat &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T215241Z">
+        <seg>Imaginad que sois parte de un equipo de desarrollo de un sistema de traducción automática del inglés al catalán basado en el estrategia que hemos denominado en clase transferencia morfológica avanzada (apartado &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imagineu que tenim un sistema de transferència morfològica avançada que tradueix d'interlingua al català (o a l'espanyol) usant aquestes quatre regles: &lt;n0&gt; &lt;u1&gt;[$R_1$] detecta &lt;i9&gt;det&lt;/i9&gt;--&lt;i10&gt;n&lt;/i10&gt; i escriu &lt;i36&gt;trad&lt;/i36&gt;(&lt;i11&gt;det&lt;/i11&gt;)--&lt;i37&gt;trad&lt;/i37&gt;(&lt;i12&gt;n&lt;/i12&gt;), fent concordar &lt;i38&gt;trad&lt;/i38&gt;(&lt;i13&gt;det&lt;/i13&gt;) en gènere i en nombre amb &lt;i39&gt;trad&lt;/i39&gt;(&lt;i14&gt;n&lt;/i14&gt;) &lt;u2&gt;[$R_2$] detecta &lt;i15&gt;det&lt;/i15&gt;--&lt;i16&gt;n&lt;/i16&gt;--&lt;i17&gt;adj&lt;/i17&gt; i escriu &lt;i40&gt;trad&lt;/i40&gt;(&lt;i18&gt;det&lt;/i18&gt;)--&lt;i41&gt;trad&lt;/i41&gt;(&lt;i19&gt;n&lt;/i19&gt;)-&lt;i42&gt;trad&lt;/i42&gt;(&lt;i20&gt;adj&lt;/i20&gt;), fent concordar &lt;i43&gt;trad&lt;/i43&gt;(&lt;i21&gt;det&lt;/i21&gt;) i &lt;i44&gt;trad&lt;/i44&gt;(&lt;i22&gt;adj&lt;/i22&gt;)en gènere i en nombre amb &lt;i45&gt;trad&lt;/i45&gt;(&lt;i23&gt;n&lt;/i23&gt;) &lt;u3&gt;[$R_3$] detecta &lt;i24&gt;n&lt;/i24&gt;--&lt;i25&gt;adj&lt;/i25&gt; i escriu &lt;i46&gt;trad&lt;/i46&gt;(&lt;i26&gt;n&lt;/i26&gt;)--&lt;i47&gt;trad&lt;/i47&gt;(&lt;i27&gt;adj&lt;/i27&gt;), fent concordar &lt;i48&gt;trad&lt;/i48&gt;(&lt;i28&gt;adj&lt;/i28&gt;) en gènere i en nombre amb &lt;i49&gt;trad&lt;/i49&gt;(&lt;i29&gt;n&lt;/i29&gt;) &lt;u4&gt;[$R_4$] detecta &lt;i30&gt;adj&lt;/i30&gt;--&lt;i31&gt;n&lt;/i31&gt; i escriu &lt;i50&gt;trad&lt;/i50&gt;(&lt;i32&gt;n&lt;/i32&gt;)--&lt;i51&gt;trad&lt;/i51&gt;(&lt;i33&gt;adj&lt;/i33&gt;), fent concordar &lt;i52&gt;trad&lt;/i52&gt;(&lt;i34&gt;adj&lt;/i34&gt;) en gènere i en nombre amb &lt;i53&gt;trad&lt;/i53&gt;(&lt;i35&gt;n&lt;/i35&gt;) &lt;n2&gt; Si no es pot usar informació de concordança, la traducció dels determinants i els adjectius es fa en masculí singular.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T015103Z">
+        <seg>Imagináis que tenemos un sistema de transferencia morfológica avance que traduce de interlingua al catalán (o al español) usando estas cuatro reglas:  &lt;n0&gt; &lt;u1&gt;[$R_1$] detecta &lt;i9&gt;det&lt;/i9&gt;--&lt;i10&gt;n&lt;/i10&gt; y escribe &lt;i36&gt;trad&lt;/i36&gt;(&lt;i11&gt;det&lt;/i11&gt;)--&lt;i37&gt;trad&lt;/i37&gt;(&lt;i12&gt;n&lt;/i12&gt;), haciendo concordar &lt;i38&gt;trad&lt;/i38&gt;(&lt;i13&gt;det&lt;/i13&gt;) en género y en número con &lt;i39&gt;trad&lt;/i39&gt;(&lt;i14&gt;n&lt;/i14&gt;) &lt;u2&gt;[$R_2$] detecta &lt;i15&gt;det&lt;/i15&gt;--&lt;i16&gt;n&lt;/i16&gt;--&lt;i17&gt;adj&lt;/i17&gt; y escribe &lt;i40&gt;trad&lt;/i40&gt;(&lt;i18&gt;det&lt;/i18&gt;)--&lt;i41&gt;trad&lt;/i41&gt;(&lt;i19&gt;n&lt;/i19&gt;)-&lt;i42&gt;trad&lt;/i42&gt;(&lt;i20&gt;adj&lt;/i20&gt;), haciendo concordar &lt;i43&gt;trad&lt;/i43&gt;(&lt;i21&gt;det&lt;/i21&gt;) y trad &lt;i44&gt;&lt;/i44&gt;(&lt;i22&gt;adj&lt;/i22&gt;)en género y en número con &lt;i45&gt;trad&lt;/i45&gt;(&lt;i23&gt;n&lt;/i23&gt;) &lt;u3&gt;[$R_3$] detecta &lt;i24&gt;n&lt;/i24&gt;--&lt;i25&gt;adj&lt;/i25&gt; y escribe &lt;i46&gt;trad&lt;/i46&gt;(&lt;i26&gt;n&lt;/i26&gt;)--&lt;i47&gt;trad&lt;/i47&gt;(&lt;i27&gt;adj&lt;/i27&gt;), haciendo concordar &lt;i48&gt;trad&lt;/i48&gt;(&lt;i28&gt;adj&lt;/i28&gt;) en género y en número con &lt;i49&gt;trad&lt;/i49&gt;(&lt;i29&gt;n&lt;/i29&gt;) &lt;u4&gt;[$R_4$] detecta &lt;i30&gt;adj&lt;/i30&gt;--&lt;i31&gt;n&lt;/i31&gt; y escribe &lt;i50&gt;trad&lt;/i50&gt;(&lt;i32&gt;n&lt;/i32&gt;)--&lt;i51&gt;trad&lt;/i51&gt;(&lt;i33&gt;adj&lt;/i33&gt;), haciendo concordar &lt;i52&gt;trad&lt;/i52&gt;(&lt;i34&gt;adj&lt;/i34&gt;) en género y en número con &lt;i53&gt;trad&lt;/i53&gt;(&lt;i35&gt;n&lt;/i35&gt;) &lt;n2&gt; Si no se puede usar información de concordancia, la traducción de los determinantes y los adjetivos se hace en masculino singular.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imagineu que teniu un sistema de traducció automàtica que treballa amb dues llengües, diguem-ne $A$ i $B$, en els dos sentits de traducció: $A{&lt;u1&gt;}B$ i $B{&lt;u2&gt;}A$, que traduïm un text origen $T$ en llengua $A$ a la llengua $B$ mitjançant aquest traductor automàtic, generant un text $T'$, i que després usem aquest mateix sistema per a traduir $T'$ de nou a la llengua $A$; anomenarem $T''$ el nou text en llengua $A$.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T215004Z">
+        <seg>Imaginad que tenéis un sistema de traducción automática que trabaja con dos lenguas, digamos $A$ y $B$, en los dos sentidos de traducción: $A B${&lt;u1&gt;}y $B{&lt;u2&gt;}A$, que traducimos un texto origen $T$ en lengua $A$ a la lengua $B$ mediante este traductor automático, generando un texto $Te $, y que después usamos este mismo sistema para traducir $Te $ de nuevo a la lengua $A$; denominaremos $Te '$ el nuevo texto en lengua $A$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indica quines traduccions al català (o a l'espanyol) produirà aquest sistema per a les frases següents i per què: &lt;n1&gt; &lt;u5&gt; &lt;i54&gt;Un longe viage&lt;/i54&gt; &lt;u6&gt; &lt;i55&gt;Un longe viages&lt;/i55&gt; &lt;u7&gt; &lt;i56&gt;Un viages longe&lt;/i56&gt; &lt;u8&gt; &lt;i57&gt;Longe viages&lt;/i57&gt; &lt;u9&gt; &lt;i58&gt;Un governamento non democratic&lt;/i58&gt; &lt;u10&gt; &lt;i59&gt;Un governamentos non democratic&lt;/i59&gt; &lt;u11&gt; &lt;i60&gt;Tu melior ideales&lt;/i60&gt; &lt;u12&gt; &lt;i61&gt;Un bon solution</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T015254Z">
+        <seg> Indica cuales son las traducciones al catalán (o al español) que producirá este sistema para las frases siguientes y por qué: &lt;n1&gt; &lt;u5&gt; &lt;i54&gt;Un longe viage&lt;/i54&gt; &lt;u6&gt; &lt;i55&gt;Un longe viages&lt;/i55&gt; &lt;u7&gt; &lt;i56&gt;Un viages longe&lt;/i56&gt; &lt;u8&gt; &lt;i57&gt;Longe viages&lt;/i57&gt; &lt;u9&gt; &lt;i58&gt;Un governamento non democratic&lt;/i58&gt; &lt;u10&gt; &lt;i59&gt;Un governamentos non democratic&lt;/i59&gt; &lt;u11&gt; &lt;i60&gt;Tu melior ideales&lt;/i60&gt; &lt;u12&gt; &lt;i61&gt;Un bon solution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu en quin (o quins) tipus de sistema de traducció automàtica trobem un disseny que aplica, exactament o aproximadament, el principi de composicionalitat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T015627Z">
+        <seg>Indicad en qué tipo (o tipos) de sistema de traducción automática encontramos un diseño que aplica, exactamente o aproximadamente, el principio de composicionalidad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu quines serien les 3 regles que proposaríeu, tenint en compte que han de produir, com a mínim, tres oracions ben traduïdes en el corpus d'oracions seguents (la traducció ideal s'indica entre parèntesi, tot i que no sempre podrà ser aconseguida):</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012054Z">
+        <seg>Indicad cuáles serían las 3 reglas que propondríais, teniendo en cuenta que tienen que producir, como mínimo, tres oraciones bien traducidas en el corpus de las oraciones siguientes (la traducción ideal se indica entre paréntesis, a pesar de que no siempre se podrá conseguir):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Interlingua&lt;/i0&gt;, a més de ser el nom de la representació intermèdia dels sistemes indirectes sense transferència, és el d'una llengua artificial bàsicament d'arrel llatina, amb una flexió simplificada, i amb un vocabulari dissenyat per a ser comprensible a molts europeus.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014733Z">
+        <seg>Interlingua&lt;/i0&gt;, además de ser el nombre de la representación intermedia de los sistemas indirectos sin transferencia, es el de una lengua artificial básicamente de raíz latina, con una flexión simplificada, y con un vocabulario diseñado para ser comprensible a muchos europeos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Justifiqueu la resposta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214923Z">
+        <seg>Justificad la respuesta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'acció pertinent és&lt;u0&gt;&lt;/i0&gt; &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T160810Z">
+        <seg>La acción pertinente es&lt;u0&gt;&lt;/i0&gt; &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'anàlisi del text origen és tan profunda en els sistemes d'interlingua clàssics que no és necessària la transferència.}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T164315Z">
+        <seg>El análisis del texto origen es tan profunda en los sistemas de interlingua clásicos que no es necesaria la transferencia.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'anàlisi morfològica pren una oració i... &lt;n0&gt; &lt;u1&gt; ... produeix un arbre d'anàlisi.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013712Z">
+        <seg>El análisis morfológico toma una oración y... &lt;n0&gt; &lt;u1&gt; ... produce un árbol de análisis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ús de la taula permet construir el programa analitzador independentment de la gramàtica concreta: si canvia la gramàtica, només canvia la taula.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T125930Z">
+        <seg>El uso de la tabla permite construir el programa analizador independientemente de la gramática concreta: si cambia la gramática, sólo cambia tabla .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La figura &lt;n22&gt; il·lustra el cost d'afegir $L_4$ al sistema.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T210527Z">
+        <seg>La figura &lt;n22&gt; ilustra el coste de añadir $L_4$ al sistema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La frase ``m'agrada nadar'' té una estructura sintàctica molt diferent en anglés (&lt;n5&gt;) i en alemany (&lt;n6&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020803Z">
+        <seg>La frase "me gusta nadar" tiene una estructara sintáctica muy diferente en inglés (&lt;n5&gt;) y en alemán (&lt;n6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La multinacional WorldTrans ha decidit ampliar el seu sistema de traducció automàtica multilingüe LetTrans (que tradueix correspondència comercial entre qualssevol dues llengües d'un grup de quinze) i afegir-hi la capacitat de traduir del swahili a les quinze llengües i de les quinze llengües cap al swahili.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214814Z">
+        <seg>La multinacional WorldTrans ha decidido ampliar su sistema de traducción automática multilingüe LetTrans (que traduce correspondencia comercial entre cualesquier dos lenguas de un grupo de quince) y añadir la capacidad de traducir del swahili a las quince lenguas y de las quince lenguas hacia el swahili.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La traducció automàtica &lt;i0&gt;real&lt;/i0&gt;, és a dir, la que s'usa en la realitat, es pot veure, d'una banda, com el resultat d'una sèrie d'aproximacions (moltes d'elles inevitables) sobre un model ideal i teòricament motivat basat en el &lt;i1&gt;principi de composicionalitat semàntica&lt;/i1&gt; (vegeu el capítol &lt;n0&gt;) i, d'altra banda, com el resultat d'una sèrie de refinaments inevitables sobre un sistema &lt;i2&gt;mot per mot&lt;/i2&gt; que substitueix rudimentàriament els mots de les oracions per equivalents constants sense fer cap altra operació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T211123Z">
+        <seg>La traducción automática &lt;i0&gt;real&lt;/i0&gt;, es decir, la que se usa en la realidad, se puede ver, por un lado, como el resultado de una serie de aproximaciones (muchas de ellas inevitables) sobre un modelo ideal y teóricamente motivado basado en &lt;i1&gt;el principio de composicionalitat semántica&lt;/i1&gt; (vease el capítulo &lt;n0&gt;) y, por otro lado, como el resultado de una serie de refinamientos inevitables sobre un sistema &lt;i2&gt;palabra por palabra&lt;/i2&gt; que sustituye rudimentariamente las palabras de las oraciones por equivalentes constantes sin hacer ninguna otra operación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La traducció automàtica per transferència és sempre... &lt;n0&gt; &lt;u1&gt; ... morfològica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012835Z">
+        <seg>La traducción automática por transferencia es siempre... &lt;n0&gt; &lt;u1&gt; ... morfológica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La traducció d'una oració es pot veure com una interpretació d'aquesta (és a dir, com l'expressió en la llengua meta del seu significat).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T015314Z">
+        <seg>La traducción de una oración se puede ver como una interpretación de esta (es decir, como la expresión en la lengua meta de su significado)..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les entitats $RA_1$ a $RA_4$ són les representacions abstractes (tant RALO com RALM) que usen els mòduls de transferència.} &lt;n21&gt; &lt;n20&gt; En canvi, en un sistema d'interlingua no hi ha mòduls de transferència; un sistema trilingüe basat en una interlingua tindria només sis mòduls: tres d'anàlisi ($A'_1$, $A'_2$ i $A'_3$) i tres de generació ($G'_1$, $G'_2$ i $G'_3$).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T210342Z">
+        <seg>Las entidades $RA_1$ a $RA_4$ son las representaciones abstractas (tanto RALO como RALM) que usan los módulos de transferencia.} &lt;n21&gt; &lt;n20&gt; En cambio, en un sistema de interlingua no hay módulos de transferencia; un sistema trilingüe basado en una interlingua tendría sólo seis módulos: tres de análisis ($A'_1$, $A'_2$ y $A'_3$) y tres de generación ($G'_1$, $G'_2$ y $G'_3$).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les estructures sintàctiques usades per diverses llengües a l'hora d'expressar el fet que alguna acció agrada a algú són molt diverses.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020717Z">
+        <seg>Las estructuras sintácticas usadas por varias lenguas a la hora de expresar el hecho que alguna acción gusta a alguien son muy diversas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les interlingües poden ser de molts tipus.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T132049Z">
+        <seg>Las interlinguas pueden ser de muchos tipos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les regles s'apliquen de la manera usual: d'esquerra a dreta, reordenant la seqüència més llarga possible, i sense que se solapen les àrees reordenades.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214119Z">
+        <seg>Las reglas se aplican de la manera usual: de izquierda a derecha, reordenando la secuencia más larga posible, y sin que se solapen las áreas reordenadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les situacions no previstes indiquen que l'oració d'entrada no és acceptada per la gramàtica i donen lloc a una situació d'error.}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161549Z">
+        <seg>Las situaciones no previstas indican que la oración de entrada no está aceptada por la gramática y dan lugar a una situación de error.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les traduccions inacceptables estan marcades amb un asterisc.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214430Z">
+        <seg>Las traducciones inaceptables están marcadas con un arterisco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No oblidem que aquesta descripció assumeix que l'ambigüitat lèxica (múltiples interpretacions dels mots) i estructural (més d'un arbre d'anàlisi sintàctica) ha estat idealment resolta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T211940Z">
+        <seg>No olvidamos que esta descripción asume que la ambigüedad léxica (múltiples interpretaciones de las palabras) y estructural (más de un árbol de análisis sintáctico) ha sido idealmente resuelta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Només una d'aquestes operacions és esperable en una situació normal de traducció automàtica: &lt;n0&gt; &lt;u1&gt; La postedició en un sistema de traducció automàtica usat per a l'assimilació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013444Z">
+        <seg>Sólo una de estas operaciones es esperable en una situación normal de traducción automática: &lt;n0&gt; &lt;u1&gt; La postedición en un sistema de traducción automática usado para la asimilación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Notem que per a aquesta última fase són necessaris diversos experts bilingües en sistemes de transferència.&lt;p1&gt; &lt;n3&gt; La figura &lt;n4&gt; il·lustra el cost d'afegir $L_4$ al sistema de transferència;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T210238Z">
+        <seg>Notamos que para esta última fase son necesarios varios expertos bilingües en sistemas de transferencia.&lt;p1&gt; &lt;n3&gt; La figura &lt;n4&gt; ilustra el coste de añadir $L_4$ al sistema de transferencia;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a produir traduccions acceptables, ràpides i intel·ligibles, s'ha d'afegir un processament lèxic robust (per exemple, per a tractar expressions multimot o per a elegir equivalents adequats per a mots lèxicament ambigus) i un processament estructural local o global que es basa en regles simples i ben formulades per a algunes transformacions estructurals (reordenaments, concordança, etc.).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212623Z">
+        <seg>Para producir traducciones aceptables, rápidas e inteligibles, se tiene que añadir un procesamiento léxico robusto (por ejemplo, para tratar expresiones multimot o para elegir equivalentes adecuados para palabras léxicamente ambiguas) y un procesamiento estructural local o global que se basa en reglas simples y muy formuladas para algunas transformaciones estructurales (reordenamientos, concordancia, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a saber quan ha de desplaçar una categoria lèxica a la pila o quan i com ha de reduir el cim de la pila, té en compte una o més categories lèxiques de les que està a punt de llegir i un o més elements del cim de la pila, i fa l'acció que li indica una &lt;i5&gt;taula d'anàlisi sintàctica&lt;/i5&gt; que es construeix a partir de la gramàtica que s'haja proposat per a la llengua origen i que l'analitzador consulta en cada pas de l'anàlisi.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T130247Z">
+        <seg>Para saber cuando tiene que desplazar una categoría léxica a la pila o cuando y cómo tiene que reducir la cumbre de la pila, tiene en cuenta una o más categorías léxicas de las que está a punto de leer y uno o más elementos de la cumbre de la pila, y hace la acción que le indica una &lt;i5&gt;mesa de análisis sintáctico&lt;/i5&gt; que se construye a partir de la gramática que se haya propuesto para la lengua origen y que el analizador consulta en cada paso del análisis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, SDL Transcend està disponible en &lt;u0&gt;{http://www.freetranslation.com</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T211140Z">
+        <seg>Por ejemplo, SDL Transcend está disponible en &lt;u0&gt;{http://www.freetranslation.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, en la frase catalana ``m'agraden els llimons'', qui produeix el plaer (``els llimons'') fa de subjecte en l'oració, mentre que en l'equivalent anglesa (``I like lemons'') hi fa d'objecte directe.&lt;p0&gt; És cert que aquest cas es podria tractar de manera particular en un sistema de transferència sintàctica, fent la transformació corresponent en l'arbre d'anàlisi sintàctica quan el verb fos ``agradar'' (és a dir, fent una transferència estructural dependent del lèxic: vegeu l'exercici &lt;n0&gt;), però hi ha casos en què també convé oblidar l'estructura sintàctica concreta de la frase en LO i fixar-se més aviat en la semàntica, com per exemple quan cal resoldre ambigüitats causades per l'anàfora o l'el·lipsi (vegeu les pàgines &lt;n1&gt; i &lt;n2&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T163652Z">
+        <seg>Por ejemplo, en la frase catalana "m'agraden els llimons", quién produce el placer ("els llimons'') hace de sujeto en la oración, mientras que en la equivalente inglesa ("I like lemons'')  hace de objeto directo.&lt;p0&gt; Es cierto que este caso se podría tratar de manera particular en un sistema de transferencia sintáctica, haciendo la transformación correspondiente en el árbol de análisis sintáctico cuando el verbo fuera "gustar'' (es decir, haciendo una transferencia estructural dependiente del léxico: ved el ejercicio &lt;n0&gt;), pero hay casos en que también conviene olvidar la estructura sintáctica concreta de la frase en LO y fijarse más bien en la semántica, como por ejemplo cuando hay que resolver ambigüedades causadas por la anáfora o la elipsis (vease las páginas &lt;n1&gt; y &lt;n2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, les dues frases angleses esmentades més amunt ``Sam gave a book to Leslie'' i ``Sam gave Leslie a book'' tenen una sintaxi diferent però volen dir exactament el mateix: ``Sam va donar un llibre a Leslie''; el que més compta és qui fa l'acció, quin objecte afecta i qui n'és el destinatari, però no l'ordre en què aquestes entitats apareixen en la frase en LO &lt;u1&gt;{arnold93j}.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T163844Z">
+        <seg>Por ejemplo, las dos frases inglesas mencionadas más arriba "Sam gave a book to Leslie'' y "Sam gave Leslie a book'' tienen una sintaxis diferente pero quieren decir exactamente el mismo: "Sam le dio un libro a Leslie''; el que más cuenta es quien hace la acción, qué objete afecta y quien  es el destinatario, pero no la orden en que estas entidades aparecen en la frase en LO &lt;u1&gt;{arnold93j}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, si sabem que el substantiu anglés &lt;i5&gt;ski&lt;/i5&gt; es tradueix per &lt;i6&gt;esquí&lt;/i6&gt; i que la locució substantiva &lt;i7&gt;ski station&lt;/i7&gt; es tradueix per &lt;i8&gt;estació d'esquí&lt;/i8&gt; podem generalitzar aquesta última locució substituint &lt;i9&gt;ski&lt;/i9&gt; per qualsevol altres substantiu $N$, de manera que la traducció de ``$N$ &lt;i10&gt;station&lt;/i10&gt;'' és ``estació de $N$''; així, si la traducció de &lt;i11&gt;train&lt;/i11&gt; és &lt;i12&gt;tren&lt;/i12&gt;, la traducció de &lt;i13&gt;train station&lt;/i13&gt; és &lt;i14&gt;estació de tren&lt;/i14&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T213017Z">
+        <seg>Por ejemplo, si sabemos que el sustantivo inglés &lt;i5&gt;ski&lt;/i5&gt; se traduce por &lt;i6&gt;esquí&lt;/i6&gt; y que la locución sustantiva &lt;i7&gt;ski station&lt;/i7&gt; se traduce por &lt;i8&gt;estación de esquí&lt;/i8&gt; podemos generalizar esta última locución sustituyendo &lt;i9&gt;ski&lt;/i9&gt; por cualquier otros sustantivo $N$, de forma que la traducción de ``$N$ &lt;i10&gt;station&lt;/i10&gt;'' es ``estación de $N$''; así, si la traducción de train &lt;i11&gt;&lt;/i11&gt; es &lt;i12&gt;tren&lt;/i12&gt;, la traducción de train &lt;i13&gt;station&lt;/i13&gt; es &lt;i14&gt;estación de tren&lt;/i14&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però les interlingües no han de ser necessàriament el resultat d'una anàlisi profunda: el que han de ser necessàriament és &lt;i0&gt;neutrals&lt;/i0&gt;; per exemple, alguns sistemes com DLT &lt;u0&gt;[cap. 17]{hutchins92b} usen com a una llengua &lt;i1&gt;pivot&lt;/i1&gt; ``natural'' com l'esperanto, amb anotacions que resolen algunes ambigüitats típiques.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T204606Z">
+        <seg>Pero las interlenguas no tienen que ser necesariamente el resultado de un análisis profundo: el que tienen que ser necesariamente es &lt;i0&gt;neutrales&lt;/i0&gt;; por ejemplo, algunos sistemas como DLT &lt;u0&gt;[cap. 17]{hutchins92b} usan como una lengua &lt;i1&gt;pivot&lt;/i1&gt; "natural'' como el esperanto, con anotaciones que resuelven algunas ambigüedades típicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però recentment (sobretot en els primers anys del tercer mil·leni) s'està produint un creixement espectacular de les aproximacions &lt;i1&gt;inductives&lt;/i1&gt; a la traducció automàtica, en les quals el sistema &lt;i2&gt;aprén&lt;/i2&gt; a traduir entre dues llengües $L_1$ i $L_2$ a partir d'una mostra o corpus suficientment gran de frases en $L_1$ acompanyades de la traducció a $L_2$ (vegeu l'apartat &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212707Z">
+        <seg>Pero recientemente (sobre todo en los primeros años del tercero mil·leni) se está produciendo un crecimiento espectacular de las aproximaciones &lt;i1&gt;inductivas&lt;/i1&gt; a la traducción automática, en las cuales el sistema &lt;i2&gt;aprende&lt;/i2&gt; a traducir entre dos lenguas $L_1$ y $L_2$ a partir de una muestra o corpus suficientemente grande de frases en $L_1$ acompañadas de la traducción a $L_2$ (veáis el apartado &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però és que d'altra banda, la TA real es pot veure com un refinament necessari sobre el que es podria anomenar TA &lt;i0&gt;mot per mot&lt;/i0&gt; (la qual processa l'entrada mot a mot i substitueix cada mot per un equivalent constant independent del context, preservant l'ordre dels mots).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212604Z">
+        <seg>Pero es que por otro lado, la TA real se puede ver como un refinamiento necesario sobre el que se podría denominar TA &lt;i0&gt;palabra por palabra&lt;/i0&gt; (la cual procesa la entrada palabra a palabra y sustituye cada palabra por un equivalente constando independiente del contexto, preservando la orden de las palabras).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Peter nada {amb gust}.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020900Z">
+        <seg>Peter nada {con gusto}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Peter s'estima nadant.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020844Z">
+        <seg>Peter se gusta nadando.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Primerament, elegiu un idioma meta (francés, anglés o alemany) i un idioma origen (català o espanyol).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014540Z">
+        <seg>Primeramente, elegid un idioma meta (francés, inglés o alemán) y un idioma origen (catalàn o español).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Proposeu un conjunt de regles de reordenament que expliquen el conjunt de traduccions observat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214539Z">
+        <seg>Proponed un conjnto de reglas de reordenamiento que explican el conjunto de traducciones observat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan en una situació hi ha més d'una acció possible ---circumstància que pot ser deguda, com en l'exemple, al fet que la gramàtica és ambigua--- es pot fer una d'aquestes dues coses: elegir sempre una acció fixa o bé ``duplicar'' l'analitzador de manera que cada còpia continue l'anàlisi per cada un dels camins.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T130831Z">
+        <seg>Cuando en una situación hay más de una acción posible ---circunstancia que puede ser debida, como en el ejemplo, al hecho que la gramática es ambigua--- se puede hacer una de estas dos cosas: elegir siempre una acción fija o bien "duplicar'' el analizador de forma que cada copia continue el análisis por cada uno de los caminos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan la situació a la qual s'arriba no està prevista en la taula, és perquè l'oració no és correcta d'acord amb la gramàtica donada; aquesta situació d'error s'ha de resoldre de manera que l'anàlisi puga continuar, encara que el resultat siga una anàlisi parcial, ja que ens interessa produir una traducció aproximada; el tractament de les situacions d'error és complex i cau fora de l'abast d'aquest llibre.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T160318Z">
+        <seg>Cuando la situación a la cual se llega no está prevista en la tabla, es porque la oración no es correcta de acuerdo con la gramática dada; esta situación de error se tiene que resolver de forma que el análisis pueda continuar, aunque el resultado sea un análisis parcial, puesto que nos interesa producir una traducción aproximada; el tratamiento de las situaciones de error es complejo y cae fuera del alcance de este libro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Queda clar que els mòduls d'anàlisi i de generació en aquests sistemes són més complexos que en el cas de transferència (ja que han de fer transformacions cap a estructures lingüísticament neutrals), però també és clar l'avantatge del sistema d'interlingua a l'hora d'afegir-hi la llengua $L_4$: només cal dissenyar dos mòduls nous, $A'_4$ i $G'_4$, i per a dissenyar-los només necessitem una persona que conega bé la llengua $L_4$ i la interlingua $I$ que usa el sistema.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T210458Z">
+        <seg>Queda claro que los módulos de análisis y de generación en estos sistemas son más complejos que en el caso de transferencia (puesto que tienen que hacer transformaciones hacia estructuras lingüísticamente neutrales), pero también está claro la ventaja del sistema de interlingua a la hora de añadir la lengua $L_4$: sólo hay que diseñar dos módulos nuevos, $A'_4$ y $G'_4$, y para diseñarlos sólo necesitamos una persona que conozca bien la lengua $L_4$ y la interlingua $Y$ que usa el sistema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin dels següents tipus de sistema de traducció automàtica faciliten més l'addició d'una nova llengua?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014141Z">
+        <seg>¿Cuáles de los siguientes tipos de traducción automática facilitan más la adición de una nueva lengua?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin dels següents tipus de sistema de traducció automàtica tenen la fase de transferència més senzilla possible?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014402Z">
+        <seg>¿Cuál de los siguientes tipos sistema de traducción automática tienen la fase de transferencia más sencilla posible?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quina classe de sistema de traducció automàtica és LetTrans?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T214909Z">
+        <seg>Qué clase de sistema de traducción automática es LetTrans</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quina és l'operació inversa de l'anàlisi morfològica?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T012637Z">
+        <seg>¿Cuál es la operación inversa del análisis morfológico?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quines conseqüències té això per al disseny d'un sistema de traducció automàtica de transferència sintàctica entre llengües amb aquestes característiques?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021311Z">
+        <seg>¿Qué consecuencias tiene eso para el diseño de un sistema de traducción automática de transferencia sintáctica entre lenguas con estas características?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quines de les següents representacions intermèdies son més costoses d'obtenir a partir de les frases?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013313Z">
+        <seg>¿Cuáles de las siguientes representaciones intermedias son más costosas de obtener a partir de las frases??</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quines són les fases bàsiques d'un sistema de traducció automàtica indirecta?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T013940Z">
+        <seg>¿Cuáles son las fases básicas de un sistema de traducción automática indirecta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Qüestions, exercicis i problemes</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T213150Z">
+        <seg>Cuestiones, ejercicios y problemas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Raoneu breument la resposta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T015642Z">
+        <seg>Razonad brevemente la respuesta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si el cim de la pila és</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T160728Z">
+        <seg>Si la cumbre de la pila es</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si haguéreu de supervisar la construcció dels diccionaris d'un sistema de traducció automàtica, per a què us podrien servir aquestes constatacions estadístiques?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T022132Z">
+        <seg>¿Si hubiérais de supervisar la contrucción de los diccionarios de un sistema de traducción automática, para qué os pordrían servir estas constataciones estadísticas?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Totes les aproximacions a la traducció automàtica descrites fins ara són de naturalesa &lt;i0&gt;deductiva&lt;/i0&gt;, és a dir, estan programades a partir de teories i dades lingüístiques sobre la traducció.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212653Z">
+        <seg>Todas las aproximaciones a la traducción automática descritas hasta ahora son de naturaleza &lt;i0&gt;deductiva&lt;/i0&gt;, es decir, están programadas a partir de teorías y datos lingüísticos sobre la traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Traduir una oració, en aquest esquema, comporta: &lt;n1&gt; &lt;u2&gt; fer-ne l'anàlisi sintàctica completa &lt;u3&gt; assignar interpretació a cada mot &lt;u4&gt; construir composicionalment una interpretació de l'oració &lt;u5&gt; analitzar-la per a obtenir mots i un arbre d'anàlisi sintàctica per a la llengua meta i &lt;u6&gt; generar una oració en llengua meta a partir dels mots i l'arbre.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T211511Z">
+        <seg>Traducir una oración, en este esquema, conlleva: &lt;n1&gt; &lt;u2&gt; hacer el análisis sintáctico completo &lt;u3&gt; asignar interpretación a cada palabra &lt;u4&gt; construir composicionalmente una interpretación de la oración &lt;u5&gt; analizarla para obtener palabras y un árbol de análisis sintáctico para la lengua meta y generar &lt;u6&gt; una oración en lengua meta a partir de las palabras y el árbol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Trieu dues llengües $A$ i $B$ i indiqueu quins canvis són previsibles, classificant-los segons la naturalesa lingüística dels fenomens que han causat els canvis, explicant la raó del resultat si cal amb un exemple.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T215115Z">
+        <seg>Elegid dos lenguas $A$ y $B$ e indicáis qué cambios son previsibles, clasificándolos según la naturaleza lingüística de los fenomens que han causado los cambios, explicando la razón del resultado si hace falta con un ejemplo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Típicament, el mot més freqüent pot arribar a constituir el 10% de tot el text, però el segon només cobreix al voltant del 5%, el tercer al voltant del 3%, etc.; quan arribem al 100é mot més freqüent ja hem de parlar del 0,1% (una vegada cada 1.000 mots), i si arribem a la posició 1000, del 0,01% (una vegada cada 10.000 mots).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T021705Z">
+        <seg>Típicamente, la palabra más frecuente puede llegar a constituir el 10% de todo el texto, pero el segundo sólo cubre alrededor del 5%, el tercero alrededor del 3%, etc.; cuando llegamos al 100é palabra más frecuente ya tenemos que hablar del 0,1% (una vez cada 1.000 palabras), y si llegamos a la posición 1000, del 0,01% (una vez cada 10.000 palabras).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un altre exemple clàssic el constitueixen les tres maneres diferents en què es pot expressar que a algú li produeix plaer fer una acció: la primera, la catalana &lt;i10&gt;m'agrada nadar&lt;/i10&gt; o l'espanyola &lt;i11&gt;me gusta nadar&lt;/i11&gt;, on l'acció de nadar és el subjecte i el receptor de plaer l'objecte indirecte; la segona, la de l'anglés &lt;i12&gt;I like swimming&lt;/i12&gt; o el francés &lt;i13&gt;j'aime nager&lt;/i13&gt;, on el receptor de plaer és subjecte i l'acció de nadar l'objecte; la tercera, la neerlandesa &lt;i14&gt;ik swemme graag&lt;/i14&gt; o l'alemanya &lt;i15&gt;ich schwimme gern&lt;/i15&gt; on l'acció de nadar passa a ser el verb principal i l'acció d'agradar es converteix en un adverbi.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T163200Z">
+        <seg>Otro ejemplo clásico lo constituyen las tres maneras diferentes en que se puede expresar que a alguien le produce placer hacer una acción: la primera, la catalana &lt;i10&gt;me gusta nadar&lt;/i10&gt; o la española &lt;i11&gt;me saborea nadar&lt;/i11&gt;, donde la acción de nadar es el sujeto y el receptor de placer el objeto indirecto; la segunda, la del inglés &lt;i12&gt;I like swimming&lt;/I12&gt; o el francés &lt;I13&gt;j''aime nager&lt;\/y13&gt;, donde el receptor de placer es sujeto y la acción de nadar el objeto; la tercera, la neerlandesa &lt;i14&gt;ik swemme graag&lt;/i14&gt; o la alemana &lt;i15&gt;ich schwimme gern&lt;\/y15&gt; donde la acción de nadar pasa a ser el verbo principal y la acción de gustar se convierte en un adverbio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un dels avantatges més importants de tots sistemes d'interlingua respecte dels sistemes de transferència és la facilitat amb què es pot afegir una llengua nova a un sistema de traducció automàtica multilingüe.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T205758Z">
+        <seg>Uno de las ventajas más importantes de todos sistemas de interlingua respecto de los sistemas de transferencia es la facilidad con que se puede añadir una lengua nueva a un sistema de traducción automática multilingüe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un exemple servirà per a il·lustrar tots aquests conceptes. Imaginem la següent gramàtica simplificada que accepta un bon nombre d'oracions simples en català&lt;n0&gt;: $$ &lt;n1&gt;{rcl} &lt;u0&gt;{O} &lt;u20&gt; &lt;u1&gt;{SN} &lt;u2&gt;{SV} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T155656Z">
+        <seg>Un ejemplo servirá para ilustrar todos estos conceptos. Imaginamos la siguiente gramática simplificada que acepta un buen número de oraciones simples en catalán&lt;n0&gt;: $$ &lt;n1&gt;{rcl} &lt;u0&gt;{O} &lt;u20&gt; &lt;u1&gt;{SN} &lt;u2&gt;{SV} &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un sistema complet de transferència que traduïra entre aquestes tres llengües en els dos sentits tindria tres mòduls d'anàlisi (que anomenarem $A_1$, $A_2$ i $A_3$), tres mòduls de generació (que anomenarem $G_1$, $G_2$ i $G_3$) i sis mòduls de transferència (que anomenarem $T_{12}$, $T_{13}$, $T_{23}$, $T_{31}$, $T_{32}$ i $T_{21}$).&lt;p0&gt; Afegir un quart idioma $L_4$ al sistema comporta: &lt;n0&gt; &lt;u0&gt; Crear un nou mòdul d'anàlisi ($A_4$).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T205937Z">
+        <seg>Un sistema completo de transferencia que tradujera entre estas tres lenguas en los dos sentidos tendría tres módulos de análisis (que denominaremos $A_1$, $A_2$ y $A_3$), tres módulos de generación (que denominaremos $G_1$, $G_2$ y $G_3$) y seis módulos de transferencia (que denominaremos $T_{12}$, $T_{13}$, $T_{23}$, $T_{31}$, $T_{32}$ y $T_{21}$).&lt;p0&gt; Añadir un cuarto idioma $L_4$ al sistema comporta: &lt;n0&gt; &lt;u0&gt; Crear un nuevo módulo de análisis ($A_4$).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una característica important d'interlingua és que els determinants (&lt;i1&gt;un&lt;/i1&gt;, &lt;i2&gt;le&lt;/i2&gt;, &lt;i3&gt;alcun&lt;/i3&gt;, &lt;i4&gt;iste&lt;/i4&gt;, &lt;i5&gt;mi&lt;/i5&gt;, &lt;i6&gt;tu&lt;/i6&gt;, etc.) i els adjectius són invariables.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T014849Z">
+        <seg>Una característica importante de interlingua es que los determinantes (&lt;i1&gt;un&lt;/i1&gt;, &lt;i2&gt;le&lt;/i2&gt;, &lt;i3&gt;alcun&lt;/i3&gt;, &lt;i4&gt;iste&lt;/i4&gt;, &lt;i5&gt;mi&lt;/i5&gt;, &lt;i6&gt;tu&lt;/i6&gt;, etc.) y los adjetivos son invariables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Usant un algorisme estàndard que no ve al cas detallar ací, la gramàtica es transforma en la taula d'anàlisi sintàctica corresponent (taula &lt;n0&gt;), que indica què cal fer en cada pas de l'anàlisi.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T130410Z">
+        <seg>Usando un algoritmo estándar que no viene a cuento detallar aquí, la gramática se transforma en la tabla de análisis sintáctico correspondiente (tabla &lt;n0&gt;), que indica qué hay que hacer en cada paso del análisis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vegem com es faria l'anàlisi de l'oració (no ambigua) &lt;n0&gt; L'home porta la clau.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161637Z">
+        <seg>Veamos como se haría el análisis de la oración (no ambigua) &lt;n0&gt; El hombre trae la llave.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Aproximacions inductives a la TA]{Aproximacions inductives a la traducció automàtica}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T212637Z">
+        <seg>[Aproximaciones inductivas a la TA]{Aproximaciones inductivas a la traducción automática}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[La traducció automàtica real entre&lt;u1&gt;]{La traducció automàtica real entre el principi de composicionalitat semàntica i la traducció mot per mot}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T210748Z">
+        <seg>[La traducción automática real entre&lt;u1&gt;]{La traducción automática real entre el principio de composicionalidad semántica y la traducción palabra por palabra}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Sistemes sense transferència: interlingua]{Sistemes sense transferència: els sistemes d'{&lt;u1&gt; interlingua}}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T164013Z">
+        <seg>[Sistemas sin transferencia: interlingua]{Sistemas sin transferencia: los sistemas de{&lt;u1&gt; interlingua}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>acceptar &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T162020Z">
+        <seg>aceptar &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>anàlisi finalitzada &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T160827Z">
+        <seg>analisis finalizado &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>apilar-la &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161223Z">
+        <seg>apilarla &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>apilar-lo &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161107Z">
+        <seg>apilarlo &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_N&lt;u0&gt;&lt;i0&gt;n&lt;/i0&gt;]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161128Z">
+        <seg>reducur a $[_N&lt;u0&gt;&lt;i0&gt;n&lt;/i0&gt;]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_O [_{SN} &lt;u0&gt; ] [_{SV} &lt;u1&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161153Z">
+        <seg>reducir a $[_O [_{SN} &lt;u0&gt; ] [_{SV} &lt;u1&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{&lt;u0&gt;{N}} &lt;i0&gt;n&lt;/i0&gt;&lt;u1&gt; &lt;i1&gt;adj&lt;/i1&gt; ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161231Z">
+        <seg>reducir a $[_{&lt;u0&gt;{N}} &lt;i0&gt;n&lt;/i0&gt;&lt;u1&gt; &lt;i1&gt;adj&lt;/i1&gt; ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{&lt;u0&gt;{N}} &lt;u2&gt;{n} ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T131902Z">
+        <seg>reducir a $[_{&lt;u0&gt;{N}} &lt;u2&gt;{n} ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{&lt;u0&gt;{N}} &lt;u3&gt;{n} ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161918Z">
+        <seg>reducir a $[_{&lt;u0&gt;{N}} &lt;u3&gt;{n} ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SN} &lt;i0&gt;det&lt;/i0&gt; [_{&lt;u0&gt;{N}} &lt;u2&gt;{n} ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161857Z">
+        <seg>reducir a $[_{SN} &lt;i0&gt;det&lt;/i0&gt; [_{&lt;u0&gt;{N}} &lt;u2&gt;{n} ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SN} &lt;i0&gt;det&lt;/i0&gt; [_{&lt;u0&gt;{N}} &lt;u3&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161953Z">
+        <seg>reducir a $[_{SN} &lt;i0&gt;det&lt;/i0&gt; [_{&lt;u0&gt;{N}} &lt;u3&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SN} [_{&lt;u0&gt;{N}} &lt;u1&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161101Z">
+        <seg>reducir a $[_{SN} [_{&lt;u0&gt;{N}} &lt;u1&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SN} [_{SN} &lt;u0&gt; ] [_{SP} &lt;u1&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T130837Z">
+        <seg>reducir a $[_{SN} [_{SN} &lt;u0&gt; ] [_{SP} &lt;u1&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SN}&lt;u0&gt; &lt;i0&gt;det&lt;/i0&gt;&lt;u1&gt;[_{&lt;u2&gt;{N}} &lt;u3&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T160902Z">
+        <seg>reducir a $[_{SN}&lt;u0&gt; &lt;i0&gt;det&lt;/i0&gt;&lt;u1&gt;[_{&lt;u2&gt;{N}} &lt;u3&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SP} &lt;i0&gt;prep&lt;/i0&gt; [_{SN} &lt;u0&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161314Z">
+        <seg>reducir a $[_{SP} &lt;i0&gt;prep&lt;/i0&gt; [_{SN} &lt;u0&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SV} &lt;i0&gt;v&lt;/i0&gt; [_{SN} &lt;u0&gt; ] ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T162015Z">
+        <seg>reducir a $[_{SV} &lt;i0&gt;v&lt;/i0&gt; [_{SN} &lt;u0&gt; ] ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SV} &lt;i0&gt;v&lt;/i0&gt; [_{SN} &lt;u0&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161253Z">
+        <seg>reducir a $[_{SV} &lt;i0&gt;v&lt;/i0&gt; [_{SN} &lt;u0&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SV} &lt;i0&gt;v&lt;/i0&gt; ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T130858Z">
+        <seg>reducir a $[_{SV} &lt;i0&gt;v&lt;/i0&gt; ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>reduir a $[_{SV} [_{SV} &lt;u0&gt; ] [_{SP} &lt;u1&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161239Z">
+        <seg>reducir a $[_{SV} [_{SV} &lt;u0&gt; ] [_{SP} &lt;u1&gt; ] ]$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u1&gt;{4cm}{CONFLICTE: reduir a $[_{SP} &lt;i0&gt;prep&lt;/i0&gt; [_{SN} &lt;u2&gt; ] ]$ o apilar-la}} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161332Z">
+        <seg>{&lt;u1&gt;{4cm}{CONFLICTO: reducir a $[_{SP} &lt;i0&gt;prep&lt;/i0&gt; [_{SN} &lt;u2&gt; ] ]$ o apilarla}} &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u1&gt;{4cm}{CONFLICTE: reduir a $[_{SV} &lt;i0&gt;v&lt;/i0&gt; [_{SN} &lt;u2&gt; ] ]$ o apilar-la}} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T161307Z">
+        <seg>{&lt;u1&gt;{4cm}{CONFLICTE: reducir a $[_{SV} &lt;i0&gt;v&lt;/i0&gt; [_{SN} &lt;u2&gt; ] ]$ o apilarla}} &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Anàlisi sintàctica de la seqüència de categories lèxiques &lt;i0&gt;det&lt;/i0&gt; &lt;i1&gt;n&lt;/i1&gt; &lt;i2&gt;v&lt;/i2&gt; &lt;i3&gt;det&lt;/i3&gt; &lt;i4&gt;n&lt;/i4&gt; $&lt;u1&gt;$ segons les accions especificades en la taula &lt;n2&gt;.}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T162236Z">
+        <seg>{Análisis sintáctico de la secuencia de categorías léxicas &lt;i0&gt;det&lt;/i0&gt; &lt;i1&gt;n&lt;/i1&gt; &lt;i2&gt;v&lt;/i2&gt; &lt;i3&gt;det&lt;/i3&gt; &lt;i4&gt;n&lt;/i4&gt; $&lt;u1&gt;$ según las acciones especificadas en la tabla &lt;n2&gt;.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Com més profunda és l'anàlisi del text origen, més senzilla és (menys esforç comporta) la transferència a la representació corresponent de la llengua meta i més complexa la generació.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T164258Z">
+        <seg>{Cuanto más profunda es el análisis del texto origen, más sencilla es (menos esfuerzo comporta) la transferencia a la representación correspondiente de la lengua meta y más compleja la generación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Exemple d'anàlisi ascendent}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154201Z">
+        <seg>{Ejemplo de analisis ascendente}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Sistemes de transferència semàntica}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T162253Z">
+        <seg>{Sistemas de transferencia semántica}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Taula d'anàlisi sintàctica per a les oracions senzilles descrites per la gramàtica de la p. &lt;n2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T131001Z">
+        <seg>{Tabla de análisis sintáctico para las oraciones sencillas descritas por la gramática de la p. &lt;n2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Va adquirir} el navegant de Zkannag el-OBJ control-OBJ &lt;u1&gt; TA: El navegant de Zkannag va adquirir el control (correcta).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020453Z">
+        <seg>{Adquirió} el navegante de Zkannag el-OBJ control-OBJ &lt;u1&gt; TA: El navegante de Zkannag adquirió el control (correcta).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Va adquirir} el navegant el-OBJ control-OBJ &lt;u2&gt; TA: El navegant va adquirir el control (correcta).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020323Z">
+        <seg>{Adquirió} el navegante el-OBJ control-OBJ &lt;u2&gt; TA: El navegante adquirió el control (correcta).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Va adquirir} el navegant estelar de Zkannag el-OBJ control-OBJ &lt;u1&gt; TA: *El navegant estelar va adquirir de Zkannag el control.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020633Z">
+        <seg>{Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ &lt;u1&gt; TA: El navegante estelar adquirió de Zkannag el control.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Va adquirir} el navegant estelar el-OBJ control-OBJ &lt;u1&gt; TA: El navegant estelar va adquirir el control (correcta).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120515T020433Z">
+        <seg>{Adquirió} el navegante estelar el-OBJ control-OBJ &lt;u1&gt; TA: El navegante estelar adquirió el control (correcta)..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>} &lt;n1&gt;} &lt;n2&gt;} &lt;n3&gt;} &lt;n4&gt;} &lt;n5&gt;} &lt;n6&gt; &lt;n7&gt; &lt;u0&gt;{Cost d'afegir una quarta llengua $L_4$ a un sistema d'interlingua.}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T210613Z">
+        <seg>} &lt;n1&gt;} &lt;n2&gt;} &lt;n3&gt;} &lt;n4&gt;} &lt;n5&gt;} &lt;n6&gt; &lt;n7&gt; &lt;u0&gt;{Coste de añadir una cuarta llengua $L_4$ a un sistema de interlingua.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>} &lt;n1&gt;} &lt;n2&gt;} &lt;n3&gt;} &lt;n4&gt;} &lt;n5&gt;} &lt;n6&gt;} &lt;n7&gt;} &lt;n8&gt;} &lt;n9&gt;} &lt;n10&gt;} &lt;n11&gt;} &lt;n12&gt;$}} &lt;n13&gt;$}} &lt;n14&gt;$}} &lt;n15&gt;$}} &lt;n16&gt;$}} &lt;n17&gt;$}} &lt;n18&gt; } &lt;n19&gt; &lt;u0&gt;{Cost d'afegir una quarta llengua $L_4$ a un sistema de transferència.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T210313Z">
+        <seg>} &lt;n1&gt;} &lt;n2&gt;} &lt;n3&gt;} &lt;n4&gt;} &lt;n5&gt;} &lt;n6&gt;} &lt;n7&gt;} &lt;n8&gt;} &lt;n9&gt;} &lt;n10&gt;} &lt;n11&gt;} &lt;n12&gt;$}} &lt;n13&gt;$}} &lt;n14&gt;$}} &lt;n15&gt;$}} &lt;n16&gt;$}} &lt;n17&gt;$}} &lt;n18&gt; } &lt;n19&gt; &lt;u0&gt;{Coste de añadir una cuarta lengua $L_4$ a un sistema de transferencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És a dir, d'una banda, la traducció automàtica real és el resultat d'aproximacions successives sobre la traducció automàtica &lt;i0&gt;ideal&lt;/i0&gt;: &lt;n0&gt; &lt;u0&gt; La majoria dels sistemes de TA adopten l'aproximació segons la qual &lt;i1&gt;traduir texts és traduir oracions&lt;/i1&gt;, la qual, per exemple, exclou el tractament d'alguns aspectes de l'estructura del discurs.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ANDREA" changedate="20120514T211210Z">
+        <seg>Es decir, por un lado, la traducción automática real es el resultado de aproximaciones sucesivas sobre la traducción automática &lt;i0&gt;ideal&lt;/i0&gt;: &lt;n0&gt; &lt;u0&gt; La mayoría de los sistemas de TA adoptan la aproximación según la cual &lt;i1&gt;traducir textos es traducir oraciones&lt;/i1&gt;, la cual, por ejemplo, excluye el tratamiento de algunos aspectos de la estructura del discurso.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.5.2_2" segtype="sentence" srclang="CA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u0&gt; L'oració conté una o més unitats lèxiques (p.ex.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154151Z">
+        <seg>&lt;n0&gt; &lt;u0&gt; La oración contiene una o más unidades léxicas (p.ej.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; Les dues causes poden concórrer.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T162925Z">
+        <seg>&lt;n1&gt; Las dos causas pueden concurrir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; el primer &lt;i1&gt;com&lt;/i1&gt; és un relatiu que pot modificar &lt;i2&gt;dir&lt;/i2&gt; en l'oració &lt;i3&gt;vas dir que vivia encara&lt;/i3&gt; (``no m'agrada la manera de dir-ho'') o pot modificar {&lt;u1&gt; vivia} però ha estat mogut fora de la subordinada completiva &lt;i4&gt;vivia encara&lt;/i4&gt;, que modifica {&lt;u2&gt; la manera} (``no m'agrada la manera com vivia, segons vas dir'').</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155439Z">
+        <seg>&lt;n1&gt; el primer &lt;i1&gt;cómo&lt;/i1&gt; es un relativo que puede modificar a &lt;i2&gt;decir&lt;/i2&gt; en la oración &lt;i3&gt;dijiste que vivía todavía&lt;/i3&gt; (``no me gusta la manera de decirlo'') o puede modificar {&lt;u1&gt; vivía} pero ha sido movido fuera de la subordinada completiva &lt;i4&gt;vivía todavía&lt;/i4&gt;, que modifica {&lt;u2&gt; la manera} (``no me gusta la manera cómo vivía, según dijiste'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n2&gt; &lt;n3&gt; &lt;u0&gt;{hutchins92b}, el qual pot tenir dues interpretacions &lt;n1&gt; &lt;u2&gt;[(a)] No totes les dones s'estimen els abrics de pell.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161515Z">
+        <seg>&lt;n2&gt; &lt;n3&gt; &lt;u0&gt;{hutchins92b}, el cual puede tener dos interpretaciones &lt;n1&gt; &lt;u2&gt;[(a)] No todas las mujeres aprecian los abrigos de piel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n3&gt; En (&lt;n6&gt;a) &lt;i0&gt;les mates&lt;/i0&gt; és un sintagma determinant compost d'un article i un substantiu, que fa d'objecte del verb el·líptic &lt;i1&gt;destrossat&lt;/i1&gt;, mentre que en (&lt;n7&gt;b) &lt;i2&gt;les mates&lt;/i2&gt; és un sintagma verbal compost d'un pronom ({&lt;u3&gt; les}) que es refereix a &lt;i3&gt;Les gallines&lt;/i3&gt; i un verb ({&lt;u4&gt; mates}), sintagma que constitueix un sintagma verbal en la segona oració coordinada (vegeu la fig. &lt;n8&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161216Z">
+        <seg>&lt;n3&gt; En (&lt;n6&gt;a) &lt;i0&gt;las matas&lt;/i0&gt; es un sintagma determinante compuesto de un artículo y un sustantivo, que hace de objeto del verbo elíptico &lt;i1&gt;destrozado&lt;/i1&gt;, mientras que en (&lt;n7&gt;b) &lt;i2&gt;las matas&lt;/i2&gt; es un sintagma verbal compuesto de un pronombre ({&lt;u3&gt; las}) que se refiere a Las &lt;i3&gt;gallinas&lt;/i3&gt; y un verbo ({&lt;u4&gt; matas}), sintagma que constituye un sintagma verbal en la segunda oración coordinada (véase la fig. &lt;n8&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n4&gt; Quan dues formes lèxiques diferents tenen la mateixa forma superficial; és a dir, quan s'escriuen de la mateixa manera, se sol dir que són &lt;i8&gt;homògrafes&lt;/i8&gt;&lt;n2&gt;; a més, s'anomena símplement &lt;i9&gt;homògraf&lt;/i9&gt; a la forma superficial a què correspon més d'una forma lèxica; el fenomen s'anomena &lt;i10&gt;homografia&lt;/i10&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T093017Z">
+        <seg>&lt;n4&gt; Cuando dos formas léxicas diferentes tienen la misma forma superficial; es decir, cuando se escriben del mismo modo, se suele decir que son &lt;i8&gt;homógrafas&lt;/i8&gt;&lt;n2&gt;; además, se denomina simplemente- &lt;i9&gt;homógrafa&lt;/i9&gt; a la forma superficial a la que corresponde más de una forma léxica; el fenómeno se denomina &lt;i10&gt;homografía&lt;/i10&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n4&gt; a pesar de no tenir cap ambigüitat lèxica ni estructural aparent.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161527Z">
+        <seg>&lt;n4&gt; a pesar de no tener ninguna ambigüedad léxica ni estructural aparente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n5&gt; Aquesta oració té, bàsicament, dues interpretacions.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154025Z">
+        <seg>&lt;n5&gt; Esta oración tiene, básicamente, dos interpretaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n6&gt; i l'altra &lt;n2&gt; * PRO diu que qui vindrà?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154911Z">
+        <seg>&lt;n6&gt; y la otra &lt;n2&gt; *¿PRO dice que quién vendrá?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n7&gt; És a dir, en la primera, el pronom interrogatiu &lt;i0&gt;qui&lt;/i0&gt; és el subjecte de l'oració principal; en la segona, és el subjecte de l'oració subordinada, el qual ha experimentat el &lt;i1&gt;moviment de Qu&lt;/i1&gt; (en anglés &lt;i2&gt;Wh-movement&lt;/i2&gt;) obligatori en molts idiomes per als mots amb funció interrogativa&lt;p0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154151Z">
+        <seg>&lt;n7&gt; Es decir, en la primera, el pronombre interrogativo &lt;i0&gt;quién&lt;/i0&gt; es el sujeto de la oración principal; en la segunda, es el sujeto de la oración subordinada, el cual ha experimentado el &lt;i1&gt;movimiento de Qu&lt;/i1&gt; (en inglés &lt;i2&gt;Wh-movement&lt;/i2&gt;) obligatorio en muchos idiomas para las palabras con función interrogativa&lt;p0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n8&gt; on la posició inicial de l'adverbi interrogatiu &lt;i4&gt;Com&lt;/i4&gt; pot resultar de la transformació per moviment de Qu de tres estructures hipotètiques diferents; en cada una d'elles, l'adverbi és adjunt d'un sintagma verbal diferent: &lt;n4&gt; &lt;u1&gt;[(a)] *Dius com que ha explicat que vindria?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155035Z">
+        <seg>&lt;n8&gt; donde la posición inicial del adverbio interrogativo &lt;i4&gt;Cómo&lt;/i4&gt; puede resultar de la transformación por movimiento de Qu de tres estructuras hipotéticas diferentes; en cada una de ellas, el adverbio es adjunto de un sintagma verbal diferente: &lt;n4&gt; &lt;u1&gt;[(a)] *¿Dices cómo que ha explicado que vendría?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n9&gt; En la primera interpretació es pregunta per la manera de dir-ho, en la segona per la manera d'explicar-ho i en la tercera per la manera de venir.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155103Z">
+        <seg>&lt;n9&gt; En la primera interpretación se pregunta por la manera de decirlo, en la segunda por la manera de explicarlo y en la tercera por la manera de venir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u0&gt;{alcaraz97b} defineixen l'&lt;i1&gt;el·lipsi&lt;/i1&gt;&lt;n0&gt; com l'omissió o l'absència d'alguna part d'una oració.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150816Z">
+        <seg>&lt;u0&gt;{alcaraz97b} definen la &lt;i1&gt;elipsis&lt;/i1&gt;&lt;n0&gt; como la omisión o la ausencia de alguna parte de una oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; l'oració té més d'una estructura sintàctica possible (és a dir, és &lt;i1&gt;estructuralment ambigua&lt;/i1&gt; o &lt;i2&gt;sintàcticament ambigua&lt;/i2&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T162921Z">
+        <seg>&lt;u1&gt; la oración tiene más de una estructura sintáctica posible (es decir, es &lt;i1&gt;estructuralmente ambigua&lt;/i1&gt; o sintácticamente &lt;i2&gt;ambigua&lt;/i2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T155323Z">
+        <seg>&lt;u2&gt; no cambia el lema pero sí los indicadores de flexión: la palabra española &lt;i3&gt;cantamos&lt;/i3&gt; puede ser la 1.ª</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt;[(b)] *Dius que ha explicat com que vindria?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155045Z">
+        <seg>&lt;u2&gt;[(b)] *¿Dices que ha explicado cómo que vendría?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt;[(b)] [Les gallines]$_i$ han destrossat el sembrat, però (tu) no les$_i$ mates.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161150Z">
+        <seg>&lt;u2&gt;[(b)] [Las gallinas]$_i$ han destrozado el sembrado, pero (tú) no las$_i$ matas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; canvien el lema i els indicadors de flexió: el mot espanyol &lt;i5&gt;salen&lt;/i5&gt; pot ser la 3a.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195729Z">
+        <seg>&lt;u3&gt; cambian el lema y los indicadores de flexión: la palabra española &lt;i5&gt;salen&lt;/i5&gt; puede ser la 3.ª</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt;[(b)] No hi ha cap dona que s'estime els abrics de pell.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161523Z">
+        <seg>&lt;u3&gt;[(b)] No hay ninguna mujer que aprecie los abrigos de piel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt;[(c)] *Dius que ha explicat que vindria com?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155053Z">
+        <seg>&lt;u3&gt;[(c)] *¿Dices que ha explicado que vendría cómo?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T155128Z">
+        <seg>Ambigüedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat deguda a l'ambigüitat lèxica</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T150925Z">
+        <seg>Ambigüedad debida a la ambigüedad léxica</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat estructural d'adjunció&lt;/i0&gt; (angl.&lt;u1&gt;{&lt;u2&gt; attachment ambiguity}): es tracta d'un cas típic d'ambigüitat estructural que es manifesta quan hi ha un {&lt;u3&gt; adjunt}&lt;p0&gt; (típicament un sintagma preposicional) que es pot inserir de diverses maneres en l'arbre d'anàlisi sintàctica de la frase.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152022Z">
+        <seg>Ambigüedad estructural de adjunción&lt;/i0&gt; (ingl.&lt;u1&gt;{&lt;u2&gt; attachment ambiguity}): se trata de un caso típico de ambigüedad estructural que se manifiesta cuando hay un {&lt;u3&gt; adjunto}&lt;p0&gt; (típicamente un sintagma preposicional) que se puede insertar de varias maneras en el árbol de análisis sintáctico de la frase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat estructural pura</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150834Z">
+        <seg>Ambigüedad estructural pura</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitats mixtes</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155444Z">
+        <seg>Ambigüedades mixtas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest tipus d'ambigüitat es pot explicar pel fet que el principi de composicionalitat per si sol no és suficient per a especificar completament l'assignació d'interpretació a una oració;&lt;p0&gt; ``hem de reconéixer [l'existència] d'un buit inacceptable entre el que proporciona la sintaxi i el que la semàntica necessita en el cas d'oracions que continguen sintagmes nominals quantificats''} la interpretació de les oracions se sol explicar en termes de {&lt;u4&gt; formes lògiques} &lt;u1&gt;[p. 357]{radford99b}; en el cas de les oracions amb quantificadors, aquestes formes lògiques contenen d'una banda, &lt;i3&gt;variables&lt;/i3&gt; que poden referir-se a un rang d'objectes que cal considerar i, d'altra, operacions sobre aquestes variables.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T200628Z">
+        <seg>Este tipo de ambigüedad se puede explicar por el hecho de que el principio de composicionalitad por sí solo no es suficiente para especificar completamente la asignación de interpretación a una oración;&lt;p0&gt; ``tenemos que reconocer [la existencia] de un vacío inaceptable entre lo que proporciona la sintaxis y lo que la semántica necesita en el caso de oraciones que contengan sintagmas nominales cuantificados''} la interpretación de las oraciones se suele explicar en términos de formas {&lt;u4&gt; lógicas} &lt;u1&gt;[p. 357]{radford99b}; en el caso de las oraciones con cuantificadores, estas formas lógicas contienen por un lado, &lt;i3&gt;variables&lt;/i3&gt; que pueden referirse a un rango de objetos que hay que considerar y, por otro, operaciones sobre estas variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest tipus d'ambigüitat lèxica pot provocar de vegades ambigüitat estructural, causada per la presència de més d'una anàlisi sintàctica acceptable (si, tot i els homògrafs, només n'hi ha una anàlisi acceptable, l'ambigüitat passa desapercebuda per al receptor; això és així perquè habitualment només es consideren estructures acceptables quan es vol assignar interpretació a una oració).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160040Z">
+        <seg>Este tipo de ambigüedad léxica puede provocar a veces ambigüedad estructural, causada por la presencia de más de un análisis sintáctico aceptable (si, a pesar de los homógrafos, sólo hay un análisis aceptable, la ambigüedad pasa desapercibida para el receptor; esto es así porque habitualmente sólo se consideran estructuras aceptables cuando se quiere asignar interpretación a una oración).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest tipus d'ambigüitat se sol anomenar &lt;i12&gt;ambigüitat estructural d'origen categorial&lt;/i12&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160829Z">
+        <seg>Este tipo de ambigüedad se suele denominar &lt;i12&gt;ambigüedad estructural de origen categorial&lt;/i12&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta classe d'ambigüitats se sol incloure dins d'un grup de fenòmens més generals anomenats &lt;i0&gt;ambigüitats per el·lipsi&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150819Z">
+        <seg>Esta clase de ambigüedades se suele incluir dentro de un grupo de fenómenos más generales denominados &lt;i0&gt;ambigüedades por elipsis&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta omissió dóna lloc a una ambigüitat.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150700Z">
+        <seg>Esta omisión da lugar a una ambigüedad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta oració l'hem de desambiguar si la volem traduir, per exemple, a l'anglés, perquè en el primer cas hauríem de dir &lt;i1&gt;study&lt;/i1&gt; i en el segon, &lt;i2&gt;studio&lt;/i2&gt;; per això l'efecte de la polisèmia en traducció pot causar en molts casos l'anomenada {&lt;u2&gt; ambigüitat de transferència}.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154610Z">
+        <seg>Esta oración la tenemos que desambiguar si la queremos traducir, por ejemplo, al inglés, porque en el primer caso tendríamos que decir &lt;i1&gt;study&lt;/i1&gt; y en el segundo, &lt;i2&gt;studio&lt;/i2&gt;; por eso el efecto de la polisemia en traducción puede causar en muchos casos la llamada {&lt;u2&gt; ambigüedad de transferencia}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta varietat d'interpretacions es deu al fet que hi ha tres mots en la frase que poden pertànyer a dues categories lèxiques diferents: &lt;i3&gt;time&lt;/i3&gt; pot ser verb (&lt;i4&gt;cronometrar&lt;/i4&gt;) i substantiu (&lt;i5&gt;temps&lt;/i5&gt;), &lt;i6&gt;flies&lt;/i6&gt; pot ser verb (&lt;i7&gt;vola&lt;/i7&gt;) i substantiu (&lt;i8&gt;mosques&lt;/i8&gt;) i &lt;i9&gt;like&lt;/i9&gt; pot ser verb (&lt;i10&gt;agradar&lt;/i10&gt;) i preposició (&lt;i11&gt;com&lt;/i11&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T093612Z">
+        <seg>Esta variedad de interpretaciones se debe al hecho de que hay tres palabras en la frase que pueden pertenecer a dos categorías léxicas diferentes: &lt;i3&gt;time&lt;/i3&gt; puede ser verbo (&lt;i4&gt;cronometrar&lt;/i4&gt;) y sustantivo (&lt;i5&gt;tiempo&lt;/i5&gt;), &lt;i6&gt;flies&lt;/i6&gt; puede ser verbo (&lt;i7&gt;vuela&lt;/i7&gt;) y sustantivo (&lt;i8&gt;moscas&lt;/i8&gt;) y like &lt;i9&gt;&lt;/i9&gt; puede ser verbo (&lt;i10&gt;gustar&lt;/i10&gt;) y preposición (&lt;i11&gt;cómo&lt;/i11&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquests mots s'anomenen habitualment &lt;i0&gt;polisèmics&lt;/i0&gt; i aquest tipus d'ambigüitat, &lt;i1&gt;polisèmia&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154002Z">
+        <seg>Estas palabras se denominan habitualmente &lt;i0&gt;polisémicas&lt;/i0&gt; y este tipo de ambigüedad, &lt;i1&gt;polisemia&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com veurem més avall, de vegades l'el·lipsi dóna lloc a l'existència de més d'un arbre d'anàlisi sintàctica per a l'oració i per tant aquests tipus d'el·lipsi no es poden incloure pròpiament en aquest apartat dedicat a l'ambigüitat purament lèxica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150830Z">
+        <seg>Cómo veremos más abajo, a veces la elipsis da lugar a la existencia de más de un árbol de análisis sintáctico para la oración y por lo tanto estos tipos de elipsis no se pueden incluir propiamente en este apartado dedicado a la ambigüedad puramente léxica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Considerem l'exemple &lt;n0&gt; Totes les dones no s'estimen els abrics de pell.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161445Z">
+        <seg>Consideremos el ejemplo &lt;n0&gt; Todas las mujeres no aprecian los abrigos de piel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Considerem l'exemple següent, tret de &lt;u3&gt;{radford99b}: &lt;n0&gt; &lt;n2&gt; Els escocesos aprecien el whisky més que els gal·lesos &lt;n3&gt; L'oració té dues interpretacions: &lt;n1&gt; &lt;u1&gt;[(a)] Els escocesos aprecien el whisky més que els gal·lesos (aprecien el whisky) &lt;u2&gt;[(b)] Els escocesos aprecien el whisky més que (els escocesos aprecien) els gal·lesos&lt;p0&gt; &lt;n4&gt; En aquests dos casos, l'ambigüitat està causada pel fet que són possibles dues estructures sintàctiques per a la segona oració coordinada: en la primera estructura, el sintagma &lt;i3&gt;els gal·lesos&lt;/i3&gt; és el subjecte mentre que en la segona estructura és l'objecte (vegeu els arbres de la fig. &lt;n5&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T093648Z">
+        <seg>Consideramos el ejemplo catalán siguiente, sacado de &lt;u3&gt;{radford99b}: &lt;n0&gt; &lt;n2&gt; Els escocesos aprecien el whisky més que els gal·lesos &lt;n3&gt; La oración tiene dos interpretaciones: &lt;n1&gt; &lt;u1&gt;[(a)] Los escoceses aprecian el whisky más que los galeses (aprecian el whisky) &lt;u2&gt;[(b)] Los escoceses aprecian el whisky más que (los escoceses aprecian) a los galeses&lt;p0&gt; &lt;n4&gt; En estos dos casos, la ambigüedad está causada por el hecho de que son posibles dos estructuras sintácticas para la segunda oración coordinada: en la primera estructura, el sintagma &lt;i3&gt;els gal·lesos&lt;/i3&gt; es el sujeto mientras que en la segunda estructura es el objeto (véanse los árboles de la fig. &lt;n5&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Considerem l'oració &lt;n0&gt; Qui diu que vindrà?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153418Z">
+        <seg>Consideremos la oración &lt;n0&gt; ¿Quién dice que vendrá?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, estudiarem tres casos: l'ambigüitat purament deguda a l'ambigüitat dels mots (explícits o nuls); l'ambigüitat purament deguda a l'existència de més d'una estructura sintàctica, l'ambigüitat deguda a les dues causes alhora.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195238Z">
+        <seg>De hecho, estudiaremos tres casos: la ambigüedad puramente debida a la ambigüedad de las palabras (explícitas o nulas); la ambigüedad puramente debida a la existencia de más de una estructura sintáctica; la ambigüedad debida a las dos causas a la vez.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, per a evitar aquesta ambigüitat, es considera convenient &lt;i1&gt;però no obligatòria&lt;/i1&gt; en català la solució alternativa amb preposició &lt;i2&gt;als gal·lesos&lt;/i2&gt; per a la segona interpretació.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152640Z">
+        <seg>De hecho, para evitar esta ambigüedad, se considera conveniente &lt;i1&gt;pero no obligatoria&lt;/i1&gt; en catalán la solución alternativa con preposición &lt;i2&gt;als gal·lesos&lt;/i2&gt; para la segunda interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De l'ambigüitat d'aquestes unitats lèxiques, també se'n sol dir {&lt;u1&gt; ambigüitat lèxica pura}.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154349Z">
+        <seg>A la ambigüedad de estas unidades léxicas, también se la suele llamar {&lt;u1&gt; ambigüedad léxica pura}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De les 8 ($2&lt;u0&gt; 2&lt;u1&gt; 2$) anàlisis morfològiques possibles de la frase, tres en resulten sintàcticament acceptables, amb interpretacions molt diferents.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160809Z">
+        <seg>De los 8 ($2&lt;u0&gt; 2&lt;u1&gt; 2$) análisis morfológicos posibles de la frase, tres  resultan sintácticamente aceptables, con interpretaciones muy diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De vegades no és així: hi ha una única traducció que conserva l'ambigüitat de la frase original; d'això, se'n sol dir &lt;i0&gt;free ride&lt;/i0&gt; (``passi gratuït'').</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T155535Z">
+        <seg>A veces no es así: hay una única traducción que conserva la ambigüedad de la frase original; de esto, se  suele decir &lt;i0&gt;free ride&lt;/i0&gt; (``pase gratuito'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De vegades, l'anàlisi sintàctica d'una oració es complica per la presència de fenòmens de moviment de constituents.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153324Z">
+        <seg>A veces, el análisis sintáctico de una oración se complica por la presencia de fenómenos de movimiento de constituyentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Doncs bé, en aquestos casos, es pot assignar més d'una forma lògica a una oració.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161655Z">
+        <seg>Pues bien, en estos casos, se puede asignar más de una forma lógica a una oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El problema és que falta el subjecte de l'oració subordinada &lt;i0&gt;com queia rodolant&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T200005Z">
+        <seg>El problema es que falta el sujeto de la oración subordinada &lt;i0&gt;cómo caía rodando&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els quantificadors són mots com &lt;i0&gt;algun&lt;/i0&gt;, &lt;i1&gt;tot&lt;/i1&gt;, &lt;i2&gt;cada&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161415Z">
+        <seg>Los cuantificadores son palabras como &lt;i0&gt;alguno&lt;/i0&gt;, &lt;i1&gt;todo&lt;/i1&gt;, &lt;i2&gt;cada&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En algunes llengües romàniques (en italià, espanyol i català però no en francés) és comuna l'absència del subjecte quan és de tercera persona.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T093334Z">
+        <seg>En algunas lenguas románicas (en italiano, español y catalán, pero no en francés) es común la ausencia del sujeto cuando es de tercera persona.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En aquest cas, com en l'exemple &lt;n10&gt;, l'el·lipsi permet dos posicionaments diferents del pronom &lt;i3&gt;qui&lt;/i3&gt; abans del moviment de Qu, però les ambigüitats causades pel moviment de Qu poden produir-se també sense el·lipsi, com en l'exemple &lt;n3&gt; Com dius que ha explicat que vindria?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154952Z">
+        <seg>En este caso, como en el ejemplo &lt;n10&gt;, la elipsis permite dos posicionamientos diferentes del pronombre &lt;i3&gt;quién&lt;/i3&gt; antes del movimiento de Qu, pero las ambigüedades causadas por el movimiento de Qu pueden producirse también sin elipsis, como en el ejemplo &lt;n3&gt; ¿Cómo dices que ha explicado que vendría?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En aquest cas, la posició on hauria d'anar el subjecte es pot suposar ocupada per un pronom sense forma superficial que dóna lloc a ambigüitat mitjançant mecanismes molt similars als de l'anàfora i per tant, se'ls pot considerar mecanismes lèxics.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T162424Z">
+        <seg>En este caso, la posición donde tendría que ir el sujeto se puede suponer ocupada por un pronombre sin forma superficial que da lugar a ambigüedad mediante mecanismos muy similares a los de la anáfora y por lo tanto, se los puede considerar mecanismos léxicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En aquests casos podem considerar que les categories buides són mots ``de zero lletres'' que tenen una interpretació.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161839Z">
+        <seg>En estos casos podemos considerar que las categorías vacías son palabras ``de cero letras'' que tienen una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En català ---i en general en les llengües romàniques--- són molt comunes les ambigüitats degudes a la combinació d'un mot que pot ser pronom feble de tercera persona o article (&lt;i13&gt;el&lt;/i13&gt;, &lt;i14&gt;la&lt;/i14&gt;, &lt;i15&gt;l'&lt;/i15&gt;, &lt;i16&gt;els&lt;/i16&gt;, &lt;i17&gt;les&lt;/i17&gt;) i un altre mot que pot ser substantiu o verb conjugat.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T200546Z">
+        <seg>En catalán y castellano ---y en general en las lenguas románicas--- son muy comunes las ambigüedades debidas a la combinación de una palabra que puede ser pronombre débil de tercera persona o artículo (&lt;i13&gt;el&lt;/i13&gt;, &lt;i14&gt;la ,&lt;/i14&gt;&lt;i15&gt;&lt;/i15&gt; &lt;i16&gt;los&lt;/i16&gt;, &lt;i17&gt;las&lt;/i17&gt;) y otra palabra que puede ser sustantivo o verbo conjugado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En el fragment &lt;n0&gt; Felip va apunyalar Marta.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T162446Z">
+        <seg>En el fragmento &lt;n0&gt; Felipe apuñaló a Marta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En l'oració &lt;n0&gt; No m'agrada la manera com vas dir que vivia encara.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155229Z">
+        <seg>En la oración &lt;n0&gt; No me gusta la manera cómo dijiste que vivía todavía.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En la frase &lt;n1&gt; Vaig obrir [la porta]$_i$ a [la cuinera]$_j$ i la$_{i/j?}$ vaig fer passar &lt;n2&gt; els índexs ($i$, $j$, $i/j?$) indiquen que el pronom feble &lt;i7&gt;la&lt;/i7&gt; es pot referir a la mateixa persona a la qual ens hem referit amb el sintagma nominal &lt;i8&gt;la cuinera&lt;/i8&gt;, però no hi ha cap raó sintàctica perquè el referent no siga el mateix que el del sintagma &lt;i9&gt;la porta&lt;/i9&gt;: aquesta pot ser una possible causa d'ambigüitat en la segona oració coordinada.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T161449Z">
+        <seg>En la frase &lt;n1&gt; Abrí [la puerta]$_i$ a [la cocinera]$_j$ y la$_{i/j?}$ hice pasar &lt;n2&gt; los índices ($i$, $j$, $i/j?$) indican que el pronombre débil &lt;i7&gt;la &lt;/i7&gt; se puede referir a la misma persona a la cual nos hemos referido con el sintagma nominal &lt;i8&gt;la cocinera&lt;/i8&gt;, pero no hay ninguna razón sintáctica para que el referente no sea el mismo que el del sintagma &lt;i9&gt;la puerta&lt;/i9&gt;: esta puede ser una posible causa de ambigüedad en la segunda oración coordinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En moltes llengües, els mots es flexionen i prenen formes diferents.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T152513Z">
+        <seg>En muchas lenguas, las palabras se flexionan y toman formas diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En paraules de &lt;u0&gt;[p. 364]{radford99b</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161331Z">
+        <seg>En palabras de [p. 364] &lt;u0&gt;{radford99b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es produeixen també moviments similars amb els relatius; per exemple, aquests es mouen cap a fora (cap amunt) des de les subordinades substantives completives amb verbs del tipus de {&lt;u0&gt; dir}, &lt;i0&gt;explicar&lt;/i0&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155132Z">
+        <seg>Se producen también movimientos similares con los relativos; por ejemplo, estos se mueven hacia fuera (hacia arriba) desde las subordinadas sustantivas completivas con verbos del tipo de {&lt;u0&gt; decir }, &lt;i0&gt;explicar&lt;/i0&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha oracions que són ambigües tant perquè contenen mots ambigus com perquè tenen més d'una estructura sintàctica possible.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155453Z">
+        <seg>Hay oraciones que son ambiguas tanto porque contienen palabras ambiguas como porque tienen más de una estructura sintáctica posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha també certs tipus d'ambigüitat que no es poden explicar de manera senzilla amb el principi de composicionalitat, com ara {&lt;u0&gt; l'ambigüitat en l'abast dels quantificadors}, que també estudiarem en aquest capítol (apartat &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T163851Z">
+        <seg>Hay también ciertos tipos de ambigüedad que no se pueden explicar de manera sencilla con el principio de composicionalidad, como por ejemplo {&lt;u0&gt; la ambigüedad en el alcance de los cuantificadores}, que también estudiaremos en este capítulo (apartado &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha tres situacions possibles &lt;n0&gt; &lt;u1&gt; canvia només el lema però no els indicadors de flexió: el mot espanyol &lt;i0&gt;creo&lt;/i0&gt; pot ser la 1a.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T155237Z">
+        <seg>Hay tres situaciones posibles &lt;n0&gt; &lt;u1&gt; cambia sólo el lema pero no los indicadores de flexión: la palabra española &lt;i0&gt;creo&lt;/i0&gt; puede ser la 1.ª</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Joan va veure com queia redolant &lt;n2&gt; qui va caure redolant, Felip o Marta?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150518Z">
+        <seg>Juan vio cómo caía rodando &lt;n2&gt; ¿quién cayó rodando, Felipe o Marta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'&lt;i0&gt;ambigüitat estructural deguda a l'el·lipsi&lt;/i0&gt; d'un o més constituents de l'oració, especialment quan aquesta oració hauria de tenir, si s'hagués produït en forma explícita, una estructura paral·lela a la d'una oració anterior (per exemple, en coordinacions, comparacions, etc.).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152658Z">
+        <seg>La &lt;i0&gt;ambigüedad estructural debida a la elipsis&lt;/i0&gt; de uno o más constituyentes de la oración, especialmente cuando esta oración tendría que tener, si se hubiera producido en forma explícita, una estructura paralela a la de una oración anterior (por ejemplo, en coordinaciones, comparaciones, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat d'una oració pot ser causada per diversos tipus bàsics d'ambigüitat lèxica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154142Z">
+        <seg>La ambigüedad de una oración puede ser causada por varios tipos básicos de ambigüedad léxica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat d'una oració també pot estar deguda al simple fet que tinga més d'un arbre d'anàlisi sintàctica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150904Z">
+        <seg>La ambigüedad de una oración también puede estar debida al simple hecho de que tenga más de un árbol de análisis sintáctico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat estructural associada a les conjuncions coordinatives se sol anomenar &lt;i2&gt;d'origen coordinatiu&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151351Z">
+        <seg>La ambigüedad estructural asociada a las conjunciones coordinativas se suele denominar &lt;i2&gt;de origen coordinativo&lt;/i2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat lèxica de transferència és especialment perillosa quan afecta un mot de la llengua origen no percebut com a ambigu.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154651Z">
+        <seg>La ambigüedad léxica de transferencia es especialmente peligrosa cuando afecta a una palabra de la lengua origen no percibida como ambigua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'oració conté homògraf que té dues o més interpretacions però la mateixa categoria lèxica, i no afecta, per tant, l'estructura de l'oració.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T093251Z">
+        <seg>La oración contiene un homógrafo que tiene dos o más interpretaciones, pero la misma categoría léxica, y no afecta, por lo tanto, a la estructura de la oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'oració conté una &lt;i0&gt;expressió anafòrica&lt;/i0&gt;, com ara un pronom, adjectiu possessiu, etc., la qual pot tenir, en principi, més d'una possible interpretació, però aquesta interpretació està determinada per la relació de &lt;i1&gt;coreferència&lt;/i1&gt; entre l'expressió i el seu &lt;i2&gt;antecedent&lt;/i2&gt; (un sintagma que es pot trobar en la mateixa oració o en una altra oració del text) o perquè es refereix a algun objecte o concepte exterior al text.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T155633Z">
+        <seg>La oración contiene una &lt;i0&gt;expresión anafórica&lt;/i0&gt;, como por ejemplo un pronombre, adjetivo posesivo, etc., la cual puede tener, en principio, más de una posible interpretación, pero esta interpretación está determinada por la relación de co-referencia &lt;i1&gt;&lt;/i1&gt; entre la expresión y su &lt;i2&gt;antecedente&lt;/i2&gt; (un sintagma que se puede encontrar en la misma oración o en otra oración del texto) o porque se refiere a algún objeto o concepto exterior al texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'oració té constituents que no es reflecteixen com a mots però als quals cal assignar una interpretació.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T093321Z">
+        <seg>La oración tiene constituyentes que no se reflejan como palabras, pero a los cuales hay que asignar una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La polisèmia afecta totes les formes flexionades d'un determinat mot de la mateixa manera (&lt;i4&gt;estacions&lt;/i4&gt; té exactament la mateixa ambigüitat que &lt;i5&gt;estació&lt;/i5&gt;), ja que és una propietat del &lt;i6&gt;lema&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154106Z">
+        <seg>La polisemia afecta a todas las formas flexionadas de una determinada palabra del mismo modo (&lt;i4&gt;estaciones&lt;/i4&gt; tiene exactamente la misma ambigüedad que &lt;i5&gt;estación&lt;/i5&gt;), puesto que es una propiedad del &lt;i6&gt;lema&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La relació que assigna una interpretació a una expressió anafòrica s'anomena &lt;i3&gt;deïxi&lt;/i3&gt; o &lt;i4&gt;dixi&lt;/i4&gt;: quan la interpretació és per &lt;i5&gt;co-referència&lt;/i5&gt; amb un antecedent que apareix anteriorment en el text s'anomena {&lt;u1&gt; anàfora}&lt;n0&gt;, i &lt;i6&gt;catàfora&lt;/i6&gt; si l'antecedent és posterior.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195909Z">
+        <seg>La relación que asigna una interpretación a una expresión anafórica se denomina &lt;i3&gt;deixis&lt;/i3&gt;  &lt;i4&gt;&lt;/i4&gt;: cuando la interpretación es &lt;i5&gt;por co-referencia&lt;/i5&gt; con un antecedente que aparece anteriormente en el texto se denomina {&lt;u1&gt; anáfora}&lt;n0&gt;, y  &lt;i6&gt;catáfora&lt;/i6&gt; si el antecedente es posterior.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Més exemples: &lt;n1&gt; Va parlar amb l'encarregat de la neteja de la seua casa &lt;n4&gt; &lt;n2&gt; Hi ha una bossa de roba perduda en la Secretaria de l'Escola &lt;n7&gt; &lt;n5&gt; &lt;u4&gt;{tuson99b} explica que aquesta última oració pot tenir fins a 12 interpretacions possibles.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152149Z">
+        <seg>Más ejemplos: &lt;n1&gt; Habló con el encargado de la limpieza de su casa &lt;n4&gt; &lt;n2&gt; Hay una bolsa de tela perdida en la Secretaría de la Escuela &lt;n7&gt; &lt;n5&gt; &lt;u4&gt;{tuson99b} explica que esta última oración puede tener hasta 12 interpretaciones posibles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>N'estudiarem dos casos: &lt;n0&gt; &lt;u0&gt; L'oració conté mots afectats d'ambigüitat lèxica categorial; és a dir, conté un o més mots homògrafs que pertanyen a més d'una {&lt;u1&gt; categoria lèxica} (vegeu la pàg. &lt;n1&gt; i la nota a peu de la pàg. &lt;n2&gt;) diferent.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155550Z">
+        <seg>Estudiaremos dos casos: &lt;n0&gt; &lt;u0&gt; La oración contiene palabras afectadas de ambigüedad léxica categorial; es decir, contiene una o más palabras homógrafas que pertenecen a más de una {&lt;u1&gt; categoría léxica} (véase la pág. &lt;n1&gt; y la nota a pie de la pág. &lt;n2&gt;) diferente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No en totes les llengües és obligatori moure els interrogatius al principi de la frase; per exemple, en xinés, no.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153201Z">
+        <seg>No en todas las lenguas es obligatorio mover los interrogativos al principio de la frase; por ejemplo, en chino, no.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>O alguna altra persona?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150618Z">
+        <seg>¿O alguna otra persona?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>O el mot &lt;i0&gt;cap&lt;/i0&gt; pot ser un substantiu (``part superior del cos''), un verb (forma del verb ``cabre''), un adjectiu o pronom (``no n'hi ha cap''), o part de la preposició composta ``cap a''.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T200252Z">
+        <seg>O la palabra también catalana &lt;i0&gt;cap&lt;/i0&gt; puede ser un sustantivo (``parte superior del cuerpo''), un verbo (forma del verbo ``caber''), un adjetivo o pronombre (``no hay ningún''), o parte de la preposición compuesta ``hacia''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per això, no és possible assignar una interpretació clara a oracions sintàcticament incorrectes, com ara &lt;n0&gt; *Llegeix mare llibres la &lt;n3&gt; encara que els mots tinguen interpretació independentment, ni tampoc a una oració sintàcticament correcta que continga algun mot al qual no podem assignar cap interpretació: &lt;n1&gt; La mare *ingurpleix llibres &lt;n4&gt; Com veurem més endavant, trobem una complicació addicional: en algunes oracions, hi ha parts de l'estructura sintàctica que no es reflecteixen en cap mot, perquè generen &lt;i0&gt;categories buides&lt;/i0&gt; que no tenen una representació fonètica o gràfica explícita.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195131Z">
+        <seg>Por eso, no es posible asignar una interpretación clara a oraciones sintácticamente incorrectas, como por ejemplo: &lt;n0&gt; *Lee madre libros la  &lt;n3&gt; aunque las palabras tengan interpretación independientemente, ni tampoco a una oración sintácticamente correcta que contenga alguna palabra a la cual no podamos asignar ninguna interpretación: &lt;n1&gt; La madre *ingurpleja libros &lt;n4&gt; Como veremos más adelante, encontramos una complicación adicional: en algunas oraciones, hay partes de la estructura sintáctica que no se reflejan en ninguna palabra, porque generan &lt;i0&gt;categorías vacías&lt;/i0&gt; que no tienen una representación fonética o gráfica explícita.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot &lt;i11&gt;riu&lt;/i11&gt; és homògraf perquè té tres formes lèxiques: &lt;i12&gt;riu&lt;/i12&gt;, substantiu, masculí singular; &lt;i13&gt;riure&lt;/i13&gt;, verb, 3a.&lt;u3&gt;persona del singular, present d'indicatiu, i &lt;i14&gt;riure&lt;/i14&gt;, verb, 2a.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195511Z">
+        <seg>Por ejemplo, la palabra catalana &lt;i11&gt;riu&lt;/i11&gt; es homógrafa porque tiene tres formas léxicas: &lt;i12&gt;riu&lt;/i12&gt;, sustantivo, masculino singular; &lt;i13&gt;riure&lt;/i13&gt;, verbo, 3.ª&lt;u3&gt;persona del singular, presente de indicativo, y  &lt;i14&gt;riure&lt;/i14&gt;, verbo, 2.ª</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot &lt;i2&gt;estació&lt;/i2&gt; (forma lèxica: &lt;i3&gt;estació&lt;/i3&gt;, substantiu, femení singular) és polisèmic perquè el lema corresponent té més d'una interpretació: indret on s'aturen temporalment els trens, part de l'any compresa entre un solstici i un equinocci, conjunt d'instal·lacions per a un propòsit determinat (per exemple, l'esquí), etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T093100Z">
+        <seg>Por ejemplo, la palabra &lt;i2&gt;estación&lt;/i2&gt; (forma léxica: &lt;i3&gt;estación&lt;/i3&gt;, sustantivo, femenino singular) es polisémica porque el lema correspondiente tiene más de una interpretación: lugar donde se paran temporalmente los trenes, parte del año comprendida entre un solsticio y un equinoccio, conjunto de instalaciones para un propósito determinado (por ejemplo, el esquí), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot espanyol &lt;i3&gt;destino&lt;/i3&gt; es pot traduir al català com a {&lt;u3&gt; destí} (sort futura) o &lt;i4&gt;destinació&lt;/i4&gt; (punt d'arribada).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195702Z">
+        <seg>Por ejemplo, la palabra española &lt;i3&gt;destino&lt;/i3&gt; se puede traducir al catalán como {&lt;u3&gt; destí} (suerte futura) o  &lt;i4&gt;destinació&lt;/i4&gt; (punto de llegada).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot {&lt;u2&gt; deu} pot voler dir ``nou més un'' (numeral) o ``ha de donar o pagar'' (verb).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155723Z">
+        <seg>Por ejemplo, la palabra catalana {&lt;u2&gt; deu} puede querer decir ``nueve más uno'' (numeral) o ``tiene que dar o pagar'' (verbo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, l'oració &lt;n0&gt; Les gallines han destrossat el sembrat, però no les mates &lt;n2&gt; té dues interpretacions: &lt;n1&gt; &lt;n5&gt; &lt;u1&gt;[(a)] Les gallines han destrossat el sembrat, però (les gallines) no (han destrossat) les mates.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161137Z">
+        <seg>Por ejemplo, la oración &lt;n0&gt; Las gallinas han destrozado el sembrado, pero no las matas &lt;n2&gt; tiene dos interpretaciones: &lt;n1&gt; &lt;n5&gt; &lt;u1&gt;[(a)] Las gallinas han destrozado el sembrado, pero (las gallinas) no (han destrozado) las matas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, l'oració &lt;n1&gt; La mata el vol &lt;n3&gt; pot voler dir dues coses, segons l'elecció de categories lèxiques (``l'acte de volar li provoca la mort'' o ``la planta sent estima per ell'').</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161057Z">
+        <seg>Por ejemplo, la oración catalana &lt;n1&gt; La mata el vol &lt;n3&gt; puede querer decir dos cosas, según la elección de categorías léxicas (``el acto de volar le provoca la muerte'' o ``la planta siente aprecio por él'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, l'oració &lt;n2&gt; Té molts amics &lt;n5&gt; té un subjecte buit (també anomenat el·líptic).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T162705Z">
+        <seg>Por ejemplo, la oración &lt;n2&gt; Tiene muchos amigos &lt;n5&gt; tiene un sujeto vacío (también denominado elíptico).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, l'oració espanyola &lt;i1&gt;Aprendió a afeitarse en dos minutos&lt;/i1&gt; es pot traduir al català &lt;i2&gt;Va aprendre a afaitar-se en dos minuts&lt;/i2&gt; sense resoldre l'ambigüitat següent: és el temps que va tardar a aprendre o el temps que empra per afaitar-se?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T160000Z">
+        <seg>Por ejemplo, la oración española &lt;i1&gt;Aprendió a afeitarse en dos minutos&lt;/i1&gt; se puede traducir al catalán &lt;i2&gt;Va aprendre a afaitar-se en dos minuts&lt;/i2&gt; sin resolver la ambigüedad siguiente: ¿es el tiempo que tardó a aprender o el tiempo que emplea para afeitarse?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, la frase &lt;n0&gt; Joan va portar notícies de Grècia &lt;n3&gt; es pot interpretar de dues maneres: en una, el sintagma preposicional &lt;i2&gt;de Grècia&lt;/i2&gt; modifica &lt;i3&gt;notícies&lt;/i3&gt;; en l'altra, modifica &lt;i4&gt;portar&lt;/i4&gt; (vegeu els arbres de la figura &lt;n6&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154204Z">
+        <seg>Por ejemplo, la frase &lt;n0&gt; Juan ha traído noticias de Grecia &lt;n3&gt; se puede interpretar de dos maneras: en una, el sintagma preposicional &lt;i2&gt;de Grecia&lt;/i2&gt; modifica &lt;i3&gt;noticias&lt;/i3&gt;; en la otra, modifica &lt;i4&gt;traer&lt;/i4&gt; (véase los árboles de la figura &lt;n6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, la frase anglesa &lt;n0&gt; Time flies like an arrow &lt;n2&gt; vol dir normalment &lt;i0&gt;El temps vola (com una fletxa)&lt;/i0&gt; però també són possibles altres dues interpretacions (semànticament destrellatades però sintàcticament impecables): &lt;i1&gt;A les mosques del temps els agrada una fletxa&lt;/i1&gt; o &lt;i2&gt;Cronometra les mosques com una fletxa&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160625Z">
+        <seg>Por ejemplo, la frase inglesa &lt;n0&gt; Time flies like an arrow &lt;n2&gt; quiere decir normalmente &lt;i0&gt;El tiempo vuela (como una flecha)&lt;/i0&gt; pero también son posibles otras dos interpretaciones (semánticamente alocadas pero sintácticamente impecables): &lt;i1&gt;A las moscas del tiempo les gusta una flecha&lt;/i1&gt; o &lt;i2&gt;Cronometra las moscas como una flecha&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, la interpretació d'&lt;i0&gt;enviar algú a pastar fang&lt;/i0&gt; pot ser la idiomàtica de dir a algú que deixe de molestar (espanyol &lt;i1&gt;mandar a freír espárragos&lt;/i1&gt;) però podria ser també la literal en un taller de terrisseria.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T155126Z">
+        <seg>Por ejemplo, la interpretación de la expresión catalana &lt;i0&gt;enviar algú a pastar fang&lt;/i0&gt; puede ser la idiomática de decir a alguien que deje de molestar (español &lt;i1&gt;mandar a freír espárragos&lt;/i1&gt;) pero podría ser también la literal en un taller de alfarería.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per tant, un enunciat ambigu pot tenir més d'una traducció a un altre idioma.&lt;p1&gt; En aquest capítol ens fixarem molt especialment en l'ambigüitat de les oracions.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T161308Z">
+        <seg>Por lo tanto, un enunciado ambiguo puede tener más de una traducción a otro idioma.&lt;p1&gt; En este capítulo nos fijaremos muy especialmente en la ambigüedad de las oraciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però l'homografia no és l'única causa possible d'ambigüitat lèxica; hi ha mots que són ambigus tot i tenir la mateixa forma lèxica, perquè el que és ambigu és la interpretació del lema.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T153524Z">
+        <seg>Pero la homografía no es la única causa posible de ambigüedad léxica; hay palabras que son ambiguas a pesar de tener la misma forma léxica, porque lo que es ambiguo es la interpretación del lema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Podem dir que un enunciat (una oració, un text) és ambigu quan és susceptible de dues o més interpretacions &lt;u0&gt;{alcaraz97b}&lt;p0&gt; ho expressen dient que l'ambigüitat és ``el fenomen pel qual una expressió té més d'un significat''.}.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T092824Z">
+        <seg>Podemos decir que un enunciado (una oración, un texto) es ambiguo cuando es susceptible de dos o más interpretaciones &lt;u0&gt;{alcaraz97b}&lt;p0&gt; lo expresan diciendo que la ambigüedad es ``el fenómeno por el cual una expresión tiene más de un significado''.}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan es tracta de l'omissió del subjecte, se sol postular en lingüística l'existència d'un pronom especial anomenat PRO, sense forma superficial, que fa de subjecte nul, &lt;n1&gt; Joan va veure com PRO queia redolant &lt;n3&gt; i al qual s'assigna interpretació mitjançant processos deïctics&lt;p0&gt; o anafòrics com els descrits per a altres expressions anafòriques.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T150810Z">
+        <seg>Cuando se trata de la omisión del sujeto, se suele postular en lingüística la existencia de un pronombre especial llamado PRO, sin forma superficial, que hace de sujeto nulo, &lt;n1&gt; Juan vio como PRO caía rodando &lt;n3&gt; y al cual se asigna interpretación mediante procesos deícticos&lt;p0&gt; o anafóricos como los descritos para otras expresiones anafóricas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan l'abast d'un quantificador (és a dir, els mots que afecta) és imprecís, una oració pot tenir més d'una interpretació.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161426Z">
+        <seg>Cuando el alcance de un cuantificador (es decir, las palabras a las que afecta) es impreciso, una oración puede tener más de una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S'hi poden distingir diversos casos: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;Ambigüitat estructural d'origen coordinatiu&lt;/i0&gt;: Per exemple, si diem &lt;n2&gt; Posa els llençols i els cobertors nets a l'armari &lt;n3&gt; hi ha dues possibles interpretacions; en una els llençols no estan nets, en l'altra sí, segons que es considere que l'adjectiu &lt;i1&gt;nets&lt;/i1&gt; modifica els dos substantius coordinats o només l'últim (vegeu la fig. &lt;n4&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T093433Z">
+        <seg>Se pueden distinguir varios casos: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;Ambigüedad estructural de origen coordinativo&lt;/i0&gt;: Por ejemplo, si decimos &lt;n2&gt; Pon las sábanas y las colchas limpias en el armario &lt;n3&gt; hay dos posibles interpretaciones; en una las sábanas no están limpias, en la otra sí, según se considere que el adjetivo &lt;i1&gt;limpias&lt;/i1&gt; modifica los dos sustantivos coordinados o sólo el último (véase la fig. &lt;n4&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si una oració és ambigua quan té més d'una interpretació possible, això pot tenir dues causes bàsiques: &lt;n0&gt; &lt;u0&gt; un o més mots de l'oració tenen més d'una interpretació possible (és a dir, són &lt;i0&gt;lèxicament ambigus&lt;/i0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T162914Z">
+        <seg>Si una oración es ambigua cuando tiene más de una interpretación posible, esto puede tener dos causas básicas: &lt;n0&gt; &lt;u0&gt; una o más palabras de la oración tienen más de una interpretación posible (es decir, son &lt;i0&gt;léxicamente ambiguas&lt;/i0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També anomenats &lt;i1&gt;díctics&lt;/i1&gt;, relacionats amb la &lt;i2&gt;deïxi&lt;/i2&gt; o &lt;i3&gt;dixi&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T161517Z">
+        <seg>También llamados &lt;i1&gt;deícticos&lt;/i1&gt;, relacionados con &lt;i2&gt;la deixis&lt;/i2&gt;  &lt;i3&gt;&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També explica per què l'oració &lt;n3&gt; El gos va mossegar l'home &lt;n8&gt; no té la mateixa interpretació que la frase &lt;n4&gt; L'home va mossegar el gos &lt;n9&gt; Aquestes oracions no volen dir el mateix perquè, malgrat tenir els mateixos mots, l'estructura sintàctica no és la mateixa.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195045Z">
+        <seg>También explica por qué la oración &lt;n3&gt; El perro mordió al hombre &lt;n8&gt; no tiene la misma interpretación que la frase &lt;n4&gt; El hombre mordió al perro &lt;n9&gt; Estas oraciones no quieren decir lo mismo porque, a pesar de tener las mismas palabras, la estructura sintáctica no es la misma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un &lt;i1&gt;adjunt&lt;/i1&gt; és un sintagma o constituent que, conjuntament amb un altre sintagma o constituent, forma un constituent del mateix tipus que aquest últim (per exemple, un sintagma nominal més un sintagma preposicional formen un sintagma nominal); en un cert sentit, l'adjunt no és necessari sinó opcional.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151900Z">
+        <seg>Un &lt;i1&gt;adjunto&lt;/i1&gt; es un sintagma o constituyente que, conjuntamente con otro sintagma o constituyente, forma un constituyente del mismo tipo que este último (por ejemplo, un sintagma nominal más un sintagma preposicional forman un sintagma nominal); en un cierto sentido, el adjunto no es necesario sino opcional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un altre exemple: l'oració &lt;n0&gt; Han posat un banc nou a la plaça &lt;n1&gt; pot tenir dues interpretacions, segons la interpretació que s'assigne al mot polisèmic &lt;i0&gt;banc&lt;/i0&gt; (``seient estret i llarg'' o bé ``institució financera'').</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161856Z">
+        <seg>Otro ejemplo: la oración &lt;n0&gt; Han puesto un banco nuevo en la plaza &lt;n1&gt; puede tener dos interpretaciones, según la interpretación que se asigne a la palabra polisémica &lt;i0&gt;banco&lt;/i0&gt; (``asiento estrecho y largo'' o bien "institución financiera'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un altre tipus d'ambigüitat mixta succeeix quan l'ambigüitat lèxica categorial d'alguns mots es combina amb mecanismes d'el·lipsi com els descrits més amunt per a construccions coordinatives o comparatives.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161110Z">
+        <seg>Otro tipo de ambigüedad mixta sucede cuando la ambigüedad léxica categorial de algunas palabras se combina con mecanismos de elipsis como los descritos más arriba para construcciones coordinativas o comparativas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un dels obstacles més importants per a la traducció automàtica (i en general, per a qualsevol programa que haja de processar textos naturals) és l'ambigüitat inherent al llenguatge humà.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120507T155204Z">
+        <seg>Uno de los obstáculos más importantes para la traducción automática (y en general, para cualquier programa que tenga que procesar textos naturales) es la ambigüedad inherente al lenguaje humano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un mot (i, en general, una unitat lèxica de més d'un mot) es pot veure des de dues perspectives; d'una banda, la &lt;i0&gt;forma superficial&lt;/i0&gt; del mot és la forma concreta que apareix en el text: &lt;i1&gt;cantàvem&lt;/i1&gt;; d'altra banda, hi ha la &lt;i2&gt;forma lèxica&lt;/i2&gt;, que consisteix en &lt;n0&gt; &lt;u0&gt; un &lt;i3&gt;lema&lt;/i3&gt; o &lt;i4&gt;forma canònica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u1&gt; una &lt;i6&gt;categoria lèxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; classe de mot, o part de l'oració (verb) i &lt;u2&gt; uns &lt;i7&gt;indicadors de flexió&lt;/i7&gt; que expressen les característiques morfològiques o flexives (primera persona, nombre plural, temps pretèrit imperfet, mode indicatiu).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T092916Z">
+        <seg>Una palabra (y, en general, una unidad léxica de más de una palabra) se puede ver desde dos perspectivas; por un lado, la forma &lt;i0&gt;superficial&lt;/i0&gt; de la palabra es la forma concreta que aparece en el texto: &lt;i1&gt;cantábamos&lt;/i1&gt;; por otro lado, está la forma &lt;i2&gt;léxica&lt;/i2&gt;, que consiste en &lt;n0&gt; &lt;u0&gt;  &lt;i3&gt;un lema&lt;/i3&gt; o forma &lt;i4&gt;canónica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u1&gt; una &lt;i6&gt;categoría léxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; clase de palabra, o parte de la oración (verbo) y unos &lt;u2&gt;  &lt;i7&gt;indicadores de flexión&lt;/i7&gt; que expresan las características morfológicas o flexivas (primera persona, número plural, tiempo pretérito imperfecto, modo indicativo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una ambigüitat que és molt semblant a l'ambigüitat lèxica pura es produeix quan una expressió idiomàtica es pren bé com a tal o bé en sentit literal.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154948Z">
+        <seg>Una ambigüedad que es muy parecida a la ambigüedad léxica pura se produce cuando una expresión idiomática se toma bien como tal o bien en sentido literal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una de les perspectives més interessants per a analitzar i ordenar els tipus d'ambigüitat descrits més amunt ens la proporciona l'anomenat &lt;i0&gt;principi de composicionalitat&lt;/i0&gt; &lt;u0&gt;{radford99b}: &lt;n0&gt; {&lt;u1&gt; La interpretació d'una oració està determinada per la interpretació dels mots que apareixen en l'oració i per l'estructura sintàctica de l'oració.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195035Z">
+        <seg>Una de las perspectivas más interesantes para analizar y ordenar los tipos de ambigüedad descritos más arriba nos la proporciona el llamado &lt;i0&gt;principio de composicionalidad&lt;/i0&gt; &lt;u0&gt;{radford99b}: &lt;n0&gt; {&lt;u1&gt; La interpretación de una oración está determinada por la interpretación de las palabras que aparecen en la oración y por la estructura sintáctica de la oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una és &lt;n1&gt; Qui diu que PRO vindrà?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154059Z">
+        <seg>Una es &lt;n1&gt; ¿Quién dice que PRO vendrá?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vegeu la nota al peu de la pàg.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151239Z">
+        <seg>Véase nota a pie de la pág.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Ambigüitat deguda als quantificadors]{Ambigüitat deguda a l'abast dels quantificadors}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161324Z">
+        <seg>[Ambigüedad debida a los cuantificadores]{Ambigüedad debida al alcance de los cuantificadores}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`[destrossat]' ) (.SD.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161235Z">
+        <seg>`[destrozado]' ) (.SD.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`[tu]' ) (.{&lt;u2&gt;{I}}.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161257Z">
+        <seg>`[tú]' ) (.{&lt;u2&gt;{I}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`gal·lesos' ) ) ) ) ) &lt;n7&gt; &lt;n8&gt; &lt;u4&gt;{Dos arbres per a la segona part de la comparació ``Els escocesos aprecien més el whisky que els gal·lesos'' (SD =sintagma determinant, D = determinant).}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153120Z">
+        <seg>`gal·lesos' ) ) ) ) ) &lt;n7&gt; &lt;n8&gt; &lt;u4&gt;{Dos árboles para la segunda parte de la comparación ``Els escocesos aprecien més el whisky que els gal·lesos'' (SD =sintagma determinante, D = determinante).}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`notícies' ) (.SP.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154249Z">
+        <seg>`noticias' ) (.SP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`notícies' ) ) (.SP.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T200114Z">
+        <seg>`noticias' ) ) (.SP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`portar' ) (.N.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154308Z">
+        <seg>`traído' ) (.N.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`portar' ) (.SN.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154235Z">
+        <seg>`traído' ) (.SN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`va' ) (.SV.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154209Z">
+        <seg>`ha' ) (.SV.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>mots) polisèmiques: si diem que algú &lt;n1&gt; Treballa en l'estudi que li van encarregar &lt;n2&gt; podem referir-nos a un investigador o a un decorador, depenent de quina interpretació assignem al mot polisèmic &lt;i0&gt;estudi&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T154319Z">
+        <seg>palabras) polisémicas: si decimos que alguien &lt;n1&gt; Trabaja en el estudio que le encargaron &lt;n2&gt; podemos referirnos a un investigador o a un decorador, dependiendo de qué interpretación asignemos a la palabra polisémica &lt;i0&gt;estudio&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>persona del plural del present d'indicatiu del verb salir o del present de subjuntiu del verb &lt;i6&gt;salar&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T155423Z">
+        <seg>persona del plural del presente de indicativo del verbo salir o del presente de subjuntivo del verbo &lt;i6&gt;salar&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T195717Z">
+        <seg>persona del plural del presente de indicativo o del pretérito indefinido (perfecto simple) del verbo &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>persona del singular del present d'indicatiu del verb &lt;i1&gt;creer&lt;/i1&gt; o del verb &lt;i2&gt;crear&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T155250Z">
+        <seg>persona del singular del presente de indicativo del verbo &lt;i1&gt;creer&lt;/i1&gt; o del verbo &lt;i2&gt;crear&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>persona del singular, imperatiu.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T153506Z">
+        <seg>persona del singular, imperativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Dos arbres per a la frase ``Posa els llençols i els cobertors nets a l'armari'' (SN = sintagma nominal, SA = sintagma adjectival).}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151825Z">
+        <seg>{Dos árboles para la frase ``Pon las sábanas y las colchas limpias en el armario'' (SN = sintagma nominal, SA = sintagma adjetival).}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>} &lt;n5&gt; Aquest principi explica per què la interpretació de l'oració &lt;n1&gt; &lt;n10&gt; El pare escura plats &lt;n6&gt; és diferent de la de l'oració &lt;n2&gt; La mare llegeix llibres &lt;n11&gt; &lt;n7&gt; Les oracions (&lt;n12&gt;) i (&lt;n13&gt;) tenen la mateixa sintaxi però diferent interpretació perquè contenen mots diferents amb interpretacions diferents.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120604T092816Z">
+        <seg>} &lt;n5&gt; Este principio explica por qué la interpretación de la oración &lt;n1&gt; &lt;n10&gt; El padre friega platos &lt;n6&gt; es diferente de la de la oración &lt;n2&gt; La madre lee libros &lt;n11&gt; &lt;n7&gt; Las oraciones (&lt;n12&gt;) y (&lt;n13&gt;) tienen la misma sintaxis, pero diferente interpretación porque contienen palabras diferentes con interpretaciones diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `Joan') (.{&lt;u0&gt;{I}}.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152203Z">
+        <seg>  `Juan') (.{&lt;u0&gt;{I}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `[les gallines]' ) (.{&lt;u0&gt;{I}}.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161227Z">
+        <seg>  `[las gallinas]' ) (.{&lt;u0&gt;{I}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `de Grècia' ) ) ) ) ) &lt;n0&gt; &lt;n1&gt; &lt;n5&gt; &lt;n6&gt; (.SI.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154252Z">
+        <seg>  `de Grecia' ) ) ) ) ) &lt;n0&gt; &lt;n1&gt; &lt;n5&gt; &lt;n6&gt; (.SÍ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `de Grècia' ) ) ) ) &lt;n2&gt; &lt;n3&gt; &lt;u2&gt;{Dos arbres per a la frase ``Joan va portar notícies de Grècia'' (SI = sintagma inflexional, &lt;u1&gt;{I} = projecció intermèdia de la inflexió, I = inflexió, SV = sintagma verbal, V = verb, N = nom, SP = sintagma preposicional).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T200152Z">
+        <seg>  `de Grecia' ) ) ) ) &lt;n2&gt; &lt;n3&gt; &lt;u2&gt;{Dos árboles para la frase ``Juan ha traído noticias de Grecia'' (SI = sintagma inflexional, &lt;u1&gt;{I =} proyección intermedia de la inflexión, I = inflexión, SV = sintagma verbal, V = verbo, N = nombre, SP = sintagma preposicional).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `els cobertors' ) (.SA.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151443Z">
+        <seg>  `las colchas' ) (.SANO.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `els cobertors' ) ) (.SA.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151418Z">
+        <seg>  `las colchas' ) ) (.SA.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `els llençols' ) `i' (.SN.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151409Z">
+        <seg>  `las sábanas' ) `y' (.SN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `les mates' ) ) ) ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; (.SI.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161251Z">
+        <seg>  `las matas' ) ) ) ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; (.SÍ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `les mates' ) ) ) &lt;n7&gt; &lt;n8&gt; &lt;u4&gt;{Dos arbres per a la segona oració coordinada en ``Les gallines han destrossat el sembrat però no les mates'' (NEG = negació).}</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161312Z">
+        <seg>  `las matas' ) ) ) &lt;n7&gt; &lt;n8&gt; &lt;u4&gt;{Dos árboles para la segunda oración coordinada en ``Las gallinas han destrozado el sembrado pero no las matas'' (NEG = negación).}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `nets' ) ) )</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario 1" changedate="20120530T200009Z">
+        <seg>  `limpias' ) ) )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `nets' ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; ( .SN.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151432Z">
+        <seg>  `limpias' ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; ( .SN.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

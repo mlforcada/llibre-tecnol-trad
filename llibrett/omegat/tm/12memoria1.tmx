@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.5.2_2" segtype="sentence" srclang="CA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="CA">
+        <seg>(1a conj.) / adj.masc.i fem.sing.: leve, ausente, presente.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153913Z">
+        <seg>(1a conj.) / adj.masc.y fem.sing.: leve, ausente, presente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(1a conj.) / adj.masc.i fem.sing.: leves, ausentes, presentes.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154023Z">
+        <seg>(1a conj.) / adj.masc.y fem.sing.: leves, ausentes, presentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(1a conj.) / subst.fem.pl.: casas, salas, tomas, entregas, osas;  Pres.ind.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T164635Z">
+        <seg>(1a conj.) / sust.fem.pl.: casas, salas, tomas, entregas, osas;  Pres.ind.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>2a pers.sing (2a i 3a conj.) / adj.fem.pl.: vivas.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153647Z">
+        <seg>2a pers.sing (2a y 3a conj.) / adj.fem.pl.: vivas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>2a pers.sing (2a i 3a conj.) / subst.fem.pl.: batas, temas, metas.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T164723Z">
+        <seg>2a pers.sing (2a y 3a conj.) / sust.fem.pl.: batas, temas, metas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  Sí, hi ha prou amb fer l'anàlisi morfològica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T162050Z">
+        <seg>  Sí, hay bastante con hacer el análisis morfológico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  Decidir la traducció del pronom espanyol se (pot ser se, li o els).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161703Z">
+        <seg>  Decidir la traducción del pronombre español se (puede ser se,li o els).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> Altres casos: amase, amasen, amases ({ amar}, amasar); fui, fuiste, ... (ir i ser), ven (ver i venir), etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155150Z">
+        <seg> Otros casos: amase, amasen, amases ({ amar}, amasar); fui, fuiste, ... (ir y  ser), vende (ver y venir), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> D'altra banda, serveix per a il·lustrar, amb un parell de llengües concret, alguns dels conceptes tractats en els capítols anteriors.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T160140Z">
+        <seg> Por otro lado, sirve para ilustrar, con un par de lenguas concreto, algunos de los conceptos tratados en los capítulos anteriores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[L'article neutre:] L'espanyol posseeix l'anomenat { article neutre}, que no té correspondència en català (lo que me dijiste $$ el que em vas dir); presenten dificultat especial les construccions usades per a expressar l'abstracció o la intensitat: recibirá el informe lo más pronto posible $$ rebrà l'informe el més aviat possible; me asusta lo grande que es $$ m'espanta com és de gran.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160701Z">
+        <seg>[El artículo neutro:] El español posee el llamado { artículo neutro}, que no tiene correspondencia en catalán (lo que me dijiste $$ el que em vas dir); presentan dificultad especial las construcciones usadas para expresar la abstracción o la intensidad: recibirá el informe lo más pronto posible $$ rebrà l'informe el més aviat possible; me asusta lo grande que es $$ m'espanta com és de gran.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> Detectar les formes de tener que i traduir-les per haver de.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120526T120443Z">
+        <seg> Detectar las formas de tener que y traducirlas por haver de.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> Les coincidències d'algunes formes de noms amb preposicions.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161834Z">
+        <seg> Las coincidencias de algunas formas de nombres con preposiciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> No, perquè cal determinar bé la longitud del sintagma nominal que segueix a cuyo per a poder posar del qual en la posició correcta.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T162227Z">
+        <seg> No, porque hay que determinar bien la longitud del sintagma nominal que sigue a cuyo para poder poner del qual en la posición correcta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Els possessius:] De vegades, el català usa articles determinats i construccions amb el pronom feble en on l'espanyol usa possessius: cuando hagas cosas así debes valorar sus consecuencias $$ quan faces coses així n'has de valorar les conseqüències.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160845Z">
+        <seg>[Los posesivos:] A veces, el catalán usa artículos determinados y construcciones con el pronombre átono en donde el español usa posesivos: cuando hagas cosas así debes valorar sus consecuencias $$ quan faces coses així n'has de valorar les conseqüències.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> mentir/mentar: com sentir/sentar  vendar/vender: vendo, venda, { vendas}, vendamos, vendáis, vendan, vende, vendes, vendemos, vendéis, { venden}.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154921Z">
+        <seg> mentir/mentar: como sentir/sentar  vendar/vender: vendo, venda, { vendas}, vendamos, vendáis, vendan, vende, vendes, vendemos, vendéis, { venden}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> Altres: traje (verb traer, 1a pers.sing.pretèrit indefinit i subst.masc.sing.)</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152414Z">
+        <seg> Otros: traje (verbo traer, 1a pers.sing.pretérito indefinido y sust.masc.sing.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> Altres: eras.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T164727Z">
+        <seg> Otros: eras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> Fer l'anàlisi morfològica de verbs seguits d'enclítics com ara estudiémonoslos o dándoselo.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161801Z">
+        <seg> Hacer el análisis morfológico de verbos seguidos de enclíticos como por ejemplo estudiémonoslos o  dándoselo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> Les coincidències d'algunes formes de noms amb adverbis.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161845Z">
+        <seg> Las coincidencias de algunas formas de nombres con adverbios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> No, perquè cuyo no té un equivalent morfològic en espanyol.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T162236Z">
+        <seg> No, porque cuyo no tiene un equivalente morfológico en español.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Els relatius:] El principal problema apareix quan es volen traduir oracions que contenen el relatiu possessiu cuyo, inexistent en català, on el més senzill és usar una construcció amb { qual}, que, a més, presenta un esquema de concordança diferent (qual ha de concordar amb l'antecedent, mentre { cuyo} concorda amb el nom que el segueix): el contribuyente cuyos informes hemos solicitado llegará tarde $$ el contribuent els informes del qual hem sol·licitat arribarà tard (vegeu el final de l'apartat ).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120603T190153Z">
+        <seg>[Los relativos:] El principal problema aparece cuando se quieren traducir oraciones que contienen el relativo posesivo cuyo, inexistente en catalán, donde lo más sencillo es usar una construcción con { qual}, que, además, presenta un esquema de concordancia diferente (qual tiene que concordar con el antecedente, mientras que { cuyo} concuerda con el nombre que lo sigue): el contribuyente cuyos informes hemos solicitado llegará tarde $$ el contribuent els informes del qual hem sol·licitat arribarà tard (veáse el final del apartado ).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Els pronoms febles:] Els principals problemes es troben en la traducció de lo, ja que pot correspondre en català a alguna forma del pronom masculí singular { lo} o a alguna forma del pronom neutre ho; en la traducció de se, el qual correspon normalment al reflexiu català se però en les combinacions espanyoles se la, se lo, etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161127Z">
+        <seg>[Los pronombres átonos:] Los principales problemas se encuentran en la traducción de lo, puesto que puede corresponder en catalán a alguna forma del pronombre masculino singular { lo} o a alguna forma del pronombre neutro ho; en la traducción de  se, el cual corresponde normalmente al reflexivo catalán se pero en las combinaciones españolas se la, se lo, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg> salir/salar: sales, sale, salen  asir/asar: como salir/salar  poder/podar: podamos, podáis, { podemos}, podéis.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154954Z">
+        <seg> salir/salar: salas, sale, salan  asir/asar: como salir/salar  poder/podar: podamos, podáis, { podemos}, podéis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Règim preposicional:] Hi ha diferències notables entre els règims preposicionals espanyol i català: les preposicions espanyoles davant de que completiu no apareixen en català (el hecho de que me hable $$ el fet que em parle); algunes preposicions no són possibles en català davant d'infinitiu (el juego consiste en ganar... $$ el joc consisteix a guanyar...), etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161553Z">
+        <seg>[Régimen preposicional:] Hay diferencias notables entre los regímenes preposicionales español y catalán: las preposiciones españolas delante de que completivo no aparecen en catalán (el hecho de que me hable $$ el fet que em parle); algunas preposiciones no son posibles en catalán delante de infinitivo (el juego consiste en ganar... $$ el joc consisteix a guanyar...), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A la vista de la notable similitud lingüística existent entre les dues llengües, es podria pensar que la tasca de traducció automàtica podria, en la majoria dels casos, ser tan senzilla com substituir un a un els mots espanyols pels seus equivalents catalans.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T161431Z">
+        <seg>A la vista de la notable similitud lingüística existente entre las dos lenguas, se podría pensar que la tarea de traducción automática podría, en la mayoría de los casos, ser tan sencilla como sustituir una a una las palabras españolas por sus equivalentes catalanes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Altres homògrafs: como (conjunció i forma de comer), ora (conjunció i forma de orar), bien (conjunció, substantiu i adverbi)</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155758Z">
+        <seg>Otros homógrafos: como (conjunción y forma decomer), ora (conjunción y forma deorar), bien (conjunción, sustantivo y adverbio)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Altres terminacions: sal (verb salir) mentís, pagaré.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153151Z">
+        <seg>Otras terminaciones: sal (verbo salir) mentís, pagaré.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta secció es basa parcialment en un document generat per Sandra Montserrat.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155824Z">
+        <seg>Esta sección se basa parcialmente en un documento generado por Sandra Montserrat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, el model de traducció automàtica mot per mot (definit en la pàg. , i que no s'ha de confondre amb el que els traductors humans anomenen traducció literal) és el model de referència que usarem en aquest capítol: els tres grups de { problemes} que es presenten en aquest capítol són alguns ---no tots--- dels que no resol el model mot per mot: la segmentació del text origen, l'homografia i les divergències sintàctiques.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120603T185920Z">
+        <seg>De hecho, el modelo de traducción automática palabra por palabra (definido en la pág. , y que no se tiene que confundir con el que los traductores humanos denominan traducción literal) es el modelo de referencia que usaremos en este capítulo: los tres grupos de { problemas} que se presentan en este capítulo son algunos ---no todos--- de los que no resuelve el modelo palabra por palabra: la segmentación del texto origen, la homografía y las divergencias sintácticas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De vegades, els mots homògrafs comparteixen una semàntica relacionada, com ahorro, i altres vegades no, com oso.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T163608Z">
+        <seg>A veces, las palabras homógrafas comparten una semántica relacionada, como ahorro, y otras veces no, como oso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Divergències de traducció</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155807Z">
+        <seg>Divergencias de traducción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El català no té cap construcció equivalent al cuyo espanyol.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161904Z">
+        <seg>El catalán no tiene ninguna construcción equivalente al cuyo español.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els problemes augmenten si la concordança s'ha de produir entre sintagmes distants: el calor producido por el motor ha resultado ser nefasto $$ la calor produïda pel motor ha resultat ser nefasta.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160315Z">
+        <seg>Los problemas aumentan si la concordancia se tiene que producir entre sintagmas distantes: el calor producido por el motor ha resultado ser nefasto $$ la calor produïda pel motor ha resultat ser nefasta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En -a:   Pres.ind., 3a pers. sing.(1a conj.) / subst.fem.sing.: casa, pinta,  sala, toma, entrega, osa.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151531Z">
+        <seg>En -a :   Pres.ind., 3a pers. sing.(1a conj.) / sust.fem.sing.: casa, pinta,  sala, toma, entrega, osa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En -e:   Pres.subj., 1a/3a pers.sing.(1a conj.) / subst.masc. i fem.sing.: cante, deje, sobre, pose, apunte  Pres.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152323Z">
+        <seg>En -e:   Pres.subj., 1a/3a pers.sing.(1a conj.) / sust.masc. y fem.sing.: cante, deje, sobre, pose, apunte  Pres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En -es:   Pres.subj., 2a pers.sing.(1a conj.) / subst.masc. i fem.pl.: sales (verb salar), ases (verb asar), cantes, dejes, sobres, poses, apuntes  Pres.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152552Z">
+        <seg>En -es:   Pres.subj., 2a pers.sing.(1a conj.) / sust.masc. y fem.pl.: sales (verbo salar), ases (verbo asar), cantes, dejes, sobres, poses, apuntes  Pres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En -o:   1a pers.del present d'indicatiu / adj.masc.sing.: pinto, mondo, bajo, lindo, vivo.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154052Z">
+        <seg>En -o :   1a pers.del presente de indicativo / adj.masc.sing.: pinto, mondo, bajo, lindo, vivo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En -o:   1a pers.del present d'indicatiu / subst.masc.sing.: oso, remiendo, riego, mando, canto, cardo, recibo, abono, saldo;  altres: vino.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153025Z">
+        <seg>En -o:   1a pers.del presente de indicativo / sust.masc.sing.: oso, remiendo, riego, mando, canto, cardo, recibo, abono, saldo;  otros: vino.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En -os: marchamos (1a pers.pl. present i pretèrit perfet simple d'indicatiu i subst.masc.pl.).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120526T120116Z">
+        <seg>En -os: marchamos (1a pers.pl. presente y pretérito perfecto simple de indicativo y sust.masc.pl.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En aquest capítol es presenten alguns dels problemes més importants amb què es pot trobar qui vulga dissenyar un sistema de traducció automàtica per a traduir textos de l'espanyol al català.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T162532Z">
+        <seg>En este capítulo se presentan algunos de los problemas más importantes con que se puede encontrar quien quiera diseñar un sistema de traducción automática para traducir textos del español al catalán.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En el cas concret de l'espanyol i el català, la proximitat lingüística entre les dues llengües fa que siga abordable el disseny de sistemes de traducció automàtica que generen textos d'un nivell de correcció tal que resulte més rendible revisar el resultat en brut produït pel programa que fer la traducció completa (mireu la p. ).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151226Z">
+        <seg>En el caso concreto del español y el catalán, la proximidad lingüística entre las dos lenguas hace que sea abordable el diseño de sistemas de traducción automática que generen textos de un nivel de corrección tal que resulte más rentable revisar el resultado en bruto producido por el programa que hacer la traducción completa (véase p. ).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En traducció automàtica de l'espanyol al català, una alternativa interessant és posar primer el sintagma nominal que segueix al cuyo i després, una forma de del qual que concorde amb l'antecedent.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161953Z">
+        <seg>En traducción automática del español al catalán, una alternativa interesante es poner primero el sintagma nominal que sigue al cuyo y después, una forma de del qual que concuerde con el antecedente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Entre la 1a pers.pl. del present d'indicatiu i del pretèrit perfet simple (``pretèrito indefinido'') dels verbs regulars de la 1a i 3a conjs.: { amamos}, cantamos, conseguimos, etc.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120526T120147Z">
+        <seg>Entre la 1a pers.pl. del presente de indicativo y del pretérito perfecto simple (``pretérito indefinido'') de los verbos regulares de la 1a y 3a conjs.: { amamos}, cantamos, conseguimos, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es pot fer sempre correctament aquesta operació en un sistema de traducció automàtica que no faça anàlisi sintàctica?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T162010Z">
+        <seg>¿Se puede hacer siempre correctamente esta operación en un sistema de traducción automática que no haga análisis sintáctico?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Finalment, hi ha algunes homografies fortuïtes (com ara para: preposició i verb).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T164037Z">
+        <seg>Finalmente, hay algunas homografías fortuitas (como por ejemplo para: preposición y verbo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homografia</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T163548Z">
+        <seg>Homografía</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homografia verb conjugat--adjectiu:</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153212Z">
+        <seg>Homografía verbo conjugado--adjetivo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homografia verb conjugat--substantiu:</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T164104Z">
+        <seg>Homografía verbo conjugado--sustantivo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homografia verb conjugat--verb conjugat (molt difícil de resoldre):   Entre verbs de la 1a conj.i verbs de la 2a o 3a conj.:   sentir/sentar: siento, sientes, { siente}, sienten, sienta, sientas,  sientan.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T154803Z">
+        <seg>Homografía verbo conjugado--verbo conjugado (muy difícil de resolver):   Entre verbos de la 1a conj.y verbos de la 2a o 3a conj.:   sentir/sentar: siento, sientes, { siente}, sienten, sienta, sientas,  sientan.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs adjectiu--adverbi: mucho, poco, { fuerte}...</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155533Z">
+        <seg>Homógrafos adjetivo--adverbio: mucho, poco, { fuerte}...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs adjectiu--preposició: bajo.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155231Z">
+        <seg>Homógrafos adjetivo--preposición: bajo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs adjectiu--substantiu: complejo, { impreso}, derecho...</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155606Z">
+        <seg>Homógrafos adjetivo--sustantivo: complejo, { impreso}, derecho...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs determinant--pronom la, los, las, lo (en ``lo que'', ``lo grande'')</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120526T121835Z">
+        <seg>Homógrafos determinante--pronombre la , los, las, lo (en ``lo que'', ``lo grande'')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs substantiu--adverbi: antes, tanto, mal, bien...</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155604Z">
+        <seg>Homógrafos sustantivo--adverbio: antes, tanto, mal, bien...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs substantiu--preposició: ante, sobre.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155240Z">
+        <seg>Homógrafos sustantivo--preposición: ante, sobre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs verb conjugat--adverbi: así (asir), fuera (ser, ir),  arriba (arribar), { adelante} (adelantar), cerca (cercar).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155518Z">
+        <seg>Homógrafos verbo conjugado--adverbio: así (asir), fuera (ser, ir),  arriba (arribar), { adelante} (adelantar), cerca (cercar).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs verb conjugat--determinant: uno, una, unas (unir)</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155343Z">
+        <seg>Homógrafos verbo conjugado--determinante: uno, una, unas (unir)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Homògrafs verb conjugat--preposició: bajo, { cabe}, entre, para, sobre.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155214Z">
+        <seg>Homógrafos verbo conjugado--preposición: bajo, { cabe}, entre, para, sobre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imaginem que hem pogut segmentar el text espanyol i que hem resolt correctament les ambigüitats lèxiques; si encara decidim fer la traducció mot per mot, ens trobarem que hi ha certes construccions per a les quals la traducció no és correcta, ja que els mots catalans no es corresponen mot per mot amb els espanyols.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120526T120214Z">
+        <seg>Imaginemos que hemos podido segmentar el texto español y que hemos resuelto correctamente las ambigüedades léxicas; si todavía decidimos hacer la traducción palabra por palabra, nos encontraremos que hay ciertas construcciones para las cuales la traducción no es correcta, puesto que las palabras catalanas no se corresponden palabra por palabra con las españolas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indica quina d'aquestes tres és la font més important d'homografia (ambigüitat lèxica categorial) de l'espanyol:   Les coincidències d'algunes formes d'alguns noms i d'alguns adjectius amb certes formes conjugades d'alguns verbs.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161832Z">
+        <seg>Indica cuál de estas tres es la fuente más importante de homografía (ambigüedad léxica categorial) del español:   Las coincidencias de algunas formas de algunos nombres y de algunos adjetivos con ciertas formas conjugadas de algunos verbos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Introducció</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T160155Z">
+        <seg>Introducción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'espanyol ---com les altres llengües romàniques--- té molts homògrafs.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T163814Z">
+        <seg>El español ---como las otras lenguas románicas--- tiene muchos homógrafos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'homografia apareix quan un mot (anomenat usualment homògraf) té més d'una anàlisi morfològica possible (vegeu l'apartat ).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T163752Z">
+        <seg>La homografía aparece cuando una palabra (denominada usualmente homógrafa) tiene más de un análisis morfológico posible (ver apartado ).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'homografia pot produir ambigüitat lèxica categorial o fins i tot aparéixer entre mots de la mateixa categoria lèxica.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T163622Z">
+        <seg>La homografía puede producir ambigüedad léxica categorial o incluso aparecer entre palabras de la misma categoría léxica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La dificultat per a un sistema de traducció automàtica apareix a l'hora de propagar el gènere i el nombre del nucli d'un sintagma als modificadors que hi hagen de concordar: su único amparo $$ la seua única empara; un buen postre $$ unes bones postres.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120603T190124Z">
+        <seg>La dificultad para un sistema de traducción automática aparece a la hora de propagar el género y el número del núcleo de un sintagma a los modificadores que tengan que concordar: su único amparo $$ la seua única empara; un buen postre $$ unes bones postres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La inclusió d'aquest capítol en el llibre té dues raons:   D'una banda, estudiar amb una miqueta més de detall els problemes que planteja la traducció automàtica entre dues llengües emparentades.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T160023Z">
+        <seg>La inclusión de este capítulo en el libro tiene dos razones:   Por un lado, estudiar con un poco más de detalle los problemas que plantea la traducción automática entre dos lenguas emparentadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La segmentació d'un text en mots sol ser normalment molt senzilla: el programa pot usar els blancs, els tabuladors, els finals de línia o els signes de puntuació com a fronteres entre mots.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T163154Z">
+        <seg>La segmentación de un texto en palabras suele ser normalmente muy sencilla: el programa puede usar los blancos, los tabuladores, los finales de línea o los signos de puntuación como fronteras entre palabras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les aplicacions potencialment més interessants de la TA espanyol--català s'emmarquen dins de l'anomenada { normalització lingüística}, és a dir, l'esforç de les societats de parla catalana per promoure'n l'ús normal en tots els àmbits; un exemple actual el constitueixen els servidors d'Internet d'institucions públiques i d'empreses privades dels Països Catalans, on la presència del català és encara minoritària.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T160319Z">
+        <seg>Las aplicaciones potencialmente más interesantes de la TA español--catalán se enmarcan dentro de la llamada { normalización lingüística}, es decir, el esfuerzo de las sociedades de habla catalana para promover el uso normal en todos los ámbitos; un ejemplo actual lo constituyen los servidores de Internet de instituciones públicas y de empresas privadas de los Países Catalanes, donde la presencia del catalán es todavía minoritaria.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a il·lustrar aquest fet, es presenta un assaig de classificació ---no exhaustiva--- dels homògrafs espanyols:</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T164052Z">
+        <seg>Para ilustrar este hecho, se presenta un ensayo de clasificación ---no exhaustiva--- de los homógrafos españoles:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, en espanyol, els pronoms enclítics s'uneixen a l'imperatiu, a l'infinitiu i al gerundi, i moltes voltes fan que en canvie la forma (vegeu l'epígraf ).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151310Z">
+        <seg>Por ejemplo, en español, los pronombres enclíticos se unen al imperativo, al infinitivo y al gerundio, y muchas veces hacen que cambie la forma (véase epígrafe ).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per sort, aquests problemes es poden resoldre de manera senzilla usant analitzadors morfològics com els que es descriuen en l'epígraf .</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T163544Z">
+        <seg>Por suerte, estos problemas se pueden resolver de manera sencilla usando analizadores morfológicos como los que se describen en el epígrafe .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però de vegades no és tan fàcil: per exemple, l'espanyol uneix moltes vegades diversos mots en un sol mot, sense que s'hi puguen distingir els mots components; en català, llevat de contraccions com al, pels, i del, sempre queda alguna indicació d'aquesta unió, com ara un apòstrof o un guionet.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120603T190034Z">
+        <seg>Pero a veces no es tan fácil: por ejemplo, el español une muchas veces varias palabras en una sola palabra, sin que se puedan distinguir las palabras componentes; en catalán, salvo contracciones como al, por los, y del, siempre queda alguna indicación de esta unión, como por ejemplo un apóstrofo o un guión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Podríeu pensar que, sent l'espanyol i el català tan similars sintàcticament, els problemes serien poc importants: el capítol intenta convéncer-vos que les coses no són tan senzilles com podrien semblar a primera vista.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T160052Z">
+        <seg>Podríais pensar que, siendo el español y el catalán tan similares sintácticamente, los problemas serían poco importantes: el capítulo intenta convenceros de que las cosas no son tan sencillas como podrían parecer a primera vista.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Problemàtica de la TA espanyol--català</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T155651Z">
+        <seg>Problemática de la TA español--catalán</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan la llengua original dels documents és l'espanyol, es podria usar un sistema de TA per a generar esborranys de documents catalans (o, fins i tot, documents correctes si els documents espanyols estan escrits en un llenguatge controlat).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T160346Z">
+        <seg>Cuando la lengua original de los documentos es el español, se podría usar un sistema de TA para generar borradores de documentos catalanes (o, incluso, documentos correctos si los documentos españoles están escritos en un lenguaje controlado).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quina d'aquestes tres tasques és més difícil en un sistema de traducció automàtica espanyol--català?</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161612Z">
+        <seg>¿Cuál de estas tres tareas es más difícil en un sistema de traducción automática español--catalán?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Qüestions i exercicis</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161557Z">
+        <seg>Cuestiones y ejercicios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Segmentació del text origen</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T163130Z">
+        <seg>Segmentación del texto origen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Solucions</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T162242Z">
+        <seg>Soluciones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un problema similar el presenta l'establiment (opcional) de la concordança del participi, inexistent en espanyol en situacions com ara todavía no la hemos estudiado con profundidad $$ encara no l'hem estudiada amb profunditat.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160410Z">
+        <seg>Un problema similar lo presenta el establecimiento (opcional) de la concordancia del participio, inexistente en español en situaciones como por ejemplo todavía no la hemos estudiado con profundidad $$ encara no l'hem estudiada amb profunditat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una de les fonts més importants d'homografia és la coincidència entre algunes terminacions de la flexió verbal i algunes terminacions de la flexió nominal i adjectival (-a, -as, -o, -e, -es), ja que involucra categories lèxiques obertes amb molts membres. Però hi ha, a més, altres fonts menys productives d'ambigüitat, com ara la coincidència d'algunes de les terminacions del present d'indicatiu dels verbs en -ar amb les del present de subjuntiu dels verbs en -er i -ir i al revés.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="Usuario" changedate="20120526T120611Z">
+        <seg>Una de las fuentes más importantes de homografía es la coincidencia entre algunas terminaciones de la flexión verbal y algunas terminaciones de la flexión nominal y adjetival (-a , -as, -o , -e, -es), puesto que involucra categorías léxicas abiertas con muchos miembros. Pero hay, además, otras fuentes menos productivas de ambigüedad, como por ejemplo la coincidencia de algunas de las terminaciones del presente de indicativo de los verbos en -ar con las del presente de subjuntivo de los verbos en -er e -ir y a la inversa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vegem quins són alguns dels problemes:</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T155939Z">
+        <seg>Veamos cuáles son algunos de los problemas:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Concordança de gènere i nombre:] De vegades el gènere i el nombre d'un mot varien de l'espanyol al català.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T160011Z">
+        <seg>[Concordancia de género y número:] A veces el género y el número de una palabra varían del español al catalán.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>i subst.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120508T164514Z">
+        <seg>y sust.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>ind., 2a pers.sing.(1a conj.) / subst.masc. i fem.pl.: vales, sales (verb salir), ases (verb asir).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152655Z">
+        <seg>ind., 2a pers.sing.(1a conj.) / sust.masc. y fem.pl.: vales, sales (verbo salir), ases (verbo asir).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>ind., 3a pers.sing.(1a conj.) / subst.masc. i fem.sing.: vale.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T152352Z">
+        <seg>ind., 3a pers.sing.(1a conj.) / sust.masc. y fem.sing.: vale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>pot correspondre de vegades a alguna forma de li o els, i en el fet que l'espanyol no té equivalents dels pronoms catalans adverbials en i hi (me $ptyset$ dio uno $$ me'n va donar un); $ptyset$ había dos salidas $$ hi havia dues eixides; no $ptyset$ $ptyset$ dejó una $$ no n'hi va deixar cap).</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T161347Z">
+        <seg>puede corresponder a veces a alguna forma deli o los, y en el hecho de que el español no tiene equivalentes de los pronombres catalanes adverbiales en e hi (me $ptyset$ dio uno $$ me'n va donar un); $ptyset$ había dos salidas $$  hi havia dues eixides; no $ptyset$ $ptyset$ dejó una $$ no n'hi va deixar cap).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>subj., 1a i 3a pers.sing.(2a i 3a conj.) / adj.fem.sing.: viva.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T153446Z">
+        <seg>subj., 1a y 3a pers.sing.(2a y 3a conj.) / adj.fem.sing.: viva.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>subj., 1a i 3a pers.sing.(2a i 3a conj.) / subst.fem.sing.: bata, tema, meta  Altres: era (verb ser, 1a i 3a pers.sing.pretèrit imperf.</seg>
+      </tuv>
+      <tuv lang="ES" changeid="alumno" changedate="20120514T151622Z">
+        <seg>subj., 1a y 3a pers.sing.(2a y 3a conj.) / sust.fem.sing.: bata, tema, meta  Otras: era (verbo ser, 1a y 3a pers.sing.pretérito imperf.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

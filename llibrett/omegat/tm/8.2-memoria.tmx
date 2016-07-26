@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.5.2_2" segtype="sentence" srclang="CA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="CA">
+        <seg>(!) Imaginem que tenim textos en la llengua $L_1$ i les traduccions (correctes) corresponents en la llengua $L_2$, fetes per una persona de manera que s'hi respecte tant com siga possible l'estructura de les frases del text original.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152811Z">
+        <seg>(!) Imaginamos que tenemos textos en la lengua $L_1$ y las traducciones (correctas) correspondientes en la lengua $L_2$, hechas por una persona de forma que se respete tanto como sea posible la estructura de las frases del texto original.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(*) Indiqueu breument quines estratègies es podrien usar per a resoldre l'ambigüitat sintàctica d'adjunció.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T162940Z">
+        <seg>(*) Indicad brevemente qué estrategias se podrían usar para resolver la ambigüedad sintáctica de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(1: Els inversors, la veritat, prestaven més atenció a la venedora que al producte; 2: Els va agradar l'estil de la descripció; 3: La venedora no parlava clar, la descripció era incompleta, però a pesar de tot, la urbanització era una inversió prometedora).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161607Z">
+        <seg>(1: Los inversores, la verdad, prestaban más atención a la vendedora que al producto; 2: Les gustó el estilo de la descripción; 3: La vendedora no hablaba claro, la descripción estaba incompleta, pero a pesar de todo, la urbanización era una inversión prometedora).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(1: Els professors estan barallats i al final els alumnes ho paguen; 2: La baralla d'alumnes havia acabat, però els professors ho van detectar i els van recriminar).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161724Z">
+        <seg>(1: Los profesores están peleados y al final los alumnos lo pagan; 2: La pelea de alumnos había acabado, pero los profesores lo detectaron y los recriminaron).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>(1: Per a qui seria la telefonada que has dit que farien?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155042Z">
+        <seg>(1: ¿Para quién sería la llamada que has dicho que harían?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>--- I les creus?'' (1: Creus aquestes notícies?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160703Z">
+        <seg>--- I les creus?'' (1: ¿crees estas noticias?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>2: A qui has dit que es produiria una telefonada?) &lt;u11&gt; ``A pesar de haber sido soldado, salió despedido del avión'' (1: El sistema fotogràfic estava fortament fixat al fuselatge però es va soltar de l'aparell quan l'avió va girar en ple vol; 2: Malgrat el seu passat militar gloriós, el president el va destituir abans d'arribar a l'aeroport de destinació).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155144Z">
+        <seg>2: ¿A quién has dicho que se produciría una llamada?) &lt;u11&gt; ``A pesar de haber sido soldado, salió despedido del avión'' (1: El sistema fotográfico estaba fuertemente fijado al fuselaje pero se soltó del aparato cuando el avión giró en pleno vuelo; 2: A pesar de su pasado militar glorioso, el presidente lo destituyó antes de llegar al aeropuerto de destino).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>2: Els crucifixos també han rebrotat?).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160738Z">
+        <seg>2: ¿Los crucifijos también han rebrotado?).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;n1&gt;{l|l|l} &lt;u1&gt;&lt;u2&gt; &lt;u3&gt;{Espanyol}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152235Z">
+        <seg>&lt;n0&gt; &lt;n1&gt;{l|l|l} &lt;u1&gt;&lt;u2&gt; &lt;u3&gt;{Español}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Estructural d'adjunció &lt;u2&gt; Lèxica categorial &lt;u3&gt; Estructural d'origen categorial.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151243Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Estructural de adjunción &lt;u2&gt; Léxica categorial &lt;u3&gt; Estructural de origen categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Estructural d'origen coordinatiu &lt;u2&gt; Estructural d'adjunció &lt;u3&gt; Extrasentencial per anàfora</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151633Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Estructural de origen coordinativo &lt;u2&gt; Estructural de adjunción &lt;u3&gt; Extrasentencial por anáfora</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Lèxica categorial &lt;u2&gt; Estructural d'origen categorial &lt;u3&gt; Estructural d'origen coordinatiu</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151332Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Léxica categorial &lt;u2&gt; Estructural de origen categorial &lt;u3&gt; Estructural de origen coordinativo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, perquè les dues formes &lt;i1&gt;vendo&lt;/i1&gt; s'escriuen exactament igual.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151915Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, porque las dos formas &lt;i1&gt;vendo&lt;/i1&gt; se escriben exactamente igual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; &lt;u3&gt; Si traduim automàticament la frase espanyola ``Ayer cantamos las mismas canciones'' i obtenim en anglés ``Yesterday we sing the same songs'' o en francés ``Hier nous chantons les mêmes chansons'', quin tipus d'ambigüitat ha estat mal resolta?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T155115Z">
+        <seg>&lt;n1&gt; &lt;u3&gt; Si traducimos automáticamente la frase ``Ayer cantamos las mismas canciones'' y obtenemos en inglés ``Yesterday we sing the same songs'' o en francés ``Hier nous chantons les mêmes chansons'', ¿qué tipo de ambigüedad ha sido mal resuelta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;p0&gt; A tall d'exemple, considereu aquestes dues frases estructuralment idèntiques afectades per ambigüitat d'adjunció: &lt;n0&gt; &lt;n2&gt; Porta'm les claus de l'armari gran &lt;n4&gt; &lt;n1&gt; &lt;n3&gt; Porta'm les claus de la cadira verda &lt;n5&gt; En l'oració &lt;n6&gt;, podem dubtar, ja que no sabem si les claus són les que obrin l'armari o les que estan allà guardades.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153642Z">
+        <seg>&lt;p0&gt; A modo de ejemplo, considerad estas dos frases estructuralmente idénticas afectadas por ambigüedad de adyunción: &lt;n0&gt; &lt;n2&gt; Tráeme las llaves del armario grande &lt;n4&gt; &lt;n1&gt; &lt;n3&gt; Tráeme las llaves de la silla verde &lt;n5&gt; En la oración &lt;n6&gt;, podemos dudar, puesto que no sabemos si las llaves son las que abren el armario o las que están allá guardadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u10&gt; ``A qui has dit que telefonarien''?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155019Z">
+        <seg>&lt;u10&gt; ``¿A quién has dicho que telefonearían''?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u12&gt; ``Els lladres van ser atrapats a una fàbrica incendiada per un policia'' (1: Els lladres van ser capturats pel comissari a una fàbrica abandonada; 2: La fàbrica on van ser capturats va ser l'objectiu d'un agent piròman).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155519Z">
+        <seg>&lt;u12&gt; ``Los ladrones fueron atrapados en una fábrica incendiada por un policía'' (1: Los ladrones fueron capturados por el comisario en una fábrica abandonada; 2: La fábrica donde fueron capturados fue el objetivo de un agente pirómano).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u13&gt; ``Coto privado de caza'' (1: Aquesta àrea de caça no és pública; 2: Aquesta és una àrea sense caça).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155652Z">
+        <seg>&lt;u13&gt; ``Coto privado de caza'' (1: Este área de caza no es pública; 2: Esta es una área sin caza).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u14&gt; ``Vull ballar i cantar cançons de bressol'' (1: Ballarem durant una estona i després et cantaré perquè et dormes; 2: M'estime tant ballar cançons de bressol com cantar-ne).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160023Z">
+        <seg>&lt;u14&gt; ``Quiero bailar y cantar canciones de cuna'' (1: Bailaremos durante un rato y después te cantaré para que te duermas; 2: Quiero tanto bailar canciones de cuna como cantarlas).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u15&gt; ``El manifestant es refà de la pallissa que li van donar en l'hospital'' (1: La manifestació va ser una mica violenta i algunes persones han hagut de ser traslladades a l'hospital; 2: Quina pallissa va donar-li l'infermera al quiròfan!).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160233Z">
+        <seg>&lt;u15&gt; ``El manifestante se recupera de la paliza que le dieron en el hospital'' (1: La manifestación fue un poco violenta y algunas personas han tenido que ser trasladadas al hospital; 2: ¡Qué paliza le dio la enfermera en el quirófano!).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u16&gt; ``Serviran polp a la gallega'' (1: Serviran polp a una senyora de Galícia; 2: Serviran polp preparat a l'estil gallec).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160245Z">
+        <seg>&lt;u16&gt; ``Servirán pulpo a la gallega'' (1: Servirán pulpo a una señora de Galicia; 2: Servirán pulpo preparado al estilo gallego).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u17&gt; ``No puc veure bé la foto que m'has enviat per correu electrònic perquè no puc tancar totes les finestres'' (1: Encara hi entra sol i es reflecteix en la pantalla; 2: Tinc l'escriptori ple de documents oberts).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160318Z">
+        <seg>&lt;u17&gt; ``No puedo ver bien la foto que me has enviado por correo electrónico porque no puedo cerrar todas las ventanas'' (1: Todavía  entra sol y se refleja en la pantalla; 2: Tengo el escritorio lleno de documentos abiertos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u18&gt; ``Ens va explicar com deien que vindria'' (1: Ens va explicar de quina manera ho deien; 2: Ens va explicar de quina manera vindria segons deien'').</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160359Z">
+        <seg>&lt;u18&gt; ``Nos explicó cómo decían que vendría'' (1: Nos explicó de qué manera lo decían; 2: Nos explicó de qué manera vendría según decían'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; No, sempre cal utilitzar informació de caràcter sintàctic per resoldre-la.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154851Z">
+        <seg>&lt;u1&gt; No, siempre hay que utilizar información de carácter sintáctico para resolverla.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Sí, encara que no continga pronoms o altres expressions anafòriques susceptibles de tenir més d'un antecedent possible.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154703Z">
+        <seg>&lt;u1&gt; Sí, aunque no contenga pronombres u otras expresiones anafóricas susceptibles de tener más de un antecedente posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Sí, pot ser polisèmic encara que la traducció a aquesta llengua de totes les interpretacions siga la mateixa.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T155007Z">
+        <seg>&lt;u1&gt; Sí, puede ser polisémica aunque la traducción a esta lengua de todas las interpretaciones sea la misma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; {&lt;u4&gt;} hi ha algun error en l'anàlisi morfològica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154616Z">
+        <seg>&lt;u1&gt; {&lt;u4&gt;} hay algún error en el análisis morfológico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u20&gt; ``S'han de repassar les entrades i les despeses que s'hagen fet en euros'' (1: Les entrades s'han de repassar totes; les despeses només si s'han fet en euros; 2: De les entrades, se n'han de repassar només les fetes en euros).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160931Z">
+        <seg>&lt;u20&gt; ``Se tienen que repasar las entradas y los gastos que se hayan hecho en euros'' (1: Las entradas se tienen que repasar todas; los gastos sólo si se han hecho en euros; 2: De las entradas, se  tienen que repasar sólo las hechos en euros).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u21&gt; ``Després que la venedora acabà la descripció dels avantatges de la urbanització projectada, el comentari unànime dels inversors va ser que la trobaven molt interessant''.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161511Z">
+        <seg>&lt;u21&gt; ``Después de que la vendedora acabara la descripción de las ventajas de la urbanización proyectada, el comentario unánime de los inversores fue que les parecía muy interesante''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u22&gt; Els professors han renyat els alumnes.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161651Z">
+        <seg>&lt;u22&gt; Los profesores han regañado a los alumnos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u23&gt; ``A la trapezista, últimament, no li eixien els números'' (1: Sempre acabava caent a la xarxa; 2: tenia més despeses que ingressos).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161853Z">
+        <seg>&lt;u23&gt; ``A la trapecista, últimamente, no le salían los números'' (1: Siempre acababa cayendo en la red; 2: tenía más gastos que ingresos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; ... es deu a l'anàfora.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151541Z">
+        <seg>&lt;u2&gt; ... se debe a la anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;i1&gt;Hi havia un gat sota l'automòbil&lt;/i1&gt; (1: ``...perquè acabaven de reparar una roda''; 2: ``...i va eixir corrents quan el vaig posar en marxa'') &lt;u3&gt; &lt;i2&gt;Maria va entrar amb una bossa gran.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T154108Z">
+        <seg>&lt;u2&gt; &lt;i1&gt; Había un gato bajo el automóvil&lt;/i1&gt; (1: ``...porque acababan de reparar una rueda''; 2: ``...y salió corriendo cuando lo puse en marcha'') &lt;u3&gt; &lt;i2&gt;Maria entró con una bolsa grande.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; té un únic arbre d'anàlisi sintàctica i una única anàlisi morfològica, però dues interpretacions semàntiques diferents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164905Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; tiene un único árbol de análisis sintáctico y un único análisis morfológico, pero dos interpretaciones semánticas diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; L'estadística d'aparició conjunta de mots en corpus bilingües de textos pot ajudar a resoldre directament l'ambigüitat de transferència quan es disposa de diccionaris de transferència o quan els textos estan alineats.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162839Z">
+        <seg>&lt;u2&gt; La estadística de aparición conjunta de palabras en corpus bilingües de textos puede ayudar a resolver directamente la ambigüedad de transferencia cuando se dispone de diccionarios de transferencia o cuando los textos están alineados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; No, perquè les dues formes &lt;i2&gt;vendo&lt;/i2&gt; tenen la mateixa categoria lèxica i la mateixa anàlisi morfològica, tret del lema, i, per tant, poden fer exactament les mateixes funcions sintàctiques.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151928Z">
+        <seg>&lt;u2&gt; No, porque las dos formas &lt;i2&gt;vendo&lt;/i2&gt; tienen la misma categoría léxica y el mismo análisis morfológico, sacado del lema, y, por lo tanto, pueden hacer exactamente las mismas funciones sintácticas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, però només si conté pronoms o altres expressions anafòriques susceptibles de tenir més d'un antecedent possible.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154706Z">
+        <seg>&lt;u2&gt; Sí, pero sólo si contiene pronombres u otras expresiones anafóricas susceptibles de tener más de un antecedente posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, usant la informació morfològica dels mots adjacents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154859Z">
+        <seg>&lt;u2&gt; Sí, usando la información morfológica de las palabras adyacentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí; pot ser homògraf i tractar-se d'un passi gratuït.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T155022Z">
+        <seg>&lt;u2&gt; Sí; puede ser homógrafa y tratarse de un pase gratuito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Una ambigüitat sintàctica de l'oració subordinada ``el que fa''</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T155356Z">
+        <seg>&lt;u2&gt; Una ambigüedad sintáctica de la oración subordinada ``lo que hace''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u5&gt;} podem dir que el lema és polisèmic.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154620Z">
+        <seg>&lt;u2&gt; {&lt;u5&gt;} podemos decir que el lema es polisémico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} es pot resoldre usant regles derivades d'un estudi de les preferències sintàctiques observades en experiments psicolingüístics.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154823Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} se puede resolver usando reglas derivadas de un estudio de las preferencias sintácticas observadas en experimentos psicolingüísticos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; ... és estructural d'origen coordinatiu.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151549Z">
+        <seg>&lt;u3&gt; ... es estructural de origen coordinativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; té més d'un arbre d'anàlisi sintàctica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T150943Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; tiene más de un árbol de análisis sintáctico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí, només mirant la categoria lèxica dels mots anteriors i la dels posteriors ja hi ha prou per a saber en quin dels dos casos ens trobem.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152015Z">
+        <seg>&lt;u3&gt; Sí, sólo mirando la categoría léxica de las palabras anteriores y la de los posteriores ya hay bastante para saber en cuál de los dos casos nos encontramos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} no pot afectar mai el resultat de la traducció automàtica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154825Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} no puede afectar nunca el resultado de la traducción automática.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u7&gt; (cast.) &lt;i6&gt;Vale más que las comas&lt;/i6&gt; (1: ``...que els signes de puntuació''; 2:``...que les menges'') &lt;u8&gt; ``El mecánico revisó la suspensión del auto de Garzón'' (1: Aquest mecànic és un expert en legislació i s'ha llegit la resolució judicial sencera; 2: Els amortidors del cotxe de Garzón ja necessitaven una revisió).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120527T201417Z">
+        <seg>&lt;u7&gt; (casto.) &lt;i6&gt;Vale más que las comas&lt;/i6&gt; (1: ``...que los signos de puntuación''; 2:``...que las ingieras'') &lt;u8&gt; ``El mecánico revisó la suspensión del auto de Garzón'' (1: Este mecánico es un experto en legislación y se ha leído la resolución judicial entera; 2: Los amortiguadores del coche de Garzón ya necesitaban una revisión).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u9&gt; ``Mi vecino aseguró que había bajado la bolsa'' (1: La bossa d'escombraries ja és al contenidor; 2: Les meues accions de borsa no deixen de donar-me disgustos).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T154945Z">
+        <seg>&lt;u9&gt; ``Mi vecino aseguró que había bajado la bolsa'' (1: La bolsa de basura ya está en el contenedor; 2: Mis acciones de bolsa no dejan de darme disgustos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>A canvi, hem de fer l'esforç (pressumiblement més lleuger) de predir una entre les possibles continuacions (sintàctiques) del que hem llegit; segons arriben mots, els anem encaixant en l'estructura predita i usem la sintaxi i la interpretació dels mots per a anar construint a poc a poc la interpretació de l'oració completa.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120527T201131Z">
+        <seg>A cambio, tenemos que hacer el esfuerzo (presumiblemente más ligero) de predecir una entre las posibles continuaciones (sintácticas) de lo que hemos leído; según llegan palabras, las vamos encajando en la estructura predicha y usamos la sintaxis y la interpretación de las palabras para ir construyendo poco a poco la interpretación de la oración completa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest epígraf recull unes notes ---no exhaustives--- sobre les estratègies de resolució d'alguns tipus d'ambigüitat en sistemes automàtics de tractament del llenguatge humà.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T160212Z">
+        <seg>Este epígrafe recoge unas notas ---no exhaustivas--- sobre las estrategias de resolución de algunos tipos de ambigüedad en sistemas automáticos de tratamiento del lenguaje humano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta informació podria servir per a traduir després de l'espanyol a l'anglés i elegir {&lt;u6&gt; destiny} o &lt;i12&gt;destination&lt;/i12&gt; en cada cas amb molta probabilitat d'èxit.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163243Z">
+        <seg>Esta información podría servir para traducir después del español al inglés y elegir {&lt;u6&gt; destiny} o destination &lt;i12&gt;&lt;/i12&gt; en cada caso con mucha probabilidad de éxito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquestes estratègies són d'utilitat en els sistemes de traducció automàtica per transferència sintàctica pura, ja que no s'hi fa cap processament semàntic.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120527T201239Z">
+        <seg>Estas estrategias son de utilidad en los sistemas de traducción automática por transferencia sintáctica pura, puesto que no se hace ningún procesamiento semántico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com hem vist, les causes de l'ambigüitat són molt diverses; per això, també són molt diverses les estratègies de resolució.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T160057Z">
+        <seg>Como hemos visto, las causas de la ambigüedad son muy diversas; por eso, también son muy diversas las estrategias de resolución.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Considerem l'aproximació estadística.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120604T084826Z">
+        <seg>Consideremos la aproximación estadística.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Considereu l'homògraf espanyol &lt;i0&gt;vendo&lt;/i0&gt; (``Te vendo un coche'' ``Y yo, ¿para qué quiero un coche vendado?'').</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151834Z">
+        <seg>Considerad el homógrafo &lt;i0&gt;vendo&lt;/i0&gt; (``Te vendo un coche'' ``Y yo, ¿para qué quiero un coche vendado?'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, hi ha experiments psicolingüístics que indiquen que de vegades usem estratègies purament sintàctiques, elegint entre les possibles estructures fins i tot quan no hem sentit o llegit tota l'oració, potser per evitar un esforç intel·lectual excessiu, ja que hi pot haver moltíssimes interpretacions parcials.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T164214Z">
+        <seg>De hecho, hay experimentos psicolingüísticos que indican que a veces usamos estrategias puramente sintácticas, eligiendo entre las posibles estructuras incluso cuando no hemos sentido o leído toda la oración, quizás para evitar un esfuerzo intelectual excesivo, puesto que  puede haber muchísimas interpretaciones parciales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, moltes vegades, només podem recórrer a la semàntica; en l'exemple (ja discutit en la secció &lt;n6&gt;) &lt;n2&gt; &lt;u2&gt;[Els soldats]$_i$ van disparar [als xiquets]$_j$.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163721Z">
+        <seg>De hecho, muchas veces, sólo podemos recurrir a la semántica; en el ejemplo (ya discutido en la sección &lt;n6&gt;) &lt;n2&gt; &lt;u2&gt;[Los soldados]$_i$ dispararon [a los niños]$_j$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De quin tipus d'ambigüitat es tracta?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151318Z">
+        <seg>¿De qué tipo de ambigüedad se trata?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De quina classe és l'ambigüitat de l'oració ``Va vendre les taronges que havia comprat a Maria''?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151621Z">
+        <seg>¿De qué clase es la ambigüedad de la oración ``Vendió las naranjas que había comprado a Maria''?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El diccionari estableix (entre d'altres) les correspondències següents (s'hi indica la freqüència del mot en el text en &lt;i2&gt;séverla&lt;/i2&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152226Z">
+        <seg>El diccionario establece (entre otros) las correspondencias siguientes (se indica la frecuencia de la palabra en el texto en &lt;i2&gt;séverla&lt;/i2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El punt de vista purament sintàctic és clarament una simplificació excessiva; moltes vegades, les persones resolem l'ambigüitat estructural usant informació semàntica o fins i tot lèxico-semàntica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153502Z">
+        <seg>El punto de vista puramente sintáctico es claramente una simplificación excesiva; muchas veces, las personas resolvemos la ambigüedad estructural usando información semántica o incluso lèxico-semántica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Elegiu dues llengües, $L_1$ i $L_2$ i poseu dos exemples de traduccions errònies de $L_1$ a $L_2$, indicant la frase original, la frase mal traduïda i la frase correcta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154559Z">
+        <seg>Elegid dos lenguas, $L_1$ y $L_2$ y poned dos ejemplos de traducciones erróneas de $L_1$ a $L_2$, indicando la frase original, la frase mal traducida y la frase correcta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Elegiu una llengua origen i una llengua meta (francés, anglés, alemany, català o espanyol) i poseu un exemple d'oració per a cada un dels tres casos anteriors, on siga necessari un determinat nivell d'anàlisi per tal de resoldre una ambigüitat i produir-ne la traducció correcta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T162158Z">
+        <seg>Elegid una lengua origen y una lengua meta (francés, inglés, alemán, catalán o español) y poned un ejemplo de oración para cada uno de los tres casos anteriores, donde sea necesario un determinado nivel de análisis para resolver una ambigüedad y producir la traducción correcta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els sistemes de traducció mot per mot poden cometre, per exemple, errors deguts a l'elecció incorrecta de la categoria gramatical d'un mot lèxicament ambigu.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154531Z">
+        <seg>Los sistemas de traducción palabra por palabra pueden cometer, por ejemplo, errores debidos a la elección incorrecta de la categoría gramatical de una palabra léxicamente ambigua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els$_{i/j?}$ vaig veure caure &lt;n5&gt; s'ha d'usar informació semàntica per a saber quin és l'antecedent d'&lt;i7&gt;els&lt;/i7&gt; en la segona oració (&lt;i8&gt;els soldats&lt;/i8&gt; o &lt;i9&gt;els xiquets&lt;/i9&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163821Z">
+        <seg>Los$_{i/j?}$ vi caer &lt;n5&gt; se tiene que usar información semántica para saber cuál es el antecedente de &lt;i7&gt;les &lt;/i7&gt; en la segunda oración (&lt;i8&gt;los soldados&lt;/i8&gt; o los &lt;i9&gt;niños&lt;/i9&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En absència d'informació lèxica o semàntica, l'ambigüitat estructural{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} és impossible de resoldre.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154806Z">
+        <seg>En ausencia de información léxica o semántica, la ambigüedad estructural{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} es imposible de resolver.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En canvi, en l'oració &lt;n7&gt; no considerem la primera interpretació (encara que siga la preferida sintàcticament), perquè no és gens versemblant que les cadires tinguen pany (hem usat informació semàntica basada en les nostres creences sobre el món).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153741Z">
+        <seg>En cambio, en la oración &lt;n7&gt; no consideramos la primera interpretación (aunque sea la preferida sintácticamente), porque no es nada verosímil que las sillas tengan cerradura (hemos usado información semántica basada en nuestras creencias sobre el mundo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En canvi, si diem &lt;n1&gt;Marta va parlar i ella va caure&lt;n4&gt; no es pot descartar completament que l'antecedent d'&lt;i5&gt;ella&lt;/i5&gt; siga &lt;i6&gt;Marta&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163633Z">
+        <seg>En cambio, si decimos &lt;n1&gt;Marta habló y ella cayó&lt;n4&gt; no se puede descartar completamente que el antecedente de &lt;i5&gt;ella&lt;/i5&gt; sea &lt;i6&gt;Marta&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En el text en &lt;i0&gt;séverla&lt;/i0&gt; trobem, a més, les freqüències següents per a grups de dos mots (només es llisten els grups que apareixen alguna vegada): &lt;n2&gt; &lt;n3&gt;{l|l} &lt;u0&gt;&lt;u1&gt; &lt;u2&gt;{Grup}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152551Z">
+        <seg>En el texto en &lt;i0&gt;séverla&lt;/i0&gt; encontramos, además, las frecuencias siguientes para grupos de dos palabras (sólo se listan los grupos que aparecen alguna vez): &lt;n2&gt; &lt;n3&gt;{l|l} &lt;u0&gt;&lt;u1&gt; &lt;u2&gt;{Grupo}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En general, el coneixement lingüístic permet establir &lt;i0&gt;restriccions&lt;/i0&gt; que prohibeixen certes seqüències de categories lèxiques, però no eliminen completament l'ambigüitat; per això, s'usen sempre conjuntament amb mètodes estadístics com els descrits, que permeten establir &lt;i1&gt;preferències&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T161458Z">
+        <seg>En general, el conocimiento lingüístico permite establecer &lt;i0&gt;restricciones&lt;/i0&gt; que prohiben ciertas secuencias de categorías léxicas, pero no eliminan completamente la ambigüedad; por eso, se usan siempre conjuntamente con métodos estadísticos como los descritos, que permiten establecer &lt;i1&gt;preferencias&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En general, els humans usem les nostres creences sobre el funcionament del món real (o d'un món fictici concret, com en una novel·la) per a elegir una de les interpretacions com a més versemblant (és a dir, per a &lt;i0&gt;resoldre l'ambigüitat&lt;/i0&gt;); quan aquestes creences són compartides entre l'emissor i el receptor, es pot usar l'ambigüitat com un mecanisme molt eficient per a produir missatges més curts.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T155958Z">
+        <seg>En general, los humanos usamos nuestras creencias sobre el funcionamiento del mundo real (o de un mundo ficticio concreto, como en una novela) para elegir una de las interpretaciones como más verosímil (es decir, para &lt;i0&gt;resolver la ambigüedad&lt;/i0&gt;); cuando estas creencias son compartidas entre el emisor y el receptor, se puede usar la ambigüedad como un mecanismo muy eficiente para producir mensajes más cortos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En l'oració &lt;i0&gt;El cotxe s'ha cremat amb el garatge i l'assegurança no el cobreix&lt;/i0&gt; no se sap quina de les dues coses està coberta per l'assegurança, el garatge o el cotxe.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151521Z">
+        <seg>En la oración &lt;i0&gt;El coche se ha quemado con el garaje y el seguro no lo cubre&lt;/i0&gt; no se sabe qué de las dos cosas está cubierta por el seguro, el garaje o el coche.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En principi, es podria dir que les persones resolem l'ambigüitat estructural ---pura o d'origen categorial--- elegint, usant les interpretacions assignades a cada una de les estructures possibles (principi de composicionalitat), quina és la més versemblant en una situació comunicativa determinada.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T164037Z">
+        <seg>En principio, se podría decir que las personas resolvemos la ambigüedad estructural ---pura o de origen categorial--- eligiendo, usando las interpretaciones asignadas a cada una de las estructuras posibles (principio de composicionalidad), cuál es la más verosímil en una situación comunicativa determinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En traducció automàtica, estem interessats a elegir una de les interpretacions possibles, perquè és comú que els mots polisèmics tinguen diverses traduccions (l'&lt;i3&gt;ambigüitat de transferència&lt;/i3&gt; esmentada en l'apartat &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162030Z">
+        <seg>En traducción automática, estamos interesados en elegir una de las interpretaciones posibles, porque es común que las palabras polisémicas tengan varias traducciones (la &lt;i3&gt;ambigüedad de transferencia&lt;/i3&gt; mencionada en el apartado &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es podria argumentar fàcilment en contra dient que en frases complexes (per exemple, l'oració &lt;n0&gt;) hi ha massa estructures a considerar.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120527T201022Z">
+        <seg>Se podría argumentar en contra fácilmente diciendo que en frases complejas (por ejemplo, la oración &lt;n0&gt;) hay demasiadas estructuras a considerar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es pot resoldre l'ambigüitat lèxica a què dóna lloc usant només informació sintàctica (és a dir, sobre les categories lèxiques que l'acompanyen en l'oració)?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151904Z">
+        <seg>¿Se puede resolver la ambigüedad léxica a la que da lugar usando sólo información sintáctica (es decir, sobre las categorías léxicas que lo acompañan en la oración)?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Estratègies de resolució de l'ambigüitat</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T155848Z">
+        <seg>Estrategias de resolución de la ambigüedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Expliqueu quina informació usa el sistema en cada cas per a prendre una decisió.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T162209Z">
+        <seg>Explicad qué información usa el sistema en cada caso para tomar una decisión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Heus ací alguns exemples d'oracions que ``ens porten a l'hort'', amb una continuació inesperada en les notes a peu de pàgina: &lt;n2&gt; Joan besà Maria i la seua germana&lt;u0&gt;&lt;p0&gt; &lt;n8&gt; &lt;n3&gt; Com que Joan sempre corre un parell de quilòmetres&lt;u1&gt;&lt;p1&gt; &lt;n9&gt; &lt;n4&gt; En el otro accidente murieron sesenta y cinco&lt;u2&gt;&lt;p2&gt; &lt;n10&gt; &lt;n5&gt; The horse raced by the barn&lt;u3&gt;&lt;p3&gt; &lt;n11&gt; Aquests processos de selecció purament sintàctica dónen com a resultat que hi ha certes estructures finals que són preferides a altres, potser perquè simplifiquen la comprensió.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120604T085011Z">
+        <seg>He aquí algunos ejemplos de oraciones que ``nos llevan al huerto'', con una continuación inesperada en las notas a pie de página: &lt;n2&gt; Juan besó a Maria y a su hermana&lt;u0&gt;&lt;p0&gt; &lt;n8&gt; &lt;n3&gt; Com que Joan sempre corre un parell de quilòmetres&lt;u1&gt;&lt;p1&gt; &lt;n9&gt; &lt;n4&gt; En el otro accidente murieron sesenta y cinco&lt;u2&gt;&lt;p2&gt; &lt;n10&gt; &lt;n5&gt; The horse raced by the barn&lt;u3&gt;&lt;p3&gt; &lt;n11&gt; Estos procesos de selección puramente sintáctica dan como resultado que hay ciertas estructuras finales que se prefieren a otras, quizás porque simplifican la comprensión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha ambigüitats de tipus lèxic que poden ser sempre correctament resoltes després de fer una anàlisi morfològica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161907Z">
+        <seg>Hay ambigüedades de tipo léxico que pueden ser siempre correctamente resueltas después de hacer un análisis morfológico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imagineu que teniu un text de 1.000.000 de mots en l'idioma &lt;i0&gt;séverla&lt;/i0&gt; i un diccionari de correspondències espanyol--&lt;i1&gt;séverla&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152145Z">
+        <seg>Imaginad que tenéis un texto de 1.000.000 de palabras en el idioma &lt;i0&gt;séverla&lt;/i0&gt; y un diccionario de correspondencias español--&lt;i1&gt;séverla&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu com es podria usar la informació present en aquestes traduccions per a resoldre les ambigüitats que es troba un sistema de traducció automàtica quan tradueix &lt;i0&gt;els mateixos textos&lt;/i0&gt; a una altra llengua $L_3$ (Martin Kay, de Xerox Palo Alto, Califòrnia, anomena aquest procés &lt;i1&gt;triangulació en la traducció&lt;/i1&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152843Z">
+        <seg>Indicad cómo se podría usar la información presente en estas traducciones para resolver las ambigüedades que se encuentra un sistema de traducción automática cuando traduce &lt;i0&gt;los mismos textos&lt;/i0&gt; a otra lengua $L_3$ (Martin Kay, de Xerox Palo Alto, California, denomina este proceso &lt;i1&gt;triangulación en la traducción&lt;/i1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu com traduïríeu les següents expressions espanyoles al séverla i perquè heu elegit aqueixa traducció i no una altra: &lt;n3&gt; &lt;u0&gt; &lt;i0&gt;dirección postal&lt;/i0&gt; &lt;u1&gt; &lt;i1&gt;dirección electrónica&lt;/i1&gt; &lt;u2&gt; &lt;i2&gt;dirección asistida&lt;/i2&gt; &lt;u3&gt; &lt;i3&gt;dirección general&lt;/i3&gt; &lt;u4&gt; &lt;i4&gt;diseño moderno&lt;/i4&gt; &lt;u5&gt; &lt;i5&gt;diseño asistido</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120527T201513Z">
+        <seg>Indicad como traduciríais las siguientes expresiones españolas al séverla y por qué habéis elegido esa traducción y no otra: &lt;n3&gt; &lt;u0&gt; &lt;i0&gt;dirección postal&lt;/i0&gt; &lt;u1&gt; &lt;i1&gt;dirección electrónica&lt;/i1&gt; &lt;u2&gt; &lt;i2&gt;dirección asistida&lt;/i2&gt; &lt;u3&gt; &lt;i3&gt;dirección general&lt;/i3&gt; &lt;u4&gt; &lt;i4&gt;diseño moderno&lt;/i4&gt; &lt;u5&gt; &lt;i5&gt;diseño asistido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu de quina classe d'ambigüitat es tracta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151233Z">
+        <seg>Indicad de qué clase de ambigüedad se trata.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu quina classe d'ambigüitat presenten aquestes frases (justifiqueu molt breument la vostra resposta): &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Expulsaran l'alcalde de la ciutat&lt;/i0&gt; (1: ``L'alcalde de la ciutat serà expulsat.'' 2: ``L'alcalde serà expulsat de la ciutat'').</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T154006Z">
+        <seg>Indicad qué clase de ambigüedad presentan estas frases (justificad muy brevemente vuestra respuesta): &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Expulsarán al alcalde de la ciudad&lt;/i0&gt; (1: ``El alcalde de la ciudad será expulsado.'' 2: ``El alcalde será expulsado de la ciudad'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Jo la vaig posar damunt de la taula&lt;/i2&gt; (1: ``Vaig posar Maria damunt de la taula''; 2: ``Vaig posar la bossa damunt de la taula'') &lt;u4&gt; &lt;i3&gt;Què vols, galetes o pa de la tia Pepa?&lt;/i3&gt; (Les galetes són també de la tia Pepa?) &lt;u5&gt; &lt;i4&gt;Posa una mà de paper en la impressora i connecta-la.&lt;/i4&gt; (Ha de connectar la mà de paper o la impressora?) &lt;u6&gt; &lt;i5&gt;Us han dit que vaja?&lt;/i5&gt; (Qui ha d'anar?).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T154442Z">
+        <seg>Yo la puse encima de la mesa&lt;/i2&gt; (1: ``Puse a Maria encima de la mesa''; 2: ``Puse la bolsa encima de la mesa'') &lt;u4&gt; &lt;i3&gt;¿Qué quieres, galletas o pan de la tía Pepa?&lt;/i3&gt; (¿Las galletas son también de la tía Pepa?) &lt;u5&gt; &lt;i4&gt;Pon una mano de papel en la impresora y conéctala.&lt;/i4&gt; (¿Tiene que conectar la mano de papel o la impresora?) &lt;u6&gt; &lt;i5&gt;¿Os han dicho que vaya?&lt;/i5&gt; (¿Quién tiene que ir?).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat es resol normalment usant bé el coneixement lingüístic, bé tècniques estadístiques basades en la freqüència d'aparició en els textos de determinades seqüències curtes (combinacions) de categories lèxiques, o bé les dues aproximacions alhora.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T160730Z">
+        <seg>La ambigüedad se resuelve normalmente empleando bien el conocimiento lingüístico, bien técnicas estadísticas basadas en la frecuencia de aparición en los textos de determinadas secuencias cortas (combinaciones) de categorías léxicas, o bien las dos aproximaciones a la vez.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat... &lt;n0&gt; &lt;u1&gt; ... es deu a l'el·lipsi.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151534Z">
+        <seg>La ambigüedad... &lt;n0&gt; &lt;u1&gt; ... se debe a la elipsis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'anàfora d'un pronom buit &lt;u1&gt; L'anàfora del pronom &lt;i0&gt;que&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T155342Z">
+        <seg>La anáfora de un pronombre vacío &lt;u1&gt; La anáfora del pronombre &lt;i0&gt;que&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'exemple clàssic és &lt;i5&gt;Wordnet&lt;/i5&gt;, &lt;u0&gt;{http://www.cogsci.princeton.edu/ wn/</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162238Z">
+        <seg>El ejemplo clásico es &lt;i5&gt;Wordnet&lt;/i5&gt;, &lt;u0&gt;{http://www.cogsci.princeton.edu/ wn/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'experiència ens ajuda a fer prediccions que en general tenen èxit, però de vegades hi ha oracions ``enganyoses'' que ``ens porten a l'hort'' (anomenades, per això, en anglés &lt;i1&gt;garden-path sentences&lt;/i1&gt;; de fet) ja que en cert punt del procés ens obliguen a descartar la predicció feta i reinterpretar el que havíem llegit fins a aquell punt (l'estudi dels moviments oculars durant la lectura donen pistes molt rellevants sobre l'existència d'aquests processos).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T164739Z">
+        <seg>La experiencia nos ayuda a hacer predicciones que en general tienen éxito, pero a veces hay oraciones ``engañosas'' que ``nos llevan al huerto'' (llamadas, por eso, en inglés &lt;i1&gt;garden-path sentences&lt;/i1&gt;; de hecho) puesto que en cierto punto del proceso nos obligan a descartar la predicción hecha y reinterpretar el que habíamos leído hasta ese punto (el estudio de los movimientos oculares durante la lectura dan pistas muy relevantes sobre la existencia de estos procesos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La desambiguació s'efectua usant informació procedent de tres fonts: el &lt;i1&gt;cotext&lt;/i1&gt; (intern al text o discurs) i el &lt;i2&gt;context&lt;/i2&gt; (extern al text o discurs però relacionat amb ell) i fonts de coneixement addicionals.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T161914Z">
+        <seg>La desambiguación se efectúa usando información procedente de tres fuentes: el &lt;i1&gt;cotexto&lt;/i1&gt; (interno al texto o discurso) y el &lt;i2&gt;contexto&lt;/i2&gt; (externo al texto o discurso pero relacionado con él) y fuentes de conocimiento adicionales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La frase ``M'agrada més que la bata'' pot tenir dues interpretacions; en la primera es parla d'una prenda de vestir; en la segona, d'una preferència a l'hora de preparar, per exemple, una salsa.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151018Z">
+        <seg>La frase ``Me gusta más que la bata'' puede tener dos interpretaciones; en la primera se habla de una prenda de vestir; en la segunda, de una preferencia a la hora de preparar, por ejemplo, una salsa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La frase ``baixa i puja amb ascensor'' pot voler dir ``(baixa) i (puja amb ascensor)'' o ``(baixa i puja) amb ascensor''.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151306Z">
+        <seg>La frase ``baja y sube con ascensor'' puede querer decir ``(baja) y (sube con ascensor)'' o ``(baja y sube) con ascensor''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La informació present en diccionaris electrònics preexistents pot servir per a construir aquestes xarxes o ser usada directament per a la resolució de la polisèmia.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162558Z">
+        <seg>La información presente en diccionarios electrónicos preexistentes puede servir para construir estas redes o ser usada directamente para la resolución de la polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La informació sintàctica pot ser més rellevant que no ho sembla: si diem &lt;n0&gt;Marta va parlar amb ella&lt;n3&gt; l'antecedent d'&lt;i3&gt;ella&lt;/i3&gt; no pot ser &lt;i4&gt;Marta&lt;/i4&gt; (es tracta d'una restricció sintàctica).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163608Z">
+        <seg>La información sintáctica puede ser más relevante de lo que parece: si decimos &lt;n0&gt;Marta habló con ella&lt;n3&gt; el antecedente de &lt;i3&gt;ella&lt;/i3&gt; no puede ser &lt;i4&gt;Marta&lt;/i4&gt; (se trata de una restricción sintáctica).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La resolució de l'ambigüitat lèxica categorial, altrament coneguda com etiquetatge (dels mots) amb parts de l'oració (en anglés, &lt;i0&gt;part-of-speech (PoS) tagging&lt;/i0&gt;) està molt ben estudiada.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T160625Z">
+        <seg>La resolución de la ambigüedad léxica categorial, también conocida como etiquetado (de las palabras) con partes de la oración (en inglés, &lt;i0&gt;part-of-speech (PoS) tagging&lt;/i0&gt;) está muy bien estudiada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La resolució de la polisèmia (en anglés habitualment &lt;i0&gt;word sense disambiguation&lt;/i0&gt;) consisteix a assignar a un mot polisèmic, en un text o discurs, una interpretació concreta, possiblement diferent de les que podria tenir en altres textos (o contextos).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T161623Z">
+        <seg>La resolución de la polisemia (en inglés habitualmente &lt;i0&gt;word sense disambiguation&lt;/i0&gt;) consiste en asignar a una palabra polisémica, en un texto o discurso, una interpretación concreta, posiblemente diferente de las que podría tener en otros textos (o contextos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La resolució de la polisèmia s'ha abordat des de perspectives molt diverses (vegeu &lt;u0&gt;{ide98j}); heus-ne ací dues: &lt;n0&gt; &lt;u1&gt; L'ús de &lt;i0&gt;xarxes semàntiques&lt;/i0&gt; on els conceptes se situen en els nodes (nusos) de la xarxa i s'agrupen jeràrquicament en superconceptes cada vegada més generals (per exemple, els conceptes &lt;i1&gt;poma&lt;/i1&gt;, &lt;i2&gt;pera&lt;/i2&gt;, &lt;i3&gt;taronja&lt;/i3&gt; s'agruparien sota el concepte &lt;i4&gt;fruita&lt;/i4&gt;).&lt;p0&gt;, que s'està generalitzant a altres llengües d'Europa (&lt;u3&gt;{http://www.dcs.shef.ac.uk/nlp/funded/eurowordnet.html}).} Quan tenim un mot polisèmic, és que li podem associar més d'un concepte.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120527T200824Z">
+        <seg>La resolución de la polisemia se ha abordado desde perspectivas muy diversas (véase &lt;u0&gt;{ide98j}); aquí tenéis dos: &lt;n0&gt; &lt;u1&gt; El uso de redes &lt;i0&gt;semánticas&lt;/i0&gt; donde los conceptos se sitúan en los nodos (nudos) de la red y se agrupan jerárquicamente en superconceptos cada vez más generales (por ejemplo, los conceptos &lt;i1&gt;manzana&lt;/i1&gt;, &lt;i2&gt;pera&lt;/i2&gt;, &lt;i3&gt;naranja&lt;/i3&gt; se agruparían bajo el concepto &lt;i4&gt;fruta&lt;/i4&gt;).&lt;p0&gt;, que se está generalizando a otras lenguas de Europa (&lt;u3&gt;{http://www.dcs.shef.ac.uk/nlp/funded/eurowordnet.html}).} Cuando tenemos una palabra polisémica, es que le podemos asociar más de un concepto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Moltes vegades, l'ambigüitat lèxica no és ni polisèmia ({&lt;u1&gt; estació}, {&lt;u2&gt; bomba}), ni ambigüitat lèxica amb canvi de categoria gramatical ({&lt;u3&gt; sobre} [preposició, substantiu i, en la varietat valenciana, verb], {&lt;u4&gt; riu} [substantiu i verb]) sinó que succeeix perquè dues formes {&lt;u5&gt; de la mateixa categoria lèxica&lt;u18&gt;} són homògrafes: {&lt;u6&gt; volem&lt;u19&gt;} pot ser una forma del verb {&lt;u7&gt; volar&lt;u20&gt;} i del verb {&lt;u8&gt; voler&lt;u21&gt;}; {&lt;u9&gt; podeu&lt;u22&gt;} pot ser una forma del verb {&lt;u10&gt; poder&lt;u23&gt;} i del verb {&lt;u11&gt; podar}; en espanyol, {&lt;u12&gt; creo&lt;u24&gt;} és una forma de {&lt;u13&gt; creer&lt;u25&gt;} o de {&lt;u14&gt; crear}, {&lt;u15&gt; fui} és una forma de {&lt;u16&gt; ir&lt;u26&gt;} o de {&lt;u17&gt; ser}, etc.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T153152Z">
+        <seg>Muchas veces, la ambigüedad léxica no es ni polisemia ({&lt;u1&gt; estación}, {&lt;u2&gt; bomba}), ni ambigüedad léxica con cambio de categoría gramatical ({&lt;u3&gt; sobre} [preposición, sustantivo y, en la variedad valenciana del catalán, verbo], {&lt;u4&gt; riu} [sustantivo y verbo]) sino que sucede porque dos formas {&lt;u5&gt; de la misma categoría léxica&lt;u18&gt;} son homógrafas: {&lt;u6&gt; volem&lt;u19&gt;} en catalán puede ser una forma del verbo {&lt;u7&gt; volar&lt;u20&gt;} y del verbo {&lt;u8&gt; voler&lt;u21&gt;}; {&lt;u9&gt; podéis&lt;u22&gt;} puede ser una forma del verbo {&lt;u10&gt; poder&lt;u23&gt;} y del verbo {&lt;u11&gt; podar}; en español, {&lt;u12&gt; creo&lt;u24&gt;} es una forma {&lt;u13&gt; de creer&lt;u25&gt;} o de {&lt;u14&gt; crear}, {&lt;u15&gt; fui} es una forma de {&lt;u16&gt; ir&lt;u26&gt;} o de {&lt;u17&gt; ser }, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No obstant això, hi ha d'altres que només poden ser tractades si es fa una anàlisi sintàctica (tot i que l'ambigüitat siga de tipus lèxic) i fins i tot n'hi ha que requeririen una anàlisi semàntica per a resoldre-les.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161943Z">
+        <seg>Sin embargo, hay otras que sólo pueden ser tratadas si se hace un análisis sintáctico (a pesar de que la ambigüedad sea de tipo léxico) e incluso las hay que requerirían un análisis semántico para resolverlas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No, aquest tipus d'ambigüitat exigeix un tractament semàntic com a mínim.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154843Z">
+        <seg>No, este tipo de ambigüedad exige un tratamiento semántico como mínimo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No: ho prohibeix el principi de composicionalitat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154652Z">
+        <seg>No: lo prohíbe el principio de composicionalidad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a elegir-ne un, podem, per exemple, prendre tots els possibles sentits del mot ambigu i assignar-los el sentit associat al concepte que està més prop dels conceptes representats pels mots veïns en el text.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162530Z">
+        <seg>Para elegir uno, podemos, por ejemplo, tomar todos los posibles sentidos de la palabra ambigua y asignarles el sentido asociado al concepto que está más cerca de los conceptos representados por las palabras vecinas en el texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a inspirar-vos, fixeu-vos en els següents exemples: &lt;n0&gt; &lt;u1&gt; &lt;i0&gt;Va aprendre en dos minuts a afaitar-se&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;Va aprendre a afaitar-se en dos minuts&lt;/i1&gt; &lt;u3&gt; &lt;i2&gt;Porta'm les claus de l'armari gran&lt;/i2&gt; &lt;u4&gt; &lt;i3&gt;Porta'm de l'armari gran les claus&lt;/i3&gt; &lt;u5&gt; &lt;i4&gt;Porta'm les claus de la cadira verda&lt;/i4&gt; &lt;u6&gt; &lt;i5&gt;Toni comprarà les taronges que ha de vendre a Reme&lt;/i5&gt; &lt;u7&gt; &lt;i6&gt;Toni comprarà a Reme les taronges que ha de vendre</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T163132Z">
+        <seg>Para inspiraros, fijaos en los siguientes ejemplos: &lt;n0&gt; &lt;u1&gt; &lt;i0&gt;Aprendió en dos minutos a afeitarse&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;Aprendió a afeitarse en dos minutos&lt;/i1&gt; &lt;u3&gt; &lt;i2&gt;Tráeme las llaves del armario grande&lt;/i2&gt; &lt;u4&gt; &lt;i3&gt;Tráeme del armario grande las llaves&lt;/i3&gt; &lt;u5&gt; &lt;i4&gt;Tráeme las llaves de la silla verde&lt;/i4&gt; &lt;u6&gt; &lt;i5&gt;Toni comprará las naranjas que tiene que vender a Reme&lt;/i5&gt; &lt;u7&gt; &lt;i6&gt;Toni comprará a Reme las naranjas que tiene que vender</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a resoldre l'ambigüitat d'un mot polisèmic s'ha d'usar informació semàntica; per a resoldre l'ambigüitat lèxica categorial sol ser suficient usar informació sintàctica (per exemple, la categoria gramatical del mots anterior i posterior); però, és possible resoldre l'ambigüitat deguda a l'homografia de mots de la mateixa categoria usant només la sintaxi o és necessari l'ús d'informació semàntica?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154450Z">
+        <seg>Para resolver la ambigüedad de una palabra polisémica se tiene que usar información semántica; para resolver la ambigüedad léxica categorial suele ser suficiente con usar información sintáctica (por ejemplo, la categoría gramatical de la palabra anterior y posterior); pero, ¿es posible resolver la ambigüedad debida a la homografía de palabras de la misma categoría usando sólo la sintaxis o es necesario el uso de información semántica?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot espanyol &lt;i0&gt;ahorro&lt;/i0&gt; pot ser substantiu o verb.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T160947Z">
+        <seg>Por ejemplo, la palabra &lt;i0&gt;ahorro&lt;/i0&gt; puede ser sustantivo o verbo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el verb &lt;i0&gt;vendre&lt;/i0&gt; admet un objecte directe i un d'indirecte, però el verb &lt;i1&gt;menjar&lt;/i1&gt; només el directe, de manera que si diem ``Va presentar l'home que venia taronges a Joan'' es pot interpretar de dues maneres, però si diem la frase estructuralment idèntica ``Va presentar l'home que menjava taronges a Joan'' no hi ha més que una interpretació possible.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120604T085127Z">
+        <seg>Por ejemplo, el verbo &lt;i0&gt;vender&lt;/i0&gt; admite un objeto directo y uno indirecto, pero el verbo &lt;i1&gt;comer&lt;/i1&gt; sólo el directo, de forma que si decimos ``Le presentó el hombre que vendía naranjas a Juan'' se puede interpretar de dos maneras, pero si decimos la frase estructuralmente idéntica ``Le presentó a el hombre que comía naranjas a Juan'' no hay más que una interpretación posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, si en un corpus bilingüe espanyol--català l'aparició de &lt;i6&gt;destino&lt;/i6&gt; prop d'{&lt;u4&gt; incierto} en espanyol coincideix amb l'aparició de &lt;i7&gt;destí&lt;/i7&gt; en català, podem dir que el mot &lt;i8&gt;destino&lt;/i8&gt; té en aquest cas la interpretació de ``sort futura''; en canvi, si l'aparició de {&lt;u5&gt; destino} prop d'&lt;i9&gt;estación&lt;/i9&gt; o &lt;i10&gt;aeropuerto&lt;/i10&gt; en espanyol coincideix amb l'aparició &lt;i11&gt;destinació&lt;/i11&gt; en català, podem elegir el sentit de ``punt d'arribada''.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163219Z">
+        <seg>Por ejemplo, si en un corpus bilingüe español--catalán la aparición de destino &lt;i6&gt;&lt;/i6&gt; cerca de {&lt;u4&gt; incierto} en español coincide con la aparición de destí &lt;i7&gt;&lt;/i7&gt; en catalán, podemos decir que la palabra &lt;i8&gt;destino&lt;/i8&gt; tiene en este caso la interpretación de ``suerte futura''; en cambio, si la aparición de destino {&lt;u5&gt; } cerca de &lt;i9&gt;estación&lt;/i9&gt; o aeropuerto &lt;i10&gt;&lt;/i10&gt; en español coincide con la aparición &lt;i11&gt;destinació&lt;/i11&gt; en catalán, podemos elegir el sentido de ``punto de llegada''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, si llegim &lt;n6&gt; Va aprendre a afaitar-se en dos minuts &lt;n12&gt; podríem considerar la interpretació que s'hi parla de la durada de l'afaitat com a més probable que la que interpreta que s'hi parla de la durada de l'aprenentatge, ja que en el segon cas potser hauria estat més natural dir &lt;n7&gt; Va aprendre en dos minuts a afaitar-se &lt;n13&gt; La regla que afavoreix que els adjunts s'associen a l'últim sintagma que els admeta se sol anomenar regla de &lt;i2&gt;clausura tardana&lt;/i2&gt; ---angl.&lt;u4&gt;&lt;i3&gt;late closure&lt;/i3&gt;---; per exemple, aquesta regla afavoreix el primer dels arbres de la figura &lt;n1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120604T085053Z">
+        <seg>Por ejemplo, si leemos &lt;n6&gt; Aprendió a afeitarse en dos minutos &lt;n12&gt; podríamos considerar la interpretación que se  habla de la duración del afeitado como más probable que la que interpreta que se  habla de la duración del aprendizaje, puesto que en el segundo caso quizás habría sido más natural decir &lt;n7&gt; Aprendió en dos minutos a afeitarse &lt;n13&gt; La regla que favorece que los adjuntos se asocien al último sintagma que los admita se suele denominar regla de &lt;i2&gt;clausura tardía&lt;/i2&gt; ---angl.&lt;u4&gt;&lt;i3&gt;late closure&lt;/i3&gt;---; por ejemplo, esta regla favorece el primero de los árboles de la figura &lt;n1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pot una oració tenir més d'una traducció a un altre idioma malgrat estar formada completament per mots que no són ni homògrafs ni polisèmics en la llengua original?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154645Z">
+        <seg>¿Puede una oración tener más de una traducción a otro idioma a pesar de estar formada completamente por palabras que no son ni homógrafas ni polisémicas en la lengua original?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Qüestions, exercicis i problemes</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153841Z">
+        <seg>Cuestiones, ejercicios y problemas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S'accepta comunament que la major part dels mots polisèmics d'un text (o d'un fragment del text) solen tenir una única interpretació en un text donat, però aquest principi s'ha de concretar en un mètode concret per a resoldre la polisèmia.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162225Z">
+        <seg>Se acepta comúnmente que la mayor parte de las palabras polisémicas de un texto (o de un fragmento del texto) suelen tener una única interpretación en un texto dado, pero este principio se tiene que concretar en un método concreto para resolver la polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Segons aquest model, les persones consideraríem sempre &lt;i0&gt;totes&lt;/i0&gt; les estructures sintàctiques.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T164051Z">
+        <seg>Según este modelo, las personas consideraríamos siempre &lt;i0&gt;todas&lt;/i0&gt; las estructuras sintácticas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si apareix entre un article i un adjectiu com ara en &lt;i1&gt;el ahorro doméstico&lt;/i1&gt; no hi ha cap dubte que es tracta d'un substantiu: la seqüència article--nom--adjectiu és molt més freqüent que no la seqüència article--verb en forma personal--substantiu (el coneixement lingüístic ens permetria descartar la segona possibilitat amb seguretat quasi total).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120604T084943Z">
+        <seg>Si aparece entre un artículo y un adjetivo como por ejemplo en &lt;i1&gt;el ahorro doméstico&lt;/i1&gt; no hay ninguna duda de que se trata de un sustantivo: la secuencia artículo--nombre--adjetivo es mucho más frecuente que no la secuencia artículo--verbo en forma personal--sustantivo (el conocimiento lingüístico nos permitiría descartar la segunda posibilidad con seguridad casi total).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si el sistema de traducció automàtica és capaç d'usar informació semàntica, podria elegir correctament en aquest cas.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153757Z">
+        <seg>Si el sistema de traducción automática es capaz de usar información semántica, podría elegir correctamente en este caso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si prenem un corpus (conjunt) suficientment gran de textos correctes i comptem quantes voltes apareixen totes les seqüències possibles de tres categories lèxiques, podem usar aquestes freqüències per a assignar la categoria d'un mot ambigu: de totes les seqüències de tres mots possibles que es puguen formar amb aquest mot, en prendrem la més freqüent.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Elena" changedate="20120527T201011Z">
+        <seg>Si tomamos un corpus (conjunto) suficientemente grande de textos correctos y contamos cuántas veces aparecen todas las secuencias posibles de tres categorías léxicas, podemos usar estas frecuencias para asignar la categoría de una palabra ambigua: de todas las secuencias de tres palabras posibles que se puedan formar con esta palabra, tomaremos la más frecuente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si un mot té només una forma lèxica i una única traducció a una determinada llengua, pot ser encara ambigu?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154922Z">
+        <seg>¿Si una palabra tiene sólo una forma léxica y una única traducción a una determinada lengua, puede ser todavía ambigua?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si una forma superficial és ambigua però té només una forma lèxica{&lt;u1&gt;}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154610Z">
+        <seg>Si una forma superficial es ambigua pero tiene sólo una forma léxica{&lt;u1&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si una oració té només una ambigüitat lèxica pura&lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; té un únic arbre d'anàlisi sintàctica, pero més d'una anàlisi morfològica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T163050Z">
+        <seg>Si una oración tiene sólo una ambigüedad léxica pura&lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; tiene un único árbol de análisis sintáctico, pero más de un análisis morfológico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si voleu, fixeu-vos només en les ambigüitats lèxiques.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152851Z">
+        <seg>Si queréis, fijaos sólo en las ambigüedades léxicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una altra regla que se sol usar és la d'&lt;i4&gt;adjunció mínima&lt;/i4&gt; ---angl.&lt;u5&gt;&lt;i5&gt;minimal attachment&lt;/i5&gt;--- que afavoreix l'arbre sintàctic amb el mínim de nodes (punts de ramificació).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T152905Z">
+        <seg>Otra regla que se suele usar es la de &lt;i4&gt;adjunción mínima&lt;/i4&gt; ---angl.&lt;u5&gt;&lt;i5&gt;minimal attachment&lt;/i5&gt;--- que favorece el árbol sintáctico con el mínimo de nodos (puntos de ramificación).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una ambigüitat lèxica per homografia d'un mot &lt;u1&gt; Una ambigüitat lèxica pura per polisèmia d'un mot &lt;u2&gt; Una anàfora &lt;n1&gt; &lt;u3&gt; Si traduim automàticament la frase catalana ``Hilari no coneix bé la Mariona: cada dia troba sorprenent el que fa'' i obtenim en anglés ``Hilari does not know Mariona well: every day he finds what he does astonishing'' o en francés ``Hilari ne connaît pas bien Mariona: tous les jours elle trouve ce qu'il fait etonnant'', quin tipus d'ambigüitat ha estat mal resolta?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T155259Z">
+        <seg>Una ambigüedad léxica por homografía de una palabra &lt;u1&gt; Una ambigüedad léxica pura por polisemia de una palabra &lt;u2&gt; Una anáfora &lt;n1&gt; &lt;u3&gt; Si traducimos automáticamente la frase catalana ``Hilari no coneix bé la Mariona: cada dia troba sorprenent el que fa'' y obtenemos en inglés ``Hilari does not know Mariona well: every day he finds what he does astonishing'' o en francés ``Hilari ne connaît pas bien Mariona: tous les jours elle trouve ce qu'il fait etonnant'', ¿qué tipo de ambigüedad ha sido mal resuelta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>el va recriminar per haver-ho fet.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163908Z">
+        <seg>lo recriminó por haberlo hecho.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>li semblen poc.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163941Z">
+        <seg>le parecen poco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u3&gt;} es tracta d'un mot homògraf.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154612Z">
+        <seg>{&lt;u3&gt;} se trata de una palabra homógrafa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Resolució de l'ambigüitat estructural}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163843Z">
+        <seg>{Resolución de la ambigüedad estructural}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Resolució de l'ambigüitat lèxica categorial}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T160225Z">
+        <seg>{Resolución de la ambigüedad léxica categorial}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Resolució de l'anàfora} La resolució de l'anàfora ---és a dir, la determinació de l'{&lt;u1&gt; antecedent} d'un pronom o d'una altra expressió anafòrica--- es pot basar en informació morfològica (com ara quant a la concordança de gènere i de nombre entre un pronom i el seu antecedent), sintàctica, o fins i tot semàntica, tant a través de &lt;i0&gt;restriccions&lt;/i0&gt; (per exemple, un pronom femení no pot tenir un antecedent masculí) com de &lt;i1&gt;preferències&lt;/i1&gt; (els antecedents més recents o que han estat introduïts explícitament com l'assumpte del discurs o de la conversa ---&lt;i2&gt;Doncs, pel que fa a Joan...&lt;/i2&gt;--- són preferibles als més antics).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163501Z">
+        <seg>{Resolución de la anáfora} La resolución de la anáfora ---es decir, la determinación del{&lt;u1&gt;  antecedente} de un pronombre o de otra expresión anafórica--- se puede basar en información morfológica (como por ejemplo en cuanto a la concordancia de género y de número entre un pronombre y su antecedente), sintáctica, o incluso semántica, tanto a través de restricciones &lt;i0&gt;&lt;/i0&gt; (por ejemplo, un pronombre femenino no puede tener un antecedente masculino) como de preferencias &lt;i1&gt;&lt;/i1&gt; (los antecedentes más recientes o que han sido introducidos explícitamente como el asunto del discurso o de la conversación ---&lt;i2&gt;Pues, en cuanto a Joan...&lt;/i2&gt;--- son preferibles a los más antiguos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Resolució de la polisèmia}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T161521Z">
+        <seg>{Resolución de la polisemia}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{freqüència} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152240Z">
+        <seg>{frecuencia} &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És possible resoldre en alguns casos l'ambigüitat deguda a un mot homògraf utilitzant exclusivament informació morfològica?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154839Z">
+        <seg>¿Es posible resolver en algunos casos la ambigüedad debida a una palabra homógrafa utilizando exclusivamente información morfológica?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És que, quan es barallen, se'ls nota.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161703Z">
+        <seg>Es que, cuando se pelean, se les nota.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

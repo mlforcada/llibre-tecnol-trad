@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.5.2_2" segtype="sentence" srclang="CA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="CA">
+        <seg>(*) Vegeu la secció &lt;n0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154528Z">
+        <seg>(*) Véase sección &lt;n0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;i0&gt;Cantamos&lt;/i0&gt; pot ser present o passat.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152605Z">
+        <seg>&lt;i0&gt;Cantamos&lt;/i0&gt; puede ser presente o pasado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt;[dirección postal:] &lt;i0&gt;dirección&lt;/i0&gt; pot ser &lt;i1&gt;obmur&lt;/i1&gt;, &lt;i2&gt;odnam&lt;/i2&gt; o &lt;i3&gt;ragul&lt;/i3&gt;; &lt;i4&gt;postal&lt;/i4&gt; només és &lt;i5&gt;atrac&lt;/i5&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164408Z">
+        <seg>&lt;n0&gt; &lt;u1&gt;[dirección postal:] &lt;i0&gt;dirección&lt;/i0&gt; puede ser &lt;i1&gt;obmur&lt;/i1&gt;, &lt;i2&gt;odnam&lt;/i2&gt; o ragul &lt;i3&gt;&lt;/i3&gt;; &lt;i4&gt;postal&lt;/i4&gt; sólo es &lt;i5&gt;atrac&lt;/i5&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; Nota: &lt;i29&gt;séverla&lt;/i29&gt; és &lt;i30&gt;alrevés&lt;/i30&gt; al revés.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164652Z">
+        <seg>&lt;n1&gt; Nota: &lt;i29&gt;séverla&lt;/i29&gt; es &lt;i30&gt;alrevés&lt;/i30&gt; a la inversa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; Noteu que l'el·lipsi dels subjectes no hi està involucrada perquè l'element Qu que es mou no és un sintagma nominal.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T154039Z">
+        <seg>&lt;n1&gt; Notad que la elipsis de los sujetos no está involucrada porque el elemento Qu que se mueve no es un sintagma nominal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n2&gt; &lt;u3&gt; En les frases comparatives de l'estil de &lt;n1&gt;&lt;i0&gt;Els processadors processen més ràpidament les dades que els dispositius perifèrics&lt;/i0&gt;&lt;n3&gt; què fa que siga possible la existència de dues interpretacions (els &lt;i1&gt;dispositius perifèrics&lt;/i1&gt; són processats o processen?).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162838Z">
+        <seg>&lt;n2&gt; &lt;u3&gt; En las frases comparativas del estilo de &lt;n1&gt;&lt;i0&gt;Los procesadores procesan más rápidamente los datos que los dispositivos periféricos&lt;/i0&gt;&lt;n3&gt; qué hace que sea posible la existencia de dos interpretaciones (¿los &lt;i1&gt;dispositivos periféricos&lt;/i1&gt; son procesados o procesan?).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u10&gt; Ambigüitat estructural d'adjunció.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155507Z">
+        <seg>&lt;u10&gt; Ambigüedad estructural de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u11&gt; Ambigüitat de l'oració deguda a l'ambigüitat lèxica per anàfora.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160256Z">
+        <seg>&lt;u11&gt; Ambigüedad de la oración debida a la ambigüedad léxica por anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u12&gt; Ambigüitat de l'oració deguda a l'ambigüitat lèxica per anàfora: el pronom &lt;i41&gt;'ls&lt;/i41&gt; i el pronom nul PRO que fa de subjecte de &lt;i42&gt;es barallen&lt;/i42&gt; poden tenir els antecedents &lt;i43&gt;els professors&lt;/i43&gt; i &lt;i44&gt;els alumnes&lt;/i44&gt; i, per tant, poden tenir interpretacions diferents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161347Z">
+        <seg>&lt;u12&gt; Ambigüedad de la oración debida a la ambigüedad léxica por anáfora: el pronombre &lt;i41&gt;los&lt;/i41&gt; y el pronombre nulo PRO que hace de sujeto de  &lt;i42&gt;se pelean&lt;/i42&gt; pueden tener los antecedentes &lt;i43&gt;los profesores&lt;/i43&gt; y los &lt;i44&gt;alumnos&lt;/i44&gt; y, por lo tanto, pueden tener interpretaciones diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u13&gt; Ambigüitat de l'oració per polisèmia (ambigüitat lèxica) del mot &lt;i45&gt;número&lt;/i45&gt; (part d'una actuació / comptes econòmics)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161417Z">
+        <seg>&lt;u13&gt; Ambigüedad de la oración por polisemia (ambigüedad léxica) de la palabra &lt;i45&gt;número&lt;/i45&gt; (parte de una actuación / cuentas económicas)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Ambigüitat estructural pura per moviment de Qu.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153445Z">
+        <seg>&lt;u1&gt; Ambigüedad estructural pura por movimiento de Qu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Ambigüitat mixta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T154101Z">
+        <seg>&lt;u1&gt; Ambigüedad mixta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; L'ambigüitat categorial de la preposició.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162031Z">
+        <seg>&lt;u1&gt; La ambigüedad categorial de la preposición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; L'elipsi d'un sintagma nominal, que queda substituït per un pronom nul PRO.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162404Z">
+        <seg>&lt;u1&gt; La elipsis de un sintagma nominal, que queda sustituido por un pronombre nulo PRO.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Una anàfora.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T163833Z">
+        <seg>&lt;u1&gt; Una anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat estructural d'origen coordinatiu.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T154030Z">
+        <seg>&lt;u2&gt; Ambigüedad estructural de origen coordinativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat lèxica pura (polisèmia) del mot &lt;i3&gt;gat&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T164928Z">
+        <seg>&lt;u2&gt; Ambigüedad léxica pura (polisemia) de la palabra &lt;i3&gt;gato&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat lèxica que necessita una anàlisi sintàctica per a ser resolta: l'expressió multimot &lt;i5&gt;sesenta y cinco&lt;/i5&gt; pot ser un únic numeral (català &lt;i6&gt;seixanta-cinc&lt;/i6&gt;) o dos numerals coordinats (català &lt;i7&gt;seixanta i cinc&lt;/i7&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T163014Z">
+        <seg>&lt;u2&gt; Ambigüedad léxica que necesita un análisis sintáctico para ser resuelta: la expresión multipalabra &lt;i5&gt;sesenta y cinco&lt;/i5&gt; puede ser un único numeral (catalán &lt;i6&gt;seixanta-cinc&lt;/i6&gt;) o dos numerales coordinados (catalán &lt;i7&gt;seixanta i cinc&lt;/i7&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; L'elipsi simultània d'un sintagma nominal i un sintagma verbal, que fa dubtosa l'adscripció del sintagma nominal restant.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162409Z">
+        <seg>&lt;u2&gt; La elipsis simultánea de un sintagma nominal y un sintagma verbal, que hace dudosa la adscripción del sintagma nominal restante.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; L'oració és ambigua per l'ambigüitat lèxica (homografia) de &lt;i6&gt;soldado&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153607Z">
+        <seg>&lt;u2&gt; La oración es ambigua por la ambigüedad léxica (homografía) de &lt;i6&gt;soldado&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; La polisèmia de la preposició.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162035Z">
+        <seg>&lt;u2&gt; La polisemia de la preposición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Una ambigüitat sintàctica de l'oració subordinada ``el que fa''</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154041Z">
+        <seg>&lt;u2&gt; Una ambigüedad sintáctica de la oración subordinada en catalán ``el que fa''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Una mena de moviment de &lt;i0&gt;Qu&lt;/i0&gt;, però en aquest cas amb un pronom feble.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T164915Z">
+        <seg>&lt;u2&gt; Un tipo de movimiento de  &lt;i0&gt;Qu&lt;/i0&gt;, pero en este caso con un pronombre débil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;}no es pot resoldre si no es fa l'anàlisi sintàctica completa de la frase, ja aquesta és l'única manera d'elegir l'anàlisi morfològica correcta.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T152248Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;}no se puede resolver si no se hace el análisis sintáctico completo de la frase, ya que ésta es la única manera de elegir el análisis morfológico correcto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt;[dirección electrónica:] &lt;i8&gt;electrónica&lt;/i8&gt; és &lt;i9&gt;dered&lt;/i9&gt;; la combinació &lt;i10&gt;dered obmur&lt;/i10&gt; no s'hi dóna, i &lt;i11&gt;dered odnam&lt;/i11&gt; és menys freqüent que &lt;i12&gt;dered ragul&lt;/i12&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164517Z">
+        <seg>&lt;u2&gt;[dirección electrónica:] &lt;i8&gt;electrónica&lt;/i8&gt; es &lt;i9&gt;dered&lt;/i9&gt;; la combinación &lt;i10&gt;dered obmur&lt;/i10&gt; no se  da, y  &lt;i11&gt;dered odnam&lt;/i11&gt; es menos frecuente que &lt;i12&gt;dered ragul&lt;/i12&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Ambigüitat estructural pura d'adjunció.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155513Z">
+        <seg>&lt;u3&gt; Ambigüedad estructural pura de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Ambigüitat lèxica per anàfora: el pronom &lt;i4&gt;la&lt;/i4&gt; pot tenir dos antecedents: &lt;i5&gt;Maria&lt;/i5&gt; i la &lt;i6&gt;bossa&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T164937Z">
+        <seg>&lt;u3&gt; Ambigüedad léxica por anáfora: el pronombre &lt;i4&gt;la&lt;/i4&gt; puede tener dos antecedentes: &lt;i5&gt;Maria&lt;/i5&gt; y la bolsa &lt;i6&gt;&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Ambigüitat lèxica que necessita una anàlisi semàntica per a resoldre-la: el mot polisèmic &lt;i10&gt;destino&lt;/i10&gt; en l'oració &lt;i11&gt;El destino estaba escrito en el billete arrugado que encontraron&lt;/i11&gt; es traduiria pel català &lt;i12&gt;destinació&lt;/i12&gt; i en canvi en l'oració &lt;i13&gt;El destino estaba escrito en el libro sagrado que encontraron&lt;/i13&gt; es traduiria pel català &lt;i14&gt;destí&lt;/i14&gt;; l'elecció exigeix identificar relacions semàntiques entre les interpretacions dels mots.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T162437Z">
+        <seg>&lt;u3&gt; Ambigüedad léxica que necesita un análisis semántico para resolverla: la palabra polisémica &lt;i10&gt;destino&lt;/i10&gt; en la oración &lt;i11&gt;El destino estaba escrito en el billete arrugado que encontraron&lt;/i11&gt; se traduciría en catalán &lt;i12&gt;destinació&lt;/i12&gt; y en cambio en la oración &lt;i13&gt;El destino estaba escrito en el libro sagrado que encontraron&lt;/i13&gt; se traduciría en catalán &lt;i14&gt;destí&lt;/i14&gt;; la elección exige identificar relaciones semánticas entre las interpretaciones de las palabras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} s'intenta resoldre normalment amb regles basades en les categories lèxiques dels mots que l'acompanyen en la frase.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162803Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} se intenta resolver normalmente con reglas basadas en las categorías léxicas de las palabras que lo acompañan en la frase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt;[dirección asistida:] &lt;i13&gt;asistida&lt;/i13&gt; és &lt;i14&gt;aduya&lt;/i14&gt; i només trobem &lt;i15&gt;aduya odnam&lt;/i15&gt;: per tant, l'elegim.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164540Z">
+        <seg>&lt;u3&gt;[dirección asistida:] &lt;i13&gt;asistida&lt;/i13&gt; es &lt;i14&gt;aduya&lt;/i14&gt; y sólo encontramos &lt;i15&gt;aduya odnam&lt;/i15&gt;: por lo tanto, la elegimos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; Ambigüitat estructural d'adjunció: el sintagma preposicional &lt;i16&gt;a la gallega&lt;/i16&gt; pot modificar el nom &lt;i17&gt;polp&lt;/i17&gt; per a formar sintagma nominal &lt;i18&gt;polp a la gallega&lt;/i18&gt; o modificar el sintagma verbal &lt;i19&gt;serviran polp&lt;/i19&gt; (amb nucli &lt;i20&gt;serviran&lt;/i20&gt;) i formar el sintagma verbal &lt;i21&gt;serviran polp a la gallega&lt;/i21&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T153956Z">
+        <seg>&lt;u4&gt; Ambigüedad estructural de adjunción: el sintagma preposicional &lt;i16&gt;a la gallega&lt;/i16&gt; puede modificar al nombre &lt;i17&gt;pulpo&lt;/i17&gt; para formar sintagma nominal &lt;i18&gt;pulpo a la gallega&lt;/i18&gt; o modificar al sintagma verbal &lt;i19&gt;servirán pulpo&lt;/i19&gt; (con núcleo &lt;i20&gt;servirán&lt;/i20&gt;) y formar el sintagma verbal &lt;i21&gt;servirán pulpo a la gallega&lt;/i21&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; Ambigüitat sintàctica o estructural (pura) d'origen coordinatiu: el sintagma &lt;i7&gt;de la tia Pepa&lt;/i7&gt; pot modificar als dos sintagmes nominals coordinats (&lt;i8&gt;galetes i pa&lt;/i8&gt;) o només al segon (&lt;i9&gt;pa&lt;/i9&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T165031Z">
+        <seg>&lt;u4&gt; Ambigüedad sintáctica o estructural (pura) de origen coordinativo: el sintagma &lt;i7&gt;de la tía Pepa&lt;/i7&gt; puede modificar a los dos sintagmas nominales coordinados (&lt;i8&gt;galletas y pan&lt;/i8&gt;) o sólo al segundo (&lt;i9&gt;pan&lt;/i9&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt;[dirección general:] &lt;i16&gt;general&lt;/i16&gt; és &lt;i17&gt;latot&lt;/i17&gt; i només trobem &lt;i18&gt;latot odnam&lt;/i18&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164547Z">
+        <seg>&lt;u4&gt;[dirección general:] &lt;i16&gt;general&lt;/i16&gt; es &lt;i17&gt;latot&lt;/i17&gt; y sólo encontramos &lt;i18&gt;latot odnam&lt;/i18&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u5&gt; Ambigüitat lèxica per anàfora: el pronom &lt;i10&gt;la&lt;/i10&gt; pot tenir dos antecedents: &lt;i11&gt;mà [de paper]&lt;/i11&gt; i la &lt;i12&gt;impressora&lt;/i12&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T155101Z">
+        <seg>&lt;u5&gt; Ambigüedad léxica por anáfora: el pronombre &lt;i10&gt;la&lt;/i10&gt; puede tener dos antecedentes: &lt;i11&gt;mano [de papel]&lt;/i11&gt; y la  &lt;i12&gt;impresora&lt;/i12&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u5&gt; L'oració és ambigua per polisèmia (ambigüitat lèxica) del substantiu &lt;i22&gt;finestra&lt;/i22&gt; (de la paret/ del sistema operatiu) &lt;u6&gt; Ambigüitat estructural per moviment de constituents (en concret, per moviment de l'element Qu &lt;i23&gt;com&lt;/i23&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155057Z">
+        <seg>&lt;u5&gt; La oración es ambigua por polisemia (ambigüedad léxica) del sustantivo &lt;i22&gt;ventana&lt;/i22&gt; (de la pared/ del sistema operativo) &lt;u6&gt; Ambigüedad estructural por movimiento de constituyentes (en concreto, por movimiento del elemento Qu &lt;i23&gt;cómo&lt;/i23&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u5&gt;[diseño moderno:] &lt;i19&gt;diseño&lt;/i19&gt; pot ser &lt;i20&gt;raerc&lt;/i20&gt; o &lt;i21&gt;atnip&lt;/i21&gt;; &lt;i22&gt;moderno&lt;/i22&gt; és &lt;i23&gt;aídla&lt;/i23&gt;; &lt;i24&gt;aídla atnip&lt;/i24&gt; és molt més freqüent que &lt;i25&gt;aídla raerc&lt;/i25&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164616Z">
+        <seg>&lt;u5&gt;[diseño moderno:] &lt;i19&gt;diseño&lt;/i19&gt; puede ser &lt;i20&gt;raerc&lt;/i20&gt; o  &lt;i21&gt;atnip&lt;/i21&gt;; &lt;i22&gt;moderno&lt;/i22&gt; es &lt;i23&gt;aídla&lt;/i23&gt;; &lt;i24&gt;aídla atnip&lt;/i24&gt; es mucho más frecuente que &lt;i25&gt;aídla raerc&lt;/i25&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u6&gt; Ambigüitat per el·lipsi: el subjecte de &lt;i13&gt;vaja&lt;/i13&gt; pot ser &lt;i14&gt;jo&lt;/i14&gt;, &lt;i15&gt;ell&lt;/i15&gt;, &lt;i16&gt;ella&lt;/i16&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T152637Z">
+        <seg>&lt;u6&gt; Ambigüedad por elipsis: el sujeto de &lt;i13&gt;vaya&lt;/i13&gt; puede ser &lt;i14&gt;yo&lt;/i14&gt;, &lt;i15&gt;él&lt;/i15&gt;, &lt;i16&gt;ella&lt;/i16&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u6&gt;[diseño asistido:] &lt;i26&gt;asistido&lt;/i26&gt; és &lt;i27&gt;aduya&lt;/i27&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164626Z">
+        <seg>&lt;u6&gt;[diseño asistido:] &lt;i26&gt;asistido&lt;/i26&gt; es &lt;i27&gt;aduya&lt;/i27&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u7&gt; Ambigüitat sintàctica o estructural d'origen categorial deguda al fet que els mots &lt;i17&gt;las&lt;/i17&gt; (article o pronom) i &lt;i18&gt;comas&lt;/i18&gt; (substantiu o verb) són homògrafs afectats d'ambigüitat lèxica categorial.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T155122Z">
+        <seg>&lt;u7&gt; Ambigüedad sintáctica o estructural de origen categorial debido al hecho de que las palabras &lt;i17&gt;las&lt;/i17&gt; (artículo o pronombre) y  &lt;i18&gt;comas&lt;/i18&gt; (sustantivo o verbo) son homógrafos afectados de ambigüedad léxica categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u8&gt; Ens va explicar &lt;i28&gt;de quina manera&lt;/i28&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155234Z">
+        <seg>&lt;u8&gt; Nos explicó &lt;i28&gt;de qué manera&lt;/i28&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u8&gt; L'oració és ambigua perquè dos dels seus mots presenten ambigüitat lèxica pura (polisèmia): &lt;i19&gt;auto&lt;/i19&gt; pot ser un automòbil o un tipus de resolució judicial; &lt;i20&gt;suspensión&lt;/i20&gt; pot ser l'acció de suspendre (la resolució) o el sistema d'amortidors de l'automòbil.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153039Z">
+        <seg>&lt;u8&gt; La oración es ambigua porque dos de sus palabras presentan ambigüedad léxica pura (polisemia): &lt;i19&gt;auto&lt;/i19&gt; puede ser un automóvil o un tipo de resolución judicial; &lt;i20&gt;suspensión&lt;/i20&gt; puede ser la acción de suspender (la resolución) o el sistema de amortiguadores del automóvil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u9&gt; Ambigüitat estructural d'origen categorial.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155320Z">
+        <seg>&lt;u9&gt; Ambigüedad estructural de origen categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Així doncs, elegim la segona.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164522Z">
+        <seg>Así pues, elegimos la segunda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat estructural amb el·lipsi i moviment: en una interpretació &lt;i0&gt;la bolsa&lt;/i0&gt; pot ser l'objecte de l'acció (transitiva) de baixar si el subjecte (nul) és el mateix que &lt;i1&gt;mi vecino&lt;/i1&gt; (``Mi vecino aseguró que (él mismo) había bajado la bolsa''); en l'altra, &lt;i2&gt;la bolsa&lt;/i2&gt; és el subjecte (mogut a posició postverbal) de l'acció intransitiva de baixar.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T152524Z">
+        <seg>Ambigüedad estructural con elipsis y movimiento: en una interpretación &lt;i0&gt;la bolsa&lt;/i0&gt; puede ser el objeto de la acción (transitiva) de bajar si el sujeto (nulo) es el mismo que &lt;i1&gt;mi vecino&lt;/i1&gt; (``Mi vecino aseguró que (él mismo) había bajado la bolsa''); en la otra, &lt;i2&gt;la bolsa&lt;/i2&gt; es el sujeto (movido a posición postverbal) de la acción intransitiva de bajar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat estructural pura d'adjunció.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155532Z">
+        <seg>Ambigüedad estructural pura de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat sintàctica o estructural (pura) d'adjunció: el sintagma preposicional &lt;i0&gt;de la ciutat&lt;/i0&gt; es pot inserir en dues posicions diferents de l'oració: pot modificar &lt;i1&gt;alcalde&lt;/i1&gt; o &lt;i2&gt;expulsaran [l'alcalde]&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T152411Z">
+        <seg>Ambigüedad sintáctica o estructural (pura) de adjunción: el sintagma preposicional &lt;i0&gt;de la ciudad&lt;/i0&gt; se puede insertar en dos posiciones diferentes de la oración: puede modificar &lt;i1&gt;alcalde&lt;/i1&gt; o expulsarán &lt;i2&gt;[el alcalde]&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest element pot modificar els verbs &lt;i24&gt;deien&lt;/i24&gt; i &lt;i25&gt;vindria&lt;/i25&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T155208Z">
+        <seg>Este elemento puede modificar los verbos &lt;i24&gt;decían&lt;/i24&gt; y  &lt;i25&gt;vendría&lt;/i25&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta &lt;i0&gt;triangulació&lt;/i0&gt; també pot servir per a tractar altres tipus d'ambigüitat, com ara la sintàctica.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151910Z">
+        <seg>Esta &lt;i0&gt;triangulación&lt;/i0&gt; también puede servir para tratar otros tipos de ambigüedad, como por ejemplo la sintáctica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Buscarem, entre les possibles traduccions dels grups de dos mots, les que apareguen més freqüentment en el corpus i les elegirem.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164115Z">
+        <seg>Buscaremos, entre las posibles traducciones de los grupos de dos palabras, las que aparezcan más frecuentemente en el corpus y las elegiremos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Cada mot en espanyol es correspon, de vegades, amb més d'un mot en séverla: es tracta d'un cas típic d'ambigüitat lèxica de transferència.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T163953Z">
+        <seg>Cada palabra en español se corresponde, a veces, con más de una palabra en séverla: se trata de un caso típico de ambigüedad léxica de transferencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>D'altra banda, estructural: en la primera interpretació, el sintagma preposicional &lt;i4&gt;de caza&lt;/i4&gt; modifica el sintagma nominal &lt;i5&gt;coto privado&lt;/i5&gt; (&lt;i6&gt;[[coto privado] [de caza]]&lt;/i6&gt;); en el segon, només el participi &lt;i7&gt;privado&lt;/i7&gt; (&lt;i8&gt;[[coto] [[privado] [de caza]]]&lt;/i8&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T152624Z">
+        <seg>Por otro lado, estructural: en la primera interpretación, el sintagma preposicional &lt;i4&gt;de caza&lt;/i4&gt; modifica al sintagma nominal &lt;i5&gt;coto privado&lt;/i5&gt; (&lt;i6&gt;[[coto privado] [de caza]]&lt;/i6&gt;); en el segundo, sólo el participio &lt;i7&gt;privado&lt;/i7&gt; (&lt;i8&gt;[[coto] [[privado] [de caza]]]&lt;/i8&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>D'una banda, lèxica: el mot &lt;i3&gt;privado&lt;/i3&gt; pot ser un adjectiu (interpretació 1) o un participi (interpretació 2).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T154135Z">
+        <seg>Por un lado, léxica: la palabra &lt;i3&gt;privado&lt;/i3&gt; puede ser un adjetivo (interpretación 1) o un participio (interpretación 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De les quatre combinacions possibles, dues són sintàcticament acceptables.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153006Z">
+        <seg>De las cuatro combinaciones posibles, dos son sintácticamente aceptables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De les quatre combinacions possibles, dues tenen un cert sentit.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T152443Z">
+        <seg>De las cuatro combinaciones posibles, dos tienen cierto sentido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De les quatre combinacions resultants, dues són sintàcticament acceptables.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T163442Z">
+        <seg>De las cuatro combinaciones resultantes, dos son sintácticamente aceptables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Deien &lt;i27&gt;d'aquella manera&lt;/i27&gt; que vindria.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155229Z">
+        <seg>Decían &lt;i27&gt;de aquella manera&lt;/i27&gt; que vendría.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Deien que vindria &lt;i29&gt;d'aquella manera&lt;/i29&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155242Z">
+        <seg>Decían que vendría &lt;i29&gt;de aquella manera&lt;/i29&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Dues de les quatre combinacions tenen sentit.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T154036Z">
+        <seg>Dos de las cuatro combinaciones tienen sentido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El SP &lt;i3&gt;a qui&lt;/i3&gt; pot ser l'objecte indirecte del verb telefonar en l'oració subordinada (&lt;i4&gt;Has dit [que [PRO telefonarien a qui]]&lt;/i4&gt;) o l'objecte indirecte del verb dir en l'oració principal (&lt;i5&gt;Has dit [que [PRO telefonarien]] a qui&lt;/i5&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153541Z">
+        <seg>El SP &lt;i3&gt;a quién&lt;/i3&gt; puede ser el objeto indirecto del verbo telefonear en la oración subordinada (&lt;i4&gt;Has dicho [que [PRO telefonearían a quién]]&lt;/i4&gt;) o el objeto indirecto del verbo decir en la oración principal (&lt;i5&gt;Has dicho [que [PRO telefonearían]] a quién&lt;/i5&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El principi de composicionalitat diu que la interpretació d'una oració està determinada per les interpretacions dels mots i per la sintaxi.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T161614Z">
+        <seg>El principio de composicionalidad dice que la interpretación de una oración está determinada por las interpretaciones de las palabras y por la sintaxis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El pronom &lt;i2&gt;li&lt;/i2&gt; pot tenir els antecedents &lt;i3&gt;Mario&lt;/i3&gt; i &lt;i4&gt;la seua mare</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T153125Z">
+        <seg>El pronombre catalán &lt;i2&gt;li&lt;/i2&gt; puede tener los antecedentes &lt;i3&gt;Mario&lt;/i3&gt; y &lt;i4&gt;la seua mare</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El pronom &lt;i37&gt;la&lt;/i37&gt; pot tenir tres antecedents: &lt;i38&gt;la venedora&lt;/i38&gt;, &lt;i39&gt;la descripció&lt;/i39&gt; o &lt;i40&gt;la urbanització projectada&lt;/i40&gt; i, per tant, tres interpretacions diferents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160851Z">
+        <seg>El pronombre &lt;i37&gt;la&lt;/i37&gt; puede tener tres antecedentes: &lt;i38&gt;la vendedora&lt;/i38&gt;, &lt;i39&gt;la descripción&lt;/i39&gt; o &lt;i40&gt; la urbanización proyectada&lt;/i40&gt; y, por lo tanto, tres interpretaciones diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El pronom buit que fa de subjecte de &lt;i1&gt;fa&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T153011Z">
+        <seg>El pronombre átono que hace de sujeto en catalán de &lt;i1&gt;fa&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El pronom feble &lt;i2&gt;el&lt;/i2&gt; pot referir-se a &lt;i3&gt;garatge&lt;/i3&gt; o a &lt;i4&gt;cotxe&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T163549Z">
+        <seg>El pronombre átono &lt;i2&gt;lo&lt;/i2&gt; puede referirse a  &lt;i3&gt;garaje&lt;/i3&gt; o a &lt;i4&gt;coche&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El sintagma (oració subordinada de relatiu) &lt;i34&gt;que s'hagen fet en euros&lt;/i34&gt; pot modificar al segon sintagma nominal &lt;i35&gt;les despeses&lt;/i35&gt; o al sintagma nominal complet &lt;i36&gt;les entrades i les despeses&lt;/i36&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155443Z">
+        <seg>El sintagma (oración subordinada de relativo) &lt;i34&gt;que se hayan hecho en euros&lt;/i34&gt; puede modificar al segundo sintagma nominal &lt;i35&gt;los gastos&lt;/i35&gt; o al sintagma nominal completo &lt;i36&gt;las entradas y los gastos&lt;/i36&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El sintagma nominal &lt;i9&gt;cançons de bressol&lt;/i9&gt; pot modificar només el segon sintagma verbal &lt;i10&gt;cantar&lt;/i10&gt; o el sintagma verbal complet &lt;i11&gt;ballar i cantar&lt;/i11&gt; (és a dir, &lt;i12&gt;cançons de bressol&lt;/i12&gt; pot ser objecte directe només del segon verb o dels dos).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T152635Z">
+        <seg>El sintagma nominal &lt;i9&gt;canciones de cuna&lt;/i9&gt; puede modificar sólo al segundo sintagma verbal &lt;i10&gt;cantar&lt;/i10&gt; o el sintagma verbal completo &lt;i11&gt;bailar y cantar&lt;/i11&gt; (es decir, &lt;i12&gt;canciones de cuna&lt;/i12&gt; puede ser objeto directo sólo del segundo verbo o de los dos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El sintagma preposicional &lt;i0&gt;per un policia&lt;/i0&gt; pot modificar el sintagma verbal &lt;i1&gt;atrapats a una fàbrica incendiada&lt;/i1&gt; o només el sintagma verbal &lt;i2&gt;incendiada&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T153834Z">
+        <seg>El sintagma preposicional &lt;i0&gt;por un policía&lt;/i0&gt; puede modificar al sintagma verbal &lt;i1&gt;atrapados en una fábrica incendiada&lt;/i1&gt; o sólo el sintagma verbal &lt;i2&gt;incendiada&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El sintagma preposicional &lt;i13&gt;a l'hospital&lt;/i13&gt; pot modificar el sintagma verbal &lt;i14&gt;li van donar&lt;/i14&gt; o el sintagma verbal &lt;i15&gt;es refà de la pallisa que li van donar&lt;/i15&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T153853Z">
+        <seg>El sintagma preposicional &lt;i13&gt;en el hospital&lt;/i13&gt; puede modificar al sintagma verbal &lt;i14&gt;le dieron&lt;/i14&gt; o el sintagma verbal &lt;i15&gt;se rehace de la paliza que le dieron&lt;/i15&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El sintagma preposicional ``a Maria'' pot ser l'objecte indirecte de l'oració principal i de la subordinada.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154617Z">
+        <seg>El sintagma preposicional ``a Maria'' puede ser el objeto indirecto de la oración principal y de la subordinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els mots &lt;i0&gt;la&lt;/i0&gt; i &lt;i1&gt;bata&lt;/i1&gt; poden pertànyer cada un a dues categories lèxiques diferents.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T163335Z">
+        <seg>Las palabras &lt;i0&gt;la&lt;/i0&gt; y &lt;i1&gt;bata&lt;/i1&gt; pueden pertenecer cada uno a dos categorías léxicas diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En alguns casos, la sintaxi podria donar pistes que permetrien una desambiguació molt aproximada.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151927Z">
+        <seg>En algunos casos, la sintaxis podría dar pistas que permitirían una desambiguación muy aproximada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En el cas de les frases ``Toni comprarà...'', sembla lògic usar la regla de {&lt;u1&gt; clausura tardana}, ja que es correspon prou bé amb les interpretacions preferides per les persones.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154550Z">
+        <seg>En el caso de las frases ``Toni comprará...'', parece lógico usar la regla de {&lt;u1&gt; clausura tardía}, puesto que se corresponde bastante bien con las interpretaciones preferidas por las personas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En el cas dels pronoms de tercera persona, la interpretació estarà determinada pels antecedents que se'ls assignen (ambigüitat lèxica per anàfora).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T152900Z">
+        <seg>En el caso de los pronombres de tercera persona, la interpretación estará determinada por los antecedentes que se les asignen (ambigüedad léxica por anáfora).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En la primera interpretació &lt;i30&gt;les&lt;/i30&gt; és un pronom i &lt;i31&gt;creus&lt;/i31&gt; és un verb, i formen junts un sintagma verbal; en la segona &lt;i32&gt;les&lt;/i32&gt; és un article i &lt;i33&gt;creus&lt;/i33&gt; és un substantiu i formen junts un sintagma nominal.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T160832Z">
+        <seg>En la primera interpretación de la frase en catalán &lt;i30&gt;les&lt;/i30&gt; es un pronombre y &lt;i31&gt;creus&lt;/i31&gt; es un verbo, y forman juntos un sintagma verbal; en la segunda &lt;i32&gt;les&lt;/i32&gt; es un artículo y &lt;i33&gt;creus&lt;/i33&gt; es un sustantivo y forman juntos un sintagma nominal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En la primera interpretació és un participi en la forma passiva &lt;i7&gt;haber sido soldado&lt;/i7&gt;; en la segona és un substantiu masculí singular.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153644Z">
+        <seg>En la primera interpretación es un participio en la forma pasiva &lt;i7&gt;haber sido soldado&lt;/i7&gt;; en la segunda es un sustantivo masculino singular.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es poden trobar molts exemples; per exemple, entre $L_1 =$ espanyol i $L_2 =$ català, tenim: &lt;n0&gt; &lt;u1&gt; Ayer por la mañana vino tarde $&lt;u3&gt;$ *Ahir pel demà vi vesprada (Ahir de matí va venir tard).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152439Z">
+        <seg>Se pueden encontrar muchos ejemplos; por ejemplo, entre $L_1 =$ español y $L_2 =$ catalán, tenemos: &lt;n0&gt; &lt;u1&gt; Ayer por la mañana vino tarde $&lt;u3&gt;$ *Ahir pel demà vi vesprada (Ahir de matí va venir tard).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es podria fer similarment en el cas dels mots homògrafs.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151901Z">
+        <seg>Se podría hacer similarmente en el caso de las palabras homógrafas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Exemples de l'espanyol al català: &lt;n0&gt; &lt;u1&gt; Ambigüitat que es pot resoldre després de fer una anàlisi morfològica de l'oració: en &lt;i0&gt;mi trabajo&lt;/i0&gt;, l'homògraf &lt;i1&gt;trabajo&lt;/i1&gt; pot ser substantiu (català &lt;i2&gt;treballo&lt;/i2&gt;) o verb (català &lt;i3&gt;treball&lt;/i3&gt;), però la presència de &lt;i4&gt;mi&lt;/i4&gt; (determinant possessiu) desambigua l'homògraf perfectament.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T161715Z">
+        <seg>Ejemplos del español al catalán: &lt;n0&gt; &lt;u1&gt; Ambigüedad que se puede resolver después de hacer un análisis morfológico de la oración: en &lt;i0&gt;mi trabajo&lt;/i0&gt;, el homógrafo &lt;i1&gt;trabajo&lt;/i1&gt; puede ser sustantivo (catalán &lt;i2&gt;treballo&lt;/i2&gt;) o verbo (catalán &lt;i3&gt;treball&lt;/i3&gt;), pero la presencia de  &lt;i4&gt;mi&lt;/i4&gt; (determinante posesivo) desambigua el homógrafo perfectamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Fixem-nos en l'ambigüitat lèxica deguda als mots polisèmics, i imaginem que tenim $L_1$=espanyol, $L_2$=anglés i $L_3$=català.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164817Z">
+        <seg>Fijémonos en la ambigüedad léxica debida a las palabras polisémicas, e imaginamos que tenemos $L_1$=español, $L_2$=inglés y $L_3$=catalán.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat d'adjunció del sintagma que comença per &lt;i0&gt;que&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155645Z">
+        <seg>La ambigüedad de adjunción del sintagma que empieza por &lt;i0&gt;que&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat lèxica categorial d'un mot{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;}no es pot resoldre mai si no s'usa informació semàntica sobre el text o sobre els mots contigus.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T162736Z">
+        <seg>La ambigüedad léxica categorial de una palabra{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;}no se puede resolver nunca si no se usa información semántica sobre el texto o sobre las palabras contiguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'anàfora d'un pronom buit &lt;u1&gt; L'anàfora del pronom &lt;i0&gt;que&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T161538Z">
+        <seg>La anáfora de un pronombre vacío &lt;u1&gt; La anáfora del pronombre &lt;i0&gt;que&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'anàlisi morfològica no és suficient per a detectar que en la frase &lt;i8&gt;En el lugar donde murieron sesenta y cinco quedaron restos&lt;/i8&gt; és el primer cas i en la frase &lt;i9&gt;Murieron sesenta y cinco quedaron malheridos&lt;/i9&gt; és el segon.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T162156Z">
+        <seg>El análisis morfológico no es suficiente para detectar que en la frase &lt;i8&gt;En el lugar donde murieron sesenta y cinco quedaron restos&lt;/i8&gt; es el primer caso y en la frase &lt;i9&gt;Murieron sesenta y cinco quedaron malheridos&lt;/i9&gt; es el segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La existència de més d'una estructura sintàctica possible.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120507T161928Z">
+        <seg>La existencia de más de una estructura sintáctica posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La solució semàntica és més potent i general però exigeix una anàlisi molt profunda de la frase.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T151918Z">
+        <seg>La solución semántica es más potente y general pero exige un análisis muy profundo de la frase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La traducció (humana) de les frases en la llengua $L_1$ a la llengua $L_2$ ens pot servir per a determinar quina de les anàlisis (interpretacions) de les frases en $L_1$ s'hauria d'elegir i usar aquesta elecció abans de traduir automàticament a $L_3$.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164754Z">
+        <seg>La traducción (humana) de las frases en la lengua $L_1$ a la lengua $L_2$ nos puede servir para determinar que de los análisis (interpretaciones) de las frases en $L_1$ se tendría que elegir y usar esta elección antes de traducir automáticamente a $L_3$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les estructures, abans del moviment, i de la formació de l'estructura de relatiu, es podrien representar així: &lt;n0&gt; &lt;u7&gt; Ens va explicar &lt;i26&gt;de quina manera&lt;/i26&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T155156Z">
+        <seg>Las estructuras, antes del movimiento, y de la formación de la estructura de relativo, se podrían representar así: &lt;n0&gt; &lt;u7&gt; Nos explicó &lt;i26&gt;de qué manera&lt;/i26&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les úniques combinacions (col·locacions) que apareixen en els textos són &lt;i6&gt;atrac odnam&lt;/i6&gt; i &lt;i7&gt;atrac ragul&lt;/i7&gt;; la segona és la més freqüent i, per tant, l'elegim.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164435Z">
+        <seg>Las únicas combinaciones (colocaciones) que aparecen en los textos son &lt;i6&gt;atrac odnam&lt;/i6&gt; y  &lt;i7&gt;atrac ragul&lt;/i7&gt;; la segunda es la más frecuente y, por lo tanto, la elegimos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Mireu l'exemple &lt;n0&gt; &lt;u9&gt; (c) &lt;u10&gt; (b).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T153043Z">
+        <seg>Véase el ejemplo &lt;n0&gt; &lt;u9&gt; (c) &lt;u10&gt; (b).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Només trobem &lt;i28&gt;aduya raerc&lt;/i28&gt;; per tant, l'elegim.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164639Z">
+        <seg>Sólo encontramos &lt;i28&gt;aduya raerc&lt;/i28&gt;; por lo tanto, la elegimos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, si {&lt;u1&gt; fui&lt;u11&gt;} va seguit de la preposició {&lt;u2&gt; a}, és molt probable que es tracte del verb {&lt;u3&gt; ir}; d'altra banda, si va seguit d'un participi passat, és molt probable que es tracte del verb {&lt;u4&gt; ser&lt;u12&gt;}: es podria fer una categoria gramatical especial per al verb ser i usar tècniques de desambiguació categorial.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152031Z">
+        <seg>Por ejemplo, si {&lt;u1&gt; fui&lt;u11&gt;} va seguido de la preposición {&lt;u2&gt; a},es muy probable que se trate del verbo {&lt;u3&gt; ir}; por otro lado, si va seguido de un participio pasado, es muy probable que se trate del verbo {&lt;u4&gt; ser&lt;u12&gt;}: se podría hacer una categoría gramatical especial para el verbo ser y usar técnicas de desambiguación categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per tant, elegim la primera.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164621Z">
+        <seg>Por lo tanto, elegimos la primera.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per tant, l'elegim.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164553Z">
+        <seg>Por lo tanto, la elegimos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Polisèmia, perquè el pronom pot, en principi, estar substituint un nom o un altre.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120528T152259Z">
+        <seg>Polisemia, porque el pronombre puede, en principio, estar sustituyendo a un nombre u otro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pot tenir més d'un arbre d'anàlisi sintàctica (ambigüitat estructural).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152550Z">
+        <seg>Puede tener más de un árbol de análisis sintáctico (ambigüedad estructural).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan es produeix una ambigüitat perquè no queda clara l'adscripció d'un sintagma preposicional, com en &lt;i0&gt;porta la clau de l'armari gran&lt;/i0&gt;, quina n'és la raó?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Laura" changedate="20120604T152306Z">
+        <seg>Cuando se produce una ambigüedad porque no queda clara la adscripción de un sintagma preposicional, como  &lt;i0&gt;trae la llave del armario grande&lt;/i0&gt;, ¿cuál  es la razón?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin tipus d'ambigüitat es produeix en el pronom feble &lt;i0&gt;li&lt;/i0&gt; de la frase ``&lt;i1&gt;Vaig veure Mario i la seua mare; li vaig dir que m'agradava molt el seu fill&lt;/i1&gt;''?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154930Z">
+        <seg>¿Qué tipo de ambigüedad se produce en el pronombre átono &lt;i0&gt;le&lt;/i0&gt; de la frase ``&lt;i1&gt;Vi a Mario y a su madre; le dije que me gustaba mucho su hijo&lt;/i1&gt;''?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si la traducció del mot &lt;i0&gt;destino&lt;/i0&gt; a l'anglés és &lt;i1&gt;destination&lt;/i1&gt;, la traducció correcta al català és &lt;i2&gt;destinació&lt;/i2&gt;, ja que s'ha elegit la interpretació ``punt final o finalitat d'un procés o desplaçament''; si és &lt;i3&gt;destiny&lt;/i3&gt;, la traducció correcta al català és &lt;i4&gt;destí&lt;/i4&gt;, ja que s'ha elegit la interpretació ``sort futura que ens reserva l'atzar''.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T154647Z">
+        <seg>Si la traducción de la palabra &lt;i0&gt;destino&lt;/i0&gt; al inglés es &lt;i1&gt;destination&lt;/i1&gt;, la traducción correcta al catalán es &lt;i2&gt;destinació&lt;/i2&gt;, puesto que se ha elegido la interpretación ``punto final o finalidad de un proceso o desplazamiento''; si es &lt;i3&gt;destiny&lt;/i3&gt;, la traducción correcta al catalán es &lt;i4&gt;destí&lt;/i4&gt;, puesto que se ha elegido la interpretación "suerte futura que nos reserva el azar''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si llegiu els mots al revés, veureu per què s'han elegit.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T164724Z">
+        <seg>Si leéis las palabras a la inversa, veréis por qué se han elegido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si trobem {&lt;u5&gt; podem&lt;u13&gt;} ({&lt;u6&gt; volem&lt;u14&gt;}) seguit d'infinitiu, és molt més probable que es tracte del verb {&lt;u7&gt; poder&lt;u15&gt;} ({&lt;u8&gt; voler&lt;u16&gt;}) que del verb {&lt;u9&gt; podar} ({&lt;u10&gt; volar&lt;u17&gt;}); de nou, caldria usar una categoria gramatical especial, en aquest cas per als verbs modals.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120514T152201Z">
+        <seg>Si encontramos en catalán {&lt;u5&gt; podem&lt;u13&gt;} ({&lt;u6&gt; volem&lt;u14&gt;}) seguido de infinitivo, es mucho más probable que se trate del verbo {&lt;u7&gt; poder&lt;u15&gt;} ({&lt;u8&gt; voler&lt;u16&gt;}) que del verbo {&lt;u9&gt; podar} ({&lt;u10&gt; volar&lt;u17&gt;}); de nuevo, habría que usar una categoría gramatical especial, en este caso para los verbos modales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També hi intervé l'ambigüitat lèxica pura (polisèmia) de &lt;i8&gt;despedir&lt;/i8&gt; (en la primera &lt;i9&gt;llançar&lt;/i9&gt;; en la segona, &lt;i10&gt;deixar sense treball&lt;/i10&gt;).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="alumno" changedate="20120508T153956Z">
+        <seg>También  interviene la ambigüedad léxica pura (polisemia) de &lt;i8&gt;despedir&lt;/i8&gt; (en la primera &lt;i9&gt;lanzar&lt;/i9&gt;; en la segunda, &lt;i10&gt;dejar sin trabajo&lt;/i10&gt;).</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
