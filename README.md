@@ -9,10 +9,9 @@ El procés ha estat:
 * afegir més exemples i materials dispersos que s'han usat en l'assignatura
 
 
-Durant el curs 2015-2016, ens proposem:
+Durant el curs 2016-2017, ens proposem:
 
-* generar una versió en espanyol usant les memòries de traducció preparades pels alumnes en el curs 2011–2012.
+* generar una versió en espanyol usant les memòries de traducció preparades pels alumnes en el curs 2011–2012 i el curs 2015-16.
 
 Mikel L. Forcada
 Felipe Sánchez-Martínez
-
