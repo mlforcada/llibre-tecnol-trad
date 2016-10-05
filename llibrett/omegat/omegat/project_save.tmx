@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>per a la traducció</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115915Z" creationid="fsanchez" creationdate="20161005T115915Z">
+        <seg>para la traducción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Per saber més sobre #1} } {</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
