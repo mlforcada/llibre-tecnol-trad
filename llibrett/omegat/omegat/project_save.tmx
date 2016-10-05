@@ -12,6 +12,14 @@
         <seg>¿Qué es Internet?</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Per què és difícil la TA?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115756Z" creationid="fsanchez" creationdate="20161005T115756Z">
+        <seg>[¿Por qué es difícil la TA?</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
