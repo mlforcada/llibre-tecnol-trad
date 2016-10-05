@@ -22,10 +22,10 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>{exemple}{&lt;n0&gt;&lt;u1&gt;}{&lt;n1&gt;}</seg>
+        <seg>d'informàtica i de tecnologies&lt;br0&gt;</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115832Z" creationid="fsanchez" creationdate="20161005T115832Z">
-        <seg>Otro ejemplo</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115857Z" creationid="fsanchez" creationdate="20161005T115857Z">
+        <seg>de informática y de tecnologías&lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
