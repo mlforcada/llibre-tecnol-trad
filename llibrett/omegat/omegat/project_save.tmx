@@ -20,6 +20,14 @@
         <seg>[¿Por qué es difícil la TA?</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Per saber més sobre #1} } {</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
+        <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Para saber más sobre #1} } {</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
