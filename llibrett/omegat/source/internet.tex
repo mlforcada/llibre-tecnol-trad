@@ -1,0 +1,698 @@
+ \chapter{Internet}
+\label{se:Internet}
+\com{
+Llista de coses a fer del capítol:
+\begin{itemize}
+\item Definir \emph{buscadors} i \emph{directoris} i diferenciar-los
+  clarament. Explicar que el que es tecleja en un buscador són
+  condicions i que només ens dóna les pàgines que són en un índex. Dir
+  que ens entrega pàgines amb llistes d'URI i una breu descripció
+  (\emph{snippet}) del document o de la part del document on apareixen
+  les paraules.
+\end{itemize}
+}
+
+Una de les eines informàtiques bàsiques que es troben a l'abast de les
+persones que es dediquen professionalment a la traducció és
+Internet. Internet permet bàsicament tres tipus d'ús:
+\begin{description}
+\item[Com a mitjà de comunicació:] Internet permet la comunicació i
+  l'intercanvi d'arxius (vegeu l'apartat~\ref{se:fitxers}) amb clients
+  o proveïdors, la participació en fòrums de professionals, la
+  realització de consultes, etc.
+\item[Com a font de documentació:] A més de contenir textos de moltes
+  classes que poden servir d'exemple o inspiració a l'hora de fer
+  traduccions, s'hi poden trobar enciclopèdies, diccionaris,
+  glossaris, memòries de traducció (vegeu el
+  capítol~\ref{se:memtrad}), i moltes altres fonts de documentació.
+\item[Com a rebost de programari d'assistència a la traducció:] Molts
+  dels programes específics d'assistència a la traducció estan
+  disponibles a Internet, com ara els sistemes de traducció automàtica
+  (vegeu el capítol~\ref{se:TdTA}) en línia o els programes de
+  concordances bilingües.\footnote{Programes de concordances bilingües
+    disponibles en Internet: Linguee (\url{http://www.linguee.es/});
+    Reverso Context (\url{http://context.reverso.net/}).} L'accés pot
+  ser a través d'un navegador, o a través d'altres programes que
+  tinguem instal·lats localment en el nostre ordinador.\footnote{Usant
+    protocols ben especificats, normalment a través d'API,
+    \emph{Application Program Interfaces} o \emph{interfícies de
+      programació d'aplicacions}.}
+\end{description}
+
+\section{Què és Internet?}
+
+Anomenem \emph{Internet} un conjunt d'ordinadors, distribuïts arreu
+del món i interconnectats mitjançant un protocol estàndard (el
+\emph{protocol d'Internet} o IP) de manera que els recursos presents
+en uns ordinadors (normalment, informació) estan disponibles per a ser
+usats pels usuaris d'altres ordinadors. Es diu que els ordinadors
+d'Internet formen una \emph{xarxa}, en la qual els nodes o nusos són
+els ordinadors i els fils, les connexions- Les connexions poden ser de
+naturalesa molt diversa (línies telefòniques, fibra òptica, enllaços
+de ràdio terrestres o per satèl·lit, etc.), però el protocol
+d'Internet està dissenyat de manera que la naturalesa de la connexió
+no siga rellevant per a l'usuari ni per als programes d'aplicació que
+fan ús d'aquestes connexions. Altres noms que s'usen en comptes
+d'\emph{Internet} són \emph{World Wide Web} o \emph{WWW} (``teranyina
+d'abast mundial'') o simplement \emph{web} (``teranyina''), masculí en
+català (\emph{el web}).
+
+\section{Números IP}
+Cada node (cada ordinador) de la xarxa Internet té un {\em número IP}
+únic, el qual es compon de 4 octets (4 enters del 0 al 255) separats
+per punts, com ara {\tt 192.168.5.5}. Els enters inicials s'usen per a
+designar grans subxarxes, mentre que els finals s'usen per a designar
+xarxes més menudes, i dins d'aquestes, ordinadors concrets (en això
+recorden els números de telèfon: dos abonats pròxims normalment
+comparteixen les xifres inicials).
+
+\section{Noms}
+Com que recordar números IP no és fàcil, normalment s'usen \emph{noms}
+o \emph{adreces} per a referir-se a les màquines; alguns dels
+ordinadors de la xarxa (anomenats \emph{servidors de noms})
+s'encarreguen de traduir els noms a números IP.  Per exemple, un nom
+podria ser \texttt{altea.dlsi.ua.es}, on \texttt{altea} es refereix a
+una màquina concreta del Departament de Llenguatges i Sistemes
+Informàtics (\texttt{dlsi}) de la Universitat d'Alacant (\texttt{ua}),
+que es troba a Espanya (\texttt{es}); aquest ordre és l'invers al dels
+números IP (en això els noms s'assemblen a les adreces postals: primer
+es dóna el més concret i al final el país).
+
+La taula~\ref{tb:pais} dóna alguns exemples d'indicatius de països. De
+vegades, l'últim component d'un nom no es correspon amb l'indicatiu
+d'un país, sinó que indica la naturalesa del lloc; antigament calia
+sobreentendre que es tractava d'un ordinador situat físicament als
+Estats Units d'Amèrica, però ara això ja no és necessàriament
+així. Aquests indicatius apareixen en la taula~\ref{tb:tipus}. En
+altres països ({\tt .uk}, {\tt .nz}, {\tt .za}) s'usen indicatius
+similars ({\tt .co}(mercial), {\tt .ac}(adèmic), etc.) davant de
+l'indicatiu de país (per exemple, {\tt www.shef.ac.uk} és la
+Universitat de Sheffield).
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|l}
+\hline\hline
+{\sc Indicatiu} & {\sc País} \\\hline
+{\tt .es} & Espanya \\
+{\tt .fr} & França \\
+{\tt .pt} & Portugal \\
+{\tt .it} & Itàlia \\
+{\tt .uk} & Regne Unit \\
+{\tt .ru} & Rússia \\
+{\tt .za} & Sud-àfrica \\
+{\tt .ie} & Irlanda \\
+{\tt .tv} & Tuvalu \\
+{\tt .to} & Tonga \\
+{\tt .nu} & Niue \\
+{\tt .fm} & Estats Federats de Micronèsia \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Indicatius d'Internet d'alguns països. Fixeu-vos que
+  alguns indicatius (\texttt{.tv}, \texttt{.fm}, etc.) s'usen per a
+  aplicacions no estrictament relacionades amb aquestos països.}
+\label{tb:pais}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|l}
+\hline\hline
+{\sc Indicatiu} & {\sc Tipus} \\\hline
+{\tt .gov} & governamental \\
+{\tt .mil} & militar \\
+{\tt .com} & comercial \\
+{\tt .org} & organització no lucrativa \\
+{\tt .edu} & institució educativa \\
+{\tt .info} & webs informatives \\
+{\tt .cat} & cultura i llengua catalanes (patrocinat per la fundació puntCat) \\
+{\tt .eus} & cultura i llengua basques (patrocinat per la fundació PuntuEus) \\
+{\tt .museum} & museus (patrocinat per MuseDoma) \\
+\hline\end{tabular}
+\end{center}
+\caption{Alguns indicatius Internet usats originalment als Estats
+  Units d'Amèrica i més recentment arreu del
+  món, alguns d'ells patrocinats per determinades institucions.}
+\label{tb:tipus}
+\end{table}
+
+\begin{persabermes}{servidors de noms}
+  Podríem fer una analogia entre la relació entre els noms i els
+  números IP dels ordinadors d'Internet i els noms i els números de
+  telèfon de l'agenda del nostre mòbil. Quan telefonem a una persona,
+  normalment ho fem buscant el seu nom en l'agenda, i poques vegades
+  ho fem pel número, però per fer la telefonada és necessari el
+  número. Quan accedim a ordinadors d'Internet, ho fem de manera
+  similar: accedim pel nom i no pel número IP, el qual és
+  indispensable per a fer la connexió. Però, en contrast amb l'agenda
+  del nostre mòbil, és impracticable tenir tots els noms i els números
+  IP corresponents a tots els ordinadors del món en el nostre
+  ordinador. Per això s'usen \emph{servidors de noms}: ordinadors als
+  quals el nostre ordinador es connecta pel número IP i als quals pot
+  preguntar pel número IP corresponent a un nom. Els \emph{servidors de
+    noms} s'organitzen de manera que es distribueixen la informació de
+  manera jeràrquica fent ús del \emph{sistema de noms de domini} (en
+  anglés, \emph{domain name system} o DNS). 
+
+  Per exemple, quan volem connectar a \url{cercador.dlsi.ua.es}, el
+  servidor de noms del nostre proveïdor d'accés a Internet veu que el
+  nom acaba en \texttt{.es} i pregunta al servidor de noms que
+  s'encarrega d'aquest \emph{domini}; aquest servidor veu que
+  l'element anterior és \texttt{.ua} i pregunta al servidor de noms de
+  la Universitat d'Alacant (UA), i aquest, al seu torn, pregunta al
+  servidor de noms del Departament de Llenguatges i Sistemes
+  Informàtics, ja que l'element anterior és \texttt{.dlsi}. Aquest
+  últim, finalment, entrega el número IP de l'ordinador anomenat
+  \texttt{cercador} al servidor de la UA, i aquest al servidor del
+  domini geogràfic \texttt{.es}, que l'entrega al nostre proveïdor de
+  serveis d'Internet i aquest, al seu torn, al nostre ordinador per a
+  fer la connexió. Per això, quan naveguem, la primera connexió tarda
+  més: s'està \emph{resolent} el nom que hem teclejat. Una vegada
+  resolt, el nostre ordinador es guarda l'IP durant un temps per
+  evitar preguntar de nou. A més, per reduir el tràfic a Internet els
+  proveïdors de serveis d'Internet i els servidors de noms consultats
+  també es guarden temporalment aquesta informació de manera que no
+  sempre es desencadena el procés complet de consultes descrit.
+\end{persabermes}
+
+\section{Identificadors de recursos}
+Els serveis i els documents concrets presents en un ordinador (un
+servidor d'Internet) que els fa disponibles es poden designar
+mitjançant el seu \emph{identificador uniforme de recursos} o, més
+comunament, \emph{URI} (de l'anglés \emph{uniform resource
+  identifier}).\footnote{La denominació més usual era URL,
+  \emph{uniform resource locator} o localitzador uniforme de recursos,
+  que encara s'usa profusament, encara que no tots els URI son URL.}
+L'URI és, per tant, una expressió que identifica o localitza
+uniformement un servei o document (un recurs) de qualsevol dels que
+s'ofereixen en Internet.
+
+Un URI té generalment tres parts, encara que s'hi donen algunes
+variacions i una d'elles no és obligatòria:
+\begin{description}
+\item[esquema:] indica la classe de recurs i com l'ha d'usar
+  l'ordinador sol·licitant (o \emph{client}).
+\item[autoritat:] identifica pel seu nom o número IP l'ordinador
+  (\emph{servidor}) on és el recurs.
+\item[trajectòria:] (opcional) dóna informació sobre la localització
+  del servei o document dins de l'ordinador servidor (moltes vegades
+  similar a les \emph{trajectòries} dels fitxers,
+  p.~\pageref{pg:fitxer}).
+\end{description}
+Per exemple, l'URI
+\begin{center}
+\url{http://www.canalcuina.tv/concurs/sms/index.html}
+\end{center}
+es refereix a un document d'\emph{hipertext} ---un document de text
+que conté enllaços que permeten accedir directament a altres
+hipertextos relacionats--- compatible amb l'esquema \texttt{http}
+(\emph{hypertext transfer protocol} o protocol de transferència
+d'hipertextos) situat en l'ordinador \texttt{www.canalcuina.tv} (de
+l'empresa fictícia Canal Cuina, possiblement pertanyent al món de la
+televisió\footnote{Encara que, com es mostra en la
+  taula~\ref{tb:pais}, l'indicatiu designa un estat del Pacífic
+  anomenat Tuvalu}), i, dins d'aquest, en el directori
+\texttt{concurs}, subdirectori \texttt{sms}. El fitxer que conté
+l'hipertext s'anomena \texttt{index.html}, on les sigles HTML
+corresponen a \emph{hypertext markup language}, nom del llenguatge o
+sistema de marques més usat per a donar format als hipertextos (vegeu
+l'apartat~\ref{ss:formats}).
+
+L'esquema {\tt https://} és similar a l'esquema {\tt http://} però
+incorpora, a més, mecanismes per a transmetre amb seguretat informació
+encriptada (xifrada). Molts dels servidors d'Internet encarregats de
+manipular informació privada usen aquest esquema.
+
+Els URI no només serveixen per enllaçar hipertextos: l'URI
+\url{mailto:anton@dlsi.ua.es} serveix per a enviar correu electrònic
+(\texttt{mailto}) a l'usuari que té l'adreça de correu electrònic
+\url{anton@dlsi.ua.es}. Altres esquemes són \texttt{rtsp://},
+\emph{real-time streaming protocol}, per a enllaçar contingut com ara
+vídeo, àudio, etc. en temps real, o {\tt ftp://}, \emph{file transfer
+  protocol}, usat, cada vegada menys, per a descarregar (transferir)
+fitxers per a guardar-los en el nostre ordinador\label{pg:ftp}.
+
+\section{Navegadors}
+\label{ss:navegadors}
+Els programes navegadors es coneixen també per altres noms:
+\texttt{browsers} (fullejadors), \emph{exploradors}, etc. (vegeu també
+la pàg.~\pageref{pg:navegadors}).  Són programes que permeten accedir
+de manera senzilla als documents o serveis d'Internet en ordinadors
+connectats a aquesta xarxa; entre altres coses, els navegadors
+interpreten els hipertextos escrits en HTML i els presenten a la
+persona usuària en el format que indiquen les marques, de manera que
+els enllaços a altres hipertextos queden clarament destacats i siguen
+\emph{actius}, és a dir, que responguen a un clic del ratolí
+\emph{saltant} a l'hipertext o recurs enllaçat; a més, els navegadors
+poden \emph{llançar} automàticament altres programes d'aplicació per a
+poder obrir el recurs corresponent si no és un hipertext. 
+
+Els navegadors més usats són \emph{Firefox} (un programa lliure i de
+codi font obert desenvolupat per centenars de col·laboradors arreu del
+món), \emph{Chrome} (el navegador de la companyia Google, el qual té
+una versió lliure i de codi font obert anomenada \emph{Chromium}),
+\emph{Microsoft Internet Explorer} (incorporat en el sistema operatiu
+Windows), \emph{Safari} (el qual forma part del sistema operatiu
+MacOS), i d'altres com \emph{Opera}, etc.
+ 
+\com{No m'agrada que el material de navegadors estiga repartit i
+  repetit entre dos capítols. Unir? }
+
+\section{Buscadors}
+Un dels recursos d'Internet més útils són els \emph{buscadors} o
+\emph{cercadors}. Es tracta de pàgines \emph{web} que permeten buscar
+documents d'Internet; s'hi ha de teclejar una o més paraules, a més
+d'altres \emph{condicions de recerca} opcionals ---com ara que els
+documents hagen d'estar en una llengua determinada o en un servidor
+determinat--- i entreguen els URI dels documents que compleixen
+aquestes condicions, enllaços a aquests documents i un petit resum o
+retall (anomenat \emph{snippet}) del contingut de les pàgines
+desitjades.\footnote{Alguns buscadors, com ara \emph{Google},
+  modifiquen els enllaços que porten als resultats, de manera que no
+  hi porten directament sinó passant primerament pel servidor del
+  buscador, per tal de conéixer les preferències de la gent i millorar
+  així la rellevància dels resultats, però fins i tot poden establir
+  un perfil de cada persona usuària. Això fa que algunes persones es
+  plantegen l'ús de buscadors que no facen aquest \emph{seguiment} o
+  \emph{tracking}.}
+
+Exemples de recerques:
+\begin{itemize}
+\item \texttt{megamòndria}: documents que continguen el mot
+  \emph{megamòndria} i potser formes del mateix com ara el plural
+  \emph{megamòndries}, el compost \emph{mega-mòndria}, o la forma
+  sense accent \emph{megamondria}.
+\item \texttt{megamòndria síngula}: documents que continguen aquests
+  dos mots o variants.
+\item \texttt{megamòndria síngula site:ua.es}: documents que
+  continguen aquests dos mots o variants i que estiguen en documents
+  amb URI que acaben en \emph{ua.es}.
+\item \texttt{megamòndria síngula filetype:pdf}: documents PDF que
+  continguen aquests dos mots.
+\end{itemize}
+
+Ha de quedar clar que els buscadors realment \emph{no busquen}
+documents en Internet sinó que consulten \emph{índexs} que han anat
+construint a partir dels documents que van visitant. Per tant, pot
+haver-hi documents que els buscadors no troben perquè mai no els han
+visitat. Per la mateixa raó, també pot passar que els buscadors
+entreguen resultats corresponents a pàgines que ja no existeixen.
+
+Un dels buscadors més populars a l'hora d'escriure aquestes línies és
+\emph{Google} (\url{http://www.google.com}); però també hi ha altres
+com \emph{Duckduckgo!}, \emph{StartPage}, etc. La major part d'aquests
+buscadors tenen interfícies d'ús en moltes llengües.
+
+\section{Correu electrònic}
+\label{ss:correue}
+Un dels serveis més usats d'Internet és el correu electrònic (en
+anglés \emph{electronic mail} o \emph{e-mail}), que ens permet enviar
+missatges (textos informatitzats) a usuaris d'altres ordinadors.  Els
+missatges poden contenir, a més del text mateix del missatge, fitxers
+\emph{annexos} (o \emph{adjunts}, en anglés \emph{attachments}) com
+ara imatges, documents, missatges reenviats, etc.
+
+Les adreces de correu electrònic tenen dues parts, separades pel
+caràcter ``\texttt{@}'', que se sol pronunciar \emph{at} (en anglés,
+per part dels informàtics més vells), {\em arrova}, \emph{rova} o, per
+què no, \emph{ensaïmada}. La primera part (o \emph{part local}) és
+freqüentment l'identificador d'una persona i la segona (la \emph{part
+  de domini}) sol prendre la forma de nom d'un ordinador (o d'un grup
+d'ordinadors que comparteixen un nom). Per exemple, una adreça
+electrònica vàlida podria ser
+\begin{center}
+\texttt{marty.mcfly@backtothefuture.info}
+\end{center}
+A vegades, podem usar la nostra adreça de correu electrònic per a
+identificar-nos a l'hora d'accedir a alguns dels serveix que
+s'ofereixen en Internet, com ara els serveix de xarxes socials (vegeu
+l'apartat~\ref{ss:xarsessocials}).
+
+Una adreça electrònica pot també identificar una llista d'usuaris
+(\emph{àlies}) o una llista de distribució (la qual envia una còpia de
+cada missatge que rep a tots els inscrits en la llista). En els dos
+casos, si hi enviem un missatge, el reben tots els inscrits, de manera
+que es pot usar per a establir, per exemple, fòrums de
+discussió.\footnote{Per exemple, la llista de distribució sobre
+  traducció automàtica MT-List, mantinguda per l'EAMT (\emph{European
+    Association for Machine Translation}, associació europea per a la
+  traducció automàtica), té l'adreça \texttt{mt-list@eamt.org}; per a
+  formar part de la llista cal subscriure's en l'URI
+  \url{http://lists.eamt.org/mailman/listinfo/mt-list}. Si s'envia un
+  missatge a \texttt{mt-list@eamt.org} el reben tots els
+  subscrits. Una altra llista d'interés, Tradumàtica, sobre
+  tecnologies de la traducció, permet subscripció a través de
+  \url{https://listserv.rediris.es/cgi-bin/wa?A0=TRADUMATICA}.}
+
+% \com{No sé si mereix la pena dir alguna cosa sobre l'abús del mot
+% \emph{e-mail} en sentits com \emph{adreça}, \emph{programa} o
+% \emph{missatge} quan es refereix al \emph{servei}. Ho faig a classe
+% cada any però no sé si ací...}
+
+Per llegir, escriure o enviar els missatges de correu electrònic,
+s'usen \emph{programes gestors de correu electrònic}, com ara
+Thunderbird, Outlook, etc.  També és molt freqüent, accedir al correu
+electrònic des de qualsevol lloc usant un navegador, a través d'un
+servei anomenat \emph{webmail}; són comuns els \emph{webmails}
+gratuïts (GMail, Yahoo Mail, MicroSoft Outlook); cada alumna o alumne
+de la Universitat d'Alacant té, per ser-ho, una adreça de correu de la
+forma \emph{xxxx}\texttt{@alu.ua.es}, accessible a través de la secció
+\emph{webmail} de la pàgina web de la Universitat.
+
+
+\section{Missatgeria instantània i xat}
+\label{ss:missinst}
+La missatgeria instantània i el xat (en anglés \emph{chat}) permeten
+---com en el cas del correu electrònic, a través de programes
+especialitzats o \emph{webs} accessibles amb un navegador--- una
+comunicació escrita molt ràpida (``en temps real''), consistent en
+missatges normalment curts ---opcionalment amb annexos com ara
+fotografies, contactes---, de manera que el resultat és similar al
+d'una conversa, però per escrit,\footnote{Encara que s'està
+  popularitzant l'ús de \emph{notes de veu}, arxius d'àudio
+  enregistrats i que s'envien com a annexos.} cosa que permet un
+registre de comunicació molt informal que, de fet, ha donat lloc a una
+llengua molt diferenciada tant de l'oral com de l'escrita.
+
+Amb la generalització de l'ús dels mòbils intel·ligents o
+\emph{smartphones}, han aparegut moltes aplicacions d'aquest tipus,
+com ara Telegram, Whatsapp, Line, etc., que usen com a identificador
+el número de telèfon.
+
+Les converses poden ser entre dues persones, o entre un \emph{grup} de
+persones, a voltes reunits en una \emph{sala}, amb interessos comuns.
+Les persones que participen en un \emph{xat} d'aquests últims, poden
+de vegades elegir un àlies o malnom i ``entrar'' a la sala, o estar
+sempre connectades al grup, i ``conversar'' per escrit
+públicament. Des del grup o la sala es poden establir ``converses a
+part'' (a banda) quan cal amb alguna persona concreta.
+
+Entre els serveis de missatgeria instantània comercial més populars
+estan els associats a xarxes socials com ara Facebook o Tuenti, o
+altres associats a altres aplicacions com ara Google Hangouts o Skype.
+
+\section{Serveis de xarxa social}
+\label{ss:xarsessocials}
+Una de les aplicacions més freqüents d'Internet són en l'actualitat
+els \emph{serveis de xarxa social}, comunament anomenats simplement
+\emph{xarxes socials}. Són plataformes informàtiques que usen Internet
+(a través d'un navegador i freqüentment també a través de programes
+d'aplicació específics, molt populars per a telèfons mòbils) per a
+construir xarxes de persones que comparteixen interessos o
+objectius. Alguns exemples:
+\begin{description}
+\item[Facebook] permet a cada persona publicar informacions sobre el
+  seu \emph{estat}, incloent fotos, i enviar-se missatges; l'estat pot
+  ser visible per a tothom o per a persones \emph{amigues}.
+\item[Google+] es pot veure com la resposta de Google a Facebook; en
+  Google+ el concepte bàsic és el del \emph{cercle}.
+\item[Twitter] és una xarxa social que es basa en missatges de menys
+  de 140 caràcters que poden dur adjuntes fotos, enllaços, etc.
+\item[Instagram] fa èmfasi en la possibilitat de compartir fotografies
+  i vídeos.
+\item[LinkedIn] serveix per a construir xarxes relacionades amb
+  l'activitat professional.
+\end{description}
+Hi ha molts altres d'abast mundial (Pinterest, Reddit, Tumblr, etc.) i
+alguns particulars de determinades àrees geogràfiques (com ara VK en
+els països on es parla rus).
+
+% \section{\emph{News}}
+
+% Aquest és un servei similar a les llistes de distribució i, per
+% tant, també serveix per a constituir grups de discussió o de
+% notícies (\emph{newsgroups}) sobre un tema; els missatges que s'hi
+% envien hi queden guardats i qui vulga saber si hi ha novetats en un
+% grup de discussió determinat només s'ha de connectar al
+% \emph{servidor de notícies} més pròxim, seleccionar el grup i llegir
+% els missatges nous. Els grups de notícies tenen noms compostos per
+% diversos mots separats per punts, com ara {\tt comp.ai.neural-nets}.
+
+
+\section{L'accés a Internet}
+\label{ss:adaI}
+
+\subsection{Accés domèstic}
+Per a accedir a Internet des de casa, cal, d'una banda, donar-se
+d'alta amb algun proveïdor de serveis d'Internet (ISP, \emph{Internet
+  service provider}) ---alguns proveïdors ofereixen, a més de l'accés
+a Internet, televisió digital i telefonia convencional--- i d'altra un
+\emph{mòdem} adequat al tipus de connexió (mòdem ADSL, mòdem de cable,
+etc.). Normalment els mòdems que ens venen els proveïdors de serveis
+d'Internet són a l'hora mòdem i encaminador (en anglés \emph{router})
+per a permetre que hi connectem més d'un dispositiu, normalment a
+través d'una connexió sense fils Wi-Fi, formant una xarxa local (en
+anglés \emph{local area network}, LAN). La figura
+\ref{fg:accesinternet} mostra un esquema de l'accés domèstic a
+Internet des de diversos dispositius.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.35]{connex-internet}
+\caption{Esquema d'accés domèstic a Internet des de diversos
+  dispositius connectats a un mòdem-encaminador.}
+\label{fg:accesinternet}
+\end{figure}
+
+El nostre proveïdor de serveis d'Internet assigna un número IP públic
+al nostre encaminador (\emph{router}), de manera que forme part
+d'Internet i puga facilitar l'accés a tots els dispositius de la
+nostra xarxa local (clients) a tots els serveis i documents
+disponibles en qualsevol màquina (servidora) d'Internet. Als
+dispositius de la nostra xarxa local l'encaminador els assigna un
+número IP privat al que només tenen accés els ordinadors que formen
+part d'aquesta xarxa local; tots els dispositius d'aquesta xarxa local
+es connecten a Internet usant el mateix número IP, el número IP públic
+assignat al nostre encaminador.
+
+En la majoria dels casos, el número IP públic que el nostre proveïdor
+d'accés a Internet assigna al nostre encaminador és temporal i va
+canviant, per això els ordinadors que tenim a casa no poden actuar com
+a servidors.
+
+En l'actualitat, en els domicilis del País Valencià hi ha bàsicament
+tres modalitats d'accés a Internet, totes per preus que oscil·len al
+voltant dels 30--40 euros/mes:
+\begin{description}
+\item[ADSL:] (vegeu el glossari de la secció~\ref{ss:OiPgloss}) el
+  mòdem fa la connexió a través dels fils de telefonia convencional ja
+  instal·lats a les cases, i en l'actualitat s'aconsegueixen
+  velocitats de baixada d'alguns Mb/s i de pujada normalment inferiors
+  a 1 Mb/s.
+\item[Cable:] el mòdem fa la connexió a través d'un cable coaxial,
+  tecnologia que s'usava tradicionalment per a televisió, amb
+  velocitats i preus similars a l'ADSL.
+\item[Fibra:] el mòdem fa la connexió a través d'un feix de fibra
+  òptica (làser); aquesta tecnologia és la més recent i permet
+  velocitats de baixada de desenes o fins i tot centenars de Mb/s i
+  velocitats de pujada superiors al Mb/s.
+\end{description}
+
+\begin{persabermes}{els antics mòdems telefònics}
+  Fins als primers anys del decenni del 2000, la major part dels
+  domicilis particulars i les petites empreses es connectaven a
+  Internet mitjançant la línia telefònica, però usant una tecnologia
+  molt més rudimentària, que requeria fer una telefonada al número del
+  proveïdor d'accés a Internet, que havia de durar el temps de
+  connexió, independentment de la quantitat de dades que s'hi
+  transferiren. La telefonada es podia pagar per minuts o amb plans
+  que permetien connexions il·limitades en horari no comercial que
+  s'anomenaven \emph{tarifa plana}. El mòdem modulava i desmodulava
+  senyals similars als que s'envien quan es fa una telefonada de
+  veu. Durant la connexió, la línia quedava ocupada i no es podien fer
+  ni rebre telefonades. Les velocitats eren molt baixes, de desenes de
+  kb/s.
+\end{persabermes}
+
+
+\subsection{Accés mòbil}
+Com més va, menys ens connectem a Internet des de casa, i més des dels
+nostres dispositius mòbils com ara els \emph{smartphones}. Si som a
+l'abast d'una xarxa Wi-Fi a la qual tenim accés (com la de la nostra
+casa o la que ens ofereix la Universitat), el nostre dispositiu mòbil
+es connectarà a Internet a través de Wi-Fi. Si no, haurem d'usar les
+\emph{dades mòbils} que comercialitza el nostre proveïdor de telefonia
+mòbil a través de la seua xarxa cel·lular. En l'actualitat s'està fent
+la transició de la tecnologia anomenada de tercera generació o 3G (que
+es mostra de vegades també com una ``H'' en la pantalla), que permet
+velocitats de connexió d'uns pocs Mb/s a la de quarta generació o 4G,
+que permet velocitats molt més ràpides (de vegades, quan la cobertura
+no és bona, el nostre mòbil recorre a tecnologies més antigues i més
+lentes, com ara EDGE\footnote{\emph{Enhanced Data Rates for GSM
+    Evolution} ``Taxes de dades millorades per a l'evolució del GSM''}
+---que permet centenars de kb/s i es mostra com una ``E'' en la
+pantalla--- o GPRS\footnote{\emph{General Packet Radio Service} ``Servei
+  general de paquets [de dades] per ràdio''} ---que permet desenes de
+kb/s i es mostra com una ``G'' en la pantalla). En l'actualitat, podem
+comprar paquets de dades i pagar uns 5--7 euros per GB, o una quota
+mensual de desenes d'euros i tenir dades il·limitades.
+
+\section{Questions i exercicis}
+\begin{enumerate}
+
+\item La primera part d'un URI (identificador uniforme de recursos)
+  especifica \ldots
+  \begin{enumerate}
+  \item \ldots l'esquema d'accés.
+  \item \ldots el nom del servidor.
+  \item \ldots el directori on es troba el servei.
+  \end{enumerate}
+
+\item Després de l'esquema d'accés, un URI (identificador uniforme de
+  recursos) especifica
+  \begin{enumerate}
+  \item la velocitat de transferència.
+  \item el nom del servidor.
+  \item el directori on es troba el servei.
+  \end{enumerate}
+
+\item Què és ``\url{http://www.tharaka.org.ke/nkoru}''?
+  \begin{enumerate}
+  \item Un URI.
+  \item Una adreça de correu electrònic.
+  \item El nom d'un fitxer local del nostre ordinador.
+  \end{enumerate}
+
+\item Els números IP es componen de 4 números del 0 al 255 separats
+  per punts. Quants bits són necessaris per a emmagatzemar un número
+  IP?
+  \begin{enumerate}
+  \item 16
+  \item 32
+  \item 4
+  \end{enumerate}
+
+\item Quan en un navegador no s'indica l'esquema d'un URI, quin
+  esquema se sobreentén?  
+  \begin{enumerate}
+  \item \texttt{http://}
+  \item \texttt{mailto:}
+  \item L'esquema d'Internet
+  \end{enumerate}
+
+\item Què es pot dir dels números IP de dues màquines que es troben en
+  la mateixa subxarxa?
+  \begin{enumerate}
+  \item No se'n pot dir res: els números IP poden no tenir res a
+    veure.
+  \item Que tenen en comú els primers octets.
+  \item Que tenen en comú els últims octets.
+  \end{enumerate}
+
+\item Sakurako es connecta a Internet per via telefònica amb un
+  ordinador que té un processador de 1000~MHz, 128 megaoctets
+  (\emph{megabytes}) de RAM i un mòdem de 57600 bits per segon.  Ahmed
+  té un ordinador amb un processador de 500~MHz i 128~megaoctets de
+  RAM i ha contractat un mòdem de cable de 128 kilobits per segon per
+  a connectar-se a Internet. Sakurako vol convéncer Ahmed que ella es
+  descarrega els fitxers MP3 més ràpid que ell, però Ahmed li diu que
+  en les mateixes condicions ell tarda menys a baixar-se els fitxers,
+  de vegades la meitat de temps.  Qui té raó?
+  \begin{enumerate}
+  \item Ahmed
+  \item Els dos es baixen els arxius en el mateix temps perquè els dos
+    ordinadors tenen la mateixa RAM.
+  \item Sakurako
+  \end{enumerate}
+
+\item Si la màquina \url{fictici.deconya.ua.es} té el número IP
+  232.111.22.33 quin dels tres número IP següents és més probable que
+  corresponga a la màquina \url{fals.deconya.ua.es}?
+  \begin{enumerate}
+  \item 230.111.22.33
+  \item 232.111.22.13
+  \item 67.15.22.99
+  \end{enumerate}
+
+\item Com s'indica en Internet on és un recurs concret?
+  \begin{enumerate}
+  \item Mitjançant un URI.
+  \item Mitjançant un hiperenllaç.
+  \item Mitjançant una etiqueta HTML.
+\end{enumerate}
+
+\item Quin dels següents és un número IP vàlid?
+  \begin{enumerate}
+  \item 64.128.64
+  \item 255.256.111.1
+  \item 111.255.111.111
+  \end{enumerate}
+
+\item En un número IP, quina part és igual per a dos ordinadors
+  connectats en la mateixa xarxa local?
+  \begin{enumerate}
+  \item La part inicial.
+  \item La part final.
+  \item Pot no coincidir-hi res perquè els números IP s'assignen
+    aleatòriament.
+  \end{enumerate}
+
+\item A la nostra casa hem tingut telèfon tota la vida i ara estem
+  pensant a connectar-nos a Internet mitjançant ADSL. Hem de fer cap
+  instal·lació addicional a casa?
+  \begin{enumerate}
+  \item No, però ens quedarem sense telèfon i només hi tindrem
+    Internet.
+  \item Sí, de segur que els tècnics vindran a passar cables arreu la
+    casa.
+  \item No. I gaudirem de telèfon i Internet alhora.
+  \end{enumerate}
+
+\item Quan realitzem una recerca en Internet, el cercador \ldots
+  \begin{enumerate}
+  \item \ldots visita en aquell moment els diferents documents
+    d'Internet i recopila aquells que satisfan el criteri de cerca.
+  \item \ldots consulta un índex que ha construït prèviament en
+    visitar els diferents documents d'Internet.
+  \item \ldots consulta un índex que ha construït prèviament i també
+    visita en aquell moment els documents d'Internet per si hi haguera
+    algun de nou que no existia quan va crear l'índex.
+  \end{enumerate}
+
+\item Si en cercar un recurs en Internet el cercador ens diu que no hi
+  ha documents que satisfacen el criteri de cerca \ldots
+  \begin{enumerate}
+  \item \ldots podem estar segurs que no existeix en tot Internet cap
+    document que el satisfaça.
+  \item \ldots podria donar-se el cas que un document de recent
+    creació satisfaça el criteri de cerca però no haja estat visitat
+    pel cercador.
+  \item Les altres dues respostes són errònies.
+  \end{enumerate}
+
+\item Donada la URI
+  \url{http://edu.gob.es/educacion/universidades.html}, indica quina
+  de les següents afirmacions és falsa:
+  \begin{enumerate}
+  \item El recurs \texttt{universidades.html} està allotjat en un
+    ordinador el nom del qual és \texttt{edu.gob.es}.
+  \item La ruta d'accés al recurs és
+    \texttt{educacion/universidades.html}.
+  \item L'ordinador on s'allotja el recurs es diu
+    \texttt{http://edu.gob.es}.
+  \end{enumerate}
+\end{enumerate}
+
+\section{Solucions}
+\begin{enumerate}
+\item (a)
+\item (b)
+\item (a)
+\item (b): Cada número del 0 al 255 es pot emmagatzemar en 8 bits
+  ($2^8=256$) i n'hi ha quatre: $8\times 4=32$.
+\item (a)
+%5
+\item (b)
+\item (a): 57.600 b/s són  57.600 / 1024 = 56,25 kb/s.
+\item (b)
+\item (a)
+\item (c)
+%10
+\item (a)
+\item (c)
+\item (b)
+\item (b)
+\item (c)
+% 15
+\end{enumerate}

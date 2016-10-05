@@ -1,0 +1,763 @@
+\chapter{Traducció automàtica espanyol--català}
+\label{se:PdTACC}
+
+La inclusió d'aquest apèndix en el llibre té tres objectius:
+\begin{enumerate}
+\item Estudiar amb una miqueta més de detall els problemes que
+  planteja la traducció automàtica entre dues llengües
+  emparentades. Podríeu pensar que, sent l'espanyol i el català tan
+  similars sintàcticament, els problemes serien poc importants: el
+  capítol intenta convéncer-vos que les coses no són tan senzilles com
+  podrien semblar a primera vista.
+\item Il·lustrar, amb un parell de llengües concret, alguns dels
+  conceptes tractats en els capítols anteriors.
+\item Donar una breu notícia de les experiències de traducció
+  automàtica espanyol--català existents.
+\end{enumerate}
+
+
+
+\section{Problemàtica de la traducció automàtica espanyol--català}
+
+\subsection{Introducció}
+
+Les aplicacions potencialment més interessants de la TA
+espanyol--català s'em\-mar\-quen dins de l'anomenada {\em
+  normalització lingüística}, és a dir, l'esforç de les societats de
+parla catalana per promoure'n l'ús normal en tots els àmbits; un
+exemple actual el constitueixen els servidors d'Internet
+d'institucions públiques i d'empreses privades dels territoris de
+parla catalana, on la presència del català és encara minoritària. Quan
+la llengua original dels documents és l'espanyol, es podria usar un
+sistema de TA per a generar esborranys de documents catalans (o, fins
+i tot, documents pràcticament correctes si els documents espanyols
+estan escrits en un llenguatge controlat).
+
+En el cas concret de l'espanyol i el català, la proximitat lingüística
+entre les dues llengües fa que siga abordable el disseny de sistemes
+de traducció automàtica que generen textos d'un nivell de correcció
+tal que resulte més rendible revisar el resultat en brut produït pel
+programa que fer la traducció completa (mireu la p.~\ref{pg:cost}).
+
+
+En aquest capítol es presenten alguns dels problemes més importants
+amb què es pot trobar qui vulga dissenyar un sistema de traducció
+automàtica per a traduir textos de l'espanyol al català. A la vista de
+la notable similitud lingüística existent entre les dues llengües, es
+podria pensar que la tasca de traducció automàtica podria, en la
+majoria dels casos, ser tan senzilla com substituir un a un els mots
+espanyols pels seus equivalents catalans. De fet, el model de
+traducció automàtica \emph{mot per mot} (definit en la
+pàg.~\pageref{pg:mpm}, i que no s'ha de confondre amb el que se sol
+anomenar \emph{traducció literal}) és el model de referència que
+usarem en aquest capítol: els tres grups de {\em problemes} que es
+presenten en aquest capítol són alguns ---no tots--- dels que no resol
+el model mot per mot: la segmentació del text origen, l'homografia i
+les divergències sintàctiques.
+
+\subsection{Segmentació del text origen}
+
+La segmentació d'un text en mots sol ser normalment molt senzilla: el
+programa pot usar els blancs, els tabuladors, els finals de línia o
+els signes de puntuació com a fronteres entre mots. Però de vegades no
+és tan fàcil: per exemple, l'espanyol uneix moltes vegades diversos
+mots en un sol mot, sense que s'hi puguen distingir els mots
+components; en català, llevat de contraccions com \emph{al},
+\emph{pels}, i \emph{del}, sempre queda alguna indicació d'aquesta
+unió, com ara un apòstrof o un guionet. Per exemple, en espanyol, els
+pronoms enclítics s'uneixen a l'imperatiu, a l'infinitiu i al gerundi,
+i moltes voltes fan que en canvie la forma (vegeu
+l'epígraf~\ref{s3:STMorf}). Per sort, aquests problemes es poden
+resoldre de manera senzilla usant analitzadors morfològics com els que
+es descriuen en l'epígraf~\ref{s3:anmor}.
+
+\subsection{Homografia}
+
+L'homografia pot produir ambigüitat lèxica categorial o fins i tot
+aparéixer entre mots de la mateixa categoria lèxica. L'homografia
+apareix quan un mot (anomenat usualment \emph{homògraf}) té més d'una
+anàlisi morfològica possible (vegeu
+l'apartat~\ref{ss:amblex}). L'espanyol ---com les altres llengües
+romà\-ni\-ques--- té molts homògrafs. Una de les fonts més importants
+d'homografia és la coincidència entre algunes terminacions de la
+flexió verbal i algunes terminacions de la flexió nominal i adjectival
+(\emph{-a}, \emph{-as}, \emph{-o}, \emph{-e}, \emph{-es}), ja que
+involucra categories lèxiques obertes amb molts membres.\footnote{De
+  vegades, els mots homògrafs comparteixen una semàntica relacionada,
+  com \emph{ahorro}, i altres vegades no, com \emph{oso}.} Però hi ha,
+a més, altres fonts menys productives d'ambigüitat, com ara la
+coincidència d'algunes de les terminacions del present d'indicatiu
+dels verbs en \emph{-ar} amb les del present de subjuntiu dels verbs
+en \emph{-er} i \emph{-ir} i al revés. Finalment, hi ha algunes
+homografies fortuïtes (algunes particularment freqüents, com ara
+\emph{para}, preposició i verb; \emph{una}, determinant i verb, i \emph{como}, radverbi relatiu, preposició i verb).
+
+Per a il·lustrar aquest fet, es presenta un assaig de classificació 
+---no exhaustiva---  dels homògrafs espanyols:
+
+\begin{enumerate}
+\item Homografia verb conjugat--substantiu:
+ \begin{enumerate}
+
+   \item En \emph{-a}: 
+   \begin{itemize}
+   \item Pres.\ ind., 3a pers.\  sing.\ (1a conj.) / subst.\ fem.\ sing.: \emph{casa}, \emph{pinta},
+   \emph{ sala}, \emph{toma}, \emph{entrega}, \emph{osa}.
+   \item Pres. subj., 1a i 3a pers.\ sing.\ (2a i 3a conj.) / subst.\ fem.\ sing.:
+       \emph{bata}, \emph{tema}, \emph{meta}
+   \item Altres: \emph{era} (verb \emph{ser}, 1a i 3a pers.\ sing.\
+     pretèrit imperf. i subst.\ fem\. sing.).
+   \end{itemize} 
+
+   \item En \emph{-as}:
+   \begin{itemize}
+   \item Pres.\ ind. 2a pers.\ sing. (1a conj.) / subst.\ fem.\ pl.:
+       \emph{casas}, \emph{salas}, \emph{tomas}, \emph{entregas}, \emph{osas};
+   \item Pres.\ ind. 2a pers.\ sing (2a i 3a  conj.) / subst.\ fem.\ pl.:
+       \emph{batas}, \emph{temas}, \emph{metas}.
+   \item Altres: \emph{eras}.
+   \end{itemize}
+
+   \item En \emph{-e}:
+   \begin{itemize}
+   \item Pres.\ subj., 1a/3a pers.\ sing.\ (1a conj.) / subst.\ masc.\  i fem.\
+sing.:
+       \emph{cante}, \emph{deje}, \emph{sobre}, \emph{pose}, \emph{apunte}
+   \item Pres. ind., 3a pers.\ sing.\ (1a conj.) / subst.\ masc.\  i fem.\
+sing.: \emph{vale}.
+   \item Altres: \emph{traje} (verb \emph{traer}, 1a pers.\ sing.\
+     pretèrit indefinit i subst.\ masc.\ sing.)
+   \end{itemize}
+
+   \item En \emph{-es}:
+   \begin{itemize}
+   \item Pres.\ subj., 2a pers.\ sing.\ (1a conj.) / subst.\ masc.\  i fem.\
+pl.: \emph{sales} (verb \emph{salar}), \emph{ases} (verb \emph{asar}), 
+     \emph{cantes}, \emph{dejes}, \emph{sobres}, \emph{poses}, \emph{apuntes}
+   \item Pres. ind., 2a pers.\ sing.\ (1a conj.) / subst.\ masc.\  i fem.\
+pl.: \emph{vales}, \emph{sales} (verb \emph{salir}), \emph{ases} (verb
+\emph{asir}).
+   \end{itemize}
+ 
+
+   \item En \emph{-o}: 
+   \begin{itemize}
+     \item 1a pers.\ del
+      present d'indicatiu / subst.\ masc.\ sing.: \emph{oso}, \emph{remiendo}, \emph{riego}, \emph{mando}, 
+      \emph{canto}, \emph{cardo}, \emph{recibo}, \emph{abono}, \emph{saldo};
+     \item altres: \emph{vino}.
+   \end{itemize}  
+
+   \item En \emph{-os}:
+       marchamos (1a pers.\ pl. present i pretèrit perfet simple
+       d'indicatiu i subst.\ masc.\ pl.).
+
+   \item Altres terminacions: \emph{sal} (verb \emph{salir})
+       \emph{mentís}, \emph{pagaré}.
+  
+   
+\end{enumerate}
+\item Homografia verb conjugat--adjectiu:
+ \begin{enumerate}
+
+   \item En \emph{-a}: 
+   \begin{itemize}
+   \item Pres.\ ind., 3a pers.\  sing.\ (1a conj.) / adj.\ fem.\ sing.: {\em
+       pinta}, \emph{monda},
+   \emph{ baja}, \emph{linda}.
+   \item Pres. subj., 1a i 3a pers.\ sing.\ (2a i 3a conj.) / adj.\ fem.\ sing.:
+       \emph{viva}.
+   \end{itemize} 
+
+   \item En \emph{-as}:
+   \begin{itemize}
+   \item Pres.\ ind. 2a pers.\ sing. (1a conj.) / adj.\ fem.\ pl.:
+       \emph{pintas}, \emph{bajas}, \emph{mondas}, \emph{lindas};
+   \item Pres.\ ind. 2a pers.\ sing (2a i 3a  conj.) / adj.\ fem.\ pl.:
+       \emph{vivas}.
+   \end{itemize}
+
+   \item En \emph{-e}: 
+   \begin{itemize}
+   \item Pres.\ subj.\ 1a/3a. pers.\ sing. (1a conj.) / adj.\ masc.\ i fem.\
+     sing.: \emph{leve},  \emph{ausente}, \emph{presente}.
+   \end{itemize}
+
+   \item En \emph{-es}: 
+   \begin{itemize}
+   \item Pres.\ subj.\ 2a pers.\ sing. (1a conj.) / adj.\ masc.\ i fem.\
+     sing.: \emph{leves}, \emph{ausentes}, \emph{presentes}.
+   \end{itemize}
+
+   \item En \emph{-o}: 
+   \begin{itemize}
+     \item 1a pers.\ del
+      present d'indicatiu / adj.\ masc.\ sing.: \emph{pinto}, \emph{mondo}, \emph{bajo}, \emph{lindo},  \emph{vivo}.
+   \end{itemize}  
+
+\end{enumerate}
+
+\item Homografia verb conjugat--verb conjugat (molt difícil de resoldre):
+\begin{enumerate}
+\item Entre verbs de la 1a conj.\ i verbs de la 2a o 3a conj.:
+  \begin{itemize}
+  \item \emph{sentir}/\emph{sentar}: \emph{siento}, \emph{sientes}, {\em
+      siente}, \emph{sienten}, \emph{sienta}, \emph{sientas}, \emph{ sientan}.
+  \item \emph{mentir}/\emph{mentar}: com \emph{sentir}/\emph{sentar}
+  \item \emph{vendar}/\emph{vender}: \emph{vendo}, \emph{venda}, {\em
+      vendas}, \emph{vendamos}, \emph{vendáis}, \emph{vendan},
+    \emph{vende}, \emph{vendes}, \emph{vendemos}, \emph{vendéis}, {\em
+      venden}.
+  \item \emph{salir}/\emph{salar}: \emph{sales}, \emph{sale}, \emph{salen}
+  \item \emph{asir}/\emph{asar}: como \emph{salir}/\emph{salar}
+  \item \emph{poder}/\emph{podar}: \emph{podamos}, \emph{podáis}, {\em
+      podemos}, \emph{podéis}.
+  \item \emph{vengar}/\emph{venir}: \emph{vengo}, \emph{vengas}, {\em
+      venga}, \emph{vengamos}, \emph{vengáis}, \emph{vengan}.
+  \end{itemize}
+
+\item  Entre la 1a pers.\ pl. del present d'indicatiu i del pretèrit perfet
+     simple (``pretèrito indefinido'') dels verbs regulars de la 1a i
+     3a conjs.: {\em
+       amamos}, \emph{cantamos}, \emph{conseguimos}, etc.
+\item Altres casos: \emph{amase},  \emph{amasen}, \emph{amases} ({\em
+    amar}, \emph{amasar}); fui, fuiste, ... (\emph{ir} i \emph{ser}),
+  \emph{ven} (\emph{ver} i \emph{venir}), etc.
+\end{enumerate}
+
+
+\item Homògrafs verb conjugat--preposició: \emph{bajo}, {\em
+    cabe}, \emph{entre}, \emph{para}, \emph{sobre}.
+
+\item Homògrafs adjectiu--preposició: \emph{bajo}.
+
+\item Homògrafs substantiu--preposició: \emph{ante}, \emph{sobre}.
+
+\item Homògrafs verb conjugat--determinant:  \emph{uno}, \emph{una},
+  \emph{unas} (\emph{unir})
+    
+\item Homògrafs verb conjugat--adverbi: \emph{así} (\emph{asir}),
+    \emph{fuera} (\emph{ser}, \emph{ir}), \emph{ arriba} (\emph{arribar}), {\em
+      adelante} (\emph{adelantar}), \emph{cerca} (\emph{cercar}).
+
+\item Homògrafs adjectiu--adverbi: \emph{mucho}, \emph{poco}, {\em
+    fuerte}...
+
+\item Homògrafs substantiu--adverbi: \emph{antes}, \emph{tanto},
+  \emph{mal}, \emph{bien}...
+
+\item Homògrafs adjectiu--substantiu: \emph{complejo}, {\em
+    impreso}, \emph{derecho}...
+
+\item Homògrafs determinant--pronom
+    \emph{la}, \emph{los}, \emph{las}, \emph{lo} (en ``lo que'', ``lo grande'')
+
+\item Altres homògrafs: \emph{como} (conjunció i forma de \emph{comer}), \emph{ora} 
+  (conjunció i forma de \emph{orar}), \emph{bien} (conjunció, substantiu i
+adverbi)
+
+\end{enumerate}
+
+
+\subsection{Divergències de traducció}
+
+Imaginem que hem pogut segmentar el text espanyol i que hem resolt 
+correctament les ambigüitats
+lèxiques; si encara decidim fer la traducció mot per mot, ens
+trobarem que hi ha certes construccions per a les quals la
+traducció no és correcta, ja que els mots catalans no es
+corresponen mot per mot amb els espanyols. Vegem quins són 
+alguns dels problemes:
+
+\begin{description}
+\item[Concordança de gènere i nombre:] De vegades el gènere i el
+  nombre d'un mot varien de l'espanyol al català. La dificultat per a
+  un sistema de traducció automàtica apareix a l'hora de propagar el
+  gènere i el nombre del nucli d'un sintagma als modificadors que hi
+  hagen de concordar: \emph{su único amparo} $\rightarrow$ \emph{la
+    seua única empara}; \emph{un buen postre} $\rightarrow$ \emph{unes
+    bones postres}. Els problemes augmenten si la concordança s'ha
+  de produir entre sintagmes distants: \emph{el calor producido por el
+    motor ha resultado ser nefasto} $\rightarrow$ \emph{la calor
+    produïda pel motor ha resultat ser nefasta}. Un problema similar
+  el presenta l'establiment (opcional) de la concordança del
+  participi, inexistent en espanyol en situacions com ara
+  \emph{todavía no la hemos estudiado con profundidad} $\rightarrow$
+  \emph{encara no l'hem estudiada amb profunditat}.
+\item[L'article neutre:] L'espanyol posseeix l'anomenat {\em
+    article neutre}, que no té correspondència en  català estàndard
+  (\emph{lo que me dijiste} $\rightarrow$ \emph{el que em vas dir});
+  presenten dificultat especial les construccions usades per a
+  expressar l'abstracció o la intensitat: 
+  \emph{recibirá el informe lo más pronto posible}
+  $\rightarrow$ \emph{rebrà l'informe el més aviat possible};
+  \emph{me asusta lo grande que es} $\rightarrow$ \emph{m'espanta com
+    és de gran}.
+\item[Els possessius:] De vegades, el català usa articles
+  determinats i construccions amb el pronom feble \emph{en} 
+  on l'espanyol usa possessius: \emph{cuando hagas cosas así
+    debes valorar sus consecuencias} $\rightarrow$ \emph{quan
+    faces coses així n'has de valorar les
+    conseqüències}. 
+\item[Els relatius:]
+El principal problema apareix quan es volen traduir oracions que
+contenen 
+el relatiu possessiu \emph{cuyo},
+inexistent en català, on el més senzill és 
+usar una construcció amb {\em
+  qual}, que, a més, presenta un esquema de concordança
+diferent (\emph{qual} ha de concordar amb l'antecedent, mentre {\em
+  cuyo} concorda amb el nom que el segueix):
+\emph{el contribuyente cuyos informes hemos solicitado llegará tarde} 
+$\rightarrow$ \emph{el contribuent els informes del qual hem
+  sol·licitat 
+arribarà tard} (vegeu el final de l'apartat~\ref{s3:transyn}).
+\item[Els pronoms febles:]
+Els principals problemes es troben en la traducció de \emph{lo}, ja que
+pot correspondre 
+en català a alguna forma del pronom masculí singular {\em
+  lo} o a alguna forma del
+pronom neutre \emph{ho}; en la traducció de 
+\emph{se}, el qual correspon normalment al reflexiu 
+català \emph{se} però
+en les combinacions espanyoles \emph{se la}, \emph{se lo}, etc. pot
+correspondre de vegades a alguna forma de \emph{li} o \emph{els}, i en
+el fet que l'espanyol no té equivalents dels pronoms catalans
+adverbials \emph{en} i \emph{hi}  (\emph{me $\emptyset$ dio uno}
+$\rightarrow$
+\emph{me'n va donar un}); \emph{$\emptyset$ había dos salidas}
+$\rightarrow$ \emph{hi havia dues eixides}; \emph{no $\emptyset$
+  $\emptyset$ dejó una} $\rightarrow$ \emph{no n'hi va deixar cap}).
+\item[Règim preposicional:] Hi ha diferències notables entre
+  els règims preposicionals espanyol i català: les
+  preposicions espanyoles davant de \emph{que} completiu no apareixen
+  en català (\emph{el hecho de que me hable} $\rightarrow$ \emph{el
+    fet que em parle}); algunes preposicions no són possibles en català
+  davant d'infinitiu (\emph{el juego consiste en ganar...}
+  $\rightarrow$ \emph{el joc consisteix a guanyar...}), etc.
+\end{description}
+
+\section{Experiències de TA espanyol--català}
+\label{se:ETACC}
+
+En aquesta secció es descriuen breument quatre experiències de
+traducció automàtica de l'espanyol al català (SALT, el traductor
+espanyol--català de Lucy Software, els traductors Automatictrans i el
+de \textit{El Periòdico de Catalunya}, interNOSTRUM), i una d'elles
+(Apertium) amb més detall.
+
+\subsection{SALT, de la Generalitat Valenciana}
+
+
+El programa SALT (la versió actual és la 4.0) porta el nom de
+l'antic\emph{Servei d'Assessorament Lingüístic i Traducció} de la
+Conselleria de Cultura, Educació i Ciència (ara Conselleria
+d'Educació, Investigació, Cultura i Esport) de la Generalitat
+Valenciana; es tracta d'un programa que s'executa en els sistemes
+operatius Windows, GNU/Linux i MacOS. El desenvolupament del programa
+el va iniciar a finals dels noranta per part d'un equip de
+programadors dirigit per Rafael Pinter sota la direcció lingüística de
+Josep Lacreu, en aquell moment responsable d'aquest servei.
+Inicialment, la disponibilitat del programa va ser més aviat reduïda i
+el seu llançament es va retardar per les discussions quant a
+l'estàndard de valencià que havia de produir; actualment es pot
+descarregar gratuïtament de diversos servidors d'Internet\footnote{com
+  ara \url{http://www.ceice.gva.es/polin/val/salt/apolin_salt4.htm} i
+  \url{https://www.softcatala.org/wiki/Rebost:Salt}} i també el
+distribueixen els serveis de normalització lingüística d'algunes
+universitats.  SALT 4.0 s'executa com una extensió dels processadors
+de textos LibreOffice i OpenOffice.org, tradueix textos en espanyol a
+la variant valenciana del català i està concebut també com una ajuda a
+les persones que volen començar a generar documents en valencià (entre
+altres eines, inclou diccionaris i guies de consulta completíssimes).
+L'Acadèmia Valenciana de la Llengua va declarar \emph{oficials} ``els
+continguts'' del programa SALT 2 (acord de 20 de maig del
+2002). \footnote{L'any 2000, l'empresa Autotrad de València va llançar
+  el programa Ara, llançat. El gerent de l'empresa era Rafael Pinter,
+  responsable informàtic de SALT. Ara era bàsicament una versió
+  bastant millorada de la primera versió de SALT, amb una aparença
+  molt similar però amb algunes diferències: p.e., produïa textos en
+  català oriental estàndard, podia dialogar amb la persona usuària en
+  espanyol i en català, i permetia programar tasques de traducció
+  perquè s'executaven sense necessitat que la persona usuària les
+  atenguera. El cost (l'any 2004) era de 45 euros per llicència. El
+  lloc web de l'empresa\footnote{\url{http://www.ara-autotrad.es}} no
+  sembla funcionar correctament, i és possible que el programa ja
+  s'estiga comercialitzant.}
+
+\subsection{El traductor espanyol--català de Lucy Software}
+
+El sistema de traducció automàtica espanyol--català de Lucy Software,
+originalment desenvolupat per l'empresa Incyta de Cornellà en
+col·laboració amb la Universitat Autònoma de Barcelona és un sistema
+de transferència sintàctica estàndard (vegeu
+l'apartat~\ref{s3:transyn}), hereu del sistema METAL de l'empresa
+Siemens. El seu desenvolupament va anar passant d'una empresa a altra:
+en l'actualitat el desenvolupa la multinacional Sail Labs i el
+distribueix l'empresa Incyta, S.L.. El programa es pot usar en
+Internet\footnote{\url{http://www.lucysoftware.com/catala/traduccio-automatica/kwik-translator-/}}
+i els resultats són de gran qualitat.
+
+\subsection{El traductor d'\emph{El Periódico de Catalunya} i AutomaticTrans}
+\label{ss:ePdC}
+
+Una experiència interessant \citep{fiteperiodico} de traducció
+espanyol--català per a la disseminació és l'edició bilingüe del diari
+\emph{El Periódico de Catalunya};\footnote{Disponible per Internet:
+  \url{http://www.elperiodico.es}.} el text original ---en espanyol
+la major part de les vegades--- es tradueix usant un sistema de
+traducció automàtica basat en corpus combinat en tècniques similars a
+les \emph{memòries de traducció} (vegeu el capítol~\ref{se:memtrad}) i
+després és revisat pels redactors de tancament del mateix periòdic
+abans de ser publicat.
+
+Un programa similar (i, segons les nostres notícies, d'origen comú) a
+l'usat per \emph{El Periódico de Catalunya} s'anomenava abans
+AutomaticTrans i ara probablement el comercialitza l'empresaAT
+Language
+Solutions\footnote{\url{https://www.at-languagesolutions.com/}}
+
+
+\subsection{interNOSTRUM}
+
+Un equip d'investigadors de la Universitat d'Alacant, finançat per
+l'extinta Caja de Ahorros del Mediterráneo i per la mateixa
+Universitat, va desenvolupar entre 1998 i 2006 sota la direcció d'un
+dels autors d'aquest llibre un sistema de traducció automàtica
+espanyol--català anomenat \textsf{interNOSTRUM}
+\citep{canals01a,canals01b}. L'objectiu del projecte era desenvolupar
+un sistema de traducció automàtica de l'espanyol a les variants
+estàndards del català i el sistema invers corresponent. Durant l'últim decenni, ha estat un dels sistemes de traducció automàtica més usats en Internet.
+
+La versió actual d'{\sf interNOSTRUM} (que va estar accessible de forma
+gratuïta a través de l'URL \url{http://www.internostrum.com} i que el
+gener de 2016 encara estava accessible a través de l'adreça
+\url{http://torsimany.ua.es/index.php}) genera, quasi instantàniament,
+esborranys de traduccions al català llestes per a ser corregides
+(posteditades). 
+
+{\sf interNOSTRUM} tradueix textos en formats ANSI, HTML i RTF de
+l'espanyol al català oriental i al revés i permet la navegació
+traduïda per Internet (és a dir, permet la traducció instantània dels
+documents que es vagen visitant sense haver d'invocar explícitament el
+traductor).  
+
+El traductor estava escrit per executar-se sobre el sistema operatiu
+GNU/\-Linux i és encara accessible, com ja s'ha dit, a través d'un
+servidor d'Internet;\footnote{Tot i que ja no es manté: també hi ha
+  disponible una versió per a servidors basats en el sistema operatiu
+  Windows.} i és un sistema de transferència morfològica avançada com
+el descrit en l'apartat~\ref{s3:STMorf}; el disseny del sistema és
+molt similar al del sistema Apertium que es descriu més avall en la
+secció~\ref{ss:apertium}, del qual és precursor.
+
+\subsection{Apertium}
+\label{ss:apertium}
+
+Apertium\footnote{\url{www.apertium.org}} \citep{forcada2011apertium},
+iniciat a la Universitat d'Alacant el 2005, és una plataforma de
+programari lliure o de codi font obert que permet construir sistemes
+de traducció automàtica de transferència morfològica avançada (com els
+de l'apartat~\ref{s3:STMorf}); això vol dir que es pot descarregar i
+copiar lliurement però també que programadors i lingüistes poden
+modificar el programari, els diccionaris, les regles, etc. i
+distribuir versions modificades, ja que a més de l'executable del
+programari que necessitem per usar-lo, se'n distribueix el codi font,
+és a dir, la forma del programari que permet als experts modificar-lo.
+
+El primer sistema que es va construir sobre la plataforma Apertium va
+ser el sistema espanyol--català (en l'actualitat hi ha disponibles en
+Apertium més de 40 sistemes de traducció automàtica diferents).
+
+Apertium és pot usar gratuïtament en línia a través de moltes
+webs\footnote{Per exemple: \url{http://www.apertium.org},
+  \url{http://apertium.ua.es}, \url{http://apertium.uoc.edu},
+  \url{http://politraductor.upv.es} i
+  \url{http://aplica.prompsit.com}.} però també és pot instal·lar en
+localment. La versió completa ---per exemple per a muntar un servidor
+per a un entorn de producció--- s'instal·la sobre ordinadors amb sistema
+operatiu GNU/Linux, però hi ha moltes altres versions que funcionen sense necessitat de connexió a Internet, com ara:
+\begin{itemize}
+\item Una aplicació per al sistema operatiu Android, \emph{Apertium
+    offline
+    translator};\footnote{\url{https://play.google.com/store/apps/details?id=org.apertium.android}}
+\item Una aplicació de sobretaula, \emph{apertium-caffeine}
+  \footnote{\url{http://wiki.apertium.org/wiki/Apertium-Caffeine}} per
+  a GNU/Linux, Windows o MacOS (requereix que s'hi haja instal·lat
+  Java);
+\item Un extensió per al programa de traducció assistida OmegaT, anomenada \emph{apertium-omegat}.\footnote{\url{http://wiki.apertium.org/wiki/Apertium-OmegaT}}
+\end{itemize}
+
+
+
+
+\begin{figure}
+{\scriptsize\sf
+\setlength{\tabcolsep}{0.5mm}
+\begin{center}
+text LO \\
+\(\downarrow\)\\
+\framebox{Desformatador} \\
+\(\downarrow\)\\
+\framebox{\parbox{6cm}{
+\begin{flushright}
+\vspace{-3ex}
+Anàlisi
+\vspace{-5ex}
+\end{flushright}
+\begin{center}
+\(\downarrow\)\\
+\framebox{Analitzador morfològic} \\
+\(\downarrow\)\\
+\framebox{Desambiguador categorial} \\
+\(\downarrow\)\\
+\vspace{-3ex}
+\end{center}
+}}\\
+\(\downarrow\)\\
+\framebox{\parbox{6cm}{
+\begin{flushright}
+\vspace{-3ex}
+Transferència
+\vspace{-5ex}
+\end{flushright}
+\begin{center}
+\(\downarrow\)\\
+\framebox{Mòdul de transferència lèxica} \\
+\(\downarrow\)\\
+\framebox{Mòdul de selecció lèxica} \\
+\(\downarrow\)\\
+\framebox{Mòdul de transferència estructural} \\
+\(\downarrow\)
+\vspace{-3ex}
+\end{center}
+}}\\
+\(\downarrow\)\\
+\framebox{\parbox{6cm}{
+\begin{flushright}
+\vspace{-3ex}
+Generació
+\vspace{-5ex}
+\end{flushright}
+\begin{center}
+\(\downarrow\)\\
+\framebox{Generador morfològic} \\
+\(\downarrow\)\\
+\framebox{Post-generador} \\
+\(\downarrow\)\\
+\vspace{-3ex}
+\end{center}
+}}
+\\
+\(\downarrow\)\\
+\framebox{Re-formatador} \\
+\(\downarrow\)\\
+text LM \\
+\end{center}
+}
+\caption{Arquitectura més comuna dels sistemes de traducció automàtica basats en Apertium.}
+\label{fg:modules}
+\end{figure}
+
+\paragraph{El disseny d'Apertium}
+Com s'ha dit més amunt, els sistemes de traducció automàtica basats en
+l'arquitectura Apertium són tots sistemes de transferència morfològica
+avançada. L'arquitectura d'un sistema de traducció concret basat en
+Apertium és flexible: depenent de la llengua origen i la llengua meta,
+es poden seleccionar mòduls diferents. La figura~\ref{fg:modules}
+representa la configuració més comuna d'un sistema de traducció
+automàtica basat en Apertium: la construcció del text d'entrada es va
+fent etapa per etapa, com en la cadena de muntatge d'una fàbrica
+d'automòbils. El sistema espanyol--català segueix l'arquitectura de la
+figura~\ref{fg:modules} però la versió disponible en 2016 no té
+(encara) mòdul de selecció lèxica.
+
+Apertium separa efectivament el \emph{motor de traducció} (que
+consisteix en mòduls genèrics, comuns a totes les parelles llengua
+origen--llengua meta) i les \emph{dades lingüístiques} específiques
+d'una parella llengua origen--llengua meta, tal com es discuteix en
+la~\pageref{pg:separacio}. Això permet que les persones expertes que
+desenvolupen dades lingüístiques (diccionaris, regles) per a un
+sistema determinat no hagen de preocupar-se de com està programat el
+motor de traducció.
+
+Els següents paràgrafs descriuen alguns dels mòduls amb més detall.
+
+
+\paragraph{Subprogrames basats en tècniques d'estats finits:}
+Els mòduls d'\emph{anàlisi morfològica}, \emph{transferència
+  lèxica}, \emph{generació morfològica} i {\em postgeneració} estan
+basats en \emph{transductors d'estats finits}, similars als descrits
+en el quadre ``per saber més'' de l'epígraf~\ref{s3:anmor}. Aquesta
+tecnologia permet velocitats de processament de l'ordre de 10.000 mots
+per segon en equips estàndards, velocitats que pràcticament no depenen
+de la grandària dels diccionaris. Els \emph{transductors d'estats
+  finits} usats en Apertium lligen l'entrada símbol a
+símbol; cada vegada que es llegeix una lletra canvien d'estat i van
+produint, també lletra a lletra, una o més sortides.
+\begin{description}
+\item[Analitzador morfològic:] L'analitzador morfològic es genera
+  automàticament a partir d'un \emph{diccionari morfològic} de la
+  llengua origen (LO), el qual conté els lemes, els paradigmes de
+  flexió i les connexions entre ells. L'entrada són les formes
+  superficials del text i la sortida, formes lèxiques consistents en
+  lema, categoria lèxica i informació de flexió.
+ \item[Transferència lèxica] (transferència lèxica): El subprograma de
+   consulta del diccionari bilingüe es genera automàticament a partir
+   d'un fitxer que conté les correspondències bilingües. L'entrada és
+   la forma lèxica de la LO i la sortida, la forma lèxica o formes
+   lèxiques corresponents en la llengua meta (LM).
+ \item[Generació morfològica:] El generador morfològic fa l'operació
+   inversa a l'analitzador morfològic però amb formes de la LM i es
+   genera automàticament a partir d'un diccionari morfològic de la LM.
+ \item[Postgeneració:] Les formes superficials que estan implicades en
+   processos d'apostrofació i guionatge (pronoms febles, articles,
+   algunes preposicions, etc.) activen aquest subprograma, que
+   normalment es troba inactiu. El postgenerador es genera a partir de
+   regles senzilles d'apostrofació, guionatge i combinació de pronoms
+   febles.
+ \end{description}
+ Com ja s'ha discutit en el capítol~\ref{se:PdTACC}, la divisió d'un
+ text en mots presenta alguns aspectes no trivials; se n'esmenten dos:
+ les \emph{locucions} (o \emph{girs}) i els pronoms enclítics.
+
+ \paragraph{Locucions i girs:} Hi ha nombroses locucions i girs que es
+ poden tractar com a \emph{unitats lèxiques multimot} i s'estan
+ incorporant gradualment als diccionaris morfològics de les dues
+ llengües i al diccionari bilingüe:
+ \begin{itemize}
+ \item \emph{con cargo a} $\rightarrow$ \emph{a càrrec de}
+ \item \emph{por adelantado} $\rightarrow$ \emph{per endavant}, \emph{a la bestreta}
+ \item \emph{el abajo firmante} $\rightarrow$ \emph{el sotasignat}
+ \item \emph{{\bf echar} de menos} $\rightarrow$ \emph{{\bf trobar} a faltar}
+ \end{itemize}
+ En l'últim exemple, el gir no és invariable sinó que té un element que
+ es flexiona (en negretes).
+
+ \paragraph{Pronoms enclítics:} El subprograma d'anàlisi morfològica també és capaç de resoldre les
+ combinacions de verbs i pronoms febles enclítics en espanyol, les
+ quals presenten variacions ortogràfiques com ara canvis d'accentuació
+ o pèrdua de consonants:
+ \begin{itemize}
+ \item \emph{d\'{a}melo} = \emph{da} $+$ \emph{me} $+$ \emph{lo} $\rightarrow$
+ \emph{dóna} $+$ \emph{me} $+$ \emph{lo} = \emph{dóna-me'l}
+ \item \emph{pong\'{a}monos} = \emph{pongamos} $+$ \emph{nos} $\rightarrow$ {\em
+ posem} $+$ \emph{nos} = \emph{posem-nos}.  
+ \end{itemize}
+
+ El sistema Apertium tracta aquests dos problemes amb l'analitzador
+ morfològic, el qual és capaç de decidir quan un grup de mots s'ha de
+ tractar conjuntament o per separat.
+
+ \paragraph{El mòdul de desambiguació lèxica categorial:}
+Aquest programa s'encarrega de decidir, quan l'analitzador morfològic
+entrega, per a un mot homògraf, més d'una forma lèxica, quina és la
+forma lèxica més adequada en el context. Els desambiguadors lèxics
+categorials combinen (vegeu l'apartat~\ref{s3:reshom}) regles de base
+lingüística que permeten eliminar algunes formes lèxiques i models
+estadístics, entrenats sobre un corpus de referència, que assignen una
+probabilitat a cada possible desambiguació de la frase que conté mots
+amb ambigüitat categorial: la desambiguació més probable (la més
+versemblant) és l'elegida.
+
+ \paragraph{El mòdul de transferència
+   estructural:} 
+ Malgrat la gran semblança entre l'espanyol i el català, hi ha
+ divergències gramaticals considerables (vegeu el capítol~\ref{se:PdTACC}):
+ \begin{itemize}
+ \item perífrasis modals: \emph{tienen que firmar}
+ $\rightarrow$ \emph{han de firmar}; 
+ \item canvis de gènere i nombre: \emph{la deuda
+   contraída} $\rightarrow$ \emph{el deute contret} (masc.);
+ \item caiguda de preposicions: \emph{la intención de que el cliente} $\rightarrow$ \emph{la
+ intenció $\emptyset$ que el client}; 
+ \item construccions relatives: \emph{la cuenta cuyo titular es} $\rightarrow$ \emph{el compte el
+     titular del qual és}.
+ \end{itemize}
+ Aquestes divergències s'han de tractar amb les regles gramaticals
+ escaients, molt similars a les que es discuteixen en
+ l'apartat~\ref{s3:STMorf}: la solució es basa en la detecció i el tractament de
+ seqüències predefinides de categories lèxiques (anomenades
+ \emph{patrons}), és a dir, una mena de sintagmes rudimentaris, com
+ ara {\bf art}--{\bf nom} o {\bf art}--{\bf
+   nom}--{\bf adj}. Les seqüències considerades pel mòdul en
+ formen el \emph{catàleg} de patrons. El funcionament del subprograma es
+ basa en un esquema patró--acció:
+ \begin{itemize}
+ \item Llegeix el text (analitzat i ja desambiguat) d'esquerra a dreta,
+   categoria lèxica a categoria lèxica.
+ \item Busca, en la posició actual de la frase, el patró més llarg que
+   concorda amb un patró del seu catàleg (per exemple, si en la posició
+   actual es llegeix ``un senyal inequívoc\ldots'', tria {\bf
+     art}--{\bf nom}--{\bf adj} en comptes de {\bf art}--{\bf nom}).
+ \item Opera sobre aquest patró (propagació de gènere i nombre,
+   reordenament, canvis lèxics) seguint les regles associades a ell.
+ \item Continua immediatament darrere del patró tractat (no torna a
+   visitar els mots sobre els quals ha operat).
+ \end{itemize}
+ Quan no es detecta cap patró en la posició actual, es tradueix
+ literalment un mot i es torna a iniciar el procés.  Els fenòmens ``a
+ la llarga'' com la concordança subjecte--predicat són una mica més
+ difícils de tractar; s'usen variables d'\emph{estat}, una espècie de
+ \emph{memòria} que recorda certes informacions al llarg del procés.
+
+ El subprograma de tractament de patrons es genera automàticament a
+ partir d'un fitxer de regles que especifica els patrons i les accions
+ associades. Aquest és molt probablement el subprograma més lent
+ (uns pocs milers de mots per segon).
+
+
+\section{Qüestions i exercicis}
+Aquests exercicis poden servir per a repassar els conceptes tractats en aquest apèndix.
+\begin{enumerate}
+\item Quina d'aquestes tres tasques és més difícil en un sistema de
+  traducció automàtica espanyol--català?
+\begin{enumerate}
+\item Decidir la traducció del pronom espanyol \emph{se} (pot ser \emph{se},
+\emph{li} o \emph{els}).
+\item Detectar les formes de \emph{tener que} i traduir-les per \emph{haver de}.
+\item Fer l'anàlisi morfològica de verbs seguits d'enclítics 
+com ara \emph{estudiémonoslos} o \emph{dándoselo}.
+\end{enumerate}
+
+\item Indica quina d'aquestes tres 
+és la font més important d'homografia (ambigüitat lèxica
+categorial) de l'espanyol:
+\begin{enumerate}
+\item Les coincidències d'algunes formes d'alguns  
+noms i d'alguns adjectius amb certes formes conjugades d'alguns verbs.
+\item Les coincidències d'algunes formes de noms amb preposicions.
+\item Les coincidències d'algunes formes de noms amb adverbis.
+\end{enumerate}
+
+\item El català no té cap construcció equivalent al \emph{cuyo}
+  espanyol. En traducció automàtica de l'espanyol al català, una
+  alternativa interessant és posar primer el sintagma nominal que
+  segueix al \emph{cuyo} i després, una forma de \emph{del
+    qual} que concorde amb l'antecedent. Es pot fer sempre
+  correctament aquesta operació 
+  en un sistema de traducció automàtica que no faça anàlisi
+  sintàctica?
+\begin{enumerate}
+\item Sí, hi ha prou amb fer l'anàlisi morfològica.
+\item No, perquè cal determinar bé la longitud del sintagma nominal
+  que segueix a \emph{cuyo} per a poder posar \emph{del qual} en la
+  posició correcta.
+\item No, perquè \emph{cuyo} no té un equivalent morfològic en
+  espanyol.
+\end{enumerate}
+
+
+% < QT12
+
+\end{enumerate}
+
+\section{Solucions}
+\begin{enumerate}
+\item (a)
+\item (a)
+\item (b)
+
+% < SL12
+
+\end{enumerate}

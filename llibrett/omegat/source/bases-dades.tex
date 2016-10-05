@@ -1,0 +1,794 @@
+\chapter{Bases de dades}
+\label{se:basesdades}
+
+Els gestors de terminologia són uns dels programes més usats pels
+traductors per a la traducció humana assistida per una màquina (MAHT;
+vegeu l'apartat~\ref{se:cat}). Com que es tracta d'un cas especial
+d'allò que s'anomena en informàtica \emph{bases de dades}, en aquest
+capítol introduirem primer aquest concepte i llavors n'estudiarem
+l'aplicació a la gestió terminològica a través de les bases de dades
+terminològiques.
+
+
+\section{Què és una base de dades?} 
+
+Com s'explica en la pàg.~\pageref{pg:fitxer}, un \emph{fitxer} és un
+conjunt de dades que es guarden en un mitjà d'emmagatzematge
+secundari, que es manipulen com un tot i que s'identifiquen per un
+nom. Molts dels fitxers que usen les persones que es dediquen a la
+traducció són fitxers (o \emph{documents}) de text en diversos formats
+(com els descrits en l'epígraf~\ref{ss:formats}) però també n'hi ha
+que es corresponen amb el significat del mot \emph{fitxer} fora de la
+informàtica: contenen \emph{fitxes}, totes amb un format més o menys
+constant; per exemple, totes les fitxes d'un fitxer bibliogràfic
+contenen informació sobre els autors, el títol, l'any de publicació,
+etc.
+
+En informàtica, els fitxers d'aquesta mena se solen anomenar
+normalment \emph{bases de dades} (BD); les fitxes s'anomenen
+\emph{registres} i cada element d'informació de la fitxa s'anomena
+\emph{camp}.
+
+Més generalment, una BD es pot veure (en l'anomenat model \emph{pla} o
+\emph{de taules}) com un conjunt de taules en les quals les columnes o
+\emph{camps} guarden valors del mateix tipus i on els elements d'una
+fila o \emph{registre} estan relacionats entre ells. Així, una taula
+és un conjunt de registres (fitxes) cada un dels quals té la mateixa
+estructura de camps (informacions), emmagatzemades en un fitxer
+informàtic.
+
+Així, els registres d'una base de dades bibliogràfica contenen
+informació en camps: un per als autors, altre per al títol,
+etc. D'altra banda, els registres de les bases de dades usades per a
+la gestió d'un videoclub contenen camps per a emmagatzemar la
+informació referent als socis (com ara, el nom, el telèfon o el
+domicili), a les pel·lícules (el títol, la persona que l'ha dirigida o
+el nombre de còpies disponibles) i als préstecs (les dades d'inici i
+termini del préstec o el preu de lloguer). Els camps poden ser de
+diversos \emph{tipus}, segons la naturalesa de les dades que s'hi
+guarden (cadenes de caràcters, valors numèrics enters o amb decimals,
+dates de calendari, etc.)
+
+\section{Operacions amb bases de dades}
+
+Les operacions més comunes que es realitzen sobre una base de dades
+també són similars a aquelles que podem fer amb un fitxer de fitxes de
+cartolina, però la gestió és més senzilla i són possibles molts més
+usos:
+\begin{itemize}
+\item \emph{Creació de l'estructura de la base de dades}: definir cada
+  taula, definint l'estructura de les fitxes i el tipus de dades de
+  cada camp.
+\item \emph{Altes o addicions:} afegir un nou registre a la base de
+  dades, tot fent que els seus camps prenguen els valors
+  corresponents.
+\item \emph{Baixes o esborrats:} eliminar un o més registres.
+\item \emph{Modificacions:} canviar el valor d'un o més camps d'un o
+  més registres de la base de dades.
+\item \emph{Recerques o consultes:} buscar un o més registres que
+  compleixen un determinat criteri de recerca. L'organització de la
+  informació en forma de base de dades simplifica enormement les
+  consultes, ja que els ordinadors són molt més ràpids i segurs a
+  l'hora de, per exemple, comparar el contingut d'un determinat camp
+  de totes les fitxes amb un cert valor o patró (per exemple, els
+  autors que comencen per \emph{Ant}) i llistar el contingut d'un
+  altre camp (per exemple, el títol) per a cada fitxa coincident. 
+
+  La combinació de diverses estratègies de recerca permet
+  l'\emph{explotació} de les dades emmagatzemades en una base de
+  dades. Per exemple, es pot generar, a partir d'un fitxer
+  bibliogràfic, les referències bibliogràfiques citades en un text
+  ordenades alfabèticament i en el format requerit per una determinada
+  revista, o generar, a partir d'una base de dades de clients, una
+  carta de recordatori per als morosos, amb detalls sobre els seus
+  deutes.
+%\item \emph{Explotació:} a més de fer recerques o consultes, es pot
+%  explotar la informació obtinguda de la base de dades, combinant
+%  diverses estratègies de recerca i presentant només els camps
+%  necessaris en algun format convenient per a la reutilització
+%  informatitzada o per a la publicació: per exemple, generar, a partir
+%  d'un fitxer bibliogràfic, les referències bibliogràfiques citades en
+%  un text ordenades alfabèticament i en el format requerit per una
+%  determinada revista, o generar, a partir d'una base de dades de
+%  clients, una carta de recordatori per als morosos, amb detalls sobre
+%  els seus deutes.  
+\end{itemize}
+El programa que permet fer, entre altres, aquestes operacions de
+manera senzilla o fins i tot automàtica (aspecte molt important quan
+la base de dades conté milers de registres) és un programa
+\emph{gestor de bases de dades}.\footnote{De vegades, quan es parla
+  desacuradament, s'anomena per metonímia \emph{base de dades} al
+  programa gestor.}  Normalment, els usuaris reals no executen un
+programa gestor de bases de dades universal o genèric, sinó que usen
+programes o \emph{aplicacions} que simplifiquen la creació, el
+manteniment i l'ús de la base de dades per a un perfil d'usuari
+concret; també poden fer ús de programes que internament inclouen un
+gestor de bases de dades o l'invoquen. En particular, és possible
+organitzar les bases de dades de manera que estiguen instal·lades en
+un o més servidors i que es puguen consultar i explotar des d'un altre
+ordinador a través d'Internet.
+
+\subsection{Recerques}
+
+Quan volem buscar una determinada informació en un fitxer de fitxes de
+cartolina (per exemple, quins autors han usat el mot \emph{arbre} en
+el títol de les seues obres), i aquest fitxer no està ordenat d'acord
+amb cap criteri convenient, ens veurem obligats a mirar totes les
+fitxes una per una.  Però és comú que els fitxers estiguen ordenats
+segons un dels seus camps: per exemple, un fitxer bibliogràfic pot
+estar ordenat pel cognom del primer autor, o per la matèria. Si la
+consulta o la recerca que volem fer es refereix al camp pel qual s'ha
+establit l'ordenació, és molt més senzilla que si es refereix a un
+altre camp, i es pot completar sense mirar totes les fitxes; per
+exemple, fent-hi una \emph{recerca dicotòmica}.
+
+En una recerca dicotòmica mirem la fitxa que hi ha enmig del fitxer;
+si ens hem passat, repetim l'operació amb la primera meitat del
+fitxer, i si ens hem quedat curts, ho fem amb la segona meitat. Es pot
+demostrar que la recerca dicotòmica mira com a molt $n$ fitxes si el
+fitxer té entre $2^{n-1}$ i $2^n$ fitxes, perquè després de cada
+consulta es redueix a la meitat la grandària del fitxer que cal
+explorar. Per exemple, si el fitxer té 1234 fitxes, hi ha prou amb
+$n=11$ recerques perquè $2^{10}=1024$ i $2^{11}=2048$.
+
+Per descomptat, és possible calcular el nombre màxim de consultes de
+manera més pedestre, dividint el nombre de fitxes per 2 i posant-nos
+en el cas pitjor. En l'exemple de les 1234 fitxes:
+\begin{itemize}
+\item Després de la 1a consulta, si la fitxa central no és la que
+  busquem, ens queden dues meitats: una de 616 fitxes, i una altra de
+  617. Imaginem que anem al pitjor cas: 617 fitxes.
+\item Després de la 2a consulta, si la fitxa central no és la que
+  busquem, ens queden dues meitats de 308 fitxes.
+\item 3a consulta: o la trobem, o hem de buscar en 154 fitxes.
+\item 4a consulta: o la trobem, o hem de buscar en 77 fitxes.
+\item 5a consulta: o la trobem, o hem de buscar en 38 fitxes.
+\item 6a consulta: o la trobem, o hem de buscar en 19 fitxes.
+\item 7a consulta: o la trobem, o hem de buscar en 9 fitxes.
+\item 8a consulta: o la trobem, o hem de buscar en 4 fitxes.
+\item 9a consulta: o la trobem, o hem de buscar en 2 fitxes.
+\item 10a consulta: o la trobem, o hem de buscar en 1 fitxa.
+\item 11a consulta: o és la que busquem, o no hi és.
+\end{itemize}
+Total, 11 consultes com a molt.
+
+Un altre exemple: la taula~\ref{tb:dicotomica} il·lustra gràficament
+el procés de recerca dicotòmica sobre una llista de cognoms ordenats
+alfabèticament. Per a cada pas de la cerca, s'hi mostra una taula on
+l'element consultat en cada moment està en negretes i la part de la
+llista descartada està ombrejada. Imaginem, en primer lloc, que volem
+buscar l'element ``Garrido''. Inicialment, mirem l'element d'enmig (el
+13) de la llista sencera (la llista que inclou els elements de l'1 al
+25) i hi trobem ``Larrañaga''; com que ens hem passat, ens quedem amb
+la meitat baixa de la llista (que inclou els elements de l'1 al 12)
+oblidant-nos de l'altra meitat. Ara repetim el procés i mirem
+l'element d'enmig (el 6) de la nova subllista i hi trobem l'element
+``Esteve''; com que és menor alfabèticament que l'element que estem
+buscant, ens quedem amb la meitat alta (que inclou els elements del 7
+al 12) de la subllista actual. Tornem a repetir el procés, aquesta
+vegada considerant només la subllista d'elements entre el 7 i el 12;
+tenim sort i en mirar l'element central (el 9) ens adonem que
+coincideix amb l'element buscat: la recerca, doncs, acaba amb èxit.
+Si la recerca haguera estat de l'element ``González'', els passos
+anteriors haurien estat els mateixos, però a més hauríem mirat
+l'element 11, l'element 10 i, finalment, hauríem conclòs que l'element
+no es troba a la llista. En aquest cas, el nombre de consultes hauria
+estat de 5 i, doncs, es compleix l'afirmació anterior: la recerca
+dicotòmica mira com a molt $n$ fitxes si el fitxer té entre $2^{n-1}$
+i $2^n$ fitxes; ací el nombre d'elements total (25) està entre
+$2^4=16$ i $2^5=32$, i el nombre d'elements consultats ha estat $n=5$.
+
+\begin{table}
+\begin{center}
+\begin{small}
+\subtable[Estat abans de començar la recerca.]{
+\begin{tabular}{|l||l||l||l||l|}
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{1 Beléndez} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{2 Canals} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{3 Carrasco} &     
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{4 Escolano} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l|}{5 Espí} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{6 Esteve} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{7 Forcada} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{8 Garcia} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{9 Garrido} &       
+  \multicolumn{1}{>{\columncolor[gray]{1}}l|}{10 Gómez} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{11 Guardiola} &   
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{12 Iturraspe} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{13 Larrañaga} &   
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{14 Marco} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l|}{15 Micó} \\ 
+\hline 
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{16 Montserrat} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{17 Muñoz} &       
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{18 Nogueroles} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{19 Odriozola} &   
+  \multicolumn{1}{>{\columncolor[gray]{1}}l|}{20 Oncina} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{21 Ortiz} &       
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{22 Pastor} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{23 Pérez} &       
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{24 Sempere} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l|}{25 Zubizarreta} \\
+\hline
+\end{tabular}}
+
+\subtable[Primer pas: mirem l'element 13 i ens quedem amb la meitat
+baixa de la llista.]{
+\begin{tabular}{|l||l||l||l||l|}
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{1 Beléndez} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{2 Canals} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{3 Carrasco} &     
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{4 Escolano} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l|}{5 Espí} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{6 Esteve} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{7 Forcada} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{8 Garcia} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{9 Garrido} &       
+  \multicolumn{1}{>{\columncolor[gray]{1}}l|}{10 Gómez} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{11 Guardiola} &   
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{12 Iturraspe} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{\bf 13 Larrañaga} &   
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{14 Marco} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{15 Micó} \\ 
+\hline 
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{16 Montserrat} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{17 Muñoz} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{18 Nogueroles} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{19 Odriozola} &   
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{20 Oncina} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{21 Ortiz} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{22 Pastor} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{23 Pérez} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{24 Sempere} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{25 Zubizarreta} \\
+\hline
+\end{tabular}}
+\subtable[Segon pas:
+mirem l'element 6 i ens quedem amb la meitat alta de la subllista
+anterior.]{
+\begin{tabular}{|l||l||l||l||l|}
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{1 Beléndez} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{2 Canals} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{3 Carrasco} &     
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{4 Escolano} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{5 Espí} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{\bf 6 Esteve} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{7 Forcada} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{8 Garcia} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{9 Garrido} &       
+  \multicolumn{1}{>{\columncolor[gray]{1}}l|}{10 Gómez} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{11 Guardiola} &   
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{12 Iturraspe} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{13 Larrañaga} &   
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{14 Marco} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{15 Micó} \\ 
+\hline 
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{16 Montserrat} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{17 Muñoz} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{18 Nogueroles} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{19 Odriozola} &   
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{20 Oncina} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{21 Ortiz} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{22 Pastor} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{23 Pérez} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{24 Sempere} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{25 Zubizarreta} \\
+\hline
+\end{tabular}}
+
+\subtable[Tercer i últim pas: mirem l'element 9 i trobem l'element
+buscat.]{
+\begin{tabular}{|l||l||l||l||l|}
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{1 Beléndez} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{2 Canals} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{3 Carrasco} &     
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{4 Escolano} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{5 Espí} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{6 Esteve} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{7 Forcada} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{8 Garcia} &
+  \multicolumn{1}{>{\columncolor[gray]{1}}l||}{\bf 9 Garrido} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{10 Gómez} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{11 Guardiola} &   
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{12 Iturraspe} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{13 Larrañaga} &   
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{14 Marco} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{15 Micó} \\ 
+\hline 
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{16 Montserrat} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{17 Muñoz} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{18 Nogueroles} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{19 Odriozola} &   
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{20 Oncina} \\
+\hline
+  \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{21 Ortiz} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{22 Pastor} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{23 Pérez} &       
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{24 Sempere} &
+  \multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{25 Zubizarreta} \\
+\hline
+\end{tabular}}
+\end{small}
+\end{center}  
+\caption{Exemple de recerca dicotòmica sobre una llista de cognoms ordenada 
+  alfabèticament. L'element a cercar és ``Garrido''. Els elements
+  ombrejats han sigut descartat durant la recerca, és a dir, sabem que
+  l'element buscat no hi serà entre ells.}
+\label{tb:dicotomica}
+\end{table}
+
+La recerca dicotòmica és només una de les moltes tècniques que es
+poden fer servir per a accelerar les consultes que es refereixen a un
+camp ordenat; el programa gestor de bases de dades pot usar una altra
+tècnica de recerca depenent del seu disseny o del tipus de camp.
+
+Però un fitxer de fitxes de cartolina només es pot ordenar seguint un
+únic criteri. Si volem facilitar les consultes associades a més d'un
+camp (per exemple, autors i matèries) ens veurem obligats a mantenir
+dues còpies del fitxer sencer, cada còpia ordenada per un criteri; amb
+un sistema de bases de dades no cal fer aquesta duplicació: només cal
+marcar els camps pels quals buscarem més freqüentment (els quals de
+vegades se solen anomenar \emph{índexs}), i el programa gestor de
+bases de dades \emph{indexarà} la base de dades per a permetre
+recerques ràpides per aquests camps.
+
+
+\begin{persabermes}{la indexació de bases de dades}
+
+  Si les consultes més freqüents d'una base de dades es refereixen a
+  un camp ---o a una combinació de camps, com ara el dia, el mes i
+  l'any que formen una data--- que pren valors que es poden ordenar,
+  els registres es poden ordenar per aquest camp, igual que el fitxer
+  de fitxes de cartolina. Però un dels avantatges més clars de les
+  bases de dades és que permeten que els registres estiguen ordenats
+  per més d'un camp, sense haver de duplicar la base de dades (Tot i
+  que la duplicació d'una base de dades menuda pot no semblar en
+  principi problemàtica, les coses canvien si considerem una base de
+  dades amb milers de registres i amb un gran nombre de camps, tots
+  plens d'informació.  És evident, doncs, que cal establir un sistema
+  alternatiu per poder fer recerques ràpides per més d'un camp).  Això
+  s'aconsegueix mitjançant un procediment anomenat \emph{indexació}:
+  bàsicament, s'assigna un número a cada fitxa i es construeix una
+  taula o \emph{índex} ordenat (una altra base de dades) que conté
+  registres amb dos camps: un, el camp pel qual es vol ordenar, i
+  l'altre, la posició en la base de dades del registre que conté
+  aquest valor del camp (en cert sentit, aquest índex no és massa
+  diferent de l'índex alfabètic que hi ha al final d'alguns llibres:
+  busquem el mot alfabèticament i ens diu en quina o en quines pàgines
+  se'n parla).
+
+  Es pot construir un índex per a cada un dels camps associats a les
+  consultes més freqüents i així s'evita recórrer tota la base de
+  dades cada vegada que es fa una consulta: es busca el valor del camp
+  en el registre corresponent i, quan es troba, s'usa la posició del
+  registre per a accedir-hi directament. Una base de dades amb
+  aquestes propietats està \emph{indexada}.
+  % A més de fer-hi \emph{consultes}, hi ha altres operacions que es
+  % poden fer amb una base de dades; les més importants són les
+  % \emph{altes} o addicions de registres, les \emph{baixes} o
+  % eliminacions de registres, i les \emph{modificacions} de la
+  % informació continguda en un o més registres.
+  Els índexs s'han de refer parcialment quan es fan altes, baixes o
+  modificacions de registres per tal que les consultes continuen sent
+  eficients. Quan creem una nova base de dades i definim l'estructura
+  de camps que tindrà cada un dels seus registres, podem designar
+  quins dels camps corresponen als índexs; el gestor de la base de
+  dades crearà automàticament els índexs corresponents.
+
+  Considereu la base de dades amb 10 registres de la taula següent:
+ \begin{center}
+ \begin{tabular}{clll}
+ \hline
+ {\sc núm} & {\sc basc} & {\sc serbo-croat} & {\sc català} \\
+ \hline 
+ \hline
+  1 & bat  &     jedin &       un \\
+  2 & bi   &     dva   &       dos \\
+  3 & hiru &     tri   &       tres \\
+  4 & lau  &     \v{c}etiri &      quatre \\
+  5 & bost &     pet    &      cinc \\
+  6 & sei  &     \v{s}est   &      sis \\
+  7 & zazpi &    sedam  &      set \\
+  8 & zortzi &   osam   &      vuit \\
+  9 & bederatzi & devet &       nou \\
+ 10 & hamar &    deset  &      deu \\
+ \hline
+ \end{tabular}
+ \end{center}
+
+ Com hi podeu veure, la base de dades conté 10 registres amb 4 camps;
+ els registres estan ordenats pel camp ``\texttt{NÚM}'', que indica la
+ posició de cada registre. Si volem fer consultes ràpides pels camps
+ ``\texttt{BASC}'' i ``\texttt{SERBO-CROAT}'' sense haver de visitar
+ (en el cas pitjor) tots els registres, el gestor de bases de dades ha
+ de definir un índex per a cada un d'aquests camps com els de les
+ taules següents, que mostren els índexs corresponents als camps
+ ``\texttt{SERBO-CROAT}'' (esquerra) i ``\texttt{BASC}'' (dreta) de la
+ base de dades de la taula anterior:
+ \begin{center}
+ \parbox{0.25\textwidth}{
+ \begin{tabular}{lc}
+ \hline
+ {\sc serbo-croat} & {\sc núm} \\
+ \hline
+ \hline
+ \v{c}etiri &     4 \\
+ deset &      10 \\
+ devet &      9 \\
+ dva &        2 \\
+ jedin &      1 \\
+ osam &       8 \\
+ pet &        5 \\
+ sedam &      7 \\
+ \v{s}est &       6 \\
+ tri &        3 \\
+ \hline
+ \end{tabular}}%
+\hspace{0.2\textwidth}%
+\parbox{0.25\textwidth}{
+   \begin{tabular}{lc}
+   \hline
+   {\sc basc\phantom{o-croat}} & {\sc núm} \\
+   \hline
+   \hline
+  bat &       1 \\
+  bederatzi  & 9 \\  
+  bi &        2 \\   
+  bost &      5 \\   
+  hamar &     10 \\   
+  hiru &       3 \\   
+  lau &       4 \\   
+  sei &        6 \\    
+  zazpi &      7 \\ 
+  zortzi &    8 \\
+   \hline
+   \end{tabular}}%
+  \end{center}
+  Hi podeu comprovar com cada fitxa de l'índex conté només el camp
+  indexat i una referència a la seua posició en la base de dades. Si
+  penseu en el cas que la base de dades de la taula anterior tinguera,
+  diguem-ne, 20 camps més (amb els equivalents en 20 llengües més), us
+  podeu fer una idea de l'estalvi que s'aconsegueix respecte a la
+  duplicació sencera.
+\end{persabermes}
+
+\section{Bases de dades lèxiques o terminològiques}
+\label{ss:bdterm}
+
+Un dels programes més comunament usats pels professionals de la
+traducció són els gestors de bases de dades lèxiques (normalment
+anomenats gestors de bases de dades \emph{terminològiques}, encara que
+es poden usar per a moltes altres aplicacions a més de les
+estrictament terminològiques). Els professionals de la traducció
+gestionen, amb aquests gestors, bases de dades lèxiques que els ajuden
+a traduir consistentment els termes i, potser, les locucions i frases
+d'una determinada àrea de coneixement (terminologia).
+
+Els registres o les fitxes d'una base de dades lèxica multilingüe
+estableixen correspondències entre els termes usats en diverses
+llengües en un camp determinat de coneixement. En aquestes bases de
+dades, \emph{cada fitxa representa un concepte} i conté un camp índex
+per a emmagatzemar el terme corresponent en cada llengua. Aquesta
+organització (una fitxa per concepte) és coherent amb la definició de
+terminologia com la disciplina l'objecte de la qual és l'estudi
+sistemàtic de l'etiquetatge o designació de \emph{conceptes}
+particulars d'una o més àrees temàtiques o d'un o més àmbits de
+l'activitat humana amb el propòsit de documentar i promoure l'ús
+correcte;\footnote{\url{https://ca.wikipedia.org/wiki/Terminologia}} a
+més, és especialment adequada quan la base de dades terminològica és
+multilingüe.
+
+Les bases de dades lèxiques o terminològiques poden contenir molts
+tipus de camps:
+\begin{itemize}
+\item El terme en cada una de les llengües (camps que normalment
+  s'usen d'índex per a fer les recerques més eficients).
+\item El sentit (entre els possibles sentits del terme) al qual es
+  refereix la fitxa o registre actual.
+\item L'autor de la fitxa (quan més d'una persona gestiona la base de
+  dades).
+\item La data de creació i de modificació de la fitxa.
+\item La definició del terme en una o més llengües. La major part dels
+  gestor permeten que els termes usats en la definició d'un determinat
+  terme es marquen \emph{remissions}, és a dir, enllaços actius a les
+  fitxes on es defineixen.
+\item El camp temàtic de la fitxa.
+\item Altres termes relacionats.
+\item Informació sobre la morfologia o la flexió del terme en cada una
+  de les llengües.
+\item Variants ortogràfiques o geogràfiques; sinònims; antònims;
+  etimologia, etc.
+\end{itemize}
+
+Una base de dades d'aquesta mena la pot consultar una persona mentre
+està fent una traducció manualment o pot estar inclosa dins d'un
+programa de traducció automàtica o assistida per ordinador. Per
+exemple, molts programes de traducció assistida per ordinador (vegeu
+el capítol~\ref{se:memtrad}) inclouen bases de dades terminològiques
+d'aquesta mena i permeten que la persona usuària les mantinga i les
+consulte, bé usant un programa independent, o bé des del processador
+de textos que preferisca.
+
+També hi ha bases de dades terminològiques que es poden consultar en
+línia: 
+\begin{itemize}
+\item L'Institut d'Estudis Catalans manté el TERMCAT
+  (\url{http://www.termcat.cat}). La intenció de TERMCAT és
+  principalment normativa: s'hi associa a cada concepte el terme
+  preferit en català (i també els termes usuals en espanyol, anglés,
+  francés, etc.).
+\item IATE (\emph{Inter-Active Terminology for Europe},
+  \url{http://iate.europa.eu/}) és la base de dades terminològica de
+  referència de la Unió Europea i proporciona termes per a cada
+  concepte en les 24 llengües oficials de la Unió Europea i en
+  llatí. La base de dades, en format TBX (vegeu
+  l'apartat~\ref{s3:tbx}) es pot descarregar totalment o parcialment per a
+  usar-la fora de línia.
+\end{itemize}
+
+\subsection{L'intercanvi de bases de dades terminològiques}
+\label{s3:tbx}
+
+La creació i el manteniment d'una bona base de dades terminològica
+requereix un gran esforç i moltes hores de treball. Això la converteix
+en un recurs valuós i sovint els traductors en fan intercanvi. Però la
+informació emmagatzemada sobre cada terme pot ser molt diferent d'una
+base de dades a una altra i, per tant, fer servir una base de dades
+terminològica en diferents sistemes alhora no és una tasca
+fàcil. Afortunadament, en els darrers anys s'ha desenvolupat un
+conjunt de formats estàndards per facilitar aquest intercanvi; un dels
+més coneguts es TBX\footnote{L'URI per a més informació és
+  \url{http://www.lisa.org/tbx/}.}, (per \emph{TermBase exchange},
+``intercanvi de bases de dades terminològiques''), encara que hi ha
+altres com OLIF (\emph{Open Lexicon Interchange Format}). Amb el
+temps, els programes que inclouen una base de dades terminològica van
+incorporant la capacitat de llegir i escriure documents en format TBX.
+
+\begin{persabermes}{el format TBX}
+  El format TBX segueix les especificacions XML (vegeu l'apartat
+  \ref{s3:SGML}); és a dir, els documents TBX són un tipus de document
+  XML definit per una DTD concreta. A més, també segueix les
+  directrius de l'estàndard ISO 12620, que defineix un conjunt de
+  camps, i els seus possibles valors, per a la informació
+  terminològica.
+
+  Heus ací un exemple de document TBX:
+\begin{alltt}
+<?xml version='1.0'?>
+<!DOCTYPE martif SYSTEM  "./TBXcoreStructureDTD-v-1-0.DTD">
+<\textbf{martif} type='TBX' xml:lang='en' >
+ <\textbf{martifHeader}>
+  <\textbf{fileDesc}>
+   <\textbf{sourceDesc}>
+    <\textbf{p}>from an Oracle corporation termBase</\textbf{p}>
+   </\textbf{sourceDesc}>
+  </\textbf{fileDesc}>
+  <\textbf{encodingDesc}>
+   <\textbf{p} type='DCSName'>TBXdefaultXCS-v-1-0.XML</\textbf{p}>
+  </\textbf{encodingDesc}>
+ </\textbf{martifHeader}>
+ <\textbf{text}> 
+  <\textbf{body}>
+    <\textbf{termEntry} id='eid-Oracle-67'>
+      <\textbf{descrip} type='subjectField'>
+        manufacturing
+      </\textbf{descrip}>
+      <\textbf{descrip} type='definition'>
+        A value between 0 and 1 used in ...
+      </\textbf{descrip}>
+      <\textbf{langSet} xml:lang='en'>
+       <\textbf{tig}>
+        <\textbf{term} tid='tid-Oracle-67-en1'>
+          alpha smoothing factor
+        </\textbf{term}>
+        <\textbf{termNote} type='termType'>
+          fullForm
+        </\textbf{termNote}>
+       </\textbf{tig}>
+      </\textbf{langSet}>
+      <\textbf{langSet} xml:lang='hu'>
+        <\textbf{tig}>
+         <\textbf{term} tid='tid-Oracle-67-hu1'>
+           Alfa sim&#x00ED;t&#x00E1;si t&#x00E9;nyez&#x0151; 
+         </\textbf{term}>
+        </\textbf{tig}>
+      </\textbf{langSet}>
+    </\textbf{termEntry}>
+  </\textbf{body}> 
+ </\textbf{text}>
+</\textbf{martif}>
+\end{alltt}
+
+La informació de cada terme (en l'exemple només un) s'inclou dins de
+l'element {\tt termEntry}, que conté descripcions (\texttt{descrip})
+sobre el domini d'ús i la definició del terme, a més d'una secció 
+{\tt langSet} per a cada idioma (ací, anglés i hongarés) on
+s'especifica el terme (\texttt{term}) i informació sobre ell 
+(\texttt{termNote}). Abans del cos (\texttt{body}), l'element 
+arrel {\tt martif} conté una capçalera (\texttt{martifHeader})
+amb informació sobre l'origen de la base de dades. El terme hongarés
+és ``{\usefont{T1}{ec}{m}{n}Alfa simítási tényez\symbol{'256}}''; en
+el document d'exemple, els caràcters especials s'indiquen amb el seu
+codi Unicode (per exemple,\, \verb+&#x0151;+ \ és el caràcter
+``{\usefont{T1}{ec}{m}{n}\symbol{'256}}'')
+\end{persabermes}
+
+
+\section{Qüestions i exercicis}
+\begin{enumerate}
+
+\item Tenim una base de dades amb fitxes de 100 alumnes ordenada pel
+  NIF.  Si busquem una alumna pel NIF, quantes consultes fa, com a
+  màxim, el programa gestor de la base de dades fins a arribar a la
+  fitxa desitjada?
+  \begin{enumerate}
+  \item 100.
+  \item La meitat, 50.
+  \item 7, perquè \(2^6=64 < 100 < 2^7=128\).
+  \end{enumerate}
+
+\item Volem tenir una base de dades ordenada simultàniament per dos
+  camps per a optimitzar les recerques. És això possible? Com?
+  \begin{enumerate}
+  \item No és possible.
+  \item Sí, però és necessari duplicar totes les fitxes en memòria.
+  \item Sí. S'han de construir dos índexs, un per a cada camp.
+  \end{enumerate}
+
+\item És necessari tenir dues còpies de totes les fitxes d'una base de
+  dades per a poder-la tenir ordenada per més d'un camp?
+  \begin{enumerate}
+  \item Depén; si els camps són numèrics, no és necessari.
+  \item No hi ha cap altre remei: cal duplicar la base de dades.
+  \item No; s'hi pot crear més d'un \emph{índex}.
+  \end{enumerate}
+
+\item Quan usem un programa gestor de bases de dades terminològiques
+  per a buscar un terme en una base de dades{\ldots}
+  \begin{enumerate}
+  \item {\ldots} alguns gestors ens permeten buscar-lo sense
+    conéixer-ne la forma exacta.
+  \item {\ldots} hem de conéixer com s'escriu exactament el terme per
+    a poder trobar-lo.
+  \item {\ldots}sempre és necessari conéixer-ne la categoria lèxica i
+    indicar-la al gestor
+  \end{enumerate}
+
+\item Si busquem en una base de dades de 240 fitxes d'alumnes una
+  fitxa (un registre) pel número de telèfon, un camp pel qual no està
+  ordenada, quantes consultes haurà de fer, com a màxim, el programa
+  gestor de la base de dades fins arribar a la fitxa desitjada?   
+  \begin{enumerate}
+  \item 240
+  \item 120
+  \item 9
+  \end{enumerate}
+
+\item Quan volem tenir els registres (les fitxes) d'una base de dades
+  ordenada simultàniament per dos camps per a optimitzar les recerques
+  construïm dos índexs. Els índexs contenen{\ldots}  
+  \begin{enumerate}
+  \item Entrades compostes pel valor del camp índex i el número de la
+    fitxa (del registre).
+  \item Només els números de les fitxes ordenats segons el valor del
+    camp.
+  \item Una còpia de les fitxes ordenades pel camp índex corresponent.
+  \end{enumerate}
+
+\item Què tenen en comú tots els camps d'una fitxa terminològica?
+  \begin{enumerate}
+  \item Es refereixen al mateix concepte.
+  \item Es refereixen al mateix terme.
+  \item Es troben en el mateix índex.
+  \end{enumerate}
+
+\item En què es diferencia un camp clau o camp índex de la resta dels
+  camps d'una fitxa?{\ldots}
+  \begin{enumerate}
+  \item Es guarda en un tipus de memòria RAM més ràpida anomenada
+    \emph{cache} o \emph{memòria cau}.
+  \item La manera d'emmagatzemar el camp és diferent (els camps índex
+    o clau s'emmagatzemen de manera comprimida i els altres no).
+  \item Les recerques de fitxes per aquest camp són molt més ràpides
+    que les que es facen per camps que no són clau o índex.
+  \end{enumerate}
+
+\item Quan es duplica el nombre de fitxes d'una taula determinada
+  d'una base de dades, què succeeix amb el nombre de consultes que
+  realitza una recerca dicotòmica?   
+  \begin{enumerate}
+  \item Es duplica.
+  \item Es queda exactament com està.
+  \item S'incrementa en 1 per terme mitjà.
+  \end{enumerate}
+
+\item En una base de dades lèxica o terminològica amb 2.000 fitxes,
+  quan demanem al programa gestor que busque un determinat terme en
+  una determinada llengua, quantes consultes ha de fer en el pitjor
+  cas per a entregar-nos la fitxa?
+  \begin{enumerate}
+  \item Ha de fer, necessàriament, 2.000 consultes perquè hi ha 2.000
+    fitxes.
+  \item No ha de fer cap consulta, va directament a la fitxa.
+  \item Depén. Si està indexada pel terme en aquella llengua, farà com
+    a molt 11 consultes, i si no, com a molt 2.000 consultes.
+  \end{enumerate}
+
+\item En una base de dades terminològica, cada concepte \ldots
+  \begin{enumerate}
+  \item \ldots es correspon amb un camp d'un registre general.
+  \item \ldots es correspon amb múltiples registres, un per cadascun
+    dels termes usats en cada llengua per a representar aquest
+    concepte.
+  \item \ldots es correspon amb un registre en el qual es troben els
+    termes usats en cada llengua per a representar aquest concepte.
+  \end{enumerate}
+
+\item Hem cronometrat el temps que tarda un programa gestor de bases
+  de dades en trobar la fitxa que té un determinat valor per un camp
+  determinat, quan augmenta el nombre de fitxes. Els resultats són:
+  \begin{center}
+    \begin{tabular}{c|c}
+      \hline\hline
+      \textsc{Nombre de fitxes} & \textsc{Temps} \\
+      \hline
+      1.000.000 & 4,9~s \\
+      2.000.000 & 5,1~s \\
+      3.000.000 & 5,3~s \\
+      4.000.000 & 5,4~s \\
+      6.000.000 & 5,5~s \\
+      \hline
+    \end{tabular}
+  \end{center}
+  Què podem dir de la base de dades?
+  \begin{enumerate}
+  \item Que no està ordenada pel camp pel qual estem buscant.
+  \item Que usa XML per a obtenir una velocitat acceptable.
+  \item Que està ordenada pel camp pel qual estem buscant.
+  \end{enumerate}
+
+\item El programa gestor d'una base de dades lèxica feia en el pitjor
+  cas 480 consultes abans de trobar la fitxa corresponent a un terme
+  anglés concret, abans d'ordenar-la pel terme en anglés. Després
+  d'ordenar-la fa
+  \begin{enumerate}
+  \item 240, la meitat.
+  \item moltes menys consultes: 9.
+  \item 480 consultes igualment.
+  \end{enumerate}
+\end{enumerate}
+
+\section{Solucions}
+\com{Repassar-les}
+\begin{enumerate}
+\item (c)
+\item (c)
+\item (c)
+\item (a)
+\item (a)
+% 5
+\item (a)
+\item (a)
+\item (c)
+\item (c)
+\item (c)
+% 10
+\item (c)
+\item (c)
+\item (b) 
+\end{enumerate}
