@@ -974,6 +974,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Ambigüitats mixtes} Hi ha oracions que són ambigües tant perquè contenen mots ambigus com perquè tenen més d'una estructura sintàctica possible.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152112Z" creationid="fsanchez" creationdate="20161009T152112Z">
+        <seg>{Ambigüedades mixtas} Hay oraciones que son ambiguas porque contienen palabras ambiguas o porque tienen más de una estructura sintáctica posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{ambigüitat estructural} Altres tipus d'ambigüitat estructural: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;Ambigüitat estructural deguda a l'el·lipsi&lt;/i0&gt; d'un o més constituents de l'oració, especialment quan aquesta oració hauria de tenir, si s'hagués produït en forma explícita, una estructura paral·lela a la d'una oració anterior (per exemple, en coordinacions, comparacions, etc.).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144829Z" creationid="fsanchez" creationdate="20161009T144829Z">
