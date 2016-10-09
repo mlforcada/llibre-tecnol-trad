@@ -710,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>`portar' ) (.SN.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144643Z" creationid="fsanchez" creationdate="20161009T144643Z">
+        <seg>`traído' ) (.SN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`va' ) (.SV.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144623Z" creationid="fsanchez" creationdate="20161009T144623Z">
