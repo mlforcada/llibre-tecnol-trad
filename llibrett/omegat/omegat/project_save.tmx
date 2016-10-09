@@ -582,6 +582,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>O el mot &lt;i1&gt;cap&lt;/i1&gt; que pot ser un substantiu (``part superior del cos''), un verb (forma del verb ``cabre''), un adjectiu o pronom (``no n'hi ha cap''), o part de la preposició composta ``cap a''.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152153Z" creationid="fsanchez" creationdate="20161009T152153Z">
+        <seg>O la palabra también catalana &lt;i1&gt;cap&lt;/i1&gt; puede ser un sustantivo (``parte superior del cuerpo''), un verbo (forma del verbo ``cabre''), un adjetivo o pronombre (``no hay ninguno''), o parte de la preposición compuesta ``cap a' (hacia)'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>O per exemple, els idiomes difereixen en la manera en la qual expressen les relacions entre dos noms: on en català diem &lt;i14&gt;president &lt;i18&gt;de&lt;/i14&gt; Kazakhstan&lt;/i18&gt;, el rus diu &lt;i15&gt;prezident Kazakhstan&lt;i19&gt;a&lt;/i15&gt;&lt;/i19&gt;, el basc diu &lt;i16&gt;Kazakstan&lt;i20&gt;go&lt;/i16&gt; presidente&lt;/i20&gt;, o el Kazakh diu &lt;i17&gt;Qazaqstan prezident&lt;i21&gt;i&lt;/i17&gt;&lt;/i21&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141248Z" creationid="fsanchez" creationdate="20161009T141248Z">
@@ -594,6 +602,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141728Z" creationid="fsanchez" creationdate="20161009T141728Z">
         <seg>Por eso, no es posible asignar una interpretación clara a oraciones sintácticamente incorrectas, como &lt;n0&gt; *Lee madre libros la &lt;n3&gt; aunque cada palabra tenga una interpretación independiente, y tampoco a una oración sintácticamente correcta que contenga alguna palabra a la que no podemos asignar ninguna interpretación : &lt;n1&gt; La madre *ingurplee libros &lt;n4&gt; Como veremos más adelante, existe una complicación adicional: en algunas ocasiones, hay partes de la estructura sintáctica que no se reflejan en ninguna palabra, porque generan &lt;i0&gt;categorías vacías&lt;/i0&gt; que no tienen una representación fonética o gráfica explícita.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot &lt;i0&gt;deu&lt;/i0&gt; pot voler dir ``nou més un'' (numeral) o ``ha de donar o pagar'' (verb).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152139Z" creationid="fsanchez" creationdate="20161009T152139Z">
+        <seg>Por ejemplo, la palabra catalana &lt;i0&gt;deu&lt;/i0&gt; puede querer decir "nueve más uno'' (numeral) o ``tiene que dar o pagar'' (verbo).</seg>
       </tuv>
     </tu>
     <tu>
