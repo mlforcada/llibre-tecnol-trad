@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Segons aquest autor, la traducció automàtica té quatre grans problemes: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;La forma no determina completament el contingut&lt;/i0&gt; (és a dir, la &lt;i1&gt;interpretació&lt;/i1&gt;): no sempre és fàcil determinar la interpretació que es volia que tinguera el que s'ha escrit.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140644Z" creationid="fsanchez" creationdate="20161009T140644Z">
+        <seg>Según este autor, la traducción automática tiene cuatro grandes problemas: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;La forma no determina completamente el contenido&lt;/i0&gt; (es decir, la &lt;i1&gt;interpretación&lt;/i1&gt;): no siempre es fácil determinar la interpretación que se pretendía dar a lo que se ha escrito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una classificació interessant dels problemes de la traducció automàtica la dóna &lt;n0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140600Z" creationid="fsanchez" creationdate="20161009T140600Z">
