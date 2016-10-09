@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Cada idioma ho fa diferentment: català: &lt;i2&gt;Quina hora és?&lt;/i2&gt;; portugués: &lt;i3&gt;Que horas são?&lt;/i3&gt; (&lt;i4&gt;Quines hores són?&lt;/i4&gt;); alemany: &lt;i5&gt;Wie spät ist es?&lt;/i5&gt; (&lt;i6&gt;Com és de tard?&lt;/i6&gt;); alemany: &lt;i7&gt;Wieviel Uhr ist es?&lt;/i7&gt; (&lt;i8&gt;Quantes del rellotge són?&lt;/i8&gt;), etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140750Z" creationid="fsanchez" creationdate="20161009T140750Z">
+        <seg>Cada idioma lo hace de una forma distinta: catalán: &lt;i2&gt;Quina hora és?&lt;/i2&gt;; portugués: &lt;i3&gt;Que horas são?&lt;/i3&gt; (&lt;i4&gt;¿Qué horas son?&lt;/i4&gt;); alemán: &lt;i5&gt;Wie spät ist es?&lt;/i5&gt; (&lt;i6&gt;¿Cómo de tarde es?&lt;/i6&gt;); alemán : &lt;i7&gt;Wie viel Uhr ist es?&lt;/i7&gt; (&lt;i8&gt;¿Cuántas del reloj son?&lt;/i8&gt;), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
@@ -66,6 +74,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140702Z" creationid="fsanchez" creationdate="20161009T140702Z">
         <seg>Ejemplos: &lt;i4&gt;Traían noticias de Grecia&lt;/i4&gt; (¿tema o procedencia?), &lt;i5&gt;Ha vendido las naranjas que ha comprado a Juan&lt;/i5&gt; (¿Juan vende las naranjas o las compra?), &lt;i6&gt;Trabaja en el estudio que le han encargado&lt;/i6&gt; (¿prepara un documento o está diseñando un espacio de trabajo?), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Exemples: com es diu en quin moment del dia ens trobem?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140724Z" creationid="fsanchez" creationdate="20161009T140724Z">
+        <seg>Ejemplos: ¿cómo se dice en qué momento del día nos encontramos?</seg>
       </tuv>
     </tu>
     <tu>
