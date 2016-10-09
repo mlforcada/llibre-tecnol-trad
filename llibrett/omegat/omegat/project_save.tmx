@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquesta omissió dóna lloc a una ambigüitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144017Z" creationid="fsanchez" creationdate="20161009T144017Z">
+        <seg>Esta omisión da lugar a una ambigüedad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquesta oració l'hem de desambiguar si la volem traduir, per exemple, a l'anglés, perquè en el primer cas hauríem de dir &lt;i1&gt;study&lt;/i1&gt; i en el segon, &lt;i2&gt;studio&lt;/i2&gt;; per això l'efecte de la polisèmia en traducció pot causar en molts casos l'anomenada {&lt;u2&gt; ambigüitat de transferència}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143138Z" creationid="fsanchez" creationdate="20161009T143138Z">
@@ -186,6 +194,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
         <seg>El contenido no determina completamente la forma&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El problema és que falta el subjecte de l'oració subordinada &lt;i0&gt;com queia rodolant&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144014Z" creationid="fsanchez" creationdate="20161009T144014Z">
+        <seg>El problema es que falta el sujeto de la oración subordinada &lt;i0&gt;cómo caía rodando&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -294,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Joan va veure com queia redolant &lt;n2&gt; qui va caure redolant, Anna o Marta?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144007Z" creationid="fsanchez" creationdate="20161009T144007Z">
+        <seg>Joan vio como caía rodando &lt;n2&gt; quién cayó rodando, ¿Anna o Marta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'ambigüitat d'una oració pot ser causada per diversos tipus bàsics d'ambigüitat lèxica: &lt;n0&gt; &lt;u0&gt; L'oració conté una o més unitats lèxiques (per exemple mots) polisèmiques: si diem que algú &lt;n1&gt; Treballa en l'estudi que li van encarregar &lt;n2&gt; podem referir-nos a un investigador o a un decorador, depenent de quina interpretació assignem al mot polisèmic &lt;i0&gt;estudi&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143118Z" creationid="fsanchez" creationdate="20161009T143118Z">
@@ -354,6 +378,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140819Z" creationid="fsanchez" creationdate="20161009T140819Z">
         <seg>Las lenguas divergen.&lt;/i0&gt; Es decir, hay diferencias irreducibles en la manera de expresar el mismo contenido en diferentes lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>O alguna altra persona?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144010Z" creationid="fsanchez" creationdate="20161009T144010Z">
+        <seg>¿O alguna otra persona?</seg>
       </tuv>
     </tu>
     <tu>
