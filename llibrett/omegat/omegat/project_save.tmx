@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'ambigüitat estructural associada a les conjuncions coordinatives se sol anomenar &lt;i2&gt;d'origen coordinatiu&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144212Z" creationid="fsanchez" creationdate="20161009T144212Z">
+        <seg>La ambigüedad estructural asociada a las conjunciones coordinativas se suele denominar &lt;i2&gt;de origen coordinativo&lt;/i2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'ambigüitat lèxica de transferència és especialment perillosa quan afecta un mot de la llengua origen no percebut com a ambigu; per exemple, el mot espanyol &lt;i3&gt;destino&lt;/i3&gt; es pot traduir al català com a {&lt;u3&gt; destí} (sort futura) o &lt;i4&gt;destinació&lt;/i4&gt; (punt d'arribada).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143152Z" creationid="fsanchez" creationdate="20161009T143152Z">
@@ -706,6 +714,30 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
         <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Para saber más sobre #1} } {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `els cobertors' ) ) (.SA.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144223Z" creationid="fsanchez" creationdate="20161009T144223Z">
+        <seg>  `las colchas' ) ) (.SA.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `els llençols' ) `i' (.SN.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144215Z" creationid="fsanchez" creationdate="20161009T144215Z">
+        <seg>  `las sábanas' ) `y' (.SN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `nets' ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; ( .SN.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144226Z" creationid="fsanchez" creationdate="20161009T144226Z">
+        <seg>  `limpias' ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; ( .SN.</seg>
       </tuv>
     </tu>
     <tu>
