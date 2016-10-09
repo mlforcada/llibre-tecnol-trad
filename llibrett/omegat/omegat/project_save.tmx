@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
+        <seg>&lt;u2&gt; no cambia el lema pero sí los indicadores de flexión: la palabra española &lt;i3&gt;cantamos&lt;/i3&gt; puede ser la 1ª&lt;u5&gt;persona del plural del presente de indicativo o del pretérito perfecto del verbo &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt; &lt;i19&gt;Ambigüitat dins de la mateixa categoria lèxica sense canvi de lema&lt;/i19&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142341Z" creationid="fsanchez" creationdate="20161009T142341Z">
