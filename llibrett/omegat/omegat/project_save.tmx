@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>O per exemple, els idiomes difereixen en la manera en la qual expressen les relacions entre dos noms: on en català diem &lt;i14&gt;president &lt;i18&gt;de&lt;/i14&gt; Kazakhstan&lt;/i18&gt;, el rus diu &lt;i15&gt;prezident Kazakhstan&lt;i19&gt;a&lt;/i15&gt;&lt;/i19&gt;, el basc diu &lt;i16&gt;Kazakstan&lt;i20&gt;go&lt;/i16&gt; presidente&lt;/i20&gt;, o el Kazakh diu &lt;i17&gt;Qazaqstan prezident&lt;i21&gt;i&lt;/i17&gt;&lt;/i21&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141248Z" creationid="fsanchez" creationdate="20161009T141248Z">
+        <seg>O por ejemplo, los idiomas difieren en la manera en la que expresan las relaciones entre dos nombres: mientras que en español se dice &lt;i14&gt;presidente &lt;i18&gt;de&lt;/i14&gt; Kazajistán&lt;/i18&gt;, en ruso se dice &lt;i15&gt;prezident Kazakhstan&lt;i19&gt;a&lt;/i15&gt;&lt;/i19&gt;, en vasco se dice &lt;i16&gt;Kazakstan&lt;i20&gt;go&lt;/i16&gt; presidente&lt;/i20&gt;, y en kazajo se dice &lt;i17&gt;Qazaqstan prezident&lt;i21&gt;i&lt;/i17&gt;&lt;/i21&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, l'ordre estàndard de les oracions en català és &lt;i2&gt;subjecte&lt;/i2&gt;--&lt;i3&gt;verb&lt;/i3&gt;--&lt;i4&gt;objecte&lt;/i4&gt;, mentres que en basc o en turc és &lt;i5&gt;subjecte&lt;/i5&gt;--&lt;i6&gt;objecte&lt;/i6&gt;--&lt;i7&gt;verb&lt;/i7&gt;, en irlandés és &lt;i8&gt;verb&lt;/i8&gt;--&lt;i9&gt;subjecte&lt;/i9&gt;--&lt;i10&gt;objecte&lt;/i10&gt; i en malgaix és &lt;i11&gt;verb&lt;/i11&gt;--&lt;i12&gt;objecte&lt;/i12&gt;--&lt;i13&gt;subjecte&lt;/i13&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140915Z" creationid="fsanchez" creationdate="20161009T140915Z">
