@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En aquest capítol ens fixarem molt especialment en l'ambigüitat de les oracions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141529Z" creationid="fsanchez" creationdate="20161009T141529Z">
+        <seg>En este capítulo nos fijaremos especialmente en la ambigüedad de las oraciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es concedeix permís per a copiar, distribuir i/o modificar aquest document d'acord amb les condicions de la Llicència General Pública de GNU versió 3 (vegeu &lt;u1&gt;{http://www.gnu.org/licenses/gpl-3.0.txt}) o de la llicencia Creative Commons Reconeixement-CompatirIgual 4.0 Internacional (vegeu &lt;u2&gt;{http://creativecommons.org/licenses/by-sa/4.0/}).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115944Z" creationid="fsanchez" creationdate="20161005T115944Z">
@@ -162,6 +170,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140555Z" creationid="fsanchez" creationdate="20161009T140555Z">
         <seg>¿Por qué es tan difícil para un sistema informático traducir como un profesional?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Podem dir que un enunciat (una oració, un text) és ambigu quan és susceptible de dues o més interpretacions &lt;u0&gt;{alcaraz97b}.&lt;p0&gt; ho expressen dient que l'ambigüitat és ``el fenomen pel qual una expressió té més d'un significat''.} Per tant, un enunciat ambigu pot tenir més d'una traducció a un altre idioma, tot i que de vegades pot tenir només una traducció a un altre idioma perquè aquesta traducció conserva l'ambigüitat de la frase original;&lt;p1&gt; d'això, se'n sol dir &lt;i2&gt;free ride&lt;/i2&gt; (``passi gratuït'') i és tant més freqüent com més properes siguen les llengües involucrades en la traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141526Z" creationid="fsanchez" creationdate="20161009T141526Z">
+        <seg>Podemos decir que un enunciado (una oración, un texto) es ambiguo cuando es susceptible de dos o más interpretaciones &lt;u0&gt;{alcaraz97b}.&lt;p0&gt; lo expresan diciendo que la ambigüedad es ``el fenómeno por el cual una expresión tiene más de un significado''.} Por tanto, un enunciado ambiguo puede tener más de una traducción a otro idioma, aunque a veces puede tener una sola traducción a otro idioma porque dicha traducción conserva la ambigüedad de la frase original;&lt;p1&gt; a esto se le suele llamar &lt;i2&gt;free ride&lt;/i2&gt; (``pase gratuito'') y es más frecuente cuanto más cercanas sean las lenguas involucradas en la traducción.</seg>
       </tuv>
     </tu>
     <tu>
