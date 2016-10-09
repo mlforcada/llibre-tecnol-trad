@@ -846,6 +846,30 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>`[aprecien]' ) (.SD.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151814Z" creationid="fsanchez" creationdate="20161009T151814Z">
+        <seg>`[aprecian]' ) (.SD.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`[els]' ) (.N.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151824Z" creationid="fsanchez" creationdate="20161009T151824Z">
+        <seg>`[los]' ) (.N.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`[escocesos]' ) ) (.{&lt;u1&gt;{I}}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151829Z" creationid="fsanchez" creationdate="20161009T151829Z">
+        <seg>`[escoceses]' ) ) (.{&lt;u1&gt;{I}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`els' ) (.N.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151747Z" creationid="fsanchez" creationdate="20161009T151747Z">
