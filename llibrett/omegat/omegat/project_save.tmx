@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquesta oració l'hem de desambiguar si la volem traduir, per exemple, a l'anglés, perquè en el primer cas hauríem de dir &lt;i1&gt;study&lt;/i1&gt; i en el segon, &lt;i2&gt;studio&lt;/i2&gt;; per això l'efecte de la polisèmia en traducció pot causar en molts casos l'anomenada {&lt;u2&gt; ambigüitat de transferència}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143138Z" creationid="fsanchez" creationdate="20161009T143138Z">
+        <seg>Esta oración la tenemos que desambiguar si la queremos traducir, por ejemplo, al inglés, porque en el primer caso tendríamos que decir &lt;i1&gt;study&lt;/i1&gt; y en el segundo, &lt;i2&gt;studio&lt;/i2&gt;; por eso el efecto de la polisemia en traducción puede causar en muchos casos la llamada {&lt;u2&gt; ambigüedad de transferencia}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquests mots s'anomenen habitualment &lt;i0&gt;polisèmics&lt;/i0&gt; i aquest tipus d'ambigüitat, &lt;i1&gt;polisèmia&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143034Z" creationid="fsanchez" creationdate="20161009T143034Z">
@@ -234,6 +242,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143118Z" creationid="fsanchez" creationdate="20161009T143118Z">
         <seg>La ambigüedad de una oración puede ser causada por varios tipos básicos de ambigüedad léxica: &lt;n0&gt; &lt;u0&gt; La oración contiene una o más unidades léxicas (por ejemplo palabras) polisémicas: si decimos que alguien &lt;n1&gt; Trabaja en el estudio que le encargaron &lt;n2&gt; podemos referirnos a un investigador o a un decorador, dependiendo de qué interpretación asignemos a la palabra polisémica &lt;i0&gt;estudio&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat lèxica de transferència és especialment perillosa quan afecta un mot de la llengua origen no percebut com a ambigu; per exemple, el mot espanyol &lt;i3&gt;destino&lt;/i3&gt; es pot traduir al català com a {&lt;u3&gt; destí} (sort futura) o &lt;i4&gt;destinació&lt;/i4&gt; (punt d'arribada).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143152Z" creationid="fsanchez" creationdate="20161009T143152Z">
+        <seg>La ambigüedad léxica de transferencia es especialmente peligrosa cuando afecta a una palabra de la lengua origen no percibida como ambigua; por ejemplo, la palabra española &lt;i3&gt;destino&lt;/i3&gt; se puede traducir al catalán como {&lt;u3&gt; destí} (suerte futura) o &lt;i4&gt;destinació&lt;/i4&gt; (punto de llegada).</seg>
       </tuv>
     </tu>
     <tu>
