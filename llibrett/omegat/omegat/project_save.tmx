@@ -798,6 +798,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{ambigüitat estructural} Altres tipus d'ambigüitat estructural: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;Ambigüitat estructural deguda a l'el·lipsi&lt;/i0&gt; d'un o més constituents de l'oració, especialment quan aquesta oració hauria de tenir, si s'hagués produït en forma explícita, una estructura paral·lela a la d'una oració anterior (per exemple, en coordinacions, comparacions, etc.).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144829Z" creationid="fsanchez" creationdate="20161009T144829Z">
+        <seg>{ambigüedad estructural} Otros tipos de ambigüedad estructural: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;Ambigüedad estructural debida a la elipsis&lt;/i0&gt; de uno o más constituyentes de la oración, especialmente cuando esta oración tendría que tener, si se hubiera producido en forma explícita, una estructura paralela a la de una oración anterior (por ejemplo, en coordinaciones, comparaciones, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Per saber més sobre #1} } {</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
