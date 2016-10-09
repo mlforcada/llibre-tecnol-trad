@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Dir que l'anàfora és només un procés lèxic és una simplificació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152615Z" creationid="fsanchez" creationdate="20161009T152615Z">
+        <seg>Decir que la anáfora es sólo un proceso léxico es una simplificación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
@@ -438,6 +446,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En català ---i en general en les llengües romàniques--- són molt comunes les ambigüitats degudes a la combinació d'un mot que pot ser pronom feble de tercera persona o article (&lt;i13&gt;el&lt;/i13&gt;, &lt;i14&gt;la&lt;/i14&gt;, &lt;i15&gt;l'&lt;/i15&gt;, &lt;i16&gt;els&lt;/i16&gt;, &lt;i17&gt;les&lt;/i17&gt;) i un altre mot que pot ser substantiu o verb conjugat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152547Z" creationid="fsanchez" creationdate="20161009T152547Z">
+        <seg>En español ---y en general en las lenguas románicas--- son muy comunes las ambigüedades debidas a la combinación de una palabra que puede ser pronombre débil de tercera persona o artículo (&lt;i13&gt;el&lt;/i13&gt;, &lt;i14&gt;la&lt;/i14&gt;, &lt;i15&gt;&lt;/i15&gt; &lt;i16&gt;los&lt;/i16&gt;, &lt;i17&gt;las&lt;/i17&gt;) y otra palabra que puede ser sustantivo o verbo conjugado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En el fragment &lt;n0&gt; Anna va apunyalar Marta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143954Z" creationid="fsanchez" creationdate="20161009T143954Z">
@@ -498,6 +514,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142446Z" creationid="fsanchez" creationdate="20161009T142446Z">
         <seg>Hay casos que no son tan sencillos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha involucrats aspectes sintàctics.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152617Z" creationid="fsanchez" creationdate="20161009T152617Z">
+        <seg>Hay involucrados aspectos sintácticos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -690,6 +714,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142927Z" creationid="fsanchez" creationdate="20161009T142927Z">
         <seg>Por ejemplo, en inglés, la palabra &lt;i7&gt;case&lt;/i7&gt;, un sustantivo singular, puede referirse a un tipo de contenedor (&lt;i8&gt;a case of wine&lt;/i8&gt;) o a un ejemplo o situación particular (&lt;i9&gt;It does not apply in this case&lt;/i9&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, l'oració &lt;n1&gt; La mata el vol &lt;n3&gt; pot voler dir dues coses, segons l'elecció de categories lèxiques (``l'acte de volar li provoca la mort'' o ``la planta sent estima per ell'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152611Z" creationid="fsanchez" creationdate="20161009T152611Z">
+        <seg>Por ejemplo, la oración catalana &lt;n1&gt; La mata el vol &lt;n3&gt; puede querer decir dos cosas, según la elección de categorías léxicas (``el acto de volar le provoca la muerte'' o ``la planta siente aprecio por él'').</seg>
       </tuv>
     </tu>
     <tu>
