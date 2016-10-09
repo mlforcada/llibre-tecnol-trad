@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Hi ha tres situacions possibles: &lt;n0&gt; &lt;u1&gt; canvia només el lema però no els indicadors de flexió: el mot espanyol &lt;i0&gt;creo&lt;/i0&gt; pot ser la 1a.&lt;u4&gt;persona del singular del present d'indicatiu del verb &lt;i1&gt;creer&lt;/i1&gt; o del verb &lt;i2&gt;crear&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143600Z" creationid="fsanchez" creationdate="20161009T143600Z">
+        <seg>Hay tres situaciones posibles: &lt;n0&gt; &lt;u1&gt; cambia sólo el lema pero no los indicadores de flexión: la palabra española &lt;i0&gt;creo&lt;/i0&gt; puede ser la 1ª&lt;u4&gt;persona del singular del presente de indicativo del verbo &lt;i1&gt;creer&lt;/i1&gt; o del verbo &lt;i2&gt;crear&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'ambigüitat d'una oració pot ser causada per diversos tipus bàsics d'ambigüitat lèxica: &lt;n0&gt; &lt;u0&gt; L'oració conté una o més unitats lèxiques (per exemple mots) polisèmiques: si diem que algú &lt;n1&gt; Treballa en l'estudi que li van encarregar &lt;n2&gt; podem referir-nos a un investigador o a un decorador, depenent de quina interpretació assignem al mot polisèmic &lt;i0&gt;estudi&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143118Z" creationid="fsanchez" creationdate="20161009T143118Z">
