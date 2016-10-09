@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Cada un dels mots ve d'un mot llatí diferent: el primer del mot femení &lt;i10&gt;capsa&lt;/i10&gt;, i el segon de &lt;i11&gt;casus&lt;/i11&gt;, el participi de &lt;i12&gt;cado&lt;/i12&gt; `caure'.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142945Z" creationid="fsanchez" creationdate="20161009T142945Z">
+        <seg>Cada una de las palabras viene de una palabra latina diferente: la primera de la palabra femenina &lt;i10&gt;capsa&lt;/i10&gt;, y la segunda de &lt;i11&gt;casus&lt;/i11&gt;, el participio de &lt;i12&gt;cado&lt;/i12&gt; `caer'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Construir un sistema de traducció automàtica comporta la gestió d'una gran quantitat de coneixement, que s'ha d'aplegar, descriure, i representar en una forma útil per al processament per ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141404Z" creationid="fsanchez" creationdate="20161009T141404Z">
@@ -138,6 +146,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
         <seg>El contenido no determina completamente la forma&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els diccionaris anglesos, que solen agrupar els mots polisèmics en una entrada, típicament en fan dues entrades diferents, i, de fet, en lexicografia no és estrany referir-se a &lt;i13&gt;case&lt;/i13&gt; com un homògraf.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143017Z" creationid="fsanchez" creationdate="20161009T143017Z">
+        <seg>Los diccionarios ingleses, que suelen agrupar las palabras polisémicas en una entrada, típicamente hacen dos entradas diferentes, y, de hecho, en lexicografía no es extraño referirse a &lt;i13&gt;case&lt;/i13&gt; como un homógrafo.</seg>
       </tuv>
     </tu>
     <tu>
