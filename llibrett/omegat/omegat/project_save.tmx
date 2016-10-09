@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u6&gt; &lt;i23&gt;Ambigüitat dins de la mateixa categoria lèxica amb canvi de lema&lt;/i23&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142401Z" creationid="fsanchez" creationdate="20161009T142401Z">
+        <seg>&lt;u6&gt; &lt;i23&gt;Ambigüedad dentro de la misma categoría léxica con cambio de lema&lt;/i23&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141417Z" creationid="fsanchez" creationdate="20161009T141417Z">
@@ -218,6 +226,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142337Z" creationid="fsanchez" creationdate="20161009T142337Z">
         <seg>Por ejemplo, la palabra &lt;i16&gt;ahorro&lt;/i16&gt; tiene dos formas léxicas posibles, cada una con una categoría léxica diferente: &lt;i17&gt;ahorro&lt;/i17&gt;, sustantivo, masculino, singular; &lt;i18&gt;ahorrar&lt;/i18&gt;, verbo, 1ª&lt;u8&gt; persona del singular, presente de indicativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot &lt;i20&gt;canta&lt;/i20&gt; té dues formes lèxiques amb el mateix lema, la mateixa categoria lèxica, però distinta informació de flexió: &lt;i21&gt;cantar&lt;/i21&gt; verb, 3a.&lt;u9&gt; persona del singular, present d'indicatiu; &lt;i22&gt;cantar&lt;/i22&gt;, verb, 2a.&lt;u10&gt; persona del singular, imperatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142357Z" creationid="fsanchez" creationdate="20161009T142357Z">
+        <seg>Por ejemplo, la palabra &lt;i20&gt;canta&lt;/i20&gt; tiene dos formas léxicas con el mismo lema, la misma categoría léxica, pero distinta información de flexión: &lt;i21&gt;cantar&lt;/i21&gt; verbo, 3ª&lt;u9&gt; persona del singular, presente de indicativo; &lt;i22&gt;cantar&lt;/i22&gt;, verbo, 2ª&lt;u10&gt; persona del singular, imperativo.</seg>
       </tuv>
     </tu>
     <tu>
