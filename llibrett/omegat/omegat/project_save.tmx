@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'oració conté un homògraf que té dues o més interpretacions però la mateixa categoria lèxica, i no afecta, per tant, l'estructura de l'oració.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143240Z" creationid="fsanchez" creationdate="20161009T143240Z">
+        <seg>La oración contiene un homógrafo que tiene dos o más interpretaciones pero la misma categoría léxica, y no afecta, por lo tanto, a la estructura de la oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La polisèmia afecta totes les formes flexionades d'un determinat mot de la mateixa manera (&lt;i4&gt;estacions&lt;/i4&gt; té exactament la mateixa ambigüitat que &lt;i5&gt;estació&lt;/i5&gt;), ja que és una propietat del &lt;i6&gt;lema&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143100Z" creationid="fsanchez" creationdate="20161009T143100Z">
