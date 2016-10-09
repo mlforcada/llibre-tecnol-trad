@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquesta varietat d'interpretacions es deu al fet que hi ha tres mots en la frase que poden pertànyer a dues categories lèxiques diferents: &lt;i3&gt;time&lt;/i3&gt; pot ser verb (&lt;i4&gt;cronometrar&lt;/i4&gt;) i substantiu (&lt;i5&gt;temps&lt;/i5&gt;), &lt;i6&gt;flies&lt;/i6&gt; pot ser verb (&lt;i7&gt;vola&lt;/i7&gt;) i substantiu (&lt;i8&gt;mosques&lt;/i8&gt;) i &lt;i9&gt;like&lt;/i9&gt; pot ser verb (&lt;i10&gt;agradar&lt;/i10&gt;) i preposició (&lt;i11&gt;com&lt;/i11&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152458Z" creationid="fsanchez" creationdate="20161009T152458Z">
+        <seg>Esta variedad de interpretaciones se debe al hecho de que hay tres palabras en la frase que pueden pertenecer a dos categorías léxicas diferentes: &lt;i3&gt;time&lt;/i3&gt; puede ser verbo (&lt;i4&gt;cronometrar&lt;/i4&gt;) y sustantivo (&lt;i5&gt;tiempo&lt;/i5&gt;), &lt;i6&gt;flies&lt;/i6&gt; puede ser verbo (&lt;i7&gt;vuela&lt;/i7&gt;) y sustantivo (&lt;i8&gt;moscas&lt;/i8&gt;) y like &lt;i9&gt;&lt;/i9&gt; puede ser verbo (&lt;i10&gt;gustar&lt;/i10&gt;) y preposición (&lt;i11&gt;cómo&lt;/i11&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquests mots s'anomenen habitualment &lt;i0&gt;polisèmics&lt;/i0&gt; i aquest tipus d'ambigüitat, &lt;i1&gt;polisèmia&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143034Z" creationid="fsanchez" creationdate="20161009T143034Z">
@@ -330,6 +338,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143122Z" creationid="fsanchez" creationdate="20161009T143122Z">
         <seg>A la ambigüedad de estas unidades léxicas, también se la suele llamar {&lt;u1&gt; ambigüedad léxica pura}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De les 8 ($2&lt;u0&gt; 2&lt;u1&gt; 2$) anàlisis morfològiques possibles de la frase, tres en resulten sintàcticament acceptables, amb interpretacions molt diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152510Z" creationid="fsanchez" creationdate="20161009T152510Z">
+        <seg>De los 8 ($2&lt;u0&gt; 2&lt;u1&gt; 2$) análisis morfológicos posibles de la frase, tres resultan sintácticamente aceptables, con interpretaciones muy diferentes.</seg>
       </tuv>
     </tu>
     <tu>
