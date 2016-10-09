@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt;{Dir que en aquest cas l'esborrat de les parts repetides és obligatori en la major part de les llengües} Considerem l'exemple següent, tret de &lt;u4&gt;[p. 399]{radford09b}: &lt;n2&gt; &lt;n4&gt; Els escocesos aprecien el whisky més que els gal·lesos &lt;n5&gt; L'oració té dues interpretacions: &lt;n3&gt; &lt;u1&gt;[(a)] Els escocesos aprecien el whisky més que els gal·lesos (aprecien el whisky) &lt;u2&gt;[(b)] Els escocesos aprecien el whisky més que (els escocesos aprecien) els gal·lesos&lt;p0&gt; &lt;n6&gt; En aquests dos casos, l'ambigüitat és causada pel fet que són possibles dues estructures sintàctiques per a la segona oració coordinada: en la primera estructura, el sintagma &lt;i3&gt;els gal·lesos&lt;/i3&gt; és el subjecte mentre que en la segona estructura és l'objecte (vegeu els arbres de la fig. &lt;n7&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T150957Z" creationid="fsanchez" creationdate="20161009T150957Z">
+        <seg>&lt;u3&gt;{Decir que en este caso el borrador de las partes repetidas es obligatorio en la mayor parte de las lenguas} Consideremos el ejemplo siguiente, sacado de &lt;u4&gt;[p.399]{radford09b}: &lt;n2&gt; &lt;n4&gt; Los escoceses aprecian el whisky más que los galeses &lt;n5&gt; La oración tiene dos interpretaciones: &lt;n3&gt; &lt;u1&gt;[(a)] Los escoceses aprecian el whisky más que los galeses (aprecian el whisky) &lt;u2&gt;[(b)] Los escoceses aprecian el whisky más que (los escoceses aprecian) a los galeses&lt;p0&gt; &lt;n6&gt; En estos dos casos, la ambigüedad está causada por el hecho de que son posibles dos estructuras sintácticas para la segunda oración coordinada: en la primera estructura, el sintagma &lt;i3&gt;los galeses&lt;/i3&gt; es el sujeto mientras que en la segunda estructura es el objeto (véanse los árboles de la fig. &lt;n7&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt; &lt;i19&gt;Ambigüitat dins de la mateixa categoria lèxica sense canvi de lema&lt;/i19&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142341Z" creationid="fsanchez" creationdate="20161009T142341Z">
