@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'oració &lt;n0&gt; No m'agrada la manera com vas dir que vivia encara.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151656Z" creationid="fsanchez" creationdate="20161009T151656Z">
+        <seg>En la oración &lt;n0&gt; No me gusta la manera como dijiste que vivía todavía.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En la frase &lt;n1&gt; Vaig obrir [la porta]$_i$ a [la cuinera]$_j$ i la$_{i/j?}$ vaig fer passar &lt;n2&gt; els índexs ($i$, $j$, $i/j?$) indiquen que el pronom feble &lt;i7&gt;la&lt;/i7&gt; es pot referir a la mateixa persona a la qual ens hem referit amb el sintagma nominal &lt;i8&gt;la cuinera&lt;/i8&gt;, però no hi ha cap raó sintàctica perquè el referent no siga el mateix que el del sintagma &lt;i9&gt;la porta&lt;/i9&gt;: aquesta pot ser una possible causa d'ambigüitat en la segona oració coordinada.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143751Z" creationid="fsanchez" creationdate="20161009T143751Z">
