@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Es produeixen també moviments similars amb els relatius; per exemple, aquests es mouen &lt;i0&gt;cap a fora&lt;/i0&gt;, és a dir, cap a l'arrel de l'arbre d'anàlisi sintàctica, des de les subordinades substantives completives amb verbs del tipus de {&lt;u0&gt; dir}, &lt;i1&gt;explicar&lt;/i1&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151635Z" creationid="fsanchez" creationdate="20161009T151635Z">
+        <seg>Se producen también movimientos similares con los relativos; por ejemplo, estos se mueven &lt;i0&gt;hacia afuera&lt;/i0&gt;, es decir, hacia la raíz del árbol de análisis sintáctico, desde las subordinadas sustantivas completivas con verbos del tipo de {&lt;u0&gt; decir}, &lt;i1&gt;explicar&lt;/i1&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Exemples: &lt;i4&gt;Portaven notícies de Grècia&lt;/i4&gt; (tema o procedència?), &lt;i5&gt;Ha venut les taronges que ha comprat a Joan&lt;/i5&gt; (Joan ven taronges o les compra?), &lt;i6&gt;Treballa en l'estudi que li han encarregat&lt;/i6&gt; (prepara un document o està dissenyant un espai de treball?), etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140702Z" creationid="fsanchez" creationdate="20161009T140702Z">
