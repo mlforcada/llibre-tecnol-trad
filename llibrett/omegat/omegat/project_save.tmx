@@ -22,10 +22,26 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest és el &lt;i1&gt;problema de la síntesi&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140717Z" creationid="fsanchez" creationdate="20161009T140717Z">
+        <seg>Este es el &lt;i1&gt;problema de la síntesis&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest és el &lt;i2&gt;problema de l'anàlisi&lt;/i2&gt;, també anomenat &lt;i3&gt;ambigüitat&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140648Z" creationid="fsanchez" creationdate="20161009T140648Z">
         <seg>Este es el &lt;i2&gt;problema del análisis&lt;/i2&gt;, también llamado &lt;i3&gt;ambigüedad&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
+        <seg>El contenido no determina completamente la forma&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -86,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Vegeu l'exemple &lt;i9&gt;m'agrada nadar&lt;/i9&gt; en la p.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140706Z" creationid="fsanchez" creationdate="20161009T140706Z">
+        <seg>Véase el ejemplo &lt;i9&gt;me gusta nadar&lt;/i9&gt; en la p.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Per què és difícil la TA?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115756Z" creationid="fsanchez" creationdate="20161005T115756Z">
@@ -114,6 +138,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
         <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Para saber más sobre #1} } {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És a dir, és difícil determinar com s'ha d'expressar una interpretació concreta perquè hi ha més d'una manera de dir el mateix en qualsevol llengua.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140716Z" creationid="fsanchez" creationdate="20161009T140716Z">
+        <seg>Es decir, es difícil determinar como se tiene que expresar una interpretación concreta porque hay más de una manera de decir lo mismo en cualquier lengua.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
