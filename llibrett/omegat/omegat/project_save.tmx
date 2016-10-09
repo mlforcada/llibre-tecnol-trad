@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n7&gt; És a dir, en la primera, el pronom interrogatiu &lt;i1&gt;qui&lt;/i1&gt; és el subjecte de l'oració principal; en la segona, és el subjecte de l'oració subordinada, el qual ha experimentat el &lt;i2&gt;moviment de Qu&lt;/i2&gt; (en anglés &lt;i3&gt;Wh-movement&lt;/i3&gt;) al principi de l'oració, el qual obligatori en molts idiomes ---no en tots: el xinés o el turc no ho fan, per exemple--- per als mots amb funció interrogativa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151226Z" creationid="fsanchez" creationdate="20161009T151226Z">
+        <seg>&lt;n7&gt; Es decir, en la primera, el pronombre interrogativo &lt;i1&gt;quién&lt;/i1&gt; es el sujeto de la oración principal; en la segunda, es el sujeto de la oración subordinada, el cual ha experimentado el &lt;i2&gt;movimiento de Qu&lt;/i2&gt; (en inglés &lt;i3&gt;Wh-movement&lt;/i3&gt;) al principio de la oración, que es obligatorio en muchos idiomas --- no en todos: el chino o el turco no lo hacen, por ejemplo --- para las palabras con función interrogativa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u0&gt;{alcaraz97b} defineixen l'&lt;i1&gt;el·lipsi&lt;/i1&gt;&lt;n0&gt; com l'omissió o l'absència d'alguna part d'una oració.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144106Z" creationid="fsanchez" creationdate="20161009T144106Z">
