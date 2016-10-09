@@ -718,6 +718,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, en l'oració &lt;i4&gt;Maria va parlar amb ella&lt;/i4&gt;, el pronom &lt;i5&gt;ella&lt;/i5&gt; no es pot mai referir a &lt;i6&gt;Maria&lt;/i6&gt;, però en l'oració &lt;i7&gt;Maria va parlar amb una amiga d'ella&lt;/i7&gt;, sí que pot, i això és degut al fet que en l'estructura sintàctica de la primera oració hi ha una &lt;i8&gt;barrera&lt;/i8&gt; a la coreferència que en la segona no existeix.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152646Z" creationid="fsanchez" creationdate="20161009T152646Z">
+        <seg>Por ejemplo, en la oración &lt;i4&gt;María habló con ella&lt;/i4&gt;, el pronombre &lt;i5&gt;ella&lt;/i5&gt; no puede nunca referirse a &lt;i6&gt;María&lt;/i6&gt;, pero en la oración &lt;i7&gt;María habló con una amiga de ella&lt;/i7&gt;, sí que puede, y esto es debido al hecho de que en la estructura sintáctica de la primera oración hay una &lt;i8&gt;barrera&lt;/i8&gt; a la correferencia que en la segunda no existe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, l'oració &lt;n1&gt; La mata el vol &lt;n3&gt; pot voler dir dues coses, segons l'elecció de categories lèxiques (``l'acte de volar li provoca la mort'' o ``la planta sent estima per ell'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152611Z" creationid="fsanchez" creationdate="20161009T152611Z">
