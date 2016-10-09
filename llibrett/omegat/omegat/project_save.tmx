@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n3&gt; En (&lt;n6&gt;a) &lt;i0&gt;les mates&lt;/i0&gt; és un sintagma determinant compost d'un article i un substantiu, que fa d'objecte del verb el·líptic &lt;i1&gt;destrossat&lt;/i1&gt;, mentre que en (&lt;n7&gt;b) &lt;i2&gt;les mates&lt;/i2&gt; és un sintagma verbal compost d'un pronom ({&lt;u3&gt; les}) que es refereix a &lt;i3&gt;Les gallines&lt;/i3&gt; i un verb ({&lt;u4&gt; mates}), sintagma que constitueix un sintagma verbal en la segona oració coordinada (vegeu la fig. &lt;n8&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153101Z" creationid="fsanchez" creationdate="20161009T153101Z">
+        <seg>&lt;n3&gt; En (&lt;n6&gt;a) &lt;i0&gt;las matas&lt;/i0&gt; es un sintagma determinante compuesto de un artículo y un sustantivo, que hace de objeto del verbo elíptico &lt;i1&gt;destrozado&lt;/i1&gt;, mientras que en (&lt;n7&gt;b) &lt;i2&gt;las matas&lt;/i2&gt; es un sintagma verbal compuesto de un pronombre ({&lt;u3&gt; las}) que se refiere a &lt;i3&gt;Las gallinas&lt;/i3&gt; y un verbo ({&lt;u4&gt; matas}), sintagma que constituye un sintagma verbal en la segunda oración coordinada (véase la fig. &lt;n8&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n5&gt; Aquesta oració té, fonamentalment, dues interpretacions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151200Z" creationid="fsanchez" creationdate="20161009T151200Z">
@@ -982,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>`[destrossat]' ) (.SD.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153108Z" creationid="fsanchez" creationdate="20161009T153108Z">
+        <seg>`[destrozado]' ) (.SD.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`[els]' ) (.N.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151824Z" creationid="fsanchez" creationdate="20161009T151824Z">
@@ -994,6 +1010,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151829Z" creationid="fsanchez" creationdate="20161009T151829Z">
         <seg>`[escoceses]' ) ) (.{&lt;u1&gt;{I}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`[tu]' ) (.{&lt;u2&gt;{I}}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153116Z" creationid="fsanchez" creationdate="20161009T153116Z">
+        <seg>`[tú]' ) (.{&lt;u2&gt;{I}}.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1134,6 +1158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>  `[les gallines]' ) (.{&lt;u0&gt;{I}}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153105Z" creationid="fsanchez" creationdate="20161009T153105Z">
+        <seg>  `[las gallinas]' ) (.{&lt;u0&gt;{I}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>  `de Grècia' ) ) ) ) ) &lt;n0&gt; &lt;n1&gt; &lt;n6&gt; &lt;n7&gt; (.SI.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144705Z" creationid="fsanchez" creationdate="20161009T144705Z">
@@ -1170,6 +1202,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144215Z" creationid="fsanchez" creationdate="20161009T144215Z">
         <seg>  `las sábanas' ) `y' (.SN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `les mates' ) ) ) ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; (.SI.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153112Z" creationid="fsanchez" creationdate="20161009T153112Z">
+        <seg>  `las matas' ) ) ) ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; (.SÍ.</seg>
       </tuv>
     </tu>
     <tu>
