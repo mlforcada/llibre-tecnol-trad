@@ -566,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>N'estudiarem dos casos: &lt;n0&gt; &lt;u1&gt; L'oració conté mots afectats d'ambigüitat lèxica categorial amb canvi de categoria (vegeu la pàg. &lt;n1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152128Z" creationid="fsanchez" creationdate="20161009T152128Z">
+        <seg>Estudiaremos dos casos: &lt;n0&gt; &lt;u1&gt; La oración contiene palabras afectadas por ambigüedad léxica categorial con cambio de categoría (véase la pág. &lt;n1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>O alguna altra persona?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144010Z" creationid="fsanchez" creationdate="20161009T144010Z">
