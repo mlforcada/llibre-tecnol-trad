@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Vegeu la nota al peu de la pàg.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141837Z" creationid="fsanchez" creationdate="20161009T141837Z">
+        <seg>Véase la nota al pie de la pág.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Per què és difícil la TA?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115756Z" creationid="fsanchez" creationdate="20161005T115756Z">
