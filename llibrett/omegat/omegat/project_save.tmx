@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u0&gt;{alcaraz97b} defineixen l'&lt;i1&gt;el·lipsi&lt;/i1&gt;&lt;n0&gt; com l'omissió o l'absència d'alguna part d'una oració.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144106Z" creationid="fsanchez" creationdate="20161009T144106Z">
+        <seg>&lt;u0&gt;{alcaraz97b} definen la &lt;i1&gt;elipsis&lt;/i1&gt;&lt;n0&gt; como la omisión o la ausencia de alguna parte de una oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; l'oració té més d'una estructura sintàctica possible (és a dir, és &lt;i1&gt;estructuralment ambigua&lt;/i1&gt; o &lt;i2&gt;sintàcticament ambigua&lt;/i2&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141809Z" creationid="fsanchez" creationdate="20161009T141809Z">
@@ -114,6 +122,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140648Z" creationid="fsanchez" creationdate="20161009T140648Z">
         <seg>Este es el &lt;i2&gt;problema del análisis&lt;/i2&gt;, también llamado &lt;i3&gt;ambigüedad&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquesta classe d'ambigüitats se sol incloure dins d'un grup de fenòmens més generals anomenats &lt;i0&gt;ambigüitats per el·lipsi&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144102Z" creationid="fsanchez" creationdate="20161009T144102Z">
+        <seg>Esta clase de ambigüedades se suele incluir dentro de un grupo de fenómenos más generales denominados &lt;i0&gt;ambigüedades por elipsis&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
