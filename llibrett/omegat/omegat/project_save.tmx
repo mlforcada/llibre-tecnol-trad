@@ -518,6 +518,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, la frase &lt;n0&gt; Joan va portar notícies de Grècia &lt;n3&gt; es pot interpretar de dues maneres: en una, el sintagma preposicional &lt;i3&gt;de Grècia&lt;/i3&gt; modifica &lt;i4&gt;notícies&lt;/i4&gt;; en l'altra, modifica &lt;i5&gt;portar&lt;/i5&gt; (vegeu els arbres de la figura &lt;n6&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144529Z" creationid="fsanchez" creationdate="20161009T144529Z">
+        <seg>Por ejemplo, la frase &lt;n0&gt; Juan trajo noticias de Grecia &lt;n3&gt; se puede interpretar de dos maneras: en una, el sintagma preposicional &lt;i3&gt;de Grecia&lt;/i3&gt; modifica &lt;i4&gt;noticias&lt;/i4&gt;; en la otra, modifica &lt;i5&gt;traer&lt;/i5&gt; (véanse los árboles de la figura &lt;n6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, la interpretació d'&lt;i0&gt;enviar algú a pastar fang&lt;/i0&gt; pot ser la idiomàtica de dir a algú que deixe de molestar (espanyol &lt;i1&gt;mandar a freír espárragos&lt;/i1&gt;) però podria ser també la literal en un taller de terrisseria.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143229Z" creationid="fsanchez" creationdate="20161009T143229Z">
