@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els triangles s'usen per a no haver d'indicar tots els detalls d'un subarbre concret.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153150Z" creationid="fsanchez" creationdate="20161009T153150Z">
+        <seg>Los triángulos se usan para no tener que indicar todos los detalles de un subárbol concreto.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En algunes llengües romàniques (en italià, espanyol i català però no en francés) és comuna l'absència del subjecte quan és de tercera persona.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143926Z" creationid="fsanchez" creationdate="20161009T143926Z">
@@ -1210,6 +1218,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153112Z" creationid="fsanchez" creationdate="20161009T153112Z">
         <seg>  `las matas' ) ) ) ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; (.SÍ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `les mates' ) ) ) &lt;n7&gt; &lt;n8&gt; &lt;u4&gt;{Dos arbres per a la segona oració coordinada en ``Les gallines han destrossat el sembrat però no les mates'' (NEG = negació).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153144Z" creationid="fsanchez" creationdate="20161009T153144Z">
+        <seg> `les mates" ) ) ) &lt;n7&gt; &lt;n8&gt; &lt;u4&gt;{Dos árboles para la segunda oración coordinada en ``Las gallinas han destrozado el sembrado pero no las matas" (NEG = negación).</seg>
       </tuv>
     </tu>
     <tu>
