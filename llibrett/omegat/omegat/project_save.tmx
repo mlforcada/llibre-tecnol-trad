@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, l'oració espanyola &lt;i0&gt;Aprendió a afeitarse en dos minutos&lt;/i0&gt; es pot traduir al català &lt;i1&gt;Va aprendre a afaitar-se en dos minuts&lt;/i1&gt; sense resoldre l'ambigüitat següent: és el temps que va tardar a aprendre o el temps que empra per afaitar-se?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141453Z" creationid="fsanchez" creationdate="20161009T141453Z">
+        <seg>Por ejemplo, la oración en español &lt;i0&gt;Aprendió a afeitarse en dos minutos&lt;/i0&gt; se puede traducir al catalán &lt;i1&gt;Va aprendre a afaitar-se en dos minuts&lt;/i1&gt; sin resolver la siguiente ambigüedad: ¿es el tiempo que tardó en aprender o el tiempo que emplea en afeitarse?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, l'ordre estàndard de les oracions en català és &lt;i2&gt;subjecte&lt;/i2&gt;--&lt;i3&gt;verb&lt;/i3&gt;--&lt;i4&gt;objecte&lt;/i4&gt;, mentres que en basc o en turc és &lt;i5&gt;subjecte&lt;/i5&gt;--&lt;i6&gt;objecte&lt;/i6&gt;--&lt;i7&gt;verb&lt;/i7&gt;, en irlandés és &lt;i8&gt;verb&lt;/i8&gt;--&lt;i9&gt;subjecte&lt;/i9&gt;--&lt;i10&gt;objecte&lt;/i10&gt; i en malgaix és &lt;i11&gt;verb&lt;/i11&gt;--&lt;i12&gt;objecte&lt;/i12&gt;--&lt;i13&gt;subjecte&lt;/i13&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140915Z" creationid="fsanchez" creationdate="20161009T140915Z">
