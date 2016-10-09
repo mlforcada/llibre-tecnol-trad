@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest tipus d'ambigüitat se sol anomenar &lt;i12&gt;ambigüitat estructural d'origen categorial&lt;/i12&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152514Z" creationid="fsanchez" creationdate="20161009T152514Z">
+        <seg>Este tipo de ambigüedad se suele denominar &lt;i12&gt;ambigüedad estructural de origen categorial&lt;/i12&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest és el &lt;i0&gt;problema de la descripció&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141406Z" creationid="fsanchez" creationdate="20161009T141406Z">
