@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt;[(b)] [Les gallines]$_i$ han destrossat el sembrat, però (tu) no les$_i$ mates.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152716Z" creationid="fsanchez" creationdate="20161009T152716Z">
+        <seg>&lt;u2&gt;[(b)] [Las gallinas]$_i$ han destrozado el sembrado, pero (tú) no las$_i$ matas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; canvien el lema i els indicadors de flexió: el mot espanyol &lt;i5&gt;salen&lt;/i5&gt; pot ser la 3a.&lt;u6&gt;persona del plural del present d'indicatiu del verb salir o del present de subjuntiu del verb &lt;i6&gt;salar&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143626Z" creationid="fsanchez" creationdate="20161009T143626Z">
