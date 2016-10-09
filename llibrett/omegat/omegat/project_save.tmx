@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Hi ha casos que no són tan senzills.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142446Z" creationid="fsanchez" creationdate="20161009T142446Z">
+        <seg>Hay casos que no son tan sencillos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les llengües divergeixen.&lt;/i0&gt; És a dir, hi ha diferències irreductibles en la manera que el mateix contingut s'expressa en llengües diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140819Z" creationid="fsanchez" creationdate="20161009T140819Z">
@@ -234,6 +242,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142357Z" creationid="fsanchez" creationdate="20161009T142357Z">
         <seg>Por ejemplo, la palabra &lt;i20&gt;canta&lt;/i20&gt; tiene dos formas léxicas con el mismo lema, la misma categoría léxica, pero distinta información de flexión: &lt;i21&gt;cantar&lt;/i21&gt; verbo, 3ª&lt;u9&gt; persona del singular, presente de indicativo; &lt;i22&gt;cantar&lt;/i22&gt;, verbo, 2ª&lt;u10&gt; persona del singular, imperativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot &lt;i24&gt;poden&lt;/i24&gt; té, entre d'altres, dues formes lèxiques amb la mateixa categoria lèxica, la mateixa informació de flexió, però distint lema: &lt;i25&gt;poder&lt;/i25&gt;, verb, 3a.&lt;u11&gt; persona del plural, present d'indicatiu; &lt;i26&gt;podar&lt;/i26&gt; verb, 3a.&lt;u12&gt; persona del plural, present d'indicatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142441Z" creationid="fsanchez" creationdate="20161009T142441Z">
+        <seg>Por ejemplo, la palabra en catalán &lt;i24&gt;poden&lt;/i24&gt; tiene, entre otras, dos formas léxicas con la misma categoría léxica, la misma información de flexión, pero distinto lema: &lt;i25&gt;poder&lt;/i25&gt;, verbo, 3ª&lt;u11&gt; persona del plural, presente de indicativo; &lt;i26&gt;podar&lt;/i26&gt; verbo, 3ª&lt;u12&gt; persona del plural, presente de indicativo.</seg>
       </tuv>
     </tu>
     <tu>
