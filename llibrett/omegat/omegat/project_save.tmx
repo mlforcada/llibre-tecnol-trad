@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest tipus d'ambigüitat lèxica pot provocar de vegades ambigüitat estructural, causada per la presència de més d'una anàlisi sintàctica acceptable (si, tot i els homògrafs, només n'hi ha una anàlisi acceptable, l'ambigüitat passa desapercebuda per al receptor; això és així perquè habitualment només es consideren estructures acceptables quan es vol assignar interpretació a una oració).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152213Z" creationid="fsanchez" creationdate="20161009T152213Z">
+        <seg>Este tipo de ambigüedad léxica puede provocar a veces ambigüedad estructural, causada por la presencia de más de un análisis sintáctico aceptable (si, a pesar de los homógrafos, sólo hay un análisis aceptable, la ambigüedad pasa desapercibida para el receptor; esto es así porque habitualmente sólo se consideran estructuras aceptables cuando se quiere asignar interpretación a una oración).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest és el &lt;i0&gt;problema de la descripció&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141406Z" creationid="fsanchez" creationdate="20161009T141406Z">
