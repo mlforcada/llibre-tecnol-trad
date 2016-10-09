@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, la interpretació d'&lt;i0&gt;enviar algú a pastar fang&lt;/i0&gt; pot ser la idiomàtica de dir a algú que deixe de molestar (espanyol &lt;i1&gt;mandar a freír espárragos&lt;/i1&gt;) però podria ser també la literal en un taller de terrisseria.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143229Z" creationid="fsanchez" creationdate="20161009T143229Z">
+        <seg>Por ejemplo, la interpretación de la expresión catalana &lt;i0&gt;enviar algú a pastar fang&lt;/i0&gt; puede ser la idiomática de decir a alguien que deje de molestar (español &lt;i1&gt;mandar a freír espárragos&lt;/i1&gt;) pero podría ser también la literal en un taller de alfarería.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per què és difícil per a un sistema informàtic traduir com un professional?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140555Z" creationid="fsanchez" creationdate="20161009T140555Z">
@@ -434,6 +442,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142135Z" creationid="fsanchez" creationdate="20161009T142135Z">
         <seg>Una palabra (y, en general, una unidad léxica de más de una palabra) se puede ver desde dos perspectivas; por un lado, la &lt;i0&gt;forma superficial&lt;/i0&gt; de la palabra es la forma concreta que aparece en el texto: &lt;i1&gt;cantábamos&lt;/i1&gt;; por otra parte, tenemos la &lt;i2&gt;forma léxica&lt;/i2&gt;, que consiste en &lt;n3&gt; &lt;u1&gt; un &lt;i3&gt;lema&lt;/i3&gt; o &lt;i4&gt;forma canónica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u2&gt; una &lt;i6&gt;categoría léxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; clase de palabra, o parte de la oración (verbo) y &lt;u3&gt; unos &lt;i7&gt;indicadores de flexión&lt;/i7&gt; que expresan las características morfológicas o flexivas (primera persona, nombre plural, tiempo pretérito imperfecto, modo indicativo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una ambigüitat que és molt semblant a l'ambigüitat lèxica pura es produeix quan una expressió idiomàtica es pren bé com a tal o bé en sentit literal.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143214Z" creationid="fsanchez" creationdate="20161009T143214Z">
+        <seg>Una ambigüedad que es muy parecida a la ambigüedad léxica pura se produce cuando una expresión idiomática se toma bien como tal o bien en sentido literal.</seg>
       </tuv>
     </tu>
     <tu>
