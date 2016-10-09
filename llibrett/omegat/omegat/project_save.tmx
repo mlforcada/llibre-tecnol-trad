@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest és el &lt;i1&gt;problema de la transferència&lt;/i1&gt;, perquè es manifesta típicament en els sistemes de traducció automàtica per transferència (vegeu &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140832Z" creationid="fsanchez" creationdate="20161009T140832Z">
+        <seg>Este es el &lt;i1&gt;problema de la transferencia&lt;/i1&gt;, porque se manifiesta habitualmente en los sistemas de traducción automática por transferencia (véase &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest és el &lt;i2&gt;problema de l'anàlisi&lt;/i2&gt;, també anomenat &lt;i3&gt;ambigüitat&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140648Z" creationid="fsanchez" creationdate="20161009T140648Z">
