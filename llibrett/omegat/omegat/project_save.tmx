@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt; &lt;i19&gt;Ambigüitat dins de la mateixa categoria lèxica sense canvi de lema&lt;/i19&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142341Z" creationid="fsanchez" creationdate="20161009T142341Z">
+        <seg>&lt;u5&gt; &lt;i19&gt;Ambigüedad dentro de la misma categoría léxica sin cambio de lema&lt;/i19&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141417Z" creationid="fsanchez" creationdate="20161009T141417Z">
@@ -202,6 +210,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142208Z" creationid="fsanchez" creationdate="20161009T142208Z">
         <seg>Por ejemplo, la palabra catalana &lt;i11&gt;riu&lt;/i11&gt; es homógrafa porque tiene tres formes léxicas: &lt;i12&gt;riu&lt;/i12&gt;, sustantivo, masculino singular; &lt;i13&gt;riure&lt;/i13&gt;, verbo, 3a.&lt;u7&gt; persona del singular, presente de indicativo, y &lt;i14&gt;riure&lt;/i14&gt;, verbo, 2a.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot &lt;i16&gt;moc&lt;/i16&gt; té dues formes lèxiques possibles, cadascuna amb una categoria lèxica diferent: &lt;i17&gt;moc&lt;/i17&gt;, substantiu, masculí, singular; &lt;i18&gt;moure&lt;/i18&gt;, verb, 1a.&lt;u8&gt; persona del singular, present d'indicatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142337Z" creationid="fsanchez" creationdate="20161009T142337Z">
+        <seg>Por ejemplo, la palabra &lt;i16&gt;ahorro&lt;/i16&gt; tiene dos formas léxicas posibles, cada una con una categoría léxica diferente: &lt;i17&gt;ahorro&lt;/i17&gt;, sustantivo, masculino, singular; &lt;i18&gt;ahorrar&lt;/i18&gt;, verbo, 1ª&lt;u8&gt; persona del singular, presente de indicativo.</seg>
       </tuv>
     </tu>
     <tu>
