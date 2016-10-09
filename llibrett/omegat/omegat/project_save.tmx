@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="CA">
+        <seg>Ambigüitat</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141417Z" creationid="fsanchez" creationdate="20161009T141417Z">
+        <seg>Ambigüedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat]{Per què és difícil la traducció automàtica?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140546Z" creationid="fsanchez" creationdate="20161009T140546Z">
@@ -66,6 +74,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141404Z" creationid="fsanchez" creationdate="20161009T141404Z">
         <seg>Construir un sistema de traducción automática conlleva la gestión de una gran cantidad de conocimiento, que se debe recopilar, y representar en un formato útil para su procesamiento mediante un ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>D'aquests quatre, dedicarem la resta del capítol a descriure amb més detall el més important per a la traducció automàtica (i en general, per a qualsevol programa que haja de processar textos en llenguatge natural): l'ambigüitat inherent al llenguatge humà.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141416Z" creationid="fsanchez" creationdate="20161009T141416Z">
+        <seg>De estos cuatro, dedicaremos el resto del capítulo a describir con más detalle lo más importante para la traducción automática (y, en general, para cualquier programa que tenga que procesar textos en lenguaje natural): la ambigüedad inherente al lenguaje humano.</seg>
       </tuv>
     </tu>
     <tu>
