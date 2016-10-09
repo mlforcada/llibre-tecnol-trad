@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n8&gt; on la posició inicial de l'adverbi interrogatiu &lt;i5&gt;Com&lt;/i5&gt; pot resultar de la transformació per moviment de Qu de tres estructures hipotètiques diferents; en cada una d'elles, l'adverbi és adjunt d'un sintagma verbal diferent: &lt;n4&gt; &lt;u1&gt;[(a)] *Dius &lt;i6&gt;com&lt;/i6&gt; que Jordi ha explicat que vindria?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151442Z" creationid="fsanchez" creationdate="20161009T151442Z">
+        <seg>&lt;n8&gt; donde la posición inicial del adverbio interrogativo &lt;i5&gt;Cómo&lt;/i5&gt; puede ser el resultado de la transformación por movimiento de Qu de tres estructuras hipotéticas diferentes; en cada una de ellas, el adverbio es adjunto de un sintagma verbal diferente: &lt;n4&gt; &lt;u1&gt;[(a)] *¿Dices &lt;i6&gt;cómo&lt;/i6&gt; que ha explicado que vendría?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u0&gt;{alcaraz97b} defineixen l'&lt;i1&gt;el·lipsi&lt;/i1&gt;&lt;n0&gt; com l'omissió o l'absència d'alguna part d'una oració.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144106Z" creationid="fsanchez" creationdate="20161009T144106Z">
@@ -74,6 +82,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
         <seg>&lt;u2&gt; no cambia el lema pero sí los indicadores de flexión: la palabra española &lt;i3&gt;cantamos&lt;/i3&gt; puede ser la 1ª&lt;u5&gt;persona del plural del presente de indicativo o del pretérito perfecto del verbo &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt;[(b)] *Dius que Jordi ha explicat &lt;i7&gt;com&lt;/i7&gt; que vindria?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151447Z" creationid="fsanchez" creationdate="20161009T151447Z">
+        <seg>&lt;u2&gt;[(b)] *¿Dices que ha explicado &lt;i7&gt;cómo&lt;/i7&gt; que vendría?</seg>
       </tuv>
     </tu>
     <tu>
