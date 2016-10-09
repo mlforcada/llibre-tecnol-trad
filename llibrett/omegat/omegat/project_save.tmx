@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n1&gt; el primer &lt;i2&gt;com&lt;/i2&gt; és un relatiu que pot modificar &lt;i3&gt;dir&lt;/i3&gt; en l'oració &lt;i4&gt;vas dir que vivia encara&lt;/i4&gt; (``no m'agrada la manera de dir-ho'') o pot modificar {&lt;u1&gt; vivia} però ha estat mogut fora de la subordinada completiva &lt;i5&gt;vivia encara&lt;/i5&gt;, que modifica {&lt;u2&gt; la manera} (``no m'agrada la manera com vivia, segons que vas dir'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151745Z" creationid="fsanchez" creationdate="20161009T151745Z">
+        <seg>&lt;n1&gt; el primer &lt;i2&gt;cómo&lt;/i2&gt; es un relativo que puede modificar &lt;i3&gt;decir&lt;/i3&gt; en la oración &lt;i4&gt;dijiste que vivía todavía&lt;/i4&gt; (``no me gusta la manera de decirlo'') o puede modificar {&lt;u1&gt; vivía} pero ha sido movido fuera de la subordinada completiva &lt;i5&gt;vivía todavía&lt;/i5&gt;, que modifica {&lt;u2&gt; la manera} (``no me gusta la manera como vivía, según que dijiste'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n5&gt; Aquesta oració té, fonamentalment, dues interpretacions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151200Z" creationid="fsanchez" creationdate="20161009T151200Z">
@@ -834,6 +842,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115756Z" creationid="fsanchez" creationdate="20161005T115756Z">
         <seg>[¿Por qué es difícil la TA?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`els' ) (.N.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151747Z" creationid="fsanchez" creationdate="20161009T151747Z">
+        <seg>`los' ) (.N.</seg>
       </tuv>
     </tu>
     <tu>
