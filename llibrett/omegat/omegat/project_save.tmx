@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquests mots s'anomenen habitualment &lt;i0&gt;polisèmics&lt;/i0&gt; i aquest tipus d'ambigüitat, &lt;i1&gt;polisèmia&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143034Z" creationid="fsanchez" creationdate="20161009T143034Z">
+        <seg>Estas palabras se denominan habitualmente &lt;i0&gt;polisémicas&lt;/i0&gt; y este tipo de ambigüedad, &lt;i1&gt;polisemia&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Cada idioma ho fa diferentment: català: &lt;i2&gt;Quina hora és?&lt;/i2&gt;; portugués: &lt;i3&gt;Que horas são?&lt;/i3&gt; (&lt;i4&gt;Quines hores són?&lt;/i4&gt;); alemany: &lt;i5&gt;Wie spät ist es?&lt;/i5&gt; (&lt;i6&gt;Com és de tard?&lt;/i6&gt;); alemany: &lt;i7&gt;Wieviel Uhr ist es?&lt;/i7&gt; (&lt;i8&gt;Quantes del rellotge són?&lt;/i8&gt;), etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140750Z" creationid="fsanchez" creationdate="20161009T140750Z">
@@ -306,6 +314,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140555Z" creationid="fsanchez" creationdate="20161009T140555Z">
         <seg>¿Por qué es tan difícil para un sistema informático traducir como un profesional?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però l'homografia no és l'única causa possible d'ambigüitat lèxica; hi ha mots que són ambigus tot i tenir la mateixa forma lèxica, perquè el que és ambigu és la interpretació del lema.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143029Z" creationid="fsanchez" creationdate="20161009T143029Z">
+        <seg>Pero la homografía no es la única causa posible de ambigüedad léxica; hay palabras que son ambiguas a pesar de tener la misma forma léxica, porque lo que es ambiguo es la interpretación del lema.</seg>
       </tuv>
     </tu>
     <tu>
