@@ -606,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un &lt;i2&gt;adjunt&lt;/i2&gt; és un sintagma o constituent que, conjuntament amb un altre sintagma o constituent, forma un constituent del mateix tipus que aquest últim (per exemple, un sintagma nominal més un sintagma preposicional formen un sintagma nominal); en un cert sentit, l'adjunt no és necessari sinó opcional.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144433Z" creationid="fsanchez" creationdate="20161009T144433Z">
+        <seg>Un &lt;i2&gt;adjunto&lt;/i2&gt; es un sintagma o constituyente que, conjuntamente con otro sintagma o constituyente, forma un constituyente del mismo tipo que este último (por ejemplo, un sintagma nominal más un sintagma preposicional forman un sintagma nominal); en un cierto sentido, el adjunto no es necesario sino opcional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un altre exemple: l'oració &lt;n0&gt; Han posat un banc nou a la plaça &lt;n1&gt; pot tenir dues interpretacions, segons la interpretació que s'assigne al mot polisèmic &lt;i0&gt;banc&lt;/i0&gt; (``seient estret i llarg'' o bé ``institució financera'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143207Z" creationid="fsanchez" creationdate="20161009T143207Z">
