@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En aquest cas, la posició on hauria d'anar el subjecte es pot suposar ocupada per un pronom sense forma superficial que dóna lloc a ambigüitat mitjançant mecanismes molt similars als de l'anàfora i per tant, se'ls pot considerar mecanismes lèxics.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143942Z" creationid="fsanchez" creationdate="20161009T143942Z">
+        <seg>En este caso, la posición donde tendría que ir el sujeto se puede suponer ocupada por un pronombre sin forma superficial que da lugar a ambigüedad mediante mecanismos muy similares a los de la anáfora y por lo tanto, se los puede considerar mecanismos léxicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En aquests casos podem considerar que les categories buides són mots ``de zero lletres'' que tenen una interpretació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141739Z" creationid="fsanchez" creationdate="20161009T141739Z">
