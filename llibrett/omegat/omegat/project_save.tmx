@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En aquests casos podem considerar que les categories buides són mots ``de zero lletres'' que tenen una interpretació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141739Z" creationid="fsanchez" creationdate="20161009T141739Z">
+        <seg>En estos casos podemos considerar que las categorías vacías son palabras ``de cero letras'' que tienen una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es concedeix permís per a copiar, distribuir i/o modificar aquest document d'acord amb les condicions de la Llicència General Pública de GNU versió 3 (vegeu &lt;u1&gt;{http://www.gnu.org/licenses/gpl-3.0.txt}) o de la llicencia Creative Commons Reconeixement-CompatirIgual 4.0 Internacional (vegeu &lt;u2&gt;{http://creativecommons.org/licenses/by-sa/4.0/}).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115944Z" creationid="fsanchez" creationdate="20161005T115944Z">
@@ -210,6 +218,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140644Z" creationid="fsanchez" creationdate="20161009T140644Z">
         <seg>Según este autor, la traducción automática tiene cuatro grandes problemas: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;La forma no determina completamente el contenido&lt;/i0&gt; (es decir, la &lt;i1&gt;interpretación&lt;/i1&gt;): no siempre es fácil determinar la interpretación que se pretendía dar a lo que se ha escrito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si una oració és ambigua quan té més d'una interpretació possible, això pot tenir dues causes bàsiques: &lt;n0&gt; &lt;u0&gt; un o més mots de l'oració tenen més d'una interpretació possible (és a dir, són &lt;i0&gt;lèxicament ambigus&lt;/i0&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141751Z" creationid="fsanchez" creationdate="20161009T141751Z">
+        <seg>Si una oración es ambigua cuando tiene más de una interpretación posible, esto puede tener dos causas básicas: &lt;n0&gt; &lt;u0&gt; una o más palabras de la oración tienen más de una interpretación posible (es decir, son &lt;i0&gt;léxicamente ambiguas&lt;/i0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
