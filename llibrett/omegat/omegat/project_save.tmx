@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En aquest cas, com en l'exemple &lt;n10&gt;, l'el·lipsi permet dos posicionaments diferents del pronom &lt;i4&gt;qui&lt;/i4&gt; abans del moviment de Qu, però les ambigüitats causades pel moviment de Qu poden produir-se també sense el·lipsi, com en l'exemple &lt;n3&gt; Com dius que Jordi ha explicat que vindria?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151246Z" creationid="fsanchez" creationdate="20161009T151246Z">
+        <seg>En este caso, como en el ejemplo &lt;n10&gt;, la elipsis permite dos posicionamientos diferentes del pronombre &lt;i4&gt;quién&lt;/i4&gt; antes del movimiento de Qu, pero las ambigüedades causadas por el movimiento de Qu pueden producirse también sin elipsis, como en el ejemplo &lt;n3&gt; ¿Cómo dices que Jordi ha explicado que vendría?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En aquest cas, la posició on hauria d'anar el subjecte es pot suposar ocupada per un pronom sense forma superficial que dóna lloc a ambigüitat mitjançant mecanismes molt similars als de l'anàfora i per tant, se'ls pot considerar mecanismes lèxics.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143942Z" creationid="fsanchez" creationdate="20161009T143942Z">
