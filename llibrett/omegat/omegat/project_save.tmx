@@ -38,10 +38,26 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per què és difícil per a un sistema informàtic traduir com un professional?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140555Z" creationid="fsanchez" creationdate="20161009T140555Z">
+        <seg>¿Por qué es tan difícil para un sistema informático traducir como un profesional?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Què és Internet?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20160512T153413Z" creationid="fsanchez" creationdate="20160512T153413Z">
         <seg>¿Qué es Internet?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una classificació interessant dels problemes de la traducció automàtica la dóna &lt;n0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140600Z" creationid="fsanchez" creationdate="20161009T140600Z">
+        <seg>Una clasificación interesante de los problemas que se dan en la traducción automática &lt;n0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
