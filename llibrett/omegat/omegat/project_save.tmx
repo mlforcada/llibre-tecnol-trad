@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En algunes llengües romàniques (en italià, espanyol i català però no en francés) és comuna l'absència del subjecte quan és de tercera persona.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143926Z" creationid="fsanchez" creationdate="20161009T143926Z">
+        <seg>En algunas lenguas románicas (en italiano, español y catalán, pero no en francés) es común la ausencia del sujeto cuando es de tercera persona.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En aquest capítol ens fixarem molt especialment en l'ambigüitat de les oracions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141529Z" creationid="fsanchez" creationdate="20161009T141529Z">
@@ -298,6 +306,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143656Z" creationid="fsanchez" creationdate="20161009T143656Z">
         <seg>La oración contiene una &lt;i0&gt;expresión anafórica&lt;/i0&gt;, como por ejemplo un pronombre, adjetivo posesivo, etc., la cual puede tener, en principio, más de una posible interpretación, pero esta interpretación está determinada por la relación de &lt;i1&gt;coreferencia&lt;/i1&gt; entre la expresión y su &lt;i2&gt;antecedente&lt;/i2&gt; (un sintagma que se puede encontrar en la misma oración o en otra oración del texto) o porque se refiere a algún objeto o concepto exterior al texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'oració té constituents que no es reflecteixen com a mots però als quals cal assignar una interpretació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143916Z" creationid="fsanchez" creationdate="20161009T143916Z">
+        <seg>La oración tiene constituyentes que no se reflejan como palabras, pero a los que hay que asignar una interpretación.</seg>
       </tuv>
     </tu>
     <tu>
