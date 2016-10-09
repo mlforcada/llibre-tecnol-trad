@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De fet, per a evitar aquesta ambigüitat, es considera convenient &lt;i1&gt;però no obligatòria&lt;/i1&gt; en català la solució alternativa amb preposició &lt;i2&gt;als gal·lesos&lt;/i2&gt; per a la segona interpretació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144804Z" creationid="fsanchez" creationdate="20161009T144804Z">
+        <seg>De hecho, para evitar esta ambigüedad, se considera conveniente &lt;i1&gt;pero no obligatoria&lt;/i1&gt; en catalán la solución alternativa con preposición &lt;i2&gt;als gal·lesos&lt;/i2&gt; para la segunda interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De l'ambigüitat d'aquestes unitats lèxiques, també se'n sol dir {&lt;u1&gt; ambigüitat lèxica pura}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143122Z" creationid="fsanchez" creationdate="20161009T143122Z">
