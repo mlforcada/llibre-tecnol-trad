@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="CA">
+        <seg>(.SN.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144619Z" creationid="fsanchez" creationdate="20161009T144619Z">
+        <seg>(SN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Les dues causes poden concórrer.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141812Z" creationid="fsanchez" creationdate="20161009T141812Z">
@@ -422,6 +430,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Més exemples: &lt;n1&gt; Va parlar amb l'encarregat de la neteja de la seua casa &lt;n4&gt; &lt;n2&gt; Hi ha una bossa de roba perduda en la Secretaria de l'Escola &lt;n7&gt; &lt;n5&gt; &lt;u2&gt;{tuson99b} explica que aquesta última oració pot tenir fins a 12 interpretacions possibles.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144616Z" creationid="fsanchez" creationdate="20161009T144616Z">
+        <seg>Más ejemplos: &lt;n1&gt; Habló con el encargado de la limpieza de su casa &lt;n4&gt; &lt;n2&gt; Hay una bolsa de tela perdida en la Secretaría de la Escuela &lt;n7&gt; &lt;n5&gt; &lt;u2&gt;{tuson99b} explica que esta última oración puede tener hasta 12 interpretaciones posibles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>O alguna altra persona?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144010Z" creationid="fsanchez" creationdate="20161009T144010Z">
@@ -694,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>`va' ) (.SV.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144623Z" creationid="fsanchez" creationdate="20161009T144623Z">
+        <seg>`ha' ) (.SV.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>d'informàtica i de tecnologies&lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115857Z" creationid="fsanchez" creationdate="20161005T115857Z">
@@ -738,6 +762,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
         <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Para saber más sobre #1} } {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `Joan') (.{&lt;u0&gt;{I}}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144621Z" creationid="fsanchez" creationdate="20161009T144621Z">
+        <seg>  `Juan') (.{&lt;u0&gt;{I}}.</seg>
       </tuv>
     </tu>
     <tu>
