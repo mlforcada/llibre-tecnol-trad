@@ -742,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>  `nets' ) ) ) &lt;n7&gt; &lt;n8&gt; &lt;u0&gt;{Dos arbres per a la frase ``Posa els llençols i els cobertors nets a l'armari'' (SN = sintagma nominal, SA = sintagma adjectival).}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144251Z" creationid="fsanchez" creationdate="20161009T144251Z">
+        <seg> `limpias' ) ) ) &lt;n7&gt; &lt;n8&gt; &lt;u0&gt;{Dos árboles para la frase ``Pon las sábanas y las colchas limpias en el armario'' (SN = sintagma nominal, SA = sintagma adjetival).}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>  `nets' ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; ( .SN.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144226Z" creationid="fsanchez" creationdate="20161009T144226Z">
