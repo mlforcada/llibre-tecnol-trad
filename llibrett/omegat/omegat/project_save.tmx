@@ -262,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un mot (i, en general, una unitat lèxica de més d'un mot) es pot veure des de dues perspectives; d'una banda, la &lt;i0&gt;forma superficial&lt;/i0&gt; del mot és la forma concreta que apareix en el text: &lt;i1&gt;cantàvem&lt;/i1&gt;; d'altra banda, hi ha la &lt;i2&gt;forma lèxica&lt;/i2&gt;, que consisteix en &lt;n3&gt; &lt;u1&gt; un &lt;i3&gt;lema&lt;/i3&gt; o &lt;i4&gt;forma canònica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u2&gt; una &lt;i6&gt;categoria lèxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; classe de mot, o part de l'oració (verb) i &lt;u3&gt; uns &lt;i7&gt;indicadors de flexió&lt;/i7&gt; que expressen les característiques morfològiques o flexives (primera persona, nombre plural, temps pretèrit imperfet, mode indicatiu).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142135Z" creationid="fsanchez" creationdate="20161009T142135Z">
+        <seg>Una palabra (y, en general, una unidad léxica de más de una palabra) se puede ver desde dos perspectivas; por un lado, la &lt;i0&gt;forma superficial&lt;/i0&gt; de la palabra es la forma concreta que aparece en el texto: &lt;i1&gt;cantábamos&lt;/i1&gt;; por otra parte, tenemos la &lt;i2&gt;forma léxica&lt;/i2&gt;, que consiste en &lt;n3&gt; &lt;u1&gt; un &lt;i3&gt;lema&lt;/i3&gt; o &lt;i4&gt;forma canónica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u2&gt; una &lt;i6&gt;categoría léxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; clase de palabra, o parte de la oración (verbo) y &lt;u3&gt; unos &lt;i7&gt;indicadores de flexión&lt;/i7&gt; que expresan las características morfológicas o flexivas (primera persona, nombre plural, tiempo pretérito imperfecto, modo indicativo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una classificació interessant dels problemes de la traducció automàtica la dóna &lt;n0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140600Z" creationid="fsanchez" creationdate="20161009T140600Z">
