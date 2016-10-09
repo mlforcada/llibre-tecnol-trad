@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De vegades, l'anàlisi de la sintaxi d'una oració es complica per la presència de fenòmens de moviment de constituents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151153Z" creationid="fsanchez" creationdate="20161009T151153Z">
+        <seg>A veces, el análisis sintáctico de una oración se complica por la presencia de fenómenos de movimiento de constituyentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
