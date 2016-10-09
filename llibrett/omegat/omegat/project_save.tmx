@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Ambigüitat estructural per moviment de Qu&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151004Z" creationid="fsanchez" creationdate="20161009T151004Z">
+        <seg>Ambigüedad estructural por movimiento de Qu.&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat]{Per què és difícil la traducció automàtica?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140546Z" creationid="fsanchez" creationdate="20161009T140546Z">
