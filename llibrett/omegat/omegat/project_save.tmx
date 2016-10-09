@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Ambigüitat estructural d'adjunció&lt;/i0&gt; (en anglés &lt;i1&gt;attachment ambiguity&lt;/i1&gt;): es tracta d'un cas típic d'ambigüitat estructural que es manifesta quan hi ha un {&lt;u1&gt; adjunt}&lt;p0&gt; (típicament un sintagma preposicional) que es pot inserir de diverses maneres en l'arbre d'anàlisi sintàctica de la frase.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144504Z" creationid="fsanchez" creationdate="20161009T144504Z">
+        <seg>Ambigüedad estructural de adjunción&lt;/i0&gt; (en inglés &lt;i1&gt;attachment ambiguity&lt;/i1&gt;): se trata de un caso típico de ambigüedad estructural que se manifiesta cuando hay un {&lt;u1&gt; adjunto}&lt;p0&gt; (normalmente un sintagma preposicional) que se puede insertar de varias maneras en el árbol de análisis sintáctico de la oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat]{Per què és difícil la traducció automàtica?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140546Z" creationid="fsanchez" creationdate="20161009T140546Z">
