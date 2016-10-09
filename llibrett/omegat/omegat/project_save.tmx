@@ -22,10 +22,26 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n5&gt; Aquesta oració té, fonamentalment, dues interpretacions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151200Z" creationid="fsanchez" creationdate="20161009T151200Z">
+        <seg>&lt;n5&gt; Esta oración tiene, básicamente, dos interpretaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n6&gt; Quan dues formes lèxiques diferents tenen la mateixa forma superficial; és a dir, quan s'escriuen de la mateixa manera, se sol dir que són &lt;i8&gt;homògrafes&lt;/i8&gt;&lt;n2&gt;; a més, s'anomena simplement &lt;i9&gt;homògraf&lt;/i9&gt; a la forma superficial a què correspon més d'una forma lèxica; el fenomen s'anomena &lt;i10&gt;homografia&lt;/i10&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142155Z" creationid="fsanchez" creationdate="20161009T142155Z">
         <seg>&lt;n6&gt; Cuando dos formas léxicas diferentes tienen la misma forma superficial; es decir, cuando se escriben del mismo modo, se suele decir que son &lt;i8&gt;homógrafas&lt;/i8&gt;&lt;n2&gt;; además, se denomina simplemente &lt;i9&gt;homógrafa&lt;/i9&gt; a la forma superficial a la que corresponde más de una forma léxica; el fenómeno se denomina &lt;i10&gt;homografía&lt;/i10&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n6&gt; i l'altra &lt;n2&gt; * PRO diu que qui vindrà?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151207Z" creationid="fsanchez" creationdate="20161009T151207Z">
+        <seg>&lt;n6&gt; y la otra &lt;n2&gt; *¿PRO dice que quién vendrá?</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,6 +226,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144124Z" creationid="fsanchez" creationdate="20161009T144124Z">
         <seg>Como veremos más abajo, a veces la elipsis da lugar a la existencia de más de un árbol de análisis sintáctico para la oración y por lo tanto estos tipos de elipsis no se pueden incluir propiamente en este apartado dedicado a la ambigüedad puramente léxica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Considerem l'oració &lt;n0&gt; Qui diu que vindrà?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151157Z" creationid="fsanchez" creationdate="20161009T151157Z">
+        <seg>Consideremos la oración &lt;n0&gt; ¿Quién dice que vendrá?</seg>
       </tuv>
     </tu>
     <tu>
@@ -714,6 +738,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141622Z" creationid="fsanchez" creationdate="20161009T141622Z">
         <seg>Una de las perspectivas más interesantes para analizar y ordenar los tipos de ambigüedad descritos más arriba nos la proporciona el llamado &lt;i0&gt;principio de composicionalidad&lt;/i0&gt; &lt;u0&gt;[cap. 23]{radford09b}: &lt;n0&gt; {&lt;u1&gt; La interpretación de una oración está determinada por la interpretación de las palabras que aparecen en la oración y por la estructura sintáctica de la oración.} &lt;n5&gt; Este principio explica por qué la interpretación de la oración &lt;n1&gt; &lt;n10&gt; El padre escurre los platos &lt;n6&gt; es diferente de la de la oración &lt;n2&gt; La madre lee libros &lt;n11&gt; &lt;n7&gt; Las oraciones (&lt;n12&gt;) i (&lt;n13&gt;) tienen la misma sintaxis pero diferente interpretación porque contienen palabras diferentes con interpretaciones diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una és &lt;n1&gt; Qui diu que PRO vindrà?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151202Z" creationid="fsanchez" creationdate="20161009T151202Z">
+        <seg>Una es &lt;n1&gt; ¿Quién dice que PRO vendrá?</seg>
       </tuv>
     </tu>
     <tu>
