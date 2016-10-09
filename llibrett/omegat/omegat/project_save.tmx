@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest és el &lt;i2&gt;problema de l'anàlisi&lt;/i2&gt;, també anomenat &lt;i3&gt;ambigüitat&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140648Z" creationid="fsanchez" creationdate="20161009T140648Z">
+        <seg>Este es el &lt;i2&gt;problema del análisis&lt;/i2&gt;, también llamado &lt;i3&gt;ambigüedad&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els quatre problemes de la traducció automàtica</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140550Z" creationid="fsanchez" creationdate="20161009T140550Z">
@@ -34,6 +42,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115944Z" creationid="fsanchez" creationdate="20161005T115944Z">
         <seg>Se concede permiso para copiar, distribuir y/o modificar este documento de acuerdo con las condiciones de la Licencia General Pública de GNU versión 3 (véase &lt;u1&gt;{http://www.gnu.org/licenses/gpl-3.0.txt}) o de la licencia Creative Commons Reconocimiento-CompatirIgual 4.0 Internacional (véase &lt;u2&gt;{http://creativecommons.org/licenses/by-sa/4.0/}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Exemples: &lt;i4&gt;Portaven notícies de Grècia&lt;/i4&gt; (tema o procedència?), &lt;i5&gt;Ha venut les taronges que ha comprat a Joan&lt;/i5&gt; (Joan ven taronges o les compra?), &lt;i6&gt;Treballa en l'estudi que li han encarregat&lt;/i6&gt; (prepara un document o està dissenyant un espai de treball?), etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140702Z" creationid="fsanchez" creationdate="20161009T140702Z">
+        <seg>Ejemplos: &lt;i4&gt;Traían noticias de Grecia&lt;/i4&gt; (¿tema o procedencia?), &lt;i5&gt;Ha vendido las naranjas que ha comprado a Juan&lt;/i5&gt; (¿Juan vende las naranjas o las compra?), &lt;i6&gt;Trabaja en el estudio que le han encargado&lt;/i6&gt; (¿prepara un documento o está diseñando un espacio de trabajo?), etc.</seg>
       </tuv>
     </tu>
     <tu>
