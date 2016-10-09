@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest és el &lt;i0&gt;problema de la descripció&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141406Z" creationid="fsanchez" creationdate="20161009T141406Z">
+        <seg>Este es el &lt;i0&gt;problema de la descripción&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest és el &lt;i1&gt;problema de la síntesi&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140717Z" creationid="fsanchez" creationdate="20161009T140717Z">
@@ -50,6 +58,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140750Z" creationid="fsanchez" creationdate="20161009T140750Z">
         <seg>Cada idioma lo hace de una forma distinta: catalán: &lt;i2&gt;Quina hora és?&lt;/i2&gt;; portugués: &lt;i3&gt;Que horas são?&lt;/i3&gt; (&lt;i4&gt;¿Qué horas son?&lt;/i4&gt;); alemán: &lt;i5&gt;Wie spät ist es?&lt;/i5&gt; (&lt;i6&gt;¿Cómo de tarde es?&lt;/i6&gt;); alemán : &lt;i7&gt;Wie viel Uhr ist es?&lt;/i7&gt; (&lt;i8&gt;¿Cuántas del reloj son?&lt;/i8&gt;), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Construir un sistema de traducció automàtica comporta la gestió d'una gran quantitat de coneixement, que s'ha d'aplegar, descriure, i representar en una forma útil per al processament per ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141404Z" creationid="fsanchez" creationdate="20161009T141404Z">
+        <seg>Construir un sistema de traducción automática conlleva la gestión de una gran cantidad de conocimiento, que se debe recopilar, y representar en un formato útil para su procesamiento mediante un ordenador.</seg>
       </tuv>
     </tu>
     <tu>
