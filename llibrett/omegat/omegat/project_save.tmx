@@ -1150,6 +1150,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{ambigüitats més complexes} Hi ha també certs tipus d'ambigüitat que no es poden explicar de manera senzilla amb el principi de composicionalitat, com ara {&lt;u0&gt; l'ambigüitat en l'abast dels quantificadors}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153233Z" creationid="fsanchez" creationdate="20161009T153233Z">
+        <seg>{ambigüedades más complejas} Hay también ciertos tipos de ambigüedad que no se pueden explicar de manera sencilla con el principio de composicionalidad, como por ejemplo {&lt;u0&gt; la ambigüedad en el alcance de los cuantificadores}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Per saber més sobre #1} } {</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
