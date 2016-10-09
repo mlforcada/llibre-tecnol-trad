@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n1&gt; Les dues causes poden concórrer.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141812Z" creationid="fsanchez" creationdate="20161009T141812Z">
+        <seg>&lt;n1&gt; Las dos causas pueden concurrir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; l'oració té més d'una estructura sintàctica possible (és a dir, és &lt;i1&gt;estructuralment ambigua&lt;/i1&gt; o &lt;i2&gt;sintàcticament ambigua&lt;/i2&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141809Z" creationid="fsanchez" creationdate="20161009T141809Z">
@@ -90,6 +98,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141416Z" creationid="fsanchez" creationdate="20161009T141416Z">
         <seg>De estos cuatro, dedicaremos el resto del capítulo a describir con más detalle lo más importante para la traducción automática (y, en general, para cualquier programa que tenga que procesar textos en lenguaje natural): la ambigüedad inherente al lenguaje humano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, estudiarem tres casos: l'ambigüitat purament deguda a l'ambigüitat dels mots (explícits o nuls); l'ambigüitat purament deguda a l'existència de més d'una estructura sintàctica, i l'ambigüitat deguda a les dues causes alhora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141822Z" creationid="fsanchez" creationdate="20161009T141822Z">
+        <seg>De hecho, estudiaremos tres casos: la ambigüedad puramente debida a la ambigüedad de las palabras (explícitas o nulas); la ambigüedad debida a la existencia de más de una estructura sintáctica, y la ambigüedad debida a ambas causas.</seg>
       </tuv>
     </tu>
     <tu>
