@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, el mot &lt;i2&gt;estació&lt;/i2&gt; (forma lèxica: &lt;i3&gt;estació&lt;/i3&gt;, substantiu, femení singular) és polisèmic perquè el lema corresponent té més d'una interpretació: indret on s'aturen temporalment els trens, part de l'any compresa entre un solstici i un equinocci, conjunt d'instal·lacions per a un propòsit determinat (per exemple, l'esquí), etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143051Z" creationid="fsanchez" creationdate="20161009T143051Z">
+        <seg>Por ejemplo, la palabra &lt;i2&gt;estación&lt;/i2&gt; (forma léxica: &lt;i3&gt;estación&lt;/i3&gt;, sustantivo, femenino singular) es polisémica porque el lema correspondiente tiene más de una interpretación: lugar donde se paran temporalmente los trenes, parte del año comprendida entre un solsticio y un equinoccio, conjunto de instalaciones para un propósito determinado (por ejemplo, el esquí), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, en anglés, el mot &lt;i7&gt;case&lt;/i7&gt;, un substantiu singular, pot referir-se a un tipus de contenidor (&lt;i8&gt;a case of wine&lt;/i8&gt;) o a un exemple o situació particular (&lt;i9&gt;It does not apply in this case&lt;/i9&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142927Z" creationid="fsanchez" creationdate="20161009T142927Z">
