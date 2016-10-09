@@ -726,6 +726,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, l'oració &lt;n0&gt; Les gallines han destrossat el sembrat, però no les mates &lt;n2&gt; té dues interpretacions: &lt;n1&gt; &lt;n5&gt; &lt;u1&gt;[(a)] Les gallines han destrossat el sembrat, però (les gallines) no (han destrossat) les mates.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152709Z" creationid="fsanchez" creationdate="20161009T152709Z">
+        <seg>Por ejemplo, la oración &lt;n0&gt; Las gallinas han destrozado el sembrado, pero no las matas &lt;n2&gt; tiene dos interpretaciones: &lt;n1&gt; &lt;n5&gt; &lt;u1&gt;[(a)] Las gallinas han destrozado el sembrado, pero (las gallinas) no (han destrozado) las matas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, l'oració &lt;n1&gt; La mata el vol &lt;n3&gt; pot voler dir dues coses, segons l'elecció de categories lèxiques (``l'acte de volar li provoca la mort'' o ``la planta sent estima per ell'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152611Z" creationid="fsanchez" creationdate="20161009T152611Z">
@@ -882,6 +890,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143207Z" creationid="fsanchez" creationdate="20161009T143207Z">
         <seg>Otro ejemplo: la oración &lt;n0&gt; Han puesto un banco nuevo en la plaza &lt;n1&gt; puede tener dos interpretaciones, según la interpretación que se asigne a la palabra polisémica &lt;i0&gt;banco&lt;/i0&gt; (``asiento estrecho y largo'' o bien "institución financiera'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un altre tipus d'ambigüitat mixta succeeix quan l'ambigüitat lèxica categorial d'alguns mots es combina amb mecanismes d'el·lipsi com els descrits més amunt per a construccions coordinatives o comparatives.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152656Z" creationid="fsanchez" creationdate="20161009T152656Z">
+        <seg>Otro tipo de ambigüedad mixta sucede cuando la ambigüedad léxica categorial de algunas palabras se combina con mecanismos de elipsis como los descritos más arriba para construcciones coordinativas o comparativas.</seg>
       </tuv>
     </tu>
     <tu>
