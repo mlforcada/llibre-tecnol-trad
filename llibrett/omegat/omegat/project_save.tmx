@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De l'ambigüitat d'aquestes unitats lèxiques, també se'n sol dir {&lt;u1&gt; ambigüitat lèxica pura}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143122Z" creationid="fsanchez" creationdate="20161009T143122Z">
+        <seg>A la ambigüedad de estas unidades léxicas, también se la suele llamar {&lt;u1&gt; ambigüedad léxica pura}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
@@ -218,6 +226,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142446Z" creationid="fsanchez" creationdate="20161009T142446Z">
         <seg>Hay casos que no son tan sencillos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat d'una oració pot ser causada per diversos tipus bàsics d'ambigüitat lèxica: &lt;n0&gt; &lt;u0&gt; L'oració conté una o més unitats lèxiques (per exemple mots) polisèmiques: si diem que algú &lt;n1&gt; Treballa en l'estudi que li van encarregar &lt;n2&gt; podem referir-nos a un investigador o a un decorador, depenent de quina interpretació assignem al mot polisèmic &lt;i0&gt;estudi&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143118Z" creationid="fsanchez" creationdate="20161009T143118Z">
+        <seg>La ambigüedad de una oración puede ser causada por varios tipos básicos de ambigüedad léxica: &lt;n0&gt; &lt;u0&gt; La oración contiene una o más unidades léxicas (por ejemplo palabras) polisémicas: si decimos que alguien &lt;n1&gt; Trabaja en el estudio que le encargaron &lt;n2&gt; podemos referirnos a un investigador o a un decorador, dependiendo de qué interpretación asignemos a la palabra polisémica &lt;i0&gt;estudio&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
