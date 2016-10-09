@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La polisèmia afecta totes les formes flexionades d'un determinat mot de la mateixa manera (&lt;i4&gt;estacions&lt;/i4&gt; té exactament la mateixa ambigüitat que &lt;i5&gt;estació&lt;/i5&gt;), ja que és una propietat del &lt;i6&gt;lema&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143100Z" creationid="fsanchez" creationdate="20161009T143100Z">
+        <seg>La polisemia afecta a todas las formas flexionadas de una determinada palabra del mismo modo (&lt;i4&gt;estaciones&lt;/i4&gt; tiene exactamente la misma ambigüedad que &lt;i5&gt;estación&lt;/i5&gt;), puesto que es una propiedad del &lt;i6&gt;lema&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les llengües divergeixen.&lt;/i0&gt; És a dir, hi ha diferències irreductibles en la manera que el mateix contingut s'expressa en llengües diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140819Z" creationid="fsanchez" creationdate="20161009T140819Z">
