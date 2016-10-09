@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En la frase &lt;n1&gt; Vaig obrir [la porta]$_i$ a [la cuinera]$_j$ i la$_{i/j?}$ vaig fer passar &lt;n2&gt; els índexs ($i$, $j$, $i/j?$) indiquen que el pronom feble &lt;i7&gt;la&lt;/i7&gt; es pot referir a la mateixa persona a la qual ens hem referit amb el sintagma nominal &lt;i8&gt;la cuinera&lt;/i8&gt;, però no hi ha cap raó sintàctica perquè el referent no siga el mateix que el del sintagma &lt;i9&gt;la porta&lt;/i9&gt;: aquesta pot ser una possible causa d'ambigüitat en la segona oració coordinada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143751Z" creationid="fsanchez" creationdate="20161009T143751Z">
+        <seg>En la frase &lt;n1&gt; Abrí [la puerta]$_i$ a [la cocinera]$_j$ y la$_{i/j?}$ hice pasar &lt;n2&gt; los índices ($i$, $j$, $i/j?$) indican que el pronombre débil &lt;i7&gt;la &lt;/i7&gt; se puede referir a la misma persona a la cual nos hemos referido con el sintagma nominal &lt;i8&gt;la cocinera&lt;/i8&gt;, pero no hay ninguna razón sintáctica para que el referente no sea el mismo que el del sintagma &lt;i9&gt;la puerta&lt;/i9&gt;: esta puede ser una posible causa de ambigüedad en la segunda oración coordinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es concedeix permís per a copiar, distribuir i/o modificar aquest document d'acord amb les condicions de la Llicència General Pública de GNU versió 3 (vegeu &lt;u1&gt;{http://www.gnu.org/licenses/gpl-3.0.txt}) o de la llicencia Creative Commons Reconeixement-CompatirIgual 4.0 Internacional (vegeu &lt;u2&gt;{http://creativecommons.org/licenses/by-sa/4.0/}).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115944Z" creationid="fsanchez" creationdate="20161005T115944Z">
