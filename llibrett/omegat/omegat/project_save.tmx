@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n6&gt; Quan dues formes lèxiques diferents tenen la mateixa forma superficial; és a dir, quan s'escriuen de la mateixa manera, se sol dir que són &lt;i8&gt;homògrafes&lt;/i8&gt;&lt;n2&gt;; a més, s'anomena simplement &lt;i9&gt;homògraf&lt;/i9&gt; a la forma superficial a què correspon més d'una forma lèxica; el fenomen s'anomena &lt;i10&gt;homografia&lt;/i10&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142155Z" creationid="fsanchez" creationdate="20161009T142155Z">
+        <seg>&lt;n6&gt; Cuando dos formas léxicas diferentes tienen la misma forma superficial; es decir, cuando se escriben del mismo modo, se suele decir que son &lt;i8&gt;homógrafas&lt;/i8&gt;&lt;n2&gt;; además, se denomina simplemente &lt;i9&gt;homógrafa&lt;/i9&gt; a la forma superficial a la que corresponde más de una forma léxica; el fenómeno se denomina &lt;i10&gt;homografía&lt;/i10&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; l'oració té més d'una estructura sintàctica possible (és a dir, és &lt;i1&gt;estructuralment ambigua&lt;/i1&gt; o &lt;i2&gt;sintàcticament ambigua&lt;/i2&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141809Z" creationid="fsanchez" creationdate="20161009T141809Z">
