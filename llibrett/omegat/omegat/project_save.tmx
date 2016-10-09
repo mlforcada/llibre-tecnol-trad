@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n9&gt; En la primera interpretació es pregunta per la manera de dir-ho, en la segona per la manera d'explicar-ho i en la tercera per la manera de venir.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151519Z" creationid="fsanchez" creationdate="20161009T151519Z">
+        <seg>&lt;n9&gt; En la primera interpretación se pregunta por la manera de decirlo, en la segunda por la manera de explicarlo y en la tercera por la manera de venir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u0&gt;{alcaraz97b} defineixen l'&lt;i1&gt;el·lipsi&lt;/i1&gt;&lt;n0&gt; com l'omissió o l'absència d'alguna part d'una oració.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144106Z" creationid="fsanchez" creationdate="20161009T144106Z">
@@ -88,8 +96,8 @@
       <tuv lang="CA">
         <seg>&lt;u2&gt;[(b)] *Dius que Jordi ha explicat &lt;i7&gt;com&lt;/i7&gt; que vindria?</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151447Z" creationid="fsanchez" creationdate="20161009T151447Z">
-        <seg>&lt;u2&gt;[(b)] *¿Dices que ha explicado &lt;i7&gt;cómo&lt;/i7&gt; que vendría?</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151522Z" creationid="fsanchez" creationdate="20161009T151447Z">
+        <seg>&lt;u2&gt;[(b)] *¿Dices que ha explicado &lt;i7&gt;cómo&lt;/i7&gt; vendría?</seg>
       </tuv>
     </tu>
     <tu>
@@ -98,6 +106,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143626Z" creationid="fsanchez" creationdate="20161009T143626Z">
         <seg>&lt;u3&gt; cambian el lema y los indicadores de flexión: la palabra española &lt;i5&gt;salan&lt;/i5&gt; puede ser la 3ª&lt;u6&gt;persona del plural del presente de indicativo del verbo salir o del presente de subjuntivo del verbo &lt;i6&gt;salar&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt;[(c)] *Dius que Jordi ha explicat que vindria &lt;i8&gt;com&lt;/i8&gt;?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151451Z" creationid="fsanchez" creationdate="20161009T151451Z">
+        <seg>&lt;u3&gt;[(c)] *¿Dices que ha explicado que vendría &lt;i8&gt;cómo&lt;/i8&gt;?</seg>
       </tuv>
     </tu>
     <tu>
