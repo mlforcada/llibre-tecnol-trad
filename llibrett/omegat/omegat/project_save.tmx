@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>També explica per què l'oració &lt;n3&gt; El gos va mossegar l'home &lt;n8&gt; no té la mateixa interpretació que la frase &lt;n4&gt; L'home va mossegar el gos &lt;n9&gt; Aquestes oracions no volen dir el mateix perquè, malgrat tenir els mateixos mots, l'estructura sintàctica no és la mateixa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141635Z" creationid="fsanchez" creationdate="20161009T141635Z">
+        <seg>También explica por qué la oración &lt;n3&gt; El perro mordió al hombre &lt;n8&gt; no tiene la misma interpretación que la frase &lt;n4&gt; El hombre mordió al perro &lt;n9&gt; Estas oraciones no quieren decir lo mismo porque, a pesar de tener las mismas palabras, la estructura sintáctica no es la misma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una classificació interessant dels problemes de la traducció automàtica la dóna &lt;n0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140600Z" creationid="fsanchez" creationdate="20161009T140600Z">
