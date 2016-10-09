@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les llengües divergeixen.&lt;/i0&gt; És a dir, hi ha diferències irreductibles en la manera que el mateix contingut s'expressa en llengües diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140819Z" creationid="fsanchez" creationdate="20161009T140819Z">
+        <seg>Las lenguas divergen.&lt;/i0&gt; Es decir, hay diferencias irreducibles en la manera de expresar el mismo contenido en diferentes lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per què és difícil per a un sistema informàtic traduir com un professional?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140555Z" creationid="fsanchez" creationdate="20161009T140555Z">
