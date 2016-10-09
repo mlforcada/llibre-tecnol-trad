@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Relacionats amb la &lt;i1&gt;dixi&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143831Z" creationid="fsanchez" creationdate="20161009T143831Z">
+        <seg>Relacionados con la &lt;i1&gt;deixis&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Segons aquest autor, la traducció automàtica té quatre grans problemes: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;La forma no determina completament el contingut&lt;/i0&gt; (és a dir, la &lt;i1&gt;interpretació&lt;/i1&gt;): no sempre és fàcil determinar la interpretació que es volia que tinguera el que s'ha escrit.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140644Z" creationid="fsanchez" creationdate="20161009T140644Z">
