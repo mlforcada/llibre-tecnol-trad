@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'oració conté una &lt;i0&gt;expressió anafòrica&lt;/i0&gt;, com ara un pronom, adjectiu possessiu, etc., la qual pot tenir, en principi, més d'una possible interpretació, però aquesta interpretació està determinada per la relació de &lt;i1&gt;coreferència&lt;/i1&gt; entre l'expressió i el seu &lt;i2&gt;antecedent&lt;/i2&gt; (un sintagma que es pot trobar en la mateixa oració o en una altra oració del text) o perquè es refereix a algun objecte o concepte exterior al text.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143656Z" creationid="fsanchez" creationdate="20161009T143656Z">
+        <seg>La oración contiene una &lt;i0&gt;expresión anafórica&lt;/i0&gt;, como por ejemplo un pronombre, adjetivo posesivo, etc., la cual puede tener, en principio, más de una posible interpretación, pero esta interpretación está determinada por la relación de &lt;i1&gt;coreferencia&lt;/i1&gt; entre la expresión y su &lt;i2&gt;antecedente&lt;/i2&gt; (un sintagma que se puede encontrar en la misma oración o en otra oración del texto) o porque se refiere a algún objeto o concepto exterior al texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La polisèmia afecta totes les formes flexionades d'un determinat mot de la mateixa manera (&lt;i4&gt;estacions&lt;/i4&gt; té exactament la mateixa ambigüitat que &lt;i5&gt;estació&lt;/i5&gt;), ja que és una propietat del &lt;i6&gt;lema&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143100Z" creationid="fsanchez" creationdate="20161009T143100Z">
