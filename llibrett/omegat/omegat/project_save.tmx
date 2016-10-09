@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Una de les perspectives més interessants per a analitzar i ordenar els tipus d'ambigüitat descrits més amunt ens la proporciona l'anomenat &lt;i0&gt;principi de composicionalitat&lt;/i0&gt; &lt;u0&gt;[cap. 23]{radford09b}: &lt;n0&gt; {&lt;u1&gt; La interpretació d'una oració està determinada per la interpretació dels mots que apareixen en l'oració i per l'estructura sintàctica de l'oració.} &lt;n5&gt; Aquest principi explica per què la interpretació de l'oració &lt;n1&gt; &lt;n10&gt; El pare escura plats &lt;n6&gt; és diferent de la de l'oració &lt;n2&gt; La mare llegeix llibres &lt;n11&gt; &lt;n7&gt; Les oracions (&lt;n12&gt;) i (&lt;n13&gt;) tenen la mateixa sintaxi però diferent interpretació perquè contenen mots diferents amb interpretacions diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141622Z" creationid="fsanchez" creationdate="20161009T141622Z">
+        <seg>Una de las perspectivas más interesantes para analizar y ordenar los tipos de ambigüedad descritos más arriba nos la proporciona el llamado &lt;i0&gt;principio de composicionalidad&lt;/i0&gt; &lt;u0&gt;[cap. 23]{radford09b}: &lt;n0&gt; {&lt;u1&gt; La interpretación de una oración está determinada por la interpretación de las palabras que aparecen en la oración y por la estructura sintáctica de la oración.} &lt;n5&gt; Este principio explica por qué la interpretación de la oración &lt;n1&gt; &lt;n10&gt; El padre escurre los platos &lt;n6&gt; es diferente de la de la oración &lt;n2&gt; La madre lee libros &lt;n11&gt; &lt;n7&gt; Las oraciones (&lt;n12&gt;) i (&lt;n13&gt;) tienen la misma sintaxis pero diferente interpretación porque contienen palabras diferentes con interpretaciones diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Vegeu l'exemple &lt;i9&gt;m'agrada nadar&lt;/i9&gt; en la p.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140706Z" creationid="fsanchez" creationdate="20161009T140706Z">
