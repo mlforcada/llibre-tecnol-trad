@@ -718,6 +718,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>`notícies' ) ) (.SP.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144709Z" creationid="fsanchez" creationdate="20161009T144709Z">
+        <seg>`noticias' ) ) (.SP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`portar' ) (.N.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144707Z" creationid="fsanchez" creationdate="20161009T144707Z">
+        <seg>`traído' ) (.N.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`portar' ) (.SN.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144643Z" creationid="fsanchez" creationdate="20161009T144643Z">
@@ -786,6 +802,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144621Z" creationid="fsanchez" creationdate="20161009T144621Z">
         <seg>  `Juan') (.{&lt;u0&gt;{I}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>  `de Grècia' ) ) ) ) ) &lt;n0&gt; &lt;n1&gt; &lt;n6&gt; &lt;n7&gt; (.SI.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144705Z" creationid="fsanchez" creationdate="20161009T144705Z">
+        <seg>`de Grecia' ) ) ) ) ) &lt;n0&gt; &lt;n1&gt; &lt;n6&gt; &lt;n7&gt; (.SI.</seg>
       </tuv>
     </tu>
     <tu>
