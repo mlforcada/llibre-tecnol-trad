@@ -150,6 +150,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per això, no és possible assignar una interpretació clara a oracions sin­tàc­ti­ca­ment incorrectes, com ara &lt;n0&gt; *Llegeix mare llibres la &lt;n3&gt; encara que els mots tinguen interpretació independentment, ni tampoc a una oració sintàcticament correcta que continga algun mot al qual no podem assignar cap interpretació: &lt;n1&gt; La mare *ingurpleix llibres &lt;n4&gt; Com veurem més endavant, trobem una complicació addicional: en algunes oracions, hi ha parts de l'estructura sintàctica que no es reflecteixen en cap mot, perquè generen &lt;i0&gt;categories buides&lt;/i0&gt; que no tenen una representació fonètica o gràfica explícita.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141728Z" creationid="fsanchez" creationdate="20161009T141728Z">
+        <seg>Por eso, no es posible asignar una interpretación clara a oraciones sintácticamente incorrectas, como &lt;n0&gt; *Lee madre libros la &lt;n3&gt; aunque cada palabra tenga una interpretación independiente, y tampoco a una oración sintácticamente correcta que contenga alguna palabra a la que no podemos asignar ninguna interpretación : &lt;n1&gt; La madre *ingurplee libros &lt;n4&gt; Como veremos más adelante, existe una complicación adicional: en algunas ocasiones, hay partes de la estructura sintáctica que no se reflejan en ninguna palabra, porque generan &lt;i0&gt;categorías vacías&lt;/i0&gt; que no tienen una representación fonética o gráfica explícita.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, l'oració &lt;n2&gt; Té molts amics &lt;n5&gt; té un subjecte buit (també anomenat el·líptic).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141733Z" creationid="fsanchez" creationdate="20161009T141733Z">
+        <seg>Por ejemplo, la oración &lt;n2&gt; Tiene muchos amigos &lt;n5&gt; tiene un sujeto vacío (también denominado elíptico).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, l'oració espanyola &lt;i0&gt;Aprendió a afeitarse en dos minutos&lt;/i0&gt; es pot traduir al català &lt;i1&gt;Va aprendre a afaitar-se en dos minuts&lt;/i1&gt; sense resoldre l'ambigüitat següent: és el temps que va tardar a aprendre o el temps que empra per afaitar-se?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141453Z" creationid="fsanchez" creationdate="20161009T141453Z">
