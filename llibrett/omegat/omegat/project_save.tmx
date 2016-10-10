@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; &lt;i1&gt;S'han de repassar les entrades i les despeses que s'hagen fet en euros&lt;/i1&gt; (1: ``Les entrades s'han de repassar totes; les despeses només si s'han fet en euros''; 2: ``De les entrades, se n'han de repassar només les fetes en euros'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141214Z" creationid="fsanchez" creationdate="20161010T141214Z">
+        <seg>&lt;u1&gt; &lt;i1&gt;Se tienen que repasar las entradas y los gastos que se hayan hecho en euros&lt;/i1&gt; (1: ``Las entradas se tienen que repasar todas; los gastos sólo si se han hecho en euros"; 2: ``De las entradas, se tienen que repasar sólo las hechas en euros").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Considereu aquestes dues frases estructuralment idèntiques afectades per la mateixa ambigüitat estructural pura d'adjunció: &lt;n1&gt; &lt;n3&gt; Porta'm les claus de l'armari gran &lt;n5&gt; &lt;n2&gt; &lt;n4&gt; Porta'm les claus de la cadira verda &lt;n6&gt; En l'oració &lt;n9&gt;, podem dubtar, ja que no sabem si les claus són les que obrin l'armari o les que estan allà guardades.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130836Z" creationid="fsanchez" creationdate="20161010T130836Z">
