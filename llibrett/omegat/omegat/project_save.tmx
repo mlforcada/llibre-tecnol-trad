@@ -702,6 +702,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Es podria argumentar fàcilment en contra dient que en frases complexes (per exemple, l'oració &lt;n1&gt;) hi ha massa estructures a considerar.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125704Z" creationid="fsanchez" creationdate="20161010T125704Z">
+        <seg>Se podría argumentar en contra fácilmente diciendo que en frases complejas (por ejemplo, la oración &lt;n1&gt;) hay demasiadas estructuras a considerar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es produeixen també moviments similars amb els relatius; per exemple, aquests es mouen &lt;i0&gt;cap a fora&lt;/i0&gt;, és a dir, cap a l'arrel de l'arbre d'anàlisi sintàctica, des de les subordinades substantives completives amb verbs del tipus de {&lt;u0&gt; dir}, &lt;i1&gt;explicar&lt;/i1&gt;, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151635Z" creationid="fsanchez" creationdate="20161009T151635Z">
@@ -1282,6 +1290,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140644Z" creationid="fsanchez" creationdate="20161009T140644Z">
         <seg>Según este autor, la traducción automática tiene cuatro grandes problemas: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;La forma no determina completamente el contenido&lt;/i0&gt; (es decir, la &lt;i1&gt;interpretación&lt;/i1&gt;): no siempre es fácil determinar la interpretación que se pretendía dar a lo que se ha escrito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Segons aquest model, les persones consideraríem sempre &lt;i1&gt;totes&lt;/i1&gt; les estructures sintàctiques.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125659Z" creationid="fsanchez" creationdate="20161010T125659Z">
+        <seg>Según este modelo, las personas consideraríamos siempre &lt;i1&gt;todas&lt;/i1&gt; las estructuras sintácticas.</seg>
       </tuv>
     </tu>
     <tu>
