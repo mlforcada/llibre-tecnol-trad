@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>--I les creus?&lt;/i0&gt; (1: ``Creus aquestes notícies?'' 2: ``Els crucifixos també han rebrotat?'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T140959Z" creationid="fsanchez" creationdate="20161010T140959Z">
+        <seg>-- I les creus?'&lt;/i0&gt; (1: ``¿Crees estas noticias?" 2: ``¿Los crucifijos también han rebrotado?").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125356Z" creationid="fsanchez" creationdate="20161010T124959Z">
