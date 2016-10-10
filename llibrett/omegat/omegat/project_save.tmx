@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt; &lt;i5&gt;Serviran polp a la gallega&lt;/i5&gt; (1: ``Serviran polp a una senyora de Galícia''; 2: ``Serviran polp preparat a l'estil gallec'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T133112Z" creationid="fsanchez" creationdate="20161010T133112Z">
+        <seg>&lt;u5&gt; &lt;i5&gt;Servirán pulpo a la gallega&lt;/i5&gt; (1: ``Servirán pulpo a una señora de Galicia"; 2: ``Servirán pulpo preparado al estilo gallego").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt;[(b)] No hi ha cap dona que s'estime els abrics de pell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122447Z" creationid="fsanchez" creationdate="20161010T122447Z">
