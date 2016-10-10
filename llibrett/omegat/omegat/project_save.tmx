@@ -430,6 +430,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els quantificadors són mots com &lt;i0&gt;algun&lt;/i0&gt;, &lt;i1&gt;tot&lt;/i1&gt;, &lt;i2&gt;cada&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122218Z" creationid="fsanchez" creationdate="20161010T122218Z">
+        <seg>Los cuantificadores son palabras como &lt;i0&gt;alguno&lt;/i0&gt;, &lt;i1&gt;todo&lt;/i1&gt;, &lt;i2&gt;cada&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els quatre problemes de la traducció automàtica</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140550Z" creationid="fsanchez" creationdate="20161009T140550Z">
@@ -866,6 +874,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144057Z" creationid="fsanchez" creationdate="20161009T144057Z">
         <seg>Cuando se trata de la omisión del sujeto, se suele postular en lingüística la existencia de un pronombre especial llamado PRO, sin forma superficial, que hace de sujeto nulo, &lt;n1&gt; Joan vio como PRO caía rodando &lt;n3&gt; y al cual se asigna interpretación mediante procesos dícticos&lt;p0&gt; o anafóricos como los descritos para otras expresiones anafóricas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan l'abast d'un quantificador (és a dir, els mots que afecta) és imprecís, una oració pot tenir més d'una interpretació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122225Z" creationid="fsanchez" creationdate="20161010T122225Z">
+        <seg>Cuando el alcance de un cuantificador (es decir, las palabras a las que afecta) es impreciso, una oración puede tener más de una interpretación.</seg>
       </tuv>
     </tu>
     <tu>
