@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Estructural d'origen coordinatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141741Z" creationid="fsanchez" creationdate="20161010T141741Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Estructural de origen coordinativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Lèxica categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141649Z" creationid="fsanchez" creationdate="20161010T141649Z">
@@ -214,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; ... es deu a l'anàfora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141728Z" creationid="fsanchez" creationdate="20161010T141728Z">
+        <seg>&lt;u2&gt; ... se debe a la anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;i1&gt;Hi havia un gat sota l'automòbil&lt;/i1&gt; (1: ``...perquè acabaven de reparar una roda''; 2: ``...i va eixir corrents quan el vaig posar en marxa'') &lt;u3&gt; &lt;i2&gt;Maria va entrar amb una bossa gran.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131002Z" creationid="fsanchez" creationdate="20161010T130948Z">
@@ -290,6 +306,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152716Z" creationid="fsanchez" creationdate="20161009T152716Z">
         <seg>&lt;u2&gt;[(b)] [Las gallinas]$_i$ han destrozado el sembrado, pero (tú) no las$_i$ matas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; ... és estructural d'origen coordinatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141731Z" creationid="fsanchez" creationdate="20161010T141731Z">
+        <seg>&lt;u3&gt; ... es estructural de origen coordinativo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,6 +750,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De quina classe és l'ambigüitat de l'oració &lt;i0&gt;Va vendre les taronges que havia comprat a Maria&lt;/i0&gt;?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141740Z" creationid="fsanchez" creationdate="20161010T141740Z">
+        <seg>¿De qué clase es la ambigüedad de la oración &lt;i0&gt;Vendió las naranjas que había comprado a María&lt;/i0&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De vegades, l'anàlisi de la sintaxi d'una oració es complica per la presència de fenòmens de moviment de constituents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151153Z" creationid="fsanchez" creationdate="20161009T151153Z">
@@ -1106,6 +1138,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143152Z" creationid="fsanchez" creationdate="20161009T143152Z">
         <seg>La ambigüedad léxica de transferencia es especialmente peligrosa cuando afecta a una palabra de la lengua origen no percibida como ambigua; por ejemplo, la palabra española &lt;i3&gt;destino&lt;/i3&gt; se puede traducir al catalán como {&lt;u3&gt; destí} (suerte futura) o &lt;i4&gt;destinació&lt;/i4&gt; (punto de llegada).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat... &lt;n0&gt; &lt;u1&gt; ... es deu a l'el·lipsi.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141725Z" creationid="fsanchez" creationdate="20161010T141725Z">
+        <seg>La ambigüedad... &lt;n0&gt; &lt;u1&gt; ... se debe a la elipsis.</seg>
       </tuv>
     </tu>
     <tu>
