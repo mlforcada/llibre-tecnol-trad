@@ -246,6 +246,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Estructural d'origen categorial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141651Z" creationid="fsanchez" creationdate="20161010T141651Z">
+        <seg>&lt;u2&gt; Estructural de origen categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Hi ha vegades que només podem recórrer a una anàlisi semàntica; en l'exemple (ja discutit en la secció &lt;n8&gt;) &lt;n3&gt; [Els soldats]$_i$ van disparar [als xiquets]$_j$.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124831Z" creationid="fsanchez" creationdate="20161010T124831Z">
@@ -306,6 +314,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141621Z" creationid="fsanchez" creationdate="20161010T141621Z">
         <seg>&lt;u3&gt; Estructural de origen categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Estructural d'origen coordinatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141653Z" creationid="fsanchez" creationdate="20161010T141653Z">
+        <seg>&lt;u3&gt; Estructural de origen coordinativo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -898,6 +914,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143954Z" creationid="fsanchez" creationdate="20161009T143954Z">
         <seg>En el fragmento &lt;n0&gt; Anna apuñaló a Marta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En l'oració &lt;i0&gt;El cotxe s'ha cremat amb el garatge i l'assegurança no el cobreix&lt;/i0&gt; no se sap quina de les dues coses està coberta per l'assegurança, el garatge o el cotxe.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141721Z" creationid="fsanchez" creationdate="20161010T141721Z">
+        <seg>En la oración &lt;i0&gt;El coche se ha quemado con el garaje y el seguro no lo cubre&lt;/i0&gt; no se sabe cuál de las dos cosas está cubierta por el seguro, el garaje o el coche.</seg>
       </tuv>
     </tu>
     <tu>
