@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El tipus de fitxer bàsic amb què treballen els professionals de la traducció sol ser un fitxer amb text, és a dir, un text informatitzat, també anomenat &lt;i0&gt;document de text&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="japerez" changedate="20161010T100128Z" creationid="japerez" creationdate="20161010T100128Z">
+        <seg>El tipo de fichero básico con que trabajan los profesionales de la traducción suele ser un fichero con texto, es decir, un texto informatizado, también llamado &lt;i0&gt;documento de texto&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els diccionaris anglesos, que solen agrupar els mots polisèmics en una entrada, típicament en fan dues entrades diferents, i, de fet, en lexicografia no és estrany referir-se a &lt;i13&gt;case&lt;/i13&gt; com un homògraf.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143017Z" creationid="fsanchez" creationdate="20161009T143017Z">
