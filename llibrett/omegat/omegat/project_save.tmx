@@ -832,8 +832,8 @@
       <tuv lang="CA">
         <seg>Les &lt;i0&gt;restriccions&lt;/i0&gt; es poden basar en informació morfològica, sintàctica, o fins i tot semàntica; tot depén del nivell d'anàlisi que estiga disponible: &lt;n0&gt; &lt;u0&gt; Un pronom masculí no pot tenir un antecedent femení (restricció morfològica): &lt;i1&gt;Maria&lt;/i1&gt; no pot ser l'antecedent de &lt;i2&gt;ell&lt;/i2&gt; en l'oració &lt;i3&gt;Maria es va passar tot el dia parlant d'ell&lt;/i3&gt;.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123852Z" creationid="fsanchez" creationdate="20161010T123852Z">
-        <seg>Las &lt;i0&gt;restricciones&lt;/i0&gt; se pueden basar en información morfológica, sintáctica, o incluso semántica; todo depende del nivel de análisis que esté disponible: &lt;n0&gt; &lt;u0&gt; Un pronombre masculino no puede tener un antecedente femenino (restricción morfológica): &lt;i1&gt;Maria&lt;/i1&gt; no puede ser el antecedente de &lt;i2&gt;él&lt;/i2&gt; en la oración &lt;i3&gt;Maria se pasó todo el día hablando de él&lt;/i3&gt;.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123923Z" creationid="fsanchez" creationdate="20161010T123852Z">
+        <seg>Las &lt;i0&gt;restricciones&lt;/i0&gt; se pueden basar en información morfológica, sintáctica, o incluso semántica; todo depende del nivel de análisis que esté disponible: &lt;n0&gt; &lt;u0&gt; Un pronombre masculino no puede tener un antecedente femenino (restricción morfológica): &lt;i1&gt;María&lt;/i1&gt; no puede ser el antecedente de &lt;i2&gt;él&lt;/i2&gt; en la oración &lt;i3&gt;María se pasó todo el día hablando de él&lt;/i3&gt;.</seg>
       </tuv>
     </tu>
     <tu>
