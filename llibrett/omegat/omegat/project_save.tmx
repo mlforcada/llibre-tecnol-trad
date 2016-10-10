@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;i1&gt;Hi havia un gat sota l'automòbil&lt;/i1&gt; (1: ``...perquè acabaven de reparar una roda''; 2: ``...i va eixir corrents quan el vaig posar en marxa'') &lt;u3&gt; &lt;i2&gt;Maria va entrar amb una bossa gran.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130948Z" creationid="fsanchez" creationdate="20161010T130948Z">
+        <seg>&lt;u2&gt; &lt;i1&gt; Había un gato bajo el automóvil&lt;/i1&gt; (1: ``...porque acababan de reparar una rueda''; 2: ``...y salió corriendo cuando lo puse en marcha'') &lt;u3&gt; &lt;i2&gt;Maria entró con una bolsa grande.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Hi ha vegades que només podem recórrer a una anàlisi semàntica; en l'exemple (ja discutit en la secció &lt;n8&gt;) &lt;n3&gt; [Els soldats]$_i$ van disparar [als xiquets]$_j$.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124831Z" creationid="fsanchez" creationdate="20161010T124831Z">
@@ -818,6 +826,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143600Z" creationid="fsanchez" creationdate="20161009T143600Z">
         <seg>Hay tres situaciones posibles: &lt;n0&gt; &lt;u1&gt; cambia sólo el lema pero no los indicadores de flexión: la palabra española &lt;i0&gt;creo&lt;/i0&gt; puede ser la 1ª&lt;u4&gt;persona del singular del presente de indicativo del verbo &lt;i1&gt;creer&lt;/i1&gt; o del verbo &lt;i2&gt;crear&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu quina classe d'ambigüitat presenten aquestes frases (justifiqueu molt breument la vostra resposta): &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Expulsaran l'alcalde de la ciutat&lt;/i0&gt; (1: ``L'alcalde de la ciutat serà expulsat.'' 2: ``L'alcalde serà expulsat de la ciutat'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130935Z" creationid="fsanchez" creationdate="20161010T130935Z">
+        <seg>Indicad qué clase de ambigüedad presentan estas frases (justificad muy brevemente vuestra respuesta): &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Expulsarán al alcalde de la ciudad&lt;/i0&gt; (1: ``El alcalde de la ciudad será expulsado.'' 2: ``El alcalde será expulsado de la ciudad'').</seg>
       </tuv>
     </tu>
     <tu>
