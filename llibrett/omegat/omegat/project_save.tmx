@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;i3&gt;Vull ballar i cantar cançons de bressol&lt;/i3&gt; (1: ``Ballarem durant una estona i després et cantaré perquè et dormes''; 2: ``M'estime tant ballar cançons de bressol com cantar-ne'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131257Z" creationid="fsanchez" creationdate="20161010T131257Z">
+        <seg>&lt;u3&gt; &lt;i3&gt;Quiero bailar y cantar canciones de cuna&lt;/i3&gt; (1: ``Bailaremos durante un rato y después te cantaré para que te duermas"; 2: ``Quiero tanto bailar canciones de cuna como cantarlas").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; canvien el lema i els indicadors de flexió: el mot espanyol &lt;i5&gt;salen&lt;/i5&gt; pot ser la 3a.&lt;u6&gt;persona del plural del present d'indicatiu del verb salir o del present de subjuntiu del verb &lt;i6&gt;salar&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143626Z" creationid="fsanchez" creationdate="20161009T143626Z">
