@@ -974,6 +974,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, la paraula &lt;i0&gt;sobre&lt;/i0&gt; pot ser un substantiu masculí singular, una preposició, i tres formes del verb &lt;i1&gt;sobrar&lt;/i1&gt; (present de subjuntiu, 1a.&lt;u0&gt;i 3a.&lt;u1&gt;persona del singular, i un imperatiu cortés de 3a.&lt;u2&gt;persona del singular).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122955Z" creationid="fsanchez" creationdate="20161010T122955Z">
+        <seg>Por ejemplo, la palabra &lt;i0&gt;sobre&lt;/i0&gt; puede ser un sustantivo masculino singular, una preposición, y tres formas del verbo &lt;i1&gt;sobrar&lt;/i1&gt; (presente de subjuntivo, 1ª&lt;u0&gt;y 3ª&lt;u1&gt;persona del singular, e imperativo de cortesía, 3ª&lt;u2&gt;persona del singular).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per què és difícil per a un sistema informàtic traduir com un professional?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140555Z" creationid="fsanchez" creationdate="20161009T140555Z">
