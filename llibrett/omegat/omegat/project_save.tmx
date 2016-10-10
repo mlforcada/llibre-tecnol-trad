@@ -568,8 +568,8 @@
       <tuv lang="CA">
         <seg>Els$_{i/j?}$ vaig veure caure &lt;n6&gt; s'ha d'usar informació semàntica per a saber quin és l'antecedent d'&lt;i9&gt;els&lt;/i9&gt; en la segona oració (&lt;i10&gt;els soldats&lt;/i10&gt; o &lt;i11&gt;els xiquets&lt;/i11&gt;).</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124837Z" creationid="fsanchez" creationdate="20161010T124837Z">
-        <seg>Los$_{i/j?}$ vi caer &lt;n6&gt; se tiene que usar información semántica para saber cuál es el antecedente de&lt;i9&gt;los&lt;/i9&gt; la segunda oración (&lt;i10&gt;los soldados&lt;/i10&gt; o &lt;i11&gt;los niños&lt;/i11&gt;).</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124914Z" creationid="fsanchez" creationdate="20161010T124837Z">
+        <seg>Los$_{i/j?}$ vi caer &lt;n6&gt; se tiene que usar información semántica para saber cuál es el antecedente de &lt;i9&gt;los&lt;/i9&gt; en la segunda oración (&lt;i10&gt;los soldados&lt;/i10&gt; o &lt;i11&gt;los niños&lt;/i11&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -890,6 +890,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122815Z" creationid="fsanchez" creationdate="20161010T122815Z">
         <seg>Las preferencias se suelen basar frecuentemente en métodos estadísticos, basados en observaciones obtenidas en grandes cantidades de texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les restriccions no solen ser suficients, i sol ser necessari l'establiment de &lt;i0&gt;preferències&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124920Z" creationid="fsanchez" creationdate="20161010T124920Z">
+        <seg>Las restricciones no suelen ser suficientes, y suele ser necesario el establecimiento de &lt;i0&gt;preferencias&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
