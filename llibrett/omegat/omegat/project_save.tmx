@@ -750,6 +750,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La desambiguació s'efectua usant informació procedent de tres fonts: el &lt;i1&gt;cotext&lt;/i1&gt; (intern al text o discurs) i el &lt;i2&gt;context&lt;/i2&gt; (extern al text o discurs però relacionat amb ell) i fonts de coneixement addicionals.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123329Z" creationid="fsanchez" creationdate="20161010T123329Z">
+        <seg>La desambiguación se efectúa usando información procedente de tres fuentes: el &lt;i1&gt;cotexto&lt;/i1&gt; (interno al texto o discurso) y el &lt;i2&gt;contexto&lt;/i2&gt; (externo al texto o discurso pero relacionado con él) y fuentes de conocimiento adicionales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La interpretació de les oracions se sol explicar de vegades en termes de {&lt;u1&gt; formes lògiques} &lt;u3&gt;p[cap. 23]{radford09b}; en el cas de les oracions amb quantificadors, aquestes formes lògiques contenen d'una banda, &lt;i3&gt;variables&lt;/i3&gt; que poden referir-se a un rang d'objectes que cal considerar i, d'altra, operacions sobre aquestes variables.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122533Z" creationid="fsanchez" creationdate="20161010T122533Z">
