@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n4&gt; &lt;n5&gt; Aquest exemple pot tenir dues interpretacions &lt;n2&gt; &lt;u4&gt;[(a)] No totes les dones s'estimen els abrics de pell.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122247Z" creationid="fsanchez" creationdate="20161010T122247Z">
+        <seg>&lt;n4&gt; &lt;n5&gt; Este ejemplo puede tener dos interpretaciones &lt;n2&gt; &lt;u4&gt;[(a)] No todas las mujeres aprecian los abrigos de piel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n5&gt; Aquesta oració té, fonamentalment, dues interpretacions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151200Z" creationid="fsanchez" creationdate="20161009T151200Z">
