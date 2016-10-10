@@ -152,8 +152,8 @@
       <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;i1&gt;Hi havia un gat sota l'automòbil&lt;/i1&gt; (1: ``...perquè acabaven de reparar una roda''; 2: ``...i va eixir corrents quan el vaig posar en marxa'') &lt;u3&gt; &lt;i2&gt;Maria va entrar amb una bossa gran.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130948Z" creationid="fsanchez" creationdate="20161010T130948Z">
-        <seg>&lt;u2&gt; &lt;i1&gt; Había un gato bajo el automóvil&lt;/i1&gt; (1: ``...porque acababan de reparar una rueda''; 2: ``...y salió corriendo cuando lo puse en marcha'') &lt;u3&gt; &lt;i2&gt;Maria entró con una bolsa grande.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131002Z" creationid="fsanchez" creationdate="20161010T130948Z">
+        <seg>&lt;u2&gt; &lt;i1&gt; Había un gato bajo el automóvil&lt;/i1&gt; (1: ``...porque acababan de reparar una rueda''; 2: ``...y salió corriendo cuando lo puse en marcha'') &lt;u3&gt; &lt;i2&gt;María entró con una bolsa grande.</seg>
       </tuv>
     </tu>
     <tu>
@@ -834,6 +834,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130935Z" creationid="fsanchez" creationdate="20161010T130935Z">
         <seg>Indicad qué clase de ambigüedad presentan estas frases (justificad muy brevemente vuestra respuesta): &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Expulsarán al alcalde de la ciudad&lt;/i0&gt; (1: ``El alcalde de la ciudad será expulsado.'' 2: ``El alcalde será expulsado de la ciudad'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Jo la vaig posar damunt de la taula&lt;/i2&gt; (1: ``Vaig posar Maria damunt de la taula''; 2: ``Vaig posar la bossa damunt de la taula'') &lt;u4&gt; &lt;i3&gt;Què vols, galetes o pa de la tia Pepa?&lt;/i3&gt; (Les galetes són també de la tia Pepa?) &lt;u5&gt; &lt;i4&gt;Posa una mà de paper en la impressora i connecta-la.&lt;/i4&gt; (Ha de connectar la mà de paper o la impressora?) &lt;u6&gt; &lt;i5&gt;Us han dit que vaja?&lt;/i5&gt; (Qui ha d'anar?).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130953Z" creationid="fsanchez" creationdate="20161010T130953Z">
+        <seg>Yo la puse encima de la mesa&lt;/i2&gt; (1: ``Puse a Maria encima de la mesa''; 2: ``Puse la bolsa encima de la mesa'') &lt;u4&gt; &lt;i3&gt;¿Qué quieres, galletas o pan de la tía Pepa?&lt;/i3&gt; (¿Las galletas son también de la tía Pepa?) &lt;u5&gt; &lt;i4&gt;Pon una mano de papel en la impresora y conéctala.&lt;/i4&gt; (¿Tiene que conectar la mano de papel o la impresora?) &lt;u6&gt; &lt;i5&gt;¿Os han dicho que vaya?&lt;/i5&gt; (¿Quién tiene que ir?).</seg>
       </tuv>
     </tu>
     <tu>
