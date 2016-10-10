@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Estructural d'adjunció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141615Z" creationid="fsanchez" creationdate="20161010T141600Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Estructural de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125356Z" creationid="fsanchez" creationdate="20161010T124959Z">
@@ -234,6 +242,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124831Z" creationid="fsanchez" creationdate="20161010T124831Z">
         <seg>&lt;u2&gt; Hay veces que sólo podemos recurrir a un análisis semántico; en el ejemplo (ya discutido en la sección &lt;n8&gt;) &lt;n3&gt; [Los soldados]$_i$ dispararon [a los niños]$_j$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Lèxica categorial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141602Z" creationid="fsanchez" creationdate="20161010T141602Z">
+        <seg>&lt;u2&gt; Léxica categorial.</seg>
       </tuv>
     </tu>
     <tu>
