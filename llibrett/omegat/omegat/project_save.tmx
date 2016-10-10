@@ -1438,6 +1438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{estratègies de resolució de l'ambigüitat} &lt;u0&gt;{Resolució de la polisèmia.} La resolució de la polisèmia (en anglés &lt;i0&gt;word sense disambiguation&lt;/i0&gt;) consisteix a assignar a un mot polisèmic, en un text o discurs, una interpretació concreta, possiblement diferent de les que podria tenir en altres textos (o contextos).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123126Z" creationid="fsanchez" creationdate="20161010T123126Z">
+        <seg>{estrategias de resolución de la ambigüedad} &lt;u0&gt;{Resolución de la polisemia.} La resolución de la polisemia (en inglés &lt;i0&gt;word sense disambiguation&lt;/i0&gt;) consiste en asignar a una palabra polisémica, en un texto o discurso, una interpretación concreta, posiblemente diferente de las que podría tener en otros textos (o contextos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Per saber més sobre #1} } {</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
