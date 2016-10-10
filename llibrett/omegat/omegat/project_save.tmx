@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(*) És possible resoldre en alguns casos l'ambigüitat deguda a un mot homògraf utilitzant exclusivament informació morfològica?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142552Z" creationid="fsanchez" creationdate="20161010T142552Z">
+        <seg>(*) ¿Es posible resolver en algunos casos la ambigüedad debida a una palabra homógrafa utilizando exclusivamente información morfológica?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(.SN.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144619Z" creationid="fsanchez" creationdate="20161009T144619Z">
@@ -90,6 +98,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141649Z" creationid="fsanchez" creationdate="20161010T141649Z">
         <seg>&lt;n0&gt; &lt;u1&gt; Léxica categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, aquest tipus d'ambigüitat exigeix un tractament semàntic com a mínim.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142555Z" creationid="fsanchez" creationdate="20161010T142555Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, este tipo de ambigüedad exige un tratamiento semántico como mínimo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -342,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; No, sempre cal utilitzar informació de caràcter sintàctic per resoldre-la.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142559Z" creationid="fsanchez" creationdate="20161010T142559Z">
+        <seg>&lt;u2&gt; No, siempre hay que utilizar información de carácter sintáctico para resolverla.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Sí, encara que no continga pronoms o altres expressions anafòriques susceptibles de tenir més d'un antecedent possible.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142520Z" creationid="fsanchez" creationdate="20161010T142520Z">
@@ -450,6 +474,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142525Z" creationid="fsanchez" creationdate="20161010T142525Z">
         <seg>&lt;u3&gt; Sí, pero sólo si contiene pronombres u otras expresiones anafóricas susceptibles de tener más de un antecedente posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí, usant la informació morfològica dels mots adjacents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142601Z" creationid="fsanchez" creationdate="20161010T142601Z">
+        <seg>&lt;u3&gt; Sí, usando la información morfológica de las palabras adyacentes.</seg>
       </tuv>
     </tu>
     <tu>
