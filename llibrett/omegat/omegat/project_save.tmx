@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, perquè les dues formes &lt;i1&gt;vendo&lt;/i1&gt; s'escriuen exactament igual.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141824Z" creationid="fsanchez" creationdate="20161010T141824Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, porque las dos formas &lt;i1&gt;vendo&lt;/i1&gt; se escriben exactamente igual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125356Z" creationid="fsanchez" creationdate="20161010T124959Z">
