@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com que &lt;i3&gt;sobre&lt;/i3&gt; va seguit de &lt;i4&gt;de&lt;/i4&gt;, que només pot ser preposició, podem descartar que &lt;i5&gt;sobre&lt;/i5&gt; siga una preposició.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123022Z" creationid="fsanchez" creationdate="20161010T123022Z">
+        <seg>Como &lt;i3&gt;sobre&lt;/i3&gt; va seguido de &lt;i4&gt;de&lt;/i4&gt;, que sólo puede ser preposición, podemos descartar que &lt;i5&gt;sobre&lt;/i5&gt; sea una preposición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com veurem més avall, de vegades l'el·lipsi dóna lloc a l'existència de més d'un arbre d'anàlisi sintàctica per a l'oració i per tant aquests tipus d'el·lipsi no es poden incloure pròpiament en aquest apartat dedicat a l'ambigüitat purament lèxica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144124Z" creationid="fsanchez" creationdate="20161009T144124Z">
@@ -990,6 +998,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, podem usar l'aproximació estadística.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123046Z" creationid="fsanchez" creationdate="20161010T123046Z">
+        <seg>Por ejemplo, podemos usar la aproximación estadística.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, una preposició no pot anar seguida d'una altra preposició.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123013Z" creationid="fsanchez" creationdate="20161010T123013Z">
@@ -1006,6 +1022,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per tant, cal considerar l'ús de preferències.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123044Z" creationid="fsanchez" creationdate="20161010T123044Z">
+        <seg>Por lo tanto, hay que considerar el uso de preferencias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però de vegades, les restriccions només redueixen l'ambigüitat sense eliminar-la completament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122908Z" creationid="fsanchez" creationdate="20161010T122908Z">
@@ -1018,6 +1042,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143029Z" creationid="fsanchez" creationdate="20161009T143029Z">
         <seg>Pero la homografía no es la única causa posible de ambigüedad léxica; hay palabras que son ambiguas a pesar de tener la misma forma léxica, porque lo que es ambiguo es la interpretación del lema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però no es poden descartar la resta de formes lèxiques: si &lt;i6&gt;aquell&lt;/i6&gt; és un determinant, &lt;i7&gt;sobre&lt;/i7&gt; pot ser un nom (com és el cas); si &lt;i8&gt;aquell&lt;/i8&gt; és un pronom, &lt;i9&gt;sobre&lt;/i9&gt; podria ser un verb (com en les oracions &lt;i10&gt;Ara ens han sobrat dos cotxes, però pot ser que aquell sobre també més endavant.&lt;/i10&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123041Z" creationid="fsanchez" creationdate="20161010T123041Z">
+        <seg>Pero no se pueden descartar el resto de formas léxicas: si &lt;i6&gt;aquel&lt;/i6&gt; es un determinante, &lt;i7&gt;sobre&lt;/i7&gt; puede ser un nombre (como es el caso); si &lt;i8&gt;aquel&lt;/i8&gt; es un pronombre, &lt;i9&gt;sobre&lt;/i9&gt; podría ser un verbo (como en las oraciones &lt;i10&gt;Ahora nos han sobrado dos coches, pero puede ser que aquel sobre también más adelante.&lt;/i10&gt;).</seg>
       </tuv>
     </tu>
     <tu>
