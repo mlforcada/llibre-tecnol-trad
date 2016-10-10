@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n6&gt; a pesar de no tenir cap ambigüitat lèxica ni estructural aparent.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122451Z" creationid="fsanchez" creationdate="20161010T122451Z">
+        <seg>&lt;n6&gt; a pesar de no tener ninguna ambigüedad léxica ni estructural aparente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n6&gt; i l'altra &lt;n2&gt; * PRO diu que qui vindrà?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151207Z" creationid="fsanchez" creationdate="20161009T151207Z">
@@ -166,6 +174,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt;[(b)] No hi ha cap dona que s'estime els abrics de pell.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122447Z" creationid="fsanchez" creationdate="20161010T122447Z">
+        <seg>&lt;u5&gt;[(b)] A ninguna mujer le gustan los abrigos de piel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u6&gt; &lt;i23&gt;Ambigüitat dins de la mateixa categoria lèxica amb canvi de lema&lt;/i23&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142401Z" creationid="fsanchez" creationdate="20161009T142401Z">
@@ -218,6 +234,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="japerez" changedate="20161010T100416Z" creationid="japerez" creationdate="20161010T100416Z">
         <seg>Este fichero puede contener, además del texto mismo, información sobre la presentación (el formato de los párrafos y de las páginas, los tipos y los tamaños de letra que se usan con cada palabra, etc.) o sobre la organización del contenido (indicaciones de que una determinada parte del texto es un título de capítulo, el título de una sección o una nota a pie de página, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest tipus d'ambigüitat es pot explicar pel fet que el principi de composicionalitat per si sol no és suficient per a especificar completament l'assignació d'interpretació a una oració.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122458Z" creationid="fsanchez" creationdate="20161010T122458Z">
+        <seg>Este tipo de ambigüedad se puede explicar por el hecho de que el principio de composicionalidad por sí solo no es suficiente para especificar completamente la asignación de interpretación a una oración.</seg>
       </tuv>
     </tu>
     <tu>
