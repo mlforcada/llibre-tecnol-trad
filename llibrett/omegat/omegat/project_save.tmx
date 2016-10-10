@@ -870,6 +870,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Elegiu dues llengües, $L_1$ i $L_2$ i poseu dos exemples de traduccions errònies de $L_1$ a $L_2$, indicant la frase original, la frase mal traduïda i la frase correcta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142437Z" creationid="fsanchez" creationdate="20161010T142437Z">
+        <seg>Elegid dos lenguas, $L_1$ y $L_2$ y poned dos ejemplos de traducciones erróneas de $L_1$ a $L_2$, indicando la frase original, la frase mal traducida y la frase correcta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Elegiu una llengua origen i una llengua meta (francés, anglés, alemany, català o espanyol) i poseu un exemple d'oració per a cada un dels tres casos anteriors, on siga necessari un determinat nivell d'anàlisi per tal de resoldre una ambigüitat i produir-ne la traducció correcta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141455Z" creationid="fsanchez" creationdate="20161010T141455Z">
@@ -1810,6 +1818,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123103Z" creationid="fsanchez" creationdate="20161010T123103Z">
         <seg>Si cogemos un corpus (conjunto) suficientemente grande de textos en el que un experto ha indicado la categoría léxica de cada palabra y contamos cuántas veces aparecen todas las secuencias posibles de dos categorías léxicas, podemos usar estas frecuencias para asignar la categoría de una palabra ambigua: de todas las secuencias de tres palabras posibles que se puedan formar con esta palabra, cogeremos la más frecuente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si una forma superficial és ambigua però té només una forma lèxica{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} es tracta d'un mot homògraf.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142449Z" creationid="fsanchez" creationdate="20161010T142449Z">
+        <seg>Si una forma superficial es ambigua pero tiene tan solo una forma léxica{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} se trata de una palabra homógrafa.</seg>
       </tuv>
     </tu>
     <tu>
