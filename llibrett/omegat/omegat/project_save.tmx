@@ -670,6 +670,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Heus ací dos exemples: &lt;n0&gt; &lt;u0&gt; L'ús de &lt;i0&gt;xarxes semàntiques&lt;/i0&gt; on els conceptes se situen en els nodes (nusos) de la xarxa i s'agrupen jeràrquicament en superconceptes cada vegada més generals (per exemple, els conceptes &lt;i1&gt;poma&lt;/i1&gt;, &lt;i2&gt;pera&lt;/i2&gt;, &lt;i3&gt;taronja&lt;/i3&gt; s'agruparien sota el concepte &lt;i4&gt;fruita&lt;/i4&gt;): un exemple de xarxes semàntiques és &lt;i5&gt;Wordnet&lt;/i5&gt;, &lt;u2&gt;{http://wordnet.princeton.edu}, que s'està generalitzant a altres llengües d'Europa (&lt;u3&gt;{http://www.illc.uva.nl/EuroWordNet/}).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123636Z" creationid="fsanchez" creationdate="20161010T123636Z">
+        <seg>He aquí dos ejemplos: &lt;n0&gt; &lt;u0&gt; El uso de &lt;i0&gt;redes semánticas&lt;/i0&gt; donde los conceptos se sitúan en los nodos (nudos) de la red y se agrupan jerárquicamente en superconceptos cada vez más generales (por ejemplo, los conceptos &lt;i1&gt;manzana&lt;/i1&gt;, &lt;i2&gt;pera&lt;/i2&gt;, &lt;i3&gt;naranja&lt;/i3&gt; se agruparían bajo el concepto &lt;i4&gt;fruta&lt;/i4&gt;): un ejemplo de redes semánticas es &lt;i5&gt;Wordnet&lt;/i5&gt;, &lt;u2&gt;{http://wordnet.princeton.edu}, que se está generalizando a otras lenguas de Europa (&lt;u3&gt;{http://www.illc.uva.nl/eurowordnet/}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Hi ha casos que no són tan senzills.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142446Z" creationid="fsanchez" creationdate="20161009T142446Z">
@@ -1122,6 +1130,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122225Z" creationid="fsanchez" creationdate="20161010T122225Z">
         <seg>Cuando el alcance de un cuantificador (es decir, las palabras a las que afecta) es impreciso, una oración puede tener más de una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan tenim un mot polisèmic, li podem associar més d'un concepte o &lt;i6&gt;sentit&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123642Z" creationid="fsanchez" creationdate="20161010T123642Z">
+        <seg>Cuando tenemos una palabra polisémica, le podemos asociar más de un concepto o &lt;i6&gt;sentido&lt;/i6&gt;.</seg>
       </tuv>
     </tu>
     <tu>
