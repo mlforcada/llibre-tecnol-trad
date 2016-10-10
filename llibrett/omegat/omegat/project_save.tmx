@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A canvi, hem de fer l'esforç (presumiblement més lleuger) de predir una entre les possibles continuacions (sintàctiques) del que hem llegit; segons arriben mots, els anem encaixant en l'estructura predita i usem la sintaxi i la interpretació dels mots per a anar construint a poc a poc la interpretació de l'oració completa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125740Z" creationid="fsanchez" creationdate="20161010T125740Z">
+        <seg>A cambio, tenemos que hacer el esfuerzo (presumiblemente más ligero) de predecir una entre las posibles continuaciones (sintácticas) de lo que hemos leído; según llegan palabras, las vamos encajando en la estructura predicha y usamos la sintaxis y la interpretación de las palabras para ir construyendo poco a poco la interpretación de la oración completa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141417Z" creationid="fsanchez" creationdate="20161009T141417Z">
