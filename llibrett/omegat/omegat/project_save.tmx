@@ -902,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Textos i formats</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="japerez" changedate="20161010T095849Z" creationid="japerez" creationdate="20161010T095849Z">
+        <seg>Textos y formatos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un &lt;i2&gt;adjunt&lt;/i2&gt; és un sintagma o constituent que, conjuntament amb un altre sintagma o constituent, forma un constituent del mateix tipus que aquest últim (per exemple, un sintagma nominal més un sintagma preposicional formen un sintagma nominal); en un cert sentit, l'adjunt no és necessari sinó opcional.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144433Z" creationid="fsanchez" creationdate="20161009T144433Z">
