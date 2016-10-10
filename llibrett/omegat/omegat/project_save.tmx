@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} hi ha algun error en l'anàlisi morfològica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142452Z" creationid="fsanchez" creationdate="20161010T142452Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} hay algún error en el análisis morfológico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt;[(b)] *Dius que Jordi ha explicat &lt;i7&gt;com&lt;/i7&gt; que vindria?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151522Z" creationid="fsanchez" creationdate="20161009T151447Z">
@@ -410,6 +418,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143626Z" creationid="fsanchez" creationdate="20161009T143626Z">
         <seg>&lt;u3&gt; cambian el lema y los indicadores de flexión: la palabra española &lt;i5&gt;salan&lt;/i5&gt; puede ser la 3ª&lt;u6&gt;persona del plural del presente de indicativo del verbo salir o del presente de subjuntivo del verbo &lt;i6&gt;salar&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} podem dir que el lema és polisèmic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142455Z" creationid="fsanchez" creationdate="20161010T142455Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} podemos decir que el lema es polisémico.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1714,6 +1730,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141526Z" creationid="fsanchez" creationdate="20161009T141526Z">
         <seg>Podemos decir que un enunciado (una oración, un texto) es ambiguo cuando es susceptible de dos o más interpretaciones &lt;u0&gt;{alcaraz97b}.&lt;p0&gt; lo expresan diciendo que la ambigüedad es ``el fenómeno por el cual una expresión tiene más de un significado''.} Por tanto, un enunciado ambiguo puede tener más de una traducción a otro idioma, aunque a veces puede tener una sola traducción a otro idioma porque dicha traducción conserva la ambigüedad de la frase original;&lt;p1&gt; a esto se le suele llamar &lt;i2&gt;free ride&lt;/i2&gt; (``pase gratuito'') y es más frecuente cuanto más cercanas sean las lenguas involucradas en la traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pot una oració tenir més d'una traducció a un altre idioma malgrat estar formada completament per mots que no són ni homògrafs ni polisèmics en la llengua original?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142501Z" creationid="fsanchez" creationdate="20161010T142501Z">
+        <seg>¿Puede una oración tener más de una traducción a otro idioma a pesar de estar formada completamente por palabras que no son ni homógrafas ni polisémicas en la lengua original?</seg>
       </tuv>
     </tu>
     <tu>
