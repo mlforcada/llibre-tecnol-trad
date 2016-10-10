@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u7&gt; &lt;i6&gt;Vale más que las comas&lt;/i6&gt; (1: ``...que els signes de puntuació''; 2:``...que les menges'') &lt;u8&gt; &lt;i7&gt;El mecánico revisó la suspensión del auto de Garzón&lt;/i7&gt; (1: ``Aquest mecànic és un expert en legislació i s'ha llegit la resolució judicial sencera''; 2: ``Els amortidors del cotxe de Garzón ja necessitaven una revisió'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131112Z" creationid="fsanchez" creationdate="20161010T131112Z">
+        <seg>&lt;u7&gt; &lt;i6&gt;Vale más que las&lt;/i6&gt; comas (1: ``...que los signos de puntuación''; 2:``...que las ingieras'') &lt;u8&gt; &lt;i7&gt;El mecánico revisó la suspensión del auto de Garzón&lt;/i7&gt; (1: ``Este mecánico es un experto en legislación y se ha leído la resolución judicial entera''; 2: ``Los amortiguadores del coche de Garzón ya necesitaban una revisión'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A canvi, hem de fer l'esforç (presumiblement més lleuger) de predir una entre les possibles continuacions (sintàctiques) del que hem llegit; segons arriben mots, els anem encaixant en l'estructura predita i usem la sintaxi i la interpretació dels mots per a anar construint a poc a poc la interpretació de l'oració completa.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125740Z" creationid="fsanchez" creationdate="20161010T125740Z">
