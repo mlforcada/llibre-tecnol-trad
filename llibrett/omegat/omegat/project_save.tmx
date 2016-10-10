@@ -1134,6 +1134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>No obstant això, hi ha d'altres que només poden ser tractades si es fa una anàlisi sintàctica (tot i que l'ambigüitat siga de tipus lèxic) i fins i tot n'hi ha que requeririen una anàlisi semàntica per a resoldre-les.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141443Z" creationid="fsanchez" creationdate="20161010T141443Z">
+        <seg>Sin embargo, hay otras que sólo pueden ser tratadas si se hace un análisis sintáctico (a pesar de que la ambigüedad sea de tipo léxico) e incluso las hay que requerirían un análisis semántico para resolverlas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>O alguna altra persona?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144010Z" creationid="fsanchez" creationdate="20161009T144010Z">
