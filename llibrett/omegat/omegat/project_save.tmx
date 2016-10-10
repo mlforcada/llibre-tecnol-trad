@@ -630,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En traducció automàtica, estem interessats a elegir una de les interpretacions possibles, perquè és comú que els mots polisèmics tinguen diverses traduccions (l'&lt;i3&gt;ambigüitat de transferència&lt;/i3&gt; esmentada en l'apartat &lt;n1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123354Z" creationid="fsanchez" creationdate="20161010T123354Z">
+        <seg>En traducción automática, estamos interesados en elegir una de las interpretaciones posibles, porque es habitual que las palabras polisémicas tengan varias traducciones (la &lt;i3&gt;ambigüedad de transferencia&lt;/i3&gt; mencionada en el apartado &lt;n1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es concedeix permís per a copiar, distribuir i/o modificar aquest document d'acord amb les condicions de la Llicència General Pública de GNU versió 3 (vegeu &lt;u1&gt;{http://www.gnu.org/licenses/gpl-3.0.txt}) o de la llicencia Creative Commons Reconeixement-CompatirIgual 4.0 Internacional (vegeu &lt;u2&gt;{http://creativecommons.org/licenses/by-sa/4.0/}).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115944Z" creationid="fsanchez" creationdate="20161005T115944Z">
