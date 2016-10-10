@@ -1038,6 +1038,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per a poder respondre a les preguntes marcades amb (*) cal que us llegiu els quadres &lt;i0&gt;Per saber més&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130913Z" creationid="fsanchez" creationdate="20161010T130913Z">
+        <seg>Para poder responder a las preguntas marcadas con (*) hace falta que os leáis los cuadros &lt;i0&gt;Para saber más&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per això, en general s'usen mètodes basats en preferències.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123604Z" creationid="fsanchez" creationdate="20161010T123604Z">
@@ -1334,6 +1342,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Qüestions i exercicis</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130905Z" creationid="fsanchez" creationdate="20161010T130905Z">
+        <seg>Cuestiones y ejercicios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Relacionats amb la &lt;i1&gt;dixi&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143831Z" creationid="fsanchez" creationdate="20161009T143831Z">
@@ -1378,6 +1394,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122904Z" creationid="fsanchez" creationdate="20161010T122904Z">
         <seg>Si aparece entre un artículo y un adjetivo como por ejemplo en &lt;i1&gt;el ahorro doméstico&lt;/i1&gt; no hay ninguna duda de que se trata de un sustantivo: la secuencia determinante--verbo personal no está permitida.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si el sistema que resol l'ambigüitat és capaç d'usar informació semàntica, podria elegir correctament en aquest cas.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130859Z" creationid="fsanchez" creationdate="20161010T130859Z">
+        <seg>Si el sistema que resuelve la ambigüedad es capaz de usar información semántica, podría elegir correctamente en este caso.</seg>
       </tuv>
     </tu>
     <tu>
