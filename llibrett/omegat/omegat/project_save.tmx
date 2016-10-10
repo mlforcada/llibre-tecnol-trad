@@ -870,6 +870,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per això, en general s'usen mètodes basats en preferències.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123604Z" creationid="fsanchez" creationdate="20161010T123604Z">
+        <seg>Por eso, en general se usan métodos basados en preferencias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per això, no és possible assignar una interpretació clara a oracions sin­tàc­ti­ca­ment incorrectes, com ara &lt;n0&gt; *Llegeix mare llibres la &lt;n3&gt; encara que els mots tinguen interpretació independentment, ni tampoc a una oració sintàcticament correcta que continga algun mot al qual no podem assignar cap interpretació: &lt;n1&gt; La mare *ingurpleix llibres &lt;n4&gt; Com veurem més endavant, trobem una complicació addicional: en algunes oracions, hi ha parts de l'estructura sintàctica que no es reflecteixen en cap mot, perquè generen &lt;i0&gt;categories buides&lt;/i0&gt; que no tenen una representació fonètica o gràfica explícita.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141728Z" creationid="fsanchez" creationdate="20161009T141728Z">
@@ -1018,6 +1026,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122955Z" creationid="fsanchez" creationdate="20161010T122955Z">
         <seg>Por ejemplo, la palabra &lt;i0&gt;sobre&lt;/i0&gt; puede ser un sustantivo masculino singular, una preposición, y tres formas del verbo &lt;i1&gt;sobrar&lt;/i1&gt; (presente de subjuntivo, 1ª&lt;u0&gt;y 3ª&lt;u1&gt;persona del singular, e imperativo de cortesía, 3ª&lt;u2&gt;persona del singular).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, podem decidir que el mot espanyol &lt;i0&gt;gato&lt;/i0&gt; és un animal i no una ferramenta per alçar vehicles en la frase &lt;i1&gt;El gato me miró desde debajo del coche&lt;/i1&gt;, perquè &lt;i2&gt;gato&lt;/i2&gt; és el subjecte de &lt;i3&gt;miró&lt;/i3&gt;, i el verb &lt;i4&gt;mirar&lt;/i4&gt; requereix un subjecte animat, però com es pot veure, això requereix que s'hi haja fet una anàlisi sintàctica i semàntica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123557Z" creationid="fsanchez" creationdate="20161010T123557Z">
+        <seg>Por ejemplo, podemos decidir que la palabra &lt;i0&gt;gato&lt;/i0&gt; es un animal y no una herramienta para levantar vehículos en la frase &lt;i1&gt;El gato me miró desde debajo del coche&lt;/i1&gt;, porque &lt;i2&gt;gato&lt;/i2&gt; es el sujeto de &lt;i3&gt;miró&lt;/i3&gt;, y el verbo &lt;i4&gt;mirar&lt;/i4&gt; requiere un sujeto animado, pero como puede verse, esto requiere que se haya hecho un análisis sintáctico y semántico.</seg>
       </tuv>
     </tu>
     <tu>
