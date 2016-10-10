@@ -1580,6 +1580,14 @@
         <seg>Es decir, es difícil determinar como se tiene que expresar una interpretación concreta porque hay más de una manera de decir lo mismo en cualquier lengua.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És possible aplicar restriccions per resoldre la polisèmia però s'han de basar en una anàlisi de naturalesa bastant profunda.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123509Z" creationid="fsanchez" creationdate="20161010T123509Z">
+        <seg>Es posible aplicar restricciones para resolver la polisemia pero se tienen que basar en un análisis de naturaleza bastante profunda.</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
