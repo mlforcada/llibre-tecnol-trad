@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(*) Indiqueu breument quines estratègies es podrien usar per a resoldre l'ambigüitat sintàctica d'adjunció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141505Z" creationid="fsanchez" creationdate="20161010T141505Z">
+        <seg>(*) Indicad brevemente qué estrategias se podrían usar para resolver la ambigüedad sintáctica de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(.SN.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144619Z" creationid="fsanchez" creationdate="20161009T144619Z">
@@ -702,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Elegiu una llengua origen i una llengua meta (francés, anglés, alemany, català o espanyol) i poseu un exemple d'oració per a cada un dels tres casos anteriors, on siga necessari un determinat nivell d'anàlisi per tal de resoldre una ambigüitat i produir-ne la traducció correcta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141455Z" creationid="fsanchez" creationdate="20161010T141455Z">
+        <seg>Elegid una lengua origen y una lengua meta (francés, inglés, alemán, catalán o español) y poned un ejemplo de oración para cada uno de los tres casos anteriores, donde sea necesario un determinado nivel de análisis para resolver una ambigüedad y producir la traducción correcta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els diccionaris anglesos, que solen agrupar els mots polisèmics en una entrada, típicament en fan dues entrades diferents, i, de fet, en lexicografia no és estrany referir-se a &lt;i13&gt;case&lt;/i13&gt; com un homògraf.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143017Z" creationid="fsanchez" creationdate="20161009T143017Z">
@@ -898,6 +914,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140724Z" creationid="fsanchez" creationdate="20161009T140724Z">
         <seg>Ejemplos: ¿cómo se dice en qué momento del día nos encontramos?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Expliqueu quina informació usa el sistema en cada cas per a prendre una decisió.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141500Z" creationid="fsanchez" creationdate="20161010T141500Z">
+        <seg>Explicad qué información usa el sistema en cada caso para tomar una decisión.</seg>
       </tuv>
     </tu>
     <tu>
