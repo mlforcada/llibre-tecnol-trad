@@ -982,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però de vegades, les restriccions només redueixen l'ambigüitat sense eliminar-la completament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122908Z" creationid="fsanchez" creationdate="20161010T122908Z">
+        <seg>Pero a veces, las restricciones sólo reducen la ambigüedad sin eliminarla completamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però l'homografia no és l'única causa possible d'ambigüitat lèxica; hi ha mots que són ambigus tot i tenir la mateixa forma lèxica, perquè el que és ambigu és la interpretació del lema.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143029Z" creationid="fsanchez" creationdate="20161009T143029Z">
@@ -1050,6 +1058,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140644Z" creationid="fsanchez" creationdate="20161009T140644Z">
         <seg>Según este autor, la traducción automática tiene cuatro grandes problemas: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;La forma no determina completamente el contenido&lt;/i0&gt; (es decir, la &lt;i1&gt;interpretación&lt;/i1&gt;): no siempre es fácil determinar la interpretación que se pretendía dar a lo que se ha escrito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si apareix entre un article i un adjectiu com ara en &lt;i1&gt;el ahorro doméstico&lt;/i1&gt; no hi ha cap dubte que es tracta d'un substantiu: la seqüència determinant--verb personal no és permesa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122904Z" creationid="fsanchez" creationdate="20161010T122904Z">
+        <seg>Si aparece entre un artículo y un adjetivo como por ejemplo en &lt;i1&gt;el ahorro doméstico&lt;/i1&gt; no hay ninguna duda de que se trata de un sustantivo: la secuencia determinante--verbo personal no está permitida.</seg>
       </tuv>
     </tu>
     <tu>
