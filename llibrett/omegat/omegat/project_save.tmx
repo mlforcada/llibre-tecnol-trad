@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com veurem, les restriccions són normalment de naturalesa lingüística ---per tant, requereixen un cert nivell d'anàlisi del text--- i permeten descartar certes interpretacions, però no eliminen completament l'ambigüitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122803Z" creationid="fsanchez" creationdate="20161010T122803Z">
+        <seg>Como veremos, las restricciones son normalmente de naturaleza lingüística ---por lo tanto, requieren un cierto nivel de análisis del texto--- y permiten descartar ciertas interpretaciones, pero no eliminan completamente la ambigüedad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Considerem l'exemple de &lt;n3&gt; &lt;n1&gt; Totes les dones no s'estimen els abrics de pell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122440Z" creationid="fsanchez" creationdate="20161010T122233Z">
@@ -750,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les preferències se solen basar freqüentment en mètodes estadístics, basats en observacions obtingudes en grans quantitats de text.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122815Z" creationid="fsanchez" creationdate="20161010T122815Z">
+        <seg>Las preferencias se suelen basar frecuentemente en métodos estadísticos, basados en observaciones obtenidas en grandes cantidades de texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Més exemples: &lt;n1&gt; Va parlar amb l'encarregat de la neteja de la seua casa &lt;n4&gt; &lt;n2&gt; Hi ha una bossa de roba perduda en la Secretaria de l'Escola &lt;n7&gt; &lt;n5&gt; &lt;u2&gt;{tuson99b} explica que aquesta última oració pot tenir fins a 12 interpretacions possibles.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144616Z" creationid="fsanchez" creationdate="20161009T144616Z">
@@ -786,6 +802,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141248Z" creationid="fsanchez" creationdate="20161009T141248Z">
         <seg>O por ejemplo, los idiomas difieren en la manera en la que expresan las relaciones entre dos nombres: mientras que en español se dice &lt;i14&gt;presidente &lt;i18&gt;de&lt;/i14&gt; Kazajistán&lt;/i18&gt;, en ruso se dice &lt;i15&gt;prezident Kazakhstan&lt;i19&gt;a&lt;/i15&gt;&lt;/i19&gt;, en vasco se dice &lt;i16&gt;Kazakstan&lt;i20&gt;go&lt;/i16&gt; presidente&lt;/i20&gt;, y en kazajo se dice &lt;i17&gt;Qazaqstan prezident&lt;i21&gt;i&lt;/i17&gt;&lt;/i21&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a acabar de resoldre l'ambigüitat, s'usen preferències: s'assigna algun tipus de puntuació o valor a cada interpretació per elegir la millor.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122810Z" creationid="fsanchez" creationdate="20161010T122810Z">
+        <seg>Para acabar de resolver la ambigüedad, se usan preferencias: se asigna algún tipo de puntuación o valor a cada interpretación para elegir la mejor.</seg>
       </tuv>
     </tu>
     <tu>
