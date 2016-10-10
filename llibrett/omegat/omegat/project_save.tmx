@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;i2&gt;Coto privado de caza&lt;/i2&gt; (1: ``Aquesta àrea de caça no és pública''; 2: ``Aquesta és una àrea sense caça'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131242Z" creationid="fsanchez" creationdate="20161010T131242Z">
+        <seg>&lt;u2&gt; &lt;i2&gt;Coto privado de caza'&lt;/i2&gt; (1: ``Esta área de caza no es pública"; 2: ``Esta es una área sin caza").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Hi ha vegades que només podem recórrer a una anàlisi semàntica; en l'exemple (ja discutit en la secció &lt;n8&gt;) &lt;n3&gt; [Els soldats]$_i$ van disparar [als xiquets]$_j$.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124831Z" creationid="fsanchez" creationdate="20161010T124831Z">
