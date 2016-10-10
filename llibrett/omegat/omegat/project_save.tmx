@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Hi ha vegades que només podem recórrer a una anàlisi semàntica; en l'exemple (ja discutit en la secció &lt;n8&gt;) &lt;n3&gt; [Els soldats]$_i$ van disparar [als xiquets]$_j$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124831Z" creationid="fsanchez" creationdate="20161010T124831Z">
+        <seg>&lt;u2&gt; Hay veces que sólo podemos recurrir a un análisis semántico; en el ejemplo (ya discutido en la sección &lt;n8&gt;) &lt;n3&gt; [Los soldados]$_i$ dispararon [a los niños]$_j$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
@@ -554,6 +562,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153150Z" creationid="fsanchez" creationdate="20161009T153150Z">
         <seg>Los triángulos se usan para no tener que indicar todos los detalles de un subárbol concreto.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els$_{i/j?}$ vaig veure caure &lt;n6&gt; s'ha d'usar informació semàntica per a saber quin és l'antecedent d'&lt;i9&gt;els&lt;/i9&gt; en la segona oració (&lt;i10&gt;els soldats&lt;/i10&gt; o &lt;i11&gt;els xiquets&lt;/i11&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124837Z" creationid="fsanchez" creationdate="20161010T124837Z">
+        <seg>Los$_{i/j?}$ vi caer &lt;n6&gt; se tiene que usar información semántica para saber cuál es el antecedente de&lt;i9&gt;los&lt;/i9&gt; la segunda oración (&lt;i10&gt;los soldados&lt;/i10&gt; o &lt;i11&gt;los niños&lt;/i11&gt;).</seg>
       </tuv>
     </tu>
     <tu>
