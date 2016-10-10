@@ -438,6 +438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Doncs bé, en aquests casos, es pot assignar més d'una forma lògica a una oració.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122538Z" creationid="fsanchez" creationdate="20161010T122538Z">
+        <seg>Pues bien, en estos casos, se puede asignar más de una forma lógica a una oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
@@ -682,6 +690,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143916Z" creationid="fsanchez" creationdate="20161009T143916Z">
         <seg>La oración tiene constituyentes que no se reflejan como palabras, pero a los que hay que asignar una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La interpretació de les oracions se sol explicar de vegades en termes de {&lt;u1&gt; formes lògiques} &lt;u3&gt;p[cap. 23]{radford09b}; en el cas de les oracions amb quantificadors, aquestes formes lògiques contenen d'una banda, &lt;i3&gt;variables&lt;/i3&gt; que poden referir-se a un rang d'objectes que cal considerar i, d'altra, operacions sobre aquestes variables.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122533Z" creationid="fsanchez" creationdate="20161010T122533Z">
+        <seg>La interpretación de las oraciones se suele explicar a veces en términos de {&lt;u1&gt; formas lógicas} &lt;u3&gt;p[cap.23]{radford09b}; en el caso de las oraciones con cuantificadores, estas formas lógicas contienen por un lado, &lt;i3&gt;variables&lt;/i3&gt; que pueden referirse a un rango de objetos que hay que considerar y, por otro, operaciones sobre estas variables.</seg>
       </tuv>
     </tu>
     <tu>
