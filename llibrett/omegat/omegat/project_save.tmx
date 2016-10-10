@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, pot ser polisèmic encara que la traducció a aquesta llengua de totes les interpretacions siga la mateixa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142625Z" creationid="fsanchez" creationdate="20161010T142625Z">
+        <seg>&lt;u2&gt; Sí, puede ser polisémica aunque la traducción a esta lengua de todas las interpretaciones sea la misma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
@@ -482,6 +490,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142601Z" creationid="fsanchez" creationdate="20161010T142601Z">
         <seg>&lt;u3&gt; Sí, usando la información morfológica de las palabras adyacentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí; pot ser homògraf i tractar-se d'un passi gratuït.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142634Z" creationid="fsanchez" creationdate="20161010T142634Z">
+        <seg>&lt;u3&gt; Sí; puede ser homógrafa y tratarse de un pase gratuito.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1922,6 +1938,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123103Z" creationid="fsanchez" creationdate="20161010T123103Z">
         <seg>Si cogemos un corpus (conjunto) suficientemente grande de textos en el que un experto ha indicado la categoría léxica de cada palabra y contamos cuántas veces aparecen todas las secuencias posibles de dos categorías léxicas, podemos usar estas frecuencias para asignar la categoría de una palabra ambigua: de todas las secuencias de tres palabras posibles que se puedan formar con esta palabra, cogeremos la más frecuente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si un mot té només una forma lèxica i una única traducció a una determinada llengua, pot ser encara ambigu?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142606Z" creationid="fsanchez" creationdate="20161010T142606Z">
+        <seg>¿Si una palabra tiene sólo una forma léxica y una única traducción a una determinada lengua, puede ser todavía ambigua?</seg>
       </tuv>
     </tu>
     <tu>
