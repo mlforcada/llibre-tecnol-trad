@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(*) En absència d'informació lèxica o semàntica, l'ambigüitat estructural{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} és impossible de resoldre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142529Z" creationid="fsanchez" creationdate="20161010T142529Z">
+        <seg>(*) En ausencia de información léxica o semántica, la ambigüedad estructural{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} es imposible de resolver.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(*) Hi ha ambigüitats de tipus lèxic que poden ser sempre correctament resoltes després de fer una anàlisi morfològica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141246Z" creationid="fsanchez" creationdate="20161010T141246Z">
@@ -350,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} es pot resoldre usant regles derivades d'un estudi de les preferències sintàctiques observades en experiments psicolingüístics.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142535Z" creationid="fsanchez" creationdate="20161010T142535Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} se puede resolver usando reglas derivadas de un estudio de las preferencias sintácticas observadas en experimentos psicolingüísticos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; {&lt;u6&gt;} hi ha algun error en l'anàlisi morfològica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142452Z" creationid="fsanchez" creationdate="20161010T142452Z">
@@ -442,6 +458,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143626Z" creationid="fsanchez" creationdate="20161009T143626Z">
         <seg>&lt;u3&gt; cambian el lema y los indicadores de flexión: la palabra española &lt;i5&gt;salan&lt;/i5&gt; puede ser la 3ª&lt;u6&gt;persona del plural del presente de indicativo del verbo salir o del presente de subjuntivo del verbo &lt;i6&gt;salar&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} no pot afectar mai el resultat de la traducció automàtica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142542Z" creationid="fsanchez" creationdate="20161010T142542Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} no puede afectar nunca al resultado de la traducción automática.</seg>
       </tuv>
     </tu>
     <tu>
