@@ -1078,6 +1078,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, si en un corpus bilingüe espanyol--català l'aparició de &lt;i7&gt;destino&lt;/i7&gt; prop d'&lt;i8&gt;incierto&lt;/i8&gt; en espanyol coincideix amb l'aparició de &lt;i9&gt;destí&lt;/i9&gt; en català, podem dir que el mot &lt;i10&gt;destino&lt;/i10&gt; té en aquest cas la interpretació de ``sort futura''; en canvi, si l'aparició de {&lt;u4&gt; destino} prop d'&lt;i11&gt;estación&lt;/i11&gt; o &lt;i12&gt;aeropuerto&lt;/i12&gt; en espanyol coincideix amb l'aparició &lt;i13&gt;destinació&lt;/i13&gt; en català, podem elegir el sentit de ``punt d'arribada''.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123747Z" creationid="fsanchez" creationdate="20161010T123747Z">
+        <seg>Por ejemplo, si en un corpus bilingüe español--catalán la aparición de &lt;i7&gt;destino&lt;/i7&gt; cerca de&lt;i8&gt;incierto&lt;/i8&gt; en español coincide con la aparición de &lt;i9&gt;destí&lt;/i9&gt; en catalán, podemos decir que la palabra &lt;i10&gt;destino&lt;/i10&gt; tiene en este caso la interpretación de ``suerte futura''; en cambio, si la aparición de {&lt;u4&gt; destino} cerca de&lt;i11&gt;estación&lt;/i11&gt; o &lt;i12&gt;aeropuerto&lt;/i12&gt; en español coincide con la aparición &lt;i13&gt;destinació&lt;/i13&gt; en catalán, podemos elegir el sentido de ``punto de llegada''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, una preposició no pot anar seguida d'una altra preposició.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123013Z" creationid="fsanchez" creationdate="20161010T123013Z">
