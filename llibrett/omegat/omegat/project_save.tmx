@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; &lt;i1&gt;Els lladres van ser atrapats a una fàbrica incendiada per un policia&lt;/i1&gt; (1: ``Els lladres van ser capturats pel comissari a una fàbrica abandonada''; 2: ``La fàbrica on van ser capturats va ser l'objectiu d'un agent piròman'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131207Z" creationid="fsanchez" creationdate="20161010T131207Z">
+        <seg>&lt;u1&gt; &lt;i1&gt;Los ladrones fueron atrapados en una fábrica incendiada por un policía&lt;/i1&gt; (1: ``Los ladrones fueron capturados por el comisario en una fábrica abandonada"; 2: ``La fábrica donde fueron capturados fue el objetivo de un agente pirómano").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Considereu aquestes dues frases estructuralment idèntiques afectades per la mateixa ambigüitat estructural pura d'adjunció: &lt;n1&gt; &lt;n3&gt; Porta'm les claus de l'armari gran &lt;n5&gt; &lt;n2&gt; &lt;n4&gt; Porta'm les claus de la cadira verda &lt;n6&gt; En l'oració &lt;n9&gt;, podem dubtar, ja que no sabem si les claus són les que obrin l'armari o les que estan allà guardades.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130836Z" creationid="fsanchez" creationdate="20161010T130836Z">
