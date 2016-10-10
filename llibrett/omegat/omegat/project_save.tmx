@@ -390,6 +390,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí, només mirant la categoria lèxica dels mots anteriors i la dels posteriors ja hi ha prou per a saber en quin dels dos casos ens trobem.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141932Z" creationid="fsanchez" creationdate="20161010T141932Z">
+        <seg>&lt;u3&gt; Sí, sólo mirando la categoría léxica de las palabras anteriores y la de los posteriores ya hay bastante para saber en cuál de los dos casos nos encontramos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; canvien el lema i els indicadors de flexió: el mot espanyol &lt;i5&gt;salen&lt;/i5&gt; pot ser la 3a.&lt;u6&gt;persona del plural del present d'indicatiu del verb salir o del present de subjuntiu del verb &lt;i6&gt;salar&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143626Z" creationid="fsanchez" creationdate="20161009T143626Z">
