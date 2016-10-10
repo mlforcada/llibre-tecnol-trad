@@ -678,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'ambigüitat es redueix normalment usant restriccions basades en el coneixement lingüístic, i, com que normalment això no sol ser suficient, s'hi estableixen preferències basades en l'estudi estadístic de la freqüència d'aparició conjunta en els textos de determinades seqüències curtes de categories lèxiques.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122827Z" creationid="fsanchez" creationdate="20161010T122827Z">
+        <seg>La ambigüedad se reduce normalmente usando restricciones basadas en el conocimiento lingüístico, y, como normalmente con esto no suele ser suficiente, se establecen preferencias basadas en el estudio estadístico de la frecuencia de aparición conjunta en los textos de determinadas secuencias cortas de categorías léxicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'ambigüitat estructural associada a les conjuncions coordinatives se sol anomenar &lt;i2&gt;d'origen coordinatiu&lt;/i2&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144212Z" creationid="fsanchez" creationdate="20161009T144212Z">
@@ -1306,6 +1314,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122722Z" creationid="fsanchez" creationdate="20161010T122722Z">
         <seg>{Estrategias de resolución de la ambigüedad} En general, los humanos usamos nuestros conocimientos, nuestras expectativas y nuestras creencias sobre el funcionamiento del mundo real (o de un mundo ficticio concreto, como en una novela) para elegir una de las interpretaciones como la más verosímil (es decir, para &lt;i0&gt;resolver la ambigüedad&lt;/i0&gt;); cuando los conocimientos, las creencias y las expectativas están compartidas entre el emisor y el receptor, se puede usar la ambigüedad como un mecanismo muy eficiente para producir mensajes más cortos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Resolució de l'ambigüitat lèxica categorial} &lt;n0&gt; La resolució de l'ambigüitat lèxica categorial dels mots homògrafs, altrament coneguda com etiquetatge (dels mots) amb parts de l'oració (en anglés, &lt;i0&gt;part-of-speech (PoS) tagging&lt;/i0&gt;) està molt ben estudiada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122824Z" creationid="fsanchez" creationdate="20161010T122824Z">
+        <seg>{Resolución de la ambigüedad léxica categorial} &lt;n0&gt; La resolución de la ambigüedad léxica categorial de las palabras homógrafas, también conocida como etiquetado (de las palabras) con partes de la oración (en inglés, &lt;i0&gt;part of speech (PoS) tagging&lt;/i0&gt;) está muy bien estudiada.</seg>
       </tuv>
     </tu>
     <tu>
