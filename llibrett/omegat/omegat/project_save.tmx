@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquesta informació podria servir per a traduir després de l'espanyol a l'anglés i elegir {&lt;u5&gt; destiny} o &lt;i14&gt;destination&lt;/i14&gt; en cada cas amb molta probabilitat d'èxit.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123804Z" creationid="fsanchez" creationdate="20161010T123804Z">
+        <seg>Esta información podría servir para traducir después del español al inglés y elegir {&lt;u5&gt; destiny} o &lt;i14&gt;destination&lt;/i14&gt; en cada caso con mucha probabilidad de éxito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquesta omissió dóna lloc a una ambigüitat.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144017Z" creationid="fsanchez" creationdate="20161009T144017Z">
