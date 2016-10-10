@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="CA">
+        <seg>(*) Considereu l'homògraf espanyol &lt;i0&gt;vendo&lt;/i0&gt; (``Te vendo un coche'' ``Y yo, ¿para qué quiero un coche vendado?'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141810Z" creationid="fsanchez" creationdate="20161010T141810Z">
+        <seg>Considerad el homógrafo &lt;i0&gt;vendo&lt;/i0&gt; (``Te vendo un coche'' ``Y yo, ¿para qué quiero un coche vendado?'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(*) Hi ha ambigüitats de tipus lèxic que poden ser sempre correctament resoltes després de fer una anàlisi morfològica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141246Z" creationid="fsanchez" creationdate="20161010T141246Z">
@@ -1018,6 +1026,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125704Z" creationid="fsanchez" creationdate="20161010T125704Z">
         <seg>Se podría argumentar en contra fácilmente diciendo que en frases complejas (por ejemplo, la oración &lt;n1&gt;) hay demasiadas estructuras a considerar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es pot resoldre l'ambigüitat lèxica a què dóna lloc usant només informació sintàctica (és a dir, sobre les categories lèxiques que l'acompanyen en l'oració)?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141819Z" creationid="fsanchez" creationdate="20161010T141819Z">
+        <seg>¿Se puede resolver la ambigüedad léxica a la que da lugar usando sólo información sintáctica (es decir, sobre las categorías léxicas que lo acompañan en la oración)?</seg>
       </tuv>
     </tu>
     <tu>
