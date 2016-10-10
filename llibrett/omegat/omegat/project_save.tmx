@@ -1254,6 +1254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Estratègies de resolució de l'ambigüitat} En general, els humans usem els nostres coneixements, les nostres expectatives i les nostres creences sobre el funcionament del món real (o d'un món fictici concret, com en una novel·la) per a elegir una de les interpretacions com a més versemblant (és a dir, per a &lt;i0&gt;resoldre l'ambigüitat&lt;/i0&gt;); quan els coneixements, les creences i les expectatives són compartides entre l'emissor i el receptor, es pot usar l'ambigüitat com un mecanisme molt eficient per a produir missatges més curts.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122722Z" creationid="fsanchez" creationdate="20161010T122722Z">
+        <seg>{Estrategias de resolución de la ambigüedad} En general, los humanos usamos nuestros conocimientos, nuestras expectativas y nuestras creencias sobre el funcionamiento del mundo real (o de un mundo ficticio concreto, como en una novela) para elegir una de las interpretaciones como la más verosímil (es decir, para &lt;i0&gt;resolver la ambigüedad&lt;/i0&gt;); cuando los conocimientos, las creencias y las expectativas están compartidas entre el emisor y el receptor, se puede usar la ambigüedad como un mecanismo muy eficiente para producir mensajes más cortos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{ambigüitat estructural} Altres tipus d'ambigüitat estructural: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;Ambigüitat estructural deguda a l'el·lipsi&lt;/i0&gt; d'un o més constituents de l'oració, especialment quan aquesta oració hauria de tenir, si s'hagués produït en forma explícita, una estructura paral·lela a la d'una oració anterior (per exemple, en coordinacions, comparacions, etc.).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144829Z" creationid="fsanchez" creationdate="20161009T144829Z">
