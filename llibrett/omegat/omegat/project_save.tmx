@@ -1526,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Resolució de l'anàfora.} La resolució de l'anàfora ---és a dir, la determinació de l'{&lt;u1&gt; antecedent} d'un pronom o d'una altra expressió anafòrica--- es pot basar també en restriccions i preferències.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123813Z" creationid="fsanchez" creationdate="20161010T123813Z">
+        <seg>{Resolución de la anáfora.} La resolución de la anáfora ---es decir, la determinación del {&lt;u1&gt; antecedente} de un pronombre o de otra expresión anafórica--- se puede basar también en restricciones y preferencias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{ambigüitat estructural} Altres tipus d'ambigüitat estructural: &lt;n1&gt; &lt;u0&gt; &lt;i0&gt;Ambigüitat estructural deguda a l'el·lipsi&lt;/i0&gt; d'un o més constituents de l'oració, especialment quan aquesta oració hauria de tenir, si s'hagués produït en forma explícita, una estructura paral·lela a la d'una oració anterior (per exemple, en coordinacions, comparacions, etc.).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144829Z" creationid="fsanchez" creationdate="20161009T144829Z">
