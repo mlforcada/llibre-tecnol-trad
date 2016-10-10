@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(*) Moltes vegades, l'ambigüitat lèxica no és ni polisèmia (&lt;i0&gt;estació&lt;/i0&gt;, &lt;i1&gt;bomba&lt;/i1&gt;), ni ambigüitat lèxica amb canvi de categoria gramatical (&lt;i2&gt;sobre&lt;/i2&gt; [preposició, substantiu i, en la varietat valenciana, verb], &lt;i3&gt;riu&lt;/i3&gt; [substantiu i verb]) sinó que succeeix perquè dues formes &lt;i4&gt;de la mateixa categoria lèxica&lt;/i4&gt; són homògrafes: &lt;i5&gt;volem&lt;/i5&gt; pot ser una forma del verb &lt;i6&gt;volar&lt;/i6&gt; i del verb &lt;i7&gt;voler&lt;/i7&gt;; &lt;i8&gt;podeu&lt;/i8&gt; pot ser una forma del verb &lt;i9&gt;poder&lt;/i9&gt; i del verb &lt;i10&gt;podar&lt;/i10&gt;; en espanyol, &lt;i11&gt;creo&lt;/i11&gt; és una forma de &lt;i12&gt;creer&lt;/i12&gt; o de &lt;i13&gt;crear&lt;/i13&gt;, &lt;i14&gt;fui&lt;/i14&gt; és una forma de &lt;i15&gt;ir&lt;/i15&gt; o de &lt;i16&gt;ser&lt;/i16&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142158Z" creationid="fsanchez" creationdate="20161010T142158Z">
+        <seg>(*) Muchas veces, la ambigüedad léxica no es ni polisemia (&lt;i0&gt;estación&lt;/i0&gt;, &lt;i1&gt;bomba&lt;/i1&gt;), ni ambigüedad léxica con cambio de categoría gramatical (&lt;i2&gt;sobre&lt;/i2&gt; [preposición y sustantivo], &lt;i3&gt;río&lt;/i3&gt; [sustantivo y verbo]) sino que sucede porque dos formas &lt;i4&gt;de la misma categoría léxica&lt;/i4&gt; son homógrafas: en catalán &lt;i5&gt;volem&lt;/i5&gt; puede ser una forma del verbo &lt;i6&gt;volar&lt;/i6&gt; y del verbo &lt;i7&gt;voler&lt;/i7&gt;; en catalán &lt;i8&gt;podeu&lt;/i8&gt; puede ser una forma del verbo &lt;i9&gt;poder&lt;/i9&gt; y del verbo &lt;i10&gt;podar&lt;/i10&gt;; en español, &lt;i11&gt;creo&lt;/i11&gt; es una forma de &lt;i12&gt;creer&lt;/i12&gt; o del verbo &lt;i13&gt;crear&lt;/i13&gt;, &lt;i14&gt;fui&lt;/i14&gt; es una forma de &lt;i15&gt;ir&lt;/i15&gt; o de &lt;i16&gt;ser&lt;/i16&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(.SN.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144619Z" creationid="fsanchez" creationdate="20161009T144619Z">
