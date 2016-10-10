@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124959Z" creationid="fsanchez" creationdate="20161010T124959Z">
+        <seg>&lt;n1&gt; Esto se suele instrumentar a través de un sistema que asigna &lt;i2&gt;puntuaciones&lt;/i2&gt; por cada una de las características: se suman las puntuaciones para todos los antecedentes posibles y se elige el que obtiene la puntuación más alta &lt;u5&gt;{lappin94j}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Les dues causes poden concórrer.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141812Z" creationid="fsanchez" creationdate="20161009T141812Z">
