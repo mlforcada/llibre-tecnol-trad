@@ -294,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Estructural d'origen categorial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141621Z" creationid="fsanchez" creationdate="20161010T141621Z">
+        <seg>&lt;u3&gt; Estructural de origen categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; canvien el lema i els indicadors de flexió: el mot espanyol &lt;i5&gt;salen&lt;/i5&gt; pot ser la 3a.&lt;u6&gt;persona del plural del present d'indicatiu del verb salir o del present de subjuntiu del verb &lt;i6&gt;salar&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143626Z" creationid="fsanchez" creationdate="20161009T143626Z">
