@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; Considereu aquestes dues frases estructuralment idèntiques afectades per la mateixa ambigüitat estructural pura d'adjunció: &lt;n1&gt; &lt;n3&gt; Porta'm les claus de l'armari gran &lt;n5&gt; &lt;n2&gt; &lt;n4&gt; Porta'm les claus de la cadira verda &lt;n6&gt; En l'oració &lt;n9&gt;, podem dubtar, ja que no sabem si les claus són les que obrin l'armari o les que estan allà guardades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130836Z" creationid="fsanchez" creationdate="20161010T130836Z">
+        <seg>&lt;u1&gt; Considerad estas dos frases estructuralmente idénticas afectadas por la misma ambigüedad estructural pura de adjunción: &lt;n1&gt; &lt;n3&gt; Tráeme las llaves del armario grande &lt;n5&gt; &lt;n2&gt; &lt;n4&gt; Tráeme las llaves de la silla verde &lt;n6&gt; En la oración &lt;n9&gt;, podemos dudar, puesto que no sabemos si las llaves son las que abren el armario o las que están allá guardadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; L'estadística d'aparició conjunta de mots en corpus bilingües de textos pot ajudar a resoldre directament l'ambigüitat de transferència quan es disposa de diccionaris de transferència o quan els textos estan alineats.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123712Z" creationid="fsanchez" creationdate="20161010T123712Z">
