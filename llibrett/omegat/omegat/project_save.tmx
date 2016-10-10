@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Considerem l'exemple de &lt;n3&gt; &lt;n1&gt; Totes les dones no s'estimen els abrics de pell.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122233Z" creationid="fsanchez" creationdate="20161010T122233Z">
+        <seg>Consideremos el ejemplo de &lt;n3&gt; &lt;n1&gt; Todas las mujeres no aprecian los abrigos de piel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Considerem l'oració &lt;n0&gt; Qui diu que vindrà?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151157Z" creationid="fsanchez" creationdate="20161009T151157Z">
