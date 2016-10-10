@@ -902,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els sistemes de traducció mot per mot poden cometre, per exemple, errors deguts a l'elecció incorrecta de la categoria gramatical d'un mot lèxicament ambigu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142427Z" creationid="fsanchez" creationdate="20161010T142427Z">
+        <seg>Los sistemas de traducción palabra por palabra pueden cometer, por ejemplo, errores debidos a la elección incorrecta de la categoría gramatical de una palabra léxicamente ambigua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els triangles s'usen per a no haver d'indicar tots els detalls d'un subarbre concret.}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153150Z" creationid="fsanchez" creationdate="20161009T153150Z">
@@ -1426,6 +1434,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130913Z" creationid="fsanchez" creationdate="20161010T130913Z">
         <seg>Para poder responder a las preguntas marcadas con (*) hace falta que os leáis los cuadros &lt;i0&gt;Para saber más&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a resoldre l'ambigüitat d'un mot polisèmic s'ha d'usar informació semàntica; per a resoldre l'ambigüitat lèxica categorial sol ser suficient usar informació sintàctica (per exemple, la categoria gramatical del mots anterior i posterior); però, és possible resoldre l'ambigüitat deguda a l'homografia de mots de la mateixa categoria usant només la sintaxi o és necessari l'ús d'informació semàntica?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142421Z" creationid="fsanchez" creationdate="20161010T142421Z">
+        <seg>Para resolver la ambigüedad de una palabra polisémica se tiene que usar información semántica; para resolver la ambigüedad léxica categorial suele ser suficiente con usar información sintáctica (por ejemplo, la categoría gramatical de la palabra anterior y posterior); pero, ¿es posible resolver la ambigüedad debida a la homografía de palabras de la misma categoría usando sólo la sintaxis o es necesario el uso de información semántica?</seg>
       </tuv>
     </tu>
     <tu>
