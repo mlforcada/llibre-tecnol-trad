@@ -1206,6 +1206,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per a inspirar-vos, fixeu-vos en els següents exemples: &lt;n0&gt; &lt;u1&gt; &lt;i0&gt;Va aprendre en dos minuts a afaitar-se&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;Va aprendre a afaitar-se en dos minuts&lt;/i1&gt; &lt;u3&gt; &lt;i2&gt;Porta'm les claus de l'armari gran&lt;/i2&gt; &lt;u4&gt; &lt;i3&gt;Porta'm de l'armari gran les claus&lt;/i3&gt; &lt;u5&gt; &lt;i4&gt;Porta'm les claus de la cadira verda&lt;/i4&gt; &lt;u6&gt; &lt;i5&gt;Toni comprarà les taronges que ha de vendre a Reme&lt;/i5&gt; &lt;u7&gt; &lt;i6&gt;Toni comprarà a Reme les taronges que ha de vendre</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141526Z" creationid="fsanchez" creationdate="20161010T141526Z">
+        <seg>Para inspiraros, fijaos en los siguientes ejemplos: &lt;n0&gt; &lt;u1&gt; &lt;i0&gt;Aprendió en dos minutos a afeitarse&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;Aprendió a afeitarse en dos minutos&lt;/i1&gt; &lt;u3&gt; &lt;i2&gt;Tráeme las llaves del armario grande&lt;/i2&gt; &lt;u4&gt; &lt;i3&gt;Tráeme del armario grande las llaves&lt;/i3&gt; &lt;u5&gt; &lt;i4&gt;Tráeme las llaves de la silla verde&lt;/i4&gt; &lt;u6&gt; &lt;i5&gt;Toni comprará las naranjas que tiene que vender a Reme&lt;/i5&gt; &lt;u7&gt; &lt;i6&gt;Toni comprará a Reme las naranjas que tiene que vender</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per a poder respondre a les preguntes marcades amb (*) cal que us llegiu els quadres &lt;i0&gt;Per saber més&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130913Z" creationid="fsanchez" creationdate="20161010T130913Z">
@@ -1578,6 +1586,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123103Z" creationid="fsanchez" creationdate="20161010T123103Z">
         <seg>Si cogemos un corpus (conjunto) suficientemente grande de textos en el que un experto ha indicado la categoría léxica de cada palabra y contamos cuántas veces aparecen todas las secuencias posibles de dos categorías léxicas, podemos usar estas frecuencias para asignar la categoría de una palabra ambigua: de todas las secuencias de tres palabras posibles que se puedan formar con esta palabra, cogeremos la más frecuente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si una oració té només una ambigüitat lèxica pura&lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; té un únic arbre d'anàlisi sintàctica, però més d'una anàlisi morfològica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141535Z" creationid="fsanchez" creationdate="20161010T141535Z">
+        <seg>Si una oración tiene sólo una ambigüedad léxica pura&lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; tiene un único árbol de análisis sintáctico, pero más de un análisis morfológico.</seg>
       </tuv>
     </tu>
     <tu>
