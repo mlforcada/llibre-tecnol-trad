@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(1: ``Els inversors, la veritat, prestaven més atenció a la venedora que al producte''; 2: ``Els va agradar l'estil de la descripció''; 3: ``La venedora no parlava clar, la descripció era incompleta, però a pesar de tot, la urbanització era una inversió prometedora'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141232Z" creationid="fsanchez" creationdate="20161010T141232Z">
+        <seg>(1: ``Los inversores, la verdad, prestaban más atención a la vendedora que al producto"; 2: ``Les gustó el estilo de la descripción"; 3: ``La vendedora no hablaba claro, la descripción estaba incompleta, pero a pesar de todo, la urbanización era una inversión prometedora").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>--I les creus?&lt;/i0&gt; (1: ``Creus aquestes notícies?'' 2: ``Els crucifixos també han rebrotat?'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T140959Z" creationid="fsanchez" creationdate="20161010T140959Z">
@@ -186,6 +194,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131242Z" creationid="fsanchez" creationdate="20161010T131242Z">
         <seg>&lt;u2&gt; &lt;i2&gt;Coto privado de caza'&lt;/i2&gt; (1: ``Esta área de caza no es pública"; 2: ``Esta es una área sin caza").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;i2&gt;Després que la venedora acabà la descripció dels avantatges de la urbanització projectada, el comentari unànime dels inversors va ser que la trobaven molt interessant&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141222Z" creationid="fsanchez" creationdate="20161010T141222Z">
+        <seg>&lt;u2&gt; &lt;i2&gt;Después de que la vendedora acabara la descripción de las ventajas de la urbanización proyectada, el comentario unánime de los inversores fue que les parecía muy interesante'&lt;/i2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
