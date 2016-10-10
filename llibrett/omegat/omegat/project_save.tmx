@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest fitxer pot contenir, a més del text mateix, informació sobre la presentació (el format dels paràgrafs i de les pàgines, els tipus i les grandàries de lletra que s'usen amb cada mot, etc.) o sobre l'organització del contingut (indicacions que una determinada part del text és un títol de capítol, el títol d'una secció o una nota a peu de pàgina, etc.).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="japerez" changedate="20161010T100416Z" creationid="japerez" creationdate="20161010T100416Z">
+        <seg>Este fichero puede contener, además del texto mismo, información sobre la presentación (el formato de los párrafos y de las páginas, los tipos y los tamaños de letra que se usan con cada palabra, etc.) o sobre la organización del contenido (indicaciones de que una determinada parte del texto es un título de capítulo, el título de una sección o una nota a pie de página, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest tipus d'ambigüitat lèxica pot provocar de vegades ambigüitat estructural, causada per la presència de més d'una anàlisi sintàctica acceptable (si, tot i els homògrafs, només n'hi ha una anàlisi acceptable, l'ambigüitat passa desapercebuda per al receptor; això és així perquè habitualment només es consideren estructures acceptables quan es vol assignar interpretació a una oració).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152213Z" creationid="fsanchez" creationdate="20161009T152213Z">
@@ -946,6 +954,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142135Z" creationid="fsanchez" creationdate="20161009T142135Z">
         <seg>Una palabra (y, en general, una unidad léxica de más de una palabra) se puede ver desde dos perspectivas; por un lado, la &lt;i0&gt;forma superficial&lt;/i0&gt; de la palabra es la forma concreta que aparece en el texto: &lt;i1&gt;cantábamos&lt;/i1&gt;; por otra parte, tenemos la &lt;i2&gt;forma léxica&lt;/i2&gt;, que consiste en &lt;n3&gt; &lt;u1&gt; un &lt;i3&gt;lema&lt;/i3&gt; o &lt;i4&gt;forma canónica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u2&gt; una &lt;i6&gt;categoría léxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; clase de palabra, o parte de la oración (verbo) y &lt;u3&gt; unos &lt;i7&gt;indicadores de flexión&lt;/i7&gt; que expresan las características morfológicas o flexivas (primera persona, nombre plural, tiempo pretérito imperfecto, modo indicativo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un text informatitzat pot tenir orígens diversos: &lt;n0&gt; &lt;u0&gt; Pot haver estat generat per un altre programa d'ordinador, per exemple a partir de les dades contingudes en alguna base de dades (vegeu el capítol &lt;n1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="japerez" changedate="20161010T100451Z" creationid="japerez" creationdate="20161010T100441Z">
+        <seg>Un texto informatizado puede tener orígenes diversos: &lt;n0&gt; &lt;u0&gt; Puede haber sido generado por otro programa de ordenador, por ejemplo a partir de los datos contenidos en alguna base de datos (véase el capítulo &lt;n1&gt;).</seg>
       </tuv>
     </tu>
     <tu>
