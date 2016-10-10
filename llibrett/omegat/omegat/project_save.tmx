@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A pesar de haber sido soldado, salió despedido del avión&lt;/i0&gt; (1: ``El sistema fotogràfic estava fortament fixat al fuselatge però es va soltar de l'aparell quan l'avió va girar en ple vol''; 2: ``Malgrat el seu passat militar gloriós, el president el va destituir abans d'arribar a l'aeroport de destinació'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131139Z" creationid="fsanchez" creationdate="20161010T131139Z">
+        <seg>A pesar de haber sido soldado, salió despedido del avión&lt;/i0&gt; (1: ``El sistema fotográfico estaba fuertemente fijado al fuselaje pero se soltó del aparato cuando el avión giró en pleno vuelo''; 2: ``A pesar de su pasado militar glorioso, el presidente lo destituyó antes de llegar al aeropuerto de destino'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141417Z" creationid="fsanchez" creationdate="20161009T141417Z">
