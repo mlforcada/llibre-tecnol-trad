@@ -1422,6 +1422,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Una altra regla que se sol usar és la d'&lt;i11&gt;adjunció mínima&lt;/i11&gt; ---en anglés &lt;i12&gt;minimal attachment&lt;/i12&gt;--- que afavoreix l'arbre sintàctic amb el mínim de nodes (punts de ramificació).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130514Z" creationid="fsanchez" creationdate="20161010T130514Z">
+        <seg>Otra regla que se suele usar es la de &lt;i11&gt;adjunción mínima&lt;/i11&gt; ---en inglés &lt;i12&gt;minimal attachment&lt;/i12&gt;--- que favorece el árbol sintáctico con el mínimo de nodos (puntos de ramificación).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una ambigüitat que és molt semblant a l'ambigüitat lèxica pura es produeix quan una expressió idiomàtica es pren bé com a tal o bé en sentit literal.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143214Z" creationid="fsanchez" creationdate="20161009T143214Z">
