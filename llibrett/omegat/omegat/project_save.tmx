@@ -1126,6 +1126,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si prenem un corpus (conjunt) suficientment gran de textos on un expert ha indicat la categoria lèxica de cada mot i comptem quantes voltes apareixen totes les seqüències possibles de dues categories lèxiques, podem usar aquestes freqüències per a assignar la categoria d'un mot ambigu: de totes les seqüències de tres mots possibles que es puguen formar amb aquest mot, en prendrem la més freqüent.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123103Z" creationid="fsanchez" creationdate="20161010T123103Z">
+        <seg>Si cogemos un corpus (conjunto) suficientemente grande de textos en el que un experto ha indicado la categoría léxica de cada palabra y contamos cuántas veces aparecen todas las secuencias posibles de dos categorías léxicas, podemos usar estas frecuencias para asignar la categoría de una palabra ambigua: de todas las secuencias de tres palabras posibles que se puedan formar con esta palabra, cogeremos la más frecuente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si una oració és ambigua quan té més d'una interpretació possible, això pot tenir dues causes bàsiques: &lt;n0&gt; &lt;u0&gt; un o més mots de l'oració tenen més d'una interpretació possible (és a dir, són &lt;i0&gt;lèxicament ambigus&lt;/i0&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141751Z" creationid="fsanchez" creationdate="20161009T141751Z">
