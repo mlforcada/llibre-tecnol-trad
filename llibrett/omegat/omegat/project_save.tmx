@@ -566,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En paraules de &lt;u2&gt;t[p. 364]{radford99b} ``hem de reconéixer [l'existència] d'un buit inacceptable entre el que proporciona la sintaxi i el que la semàntica necessita en el cas d'oracions que continguen sintagmes nominals quantificats''.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122519Z" creationid="fsanchez" creationdate="20161010T122519Z">
+        <seg>En palabras de &lt;u2&gt;t[p.364]{radford99b} ``tenemos que reconocer [la existencia] de un vacío inaceptable entre lo que proporciona la sintaxis y lo que la semántica necesita en el caso de oraciones que contengan sintagmas nominales cuantificados''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es concedeix permís per a copiar, distribuir i/o modificar aquest document d'acord amb les condicions de la Llicència General Pública de GNU versió 3 (vegeu &lt;u1&gt;{http://www.gnu.org/licenses/gpl-3.0.txt}) o de la llicencia Creative Commons Reconeixement-CompatirIgual 4.0 Internacional (vegeu &lt;u2&gt;{http://creativecommons.org/licenses/by-sa/4.0/}).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115944Z" creationid="fsanchez" creationdate="20161005T115944Z">
