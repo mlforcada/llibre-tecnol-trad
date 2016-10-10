@@ -470,6 +470,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De fet, hi ha experiments psicolingüístics que indiquen que de vegades usem estratègies fonamentalment sintàctiques, elegint entre les possibles estructures fins i tot quan no hem sentit o llegit tota l'oració, potser per evitar un esforç intel·lectual excessiu, ja que hi pot haver moltíssimes interpretacions parcials.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125725Z" creationid="fsanchez" creationdate="20161010T125725Z">
+        <seg>De hecho, hay experimentos psicolingüísticos que indican que a veces usamos estrategias puramente sintácticas, eligiendo entre las posibles estructuras incluso cuando no hemos oído o leído toda la oración, quizás para evitar un esfuerzo intelectual excesivo, puesto que puede haber muchísimas interpretaciones parciales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De fet, per a evitar aquesta ambigüitat, es considera convenient &lt;i1&gt;però no obligatòria&lt;/i1&gt; en català la solució alternativa amb preposició &lt;i2&gt;als gal·lesos&lt;/i2&gt; per a la segona interpretació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144804Z" creationid="fsanchez" creationdate="20161009T144804Z">
