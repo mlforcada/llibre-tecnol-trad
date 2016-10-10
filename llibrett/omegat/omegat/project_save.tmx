@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u4&gt; &lt;i4&gt;El manifestant es refà de la pallissa que li van donar en l'hospital&lt;/i4&gt; (1: ``La manifestació va ser una mica violenta i algunes persones han hagut de ser traslladades a l'hospital''; 2: ``Quina pallissa va donar-li la infermera al quiròfan!'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T133054Z" creationid="fsanchez" creationdate="20161010T133054Z">
+        <seg>&lt;u4&gt; &lt;i4&gt;El manifestante se recupera de la paliza que le dieron en el hospital&lt;/i4&gt; (1: ``La manifestación fue un poco violenta y algunas personas han tenido que ser trasladadas al hospital"; 2: ``¡Qué paliza le dio la enfermera en el quirófano!").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt; &lt;i19&gt;Ambigüitat dins de la mateixa categoria lèxica sense canvi de lema&lt;/i19&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142341Z" creationid="fsanchez" creationdate="20161009T142341Z">
