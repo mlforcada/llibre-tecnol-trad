@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Una ambigüitat lèxica per homografia d'un mot.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142700Z" creationid="fsanchez" creationdate="20161010T142700Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Una ambigüedad léxica por homografía de una palabra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125356Z" creationid="fsanchez" creationdate="20161010T124959Z">
@@ -382,6 +390,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Una ambigüitat lèxica pura per polisèmia d'un mot.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142702Z" creationid="fsanchez" creationdate="20161010T142702Z">
+        <seg>&lt;u2&gt; Una ambigüedad léxica pura por polisemia de una palabra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
@@ -498,6 +514,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142634Z" creationid="fsanchez" creationdate="20161010T142634Z">
         <seg>&lt;u3&gt; Sí; puede ser homógrafa y tratarse de un pase gratuito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Una anàfora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142703Z" creationid="fsanchez" creationdate="20161010T142703Z">
+        <seg>&lt;u3&gt; Una anáfora.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1938,6 +1962,22 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123103Z" creationid="fsanchez" creationdate="20161010T123103Z">
         <seg>Si cogemos un corpus (conjunto) suficientemente grande de textos en el que un experto ha indicado la categoría léxica de cada palabra y contamos cuántas veces aparecen todas las secuencias posibles de dos categorías léxicas, podemos usar estas frecuencias para asignar la categoría de una palabra ambigua: de todas las secuencias de tres palabras posibles que se puedan formar con esta palabra, cogeremos la más frecuente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si traduim automàticament la frase catalana &lt;i0&gt;Hilari no coneix bé la Mariona: cada dia troba sorprenent el que fa&lt;/i0&gt; i obtenim en anglés &lt;i1&gt;Hilari does not know Mariona well: every day he finds what he does astonishing&lt;/i1&gt; o en francés &lt;i2&gt;Hilari ne connaît pas bien Mariona: tous les jours elle trouve ce qu'il fait etonnant&lt;/i2&gt;, quin tipus d'ambigüitat ha estat mal resolta?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142709Z" creationid="fsanchez" creationdate="20161010T142709Z">
+        <seg>Si *traduim automáticamente la frase catalana &lt;i0&gt;Hilari no coneix bé la Mariona: cada dia troba sorprenento el que fa&lt;/i0&gt; y obtenemos en inglés &lt;i1&gt;Hilari does not know Mariona well: every day he finds what he does astonishing&lt;/i1&gt; o en francés &lt;i2&gt;Hilari ne connaît bien Mariona: tous les jours elle trouve ce qu''il fait etonnant&lt;/i2&gt;, ¿qué tipo de ambigüedad ha sido mal resuelta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si traduïm automàticament la frase espanyola &lt;i0&gt;Ayer cantamos las mismas canciones&lt;/i0&gt; i obtenim en anglés &lt;i1&gt;Yesterday we sing the same songs&lt;/i1&gt; o en francés &lt;i2&gt;Hier nous chantons les mêmes chansons&lt;/i2&gt;, quin tipus d'ambigüitat ha estat mal resolta?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142656Z" creationid="fsanchez" creationdate="20161010T142656Z">
+        <seg>Si traducimos automáticamente la frase &lt;i0&gt;Ayer cantamos las mismas canciones&lt;/i0&gt; y obtenemos en inglés &lt;i1&gt;Yesterday we sing the same songs&lt;/i1&gt; o en francés &lt;i2&gt;Hier nous chantons las mêmes chansons&lt;/i2&gt;, ¿qué tipo de ambigüedad ha sido mal resuelta?</seg>
       </tuv>
     </tu>
     <tu>
