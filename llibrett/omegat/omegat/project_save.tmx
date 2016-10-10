@@ -534,6 +534,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En alguns casos, les restriccions poden ser suficients.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122844Z" creationid="fsanchez" creationdate="20161010T122844Z">
+        <seg>En algunos casos, las restricciones pueden ser suficientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En aquest capítol ens fixarem molt especialment en l'ambigüitat de les oracions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141529Z" creationid="fsanchez" creationdate="20161009T141529Z">
@@ -874,6 +882,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143051Z" creationid="fsanchez" creationdate="20161009T143051Z">
         <seg>Por ejemplo, la palabra &lt;i2&gt;estación&lt;/i2&gt; (forma léxica: &lt;i3&gt;estación&lt;/i3&gt;, sustantivo, femenino singular) es polisémica porque el lema correspondiente tiene más de una interpretación: lugar donde se paran temporalmente los trenes, parte del año comprendida entre un solsticio y un equinoccio, conjunto de instalaciones para un propósito determinado (por ejemplo, el esquí), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el mot espanyol &lt;i0&gt;ahorro&lt;/i0&gt; pot ser substantiu o verb.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122849Z" creationid="fsanchez" creationdate="20161010T122849Z">
+        <seg>Por ejemplo, la palabra &lt;i0&gt;ahorro&lt;/i0&gt; puede ser sustantivo o verbo.</seg>
       </tuv>
     </tu>
     <tu>
