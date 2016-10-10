@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; té un únic arbre d'anàlisi sintàctica i una única anàlisi morfològica, però dues interpretacions se­màn­ti­ques diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141540Z" creationid="fsanchez" creationdate="20161010T141540Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; tiene un único árbol de análisis sintáctico y un único análisis morfológico, pero dos interpretaciones semánticas diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Hi ha vegades que només podem recórrer a una anàlisi semàntica; en l'exemple (ja discutit en la secció &lt;n8&gt;) &lt;n3&gt; [Els soldats]$_i$ van disparar [als xiquets]$_j$.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124831Z" creationid="fsanchez" creationdate="20161010T124831Z">
@@ -258,6 +266,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131257Z" creationid="fsanchez" creationdate="20161010T131257Z">
         <seg>&lt;u3&gt; &lt;i3&gt;Quiero bailar y cantar canciones de cuna&lt;/i3&gt; (1: ``Bailaremos durante un rato y después te cantaré para que te duermas"; 2: ``Quiero tanto bailar canciones de cuna como cantarlas").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; té més d'un arbre d'anàlisi sintàctica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141542Z" creationid="fsanchez" creationdate="20161010T141542Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; tiene más de un árbol de análisis sintáctico.</seg>
       </tuv>
     </tu>
     <tu>
@@ -966,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Indiqueu de quina classe d'ambigüitat es tracta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141556Z" creationid="fsanchez" creationdate="20161010T141556Z">
+        <seg>Indicad de qué clase de ambigüedad se trata.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Indiqueu quina classe d'ambigüitat presenten aquestes frases (justifiqueu molt breument la vostra resposta): &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Expulsaran l'alcalde de la ciutat&lt;/i0&gt; (1: ``L'alcalde de la ciutat serà expulsat.'' 2: ``L'alcalde serà expulsat de la ciutat'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130935Z" creationid="fsanchez" creationdate="20161010T130935Z">
@@ -1058,6 +1082,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123329Z" creationid="fsanchez" creationdate="20161010T123329Z">
         <seg>La desambiguación se efectúa usando información procedente de tres fuentes: el &lt;i1&gt;cotexto&lt;/i1&gt; (interno al texto o discurso) y el &lt;i2&gt;contexto&lt;/i2&gt; (externo al texto o discurso pero relacionado con él) y fuentes de conocimiento adicionales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La frase &lt;i0&gt;M'agrada més que la bata&lt;/i0&gt; pot tenir dues interpretacions; en la primera es parla d'una peça de vestir; en la segona, d'una preferència a l'hora de preparar, per exemple, una salsa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141553Z" creationid="fsanchez" creationdate="20161010T141553Z">
+        <seg>La frase &lt;i0&gt;``Me gusta más que la bata''&lt;/i0&gt; puede tener dos interpretaciones; en la primera se habla de una prenda de vestir; en la segunda, de una preferencia a la hora de preparar, por ejemplo, una salsa.</seg>
       </tuv>
     </tu>
     <tu>
