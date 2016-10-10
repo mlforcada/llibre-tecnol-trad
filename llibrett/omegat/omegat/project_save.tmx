@@ -262,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Estructural d'adjunció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141751Z" creationid="fsanchez" creationdate="20161010T141751Z">
+        <seg>&lt;u2&gt; Estructural de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Estructural d'origen categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141651Z" creationid="fsanchez" creationdate="20161010T141651Z">
@@ -346,6 +354,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141653Z" creationid="fsanchez" creationdate="20161010T141653Z">
         <seg>&lt;u3&gt; Estructural de origen coordinativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Extrasentencial per anàfora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141754Z" creationid="fsanchez" creationdate="20161010T141754Z">
+        <seg>&lt;u3&gt; Extrasentencial por anáfora.</seg>
       </tuv>
     </tu>
     <tu>
