@@ -1056,8 +1056,8 @@
       <tuv lang="CA">
         <seg>Per exemple, es poden preferir &lt;n0&gt; &lt;u0&gt; els antecedents més recents, &lt;u1&gt; els antecedents que fan de subjecte als que fan d'objecte, o &lt;u2&gt; els antecedents que han estat introduïts explícitament com l'assumpte del discurs o de la conversa: &lt;i1&gt;Doncs, pel que fa a &lt;u3&gt;{Joan&lt;/i1&gt;&lt;u4&gt;}.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125029Z" creationid="fsanchez" creationdate="20161010T124944Z">
-        <seg>Por ejemplo, se pueden preferir &lt;n0&gt; &lt;u0&gt; los antecedentes más recientes, &lt;u1&gt; los antecedentes que hacen de sujeto a los que hacen de objeto, o &lt;u2&gt; los antecedentes que han sido introducidos explícitamente como el asunto del discurso o de la conversación: &lt;i1&gt;Pues, en cuanto a &lt;u3&gt;{Joan &lt;/i1&gt;&lt;u4&gt;}.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125053Z" creationid="fsanchez" creationdate="20161010T124944Z">
+        <seg>Por ejemplo, se pueden preferir &lt;n0&gt; &lt;u0&gt; los antecedentes más recientes, &lt;u1&gt; los antecedentes que hacen de sujeto a los que hacen de objeto, o &lt;u2&gt;&lt;i1&gt;&lt;u3&gt; los antecedentes que han sido introducidos explícitamente como el asunto del discurso o de la conversación: Pues, en cuanto a {Joan &lt;/i1&gt;&lt;u4&gt;}.</seg>
       </tuv>
     </tu>
     <tu>
