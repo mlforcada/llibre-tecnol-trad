@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest epígraf recull unes notes ---no exhaus­tives--- sobre les estratègies de resolució d'alguns tipus d'ambigüitat en sistemes automàtics de tractament del llenguatge humà.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122736Z" creationid="fsanchez" creationdate="20161010T122736Z">
+        <seg>Este epígrafe recoge unas notas ---no exhaustivas--- sobre las estrategias de resolución de algunos tipos de ambigüedad en sistemas automáticos de tratamiento del lenguaje humano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest fitxer pot contenir, a més del text mateix, informació sobre la presentació (el format dels paràgrafs i de les pàgines, els tipus i les grandàries de lletra que s'usen amb cada mot, etc.) o sobre l'organització del contingut (indicacions que una determinada part del text és un títol de capítol, el títol d'una secció o una nota a peu de pàgina, etc.).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="japerez" changedate="20161010T100416Z" creationid="japerez" creationdate="20161010T100416Z">
@@ -346,6 +354,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142945Z" creationid="fsanchez" creationdate="20161009T142945Z">
         <seg>Cada una de las palabras viene de una palabra latina diferente: la primera de la palabra femenina &lt;i10&gt;capsa&lt;/i10&gt;, y la segunda de &lt;i11&gt;casus&lt;/i11&gt;, el participio de &lt;i12&gt;cado&lt;/i12&gt; `caer'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com hem vist, les causes de l'ambigüitat són molt diverses; per això, també són molt diverses les estratègies de resolució.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122727Z" creationid="fsanchez" creationdate="20161010T122727Z">
+        <seg>Como hemos visto, las causas de la ambigüedad son muy diversas; por eso, también son muy diversas las estrategias de resolución.</seg>
       </tuv>
     </tu>
     <tu>
