@@ -1534,6 +1534,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>el va recriminar per haver-ho fet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125403Z" creationid="fsanchez" creationdate="20161010T125403Z">
+        <seg>lo recriminó por haberlo hecho.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>li semblen poc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125407Z" creationid="fsanchez" creationdate="20161010T125407Z">
+        <seg>le parecen poco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>per a la traducció</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115915Z" creationid="fsanchez" creationdate="20161005T115915Z">
