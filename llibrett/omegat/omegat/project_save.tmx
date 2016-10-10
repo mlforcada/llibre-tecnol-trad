@@ -822,6 +822,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'experiència ens ajuda a fer prediccions que en general tenen èxit, però de vegades hi ha oracions ``enganyoses'' que ``ens porten a l'hort'' (anomenades, per això, en anglés &lt;i2&gt;garden-path sentences&lt;/i2&gt;, de l'anglés &lt;i3&gt;lead up the garden path&lt;/i3&gt;) ja que en cert punt del procés ens obliguen a descartar la predicció feta i reinterpretar el que havíem llegit fins a aquell punt (l'estudi dels moviments oculars, en anglés &lt;i4&gt;eyetracking&lt;/i4&gt;) durant la lectura donen pistes molt rellevants sobre l'existència d'aquests processos).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125818Z" creationid="fsanchez" creationdate="20161010T125818Z">
+        <seg>La experiencia nos ayuda a hacer predicciones que en general tienen éxito, pero a veces hay oraciones ``engañosas'' que ``nos llevan al huerto'' (llamadas, por eso, en inglés &lt;i2&gt;garden-path sentences&lt;/i2&gt;, del inglés &lt;i3&gt;lead up the garden path&lt;/i3&gt;) puesto que en cierto punto del proceso nos obligan a descartar la predicción hecha y reinterpretar lo que habíamos leído hasta aquel punto (el estudio de los movimientos oculares, en inglés &lt;i4&gt;eyetracking&lt;/i4&gt;) durante la lectura dan pistas muy relevantes sobre la existencia de estos procesos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'oració conté un homògraf que té dues o més interpretacions però la mateixa categoria lèxica, i no afecta, per tant, l'estructura de l'oració.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143240Z" creationid="fsanchez" creationdate="20161009T143240Z">
