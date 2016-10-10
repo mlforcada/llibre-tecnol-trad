@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; No, perquè les dues formes &lt;i2&gt;vendo&lt;/i2&gt; tenen la mateixa categoria lèxica i la mateixa anàlisi morfològica, tret del lema, i, per tant, poden fer exactament les mateixes funcions sintàctiques.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141919Z" creationid="fsanchez" creationdate="20161010T141919Z">
+        <seg>&lt;u2&gt; No, porque las dos formas &lt;i2&gt;vendo&lt;/i2&gt; tienen la misma categoría léxica y el mismo análisis morfológico, salvo por el lema, y, por lo tanto, pueden hacer exactamente las mismas funciones sintácticas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
