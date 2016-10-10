@@ -670,6 +670,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En canvi, en l'oració &lt;n10&gt; no considerem la primera interpretació (encara que siga la preferida sintàcticament segons la regla de clausura tardana), perquè no és gens versemblant que les cadires tinguen pany (hem usat informació semàntica basada en les nostres creences sobre el món).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130854Z" creationid="fsanchez" creationdate="20161010T130854Z">
+        <seg>En cambio, en la oración &lt;n10&gt; no consideramos la primera interpretación (aunque sea la preferida sintácticamente según la regla de clausura tardía), porque no es nada verosímil que las sillas tengan cerradura (hemos usado información semántica basada en nuestras creencias sobre el mundo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En canvi, si diem &lt;n2&gt; Marta va parlar amb qui la va veure &lt;n5&gt; no es pot descartar completament que l'antecedent de &lt;i7&gt;la&lt;/i7&gt; siga &lt;i8&gt;Marta&lt;/i8&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124820Z" creationid="fsanchez" creationdate="20161010T124820Z">
