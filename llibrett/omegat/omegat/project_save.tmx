@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>--Hem rebut notícies que diuen que, per causa de la humitat i la calor en l'interior del temple, els bancs i els altars de fusta han rebrotat i els han crescut branques i fulles.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T140744Z" creationid="fsanchez" creationdate="20161010T140744Z">
+        <seg>--- Hemos recibido noticias que dicen que, a causa de la humedad y el calor en el interior del templo, los bancos y los altares de madera han rebrotado y les han crecido ramas y hojas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125356Z" creationid="fsanchez" creationdate="20161010T124959Z">
@@ -274,6 +282,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142401Z" creationid="fsanchez" creationdate="20161009T142401Z">
         <seg>&lt;u6&gt; &lt;i23&gt;Ambigüedad dentro de la misma categoría léxica con cambio de lema&lt;/i23&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u6&gt; &lt;i6&gt;No puc veure bé la foto que m'has enviat per correu electrònic perquè no puc tancar totes les finestres&lt;/i6&gt; (1: ``Encara hi entra sol i es reflecteix en la pantalla''; 2: ``Tinc l'escriptori ple de documents oberts'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T140739Z" creationid="fsanchez" creationdate="20161010T140739Z">
+        <seg>&lt;u6&gt; &lt;i6&gt;No puedo ver bien la foto que me has enviado por correo electrónico porque no puedo cerrar todas las ventanas&lt;/i6&gt; (1: ``Todavía entra sol y se refleja en la pantalla"; 2: ``Tengo el escritorio lleno de documentos abiertos").</seg>
       </tuv>
     </tu>
     <tu>
