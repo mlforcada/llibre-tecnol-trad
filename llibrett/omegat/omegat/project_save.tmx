@@ -878,6 +878,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per a elegir-ne un, podem, per exemple, prendre tots els possibles sentits del mot ambigu i assignar-los el sentit associat al concepte que està més prop dels conceptes representats pels mots veïns en el text.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123656Z" creationid="fsanchez" creationdate="20161010T123656Z">
+        <seg>Para elegir uno, podemos, por ejemplo, tomar todos los posibles sentidos de la palabra ambigua y asignarles el sentido asociado al concepto que está más cerca de los conceptos representados por las palabras vecinas en el texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per això, en general s'usen mètodes basats en preferències.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123604Z" creationid="fsanchez" creationdate="20161010T123604Z">
