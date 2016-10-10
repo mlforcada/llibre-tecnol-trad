@@ -790,6 +790,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La resolució de la polisèmia s'ha abordat des de perspectives molt diverses (vegeu &lt;u0&gt;{ide98j}).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123427Z" creationid="fsanchez" creationdate="20161010T123427Z">
+        <seg>La resolución de la polisemia se ha abordado desde perspectivas muy diversas (véase &lt;u0&gt;{ide98j}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les estratègies de resolució de l'ambigüitat solen basar-se en &lt;i0&gt;restriccions&lt;/i0&gt; i &lt;i1&gt;preferències&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122750Z" creationid="fsanchez" creationdate="20161010T122750Z">
@@ -1114,6 +1122,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143831Z" creationid="fsanchez" creationdate="20161009T143831Z">
         <seg>Relacionados con la &lt;i1&gt;deixis&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S'accepta comunament que la major part dels mots polisèmics d'un text (o d'un fragment del text) solen tenir una única interpretació en un text donat, però aquest principi s'ha de concretar en un mètode concret per a resoldre la polisèmia.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123419Z" creationid="fsanchez" creationdate="20161010T123419Z">
+        <seg>Se acepta comúnmente que la mayor parte de las palabras polisémicas de un texto (o de un fragmento del texto) suelen tener una única interpretación en un texto dado, pero este principio se tiene que concretar en un método específico para resolver la polisemia.</seg>
       </tuv>
     </tu>
     <tu>
