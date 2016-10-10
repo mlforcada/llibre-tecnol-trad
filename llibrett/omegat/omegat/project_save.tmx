@@ -1598,6 +1598,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Resolució de l'ambigüitat estructural.} &lt;n0&gt; En principi, es podria dir que les persones resolem l'ambigüitat estructural ---pura o d'origen categorial--- elegint, usant les interpretacions assignades a cada una de les estructures possibles (principi de composicionalitat), quines són &lt;i0&gt;acceptables&lt;/i0&gt; i, entre les acceptables, quina és la més versemblant i per tant preferida en una situació comunicativa determinada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125654Z" creationid="fsanchez" creationdate="20161010T125654Z">
+        <seg>{Resolución de la ambigüedad estructural.} &lt;n0&gt; En principio, se podría decir que las personas resuelven la ambigüedad estructural ---pura o de origen categorial--- eligiendo, usando las interpretaciones asignadas a cada una de las estructuras posibles (principio de composicionalidad), cuáles son &lt;i0&gt;aceptables&lt;/i0&gt; y, entre las aceptables, cuál es la más verosímil y por tanto preferible en una situación comunicativa determinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{Resolució de l'ambigüitat lèxica categorial} &lt;n0&gt; La resolució de l'ambigüitat lèxica categorial dels mots homògrafs, altrament coneguda com etiquetatge (dels mots) amb parts de l'oració (en anglés, &lt;i0&gt;part-of-speech (PoS) tagging&lt;/i0&gt;) està molt ben estudiada.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122824Z" creationid="fsanchez" creationdate="20161010T122824Z">
