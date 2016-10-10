@@ -734,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les estratègies de resolució de l'ambigüitat solen basar-se en &lt;i0&gt;restriccions&lt;/i0&gt; i &lt;i1&gt;preferències&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122750Z" creationid="fsanchez" creationdate="20161010T122750Z">
+        <seg>Las estrategias de resolución de la ambigüedad suelen basarse en &lt;i0&gt;restricciones&lt;/i0&gt; y &lt;i1&gt;preferencias&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les llengües divergeixen.&lt;/i0&gt; És a dir, hi ha diferències irreductibles en la manera que el mateix contingut s'expressa en llengües diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140819Z" creationid="fsanchez" creationdate="20161009T140819Z">
