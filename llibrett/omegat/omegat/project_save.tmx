@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquestes estratègies són d'utilitat en els sistemes de traducció automàtica per transferència sintàctica pura (vegeu la secció &lt;n3&gt;), ja que no s'hi fa cap processament semàntic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130523Z" creationid="fsanchez" creationdate="20161010T130523Z">
+        <seg>Estas estrategias son de utilidad en los sistemas de traducción automática por transferencia sintáctica pura (véase la sección &lt;n3&gt;), puesto que no se hace ningún procesamiento semántico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquests mots s'anomenen habitualment &lt;i0&gt;polisèmics&lt;/i0&gt; i aquest tipus d'ambigüitat, &lt;i1&gt;polisèmia&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143034Z" creationid="fsanchez" creationdate="20161009T143034Z">
