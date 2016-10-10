@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No: ho prohibeix el principi de composicionalitat semàntica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142514Z" creationid="fsanchez" creationdate="20161010T142514Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No: lo prohíbe el principio de composicionalidad semántica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125356Z" creationid="fsanchez" creationdate="20161010T124959Z">
@@ -326,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, encara que no continga pronoms o altres expressions anafòriques susceptibles de tenir més d'un antecedent possible.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142520Z" creationid="fsanchez" creationdate="20161010T142520Z">
+        <seg>&lt;u2&gt; Sí, aunque no contenga pronombres u otras expresiones anafóricas susceptibles de tener más de un antecedente posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
@@ -410,6 +426,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141932Z" creationid="fsanchez" creationdate="20161010T141932Z">
         <seg>&lt;u3&gt; Sí, sólo mirando la categoría léxica de las palabras anteriores y la de los posteriores ya hay bastante para saber en cuál de los dos casos nos encontramos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí, però només si conté pronoms o altres expressions anafòriques susceptibles de tenir més d'un antecedent possible.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142525Z" creationid="fsanchez" creationdate="20161010T142525Z">
+        <seg>&lt;u3&gt; Sí, pero sólo si contiene pronombres u otras expresiones anafóricas susceptibles de tener más de un antecedente posible.</seg>
       </tuv>
     </tu>
     <tu>
