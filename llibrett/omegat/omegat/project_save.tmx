@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Una oració pot ser ambigua sense que cap dels seus mots siga ambigu per ell mateix.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114121Z" creationid="fsanchez" creationdate="20161014T114121Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Una oración puede ser ambigua sin que ninguna de sus palabras sea ambigua por si misma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125356Z" creationid="fsanchez" creationdate="20161010T124959Z">
@@ -470,6 +478,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Una oració només pot ser ambigua si almenys un dels seus mots és ambigu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114127Z" creationid="fsanchez" creationdate="20161014T114127Z">
+        <seg>&lt;u2&gt; Una oración sólo puede ser ambigua si al menos una de sus palabras es ambigua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
@@ -538,6 +554,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141542Z" creationid="fsanchez" creationdate="20161010T141542Z">
         <seg>&lt;u3&gt; &lt;u7&gt; tiene más de un árbol de análisis sintáctico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; El fet que una oració siga ambigua implica necessàriament que les traduccions de les diverses interpretacions a una altra llengua han de ser diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114136Z" creationid="fsanchez" creationdate="20161014T114136Z">
+        <seg>&lt;u3&gt; El hecho que una oración sea ambigua implica necesariamente que las traducciones de las diversas interpretaciones a otra lengua tienen que ser diferentes.</seg>
       </tuv>
     </tu>
     <tu>
