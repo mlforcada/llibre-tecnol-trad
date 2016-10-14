@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(*) Vegeu el quadre &lt;i0&gt;Per saber més&lt;/i0&gt; de la secció &lt;n0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115659Z" creationid="fsanchez" creationdate="20161014T115659Z">
+        <seg>(*) Véase el cuadro &lt;i0&gt;Para saber más&lt;/i0&gt; de la sección &lt;n0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(*) És possible resoldre en alguns casos l'ambigüitat deguda a un mot homògraf utilitzant exclusivament informació morfològica?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142552Z" creationid="fsanchez" creationdate="20161010T142552Z">
@@ -706,6 +714,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114510Z" creationid="fsanchez" creationdate="20161014T114510Z">
         <seg>&lt;u3&gt; Ambigüedad léxica por anáfora: el pronombre &lt;i4&gt;la&lt;/i4&gt; puede tener dos antecedentes: &lt;i5&gt;Maria&lt;/i5&gt; y la &lt;i6&gt;bolsa&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Ambigüitat lèxica que necessita una anàlisi semàntica per a resoldre-la: el mot polisèmic &lt;i10&gt;destino&lt;/i10&gt; en l'oració &lt;i11&gt;El destino estaba escrito en el pasaje arrugado que encontraron&lt;/i11&gt; es traduiria pel català &lt;i12&gt;destinació&lt;/i12&gt; i en canvi en l'oració &lt;i13&gt;El destino estaba escrito en el libro sagrado que encontraron&lt;/i13&gt; es traduiria pel català &lt;i14&gt;destí&lt;/i14&gt;; l'elecció exigeix identificar relacions semàntiques entre les interpretacions dels mots.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115656Z" creationid="fsanchez" creationdate="20161014T115656Z">
+        <seg>&lt;u3&gt; Ambigüedad léxica que necesita un análisis semántico para resolverla: la palabra polisémica &lt;i10&gt;destino&lt;/i10&gt; en la oración &lt;i11&gt;El destino estaba escrito en el pasaje arrugado que encontraron&lt;/i11&gt; se traduciría al catalán por &lt;i12&gt;destinació&lt;/i12&gt; y en cambio en la oración &lt;i13&gt;El destino estaba escrito en el libro sagrado que encontraron&lt;/i13&gt; se traduciría al catalán por &lt;i14&gt;destí&lt;/i14&gt;; la elección exige identificar relaciones semánticas entre las interpretaciones de las palabras.</seg>
       </tuv>
     </tu>
     <tu>
