@@ -1638,6 +1638,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En alguns casos, la sintaxi podria donar pistes que permetrien una desambiguació molt aproximada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115819Z" creationid="fsanchez" creationdate="20161014T115819Z">
+        <seg>En algunos casos, la sintaxis podría dar pistas que permitirían una desambiguación muy aproximada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En alguns casos, les restriccions poden ser suficients.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122844Z" creationid="fsanchez" creationdate="20161010T122844Z">
@@ -2090,6 +2098,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123427Z" creationid="fsanchez" creationdate="20161010T123427Z">
         <seg>La resolución de la polisemia se ha abordado desde perspectivas muy diversas (véase &lt;u0&gt;{ide98j}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La solució semàntica és més potent i general però exigeix una anàlisi molt profunda de la frase.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115811Z" creationid="fsanchez" creationdate="20161014T115811Z">
+        <seg>La solución semántica es más potente y general pero exige un análisis muy profundo de la frase.</seg>
       </tuv>
     </tu>
     <tu>
