@@ -902,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt; Ambigüitat estructural d'adjunció: el sintagma preposicional &lt;i21&gt;a la gallega&lt;/i21&gt; pot modificar el nom &lt;i22&gt;polp&lt;/i22&gt; per a formar sintagma nominal &lt;i23&gt;polp a la gallega&lt;/i23&gt; o modificar el sintagma verbal &lt;i24&gt;serviran polp&lt;/i24&gt; (amb nucli &lt;i25&gt;serviran&lt;/i25&gt;) i formar el sintagma verbal &lt;i26&gt;serviran polp a la gallega&lt;/i26&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115246Z" creationid="fsanchez" creationdate="20161014T115246Z">
+        <seg>&lt;u5&gt; Ambigüedad estructural de adjunción: el sintagma preposicional &lt;i21&gt;a la gallega&lt;/i21&gt; puede modificar el nombre &lt;i22&gt;pulpo&lt;/i22&gt; para formar el sintagma nominal &lt;i23&gt;pulpo a la gallega&lt;/i23&gt; o modificar el sintagma verbal &lt;i24&gt;servirán pulpo&lt;/i24&gt; (con núcleo &lt;i25&gt;servirán&lt;/i25&gt;) y formar el sintagma verbal &lt;i26&gt;servirán pulpo a la gallega&lt;/i26&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt; Ambigüitat lèxica per anàfora: el pronom &lt;i10&gt;la&lt;/i10&gt; pot tenir dos antecedents: &lt;i11&gt;mà [de paper]&lt;/i11&gt; i la &lt;i12&gt;impressora&lt;/i12&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114532Z" creationid="fsanchez" creationdate="20161014T114532Z">
