@@ -398,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat lèxica pura (polisèmia) del mot &lt;i3&gt;gat&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114458Z" creationid="fsanchez" creationdate="20161014T114458Z">
+        <seg>&lt;u2&gt; Ambigüedad léxica pura (polisemia) de la palabra &lt;i3&gt;gato&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; El problema de la síntesi es refereix a l'ambigüitat dels textos traduïts automàticament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114256Z" creationid="fsanchez" creationdate="20161014T114256Z">
@@ -922,6 +930,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151004Z" creationid="fsanchez" creationdate="20161009T151004Z">
         <seg>Ambigüedad estructural por movimiento de Qu.&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat sintàctica o estructural (pura) d'adjunció: el sintagma preposicional &lt;i0&gt;de la ciutat&lt;/i0&gt; es pot inserir en dues posicions diferents de l'oració: pot modificar &lt;i1&gt;alcalde&lt;/i1&gt; o &lt;i2&gt;expulsaran [l'alcalde]&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114454Z" creationid="fsanchez" creationdate="20161014T114454Z">
+        <seg>Ambigüedad sintáctica o estructural (pura) de adjunción: el sintagma preposicional &lt;i0&gt;de la ciudad&lt;/i0&gt; se puede insertar en dos posiciones diferentes de la oración: puede modificar &lt;i1&gt;alcalde&lt;/i1&gt; o expulsarán &lt;i2&gt;[el alcalde]&lt;/i2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
