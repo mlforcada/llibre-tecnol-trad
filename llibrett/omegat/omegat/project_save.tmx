@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u6&gt; L'oració és ambigua per polisèmia (ambigüitat lèxica) del substantiu &lt;i27&gt;finestra&lt;/i27&gt; (de la paret/ del sistema operatiu)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115258Z" creationid="fsanchez" creationdate="20161014T115258Z">
+        <seg>&lt;u6&gt; La oración es ambigua por polisemia (ambigüedad léxica) del sustantivo &lt;i27&gt;ventana&lt;/i27&gt; (de la pared/ del sistema operativo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u7&gt; &lt;i6&gt;Vale más que las comas&lt;/i6&gt; (1: ``...que els signes de puntuació''; 2:``...que les menges'') &lt;u8&gt; &lt;i7&gt;El mecánico revisó la suspensión del auto de Garzón&lt;/i7&gt; (1: ``Aquest mecànic és un expert en legislació i s'ha llegit la resolució judicial sencera''; 2: ``Els amortidors del cotxe de Garzón ja necessitaven una revisió'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131112Z" creationid="fsanchez" creationdate="20161010T131112Z">
@@ -1010,6 +1018,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144504Z" creationid="fsanchez" creationdate="20161009T144504Z">
         <seg>Ambigüedad estructural de adjunción&lt;/i0&gt; (en inglés &lt;i1&gt;attachment ambiguity&lt;/i1&gt;): se trata de un caso típico de ambigüedad estructural que se manifiesta cuando hay un {&lt;u1&gt; adjunto}&lt;p0&gt; (normalmente un sintagma preposicional) que se puede insertar de varias maneras en el árbol de análisis sintáctico de la oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ambigüitat estructural d'origen categorial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115259Z" creationid="fsanchez" creationdate="20161014T115259Z">
+        <seg>Ambigüedad estructural de origen categorial.</seg>
       </tuv>
     </tu>
     <tu>
