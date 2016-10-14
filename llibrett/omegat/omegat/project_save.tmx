@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; L'ambigüitat d'adjunció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113947Z" creationid="fsanchez" creationdate="20161014T113947Z">
+        <seg>&lt;u2&gt; La ambigüedad de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; L'anàfora del pronom &lt;i3&gt;que&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113745Z" creationid="fsanchez" creationdate="20161014T113745Z">
@@ -434,6 +442,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142702Z" creationid="fsanchez" creationdate="20161010T142702Z">
         <seg>&lt;u2&gt; Una ambigüedad léxica pura por polisemia de una palabra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Una anàfora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113935Z" creationid="fsanchez" creationdate="20161014T113935Z">
+        <seg>&lt;u2&gt; Una anáfora.</seg>
       </tuv>
     </tu>
     <tu>
@@ -538,6 +554,22 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113832Z" creationid="fsanchez" creationdate="20161014T113832Z">
         <seg>&lt;u3&gt; La polisemia de la preposición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; La polisèmia.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113948Z" creationid="fsanchez" creationdate="20161014T113948Z">
+        <seg>&lt;u3&gt; La polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Polisèmia.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113936Z" creationid="fsanchez" creationdate="20161014T113936Z">
+        <seg>&lt;u3&gt; Polisemia.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2194,6 +2226,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140600Z" creationid="fsanchez" creationdate="20161009T140600Z">
         <seg>Una clasificación interesante de los problemas que se dan en la traducción automática &lt;n0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una d'aquestes tres no és un tipus d'ambigüitat lèxica: &lt;n0&gt; &lt;u1&gt; L'homografia.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113940Z" creationid="fsanchez" creationdate="20161014T113940Z">
+        <seg>Una de estas tres no es un tipo de ambigüedad léxica: &lt;n0&gt; &lt;u1&gt; La homografía.</seg>
       </tuv>
     </tu>
     <tu>
