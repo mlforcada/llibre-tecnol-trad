@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Ambigüitat lèxica per polisèmia.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114221Z" creationid="fsanchez" creationdate="20161014T114221Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Ambigüedad léxica por polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Estructural d'adjunció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141615Z" creationid="fsanchez" creationdate="20161010T141600Z">
@@ -366,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat lèxica deguda a l'anàfora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114222Z" creationid="fsanchez" creationdate="20161014T114222Z">
+        <seg>&lt;u2&gt; Ambigüedad léxica debida a la anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Estructural d'adjunció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141751Z" creationid="fsanchez" creationdate="20161010T141751Z">
@@ -554,6 +570,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141542Z" creationid="fsanchez" creationdate="20161010T141542Z">
         <seg>&lt;u3&gt; &lt;u7&gt; tiene más de un árbol de análisis sintáctico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Ambigüitat estructural deguda a l'ambigüitat lèxica categorial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114225Z" creationid="fsanchez" creationdate="20161014T114225Z">
+        <seg>&lt;u3&gt; Ambigüedad estructural debida a la ambigüedad léxica categorial.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2074,6 +2098,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123642Z" creationid="fsanchez" creationdate="20161010T123642Z">
         <seg>Cuando tenemos una palabra polisémica, le podemos asociar más de un concepto o &lt;i6&gt;sentido&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin tipus d'ambigüitat es dóna en l'oració &lt;i0&gt;La mata l'enveja&lt;/i0&gt; (1: ``l'enveja l'està matant''; 2: ``la planta li té enveja a ella'')?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114219Z" creationid="fsanchez" creationdate="20161014T114219Z">
+        <seg>¿Qué tipo de ambigüedad se da en la oración &lt;i0&gt;La mata la envidia&lt;/i0&gt; (1: ``la envidia la está matando''; 2: ``la planta le tiene envidia a ella'')?</seg>
       </tuv>
     </tu>
     <tu>
