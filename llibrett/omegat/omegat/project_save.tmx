@@ -646,6 +646,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Ambigüitat estructural d'origen coordinatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114738Z" creationid="fsanchez" creationdate="20161014T114738Z">
+        <seg>&lt;u3&gt; Ambigüedad estructural de origen coordinativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Ambigüitat estructural deguda a l'ambigüitat lèxica categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114225Z" creationid="fsanchez" creationdate="20161014T114225Z">
@@ -1218,6 +1226,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141404Z" creationid="fsanchez" creationdate="20161009T141404Z">
         <seg>Construir un sistema de traducción automática conlleva la gestión de una gran cantidad de conocimiento, que se debe recopilar, y representar en un formato útil para su procesamiento mediante un ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>D'altra banda, estructural: en la primera interpretació, el sintagma preposicional &lt;i9&gt;de caza&lt;/i9&gt; modifica el sintagma nominal &lt;i10&gt;coto privado&lt;/i10&gt; (&lt;i11&gt;[[coto privado] [de caza]]&lt;/i11&gt;); en el segon, només el participi &lt;i12&gt;privado&lt;/i12&gt; (&lt;i13&gt;[[coto] [[privado] [de caza]]]&lt;/i13&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114737Z" creationid="fsanchez" creationdate="20161014T114737Z">
+        <seg>Por otro lado, estructural: en la primera interpretación, el sintagma preposicional &lt;i9&gt;de caza&lt;/i9&gt; modifica el sintagma nominal &lt;i10&gt;coto privado&lt;/i10&gt; (&lt;i11&gt;[[coto privado] [de caza]]&lt;/i11&gt;); en el segundo, sólo el participio &lt;i12&gt;privado&lt;/i12&gt; (&lt;i13&gt;[[coto] [[privado] [de caza]]]&lt;/i13&gt;).</seg>
       </tuv>
     </tu>
     <tu>
