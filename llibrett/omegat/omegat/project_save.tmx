@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Lèxica, deguda al fet que el mot &lt;i1&gt;expulsar&lt;/i1&gt; és polisèmic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114010Z" creationid="fsanchez" creationdate="20161014T114010Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Léxica, debida al hecho de que la palabra &lt;i1&gt;expulsar&lt;/i1&gt; es polisémica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; No, aquest tipus d'ambigüitat exigeix un tractament semàntic com a mínim.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142555Z" creationid="fsanchez" creationdate="20161010T142555Z">
@@ -1050,6 +1058,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141740Z" creationid="fsanchez" creationdate="20161010T141740Z">
         <seg>¿De qué clase es la ambigüedad de la oración &lt;i0&gt;Vendió las naranjas que había comprado a María&lt;/i0&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De quina classe és l'ambigüitat que presenta l'oració &lt;i0&gt;Expulsaran el portaveu del partit&lt;/i0&gt;?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113956Z" creationid="fsanchez" creationdate="20161014T113956Z">
+        <seg>¿De qué clase es la ambigüedad que presenta la oración &lt;i0&gt;Expulsarán al portavoz del partido&lt;/i0&gt;?</seg>
       </tuv>
     </tu>
     <tu>
