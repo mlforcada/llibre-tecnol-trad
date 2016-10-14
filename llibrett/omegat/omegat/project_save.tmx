@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; L'existència de més d'una estructura sintàctica possible.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113823Z" creationid="fsanchez" creationdate="20161014T113823Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; La existencia de más de una estructura sintáctica posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Lèxica categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141649Z" creationid="fsanchez" creationdate="20161010T141649Z">
@@ -1890,6 +1898,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142501Z" creationid="fsanchez" creationdate="20161010T142501Z">
         <seg>¿Puede una oración tener más de una traducción a otro idioma a pesar de estar formada completamente por palabras que no son ni homógrafas ni polisémicas en la lengua original?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan es produeix una ambigüitat perquè no queda clara l'adscripció d'un sintagma preposicional, com en &lt;i0&gt;porta la clau de l'armari gran&lt;/i0&gt;, quina n'és la raó?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113821Z" creationid="fsanchez" creationdate="20161014T113821Z">
+        <seg>Cuando se produce una ambigüedad porque no queda clara la adscripción de un sintagma preposicional, como &lt;i0&gt;trae la llave del armario grande&lt;/i0&gt;, ¿cuál es la razón?</seg>
       </tuv>
     </tu>
     <tu>
