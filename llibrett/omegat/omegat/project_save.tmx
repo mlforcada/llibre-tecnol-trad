@@ -926,6 +926,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u8&gt; L'oració és ambigua perquè dos dels seus mots presenten ambigüitat lèxica pura (polisèmia): &lt;i19&gt;auto&lt;/i19&gt; pot ser un automòbil o un tipus de resolució judicial; &lt;i20&gt;suspensión&lt;/i20&gt; pot ser l'acció de suspendre (la resolució) o el sistema d'amortidors de l'automòbil.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114620Z" creationid="fsanchez" creationdate="20161014T114620Z">
+        <seg>&lt;u8&gt; La oración es ambigua porque dos de sus palabras presentan ambigüedad léxica pura (polisemia): &lt;i19&gt;auto&lt;/i19&gt; puede ser un automóvil o un tipo de resolución judicial; &lt;i20&gt;suspensión&lt;/i20&gt; puede ser la acción de suspender (la resolución) o el sistema de amortiguadores del automóvil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A canvi, hem de fer l'esforç (presumiblement més lleuger) de predir una entre les possibles continuacions (sintàctiques) del que hem llegit; segons arriben mots, els anem encaixant en l'estructura predita i usem la sintaxi i la interpretació dels mots per a anar construint a poc a poc la interpretació de l'oració completa.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125740Z" creationid="fsanchez" creationdate="20161010T125740Z">
@@ -1250,6 +1258,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114608Z" creationid="fsanchez" creationdate="20161014T114608Z">
         <seg>De las cuatro combinaciones posibles, dos son sintácticamente aceptables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De les quatre combinacions possibles, dues tenen un cert sentit.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114623Z" creationid="fsanchez" creationdate="20161014T114623Z">
+        <seg>De las cuatro combinaciones posibles, dos tienen cierto sentido.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1762,6 +1778,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143916Z" creationid="fsanchez" creationdate="20161009T143916Z">
         <seg>La oración tiene constituyentes que no se reflejan como palabras, pero a los que hay que asignar una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'oració és ambigua per l'ambigüitat lèxica (homografia) de &lt;i0&gt;soldado&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114630Z" creationid="fsanchez" creationdate="20161014T114630Z">
+        <seg>La oración es ambigua por la ambigüedad léxica (homografía) de &lt;i0&gt;soldado&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
