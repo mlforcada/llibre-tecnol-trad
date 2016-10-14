@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De les quatre combinacions resultants, dues són sintàcticament acceptables.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115723Z" creationid="fsanchez" creationdate="20161014T115723Z">
+        <seg>De las cuatro combinaciones resultantes, dos son sintácticamente aceptables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De quin tipus d'ambigüitat es tracta?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141648Z" creationid="fsanchez" creationdate="20161010T141648Z">
@@ -1558,6 +1566,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els mots &lt;i0&gt;la&lt;/i0&gt; i &lt;i1&gt;bata&lt;/i1&gt; poden pertànyer cada un a dues categories lèxiques diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115720Z" creationid="fsanchez" creationdate="20161014T115720Z">
+        <seg>Las palabras &lt;i0&gt;la&lt;/i0&gt; y &lt;i1&gt;bata&lt;/i1&gt; pueden pertenecer cada una a dos categorías léxicas diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els quantificadors són mots com &lt;i0&gt;algun&lt;/i0&gt;, &lt;i1&gt;tot&lt;/i1&gt;, &lt;i2&gt;cada&lt;/i2&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122218Z" creationid="fsanchez" creationdate="20161010T122218Z">
@@ -1666,6 +1682,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152547Z" creationid="fsanchez" creationdate="20161009T152547Z">
         <seg>En español ---y en general en las lenguas románicas--- son muy comunes las ambigüedades debidas a la combinación de una palabra que puede ser pronombre débil de tercera persona o artículo (&lt;i13&gt;el&lt;/i13&gt;, &lt;i14&gt;la&lt;/i14&gt;, &lt;i15&gt;&lt;/i15&gt; &lt;i16&gt;los&lt;/i16&gt;, &lt;i17&gt;las&lt;/i17&gt;) y otra palabra que puede ser sustantivo o verbo conjugado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En el cas de les frases ``Toni comprarà...'', sembla lògic usar la regla de {&lt;u1&gt; clausura tardana}, ja que es correspon prou bé amb les interpretacions preferides per les persones.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115710Z" creationid="fsanchez" creationdate="20161014T115710Z">
+        <seg>En el caso de las frases ``Toni comprará...'', parece lógico usar la regla de {&lt;u1&gt; clausura tardía}, puesto que se corresponde bastante bien con las interpretaciones preferidas por las personas.</seg>
       </tuv>
     </tu>
     <tu>
