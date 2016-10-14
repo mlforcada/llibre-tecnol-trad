@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; resol la polisèmia mitjançant l'ús d'un desambiguador lèxic categorial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114314Z" creationid="fsanchez" creationdate="20161014T114314Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; resuelve la polisemia mediante el uso de un desambiguador léxico categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; té un únic arbre d'anàlisi sintàctica i una única anàlisi morfològica, però dues interpretacions se­màn­ti­ques diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141540Z" creationid="fsanchez" creationdate="20161010T141540Z">
@@ -582,6 +590,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; no pot resoldre la polisèmia amb cap dels programes esmentats en les altres dues opcions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114318Z" creationid="fsanchez" creationdate="20161014T114318Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; no puede resolver la polisemia con ninguno de los programas mencionados en las otras dos opciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; &lt;u7&gt; té més d'un arbre d'anàlisi sintàctica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141542Z" creationid="fsanchez" creationdate="20161010T141542Z">
@@ -602,6 +618,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114136Z" creationid="fsanchez" creationdate="20161014T114136Z">
         <seg>&lt;u3&gt; El hecho que una oración sea ambigua implica necesariamente que las traducciones de las diversas interpretaciones a otra lengua tienen que ser diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; El problema de la descripció consisteix en el fet que és impracticable descriure de forma suficient i computacionalment eficient tot el coneixement necessari per traduir.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114305Z" creationid="fsanchez" creationdate="20161014T114305Z">
+        <seg>&lt;u3&gt; El problema de la descripción consiste en el hecho que es impracticable describir de forma suficiente y computacionalmente eficiente todo el conocimiento necesario para traducir.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2354,6 +2378,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="japerez" changedate="20161010T100451Z" creationid="japerez" creationdate="20161010T100441Z">
         <seg>Un texto informatizado puede tener orígenes diversos: &lt;n0&gt; &lt;u0&gt; Puede haber sido generado por otro programa de ordenador, por ejemplo a partir de los datos contenidos en alguna base de datos (véase el capítulo &lt;n1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un traductor automàtic per transferència morfològica avançada &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; resol la polisèmia mitjançant l'ús d'un analitzador morfològic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114311Z" creationid="fsanchez" creationdate="20161014T114311Z">
+        <seg>Un traductor automático por transferencia morfológica avanzada &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; resuelve la polisemia mediante el uso de un analizador morfológico.</seg>
       </tuv>
     </tu>
     <tu>
