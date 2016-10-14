@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat lèxica categorial dins de la mateixa categoria lèxica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114333Z" creationid="fsanchez" creationdate="20161014T114333Z">
+        <seg>&lt;u2&gt; Ambigüedad léxica categorial dentro de la misma categoría léxica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Ambigüitat lèxica deguda a l'anàfora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114222Z" creationid="fsanchez" creationdate="20161014T114222Z">
@@ -610,6 +618,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114225Z" creationid="fsanchez" creationdate="20161014T114225Z">
         <seg>&lt;u3&gt; Ambigüedad estructural debida a la ambigüedad léxica categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Ambigüitat lèxica categorial entre categories lèxiques diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114336Z" creationid="fsanchez" creationdate="20161014T114336Z">
+        <seg>&lt;u3&gt; Ambigüedad léxica categorial entre categorías léxicas diferentes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2170,6 +2186,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114219Z" creationid="fsanchez" creationdate="20161014T114219Z">
         <seg>¿Qué tipo de ambigüedad se da en la oración &lt;i0&gt;La mata la envidia&lt;/i0&gt; (1: ``la envidia la está matando''; 2: ``la planta le tiene envidia a ella'')?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin tipus d'ambigüitat es dóna en l'oració ``&lt;i0&gt;Aston Family Man era el baix de The Wailers&lt;/i0&gt;'' (Aston era el més baix del grup; Aston tocava el baix en el grup)?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114329Z" creationid="fsanchez" creationdate="20161014T114329Z">
+        <seg>¿Qué tipo de ambigüedad se da en la oración ``&lt;i0&gt;Aston Family Man era el bajo de The Wailers&lt;/i0&gt;" (Aston era el más bajo del grupo; Aston tocaba el bajo en el grupo)?</seg>
       </tuv>
     </tu>
     <tu>
