@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Homografia, perquè el pronom pot, en principi, estar substituint un nom o un altre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113934Z" creationid="fsanchez" creationdate="20161014T113934Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Homografía, porque el pronombre puede, en principio, estar sustituyendo un nombre u otro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; L'anàfora d'un pronom buit.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113218Z" creationid="fsanchez" creationdate="20161014T113218Z">
@@ -602,6 +610,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142455Z" creationid="fsanchez" creationdate="20161010T142455Z">
         <seg>&lt;u3&gt; {&lt;u7&gt;} podemos decir que el lema es polisémico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} s'intenta resoldre normalment amb regles basades en les categories lèxiques dels mots que l'acompanyen en la frase.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113902Z" creationid="fsanchez" creationdate="20161014T113902Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} se intenta resolver normalmente con reglas basadas en las categorías léxicas de las palabras que la acompañan en la frase.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1962,6 +1978,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123642Z" creationid="fsanchez" creationdate="20161010T123642Z">
         <seg>Cuando tenemos una palabra polisémica, le podemos asociar más de un concepto o &lt;i6&gt;sentido&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin tipus d'ambigüitat es produeix en el pronom feble &lt;i0&gt;li&lt;/i0&gt; de la frase &lt;i1&gt;Vaig veure Mario i la seua mare; li vaig dir que m'agradava molt el seu fill&lt;/i1&gt;?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113929Z" creationid="fsanchez" creationdate="20161014T113929Z">
+        <seg>¿Qué tipo de ambigüedad se produce en el pronombre débil &lt;i0&gt;li&lt;/i0&gt; de la frase &lt;i1&gt;Vaig veure Mario i sa madre; li vaig dir que m'agradava molt el seu fill&lt;/i1&gt;?</seg>
       </tuv>
     </tu>
     <tu>
