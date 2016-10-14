@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; El problema de la síntesi es refereix a l'ambigüitat dels textos traduïts automàticament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114256Z" creationid="fsanchez" creationdate="20161014T114256Z">
+        <seg>&lt;u2&gt; El problema de la síntesis se refiere a la ambigüedad de los textos traducidos automáticamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Estructural d'adjunció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141751Z" creationid="fsanchez" creationdate="20161010T141751Z">
@@ -1518,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Indiqueu quina de les afirmacions següents és falsa: &lt;n0&gt; &lt;u1&gt; El problema de l'anàlisi es refereix a la dificultat per resoldre l'ambigüitat d'un enunciat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114252Z" creationid="fsanchez" creationdate="20161014T114252Z">
+        <seg>Indicad cuál de las afirmaciones siguientes es falsa: &lt;n0&gt; &lt;u1&gt; El problema del análisis se refiere a la dificultad para resolver la ambigüedad de un enunciado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Jo la vaig posar damunt de la taula&lt;/i2&gt; (1: ``Vaig posar Maria damunt de la taula''; 2: ``Vaig posar la bossa damunt de la taula'') &lt;u4&gt; &lt;i3&gt;Què vols, galetes o pa de la tia Pepa?&lt;/i3&gt; (Les galetes són també de la tia Pepa?) &lt;u5&gt; &lt;i4&gt;Posa una mà de paper en la impressora i connecta-la.&lt;/i4&gt; (Ha de connectar la mà de paper o la impressora?) &lt;u6&gt; &lt;i5&gt;Us han dit que vaja?&lt;/i5&gt; (Qui ha d'anar?).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131034Z" creationid="fsanchez" creationdate="20161010T130953Z">
@@ -2186,6 +2202,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144205Z" creationid="fsanchez" creationdate="20161009T144205Z">
         <seg>Se pueden distinguir varios casos: &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Ambigüedad estructural de origen coordinativo&lt;/i0&gt;: Por ejemplo, si decimos &lt;n2&gt; Pon las sábanas y las colchas limpias en el armario &lt;n3&gt; hay dos posibles interpretaciones; en una las sábanas no están limpias, en la otra sí, según se considere que el adjetivo &lt;i1&gt;limpias&lt;/i1&gt; modifica a los dos sustantivos coordinados o sólo al último (véase la fig. &lt;n4&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Segons Arnold (2003) els problemes als quals s'enfronta la traducció automàtica són quatre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114246Z" creationid="fsanchez" creationdate="20161014T114246Z">
+        <seg>Según Arnold (2003) los problemas a los cuales se enfrenta la traducción automática son cuatro.</seg>
       </tuv>
     </tu>
     <tu>
