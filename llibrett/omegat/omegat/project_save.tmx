@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(*) Exemples de l'espanyol al català: &lt;n0&gt; &lt;u1&gt; Ambigüitat que es pot resoldre després de fer una anàlisi morfològica de l'oració: en &lt;i0&gt;mi trabajo&lt;/i0&gt;, l'homògraf &lt;i1&gt;trabajo&lt;/i1&gt; pot ser substantiu (català &lt;i2&gt;treballo&lt;/i2&gt;) o verb (català &lt;i3&gt;treball&lt;/i3&gt;), però la presència de &lt;i4&gt;mi&lt;/i4&gt; (determinant possessiu) desambigua l'homògraf perfectament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115454Z" creationid="fsanchez" creationdate="20161014T115454Z">
+        <seg>(*) Ejemplos del español al catalán: &lt;n0&gt; &lt;u1&gt; Ambigüedad que se puede resolver después de hacer un análisis morfológico de la oración: en &lt;i0&gt;mi trabajo&lt;/i0&gt;, el homógrafo &lt;i1&gt;trabajo&lt;/i1&gt; puede ser sustantivo o verbo, pero la presencia de &lt;i4&gt;mi&lt;/i4&gt; (determinante posesivo) desambigua el homógrafo perfectamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(*) Hi ha ambigüitats de tipus lèxic que poden ser sempre correctament resoltes després de fer una anàlisi morfològica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141246Z" creationid="fsanchez" creationdate="20161010T141246Z">
