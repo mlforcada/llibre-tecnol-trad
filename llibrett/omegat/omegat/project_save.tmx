@@ -870,6 +870,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt; Ambigüitat lèxica per anàfora: el pronom &lt;i10&gt;la&lt;/i10&gt; pot tenir dos antecedents: &lt;i11&gt;mà [de paper]&lt;/i11&gt; i la &lt;i12&gt;impressora&lt;/i12&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114532Z" creationid="fsanchez" creationdate="20161014T114532Z">
+        <seg>&lt;u5&gt; Ambigüedad léxica por anáfora: el pronombre &lt;i10&gt;la&lt;/i10&gt; puede tener dos antecedentes: &lt;i11&gt;mano [de papel]&lt;/i11&gt; y la &lt;i12&gt;impresora&lt;/i12&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt;[(b)] No hi ha cap dona que s'estime els abrics de pell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122447Z" creationid="fsanchez" creationdate="20161010T122447Z">
@@ -890,6 +898,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T140739Z" creationid="fsanchez" creationdate="20161010T140739Z">
         <seg>&lt;u6&gt; &lt;i6&gt;No puedo ver bien la foto que me has enviado por correo electrónico porque no puedo cerrar todas las ventanas&lt;/i6&gt; (1: ``Todavía entra sol y se refleja en la pantalla"; 2: ``Tengo el escritorio lleno de documentos abiertos").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u6&gt; Ambigüitat per el·lipsi: el subjecte de &lt;i13&gt;vaja&lt;/i13&gt; pot ser &lt;i14&gt;jo&lt;/i14&gt;, &lt;i15&gt;ell&lt;/i15&gt;, &lt;i16&gt;ella&lt;/i16&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114539Z" creationid="fsanchez" creationdate="20161014T114539Z">
+        <seg>&lt;u6&gt; Ambigüedad por elipsis: el sujeto de &lt;i13&gt;vaya&lt;/i13&gt; puede ser &lt;i14&gt;yo&lt;/i14&gt;, &lt;i15&gt;él&lt;/i15&gt;, &lt;i16&gt;ella&lt;/i16&gt;, etc.</seg>
       </tuv>
     </tu>
     <tu>
