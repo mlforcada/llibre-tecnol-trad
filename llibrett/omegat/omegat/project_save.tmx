@@ -2062,6 +2062,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quina?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114048Z" creationid="fsanchez" creationdate="20161014T114048Z">
+        <seg>¿Cuál?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Què és Internet?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20160512T153413Z" creationid="fsanchez" creationdate="20160512T153413Z">
