@@ -302,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; Ambigüitat estructural d'origen coordinatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115310Z" creationid="fsanchez" creationdate="20161014T115310Z">
+        <seg>&lt;u3&gt; Ambigüedad estructural de origen coordinativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Ambigüitat estructural pura d'adjunció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114708Z" creationid="fsanchez" creationdate="20161014T114708Z">
@@ -1430,6 +1438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El sintagma (oració subordinada de relatiu) &lt;i4&gt;que s'hagen fet en euros&lt;/i4&gt; pot modificar al segon sintagma nominal &lt;i5&gt;les despeses&lt;/i5&gt; o al sintagma nominal complet &lt;i6&gt;les entrades i les despeses&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115323Z" creationid="fsanchez" creationdate="20161014T115323Z">
+        <seg>El sintagma (oración subordinada de relativo) &lt;i4&gt;que se hayan hecho en euros&lt;/i4&gt; puede modificar al segundo sintagma nominal &lt;i5&gt;los gastos&lt;/i5&gt; o al sintagma nominal completo &lt;i6&gt;las entradas y los gastos&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El sintagma nominal &lt;i14&gt;cançons de bressol&lt;/i14&gt; pot modificar només el segon sintagma verbal &lt;i15&gt;cantar&lt;/i15&gt; o el sintagma verbal complet &lt;i16&gt;ballar i cantar&lt;/i16&gt; (és a dir, &lt;i17&gt;cançons de bressol&lt;/i17&gt; pot ser objecte directe només del segon verb o dels dos).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115210Z" creationid="fsanchez" creationdate="20161014T115210Z">
@@ -1642,6 +1658,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143751Z" creationid="fsanchez" creationdate="20161009T143751Z">
         <seg>En la frase &lt;n1&gt; Abrí [la puerta]$_i$ a [la cocinera]$_j$ y la$_{i/j?}$ hice pasar &lt;n2&gt; los índices ($i$, $j$, $i/j?$) indican que el pronombre débil &lt;i7&gt;la &lt;/i7&gt; se puede referir a la misma persona a la cual nos hemos referido con el sintagma nominal &lt;i8&gt;la cocinera&lt;/i8&gt;, pero no hay ninguna razón sintáctica para que el referente no sea el mismo que el del sintagma &lt;i9&gt;la puerta&lt;/i9&gt;: esta puede ser una posible causa de ambigüedad en la segunda oración coordinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En la primera interpretació &lt;i0&gt;les&lt;/i0&gt; és un pronom i &lt;i1&gt;creus&lt;/i1&gt; és un verb, i formen junts un sintagma verbal; en la segona &lt;i2&gt;les&lt;/i2&gt; és un article i &lt;i3&gt;creus&lt;/i3&gt; és un substantiu i formen junts un sintagma nominal.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115309Z" creationid="fsanchez" creationdate="20161014T115309Z">
+        <seg>En la primera interpretación de la frase en catalán &lt;i0&gt;les&lt;/i0&gt; es un pronombre y &lt;i1&gt;creus&lt;/i1&gt; es un verbo, y forman juntos un sintagma verbal; en la segunda &lt;i2&gt;les&lt;/i2&gt; es un artículo y &lt;i3&gt;creus&lt;/i3&gt; es un sustantivo y forman juntos un sintagma nominal.</seg>
       </tuv>
     </tu>
     <tu>
