@@ -1806,6 +1806,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Es poden trobar molts exemples; per exemple, entre $L_1 =$ espanyol i $L_2 =$ català, tenim: &lt;n0&gt; &lt;u1&gt; Ayer por la mañana vino tarde $&lt;u3&gt;$ *Ahir pel demà vi vesprada (Ahir de matí va venir tard).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115910Z" creationid="fsanchez" creationdate="20161014T115910Z">
+        <seg>Se pueden encontrar muchos ejemplos; por ejemplo, entre $L_1 =$ español y $L_2 =$ catalán, tenemos: &lt;n0&gt; &lt;u1&gt; Ayer por la mañana vino tarde $&lt;u3&gt;$ *Ahir pel demà vi vesprada (Ahir de matí va venir tard).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es podria argumentar fàcilment en contra dient que en frases complexes (per exemple, l'oració &lt;n1&gt;) hi ha massa estructures a considerar.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125704Z" creationid="fsanchez" creationdate="20161010T125704Z">
@@ -2698,6 +2706,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142656Z" creationid="fsanchez" creationdate="20161010T142656Z">
         <seg>Si traducimos automáticamente la frase &lt;i0&gt;Ayer cantamos las mismas canciones&lt;/i0&gt; y obtenemos en inglés &lt;i1&gt;Yesterday we sing the same songs&lt;/i1&gt; o en francés &lt;i2&gt;Hier nous chantons las mêmes chansons&lt;/i2&gt;, ¿qué tipo de ambigüedad ha sido mal resuelta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si trobem {&lt;u5&gt; podem&lt;u13&gt;} ({&lt;u6&gt; volem&lt;u14&gt;}) seguit d'infinitiu, és molt més probable que es tracte del verb {&lt;u7&gt; poder&lt;u15&gt;} ({&lt;u8&gt; voler&lt;u16&gt;}) que del verb {&lt;u9&gt; podar} ({&lt;u10&gt; volar&lt;u17&gt;}); de nou, caldria usar una categoria gramatical especial, en aquest cas per als verbs modals.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115856Z" creationid="fsanchez" creationdate="20161014T115856Z">
+        <seg>Si encontramos en catalán {&lt;u5&gt; podem&lt;u13&gt;} ({&lt;u6&gt; volem&lt;u14&gt;}) seguido de infinitivo, es mucho más probable que se trate del verbo {&lt;u7&gt; poder&lt;u15&gt;} ({&lt;u8&gt; voler&lt;u16&gt;}) que del verbo {&lt;u9&gt; podar} ({&lt;u10&gt; volar&lt;u17&gt;}); de nuevo, habría que usar una categoría gramatical especial, en este caso para los verbos modales.</seg>
       </tuv>
     </tu>
     <tu>
