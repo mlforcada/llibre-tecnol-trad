@@ -2446,6 +2446,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, si {&lt;u1&gt; fui&lt;u11&gt;} va seguit de la preposició {&lt;u2&gt; a}, és molt probable que es tracte del verb {&lt;u3&gt; ir}; d'altra banda, si va seguit d'un participi passat, és molt probable que es tracte del verb {&lt;u4&gt; ser&lt;u12&gt;}: es podria fer una categoria gramatical especial per al verb ser i usar tècniques de desambiguació categorial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115840Z" creationid="fsanchez" creationdate="20161014T115840Z">
+        <seg>Por ejemplo, si {&lt;u1&gt; fui&lt;u11&gt;} va seguido de la preposición {&lt;u2&gt; a}, es muy probable que se trate del verbo {&lt;u3&gt; ir}; por otro lado, si va seguido de un participio pasado, es muy probable que se trate del verbo {&lt;u4&gt; ser&lt;u12&gt;}: se podría hacer una categoría gramatical especial para el verbo ser y usar técnicas de desambiguación categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, una preposició no pot anar seguida d'una altra preposició.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123013Z" creationid="fsanchez" creationdate="20161010T123013Z">
