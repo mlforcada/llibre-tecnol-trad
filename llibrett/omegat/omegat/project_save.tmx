@@ -1494,6 +1494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El pronom &lt;i0&gt;li&lt;/i0&gt; pot tenir els antecedents &lt;i1&gt;Mario&lt;/i1&gt; i &lt;i2&gt;la seua mare&lt;/i2&gt; &lt;u2&gt; (b) &lt;u3&gt; (c) &lt;u4&gt; (a) &lt;u5&gt; (c) &lt;u6&gt; (c) &lt;u7&gt; (b) &lt;u8&gt; (c) &lt;u9&gt; (c) &lt;u10&gt; (b)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T120011Z" creationid="fsanchez" creationdate="20161014T120011Z">
+        <seg>El pronombre &lt;i0&gt;li&lt;/i0&gt; puede tener los antecedentes &lt;i1&gt;Mario&lt;/i1&gt; y &lt;i2&gt;su madre&lt;/i2&gt; &lt;u2&gt; (b) &lt;u3&gt; (c) &lt;u4&gt; (a) &lt;u5&gt; (c) &lt;u6&gt; (c) &lt;u7&gt; (b) &lt;u8&gt; (c) &lt;u9&gt; (c) &lt;u10&gt; (b)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El pronom &lt;i7&gt;la&lt;/i7&gt; pot tenir tres antecedents: &lt;i8&gt;la venedora&lt;/i8&gt;, &lt;i9&gt;la descripció&lt;/i9&gt; o &lt;i10&gt;la urbanització projectada&lt;/i10&gt; i, per tant, tres interpretacions diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115352Z" creationid="fsanchez" creationdate="20161014T115352Z">
