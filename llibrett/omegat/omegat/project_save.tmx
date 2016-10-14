@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;i0&gt;Cantamos&lt;/i0&gt; pot ser present o passat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115931Z" creationid="fsanchez" creationdate="20161014T115931Z">
+        <seg>&lt;i0&gt;Cantamos&lt;/i0&gt; puede ser presente o pasado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Ambigüitat lèxica per polisèmia.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114221Z" creationid="fsanchez" creationdate="20161014T114221Z">
@@ -1490,6 +1498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115352Z" creationid="fsanchez" creationdate="20161014T115352Z">
         <seg>El pronombre &lt;i7&gt;la&lt;/i7&gt; puede tener tres antecedentes: &lt;i8&gt;la vendedora&lt;/i8&gt;, &lt;i9&gt;la descripción&lt;/i9&gt; o &lt;i10&gt;la urbanización proyectada&lt;/i10&gt; y, por lo tanto, tres interpretaciones diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El pronom buit que fa de subjecte de &lt;i1&gt;fa&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115936Z" creationid="fsanchez" creationdate="20161014T115936Z">
+        <seg>El pronombre átono que hace de sujeto en catalán de &lt;i1&gt;fa&lt;/i1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
