@@ -414,6 +414,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat mixta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114715Z" creationid="fsanchez" creationdate="20161014T114715Z">
+        <seg>&lt;u2&gt; Ambigüedad mixta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; El problema de la síntesi es refereix a l'ambigüitat dels textos traduïts automàticament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114256Z" creationid="fsanchez" creationdate="20161014T114256Z">
@@ -1222,6 +1230,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>D'una banda, lèxica: el mot &lt;i8&gt;privado&lt;/i8&gt; pot ser un adjectiu (interpretació 1) o un participi (interpretació 2).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114722Z" creationid="fsanchez" creationdate="20161014T114722Z">
+        <seg>Por un lado, léxica: la palabra &lt;i8&gt;privado&lt;/i8&gt; puede ser un adjetivo (interpretación 1) o un participio (interpretación 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De fet, estudiarem tres casos: l'ambigüitat purament deguda a l'ambigüitat dels mots (explícits o nuls); l'ambigüitat purament deguda a l'existència de més d'una estructura sintàctica, i l'ambigüitat deguda a les dues causes alhora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141822Z" creationid="fsanchez" creationdate="20161009T141822Z">
@@ -1362,6 +1378,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130815Z" creationid="fsanchez" creationdate="20161010T130815Z">
         <seg>El punto de vista puramente sintáctico se puede considerar una simplificación excesiva; muchas veces, las personas resolvemos la ambigüedad estructural usando restricciones semánticas o incluso lèxico-semánticas: &lt;n0&gt; &lt;u0&gt; Por ejemplo, el verbo &lt;i0&gt;vender&lt;/i0&gt; admite un objeto directo y uno de indirecto, pero el verbo &lt;i1&gt;comer&lt;/i1&gt; sólo el directo, de forma que si decimos ``Le presentó al hombre que vendía naranjas a Joan'' se puede interpretar de dos maneras a causa de la ambigüedad estructural, pero si decimos la frase estructuralmente idéntica ---y por lo tanto idénticamente ambigua--- ``Le presentó al hombre que comía naranjas a Joan'' no hay más que una interpretación posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El sintagma preposicional &lt;i5&gt;per un policia&lt;/i5&gt; pot modificar el sintagma verbal &lt;i6&gt;atrapats a una fàbrica incendiada&lt;/i6&gt; o només el sintagma verbal &lt;i7&gt;incendiada&lt;/i7&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114714Z" creationid="fsanchez" creationdate="20161014T114714Z">
+        <seg>El sintagma preposicional &lt;i5&gt;por un policía&lt;/i5&gt; puede modificar el sintagma verbal &lt;i6&gt;atrapados en una fábrica incendiada&lt;/i6&gt; o sólo el sintagma verbal &lt;i7&gt;incendiada&lt;/i7&gt;.</seg>
       </tuv>
     </tu>
     <tu>
