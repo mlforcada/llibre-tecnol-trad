@@ -1494,6 +1494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El pronom feble &lt;i2&gt;el&lt;/i2&gt; pot referir-se a &lt;i3&gt;garatge&lt;/i3&gt; o a &lt;i4&gt;cotxe&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115742Z" creationid="fsanchez" creationdate="20161014T115742Z">
+        <seg>El pronombre átono &lt;i2&gt;lo&lt;/i2&gt; puede referirse a  &lt;i3&gt;garaje&lt;/i3&gt; o a &lt;i4&gt;coche&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El punt de vista purament sintàctic és pot considerar una simplificació excessiva; moltes vegades, les persones resolem l'ambigüitat estructural usant restriccions semàntiques o fins i tot lèxico-semàntiques: &lt;n0&gt; &lt;u0&gt; Per exemple, el verb &lt;i0&gt;vendre&lt;/i0&gt; admet un objecte directe i un d'indirecte, però el verb &lt;i1&gt;menjar&lt;/i1&gt; només el directe, de manera que si diem ``Va presentar l'home que venia taronges a Joan'' es pot interpretar de dues maneres per causa de l'ambigüitat estructural, però si diem la frase estructuralment idèntica ---i per tant idènticament ambigua--- ``Va presentar l'home que menjava taronges a Joan'' no hi ha més que una interpretació possible.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130815Z" creationid="fsanchez" creationdate="20161010T130815Z">
