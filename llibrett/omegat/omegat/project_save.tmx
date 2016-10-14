@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;}no es pot resoldre si no es fa l'anàlisi sintàctica completa de la frase, ja aquesta és l'única manera d'elegir l'anàlisi morfològica correcta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113850Z" creationid="fsanchez" creationdate="20161014T113850Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;}no se puede resolver si no se hace el análisis sintáctico completo de la frase, ya que ésta es la única manera de elegir el análisis morfológico correcto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt;[(b)] *Dius que Jordi ha explicat &lt;i7&gt;com&lt;/i7&gt; que vindria?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151522Z" creationid="fsanchez" creationdate="20161009T151447Z">
@@ -1402,6 +1410,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144212Z" creationid="fsanchez" creationdate="20161009T144212Z">
         <seg>La ambigüedad estructural asociada a las conjunciones coordinativas se suele denominar &lt;i2&gt;de origen coordinativo&lt;/i2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'ambigüitat lèxica categorial d'un mot{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;}no es pot resoldre mai si no s'usa informació semàntica sobre el text o sobre els mots contigus.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113844Z" creationid="fsanchez" creationdate="20161014T113844Z">
+        <seg>La ambigüedad léxica categorial de una palabra{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;}no se puede resolver nunca si no se usa información semántica sobre el texto o sobre las palabras contiguas.</seg>
       </tuv>
     </tu>
     <tu>
