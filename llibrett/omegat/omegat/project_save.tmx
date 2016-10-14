@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; L'anàfora d'un pronom buit.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113218Z" creationid="fsanchez" creationdate="20161014T113218Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; La anáfora de un pronombre vacío.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Lèxica categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141649Z" creationid="fsanchez" creationdate="20161010T141649Z">
