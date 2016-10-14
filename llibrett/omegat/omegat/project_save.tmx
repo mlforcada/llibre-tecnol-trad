@@ -1926,6 +1926,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'anàlisi morfològica no és suficient per a detectar que en la frase &lt;i8&gt;En el lugar donde murieron sesenta y cinco quedaron restos&lt;/i8&gt; és el primer cas i en la frase &lt;i9&gt;Murieron sesenta y cinco quedaron malheridos&lt;/i9&gt; és el segon.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115616Z" creationid="fsanchez" creationdate="20161014T115616Z">
+        <seg>El análisis morfológico no es suficiente para detectar que en la frase &lt;i8&gt;En el lugar donde murieron sesenta y cinco quedaron restos&lt;/i8&gt; es el primer caso y en la frase &lt;i9&gt;Murieron sesenta y cinco quedaron malheridos&lt;/i9&gt; es el segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'experiència ens ajuda a fer prediccions que en general tenen èxit, però de vegades hi ha oracions ``enganyoses'' que ``ens porten a l'hort'' (anomenades, per això, en anglés &lt;i2&gt;garden-path sentences&lt;/i2&gt;, de l'anglés &lt;i3&gt;lead up the garden path&lt;/i3&gt;) ja que en cert punt del procés ens obliguen a descartar la predicció feta i reinterpretar el que havíem llegit fins a aquell punt (l'estudi dels moviments oculars, en anglés &lt;i4&gt;eyetracking&lt;/i4&gt;) durant la lectura donen pistes molt rellevants sobre l'existència d'aquests processos).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125818Z" creationid="fsanchez" creationdate="20161010T125818Z">
