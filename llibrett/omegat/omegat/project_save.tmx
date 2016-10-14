@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El sintagma nominal &lt;i14&gt;cançons de bressol&lt;/i14&gt; pot modificar només el segon sintagma verbal &lt;i15&gt;cantar&lt;/i15&gt; o el sintagma verbal complet &lt;i16&gt;ballar i cantar&lt;/i16&gt; (és a dir, &lt;i17&gt;cançons de bressol&lt;/i17&gt; pot ser objecte directe només del segon verb o dels dos).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115210Z" creationid="fsanchez" creationdate="20161014T115210Z">
+        <seg>El sintagma nominal &lt;i14&gt;canciones de cuna&lt;/i14&gt; puede modificar sólo el segundo sintagma verbal &lt;i15&gt;cantar&lt;/i15&gt; o el sintagma verbal completo &lt;i16&gt;bailar y cantar&lt;/i16&gt; (es decir, &lt;i17&gt;canciones de cuna&lt;/i17&gt; puede ser objeto directo sólo del segundo verbo o de los dos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El sintagma preposicional &lt;i5&gt;per un policia&lt;/i5&gt; pot modificar el sintagma verbal &lt;i6&gt;atrapats a una fàbrica incendiada&lt;/i6&gt; o només el sintagma verbal &lt;i7&gt;incendiada&lt;/i7&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114714Z" creationid="fsanchez" creationdate="20161014T114714Z">
