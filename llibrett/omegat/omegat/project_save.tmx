@@ -304,8 +304,8 @@
       <tuv lang="CA">
         <seg>&lt;u1&gt; Ambigüitat estructural d'origen coordinatiu.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115310Z" creationid="fsanchez" creationdate="20161014T115310Z">
-        <seg>&lt;u3&gt; Ambigüedad estructural de origen coordinativo.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115330Z" creationid="fsanchez" creationdate="20161014T115310Z">
+        <seg>&lt;u1&gt; Ambigüedad estructural de origen coordinativo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -394,6 +394,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141540Z" creationid="fsanchez" creationdate="20161010T141540Z">
         <seg>&lt;u2&gt; &lt;u6&gt; tiene un único árbol de análisis sintáctico y un único análisis morfológico, pero dos interpretaciones semánticas diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat de l'oració deguda a l'ambigüitat lèxica per anàfora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115346Z" creationid="fsanchez" creationdate="20161014T115346Z">
+        <seg>&lt;u2&gt; Ambigüedad de la oración debida a la ambigüedad léxica por anáfora.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1426,6 +1434,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144014Z" creationid="fsanchez" creationdate="20161009T144014Z">
         <seg>El problema es que falta el sujeto de la oración subordinada &lt;i0&gt;cómo caía rodando&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El pronom &lt;i7&gt;la&lt;/i7&gt; pot tenir tres antecedents: &lt;i8&gt;la venedora&lt;/i8&gt;, &lt;i9&gt;la descripció&lt;/i9&gt; o &lt;i10&gt;la urbanització projectada&lt;/i10&gt; i, per tant, tres interpretacions diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115352Z" creationid="fsanchez" creationdate="20161014T115352Z">
+        <seg>El pronombre &lt;i7&gt;la&lt;/i7&gt; puede tener tres antecedentes: &lt;i8&gt;la vendedora&lt;/i8&gt;, &lt;i9&gt;la descripción&lt;/i9&gt; o &lt;i10&gt;la urbanización proyectada&lt;/i10&gt; y, por lo tanto, tres interpretaciones diferentes.</seg>
       </tuv>
     </tu>
     <tu>
