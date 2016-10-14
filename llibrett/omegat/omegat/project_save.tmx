@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Estructural d'adjunció: el sintagma preposicional &lt;i5&gt;del partit&lt;/i5&gt; pot ser un adjunt del sintagma verbal &lt;i6&gt;Expulsaran el portaveu&lt;/i6&gt; o del sintagma nominal &lt;i7&gt;el portaveu&lt;/i7&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114033Z" creationid="fsanchez" creationdate="20161014T114033Z">
+        <seg>&lt;u3&gt; Estructural de adjunción: el sintagma preposicional &lt;i5&gt;del partido&lt;/i5&gt; puede ser un adjunto del sintagma verbal &lt;i6&gt;Expulsarán al portavoz&lt;/i6&gt; o del sintagma nominal &lt;i7&gt;el portavoz&lt;/i7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Estructural d'origen categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141621Z" creationid="fsanchez" creationdate="20161010T141621Z">
@@ -1666,6 +1674,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141443Z" creationid="fsanchez" creationdate="20161010T141443Z">
         <seg>Sin embargo, hay otras que sólo pueden ser tratadas si se hace un análisis sintáctico (a pesar de que la ambigüedad sea de tipo léxico) e incluso las hay que requerirían un análisis semántico para resolverlas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Només una d'aquestes tres afirmacions és certa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114040Z" creationid="fsanchez" creationdate="20161014T114040Z">
+        <seg>Solo una de estas tres afirmaciones es correcta.</seg>
       </tuv>
     </tu>
     <tu>
