@@ -1030,6 +1030,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Ambigüitat de l'oració per polisèmia (ambigüitat lèxica) del mot &lt;i0&gt;número&lt;/i0&gt; (part d'una actuació / comptes econòmics)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115404Z" creationid="fsanchez" creationdate="20161014T115404Z">
+        <seg>Ambigüedad de la oración por polisemia (ambigüedad léxica) de la palabra &lt;i0&gt;número&lt;/i0&gt; (parte de una actuación / cuentas económicas)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat estructural d'adjunció&lt;/i0&gt; (en anglés &lt;i1&gt;attachment ambiguity&lt;/i1&gt;): es tracta d'un cas típic d'ambigüitat estructural que es manifesta quan hi ha un {&lt;u1&gt; adjunt}&lt;p0&gt; (típicament un sintagma preposicional) que es pot inserir de diverses maneres en l'arbre d'anàlisi sintàctica de la frase.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144504Z" creationid="fsanchez" creationdate="20161009T144504Z">
