@@ -438,6 +438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Ambigüitat lèxica que necessita una anàlisi sintàctica per a ser resolta: l'expressió multimot &lt;i5&gt;sesenta y cinco&lt;/i5&gt; pot ser un únic numeral (català &lt;i6&gt;seixanta-cinc&lt;/i6&gt;) o dos numerals coordinats (català &lt;i7&gt;seixanta i cinc&lt;/i7&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115601Z" creationid="fsanchez" creationdate="20161014T115601Z">
+        <seg>&lt;u2&gt; Ambigüedad léxica que necesita un análisis sintáctico para ser resuelta: la expresión multipalabra &lt;i5&gt;sesenta y cinco&lt;/i5&gt; puede ser un único numeral (&lt;i6&gt;65&lt;/i6&gt;) o dos numerales coordinados (&lt;i7&gt;60 y 5&lt;/i7&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Ambigüitat mixta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114715Z" creationid="fsanchez" creationdate="20161014T114715Z">
