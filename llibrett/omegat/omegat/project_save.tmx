@@ -526,6 +526,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} homògraf.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114239Z" creationid="fsanchez" creationdate="20161014T114239Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} homógrafo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; {&lt;u6&gt;}no es pot resoldre si no es fa l'anàlisi sintàctica completa de la frase, ja aquesta és l'única manera d'elegir l'anàlisi morfològica correcta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113850Z" creationid="fsanchez" creationdate="20161014T113850Z">
@@ -714,6 +722,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142455Z" creationid="fsanchez" creationdate="20161010T142455Z">
         <seg>&lt;u3&gt; {&lt;u7&gt;} podemos decir que el lema es polisémico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} polisèmic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114240Z" creationid="fsanchez" creationdate="20161014T114240Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} polisémico.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2098,6 +2114,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123642Z" creationid="fsanchez" creationdate="20161010T123642Z">
         <seg>Cuando tenemos una palabra polisémica, le podemos asociar más de un concepto o &lt;i6&gt;sentido&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan un adjectiu presenta la mateixa ambigüitat (per exemple, pot tenir més d'una traducció), independentment de com es trobe flexionat en gènere i nombre, direm que l'adjectiu és{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} anafòric.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114237Z" creationid="fsanchez" creationdate="20161014T114237Z">
+        <seg>Cuando un adjetivo presenta la misma ambigüedad (por ejemplo, puede tener más de una traducción), independientemente de cómo se encuentrw flexionado en género y número, diremos que el adjetivo es{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} anafórico.</seg>
       </tuv>
     </tu>
     <tu>
