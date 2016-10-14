@@ -1542,6 +1542,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El sintagma preposicional ``a Maria'' pot ser l'objecte indirecte de l'oració principal i de la subordinada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115759Z" creationid="fsanchez" creationdate="20161014T115759Z">
+        <seg>El sintagma preposicional ``a María'' puede ser el objeto indirecto de la oración principal y de la subordinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El tipus de fitxer bàsic amb què treballen els professionals de la traducció sol ser un fitxer amb text, és a dir, un text informatitzat, també anomenat &lt;i0&gt;document de text&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="japerez" changedate="20161010T100128Z" creationid="japerez" creationdate="20161010T100128Z">
