@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; L'anàfora del pronom &lt;i3&gt;que&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113745Z" creationid="fsanchez" creationdate="20161014T113745Z">
+        <seg>&lt;u2&gt; La anáfora del pronombre &lt;i3&gt;que&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Lèxica categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141602Z" creationid="fsanchez" creationdate="20161010T141602Z">
