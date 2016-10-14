@@ -2526,6 +2526,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Pot tenir més d'un arbre d'anàlisi sintàctica (ambigüitat estructural).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115926Z" creationid="fsanchez" creationdate="20161014T115926Z">
+        <seg>Puede tener más de un árbol de análisis sintáctico (ambigüedad estructural).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Pot una oració tenir més d'una traducció a un altre idioma malgrat estar formada completament per mots que no són ni homògrafs ni polisèmics en la llengua original?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142501Z" creationid="fsanchez" creationdate="20161010T142501Z">
