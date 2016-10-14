@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; L'ambigüitat categorial de la preposició.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113831Z" creationid="fsanchez" creationdate="20161014T113831Z">
+        <seg>&lt;u2&gt; La ambigüedad categorial de la preposición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; L'anàfora del pronom &lt;i3&gt;que&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113745Z" creationid="fsanchez" creationdate="20161014T113745Z">
@@ -506,6 +514,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141754Z" creationid="fsanchez" creationdate="20161010T141754Z">
         <seg>&lt;u3&gt; Extrasentencial por anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; La polisèmia de la preposició.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113832Z" creationid="fsanchez" creationdate="20161014T113832Z">
+        <seg>&lt;u3&gt; La polisemia de la preposición.</seg>
       </tuv>
     </tu>
     <tu>
