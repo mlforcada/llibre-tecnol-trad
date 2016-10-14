@@ -918,6 +918,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u7&gt; Ambigüitat sintàctica o estructural d'origen categorial deguda al fet que els mots &lt;i17&gt;las&lt;/i17&gt; (article o pronom) i &lt;i18&gt;comas&lt;/i18&gt; (substantiu o verb) són homògrafs afectats d'ambigüitat lèxica categorial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114605Z" creationid="fsanchez" creationdate="20161014T114605Z">
+        <seg>&lt;u7&gt; Ambigüedad sintáctica o estructural de origen categorial debido al hecho de que las palabras &lt;i17&gt;las&lt;/i17&gt; (artículo o pronombre) y &lt;i18&gt;comas&lt;/i18&gt; (sustantivo o verbo) son homógrafos afectados de ambigüedad léxica categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A canvi, hem de fer l'esforç (presumiblement més lleuger) de predir una entre les possibles continuacions (sintàctiques) del que hem llegit; segons arriben mots, els anem encaixant en l'estructura predita i usem la sintaxi i la interpretació dels mots per a anar construint a poc a poc la interpretació de l'oració completa.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125740Z" creationid="fsanchez" creationdate="20161010T125740Z">
@@ -1234,6 +1242,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152510Z" creationid="fsanchez" creationdate="20161009T152510Z">
         <seg>De los 8 ($2&lt;u0&gt; 2&lt;u1&gt; 2$) análisis morfológicos posibles de la frase, tres resultan sintácticamente aceptables, con interpretaciones muy diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De les quatre combinacions possibles, dues són sintàcticament acceptables.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114608Z" creationid="fsanchez" creationdate="20161014T114608Z">
+        <seg>De las cuatro combinaciones posibles, dos son sintácticamente aceptables.</seg>
       </tuv>
     </tu>
     <tu>
