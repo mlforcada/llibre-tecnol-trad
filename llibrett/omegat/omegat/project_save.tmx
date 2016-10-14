@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; L'ambigüitat sempre representa un problema a l'hora de traduir entre dues llengües.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114349Z" creationid="fsanchez" creationdate="20161014T114349Z">
+        <seg>&lt;u2&gt; La ambigüedad siempre representa un problema a la hora de traducir entre dos lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; L'anàfora del pronom &lt;i3&gt;que&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113745Z" creationid="fsanchez" creationdate="20161014T113745Z">
@@ -674,6 +682,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141754Z" creationid="fsanchez" creationdate="20161010T141754Z">
         <seg>&lt;u3&gt; Extrasentencial por anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; L'ambigüitat és un dels problemes als quals ha d'enfrontar-se un traductor automàtic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114353Z" creationid="fsanchez" creationdate="20161014T114353Z">
+        <seg>&lt;u3&gt; La ambigüedad es uno de los problemas a los cuales tiene que enfrentarse un traductor automático.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1574,6 +1590,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Indiqueu quina de les afirmacions següents és falsa: &lt;n0&gt; &lt;u1&gt; Hi ha casos en els quals no fa falta resoldre l'ambigüitat per produir una traducció adequada en la llengua meta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114346Z" creationid="fsanchez" creationdate="20161014T114346Z">
+        <seg>Indicad cuál de las afirmaciones siguientes es falsa: &lt;n0&gt; &lt;u1&gt; Hay casos en los cuales no hace falta resolver la ambigüedad para producir una traducción adecuada en la lengua meta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Jo la vaig posar damunt de la taula&lt;/i2&gt; (1: ``Vaig posar Maria damunt de la taula''; 2: ``Vaig posar la bossa damunt de la taula'') &lt;u4&gt; &lt;i3&gt;Què vols, galetes o pa de la tia Pepa?&lt;/i3&gt; (Les galetes són també de la tia Pepa?) &lt;u5&gt; &lt;i4&gt;Posa una mà de paper en la impressora i connecta-la.&lt;/i4&gt; (Ha de connectar la mà de paper o la impressora?) &lt;u6&gt; &lt;i5&gt;Us han dit que vaja?&lt;/i5&gt; (Qui ha d'anar?).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131034Z" creationid="fsanchez" creationdate="20161010T130953Z">
@@ -2346,6 +2370,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141751Z" creationid="fsanchez" creationdate="20161009T141751Z">
         <seg>Si una oración es ambigua cuando tiene más de una interpretación posible, esto puede tener dos causas básicas: &lt;n0&gt; &lt;u0&gt; una o más palabras de la oración tienen más de una interpretación posible (es decir, son &lt;i0&gt;léxicamente ambiguas&lt;/i0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Solucions</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114356Z" creationid="fsanchez" creationdate="20161014T114356Z">
+        <seg>Soluciones</seg>
       </tuv>
     </tu>
     <tu>
