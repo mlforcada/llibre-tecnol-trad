@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Estructural d'origen coordinatiu: no sabem si el sintagma preposicional &lt;i2&gt;del partit&lt;/i2&gt; modifica només al segon element &lt;i3&gt;el portaveu&lt;/i3&gt; o a tot el sintagma &lt;i4&gt;Expulsaran el portaveu&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114019Z" creationid="fsanchez" creationdate="20161014T114019Z">
+        <seg>&lt;u2&gt; Estructural de origen coordinativo: no sabemos si el sintagma preposicional &lt;i2&gt;del partido&lt;/i2&gt; modifica sólo al segundo elemento &lt;i3&gt;el portavoz&lt;/i3&gt; o a todo el sintagma &lt;i4&gt;Expulsarán al portavoz&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Hi ha vegades que només podem recórrer a una anàlisi semàntica; en l'exemple (ja discutit en la secció &lt;n8&gt;) &lt;n3&gt; [Els soldats]$_i$ van disparar [als xiquets]$_j$.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124831Z" creationid="fsanchez" creationdate="20161010T124831Z">
