@@ -302,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; Ambigüitat estructural pura d'adjunció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114708Z" creationid="fsanchez" creationdate="20161014T114708Z">
+        <seg>&lt;u1&gt; Ambigüedad estructural pura de adjunción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Considereu aquestes dues frases estructuralment idèntiques afectades per la mateixa ambigüitat estructural pura d'adjunció: &lt;n1&gt; &lt;n3&gt; Porta'm les claus de l'armari gran &lt;n5&gt; &lt;n2&gt; &lt;n4&gt; Porta'm les claus de la cadira verda &lt;n6&gt; En l'oració &lt;n9&gt;, podem dubtar, ja que no sabem si les claus són les que obrin l'armari o les que estan allà guardades.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130836Z" creationid="fsanchez" creationdate="20161010T130836Z">
@@ -1314,6 +1322,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122538Z" creationid="fsanchez" creationdate="20161010T122538Z">
         <seg>Pues bien, en estos casos, se puede asignar más de una forma lógica a una oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Dues de les quatre combinacions tenen sentit.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114703Z" creationid="fsanchez" creationdate="20161014T114703Z">
+        <seg>Dos de las cuatro combinaciones tienen sentido.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2490,6 +2506,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141635Z" creationid="fsanchez" creationdate="20161009T141635Z">
         <seg>También explica por qué la oración &lt;n3&gt; El perro mordió al hombre &lt;n8&gt; no tiene la misma interpretación que la frase &lt;n4&gt; El hombre mordió al perro &lt;n9&gt; Estas oraciones no quieren decir lo mismo porque, a pesar de tener las mismas palabras, la estructura sintáctica no es la misma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També hi intervé l'ambigüitat lèxica pura (polisèmia) de &lt;i2&gt;despedir&lt;/i2&gt; (en la primera &lt;i3&gt;llançar&lt;/i3&gt;; en la segona, &lt;i4&gt;deixar sense treball&lt;/i4&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114701Z" creationid="fsanchez" creationdate="20161014T114701Z">
+        <seg>También interviene la ambigüedad léxica pura (polisemia) de &lt;i2&gt;despedir&lt;/i2&gt; (en la primera &lt;i3&gt;lanzar&lt;/i3&gt;; en la segunda, &lt;i4&gt;dejar sin trabajo&lt;/i4&gt;).</seg>
       </tuv>
     </tu>
     <tu>
