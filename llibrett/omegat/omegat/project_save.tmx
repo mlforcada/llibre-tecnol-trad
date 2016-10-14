@@ -534,6 +534,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Una ambigüitat sintàctica de l'oració subordinada ``el que fa''.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113755Z" creationid="fsanchez" creationdate="20161014T113755Z">
+        <seg>&lt;u3&gt; Una ambigüedad sintáctica de la oración subordinada ``el que fa''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Una anàfora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142703Z" creationid="fsanchez" creationdate="20161010T142703Z">
@@ -994,6 +1002,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
         <seg>El contenido no determina completamente la forma&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El principi de composicionalitat diu que la interpretació d'una oració està determinada per les interpretacions dels mots i per la sintaxi.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113802Z" creationid="fsanchez" creationdate="20161014T113802Z">
+        <seg>El principio de composicionalidad dice que la interpretación de una oración está determinada por las interpretaciones de las palabras y por la sintaxis.</seg>
       </tuv>
     </tu>
     <tu>
