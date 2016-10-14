@@ -1462,6 +1462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En el cas dels pronoms de tercera persona, la interpretació estarà determinada pels antecedents que se'ls assignen (ambigüitat lèxica per anàfora).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114545Z" creationid="fsanchez" creationdate="20161014T114545Z">
+        <seg>En el caso de los pronombres de tercera persona, la interpretación estará determinada por los antecedentes que se les asignen (ambigüedad léxica por anáfora).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En el context &lt;i2&gt;Porta'm aquell sobre de la caixa&lt;/i2&gt;, una vegada feta l'anàlisi morfològica dels mots de l'oració, es podrien aplicar restriccions lingüístiques basades en seqüències de dues categories lèxiques per a reduir l'ambigüitat.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123010Z" creationid="fsanchez" creationdate="20161010T123010Z">
