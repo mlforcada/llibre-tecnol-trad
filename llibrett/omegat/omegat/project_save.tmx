@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; &lt;i1&gt;megamòndria síngula&lt;/i1&gt;: documents que continguen aquests dos mots o variants.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152715Z" creationid="fsanchez" creationdate="20161018T152715Z">
+        <seg>&lt;u1&gt; &lt;i1&gt;megamondrío síngulo&lt;/i1&gt;: documentos que contengan estas dos palabras o variantes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Ambigüitat estructural d'origen coordinatiu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115330Z" creationid="fsanchez" creationdate="20161014T115310Z">
