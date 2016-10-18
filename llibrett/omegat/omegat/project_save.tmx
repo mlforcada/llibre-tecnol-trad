@@ -1366,6 +1366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Buscadors</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151557Z" creationid="fsanchez" creationdate="20161018T151557Z">
+        <seg>Buscadores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Cada idioma ho fa diferentment: català: &lt;i2&gt;Quina hora és?&lt;/i2&gt;; portugués: &lt;i3&gt;Que horas são?&lt;/i3&gt; (&lt;i4&gt;Quines hores són?&lt;/i4&gt;); alemany: &lt;i5&gt;Wie spät ist es?&lt;/i5&gt; (&lt;i6&gt;Com és de tard?&lt;/i6&gt;); alemany: &lt;i7&gt;Wieviel Uhr ist es?&lt;/i7&gt; (&lt;i8&gt;Quantes del rellotge són?&lt;/i8&gt;), etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140750Z" creationid="fsanchez" creationdate="20161009T140750Z">
@@ -3666,6 +3674,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145522Z" creationid="fsanchez" creationdate="20161018T145522Z">
         <seg>{Indicativos de Internet de algunos países.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{No m'agrada que el material de navegadors estiga repartit i repetit entre dos capítols.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151548Z" creationid="fsanchez" creationdate="20161018T151548Z">
+        <seg>{No me gusta que el material de navegadores esté repartido y repetido entre dos capítulos.</seg>
       </tuv>
     </tu>
     <tu>
