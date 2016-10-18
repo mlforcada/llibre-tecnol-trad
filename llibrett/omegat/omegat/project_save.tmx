@@ -2110,6 +2110,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Es tracta de pàgines &lt;i2&gt;web&lt;/i2&gt; que permeten buscar documents d'Internet; s'hi ha de teclejar una o més paraules, a més d'altres &lt;i3&gt;condicions de recerca&lt;/i3&gt; opcionals ---com ara que els documents hagen d'estar en una llengua determinada o en un servidor determinat--- i entreguen els URI dels documents que compleixen aquestes condicions, enllaços a aquests documents i un petit resum o retall (anomenat &lt;i4&gt;snippet&lt;/i4&gt;) del contingut de les pàgines desitjades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151818Z" creationid="fsanchez" creationdate="20161018T151818Z">
+        <seg>Se trata de páginas &lt;i2&gt;web&lt;/i2&gt; que permiten buscar documentos de Internet; se tiene que teclear una o más palabras, además de otras &lt;i3&gt;condiciones de búsqueda&lt;/i3&gt; opcionales, como por ejemplo que los documentos tengan que estar en una lengua determinada o en un servidor determinado, y entregan los URIs de los documentos que cumplen estas condiciones, enlaces a estos documentos y un pequeño resumen o recorte (denominado &lt;i4&gt;snippet&lt;/i4&gt;) del contenido de las páginas deseadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Espanya &lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145429Z" creationid="fsanchez" creationdate="20161018T145429Z">
