@@ -1758,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En altres països ({&lt;u0&gt; .uk}, {&lt;u1&gt; .nz}, {&lt;u2&gt; .za}) s'usen indicatius similars ({&lt;u3&gt; .co}(mercial), {&lt;u4&gt; .ac}(adèmic), etc.) davant de l'indicatiu de país (per exemple, {&lt;u5&gt; www.shef.ac.uk} és la Universitat de Sheffield).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145424Z" creationid="fsanchez" creationdate="20161018T145424Z">
+        <seg>En otros países ({&lt;u0&gt; .uk}, {&lt;u1&gt; .nz}, {&lt;u2&gt; .za}) se usan indicativos similares ({&lt;u3&gt; .co}(mercial), {&lt;u4&gt; .ac}(académico), etc.) antes del indicativo de país (por ejemplo, {&lt;u5&gt; www.shef.ac.uk} es la Universidad de Sheffield).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En aquest capítol ens fixarem molt especialment en l'ambigüitat de les oracions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141529Z" creationid="fsanchez" creationdate="20161009T141529Z">
@@ -1950,6 +1958,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Espanya &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145429Z" creationid="fsanchez" creationdate="20161018T145429Z">
+        <seg>España &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Exemples: &lt;i4&gt;Portaven notícies de Grècia&lt;/i4&gt; (tema o procedència?), &lt;i5&gt;Ha venut les taronges que ha comprat a Joan&lt;/i5&gt; (Joan ven taronges o les compra?), &lt;i6&gt;Treballa en l'estudi que li han encarregat&lt;/i6&gt; (prepara un document o està dissenyant un espai de treball?), etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140702Z" creationid="fsanchez" creationdate="20161009T140702Z">
@@ -1978,6 +1994,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141500Z" creationid="fsanchez" creationdate="20161010T141500Z">
         <seg>Explicad qué información usa el sistema en cada caso para tomar una decisión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>França &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145432Z" creationid="fsanchez" creationdate="20161018T145432Z">
+        <seg>Francia &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2066,6 +2090,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144620Z" creationid="fsanchez" creationdate="20161018T144620Z">
         <seg>Internet permite básicamente tres tipos de uso: &lt;n0&gt; &lt;u0&gt;[Como medio de comunicación:] Internet permite la comunicación y el intercambio de archivos (véase el apartado &lt;n1&gt;) con clientes o proveedores, la participación en foros de profesionales, la realización de consultas, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Itàlia &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145435Z" creationid="fsanchez" creationdate="20161018T145435Z">
+        <seg>Italia &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2798,6 +2830,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Regne Unit &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145436Z" creationid="fsanchez" creationdate="20161018T145436Z">
+        <seg>Reino Unido &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Relacionats amb la &lt;i1&gt;dixi&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143831Z" creationid="fsanchez" creationdate="20161009T143831Z">
@@ -3322,6 +3362,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123126Z" creationid="fsanchez" creationdate="20161010T123126Z">
         <seg>{estrategias de resolución de la ambigüedad} &lt;u0&gt;{Resolución de la polisemia.} La resolución de la polisemia (en inglés &lt;i0&gt;word sense disambiguation&lt;/i0&gt;) consiste en asignar a una palabra polisémica, en un texto o discurso, una interpretación concreta, posiblemente diferente de las que podría tener en otros textos (o contextos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{l|l} &lt;u0&gt;&lt;u1&gt; {&lt;u2&gt; Indicatiu}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145426Z" creationid="fsanchez" creationdate="20161018T145426Z">
+        <seg>{l|l} &lt;u0&gt;&lt;u1&gt; {&lt;u2&gt; Indicativo}</seg>
       </tuv>
     </tu>
     <tu>
