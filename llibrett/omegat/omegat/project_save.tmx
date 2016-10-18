@@ -3278,6 +3278,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>cultura i llengua catalanes (patrocinat per la fundació puntCat) &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145617Z" creationid="fsanchez" creationdate="20161018T145617Z">
+        <seg>cultura y lengua catalanas (patrocinado por la fundación puntCat) &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>d'informàtica i de tecnologies&lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115857Z" creationid="fsanchez" creationdate="20161005T115857Z">
@@ -3338,6 +3346,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142211Z" creationid="fsanchez" creationdate="20161009T142211Z">
         <seg>persona del singular, imperativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>webs informatives &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145607Z" creationid="fsanchez" creationdate="20161018T145607Z">
+        <seg>webs informativas &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
