@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;i2&gt;megamòndria síngula site:ua.es&lt;/i2&gt;: documents que continguen aquests dos mots o variants i que estiguen en documents amb URI que acaben en &lt;i8&gt;ua.es&lt;/i8&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152804Z" creationid="fsanchez" creationdate="20161018T152804Z">
+        <seg>&lt;u2&gt; &lt;i2&gt;megamondrío síngulo site:ua.es&lt;/i2&gt;: documentos que contengan estas dos palabras o variantes y que estén en documentos cuyo URI acabe en &lt;i8&gt;ua.es&lt;/i8&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; resol la polisèmia mitjançant l'ús d'un desambiguador lèxic categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114314Z" creationid="fsanchez" creationdate="20161014T114314Z">
