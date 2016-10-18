@@ -2134,6 +2134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Exemples de recerques: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;megamòndria&lt;/i0&gt;: documents que continguen el mot &lt;i4&gt;megamòndria&lt;/i4&gt; i potser formes del mateix com ara el plural &lt;i5&gt;megamòndries&lt;/i5&gt;, el compost &lt;i6&gt;mega-mòndria&lt;/i6&gt;, o la forma sense accent &lt;i7&gt;megamondria&lt;/i7&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152649Z" creationid="fsanchez" creationdate="20161018T152649Z">
+        <seg>Ejemplos de búsquedas: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;megamondrío&lt;/i0&gt;: documentos que contengan la palabra &lt;i4&gt;megamondrío&lt;/i4&gt; y quizás también formas del mismo como por ejemplo el plural &lt;i5&gt;megamondríos&lt;/i5&gt;, el compuesto &lt;i6&gt;mega-mondrío&lt;/i6&gt;, o la forma sin acento &lt;i7&gt;megamondrio&lt;/i7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Exemples: &lt;i4&gt;Portaven notícies de Grècia&lt;/i4&gt; (tema o procedència?), &lt;i5&gt;Ha venut les taronges que ha comprat a Joan&lt;/i5&gt; (Joan ven taronges o les compra?), &lt;i6&gt;Treballa en l'estudi que li han encarregat&lt;/i6&gt; (prepara un document o està dissenyant un espai de treball?), etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140702Z" creationid="fsanchez" creationdate="20161009T140702Z">
