@@ -1502,6 +1502,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Correu electrònic</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152939Z" creationid="fsanchez" creationdate="20161018T152939Z">
+        <seg>Correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>D'altra banda, estructural: en la primera interpretació, el sintagma preposicional &lt;i9&gt;de caza&lt;/i9&gt; modifica el sintagma nominal &lt;i10&gt;coto privado&lt;/i10&gt; (&lt;i11&gt;[[coto privado] [de caza]]&lt;/i11&gt;); en el segon, només el participi &lt;i12&gt;privado&lt;/i12&gt; (&lt;i13&gt;[[coto] [[privado] [de caza]]]&lt;/i13&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114737Z" creationid="fsanchez" creationdate="20161014T114737Z">
@@ -2490,6 +2498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122533Z" creationid="fsanchez" creationdate="20161010T122533Z">
         <seg>La interpretación de las oraciones se suele explicar a veces en términos de {&lt;u1&gt; formas lógicas} &lt;u3&gt;p[cap.23]{radford09b}; en el caso de las oraciones con cuantificadores, estas formas lógicas contienen por un lado, &lt;i3&gt;variables&lt;/i3&gt; que pueden referirse a un rango de objetos que hay que considerar y, por otro, operaciones sobre estas variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La major part d'aquests buscadors tenen interfícies d'ús en moltes llengües.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152934Z" creationid="fsanchez" creationdate="20161018T152934Z">
+        <seg>La mayor parte de estos buscadores tienen interfaces de uso en muchas lenguas.</seg>
       </tuv>
     </tu>
     <tu>
