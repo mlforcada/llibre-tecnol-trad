@@ -3278,6 +3278,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>cultura i llengua basques (patrocinat per la fundació PuntuEus) &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145626Z" creationid="fsanchez" creationdate="20161018T145626Z">
+        <seg>cultura y lengua vascas (patrocinado por la fundación PuntuEus) &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>cultura i llengua catalanes (patrocinat per la fundació puntCat) &lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145617Z" creationid="fsanchez" creationdate="20161018T145617Z">
@@ -3322,6 +3330,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125407Z" creationid="fsanchez" creationdate="20161010T125407Z">
         <seg>le parecen poco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>museus (patrocinat per MuseDoma) &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145632Z" creationid="fsanchez" creationdate="20161018T145632Z">
+        <seg>museos (patrocinado por MuseDoma) &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
