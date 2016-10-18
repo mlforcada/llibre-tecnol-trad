@@ -2942,6 +2942,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per la mateixa raó, també pot passar que els buscadors entreguen resultats corresponents a pàgines que ja no existeixen.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152910Z" creationid="fsanchez" creationdate="20161018T152910Z">
+        <seg>Por la misma razón, también puede pasar que los buscadores entregan resultados correspondientes a páginas que ya no existen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per què és difícil per a un sistema informàtic traduir com un professional?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140555Z" creationid="fsanchez" creationdate="20161009T140555Z">
