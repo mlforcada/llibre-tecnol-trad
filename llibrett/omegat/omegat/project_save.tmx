@@ -1134,6 +1134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Alguns buscadors, com ara &lt;i5&gt;Google&lt;/i5&gt;, modifiquen els enllaços que porten als resultats, de manera que no hi porten directament sinó passant primerament pel servidor del buscador, per tal de conéixer les preferències de la gent i millorar així la rellevància dels resultats, però fins i tot poden establir un perfil de cada persona usuària.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151704Z" creationid="fsanchez" creationdate="20161018T151704Z">
+        <seg>Algunos buscadores, como por ejemplo &lt;i5&gt;Google&lt;/i5&gt;, modifican los enlaces que llevan a los resultados, de forma que no llevan directamente sino pasando primeramente por el servidor del buscador, para conocer las preferencias de la gente y mejorar así la relevancia de los resultados, pero incluso pueden establecer un perfil de cada persona usuaria.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Altres esquemes són &lt;i1&gt;rtsp://&lt;/i1&gt;, &lt;i2&gt;real-time streaming protocol&lt;/i2&gt;, per a enllaçar contingut com ara vídeo, àudio, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151152Z" creationid="fsanchez" creationdate="20161018T151152Z">
