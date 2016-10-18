@@ -1982,6 +1982,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Internet permet bàsicament tres tipus d'ús: &lt;n0&gt; &lt;u0&gt;[Com a mitjà de comunicació:] Internet permet la comunicació i l'intercanvi d'arxius (vegeu l'apartat &lt;n1&gt;) amb clients o proveïdors, la participació en fòrums de professionals, la realització de consultes, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144620Z" creationid="fsanchez" creationdate="20161018T144620Z">
+        <seg>Internet permite básicamente tres tipos de uso: &lt;n0&gt; &lt;u0&gt;[Como medio de comunicación:] Internet permite la comunicación y el intercambio de archivos (véase el apartado &lt;n1&gt;) con clientes o proveedores, la participación en foros de profesionales, la realización de consultas, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Jo la vaig posar damunt de la taula&lt;/i2&gt; (1: ``Vaig posar Maria damunt de la taula''; 2: ``Vaig posar la bossa damunt de la taula'') &lt;u4&gt; &lt;i3&gt;Què vols, galetes o pa de la tia Pepa?&lt;/i3&gt; (Les galetes són també de la tia Pepa?) &lt;u5&gt; &lt;i4&gt;Posa una mà de paper en la impressora i connecta-la.&lt;/i4&gt; (Ha de connectar la mà de paper o la impressora?) &lt;u6&gt; &lt;i5&gt;Us han dit que vaja?&lt;/i5&gt; (Qui ha d'anar?).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131034Z" creationid="fsanchez" creationdate="20161010T130953Z">
