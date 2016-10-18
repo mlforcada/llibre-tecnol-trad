@@ -3374,6 +3374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un dels buscadors més populars a l'hora d'escriure aquestes línies és &lt;i0&gt;Google&lt;/i0&gt; (&lt;u0&gt;{http://www.google.com}); però també hi ha altres com &lt;i1&gt;Duckduckgo!&lt;/i1&gt;, &lt;i2&gt;StartPage&lt;/i2&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152927Z" creationid="fsanchez" creationdate="20161018T152927Z">
+        <seg>Uno de los buscadores más populares a la hora de escribir estas líneas es &lt;i0&gt;Google&lt;/i0&gt; (&lt;u0&gt;{http://www.google.com}); pero también hay otros como &lt;i1&gt;Duckduckgo!&lt;/i1&gt;, &lt;i2&gt;StartPage&lt;/i2&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un dels recursos d'Internet més útils són els &lt;i0&gt;buscadors&lt;/i0&gt; o &lt;i1&gt;cercadors&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151728Z" creationid="fsanchez" creationdate="20161018T151728Z">
