@@ -1750,6 +1750,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els serveis i els documents concrets presents en un ordinador (un servidor d'Internet) que els fa disponibles es poden designar mitjançant el seu &lt;i0&gt;identificador uniforme de recursos&lt;/i0&gt; o, més comunament, &lt;i1&gt;URI&lt;/i1&gt; (de l'anglés &lt;i2&gt;uniform resource identifier&lt;/i2&gt;).&lt;p1&gt; L'URI és, per tant, una expressió que identifica o localitza uniformement un servei o document (un recurs) de qualsevol dels que s'ofereixen en Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150716Z" creationid="fsanchez" creationdate="20161018T150716Z">
+        <seg>Los servicios y los documentos concretos presentes en un ordenador (un servidor de Internet) que los hace disponibles se pueden designar mediante su &lt;i0&gt;identificador uniforme de recursos&lt;/i0&gt; o, más comúnmente, &lt;i1&gt;URI&lt;/i1&gt; (del inglés &lt;i2&gt;uniform resource identifier&lt;/i2&gt;).&lt;p1&gt; El URI es, por lo tanto, una expresión que identifica o localiza uniformemente un servicio o documento (un recurso) de cualquiera de los que se ofrecen en Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els sistemes de traducció mot per mot poden cometre, per exemple, errors deguts a l'elecció incorrecta de la categoria gramatical d'un mot lèxicament ambigu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142427Z" creationid="fsanchez" creationdate="20161010T142427Z">
