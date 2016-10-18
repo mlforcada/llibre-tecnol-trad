@@ -1446,6 +1446,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Dir que ens entrega pàgines amb llistes d'URI i una breu descripció (&lt;i2&gt;snippet&lt;/i2&gt;) del document o de la part del document on apareixen les paraules.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144447Z" creationid="fsanchez" creationdate="20161018T144447Z">
+        <seg>Decir que nos entrega páginas con listas de URI y una breve descripción (&lt;i2&gt;snippet&lt;/i2&gt;) del documento o de la parte del documento donde aparecen las palabras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Dir que l'anàfora és només un procés lèxic és una simplificació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152615Z" creationid="fsanchez" creationdate="20161009T152615Z">
@@ -1874,6 +1882,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140724Z" creationid="fsanchez" creationdate="20161009T140724Z">
         <seg>Ejemplos: ¿cómo se dice en qué momento del día nos encontramos?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Explicar que el que es tecleja en un buscador són condicions i que només ens dóna les pàgines que són en un índex.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144438Z" creationid="fsanchez" creationdate="20161018T144438Z">
+        <seg>Explicar que lo que se teclea en un buscador son condiciones y que sólo nos proporciona las páginas que hay en un índice.</seg>
       </tuv>
     </tu>
     <tu>
