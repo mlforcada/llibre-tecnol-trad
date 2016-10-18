@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(vegeu també la pàg. &lt;n1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151403Z" creationid="fsanchez" creationdate="20161018T151403Z">
+        <seg>(véase también la pág. &lt;n1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>--I les creus?&lt;/i0&gt; (1: ``Creus aquestes notícies?'' 2: ``Els crucifixos també han rebrotat?'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T140959Z" creationid="fsanchez" creationdate="20161010T140959Z">
