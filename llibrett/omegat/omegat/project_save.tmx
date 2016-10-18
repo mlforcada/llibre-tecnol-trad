@@ -670,6 +670,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt;[Com a rebost de programari d'assistència a la traducció:] Molts dels programes específics d'assistència a la traducció estan disponibles a Internet, com ara els sistemes de traducció automàtica (vegeu el capítol &lt;n3&gt;) en línia o els programes de concordances bilingües.&lt;p0&gt;); Reverso Context (&lt;u3&gt;{http://context.reverso.net/}).} L'accés pot ser a través d'un navegador, o a través d'altres programes que tinguem instal·lats localment en el nostre ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144726Z" creationid="fsanchez" creationdate="20161018T144726Z">
+        <seg>&lt;u2&gt;[Como repositorio de software de asistencia a la traducción:] Muchos de los programas específicos de asistencia a la traducción están disponibles en Internet, como por ejemplo los sistemas de traducción automática (véase el capítulo &lt;n3&gt;) en linea o los programas de concordancias bilingües.&lt;p0&gt;); Reverso Contexto (&lt;u3&gt;{http://context.reverso.net/}).} El acceso puede ser a través de un navegador, o a través otros programas que tengamos instalados localmente en nuestro ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; ... és estructural d'origen coordinatiu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141731Z" creationid="fsanchez" creationdate="20161010T141731Z">
