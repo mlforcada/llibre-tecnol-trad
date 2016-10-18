@@ -2238,6 +2238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La taula &lt;n0&gt; dóna alguns exemples d'indicatius de països.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145344Z" creationid="fsanchez" creationdate="20161018T145344Z">
+        <seg>La tabla &lt;n0&gt; da algunos ejemplos de indicativos de países.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les &lt;i0&gt;restriccions&lt;/i0&gt; es poden basar en informació morfològica, sintàctica, o fins i tot semàntica; tot depén del nivell d'anàlisi que estiga disponible: &lt;n0&gt; &lt;u0&gt; Un pronom masculí no pot tenir un antecedent femení (restricció morfològica): &lt;i1&gt;Maria&lt;/i1&gt; no pot ser l'antecedent de &lt;i2&gt;ell&lt;/i2&gt; en l'oració &lt;i3&gt;Maria es va passar tot el dia parlant d'ell&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123923Z" creationid="fsanchez" creationdate="20161010T123852Z">
@@ -2586,6 +2594,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115840Z" creationid="fsanchez" creationdate="20161014T115840Z">
         <seg>Por ejemplo, si {&lt;u1&gt; fui&lt;u11&gt;} va seguido de la preposición {&lt;u2&gt; a}, es muy probable que se trate del verbo {&lt;u3&gt; ir}; por otro lado, si va seguido de un participio pasado, es muy probable que se trate del verbo {&lt;u4&gt; ser&lt;u12&gt;}: se podría hacer una categoría gramatical especial para el verbo ser y usar técnicas de desambiguación categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, un nom podria ser &lt;i3&gt;altea.dlsi.ua.es&lt;/i3&gt;, on &lt;i4&gt;altea&lt;/i4&gt; es refereix a una màquina concreta del Departament de Llenguatges i Sistemes Informàtics (&lt;i5&gt;dlsi&lt;/i5&gt;) de la Universitat d'Alacant (&lt;i6&gt;ua&lt;/i6&gt;), que es troba a Espanya (&lt;i7&gt;es&lt;/i7&gt;); aquest ordre és l'invers al dels números IP (en això els noms s'assemblen a les adreces postals: primer es dóna el més concret i al final el país).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145339Z" creationid="fsanchez" creationdate="20161018T145339Z">
+        <seg>Por ejemplo, un nombre podría ser &lt;i3&gt;altea.dlsi.ua.es&lt;/i3&gt;, donde &lt;i4&gt;altea&lt;/i4&gt; se refiere a una máquina concreta del Departamento de Lenguajes y Sistemas Informáticos (&lt;i5&gt;dlsi&lt;/i5&gt;) de la Universitat d'Alacant (&lt;i6&gt;ua&lt;/i6&gt;), que se encuentra en España (&lt;i7&gt;es&lt;/i7&gt;); este orden es el inverso al de los números IP (en esto los nombres se asemejan a las direcciones postales: primero se da el más concreto y al final el país).</seg>
       </tuv>
     </tu>
     <tu>
