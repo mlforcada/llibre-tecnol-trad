@@ -1142,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Anomenem &lt;i0&gt;Internet&lt;/i0&gt; un conjunt d'ordinadors, distribuïts arreu del món i interconnectats mitjançant un protocol estàndard (el &lt;i1&gt;protocol d'Internet&lt;/i1&gt; o IP) de manera que els recursos presents en uns ordinadors (normalment, informació) estan disponibles per a ser usats pels usuaris d'altres ordinadors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144813Z" creationid="fsanchez" creationdate="20161018T144813Z">
+        <seg>Se denomina &lt;i0&gt;Internet&lt;/i0&gt; a un conjunto de ordenadores, distribuidos en todo el mundo e interconectados mediante un protocolo estándar (el &lt;i1&gt;protocolo de Internet&lt;/i1&gt; o IP) de forma que los recursos presentes en unos ordenadores (normalmente, información) están disponibles para ser usados por los usuarios de otros ordenadores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest epígraf recull unes notes ---no exhaus­tives--- sobre les estratègies de resolució d'alguns tipus d'ambigüitat en sistemes automàtics de tractament del llenguatge humà.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122736Z" creationid="fsanchez" creationdate="20161010T122736Z">
