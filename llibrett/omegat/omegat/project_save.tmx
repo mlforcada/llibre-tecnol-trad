@@ -2846,6 +2846,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Rússia &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145438Z" creationid="fsanchez" creationdate="20161018T145438Z">
+        <seg>Rusia &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>S'accepta comunament que la major part dels mots polisèmics d'un text (o d'un fragment del text) solen tenir una única interpretació en un text donat, però aquest principi s'ha de concretar en un mètode concret per a resoldre la polisèmia.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123419Z" creationid="fsanchez" creationdate="20161010T123419Z">
