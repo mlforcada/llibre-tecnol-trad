@@ -2278,6 +2278,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La denominació més usual era URL, &lt;i3&gt;uniform resource locator&lt;/i3&gt; o localitzador uniforme de recursos, que encara s'usa profusament, encara que no tots els URI son URL.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150634Z" creationid="fsanchez" creationdate="20161018T150634Z">
+        <seg>La denominación más usual era URL, &lt;i3&gt;uniform resource locator&lt;/i3&gt; o localizador uniforme de recursos, que todavía se usa profusamente, aunque no todos los URI son URL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La desambiguació s'efectua usant informació procedent de tres fonts: el &lt;i1&gt;cotext&lt;/i1&gt; (intern al text o discurs) i el &lt;i2&gt;context&lt;/i2&gt; (extern al text o discurs però relacionat amb ell) i fonts de coneixement addicionals.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123329Z" creationid="fsanchez" creationdate="20161010T123329Z">
