@@ -3302,10 +3302,26 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>institució educativa &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145600Z" creationid="fsanchez" creationdate="20161018T145600Z">
+        <seg>institución educativa &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>li semblen poc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125407Z" creationid="fsanchez" creationdate="20161010T125407Z">
         <seg>le parecen poco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>organització no lucrativa &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145558Z" creationid="fsanchez" creationdate="20161018T145558Z">
+        <seg>organización sin ánimo de lucro &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
