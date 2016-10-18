@@ -1126,6 +1126,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Altres esquemes són &lt;i1&gt;rtsp://&lt;/i1&gt;, &lt;i2&gt;real-time streaming protocol&lt;/i2&gt;, per a enllaçar contingut com ara vídeo, àudio, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151152Z" creationid="fsanchez" creationdate="20161018T151152Z">
+        <seg>Otros esquemas son &lt;i1&gt;rtsp://&lt;/i1&gt;, &lt;i2&gt;real-time streaming protocolo&lt;/i2&gt;, para enlazar contenido como por ejemplo vídeo, audio, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Altres noms que s'usen en comptes d'&lt;i3&gt;Internet&lt;/i3&gt; són &lt;i4&gt;World Wide Web&lt;/i4&gt; o &lt;i5&gt;WWW&lt;/i5&gt; (``teranyina d'abast mundial'') o simplement &lt;i6&gt;web&lt;/i6&gt; (``teranyina''), masculí en català (&lt;i7&gt;el web&lt;/i7&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145142Z" creationid="fsanchez" creationdate="20161018T145142Z">
@@ -3490,6 +3498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125403Z" creationid="fsanchez" creationdate="20161010T125403Z">
         <seg>lo recriminó por haberlo hecho.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>en temps real, o {&lt;u2&gt; ftp://}, &lt;i3&gt;file transfer protocol&lt;/i3&gt;, usat, cada vegada menys, per a descarregar (transferir) fitxers per a guardar-los en el nostre ordinador&lt;n0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151206Z" creationid="fsanchez" creationdate="20161018T151206Z">
+        <seg>en tiempo real, o {&lt;u2&gt; ftp://}, &lt;i3&gt;file transfer protocol&lt;/i3&gt;, usado, cada vez menos, para descargar (transferir) ficheros para guardarlos en nuestro ordenador&lt;n0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
