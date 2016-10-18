@@ -3158,6 +3158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un URI té generalment tres parts, encara que s'hi donen algunes variacions i una d'elles no és obligatòria: &lt;n0&gt; &lt;u0&gt;[esquema:] indica la classe de recurs i com l'ha d'usar l'ordinador sol·licitant (o &lt;i0&gt;client&lt;/i0&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150821Z" creationid="fsanchez" creationdate="20161018T150821Z">
+        <seg>Un URI tiene generalmente tres partes, aunque se dan algunas variaciones y una de ellas no es obligatoria: &lt;n0&gt; &lt;u0&gt;[esquema:] indica la clase de recurso y como lo tiene que usar el ordenador solicitante (o &lt;i0&gt;cliente&lt;/i0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un altre exemple: l'oració &lt;n0&gt; Han posat un banc nou a la plaça &lt;n1&gt; pot tenir dues interpretacions, segons la interpretació que s'assigne al mot polisèmic &lt;i0&gt;banc&lt;/i0&gt; (``seient estret i llarg'' o bé ``institució financera'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143207Z" creationid="fsanchez" creationdate="20161009T143207Z">
