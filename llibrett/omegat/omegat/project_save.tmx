@@ -1246,6 +1246,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest últim, finalment, entrega el número IP de l'ordinador anomenat &lt;i3&gt;cercador&lt;/i3&gt; al servidor de la UA, i aquest al servidor del domini geogràfic &lt;i4&gt;.es&lt;/i4&gt;, que l'entrega al nostre proveïdor de serveis d'Internet i aquest, al seu torn, al nostre ordinador per a fer la connexió.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150548Z" creationid="fsanchez" creationdate="20161018T150548Z">
+        <seg>Este último, finalmente, entrega el número IP del ordenador llamado &lt;i3&gt;cercador&lt;/i3&gt; al servidor de la UA, y éste al servidor del dominio geográfico &lt;i4&gt;.es&lt;/i4&gt;, que lo entrega a nuestro proveedor de servicios de Internet y éste, a su vez, a nuestro ordenador para hacer la conexión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquesta classe d'ambigüitats se sol incloure dins d'un grup de fenòmens més generals anomenats &lt;i0&gt;ambigüitats per el·lipsi&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144102Z" creationid="fsanchez" creationdate="20161009T144102Z">
@@ -2498,6 +2506,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141728Z" creationid="fsanchez" creationdate="20161009T141728Z">
         <seg>Por eso, no es posible asignar una interpretación clara a oraciones sintácticamente incorrectas, como &lt;n0&gt; *Lee madre libros la &lt;n3&gt; aunque cada palabra tenga una interpretación independiente, y tampoco a una oración sintácticamente correcta que contenga alguna palabra a la que no podemos asignar ninguna interpretación : &lt;n1&gt; La madre *ingurplee libros &lt;n4&gt; Como veremos más adelante, existe una complicación adicional: en algunas ocasiones, hay partes de la estructura sintáctica que no se reflejan en ninguna palabra, porque generan &lt;i0&gt;categorías vacías&lt;/i0&gt; que no tienen una representación fonética o gráfica explícita.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per això, quan naveguem, la primera connexió tarda més: s'està &lt;i6&gt;resolent&lt;/i6&gt; el nom que hem teclejat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150554Z" creationid="fsanchez" creationdate="20161018T150554Z">
+        <seg>Por eso, cuando navegamos, la primera conexión tarda más: se está &lt;i6&gt;resolviendo&lt;/i6&gt; el nombre que hemos tecleado.</seg>
       </tuv>
     </tu>
     <tu>
