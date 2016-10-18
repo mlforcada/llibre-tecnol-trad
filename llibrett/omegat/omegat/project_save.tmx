@@ -2470,6 +2470,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per això s'usen &lt;i0&gt;servidors de noms&lt;/i0&gt;: ordinadors als quals el nostre ordinador es connecta pel número IP i als quals pot preguntar pel número IP corresponent a un nom.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145800Z" creationid="fsanchez" creationdate="20161018T145800Z">
+        <seg>Por eso se usan &lt;i0&gt;servidores de nombres&lt;/i0&gt;: ordenadores a los cuales nuestro ordenador se conecta por el número IP y a los cuales puede preguntar por el número IP correspondiendo a un nombre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per això, en general s'usen mètodes basats en preferències.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123604Z" creationid="fsanchez" creationdate="20161010T123604Z">
