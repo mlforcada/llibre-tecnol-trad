@@ -1686,6 +1686,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els &lt;i1&gt;servidors de noms&lt;/i1&gt; s'organitzen de manera que es distribueixen la informació de manera jeràrquica fent ús del &lt;i2&gt;sistema de noms de domini&lt;/i2&gt; (en anglés, &lt;i3&gt;domain name system&lt;/i3&gt; o DNS).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145822Z" creationid="fsanchez" creationdate="20161018T145822Z">
+        <seg>Los &lt;i1&gt;servidores de nombres&lt;/i1&gt; se organizan de forma que se distribuyen la información de manera jerárquica haciendo uso del &lt;i2&gt;sistema de nombres de dominio&lt;/i2&gt; (en inglés, &lt;i3&gt;domain name system&lt;/i3&gt; o DNS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els diccionaris anglesos, que solen agrupar els mots polisèmics en una entrada, típicament en fan dues entrades diferents, i, de fet, en lexicografia no és estrany referir-se a &lt;i13&gt;case&lt;/i13&gt; com un homògraf.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143017Z" creationid="fsanchez" creationdate="20161009T143017Z">
