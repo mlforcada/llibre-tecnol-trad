@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n3&gt; Per exemple, l'URI &lt;n1&gt; &lt;u3&gt;{http://www.canalcuina.tv/concurs/sms/index.html} &lt;n4&gt; es refereix a un document d'&lt;i3&gt;hipertext&lt;/i3&gt; ---un document de text que conté enllaços que permeten accedir directament a altres hipertextos relacionats--- compatible amb l'esquema &lt;i6&gt;http&lt;/i6&gt; (&lt;i4&gt;hypertext transfer protocol&lt;/i4&gt; o protocol de transferència d'hipertextos) situat en l'ordinador &lt;i7&gt;www.canalcuina.tv&lt;/i7&gt; (de l'empresa fictícia Canal Cuina, possiblement pertanyent al món de la televisió&lt;p0&gt;), i, dins d'aquest, en el directori &lt;i8&gt;concurs&lt;/i8&gt;, subdirectori &lt;i9&gt;sms&lt;/i9&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151047Z" creationid="fsanchez" creationdate="20161018T151047Z">
+        <seg>&lt;n3&gt; Por ejemplo, el URI &lt;n1&gt; &lt;u3&gt;{http://www.canalcuina.tv/concurs/sms/index.html} &lt;n4&gt; se refiere a un documento de &lt;i3&gt;hipertexto&lt;/i3&gt; ---un documento de texto que contiene enlaces que permiten acceder directamente a otros hipertextos relacionados--- compatible con el esquema &lt;i6&gt;http&lt;/i6&gt; (&lt;i4&gt;hypertext transfer protocol&lt;/i4&gt; o protocolo de transferencia de hipertextos) situado en el ordenador &lt;i7&gt;www.canalcuina.tv&lt;/i7&gt; (de la empresa ficticia Canal Cuina, posiblemente perteneciente al mundo de la televisión&lt;p0&gt;), y, dentro de éste, en el directorio &lt;i8&gt;concurs&lt;/i8&gt;, subdirectorio &lt;i9&gt;sms&lt;/i9&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n4&gt; &lt;n5&gt; Aquest exemple pot tenir dues interpretacions &lt;n2&gt; &lt;u4&gt;[(a)] No totes les dones s'estimen els abrics de pell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122247Z" creationid="fsanchez" creationdate="20161010T122247Z">
