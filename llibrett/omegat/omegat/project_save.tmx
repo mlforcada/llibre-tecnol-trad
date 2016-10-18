@@ -398,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt;[autoritat:] identifica pel seu nom o número IP l'ordinador (&lt;i1&gt;servidor&lt;/i1&gt;) on és el recurs.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150833Z" creationid="fsanchez" creationdate="20161018T150833Z">
+        <seg>&lt;u1&gt;[autoridad:] identifica por su nombre o número IP el ordenador (&lt;i1&gt;servidor&lt;/i1&gt;) donde está el recurso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; ... es deu a l'anàfora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141728Z" creationid="fsanchez" creationdate="20161010T141728Z">
