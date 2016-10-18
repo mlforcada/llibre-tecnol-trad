@@ -2670,6 +2670,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, quan volem connectar a &lt;u0&gt;{cercador.dlsi.ua.es}, el servidor de noms del nostre proveïdor d'accés a Internet veu que el nom acaba en &lt;i0&gt;.es&lt;/i0&gt; i pregunta al servidor de noms que s'encarrega d'aquest &lt;i5&gt;domini&lt;/i5&gt;; aquest servidor veu que l'element anterior és &lt;i1&gt;.ua&lt;/i1&gt; i pregunta al servidor de noms de la Universitat d'Alacant (UA), i aquest, al seu torn, pregunta al servidor de noms del Departament de Llenguatges i Sistemes Informàtics, ja que l'element anterior és &lt;i2&gt;.dlsi&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150326Z" creationid="fsanchez" creationdate="20161018T150326Z">
+        <seg>Por ejemplo, cuando queremos conectarnos a &lt;u0&gt;{cercador.dlsi.ua.es}, el servidor de nombres de nuestro proveedor de acceso a Internet ve que el nombre acaba en &lt;i0&gt;.es&lt;/i0&gt; y pregunta al servidor de nombres que se encarga de este &lt;i5&gt;dominio&lt;/i5&gt;; este servidor ve que el elemento anterior es &lt;i1&gt;.ua&lt;/i1&gt; y pregunta al servidor de nombres de la Universitat d'Alacant (UA), y éste, a su vez, pregunta al servidor de nombres del Departamento de Lenguajes y Sistemas Informáticos, puesto que el elemento anterior es &lt;i2&gt;.dlsi&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, si en un corpus bilingüe espanyol--català l'aparició de &lt;i7&gt;destino&lt;/i7&gt; prop d'&lt;i8&gt;incierto&lt;/i8&gt; en espanyol coincideix amb l'aparició de &lt;i9&gt;destí&lt;/i9&gt; en català, podem dir que el mot &lt;i10&gt;destino&lt;/i10&gt; té en aquest cas la interpretació de ``sort futura''; en canvi, si l'aparició de {&lt;u4&gt; destino} prop d'&lt;i11&gt;estación&lt;/i11&gt; o &lt;i12&gt;aeropuerto&lt;/i12&gt; en espanyol coincideix amb l'aparició &lt;i13&gt;destinació&lt;/i13&gt; en català, podem elegir el sentit de ``punt d'arribada''.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123747Z" creationid="fsanchez" creationdate="20161010T123747Z">
