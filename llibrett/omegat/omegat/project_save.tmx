@@ -1782,6 +1782,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els programes navegadors es coneixen també per altres noms: &lt;i0&gt;browsers&lt;/i0&gt; (fullejadors), &lt;i1&gt;exploradors&lt;/i1&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151354Z" creationid="fsanchez" creationdate="20161018T151354Z">
+        <seg>Los programes navegadores se conocen también por otros nombres: &lt;i0&gt;browsers&lt;/i0&gt;, &lt;i1&gt;exploradores&lt;/i1&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els quantificadors són mots com &lt;i0&gt;algun&lt;/i0&gt;, &lt;i1&gt;tot&lt;/i1&gt;, &lt;i2&gt;cada&lt;/i2&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122218Z" creationid="fsanchez" creationdate="20161010T122218Z">
