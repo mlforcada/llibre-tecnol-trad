@@ -1606,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El fitxer que conté l'hipertext s'anomena &lt;i10&gt;index.html&lt;/i10&gt;, on les sigles HTML corresponen a &lt;i5&gt;hypertext markup language&lt;/i5&gt;, nom del llenguatge o sistema de marques més usat per a donar format als hipertextos (vegeu l'apartat &lt;n6&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151115Z" creationid="fsanchez" creationdate="20161018T151115Z">
+        <seg>El fichero que contiene el hipertexto se denomina &lt;i10&gt;index.html&lt;/i10&gt;, donde las siglas HTML corresponden a &lt;i5&gt;hypertext markup language&lt;/i5&gt;, nombre del lenguaje o sistema de marcas más usado para dar formato a los hipertextos (véase el apartado &lt;n6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El principi de composicionalitat diu que la interpretació d'una oració està determinada per les interpretacions dels mots i per la sintaxi.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113802Z" creationid="fsanchez" creationdate="20161014T113802Z">
@@ -2274,6 +2282,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115616Z" creationid="fsanchez" creationdate="20161014T115616Z">
         <seg>El análisis morfológico no es suficiente para detectar que en la frase &lt;i8&gt;En el lugar donde murieron sesenta y cinco quedaron restos&lt;/i8&gt; es el primer caso y en la frase &lt;i9&gt;Murieron sesenta y cinco quedaron malheridos&lt;/i9&gt; es el segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'esquema {&lt;u0&gt; https://} és similar a l'esquema {&lt;u1&gt; http://} però incorpora, a més, mecanismes per a transmetre amb seguretat informació encriptada (xifrada).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151127Z" creationid="fsanchez" creationdate="20161018T151127Z">
+        <seg>El esquema {&lt;u0&gt; https://} es similar al esquema {&lt;u1&gt; http://} pero incorpora, además, mecanismos para transmitir con seguridad información encriptada (cifrada).</seg>
       </tuv>
     </tu>
     <tu>
