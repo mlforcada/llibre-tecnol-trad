@@ -2734,6 +2734,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però, en contrast amb l'agenda del nostre mòbil, és impracticable tenir tots els noms i els números IP corresponents a tots els ordinadors del món en el nostre ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145752Z" creationid="fsanchez" creationdate="20161018T145752Z">
+        <seg>Pero, en contraste con la agenda de nuestro móvil, es impracticable tener todos los nombres y los números IP correspondientes a todos los ordenadores del mundo en nuestro ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Podem diferenciar tres tipus d'ambigüitat per homografia: &lt;n4&gt; &lt;u4&gt; &lt;i15&gt;Ambigüitat entre categories lèxiques diferents&lt;/i15&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142221Z" creationid="fsanchez" creationdate="20161009T142221Z">
@@ -2774,6 +2782,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quan accedim a ordinadors d'Internet, ho fem de manera similar: accedim pel nom i no pel número IP, el qual és indispensable per a fer la connexió.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145745Z" creationid="fsanchez" creationdate="20161018T145745Z">
+        <seg>Cuando accedemos a ordenadores de Internet, lo hacemos de manera similar: accedemos por el nombre y no por el número IP, el cual es indispensable para hacer la conexión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quan es produeix una ambigüitat perquè no queda clara l'adscripció d'un sintagma preposicional, com en &lt;i0&gt;porta la clau de l'armari gran&lt;/i0&gt;, quina n'és la raó?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113821Z" creationid="fsanchez" creationdate="20161014T113821Z">
@@ -2794,6 +2810,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122225Z" creationid="fsanchez" creationdate="20161010T122225Z">
         <seg>Cuando el alcance de un cuantificador (es decir, las palabras a las que afecta) es impreciso, una oración puede tener más de una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan telefonem a una persona, normalment ho fem buscant el seu nom en l'agenda, i poques vegades ho fem pel número, però per fer la telefonada és necessari el número.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145735Z" creationid="fsanchez" creationdate="20161018T145735Z">
+        <seg>Cuando telefoneamos a una persona, normalmente lo hacemos buscando su nombre en la agenda, y pocas veces lo hacemos por el número, pero para hacer la llamada es necesario el número.</seg>
       </tuv>
     </tu>
     <tu>
