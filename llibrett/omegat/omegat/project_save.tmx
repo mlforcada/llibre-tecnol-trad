@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt;[Com a font de documentació:] A més de contenir textos de moltes classes que poden servir d'exemple o inspiració a l'hora de fer traduccions, s'hi poden trobar enciclopèdies, diccionaris, glossaris, memòries de traducció (vegeu el capítol &lt;n2&gt;), i moltes altres fonts de documentació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144642Z" creationid="fsanchez" creationdate="20161018T144642Z">
+        <seg>&lt;u1&gt;[Como fuente de documentación:] Además de contener textos de muchas clases que pueden servir de ejemplo o inspiración a la hora de hacer traducciones, se pueden encontrar enciclopedias, diccionarios, glosarios, memorias de traducción (véase el capítulo &lt;n2&gt;), y otras muchas fuentes de documentación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; ... es deu a l'anàfora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141728Z" creationid="fsanchez" creationdate="20161010T141728Z">
