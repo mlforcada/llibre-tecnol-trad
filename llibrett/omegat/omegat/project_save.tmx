@@ -3214,6 +3214,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Són programes que permeten accedir de manera senzilla als documents o serveis d'Internet en ordinadors connectats a aquesta xarxa; entre altres coses, els navegadors interpreten els hipertextos escrits en HTML i els presenten a la persona usuària en el format que indiquen les marques, de manera que els enllaços a altres hipertextos queden clarament destacats i siguen &lt;i2&gt;actius&lt;/i2&gt;, és a dir, que responguen a un clic del ratolí &lt;i3&gt;saltant&lt;/i3&gt; a l'hipertext o recurs enllaçat; a més, els navegadors poden &lt;i4&gt;llançar&lt;/i4&gt; automàticament altres programes d'aplicació per a poder obrir el recurs corresponent si no és un hipertext.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151510Z" creationid="fsanchez" creationdate="20161018T151510Z">
+        <seg>Son programas que permiten acceder de manera sencilla a los documentos o servicios de Internet en ordenadores conectados a esta red; entre otras cosas, los navegadores interpretan los hipertextos escritos en HTML y los presentan a la persona usuaria en el formato que indican las marcas, de forma que los enlaces a otros hipertextos queden claramente destacados y sean &lt;i2&gt;activos&lt;/i2&gt;, es decir, que respondan a un clic del ratón &lt;i3&gt;saltando&lt;/i3&gt; al hipertexto o recurso enlazado; además, los navegadores pueden &lt;i4&gt;ejecutar&lt;/i4&gt; automáticamente otros programas de aplicación para poder abrir el recurso correspondiente si no es un hipertexto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>També explica per què l'oració &lt;n3&gt; El gos va mossegar l'home &lt;n8&gt; no té la mateixa interpretació que la frase &lt;n4&gt; L'home va mossegar el gos &lt;n9&gt; Aquestes oracions no volen dir el mateix perquè, malgrat tenir els mateixos mots, l'estructura sintàctica no és la mateixa.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141635Z" creationid="fsanchez" creationdate="20161009T141635Z">
