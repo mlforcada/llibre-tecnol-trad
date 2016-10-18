@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; {&lt;u2&gt; .gov}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145533Z" creationid="fsanchez" creationdate="20161018T145533Z">
+        <seg>&lt;u1&gt; {&lt;u2&gt; .gob}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt;[Com a font de documentació:] A més de contenir textos de moltes classes que poden servir d'exemple o inspiració a l'hora de fer traduccions, s'hi poden trobar enciclopèdies, diccionaris, glossaris, memòries de traducció (vegeu el capítol &lt;n2&gt;), i moltes altres fonts de documentació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144642Z" creationid="fsanchez" creationdate="20161018T144642Z">
@@ -2006,6 +2014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Fixeu-vos que alguns indicatius (&lt;i0&gt;.tv&lt;/i0&gt;, &lt;i1&gt;.fm&lt;/i1&gt;, etc.) s'usen per a aplicacions no estrictament relacionades amb aquestos països.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145530Z" creationid="fsanchez" creationdate="20161018T145530Z">
+        <seg>Fijaos que algunos indicativos (&lt;i0&gt;.tv&lt;/i0&gt;, &lt;i1&gt;.fm&lt;/i1&gt;, etc.) se usan para aplicaciones no estrictamente relacionadas con estos países.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>França &lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145432Z" creationid="fsanchez" creationdate="20161018T145432Z">
@@ -3278,6 +3294,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>governamental &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145535Z" creationid="fsanchez" creationdate="20161018T145535Z">
+        <seg>gubernamental &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>li semblen poc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125407Z" creationid="fsanchez" creationdate="20161010T125407Z">
@@ -3306,6 +3330,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144349Z" creationid="fsanchez" creationdate="20161018T144349Z">
         <seg>{ Lista de cosas a hacer del capítulo: &lt;n1&gt; &lt;u1&gt; Definir &lt;i0&gt;buscadores&lt;/i0&gt; y &lt;i1&gt;directorios&lt;/i1&gt; y diferenciarlos claramente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; Tipus} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145533Z" creationid="fsanchez" creationdate="20161018T145533Z">
+        <seg>{&lt;u0&gt; Tipo} &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
