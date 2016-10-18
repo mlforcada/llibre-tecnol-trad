@@ -702,6 +702,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt;[trajectòria:] (opcional) dóna informació sobre la localització del servei o document dins de l'ordinador servidor (moltes vegades similar a les &lt;i2&gt;trajectòries&lt;/i2&gt; dels fitxers, p. &lt;n2&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150853Z" creationid="fsanchez" creationdate="20161018T150853Z">
+        <seg>&lt;u2&gt;[trayectoria:] (opcional) da información sobre la localización del servicio o documento dentro del ordenador servidor (muchas veces similar a las &lt;i2&gt;trayectorias&lt;/i2&gt; de los ficheros, p. &lt;n2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; ... és estructural d'origen coordinatiu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141731Z" creationid="fsanchez" creationdate="20161010T141731Z">
