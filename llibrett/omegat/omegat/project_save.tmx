@@ -1326,6 +1326,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com que recordar números IP no és fàcil, normalment s'usen &lt;i0&gt;noms&lt;/i0&gt; o &lt;i1&gt;adreces&lt;/i1&gt; per a referir-se a les màquines; alguns dels ordinadors de la xarxa (anomenats &lt;i2&gt;servidors de noms&lt;/i2&gt;) s'encarreguen de traduir els noms a números IP.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145309Z" creationid="fsanchez" creationdate="20161018T145309Z">
+        <seg>Como recordar números IP no es fácil, normalmente se usan &lt;i0&gt;nombres&lt;/i0&gt; o &lt;i1&gt;direcciones&lt;/i1&gt; para referirse a las máquinas; algunos de los ordenadores de la red (llamados &lt;i2&gt;servidores de nombres&lt;/i2&gt;) se encargan de traducir los nombres a números IP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com veurem més avall, de vegades l'el·lipsi dóna lloc a l'existència de més d'un arbre d'anàlisi sintàctica per a l'oració i per tant aquests tipus d'el·lipsi no es poden incloure pròpiament en aquest apartat dedicat a l'ambigüitat purament lèxica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144124Z" creationid="fsanchez" creationdate="20161009T144124Z">
