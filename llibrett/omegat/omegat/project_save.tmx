@@ -1086,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A més, per reduir el tràfic a Internet els proveïdors de serveis d'Internet i els servidors de noms consultats també es guarden temporalment aquesta informació de manera que no sempre es desencadena el procés complet de consultes descrit.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150609Z" creationid="fsanchez" creationdate="20161018T150609Z">
+        <seg>Además, para reducir el tráfico en Internet los proveedores de servicios de Internet y los servidores de nombres consultados también se guardan temporalmente esta información de forma que no siempre se desencadena el proceso completo de consultas descrito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A pesar de haber sido soldado, salió despedido del avión&lt;/i0&gt; (1: ``El sistema fotogràfic estava fortament fixat al fuselatge però es va soltar de l'aparell quan l'avió va girar en ple vol''; 2: ``Malgrat el seu passat militar gloriós, el president el va destituir abans d'arribar a l'aeroport de destinació'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131139Z" creationid="fsanchez" creationdate="20161010T131139Z">
@@ -2090,6 +2098,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143600Z" creationid="fsanchez" creationdate="20161009T143600Z">
         <seg>Hay tres situaciones posibles: &lt;n0&gt; &lt;u1&gt; cambia sólo el lema pero no los indicadores de flexión: la palabra española &lt;i0&gt;creo&lt;/i0&gt; puede ser la 1ª&lt;u4&gt;persona del singular del presente de indicativo del verbo &lt;i1&gt;creer&lt;/i1&gt; o del verbo &lt;i2&gt;crear&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Identificadors de recursos</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150612Z" creationid="fsanchez" creationdate="20161018T150612Z">
+        <seg>Identificadores de recursos</seg>
       </tuv>
     </tu>
     <tu>
@@ -3202,6 +3218,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141622Z" creationid="fsanchez" creationdate="20161009T141622Z">
         <seg>Una de las perspectivas más interesantes para analizar y ordenar los tipos de ambigüedad descritos más arriba nos la proporciona el llamado &lt;i0&gt;principio de composicionalidad&lt;/i0&gt; &lt;u0&gt;[cap. 23]{radford09b}: &lt;n0&gt; {&lt;u1&gt; La interpretación de una oración está determinada por la interpretación de las palabras que aparecen en la oración y por la estructura sintáctica de la oración.} &lt;n5&gt; Este principio explica por qué la interpretación de la oración &lt;n1&gt; &lt;n10&gt; El padre escurre los platos &lt;n6&gt; es diferente de la de la oración &lt;n2&gt; La madre lee libros &lt;n11&gt; &lt;n7&gt; Las oraciones (&lt;n12&gt;) i (&lt;n13&gt;) tienen la misma sintaxis pero diferente interpretación porque contienen palabras diferentes con interpretaciones diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una vegada resolt, el nostre ordinador es guarda l'IP durant un temps per evitar preguntar de nou.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150559Z" creationid="fsanchez" creationdate="20161018T150559Z">
+        <seg>Una vez resuelto, nuestro ordenador se guarda la IP durando un tiempo para evitar preguntar de nuevo.</seg>
       </tuv>
     </tu>
     <tu>
