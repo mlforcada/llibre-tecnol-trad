@@ -1742,6 +1742,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els URI no només serveixen per enllaçar hipertextos: l'URI &lt;u0&gt;{mailto:anton@dlsi.ua.es} serveix per a enviar correu electrònic (&lt;i0&gt;mailto&lt;/i0&gt;) a l'usuari que té l'adreça de correu electrònic &lt;u1&gt;{anton@dlsi.ua.es}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151144Z" creationid="fsanchez" creationdate="20161018T151144Z">
+        <seg>Los URI no sólo sirven para enlazar hipertextos: el URI &lt;u0&gt;{mailto:anton@dlsi.ua.es} sirve para enviar correo electrónico (&lt;i0&gt;mailto&lt;/i0&gt;) al usuario que tiene la dirección de correo electrónico &lt;u1&gt;{anton@dlsi.ua.es}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els diccionaris anglesos, que solen agrupar els mots polisèmics en una entrada, típicament en fan dues entrades diferents, i, de fet, en lexicografia no és estrany referir-se a &lt;i13&gt;case&lt;/i13&gt; com un homògraf.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143017Z" creationid="fsanchez" creationdate="20161009T143017Z">
@@ -2458,6 +2466,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124920Z" creationid="fsanchez" creationdate="20161010T124920Z">
         <seg>Las restricciones no suelen ser suficientes, y suele ser necesario el establecimiento de &lt;i0&gt;preferencias&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Molts dels servidors d'Internet encarregats de manipular informació privada usen aquest esquema.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151131Z" creationid="fsanchez" creationdate="20161018T151131Z">
+        <seg>Muchos de los servidores de Internet encargados de manipular información privada usan este esquema.</seg>
       </tuv>
     </tu>
     <tu>
