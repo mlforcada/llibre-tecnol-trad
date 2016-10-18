@@ -1958,6 +1958,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Encara que, com es mostra en la taula &lt;n5&gt;, l'indicatiu designa un estat del Pacífic anomenat Tuvalu</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150733Z" creationid="fsanchez" creationdate="20161018T150733Z">
+        <seg>Aunque, como se muestra en la tabla &lt;n5&gt;, el indicativo designa un estado del Pacífico denominado Tuvalu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es concedeix permís per a copiar, distribuir i/o modificar aquest document d'acord amb les condicions de la Llicència General Pública de GNU versió 3 (vegeu &lt;u1&gt;{http://www.gnu.org/licenses/gpl-3.0.txt}) o de la llicencia Creative Commons Reconeixement-CompatirIgual 4.0 Internacional (vegeu &lt;u2&gt;{http://creativecommons.org/licenses/by-sa/4.0/}).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115944Z" creationid="fsanchez" creationdate="20161005T115944Z">
