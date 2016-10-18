@@ -3086,6 +3086,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{ Llista de coses a fer del capítol: &lt;n1&gt; &lt;u1&gt; Definir &lt;i0&gt;buscadors&lt;/i0&gt; i &lt;i1&gt;directoris&lt;/i1&gt; i diferenciar-los clarament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144349Z" creationid="fsanchez" creationdate="20161018T144349Z">
+        <seg>{ Lista de cosas a hacer del capítulo: &lt;n1&gt; &lt;u1&gt; Definir &lt;i0&gt;buscadores&lt;/i0&gt; y &lt;i1&gt;directorios&lt;/i1&gt; y diferenciarlos claramente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{Ambigüitat deguda a l'ambigüitat lèxica} &lt;n0&gt; En moltes llengües, els mots es flexionen i prenen formes diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142106Z" creationid="fsanchez" creationdate="20161009T142106Z">
