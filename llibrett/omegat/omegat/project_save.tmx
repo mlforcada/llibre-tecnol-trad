@@ -1790,6 +1790,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els navegadors més usats són &lt;i0&gt;Firefox&lt;/i0&gt; (un programa lliure i de codi font obert desenvolupat per centenars de col·laboradors arreu del món), &lt;i1&gt;Chrome&lt;/i1&gt; (el navegador de la companyia Google, el qual té una versió lliure i de codi font obert anomenada &lt;i2&gt;Chromium&lt;/i2&gt;), &lt;i3&gt;Microsoft Internet Explorer&lt;/i3&gt; (incorporat en el sistema operatiu Windows), &lt;i4&gt;Safari&lt;/i4&gt; (el qual forma part del sistema operatiu MacOS), i d'altres com &lt;i5&gt;Opera&lt;/i5&gt;, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151540Z" creationid="fsanchez" creationdate="20161018T151540Z">
+        <seg>Los navegadores más usados son &lt;i0&gt;Firefox&lt;/i0&gt; (un programa libre y de código fuente abierto desarrollado por centenares de colaboradores en todo el mundo), &lt;i1&gt;Chrome&lt;/i1&gt; (el navegador de la compañía Google, el cual tiene una versión libre y de código fuente abierto denominada &lt;i2&gt;Chromium&lt;/i2&gt;), &lt;i3&gt;Microsoft Internet Explorer&lt;/i3&gt; (incorporado en el sistema operativo Windows), &lt;i4&gt;Safari&lt;/i4&gt; (el cual forma parte del sistema operativo MacOS), y otros cómo &lt;i5&gt;Opera&lt;/i5&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els programes navegadors es coneixen també per altres noms: &lt;i0&gt;browsers&lt;/i0&gt; (fullejadors), &lt;i1&gt;exploradors&lt;/i1&gt;, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151354Z" creationid="fsanchez" creationdate="20161018T151354Z">
