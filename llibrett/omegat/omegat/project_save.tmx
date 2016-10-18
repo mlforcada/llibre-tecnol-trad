@@ -758,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;i3&gt;megamòndria síngula filetype:pdf&lt;/i3&gt;: documents PDF que continguen aquests dos mots.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152832Z" creationid="fsanchez" creationdate="20161018T152832Z">
+        <seg>&lt;u3&gt; &lt;i3&gt;megamondrío síngulo filetype:pdf&lt;/i3&gt;: documentos PDF que contengan estas dos palabras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; &lt;u7&gt; no pot resoldre la polisèmia amb cap dels programes esmentats en les altres dues opcions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114318Z" creationid="fsanchez" creationdate="20161014T114318Z">
