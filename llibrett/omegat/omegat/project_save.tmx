@@ -3502,6 +3502,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{servidors de noms} Podríem fer una analogia entre la relació entre els noms i els números IP dels ordinadors d'Internet i els noms i els números de telèfon de l'agenda del nostre mòbil.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145722Z" creationid="fsanchez" creationdate="20161018T145722Z">
+        <seg>{servidores de nombres} Podríamos hacer una analogía entre la relación entre los nombres y los números IP de los ordenadores de Internet y los nombres y los números de teléfono de la agenda de nuestro móvil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>  `Joan') (.{&lt;u0&gt;{I}}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144621Z" creationid="fsanchez" creationdate="20161009T144621Z">
