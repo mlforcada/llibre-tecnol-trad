@@ -1654,6 +1654,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els enters inicials s'usen per a designar grans subxarxes, mentre que els finals s'usen per a designar xarxes més menudes, i dins d'aquestes, ordinadors concrets (en això recorden els números de telèfon: dos abonats pròxims normalment comparteixen les xifres inicials).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145235Z" creationid="fsanchez" creationdate="20161018T145235Z">
+        <seg>Los enteros iniciales se usan para designar grandes subredes, mientras que los finales se usan para designar redes más pequeñas, y dentro de éstas, ordenadores concretos (en esto recuerdan a los números de teléfono: dos abonados próximos normalmente comparten las cifras iniciales).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els mots &lt;i0&gt;la&lt;/i0&gt; i &lt;i1&gt;bata&lt;/i1&gt; poden pertànyer cada un a dues categories lèxiques diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115720Z" creationid="fsanchez" creationdate="20161014T115720Z">
@@ -2282,6 +2290,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141443Z" creationid="fsanchez" creationdate="20161010T141443Z">
         <seg>Sin embargo, hay otras que sólo pueden ser tratadas si se hace un análisis sintáctico (a pesar de que la ambigüedad sea de tipo léxico) e incluso las hay que requerirían un análisis semántico para resolverlas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Noms</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145236Z" creationid="fsanchez" creationdate="20161018T145236Z">
+        <seg>Nombres</seg>
       </tuv>
     </tu>
     <tu>
