@@ -3310,6 +3310,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un dels recursos d'Internet més útils són els &lt;i0&gt;buscadors&lt;/i0&gt; o &lt;i1&gt;cercadors&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151728Z" creationid="fsanchez" creationdate="20161018T151728Z">
+        <seg>Uno de los recursos de Internet más útiles son los &lt;i0&gt;buscadores&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un mot (i, en general, una unitat lèxica de més d'un mot) es pot veure des de dues perspectives; d'una banda, la &lt;i0&gt;forma superficial&lt;/i0&gt; del mot és la forma concreta que apareix en el text: &lt;i1&gt;cantàvem&lt;/i1&gt;; d'altra banda, hi ha la &lt;i2&gt;forma lèxica&lt;/i2&gt;, que consisteix en &lt;n3&gt; &lt;u1&gt; un &lt;i3&gt;lema&lt;/i3&gt; o &lt;i4&gt;forma canònica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u2&gt; una &lt;i6&gt;categoria lèxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; classe de mot, o part de l'oració (verb) i &lt;u3&gt; uns &lt;i7&gt;indicadors de flexió&lt;/i7&gt; que expressen les característiques morfològiques o flexives (primera persona, nombre plural, temps pretèrit imperfet, mode indicatiu).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142135Z" creationid="fsanchez" creationdate="20161009T142135Z">
