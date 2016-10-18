@@ -2926,6 +2926,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Una de les eines informàtiques bàsiques que es troben a l'abast de les persones que es dediquen professionalment a la traducció és Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144557Z" creationid="fsanchez" creationdate="20161018T144557Z">
+        <seg>Una de las herramientas informáticas básicas que se encuentran al alcance de las personas que se dedican profesionalmente a la traducción es Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una de les perspectives més interessants per a analitzar i ordenar els tipus d'ambigüitat descrits més amunt ens la proporciona l'anomenat &lt;i0&gt;principi de composicionalitat&lt;/i0&gt; &lt;u0&gt;[cap. 23]{radford09b}: &lt;n0&gt; {&lt;u1&gt; La interpretació d'una oració està determinada per la interpretació dels mots que apareixen en l'oració i per l'estructura sintàctica de l'oració.} &lt;n5&gt; Aquest principi explica per què la interpretació de l'oració &lt;n1&gt; &lt;n10&gt; El pare escura plats &lt;n6&gt; és diferent de la de l'oració &lt;n2&gt; La mare llegeix llibres &lt;n11&gt; &lt;n7&gt; Les oracions (&lt;n12&gt;) i (&lt;n13&gt;) tenen la mateixa sintaxi però diferent interpretació perquè contenen mots diferents amb interpretacions diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141622Z" creationid="fsanchez" creationdate="20161009T141622Z">
@@ -2938,6 +2946,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151202Z" creationid="fsanchez" creationdate="20161009T151202Z">
         <seg>Una es &lt;n1&gt; ¿Quién dice que PRO vendrá?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Usant protocols ben especificats, normalment a través d'API, &lt;i0&gt;Application Program Interfaces&lt;/i0&gt; o &lt;i1&gt;interfícies de programació d'aplicacions&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144552Z" creationid="fsanchez" creationdate="20161018T144552Z">
+        <seg>Usando protocolos bien especificados, normalmente a través de API, &lt;i0&gt;Application Program Interfaces&lt;/i0&gt; o &lt;i1&gt;interfaces de programación de aplicaciones&lt;/i1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
