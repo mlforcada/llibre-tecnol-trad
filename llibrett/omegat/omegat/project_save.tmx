@@ -1278,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquests indicatius apareixen en la taula &lt;n1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145401Z" creationid="fsanchez" creationdate="20161018T145401Z">
+        <seg>Estos indicativos aparecen en la tabla &lt;n1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquests mots s'anomenen habitualment &lt;i0&gt;polisèmics&lt;/i0&gt; i aquest tipus d'ambigüitat, &lt;i1&gt;polisèmia&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143034Z" creationid="fsanchez" creationdate="20161009T143034Z">
@@ -1490,6 +1498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151153Z" creationid="fsanchez" creationdate="20161009T151153Z">
         <seg>A veces, el análisis sintáctico de una oración se complica por la presencia de fenómenos de movimiento de constituyentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De vegades, l'últim component d'un nom no es correspon amb l'indicatiu d'un país, sinó que indica la naturalesa del lloc; antigament calia sobreentendre que es tractava d'un ordinador situat físicament als Estats Units d'Amèrica, però ara això ja no és necessàriament així.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145359Z" creationid="fsanchez" creationdate="20161018T145359Z">
+        <seg>A veces, el último componente de un nombre no se corresponde con el indicativo de un país, sino que indica la naturaleza del lugar; antiguamente había que sobreentender que se trataba de un ordenador situado físicamente en los Estados Unidos de América, pero esto ya no es necesariamente así.</seg>
       </tuv>
     </tu>
     <tu>
