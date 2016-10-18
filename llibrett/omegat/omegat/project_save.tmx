@@ -1134,6 +1134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Això fa que algunes persones es plantegen l'ús de buscadors que no facen aquest &lt;i6&gt;seguiment&lt;/i6&gt; o &lt;i7&gt;tracking&lt;/i7&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151721Z" creationid="fsanchez" creationdate="20161018T151721Z">
+        <seg>Esto hace que algunas personas se plantean el uso de buscadores que no hagan este &lt;i6&gt;seguimiento&lt;/i6&gt; o &lt;i7&gt;tracking&lt;/i7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Alguns buscadors, com ara &lt;i5&gt;Google&lt;/i5&gt;, modifiquen els enllaços que porten als resultats, de manera que no hi porten directament sinó passant primerament pel servidor del buscador, per tal de conéixer les preferències de la gent i millorar així la rellevància dels resultats, però fins i tot poden establir un perfil de cada persona usuària.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151704Z" creationid="fsanchez" creationdate="20161018T151704Z">
