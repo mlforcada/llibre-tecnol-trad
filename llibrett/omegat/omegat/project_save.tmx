@@ -1294,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Cada node (cada ordinador) de la xarxa Internet té un {&lt;u0&gt; número IP} únic, el qual es compon de 4 octets (4 enters del 0 al 255) separats per punts, com ara {&lt;u1&gt; 192.168.5.5}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145205Z" creationid="fsanchez" creationdate="20161018T145205Z">
+        <seg>Cada nodo (cada ordenador) de la red Internet tiene un {&lt;u0&gt; número IP} único, el cual se compone de 4 bytes (4 enteros del 0 al 255) separados por puntos, como por ejemplo {&lt;u1&gt; 192.168.5.5}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Cada un dels mots ve d'un mot llatí diferent: el primer del mot femení &lt;i10&gt;capsa&lt;/i10&gt;, i el segon de &lt;i11&gt;casus&lt;/i11&gt;, el participi de &lt;i12&gt;cado&lt;/i12&gt; `caure'.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142945Z" creationid="fsanchez" creationdate="20161009T142945Z">
