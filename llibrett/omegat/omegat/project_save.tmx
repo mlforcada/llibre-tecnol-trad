@@ -1078,6 +1078,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Altres noms que s'usen en comptes d'&lt;i3&gt;Internet&lt;/i3&gt; són &lt;i4&gt;World Wide Web&lt;/i4&gt; o &lt;i5&gt;WWW&lt;/i5&gt; (``teranyina d'abast mundial'') o simplement &lt;i6&gt;web&lt;/i6&gt; (``teranyina''), masculí en català (&lt;i7&gt;el web&lt;/i7&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145142Z" creationid="fsanchez" creationdate="20161018T145142Z">
+        <seg>Otros nombres que se usan en vez de &lt;i3&gt;Internet&lt;/i3&gt; son &lt;i4&gt;World Wide Web&lt;/i4&gt; o &lt;i5&gt;WWW&lt;/i5&gt; (``telaraña de alcance mundial'') o simplemente &lt;i6&gt;web&lt;/i6&gt; (``telaraña''), femenino en español (&lt;i7&gt;la web&lt;/i7&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141417Z" creationid="fsanchez" creationdate="20161009T141417Z">
