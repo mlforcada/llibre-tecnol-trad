@@ -302,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u0&gt;&lt;n0&gt; &lt;n1&gt; &lt;u1&gt;{Alguns indicatius Internet usats originalment als Estats Units d'Amèrica i més recentment arreu del món, alguns d'ells patrocinats per determinades institucions.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145712Z" creationid="fsanchez" creationdate="20161018T145712Z">
+        <seg>&lt;u0&gt;&lt;n0&gt; &lt;n1&gt; &lt;u1&gt;{Algunos indicativos de Internet usados originalmente en los Estados Unidos de América y más recientemente en todo el mundo, algunos de ellos patrocinados por determinadas instituciones.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u0&gt;{alcaraz97b} defineixen l'&lt;i1&gt;el·lipsi&lt;/i1&gt;&lt;n0&gt; com l'omissió o l'absència d'alguna part d'una oració.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144106Z" creationid="fsanchez" creationdate="20161009T144106Z">
