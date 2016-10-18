@@ -1862,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Es diu que els ordinadors d'Internet formen una &lt;i2&gt;xarxa&lt;/i2&gt;, en la qual els nodes o nusos són els ordinadors i els fils, les connexions- Les connexions poden ser de naturalesa molt diversa (línies telefòniques, fibra òptica, enllaços de ràdio terrestres o per satèl·lit, etc.), però el protocol d'Internet està dissenyat de manera que la naturalesa de la connexió no siga rellevant per a l'usuari ni per als programes d'aplicació que fan ús d'aquestes connexions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144855Z" creationid="fsanchez" creationdate="20161018T144855Z">
+        <seg>Se dice que los ordenadores de Internet forman una &lt;i2&gt;red&lt;/i2&gt;, en la cual los nodos o nudos son los ordenadores y los hilos, las conexiones- Las conexiones pueden ser de naturaleza muy diversa (líneas telefónicas, fibra óptica, enlaces de radio terrestres o por satélite, etc.), pero el protocolo de Internet está diseñado de forma que la naturaleza de la conexión no sea relevante para el usuario ni para los programas de aplicación que hacen uso de estas conexiones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es poden trobar molts exemples; per exemple, entre $L_1 =$ espanyol i $L_2 =$ català, tenim: &lt;n0&gt; &lt;u1&gt; Ayer por la mañana vino tarde $&lt;u3&gt;$ *Ahir pel demà vi vesprada (Ahir de matí va venir tard).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115910Z" creationid="fsanchez" creationdate="20161014T115910Z">
