@@ -3542,6 +3542,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si no, haurem d'usar les &lt;i1&gt;dades mòbils&lt;/i1&gt; que comercialitza el nostre proveïdor de telefonia mòbil a través de la seua xarxa cel·lular.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141404Z" creationid="fsanchez" creationdate="20161019T141404Z">
+        <seg>Si no, tendremos que usar los &lt;i1&gt;datos móviles&lt;/i1&gt; que comercializa nuestro proveedor de telefonía móvil a través de su red celular.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si prenem un corpus (conjunt) suficientment gran de textos on un expert ha indicat la categoria lèxica de cada mot i comptem quantes voltes apareixen totes les seqüències possibles de dues categories lèxiques, podem usar aquestes freqüències per a assignar la categoria d'un mot ambigu: de totes les seqüències de tres mots possibles que es puguen formar amb aquest mot, en prendrem la més freqüent.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123103Z" creationid="fsanchez" creationdate="20161010T123103Z">
