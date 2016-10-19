@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt;[Google+] es pot veure com la resposta de Google a Facebook; en Google+ el concepte bàsic és el del &lt;i4&gt;cercle&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120512Z" creationid="fsanchez" creationdate="20161019T120512Z">
+        <seg>&lt;u1&gt;[Google+] se puede ver como la respuesta de Google a Facebook; en Google+ el concepto básico es lo del &lt;i4&gt;círculo&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt;[autoritat:] identifica pel seu nom o número IP l'ordinador (&lt;i1&gt;servidor&lt;/i1&gt;) on és el recurs.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150833Z" creationid="fsanchez" creationdate="20161018T150833Z">
@@ -730,6 +738,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144726Z" creationid="fsanchez" creationdate="20161018T144726Z">
         <seg>&lt;u2&gt;[Como repositorio de software de asistencia a la traducción:] Muchos de los programas específicos de asistencia a la traducción están disponibles en Internet, como por ejemplo los sistemas de traducción automática (véase el capítulo &lt;n3&gt;) en linea o los programas de concordancias bilingües.&lt;p0&gt;); Reverso Contexto (&lt;u3&gt;{http://context.reverso.net/}).} El acceso puede ser a través de un navegador, o a través otros programas que tengamos instalados localmente en nuestro ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt;[Twitter] és una xarxa social que es basa en missatges de menys de 140 caràcters que poden dur adjuntes fotos, enllaços, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120524Z" creationid="fsanchez" creationdate="20161019T120524Z">
+        <seg>&lt;u2&gt;[Twitter] es una red social que se basa en mensajes de menos de 140 caracteres que pueden llevar adjuntos fotos, enlaces, etc.</seg>
       </tuv>
     </tu>
     <tu>
