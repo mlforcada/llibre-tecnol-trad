@@ -1190,6 +1190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Amb la generalització de l'ús dels mòbils intel·ligents o &lt;i0&gt;smartphones&lt;/i0&gt;, han aparegut moltes aplicacions d'aquest tipus, com ara Telegram, Whatsapp, Line, etc., que usen com a identificador el número de telèfon.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120227Z" creationid="fsanchez" creationdate="20161019T120227Z">
+        <seg>Con la generalización del uso de los móviles inteligentes o &lt;i0&gt;smartphones&lt;/i0&gt;, han aparecido muchas aplicaciones de este tipo, como por ejemplo Telegram, Whatsapp, Line, etc., que usan como identificador el número de teléfono.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ambigüitat</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141417Z" creationid="fsanchez" creationdate="20161009T141417Z">
