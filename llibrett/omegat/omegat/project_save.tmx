@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, però ens quedarem sense telèfon i només hi tindrem Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144156Z" creationid="fsanchez" creationdate="20161019T144156Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, pero nos quedaremos sin teléfono y sólo tendremos Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; No: ho prohibeix el principi de composicionalitat semàntica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142514Z" creationid="fsanchez" creationdate="20161010T142514Z">
@@ -722,6 +730,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141824Z" creationid="fsanchez" creationdate="20161019T141814Z">
         <seg>&lt;u2&gt; Que tienen en común los primeros bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, de segur que els tècnics vindran a passar cables arreu la casa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144210Z" creationid="fsanchez" creationdate="20161019T144210Z">
+        <seg>&lt;u2&gt; Sí, seguro que los técnicos vendrán a pasar cables por todas partes.</seg>
       </tuv>
     </tu>
     <tu>
