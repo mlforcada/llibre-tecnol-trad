@@ -4110,6 +4110,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Accés mòbil} Com més va, menys ens connectem a Internet des de casa, i més des dels nostres dispositius mòbils com ara els &lt;i0&gt;smartphones&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140933Z" creationid="fsanchez" creationdate="20161019T140933Z">
+        <seg>{Acceso móvil} Cada vez nos conectamos menos a Internet desde casa, y más desde nuestros dispositivos móviles como por ejemplo los &lt;i0&gt;smartphones&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{Ambigüitat deguda a l'ambigüitat lèxica} &lt;n0&gt; En moltes llengües, els mots es flexionen i prenen formes diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142106Z" creationid="fsanchez" creationdate="20161009T142106Z">
