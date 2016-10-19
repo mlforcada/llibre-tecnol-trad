@@ -2102,6 +2102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Encara que s'està popularitzant l'ús de &lt;i2&gt;notes de veu&lt;/i2&gt;, arxius d'àudio enregistrats i que s'envien com a annexos.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120109Z" creationid="fsanchez" creationdate="20161019T120109Z">
+        <seg>Aunque se está popularizando el uso de &lt;i2&gt;notas de voz&lt;/i2&gt;, archivos de audio grabados y que se envían como anexos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Encara que, com es mostra en la taula &lt;n5&gt;, l'indicatiu designa un estat del Pacífic anomenat Tuvalu</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150733Z" creationid="fsanchez" creationdate="20161018T150733Z">
