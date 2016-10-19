@@ -2134,6 +2134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Entre els serveis de missatgeria instantània comercial més populars estan els associats a xarxes socials com ara Facebook o Tuenti, o altres associats a altres aplicacions com ara Google Hangouts o Skype.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120351Z" creationid="fsanchez" creationdate="20161019T120351Z">
+        <seg>Entre los servicios de mensajería instantánea comercial más populares están los asociados a redes sociales como por ejemplo Facebook o Tuenti, u otros asociados a otras aplicaciones como por ejemplo Google Hangouts o Skype.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es concedeix permís per a copiar, distribuir i/o modificar aquest document d'acord amb les condicions de la Llicència General Pública de GNU versió 3 (vegeu &lt;u1&gt;{http://www.gnu.org/licenses/gpl-3.0.txt}) o de la llicencia Creative Commons Reconeixement-CompatirIgual 4.0 Internacional (vegeu &lt;u2&gt;{http://creativecommons.org/licenses/by-sa/4.0/}).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115944Z" creationid="fsanchez" creationdate="20161005T115944Z">
@@ -3338,6 +3346,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125659Z" creationid="fsanchez" creationdate="20161010T125659Z">
         <seg>Según este modelo, las personas consideraríamos siempre &lt;i1&gt;todas&lt;/i1&gt; las estructuras sintácticas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Serveis de xarxa social</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120354Z" creationid="fsanchez" creationdate="20161019T120354Z">
+        <seg>Servicios de red social</seg>
       </tuv>
     </tu>
     <tu>
