@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Mitjançant un URI.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142307Z" creationid="fsanchez" creationdate="20161019T142307Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Mediante un URI.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; No se'n pot dir res: els números IP poden no tenir res a veure.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141810Z" creationid="fsanchez" creationdate="20161019T141810Z">
@@ -1634,6 +1642,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145309Z" creationid="fsanchez" creationdate="20161018T145309Z">
         <seg>Como recordar números IP no es fácil, normalmente se usan &lt;i0&gt;nombres&lt;/i0&gt; o &lt;i1&gt;direcciones&lt;/i1&gt; para referirse a las máquinas; algunos de los ordenadores de la red (llamados &lt;i2&gt;servidores de nombres&lt;/i2&gt;) se encargan de traducir los nombres a números IP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com s'indica en Internet on és un recurs concret?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142303Z" creationid="fsanchez" creationdate="20161019T142303Z">
+        <seg>¿Cómo se indica en Internet donde es un recurso concreto?</seg>
       </tuv>
     </tu>
     <tu>
