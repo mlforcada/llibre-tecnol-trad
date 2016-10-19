@@ -1222,6 +1222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Als dispositius de la nostra xarxa local l'encaminador els assigna un número IP privat al que només tenen accés els ordinadors que formen part d'aquesta xarxa local; tots els dispositius d'aquesta xarxa local es connecten a Internet usant el mateix número IP, el número IP públic assignat al nostre encaminador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140345Z" creationid="fsanchez" creationdate="20161019T140345Z">
+        <seg>A los dispositivos de nuestra red local el encaminador les asigna un número IP privado al que sólo tienen acceso los ordenadores que forman parte de esta red local; todos los dispositivos de esta red local se conectan a Internet usando el mismo número IP, el número IP público asignado a nuestro encaminador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Altres esquemes són &lt;i1&gt;rtsp://&lt;/i1&gt;, &lt;i2&gt;real-time streaming protocol&lt;/i2&gt;, per a enllaçar contingut com ara vídeo, àudio, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151152Z" creationid="fsanchez" creationdate="20161018T151152Z">
