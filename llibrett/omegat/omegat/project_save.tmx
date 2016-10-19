@@ -2038,6 +2038,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En els dos casos, si hi enviem un missatge, el reben tots els inscrits, de manera que es pot usar per a establir, per exemple, fòrums de discussió.&lt;p0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115905Z" creationid="fsanchez" creationdate="20161019T115905Z">
+        <seg>En ambos casos, si mandamos un mensaje, lo reciben todos los inscritos, de forma que se puede usar para establecer, por ejemplo, foros de discusión.&lt;p0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'oració &lt;i0&gt;El cotxe s'ha cremat amb el garatge i l'assegurança no el cobreix&lt;/i0&gt; no se sap quina de les dues coses està coberta per l'assegurança, el garatge o el cotxe.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141721Z" creationid="fsanchez" creationdate="20161010T141721Z">
