@@ -1750,6 +1750,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El nostre proveïdor de serveis d'Internet assigna un número IP públic al nostre encaminador (&lt;i0&gt;router&lt;/i0&gt;), de manera que forme part d'Internet i puga facilitar l'accés a tots els dispositius de la nostra xarxa local (clients) a tots els serveis i documents disponibles en qualsevol màquina (servidora) d'Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T135942Z" creationid="fsanchez" creationdate="20161019T135942Z">
+        <seg>Nuestro proveedor de servicios de Internet asigna un número IP público a nuestro encaminador (&lt;i0&gt;router&lt;/i0&gt;), de forma que forme parte de Internet y pueda facilitar el acceso a todos los dispositivos de nuestra red local (clientes) a todos los servicios y documentos disponibles en cualquier máquina (servidora) de Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El principi de composicionalitat diu que la interpretació d'una oració està determinada per les interpretacions dels mots i per la sintaxi.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113802Z" creationid="fsanchez" creationdate="20161014T113802Z">
