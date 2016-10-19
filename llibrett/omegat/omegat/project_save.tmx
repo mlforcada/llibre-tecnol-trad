@@ -3014,6 +3014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per llegir, escriure o enviar els missatges de correu electrònic, s'usen &lt;i0&gt;programes gestors de correu electrònic&lt;/i0&gt;, com ara Thunderbird, Outlook, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120012Z" creationid="fsanchez" creationdate="20161019T120012Z">
+        <seg>Para leer, escribir o enviar los mensajes de correo electrónico, se usan &lt;i0&gt;programas gestores de correo electrónico&lt;/i0&gt;, como por ejemplo Thunderbird, Outlook, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per què és difícil per a un sistema informàtic traduir com un professional?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140555Z" creationid="fsanchez" creationdate="20161009T140555Z">
