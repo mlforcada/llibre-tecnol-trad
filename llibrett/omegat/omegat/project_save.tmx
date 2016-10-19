@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(b) &lt;u1&gt; (a): 57.600 b/s són 57.600 / 1024 = 56,25 kb/s.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144540Z" creationid="fsanchez" creationdate="20161019T144540Z">
+        <seg>(b) &lt;u1&gt; (a): 57.600 b/s son 57.600 / 1024 = 56,25 kb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(vegeu també la pàg. &lt;n1&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151403Z" creationid="fsanchez" creationdate="20161018T151403Z">
