@@ -680,8 +680,8 @@
       <tuv lang="CA">
         <seg>&lt;u2&gt; Que tenen en comú els primers octets.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141814Z" creationid="fsanchez" creationdate="20161019T141814Z">
-        <seg>&lt;u2&gt; Que tienen en común los primeros octetos.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141824Z" creationid="fsanchez" creationdate="20161019T141814Z">
+        <seg>&lt;u2&gt; Que tienen en común los primeros bytes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1008,8 +1008,8 @@
       <tuv lang="CA">
         <seg>&lt;u3&gt; Que tenen en comú els últims octets.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141816Z" creationid="fsanchez" creationdate="20161019T141816Z">
-        <seg>&lt;u2&gt; Que tienen en común los últimos octetos.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141832Z" creationid="fsanchez" creationdate="20161019T141816Z">
+        <seg>&lt;u3&gt; Que tienen en común los últimos bytes.</seg>
       </tuv>
     </tu>
     <tu>
