@@ -2622,6 +2622,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Missatgeria instantània i xat</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120046Z" creationid="fsanchez" creationdate="20161019T120046Z">
+        <seg>Mensajería instantánea y chat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Molts dels servidors d'Internet encarregats de manipular informació privada usen aquest esquema.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151131Z" creationid="fsanchez" creationdate="20161018T151131Z">
@@ -3410,6 +3418,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114701Z" creationid="fsanchez" creationdate="20161014T114701Z">
         <seg>También interviene la ambigüedad léxica pura (polisemia) de &lt;i2&gt;despedir&lt;/i2&gt; (en la primera &lt;i3&gt;lanzar&lt;/i3&gt;; en la segunda, &lt;i4&gt;dejar sin trabajo&lt;/i4&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>També és molt freqüent, accedir al correu electrònic des de qualsevol lloc usant un navegador, a través d'un servei anomenat &lt;i1&gt;webmail&lt;/i1&gt;; són comuns els &lt;i2&gt;webmails&lt;/i2&gt; gratuïts (GMail, Yahoo Mail, MicroSoft Outlook); cada alumna o alumne de la Universitat d'Alacant té, per ser-ho, una adreça de correu de la forma &lt;i3&gt;xxxx&lt;/i3&gt;&lt;i5&gt;@alu.ua.es&lt;/i5&gt;, accessible a través de la secció &lt;i4&gt;webmail&lt;/i4&gt; de la pàgina web de la Universitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120042Z" creationid="fsanchez" creationdate="20161019T120042Z">
+        <seg>También es muy frecuente, acceder al correo electrónico desde cualquier lugar usando un navegador, a través de un servicio llamado &lt;i1&gt;webmail&lt;/i1&gt;; son comunes los &lt;i2&gt;webmails&lt;/i2&gt; gratuitos (GMail, Yahoo Mail, Microsoft Outlook); cada alumna o alumno de la Universitat d'Alacant tiene, por serlo, una dirección de correo de la forma &lt;i3&gt;xxxx&lt;/i3&gt;&lt;i5&gt;@alu.ua.es&lt;/i5&gt;, accesible a través de la sección &lt;i4&gt;webmail&lt;/i4&gt; de la página web de la Universidad.</seg>
       </tuv>
     </tu>
     <tu>
