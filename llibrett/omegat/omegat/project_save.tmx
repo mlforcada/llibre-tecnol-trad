@@ -2158,6 +2158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'actualitat s'està fent la transició de la tecnologia anomenada de tercera generació o 3G (que es mostra de vegades també com una ``H'' en la pantalla), que permet velocitats de connexió d'uns pocs Mb/s a la de quarta generació o 4G, que permet velocitats molt més ràpides (de vegades, quan la cobertura no és bona, el nostre mòbil recorre a tecnologies més antigues i més lentes, com ara EDGE&lt;p0&gt; ---que permet centenars de kb/s i es mostra com una ``E'' en la pantalla--- o GPRS&lt;p1&gt; ---que permet desenes de kb/s i es mostra com una ``G'' en la pantalla).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141453Z" creationid="fsanchez" creationdate="20161019T141453Z">
+        <seg>En la actualidad se está haciendo la transición de la tecnología llamada de tercera generación o 3G (que se muestra a veces también como una ``H'' en la pantalla), que permite velocidades de conexión de unos pocos Mb/s a la de cuarta generación o 4G, que permite velocidades mucho más rápidas (a veces, cuando la cobertura no es buena, nuestro móvil recurre a tecnologías más antiguas y más lentas, como por ejemplo EDGE&lt;p0&gt; ---que permite centenares de kb/s y se muestra como una ``E'' en la pantalla--- o GPRS&lt;p1&gt; ---que permite decenas de kb/s y se muestra como una ``G'' en la pantalla).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'actualitat, en els domicilis del País Valencià hi ha bàsicament tres modalitats d'accés a Internet, totes per preus que oscil·len al voltant dels 30--40 euros/mes: &lt;n0&gt; &lt;u0&gt;[ADSL:] (vegeu el glossari de la secció &lt;n1&gt;) el mòdem fa la connexió a través dels fils de telefonia convencional ja instal·lats a les cases, i en l'actualitat s'aconsegueixen velocitats de baixada d'alguns Mb/s i de pujada normalment inferiors a 1 Mb/s.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140505Z" creationid="fsanchez" creationdate="20161019T140505Z">
