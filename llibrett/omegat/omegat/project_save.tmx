@@ -4158,6 +4158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{els antics mòdems telefònics} Fins als primers anys del decenni del 2000, la major part dels domicilis particulars i les petites empreses es connectaven a Internet mitjançant la línia telefònica, però usant una tecnologia molt més rudimentària, que requeria fer una telefonada al número del proveïdor d'accés a Internet, que havia de durar el temps de connexió, independentment de la quantitat de dades que s'hi transferiren.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140655Z" creationid="fsanchez" creationdate="20161019T140655Z">
+        <seg>{los antiguos módems telefónicos} Hasta los primeros años del decenio del 2000, la mayor parte de los domicilios particulares y las pequeñas empresas se conectaban a Internet mediante la línea telefónica, pero usando una tecnología mucho más rudimentaria, que requería hacer una llamada telefónica al número del proveedor de acceso a Internet, que tenía que durar el tiempo de conexión, independientemente de la cantidad de datos que se transfirieran.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{estratègies de resolució de l'ambigüitat} &lt;u0&gt;{Resolució de la polisèmia.} La resolució de la polisèmia (en anglés &lt;i0&gt;word sense disambiguation&lt;/i0&gt;) consisteix a assignar a un mot polisèmic, en un text o discurs, una interpretació concreta, possiblement diferent de les que podria tenir en altres textos (o contextos).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123126Z" creationid="fsanchez" creationdate="20161010T123126Z">
