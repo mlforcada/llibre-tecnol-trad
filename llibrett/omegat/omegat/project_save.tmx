@@ -2574,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La figura &lt;n0&gt; mostra un esquema de l'accés domèstic a Internet des de diversos dispositius.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T121039Z" creationid="fsanchez" creationdate="20161019T121039Z">
+        <seg>La figura &lt;n0&gt; muestra un esquema del acceso doméstico a Internet desde varios dispositivos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La frase &lt;i0&gt;Baixa i puja amb ascensor&lt;/i0&gt; pot voler dir ``(baixa) i (puja amb ascensor)'' o ``(baixa i puja) amb ascensor''.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141647Z" creationid="fsanchez" creationdate="20161010T141647Z">
@@ -4026,6 +4034,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152112Z" creationid="fsanchez" creationdate="20161009T152112Z">
         <seg>{Ambigüedades mixtas} Hay oraciones que son ambiguas porque contienen palabras ambiguas o porque tienen más de una estructura sintáctica posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Esquema d'accés domèstic a Internet des de diversos dispositius connectats a un mòdem-encaminador.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T121046Z" creationid="fsanchez" creationdate="20161019T121046Z">
+        <seg>{Esquema de acceso doméstico a Internet desde varios dispositivos conectados a un módem-encaminador.}</seg>
       </tuv>
     </tu>
     <tu>
