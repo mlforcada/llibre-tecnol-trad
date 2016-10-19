@@ -3558,6 +3558,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Qui té raó?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142215Z" creationid="fsanchez" creationdate="20161019T142215Z">
+        <seg>¿Quién tiene razón?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quin tipus d'ambigüitat es dóna en l'oració &lt;i0&gt;La mata l'enveja&lt;/i0&gt; (1: ``l'enveja l'està matant''; 2: ``la planta li té enveja a ella'')?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114219Z" creationid="fsanchez" creationdate="20161014T114219Z">
@@ -3666,6 +3674,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141917Z" creationid="fsanchez" creationdate="20161019T141917Z">
         <seg>Sakurako se conecta a Internet por vía telefónica con un ordenador que tiene un procesador de 1000 MHz, 128 megabytes de RAM y un módem de 57600 bits por segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Sakurako vol convéncer Ahmed que ella es descarrega els fitxers MP3 més ràpid que ell, però Ahmed li diu que en les mateixes condicions ell tarda menys a baixar-se els fitxers, de vegades la meitat de temps.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142213Z" creationid="fsanchez" creationdate="20161019T142213Z">
+        <seg>Sakurako quiere convencer a Ahmed de que ella se descarga los ficheros MP3 más rápido que él, pero Ahmed le dice que en iguales condiciones él tarda menos en bajarse los ficheros, a veces la mitad de tiempo.</seg>
       </tuv>
     </tu>
     <tu>
