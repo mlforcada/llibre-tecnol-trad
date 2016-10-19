@@ -3558,6 +3558,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si som a l'abast d'una xarxa Wi-Fi a la qual tenim accés (com la de la nostra casa o la que ens ofereix la Universitat), el nostre dispositiu mòbil es connectarà a Internet a través de Wi-Fi.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141357Z" creationid="fsanchez" creationdate="20161019T141357Z">
+        <seg>Si estamos en el radio de alcance de una red Wi-Fi a la cual tenemos acceso (como la de nuestra casa o la que nos ofrece la Universidad), nuestro dispositivo móvil se conectará en Internet a través de Wi-Fi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si traduim automàticament la frase catalana &lt;i0&gt;Hilari no coneix bé la Mariona: cada dia troba sorprenent el que fa&lt;/i0&gt; i obtenim en anglés &lt;i1&gt;Hilari does not know Mariona well: every day he finds what he does astonishing&lt;/i1&gt; o en francés &lt;i2&gt;Hilari ne connaît pas bien Mariona: tous les jours elle trouve ce qu'il fait etonnant&lt;/i2&gt;, quin tipus d'ambigüitat ha estat mal resolta?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113133Z" creationid="fsanchez" creationdate="20161010T142709Z">
