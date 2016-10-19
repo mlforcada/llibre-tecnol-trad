@@ -1174,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Alguns exemples: &lt;n1&gt; &lt;u0&gt;[Facebook] permet a cada persona publicar informacions sobre el seu &lt;i2&gt;estat&lt;/i2&gt;, incloent fotos, i enviar-se missatges; l'estat pot ser visible per a tothom o per a persones &lt;i3&gt;amigues&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120503Z" creationid="fsanchez" creationdate="20161019T120503Z">
+        <seg>Algunos ejemplos: &lt;n1&gt; &lt;u0&gt;[Facebook] permite a cada persona publicar informaciones sobre su &lt;i2&gt;estado&lt;/i2&gt;, incluyendo fotos, y enviarse mensajes; el estado puede ser visible para todo el mundo o sólo para personas &lt;i3&gt;amigas&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Altres esquemes són &lt;i1&gt;rtsp://&lt;/i1&gt;, &lt;i2&gt;real-time streaming protocol&lt;/i2&gt;, per a enllaçar contingut com ara vídeo, àudio, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151152Z" creationid="fsanchez" creationdate="20161018T151152Z">
