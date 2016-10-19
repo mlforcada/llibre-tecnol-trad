@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; &lt;i0&gt;http://&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;mailto:&lt;/i1&gt; &lt;u3&gt; L'esquema d'Internet</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141756Z" creationid="fsanchez" creationdate="20161019T141756Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; &lt;i0&gt;http://&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;mailto:&lt;/i1&gt; &lt;u3&gt; El esquema de Internet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Ambigüitat lèxica per polisèmia.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114221Z" creationid="fsanchez" creationdate="20161014T114221Z">
@@ -3546,6 +3554,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114048Z" creationid="fsanchez" creationdate="20161014T114048Z">
         <seg>¿Cuál?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què es pot dir dels números IP de dues màquines que es troben en la mateixa subxarxa?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141801Z" creationid="fsanchez" creationdate="20161019T141801Z">
+        <seg>¿Qué se puede decir de los números IP de dos máquinas que se encuentran en la misma subred?</seg>
       </tuv>
     </tu>
     <tu>
