@@ -710,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; La ruta d'accés al recurs és &lt;i2&gt;educacion/universidades.html&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144503Z" creationid="fsanchez" creationdate="20161019T144503Z">
+        <seg>&lt;u2&gt; La ruta de acceso al recurso es &lt;i2&gt;educacion/universidades.html&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Lèxica categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141602Z" creationid="fsanchez" creationdate="20161010T141602Z">
@@ -1058,6 +1066,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114353Z" creationid="fsanchez" creationdate="20161014T114353Z">
         <seg>&lt;u3&gt; La ambigüedad es uno de los problemas a los cuales tiene que enfrentarse un traductor automático.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; L'ordinador on s'allotja el recurs es diu &lt;i3&gt;http://edu.gob.es&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144509Z" creationid="fsanchez" creationdate="20161019T144509Z">
+        <seg>&lt;u3&gt; El ordenador donde se aloja el recurso se llama &lt;i3&gt;http://edu.gob.es&lt;/i3&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1954,6 +1970,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152615Z" creationid="fsanchez" creationdate="20161009T152615Z">
         <seg>Decir que la anáfora es sólo un proceso léxico es una simplificación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Donada la URI &lt;u4&gt;{http://edu.gob.es/educacion/universidades.html}, indica quina de les següents afirmacions és falsa: &lt;n0&gt; &lt;u1&gt; El recurs &lt;i0&gt;universidades.html&lt;/i0&gt; està allotjat en un ordinador el nom del qual és &lt;i1&gt;edu.gob.es&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144456Z" creationid="fsanchez" creationdate="20161019T144456Z">
+        <seg>Dado el URI &lt;u4&gt;{http://edu.gob.es/educacion/universidades.html}, indica cuál de las siguientes afirmaciones es falsa: &lt;n0&gt; &lt;u1&gt; El recurso &lt;i0&gt;universidades.html&lt;/i0&gt; está alojado en un ordenador cuyo nombre es &lt;i1&gt;edu.gob.es&lt;/i1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
