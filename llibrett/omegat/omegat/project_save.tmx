@@ -2174,6 +2174,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'actualitat, podem comprar paquets de dades i pagar uns 5--7 euros per GB, o una quota mensual de desenes d'euros i tenir dades il·limitades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141503Z" creationid="fsanchez" creationdate="20161019T141503Z">
+        <seg>En la actualidad, podemos comprar paquetes de datos y pagar unos 5--7 euros por GB, o una cuota mensual de decenas de euros y tener datos ilimitados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'oració &lt;i0&gt;El cotxe s'ha cremat amb el garatge i l'assegurança no el cobreix&lt;/i0&gt; no se sap quina de les dues coses està coberta per l'assegurança, el garatge o el cotxe.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141721Z" creationid="fsanchez" creationdate="20161010T141721Z">
@@ -3410,6 +3418,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114237Z" creationid="fsanchez" creationdate="20161014T114237Z">
         <seg>Cuando un adjetivo presenta la misma ambigüedad (por ejemplo, puede tener más de una traducción), independientemente de cómo se encuentrw flexionado en género y número, diremos que el adjetivo es{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} anafórico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Questions i exercicis</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141505Z" creationid="fsanchez" creationdate="20161019T141505Z">
+        <seg>Cuestiones y ejercicios</seg>
       </tuv>
     </tu>
     <tu>
