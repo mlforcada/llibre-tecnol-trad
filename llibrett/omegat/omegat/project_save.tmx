@@ -3462,6 +3462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Són plataformes informàtiques que usen Internet (a través d'un navegador i freqüentment també a través de programes d'aplicació específics, molt populars per a telèfons mòbils) per a construir xarxes de persones que comparteixen interessos o objectius.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120433Z" creationid="fsanchez" creationdate="20161019T120433Z">
+        <seg>Son plataformas informáticas que usan Internet (a través de un navegador y frecuentemente también a través de programas de aplicación específicos, muy populares para teléfonos móviles) para construir redes de personas que comparten intereses u objetivos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Són programes que permeten accedir de manera senzilla als documents o serveis d'Internet en ordinadors connectats a aquesta xarxa; entre altres coses, els navegadors interpreten els hipertextos escrits en HTML i els presenten a la persona usuària en el format que indiquen les marques, de manera que els enllaços a altres hipertextos queden clarament destacats i siguen &lt;i2&gt;actius&lt;/i2&gt;, és a dir, que responguen a un clic del ratolí &lt;i3&gt;saltant&lt;/i3&gt; a l'hipertext o recurs enllaçat; a més, els navegadors poden &lt;i4&gt;llançar&lt;/i4&gt; automàticament altres programes d'aplicació per a poder obrir el recurs corresponent si no és un hipertext.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151510Z" creationid="fsanchez" creationdate="20161018T151510Z">
@@ -3626,6 +3634,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113940Z" creationid="fsanchez" creationdate="20161014T113940Z">
         <seg>Una de estas tres no es un tipo de ambigüedad léxica: &lt;n0&gt; &lt;u1&gt; La homografía.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una de les aplicacions més freqüents d'Internet són en l'actualitat els &lt;i0&gt;serveis de xarxa social&lt;/i0&gt;, comunament anomenats simplement &lt;i1&gt;xarxes socials&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120422Z" creationid="fsanchez" creationdate="20161019T120422Z">
+        <seg>En la actualidad, una de las aplicaciones más frecuentes de Internet son los &lt;i0&gt;servicios de red social&lt;/i0&gt;, comúnmente denominados simplemente &lt;i1&gt;redes sociales&lt;/i1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
