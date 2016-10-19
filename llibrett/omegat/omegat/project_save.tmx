@@ -1758,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Durant la connexió, la línia quedava ocupada i no es podien fer ni rebre telefonades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140745Z" creationid="fsanchez" creationdate="20161019T140745Z">
+        <seg>Durante la conexión, la línea quedaba ocupada y no se podían hacer ni recibir llamadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
@@ -1770,6 +1778,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151115Z" creationid="fsanchez" creationdate="20161018T151115Z">
         <seg>El fichero que contiene el hipertexto se denomina &lt;i10&gt;index.html&lt;/i10&gt;, donde las siglas HTML corresponden a &lt;i5&gt;hypertext markup language&lt;/i5&gt;, nombre del lenguaje o sistema de marcas más usado para dar formato a los hipertextos (véase el apartado &lt;n6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El mòdem modulava i desmodulava senyals similars als que s'envien quan es fa una telefonada de veu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140737Z" creationid="fsanchez" creationdate="20161019T140737Z">
+        <seg>El módem modulaba y desmodulaba señales similares a las que se envían cuando se hace una llamada de voz.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2794,6 +2810,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124920Z" creationid="fsanchez" creationdate="20161010T124920Z">
         <seg>Las restricciones no suelen ser suficientes, y suele ser necesario el establecimiento de &lt;i0&gt;preferencias&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les velocitats eren molt baixes, de desenes de kb/s.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140749Z" creationid="fsanchez" creationdate="20161019T140749Z">
+        <seg>Las velocidades eran muy bajas, de decenas de kb/s.</seg>
       </tuv>
     </tu>
     <tu>
