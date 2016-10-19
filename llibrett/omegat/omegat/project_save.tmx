@@ -678,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Una adreça de correu electrònic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141710Z" creationid="fsanchez" creationdate="20161019T141710Z">
+        <seg>&lt;u2&gt; Una dirección de correo electrónico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Una ambigüitat lèxica pura per polisèmia d'un mot.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142702Z" creationid="fsanchez" creationdate="20161010T142702Z">
@@ -890,6 +898,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114136Z" creationid="fsanchez" creationdate="20161014T114136Z">
         <seg>&lt;u3&gt; El hecho que una oración sea ambigua implica necesariamente que las traducciones de las diversas interpretaciones a otra lengua tienen que ser diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; El nom d'un fitxer local del nostre ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141714Z" creationid="fsanchez" creationdate="20161019T141714Z">
+        <seg>&lt;u3&gt; El nombre de un fichero local de nuestro ordenador.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2010,6 +2026,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151540Z" creationid="fsanchez" creationdate="20161018T151540Z">
         <seg>Los navegadores más usados son &lt;i0&gt;Firefox&lt;/i0&gt; (un programa libre y de código fuente abierto desarrollado por centenares de colaboradores en todo el mundo), &lt;i1&gt;Chrome&lt;/i1&gt; (el navegador de la compañía Google, el cual tiene una versión libre y de código fuente abierto denominada &lt;i2&gt;Chromium&lt;/i2&gt;), &lt;i3&gt;Microsoft Internet Explorer&lt;/i3&gt; (incorporado en el sistema operativo Windows), &lt;i4&gt;Safari&lt;/i4&gt; (el cual forma parte del sistema operativo MacOS), y otros cómo &lt;i5&gt;Opera&lt;/i5&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els números IP es componen de 4 números del 0 al 255 separats per punts.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141719Z" creationid="fsanchez" creationdate="20161019T141719Z">
+        <seg>Los números IP se componen de 4 números del 0 al 255 separados por puntos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3514,6 +3538,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20160512T153413Z" creationid="fsanchez" creationdate="20160512T153413Z">
         <seg>¿Qué es Internet?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què és ``&lt;u4&gt;{http://www.tharaka.org.ke/nkoru}''?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141703Z" creationid="fsanchez" creationdate="20161019T141703Z">
+        <seg>¿Qué es ``&lt;u4&gt;{http://www.tharaka.org.ke/nkoru}''?</seg>
       </tuv>
     </tu>
     <tu>
