@@ -2534,6 +2534,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La missatgeria instantània i el xat (en anglés &lt;i0&gt;chat&lt;/i0&gt;) permeten ---com en el cas del correu electrònic, a través de programes especialitzats o &lt;i1&gt;webs&lt;/i1&gt; accessibles amb un navegador--- una comunicació escrita molt ràpida (``en temps real''), consistent en missatges normalment curts ---opcionalment amb annexos com ara fotografies, contactes---, de manera que el resultat és similar al d'una conversa, però per escrit,&lt;p1&gt; cosa que permet un registre de comunicació molt informal que, de fet, ha donat lloc a una llengua molt diferenciada tant de l'oral com de l'escrita.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120212Z" creationid="fsanchez" creationdate="20161019T120212Z">
+        <seg>La mensajería instantánea y el chat (en inglés &lt;i0&gt;chat&lt;/i0&gt;) permiten ---como en el caso del correo electrónico, a través de programas especializados o &lt;i1&gt;webs&lt;/i1&gt; accesibles con un navegador--- una comunicación escrita muy rápida (``en tiempo real''), consistente en mensajes normalmente cortos ---opcionalmente con anexos como por ejemplo fotografías, contactos---, de forma que el resultado es similar al de una conversación, pero por escrito, &lt;p1&gt; cosa que permite un registro de comunicación muy informal que, de hecho, ha dado lugar a una lengua muy diferenciada tanto de la oral como de la escrita.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La polisèmia afecta totes les formes flexionades d'un determinat mot de la mateixa manera (&lt;i4&gt;estacions&lt;/i4&gt; té exactament la mateixa ambigüitat que &lt;i5&gt;estació&lt;/i5&gt;), ja que és una propietat del &lt;i6&gt;lema&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143100Z" creationid="fsanchez" creationdate="20161009T143100Z">
