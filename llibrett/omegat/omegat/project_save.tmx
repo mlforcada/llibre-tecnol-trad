@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; consulta un índex que ha construït prèviament en visitar els diferents documents d'Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144301Z" creationid="fsanchez" creationdate="20161019T144301Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; consulta un índice que ha construido previamente al visitar los diferentes documentos de Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; el nom del servidor.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141633Z" creationid="fsanchez" creationdate="20161019T141616Z">
@@ -3626,6 +3634,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122225Z" creationid="fsanchez" creationdate="20161010T122225Z">
         <seg>Cuando el alcance de un cuantificador (es decir, las palabras a las que afecta) es impreciso, una oración puede tener más de una interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan realitzem una recerca en Internet, el cercador &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; visita en aquell moment els diferents documents d'Internet i recopila aquells que satisfan el criteri de cerca.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144256Z" creationid="fsanchez" creationdate="20161019T144256Z">
+        <seg>Cuando realizamos una búsqueda en Internet, el buscador &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; visita en ese momento los diferentes documentos de Internet y recopila aquellos que satisfacen el criterio de búsqueda.</seg>
       </tuv>
     </tu>
     <tu>
