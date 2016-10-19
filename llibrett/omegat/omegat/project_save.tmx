@@ -1646,6 +1646,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Des del grup o la sala es poden establir ``converses a part'' (a banda) quan cal amb alguna persona concreta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120341Z" creationid="fsanchez" creationdate="20161019T120341Z">
+        <seg>Desde el grupo o la sala se pueden establecer ``conversaciones aparte'' (en privado) cuando hace falta con alguna persona concreta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Dir que ens entrega pàgines amb llistes d'URI i una breu descripció (&lt;i2&gt;snippet&lt;/i2&gt;) del document o de la part del document on apareixen les paraules.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144447Z" creationid="fsanchez" creationdate="20161018T144447Z">
