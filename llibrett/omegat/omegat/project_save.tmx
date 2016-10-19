@@ -3446,6 +3446,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quan en un navegador no s'indica l'esquema d'un URI, quin esquema se sobreentén?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141742Z" creationid="fsanchez" creationdate="20161019T141742Z">
+        <seg>Cuándo en un navegador no se indica el esquema de un URI, ¿qué esquema se sobreentiende?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quan es produeix una ambigüitat perquè no queda clara l'adscripció d'un sintagma preposicional, com en &lt;i0&gt;porta la clau de l'armari gran&lt;/i0&gt;, quina n'és la raó?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113821Z" creationid="fsanchez" creationdate="20161014T113821Z">
@@ -3490,6 +3498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114237Z" creationid="fsanchez" creationdate="20161014T114237Z">
         <seg>Cuando un adjetivo presenta la misma ambigüedad (por ejemplo, puede tener más de una traducción), independientemente de cómo se encuentrw flexionado en género y número, diremos que el adjetivo es{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} anafórico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quants bits són necessaris per a emmagatzemar un número IP?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141725Z" creationid="fsanchez" creationdate="20161019T141725Z">
+        <seg>¿Cuántos bits son necesarios para almacenar un número IP?</seg>
       </tuv>
     </tu>
     <tu>
