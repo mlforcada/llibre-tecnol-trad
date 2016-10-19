@@ -918,6 +918,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; consulta un índex que ha construït prèviament i també visita en aquell moment els documents d'Internet per si hi haguera algun de nou que no existia quan va crear l'índex.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144329Z" creationid="fsanchez" creationdate="20161019T144329Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; consulta un índice que ha construido previamente y también visita en ese momento los documentos de Internet por si hubiera alguno nuevo que no existía cuando creó el índice.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; &lt;u7&gt; el directori on es troba el servei.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141637Z" creationid="fsanchez" creationdate="20161019T141637Z">
