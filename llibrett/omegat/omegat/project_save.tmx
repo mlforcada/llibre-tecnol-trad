@@ -2974,6 +2974,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, una adreça electrònica vàlida podria ser &lt;n0&gt; &lt;i1&gt;marty.mcfly@backtothefuture.info&lt;/i1&gt; &lt;n1&gt; A vegades, podem usar la nostra adreça de correu electrònic per a identificar-nos a l'hora d'accedir a alguns dels serveix que s'ofereixen en Internet, com ara els serveix de xarxes socials (vegeu l'apartat &lt;n2&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115823Z" creationid="fsanchez" creationdate="20161019T115823Z">
+        <seg>Por ejemplo, una dirección electrónica válida podría ser &lt;n0&gt; &lt;i1&gt;marty.mcfly@backtothefuture.info&lt;/i1&gt; &lt;n1&gt; A veces, podemos usar nuestra dirección de correo electrónico para identificarnos a la hora de acceder a algunos de los sirve que se ofrecen en Internet, como por ejemplo los sirve de redes sociales (véase el apartado &lt;n2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, una preposició no pot anar seguida d'una altra preposició.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123013Z" creationid="fsanchez" creationdate="20161010T123013Z">
