@@ -2726,6 +2726,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La telefonada es podia pagar per minuts o amb plans que permetien connexions il·limitades en horari no comercial que s'anomenaven &lt;i0&gt;tarifa plana&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140708Z" creationid="fsanchez" creationdate="20161019T140708Z">
+        <seg>La llamada se podía pagar por minutos o con planes que permitían conexiones ilimitadas en horario no comercial que se denominaban &lt;i0&gt;tarifa plana&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les &lt;i0&gt;restriccions&lt;/i0&gt; es poden basar en informació morfològica, sintàctica, o fins i tot semàntica; tot depén del nivell d'anàlisi que estiga disponible: &lt;n0&gt; &lt;u0&gt; Un pronom masculí no pot tenir un antecedent femení (restricció morfològica): &lt;i1&gt;Maria&lt;/i1&gt; no pot ser l'antecedent de &lt;i2&gt;ell&lt;/i2&gt; en l'oració &lt;i3&gt;Maria es va passar tot el dia parlant d'ell&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123923Z" creationid="fsanchez" creationdate="20161010T123852Z">
