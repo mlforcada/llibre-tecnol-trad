@@ -2670,6 +2670,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>I gaudirem de telèfon i Internet alhora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144218Z" creationid="fsanchez" creationdate="20161019T144218Z">
+        <seg>Y disfrutaremos de teléfono e Internet a la vez.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Identificadors de recursos</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150612Z" creationid="fsanchez" creationdate="20161018T150612Z">
