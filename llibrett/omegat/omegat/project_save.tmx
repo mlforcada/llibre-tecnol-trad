@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(a) &lt;u1&gt; (b) &lt;u2&gt; (a) &lt;u3&gt; (b): Cada número del 0 al 255 es pot emmagatzemar en 8 bits ($2^8=256$) i n'hi ha quatre: $8&lt;u5&gt; 4=32$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144530Z" creationid="fsanchez" creationdate="20161019T144530Z">
+        <seg>(a) &lt;u1&gt; (b) &lt;u2&gt; (a) &lt;u3&gt; (b): Cada número del 0 al 255 se puede almacenar en 8 bits ($2^8=256$) y hay cuatro: $8&lt;u5&gt; 4=32$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(vegeu també la pàg. &lt;n1&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151403Z" creationid="fsanchez" creationdate="20161018T151403Z">
