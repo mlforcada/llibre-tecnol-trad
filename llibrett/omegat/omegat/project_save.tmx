@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No se'n pot dir res: els números IP poden no tenir res a veure.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141810Z" creationid="fsanchez" creationdate="20161019T141810Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No se  puede decir nada: los números IP pueden no tener nada que ver.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; No, aquest tipus d'ambigüitat exigeix un tractament semàntic com a mínim.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142555Z" creationid="fsanchez" creationdate="20161010T142555Z">
@@ -670,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Que tenen en comú els primers octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141814Z" creationid="fsanchez" creationdate="20161019T141814Z">
+        <seg>&lt;u2&gt; Que tienen en común los primeros octetos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Sí, encara que no continga pronoms o altres expressions anafòriques susceptibles de tenir més d'un antecedent possible.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142520Z" creationid="fsanchez" creationdate="20161010T142520Z">
@@ -986,6 +1002,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113936Z" creationid="fsanchez" creationdate="20161014T113936Z">
         <seg>&lt;u3&gt; Polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Que tenen en comú els últims octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141816Z" creationid="fsanchez" creationdate="20161019T141816Z">
+        <seg>&lt;u2&gt; Que tienen en común los últimos octetos.</seg>
       </tuv>
     </tu>
     <tu>
