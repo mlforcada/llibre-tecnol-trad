@@ -2246,6 +2246,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Enhanced Data Rates for GSM Evolution&lt;/i2&gt; ``Taxes de dades millorades per a l'evolució del GSM''</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140850Z" creationid="fsanchez" creationdate="20161019T140850Z">
+        <seg>Enhanced Data Rates for GSM Evolution&lt;/i2&gt; ``Tasas de datos mejoradas para la evolución del GSM''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Entre els serveis de missatgeria instantània comercial més populars estan els associats a xarxes socials com ara Facebook o Tuenti, o altres associats a altres aplicacions com ara Google Hangouts o Skype.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120351Z" creationid="fsanchez" creationdate="20161019T120351Z">
@@ -2378,6 +2386,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145432Z" creationid="fsanchez" creationdate="20161018T145432Z">
         <seg>Francia &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>General Packet Radio Service&lt;/i3&gt; ``Servei general de paquets [de dades] per ràdio''</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140858Z" creationid="fsanchez" creationdate="20161019T140858Z">
+        <seg>General Packet Radio Service&lt;/i3&gt; ``Servicio general de paquetes [de datos] por radio''</seg>
       </tuv>
     </tu>
     <tu>
