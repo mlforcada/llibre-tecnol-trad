@@ -1294,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Ahmed té un ordinador amb un processador de 500 MHz i 128 megaoctets de RAM i ha contractat un mòdem de cable de 128 kilobits per segon per a connectar-se a Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142151Z" creationid="fsanchez" creationdate="20161019T142151Z">
+        <seg>Ahmed tiene un ordenador con un procesador de 500 MHz y 128 megabytes de RAM y ha contratado un módem de cable de 128 kilobits por segundo para conectarse a Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Això fa que algunes persones es plantegen l'ús de buscadors que no facen aquest &lt;i6&gt;seguiment&lt;/i6&gt; o &lt;i7&gt;tracking&lt;/i7&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151721Z" creationid="fsanchez" creationdate="20161018T151721Z">
