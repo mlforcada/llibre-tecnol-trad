@@ -3878,6 +3878,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si en cercar un recurs en Internet el cercador ens diu que no hi ha documents que satisfacen el criteri de cerca &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; podem estar segurs que no existeix en tot Internet cap document que el satisfaça.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144356Z" creationid="fsanchez" creationdate="20161019T144356Z">
+        <seg>Si al buscar un recurso en Internet el buscador nos dice que no hay documentos que satisfagan el criterio de búsqueda &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; podemos estar seguros de que no existe en todo Internet ningún documento que lo satisfaga.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si la màquina &lt;u4&gt;{fictici.deconya.ua.es} té el número IP 232.111.22.33 quin dels tres número IP següents és més probable que corresponga a la màquina &lt;u5&gt;{fals.deconya.ua.es}?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142251Z" creationid="fsanchez" creationdate="20161019T142226Z">
