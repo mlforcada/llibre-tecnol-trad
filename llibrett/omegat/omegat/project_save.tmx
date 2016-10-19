@@ -1326,6 +1326,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A la nostra casa hem tingut telèfon tota la vida i ara estem pensant a connectar-nos a Internet mitjançant ADSL.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144133Z" creationid="fsanchez" creationdate="20161019T144133Z">
+        <seg>En nuestra casa hemos tenido teléfono toda la vida y ahora estamos pensando en conectarnos a Internet mediante ADSL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A la trapezista, últimament, no li eixien els números&lt;/i0&gt; (1: ``Sempre acabava caent a la xarxa''; 2: ``tenia més despeses que ingressos'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141238Z" creationid="fsanchez" creationdate="20161010T141238Z">
