@@ -2566,6 +2566,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les adreces de correu electrònic tenen dues parts, separades pel caràcter ``&lt;i0&gt;@&lt;/i0&gt;'', que se sol pronunciar &lt;i2&gt;at&lt;/i2&gt; (en anglés, per part dels informàtics més vells), {&lt;u0&gt; arrova}, &lt;i3&gt;rova&lt;/i3&gt; o, per què no, &lt;i4&gt;ensaïmada&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115644Z" creationid="fsanchez" creationdate="20161019T115644Z">
+        <seg>Las direcciones de correo electrónico tienen dos partes, separadas por el carácter ``&lt;i0&gt;@&lt;/i0&gt;'', que se suele pronunciar &lt;i2&gt;at&lt;/i2&gt; (en inglés, por parte de los informáticos más viejos), {&lt;u0&gt; arroba}, &lt;i3&gt;arroba&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les estratègies de resolució de l'ambigüitat solen basar-se en &lt;i0&gt;restriccions&lt;/i0&gt; i &lt;i1&gt;preferències&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122750Z" creationid="fsanchez" creationdate="20161010T122750Z">
