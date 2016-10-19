@@ -3744,8 +3744,8 @@
       <tuv lang="CA">
         <seg>Si la màquina &lt;u4&gt;{fictici.deconya.ua.es} té el número IP 232.111.22.33 quin dels tres número IP següents és més probable que corresponga a la màquina &lt;u5&gt;{fals.deconya.ua.es}?</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142226Z" creationid="fsanchez" creationdate="20161019T142226Z">
-        <seg>Si la máquina &lt;u1&gt;|fictici.deconya.ua.es| tiene el número IP &lt;u2&gt;|232.111.22.33| ¿cuál de los tres número IP siguientes es más probable que corresponda a la máquina &lt;u3&gt;|fals.deconya.ua.es|?</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142251Z" creationid="fsanchez" creationdate="20161019T142226Z">
+        <seg>Si la máquina &lt;u4&gt;{fictici.deconya.ua.es} tiene el número IP 232.111.22.33, ¿cuál de los tres número IP siguientes es más probable que corresponda a la máquina &lt;u5&gt;{fals.deconya.ua.es}?</seg>
       </tuv>
     </tu>
     <tu>
