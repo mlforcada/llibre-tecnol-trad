@@ -3990,6 +3990,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Accés domèstic} Per a accedir a Internet des de casa, cal, d'una banda, donar-se d'alta amb algun proveïdor de serveis d'Internet (ISP, &lt;i0&gt;Internet service provider&lt;/i0&gt;) ---alguns proveïdors ofereixen, a més de l'accés a Internet, televisió digital i telefonia convencional--- i d'altra un &lt;i1&gt;mòdem&lt;/i1&gt; adequat al tipus de connexió (mòdem ADSL, mòdem de cable, etc.).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120926Z" creationid="fsanchez" creationdate="20161019T120926Z">
+        <seg>{Acceso doméstico} Para acceder a Internet desde casa, hace falta, por un lado, darse de alta con algún proveedor de servicios de Internet (ISP, &lt;i0&gt;Internet service provider&lt;/i0&gt;) ---algunos proveedores ofrecen, además del acceso a Internet, televisión digital y telefonía convencional--- y de otro, tener un &lt;i1&gt;módem&lt;/i1&gt; adecuado al tipo de conexión (módem ADSL, módem de cable, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{Ambigüitat deguda a l'ambigüitat lèxica} &lt;n0&gt; En moltes llengües, els mots es flexionen i prenen formes diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142106Z" creationid="fsanchez" creationdate="20161009T142106Z">
