@@ -702,6 +702,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; el nom del servidor.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141645Z" creationid="fsanchez" creationdate="20161019T141645Z">
+        <seg>&lt;u2&gt; el nombre del servidor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
@@ -1010,6 +1018,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143626Z" creationid="fsanchez" creationdate="20161009T143626Z">
         <seg>&lt;u3&gt; cambian el lema y los indicadores de flexión: la palabra española &lt;i5&gt;salan&lt;/i5&gt; puede ser la 3ª&lt;u6&gt;persona del plural del presente de indicativo del verbo salir o del presente de subjuntivo del verbo &lt;i6&gt;salar&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; el directori on es troba el servei.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141649Z" creationid="fsanchez" creationdate="20161019T141649Z">
+        <seg>&lt;u3&gt; el directorio donde se encuentra el servicio.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1738,6 +1754,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120341Z" creationid="fsanchez" creationdate="20161019T120341Z">
         <seg>Desde el grupo o la sala se pueden establecer ``conversaciones aparte'' (en privado) cuando hace falta con alguna persona concreta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Després de l'esquema d'accés, un URI (identificador uniforme de recursos) especifica &lt;n0&gt; &lt;u1&gt; la velocitat de transferència.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141644Z" creationid="fsanchez" creationdate="20161019T141644Z">
+        <seg>Después del esquema de acceso, un URI (identificador uniforme de recursos) especifica &lt;n0&gt; &lt;u1&gt; la velocidad de transferencia.</seg>
       </tuv>
     </tu>
     <tu>
