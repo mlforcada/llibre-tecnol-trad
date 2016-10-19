@@ -496,8 +496,8 @@
       <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; el nom del servidor.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141616Z" creationid="fsanchez" creationdate="20161019T141616Z">
-        <seg>&lt;u2&gt; el nombre del servidor.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141633Z" creationid="fsanchez" creationdate="20161019T141616Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; el nombre del servidor.</seg>
       </tuv>
     </tu>
     <tu>
@@ -810,6 +810,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152832Z" creationid="fsanchez" creationdate="20161018T152832Z">
         <seg>&lt;u3&gt; &lt;i3&gt;megamondrío síngulo filetype:pdf&lt;/i3&gt;: documentos PDF que contengan estas dos palabras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; el directori on es troba el servei.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141637Z" creationid="fsanchez" creationdate="20161019T141637Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; el directorio donde se encuentra el servicio.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2752,8 +2760,8 @@
       <tuv lang="CA">
         <seg>La primera part d'un URI (identificador uniforme de recursos) especifica &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; l'esquema d'accés.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141611Z" creationid="fsanchez" creationdate="20161019T141611Z">
-        <seg>La primera parte de un URI (identificador uniforme de recursos) especifica &lt;n0&gt; &lt;u1&gt; el esquema de acceso.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141631Z" creationid="fsanchez" creationdate="20161019T141611Z">
+        <seg>La primera parte de un URI (identificador uniforme de recursos) especifica &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; el esquema de acceso.</seg>
       </tuv>
     </tu>
     <tu>
