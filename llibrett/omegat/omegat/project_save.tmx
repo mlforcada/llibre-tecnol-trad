@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt;[Cable:] el mòdem fa la connexió a través d'un cable coaxial, tecnologia que s'usava tradicionalment per a televisió, amb velocitats i preus similars a l'ADSL.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140515Z" creationid="fsanchez" creationdate="20161019T140515Z">
+        <seg>&lt;u1&gt;[Cable:] el módem hace la conexión a través de un cable coaxial, tecnología que se usaba tradicionalmente para televisión, con velocidades y precios similares al ADSL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt;[Com a font de documentació:] A més de contenir textos de moltes classes que poden servir d'exemple o inspiració a l'hora de fer traduccions, s'hi poden trobar enciclopèdies, diccionaris, glossaris, memòries de traducció (vegeu el capítol &lt;n2&gt;), i moltes altres fonts de documentació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144642Z" creationid="fsanchez" creationdate="20161018T144642Z">
