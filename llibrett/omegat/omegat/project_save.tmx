@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n2&gt; Hi ha molts altres d'abast mundial (Pinterest, Reddit, Tumblr, etc.) i alguns particulars de determinades àrees geogràfiques (com ara VK en els països on es parla rus).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120556Z" creationid="fsanchez" creationdate="20161019T120556Z">
+        <seg>&lt;n2&gt; Hay otros muchos de alcance mundial (Pinterest, Reddit, Tumblr, etc.) y algunos particulares de determinadas áreas geográficas (como por ejemplo VK en los países donde se habla ruso).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n3&gt; En (&lt;n6&gt;a) &lt;i0&gt;les mates&lt;/i0&gt; és un sintagma determinant compost d'un article i un substantiu, que fa d'objecte del verb el·líptic &lt;i1&gt;destrossat&lt;/i1&gt;, mentre que en (&lt;n7&gt;b) &lt;i2&gt;les mates&lt;/i2&gt; és un sintagma verbal compost d'un pronom ({&lt;u3&gt; les}) que es refereix a &lt;i3&gt;Les gallines&lt;/i3&gt; i un verb ({&lt;u4&gt; mates}), sintagma que constitueix un sintagma verbal en la segona oració coordinada (vegeu la fig. &lt;n8&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153101Z" creationid="fsanchez" creationdate="20161009T153101Z">
@@ -2434,6 +2442,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144007Z" creationid="fsanchez" creationdate="20161009T144007Z">
         <seg>Joan vio como caía rodando &lt;n2&gt; quién cayó rodando, ¿Anna o Marta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'accés a Internet</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120600Z" creationid="fsanchez" creationdate="20161019T120600Z">
+        <seg>El acceso en Internet</seg>
       </tuv>
     </tu>
     <tu>
