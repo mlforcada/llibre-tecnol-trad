@@ -2638,6 +2638,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les persones que participen en un &lt;i2&gt;xat&lt;/i2&gt; d'aquests últims, poden de vegades elegir un àlies o malnom i ``entrar'' a la sala, o estar sempre connectades al grup, i ``conversar'' per escrit públicament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120312Z" creationid="fsanchez" creationdate="20161019T120312Z">
+        <seg>Las personas que participan en un &lt;i2&gt;chat&lt;/i2&gt; de estos últimos, pueden a veces elegir un alias o mote y ``entrar'' a la sala, o estar siempre conectadas al grupo, y ``conversar'' por escrito públicamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les preferències se solen basar freqüentment en mètodes estadístics, basats en observacions obtingudes en grans quantitats de text.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122815Z" creationid="fsanchez" creationdate="20161010T122815Z">
