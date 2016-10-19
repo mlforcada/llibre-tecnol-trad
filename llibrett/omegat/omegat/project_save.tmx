@@ -558,6 +558,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; podria donar-se el cas que un document de recent creació satisfaça el criteri de cerca però no haja estat visitat pel cercador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144416Z" creationid="fsanchez" creationdate="20161019T144416Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; podría darse el caso de que un documento de reciente creación satisfaga el criterio de búsqueda pero no haya sido visitado por el buscador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; resol la polisèmia mitjançant l'ús d'un desambiguador lèxic categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114314Z" creationid="fsanchez" creationdate="20161014T114314Z">
@@ -1066,6 +1074,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113948Z" creationid="fsanchez" creationdate="20161014T113948Z">
         <seg>&lt;u3&gt; La polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Les altres dues respostes són errònies.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144420Z" creationid="fsanchez" creationdate="20161019T144420Z">
+        <seg>&lt;u3&gt; Las otras dos respuestas son erróneas.</seg>
       </tuv>
     </tu>
     <tu>
