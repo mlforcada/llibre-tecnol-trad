@@ -2606,6 +2606,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Hem de fer cap instal·lació addicional a casa?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144148Z" creationid="fsanchez" creationdate="20161019T144148Z">
+        <seg>¿Tenemos que hacer alguna instalación adicional en casa?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Heus ací alguns exemples d'oracions que ``ens porten a l'hort'', amb una continuació inesperada en les notes a peu de pàgina del final d'aquesta secció: &lt;n4&gt; Joan besà Maria i la seua germana&lt;u1&gt;&lt;p0&gt; &lt;n10&gt; &lt;n5&gt; Com que Joan sempre corre un parell de quilòmetres&lt;u2&gt;&lt;p1&gt; &lt;n11&gt; &lt;n6&gt; En el otro accidente murieron sesenta y cinco&lt;u3&gt;&lt;p2&gt; &lt;n12&gt; &lt;n7&gt; The horse raced by the barn&lt;u4&gt;&lt;p3&gt; &lt;n13&gt; Aquests processos de selecció purament sintàctica donen com a resultat que hi ha certes estructures finals que són preferides a altres, potser perquè simplifiquen la comprensió.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130014Z" creationid="fsanchez" creationdate="20161010T130014Z">
