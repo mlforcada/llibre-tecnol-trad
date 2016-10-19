@@ -3654,6 +3654,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Sakurako es connecta a Internet per via telefònica amb un ordinador que té un processador de 1000 MHz, 128 megaoctets (&lt;i0&gt;megabytes&lt;/i0&gt;) de RAM i un mòdem de 57600 bits per segon.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141917Z" creationid="fsanchez" creationdate="20161019T141917Z">
+        <seg>Sakurako se conecta a Internet por vía telefónica con un ordenador que tiene un procesador de 1000 MHz, 128 megabytes de RAM y un módem de 57600 bits por segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Segons Arnold (2003) els problemes als quals s'enfronta la traducció automàtica són quatre.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114246Z" creationid="fsanchez" creationdate="20161014T114246Z">
