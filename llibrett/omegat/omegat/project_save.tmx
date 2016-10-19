@@ -2150,6 +2150,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En la majoria dels casos, el número IP públic que el nostre proveïdor d'accés a Internet assigna al nostre encaminador és temporal i va canviant, per això els ordinadors que tenim a casa no poden actuar com a servidors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140400Z" creationid="fsanchez" creationdate="20161019T140400Z">
+        <seg>En la mayoría de los casos, el número IP público que nuestro proveedor de acceso a Internet asigna a nuestro encaminador es temporal y va cambiando, por eso los ordenadores que tenemos en casa no pueden actuar como servidores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En la primera interpretació &lt;i0&gt;les&lt;/i0&gt; és un pronom i &lt;i1&gt;creus&lt;/i1&gt; és un verb, i formen junts un sintagma verbal; en la segona &lt;i2&gt;les&lt;/i2&gt; és un article i &lt;i3&gt;creus&lt;/i3&gt; és un substantiu i formen junts un sintagma nominal.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115309Z" creationid="fsanchez" creationdate="20161014T115309Z">
