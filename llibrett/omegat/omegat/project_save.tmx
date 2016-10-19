@@ -1014,6 +1014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt;[Instagram] fa èmfasi en la possibilitat de compartir fotografies i vídeos.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120530Z" creationid="fsanchez" creationdate="20161019T120530Z">
+        <seg>&lt;u3&gt;[Instagram] hace énfasis en la posibilidad de compartir fotografías y vídeos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt;{Dir que en aquest cas l'esborrat de les parts repetides és obligatori en la major part de les llengües} Considerem l'exemple següent, tret de &lt;u4&gt;[p. 399]{radford09b}: &lt;n2&gt; &lt;n4&gt; Els escocesos aprecien el whisky més que els gal·lesos &lt;n5&gt; L'oració té dues interpretacions: &lt;n3&gt; &lt;u1&gt;[(a)] Els escocesos aprecien el whisky més que els gal·lesos (aprecien el whisky) &lt;u2&gt;[(b)] Els escocesos aprecien el whisky més que (els escocesos aprecien) els gal·lesos&lt;p0&gt; &lt;n6&gt; En aquests dos casos, l'ambigüitat és causada pel fet que són possibles dues estructures sintàctiques per a la segona oració coordinada: en la primera estructura, el sintagma &lt;i3&gt;els gal·lesos&lt;/i3&gt; és el subjecte mentre que en la segona estructura és l'objecte (vegeu els arbres de la fig. &lt;n7&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T150957Z" creationid="fsanchez" creationdate="20161009T150957Z">
@@ -1042,6 +1050,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114520Z" creationid="fsanchez" creationdate="20161014T114520Z">
         <seg>&lt;u4&gt; Ambigüedad sintáctica o estructural (pura) de origen coordinativo: el sintagma &lt;i7&gt;de la tía Pepa&lt;/i7&gt; puede modificar a los dos sintagmas nominales coordinados (&lt;i8&gt;galletas y pan&lt;/i8&gt;) o sólo al segundo (&lt;i9&gt;pan&lt;/i9&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt;[LinkedIn] serveix per a construir xarxes relacionades amb l'activitat professional.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120533Z" creationid="fsanchez" creationdate="20161019T120533Z">
+        <seg>&lt;u4&gt;[LinkedIn] sirve para construir redes relacionadas con la actividad profesional.</seg>
       </tuv>
     </tu>
     <tu>
