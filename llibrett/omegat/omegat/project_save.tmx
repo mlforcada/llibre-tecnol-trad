@@ -678,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Mitjançant un hiperenllaç.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142318Z" creationid="fsanchez" creationdate="20161019T142318Z">
+        <seg>&lt;u2&gt; Mediante un hiperenlace.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; No, perquè les dues formes &lt;i2&gt;vendo&lt;/i2&gt; tenen la mateixa categoria lèxica i la mateixa anàlisi morfològica, tret del lema, i, per tant, poden fer exactament les mateixes funcions sintàctiques.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141919Z" creationid="fsanchez" creationdate="20161010T141919Z">
@@ -1010,6 +1018,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113948Z" creationid="fsanchez" creationdate="20161014T113948Z">
         <seg>&lt;u3&gt; La polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Mitjançant una etiqueta HTML.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142320Z" creationid="fsanchez" creationdate="20161019T142320Z">
+        <seg>&lt;u3&gt; Mediante una etiqueta HTML.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3586,6 +3602,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142215Z" creationid="fsanchez" creationdate="20161019T142215Z">
         <seg>¿Quién tiene razón?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin dels següents és un número IP vàlid?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142335Z" creationid="fsanchez" creationdate="20161019T142335Z">
+        <seg>¿Cuál de los siguientes es un número IP válido?</seg>
       </tuv>
     </tu>
     <tu>
