@@ -1838,6 +1838,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els missatges poden contenir, a més del text mateix del missatge, fitxers &lt;i2&gt;annexos&lt;/i2&gt; (o &lt;i3&gt;adjunts&lt;/i3&gt;, en anglés &lt;i4&gt;attachments&lt;/i4&gt;) com ara imatges, documents, missatges reenviats, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115527Z" creationid="fsanchez" creationdate="20161019T115527Z">
+        <seg>Los mensajes pueden contener, además del texto mismo del mensaje, ficheros &lt;i2&gt;anexos&lt;/i2&gt; (o &lt;i3&gt;adjuntos&lt;/i3&gt;, en inglés &lt;i4&gt;attachments&lt;/i4&gt;) como por ejemplo imágenes, documentos, mensajes reenviados, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els mots &lt;i0&gt;la&lt;/i0&gt; i &lt;i1&gt;bata&lt;/i1&gt; poden pertànyer cada un a dues categories lèxiques diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115720Z" creationid="fsanchez" creationdate="20161014T115720Z">
