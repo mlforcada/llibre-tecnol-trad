@@ -758,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt;[Fibra:] el mòdem fa la connexió a través d'un feix de fibra òptica (làser); aquesta tecnologia és la més recent i permet velocitats de baixada de desenes o fins i tot centenars de Mb/s i velocitats de pujada superiors al Mb/s.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140621Z" creationid="fsanchez" creationdate="20161019T140621Z">
+        <seg>&lt;u2&gt;[Fibra:] el módem hace la conexión a través de un cable de fibra óptica (láser); esta tecnología es la más reciente y permite velocidades de bajada de decenas o incluso centenares de Mb/s y velocidades de subida superiores al Mb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt;[Twitter] és una xarxa social que es basa en missatges de menys de 140 caràcters que poden dur adjuntes fotos, enllaços, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120524Z" creationid="fsanchez" creationdate="20161019T120524Z">
