@@ -2126,6 +2126,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'actualitat, en els domicilis del País Valencià hi ha bàsicament tres modalitats d'accés a Internet, totes per preus que oscil·len al voltant dels 30--40 euros/mes: &lt;n0&gt; &lt;u0&gt;[ADSL:] (vegeu el glossari de la secció &lt;n1&gt;) el mòdem fa la connexió a través dels fils de telefonia convencional ja instal·lats a les cases, i en l'actualitat s'aconsegueixen velocitats de baixada d'alguns Mb/s i de pujada normalment inferiors a 1 Mb/s.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140505Z" creationid="fsanchez" creationdate="20161019T140505Z">
+        <seg>En la actualidad, en los domicilios del País Valencià hay básicamente tres modalidades de acceso a Internet, todas por precios que oscilan alrededor de los 30--40 euros/mes: &lt;n0&gt; &lt;u0&gt;[ADSL:] (véase el glosario de la sección &lt;n1&gt;) el módem hace la conexión a través de los hilos de telefonía convencional ya instalados en las casas, y en la actualidad se consiguen velocidades de bajada de algunos Mb/s y de subida normalmente inferiores a 1 Mb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'oració &lt;i0&gt;El cotxe s'ha cremat amb el garatge i l'assegurança no el cobreix&lt;/i0&gt; no se sap quina de les dues coses està coberta per l'assegurança, el garatge o el cotxe.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141721Z" creationid="fsanchez" creationdate="20161010T141721Z">
