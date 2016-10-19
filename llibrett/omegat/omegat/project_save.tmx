@@ -2910,6 +2910,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, la llista de distribució sobre traducció automàtica MT-List, mantinguda per l'EAMT (&lt;i1&gt;European Association for Machine Translation&lt;/i1&gt;, associació europea per a la traducció automàtica), té l'adreça &lt;i2&gt;mt-list@eamt.org&lt;/i2&gt;; per a formar part de la llista cal subscriure's en l'URI &lt;u0&gt;{http://lists.eamt.org/mailman/listinfo/mt-list</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115838Z" creationid="fsanchez" creationdate="20161019T115838Z">
+        <seg>Por ejemplo, la lista de distribución sobre traducción automática MT-List, mantenida por la EAMT (&lt;i1&gt;European Association for Machine Translation&lt;/i1&gt;, asociación europea para la traducción automática), tiene la dirección &lt;i2&gt;mt-list@eamt.org&lt;/i2&gt;; para formar parte de la lista hay que subscribirse en la URI &lt;u0&gt;{http://lists.eamt.org/mailman/listinfo/mt-list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, la paraula &lt;i0&gt;sobre&lt;/i0&gt; pot ser un substantiu masculí singular, una preposició, i tres formes del verb &lt;i1&gt;sobrar&lt;/i1&gt; (present de subjuntiu, 1a.&lt;u0&gt;i 3a.&lt;u1&gt;persona del singular, i un imperatiu cortés de 3a.&lt;u2&gt;persona del singular).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122955Z" creationid="fsanchez" creationdate="20161010T122955Z">
@@ -3466,6 +3474,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114311Z" creationid="fsanchez" creationdate="20161014T114311Z">
         <seg>Un traductor automático por transferencia morfológica avanzada &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; resuelve la polisemia mediante el uso de un analizador morfológico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una adreça electrònica pot també identificar una llista d'usuaris (&lt;i0&gt;àlies&lt;/i0&gt;) o una llista de distribució (la qual envia una còpia de cada missatge que rep a tots els inscrits en la llista).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115846Z" creationid="fsanchez" creationdate="20161019T115846Z">
+        <seg>Una dirección electrónica puede también identificar una lista de usuarios (&lt;i0&gt;alias&lt;/i0&gt;) o una lista de distribución (la cual envía una copia de cada mensaje que recibe a todos los inscritos en la lista).</seg>
       </tuv>
     </tu>
     <tu>
