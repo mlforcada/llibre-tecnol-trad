@@ -494,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; el nom del servidor.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141616Z" creationid="fsanchez" creationdate="20161019T141616Z">
+        <seg>&lt;u2&gt; el nombre del servidor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; resol la polisèmia mitjançant l'ús d'un desambiguador lèxic categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114314Z" creationid="fsanchez" creationdate="20161014T114314Z">
@@ -2738,6 +2746,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115747Z" creationid="fsanchez" creationdate="20161019T115747Z">
         <seg>La primera parte (o &lt;i5&gt;parte local&lt;/i5&gt;) es frecuentemente el identificador de una persona y la segunda (la &lt;i6&gt;parte de dominio&lt;/i6&gt;) suele ser el nombre de un ordenador (o de un grupo de ordenadores que comparten un mismo nombre).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La primera part d'un URI (identificador uniforme de recursos) especifica &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; l'esquema d'accés.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141611Z" creationid="fsanchez" creationdate="20161019T141611Z">
+        <seg>La primera parte de un URI (identificador uniforme de recursos) especifica &lt;n0&gt; &lt;u1&gt; el esquema de acceso.</seg>
       </tuv>
     </tu>
     <tu>
