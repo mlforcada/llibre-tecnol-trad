@@ -4334,6 +4334,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si la recerca haguera estat de l'element ``González'', els passos anteriors haurien estat els mateixos, però a més hauríem mirat l'element 11, l'element 10 i, finalment, hauríem conclòs que l'element no es troba a la llista.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085914Z" creationid="fsanchez" creationdate="20161025T085914Z">
+        <seg>Si la búsqueda hubiera sido del elemento ``González'', los pasos anteriores habrían sido los mismos, pero además habríamos mirado el elemento 11, el elemento 10 y, finalmente, habríamos concluido que el elemento no se encuentra en la lista.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si no, haurem d'usar les &lt;i1&gt;dades mòbils&lt;/i1&gt; que comercialitza el nostre proveïdor de telefonia mòbil a través de la seua xarxa cel·lular.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141404Z" creationid="fsanchez" creationdate="20161019T141404Z">
