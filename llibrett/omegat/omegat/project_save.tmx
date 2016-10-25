@@ -1990,6 +1990,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Considereu la base de dades amb 10 registres de la taula següent: &lt;n0&gt; &lt;n1&gt;{clll}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091237Z" creationid="fsanchez" creationdate="20161025T091237Z">
+        <seg>Considerad la base de datos con 10 registros de la tabla siguiente: &lt;n0&gt; &lt;n1&gt;{clll}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Construir un sistema de traducció automàtica comporta la gestió d'una gran quantitat de coneixement, que s'ha d'aplegar, descriure, i representar en una forma útil per al processament per ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141404Z" creationid="fsanchez" creationdate="20161009T141404Z">
