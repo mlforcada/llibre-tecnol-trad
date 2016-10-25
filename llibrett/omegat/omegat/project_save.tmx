@@ -4726,6 +4726,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>També hi ha bases de dades terminològiques que es poden consultar en línia: &lt;n0&gt; &lt;u0&gt; L'Institut d'Estudis Catalans manté el TERMCAT (&lt;u2&gt;{http://www.termcat.cat}).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104140Z" creationid="fsanchez" creationdate="20161025T104140Z">
+        <seg>También hay bases de datos terminológicas que se pueden consultar en linea: &lt;n0&gt; &lt;u0&gt; El Institut d'Estudis Catalans mantiene el TERMCAT (&lt;u2&gt;{http://www.termcat.cat}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>També hi intervé l'ambigüitat lèxica pura (polisèmia) de &lt;i2&gt;despedir&lt;/i2&gt; (en la primera &lt;i3&gt;llançar&lt;/i3&gt;; en la segona, &lt;i4&gt;deixar sense treball&lt;/i4&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114701Z" creationid="fsanchez" creationdate="20161014T114701Z">
