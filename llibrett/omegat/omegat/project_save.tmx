@@ -3054,6 +3054,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La combinació de diverses estratègies de recerca permet l'&lt;i0&gt;explotació&lt;/i0&gt; de les dades emmagatzemades en una base de dades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084722Z" creationid="fsanchez" creationdate="20161025T084722Z">
+        <seg>La combinación de varias estrategias de búsqueda permite la &lt;i0&gt;explotación&lt;/i0&gt; de los datos almacenados en una base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La denominació més usual era URL, &lt;i3&gt;uniform resource locator&lt;/i3&gt; o localitzador uniforme de recursos, que encara s'usa profusament, encara que no tots els URI son URL.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150634Z" creationid="fsanchez" creationdate="20161018T150634Z">
