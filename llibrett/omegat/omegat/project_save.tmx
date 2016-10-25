@@ -2646,6 +2646,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En una recerca dicotòmica mirem la fitxa que hi ha enmig del fitxer; si ens hem passat, repetim l'operació amb la primera meitat del fitxer, i si ens hem quedat curts, ho fem amb la segona meitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085149Z" creationid="fsanchez" creationdate="20161025T085149Z">
+        <seg>En una búsqueda dicotómica miramos la ficha que hay en medio del fichero; si nos hemos pasado, repetimos la operación con la primera mitad del fichero, y si nos hemos quedado cortos, lo hacemos con la segunda mitad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Encara que s'està popularitzant l'ús de &lt;i2&gt;notes de veu&lt;/i2&gt;, arxius d'àudio enregistrats i que s'envien com a annexos.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120109Z" creationid="fsanchez" creationdate="20161019T120109Z">
@@ -4146,6 +4154,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144356Z" creationid="fsanchez" creationdate="20161019T144356Z">
         <seg>Si al buscar un recurso en Internet el buscador nos dice que no hay documentos que satisfagan el criterio de búsqueda &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; podemos estar seguros de que no existe en todo Internet ningún documento que lo satisfaga.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si la consulta o la recerca que volem fer es refereix al camp pel qual s'ha establit l'ordenació, és molt més senzilla que si es refereix a un altre camp, i es pot completar sense mirar totes les fitxes; per exemple, fent-hi una &lt;i1&gt;recerca dicotòmica&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085140Z" creationid="fsanchez" creationdate="20161025T085140Z">
+        <seg>Si la consulta o la búsqueda que queremos hacer se refiere al campo por el cual se ha establecido la ordenación, es mucho más sencilla que si se refiere a otro campo, y se puede completar sin mirar todas las fichas; por ejemplo, haciendo una&lt;i1&gt;búsqueda dicotómica&lt;/i1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
