@@ -2398,6 +2398,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els elements ombrejats han sigut descartat durant la recerca, és a dir, sabem que l'element buscat no hi serà entre ells.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090159Z" creationid="fsanchez" creationdate="20161025T090159Z">
+        <seg>Los elementos sombreados han sido descartado durante la búsqueda, es decir, sabemos que el elemento buscado no está entre ellos.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els enters inicials s'usen per a designar grans subxarxes, mentre que els finals s'usen per a designar xarxes més menudes, i dins d'aquestes, ordinadors concrets (en això recorden els números de telèfon: dos abonats pròxims normalment comparteixen les xifres inicials).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145235Z" creationid="fsanchez" creationdate="20161018T145235Z">
@@ -3170,6 +3178,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115616Z" creationid="fsanchez" creationdate="20161014T115616Z">
         <seg>El análisis morfológico no es suficiente para detectar que en la frase &lt;i8&gt;En el lugar donde murieron sesenta y cinco quedaron restos&lt;/i8&gt; es el primer caso y en la frase &lt;i9&gt;Murieron sesenta y cinco quedaron malheridos&lt;/i9&gt; es el segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'element a cercar és ``Garrido''.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090144Z" creationid="fsanchez" creationdate="20161025T090144Z">
+        <seg>El elemento a buscar es ``Garrido''.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5122,6 +5138,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145722Z" creationid="fsanchez" creationdate="20161018T145722Z">
         <seg>{servidores de nombres} Podríamos hacer una analogía entre la relación entre los nombres y los números IP de los ordenadores de Internet y los nombres y los números de teléfono de la agenda de nuestro móvil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>} &lt;n1&gt; &lt;n2&gt; &lt;u0&gt;{Exemple de recerca dicotòmica sobre una llista de cognoms ordenada alfabèticament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090142Z" creationid="fsanchez" creationdate="20161025T090142Z">
+        <seg>} &lt;n1&gt; &lt;n2&gt; &lt;u0&gt;{Ejemplo de búsqueda dicotómica sobre una lista de apellidos ordenada alfabéticamente.</seg>
       </tuv>
     </tu>
     <tu>
