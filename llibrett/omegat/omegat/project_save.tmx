@@ -966,6 +966,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; 4a consulta: o la trobem, o hem de buscar en 77 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085415Z" creationid="fsanchez" creationdate="20161025T085415Z">
+        <seg>&lt;u3&gt; 4ª consulta: o la encontramos, o tenemos que buscar en 77 fichas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; &lt;i3&gt;Modificacions:&lt;/i3&gt; canviar el valor d'un o més camps d'un o més registres de la base de dades.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084418Z" creationid="fsanchez" creationdate="20161025T084418Z">
@@ -1306,6 +1314,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T150957Z" creationid="fsanchez" creationdate="20161009T150957Z">
         <seg>&lt;u3&gt;{Decir que en este caso el borrador de las partes repetidas es obligatorio en la mayor parte de las lenguas} Consideremos el ejemplo siguiente, sacado de &lt;u4&gt;[p.399]{radford09b}: &lt;n2&gt; &lt;n4&gt; Los escoceses aprecian el whisky más que los galeses &lt;n5&gt; La oración tiene dos interpretaciones: &lt;n3&gt; &lt;u1&gt;[(a)] Los escoceses aprecian el whisky más que los galeses (aprecian el whisky) &lt;u2&gt;[(b)] Los escoceses aprecian el whisky más que (los escoceses aprecian) a los galeses&lt;p0&gt; &lt;n6&gt; En estos dos casos, la ambigüedad está causada por el hecho de que son posibles dos estructuras sintácticas para la segunda oración coordinada: en la primera estructura, el sintagma &lt;i3&gt;los galeses&lt;/i3&gt; es el sujeto mientras que en la segunda estructura es el objeto (véanse los árboles de la fig. &lt;n7&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; 5a consulta: o la trobem, o hem de buscar en 38 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085422Z" creationid="fsanchez" creationdate="20161025T085422Z">
+        <seg>&lt;u4&gt; 5ª consulta: o la encontramos, o tenemos que buscar en 38 fichas.</seg>
       </tuv>
     </tu>
     <tu>
