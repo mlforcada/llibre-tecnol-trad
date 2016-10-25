@@ -3550,6 +3550,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per a cada pas de la cerca, s'hi mostra una taula on l'element consultat en cada moment està en negretes i la part de la llista descartada està ombrejada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085606Z" creationid="fsanchez" creationdate="20161025T085606Z">
+        <seg>Para cada paso de la búsqueda, se muestra una tabla donde el elemento consultado en cada momento está en negritas y la parte de la lista descartada está sombreada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per a elegir-ne un, podem, per exemple, prendre tots els possibles sentits del mot ambigu i assignar-los el sentit associat al concepte que està més prop dels conceptes representats pels mots veïns en el text.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123656Z" creationid="fsanchez" creationdate="20161010T123656Z">
