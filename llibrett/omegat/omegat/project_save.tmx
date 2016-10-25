@@ -4542,6 +4542,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si volem fer consultes ràpides pels camps ``&lt;i1&gt;BASC&lt;/i1&gt;'' i ``&lt;i2&gt;SERBO-CROAT&lt;/i2&gt;'' sense haver de visitar (en el cas pitjor) tots els registres, el gestor de bases de dades ha de definir un índex per a cada un d'aquests camps com els de les taules següents, que mostren els índexs corresponents als camps ``&lt;i3&gt;SERBO-CROAT&lt;/i3&gt;'' (esquerra) i ``&lt;i4&gt;BASC&lt;/i4&gt;'' (dreta) de la base de dades de la taula anterior: &lt;n0&gt; &lt;u0&gt;{0.25&lt;u1&gt;}{ &lt;n1&gt;{lc}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091403Z" creationid="fsanchez" creationdate="20161025T091403Z">
+        <seg>Si queremos hacer consultas rápidas por los campos ``&lt;i1&gt;VASCO&lt;/i1&gt;'' y ``&lt;i2&gt;SERBO-CROATA&lt;/i2&gt;'' sin tener que visitar (en el peor caso) todos los registros, el gestor de bases de datos tiene que definir un índice para cada uno de estos campos como los de las tablas siguientes, que muestran los índices correspondientes a los campos ``&lt;i3&gt;SERBO-CROATA&lt;/i3&gt;'' (izquierda) y ``&lt;i4&gt;VASCO&lt;/i4&gt;'' (derecha) de la base de datos de la tabla anterior: &lt;n0&gt; &lt;u0&gt;{0.25&lt;u1&gt;}{ &lt;n1&gt;{lc}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Solucions</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114356Z" creationid="fsanchez" creationdate="20161014T114356Z">
