@@ -3190,6 +3190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les operacions més comunes que es realitzen sobre una base de dades també són similars a aquelles que podem fer amb un fitxer de fitxes de cartolina, però la gestió és més senzilla i són possibles molts més usos: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;Creació de l'estructura de la base de dades&lt;/i0&gt;: definir cada taula, definint l'estructura de les fitxes i el tipus de dades de cada camp.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084400Z" creationid="fsanchez" creationdate="20161025T084400Z">
+        <seg>Las operaciones más comunes que se realizan sobre una base de datos también son similares a aquellas que podemos hacer con un fichero de fichas de cartulina, pero la gestión es más sencilla y son posibles muchos más usos: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;Creación de la estructura de la base de datos&lt;/i0&gt;: definir cada tabla, definiendo la estructura de las fichas y el tipo de datos de cada campo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les persones que participen en un &lt;i2&gt;xat&lt;/i2&gt; d'aquests últims, poden de vegades elegir un àlies o malnom i ``entrar'' a la sala, o estar sempre connectades al grup, i ``conversar'' per escrit públicament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120312Z" creationid="fsanchez" creationdate="20161019T120312Z">
