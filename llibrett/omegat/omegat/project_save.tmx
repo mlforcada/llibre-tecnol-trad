@@ -2486,6 +2486,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els professionals de la traducció gestionen, amb aquests gestors, bases de dades lèxiques que els ajuden a traduir consistentment els termes i, potser, les locucions i frases d'una determinada àrea de coneixement (terminologia).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091956Z" creationid="fsanchez" creationdate="20161025T091956Z">
+        <seg>Los profesionales de la traducción gestionan, con estos gestores, bases de datos léxicas que les ayudan a traducir consistentemente los términos y, quizás, las locuciones y frases de una determinada área de conocimiento (terminología).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els programes navegadors es coneixen també per altres noms: &lt;i0&gt;browsers&lt;/i0&gt; (fullejadors), &lt;i1&gt;exploradors&lt;/i1&gt;, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151354Z" creationid="fsanchez" creationdate="20161018T151354Z">
@@ -4682,6 +4690,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152927Z" creationid="fsanchez" creationdate="20161018T152927Z">
         <seg>Uno de los buscadores más populares a la hora de escribir estas líneas es &lt;i0&gt;Google&lt;/i0&gt; (&lt;u0&gt;{http://www.google.com}); pero también hay otros como &lt;i1&gt;Duckduckgo!&lt;/i1&gt;, &lt;i2&gt;StartPage&lt;/i2&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un dels programes més comunament usats pels professionals de la traducció són els gestors de bases de dades lèxiques (normalment anomenats gestors de bases de dades &lt;i0&gt;terminològiques&lt;/i0&gt;, encara que es poden usar per a moltes altres aplicacions a més de les estrictament terminològiques).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091943Z" creationid="fsanchez" creationdate="20161025T091943Z">
+        <seg>Uno de los programas más comúnmente usados por los profesionales de la traducción son los gestores de bases de datos léxicas (normalmente llamados gestores de bases de datos &lt;i0&gt;terminológicas&lt;/i0&gt;, aunque se pueden usar para otras muchas aplicaciones además de las estrictamente terminológicas).</seg>
       </tuv>
     </tu>
     <tu>
