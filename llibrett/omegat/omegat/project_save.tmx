@@ -3494,6 +3494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les bases de dades lèxiques o terminològiques poden contenir molts tipus de camps: &lt;n0&gt; &lt;u0&gt; El terme en cada una de les llengües (camps que normalment s'usen d'índex per a fer les recerques més eficients).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T103851Z" creationid="fsanchez" creationdate="20161025T103851Z">
+        <seg>Las bases de datos léxicas o terminológicas pueden contener muchos tipos de campos: &lt;n0&gt; &lt;u0&gt; El término en cada una de las lenguas (campos que normalmente se usan de índice para hacer las búsquedas más eficientes).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les converses poden ser entre dues persones, o entre un &lt;i0&gt;grup&lt;/i0&gt; de persones, a voltes reunits en una &lt;i1&gt;sala&lt;/i1&gt;, amb interessos comuns.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120256Z" creationid="fsanchez" creationdate="20161019T120256Z">
