@@ -3798,6 +3798,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però és comú que els fitxers estiguen ordenats segons un dels seus camps: per exemple, un fitxer bibliogràfic pot estar ordenat pel cognom del primer autor, o per la matèria.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085128Z" creationid="fsanchez" creationdate="20161025T085128Z">
+        <seg>Pero es común que los ficheros estén ordenados según uno de sus campos: por ejemplo, un fichero bibliográfico puede estar ordenado por el apellido del primer autor, o por la materia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però, en contrast amb l'agenda del nostre mòbil, és impracticable tenir tots els noms i els números IP corresponents a tots els ordinadors del món en el nostre ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145752Z" creationid="fsanchez" creationdate="20161018T145752Z">
@@ -3914,6 +3922,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114237Z" creationid="fsanchez" creationdate="20161014T114237Z">
         <seg>Cuando un adjetivo presenta la misma ambigüedad (por ejemplo, puede tener más de una traducción), independientemente de cómo se encuentrw flexionado en género y número, diremos que el adjetivo es{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} anafórico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan volem buscar una determinada informació en un fitxer de fitxes de cartolina (per exemple, quins autors han usat el mot &lt;i0&gt;arbre&lt;/i0&gt; en el títol de les seues obres), i aquest fitxer no està ordenat d'acord amb cap criteri convenient, ens veurem obligats a mirar totes les fitxes una per una.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085118Z" creationid="fsanchez" creationdate="20161025T085118Z">
+        <seg>Cuando queremos buscar una determinada información en un fichero de fichas de cartulina (por ejemplo, qué autores han usado la palabra &lt;i0&gt;árbol&lt;/i0&gt; en el título de sus obras), y este fichero no está ordenado de acuerdo con ningún criterio conveniente, nos veremos obligados a mirar todas las fichas una a una.</seg>
       </tuv>
     </tu>
     <tu>
