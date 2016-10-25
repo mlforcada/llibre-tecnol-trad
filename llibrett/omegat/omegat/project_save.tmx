@@ -1382,6 +1382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; S'incrementa en 1 per terme mitjà.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105741Z" creationid="fsanchez" creationdate="20161025T105741Z">
+        <seg>&lt;u3&gt; Se incrementa de media, en 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Sí, només mirant la categoria lèxica dels mots anteriors i la dels posteriors ja hi ha prou per a saber en quin dels dos casos ens trobem.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141932Z" creationid="fsanchez" creationdate="20161010T141932Z">
