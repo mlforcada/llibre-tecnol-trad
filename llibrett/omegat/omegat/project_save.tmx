@@ -686,6 +686,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; es correspon amb múltiples registres, un per cadascun dels termes usats en cada llengua per a representar aquest concepte.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105831Z" creationid="fsanchez" creationdate="20161025T105831Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; se corresponde con múltiples registros, uno por cada uno de los términos usados en cada lengua para representar este concepto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; podria donar-se el cas que un document de recent creació satisfaça el criteri de cerca però no haja estat visitat pel cercador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144416Z" creationid="fsanchez" creationdate="20161019T144416Z">
@@ -3174,6 +3182,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En una base de dades terminològica, cada concepte &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; es correspon amb un camp d'un registre general.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105822Z" creationid="fsanchez" creationdate="20161025T105822Z">
+        <seg>En una base de datos terminológica, cada concepto &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; se corresponde con un campo de un registro general.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En una recerca dicotòmica mirem la fitxa que hi ha enmig del fitxer; si ens hem passat, repetim l'operació amb la primera meitat del fitxer, i si ens hem quedat curts, ho fem amb la segona meitat.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085149Z" creationid="fsanchez" creationdate="20161025T085149Z">
@@ -4922,6 +4938,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144356Z" creationid="fsanchez" creationdate="20161019T144356Z">
         <seg>Si al buscar un recurso en Internet el buscador nos dice que no hay documentos que satisfagan el criterio de búsqueda &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; podemos estar seguros de que no existe en todo Internet ningún documento que lo satisfaga.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si està indexada pel terme en aquella llengua, farà com a molt 11 consultes, i si no, com a molt 2.000 consultes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105816Z" creationid="fsanchez" creationdate="20161025T105816Z">
+        <seg>Si está indexada por el término en aquella lengua, hará como mucho 11 consultas, y si no, como mucho 2.000 consultas.</seg>
       </tuv>
     </tu>
     <tu>
