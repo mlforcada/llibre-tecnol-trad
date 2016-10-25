@@ -294,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n1&gt; Total, 11 consultes com a molt.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085521Z" creationid="fsanchez" creationdate="20161025T085521Z">
+        <seg>&lt;n1&gt; Total, 11 consultas como mucho.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; el primer &lt;i2&gt;com&lt;/i2&gt; és un relatiu que pot modificar &lt;i3&gt;dir&lt;/i3&gt; en l'oració &lt;i4&gt;vas dir que vivia encara&lt;/i4&gt; (``no m'agrada la manera de dir-ho'') o pot modificar {&lt;u1&gt; vivia} però ha estat mogut fora de la subordinada completiva &lt;i5&gt;vivia encara&lt;/i5&gt;, que modifica {&lt;u2&gt; la manera} (``no m'agrada la manera com vivia, segons que vas dir'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151745Z" creationid="fsanchez" creationdate="20161009T151745Z">
