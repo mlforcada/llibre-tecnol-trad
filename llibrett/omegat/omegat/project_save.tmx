@@ -1854,6 +1854,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Ara repetim el procés i mirem l'element d'enmig (el 6) de la nova subllista i hi trobem l'element ``Esteve''; com que és menor alfabèticament que l'element que estem buscant, ens quedem amb la meitat alta (que inclou els elements del 7 al 12) de la subllista actual.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085849Z" creationid="fsanchez" creationdate="20161025T085849Z">
+        <seg>Ahora repetimos el proceso y miramos el elemento de en medio (el 6) de la nueva sublista y encontramos el elemento ``Esteve''; como es menor alfabéticamente que el elemento que estamos buscando, nos quedamos con la mitad alta (que incluye los elementos del 7 al 12) de la sublista actual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Bases de dades</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T083550Z" creationid="fsanchez" creationdate="20161025T083550Z">
@@ -3042,6 +3050,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114346Z" creationid="fsanchez" creationdate="20161014T114346Z">
         <seg>Indicad cuál de las afirmaciones siguientes es falsa: &lt;n0&gt; &lt;u1&gt; Hay casos en los cuales no hace falta resolver la ambigüedad para producir una traducción adecuada en la lengua meta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Inicialment, mirem l'element d'enmig (el 13) de la llista sencera (la llista que inclou els elements de l'1 al 25) i hi trobem ``Larrañaga''; com que ens hem passat, ens quedem amb la meitat baixa de la llista (que inclou els elements de l'1 al 12) oblidant-nos de l'altra meitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085836Z" creationid="fsanchez" creationdate="20161025T085836Z">
+        <seg>Inicialmente, miramos el elemento de en medio (el 13) de la lista entera (la lista que incluye los elementos del 1 al 25) y encontramos ``Larrañaga''; como nos hemos pasado, nos quedamos con la mitad baja de la lista (que incluye los elementos del 1 al 12) olvidándonos de la otra mitad.</seg>
       </tuv>
     </tu>
     <tu>
