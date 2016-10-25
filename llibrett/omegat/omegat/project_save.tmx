@@ -886,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, però és necessari duplicar totes les fitxes en memòria.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105009Z" creationid="fsanchez" creationdate="20161025T105009Z">
+        <seg>&lt;u2&gt; Sí, pero es necesario duplicar todas las fichas en memoria.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Sí, pot ser polisèmic encara que la traducció a aquesta llengua de totes les interpretacions siga la mateixa.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142625Z" creationid="fsanchez" creationdate="20161010T142625Z">
@@ -4610,6 +4618,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123419Z" creationid="fsanchez" creationdate="20161010T123419Z">
         <seg>Se acepta comúnmente que la mayor parte de las palabras polisémicas de un texto (o de un fragmento del texto) suelen tener una única interpretación en un texto dado, pero este principio se tiene que concretar en un método específico para resolver la polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S'han de construir dos índexs, un per a cada camp.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105021Z" creationid="fsanchez" creationdate="20161025T105021Z">
+        <seg>Se tienen que construir dos índices, uno para cada campo.</seg>
       </tuv>
     </tu>
     <tu>
