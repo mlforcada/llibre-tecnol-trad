@@ -1638,6 +1638,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Abans del cos (&lt;i3&gt;body&lt;/i3&gt;), l'element arrel {&lt;u2&gt; martif} conté una capçalera (&lt;i4&gt;martifHeader&lt;/i4&gt;) amb informació sobre l'origen de la base de dades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104536Z" creationid="fsanchez" creationdate="20161025T104536Z">
+        <seg>Antes del cuerpo (&lt;i3&gt;body&lt;/i3&gt;), el elemento raíz {&lt;u2&gt; martif} contiene una cabecera (&lt;i4&gt;martifHeader&lt;/i4&gt;) con información sobre el origen de la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Afortunadament, en els darrers anys s'ha desenvolupat un conjunt de formats estàndards per facilitar aquest intercanvi; un dels més coneguts es TBX&lt;p0&gt;.}, (per &lt;i0&gt;TermBase exchange&lt;/i0&gt;, ``intercanvi de bases de dades terminològiques''), encara que hi ha altres com OLIF (&lt;i1&gt;Open Lexicon Interchange Format&lt;/i1&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104349Z" creationid="fsanchez" creationdate="20161025T104349Z">
@@ -3506,6 +3514,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141553Z" creationid="fsanchez" creationdate="20161010T141553Z">
         <seg>La frase &lt;i0&gt;``Me gusta más que la bata''&lt;/i0&gt; puede tener dos interpretaciones; en la primera se habla de una prenda de vestir; en la segunda, de una preferencia a la hora de preparar, por ejemplo, una salsa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La informació de cada terme (en l'exemple només un) s'inclou dins de l'element {&lt;u0&gt; termEntry}, que conté descripcions (&lt;i0&gt;descrip&lt;/i0&gt;) sobre el domini d'ús i la definició del terme, a més d'una secció {&lt;u1&gt; langSet} per a cada idioma (ací, anglés i hongarés) on s'especifica el terme (&lt;i1&gt;term&lt;/i1&gt;) i informació sobre ell (&lt;i2&gt;termNote&lt;/i2&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104528Z" creationid="fsanchez" creationdate="20161025T104528Z">
+        <seg>La información de cada término (en el ejemplo solo uno) se incluye dentro del elemento {&lt;u0&gt; termEntry}, que contiene descripciones (&lt;i0&gt;descrip&lt;/i0&gt;) sobre el dominio de uso y la definición del término, además de una sección {&lt;u1&gt; langSet} para cada idioma (aquí, inglés y húngaro) donde se especifica el término (&lt;i1&gt;term&lt;/i1&gt;) y su información (&lt;i2&gt;termNote&lt;/i2&gt;). </seg>
       </tuv>
     </tu>
     <tu>
