@@ -832,8 +832,8 @@
       <tuv lang="CA">
         <seg>&lt;u2&gt; La manera d'emmagatzemar el camp és diferent (els camps índex o clau s'emmagatzemen de manera comprimida i els altres no).</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105642Z" creationid="fsanchez" creationdate="20161025T105642Z">
-        <seg>&lt;u1&gt; La manera de almacenar el campo es diferente (los campos índice o clave se almacenan de manera comprimida y los otros no).</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105648Z" creationid="fsanchez" creationdate="20161025T105642Z">
+        <seg>&lt;u2&gt; La manera de almacenar el campo es diferente (los campos índice o clave se almacenan de manera comprimida y los otros no).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1314,6 +1314,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144420Z" creationid="fsanchez" creationdate="20161019T144420Z">
         <seg>&lt;u3&gt; Las otras dos respuestas son erróneas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Les recerques de fitxes per aquest camp són molt més ràpides que les que es facen per camps que no són clau o índex.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105656Z" creationid="fsanchez" creationdate="20161025T105644Z">
+        <seg>&lt;u3&gt; Las búsquedas de fichas por este campo son mucho más rápidas que las que se hacen por campos que no son clave o índice.</seg>
       </tuv>
     </tu>
     <tu>
