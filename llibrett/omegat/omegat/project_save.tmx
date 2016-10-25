@@ -3270,6 +3270,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'URI per a més informació és &lt;u0&gt;{http://www.lisa.org/tbx/</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104239Z" creationid="fsanchez" creationdate="20161025T104239Z">
+        <seg>El URI para más información es &lt;u0&gt;{http://www.lisa.org/tbx/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'accés a Internet</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120600Z" creationid="fsanchez" creationdate="20161019T120600Z">
@@ -3394,6 +3402,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084708Z" creationid="fsanchez" creationdate="20161025T084708Z">
         <seg>La organización de la información en forma de base de datos simplifica enormemente las consultas, puesto que los ordenadores son mucho más rápidos y seguros a la hora de, por ejemplo, comparar el contenido de un determinado campo de todas las fichas con un cierto valor o patrón (por ejemplo, los autores que empiezan por &lt;i5&gt;Ant&lt;/i5&gt;) y listar el contenido de otro campo (por ejemplo, el título) para cada ficha coincidente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La base de dades, en format TBX (vegeu l'apartat &lt;n1&gt;) es pot descarregar totalment o parcialment per a usar-la fora de línia.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104233Z" creationid="fsanchez" creationdate="20161025T104233Z">
+        <seg>La base de datos, en formato TBX (véase el apartado &lt;n1&gt;) se puede descargar totalmente o parcialmente para usarla fuera de línea.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5346,6 +5362,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145522Z" creationid="fsanchez" creationdate="20161018T145522Z">
         <seg>{Indicativos de Internet de algunos países.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{L'intercanvi de bases de dades terminològiques}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104235Z" creationid="fsanchez" creationdate="20161025T104235Z">
+        <seg>{El intercambio de bases de datos terminológicas}</seg>
       </tuv>
     </tu>
     <tu>
