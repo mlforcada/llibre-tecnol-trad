@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Es duplica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105711Z" creationid="fsanchez" creationdate="20161025T105711Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Se duplica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Es refereixen al mateix concepte.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105220Z" creationid="fsanchez" creationdate="20161025T105220Z">
@@ -746,6 +754,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114256Z" creationid="fsanchez" creationdate="20161014T114256Z">
         <seg>&lt;u2&gt; El problema de la síntesis se refiere a la ambigüedad de los textos traducidos automáticamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Es queda exactament com està.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105714Z" creationid="fsanchez" creationdate="20161025T105714Z">
+        <seg>&lt;u2&gt; Se queda exactamente como está.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4530,6 +4546,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141742Z" creationid="fsanchez" creationdate="20161019T141742Z">
         <seg>Cuándo en un navegador no se indica el esquema de un URI, ¿qué esquema se sobreentiende?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan es duplica el nombre de fitxes d'una taula determinada d'una base de dades, què succeeix amb el nombre de consultes que realitza una recerca dicotòmica?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105708Z" creationid="fsanchez" creationdate="20161025T105708Z">
+        <seg>Cuando se duplica el número de fichas de una tabla determinada de una base de datos, ¿qué sucede con el número de consultas que realiza una búsqueda dicotómica?</seg>
       </tuv>
     </tu>
     <tu>
