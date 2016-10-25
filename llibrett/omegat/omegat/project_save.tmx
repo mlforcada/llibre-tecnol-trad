@@ -5070,6 +5070,30 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{&lt;u0&gt; basc}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091244Z" creationid="fsanchez" creationdate="20161025T091244Z">
+        <seg>{&lt;u0&gt; vasco}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; català} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091257Z" creationid="fsanchez" creationdate="20161025T091257Z">
+        <seg>{&lt;u0&gt; catalán} &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; serbo-croat}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091248Z" creationid="fsanchez" creationdate="20161025T091248Z">
+        <seg>{&lt;u0&gt; serbo-croata}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{Accés domèstic} Per a accedir a Internet des de casa, cal, d'una banda, donar-se d'alta amb algun proveïdor de serveis d'Internet (ISP, &lt;i0&gt;Internet service provider&lt;/i0&gt;) ---alguns proveïdors ofereixen, a més de l'accés a Internet, televisió digital i telefonia convencional--- i d'altra un &lt;i1&gt;mòdem&lt;/i1&gt; adequat al tipus de connexió (mòdem ADSL, mòdem de cable, etc.).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120926Z" creationid="fsanchez" creationdate="20161019T120926Z">
