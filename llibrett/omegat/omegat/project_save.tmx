@@ -3222,6 +3222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Més generalment, una BD es pot veure (en l'anomenat model &lt;i0&gt;pla&lt;/i0&gt; o &lt;i1&gt;de taules&lt;/i1&gt;) com un conjunt de taules en les quals les columnes o &lt;i2&gt;camps&lt;/i2&gt; guarden valors del mateix tipus i on els elements d'una fila o &lt;i3&gt;registre&lt;/i3&gt; estan relacionats entre ells.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084209Z" creationid="fsanchez" creationdate="20161025T084209Z">
+        <seg>Más generalmente, una BD se puede ver (en el llamado modelo &lt;i0&gt;plano&lt;/i0&gt; o de &lt;i1&gt;tablas&lt;/i1&gt;) como un conjunto de tablas en las cuales las columnas o &lt;i2&gt;campos&lt;/i2&gt; guardan valores del mismo tipo y donde los elementos de una fila o &lt;i3&gt;registro&lt;/i3&gt; están relacionados entre ellos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>N'estudiarem dos casos: &lt;n0&gt; &lt;u1&gt; L'oració conté mots afectats d'ambigüitat lèxica categorial amb canvi de categoria (vegeu la pàg. &lt;n1&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152128Z" creationid="fsanchez" creationdate="20161009T152128Z">
