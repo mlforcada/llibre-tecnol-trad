@@ -1590,6 +1590,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Això s'aconsegueix mitjançant un procediment anomenat &lt;i0&gt;indexació&lt;/i0&gt;: bàsicament, s'assigna un número a cada fitxa i es construeix una taula o &lt;i1&gt;índex&lt;/i1&gt; ordenat (una altra base de dades) que conté registres amb dos camps: un, el camp pel qual es vol ordenar, i l'altre, la posició en la base de dades del registre que conté aquest valor del camp (en cert sentit, aquest índex no és massa diferent de l'índex alfabètic que hi ha al final d'alguns llibres: busquem el mot alfabèticament i ens diu en quina o en quines pàgines se'n parla).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090908Z" creationid="fsanchez" creationdate="20161025T090908Z">
+        <seg>Esto se consigue mediante un procedimiento denominado &lt;i0&gt;indexación&lt;/i0&gt;: básicamente, se asigna un número a cada ficha y se construye una tabla o &lt;i1&gt;índice&lt;/i1&gt; ordenado (otra base de datos) que contiene registros con dos campos: uno, el campo por el cual se quiere ordenar, y el otro, la posición en la base de datos del registro que contiene este valor del campo (en cierto sentido, este índice no es demasiado diferente del índice alfabético que hay al final de algunos libros: buscamos la palabra alfabéticamente y nos dice en qué páginas se encuentra).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Alguns buscadors, com ara &lt;i5&gt;Google&lt;/i5&gt;, modifiquen els enllaços que porten als resultats, de manera que no hi porten directament sinó passant primerament pel servidor del buscador, per tal de conéixer les preferències de la gent i millorar així la rellevància dels resultats, però fins i tot poden establir un perfil de cada persona usuària.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151704Z" creationid="fsanchez" creationdate="20161018T151704Z">
