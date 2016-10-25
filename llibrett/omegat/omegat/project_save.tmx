@@ -4470,6 +4470,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si volem facilitar les consultes associades a més d'un camp (per exemple, autors i matèries) ens veurem obligats a mantenir dues còpies del fitxer sencer, cada còpia ordenada per un criteri; amb un sistema de bases de dades no cal fer aquesta duplicació: només cal marcar els camps pels quals buscarem més freqüentment (els quals de vegades se solen anomenar &lt;i0&gt;índexs&lt;/i0&gt;), i el programa gestor de bases de dades &lt;i1&gt;indexarà&lt;/i1&gt; la base de dades per a permetre recerques ràpides per aquests camps.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090609Z" creationid="fsanchez" creationdate="20161025T090609Z">
+        <seg>Si queremos facilitar las consultas asociadas a más de un campo (por ejemplo, autores y materias) nos veremos obligados a mantener dos copias del fichero entero, cada copia ordenada por un criterio; con un sistema de bases de datos no hay que hacer esta duplicación: sólo hay que marcar los campos por los cuales buscaremos más frecuentemente (los cuales a veces se suelen denominar &lt;i0&gt;índices&lt;/i0&gt;), y el programa gestor de bases de datos &lt;i1&gt;indexará&lt;/i1&gt; la base de datos para permitir búsquedas rápidas por estos campos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Solucions</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114356Z" creationid="fsanchez" creationdate="20161014T114356Z">
@@ -5130,6 +5138,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123126Z" creationid="fsanchez" creationdate="20161010T123126Z">
         <seg>{estrategias de resolución de la ambigüedad} &lt;u0&gt;{Resolución de la polisemia.} La resolución de la polisemia (en inglés &lt;i0&gt;word sense disambiguation&lt;/i0&gt;) consiste en asignar a una palabra polisémica, en un texto o discurso, una interpretación concreta, posiblemente diferente de las que podría tener en otros textos (o contextos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{la indexació de bases de dades}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090611Z" creationid="fsanchez" creationdate="20161025T090611Z">
+        <seg>{la indexación de bases de datos}</seg>
       </tuv>
     </tu>
     <tu>
