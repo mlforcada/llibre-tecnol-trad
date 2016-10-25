@@ -3998,6 +3998,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però un dels avantatges més clars de les bases de dades és que permeten que els registres estiguen ordenats per més d'un camp, sense haver de duplicar la base de dades (Tot i que la duplicació d'una base de dades menuda pot no semblar en principi problemàtica, les coses canvien si considerem una base de dades amb milers de registres i amb un gran nombre de camps, tots plens d'informació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090707Z" creationid="fsanchez" creationdate="20161025T090707Z">
+        <seg>Pero uno de las ventajas más claras de las bases de datos es que permiten que los registros estén ordenados por más de un campo, sin tener que duplicar la base de datos (a pesar de que la duplicación de una base de datos pequeña puede no parecer en principio problemática, las cosas cambian si consideramos una base de datos con miles de registros y con un gran número de campos, todos llenos de información.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però un fitxer de fitxes de cartolina només es pot ordenar seguint un únic criteri.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090217Z" creationid="fsanchez" creationdate="20161025T090217Z">
