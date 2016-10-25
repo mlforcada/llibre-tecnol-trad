@@ -5278,6 +5278,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{https://ca.wikipedia.org/wiki/Terminologia</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T092029Z" creationid="fsanchez" creationdate="20161025T092029Z">
+        <seg>{https://es.wikipedia.org/wiki/Terminología</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{la indexació de bases de dades}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090611Z" creationid="fsanchez" creationdate="20161025T090611Z">
