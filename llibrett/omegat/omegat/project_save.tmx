@@ -1416,8 +1416,8 @@
       <tuv lang="CA">
         <seg>&lt;u3&gt; {&lt;u7&gt;}sempre és necessari conéixer-ne la categoria lèxica i indicar-la al gestor</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105058Z" creationid="fsanchez" creationdate="20161025T105058Z">
-        <seg>&lt;u2&gt; {&lt;u5&gt;}siempre es necesario conocer su categoría léxica e indicarla al gestor</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105123Z" creationid="fsanchez" creationdate="20161025T105058Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;}siempre es necesario conocer su categoría léxica e indicarsela al gestor</seg>
       </tuv>
     </tu>
     <tu>
@@ -4738,6 +4738,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122904Z" creationid="fsanchez" creationdate="20161010T122904Z">
         <seg>Si aparece entre un artículo y un adjetivo como por ejemplo en &lt;i1&gt;el ahorro doméstico&lt;/i1&gt; no hay ninguna duda de que se trata de un sustantivo: la secuencia determinante--verbo personal no está permitida.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si busquem en una base de dades de 240 fitxes d'alumnes una fitxa (un registre) pel número de telèfon, un camp pel qual no està ordenada, quantes consultes haurà de fer, com a màxim, el programa gestor de la base de dades fins arribar a la fitxa desitjada?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105136Z" creationid="fsanchez" creationdate="20161025T105136Z">
+        <seg>Si buscamos en una base de datos de 240 fichas de alumnos una ficha (un registro) por el número de teléfono, un campo por el cual no está ordenada, ¿cuántas consultas tendrá que hacer, como máximo, el programa gestor de la base de datos hasta llegar a la ficha deseada?</seg>
       </tuv>
     </tu>
     <tu>
