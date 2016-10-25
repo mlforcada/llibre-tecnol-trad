@@ -3550,6 +3550,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, es pot generar, a partir d'un fitxer bibliogràfic, les referències bibliogràfiques citades en un text ordenades alfabèticament i en el format requerit per una determinada revista, o generar, a partir d'una base de dades de clients, una carta de recordatori per als morosos, amb detalls sobre els seus deutes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084736Z" creationid="fsanchez" creationdate="20161025T084736Z">
+        <seg>Por ejemplo, se puede generar, a partir de un fichero bibliográfico, las referencias bibliográficas citadas en un texto ordenadas alfabéticamente y en el formato requerido por una determinada revista, o generar, a partir de una base de datos de clientes, una carta de recordatorio para los morosos, con detalles sobre sus deudas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, l'oració &lt;n0&gt; Les gallines han destrossat el sembrat, però no les mates &lt;n2&gt; té dues interpretacions: &lt;n1&gt; &lt;n5&gt; &lt;u1&gt;[(a)] Les gallines han destrossat el sembrat, però (les gallines) no (han destrossat) les mates.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152709Z" creationid="fsanchez" creationdate="20161009T152709Z">
