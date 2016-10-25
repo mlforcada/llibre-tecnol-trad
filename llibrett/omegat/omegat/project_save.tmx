@@ -4726,6 +4726,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Primer pas: mirem l'element 13 i ens quedem amb la meitat baixa de la llista.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090115Z" creationid="fsanchez" creationdate="20161025T090115Z">
+        <seg>[Primer paso: miramos el elemento 13 y nos quedamos con la mitad baja de la lista.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`[aprecien]' ) (.SD.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151814Z" creationid="fsanchez" creationdate="20161009T151814Z">
@@ -5106,6 +5114,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145722Z" creationid="fsanchez" creationdate="20161018T145722Z">
         <seg>{servidores de nombres} Podríamos hacer una analogía entre la relación entre los nombres y los números IP de los ordenadores de Internet y los nombres y los números de teléfono de la agenda de nuestro móvil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>} &lt;u0&gt;[Segon pas: mirem l'element 6 i ens quedem amb la meitat alta de la subllista anterior.]{ &lt;n1&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090123Z" creationid="fsanchez" creationdate="20161025T090123Z">
+        <seg>} &lt;u0&gt;[Segundo paso: miramos el elemento 6 y nos quedamos con la mitad alta de la subllista anterior.]{ &lt;n1&gt;{|l||l||l||l||l|}</seg>
       </tuv>
     </tu>
     <tu>
