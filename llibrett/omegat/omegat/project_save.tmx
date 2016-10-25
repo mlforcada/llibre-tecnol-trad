@@ -2510,6 +2510,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els índexs s'han de refer parcialment quan es fan altes, baixes o modificacions de registres per tal que les consultes continuen sent eficients.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090944Z" creationid="fsanchez" creationdate="20161025T090944Z">
+        <seg>Los índices se tienen que rehacer parcialmente cuando se hacen altas, bajas o modificaciones de registros para que las consultas continúen siendo eficientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els$_{i/j?}$ vaig veure caure &lt;n6&gt; s'ha d'usar informació semàntica per a saber quin és l'antecedent d'&lt;i9&gt;els&lt;/i9&gt; en la segona oració (&lt;i10&gt;els soldats&lt;/i10&gt; o &lt;i11&gt;els xiquets&lt;/i11&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124914Z" creationid="fsanchez" creationdate="20161010T124837Z">
