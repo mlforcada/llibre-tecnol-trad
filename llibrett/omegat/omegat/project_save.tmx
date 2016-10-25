@@ -2622,6 +2622,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En particular, és possible organitzar les bases de dades de manera que estiguen instal·lades en un o més servidors i que es puguen consultar i explotar des d'un altre ordinador a través d'Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084943Z" creationid="fsanchez" creationdate="20161025T084943Z">
+        <seg>En particular, es posible organizar las bases de datos de forma que estén instaladas en uno o más servidores y se puedan consultar y explotar desde otro ordenador a través de Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En traducció automàtica, estem interessats a elegir una de les interpretacions possibles, perquè és comú que els mots polisèmics tinguen diverses traduccions (l'&lt;i3&gt;ambigüitat de transferència&lt;/i3&gt; esmentada en l'apartat &lt;n1&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123354Z" creationid="fsanchez" creationdate="20161010T123354Z">
@@ -4778,6 +4786,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151548Z" creationid="fsanchez" creationdate="20161018T151548Z">
         <seg>{No me gusta que el material de navegadores esté repartido y repetido entre dos capítulos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Recerques}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084952Z" creationid="fsanchez" creationdate="20161025T084952Z">
+        <seg>{Búsquedas}</seg>
       </tuv>
     </tu>
     <tu>
