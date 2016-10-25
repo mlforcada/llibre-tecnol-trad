@@ -1662,6 +1662,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Això la converteix en un recurs valuós i sovint els traductors en fan intercanvi.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104258Z" creationid="fsanchez" creationdate="20161025T104258Z">
+        <seg>Esto, la convierte en un recurso valioso y a menudo los traductores se las intercambian.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Això s'aconsegueix mitjançant un procediment anomenat &lt;i0&gt;indexació&lt;/i0&gt;: bàsicament, s'assigna un número a cada fitxa i es construeix una taula o &lt;i1&gt;índex&lt;/i1&gt; ordenat (una altra base de dades) que conté registres amb dos camps: un, el camp pel qual es vol ordenar, i l'altre, la posició en la base de dades del registre que conté aquest valor del camp (en cert sentit, aquest índex no és massa diferent de l'índex alfabètic que hi ha al final d'alguns llibres: busquem el mot alfabèticament i ens diu en quina o en quines pàgines se'n parla).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090908Z" creationid="fsanchez" creationdate="20161025T090908Z">
@@ -3418,6 +3426,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084722Z" creationid="fsanchez" creationdate="20161025T084722Z">
         <seg>La combinación de varias estrategias de búsqueda permite la &lt;i0&gt;explotación&lt;/i0&gt; de los datos almacenados en una base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La creació i el manteniment d'una bona base de dades terminològica requereix un gran esforç i moltes hores de treball.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104249Z" creationid="fsanchez" creationdate="20161025T104249Z">
+        <seg>La creación y el mantenimiento de una buena base de datos terminológica requiere de un gran esfuerzo y muchas horas de trabajo.</seg>
       </tuv>
     </tu>
     <tu>
