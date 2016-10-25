@@ -878,6 +878,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Només els números de les fitxes ordenats segons el valor del camp.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105210Z" creationid="fsanchez" creationdate="20161025T105210Z">
+        <seg>&lt;u2&gt; Sólo los números de las fichas ordenados según el valor del campo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Que tenen en comú els primers octets.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141824Z" creationid="fsanchez" creationdate="20161019T141814Z">
@@ -2766,6 +2774,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els índexs contenen{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; Entrades compostes pel valor del camp índex i el número de la fitxa (del registre).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105205Z" creationid="fsanchez" creationdate="20161025T105205Z">
+        <seg>Los índices contienen{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; Entradas compuestas por el valor del campo índice y el número de la ficha (del registro).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els índexs s'han de refer parcialment quan es fan altes, baixes o modificacions de registres per tal que les consultes continuen sent eficients.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090944Z" creationid="fsanchez" creationdate="20161025T090944Z">
@@ -4530,6 +4546,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085118Z" creationid="fsanchez" creationdate="20161025T085118Z">
         <seg>Cuando queremos buscar una determinada información en un fichero de fichas de cartulina (por ejemplo, qué autores han usado la palabra &lt;i0&gt;árbol&lt;/i0&gt; en el título de sus obras), y este fichero no está ordenado de acuerdo con ningún criterio conveniente, nos veremos obligados a mirar todas las fichas una a una.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan volem tenir els registres (les fitxes) d'una base de dades ordenada simultàniament per dos camps per a optimitzar les recerques construïm dos índexs.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105157Z" creationid="fsanchez" creationdate="20161025T105157Z">
+        <seg>Cuando queremos tener los registros (las fichas) de una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas construimos dos índices.</seg>
       </tuv>
     </tu>
     <tu>
