@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Es refereixen al mateix concepte.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105220Z" creationid="fsanchez" creationdate="20161025T105220Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Se refieren al mismo concepto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Estructural d'adjunció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141615Z" creationid="fsanchez" creationdate="20161010T141600Z">
@@ -742,6 +750,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Es refereixen al mateix terme.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105222Z" creationid="fsanchez" creationdate="20161025T105222Z">
+        <seg>&lt;u2&gt; Se refieren al mismo término.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Estructural d'adjunció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141751Z" creationid="fsanchez" creationdate="20161010T141751Z">
@@ -1206,6 +1222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Es troben en el mateix índex.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105226Z" creationid="fsanchez" creationdate="20161025T105226Z">
+        <seg>&lt;u3&gt; Se encuentran en el mismo índice.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Estructural d'adjunció: el sintagma preposicional &lt;i5&gt;del partit&lt;/i5&gt; pot ser un adjunt del sintagma verbal &lt;i6&gt;Expulsaran el portaveu&lt;/i6&gt; o del sintagma nominal &lt;i7&gt;el portaveu&lt;/i7&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114033Z" creationid="fsanchez" creationdate="20161014T114033Z">
@@ -1370,6 +1394,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142703Z" creationid="fsanchez" creationdate="20161010T142703Z">
         <seg>&lt;u3&gt; Una anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Una còpia de les fitxes ordenades pel camp índex corresponent.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105213Z" creationid="fsanchez" creationdate="20161025T105213Z">
+        <seg>&lt;u3&gt; Una copia de las fichas ordenadas por el campo índice correspondiente.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4626,6 +4658,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141801Z" creationid="fsanchez" creationdate="20161019T141801Z">
         <seg>¿Qué se puede decir de los números IP de dos máquinas que se encuentran en la misma subred?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què tenen en comú tots els camps d'una fitxa terminològica?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105217Z" creationid="fsanchez" creationdate="20161025T105217Z">
+        <seg>¿Qué tienen en común todos los campos de una ficha terminológica?</seg>
       </tuv>
     </tu>
     <tu>
