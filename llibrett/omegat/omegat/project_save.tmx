@@ -2862,6 +2862,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els resultats són: &lt;n0&gt; &lt;n1&gt;{c|c} &lt;u1&gt;&lt;u2&gt; &lt;u3&gt;{Nombre de fitxes}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105900Z" creationid="fsanchez" creationdate="20161025T105900Z">
+        <seg>Los resultados son: &lt;n0&gt; &lt;n1&gt;{c|c} &lt;u1&gt;&lt;u2&gt; &lt;u3&gt;{Número de fichas}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els serveis i els documents concrets presents en un ordinador (un servidor d'Internet) que els fa disponibles es poden designar mitjançant el seu &lt;i0&gt;identificador uniforme de recursos&lt;/i0&gt; o, més comunament, &lt;i1&gt;URI&lt;/i1&gt; (de l'anglés &lt;i2&gt;uniform resource identifier&lt;/i2&gt;).&lt;p1&gt; L'URI és, per tant, una expressió que identifica o localitza uniformement un servei o document (un recurs) de qualsevol dels que s'ofereixen en Internet.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150716Z" creationid="fsanchez" creationdate="20161018T150716Z">
@@ -3394,6 +3402,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152845Z" creationid="fsanchez" creationdate="20161018T152845Z">
         <seg>Tiene que quedar claro que los buscadores realmente &lt;i0&gt;no buscan&lt;/i0&gt; documentos en Internet sino que consultan &lt;i1&gt;índices&lt;/i1&gt; que han ido construyendo a partir de los documentos visitados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hem cronometrat el temps que tarda un programa gestor de bases de dades en trobar la fitxa que té un determinat valor per un camp determinat, quan augmenta el nombre de fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105855Z" creationid="fsanchez" creationdate="20161025T105855Z">
+        <seg>Hemos cronometrado el tiempo que tarda un programa gestor de bases de datos en encontrar la ficha que tiene un determinado valor por un campo determinado, cuando aumenta el número de fichas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5810,6 +5826,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123813Z" creationid="fsanchez" creationdate="20161010T123813Z">
         <seg>{Resolución de la anáfora.} La resolución de la anáfora ---es decir, la determinación del {&lt;u1&gt; antecedente} de un pronombre o de otra expresión anafórica--- se puede basar también en restricciones y preferencias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Temps} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105905Z" creationid="fsanchez" creationdate="20161025T105905Z">
+        <seg>{Tiempo} &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
