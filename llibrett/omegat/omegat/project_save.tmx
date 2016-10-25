@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Depén; si els camps són numèrics, no és necessari.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105031Z" creationid="fsanchez" creationdate="20161025T105031Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Depende; si los campos son numéricos no es necesario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Estructural d'adjunció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141615Z" creationid="fsanchez" creationdate="20161010T141600Z">
@@ -846,6 +854,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; No hi ha cap altre remei: cal duplicar la base de dades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105035Z" creationid="fsanchez" creationdate="20161025T105035Z">
+        <seg>&lt;u2&gt; No hay ningún otro remedio: hay que duplicar la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; No, perquè les dues formes &lt;i2&gt;vendo&lt;/i2&gt; tenen la mateixa categoria lèxica i la mateixa anàlisi morfològica, tret del lema, i, per tant, poden fer exactament les mateixes funcions sintàctiques.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141919Z" creationid="fsanchez" creationdate="20161010T141919Z">
@@ -1258,6 +1274,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142320Z" creationid="fsanchez" creationdate="20161019T142320Z">
         <seg>&lt;u3&gt; Mediante una etiqueta HTML.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; No; s'hi pot crear més d'un &lt;i0&gt;índex&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105039Z" creationid="fsanchez" creationdate="20161025T105039Z">
+        <seg>&lt;u3&gt; No; se puede crear más de un &lt;i0&gt;índice&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5786,6 +5810,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090751Z" creationid="fsanchez" creationdate="20161025T090751Z">
         <seg>Es evidente, por tanto, que hay que establecer un sistema alternativo para poder hacer búsquedas rápidas por más de un campo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És necessari tenir dues còpies de totes les fitxes d'una base de dades per a poder-la tenir ordenada per més d'un camp?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105026Z" creationid="fsanchez" creationdate="20161025T105026Z">
+        <seg>¿Es necesario tener dos copias de todas las fichas de una base de datos para poderla tener ordenada por más de un campo?</seg>
       </tuv>
     </tu>
     <tu>
