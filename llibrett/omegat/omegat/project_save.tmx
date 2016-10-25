@@ -4734,6 +4734,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Tercer i últim pas: mirem l'element 9 i trobem l'element buscat.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090130Z" creationid="fsanchez" creationdate="20161025T090130Z">
+        <seg>[Tercero y último paso: miramos el elemento 9 y encontramos el elemento buscado.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`[aprecien]' ) (.SD.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151814Z" creationid="fsanchez" creationdate="20161009T151814Z">
