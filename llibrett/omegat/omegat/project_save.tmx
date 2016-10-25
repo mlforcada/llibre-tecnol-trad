@@ -3430,6 +3430,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La major part dels gestor permeten que els termes usats en la definició d'un determinat terme es marquen &lt;i0&gt;remissions&lt;/i0&gt;, és a dir, enllaços actius a les fitxes on es defineixen.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104001Z" creationid="fsanchez" creationdate="20161025T104001Z">
+        <seg>La mayor parte de los gestores permiten que en los términos usados en la definición de un determinado término se marquen &lt;i0&gt;remisiones&lt;/i0&gt;, es decir, enlaces activos a las fichas donde se definen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La missatgeria instantània i el xat (en anglés &lt;i0&gt;chat&lt;/i0&gt;) permeten ---com en el cas del correu electrònic, a través de programes especialitzats o &lt;i1&gt;webs&lt;/i1&gt; accessibles amb un navegador--- una comunicació escrita molt ràpida (``en temps real''), consistent en missatges normalment curts ---opcionalment amb annexos com ara fotografies, contactes---, de manera que el resultat és similar al d'una conversa, però per escrit,&lt;p1&gt; cosa que permet un registre de comunicació molt informal que, de fet, ha donat lloc a una llengua molt diferenciada tant de l'oral com de l'escrita.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120212Z" creationid="fsanchez" creationdate="20161019T120212Z">
