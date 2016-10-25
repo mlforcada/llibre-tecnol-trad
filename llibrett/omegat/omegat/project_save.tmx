@@ -4486,6 +4486,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Tornem a repetir el procés, aquesta vegada considerant només la subllista d'elements entre el 7 i el 12; tenim sort i en mirar l'element central (el 9) ens adonem que coincideix amb l'element buscat: la recerca, doncs, acaba amb èxit.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085903Z" creationid="fsanchez" creationdate="20161025T085903Z">
+        <seg>Volvemos a repetir el proceso, esta vez considerando sólo la sublista de elementos entre el 7 y el 12; tenemos suerte y al mirar el elemento central (el 9) nos damos cuenta de que coincide con el elemento buscado: la búsqueda acaba pues con éxito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un &lt;i2&gt;adjunt&lt;/i2&gt; és un sintagma o constituent que, conjuntament amb un altre sintagma o constituent, forma un constituent del mateix tipus que aquest últim (per exemple, un sintagma nominal més un sintagma preposicional formen un sintagma nominal); en un cert sentit, l'adjunt no és necessari sinó opcional.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144433Z" creationid="fsanchez" creationdate="20161009T144433Z">
