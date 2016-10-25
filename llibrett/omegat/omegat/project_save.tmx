@@ -2718,6 +2718,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Es pot demostrar que la recerca dicotòmica mira com a molt $n$ fitxes si el fitxer té entre $2^{n-1}$ i $2^n$ fitxes, perquè després de cada consulta es redueix a la meitat la grandària del fitxer que cal explorar.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085228Z" creationid="fsanchez" creationdate="20161025T085228Z">
+        <seg>Se puede demostrar que la búsqueda dicotómica consulta como mucho $n$ fichas si el fichero tiene entre^{2^{n-1}$ y $2^n$ fichas, porque tras cada consulta se reduce a la mitad el tamaño del fichero que hay que explorar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es pot resoldre l'ambigüitat lèxica a què dóna lloc usant només informació sintàctica (és a dir, sobre les categories lèxiques que l'acompanyen en l'oració)?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141819Z" creationid="fsanchez" creationdate="20161010T141819Z">
