@@ -3998,6 +3998,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però un fitxer de fitxes de cartolina només es pot ordenar seguint un únic criteri.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090217Z" creationid="fsanchez" creationdate="20161025T090217Z">
+        <seg>Pero un fichero de fichas de cartulina sólo se puede ordenar siguiendo un único criterio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però és comú que els fitxers estiguen ordenats segons un dels seus camps: per exemple, un fitxer bibliogràfic pot estar ordenat pel cognom del primer autor, o per la matèria.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085128Z" creationid="fsanchez" creationdate="20161025T085128Z">
