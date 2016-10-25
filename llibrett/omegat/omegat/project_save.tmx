@@ -4710,6 +4710,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Estat abans de començar la recerca.]{ &lt;n3&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090103Z" creationid="fsanchez" creationdate="20161025T090103Z">
+        <seg>[Estado antes de empezar la búsqueda.]{ &lt;n3&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Per què és difícil la TA?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115756Z" creationid="fsanchez" creationdate="20161005T115756Z">
