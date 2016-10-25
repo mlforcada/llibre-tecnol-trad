@@ -2158,6 +2158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El programa que permet fer, entre altres, aquestes operacions de manera senzilla o fins i tot automàtica (aspecte molt important quan la base de dades conté milers de registres) és un programa &lt;i0&gt;gestor de bases de dades&lt;/i0&gt;.&lt;p0&gt; Normalment, els usuaris reals no executen un programa gestor de bases de dades universal o genèric, sinó que usen programes o &lt;i2&gt;aplicacions&lt;/i2&gt; que simplifiquen la creació, el manteniment i l'ús de la base de dades per a un perfil d'usuari concret; també poden fer ús de programes que internament inclouen un gestor de bases de dades o l'invoquen.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084922Z" creationid="fsanchez" creationdate="20161025T084922Z">
+        <seg>El programa que permite hacer, entre otros, estas operaciones de manera sencilla o incluso automática (aspecto muy importante cuando la base de datos contiene miles de registros) es un programa &lt;i0&gt;gestor de bases de datos&lt;/i0&gt;.&lt;p0&gt; Normalmente, los usuarios reales no ejecutan un programa gestor de bases de datos universal o genérico, sino que usan programas o &lt;i2&gt;aplicaciones&lt;/i2&gt; que simplifican la creación, el mantenimiento y el uso de la base de datos para un perfil de usuario concreto; también pueden hacer uso de programas que internamente incluyen un gestor de bases de datos o lo invocan.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El pronom &lt;i0&gt;li&lt;/i0&gt; pot tenir els antecedents &lt;i1&gt;Mario&lt;/i1&gt; i &lt;i2&gt;la seua mare&lt;/i2&gt; &lt;u2&gt; (b) &lt;u3&gt; (c) &lt;u4&gt; (a) &lt;u5&gt; (c) &lt;u6&gt; (c) &lt;u7&gt; (b) &lt;u8&gt; (c) &lt;u9&gt; (c) &lt;u10&gt; (b)</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T120011Z" creationid="fsanchez" creationdate="20161014T120011Z">
