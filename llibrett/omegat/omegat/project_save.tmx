@@ -1030,6 +1030,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; 7, perquè \(2^6=64 &lt; 100 &lt; 2^7=128\).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104940Z" creationid="fsanchez" creationdate="20161025T104940Z">
+        <seg>&lt;u3&gt; 7, porque \(2^6=64 &lt; 100 &lt; 2^7=128\).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; &lt;i3&gt;Modificacions:&lt;/i3&gt; canviar el valor d'un o més camps d'un o més registres de la base de dades.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084418Z" creationid="fsanchez" creationdate="20161025T084418Z">
