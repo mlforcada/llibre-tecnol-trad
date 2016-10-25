@@ -830,6 +830,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; La manera d'emmagatzemar el camp és diferent (els camps índex o clau s'emmagatzemen de manera comprimida i els altres no).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105642Z" creationid="fsanchez" creationdate="20161025T105642Z">
+        <seg>&lt;u1&gt; La manera de almacenar el campo es diferente (los campos índice o clave se almacenan de manera comprimida y los otros no).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; La meitat, 50.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104926Z" creationid="fsanchez" creationdate="20161025T104926Z">
@@ -3074,6 +3082,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084943Z" creationid="fsanchez" creationdate="20161025T084943Z">
         <seg>En particular, es posible organizar las bases de datos de forma que estén instaladas en uno o más servidores y se puedan consultar y explotar desde otro ordenador a través de Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En què es diferencia un camp clau o camp índex de la resta dels camps d'una fitxa?{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; Es guarda en un tipus de memòria RAM més ràpida anomenada &lt;i0&gt;cache&lt;/i0&gt; o &lt;i1&gt;memòria cau&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105635Z" creationid="fsanchez" creationdate="20161025T105635Z">
+        <seg>¿En qué se diferencia un campo clave o campo índice del resto de los campos de una ficha?{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; Se guarda en un tipo de memoria RAM más rápida llamada &lt;i0&gt;cache&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
