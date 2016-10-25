@@ -2214,6 +2214,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els gestors de terminologia són uns dels programes més usats pels traductors per a la traducció humana assistida per una màquina (MAHT; vegeu l'apartat &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T083701Z" creationid="fsanchez" creationdate="20161025T083701Z">
+        <seg>Los gestores de terminología son unos de los programas más usados por los traductores para la traducción humana asistida por una máquina (MAHT; véase el apartado &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els missatges poden contenir, a més del text mateix del missatge, fitxers &lt;i2&gt;annexos&lt;/i2&gt; (o &lt;i3&gt;adjunts&lt;/i3&gt;, en anglés &lt;i4&gt;attachments&lt;/i4&gt;) com ara imatges, documents, missatges reenviats, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115527Z" creationid="fsanchez" creationdate="20161019T115527Z">
