@@ -2038,6 +2038,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De vegades, quan es parla desacuradament, s'anomena per metonímia &lt;i1&gt;base de dades&lt;/i1&gt; al programa gestor.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084845Z" creationid="fsanchez" creationdate="20161025T084845Z">
+        <seg>A veces se denomina por metonimia &lt;i1&gt;base de datos&lt;/i1&gt; al programa gestor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Des del grup o la sala es poden establir ``converses a part'' (a banda) quan cal amb alguna persona concreta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120341Z" creationid="fsanchez" creationdate="20161019T120341Z">
