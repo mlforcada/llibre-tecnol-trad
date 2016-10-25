@@ -1870,6 +1870,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>D'altra banda, els registres de les bases de dades usades per a la gestió d'un videoclub contenen camps per a emmagatzemar la informació referent als socis (com ara, el nom, el telèfon o el domicili), a les pel·lícules (el títol, la persona que l'ha dirigida o el nombre de còpies disponibles) i als préstecs (les dades d'inici i termini del préstec o el preu de lloguer).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084312Z" creationid="fsanchez" creationdate="20161025T084312Z">
+        <seg>Por otro lado, los registros de las bases de datos usadas para la gestión de un videoclub contienen campos para almacenar la información en lo referente a los socios (como por ejemplo, el nombre, el teléfono o el domicilio), a las películas (el título, la persona que la ha dirigido o el número de copias disponibles) y a los préstamos (los datos de inicio y plazo del préstamo o el precio de alquiler).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>D'altra banda, estructural: en la primera interpretació, el sintagma preposicional &lt;i9&gt;de caza&lt;/i9&gt; modifica el sintagma nominal &lt;i10&gt;coto privado&lt;/i10&gt; (&lt;i11&gt;[[coto privado] [de caza]]&lt;/i11&gt;); en el segon, només el participi &lt;i12&gt;privado&lt;/i12&gt; (&lt;i13&gt;[[coto] [[privado] [de caza]]]&lt;/i13&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114737Z" creationid="fsanchez" creationdate="20161014T114737Z">
