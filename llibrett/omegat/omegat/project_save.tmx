@@ -2534,6 +2534,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Després d'ordenar-la fa &lt;n0&gt; &lt;u1&gt; 240, la meitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105945Z" creationid="fsanchez" creationdate="20161025T105945Z">
+        <seg>Después de ordenarla hace &lt;n0&gt; &lt;u1&gt; 240, la mitad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Després de l'esquema d'accés, un URI (identificador uniforme de recursos) especifica &lt;n0&gt; &lt;u1&gt; la velocitat de transferència.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141644Z" creationid="fsanchez" creationdate="20161019T141644Z">
@@ -2634,6 +2642,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144014Z" creationid="fsanchez" creationdate="20161009T144014Z">
         <seg>El problema es que falta el sujeto de la oración subordinada &lt;i0&gt;cómo caía rodando&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El programa gestor d'una base de dades lèxica feia en el pitjor cas 480 consultes abans de trobar la fitxa corresponent a un terme anglés concret, abans d'ordenar-la pel terme en anglés.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105940Z" creationid="fsanchez" creationdate="20161025T105940Z">
+        <seg>Lo programa gestor de una base de datos léxica hacía en el peor caso 480 consultas antes de encontrar la ficha correspondiente a un término inglés concreto, antes de ordenarla por el término en inglés.</seg>
       </tuv>
     </tu>
     <tu>
