@@ -4382,6 +4382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si les consultes més freqüents d'una base de dades es refereixen a un camp ---o a una combinació de camps, com ara el dia, el mes i l'any que formen una data--- que pren valors que es poden ordenar, els registres es poden ordenar per aquest camp, igual que el fitxer de fitxes de cartolina.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090630Z" creationid="fsanchez" creationdate="20161025T090630Z">
+        <seg>Si las consultas más frecuentes de una base de datos se refieren a un campo ---o a una combinación de campos, como por ejemplo el día, el mes y el año que forman una fecha--- que toma valores que se pueden ordenar, los registros se pueden ordenar por este campo, igual que el fichero de fichas de cartulina.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si no, haurem d'usar les &lt;i1&gt;dades mòbils&lt;/i1&gt; que comercialitza el nostre proveïdor de telefonia mòbil a través de la seua xarxa cel·lular.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141404Z" creationid="fsanchez" creationdate="20161019T141404Z">
