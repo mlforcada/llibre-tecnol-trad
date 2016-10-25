@@ -2560,8 +2560,8 @@
       <tuv lang="CA">
         <seg>En aquest cas, el nombre de consultes hauria estat de 5 i, doncs, es compleix l'afirmació anterior: la recerca dicotòmica mira com a molt $n$ fitxes si el fitxer té entre $2^{n-1}$ i $2^n$ fitxes; ací el nombre d'elements total (25) està entre $2^4=16$ i $2^5=32$, i el nombre d'elements consultats ha estat $n=5$.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090039Z" creationid="fsanchez" creationdate="20161025T090039Z">
-        <seg>En este caso, el número de consultas habría sido 5 y, consecuentemente, se cumple la afirmación anterior: la búsqueda dicotómica consulta como mucho $n$ fichas si el fichero tiene entre^{2^{n-1}$ y $2^n$ fichas; aquí el número de elementos total (25) está entre $2^4=16$ y $2^5=32$, y el número de elementos consultados ha sido $n=5$.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090803Z" creationid="fsanchez" creationdate="20161025T090039Z">
+        <seg>En este caso, el número de consultas habría sido 5 y, por tanto, se cumple la afirmación anterior: la búsqueda dicotómica consulta como mucho $n$ fichas si el fichero tiene entre^{2^{n-1}$ y $2^n$ fichas; aquí el número de elementos total (25) está entre $2^4=16$ y $2^5=32$, y el número de elementos consultados ha sido $n=5$.</seg>
       </tuv>
     </tu>
     <tu>
