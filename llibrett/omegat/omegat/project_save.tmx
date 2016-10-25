@@ -2566,6 +2566,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'exemple de les 1234 fitxes: &lt;n0&gt; &lt;u0&gt; Després de la 1a consulta, si la fitxa central no és la que busquem, ens queden dues meitats: una de 616 fitxes, i una altra de 617.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085335Z" creationid="fsanchez" creationdate="20161025T085335Z">
+        <seg>En el ejemplo de las 1234 fichas: &lt;n0&gt; &lt;u0&gt; Después de la 1ª consulta, si la ficha central no es la que buscamos, nos quedan dos mitades: una de 616 fichas, y otra de 617.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'oració &lt;i0&gt;El cotxe s'ha cremat amb el garatge i l'assegurança no el cobreix&lt;/i0&gt; no se sap quina de les dues coses està coberta per l'assegurança, el garatge o el cotxe.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141721Z" creationid="fsanchez" creationdate="20161010T141721Z">
@@ -2898,6 +2906,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150612Z" creationid="fsanchez" creationdate="20161018T150612Z">
         <seg>Identificadores de recursos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Imaginem que anem al pitjor cas: 617 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085345Z" creationid="fsanchez" creationdate="20161025T085345Z">
+        <seg>Imaginad que vamos al peor caso: 617 fichas.</seg>
       </tuv>
     </tu>
     <tu>
