@@ -1726,6 +1726,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Amb el temps, els programes que inclouen una base de dades terminològica van incorporant la capacitat de llegir i escriure documents en format TBX.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104355Z" creationid="fsanchez" creationdate="20161025T104355Z">
+        <seg>Con el tiempo, los programas que incluyen una base de datos terminológica van incorporando la capacidad de leer y escribir documentos en formato TBX.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Amb la generalització de l'ús dels mòbils intel·ligents o &lt;i0&gt;smartphones&lt;/i0&gt;, han aparegut moltes aplicacions d'aquest tipus, com ara Telegram, Whatsapp, Line, etc., que usen com a identificador el número de telèfon.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120227Z" creationid="fsanchez" creationdate="20161019T120227Z">
@@ -5458,6 +5466,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153233Z" creationid="fsanchez" creationdate="20161009T153233Z">
         <seg>{ambigüedades más complejas} Hay también ciertos tipos de ambigüedad que no se pueden explicar de manera sencilla con el principio de composicionalidad, como por ejemplo {&lt;u0&gt; la ambigüedad en el alcance de los cuantificadores}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{el format TBX} El format TBX segueix les especificacions XML (vegeu l'apartat &lt;n1&gt;); és a dir, els documents TBX són un tipus de document XML definit per una DTD concreta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104410Z" creationid="fsanchez" creationdate="20161025T104410Z">
+        <seg>{el formato TBX} El formato TBX sigue las especificaciones XML (véase el apartado &lt;n1&gt;); es decir, los documentos TBX son un tipo de documento XML definido por una DTD concreta.</seg>
       </tuv>
     </tu>
     <tu>
