@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u4&gt; &lt;i4&gt;Recerques o consultes:&lt;/i4&gt; buscar un o més registres que compleixen un determinat criteri de recerca.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084446Z" creationid="fsanchez" creationdate="20161025T084446Z">
+        <seg>&lt;u4&gt; &lt;i4&gt;Búsquedas o consultas:&lt;/i4&gt; buscar uno o más registros que cumplen un determinado criterio de búsqueda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u4&gt; Ambigüitat estructural pura d'adjunció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115216Z" creationid="fsanchez" creationdate="20161014T115216Z">
