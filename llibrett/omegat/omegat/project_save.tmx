@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u10&gt; 11a consulta: o és la que busquem, o no hi és.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085516Z" creationid="fsanchez" creationdate="20161025T085516Z">
+        <seg>&lt;u10&gt; 11ª consulta: o es la que buscamos, o no existe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; &lt;i1&gt;Altes o addicions:&lt;/i1&gt; afegir un nou registre a la base de dades, tot fent que els seus camps prenguen els valors corresponents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084410Z" creationid="fsanchez" creationdate="20161025T084410Z">
@@ -1490,6 +1498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114620Z" creationid="fsanchez" creationdate="20161014T114620Z">
         <seg>&lt;u8&gt; La oración es ambigua porque dos de sus palabras presentan ambigüedad léxica pura (polisemia): &lt;i19&gt;auto&lt;/i19&gt; puede ser un automóvil o un tipo de resolución judicial; &lt;i20&gt;suspensión&lt;/i20&gt; puede ser la acción de suspender (la resolución) o el sistema de amortiguadores del automóvil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u9&gt; 10a consulta: o la trobem, o hem de buscar en 1 fitxa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085459Z" creationid="fsanchez" creationdate="20161025T085459Z">
+        <seg>&lt;u9&gt; 10ª consulta: o la encontramos, o tenemos que buscar en 1 ficha.</seg>
       </tuv>
     </tu>
     <tu>
