@@ -5286,6 +5286,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>} &lt;n1&gt; Hi podeu comprovar com cada fitxa de l'índex conté només el camp indexat i una referència a la seua posició en la base de dades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091417Z" creationid="fsanchez" creationdate="20161025T091417Z">
+        <seg>} &lt;n1&gt; Podéis comprobar como cada ficha del índice contiene sólo el campo indexado y una referencia a su posición en la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>} &lt;u0&gt;[Segon pas: mirem l'element 6 i ens quedem amb la meitat alta de la subllista anterior.]{ &lt;n1&gt;{|l||l||l||l||l|}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090123Z" creationid="fsanchez" creationdate="20161025T090123Z">
