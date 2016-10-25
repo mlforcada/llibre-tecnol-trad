@@ -2518,6 +2518,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els registres o les fitxes d'una base de dades lèxica multilingüe estableixen correspondències entre els termes usats en diverses llengües en un camp determinat de coneixement.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T103442Z" creationid="fsanchez" creationdate="20161025T103442Z">
+        <seg>Los registros o las fichas de una base de datos léxica multilingüe establecen correspondencias entre los términos usados en varias lenguas en un campo determinado de conocimiento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els serveis i els documents concrets presents en un ordinador (un servidor d'Internet) que els fa disponibles es poden designar mitjançant el seu &lt;i0&gt;identificador uniforme de recursos&lt;/i0&gt; o, més comunament, &lt;i1&gt;URI&lt;/i1&gt; (de l'anglés &lt;i2&gt;uniform resource identifier&lt;/i2&gt;).&lt;p1&gt; L'URI és, per tant, una expressió que identifica o localitza uniformement un servei o document (un recurs) de qualsevol dels que s'ofereixen en Internet.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150716Z" creationid="fsanchez" creationdate="20161018T150716Z">
