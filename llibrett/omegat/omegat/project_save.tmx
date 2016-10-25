@@ -3702,6 +3702,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, si el fitxer té 1234 fitxes, hi ha prou amb $n=11$ recerques perquè $2^{10}=1024$ i $2^{11}=2048$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085255Z" creationid="fsanchez" creationdate="20161025T085255Z">
+        <seg>Por ejemplo, si el fichero tiene 1234 fichas, hay suficiente con $n=11$ consultas porque $2^{10}=1024$ y $2^{11}=2048$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, si en un corpus bilingüe espanyol--català l'aparició de &lt;i7&gt;destino&lt;/i7&gt; prop d'&lt;i8&gt;incierto&lt;/i8&gt; en espanyol coincideix amb l'aparició de &lt;i9&gt;destí&lt;/i9&gt; en català, podem dir que el mot &lt;i10&gt;destino&lt;/i10&gt; té en aquest cas la interpretació de ``sort futura''; en canvi, si l'aparició de {&lt;u4&gt; destino} prop d'&lt;i11&gt;estación&lt;/i11&gt; o &lt;i12&gt;aeropuerto&lt;/i12&gt; en espanyol coincideix amb l'aparició &lt;i13&gt;destinació&lt;/i13&gt; en català, podem elegir el sentit de ``punt d'arribada''.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123747Z" creationid="fsanchez" creationdate="20161010T123747Z">
