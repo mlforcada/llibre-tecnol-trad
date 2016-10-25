@@ -1790,6 +1790,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com s'explica en la pàg. &lt;n0&gt;, un &lt;i0&gt;fitxer&lt;/i0&gt; és un conjunt de dades que es guarden en un mitjà d'emmagatzematge secundari, que es manipulen com un tot i que s'identifiquen per un nom.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T083858Z" creationid="fsanchez" creationdate="20161025T083858Z">
+        <seg>Cómo se explica en la pág. &lt;n0&gt;, un &lt;i0&gt;fichero&lt;/i0&gt; es un conjunto de datos que se guardan en un medio de almacenamiento secundario, que se manipulan como un todo y que se identifican por un nombre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com s'indica en Internet on és un recurs concret?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142303Z" creationid="fsanchez" creationdate="20161019T142303Z">
