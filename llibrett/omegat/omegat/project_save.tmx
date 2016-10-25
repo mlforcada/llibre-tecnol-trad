@@ -2454,6 +2454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En informàtica, els fitxers d'aquesta mena se solen anomenar normalment &lt;i0&gt;bases de dades&lt;/i0&gt; (BD); les fitxes s'anomenen &lt;i1&gt;registres&lt;/i1&gt; i cada element d'informació de la fitxa s'anomena &lt;i2&gt;camp&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084128Z" creationid="fsanchez" creationdate="20161025T084128Z">
+        <seg>En informática, los ficheros de este tipo se suelen denominar normalmente &lt;i0&gt;bases de datos&lt;/i0&gt; (BD); las fichas se denominan &lt;i1&gt;registros&lt;/i1&gt; y cada elemento de información de la ficha se denomina &lt;i2&gt;campo&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'actualitat s'està fent la transició de la tecnologia anomenada de tercera generació o 3G (que es mostra de vegades també com una ``H'' en la pantalla), que permet velocitats de connexió d'uns pocs Mb/s a la de quarta generació o 4G, que permet velocitats molt més ràpides (de vegades, quan la cobertura no és bona, el nostre mòbil recorre a tecnologies més antigues i més lentes, com ara EDGE&lt;p0&gt; ---que permet centenars de kb/s i es mostra com una ``E'' en la pantalla--- o GPRS&lt;p1&gt; ---que permet desenes de kb/s i es mostra com una ``G'' en la pantalla).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141453Z" creationid="fsanchez" creationdate="20161019T141453Z">
@@ -3186,6 +3194,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120046Z" creationid="fsanchez" creationdate="20161019T120046Z">
         <seg>Mensajería instantánea y chat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Molts dels fitxers que usen les persones que es dediquen a la traducció són fitxers (o &lt;i1&gt;documents&lt;/i1&gt;) de text en diversos formats (com els descrits en l'epígraf &lt;n1&gt;) però també n'hi ha que es corresponen amb el significat del mot &lt;i2&gt;fitxer&lt;/i2&gt; fora de la informàtica: contenen &lt;i3&gt;fitxes&lt;/i3&gt;, totes amb un format més o menys constant; per exemple, totes les fitxes d'un fitxer bibliogràfic contenen informació sobre els autors, el títol, l'any de publicació, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084118Z" creationid="fsanchez" creationdate="20161025T084118Z">
+        <seg>Muchos de los ficheros que usan las personas que se dedican a la traducción son ficheros (o &lt;i1&gt;documentos&lt;/i1&gt;) de texto en varios formatos (como los descritos en el epígrafe &lt;n1&gt;) pero también los hay que se corresponden con el significado de la palabra &lt;i2&gt;fichero&lt;/i2&gt; fuera de la informática: contienen &lt;i3&gt;fichas&lt;/i3&gt;, todas con un formato más o menos constante; por ejemplo, todas las fichas de un fichero bibliográfico contienen información sobre los autores, el título, el año de publicación, etc.</seg>
       </tuv>
     </tu>
     <tu>
