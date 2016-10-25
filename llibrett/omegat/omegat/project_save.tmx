@@ -1622,6 +1622,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A més, també segueix les directrius de l'estàndard ISO 12620, que defineix un conjunt de camps, i els seus possibles valors, per a la informació terminològica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104425Z" creationid="fsanchez" creationdate="20161025T104425Z">
+        <seg>Además, también sigue las directrices del estándar ISO 12620, que define un conjunto de campos, y sus posibles valores, para la información terminológica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A pesar de haber sido soldado, salió despedido del avión&lt;/i0&gt; (1: ``El sistema fotogràfic estava fortament fixat al fuselatge però es va soltar de l'aparell quan l'avió va girar en ple vol''; 2: ``Malgrat el seu passat militar gloriós, el president el va destituir abans d'arribar a l'aeroport de destinació'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131139Z" creationid="fsanchez" creationdate="20161010T131139Z">
