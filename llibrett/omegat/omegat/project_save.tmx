@@ -1630,6 +1630,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Afortunadament, en els darrers anys s'ha desenvolupat un conjunt de formats estàndards per facilitar aquest intercanvi; un dels més coneguts es TBX&lt;p0&gt;.}, (per &lt;i0&gt;TermBase exchange&lt;/i0&gt;, ``intercanvi de bases de dades terminològiques''), encara que hi ha altres com OLIF (&lt;i1&gt;Open Lexicon Interchange Format&lt;/i1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104349Z" creationid="fsanchez" creationdate="20161025T104349Z">
+        <seg>Afortunadamente, en los últimos años se ha desarrollado un conjunto de formatos estándares para facilitar este intercambio; uno de los más conocidos se TBX&lt;p0&gt;.}, (por &lt;i0&gt;TermBase eXchange&lt;/i0&gt;, ``intercambio de bases de datos terminológicas''), aunque hay otras como OLIF (&lt;i1&gt;Open Lexicon Interchange Format&lt;/i1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ahmed té un ordinador amb un processador de 500 MHz i 128 megaoctets de RAM i ha contractat un mòdem de cable de 128 kilobits per segon per a connectar-se a Internet.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142151Z" creationid="fsanchez" creationdate="20161019T142151Z">
