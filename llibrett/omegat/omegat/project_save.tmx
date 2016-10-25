@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n3&gt; &lt;u0&gt; Que no està ordenada pel camp pel qual estem buscant.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105914Z" creationid="fsanchez" creationdate="20161025T105914Z">
+        <seg>&lt;n3&gt; &lt;u0&gt; Que no está ordenada por el campo por el cual estamos buscando.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n3&gt; En (&lt;n6&gt;a) &lt;i0&gt;les mates&lt;/i0&gt; és un sintagma determinant compost d'un article i un substantiu, que fa d'objecte del verb el·líptic &lt;i1&gt;destrossat&lt;/i1&gt;, mentre que en (&lt;n7&gt;b) &lt;i2&gt;les mates&lt;/i2&gt; és un sintagma verbal compost d'un pronom ({&lt;u3&gt; les}) que es refereix a &lt;i3&gt;Les gallines&lt;/i3&gt; i un verb ({&lt;u4&gt; mates}), sintagma que constitueix un sintagma verbal en la segona oració coordinada (vegeu la fig. &lt;n8&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153101Z" creationid="fsanchez" creationdate="20161009T153101Z">
@@ -562,6 +570,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T124810Z" creationid="fsanchez" creationdate="20161010T124810Z">
         <seg>&lt;u1&gt; La información sintáctica puede ser más relevante de lo que parece: si decimos &lt;n1&gt; Marta la vio &lt;n4&gt; el antecedente de &lt;i4&gt;la&lt;/i4&gt; no puede ser &lt;i5&gt;Marta&lt;/i5&gt;, a causa de las llamadas &lt;i6&gt;barreras&lt;/i6&gt;, restricciones asociadas a determinadas características de la estructura sintáctica de la oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; Que usa XML per a obtenir una velocitat acceptable.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105918Z" creationid="fsanchez" creationdate="20161025T105918Z">
+        <seg>&lt;u1&gt; Que usa XML para obtener una velocidad aceptable.</seg>
       </tuv>
     </tu>
     <tu>
@@ -946,6 +962,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105210Z" creationid="fsanchez" creationdate="20161025T105210Z">
         <seg>&lt;u2&gt; Sólo los números de las fichas ordenados según el valor del campo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Que està ordenada pel camp pel qual estem buscant.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105925Z" creationid="fsanchez" creationdate="20161025T105925Z">
+        <seg>&lt;u2&gt; Que está ordenada por el campo por el cual estamos buscando.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4786,6 +4810,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141801Z" creationid="fsanchez" creationdate="20161019T141801Z">
         <seg>¿Qué se puede decir de los números IP de dos máquinas que se encuentran en la misma subred?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què podem dir de la base de dades?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105910Z" creationid="fsanchez" creationdate="20161025T105910Z">
+        <seg>¿Qué podemos decir de la base de datos?</seg>
       </tuv>
     </tu>
     <tu>
