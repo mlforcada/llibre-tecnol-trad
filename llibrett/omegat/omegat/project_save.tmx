@@ -3350,6 +3350,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La recerca dicotòmica és només una de les moltes tècniques que es poden fer servir per a accelerar les consultes que es refereixen a un camp ordenat; el programa gestor de bases de dades pot usar una altra tècnica de recerca depenent del seu disseny o del tipus de camp.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090213Z" creationid="fsanchez" creationdate="20161025T090213Z">
+        <seg>La búsqueda dicotómica es sólo una de las muchas técnicas que se pueden usar para acelerar las consultas que se refieren a un campo ordenado; el programa gestor de bases de datos puede usar otra técnica de búsqueda dependiente de su diseño o del tipo de campo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La relació que assigna una interpretació a una expressió anafòrica s'anomena o &lt;i3&gt;dixi&lt;/i3&gt;: quan la interpretació és per &lt;i4&gt;coreferència&lt;/i4&gt; amb un antecedent que apareix anteriorment en el text s'anomena &lt;i5&gt;anàfora&lt;/i5&gt;&lt;n0&gt;, i &lt;i6&gt;catàfora&lt;/i6&gt; si l'antecedent és posterior.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143900Z" creationid="fsanchez" creationdate="20161009T143720Z">
