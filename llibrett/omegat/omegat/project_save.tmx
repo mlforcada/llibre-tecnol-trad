@@ -3510,6 +3510,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per descomptat, és possible calcular el nombre màxim de consultes de manera més pedestre, dividint el nombre de fitxes per 2 i posant-nos en el cas pitjor.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085319Z" creationid="fsanchez" creationdate="20161025T085319Z">
+        <seg>Por supuesto, es posible calcular el número máximo de consultas de manera más pedestre, dividiendo el número de fichas por 2 y poniéndonos en el caso peor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, el mot &lt;i0&gt;deu&lt;/i0&gt; pot voler dir ``nou més un'' (numeral) o ``ha de donar o pagar'' (verb).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152139Z" creationid="fsanchez" creationdate="20161009T152139Z">
