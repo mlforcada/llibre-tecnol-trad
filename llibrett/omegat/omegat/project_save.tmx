@@ -4014,6 +4014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, molts programes de traducció assistida per ordinador (vegeu el capítol &lt;n0&gt;) inclouen bases de dades terminològiques d'aquesta mena i permeten que la persona usuària les mantinga i les consulte, bé usant un programa independent, o bé des del processador de textos que preferisca.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104110Z" creationid="fsanchez" creationdate="20161025T104110Z">
+        <seg>Por ejemplo, muchos programas de traducción asistida por ordenador (véase el capítulo &lt;n0&gt;) incluyen bases de datos terminológicas de este tipo y permiten que la persona usuaria las mantenga y las consulte, bien usando un programa independiente, o bien desde el procesador de textos que prefiera.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, podem decidir que el mot espanyol &lt;i0&gt;gato&lt;/i0&gt; és un animal i no una ferramenta per alçar vehicles en la frase &lt;i1&gt;El gato me miró desde debajo del coche&lt;/i1&gt;, perquè &lt;i2&gt;gato&lt;/i2&gt; és el subjecte de &lt;i3&gt;miró&lt;/i3&gt;, i el verb &lt;i4&gt;mirar&lt;/i4&gt; requereix un subjecte animat, però com es pot veure, això requereix que s'hi haja fet una anàlisi sintàctica i semàntica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123557Z" creationid="fsanchez" creationdate="20161010T123557Z">
