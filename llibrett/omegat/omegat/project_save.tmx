@@ -1878,6 +1878,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Bases de dades lèxiques o terminològiques</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091437Z" creationid="fsanchez" creationdate="20161025T091437Z">
+        <seg>Bases de datos léxicas o terminológicas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Buscadors</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151557Z" creationid="fsanchez" creationdate="20161018T151557Z">
@@ -4450,6 +4458,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141404Z" creationid="fsanchez" creationdate="20161019T141404Z">
         <seg>Si no, tendremos que usar los &lt;i1&gt;datos móviles&lt;/i1&gt; que comercializa nuestro proveedor de telefonía móvil a través de su red celular.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si penseu en el cas que la base de dades de la taula anterior tinguera, diguem-ne, 20 camps més (amb els equivalents en 20 llengües més), us podeu fer una idea de l'estalvi que s'aconsegueix respecte a la duplicació sencera.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091435Z" creationid="fsanchez" creationdate="20161025T091435Z">
+        <seg>Si pensáis en el supuesto de que la base de datos de la tabla anterior tuviera, digamos, 20 campos más (con los equivalentes en 20 lenguas más), os podéis hacer una idea del ahorro que se consigue respecto a la duplicación entera.</seg>
       </tuv>
     </tu>
     <tu>
