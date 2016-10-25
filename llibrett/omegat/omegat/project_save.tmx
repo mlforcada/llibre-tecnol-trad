@@ -4206,6 +4206,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però la informació emmagatzemada sobre cada terme pot ser molt diferent d'una base de dades a una altra i, per tant, fer servir una base de dades terminològica en diferents sistemes alhora no és una tasca fàcil.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104315Z" creationid="fsanchez" creationdate="20161025T104315Z">
+        <seg>Pero la información almacenada sobre cada término puede ser muy diferente de una base de datos a otra y, por tanto, usar una base de datos terminológica en diferentes sistemas a la vez no es una tarea fácil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però no es poden descartar la resta de formes lèxiques: si &lt;i6&gt;aquell&lt;/i6&gt; és un determinant, &lt;i7&gt;sobre&lt;/i7&gt; pot ser un nom (com és el cas); si &lt;i8&gt;aquell&lt;/i8&gt; és un pronom, &lt;i9&gt;sobre&lt;/i9&gt; podria ser un verb (com en les oracions &lt;i10&gt;Ara ens han sobrat dos cotxes, però pot ser que aquell sobre també més endavant.&lt;/i10&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123041Z" creationid="fsanchez" creationdate="20161010T123041Z">
