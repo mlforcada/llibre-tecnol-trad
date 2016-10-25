@@ -2238,6 +2238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els camps poden ser de diversos &lt;i0&gt;tipus&lt;/i0&gt;, segons la naturalesa de les dades que s'hi guarden (cadenes de caràcters, valors numèrics enters o amb decimals, dates de calendari, etc.)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084336Z" creationid="fsanchez" creationdate="20161025T084336Z">
+        <seg>Los campos pueden ser de varios &lt;i0&gt;tipos&lt;/i0&gt;, según la naturaleza de los datos que se guarden (cadenas de caracteres, valores numéricos enteros o con decimales, fechas de calendario, etc.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els diccionaris anglesos, que solen agrupar els mots polisèmics en una entrada, típicament en fan dues entrades diferents, i, de fet, en lexicografia no és estrany referir-se a &lt;i13&gt;case&lt;/i13&gt; com un homògraf.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143017Z" creationid="fsanchez" creationdate="20161009T143017Z">
@@ -3322,6 +3330,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141248Z" creationid="fsanchez" creationdate="20161009T141248Z">
         <seg>O por ejemplo, los idiomas difieren en la manera en la que expresan las relaciones entre dos nombres: mientras que en español se dice &lt;i14&gt;presidente &lt;i18&gt;de&lt;/i14&gt; Kazajistán&lt;/i18&gt;, en ruso se dice &lt;i15&gt;prezident Kazakhstan&lt;i19&gt;a&lt;/i15&gt;&lt;/i19&gt;, en vasco se dice &lt;i16&gt;Kazakstan&lt;i20&gt;go&lt;/i16&gt; presidente&lt;/i20&gt;, y en kazajo se dice &lt;i17&gt;Qazaqstan prezident&lt;i21&gt;i&lt;/i17&gt;&lt;/i21&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Operacions amb bases de dades</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084338Z" creationid="fsanchez" creationdate="20161025T084338Z">
+        <seg>Operaciones con bases de datos</seg>
       </tuv>
     </tu>
     <tu>
