@@ -1830,6 +1830,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquesta organització (una fitxa per concepte) és coherent amb la definició de terminologia com la disciplina l'objecte de la qual és l'estudi sistemàtic de l'etiquetatge o designació de &lt;i1&gt;conceptes&lt;/i1&gt; particulars d'una o més àrees temàtiques o d'un o més àmbits de l'activitat humana amb el propòsit de documentar i promoure l'ús correcte;&lt;p0&gt;} a més, és especialment adequada quan la base de dades terminològica és multilingüe.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T103830Z" creationid="fsanchez" creationdate="20161025T103830Z">
+        <seg>Esta organización (una ficha por concepto) es coherente con la definición de terminología como la disciplina cuyo objeto es el estudio sistemático del etiquetado o designación de &lt;i1&gt;conceptos&lt;/i1&gt; particulares de una o más áreas temáticas o de uno o más ámbitos de la actividad humana con el propósito de documentar y promover el uso correcto;&lt;p0&gt;} además, es especialmente adecuada cuando la base de datos terminológica es multilingüe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquesta varietat d'interpretacions es deu al fet que hi ha tres mots en la frase que poden pertànyer a dues categories lèxiques diferents: &lt;i3&gt;time&lt;/i3&gt; pot ser verb (&lt;i4&gt;cronometrar&lt;/i4&gt;) i substantiu (&lt;i5&gt;temps&lt;/i5&gt;), &lt;i6&gt;flies&lt;/i6&gt; pot ser verb (&lt;i7&gt;vola&lt;/i7&gt;) i substantiu (&lt;i8&gt;mosques&lt;/i8&gt;) i &lt;i9&gt;like&lt;/i9&gt; pot ser verb (&lt;i10&gt;agradar&lt;/i10&gt;) i preposició (&lt;i11&gt;com&lt;/i11&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152458Z" creationid="fsanchez" creationdate="20161009T152458Z">
