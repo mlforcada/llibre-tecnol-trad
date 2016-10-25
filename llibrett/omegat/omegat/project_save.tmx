@@ -2494,6 +2494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El terme hongarés és ``{&lt;u3&gt;{T1}{ec}{m}{n}Alfa simítási tényez&lt;u4&gt;{'256}}''; en el document d'exemple, els caràcters especials s'indiquen amb el seu codi Unicode (per exemple,  &lt;u5&gt;+</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104554Z" creationid="fsanchez" creationdate="20161025T104554Z">
+        <seg>El término húngaro es ``{&lt;u3&gt;{T1}{ec}{m}{n}Alfa simítási tényez&lt;u4&gt;{'256}}''; en el documento de ejemplo, los caracteres especiales se indican con su código Unicode (por ejemplo, &lt;u5&gt;+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El tipus de fitxer bàsic amb què treballen els professionals de la traducció sol ser un fitxer amb text, és a dir, un text informatitzat, també anomenat &lt;i0&gt;document de text&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="japerez" changedate="20161010T100128Z" creationid="japerez" creationdate="20161010T100128Z">
