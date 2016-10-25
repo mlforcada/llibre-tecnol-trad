@@ -1918,6 +1918,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com hi podeu veure, la base de dades conté 10 registres amb 4 camps; els registres estan ordenats pel camp ``&lt;i0&gt;NÚM&lt;/i0&gt;'', que indica la posició de cada registre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091309Z" creationid="fsanchez" creationdate="20161025T091309Z">
+        <seg>Como podéis ver, la base de datos contiene 10 registros con 4 campos; los registros están ordenados por el campo ``&lt;i0&gt;NÚM&lt;/i0&gt;'', que indica la posición de cada registro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com que &lt;i3&gt;sobre&lt;/i3&gt; va seguit de &lt;i4&gt;de&lt;/i4&gt;, que només pot ser preposició, podem descartar que &lt;i5&gt;sobre&lt;/i5&gt; siga una preposició.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123022Z" creationid="fsanchez" creationdate="20161010T123022Z">
