@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Ha de fer, necessàriament, 2.000 consultes perquè hi ha 2.000 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105806Z" creationid="fsanchez" creationdate="20161025T105806Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Tiene que hacer, necesariamente, 2.000 consultas porque hay 2.000 fichas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Homografia, perquè el pronom pot, en principi, estar substituint un nom o un altre.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113934Z" creationid="fsanchez" creationdate="20161014T113934Z">
@@ -894,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; No ha de fer cap consulta, va directament a la fitxa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105809Z" creationid="fsanchez" creationdate="20161025T105809Z">
+        <seg>&lt;u2&gt; No tiene que hacer ninguna consulta, va directamente a la ficha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; No hi ha cap altre remei: cal duplicar la base de dades.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105035Z" creationid="fsanchez" creationdate="20161025T105035Z">
@@ -1218,6 +1234,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115656Z" creationid="fsanchez" creationdate="20161014T115656Z">
         <seg>&lt;u3&gt; Ambigüedad léxica que necesita un análisis semántico para resolverla: la palabra polisémica &lt;i10&gt;destino&lt;/i10&gt; en la oración &lt;i11&gt;El destino estaba escrito en el pasaje arrugado que encontraron&lt;/i11&gt; se traduciría al catalán por &lt;i12&gt;destinació&lt;/i12&gt; y en cambio en la oración &lt;i13&gt;El destino estaba escrito en el libro sagrado que encontraron&lt;/i13&gt; se traduciría al catalán por &lt;i14&gt;destí&lt;/i14&gt;; la elección exige identificar relaciones semánticas entre las interpretaciones de las palabras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Depén.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105811Z" creationid="fsanchez" creationdate="20161025T105811Z">
+        <seg>&lt;u3&gt; Depende.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3138,6 +3162,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142352Z" creationid="fsanchez" creationdate="20161019T142352Z">
         <seg>En un número IP, ¿qué parte es igual para dos ordenadores conectados a la misma red local?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En una base de dades lèxica o terminològica amb 2.000 fitxes, quan demanem al programa gestor que busque un determinat terme en una determinada llengua, quantes consultes ha de fer en el pitjor cas per a entregar-nos la fitxa?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105801Z" creationid="fsanchez" creationdate="20161025T105801Z">
+        <seg>En una base de datos léxica o terminológica con 2.000 fichas, cuando pedimos al programa gestor que busque un determinado término en una determinada lengua, ¿cuántas consultas tiene que hacer en el peor caso para entregarnos la ficha?</seg>
       </tuv>
     </tu>
     <tu>
