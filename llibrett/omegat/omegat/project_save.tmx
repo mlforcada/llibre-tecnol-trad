@@ -4478,6 +4478,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un altre exemple: la taula &lt;n0&gt; il·lustra gràficament el procés de recerca dicotòmica sobre una llista de cognoms ordenats alfabèticament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085545Z" creationid="fsanchez" creationdate="20161025T085545Z">
+        <seg>Otro ejemplo: la tabla &lt;n0&gt; ilustra gráficamente el proceso de búsqueda dicotómica sobre una lista de apellidos ordenados alfabéticamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un altre tipus d'ambigüitat mixta succeeix quan l'ambigüitat lèxica categorial d'alguns mots es combina amb mecanismes d'el·lipsi com els descrits més amunt per a construccions coordinatives o comparatives.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152656Z" creationid="fsanchez" creationdate="20161009T152656Z">
