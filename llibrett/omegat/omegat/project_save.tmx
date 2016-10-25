@@ -4102,6 +4102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quan creem una nova base de dades i definim l'estructura de camps que tindrà cada un dels seus registres, podem designar quins dels camps corresponen als índexs; el gestor de la base de dades crearà automàticament els índexs corresponents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091221Z" creationid="fsanchez" creationdate="20161025T091221Z">
+        <seg>Cuando creamos una nueva base de datos y definimos la estructura de campos que tendrá cada uno de sus registros, podemos designar qué campos corresponden a los índices; el gestor de la base de datos creará automáticamente los índices correspondientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quan en un navegador no s'indica l'esquema d'un URI, quin esquema se sobreentén?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141742Z" creationid="fsanchez" creationdate="20161019T141742Z">
