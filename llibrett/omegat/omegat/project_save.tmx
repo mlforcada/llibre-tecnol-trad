@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No és possible.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105002Z" creationid="fsanchez" creationdate="20161025T105002Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No es posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; No, aquest tipus d'ambigüitat exigeix un tractament semàntic com a mínim.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142555Z" creationid="fsanchez" creationdate="20161010T142555Z">
@@ -2130,6 +2138,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122803Z" creationid="fsanchez" creationdate="20161010T122803Z">
         <seg>Como veremos, las restricciones son normalmente de naturaleza lingüística ---por lo tanto, requieren un cierto nivel de análisis del texto--- y permiten descartar ciertas interpretaciones, pero no eliminan completamente la ambigüedad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104958Z" creationid="fsanchez" creationdate="20161025T104958Z">
+        <seg>¿Cómo?</seg>
       </tuv>
     </tu>
     <tu>
@@ -5142,6 +5158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Volem tenir una base de dades ordenada simultàniament per dos camps per a optimitzar les recerques.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104953Z" creationid="fsanchez" creationdate="20161025T104953Z">
+        <seg>Queremos tener una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Estat abans de començar la recerca.]{ &lt;n3&gt;{|l||l||l||l||l|}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090103Z" creationid="fsanchez" creationdate="20161025T090103Z">
@@ -5730,6 +5754,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140716Z" creationid="fsanchez" creationdate="20161009T140716Z">
         <seg>Es decir, es difícil determinar como se tiene que expresar una interpretación concreta porque hay más de una manera de decir lo mismo en cualquier lengua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És això possible?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104954Z" creationid="fsanchez" creationdate="20161025T104954Z">
+        <seg>¿Es esto posible?</seg>
       </tuv>
     </tu>
     <tu>
