@@ -1542,6 +1542,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u7&gt; Informació sobre la morfologia o la flexió del terme en cada una de les llengües.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104026Z" creationid="fsanchez" creationdate="20161025T104026Z">
+        <seg>&lt;u7&gt; Información sobre la morfología o la flexión del término en cada una de las lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u8&gt; 9a consulta: o la trobem, o hem de buscar en 2 fitxes.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085453Z" creationid="fsanchez" creationdate="20161025T085453Z">
@@ -1554,6 +1562,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114620Z" creationid="fsanchez" creationdate="20161014T114620Z">
         <seg>&lt;u8&gt; La oración es ambigua porque dos de sus palabras presentan ambigüedad léxica pura (polisemia): &lt;i19&gt;auto&lt;/i19&gt; puede ser un automóvil o un tipo de resolución judicial; &lt;i20&gt;suspensión&lt;/i20&gt; puede ser la acción de suspender (la resolución) o el sistema de amortiguadores del automóvil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u8&gt; Variants ortogràfiques o geogràfiques; sinònims; antònims; etimologia, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104037Z" creationid="fsanchez" creationdate="20161025T104037Z">
+        <seg>&lt;u8&gt; Variantes ortográficas o geográficas; sinónimos; antónimos; etimología, etc.</seg>
       </tuv>
     </tu>
     <tu>
