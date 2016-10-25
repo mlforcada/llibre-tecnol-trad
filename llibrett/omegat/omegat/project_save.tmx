@@ -3846,6 +3846,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Què és una base de dades?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T083812Z" creationid="fsanchez" creationdate="20161025T083812Z">
+        <seg>¿Qué es una base de datos?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Qüestions i exercicis</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130905Z" creationid="fsanchez" creationdate="20161010T130905Z">
