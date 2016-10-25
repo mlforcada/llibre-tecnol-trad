@@ -494,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; IATE (&lt;i0&gt;Inter-Active Terminology for Europe&lt;/i0&gt;, &lt;u3&gt;{http://iate.europa.eu/}) és la base de dades terminològica de referència de la Unió Europea i proporciona termes per a cada concepte en les 24 llengües oficials de la Unió Europea i en llatí.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104219Z" creationid="fsanchez" creationdate="20161025T104219Z">
+        <seg>&lt;u1&gt; IATE (&lt;i0&gt;Inter-Active Terminology for Europe&lt;/i0&gt;, &lt;u3&gt;{http://iate.europa.eu/}) es la base de datos terminológica de referencia de la Unión Europea y proporciona términos para cada concepto en las 24 lenguas oficiales de la Unión Europea y en latín.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; L'estadística d'aparició conjunta de mots en corpus bilingües de textos pot ajudar a resoldre directament l'ambigüitat de transferència quan es disposa de diccionaris de transferència o quan els textos estan alineats.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123712Z" creationid="fsanchez" creationdate="20161010T123712Z">
@@ -3442,6 +3450,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123703Z" creationid="fsanchez" creationdate="20161010T123703Z">
         <seg>La información presente en diccionarios electrónicos preexistentes puede servir para construir estas redes o ser usada directamente para la resolución de la polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La intenció de TERMCAT és principalment normativa: s'hi associa a cada concepte el terme preferit en català (i també els termes usuals en espanyol, anglés, francés, etc.).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104150Z" creationid="fsanchez" creationdate="20161025T104150Z">
+        <seg>La intención de TERMCAT es principalmente normativa: se asocia a cada concepto el término preferido en catalán (y también los términos usuales en español, inglés, francés, etc.).</seg>
       </tuv>
     </tu>
     <tu>
