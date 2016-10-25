@@ -1054,6 +1054,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; moltes menys consultes: 9.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105948Z" creationid="fsanchez" creationdate="20161025T105948Z">
+        <seg>&lt;u2&gt; muchas menos consultas: 9.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; no canvia el lema però sí els indicadors de flexió: el mot espanyol &lt;i3&gt;cantamos&lt;/i3&gt; pot ser la 1a.&lt;u5&gt;persona del plural del present d'indicatiu o del pretèrit indefinit (perfet simple) del verb &lt;i4&gt;cantar&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143612Z" creationid="fsanchez" creationdate="20161009T143612Z">
@@ -1154,6 +1162,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141731Z" creationid="fsanchez" creationdate="20161010T141731Z">
         <seg>&lt;u3&gt; ... es estructural de origen coordinativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; 480 consultes igualment.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105951Z" creationid="fsanchez" creationdate="20161025T105951Z">
+        <seg>&lt;u3&gt; 480 consultas igualmente.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5850,6 +5866,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084952Z" creationid="fsanchez" creationdate="20161025T084952Z">
         <seg>{Búsquedas}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Repassar-les} &lt;n0&gt; &lt;u1&gt; (c) &lt;u2&gt; (c) &lt;u3&gt; (c) &lt;u4&gt; (a) &lt;u5&gt; (a)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105957Z" creationid="fsanchez" creationdate="20161025T105957Z">
+        <seg>{Repasarlas} &lt;n0&gt; &lt;u1&gt; (c) &lt;u2&gt; (c) &lt;u3&gt; (c) &lt;u4&gt; (a) &lt;u5&gt; (a)</seg>
       </tuv>
     </tu>
     <tu>
