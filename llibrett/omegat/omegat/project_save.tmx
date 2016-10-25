@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; &lt;i1&gt;Altes o addicions:&lt;/i1&gt; afegir un nou registre a la base de dades, tot fent que els seus camps prenguen els valors corresponents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084410Z" creationid="fsanchez" creationdate="20161025T084410Z">
+        <seg>&lt;u1&gt; &lt;i1&gt;Altas o adiciones:&lt;/i1&gt; añadir un nuevo registro a la base de datos, haciendo que sus campos tomen los valores correspondientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; &lt;i1&gt;Els lladres van ser atrapats a una fàbrica incendiada per un policia&lt;/i1&gt; (1: ``Els lladres van ser capturats pel comissari a una fàbrica abandonada''; 2: ``La fàbrica on van ser capturats va ser l'objectiu d'un agent piròman'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131207Z" creationid="fsanchez" creationdate="20161010T131207Z">
@@ -530,6 +538,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131002Z" creationid="fsanchez" creationdate="20161010T130948Z">
         <seg>&lt;u2&gt; &lt;i1&gt; Había un gato bajo el automóvil&lt;/i1&gt; (1: ``...porque acababan de reparar una rueda''; 2: ``...y salió corriendo cuando lo puse en marcha'') &lt;u3&gt; &lt;i2&gt;María entró con una bolsa grande.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;i2&gt;Baixes o esborrats:&lt;/i2&gt; eliminar un o més registres.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084414Z" creationid="fsanchez" creationdate="20161025T084414Z">
+        <seg>&lt;u2&gt; &lt;i2&gt;Bajas o supresiones:&lt;/i2&gt; eliminar uno o más registros.</seg>
       </tuv>
     </tu>
     <tu>
@@ -930,6 +946,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141731Z" creationid="fsanchez" creationdate="20161010T141731Z">
         <seg>&lt;u3&gt; ... es estructural de origen coordinativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;i3&gt;Modificacions:&lt;/i3&gt; canviar el valor d'un o més camps d'un o més registres de la base de dades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084418Z" creationid="fsanchez" creationdate="20161025T084418Z">
+        <seg>&lt;u3&gt; &lt;i3&gt;Modificaciones:&lt;/i3&gt; cambiar el valor de uno o más campos de uno o más registros de la base de datos.</seg>
       </tuv>
     </tu>
     <tu>
