@@ -1446,6 +1446,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Així, els registres d'una base de dades bibliogràfica contenen informació en camps: un per als autors, altre per al títol, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084250Z" creationid="fsanchez" creationdate="20161025T084250Z">
+        <seg>Así, los registros de una base de datos bibliográfica contienen información en campos: uno para los autores, otro para el título, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Així, una taula és un conjunt de registres (fitxes) cada un dels quals té la mateixa estructura de camps (informacions), emmagatzemades en un fitxer informàtic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084242Z" creationid="fsanchez" creationdate="20161025T084242Z">
+        <seg>Así, una tabla es un conjunto de registros (fichas) cada uno de los cuales tiene la misma estructura de campos (datos), almacenadas en un fichero informático.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Això fa que algunes persones es plantegen l'ús de buscadors que no facen aquest &lt;i6&gt;seguiment&lt;/i6&gt; o &lt;i7&gt;tracking&lt;/i7&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151721Z" creationid="fsanchez" creationdate="20161018T151721Z">
