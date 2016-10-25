@@ -4886,6 +4886,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Una base de dades d'aquesta mena la pot consultar una persona mentre està fent una traducció manualment o pot estar inclosa dins d'un programa de traducció automàtica o assistida per ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104051Z" creationid="fsanchez" creationdate="20161025T104051Z">
+        <seg>Una base de datos de este tipo la puede consultar una persona mientras está haciendo una traducción manualmente o puede estar incluida dentro de un programa de traducción automática o asistida por ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una classificació interessant dels problemes de la traducció automàtica la dóna &lt;n0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140600Z" creationid="fsanchez" creationdate="20161009T140600Z">
