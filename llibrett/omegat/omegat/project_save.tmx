@@ -3046,6 +3046,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'organització de la informació en forma de base de dades simplifica enormement les consultes, ja que els ordinadors són molt més ràpids i segurs a l'hora de, per exemple, comparar el contingut d'un determinat camp de totes les fitxes amb un cert valor o patró (per exemple, els autors que comencen per &lt;i5&gt;Ant&lt;/i5&gt;) i llistar el contingut d'un altre camp (per exemple, el títol) per a cada fitxa coincident.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084708Z" creationid="fsanchez" creationdate="20161025T084708Z">
+        <seg>La organización de la información en forma de base de datos simplifica enormemente las consultas, puesto que los ordenadores son mucho más rápidos y seguros a la hora de, por ejemplo, comparar el contenido de un determinado campo de todas las fichas con un cierto valor o patrón (por ejemplo, los autores que empiezan por &lt;i5&gt;Ant&lt;/i5&gt;) y listar el contenido de otro campo (por ejemplo, el título) para cada ficha coincidente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La denominació més usual era URL, &lt;i3&gt;uniform resource locator&lt;/i3&gt; o localitzador uniforme de recursos, que encara s'usa profusament, encara que no tots els URI son URL.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150634Z" creationid="fsanchez" creationdate="20161018T150634Z">
