@@ -2846,6 +2846,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Es pot construir un índex per a cada un dels camps associats a les consultes més freqüents i així s'evita recórrer tota la base de dades cada vegada que es fa una consulta: es busca el valor del camp en el registre corresponent i, quan es troba, s'usa la posició del registre per a accedir-hi directament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090931Z" creationid="fsanchez" creationdate="20161025T090931Z">
+        <seg>Se puede construir un índice para cada uno de los campos asociados a las consultas más frecuentes y así se evita recorrer toda la base de datos cada vez que se hace una consulta: se busca el valor del campo en el registro correspondiente y, cuando se encuentra, se usa la posición del registro para acceder directamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es pot demostrar que la recerca dicotòmica mira com a molt $n$ fitxes si el fitxer té entre $2^{n-1}$ i $2^n$ fitxes, perquè després de cada consulta es redueix a la meitat la grandària del fitxer que cal explorar.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085228Z" creationid="fsanchez" creationdate="20161025T085228Z">
@@ -4690,6 +4698,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143214Z" creationid="fsanchez" creationdate="20161009T143214Z">
         <seg>Una ambigüedad que es muy parecida a la ambigüedad léxica pura se produce cuando una expresión idiomática se toma bien como tal o bien en sentido literal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una base de dades amb aquestes propietats està &lt;i0&gt;indexada&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090934Z" creationid="fsanchez" creationdate="20161025T090934Z">
+        <seg>Una base de datos con estas propiedades está &lt;i0&gt;indexada&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
