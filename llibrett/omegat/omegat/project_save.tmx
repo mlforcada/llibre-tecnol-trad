@@ -798,6 +798,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; La meitat, 50.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104926Z" creationid="fsanchez" creationdate="20161025T104926Z">
+        <seg>&lt;u2&gt; La mitad, 50.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; La part final.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142355Z" creationid="fsanchez" creationdate="20161019T142355Z">
@@ -4642,6 +4650,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122904Z" creationid="fsanchez" creationdate="20161010T122904Z">
         <seg>Si aparece entre un artículo y un adjetivo como por ejemplo en &lt;i1&gt;el ahorro doméstico&lt;/i1&gt; no hay ninguna duda de que se trata de un sustantivo: la secuencia determinante--verbo personal no está permitida.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si busquem una alumna pel NIF, quantes consultes fa, com a màxim, el programa gestor de la base de dades fins a arribar a la fitxa desitjada?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104922Z" creationid="fsanchez" creationdate="20161025T104922Z">
+        <seg>Si buscamos una alumna por el NIF, ¿cuántas consultas hace, como máximo, el programa gestor de la base de datos hasta llegar a la ficha deseada?</seg>
       </tuv>
     </tu>
     <tu>
