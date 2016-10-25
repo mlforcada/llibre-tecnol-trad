@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt; El camp temàtic de la fitxa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104005Z" creationid="fsanchez" creationdate="20161025T104005Z">
+        <seg>&lt;u5&gt; El campo temático de la ficha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt;[(b)] No hi ha cap dona que s'estime els abrics de pell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122447Z" creationid="fsanchez" creationdate="20161010T122447Z">
@@ -1482,6 +1490,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T140739Z" creationid="fsanchez" creationdate="20161010T140739Z">
         <seg>&lt;u6&gt; &lt;i6&gt;No puedo ver bien la foto que me has enviado por correo electrónico porque no puedo cerrar todas las ventanas&lt;/i6&gt; (1: ``Todavía entra sol y se refleja en la pantalla"; 2: ``Tengo el escritorio lleno de documentos abiertos").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u6&gt; Altres termes relacionats.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104018Z" creationid="fsanchez" creationdate="20161025T104018Z">
+        <seg>&lt;u6&gt; Otros términos relacionados.</seg>
       </tuv>
     </tu>
     <tu>
