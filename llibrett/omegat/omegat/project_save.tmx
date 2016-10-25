@@ -1366,6 +1366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt; 6a consulta: o la trobem, o hem de buscar en 19 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085429Z" creationid="fsanchez" creationdate="20161025T085429Z">
+        <seg>&lt;u5&gt; 6ª consulta: o la encontramos, o tenemos que buscar en 19 fichas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt; &lt;i19&gt;Ambigüitat dins de la mateixa categoria lèxica sense canvi de lema&lt;/i19&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142341Z" creationid="fsanchez" creationdate="20161009T142341Z">
@@ -1402,6 +1410,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122447Z" creationid="fsanchez" creationdate="20161010T122447Z">
         <seg>&lt;u5&gt;[(b)] A ninguna mujer le gustan los abrigos de piel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u6&gt; 7a consulta: o la trobem, o hem de buscar en 9 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085436Z" creationid="fsanchez" creationdate="20161025T085436Z">
+        <seg>&lt;u6&gt; 7ª consulta: o la encontramos, o tenemos que buscar en 9 fichas.</seg>
       </tuv>
     </tu>
     <tu>
