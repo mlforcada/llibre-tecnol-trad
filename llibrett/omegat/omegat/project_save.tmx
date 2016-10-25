@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u7&gt; 8a consulta: o la trobem, o hem de buscar en 4 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085447Z" creationid="fsanchez" creationdate="20161025T085447Z">
+        <seg>&lt;u7&gt; 8ª consulta: o la encontramos, o tenemos que buscar en 4 fichas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u7&gt; &lt;i6&gt;Vale más que las comas&lt;/i6&gt; (1: ``...que els signes de puntuació''; 2:``...que les menges'') &lt;u8&gt; &lt;i7&gt;El mecánico revisó la suspensión del auto de Garzón&lt;/i7&gt; (1: ``Aquest mecànic és un expert en legislació i s'ha llegit la resolució judicial sencera''; 2: ``Els amortidors del cotxe de Garzón ja necessitaven una revisió'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T131112Z" creationid="fsanchez" creationdate="20161010T131112Z">
@@ -1466,6 +1474,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114605Z" creationid="fsanchez" creationdate="20161014T114605Z">
         <seg>&lt;u7&gt; Ambigüedad sintáctica o estructural de origen categorial debido al hecho de que las palabras &lt;i17&gt;las&lt;/i17&gt; (artículo o pronombre) y &lt;i18&gt;comas&lt;/i18&gt; (sustantivo o verbo) son homógrafos afectados de ambigüedad léxica categorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u8&gt; 9a consulta: o la trobem, o hem de buscar en 2 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085453Z" creationid="fsanchez" creationdate="20161025T085453Z">
+        <seg>&lt;u8&gt; 9ª consulta: o la encontramos, o tenemos que buscar en 2 fichas.</seg>
       </tuv>
     </tu>
     <tu>
