@@ -4870,6 +4870,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Tenim una base de dades amb fitxes de 100 alumnes ordenada pel NIF.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104634Z" creationid="fsanchez" creationdate="20161025T104634Z">
+        <seg>Tenemos una base de datos con fichas de 100 alumnos ordenada por el NIF.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Textos i formats</seg>
       </tuv>
       <tuv lang="es-ES" changeid="japerez" changedate="20161010T095849Z" creationid="japerez" creationdate="20161010T095849Z">
