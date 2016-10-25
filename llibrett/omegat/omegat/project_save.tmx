@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; Després de la 2a consulta, si la fitxa central no és la que busquem, ens queden dues meitats de 308 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085355Z" creationid="fsanchez" creationdate="20161025T085355Z">
+        <seg>&lt;u1&gt; Después de la 2ª consulta, si la ficha central no es la que buscamos, nos quedan dos mitades de 308 fichas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; L'estadística d'aparició conjunta de mots en corpus bilingües de textos pot ajudar a resoldre directament l'ambigüitat de transferència quan es disposa de diccionaris de transferència o quan els textos estan alineats.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123712Z" creationid="fsanchez" creationdate="20161010T123712Z">
@@ -530,6 +538,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141728Z" creationid="fsanchez" creationdate="20161010T141728Z">
         <seg>&lt;u2&gt; ... se debe a la anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; 3a consulta: o la trobem, o hem de buscar en 154 fitxes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085404Z" creationid="fsanchez" creationdate="20161025T085404Z">
+        <seg>&lt;u2&gt; 3ª consulta: o la encontramos, o tenemos que buscar en 154 fichas.</seg>
       </tuv>
     </tu>
     <tu>
