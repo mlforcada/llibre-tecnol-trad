@@ -3798,6 +3798,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Internet (vegeu el capítol &lt;n0&gt;) no és més que una gran xarxa global que interconnecta moltes xarxes més locals.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153034Z" creationid="fsanchez" creationdate="20161027T153034Z">
+        <seg>Internet (véase el capítulo &lt;n0&gt;) no es más que una gran red global que interconecta muchas redes más locales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Internet permet bàsicament tres tipus d'ús: &lt;n0&gt; &lt;u0&gt;[Com a mitjà de comunicació:] Internet permet la comunicació i l'intercanvi d'arxius (vegeu l'apartat &lt;n1&gt;) amb clients o proveïdors, la participació en fòrums de professionals, la realització de consultes, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144620Z" creationid="fsanchez" creationdate="20161018T144620Z">
@@ -3962,6 +3970,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084708Z" creationid="fsanchez" creationdate="20161025T084708Z">
         <seg>La organización de la información en forma de base de datos simplifica enormemente las consultas, puesto que los ordenadores son mucho más rápidos y seguros a la hora de, por ejemplo, comparar el contenido de un determinado campo de todas las fichas con un cierto valor o patrón (por ejemplo, los autores que empiezan por &lt;i5&gt;Ant&lt;/i5&gt;) y listar el contenido de otro campo (por ejemplo, el título) para cada ficha coincidente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'organització dels ordinadors en una xarxa local permet la comunicació d'informació entre ells i la compartició de recursos, com ara una impressora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153008Z" creationid="fsanchez" creationdate="20161027T153008Z">
+        <seg>La organización de los ordenadores en una red local permite la comunicación de información entre ellos y que se compartan recursos, como por ejemplo una impresora.</seg>
       </tuv>
     </tu>
     <tu>
