@@ -2326,6 +2326,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com que el disc dur és més lent que la memòria primària, l'intercanvi fa que l'ordinador vaja més lent; per això, ampliar la memòria primària sol fer que l'ordinador vaja més ràpid.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151131Z" creationid="fsanchez" creationdate="20161027T151131Z">
+        <seg>Como el disco duro es más lento que la memoria primaria, el intercambio hace que el ordenador vaya más lento: por eso, ampliar la memoria primaria suele hacer que el ordenador vaya más rápido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com que es tracta d'un cas especial d'allò que s'anomena en informàtica &lt;i0&gt;bases de dades&lt;/i0&gt;, en aquest capítol introduirem primer aquest concepte i llavors n'estudiarem l'aplicació a la gestió terminològica a través de les bases de dades terminològiques.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T083823Z" creationid="fsanchez" creationdate="20161025T083752Z">
