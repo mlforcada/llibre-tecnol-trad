@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n8&gt; &lt;u3&gt;[Programari d'ús general:] programari dissenyat per a fer tasques més genèriques, interessants per a moltes classes d'usuaris.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153714Z" creationid="fsanchez" creationdate="20161027T153714Z">
+        <seg>&lt;n8&gt; &lt;u3&gt;[Software de uso general:] software diseñado para hacer tareas más genéricas, interesantes para muchos tipos de usuarios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n8&gt; on la posició inicial de l'adverbi interrogatiu &lt;i5&gt;Com&lt;/i5&gt; pot resultar de la transformació per moviment de Qu de tres estructures hipotètiques diferents; en cada una d'elles, l'adverbi és adjunt d'un sintagma verbal diferent: &lt;n4&gt; &lt;u1&gt;[(a)] *Dius &lt;i6&gt;com&lt;/i6&gt; que Jordi ha explicat que vindria?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151617Z" creationid="fsanchez" creationdate="20161009T151442Z">
