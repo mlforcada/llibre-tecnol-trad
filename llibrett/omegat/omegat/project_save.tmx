@@ -2270,6 +2270,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Cada cicle de processament d'informació es correspon amb un &lt;i0&gt;tic&lt;/i0&gt; del rellotge que tots el dispositius de processament tenen per sincronitzar tots el circuits de l'ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151058Z" creationid="fsanchez" creationdate="20161027T151058Z">
+        <seg>Cada ciclo de procesamiento de información se corresponde con un &lt;i0&gt;tic&lt;/i0&gt; del reloj que todos los dispositivos de procesamiento tienen para sincronizar todos los circuitos del ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Cada idioma ho fa diferentment: català: &lt;i2&gt;Quina hora és?&lt;/i2&gt;; portugués: &lt;i3&gt;Que horas são?&lt;/i3&gt; (&lt;i4&gt;Quines hores són?&lt;/i4&gt;); alemany: &lt;i5&gt;Wie spät ist es?&lt;/i5&gt; (&lt;i6&gt;Com és de tard?&lt;/i6&gt;); alemany: &lt;i7&gt;Wieviel Uhr ist es?&lt;/i7&gt; (&lt;i8&gt;Quantes del rellotge són?&lt;/i8&gt;), etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140750Z" creationid="fsanchez" creationdate="20161009T140750Z">
@@ -4022,6 +4030,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La velocitat a la que una CPU executa les instruccions bàsiques d'un programa es mesura en megahertzs (MHz) o gigahertzs (GHz; un gigahertzs són 1000 megahertzs).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151045Z" creationid="fsanchez" creationdate="20161027T151045Z">
+        <seg>La velocidad a la que una CPU ejecuta las instrucciones básicas de un programa se mide en megaherzios (MHz) o gigaherzios (GHz; un gigaherzio son 1000 megaherzios).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les &lt;i0&gt;restriccions&lt;/i0&gt; es poden basar en informació morfològica, sintàctica, o fins i tot semàntica; tot depén del nivell d'anàlisi que estiga disponible: &lt;n0&gt; &lt;u0&gt; Un pronom masculí no pot tenir un antecedent femení (restricció morfològica): &lt;i1&gt;Maria&lt;/i1&gt; no pot ser l'antecedent de &lt;i2&gt;ell&lt;/i2&gt; en l'oració &lt;i3&gt;Maria es va passar tot el dia parlant d'ell&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123923Z" creationid="fsanchez" creationdate="20161010T123852Z">
@@ -5450,6 +5466,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115500Z" creationid="fsanchez" creationdate="20161019T115500Z">
         <seg>Uno de los servicios más usados de Internet es el correo electrónico (en inglés &lt;i0&gt;electronic mail&lt;/i0&gt; o &lt;i1&gt;e-mail&lt;/i1&gt;), que nos permite enviar mensajes (textos informatizados) a usuarios de otros ordenadores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un megahertzs equival a un milió de hertzs (Hz), és a dir, un milió de cicles de processament d'informació per segon.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151050Z" creationid="fsanchez" creationdate="20161027T151050Z">
+        <seg>Un megaherzio equivale a un millón de herzios (Hz), es decir, un millón de ciclos de procesamiento de información por segundo.</seg>
       </tuv>
     </tu>
     <tu>
