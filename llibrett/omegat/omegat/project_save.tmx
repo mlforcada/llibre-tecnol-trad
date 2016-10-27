@@ -2990,6 +2990,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El programa que suma els nombres de l'1 al 10 quedaria així en el llenguatge Pascal: &lt;n0&gt; program SUMA; var index, suma: integer; begin suma:=0; for index:=1 to 10 suma:=suma+index; end.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154225Z" creationid="fsanchez" creationdate="20161027T154225Z">
+        <seg>El programa que suma los números del 1 al 10 quedaría así en el lenguaje Pascal: &lt;n0&gt; program SUMA; var index, suma: integer; begin suma:=0; for index:=1 to 10 suma:=suma+index; end.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El pronom &lt;i0&gt;li&lt;/i0&gt; pot tenir els antecedents &lt;i1&gt;Mario&lt;/i1&gt; i &lt;i2&gt;la seua mare&lt;/i2&gt; &lt;u2&gt; (b) &lt;u3&gt; (c) &lt;u4&gt; (a) &lt;u5&gt; (c) &lt;u6&gt; (c) &lt;u7&gt; (b) &lt;u8&gt; (c) &lt;u9&gt; (c) &lt;u10&gt; (b)</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T120011Z" creationid="fsanchez" creationdate="20161014T120011Z">
@@ -3234,6 +3242,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091956Z" creationid="fsanchez" creationdate="20161025T091956Z">
         <seg>Los profesionales de la traducción gestionan, con estos gestores, bases de datos léxicas que les ayudan a traducir consistentemente los términos y, quizás, las locuciones y frases de una determinada área de conocimiento (terminología).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els programadors normalment escriuen els seus programes en {&lt;u1&gt; llenguatges de programació} basats en instruccions més potents (com ara BASIC, Java, C, C++, Pascal, Perl o Python) i usen programes especials ---els processadors de llenguatges--- per a traduir-los a les instruccions senzilles que entén la màquina.&lt;p0&gt; Quasi tots els programes que s'executen en un ordinador han estat escrits en algun llenguatge de programació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154217Z" creationid="fsanchez" creationdate="20161027T154217Z">
+        <seg>Los programadores normalmente escriben sus programas en {&lt;u1&gt; lenguajes de programación} basados en instrucciones más potentes (como por ejemplo BASIC, Java, C, C++, Pascal, Perl o Python) y usan programas especiales ---los procesadores de lenguajes--- para traducirlos a las instrucciones sencillas que entiende la máquina.&lt;p0&gt; Casi todos los programas que se ejecutan en un ordenador han sido escritos en algún lenguaje de programación.</seg>
       </tuv>
     </tu>
     <tu>
