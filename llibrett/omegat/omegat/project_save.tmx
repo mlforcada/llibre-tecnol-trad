@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;n1&gt; Els programes d'aplicació els activa l'usuari per mitjà del sistema operatiu, utilitzen el sistema operatiu per a accedir als recursos (maquinari i altres programes) del sistema i interaccionen amb l'usuari mitjançant el dispositius d'entrada i d'eixida (vegeu la figura &lt;n3&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153824Z" creationid="fsanchez" creationdate="20161027T153824Z">
+        <seg>&lt;n0&gt; &lt;n1&gt; Los programas de aplicación los activa el usuario por medio del sistema operativo, utilizan el sistema operativo para acceder a los recursos (hardware y otros programas) del sistema e interaccionan con el usuario mediante los dispositivos de entrada y de salida (véase la figura &lt;n3&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; &lt;i0&gt;http://&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;mailto:&lt;/i1&gt; &lt;u3&gt; L'esquema d'Internet</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141756Z" creationid="fsanchez" creationdate="20161019T141756Z">
@@ -6474,6 +6482,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T121046Z" creationid="fsanchez" creationdate="20161019T121046Z">
         <seg>{Esquema de acceso doméstico a Internet desde varios dispositivos conectados a un módem-encaminador.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Esquema de la interacció entre la persona usuària, el sistema operatiu i els programes d'aplicació.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153828Z" creationid="fsanchez" creationdate="20161027T153828Z">
+        <seg>{Esquema de la interacción entre el usuario, el sistema operativo y los programas de aplicación.}</seg>
       </tuv>
     </tu>
     <tu>
