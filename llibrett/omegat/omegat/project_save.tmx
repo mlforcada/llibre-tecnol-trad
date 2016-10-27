@@ -4614,6 +4614,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La seqüència dels noms de les carpetes que cal anar obrint fins que arribem a un fitxer s'anomena la &lt;i0&gt;trajectòria&lt;/i0&gt; o la &lt;i1&gt;ruta&lt;/i1&gt; del fitxer.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164231Z" creationid="fsanchez" creationdate="20161027T164231Z">
+        <seg>La secuencia de los nombres de las carpetas que hay que ir abriendo hasta que lleguemos a un fichero se conoce como la &lt;i0&gt;trayectoria&lt;/i0&gt; o &lt;i1&gt;ruta&lt;/i1&gt; del fichero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La solució semàntica és més potent i general però exigeix una anàlisi molt profunda de la frase.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115811Z" creationid="fsanchez" creationdate="20161014T115811Z">
