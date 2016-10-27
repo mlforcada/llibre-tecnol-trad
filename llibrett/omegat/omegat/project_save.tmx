@@ -4590,6 +4590,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Moltes voltes s'usen noms curts (en anglés &lt;i0&gt;mnemonics&lt;/i0&gt;) per a les instruccions del processador i també noms elegits pel programador per a referir-se a posicions del programa (aquesta notació se sol anomenar &lt;i1&gt;llenguatge assemblador&lt;/i1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154104Z" creationid="fsanchez" creationdate="20161027T154104Z">
+        <seg>Muchas veces se usan nombres cortos (en inglés &lt;i0&gt;mnemonics&lt;/i0&gt;) para las instrucciones del procesador y también nombres elegidos por el programador para referirse a posiciones del programa (esta notación se suele denominar &lt;i1&gt;lenguaje ensamblador&lt;/i1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Molts dels fitxers que usen les persones que es dediquen a la traducció són fitxers (o &lt;i1&gt;documents&lt;/i1&gt;) de text en diversos formats (com els descrits en l'epígraf &lt;n1&gt;) però també n'hi ha que es corresponen amb el significat del mot &lt;i2&gt;fitxer&lt;/i2&gt; fora de la informàtica: contenen &lt;i3&gt;fitxes&lt;/i3&gt;, totes amb un format més o menys constant; per exemple, totes les fitxes d'un fitxer bibliogràfic contenen informació sobre els autors, el títol, l'any de publicació, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084118Z" creationid="fsanchez" creationdate="20161025T084118Z">
