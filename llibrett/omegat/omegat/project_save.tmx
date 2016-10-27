@@ -3238,6 +3238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els directoris són fitxers especials que agrupen els noms i les característiques d'altres fitxers; de fet, els directoris poden contenir zero o més fitxers o també zero o més directoris (sense restriccions de quantitat), i així successivament, de manera que la persona usuària pot establir una estructuració jeràrquica o arbòria dels seus fitxers en el disc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160414Z" creationid="fsanchez" creationdate="20161027T160414Z">
+        <seg>Los directorios son ficheros especiales que agrupan los nombres y las características de otros ficheros; de hecho, los directorios pueden contener cero o más ficheros o también cero o más directorios (sin restricciones de cantidad), y así sucesivamente, de forma que la persona usuaria puede establecer una estructuración jerárquica o arbórea de sus ficheros en el disco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els discos fixos (i els antics disquets) són dispositius d'emmagatzematge magnètic, poc més o menys com ho eren les antigues cassets.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151807Z" creationid="fsanchez" creationdate="20161027T151807Z">
