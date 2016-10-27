@@ -5758,6 +5758,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si necessitem guardar objectes o unitats d'informació que tenen més de dos valors possibles, no tindrem prou amb 1 bit; haurem de combinar més d'un bit.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154507Z" creationid="fsanchez" creationdate="20161027T154507Z">
+        <seg>Si necesitamos guardar objetos o unidades de información que tienen más de dos valores posibles, no tendremos suficiente con 1 bit; tendremos que combinar más de un bit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si no, haurem d'usar les &lt;i1&gt;dades mòbils&lt;/i1&gt; que comercialitza el nostre proveïdor de telefonia mòbil a través de la seua xarxa cel·lular.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141404Z" creationid="fsanchez" creationdate="20161019T141404Z">
@@ -6034,6 +6042,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152656Z" creationid="fsanchez" creationdate="20161009T152656Z">
         <seg>Otro tipo de ambigüedad mixta sucede cuando la ambigüedad léxica categorial de algunas palabras se combina con mecanismos de elipsis como los descritos más arriba para construcciones coordinativas o comparativas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un bit pot tenir dos valors: 0 (apagat, inactiu) o 1 (encés, actiu); això és perquè el dispositiu electrònic corresponent pot estar en dos estats.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154500Z" creationid="fsanchez" creationdate="20161027T154500Z">
+        <seg>Un bit puede tener dos valores: 0 (apagado, inactivo) o 1 (encendido, activo); esto es porque el dispositivo electrónico correspondiente puede estar en dos estados.</seg>
       </tuv>
     </tu>
     <tu>
