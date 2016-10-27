@@ -2966,6 +2966,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El programa de dalt tindria l'aparença següent: &lt;n0&gt; mov #1,A mov A,index mov #0,A mov A,suma altre: mov suma,A add A,index mov A,suma mov index,A cmp A,#10 jeq final inc A mov A,index jmp altre final: hlt</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154119Z" creationid="fsanchez" creationdate="20161027T154119Z">
+        <seg>El programa de arriba tendría la apariencia siguiente: &lt;n0&gt; mov #1,A mov A,index mov #0,A mov A,suma otro: mov suma,A add A,index mov A,suma mov index,A cmp A,#10 jeq final inc A mov A,index jmp otro final: hlt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El programa gestor d'una base de dades lèxica feia en el pitjor cas 480 consultes abans de trobar la fitxa corresponent a un terme anglés concret, abans d'ordenar-la pel terme en anglés.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105940Z" creationid="fsanchez" creationdate="20161025T105940Z">
@@ -3906,6 +3914,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142446Z" creationid="fsanchez" creationdate="20161009T142446Z">
         <seg>Hay casos que no son tan sencillos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha dues famílies bàsiques de processadors de llenguatges: els &lt;i0&gt;compiladors&lt;/i0&gt;, que tradueixen tot el programa al llenguatge de la màquina abans d'executar-lo, i els &lt;i1&gt;intèrprets&lt;/i1&gt;, que lligen el programa línia a línia i executen petits programes ja escrits en el llenguatge de la màquina i que corresponen a les sentències del llenguatge de programació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154132Z" creationid="fsanchez" creationdate="20161027T154132Z">
+        <seg>Hay dos familias básicas de procesadores de lenguajes: los &lt;i0&gt;compiladores&lt;/i0&gt;, que traducen todo el programa al lenguaje de la máquina antes de ejecutarlo, y los &lt;i1&gt;intérpretes&lt;/i1&gt;, que leen el programa línea a línea y ejecutan pequeños programas ya escritos en el lenguaje de la máquina y que corresponden a las sentencias del lenguaje de programación.</seg>
       </tuv>
     </tu>
     <tu>
