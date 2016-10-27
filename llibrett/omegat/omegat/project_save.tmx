@@ -2758,6 +2758,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De fet, convé considerar la trajectòria com a part del nom del fitxer, cosa que ens permetria dir, senzillament, que en un disc no pot haver-hi dos fitxers amb el mateix nom.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164244Z" creationid="fsanchez" creationdate="20161027T164244Z">
+        <seg>De hecho, conviene considerar la trayectoria como parte del nombre del archivo, lo que nos permitiría decir, sencillamente, que en un disco no puede haber dos archivos con el mismo nombre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De fet, estudiarem tres casos: l'ambigüitat purament deguda a l'ambigüitat dels mots (explícits o nuls); l'ambigüitat purament deguda a l'existència de més d'una estructura sintàctica, i l'ambigüitat deguda a les dues causes alhora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141822Z" creationid="fsanchez" creationdate="20161009T141822Z">
