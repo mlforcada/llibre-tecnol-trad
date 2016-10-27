@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; Copiar, moure i esborrar fitxers de dades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153537Z" creationid="fsanchez" creationdate="20161027T153537Z">
+        <seg>&lt;u1&gt; Copiar, mover y borrar ficheros de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Després de la 2a consulta, si la fitxa central no és la que busquem, ens queden dues meitats de 308 fitxes.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085355Z" creationid="fsanchez" creationdate="20161025T085355Z">
@@ -786,6 +794,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114715Z" creationid="fsanchez" creationdate="20161014T114715Z">
         <seg>&lt;u2&gt; Ambigüedad mixta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Crear, moure i esborrar directoris de fitxers.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153541Z" creationid="fsanchez" creationdate="20161027T153541Z">
+        <seg>&lt;u2&gt; Crear, mover y borrar directorios de ficheros.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1338,6 +1354,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105226Z" creationid="fsanchez" creationdate="20161025T105226Z">
         <seg>&lt;u3&gt; Se encuentran en el mismo índice.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Establir connexions entre ordinadors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153543Z" creationid="fsanchez" creationdate="20161027T153543Z">
+        <seg>&lt;u3&gt; Establecer conexiones entre ordenadores.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1962,6 +1986,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090908Z" creationid="fsanchez" creationdate="20161025T090908Z">
         <seg>Esto se consigue mediante un procedimiento denominado &lt;i0&gt;indexación&lt;/i0&gt;: básicamente, se asigna un número a cada ficha y se construye una tabla o &lt;i1&gt;índice&lt;/i1&gt; ordenado (otra base de datos) que contiene registros con dos campos: uno, el campo por el cual se quiere ordenar, y el otro, la posición en la base de datos del registro que contiene este valor del campo (en cierto sentido, este índice no es demasiado diferente del índice alfabético que hay al final de algunos libros: buscamos la palabra alfabéticamente y nos dice en qué páginas se encuentra).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Algunes de les operacions bàsiques que fan els sistemes operatius són: &lt;n0&gt; &lt;u0&gt; Controlar el maquinari de l'ordinador on s'executen.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153535Z" creationid="fsanchez" creationdate="20161027T153535Z">
+        <seg>Algunas de las operaciones básicas que hacen los sistemas operativos son: &lt;n0&gt; &lt;u0&gt; Controlar el hardware del ordenador donde se ejecutan.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4138,6 +4170,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104001Z" creationid="fsanchez" creationdate="20161025T104001Z">
         <seg>La mayor parte de los gestores permiten que en los términos usados en la definición de un determinado término se marquen &lt;i0&gt;remisiones&lt;/i0&gt;, es decir, enlaces activos a las fichas donde se definen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La major part dels sistemes operatius actuals estan a més preparats per a interaccionar amb altres dispositius través de diferents tipus de &lt;i4&gt;xarxes&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153529Z" creationid="fsanchez" creationdate="20161027T153529Z">
+        <seg>La mayor parte de los sistemas operativos actuales están además preparados para interaccionar con otros dispositivos a través de diferentes tipos de &lt;i4&gt;redes&lt;/i4&gt;.</seg>
       </tuv>
     </tu>
     <tu>
