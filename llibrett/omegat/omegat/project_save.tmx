@@ -2622,6 +2622,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com, per exemple, els signes d'algun sistema d'escriptura no alfabètic</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154232Z" creationid="fsanchez" creationdate="20161027T154232Z">
+        <seg>Cómo, por ejemplo, los signos de algún sistema de escritura no alfabético</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104958Z" creationid="fsanchez" creationdate="20161025T104958Z">
@@ -4610,6 +4618,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150849Z" creationid="fsanchez" creationdate="20161027T150849Z">
         <seg>Hardware</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Memòria</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154227Z" creationid="fsanchez" creationdate="20161027T154227Z">
+        <seg>Memoria</seg>
       </tuv>
     </tu>
     <tu>
