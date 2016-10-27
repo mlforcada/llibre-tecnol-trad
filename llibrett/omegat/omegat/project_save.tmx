@@ -1838,6 +1838,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A continuació es consideren el maquinari i el programari amb més detall.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150849Z" creationid="fsanchez" creationdate="20161027T150849Z">
+        <seg>A continuación se considerarán el hardware y el software con más detalle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A la nostra casa hem tingut telèfon tota la vida i ara estem pensant a connectar-nos a Internet mitjançant ADSL.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144133Z" creationid="fsanchez" creationdate="20161019T144133Z">
@@ -2898,6 +2906,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151354Z" creationid="fsanchez" creationdate="20161018T151354Z">
         <seg>Los programes navegadores se conocen también por otros nombres: &lt;i0&gt;browsers&lt;/i0&gt;, &lt;i1&gt;exploradores&lt;/i1&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els programes poden estar guardats en un disc o carregats en la memòria de l'ordinador mentre són executats pel processador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150845Z" creationid="fsanchez" creationdate="20161027T150845Z">
+        <seg>Los programas pueden estar guardados en un disco o cargados en la memoria del ordenador mientras el procesador los ejecuta.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4066,6 +4082,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140749Z" creationid="fsanchez" creationdate="20161019T140749Z">
         <seg>Las velocidades eran muy bajas, de decenas de kb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Maquinari</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150849Z" creationid="fsanchez" creationdate="20161027T150849Z">
+        <seg>Hardware</seg>
       </tuv>
     </tu>
     <tu>
