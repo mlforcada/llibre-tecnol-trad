@@ -3086,6 +3086,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els sistemes més antics eren de vegades &lt;i0&gt;monousuari&lt;/i0&gt; (MS-DOS, Windows 3.11), és a dir, només podien donar suport a una persona usuària, o &lt;i1&gt;monotasca&lt;/i1&gt;, és a dir, no podien executar més d'un programa al mateix temps.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153429Z" creationid="fsanchez" creationdate="20161027T153429Z">
+        <seg>Los sistemas más antiguos eran a veces &lt;i0&gt;monousuario&lt;/i0&gt; (MS-DOS, Windows 3.11), es decir, sólo podían ser usados por un único usuario a la vez, o &lt;i1&gt;monotarea&lt;/i1&gt;, es decir, no podían ejecutar más de un programa al mismo tiempo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els triangles s'usen per a no haver d'indicar tots els detalls d'un subarbre concret.}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153150Z" creationid="fsanchez" creationdate="20161009T153150Z">
