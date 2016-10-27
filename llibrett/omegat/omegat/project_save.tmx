@@ -3782,6 +3782,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'ús de la paraula &lt;i5&gt;programa&lt;/i5&gt; en informàtica (seqüència d'operacions o esdeveniments) és paral·lel a molts usos d'aquest mot en la vida quotidiana: programa &lt;i6&gt;de festes&lt;/i6&gt;, &lt;i7&gt;d'un concert&lt;/i7&gt;, &lt;i8&gt;de la llavadora&lt;/i8&gt;, etc.; encara que per a la persona usuària un programa d'ordinador és més similar a una espècie de caixa d'eines per a fer una tasca determinada, com, per exemple, editar un document de text.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150717Z" creationid="fsanchez" creationdate="20161027T150717Z">
+        <seg>El uso de la palabra &lt;i5&gt;programa&lt;/i5&gt; en informática (secuencia de operaciones o acontecimientos) es paralelo a muchos usos de esta palabra en la vida cotidiana: programa &lt;i6&gt;de fiestas&lt;/i6&gt;, &lt;i7&gt;de un concierto&lt;/i7&gt;, &lt;i8&gt;de la lavadora&lt;/i8&gt;, etc.; aunque para el usuario un programa de ordenador es más parecido a una especie de caja de herramientas para hacer una tarea determinada, como, por ejemplo, editar un documento de texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La base de dades, en format TBX (vegeu l'apartat &lt;n1&gt;) es pot descarregar totalment o parcialment per a usar-la fora de línia.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104233Z" creationid="fsanchez" creationdate="20161025T104233Z">
