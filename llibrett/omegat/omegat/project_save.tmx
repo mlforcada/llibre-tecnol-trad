@@ -4438,6 +4438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, la pantalla, el processador central, el teclat, el ratolí, els xips&lt;p0&gt; de memòria i les impressores.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150646Z" creationid="fsanchez" creationdate="20161027T150646Z">
+        <seg>Por ejemplo, la pantalla, el procesador central, el teclado, el ratón, los chips&lt;p0&gt; de memoria y las impresoras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, la paraula &lt;i0&gt;sobre&lt;/i0&gt; pot ser un substantiu masculí singular, una preposició, i tres formes del verb &lt;i1&gt;sobrar&lt;/i1&gt; (present de subjuntiu, 1a.&lt;u0&gt;i 3a.&lt;u1&gt;persona del singular, i un imperatiu cortés de 3a.&lt;u2&gt;persona del singular).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122955Z" creationid="fsanchez" creationdate="20161010T122955Z">
@@ -5530,6 +5538,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090103Z" creationid="fsanchez" creationdate="20161025T090103Z">
         <seg>[Estado antes de empezar la búsqueda.]{ &lt;n3&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Maquinari] (o &lt;i0&gt;hardware&lt;/i0&gt;): l'equipament físic que es pot veure i tocar.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150642Z" creationid="fsanchez" creationdate="20161027T150642Z">
+        <seg>[&lt;i0&gt;Hardware&lt;/i0&gt;:] el equipo físico que se puede ver y tocar.</seg>
       </tuv>
     </tu>
     <tu>
