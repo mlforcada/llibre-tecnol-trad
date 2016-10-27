@@ -4126,6 +4126,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La major part dels actuals sistemes operatius són &lt;i2&gt;multiusuari&lt;/i2&gt;, és a dir, poden donar accés i suport a més d'una persona usuària alhora, i &lt;i3&gt;multitasca&lt;/i3&gt; (GNU/Linux, versions recents de Windows, MacOS).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153515Z" creationid="fsanchez" creationdate="20161027T153515Z">
+        <seg>La mayor parte de los actuales sistemas operativos son &lt;i2&gt;multiusuarios&lt;/i2&gt;, es decir, pueden ser usados por más de un usuario a la vez, y &lt;i3&gt;multitarea&lt;/i3&gt; (GNU/Linux, versiones recientes de Windows, MacOS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La major part dels gestor permeten que els termes usats en la definició d'un determinat terme es marquen &lt;i0&gt;remissions&lt;/i0&gt;, és a dir, enllaços actius a les fitxes on es defineixen.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104001Z" creationid="fsanchez" creationdate="20161025T104001Z">
