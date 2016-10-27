@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u0&gt; Fes que l'acumulador (un registre de la memòria interna del processador) valga 1.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153908Z" creationid="fsanchez" creationdate="20161027T153908Z">
+        <seg>&lt;n0&gt; &lt;u0&gt; Haz que el acumulador (un registro de la memoria interna del procesador) valga 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; &lt;i0&gt;http://&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;mailto:&lt;/i1&gt; &lt;u3&gt; L'esquema d'Internet</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141756Z" creationid="fsanchez" creationdate="20161019T141756Z">
@@ -598,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; Guarda el valor de l'acumulador en una posició de memòria que anomenarem &lt;i0&gt;índex&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153912Z" creationid="fsanchez" creationdate="20161027T153912Z">
+        <seg>&lt;u1&gt; Guarda el valor del acumulador en una posición de memoria que denominaremos &lt;i0&gt;índice&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; IATE (&lt;i0&gt;Inter-Active Terminology for Europe&lt;/i0&gt;, &lt;u3&gt;{http://iate.europa.eu/}) és la base de dades terminològica de referència de la Unió Europea i proporciona termes per a cada concepte en les 24 llengües oficials de la Unió Europea i en llatí.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104219Z" creationid="fsanchez" creationdate="20161025T104219Z">
@@ -890,6 +906,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114019Z" creationid="fsanchez" creationdate="20161014T114019Z">
         <seg>&lt;u2&gt; Estructural de origen coordinativo: no sabemos si el sintagma preposicional &lt;i2&gt;del partido&lt;/i2&gt; modifica sólo al segundo elemento &lt;i3&gt;el portavoz&lt;/i3&gt; o a todo el sintagma &lt;i4&gt;Expulsarán al portavoz&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Fes que l'acumulador valga 0.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153914Z" creationid="fsanchez" creationdate="20161027T153914Z">
+        <seg>&lt;u2&gt; Haz que el acumulador valga 0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1438,6 +1462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Guarda el valor de l'acumulador en una posició de memòria que anomenarem &lt;i1&gt;suma&lt;/i1&gt;, la qual contindrà la suma total.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153918Z" creationid="fsanchez" creationdate="20161027T153918Z">
+        <seg>&lt;u3&gt; Guarda el valor del acumulador en una posición de memoria que denominaremos &lt;i1&gt;suma&lt;/i1&gt;, la cual contendrá la suma total.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; L'ambigüitat és un dels problemes als quals ha d'enfrontar-se un traductor automàtic.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114353Z" creationid="fsanchez" creationdate="20161014T114353Z">
@@ -1698,6 +1730,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084446Z" creationid="fsanchez" creationdate="20161025T084446Z">
         <seg>&lt;u4&gt; &lt;i4&gt;Búsquedas o consultas:&lt;/i4&gt; buscar uno o más registros que cumplen un determinado criterio de búsqueda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; &lt;n1&gt; Carrega el valor de &lt;i2&gt;suma&lt;/i2&gt; en l'acumulador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153921Z" creationid="fsanchez" creationdate="20161027T153921Z">
+        <seg>&lt;u4&gt; &lt;n1&gt; Carga el valor de &lt;i2&gt;suma&lt;/i2&gt; en el acumulador.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2426,6 +2466,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142945Z" creationid="fsanchez" creationdate="20161009T142945Z">
         <seg>Cada una de las palabras viene de una palabra latina diferente: la primera de la palabra femenina &lt;i10&gt;capsa&lt;/i10&gt;, y la segunda de &lt;i11&gt;casus&lt;/i11&gt;, el participio de &lt;i12&gt;cado&lt;/i12&gt; `caer'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Cada una de les ordres es correspon amb una instrucció bàsica de les que pot entendre qualsevol processador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153904Z" creationid="fsanchez" creationdate="20161027T153904Z">
+        <seg>Cada una de las órdenes se corresponde con una instrucción básica de las que puede entender cualquier procesador.</seg>
       </tuv>
     </tu>
     <tu>
