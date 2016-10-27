@@ -6678,6 +6678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Processadors de llenguatges de programació:} les instruccions que executa el processador central d'un ordinador són massa senzilles perquè un programador humà en faça programes útils; seria llarg i enutjós, com hem vist en l'exemple de programa que sumava els enters de l'1 al 10.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154152Z" creationid="fsanchez" creationdate="20161027T154152Z">
+        <seg>{Procesadores de lenguajes de programación:} las instrucciones que ejecuta el procesador central de un ordenador son demasiado sencillas para que un programador humano haga programas útiles; sería largo y engorroso, como hemos visto en el ejemplo de programa que sumaba los enteros del 1 al 10.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{Recerques}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084952Z" creationid="fsanchez" creationdate="20161025T084952Z">
