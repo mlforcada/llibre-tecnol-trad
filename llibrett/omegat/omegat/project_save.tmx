@@ -2862,6 +2862,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els discos fixos (i els antics disquets) són dispositius d'emmagatzematge magnètic, poc més o menys com ho eren les antigues cassets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151807Z" creationid="fsanchez" creationdate="20161027T151807Z">
+        <seg>Los discos fijos (y los antiguos disquetes) son dispositivos de almacenamiento magnético, más o menos como lo eran los antiguos casetes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els elements ombrejats han sigut descartat durant la recerca, és a dir, sabem que l'element buscat no hi serà entre ells.}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090159Z" creationid="fsanchez" creationdate="20161025T090159Z">
