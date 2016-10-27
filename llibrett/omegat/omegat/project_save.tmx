@@ -2750,6 +2750,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De fet, per fidelitat al sistema binari, un kilooctet no té 1.000, sinó 1.024 octets ($2^{10}$ és $1.024$), és a dir 1.024$&lt;u4&gt;$8=8.192 bits.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T155916Z" creationid="fsanchez" creationdate="20161027T155916Z">
+        <seg>De hecho, por fidelidad al sistema binario, un kilobyte no tiene 1.000, sino 1.024 bytes ($2^{10}$ es $1.024$), es decir, 1.024$&lt;u4&gt;$8=8.192 bits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De l'ambigüitat d'aquestes unitats lèxiques, també se'n sol dir {&lt;u1&gt; ambigüitat lèxica pura}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143122Z" creationid="fsanchez" creationdate="20161009T143122Z">
