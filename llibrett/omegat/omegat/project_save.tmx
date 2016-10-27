@@ -2910,6 +2910,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El codi ASCII va ser el primer codi estàndard per a emmagatzemar textos; quan els textos són més rics i contenen informació sobre tipus i grandàries de lletra, diagramació, notes a peu de pàgina, etc., s'usen formats més avançats que s'expliquen en l'epígraf &lt;n2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154746Z" creationid="fsanchez" creationdate="20161027T154746Z">
+        <seg>El código ASCII fue el primer código estándar para almacenar textos; cuando los textos son más ricos y contienen información sobre tipos y tamaño de letra, diagramación, notas a pie de página, etc., se usan formatos más avanzados que se explican en el epígrafe &lt;n2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
