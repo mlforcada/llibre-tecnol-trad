@@ -3014,6 +3014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El nom sol ser normalment lliure, però l'extensió sol ser curta (entre una i quatre lletres) i el sistema operatiu la sol usar per a identificar el programa que s'ha d'usar per a processar-lo o el format en què es troben les dades que conté (per exemple, l'extensió &lt;i4&gt;.txt&lt;/i4&gt; identifica normalment un fitxer de text pla, vegeu l'apartat &lt;n0&gt;; l'extensió &lt;i5&gt;.exe&lt;/i5&gt; s'usa per als programes d'ordinador, etc.).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160538Z" creationid="fsanchez" creationdate="20161027T160538Z">
+        <seg>El nombre suele ser libre, pero la extensión suele ser corta (entre una y cuatro letras) y el sistema operativo suele usarla para identificar el programa que se debe usar para procesarlo o el formato en que se encuentran los datos que contiene (por ejemplo, la extensión &lt;i4&gt;.txt&lt;/i4&gt; identifica normalmente un fichero de texto plano, véase el apartado &lt;n0&gt;; la extensión &lt;i5&gt;.exe&lt;/i5&gt; se usa para los programas de ordenador, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El nostre proveïdor de serveis d'Internet assigna un número IP públic al nostre encaminador (&lt;i0&gt;router&lt;/i0&gt;), de manera que forme part d'Internet i puga facilitar l'accés a tots els dispositius de la nostra xarxa local (clients) a tots els serveis i documents disponibles en qualsevol màquina (servidora) d'Internet.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T135942Z" creationid="fsanchez" creationdate="20161019T135942Z">
