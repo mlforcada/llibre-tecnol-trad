@@ -574,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; &lt;i2&gt;megaoctets&lt;/i2&gt; o &lt;i3&gt;megabytes&lt;/i3&gt; (MB), o milions d'octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T155931Z" creationid="fsanchez" creationdate="20161027T155931Z">
+        <seg>&lt;u1&gt; &lt;i2&gt;megabytes&lt;/i2&gt; (MB), o millones de bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Ambigüitat estructural d'origen coordinatiu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115330Z" creationid="fsanchez" creationdate="20161014T115310Z">
