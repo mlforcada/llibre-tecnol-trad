@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n1&gt; &lt;u2&gt;[Programari específic per a professionals de la traducció:] sistemes de traducció automàtica (capítols &lt;n3&gt; a &lt;n4&gt;), sistemes de traducció assistida basats en memòries de traducció (capítol &lt;n5&gt;) i bases de dades terminològiques (capítol &lt;n6&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153658Z" creationid="fsanchez" creationdate="20161027T153658Z">
+        <seg>&lt;n1&gt; &lt;u2&gt;[Software específico para profesionales de la traducción:] sistemas de traducción automática (capítulos &lt;n3&gt; a &lt;n4&gt;), sistemas de traducción asistida basados en memorias de traducción (capítulo &lt;n5&gt;) y bases de datos terminológicas (capítulo &lt;n6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Açò se sol instrumentar a través d'un sistema que assigna &lt;i2&gt;puntuacions&lt;/i2&gt; per cada una de les característiques: se sumen les puntuacions per a tots els antecedents possibles i s'elegeix el que obté la puntuació més alta &lt;u5&gt;{lappin94j}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125356Z" creationid="fsanchez" creationdate="20161010T124959Z">
@@ -5418,6 +5426,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142213Z" creationid="fsanchez" creationdate="20161019T142213Z">
         <seg>Sakurako quiere convencer a Ahmed de que ella se descarga los ficheros MP3 más rápido que él, pero Ahmed le dice que en iguales condiciones él tarda menos en bajarse los ficheros, a veces la mitad de tiempo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Se'n podrien fer dos grups: &lt;n0&gt; &lt;u1&gt;[Programari d'ús específic:] programari dissenyat per a un usuari molt concret amb unes necessitats molt concretes: per exemple, el programa que gestiona els préstecs, les quotes i les adquisicions d'un videoclub, fet a mida per a ell.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153649Z" creationid="fsanchez" creationdate="20161027T153649Z">
+        <seg>Se podrían hacer dos grupos: &lt;n0&gt; &lt;u1&gt;[Software de uso específico:] software diseñado para un usuario muy concreto con unas necesidades muy concretas: por ejemplo, el programa que gestiona los préstamos, las cuotas y las adquisiciones de un videoclub, hecho a medida para él.</seg>
       </tuv>
     </tu>
     <tu>
