@@ -5342,6 +5342,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per raons històriques, els noms de fitxers solen tenir dues parts: el &lt;i1&gt;nom&lt;/i1&gt; pròpiament dit i l'&lt;i2&gt;extensió&lt;/i2&gt;, separades per un punt (per exemple, &lt;i3&gt;alacant.txt&lt;/i3&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160513Z" creationid="fsanchez" creationdate="20161027T160513Z">
+        <seg>Por razones históricas, los nombres de ficheros suelen tener dos partes: el &lt;i1&gt;nombre&lt;/i1&gt; propiamente dicho y la &lt;i2&gt;extensión&lt;/i2&gt;, separadas por un punto (por ejemplo, &lt;i3&gt;alacant.txt&lt;/i3&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per tant, cal considerar l'ús de preferències.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123044Z" creationid="fsanchez" creationdate="20161010T123044Z">
