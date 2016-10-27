@@ -2822,6 +2822,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El nom &lt;i0&gt;navegador&lt;/i0&gt; s'usa per l'analogia ---dèbil--- existent entre els mecanismes d'accés als documents de la Internet i la navegació mitjançant un mapa en una zona desconeguda.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153801Z" creationid="fsanchez" creationdate="20161027T153801Z">
+        <seg>El nombre &lt;i0&gt;navegador&lt;/i0&gt; se usa por la analogía ---débil--- existente entre los mecanismos de acceso a los documentos de Internet y la navegación mediante un mapa en una zona desconocida.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El nostre proveïdor de serveis d'Internet assigna un número IP públic al nostre encaminador (&lt;i0&gt;router&lt;/i0&gt;), de manera que forme part d'Internet i puga facilitar l'accés a tots els dispositius de la nostra xarxa local (clients) a tots els serveis i documents disponibles en qualsevol màquina (servidora) d'Internet.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T135942Z" creationid="fsanchez" creationdate="20161019T135942Z">
@@ -6086,6 +6094,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Jocs] de moltes classes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153810Z" creationid="fsanchez" creationdate="20161027T153810Z">
+        <seg>[Juegos] de muchas clases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Maquinari] (o &lt;i0&gt;hardware&lt;/i0&gt;): l'equipament físic que es pot veure i tocar.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150642Z" creationid="fsanchez" creationdate="20161027T150642Z">
@@ -6098,6 +6114,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151301Z" creationid="fsanchez" creationdate="20161027T151301Z">
         <seg>[Memoria secundaria:] memoria de largo plazo, permanente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Navegadors d'Internet:] &lt;n0&gt; programes que permeten accedir de manera senzilla als documents d'Internet en màquines connectades a aquesta xarxa.&lt;p0&gt; Vegeu la secció &lt;n1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153807Z" creationid="fsanchez" creationdate="20161027T153807Z">
+        <seg>[Navegadores de Internet:] &lt;n0&gt; programas que permiten acceder de manera sencilla a los documentos de Internet en máquinas conectadas a esta red.&lt;p0&gt; Véase la sección &lt;n1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
