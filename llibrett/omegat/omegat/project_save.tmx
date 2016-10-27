@@ -3942,6 +3942,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La informació s'emmagatzema fent servir les propietats magnètiques de determinats materials magnetitzables.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151812Z" creationid="fsanchez" creationdate="20161027T151812Z">
+        <seg>La información se almacena haciendo servir las propiedades magnéticas de determinados materiales magnetizables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La intenció de TERMCAT és principalment normativa: s'hi associa a cada concepte el terme preferit en català (i també els termes usuals en espanyol, anglés, francés, etc.).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104150Z" creationid="fsanchez" creationdate="20161025T104150Z">
