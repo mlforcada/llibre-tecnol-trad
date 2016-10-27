@@ -1862,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A més, la majoria dels sistemes actuals contenen també una GPU (&lt;i1&gt;graphic processing unit&lt;/i1&gt;, unitat de processament de gràfics), una CPU especialitzada en el tractament d'imatges però que també es pot usar per a altres tasques computacionalment molt intensives.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151036Z" creationid="fsanchez" creationdate="20161027T151036Z">
+        <seg>Además, la mayoría de los sistemas actuales contienen también una GPU (&lt;i1&gt;graphics processing unit&lt;/i1&gt;, unidad de procesamiento de gráficos), una CPU especializada en el tratamiento de imágenes, pero que también se puede usar para otras tareas computacionalmente intensivas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A més, per reduir el tràfic a Internet els proveïdors de serveis d'Internet i els servidors de noms consultats també es guarden temporalment aquesta informació de manera que no sempre es desencadena el procés complet de consultes descrit.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150609Z" creationid="fsanchez" creationdate="20161018T150609Z">
