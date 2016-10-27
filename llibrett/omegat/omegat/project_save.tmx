@@ -2934,6 +2934,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Dos fitxers ---també dos directoris--- només poden tenir el mateix nom si es troben en directoris diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160436Z" creationid="fsanchez" creationdate="20161027T160436Z">
+        <seg>Dos ficheros --- también dos directorios --- sólo pueden tener el mismo nombre si se encuentran en directorios diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Dues de les quatre combinacions tenen sentit.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114703Z" creationid="fsanchez" creationdate="20161014T114703Z">
@@ -4850,6 +4858,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151106Z" creationid="fsanchez" creationdate="20161027T151106Z">
         <seg>Normalmente, una instrucción requiere unos cuantos ciclos de procesamiento para ser ejecutada, aunque algunos sistemas son capaces de procesar más de una instrucción al mismo tiempo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Normalment, cada disc té un {&lt;u0&gt; directori principal} o &lt;i0&gt;directori arrel&lt;/i0&gt; (el més elevat en la jerarquia de directoris), dins del qual es troba tota la resta de directoris.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160430Z" creationid="fsanchez" creationdate="20161027T160430Z">
+        <seg>Normalmente, cada disco tiene un {&lt;u0&gt; directorio principal} o &lt;i0&gt; directorio raíz&lt;/i0&gt; (el más elevado en la jerarquía de directorios), dentro del cual se encuentra el resto de directorios.</seg>
       </tuv>
     </tu>
     <tu>
