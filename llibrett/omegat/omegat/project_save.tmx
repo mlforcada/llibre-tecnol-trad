@@ -5862,6 +5862,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si són de colors, cal més d'un bit per a cada punt.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154854Z" creationid="fsanchez" creationdate="20161027T154854Z">
+        <seg>Si son de colores, hay más de un bit por cada punto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si traduim automàticament la frase catalana &lt;i0&gt;Hilari no coneix bé la Mariona: cada dia troba sorprenent el que fa&lt;/i0&gt; i obtenim en anglés &lt;i1&gt;Hilari does not know Mariona well: every day he finds what he does astonishing&lt;/i1&gt; o en francés &lt;i2&gt;Hilari ne connaît pas bien Mariona: tous les jours elle trouve ce qu'il fait etonnant&lt;/i2&gt;, quin tipus d'ambigüitat ha estat mal resolta?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113133Z" creationid="fsanchez" creationdate="20161010T142709Z">
