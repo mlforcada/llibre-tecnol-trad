@@ -2574,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com ja s'ha dit en la pàgina &lt;n0&gt;, és comú que les dades ---de qualsevol classe: textos, instruccions de programa, dades gràfiques, de so, de vídeo, etc.--- emmagatzemades en memòria secundària estiguen organitzades en {&lt;u0&gt; fitxers}, també anomenats &lt;i0&gt;documents&lt;/i0&gt; o &lt;i1&gt;arxius&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160151Z" creationid="fsanchez" creationdate="20161027T160151Z">
+        <seg>Como ya se ha dicho en la página &lt;n0&gt;, es habitual que los datos ---de cualquier clase: textos, instrucciones de programas, datos gráficos, sonido, vídeo, etc.--- almacenados en memoria secundaria estén organizados en {&lt;u0&gt; ficheros}, también llamados &lt;i0&gt;documentos&lt;/i0&gt; o &lt;i1&gt;archivos&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com que &lt;i3&gt;sobre&lt;/i3&gt; va seguit de &lt;i4&gt;de&lt;/i4&gt;, que només pot ser preposició, podem descartar que &lt;i5&gt;sobre&lt;/i5&gt; siga una preposició.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123022Z" creationid="fsanchez" creationdate="20161010T123022Z">
@@ -3258,6 +3266,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145235Z" creationid="fsanchez" creationdate="20161018T145235Z">
         <seg>Los enteros iniciales se usan para designar grandes subredes, mientras que los finales se usan para designar redes más pequeñas, y dentro de éstas, ordenadores concretos (en esto recuerdan a los números de teléfono: dos abonados próximos normalmente comparten las cifras iniciales).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els fitxers són conjunts de dades amb un nom que els identifica i que es manipulen ---s'obrin, es tanquen, es copien, s'esborren--- com un tot.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160219Z" creationid="fsanchez" creationdate="20161027T160219Z">
+        <seg>Los ficheros son conjuntos de datos con un nombre que los identifica y que se manipulan ---se abren, se cierran, se copian, se borran--- como un todo.</seg>
       </tuv>
     </tu>
     <tu>
