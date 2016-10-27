@@ -5686,6 +5686,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Emmagatzematge:] els dispositius d'emmagatzematge es poden dividir en dos grups: &lt;n0&gt; &lt;u1&gt;[Memòria primària:] memòria ràpida de curt termini, volàtil (s'esborra quan s'apaga l'ordinador), que serveix per a guardar-hi programes i dades mentre l'ordinador està funcionant; si els programes i les dades no caben en la memòria primària, el sistema operatiu ---vegeu l'apartat &lt;n1&gt;--- s'encarrega de copiar-los de la memòria al disc dur quan no s'estan usant i copiar-los de tornada del disc dur a la memòria quan són necessaris, operació que s'anomena &lt;i0&gt;intercanvi&lt;/i0&gt;.&lt;p0&gt; La memòria primària normalment consisteix en xips RAM (&lt;i2&gt;random-access memory&lt;/i2&gt;, memòria d'accés aleatori&lt;p1&gt;) de silici.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151254Z" creationid="fsanchez" creationdate="20161027T151254Z">
+        <seg>[Almacenamiento:] los dispositivos de almacenamiento se pueden dividir en dos grupos: &lt;n0&gt; &lt;u1&gt;[Memoria primaria:] memoria rápida a corto plazo, volátil (se borra cuando se apaga el ordenador), que sirve para guardar los programas y datos mientras el ordenador está en funcionamiento; si los programas y los datos no caben en la memoria primaria, el sistema operativo ---véase el apartado &lt;n1&gt;--- se encarga de copiarlos desde la memoria al disco duro cuando no se están usando y copiarlos de vuelta desde el disco duro a la memoria cuando son necesarios, operación que se llama &lt;i0&gt;intercambio&lt;/i0&gt;.&lt;p0&gt; La memoria primaria normalmente consiste en chips RAM (&lt;i2&gt;random-access memory&lt;/i2&gt;, memoria de acceso aleatorio&lt;p1&gt;) de silicio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Estat abans de començar la recerca.]{ &lt;n3&gt;{|l||l||l||l||l|}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090103Z" creationid="fsanchez" creationdate="20161025T090103Z">
@@ -5698,6 +5706,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150642Z" creationid="fsanchez" creationdate="20161027T150642Z">
         <seg>[&lt;i0&gt;Hardware&lt;/i0&gt;:] el equipo físico que se puede ver y tocar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Memòria secundària:] memòria de llarg termini, permanent.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151301Z" creationid="fsanchez" creationdate="20161027T151301Z">
+        <seg>[Memoria secundaria:] memoria de largo plazo, permanente.</seg>
       </tuv>
     </tu>
     <tu>
