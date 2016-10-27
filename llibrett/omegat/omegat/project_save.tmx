@@ -2462,6 +2462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>D'altra banda, el sistema operatiu ofereix serveis bàsics (vegeu més avall) als programes d'aplicació que s'executen en l'ordinador (els quals poden tenir la seua pròpia interfície d'ús).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152935Z" creationid="fsanchez" creationdate="20161027T152935Z">
+        <seg>Por otro lado, el sistema operativo ofrece servicios básicos (véase más abajo) a los programas de aplicación que se ejecutan en el ordenador (los cuales pueden tener su propia interfaz de uso).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>D'altra banda, els registres de les bases de dades usades per a la gestió d'un videoclub contenen camps per a emmagatzemar la informació referent als socis (com ara, el nom, el telèfon o el domicili), a les pel·lícules (el títol, la persona que l'ha dirigida o el nombre de còpies disponibles) i als préstecs (les dades d'inici i termini del préstec o el preu de lloguer).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084312Z" creationid="fsanchez" creationdate="20161025T084312Z">
