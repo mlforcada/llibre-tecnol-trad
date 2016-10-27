@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(GNU/Linux, Windows, MacOS, iOS, Android); antigament, els sistemes operatius eren de {&lt;u0&gt; línia d'ordres}, és a dir, basats en text (Unix primigeni, MS-DOS).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152959Z" creationid="fsanchez" creationdate="20161027T152959Z">
+        <seg>(GNU/Linux, Windows, MacOS, iOS, Android); antiguamente, los sistemas operativos eran de {&lt;u0&gt; línea de órdenes}, es decir, basados en texto (Unix primigenio, MS-DOS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(a) &lt;u1&gt; (b) &lt;u2&gt; (a) &lt;u3&gt; (b): Cada número del 0 al 255 es pot emmagatzemar en 8 bits ($2^8=256$) i n'hi ha quatre: $8&lt;u5&gt; 4=32$.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144530Z" creationid="fsanchez" creationdate="20161019T144530Z">
@@ -5106,6 +5114,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105157Z" creationid="fsanchez" creationdate="20161025T105157Z">
         <seg>Cuando queremos tener los registros (las fichas) de una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas construimos dos índices.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quant a la &lt;i0&gt;interfície d'ús&lt;/i0&gt;, és a dir, l'aparença i la forma d'interaccionar amb l'usuari, la majoria dels sistemes operatius són &lt;i1&gt;gràfics&lt;/i1&gt;, és a dir, basats en ratolí o pantalla tàctil, punters, finestres, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152951Z" creationid="fsanchez" creationdate="20161027T152951Z">
+        <seg>En cuanto a la &lt;i0&gt;interfaz de uso&lt;/i0&gt;, es decir, la apariencia y la forma de interaccionar con el usuario, la mayoría de los sistemas operativos son &lt;i1&gt;gráficos&lt;/i1&gt;, es decir, basados en ratón o pantalla táctil, punteros, ventanas, etc.</seg>
       </tuv>
     </tu>
     <tu>
