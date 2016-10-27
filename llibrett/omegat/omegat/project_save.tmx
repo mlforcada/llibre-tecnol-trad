@@ -5446,6 +5446,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un CD-ROM de música és d'accés aleatori perquè podem accedir a la setzena cançó directament; en canvi, un casset (cinta magnètica) és d'accés seqüencial perquè per a accedir a la setzena cançó hem de passar per les 15 cançons anteriors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151219Z" creationid="fsanchez" creationdate="20161027T151219Z">
+        <seg>Un CD-ROM de música es de acceso aleatorio porque podemos acceder a la decimosexta canción directamente; en cambio, un casete (cinta magnética) es de acceso secuencial porque para acceder a la decimosexta canción directamente tenemos que pasar por las 15 anteriores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un URI té generalment tres parts, encara que s'hi donen algunes variacions i una d'elles no és obligatòria: &lt;n0&gt; &lt;u0&gt;[esquema:] indica la classe de recurs i com l'ha d'usar l'ordinador sol·licitant (o &lt;i0&gt;client&lt;/i0&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150821Z" creationid="fsanchez" creationdate="20161018T150821Z">
