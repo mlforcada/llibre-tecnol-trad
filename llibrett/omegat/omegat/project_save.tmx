@@ -1982,6 +1982,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Altres dispositius d'eixida són les impressores, els altaveus, els vibradors dels dispositius mòbils, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152702Z" creationid="fsanchez" creationdate="20161027T152702Z">
+        <seg>Otros dispositivos de salida son las impresoras, los altavoces, los vibradores de los dispositivos móviles, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Altres esquemes són &lt;i1&gt;rtsp://&lt;/i1&gt;, &lt;i2&gt;real-time streaming protocol&lt;/i2&gt;, per a enllaçar contingut com ara vídeo, àudio, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151152Z" creationid="fsanchez" creationdate="20161018T151152Z">
@@ -3302,6 +3310,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En la figura &lt;n1&gt; es resumeix esquemàticament el maquinari d'un ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152704Z" creationid="fsanchez" creationdate="20161027T152704Z">
+        <seg>En la figura &lt;n1&gt; se resume esquemáticamente el hardware de un ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En la frase &lt;n1&gt; Vaig obrir [la porta]$_i$ a [la cuinera]$_j$ i la$_{i/j?}$ vaig fer passar &lt;n2&gt; els índexs ($i$, $j$, $i/j?$) indiquen que el pronom feble &lt;i7&gt;la&lt;/i7&gt; es pot referir a la mateixa persona a la qual ens hem referit amb el sintagma nominal &lt;i8&gt;la cuinera&lt;/i8&gt;, però no hi ha cap raó sintàctica perquè el referent no siga el mateix que el del sintagma &lt;i9&gt;la porta&lt;/i9&gt;: aquesta pot ser una possible causa d'ambigüitat en la segona oració coordinada.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143751Z" creationid="fsanchez" creationdate="20161009T143751Z">
@@ -3650,6 +3666,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152617Z" creationid="fsanchez" creationdate="20161009T152617Z">
         <seg>Hay involucrados aspectos sintácticos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha tres classes bàsiques de programari:</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152715Z" creationid="fsanchez" creationdate="20161027T152715Z">
+        <seg>Hay tres tipos básicos de software:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4914,6 +4938,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142501Z" creationid="fsanchez" creationdate="20161010T142501Z">
         <seg>¿Puede una oración tener más de una traducción a otro idioma a pesar de estar formada completamente por palabras que no son ni homógrafas ni polisémicas en la lengua original?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Programari</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152714Z" creationid="fsanchez" creationdate="20161027T152714Z">
+        <seg>Software</seg>
       </tuv>
     </tu>
     <tu>
@@ -6194,6 +6226,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T121046Z" creationid="fsanchez" creationdate="20161019T121046Z">
         <seg>{Esquema de acceso doméstico a Internet desde varios dispositivos conectados a un módem-encaminador.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Esquema del maquinari d'un ordinador.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152712Z" creationid="fsanchez" creationdate="20161027T152712Z">
+        <seg>{Esquema del hardware de un ordenador.}</seg>
       </tuv>
     </tu>
     <tu>
