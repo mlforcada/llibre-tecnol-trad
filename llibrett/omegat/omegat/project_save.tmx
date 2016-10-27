@@ -4046,6 +4046,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La manera més comuna d'emmagatzemar les dades en memòria secundària és organitzar-les en {&lt;u0&gt; fitxers} o &lt;i0&gt;documents&lt;/i0&gt; organitzats en &lt;i1&gt;directoris&lt;/i1&gt; o &lt;i2&gt;carpetes&lt;/i2&gt;; la secció &lt;n0&gt; explica aquests conceptes amb detall.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152059Z" creationid="fsanchez" creationdate="20161027T152059Z">
+        <seg>La manera más común de almacenar los datos en una memoria secundaria es organizarlos en {&lt;u0&gt; ficheros} o &lt;i0&gt;documentos&lt;/i0&gt; organizados en &lt;i1&gt;directorios&lt;/i1&gt; o &lt;i2&gt;carpetas&lt;/i2&gt;; la sección &lt;n0&gt; explica estos conceptos en detalle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La memòria ROM sol estar feta de xips de silici.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152001Z" creationid="fsanchez" creationdate="20161027T152001Z">
