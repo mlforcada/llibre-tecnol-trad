@@ -2662,6 +2662,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El DVD (&lt;i0&gt;digital versatil dics&lt;/i0&gt;)&lt;p0&gt; és un tipus més avançat de sistemes d'emmagatzematge basat en discs òptics; bàsicament, es tracta d'un CD més ràpid i amb més capacitat, que ha desplaçat quasi completament els CD-ROM.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152034Z" creationid="fsanchez" creationdate="20161027T152034Z">
+        <seg>El DVD (&lt;i0&gt;digital versatil dics&lt;/i0&gt;)&lt;p0&gt; es un tipo más avanzado de sistemas de almacenamiento basado en discos ópticos; básicamente, se trata de un CD más rápido y con más capacidad, que ha desplazado casi completamente a los CD-ROM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El contingut no determina completament la forma&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140708Z" creationid="fsanchez" creationdate="20161009T140708Z">
@@ -3962,6 +3970,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151854Z" creationid="fsanchez" creationdate="20161027T151854Z">
         <seg>El tamaño de estas memorias puede llegar hasta 1 TB, a pesar de que los tamaños más típicos son 16, 32 y 64 GB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La grandària d'un DVD depén del tipus de DVD i sols estar entre 4,7 GB i 17 GB.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152042Z" creationid="fsanchez" creationdate="20161027T152042Z">
+        <seg>El tamaño de un DVD depende del tipo de DVD y suele estar entre 4,7 GB y 17 GB.</seg>
       </tuv>
     </tu>
     <tu>
