@@ -3654,6 +3654,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En les imatges en blanc i negre, cada punt és un bit; una pantalla d'ordinador en conté més o menys un milió.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154847Z" creationid="fsanchez" creationdate="20161027T154847Z">
+        <seg>En las imágenes en blanco y negro, cada punto es un bit, una pantalla de ordenador contiene más o menos un millón.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En paraules de &lt;u2&gt;t[p. 364]{radford99b} ``hem de reconéixer [l'existència] d'un buit inacceptable entre el que proporciona la sintaxi i el que la semàntica necessita en el cas d'oracions que continguen sintagmes nominals quantificats''.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122519Z" creationid="fsanchez" creationdate="20161010T122519Z">
@@ -5158,6 +5166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, un document de text com aquest té desenes de milers de caràcters, i una enciclopèdia, centenars de milions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154842Z" creationid="fsanchez" creationdate="20161027T154842Z">
+        <seg>Por ejemplo, un documento de texto como éste tiene decenas de miles de caracteres, y una enciclopedia, cientos de millones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, un nom podria ser &lt;i3&gt;altea.dlsi.ua.es&lt;/i3&gt;, on &lt;i4&gt;altea&lt;/i4&gt; es refereix a una màquina concreta del Departament de Llenguatges i Sistemes Informàtics (&lt;i5&gt;dlsi&lt;/i5&gt;) de la Universitat d'Alacant (&lt;i6&gt;ua&lt;/i6&gt;), que es troba a Espanya (&lt;i7&gt;es&lt;/i7&gt;); aquest ordre és l'invers al dels números IP (en això els noms s'assemblen a les adreces postals: primer es dóna el més concret i al final el país).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145339Z" creationid="fsanchez" creationdate="20161018T145339Z">
@@ -6138,6 +6154,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142135Z" creationid="fsanchez" creationdate="20161009T142135Z">
         <seg>Una palabra (y, en general, una unidad léxica de más de una palabra) se puede ver desde dos perspectivas; por un lado, la &lt;i0&gt;forma superficial&lt;/i0&gt; de la palabra es la forma concreta que aparece en el texto: &lt;i1&gt;cantábamos&lt;/i1&gt;; por otra parte, tenemos la &lt;i2&gt;forma léxica&lt;/i2&gt;, que consiste en &lt;n3&gt; &lt;u1&gt; un &lt;i3&gt;lema&lt;/i3&gt; o &lt;i4&gt;forma canónica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u2&gt; una &lt;i6&gt;categoría léxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; clase de palabra, o parte de la oración (verbo) y &lt;u3&gt; unos &lt;i7&gt;indicadores de flexión&lt;/i7&gt; que expresan las características morfológicas o flexivas (primera persona, nombre plural, tiempo pretérito imperfecto, modo indicativo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un octet pot contenir, per tant, molt poca informació (un caràcter, una instrucció senzilla del processador central, un nombre de 0 (``{&lt;u5&gt; 00000000}'') a 255 (``{&lt;u6&gt; 11111111}''), etc.).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154836Z" creationid="fsanchez" creationdate="20161027T154836Z">
+        <seg>Un byte puede contener, por tanto, muy poca información (un carácter, una instrucción sencilla del procesador central, un número del 0 (``{&lt;u5&gt; 00000000}'') al 255 (``{&lt;u6&gt; 11111111}''), etc.).</seg>
       </tuv>
     </tu>
     <tu>
