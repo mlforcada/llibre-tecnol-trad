@@ -2774,6 +2774,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El xip és l'element bàsic de la microelectrònica i de la microinformàtica; es tracta d'un o més circuits integrats en una placa de silici de dimensions molt reduïdes, que normalment es col·loca en una capsa hermètica amb contactes metàl·lics.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150626Z" creationid="fsanchez" creationdate="20161027T150626Z">
+        <seg>El chip es el elemento básico de la microelectrónica y de la microinformática; se trata de uno o más circuitos integrados en una placa de silicio de dimensiones muy reducidas, que normalmente se coloca en una caja hermética con contactos metálicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Elegiu dues llengües, $L_1$ i $L_2$ i poseu dos exemples de traduccions errònies de $L_1$ a $L_2$, indicant la frase original, la frase mal traduïda i la frase correcta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142437Z" creationid="fsanchez" creationdate="20161010T142437Z">
