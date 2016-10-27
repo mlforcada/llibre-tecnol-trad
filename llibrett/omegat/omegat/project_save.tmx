@@ -3046,6 +3046,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En anglés &lt;i1&gt;swapping&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151111Z" creationid="fsanchez" creationdate="20161027T151111Z">
+        <seg>En inglés &lt;i1&gt;swapping&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En aquest capítol ens fixarem molt especialment en l'ambigüitat de les oracions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141529Z" creationid="fsanchez" creationdate="20161009T141529Z">
@@ -4038,6 +4046,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La velocitat típica de la CPU d'un ordinador en l'actualitat és de 3 GHz.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151109Z" creationid="fsanchez" creationdate="20161027T151109Z">
+        <seg>La velocidad típica de la CPU de un ordenador en la actualidad es de 3 Ghz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les &lt;i0&gt;restriccions&lt;/i0&gt; es poden basar en informació morfològica, sintàctica, o fins i tot semàntica; tot depén del nivell d'anàlisi que estiga disponible: &lt;n0&gt; &lt;u0&gt; Un pronom masculí no pot tenir un antecedent femení (restricció morfològica): &lt;i1&gt;Maria&lt;/i1&gt; no pot ser l'antecedent de &lt;i2&gt;ell&lt;/i2&gt; en l'oració &lt;i3&gt;Maria es va passar tot el dia parlant d'ell&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123923Z" creationid="fsanchez" creationdate="20161010T123852Z">
@@ -4218,6 +4234,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T121032Z" creationid="fsanchez" creationdate="20161019T121009Z">
         <seg>Normalmente los módems que nos venden los proveedores de servicios de Internet son al mismo tiempo módem y encaminador (en inglés &lt;i2&gt;router&lt;/i2&gt;) para permitir que conectemos más de un dispositivo, normalmente a través de una conexión inalámbrica Wi-Fi, formando una red local (en inglés &lt;i3&gt;local area network&lt;/i3&gt;, LAN).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Normalment una instrucció requereix d'uns pocs cicles de processament per ser executada, tot i que alguns sistemes són capaços de processar més d'una instrucció al mateix temps.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151106Z" creationid="fsanchez" creationdate="20161027T151106Z">
+        <seg>Normalmente, una instrucción requiere unos cuantos ciclos de procesamiento para ser ejecutada, aunque algunos sistemas son capaces de procesar más de una instrucción al mismo tiempo.</seg>
       </tuv>
     </tu>
     <tu>
