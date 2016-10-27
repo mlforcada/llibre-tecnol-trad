@@ -2310,6 +2310,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com en el cas dels CD, podem parlar de DVD-ROM, DVD-R i DVD-RW.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152015Z" creationid="fsanchez" creationdate="20161027T152015Z">
+        <seg>Como en el caso de los CD, podemos hablar de DVD-ROM, DVD-R y DVD-RW.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com hem vist, les causes de l'ambigüitat són molt diverses; per això, també són molt diverses les estratègies de resolució.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122727Z" creationid="fsanchez" creationdate="20161010T122727Z">
@@ -2842,6 +2850,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145822Z" creationid="fsanchez" creationdate="20161018T145822Z">
         <seg>Los &lt;i1&gt;servidores de nombres&lt;/i1&gt; se organizan de forma que se distribuyen la información de manera jerárquica haciendo uso del &lt;i2&gt;sistema de nombres de dominio&lt;/i2&gt; (en inglés, &lt;i3&gt;domain name system&lt;/i3&gt; o DNS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els CD-ROM (&lt;i0&gt;compact dics read-only memory&lt;/i0&gt;) ---idèntics en aparença i similars en molts aspectes als CD de música--- emmagatzemen la informació òpticament.&lt;p0&gt; La grandària d'un CR-ROM sol ser de 650 MB o de 700 MB.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152011Z" creationid="fsanchez" creationdate="20161027T152011Z">
+        <seg>Los CD-ROM (&lt;i0&gt;compact dics read-only memory&lt;/i0&gt;) ---idénticos en apariencia y similares en muchos aspectos a los CD de música--- almacenan la información ópticamente.&lt;p0&gt; El tamaño de un CR-ROM suele ser de 650 MB o de 700 MB.</seg>
       </tuv>
     </tu>
     <tu>
