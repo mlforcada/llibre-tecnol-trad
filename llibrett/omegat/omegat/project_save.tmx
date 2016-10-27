@@ -4254,6 +4254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Noteu la diferència entre &lt;i3&gt;accés aleatori&lt;/i3&gt; (a voluntat) i &lt;i4&gt;accés seqüencial&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151140Z" creationid="fsanchez" creationdate="20161027T151140Z">
+        <seg>Nótese la diferencia entre &lt;i3&gt;acceso aleatorio&lt;/i3&gt; (a voluntad) y &lt;i4&gt;acceso secuencial&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>O alguna altra persona?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144010Z" creationid="fsanchez" creationdate="20161009T144010Z">
