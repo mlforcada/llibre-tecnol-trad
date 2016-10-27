@@ -654,6 +654,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt;[Gestors de bases de dades] &lt;n0&gt; que serveixen per a emmagatzemar, organitzar i gestionar de diverses maneres la informació continguda en &lt;i0&gt;bases&lt;/i0&gt; o bancs de dades (vegeu el capítol &lt;n1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153750Z" creationid="fsanchez" creationdate="20161027T153750Z">
+        <seg>&lt;u1&gt;[Gestores de bases de datos] &lt;n0&gt; que sirven para almacenar, organizar y gestionar de varias maneras la información contenida en &lt;i0&gt;bases&lt;/i0&gt; o bancos de datos (véase el capítulo &lt;n1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt;[Google+] es pot veure com la resposta de Google a Facebook; en Google+ el concepte bàsic és el del &lt;i4&gt;cercle&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120512Z" creationid="fsanchez" creationdate="20161019T120512Z">
@@ -1970,6 +1978,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104536Z" creationid="fsanchez" creationdate="20161025T104536Z">
         <seg>Antes del cuerpo (&lt;i3&gt;body&lt;/i3&gt;), el elemento raíz {&lt;u2&gt; martif} contiene una cabecera (&lt;i4&gt;martifHeader&lt;/i4&gt;) con información sobre el origen de la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Ací en teniu alguns exemples: &lt;n2&gt; &lt;u4&gt;[Editors i processadors de text] per a preparar, modificar, emmagatzemar i imprimir documents de text (vegeu la secció &lt;n7&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153720Z" creationid="fsanchez" creationdate="20161027T153720Z">
+        <seg>Aquí tenéis algunos ejemplos: &lt;n2&gt; &lt;u4&gt;[Editores y procesadores de texto] para preparar, modificar, almacenar e imprimir documentos de texto (véase la sección &lt;n7&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6058,6 +6074,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090103Z" creationid="fsanchez" creationdate="20161025T090103Z">
         <seg>[Estado antes de empezar la búsqueda.]{ &lt;n3&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Fulls de càlcul,] que permeten automatitzar càlculs que es repeteixen sobre un conjunt més o menys gran de dades (per exemple, per a calcular la nota mitjana de cada estudiant d'una classe sencera a partir de les notes parcials), i presentar-ne els resultats de diverses maneres, per exemple, en gràfics de molts tipus.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153740Z" creationid="fsanchez" creationdate="20161027T153740Z">
+        <seg>[Hojas de cálculo,] que permiten automatizar cálculos que se repiten sobre un conjunto más o menos grande de datos (por ejemplo, para calcular la nota media de cada estudiante de una clase entera a partir de las notas parciales), y presentar los resultados de varias maneras, por ejemplo, en gráficos de muchos tipos.</seg>
       </tuv>
     </tu>
     <tu>
