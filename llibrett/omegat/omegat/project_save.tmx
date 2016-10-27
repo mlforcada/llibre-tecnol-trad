@@ -526,6 +526,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u11&gt; Guarda el valor de l'acumulador en &lt;i6&gt;índex&lt;/i6&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153936Z" creationid="fsanchez" creationdate="20161027T153936Z">
+        <seg>&lt;u11&gt; Guarda el valor del acumulador en &lt;i6&gt;índice&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u12&gt; Salta a la instrucció &lt;n4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153937Z" creationid="fsanchez" creationdate="20161027T153937Z">
+        <seg>&lt;u12&gt; Salta a la instrucción &lt;n4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; &lt;i1&gt;Altes o addicions:&lt;/i1&gt; afegir un nou registre a la base de dades, tot fent que els seus camps prenguen els valors corresponents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084410Z" creationid="fsanchez" creationdate="20161025T084410Z">
@@ -1838,6 +1854,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt; Suma el valor d'&lt;i3&gt;índex&lt;/i3&gt; a l'acumulador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153923Z" creationid="fsanchez" creationdate="20161027T153923Z">
+        <seg>&lt;u5&gt; Suma el valor de &lt;i3&gt;índice&lt;/i3&gt; al acumulador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt;[(b)] No hi ha cap dona que s'estime els abrics de pell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122447Z" creationid="fsanchez" creationdate="20161010T122447Z">
@@ -1886,6 +1910,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u6&gt; Guarda el valor de l'acumulador en &lt;i4&gt;suma&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153925Z" creationid="fsanchez" creationdate="20161027T153925Z">
+        <seg>&lt;u6&gt; Guarda el valor del acumulador en &lt;i4&gt;suma&lt;/i4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u6&gt; L'oració és ambigua per polisèmia (ambigüitat lèxica) del substantiu &lt;i27&gt;finestra&lt;/i27&gt; (de la paret/ del sistema operatiu)</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115258Z" creationid="fsanchez" creationdate="20161014T115258Z">
@@ -1918,6 +1950,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u7&gt; Carrega el valor d'&lt;i5&gt;índex&lt;/i5&gt; en l'acumulador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153927Z" creationid="fsanchez" creationdate="20161027T153927Z">
+        <seg>&lt;u7&gt; Carga el valor de &lt;i5&gt;índice&lt;/i5&gt; en el acumulador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u7&gt; Informació sobre la morfologia o la flexió del terme en cada una de les llengües.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104026Z" creationid="fsanchez" creationdate="20161025T104026Z">
@@ -1930,6 +1970,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085453Z" creationid="fsanchez" creationdate="20161025T085453Z">
         <seg>&lt;u8&gt; 9ª consulta: o la encontramos, o tenemos que buscar en 2 fichas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u8&gt; Compara el valor de l'acumulador amb 10.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153929Z" creationid="fsanchez" creationdate="20161027T153929Z">
+        <seg>&lt;u8&gt; Compara el valor del acumulador con 10.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1954,6 +2002,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085459Z" creationid="fsanchez" creationdate="20161025T085459Z">
         <seg>&lt;u9&gt; 10ª consulta: o la encontramos, o tenemos que buscar en 1 ficha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u9&gt; Si és igual, salta a la instrucció &lt;n3&gt; &lt;u10&gt; Incrementa en 1 el valor de l'acumulador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153934Z" creationid="fsanchez" creationdate="20161027T153934Z">
+        <seg>&lt;u9&gt; Si es igual, salta a la instrucción &lt;n3&gt; &lt;u10&gt; Incrementa en 1 el valor del acumulador.</seg>
       </tuv>
     </tu>
     <tu>
