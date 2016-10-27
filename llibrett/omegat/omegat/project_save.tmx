@@ -4534,6 +4534,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, un processador de textos com LibreOffice o Microsoft Word pot estar compost per més d'un &lt;i3&gt;programa&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150805Z" creationid="fsanchez" creationdate="20161027T150805Z">
+        <seg>Por ejemplo, un procesador de textos como LibreOffice o Microsoft Word puede estar compuesto por más de un &lt;i3&gt;programa&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, una adreça electrònica vàlida podria ser &lt;n0&gt; &lt;i1&gt;marty.mcfly@backtothefuture.info&lt;/i1&gt; &lt;n1&gt; A vegades, podem usar la nostra adreça de correu electrònic per a identificar-nos a l'hora d'accedir a alguns dels serveix que s'ofereixen en Internet, com ara els serveix de xarxes socials (vegeu l'apartat &lt;n2&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115823Z" creationid="fsanchez" creationdate="20161019T115823Z">
@@ -5570,6 +5578,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090115Z" creationid="fsanchez" creationdate="20161025T090115Z">
         <seg>[Primer paso: miramos el elemento 13 y nos quedamos con la mitad baja de la lista.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Programari] (o &lt;i0&gt;software&lt;/i0&gt;): un o més &lt;i1&gt;programes&lt;/i1&gt; (i les dades associades) que fan alguna funció útil per a la persona usuària o per a un altre &lt;i2&gt;programa&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150800Z" creationid="fsanchez" creationdate="20161027T150800Z">
+        <seg>[&lt;i0&gt;Software&lt;/i0&gt;]: uno o más &lt;i1&gt;programas&lt;/i1&gt; (y los datos asociados) que realizan alguna función útil para el usuario o para otro &lt;i2&gt;programa&lt;/i2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
