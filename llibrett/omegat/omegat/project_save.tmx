@@ -5278,6 +5278,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Tots els sistemes informàtics&lt;p0&gt; es poden dividir en dues parts: &lt;i0&gt;maquinari&lt;/i0&gt; i &lt;i1&gt;programari&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150611Z" creationid="fsanchez" creationdate="20161027T150611Z">
+        <seg>Todos los sistemas informáticos&lt;p0&gt; se pueden dividir en dos partes: &lt;i0&gt;hardware&lt;/i0&gt; y &lt;i1&gt;software&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un &lt;i2&gt;adjunt&lt;/i2&gt; és un sintagma o constituent que, conjuntament amb un altre sintagma o constituent, forma un constituent del mateix tipus que aquest últim (per exemple, un sintagma nominal més un sintagma preposicional formen un sintagma nominal); en un cert sentit, l'adjunt no és necessari sinó opcional.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144433Z" creationid="fsanchez" creationdate="20161009T144433Z">
