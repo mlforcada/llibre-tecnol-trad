@@ -4974,6 +4974,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quan connectem l'ordinador, el primer programa a executar-se és el &lt;i0&gt;firmware&lt;/i0&gt;, el qual s'encarrega de fer algunes comprovacions, com ara que hi ha un teclat enganxat a l'ordinador o que la memòria RAM no te defectes, i de carregar el sistema operatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152743Z" creationid="fsanchez" creationdate="20161027T152743Z">
+        <seg>Cuando conectamos el ordenador, el primer programa en ejecutarse es el &lt;i0&gt;firmware&lt;/i0&gt;, el cual se encarga de hacer algunas comprobaciones, como por ejemplo que hay un teclado conectado al ordenador o que la memoria RAM no tiene defectos, y de cargar el sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quan creem una nova base de dades i definim l'estructura de camps que tindrà cada un dels seus registres, podem designar quins dels camps corresponen als índexs; el gestor de la base de dades crearà automàticament els índexs corresponents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091221Z" creationid="fsanchez" creationdate="20161025T091221Z">
