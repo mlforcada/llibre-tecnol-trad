@@ -2990,6 +2990,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El directori principal o arrel està representat pel símbol $&lt;u1&gt;$.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164258Z" creationid="fsanchez" creationdate="20161027T164258Z">
+        <seg>El directorio principal o raíz está representado por el símbolo $&lt;u1&gt;$.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El fitxer que conté l'hipertext s'anomena &lt;i10&gt;index.html&lt;/i10&gt;, on les sigles HTML corresponen a &lt;i5&gt;hypertext markup language&lt;/i5&gt;, nom del llenguatge o sistema de marques més usat per a donar format als hipertextos (vegeu l'apartat &lt;n6&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151115Z" creationid="fsanchez" creationdate="20161018T151115Z">
@@ -6174,6 +6182,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Tots aquests conceptes es veuen potser més clars amb l'exemple de la figura &lt;n0&gt; en què es mostra l'estructura de fitxers i directoris en un dispositiu d'emmagatzemament qualsevol.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164302Z" creationid="fsanchez" creationdate="20161027T164302Z">
+        <seg>Todos estos conceptos se ven quizás más claros con el ejemplo de la figura &lt;n0&gt; en que se muestra la estructura de ficheros y directorios en un dispositivo de almacenamiento cualquiera.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Tots els sistemes informàtics tenen maquinari de les classes següents:</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150901Z" creationid="fsanchez" creationdate="20161027T150901Z">
@@ -6594,6 +6610,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090130Z" creationid="fsanchez" creationdate="20161025T090130Z">
         <seg>[Tercero y último paso: miramos el elemento 9 y encontramos el elemento buscado.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>`&lt;u8&gt;{tt1}{txt}' ) ) ) ) &lt;n1&gt; &lt;u9&gt;{Exemple d'estructura de fitxers i directoris en un dispositiu d'emmagatzemament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164254Z" creationid="fsanchez" creationdate="20161027T164254Z">
+        <seg>`&lt;u8&gt;{tt1}{txt}' ) ) ) ) &lt;n1&gt; &lt;u9&gt;{Ejemplo de estructura de ficheros y directorios en un dispositivo de almacenamiento.</seg>
       </tuv>
     </tu>
     <tu>
