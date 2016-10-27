@@ -2590,6 +2590,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com que un octet pot contenir poca informació, normalment es parla de: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;kilooctets&lt;/i0&gt; o &lt;i1&gt;kilobytes&lt;/i1&gt; (kB), o milers d'octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T155855Z" creationid="fsanchez" creationdate="20161027T155855Z">
+        <seg>Como un byte puede contener poca información, normalmente se habla de: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;kilobytes&lt;/i0&gt; (kB), o miles de bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com s'explica en la pàg. &lt;n0&gt;, un &lt;i0&gt;fitxer&lt;/i0&gt; és un conjunt de dades que es guarden en un mitjà d'emmagatzematge secundari, que es manipulen com un tot i que s'identifiquen per un nom.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T083858Z" creationid="fsanchez" creationdate="20161025T083858Z">
