@@ -6128,8 +6128,8 @@
       <tuv lang="CA">
         <seg>Un octet pot estar, per tant, en $2^8=256$ estats diferents.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154601Z" creationid="fsanchez" creationdate="20161027T154601Z">
-        <seg>Un byte puede estar, por tanto, en 2⁸ = 256 estados diferentes.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154639Z" creationid="fsanchez" creationdate="20161027T154601Z">
+        <seg>Un byte puede estar, por lo tanto, en $2^8=256$ estados diferentes.</seg>
       </tuv>
     </tu>
     <tu>
