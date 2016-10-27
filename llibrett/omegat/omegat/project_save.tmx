@@ -3478,6 +3478,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Exemples: els antics disquets, discos fixos o durs interns i externs, memòries USB (també anomenades llapis o &lt;i0&gt;pendrive&lt;/i0&gt;) i diverses formes de ROM (&lt;i1&gt;read-only memory&lt;/i1&gt;, memòria de lectura només), com els xips ROM, els CD-ROM o els DVD.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151318Z" creationid="fsanchez" creationdate="20161027T151318Z">
+        <seg>Ejemplos: los antiguos disquetes, discos fijos o duros internos y externos, memorias USB (también llamadas &lt;i0&gt;pendrive&lt;/i0&gt;) y diversas formas de ROM (&lt;i1&gt;read-only memory&lt;/i1&gt;, memoria de sólo lectura), como los chips ROM, los CD-ROM o los DVD.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Explicar que el que es tecleja en un buscador són condicions i que només ens dóna les pàgines que són en un índex.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144438Z" creationid="fsanchez" creationdate="20161018T144438Z">
