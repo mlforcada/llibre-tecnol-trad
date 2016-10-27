@@ -3918,6 +3918,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La majoria dels sistemes contenen una CPU ({&lt;u1&gt; central processing unit}, unitat central [de processament]), o senzillament, un &lt;i0&gt;processador&lt;/i0&gt; que és el responsable d'executar totes les instruccions de programa, de processar dades, i de controlar el funcionament d'altres components del maquinari.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150915Z" creationid="fsanchez" creationdate="20161027T150915Z">
+        <seg>La mayoría de los sistemas contienen un CPU ({&lt;u1&gt; central processing unit}, unidad central [de procesamiento]), o sencillamente, un &lt;i0&gt;procesador&lt;/i0&gt; que es el responsable de ejecutar todas las instrucciones de programa, de procesar datos, y de controlar el funcionamiento de otros componentes del hardware.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La missatgeria instantània i el xat (en anglés &lt;i0&gt;chat&lt;/i0&gt;) permeten ---com en el cas del correu electrònic, a través de programes especialitzats o &lt;i1&gt;webs&lt;/i1&gt; accessibles amb un navegador--- una comunicació escrita molt ràpida (``en temps real''), consistent en missatges normalment curts ---opcionalment amb annexos com ara fotografies, contactes---, de manera que el resultat és similar al d'una conversa, però per escrit,&lt;p1&gt; cosa que permet un registre de comunicació molt informal que, de fet, ha donat lloc a una llengua molt diferenciada tant de l'oral com de l'escrita.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120212Z" creationid="fsanchez" creationdate="20161019T120212Z">
@@ -5334,6 +5342,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Tots els sistemes informàtics tenen maquinari de les classes següents:</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150901Z" creationid="fsanchez" creationdate="20161027T150901Z">
+        <seg>Todos los sistemas informáticos tienen hardware de las siguientes clases:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Tots els sistemes informàtics&lt;p0&gt; es poden dividir en dues parts: &lt;i0&gt;maquinari&lt;/i0&gt; i &lt;i1&gt;programari&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150611Z" creationid="fsanchez" creationdate="20161027T150611Z">
@@ -5610,6 +5626,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090115Z" creationid="fsanchez" creationdate="20161025T090115Z">
         <seg>[Primer paso: miramos el elemento 13 y nos quedamos con la mitad baja de la lista.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Processament:] Els dispositius de processament són els que fan realment el treball.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150904Z" creationid="fsanchez" creationdate="20161027T150904Z">
+        <seg>[Procesamiento:] Los dispositivos de procesamiento son los que hacen realmente el trabajo.</seg>
       </tuv>
     </tu>
     <tu>
