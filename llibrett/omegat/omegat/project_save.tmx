@@ -2686,6 +2686,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El monitor (la pantalla) n'és el més comú.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152656Z" creationid="fsanchez" creationdate="20161027T152656Z">
+        <seg>El monitor (la pantalla) es el más común.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El mòdem modulava i desmodulava senyals similars als que s'envien quan es fa una telefonada de veu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140737Z" creationid="fsanchez" creationdate="20161019T140737Z">
@@ -2898,6 +2906,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151807Z" creationid="fsanchez" creationdate="20161027T151807Z">
         <seg>Los discos fijos (y los antiguos disquetes) son dispositivos de almacenamiento magnético, más o menos como lo eran los antiguos casetes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els dispositius d'entrada més comuns són el teclat, el ratolí, la pantalla tàctil, la maneta de jocs, les càmeres de fotos i &lt;i1&gt;webcams&lt;/i1&gt; o l'escànner ---un dispositiu que llegeix una imatge impresa i la converteix en un fitxer (vegeu l'apartat &lt;n0&gt;) que conté la imatge digitalitzada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152641Z" creationid="fsanchez" creationdate="20161027T152641Z">
+        <seg>Los dispositivos de entrada más comunes son el teclado, el ratón, la pantalla táctil, la palanca de mando (&lt;i1&gt;joystick&lt;/i1&gt;), las cámaras de fotos y &lt;i1&gt;webcams&lt;/i1&gt; o el escáner ---un dispositivo que lee una imagen impresa y la convierte en un fichero (véase el apartado &lt;n0&gt;) que contiene la imagen digitalizada.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5794,6 +5810,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104953Z" creationid="fsanchez" creationdate="20161025T104953Z">
         <seg>Queremos tener una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Eixida:] Aquesta és la família dels dispositius que l'ordinador usa per a comunicar dades o informació a l'usuari.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152652Z" creationid="fsanchez" creationdate="20161027T152652Z">
+        <seg>[Salida:] Esta es la familia de los dispositivos que el ordenador usa para comunicar datos o información al usuario.</seg>
       </tuv>
     </tu>
     <tu>
