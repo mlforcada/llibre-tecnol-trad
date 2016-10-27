@@ -3158,6 +3158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els bits s'agrupen normalment en grups de vuit, anomenats {&lt;u0&gt; octets} o &lt;i0&gt;bytes&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154558Z" creationid="fsanchez" creationdate="20161027T154558Z">
+        <seg>Los bits se agrupan normalmente en grupos de ocho, llamados &lt;i0&gt;bytes&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els camps poden ser de diversos &lt;i0&gt;tipus&lt;/i0&gt;, segons la naturalesa de les dades que s'hi guarden (cadenes de caràcters, valors numèrics enters o amb decimals, dates de calendari, etc.)</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084336Z" creationid="fsanchez" creationdate="20161025T084336Z">
@@ -6114,6 +6122,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142135Z" creationid="fsanchez" creationdate="20161009T142135Z">
         <seg>Una palabra (y, en general, una unidad léxica de más de una palabra) se puede ver desde dos perspectivas; por un lado, la &lt;i0&gt;forma superficial&lt;/i0&gt; de la palabra es la forma concreta que aparece en el texto: &lt;i1&gt;cantábamos&lt;/i1&gt;; por otra parte, tenemos la &lt;i2&gt;forma léxica&lt;/i2&gt;, que consiste en &lt;n3&gt; &lt;u1&gt; un &lt;i3&gt;lema&lt;/i3&gt; o &lt;i4&gt;forma canónica&lt;/i4&gt; (&lt;i5&gt;cantar&lt;/i5&gt;), &lt;u2&gt; una &lt;i6&gt;categoría léxica&lt;/i6&gt;,&lt;n1&gt;&lt;p0&gt; clase de palabra, o parte de la oración (verbo) y &lt;u3&gt; unos &lt;i7&gt;indicadores de flexión&lt;/i7&gt; que expresan las características morfológicas o flexivas (primera persona, nombre plural, tiempo pretérito imperfecto, modo indicativo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un octet pot estar, per tant, en $2^8=256$ estats diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154601Z" creationid="fsanchez" creationdate="20161027T154601Z">
+        <seg>Un byte puede estar, por tanto, en 2⁸ = 256 estados diferentes.</seg>
       </tuv>
     </tu>
     <tu>
