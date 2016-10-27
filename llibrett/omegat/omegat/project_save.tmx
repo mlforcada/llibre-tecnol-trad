@@ -4966,6 +4966,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quan la imatge és la d'un text imprés, un programa de &lt;i2&gt;reconeixement òptic de caràcters&lt;/i2&gt; (OCR, &lt;i3&gt;optical character recognition&lt;/i3&gt;) la pot convertir en una representació del text adequada per a ser manipulada amb un processador de textos (vegeu la secció &lt;n1&gt;), generalment amb alguns errors tipogràfics menors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152320Z" creationid="fsanchez" creationdate="20161027T152320Z">
+        <seg>Cuando la imagen es la de un texto impreso, un programa de &lt;i2&gt;reconocimiento óptico de caracteres&lt;/i2&gt; (OCR, &lt;i3&gt;optical character recognition&lt;/i3&gt;) la puede convertir en una representación del texto adecuada para ser manipulada con un procesador de textos (véase la sección &lt;n1&gt;), generalmente con algunos errores tipográficos menores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quan realitzem una recerca en Internet, el cercador &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; visita en aquell moment els diferents documents d'Internet i recopila aquells que satisfan el criteri de cerca.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144256Z" creationid="fsanchez" creationdate="20161019T144256Z">
