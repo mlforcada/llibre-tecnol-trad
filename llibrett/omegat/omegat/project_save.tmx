@@ -1998,6 +1998,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Altres termes habituals són CD-R (&lt;i1&gt;compact disc recordable&lt;/i1&gt;) ---que identifica els CD en què es pot escriure informació només una vegada amb l'ajuda de dispositius coneguts com a enregistradores--- i CD-RW (&lt;i2&gt;compact disc rewritable&lt;/i2&gt;) ---utilitzat per als CD que poden ser esborrats i reescrits un nombre il·limitat de vegades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151921Z" creationid="fsanchez" creationdate="20161027T151921Z">
+        <seg>Otros términos habituales son CD-R (&lt;i1&gt;compact disc recordable&lt;/i1&gt;) ---que identifica los CD en los que se puede escribir información solo una vez con la ayuda de dispositivos conocidos como grabadoras--- y CD-RW (&lt;i2&gt;compact disc rewritable&lt;/i2&gt;) ---utilizado para los CD que se pueden borrar y reescribir un número ilimitado de veces.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Amb el temps, els programes que inclouen una base de dades terminològica van incorporant la capacitat de llegir i escriure documents en format TBX.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104355Z" creationid="fsanchez" creationdate="20161025T104355Z">
