@@ -2118,6 +2118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest programari oferix al sistema operatiu serveix bàsics d'accés als dispositius d'entrada i d'eixida més habituals.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152730Z" creationid="fsanchez" creationdate="20161027T152730Z">
+        <seg>Este software ofrece al sistema operativo servicios básicos de acceso a los dispositivos de entrada y de salida más habituales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest tipus d'ambigüitat es pot explicar pel fet que el principi de composicionalitat per si sol no és suficient per a especificar completament l'assignació d'interpretació a una oració.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122458Z" creationid="fsanchez" creationdate="20161010T122458Z">
@@ -5230,6 +5238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>S'anomena &lt;i1&gt;firmware&lt;/i1&gt; el programari del sistema que s'usa tan freqüentment que s'emmagatzema permanentment en xips ROM.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152726Z" creationid="fsanchez" creationdate="20161027T152726Z">
+        <seg>Se denomina &lt;i1&gt;firmware&lt;/i1&gt; al software del sistema que se usa tan frecuentemente que se almacena permanentemente en chips ROM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>S'han de construir dos índexs, un per a cada camp.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105021Z" creationid="fsanchez" creationdate="20161025T105021Z">
@@ -5922,6 +5938,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150800Z" creationid="fsanchez" creationdate="20161027T150800Z">
         <seg>[&lt;i0&gt;Software&lt;/i0&gt;]: uno o más &lt;i1&gt;programas&lt;/i1&gt; (y los datos asociados) que realizan alguna función útil para el usuario o para otro &lt;i2&gt;programa&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Sistemes operatius i &lt;i0&gt;firmware&lt;/i0&gt;:] són els programes que permeten el funcionament bàsic de l'ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152720Z" creationid="fsanchez" creationdate="20161027T152720Z">
+        <seg>[Sistemas operativos y &lt;i0&gt;firmware&lt;/i0&gt;:] son los programas que permiten el funcionamiento básico del ordenador.</seg>
       </tuv>
     </tu>
     <tu>
