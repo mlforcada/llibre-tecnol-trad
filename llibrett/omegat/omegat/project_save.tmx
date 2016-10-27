@@ -2838,6 +2838,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El sistema operatiu, d'una banda, permet que la persona usuària hi execute programes i gestione els fitxers de dades, etc.; per a això, ofereix una &lt;i0&gt;interfície d'ús&lt;/i0&gt; (vegeu més endavant).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152753Z" creationid="fsanchez" creationdate="20161027T152753Z">
+        <seg>El sistema operativo, por un lado, permite que el usuario ejecute programas y gestione los ficheros de datos, etc.; para eso, ofrece una &lt;i0&gt;interfaz de uso&lt;/i0&gt; (véase más adelante).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El terme hongarés és ``{&lt;u3&gt;{T1}{ec}{m}{n}Alfa simítási tényez&lt;u4&gt;{'256}}''; en el document d'exemple, els caràcters especials s'indiquen amb el seu codi Unicode (per exemple,  &lt;u5&gt;+</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104554Z" creationid="fsanchez" creationdate="20161025T104554Z">
