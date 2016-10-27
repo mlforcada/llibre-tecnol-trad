@@ -4974,6 +4974,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, un programa que suma tots els nombres enters del 1 al 10 podria ser el següent, el qual usa dues posicions de memòria RAM per a guardar valors necessaris per al càlcul.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153900Z" creationid="fsanchez" creationdate="20161027T153900Z">
+        <seg>Por ejemplo, un programa que suma todos los números enteros del 1 al 10 podría ser el siguiente, que usa dos posiciones de memoria RAM para guardar valores necesarios para el cálculo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, una adreça electrònica vàlida podria ser &lt;n0&gt; &lt;i1&gt;marty.mcfly@backtothefuture.info&lt;/i1&gt; &lt;n1&gt; A vegades, podem usar la nostra adreça de correu electrònic per a identificar-nos a l'hora d'accedir a alguns dels serveix que s'ofereixen en Internet, com ara els serveix de xarxes socials (vegeu l'apartat &lt;n2&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115823Z" creationid="fsanchez" creationdate="20161019T115823Z">
@@ -6658,6 +6666,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115819Z" creationid="fsanchez" creationdate="20161005T115819Z">
         <seg>{persabermes}[1]{ &lt;n0&gt;[style=exampledefault] &lt;n1&gt; &lt;u1&gt;*{Para saber más sobre #1} } {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{programari} Com ja s'ha dit més amunt, un programari és un conjunt de programes, cada un dels quals consisteix en una llista d'instruccions vàlides (executables per l'ordinador) que s'executen en l'ordre indicat, de la primera a l'última, excepte quan s'hi presenta alguna instrucció de &lt;i0&gt;salt&lt;/i0&gt; que indica quina és la següent instrucció que s'ha d'executar.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153849Z" creationid="fsanchez" creationdate="20161027T153849Z">
+        <seg>{software} Como ya se ha dicho más arriba, un software es un conjunto de programas, cada uno de los cuales consiste en una lista de instrucciones válidas (ejecutables por el ordenador) que se ejecutan en el orden indicado, de la primera a la última, excepto cuando se presenta alguna instrucción de &lt;i0&gt;salto&lt;/i0&gt; que indica cuál es la siguiente instrucción que se tiene que ejecutar.</seg>
       </tuv>
     </tu>
     <tu>
