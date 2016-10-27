@@ -3550,6 +3550,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En discos grans, seria molt incòmode tenir tots els fitxers un darrere l'altre; per això, és comú que els fitxers estiguen organitzats en {&lt;u1&gt; directoris}, també anomenats &lt;i2&gt;carpetes&lt;/i2&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160228Z" creationid="fsanchez" creationdate="20161027T160228Z">
+        <seg>En discos grandes, sería muy incómodo tener todos los archivos uno tras otro, por lo que es normal que los archivos estén organizados en {&lt;u1&gt; directorios}, también llamados &lt;i2&gt;carpetas&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En el cas de les frases ``Toni comprarà...'', sembla lògic usar la regla de {&lt;u1&gt; clausura tardana}, ja que es correspon prou bé amb les interpretacions preferides per les persones.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115710Z" creationid="fsanchez" creationdate="20161014T115710Z">
