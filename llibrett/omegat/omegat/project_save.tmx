@@ -3142,6 +3142,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En els ordinadors personals, la unitat central és un únic xip de silici.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150918Z" creationid="fsanchez" creationdate="20161027T150918Z">
+        <seg>En los ordenadores personales, la unidad central es un único chip de silicio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En informàtica, els fitxers d'aquesta mena se solen anomenar normalment &lt;i0&gt;bases de dades&lt;/i0&gt; (BD); les fitxes s'anomenen &lt;i1&gt;registres&lt;/i1&gt; i cada element d'informació de la fitxa s'anomena &lt;i2&gt;camp&lt;/i2&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084128Z" creationid="fsanchez" creationdate="20161025T084128Z">
