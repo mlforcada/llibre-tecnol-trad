@@ -2024,8 +2024,8 @@
       <tuv lang="CA">
         <seg>=1.099.511.627.776 &lt;i31&gt;octets&lt;/i31&gt;.$$ &lt;n2&gt; &lt;u7&gt; &lt;n3&gt; Com que els prefixos &lt;i8&gt;k&lt;/i8&gt;, &lt;i9&gt;M&lt;/i9&gt;, &lt;i10&gt;G&lt;/i10&gt; i &lt;i11&gt;T&lt;/i11&gt; s'usen en la resta de les disciplines científiques per expressar a potències exactes de 10 (de 1.000), hi ha qui prefereix parlar de &lt;i12&gt;kibioctets&lt;/i12&gt; o &lt;i13&gt;kibibytes&lt;/i13&gt; (kiB), &lt;i14&gt;mibioctets&lt;/i14&gt; o &lt;i15&gt;mibibytes&lt;/i15&gt; (MiB), &lt;i16&gt;gibioctets&lt;/i16&gt; o &lt;i17&gt;gibibytes&lt;/i17&gt; (GiB) i &lt;i18&gt;tebibytes&lt;/i18&gt; o &lt;i19&gt;tebioctets&lt;/i19&gt; (TiB) per a referir-se a les unitats de capacitat d'emmagatzematge basades en múltiples de 1.024.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160012Z" creationid="fsanchez" creationdate="20161027T160012Z">
-        <seg>=1.099.511.627.776 &lt;i31&gt;bytes&lt;/i31&gt;.$$ &lt;n2&gt; &lt;u7&gt; &lt;n3&gt; Puesto que los prefijos &lt;i8&gt;k&lt;/i8&gt;, &lt;i9&gt;M&lt;/i9&gt;, &lt;i10&gt;G&lt;/i10&gt; y &lt;i11&gt;T&lt;/i11&gt; se usan en el resto de las disciplinas científicas para expresar en potencias exactas de 10 (de 1.000), hay quien prefiere hablar de &lt;i12&gt;kibioctetos&lt;/i12&gt; o &lt;i13&gt;kibibytes&lt;/i13&gt; (kiB), &lt;i14&gt;mibioctetos&lt;/i14&gt; o &lt;i15&gt;mibibytes&lt;/i15&gt; (MiB), &lt;i16&gt;gibioctetos&lt;/i16&gt; o &lt;i17&gt;gibibytes&lt;/i17&gt; (GiB) y &lt;i18&gt;tebibytes&lt;/i18&gt; o &lt;i19&gt;tebioctetos&lt;/i19&gt; (TiB) para referirse a las unidades de capacidad de almacenamiento basadas en múltiplos de 1.024.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160135Z" creationid="fsanchez" creationdate="20161027T160012Z">
+        <seg>=1.099.511.627.776 &lt;i31&gt;bytes&lt;/i31&gt;.$$ &lt;n2&gt; &lt;u7&gt; &lt;n3&gt; Puesto que los prefijos &lt;i8&gt;k&lt;/i8&gt;, &lt;i9&gt;M&lt;/i9&gt;, &lt;i10&gt;G&lt;/i10&gt; y &lt;i11&gt;T&lt;/i11&gt; se usan en el resto de las disciplinas científicas para expresar en potencias exactas de 10 (de 1.000), hay quien prefiere hablar de &lt;i13&gt;kibibytes&lt;/i13&gt; (kiB), &lt;i15&gt;mibibytes&lt;/i15&gt; (MiB), &lt;i17&gt;gibibytes&lt;/i17&gt; (GiB) y &lt;i18&gt;tebibytes&lt;/i18&gt; (TiB) para referirse a las unidades de capacidad de almacenamiento basadas en múltiplos de 1.024.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3930,6 +3930,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141500Z" creationid="fsanchez" creationdate="20161010T141500Z">
         <seg>Explicad qué información usa el sistema en cada caso para tomar una decisión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Fitxers i directoris</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160137Z" creationid="fsanchez" creationdate="20161027T160137Z">
+        <seg>Ficheros y directorios</seg>
       </tuv>
     </tu>
     <tu>
