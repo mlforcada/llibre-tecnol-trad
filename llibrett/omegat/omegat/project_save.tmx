@@ -4598,6 +4598,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les instruccions dels programes que executa el processador central també s'emmagatzemen en octets.&lt;p0&gt;, que incrementa el valor emmagatzemat l'acumulador en 1, podria ser l'octet {&lt;u7&gt; 11010110}}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T155209Z" creationid="fsanchez" creationdate="20161027T155209Z">
+        <seg>Las instrucciones de los programas que ejecuta el procesador central también se almacenan en bytes.&lt;p0&gt;, que incrementa el valor almacenado en el acumulador en 1, podría ser el byte {&lt;u7&gt; 11010110}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les llengües divergeixen.&lt;/i0&gt; És a dir, hi ha diferències irreductibles en la manera que el mateix contingut s'expressa en llengües diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140819Z" creationid="fsanchez" creationdate="20161009T140819Z">
