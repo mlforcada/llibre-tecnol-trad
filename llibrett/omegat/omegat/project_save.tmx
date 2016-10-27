@@ -5958,6 +5958,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Tota la informació ---instruccions de programa o dades--- que s'emmagatzema en la memòria d'un ordinador s'hi guarda en forma binària; és a dir, cada dada és una cadena de dígits binaris o &lt;i0&gt;bits&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154446Z" creationid="fsanchez" creationdate="20161027T154446Z">
+        <seg>Toda la información --- instrucciones de programa o datos --- que se almacena en la memoria de un ordenador se guarda en forma binaria, es decir, cada dato es una cadena de dígitos binarios o &lt;i0&gt;bits&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Tots els sistemes informàtics tenen maquinari de les classes següents:</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150901Z" creationid="fsanchez" creationdate="20161027T150901Z">
