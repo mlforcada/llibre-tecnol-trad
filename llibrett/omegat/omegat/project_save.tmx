@@ -5806,6 +5806,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Entrada:] la funció primària dels dispositius d'entrada és que l'usuari puga interactuar amb la màquina i amb els programes que executa amb la finalitat d'&lt;i0&gt;introduir-hi&lt;/i0&gt; dades o informació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152510Z" creationid="fsanchez" creationdate="20161027T152510Z">
+        <seg>[Entrada:] La función primaria de los dispositivos de entrada es que el usuario pueda interactuar con la máquina y con los programas que ejecuta con el fin de &lt;i0&gt;introducir&lt;/i0&gt; datos o información.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Estat abans de començar la recerca.]{ &lt;n3&gt;{|l||l||l||l||l|}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090103Z" creationid="fsanchez" creationdate="20161025T090103Z">
