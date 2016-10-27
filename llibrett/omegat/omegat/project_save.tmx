@@ -2022,6 +2022,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>=1.099.511.627.776 &lt;i31&gt;octets&lt;/i31&gt;.$$ &lt;n2&gt; &lt;u7&gt; &lt;n3&gt; Com que els prefixos &lt;i8&gt;k&lt;/i8&gt;, &lt;i9&gt;M&lt;/i9&gt;, &lt;i10&gt;G&lt;/i10&gt; i &lt;i11&gt;T&lt;/i11&gt; s'usen en la resta de les disciplines científiques per expressar a potències exactes de 10 (de 1.000), hi ha qui prefereix parlar de &lt;i12&gt;kibioctets&lt;/i12&gt; o &lt;i13&gt;kibibytes&lt;/i13&gt; (kiB), &lt;i14&gt;mibioctets&lt;/i14&gt; o &lt;i15&gt;mibibytes&lt;/i15&gt; (MiB), &lt;i16&gt;gibioctets&lt;/i16&gt; o &lt;i17&gt;gibibytes&lt;/i17&gt; (GiB) i &lt;i18&gt;tebibytes&lt;/i18&gt; o &lt;i19&gt;tebioctets&lt;/i19&gt; (TiB) per a referir-se a les unitats de capacitat d'emmagatzematge basades en múltiples de 1.024.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160012Z" creationid="fsanchez" creationdate="20161027T160012Z">
+        <seg>=1.099.511.627.776 &lt;i31&gt;bytes&lt;/i31&gt;.$$ &lt;n2&gt; &lt;u7&gt; &lt;n3&gt; Puesto que los prefijos &lt;i8&gt;k&lt;/i8&gt;, &lt;i9&gt;M&lt;/i9&gt;, &lt;i10&gt;G&lt;/i10&gt; y &lt;i11&gt;T&lt;/i11&gt; se usan en el resto de las disciplinas científicas para expresar en potencias exactas de 10 (de 1.000), hay quien prefiere hablar de &lt;i12&gt;kibioctetos&lt;/i12&gt; o &lt;i13&gt;kibibytes&lt;/i13&gt; (kiB), &lt;i14&gt;mibioctetos&lt;/i14&gt; o &lt;i15&gt;mibibytes&lt;/i15&gt; (MiB), &lt;i16&gt;gibioctetos&lt;/i16&gt; o &lt;i17&gt;gibibytes&lt;/i17&gt; (GiB) y &lt;i18&gt;tebibytes&lt;/i18&gt; o &lt;i19&gt;tebioctetos&lt;/i19&gt; (TiB) para referirse a las unidades de capacidad de almacenamiento basadas en múltiplos de 1.024.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A canvi, hem de fer l'esforç (presumiblement més lleuger) de predir una entre les possibles continuacions (sintàctiques) del que hem llegit; segons arriben mots, els anem encaixant en l'estructura predita i usem la sintaxi i la interpretació dels mots per a anar construint a poc a poc la interpretació de l'oració completa.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125740Z" creationid="fsanchez" creationdate="20161010T125740Z">
@@ -2730,6 +2738,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114722Z" creationid="fsanchez" creationdate="20161014T114722Z">
         <seg>Por un lado, léxica: la palabra &lt;i8&gt;privado&lt;/i8&gt; puede ser un adjetivo (interpretación 1) o un participio (interpretación 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De fet, com en el cas dels kilooctets, no exactament: $$1 &lt;i20&gt;MB&lt;/i20&gt; = 1.024 &lt;u5&gt; 1.024 &lt;i21&gt;octets&lt;/i21&gt;= 1.048.576 &lt;i22&gt;octets&lt;/i22&gt;.$$ &lt;u2&gt; &lt;i4&gt;gigaoctets&lt;/i4&gt; o &lt;i5&gt;gigabytes&lt;/i5&gt; (GB), o milers de milions ---una mica més--- d'octets: $$1 &lt;i23&gt;GB&lt;/i23&gt;=1.024 &lt;i24&gt;MB&lt;/i24&gt;=1.048.576 &lt;i25&gt;kB&lt;/i25&gt;=1.073.741.824 &lt;i26&gt;octets&lt;/i26&gt;.$$ &lt;u3&gt; &lt;i6&gt;teraoctets&lt;/i6&gt; o &lt;i7&gt;terabytes&lt;/i7&gt; (TB), o bilions (milions de milions) ---de nou, una mica més--- d'octets: &lt;u6&gt; &lt;n1&gt;{c} $$1 &lt;i27&gt;TB&lt;/i27&gt;=1.024 &lt;i28&gt;GB&lt;/i28&gt;=1.048.576 &lt;i29&gt;MB&lt;/i29&gt;=1.073.741.824 &lt;i30&gt;kB&lt;/i30&gt;=&lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160011Z" creationid="fsanchez" creationdate="20161027T160011Z">
+        <seg>De hecho, como en el caso de los kilobytes, no exactamente: $$1 &lt;i20&gt;MB&lt;/i20&gt; = 1.024 &lt;u5&gt; 1.024 &lt;i21&gt;bytes&lt;/i21&gt;= 1.048.576 &lt;i22&gt;bytes&lt;/i22&gt;.$$ &lt;u2&gt; &lt;i4&gt;gigaoctetos&lt;/i4&gt; o &lt;i5&gt;gigabytes&lt;/i5&gt; (GB), o miles de millones ---un poco más--- de bytes: $$1 &lt;i23&gt;GB&lt;/i23&gt;=1.024 &lt;i24&gt;MB&lt;/i24&gt;=1.048.576 &lt;i25&gt;kB&lt;/i25&gt;=1.073.741.824 &lt;i26&gt;bytes&lt;/i26&gt;.$$ &lt;u3&gt; &lt;i6&gt;teraoctetos&lt;/i6&gt; o &lt;i7&gt;terabytes&lt;/i7&gt; (TB), o billones (millones de miliones) ---de nuevo, un poco más--- de bytes: &lt;u6&gt; &lt;n1&gt;{c} $$1 &lt;i27&gt;TB&lt;/i27&gt;=1.024 &lt;i28&gt;GB&lt;/i28&gt;=1.048.576 &lt;i29&gt;MB&lt;/i29&gt;=1.073.741.824 &lt;i30&gt;kB&lt;/i30&gt;=&lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
