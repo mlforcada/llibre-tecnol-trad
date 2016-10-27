@@ -4014,6 +4014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La memòria ROM sol estar feta de xips de silici.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152001Z" creationid="fsanchez" creationdate="20161027T152001Z">
+        <seg>La memoria ROM suele estar hecha de chips de silicio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La memòria USB és un dispositiu de memòria flaix, un xip de memòria que manté el seu contingut en absència d'alimentació, que es connecta al port USB de l'ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151844Z" creationid="fsanchez" creationdate="20161027T151844Z">
