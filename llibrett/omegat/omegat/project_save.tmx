@@ -5326,6 +5326,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un &lt;i4&gt;programa&lt;/i4&gt; és una seqüència (llista o conjunt ordenat) d'instruccions que són seguides o executades pel maquinari, de tal manera que realitzen alguna tasca determinada.&lt;p0&gt; Normalment, els ordinadors estan organitzats al voltant d'un &lt;i9&gt;processador central&lt;/i9&gt; (vegeu més endavant) que és capaç de comprendre i executar instruccions bàsiques preses d'un conjunt determinat (el &lt;i10&gt;conjunt d'instruccions&lt;/i10&gt; del processador).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150834Z" creationid="fsanchez" creationdate="20161027T150834Z">
+        <seg>Un &lt;i4&gt;programa&lt;/i4&gt; es una secuencia (lista o conjunto ordenado) de instrucciones que el hardware sigue o ejecuta, de tal manera que realizan alguna tarea determinada.&lt;p0&gt; Normalmente, los ordenadores están organizados alrededor de un &lt;i9&gt;procesador central&lt;/i9&gt; (véase más adelante) que es capaz de comprender y ejecutar instrucciones básicas tomadas de un conjunto determinado (el &lt;i10&gt;conjunto de instrucciones&lt;/i10&gt; del procesador).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un URI té generalment tres parts, encara que s'hi donen algunes variacions i una d'elles no és obligatòria: &lt;n0&gt; &lt;u0&gt;[esquema:] indica la classe de recurs i com l'ha d'usar l'ordinador sol·licitant (o &lt;i0&gt;client&lt;/i0&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150821Z" creationid="fsanchez" creationdate="20161018T150821Z">
