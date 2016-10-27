@@ -3246,6 +3246,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En la actualitat la grandària típica d'un dic fix és de 500 GB o 1 TB (vegeu l'apartat &lt;n0&gt; per a assabentar-vos de les mesures d'emmagatzemament de la informació).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151826Z" creationid="fsanchez" creationdate="20161027T151826Z">
+        <seg>En la actualidad el tamaño típico de un disco fijo es de 500 GB o 1 TB (véase el apartado &lt;n0&gt; para conocer las medidas de almacenamiento de información).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En la frase &lt;n1&gt; Vaig obrir [la porta]$_i$ a [la cuinera]$_j$ i la$_{i/j?}$ vaig fer passar &lt;n2&gt; els índexs ($i$, $j$, $i/j?$) indiquen que el pronom feble &lt;i7&gt;la&lt;/i7&gt; es pot referir a la mateixa persona a la qual ens hem referit amb el sintagma nominal &lt;i8&gt;la cuinera&lt;/i8&gt;, però no hi ha cap raó sintàctica perquè el referent no siga el mateix que el del sintagma &lt;i9&gt;la porta&lt;/i9&gt;: aquesta pot ser una possible causa d'ambigüitat en la segona oració coordinada.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143751Z" creationid="fsanchez" creationdate="20161009T143751Z">
@@ -3926,6 +3934,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La grandària d'aquestes memòries pot arribar fins a 1 TB, tot i que les grandàries més típiques són 16, 32 i 64 GB.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151854Z" creationid="fsanchez" creationdate="20161027T151854Z">
+        <seg>El tamaño de estas memorias puede llegar hasta 1 TB, a pesar de que los tamaños más típicos son 16, 32 y 64 GB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La informació de cada terme (en l'exemple només un) s'inclou dins de l'element {&lt;u0&gt; termEntry}, que conté descripcions (&lt;i0&gt;descrip&lt;/i0&gt;) sobre el domini d'ús i la definició del terme, a més d'una secció {&lt;u1&gt; langSet} per a cada idioma (ací, anglés i hongarés) on s'especifica el terme (&lt;i1&gt;term&lt;/i1&gt;) i informació sobre ell (&lt;i2&gt;termNote&lt;/i2&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104528Z" creationid="fsanchez" creationdate="20161025T104528Z">
@@ -3986,6 +4002,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150915Z" creationid="fsanchez" creationdate="20161027T150915Z">
         <seg>La mayoría de los sistemas contienen un CPU ({&lt;u1&gt; central processing unit}, unidad central [de procesamiento]), o sencillamente, un &lt;i0&gt;procesador&lt;/i0&gt; que es el responsable de ejecutar todas las instrucciones de programa, de procesar datos, y de controlar el funcionamiento de otros componentes del hardware.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La memòria USB és un dispositiu de memòria flaix, un xip de memòria que manté el seu contingut en absència d'alimentació, que es connecta al port USB de l'ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151844Z" creationid="fsanchez" creationdate="20161027T151844Z">
+        <seg>La memoria USB es un dispositivo de memoria flash, un chip de memoria que mantiene su contenido en ausencia de alimentación, que se conecta al puerto USB del ordenador.</seg>
       </tuv>
     </tu>
     <tu>
