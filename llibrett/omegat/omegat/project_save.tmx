@@ -4654,6 +4654,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per això, quan s'especifiquen les característiques d'un programa d'ordinador s'ha de dir per a quin sistema operatiu està escrit, ja que cada sistema operatiu ofereix serveis diferents i interacciona de manera diferent amb els programes d'aplicació.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153632Z" creationid="fsanchez" creationdate="20161027T153632Z">
+        <seg>Por eso, cuando se especifican las características de un programa de ordenador se tiene que decir para qué sistema operativo está escrito, puesto que cada sistema operativo ofrece servicios diferentes e interacciona de manera diferente con los programas de aplicación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per descomptat, és possible calcular el nombre màxim de consultes de manera més pedestre, dividint el nombre de fitxes per 2 i posant-nos en el cas pitjor.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085319Z" creationid="fsanchez" creationdate="20161025T085319Z">
@@ -6074,6 +6082,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150800Z" creationid="fsanchez" creationdate="20161027T150800Z">
         <seg>[&lt;i0&gt;Software&lt;/i0&gt;]: uno o más &lt;i1&gt;programas&lt;/i1&gt; (y los datos asociados) que realizan alguna función útil para el usuario o para otro &lt;i2&gt;programa&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Programes d'aplicació:] programari dissenyat específicament per a satisfer les necessitats dels usuaris (de vegades s'anomenen simplement {&lt;u5&gt; aplicacions}).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153638Z" creationid="fsanchez" creationdate="20161027T153638Z">
+        <seg>[Programas de aplicación:] software diseñado específicamente para satisfacer las necesidades de los usuarios (a veces se denominan simplemente {&lt;u5&gt; aplicaciones}).</seg>
       </tuv>
     </tu>
     <tu>
