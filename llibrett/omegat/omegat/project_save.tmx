@@ -4174,6 +4174,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Ordinadors i programes</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150441Z" creationid="fsanchez" creationdate="20161027T150441Z">
+        <seg>Ordenadores y programas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per a acabar de resoldre l'ambigüitat, s'usen preferències: s'assigna algun tipus de puntuació o valor a cada interpretació per elegir la millor.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122810Z" creationid="fsanchez" creationdate="20161010T122810Z">
