@@ -5862,6 +5862,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Llista de coses per fer en aquest capítol: &lt;n0&gt; &lt;u1&gt; Explicar que els mòdems interns actuals (&lt;i0&gt;winmodems&lt;/i0&gt;) i algunes impressores són &lt;i1&gt;mitjos mòdems&lt;/i1&gt; i &lt;i2&gt;mitges impressores&lt;/i2&gt; perquè no contenen tot el maquinari i programari necessari per a realitzar les tasques corresponents sinó que es recolzen en el sistema operatiu (i per això no funcionen, en general amb sistemes diferents de Windows).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150557Z" creationid="fsanchez" creationdate="20161027T150557Z">
+        <seg>{Lista de cosas a hacer en este capítulo: &lt;n0&gt; &lt;u1&gt; Explicar que los módems internos actuales (&lt;i0&gt;winmodems&lt;/i0&gt;) y algunas impresoras son &lt;i1&gt;medio módems&lt;/i1&gt; y &lt;i2&gt;medio impresoras&lt;/i2&gt; porque no contienen todo el hardware y software necesarios para realizar las tareas correspondientes, sino que se apoyan en el sistema operativo (y por eso no funcionan, en general, con sistemas diferentes de Windows).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{No m'agrada que el material de navegadors estiga repartit i repetit entre dos capítols.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151548Z" creationid="fsanchez" creationdate="20161018T151548Z">
@@ -6106,6 +6114,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144226Z" creationid="fsanchez" creationdate="20161009T144226Z">
         <seg>  `limpias' ) ) &lt;n5&gt; &lt;n6&gt; &lt;n3&gt; &lt;n4&gt; ( .SN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És a dir, totes les instal·lacions basades en ordinadors</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150602Z" creationid="fsanchez" creationdate="20161027T150602Z">
+        <seg>Es decir, todas las instalaciones basadas en ordenadores</seg>
       </tuv>
     </tu>
     <tu>
