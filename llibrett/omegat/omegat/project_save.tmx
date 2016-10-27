@@ -1678,6 +1678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u4&gt; Executar programes i controlar-ne l'execució.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153549Z" creationid="fsanchez" creationdate="20161027T153549Z">
+        <seg>&lt;u4&gt; Ejecutar programas y controlar su ejecución.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u4&gt; La definició del terme en una o més llengües.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T103909Z" creationid="fsanchez" creationdate="20161025T103909Z">
@@ -1738,6 +1746,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104005Z" creationid="fsanchez" creationdate="20161025T104005Z">
         <seg>&lt;u5&gt; El campo temático de la ficha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u5&gt; Establir connexions amb altres ordinadors o dispositius en xarxa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153554Z" creationid="fsanchez" creationdate="20161027T153554Z">
+        <seg>&lt;u5&gt; Establecer conexiones con otros ordenadores o dispositivos en red.</seg>
       </tuv>
     </tu>
     <tu>
