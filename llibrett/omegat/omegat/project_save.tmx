@@ -3558,6 +3558,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'exemple de la secció anterior, la instrucció {&lt;u0&gt; inc A</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154540Z" creationid="fsanchez" creationdate="20161027T154540Z">
+        <seg>En el ejemplo de la sección anterior, la instrucción {&lt;u0&gt; inc A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'exemple de les 1234 fitxes: &lt;n0&gt; &lt;u0&gt; Després de la 1a consulta, si la fitxa central no és la que busquem, ens queden dues meitats: una de 616 fitxes, i una altra de 617.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085335Z" creationid="fsanchez" creationdate="20161025T085335Z">
@@ -5106,6 +5114,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130154Z" creationid="fsanchez" creationdate="20161010T130154Z">
         <seg>Por ejemplo, si leemos &lt;n8&gt; Aprendió a afeitarse en dos minutos &lt;n14&gt; podríamos considerar la interpretación en la que se habla de la duración del afeitado (lo que &lt;i5&gt;aprendió&lt;/i5&gt; es a &lt;i6&gt;afeitarse en dos minutos&lt;/i6&gt;) como más probable que la que interpreta que se habla de la duración del aprendizaje (&lt;i7&gt;aprender a afeitarse&lt;/i7&gt; le costó &lt;i8&gt;dos minutos&lt;/i8&gt;), puesto que en el segundo caso quizás habría sido más natural decir &lt;n9&gt; Aprendió en dos minutos a afeitarse &lt;n15&gt; La regla que favorece que los adjuntos se asocien al último sintagma que los admita ---y que permite, por lo tanto, ir construyendo el árbol de análisis sintáctico gradualmente sin tener que hacer grandes reorganizaciones--- se suele denominar regla de &lt;i9&gt;clausura tardía&lt;/i9&gt; ---en inglés &lt;i10&gt;late closure&lt;/i10&gt;---; por ejemplo, esta regla favorece el primero de los árboles de la figura &lt;n2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, si tenim una unitat d'informació que pot presentar-se en 778 formes diferents,&lt;p0&gt; necessitarem 10 bits, perquè amb 9 bits només podem fer $$2 &lt;u0&gt; 2 &lt;u1&gt; 2 &lt;u2&gt; 2 &lt;u3&gt; 2 &lt;u4&gt; 2 &lt;u5&gt; 2 &lt;u6&gt; 2 &lt;u7&gt; 2 = 2^9 = 512$$ combinacions diferents, però amb 10, ja en podem fer suficients, perquè $2^{10}=1 024$ (en quedarien $1 024-778=246$ combinacions sense usar).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154537Z" creationid="fsanchez" creationdate="20161027T154537Z">
+        <seg>Por ejemplo, si tenemos una unidad de información que puede presentarse en 778 formas diferentes,&lt;p0&gt; necesitaremos 10 bits, porque con 9 bits solo podemos hacer $$2 &lt;u0&gt; 2 &lt;u1&gt; 2 &lt;u2&gt; 2 &lt;u3&gt; 2 &lt;u4&gt; 2 &lt;u5&gt; 2 &lt;u6&gt; 2 &lt;u7&gt; 2 = 2^9 = 512$$ combinaciones diferentes, pero con 10, ya podemos hacer suficientes, porque $2^{10}=1 024$ (quedarían $1 024-778=246$ combinaciones sin usar).</seg>
       </tuv>
     </tu>
     <tu>
