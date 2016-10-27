@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n1&gt; De fet, els programes d'aplicació solen estar escrits per a ser executats &lt;i0&gt;sobre un sistema operatiu&lt;/i0&gt;, és a dir, els programes d'aplicació &lt;i1&gt;assumeixen&lt;/i1&gt; que el sistema operatiu farà totes aquestes operacions senzilles i no contenen instruccions de programa per a fer-les, sinó només instruccions per a invocar els programes corresponents del sistema operatiu, cosa que simplifica enormement l'escriptura dels programes per part dels programadors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153620Z" creationid="fsanchez" creationdate="20161027T153620Z">
+        <seg>&lt;n1&gt; De hecho, los programas de aplicación suelen estar escritos para ser ejecutados &lt;i0&gt;sobre un sistema operativo&lt;/i0&gt;, es decir, los programas de aplicación &lt;i1&gt;asumen&lt;/i1&gt; que el sistema operativo hará todas estas operaciones sencillas y no contienen instrucciones de programa para hacerlas, sino sólo instrucciones para invocar los programas correspondientes del sistema operativo, cosa que simplifica enormemente la escritura de los programas por parte de los programadores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; Les dues causes poden concórrer.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141812Z" creationid="fsanchez" creationdate="20161009T141812Z">
