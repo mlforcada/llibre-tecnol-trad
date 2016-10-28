@@ -3814,6 +3814,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En el cas del mòdem més comú a finals del segle passat, el &lt;i0&gt;mòdem telefònic&lt;/i0&gt;, es tractava d'un dispositiu (normalment una placa interna, encara que també pot ser extern) que permetia usar la línia telefònica (senyals analògics) per a comunicacions informàtiques (digitals) entre dos ordinadors, establint una telefonada; era aleshores la manera estàndard d'accedir a Internet des de casa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T094214Z" creationid="fsanchez" creationdate="20161028T094214Z">
+        <seg>En el caso del módem más común, el &lt;i0&gt;módem telefónico&lt;/i0&gt;, se trata de un dispositivo (normalmente una placa interna, aunque también puede ser externo) que permite usar la línea telefónica (señales analógicas) para comunicaciones informáticas (digitales) entre dos ordenadores, estableciendo una llamada; antiguamente era la manera estándar de acceder a Internet desde casa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En el cas dels &lt;i4&gt;Mac&lt;/i4&gt; des de l'any 2006 incorporen processadors Intel, així que podem instal·lar-hi Microsoft Windows o GNU/Linux amb tots els seus programes, encara que també podem usar el sistema operatiu propi dels Mac, anomenat &lt;i5&gt;MacOS&lt;/i5&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093511Z" creationid="fsanchez" creationdate="20161028T093511Z">
