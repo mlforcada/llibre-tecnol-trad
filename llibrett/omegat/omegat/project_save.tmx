@@ -4030,6 +4030,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Fixeu-vos que dues carpetes diferents contenen arxius amb el mateix nom &lt;i3&gt;tt1.txt&lt;/i3&gt;; això no és problema si considerem la trajectòria completa com a nom del fitxer.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084004Z" creationid="fsanchez" creationdate="20161028T084004Z">
+        <seg>Fijaos que dos carpetas diferentes contienen archivos con el mismo nombre &lt;i3&gt;tt1.txt&lt;/i3&gt;; esto no es problema si consideramos la trayectoria completa como nombre del fichero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>França &lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145432Z" creationid="fsanchez" creationdate="20161018T145432Z">
@@ -5914,6 +5922,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104922Z" creationid="fsanchez" creationdate="20161025T104922Z">
         <seg>Si buscamos una alumna por el NIF, ¿cuántas consultas hace, como máximo, el programa gestor de la base de datos hasta llegar a la ficha deseada?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si el disc es diu &lt;i4&gt;C:&lt;/i4&gt; (típic en el cas del disc dur d'un PC amb sistema operatiu Windows), les trajectòries d'aquests dos fitxers serien &lt;i5&gt;C:&lt;/i5&gt;&lt;u16&gt;&lt;u6&gt;{prac1}&lt;u17&gt;&lt;u7&gt;{tt}&lt;u18&gt;&lt;i6&gt;tt1.txt&lt;/i6&gt; i &lt;i7&gt;C:&lt;/i7&gt;&lt;u19&gt;&lt;u8&gt;{prac1}&lt;u20&gt;&lt;u9&gt;{reserva}&lt;u21&gt;&lt;u10&gt;{tt}&lt;u22&gt;&lt;i8&gt;tt1.txt&lt;/i8&gt;, i, per tant, serien diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084034Z" creationid="fsanchez" creationdate="20161028T084034Z">
+        <seg>Si el disco se llama &lt;i4&gt;C:&lt;/i4&gt; (típico en el caso del disco duro de un PC con sistema operativo Windows), las trayectorias de estos dos ficheros serían &lt;i5&gt;C:&lt;/i5&gt;&lt;u16&gt;&lt;u6&gt;{prac1}&lt;u17&gt;&lt;u7&gt;{tt}&lt;u18&gt;&lt;i6&gt;tt1.txt&lt;/i6&gt; y C: &lt;i7&gt;&lt;/i7&gt;&lt;u19&gt;&lt;u8&gt;{prac1}&lt;u20&gt;&lt;u9&gt;{reserva}&lt;u21&gt;&lt;u10&gt;{tt}&lt;u22&gt;&lt;i8&gt;tt1.txt&lt;/i8&gt;, y, por lo tanto, serían diferentes.</seg>
       </tuv>
     </tu>
     <tu>
