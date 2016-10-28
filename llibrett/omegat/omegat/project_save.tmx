@@ -6846,6 +6846,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Una velocitat més gran implica una velocitat d'execució més gran, sempre que no hi haja altres circumstàncies limitants (per exemple, una falta de memòria).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093637Z" creationid="fsanchez" creationdate="20161028T093637Z">
+        <seg>Una velocidad más alta implica una velocidad de ejecución más alta, siempre que no haya otras circunstancias limitantes (por ejemplo, falta de memoria).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una velocitat típica en l'actualitat és 3 GHz, és a dir, 3000 MHz.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093614Z" creationid="fsanchez" creationdate="20161028T093614Z">
