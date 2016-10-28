@@ -3550,6 +3550,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En aquest dispositiu, el directori principal o arrel (representat amb el símbol $&lt;u0&gt;$) conté un únic (sub)directori &lt;u1&gt;{prac1}; aquest directori conté dos (sub)directoris, &lt;u2&gt;{tt} (que conté els fitxers &lt;i0&gt;tt1.txt&lt;/i0&gt; i &lt;i1&gt;tt2.txt&lt;/i1&gt;) i &lt;u3&gt;{reserva}.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T083940Z" creationid="fsanchez" creationdate="20161028T083940Z">
+        <seg>En este dispositivo, el directorio principal o raíz (representado con el símbolo $&lt;u0&gt;$) contiene un único (sub)directorio &lt;u1&gt;{prac1}; este directorio contiene dos (sub)directorios, &lt;u2&gt;{tt} (que contiene los ficheros &lt;i0&gt;tt1.txt&lt;/i0&gt; y &lt;i1&gt;tt2.txt&lt;/i1&gt;) y &lt;u3&gt;{reserva}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En aquestes bases de dades, &lt;i0&gt;cada fitxa representa un concepte&lt;/i0&gt; i conté un camp índex per a emmagatzemar el terme corresponent en cada llengua.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T103452Z" creationid="fsanchez" creationdate="20161025T103452Z">
