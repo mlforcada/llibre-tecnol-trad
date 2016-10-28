@@ -6646,6 +6646,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si assignem un número a cada alumne, quants octets (&lt;i0&gt;bytes&lt;/i0&gt;) fan falta per a guardar el número de cada alumne?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100621Z" creationid="fsanchez" creationdate="20161028T100621Z">
+        <seg>Si asignamos un número a cada alumno, ¿cuántos &lt;i0&gt;bytes&lt;/i0&gt; hacen falta para guardar el número de cada alumno?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si busquem en una base de dades de 240 fitxes d'alumnes una fitxa (un registre) pel número de telèfon, un camp pel qual no està ordenada, quantes consultes haurà de fer, com a màxim, el programa gestor de la base de dades fins arribar a la fitxa desitjada?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105136Z" creationid="fsanchez" creationdate="20161025T105136Z">
