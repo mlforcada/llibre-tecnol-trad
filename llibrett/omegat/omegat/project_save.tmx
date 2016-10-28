@@ -3574,6 +3574,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els telèfons mòbils intel·ligents o &lt;i8&gt;smartphones&lt;/i8&gt; i les tauletes no solen tenir disc, sinó una memòria flaix no volàtil, per exemple, de 8 GB, i una memòria RAM de l'ordre d'1 GB.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085259Z" creationid="fsanchez" creationdate="20161028T085259Z">
+        <seg>Los teléfonos móviles inteligentes o &lt;i8&gt;smartphones&lt;/i8&gt; y las tabletas no suelen tener disco, sino una memoria flash no volátil, por ejemplo, de 8 GB, y una memoria RAM del orden de 1 GB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els triangles s'usen per a no haver d'indicar tots els detalls d'un subarbre concret.}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T153150Z" creationid="fsanchez" creationdate="20161009T153150Z">
@@ -6562,6 +6570,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154639Z" creationid="fsanchez" creationdate="20161027T154601Z">
         <seg>Un byte puede estar, por lo tanto, en $2^8=256$ estados diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un petit glossari</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085301Z" creationid="fsanchez" creationdate="20161028T085301Z">
+        <seg>Un pequeño glosario</seg>
       </tuv>
     </tu>
     <tu>
