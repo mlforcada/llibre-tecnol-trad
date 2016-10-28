@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(c): Un gigaoctet té 1.024 megaoctets, i un megaoctet, 1.024 kilooctets: $1.024 &lt;u5&gt; 1.024 = 1.048.576$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102119Z" creationid="fsanchez" creationdate="20161028T102119Z">
+        <seg>(c): Un gigabyte tiene 1.024 megabytes, y un megabyte, 1.024 kilobytes: $1.024 &lt;u5&gt; 1.024 = 1.048.576$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(vegeu també la pàg. &lt;n1&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151403Z" creationid="fsanchez" creationdate="20161018T151403Z">
@@ -682,6 +690,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153937Z" creationid="fsanchez" creationdate="20161027T153937Z">
         <seg>&lt;u12&gt; Salta a la instrucción &lt;n4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; (c): Una memòria USB de 6 GB (gigaoctets o gigabytes) conté aproximadament 6.000.000.000 octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102124Z" creationid="fsanchez" creationdate="20161028T102124Z">
+        <seg>&lt;u1&gt; (c): Una memoria USB de 6 GB (gigabytes) contiene aproximadamente 6.000.000.000 bytes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7578,6 +7594,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154500Z" creationid="fsanchez" creationdate="20161027T154500Z">
         <seg>Un bit puede tener dos valores: 0 (apagado, inactivo) o 1 (encendido, activo); esto es porque el dispositivo electrónico correspondiente puede estar en dos estados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Un carácter, en les codificacions usades comunament en Europa occidental, ocupa un octet; per tant, la pàgina de $50&lt;u6&gt;60$ ocupa 3.000 octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102130Z" creationid="fsanchez" creationdate="20161028T102130Z">
+        <seg>Un carácter, en las codificaciones usadas comúnmente en Europa occidental, ocupa un byte; por lo tanto, la página de $50&lt;u6&gt;60$ ocupa 3.000 bytes.</seg>
       </tuv>
     </tu>
     <tu>
