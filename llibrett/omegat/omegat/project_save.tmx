@@ -3768,8 +3768,8 @@
       <tuv lang="CA">
         <seg>En el cas d'usar les línies elèctriques, la tecnologia rep també el nom de PLC (&lt;i1&gt;power line communications&lt;/i1&gt; o comunicacions a través de les línies de força), però a Espanya no s'usa per a proveir serveis d'Internet a les llars.</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093141Z" creationid="fsanchez" creationdate="20161028T093141Z">
-        <seg>En el caso de las líneas eléctricas, la tecnología recibe también el nombre de PLC (&lt;i1&gt;power line communications&lt;/i1&gt; o comunicaciones a través de líneas de fuerza), pero en España no se usa para proveer servicios de Internet a los hogares.</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093158Z" creationid="fsanchez" creationdate="20161028T093141Z">
+        <seg>En el caso de las líneas eléctricas, la tecnología recibe también el nombre de PLC (&lt;i1&gt;power line communications&lt;/i1&gt; o comunicaciones a través de líneas de fuerza), pero en España no se usa para proveer servicios de Internet doméstico.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6986,6 +6986,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092731Z" creationid="fsanchez" creationdate="20161028T092731Z">
         <seg>[cache] o &lt;i0&gt;memoria caché&lt;/i0&gt;: Memoria RAM intermedia, de acceso más rápido por parte del procesador, donde se copia de cuando en cuando un bloque (también ``página") completo de posiciones consecutivas de la memoria RAM general para simplificar accesos repetidos a posiciones en la misma zona.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[fibra òptica:] tecnologia que transporta les dades usant una llum làser que es propaga a través d'un fil molt fi de material transparent.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093147Z" creationid="fsanchez" creationdate="20161028T093147Z">
+        <seg>[fibra óptica:] tecnología que transporta los datos usando una luz láser que se propaga a través de un cable muy fino de material transparente.</seg>
       </tuv>
     </tu>
     <tu>
