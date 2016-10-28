@@ -7102,6 +7102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Programari lliure:] (&lt;i0&gt;free software&lt;/i0&gt;, també anomenat &lt;i1&gt;programari de codi font obert&lt;/i1&gt; o &lt;i2&gt;open-source software&lt;/i2&gt;) és el programari que es distribueix amb llicències que donen una sèrie de llibertats a qui rep el programari: la llibertat d'usar-lo per a qualsevol propòsit sense restricció, la llibertat d'examinar-lo per veure com funciona i modificar-lo per adaptar-lo a un nou ús, i la llibertat de distribuir còpies ---originals o modificades--- lliurement a qui desitgem.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T094611Z" creationid="fsanchez" creationdate="20161028T094611Z">
+        <seg>[Software libre:] (&lt;i0&gt;free software&lt;/i0&gt;, también llamado &lt;i1&gt;software de código fuente abierto&lt;/i1&gt; u &lt;i2&gt;open-source software&lt;/i2&gt;) es el software que se distribuye con licencias que dan una serie de libertades a quien recibe el software: la libertad de usarlo para cualquier propósito sin restricción, la libertad de examinarlo para ver como funciona y modificarlo para adaptarlo a un nuevo uso, y la libertad de distribuir copias ---originales o modificadas--- libremente a quienes se desee.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Programari] (o &lt;i0&gt;software&lt;/i0&gt;): un o més &lt;i1&gt;programes&lt;/i1&gt; (i les dades associades) que fan alguna funció útil per a la persona usuària o per a un altre &lt;i2&gt;programa&lt;/i2&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150800Z" creationid="fsanchez" creationdate="20161027T150800Z">
