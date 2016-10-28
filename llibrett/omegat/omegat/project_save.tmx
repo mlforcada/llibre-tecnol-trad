@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} executarà els programes més lentament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101629Z" creationid="fsanchez" creationdate="20161028T101629Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} ejecutará los programas más lentamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; {&lt;u6&gt;} hem de conéixer com s'escriu exactament el terme per a poder trobar-lo.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105106Z" creationid="fsanchez" creationdate="20161025T105054Z">
@@ -2082,6 +2090,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113902Z" creationid="fsanchez" creationdate="20161014T113902Z">
         <seg>&lt;u3&gt; {&lt;u7&gt;} se intenta resolver normalmente con reglas basadas en las categorías léxicas de las palabras que la acompañan en la frase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} tardarà menys a executar els programes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101637Z" creationid="fsanchez" creationdate="20161028T101637Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} tardará menos en ejecutar los programas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7010,6 +7026,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092840Z" creationid="fsanchez" creationdate="20161028T092840Z">
         <seg>Si cuando se ha pedido la 2.000.000 se copian en la &lt;i2&gt;memoria caché&lt;/i2&gt; las 524.288 posiciones que van de la 1.572.864 a la 2.097.151, el acceso a la posición 2.000.003 será más rápido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si reduïm de 3.000 MHz a 1.500 MHz la freqüència del rellotge d'un ordinador i encara funciona{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} executarà els programes a la mateixa velocitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101627Z" creationid="fsanchez" creationdate="20161028T101627Z">
+        <seg>Si reducimos de 3.000 MHz a 1.500 MHz la frecuencia del reloj de un ordenador y todavía funciona{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} ejecutará los programas a la misma velocidad.</seg>
       </tuv>
     </tu>
     <tu>
