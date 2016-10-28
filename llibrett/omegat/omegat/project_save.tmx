@@ -3934,6 +3934,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'actualitat tots els ordinadors porten aquestes capacitats incorporades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095346Z" creationid="fsanchez" creationdate="20161028T095346Z">
+        <seg>En la actualidad todos los ordenadores llevan estas capacidades incorporadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'actualitat, en els domicilis del País Valencià hi ha bàsicament tres modalitats d'accés a Internet, totes per preus que oscil·len al voltant dels 30--40 euros/mes: &lt;n0&gt; &lt;u0&gt;[ADSL:] (vegeu el glossari de la secció &lt;n1&gt;) el mòdem fa la connexió a través dels fils de telefonia convencional ja instal·lats a les cases, i en l'actualitat s'aconsegueixen velocitats de baixada d'alguns Mb/s i de pujada normalment inferiors a 1 Mb/s.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140505Z" creationid="fsanchez" creationdate="20161019T140505Z">
@@ -7266,6 +7274,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093707Z" creationid="fsanchez" creationdate="20161028T093707Z">
         <seg>[módem:] abreviatura de modulador-desmodulador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[placa de so:] En els ordinadors més antics, s'havia de comprar a banda una placa (o targeta) de so si es volia usar l'ordinador per a processar, enregistrar, reproduir, i manipular sons digitalitzats.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095343Z" creationid="fsanchez" creationdate="20161028T095343Z">
+        <seg>[placa de sonido:] En los ordenadores más antiguos, se tenía que comprar a parte una placa (o tarjeta) de sonido si se quería usar el ordenador para procesar, grabar, reproducir, y manipular sonidos digitalizados.</seg>
       </tuv>
     </tu>
     <tu>
