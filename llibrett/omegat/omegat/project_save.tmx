@@ -7246,6 +7246,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Wi-Fi] (probablement de l'anglés &lt;i0&gt;wireless fidelity&lt;/i0&gt;, fidelitat sense fils): tecnologia de connexió sense fils (via ràdio), principalment per a formar xarxes locals, i que en l'actualitat (estàndard IEEE 802.11ac, gener de 2014) permet velocitats de transmissió de fins a 6.77 Gb/s.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095755Z" creationid="fsanchez" creationdate="20161028T095755Z">
+        <seg>[Wi-Fi] (probablemente del inglés &lt;i0&gt;wireless fidelity&lt;/i0&gt;, fidelidad inalámbrica): tecnología de conexión inalámbrica (vía radio), principalmente para formar redes locales, y que en la actualidad (estándar IEEE 802.11ac, enero de 2014) permite velocidades de transmisión de hasta 6.77 Gb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[adaptador de vídeo] (també anomenada targeta gràfica o controlador de vídeo): Dispositiu (targeta independent, o integrada en la placa base) que permet connectar un monitor a l'ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092442Z" creationid="fsanchez" creationdate="20161028T092442Z">
