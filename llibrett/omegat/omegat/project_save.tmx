@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(b): Cada dígit decimal pot prendre, per separat, 10 valors diferents (de zero al nou).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102550Z" creationid="fsanchez" creationdate="20161028T102550Z">
+        <seg>(b): Cada dígito decimal puede tomar, por separado, 10 valores diferentes (del cero al nueve).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(c) &lt;u1&gt; (c) &lt;u2&gt; (c): Cada imatge ocupa $100&lt;u5&gt;100 = 10.000$ bits, que són $10.000 / 8 = 1.250$ octets.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102526Z" creationid="fsanchez" creationdate="20161028T102526Z">
@@ -7690,6 +7698,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150611Z" creationid="fsanchez" creationdate="20161027T150611Z">
         <seg>Todos los sistemas informáticos&lt;p0&gt; se pueden dividir en dos partes: &lt;i0&gt;hardware&lt;/i0&gt; y &lt;i1&gt;software&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tres bits per dígit decimal no són suficients (permeten només 8 combinacions); quatre, sí.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102555Z" creationid="fsanchez" creationdate="20161028T102555Z">
+        <seg>Tres bits por dígito decimal no son suficientes (permiten sólo 8 combinaciones); cuatro, sí.</seg>
       </tuv>
     </tu>
     <tu>
