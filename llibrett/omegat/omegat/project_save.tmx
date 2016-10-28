@@ -390,6 +390,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Que comencen a executar-se en connectar l'ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101504Z" creationid="fsanchez" creationdate="20161028T101504Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Que empiezan a ejecutarse al conectar el ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Sí, com en qualsevol directori.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100601Z" creationid="fsanchez" creationdate="20161028T100601Z">
@@ -1270,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Que consisteixen en una llista d'instruccions executables.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101507Z" creationid="fsanchez" creationdate="20161028T101507Z">
+        <seg>&lt;u2&gt; Que consisten en una lista de instrucciones ejecutables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Que està ordenada pel camp pel qual estem buscant.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105925Z" creationid="fsanchez" creationdate="20161025T105925Z">
@@ -1378,6 +1394,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114127Z" creationid="fsanchez" creationdate="20161014T114127Z">
         <seg>&lt;u2&gt; Una oración sólo puede ser ambigua si al menos una de sus palabras es ambigua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Unes 10 000.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101456Z" creationid="fsanchez" creationdate="20161028T101456Z">
+        <seg>&lt;u2&gt; Unas 10 000.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1962,6 +1986,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100111Z" creationid="fsanchez" creationdate="20161028T100111Z">
         <seg>&lt;u3&gt; Una estructura de datos que representa el texto generado por un procesador de textos y que tiene un nombre asociado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Unes 800 000.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101457Z" creationid="fsanchez" creationdate="20161028T101457Z">
+        <seg>&lt;u3&gt; Unas 800 000.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6538,6 +6570,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113929Z" creationid="fsanchez" creationdate="20161014T113929Z">
         <seg>¿Qué tipo de ambigüedad se produce en el pronombre débil &lt;i0&gt;li&lt;/i0&gt; de la frase &lt;i1&gt;Vaig veure Mario i sa madre; li vaig dir que m'agradava molt el seu fill&lt;/i1&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quina característica és comuna a tots els tipus de programari?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101502Z" creationid="fsanchez" creationdate="20161028T101502Z">
+        <seg>¿Qué característica es común a todos los tipos de software?</seg>
       </tuv>
     </tu>
     <tu>
