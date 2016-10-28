@@ -6950,6 +6950,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[cache] o &lt;i0&gt;memòria cau&lt;/i0&gt;: Memòria RAM intermèdia, d'accés més ràpid per part del processador, on es copia de tant en tant un bloc (també ``pàgina'') complet de posicions consecutives de la memòria RAM general per a simplificar accessos repetits a posicions en la mateixa zona.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092731Z" creationid="fsanchez" creationdate="20161028T092731Z">
+        <seg>[cache] o &lt;i0&gt;memoria caché&lt;/i0&gt;: Memoria RAM intermedia, de acceso más rápido por parte del procesador, donde se copia de cuando en cuando un bloque (también ``página") completo de posiciones consecutivas de la memoria RAM general para simplificar accesos repetidos a posiciones en la misma zona.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`&lt;u8&gt;{tt1}{txt}' ) ) ) ) &lt;n1&gt; &lt;u9&gt;{Exemple d'estructura de fitxers i directoris en un dispositiu d'emmagatzemament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164254Z" creationid="fsanchez" creationdate="20161027T164254Z">
