@@ -1662,6 +1662,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; (a): Els mòdems modulen (converteixen senyals digitals a analògics) i desmodulen (converteixen senyals analògics en digitals) per a enviar i rebre dades a través d'un determinat mitjà.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102212Z" creationid="fsanchez" creationdate="20161028T102212Z">
+        <seg>&lt;u3&gt; (a): Los módems modulan (convierten señales digitales en analógicas) y desmodulan (convierten señales analógicas en digitales) para enviar y recibir datos a través de un determinado medio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; ... és estructural d'origen coordinatiu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141731Z" creationid="fsanchez" creationdate="20161010T141731Z">
@@ -2314,6 +2322,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T150957Z" creationid="fsanchez" creationdate="20161009T150957Z">
         <seg>&lt;u3&gt;{Decir que en este caso el borrador de las partes repetidas es obligatorio en la mayor parte de las lenguas} Consideremos el ejemplo siguiente, sacado de &lt;u4&gt;[p.399]{radford09b}: &lt;n2&gt; &lt;n4&gt; Los escoceses aprecian el whisky más que los galeses &lt;n5&gt; La oración tiene dos interpretaciones: &lt;n3&gt; &lt;u1&gt;[(a)] Los escoceses aprecian el whisky más que los galeses (aprecian el whisky) &lt;u2&gt;[(b)] Los escoceses aprecian el whisky más que (los escoceses aprecian) a los galeses&lt;p0&gt; &lt;n6&gt; En estos dos casos, la ambigüedad está causada por el hecho de que son posibles dos estructuras sintácticas para la segunda oración coordinada: en la primera estructura, el sintagma &lt;i3&gt;los galeses&lt;/i3&gt; es el sujeto mientras que en la segunda estructura es el objeto (véanse los árboles de la fig. &lt;n7&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; (a): Un CD-ROM pot emmagatzemar com a mínim 650 MB.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102225Z" creationid="fsanchez" creationdate="20161028T102225Z">
+        <seg>&lt;u4&gt; (a): Un CD-ROM puede almacenar como mínimo 650 MB.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5786,6 +5802,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T140819Z" creationid="fsanchez" creationdate="20161009T140819Z">
         <seg>Las lenguas divergen.&lt;/i0&gt; Es decir, hay diferencias irreducibles en la manera de expresar el mismo contenido en diferentes lenguas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les línies ADSL domèstiques actuals admeten connexions via mòdem telefònic d'uns quants megabits per segon (vegeu la secció &lt;n1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102222Z" creationid="fsanchez" creationdate="20161028T102222Z">
+        <seg>Las líneas ADSL domésticas actuales admiten conexiones vía módem telefónico de unos cuántos megabits por segundo (véase la sección &lt;n1&gt;).</seg>
       </tuv>
     </tu>
     <tu>
