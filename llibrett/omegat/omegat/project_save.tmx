@@ -1670,6 +1670,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; (c): Els discos fixos són generalment magnètics.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102249Z" creationid="fsanchez" creationdate="20161028T102249Z">
+        <seg>&lt;u3&gt; (c): Los discos fijos son generalmente magnéticos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; ... és estructural d'origen coordinatiu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141731Z" creationid="fsanchez" creationdate="20161010T141731Z">
@@ -2330,6 +2338,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102225Z" creationid="fsanchez" creationdate="20161028T102225Z">
         <seg>&lt;u4&gt; (a): Un CD-ROM puede almacenar como mínimo 650 MB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; (b): Almenys la porció del programa que s'està executant ha de residir en la RAM.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102254Z" creationid="fsanchez" creationdate="20161028T102254Z">
+        <seg>&lt;u4&gt; (b): Al menos la porción del programa que se está ejecutando tiene que residir en la RAM.</seg>
       </tuv>
     </tu>
     <tu>
