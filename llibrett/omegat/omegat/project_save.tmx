@@ -7150,6 +7150,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[mòdem:] abreviatura de modulador-desmodulador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093707Z" creationid="fsanchez" creationdate="20161028T093707Z">
+        <seg>[módem:] abreviatura de modulador-desmodulador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`&lt;u8&gt;{tt1}{txt}' ) ) ) ) &lt;n1&gt; &lt;u9&gt;{Exemple d'estructura de fitxers i directoris en un dispositiu d'emmagatzemament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164254Z" creationid="fsanchez" creationdate="20161027T164254Z">
