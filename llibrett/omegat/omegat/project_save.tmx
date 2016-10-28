@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(a): Tenim 12 valors diferents (de gener a desembre).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102629Z" creationid="fsanchez" creationdate="20161028T102629Z">
+        <seg>(a): Tenemos 12 valores diferentes (de enero a diciembre).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(b) &lt;u1&gt; (a): 57.600 b/s són 57.600 / 1024 = 56,25 kb/s.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144540Z" creationid="fsanchez" creationdate="20161019T144540Z">
@@ -2962,6 +2970,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102427Z" creationid="fsanchez" creationdate="20161028T102427Z">
         <seg>Con 3 bits podemos almacenar \(2&lt;u7&gt;2&lt;u8&gt;2=8\) colores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Amb 3 targetes puc emmagatzemar $ 3 * 1024 = 3.072$ imatges.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102622Z" creationid="fsanchez" creationdate="20161028T102622Z">
+        <seg>Con 3 tarjetas puedo almacenar $ 3 * 1024 = 3.072$ imágenes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7730,6 +7746,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102555Z" creationid="fsanchez" creationdate="20161028T102555Z">
         <seg>Tres bits por dígito decimal no son suficientes (permiten sólo 8 combinaciones); cuatro, sí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tres bits per mes no són suficients (permeten només 8 combinacions); quatre sí (permeten 16 combinacions).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102634Z" creationid="fsanchez" creationdate="20161028T102634Z">
+        <seg>Tres bits por mes no son suficientes (permiten sólo 8 combinaciones); cuatro sí (permiten 16 combinaciones).</seg>
       </tuv>
     </tu>
     <tu>
