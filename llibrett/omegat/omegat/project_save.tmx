@@ -3614,6 +3614,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En el cas d'el sistema operatiu GNU/Linux les trajectòries d'aquests dos fitxers serien &lt;i9&gt;/&lt;/i9&gt;&lt;u11&gt;{prac1/}&lt;u12&gt;{tt/}&lt;i10&gt;tt1.txt&lt;/i10&gt; i &lt;i11&gt;/&lt;/i11&gt;&lt;u13&gt;{prac1/}&lt;u14&gt;{reserva/}&lt;u15&gt;{tt/}&lt;i12&gt;tt1.txt&lt;/i12&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084042Z" creationid="fsanchez" creationdate="20161028T084042Z">
+        <seg>En el caso del sistema operativo GNU/Linux las trayectorias de estos dos ficheros serían &lt;i9&gt;/&lt;/i9&gt;&lt;u11&gt;{prac1/}&lt;u12&gt;{tt/}&lt;i10&gt;tt1.txt&lt;/i10&gt; y / &lt;i11&gt;&lt;/i11&gt;&lt;u13&gt;{prac1/}&lt;u14&gt;{reserva/}&lt;u15&gt;{tt/}&lt;i12&gt;tt1.txt&lt;/i12&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En el cas de les frases ``Toni comprarà...'', sembla lògic usar la regla de {&lt;u1&gt; clausura tardana}, ja que es correspon prou bé amb les interpretacions preferides per les persones.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115710Z" creationid="fsanchez" creationdate="20161014T115710Z">
@@ -4026,6 +4034,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145530Z" creationid="fsanchez" creationdate="20161018T145530Z">
         <seg>Fijaos que algunos indicativos (&lt;i0&gt;.tv&lt;/i0&gt;, &lt;i1&gt;.fm&lt;/i1&gt;, etc.) se usan para aplicaciones no estrictamente relacionadas con estos países.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Fixeu-vos que cada sistema operatiu fa servir un símbol diferent per al directori principal o arrel i per a separar els noms dels directoris i arxius dins de la ruta o trajectòria.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084050Z" creationid="fsanchez" creationdate="20161028T084050Z">
+        <seg>Fijaos que cada sistema operativo usa un símbolo diferente para el directorio principal o raíz y para separar los nombres de los directorios y archivos dentro de la ruta o trayectoria.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6194,6 +6210,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="japerez" changedate="20161010T095849Z" creationid="japerez" creationdate="20161010T095849Z">
         <seg>Textos y formatos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tipus d'ordinadors</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084052Z" creationid="fsanchez" creationdate="20161028T084052Z">
+        <seg>Tipos de ordenadores</seg>
       </tuv>
     </tu>
     <tu>
