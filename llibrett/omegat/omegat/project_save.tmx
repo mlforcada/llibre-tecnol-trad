@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(a) &lt;u1&gt; (b): El nombre de bits necessari per a poder generar 35.000 combinacions és el nombre de vegades que cal multiplicar \(2&lt;u5&gt; 2&lt;u6&gt;&lt;u11&gt;\) just fins al punt en què se supera 35.000.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102356Z" creationid="fsanchez" creationdate="20161028T102356Z">
+        <seg>(a) &lt;u1&gt; (b): El número de bits necesario para poder generar 35.000 combinaciones es el número de veces que hay que multiplicar \(2&lt;u5&gt; 2&lt;u6&gt;&lt;u11&gt;\) justo hasta el punto en que se supera 35.000.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(b) &lt;u1&gt; (a): 57.600 b/s són 57.600 / 1024 = 56,25 kb/s.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144540Z" creationid="fsanchez" creationdate="20161019T144540Z">
