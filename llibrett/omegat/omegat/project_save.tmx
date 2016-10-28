@@ -7238,6 +7238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[USB] (de l'anglés &lt;i0&gt;universal serial bus&lt;/i0&gt;, bus sèrie universal): Estàndard o norma de connexió de dispositius perifèrics (impressores, mòdems, reproductors digitals de música, càmeres digitals, unitats de memòria) que transmet les dades en sèrie (és a dir, un bit darrere de l'altre) a velocitats que en les versions més modernes de l'estàndard poden arribar als Gb/s, i que permet la connexió i desconnexió de dispositius de moltes classes ``en calent'', és a dir, sense haver d'apagar l'ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095720Z" creationid="fsanchez" creationdate="20161028T095720Z">
+        <seg>[USB] (del inglés &lt;i0&gt;universal serial bus&lt;/i0&gt;, bus serie universal): Estándar o norma de conexión de dispositivos periféricos (impresoras, módems, reproductores digitales de música, cámaras digitales, unidades de memoria) que transmite los datos en serie (es decir, un bit detrás del otro) a velocidades que en las versiones más modernas del estándar pueden llegar a los Gb/s, y que permite la conexión y desconexión de dispositivos de muchas clases ``en caliente'', es decir, sin tener que apagar el ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[adaptador de vídeo] (també anomenada targeta gràfica o controlador de vídeo): Dispositiu (targeta independent, o integrada en la placa base) que permet connectar un monitor a l'ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092442Z" creationid="fsanchez" creationdate="20161028T092442Z">
