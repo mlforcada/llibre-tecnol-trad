@@ -3174,6 +3174,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Caben $6.000.000.000/3.000=2.000.000$ pàgines en un disc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102138Z" creationid="fsanchez" creationdate="20161028T102138Z">
+        <seg>Caben $6.000.000.000/3.000=2.000.000$ páginas en un disco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Cada cicle de processament d'informació es correspon amb un &lt;i0&gt;tic&lt;/i0&gt; del rellotge que tots el dispositius de processament tenen per sincronitzar tots el circuits de l'ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151058Z" creationid="fsanchez" creationdate="20161027T151058Z">
