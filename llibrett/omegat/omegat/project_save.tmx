@@ -3766,6 +3766,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En el cas d'usar les línies elèctriques, la tecnologia rep també el nom de PLC (&lt;i1&gt;power line communications&lt;/i1&gt; o comunicacions a través de les línies de força), però a Espanya no s'usa per a proveir serveis d'Internet a les llars.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093141Z" creationid="fsanchez" creationdate="20161028T093141Z">
+        <seg>En el caso de las líneas eléctricas, la tecnología recibe también el nombre de PLC (&lt;i1&gt;power line communications&lt;/i1&gt; o comunicaciones a través de líneas de fuerza), pero en España no se usa para proveer servicios de Internet a los hogares.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En el cas de les frases ``Toni comprarà...'', sembla lògic usar la regla de {&lt;u1&gt; clausura tardana}, ja que es correspon prou bé amb les interpretacions preferides per les persones.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115710Z" creationid="fsanchez" creationdate="20161014T115710Z">
