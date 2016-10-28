@@ -2398,6 +2398,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquest glossari arreplega alguns termes d'ús comú en la descripció d'ordinadors i programes que no han estat definits més amunt.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092435Z" creationid="fsanchez" creationdate="20161028T092435Z">
+        <seg>Este glosario recoge algunos términos de uso común en la descripción de ordenadores y programas que no han sido definidos más arriba.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquest programari oferix al sistema operatiu serveix bàsics d'accés als dispositius d'entrada i d'eixida més habituals.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152730Z" creationid="fsanchez" creationdate="20161027T152730Z">
@@ -6890,6 +6898,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090130Z" creationid="fsanchez" creationdate="20161025T090130Z">
         <seg>[Tercero y último paso: miramos el elemento 9 y encontramos el elemento buscado.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[adaptador de vídeo] (també anomenada targeta gràfica o controlador de vídeo): Dispositiu (targeta independent, o integrada en la placa base) que permet connectar un monitor a l'ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092442Z" creationid="fsanchez" creationdate="20161028T092442Z">
+        <seg>[adaptador de vídeo] (también llamado tarjeta gráfica o controlador de vídeo): Dispositivo (tarjeta independiente, o integrada en la placa base) que permite conectar un monitor al ordenador.</seg>
       </tuv>
     </tu>
     <tu>
