@@ -7086,6 +7086,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[megahertz:] Un megahertz (MHz) és un milió d'hertzs (Hz), és a dir, un milió de cicles per segon.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093526Z" creationid="fsanchez" creationdate="20161028T093526Z">
+        <seg>[megahercio:] Un megahercio (MHz) es un millón de hercios (Hz), es decir, un millón de ciclos por segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`&lt;u8&gt;{tt1}{txt}' ) ) ) ) &lt;n1&gt; &lt;u9&gt;{Exemple d'estructura de fitxers i directoris en un dispositiu d'emmagatzemament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164254Z" creationid="fsanchez" creationdate="20161027T164254Z">
