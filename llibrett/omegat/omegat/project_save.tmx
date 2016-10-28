@@ -1014,6 +1014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; La memòria RAM (per exemple, de 8 GB).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085014Z" creationid="fsanchez" creationdate="20161028T085014Z">
+        <seg>&lt;u2&gt; La memoria RAM (por ejemplo, de 8 GB).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; La part final.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142355Z" creationid="fsanchez" creationdate="20161019T142355Z">
