@@ -6190,6 +6190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quants valors possibles pot prendre un octet o &lt;i0&gt;byte&lt;/i0&gt;?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100032Z" creationid="fsanchez" creationdate="20161028T100032Z">
+        <seg>¿Cuántos valores posibles puede tomar un &lt;i0&gt;byte&lt;/i0&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Questions i exercicis</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141505Z" creationid="fsanchez" creationdate="20161019T141505Z">
