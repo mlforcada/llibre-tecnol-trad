@@ -398,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Que cada dada és una seqüència d'&lt;i0&gt;octets&lt;/i0&gt; i cada octet pot adoptar 512 valors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102027Z" creationid="fsanchez" creationdate="20161028T102027Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Que cada dato es una secuencia de &lt;i0&gt;bytes&lt;/i0&gt; y cada byte puede adoptar 512 valores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Que comencen a executar-se en connectar l'ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101504Z" creationid="fsanchez" creationdate="20161028T101504Z">
@@ -1310,6 +1318,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Que cada dada és una seqüència de nombres codificats en ASCII.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102031Z" creationid="fsanchez" creationdate="20161028T102031Z">
+        <seg>&lt;u2&gt; Que cada dato es una secuencia de números codificados en ASCII.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Que consisteixen en una llista d'instruccions executables.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101507Z" creationid="fsanchez" creationdate="20161028T101507Z">
@@ -1954,6 +1970,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142400Z" creationid="fsanchez" creationdate="20161019T142400Z">
         <seg>&lt;u3&gt; Puede no coincidir nada porque los números IP se asignan aleatoriamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Que cada dada és una seqüència de &lt;i1&gt;bits&lt;/i1&gt;, cadascun dels quals només pot adoptar dos valors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102037Z" creationid="fsanchez" creationdate="20161028T102037Z">
+        <seg>&lt;u3&gt; Que cada dato es una secuencia de &lt;i1&gt;bits&lt;/i1&gt;, cada uno de los cuales sólo puede adoptar dos valores.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6842,6 +6866,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105217Z" creationid="fsanchez" creationdate="20161025T105217Z">
         <seg>¿Qué tienen en común todos los campos de una ficha terminológica?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Què vol dir això?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102023Z" creationid="fsanchez" creationdate="20161028T102023Z">
+        <seg>¿Qué quiere decir esto?</seg>
       </tuv>
     </tu>
     <tu>
