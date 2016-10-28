@@ -1446,6 +1446,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} converteix senyals analògics en informació digital.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101659Z" creationid="fsanchez" creationdate="20161028T101659Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} convierte señales analógicas en información digital.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; {&lt;u6&gt;} es pot resoldre usant regles derivades d'un estudi de les preferències sintàctiques observades en experiments psicolingüístics.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142535Z" creationid="fsanchez" creationdate="20161010T142535Z">
@@ -2066,6 +2074,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141649Z" creationid="fsanchez" creationdate="20161019T141649Z">
         <seg>&lt;u3&gt; el directorio donde se encuentra el servicio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} fa les dues coses.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101700Z" creationid="fsanchez" creationdate="20161028T101700Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} hace las dos cosas.</seg>
       </tuv>
     </tu>
     <tu>
