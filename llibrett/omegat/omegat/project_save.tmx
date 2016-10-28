@@ -6254,6 +6254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si quan s'ha demanat la 2.000.000 es copien en la &lt;i2&gt;memòria cau&lt;/i2&gt; les 524.288 posicions que van de la 1.572.864 a la 2.097.151, l'accés a la posició 2.000.003 serà més ràpida.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092840Z" creationid="fsanchez" creationdate="20161028T092840Z">
+        <seg>Si cuando se ha pedido la 2.000.000 se copian en la &lt;i2&gt;memoria caché&lt;/i2&gt; las 524.288 posiciones que van de la 1.572.864 a la 2.097.151, el acceso a la posición 2.000.003 será más rápido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si s'envia un missatge a &lt;i3&gt;mt-list@eamt.org&lt;/i3&gt; el reben tots els subscrits.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115915Z" creationid="fsanchez" creationdate="20161019T115915Z">
