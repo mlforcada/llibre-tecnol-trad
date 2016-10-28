@@ -4286,6 +4286,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Hi ha molts tipus d'adaptadors de vídeo.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092448Z" creationid="fsanchez" creationdate="20161028T092448Z">
+        <seg>Hay muchos tipos de adaptadores de vídeo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Hi ha tres classes bàsiques de programari:</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152715Z" creationid="fsanchez" creationdate="20161027T152715Z">
