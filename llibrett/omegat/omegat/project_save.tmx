@@ -3270,6 +3270,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els Mac, a hores d'ara també són ordinadors de tipus PC, però antigament eren ordinadors tipus PowerPC fabricats exclusivament per l'empresa Apple.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084726Z" creationid="fsanchez" creationdate="20161028T084726Z">
+        <seg>Los Mac, a estas alturas también son ordenadores de tipo PC, pero antiguamente eran ordenadores tipo PowerPC fabricados exclusivamente por la empresa Apple.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els PC són l'evolució dels primers ordinadors personals desenvolupats per IBM, tot i que actualment són fabricats per un nombre molt gran d'empreses.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084719Z" creationid="fsanchez" creationdate="20161028T084719Z">
+        <seg>Los PC son la evolución de los primeros ordenadores personales desarrollados por IBM, a pesar de que actualmente son fabricados por un número muy grande de empresas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els URI no només serveixen per enllaçar hipertextos: l'URI &lt;u0&gt;{mailto:anton@dlsi.ua.es} serveix per a enviar correu electrònic (&lt;i0&gt;mailto&lt;/i0&gt;) a l'usuari que té l'adreça de correu electrònic &lt;u1&gt;{anton@dlsi.ua.es}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151144Z" creationid="fsanchez" creationdate="20161018T151144Z">
