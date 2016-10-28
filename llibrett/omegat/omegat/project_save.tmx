@@ -6086,6 +6086,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quants &lt;i0&gt;kilobytes&lt;/i0&gt; (kilooctets) hi ha en un &lt;i1&gt;gigabyte&lt;/i1&gt; (gigaoctet)?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095818Z" creationid="fsanchez" creationdate="20161028T095818Z">
+        <seg>¿Cuántos &lt;i0&gt;kilobytes&lt;/i0&gt; hay en &lt;i1&gt;un gigabyte&lt;/i1&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quants bits són necessaris per a emmagatzemar un número IP?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141725Z" creationid="fsanchez" creationdate="20161019T141725Z">
