@@ -4838,6 +4838,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les impressores &lt;i6&gt;matricials&lt;/i6&gt; o &lt;i7&gt;d'agulles&lt;/i7&gt; només s'usen per a aplicacions molt específiques.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084917Z" creationid="fsanchez" creationdate="20161028T084917Z">
+        <seg>Las impresoras &lt;i6&gt;matriciales&lt;/i6&gt; o de &lt;i7&gt;agujas&lt;/i7&gt; sólo se usan para aplicaciones muy específicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les instruccions dels programes que executa el processador central també s'emmagatzemen en octets.&lt;p0&gt;, que incrementa el valor emmagatzemat l'acumulador en 1, podria ser l'octet {&lt;u7&gt; 11010110}}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T155209Z" creationid="fsanchez" creationdate="20161027T155209Z">
@@ -6986,6 +6994,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125407Z" creationid="fsanchez" creationdate="20161010T125407Z">
         <seg>le parecen poco.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>liquid-crystal display&lt;/i5&gt; o pantalla de cristall líquid</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084906Z" creationid="fsanchez" creationdate="20161028T084906Z">
+        <seg>liquid-crystal display&lt;/i5&gt; o pantalla de cristal líquido</seg>
       </tuv>
     </tu>
     <tu>
