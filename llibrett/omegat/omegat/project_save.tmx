@@ -3470,6 +3470,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El &lt;i0&gt;sistema operatiu&lt;/i0&gt; d'un ordinador és{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} maquinari (&lt;i1&gt;hardware&lt;/i1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101558Z" creationid="fsanchez" creationdate="20161028T101558Z">
+        <seg>El &lt;i0&gt;sistema operativo&lt;/i0&gt; de un ordenador es{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} &lt;i1&gt;hardware&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El DVD (&lt;i0&gt;digital versatil dics&lt;/i0&gt;)&lt;p0&gt; és un tipus més avançat de sistemes d'emmagatzematge basat en discs òptics; bàsicament, es tracta d'un CD més ràpid i amb més capacitat, que ha desplaçat quasi completament els CD-ROM.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152034Z" creationid="fsanchez" creationdate="20161027T152034Z">
@@ -7002,6 +7010,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141357Z" creationid="fsanchez" creationdate="20161019T141357Z">
         <seg>Si estamos en el radio de alcance de una red Wi-Fi a la cual tenemos acceso (como la de nuestra casa o la que nos ofrece la Universidad), nuestro dispositivo móvil se conectará en Internet a través de Wi-Fi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si suposem que hem triat una resolució i un format d'imatge que fa que cada fotografia necessite un espai de 2.048 kB, quantes targetes d'aquestes hem de comprar si volem fer 2.500 fotos al llarg d'un viatge?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101552Z" creationid="fsanchez" creationdate="20161028T101552Z">
+        <seg>Si suponemos que hemos elegido una resolución y un formato de imagen que hace que cada fotografía necesito un espacio de 2.048 kB, ¿cuántas tarjetas de estas tenemos que comprar si queremos hacer 2.500 fotos a lo largo de un viaje?</seg>
       </tuv>
     </tu>
     <tu>
