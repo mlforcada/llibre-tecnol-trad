@@ -1390,6 +1390,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Un octet o &lt;i2&gt;byte&lt;/i2&gt; equival a &lt;i3&gt;8 bits&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102000Z" creationid="fsanchez" creationdate="20161028T102000Z">
+        <seg>&lt;u2&gt; Un &lt;i2&gt;byte&lt;/i2&gt; equivale a &lt;i3&gt;8 bits&lt;/i3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Una adreça de correu electrònic.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141710Z" creationid="fsanchez" creationdate="20161019T141710Z">
@@ -5034,6 +5042,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114346Z" creationid="fsanchez" creationdate="20161014T114346Z">
         <seg>Indicad cuál de las afirmaciones siguientes es falsa: &lt;n0&gt; &lt;u1&gt; Hay casos en los cuales no hace falta resolver la ambigüedad para producir una traducción adecuada en la lengua meta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu quina de les afirmacions següents és falsa: &lt;n0&gt; &lt;u1&gt; Un &lt;i0&gt;gigabyte&lt;/i0&gt; o gigaoctet equival a 1.024 kilooctets o &lt;i1&gt;kilobytes&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101953Z" creationid="fsanchez" creationdate="20161028T101953Z">
+        <seg>Indicad cuál de las afirmaciones siguientes es falsa: &lt;n0&gt; &lt;u1&gt; Un &lt;i0&gt;gigabyte&lt;/i0&gt; equivale a 1.024 &lt;i1&gt;kilobytes&lt;/i1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
