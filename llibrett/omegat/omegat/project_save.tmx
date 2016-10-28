@@ -6966,6 +6966,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Una persona connectada a Internet per telèfon observa que les velocitats de transferència que li indica el seu navegador (vegeu el capítol &lt;n0&gt;) varien al voltant dels 300 kilooctets (&lt;i0&gt;kilobytes&lt;/i0&gt;) per segon.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095904Z" creationid="fsanchez" creationdate="20161028T095904Z">
+        <seg>Una persona conectada a Internet por teléfono observa que las velocidades de transferencia que le indica su navegador (véase el capítulo &lt;n0&gt;) varían alrededor de los 300 &lt;i0&gt;kilobytes&lt;/i0&gt; por segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una vegada resolt, el nostre ordinador es guarda l'IP durant un temps per evitar preguntar de nou.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150559Z" creationid="fsanchez" creationdate="20161018T150559Z">
