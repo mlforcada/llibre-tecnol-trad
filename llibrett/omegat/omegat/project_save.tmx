@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, perquè la memòria RAM s'esborra quan falta l'alimentació elèctrica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100926Z" creationid="fsanchez" creationdate="20161028T100926Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, porque la memoria RAM se borra cuando falta la alimentación eléctrica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; No, perquè les dues formes &lt;i1&gt;vendo&lt;/i1&gt; s'escriuen exactament igual.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141824Z" creationid="fsanchez" creationdate="20161010T141824Z">
@@ -1202,6 +1210,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095954Z" creationid="fsanchez" creationdate="20161028T095954Z">
         <seg>&lt;u2&gt; No, porque no cabe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; No, perquè només s'hi ha guardat el sistema operatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100929Z" creationid="fsanchez" creationdate="20161028T100929Z">
+        <seg>&lt;u2&gt; No, porque sólo se ha guardado el sistema operativo.</seg>
       </tuv>
     </tu>
     <tu>
