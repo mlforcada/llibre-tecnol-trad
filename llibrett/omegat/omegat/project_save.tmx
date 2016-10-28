@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; (a): Una velocitat de 300 kilooctets per segon equival a uns $300 &lt;u7&gt; 8=2.400$ kilobits per segon; al voltant 2,3 Mb/s.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102157Z" creationid="fsanchez" creationdate="20161028T102157Z">
+        <seg>&lt;u2&gt; (a): Una velocidad de 300 kilobytes por segundo equivale a unos $300 &lt;u7&gt; 8=2.400$ kilobits por segundo; alrededor 2,3 Mb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; ... es deu a l'anàfora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141728Z" creationid="fsanchez" creationdate="20161010T141728Z">
