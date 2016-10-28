@@ -2694,6 +2694,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Configuració típica d'un ordinador personal</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084740Z" creationid="fsanchez" creationdate="20161028T084740Z">
+        <seg>Configuración típica de un ordenador personal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Considerem l'exemple de &lt;n3&gt; &lt;n1&gt; Totes les dones no s'estimen els abrics de pell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122440Z" creationid="fsanchez" creationdate="20161010T122233Z">
@@ -3266,6 +3274,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152011Z" creationid="fsanchez" creationdate="20161027T152011Z">
         <seg>Los CD-ROM (&lt;i0&gt;compact dics read-only memory&lt;/i0&gt;) ---idénticos en apariencia y similares en muchos aspectos a los CD de música--- almacenan la información ópticamente.&lt;p0&gt; El tamaño de un CR-ROM suele ser de 650 MB o de 700 MB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els Mac fan servir un sistema operatiu propi (MacOS) i tenen una quota de mercat més reduïda entre el públic general però més gran en determinades aplicacions especialitzades (per exemple, el disseny gràfic).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084738Z" creationid="fsanchez" creationdate="20161028T084738Z">
+        <seg>Los Mac usan un sistema operativo propio (MacOS) y tienen una cuota de mercado más reducida entre el público general pero más grande en determinadas aplicaciones especializadas (por ejemplo, el diseño gráfico).</seg>
       </tuv>
     </tu>
     <tu>
