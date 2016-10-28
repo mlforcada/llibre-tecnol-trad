@@ -934,6 +934,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; els posa en execució el sistema operatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101939Z" creationid="fsanchez" creationdate="20161028T101939Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; los pone en ejecución el sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; es correspon amb múltiples registres, un per cadascun dels termes usats en cada llengua per a representar aquest concepte.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105831Z" creationid="fsanchez" creationdate="20161025T105831Z">
@@ -1662,6 +1670,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; no poden comunicar-se amb altres aplicacions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101941Z" creationid="fsanchez" creationdate="20161028T101941Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; no pueden comunicarse con otras aplicaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; &lt;u7&gt; no pot resoldre la polisèmia amb cap dels programes esmentats en les altres dues opcions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114318Z" creationid="fsanchez" creationdate="20161014T114318Z">
@@ -1858,6 +1874,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113948Z" creationid="fsanchez" creationdate="20161014T113948Z">
         <seg>&lt;u3&gt; La polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Les altres dues afirmacions són falses.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101925Z" creationid="fsanchez" creationdate="20161028T101925Z">
+        <seg>&lt;u3&gt; Las otras dos afirmaciones son falsas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4018,6 +4042,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154217Z" creationid="fsanchez" creationdate="20161027T154217Z">
         <seg>Los programadores normalmente escriben sus programas en {&lt;u1&gt; lenguajes de programación} basados en instrucciones más potentes (como por ejemplo BASIC, Java, C, C++, Pascal, Perl o Python) y usan programas especiales ---los procesadores de lenguajes--- para traducirlos a las instrucciones sencillas que entiende la máquina.&lt;p0&gt; Casi todos los programas que se ejecutan en un ordenador han sido escritos en algún lenguaje de programación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els programes d'aplicació &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; sempre interactuen directament amb el maquinari de l'ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101936Z" creationid="fsanchez" creationdate="20161028T101936Z">
+        <seg>Los programas de aplicación &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; siempre interactúan directamente con el hardware del ordenador.</seg>
       </tuv>
     </tu>
     <tu>
