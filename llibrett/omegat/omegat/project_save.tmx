@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; 1 megaoctet (&lt;i0&gt;megabyte&lt;/i0&gt;) &lt;u2&gt; 384 kilooctets (&lt;i1&gt;kilobytes&lt;/i1&gt;) &lt;u3&gt; 8 megaoctets (&lt;i2&gt;megabytes&lt;/i2&gt;)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100754Z" creationid="fsanchez" creationdate="20161028T100754Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; 1 &lt;i0&gt;megabyte&lt;/i0&gt; &lt;u2&gt; 384 &lt;i1&gt;kilobytes&lt;/i1&gt; &lt;u3&gt; 8 &lt;i2&gt;megabytes&lt;/i2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; &lt;i0&gt;http://&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;mailto:&lt;/i1&gt; &lt;u3&gt; L'esquema d'Internet</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141756Z" creationid="fsanchez" creationdate="20161019T141756Z">
