@@ -3846,6 +3846,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En les unitats de CD-ROM és important la velocitat màxima de transferència de dades, que es dóna com a múltiple de l'estàndard (la d'un CD de música, de l'ordre d'uns 150 kilooctets per segon): quàdrupla (4$&lt;u0&gt;$), sèxtupla (6$&lt;u1&gt;$), etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084838Z" creationid="fsanchez" creationdate="20161028T084838Z">
+        <seg>En las unidades de CD-ROM es importante la velocidad máxima de transferencia de datos, que se da como múltiple del estándar (la de un CD de música, del orden de unos 150 kilobytes por segundo): cuádruplo (4$&lt;u0&gt;$), séxtuplo (6$&lt;u1&gt;$), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En paraules de &lt;u2&gt;t[p. 364]{radford99b} ``hem de reconéixer [l'existència] d'un buit inacceptable entre el que proporciona la sintaxi i el que la semàntica necessita en el cas d'oracions que continguen sintagmes nominals quantificats''.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122519Z" creationid="fsanchez" creationdate="20161010T122519Z">
