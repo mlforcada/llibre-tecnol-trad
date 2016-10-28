@@ -6190,6 +6190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Pràcticament tots els programes necessiten fer operacions bàsiques com ara obrir i tancar arxius o gestionar el ratolí i la pantalla.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100642Z" creationid="fsanchez" creationdate="20161028T100642Z">
+        <seg>Prácticamente todos los programas necesitan hacer operaciones básicas como por ejemplo abrir y cerrar archivos o gestionar el ratón y la pantalla.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quan accedim a ordinadors d'Internet, ho fem de manera similar: accedim pel nom i no pel número IP, el qual és indispensable per a fer la connexió.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145745Z" creationid="fsanchez" creationdate="20161018T145745Z">
@@ -7354,6 +7362,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141837Z" creationid="fsanchez" creationdate="20161009T141837Z">
         <seg>Véase la nota al pie de la pág.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vol dir això que tant un navegador com un processador de textos com una memòria de traducció contenen instruccions de programa per a executar aquestes operacions bàsiques?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100650Z" creationid="fsanchez" creationdate="20161028T100650Z">
+        <seg>¿Quiere decir esto que tanto un navegador como un procesador de textos como una memoria de traducción contienen instrucciones de programa para ejecutar estas operaciones básicas?</seg>
       </tuv>
     </tu>
     <tu>
