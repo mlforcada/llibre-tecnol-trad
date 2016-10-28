@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n5&gt; Les especificacions dels portàtils (memòria, processador) solen ser similars, normalment una miqueta més reduïdes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085242Z" creationid="fsanchez" creationdate="20161028T085242Z">
+        <seg>&lt;n5&gt; Las especificaciones de los portátiles (memoria, procesador) suelen ser similares, normalmente un poquito más reducidas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n6&gt; Quan dues formes lèxiques diferents tenen la mateixa forma superficial; és a dir, quan s'escriuen de la mateixa manera, se sol dir que són &lt;i8&gt;homògrafes&lt;/i8&gt;&lt;n2&gt;; a més, s'anomena simplement &lt;i9&gt;homògraf&lt;/i9&gt; a la forma superficial a què correspon més d'una forma lèxica; el fenomen s'anomena &lt;i10&gt;homografia&lt;/i10&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142155Z" creationid="fsanchez" creationdate="20161009T142155Z">
