@@ -2494,6 +2494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquests ordinadors es poden presentar en grups connectats entre si per a oferir major potència i capacitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084659Z" creationid="fsanchez" creationdate="20161028T084659Z">
+        <seg>Estos ordenadores se pueden presentar en grupos conectados entre sí para ofrecer mayor potencia y capacidad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ara repetim el procés i mirem l'element d'enmig (el 6) de la nova subllista i hi trobem l'element ``Esteve''; com que és menor alfabèticament que l'element que estem buscant, ens quedem amb la meitat alta (que inclou els elements del 7 al 12) de la subllista actual.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085849Z" creationid="fsanchez" creationdate="20161025T085849Z">
@@ -6706,6 +6714,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153638Z" creationid="fsanchez" creationdate="20161027T153638Z">
         <seg>[Programas de aplicación:] software diseñado específicamente para satisfacer las necesidades de los usuarios (a veces se denominan simplemente {&lt;u5&gt; aplicaciones}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Servidors:] Els servidors són ordinadors que contenen i gestionen informació que s'utilitzarà en altres ordinadors (``clients'') connectats a ells a través d'una xarxa interna o a través d'Internet; no són massa diferents d'un ordinador de sobretaula, típicament més potents quant a memòria, disc i processador, però, com que ningú ha de seure davant d'ells no solen tenir pantalles, teclats o ratolins i sovint estan pensats per a ser disposats horitzontalment en armaris especials anomenats &lt;i0&gt;racks&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084653Z" creationid="fsanchez" creationdate="20161028T084653Z">
+        <seg>[Servidores:] Los servidores son ordenadores que contienen y gestionan información que se utilizará en otros ordenadores (``clientes") conectados a ellos a través de una red interna o a través de Internet; no son demasiado diferentes de un ordenador de sobremesa, normalmente más potentes en cuanto a memoria, disco y procesador, pero como nadie tiene que sentarse delante de ellos no suelen tener pantallas, teclados o ratones y están pensados para ser ubicados horizontalmente en armarios especiales llamados &lt;i0&gt;racks&lt;/i0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
