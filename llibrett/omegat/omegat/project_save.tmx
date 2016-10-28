@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, només instruccions per a invocar els corresponents programes del sistema operatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100653Z" creationid="fsanchez" creationdate="20161028T100653Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; No, sólo instrucciones para invocar los correspondientes programas del sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; No, perquè les dues formes &lt;i1&gt;vendo&lt;/i1&gt; s'escriuen exactament igual.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141824Z" creationid="fsanchez" creationdate="20161010T141824Z">
@@ -1254,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, perquè formen part del processador central.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100656Z" creationid="fsanchez" creationdate="20161028T100656Z">
+        <seg>&lt;u2&gt; Sí, porque forman parte del procesador central.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Sí, però és necessari duplicar totes les fitxes en memòria.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105009Z" creationid="fsanchez" creationdate="20161025T105009Z">
@@ -1818,6 +1834,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141932Z" creationid="fsanchez" creationdate="20161010T141932Z">
         <seg>&lt;u3&gt; Sí, sólo mirando la categoría léxica de las palabras anteriores y la de los posteriores ya hay bastante para saber en cuál de los dos casos nos encontramos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí, perquè, si no, no les podrien executar.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100658Z" creationid="fsanchez" creationdate="20161028T100658Z">
+        <seg>&lt;u3&gt; Sí, porque, si no, no las podrían ejecutar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3258,6 +3282,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141644Z" creationid="fsanchez" creationdate="20161019T141644Z">
         <seg>Después del esquema de acceso, un URI (identificador uniforme de recursos) especifica &lt;n0&gt; &lt;u1&gt; la velocidad de transferencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Dins d'una carpeta (directori) podem posar carpetes i documents (fitxers) mesclats?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100703Z" creationid="fsanchez" creationdate="20161028T100703Z">
+        <seg>¿Dentro de una carpeta (directorio) podemos poner carpetas y documentos (ficheros) mezclados?</seg>
       </tuv>
     </tu>
     <tu>
