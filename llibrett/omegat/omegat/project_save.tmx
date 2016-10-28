@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; En qualsevol dispositiu d'emmagatzemament (disc dur, CD-ROM, memòria USB) sempre hi ha un directori principal o arrel.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100005Z" creationid="fsanchez" creationdate="20161028T100005Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; En cualquier dispositivo de almacenamiento (disco duro, CD-ROM, memoria USB) siempre hay un directorio principal o raíz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Es duplica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105711Z" creationid="fsanchez" creationdate="20161025T105711Z">
@@ -1190,6 +1198,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, si tenen data i hora diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100020Z" creationid="fsanchez" creationdate="20161028T100020Z">
+        <seg>&lt;u2&gt; Sí, si tienen fecha y hora diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; Un disc no pot contenir més de dos nivells de jerarquia de carpetes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100009Z" creationid="fsanchez" creationdate="20161028T100009Z">
+        <seg>&lt;u2&gt; Un disco no puede contener más de dos niveles de jerarquía de carpetas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Una adreça de correu electrònic.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141710Z" creationid="fsanchez" creationdate="20161019T141710Z">
@@ -1730,6 +1754,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085055Z" creationid="fsanchez" creationdate="20161028T085055Z">
         <seg>&lt;u3&gt; Una buena tarjeta gráfica, con su propia unidad independiente de procesamiento gráfico o GPU (&lt;i2&gt;graphics processing units&lt;/i2&gt;), &lt;u4&gt; Un disco fijo con una capacidad del orden de 1 TB &lt;u5&gt; Una unidad grabadora de DVD y de CD-ROM&lt;p1&gt; &lt;u6&gt; Una tarjeta de sonido con altavoces y micrófono.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Una carpeta no pot contenir només una altra carpeta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100013Z" creationid="fsanchez" creationdate="20161028T100013Z">
+        <seg>&lt;u3&gt; Una carpeta no puede contener sólo otra carpeta.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5954,6 +5986,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141526Z" creationid="fsanchez" creationdate="20161009T141526Z">
         <seg>Podemos decir que un enunciado (una oración, un texto) es ambiguo cuando es susceptible de dos o más interpretaciones &lt;u0&gt;{alcaraz97b}.&lt;p0&gt; lo expresan diciendo que la ambigüedad es ``el fenómeno por el cual una expresión tiene más de un significado''.} Por tanto, un enunciado ambiguo puede tener más de una traducción a otro idioma, aunque a veces puede tener una sola traducción a otro idioma porque dicha traducción conserva la ambigüedad de la frase original;&lt;p1&gt; a esto se le suele llamar &lt;i2&gt;free ride&lt;/i2&gt; (``pase gratuito'') y es más frecuente cuanto más cercanas sean las lenguas involucradas en la traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pot haver-hi dos carpetes amb el mateix nom una dins de l'altra?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100017Z" creationid="fsanchez" creationdate="20161028T100017Z">
+        <seg>¿Puede haber dos carpetas con el mismo nombre una dentro de la otra?</seg>
       </tuv>
     </tu>
     <tu>
