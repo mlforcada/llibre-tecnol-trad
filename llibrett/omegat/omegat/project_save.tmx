@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Un conjunt de dades que es manipula com un tot, resideix en algun mitjà d'emmagatzemament i té un nom.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100102Z" creationid="fsanchez" creationdate="20161028T100102Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Un conjunto de datos que se manipula como un todo, reside en algún medio de almacenamiento y tiene un nombre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Una ambigüitat lèxica per homografia d'un mot.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142700Z" creationid="fsanchez" creationdate="20161010T142700Z">
@@ -1254,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Una estructura que conté els noms d'altres fitxers.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100107Z" creationid="fsanchez" creationdate="20161028T100107Z">
+        <seg>&lt;u2&gt; Una estructura que contiene los nombres de otros ficheros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Una oració només pot ser ambigua si almenys un dels seus mots és ambigu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114127Z" creationid="fsanchez" creationdate="20161014T114127Z">
@@ -1786,6 +1802,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105213Z" creationid="fsanchez" creationdate="20161025T105213Z">
         <seg>&lt;u3&gt; Una copia de las fichas ordenadas por el campo índice correspondiente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Una estructura de dades que representa el text generat per un processador de textos i que té un nom associat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100111Z" creationid="fsanchez" creationdate="20161028T100111Z">
+        <seg>&lt;u3&gt; Una estructura de datos que representa el texto generado por un procesador de textos y que tiene un nombre asociado.</seg>
       </tuv>
     </tu>
     <tu>
