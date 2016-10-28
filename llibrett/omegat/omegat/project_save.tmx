@@ -6462,6 +6462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Una classificació no gaire exhaustiva dels diferents tipus d'ordinadors que podem trobar-nos avui dia és la següent:</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084109Z" creationid="fsanchez" creationdate="20161028T084109Z">
+        <seg>Una clasificación no muy exhaustiva de los diferentes tipos de ordenadores que podemos encontrarnos hoy en día es la siguiente:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Una d'aquestes tres no és un tipus d'ambigüitat lèxica: &lt;n0&gt; &lt;u1&gt; L'homografia.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113940Z" creationid="fsanchez" creationdate="20161014T113940Z">
