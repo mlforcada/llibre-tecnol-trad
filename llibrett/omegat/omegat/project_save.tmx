@@ -5326,6 +5326,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per a poder modificar el programari, no hi ha prou amb tenir accés a la versió executable en l'ordinador: hem de tenir accés a l'anomenat &lt;i3&gt;codi font&lt;/i3&gt;, és a dir, a la versió del programari que escriuen i modifiquen les persones que programen (d'ací el nom &lt;i4&gt;de codi font obert&lt;/i4&gt;) i que després es converteix automàticament en la versió executable.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095143Z" creationid="fsanchez" creationdate="20161028T095143Z">
+        <seg>Para poder modificar el software, no es suficiente con tener acceso a la versión ejecutable en el ordenador: tenemos que tener acceso al llamado &lt;i3&gt;código fuente&lt;/i3&gt;, es decir, a la versión del software que escriben y modifican las personas que programan (de ahí el nombre &lt;i4&gt;de código fuente abierto&lt;/i4&gt;) y que después se convierte automáticamente en la versión ejecutable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per a poder respondre a les preguntes marcades amb (*) cal que us llegiu els quadres &lt;i0&gt;Per saber més&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130913Z" creationid="fsanchez" creationdate="20161010T130913Z">
