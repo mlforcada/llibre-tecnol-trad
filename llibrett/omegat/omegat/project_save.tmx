@@ -750,6 +750,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; (c)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102722Z" creationid="fsanchez" creationdate="20161028T102722Z">
+        <seg>\item (c).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; (c): Una memòria USB de 6 GB (gigaoctets o gigabytes) conté aproximadament 6.000.000.000 octets.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102124Z" creationid="fsanchez" creationdate="20161028T102124Z">
