@@ -1478,6 +1478,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} programari (&lt;i2&gt;software&lt;/i2&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101617Z" creationid="fsanchez" creationdate="20161028T101617Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} &lt;i2&gt;software&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; {&lt;u6&gt;}no es pot resoldre si no es fa l'anàlisi sintàctica completa de la frase, ja aquesta és l'única manera d'elegir l'anàlisi morfològica correcta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113850Z" creationid="fsanchez" creationdate="20161014T113850Z">
@@ -2074,6 +2082,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113902Z" creationid="fsanchez" creationdate="20161014T113902Z">
         <seg>&lt;u3&gt; {&lt;u7&gt;} se intenta resolver normalmente con reglas basadas en las categorías léxicas de las palabras que la acompañan en la frase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} una manera d'especificar el format dels textos.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101620Z" creationid="fsanchez" creationdate="20161028T101620Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} una manera de especificar el formato de los textos.</seg>
       </tuv>
     </tu>
     <tu>
