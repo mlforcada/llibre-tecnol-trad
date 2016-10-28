@@ -3806,6 +3806,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En el moment d'escriure aquestes línies, els proveïdors d'Internet han començat a oferir un servei domèstic de connexió que permeten connexions de l'ordre de centenars de Mb/s.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093228Z" creationid="fsanchez" creationdate="20161028T093228Z">
+        <seg>En el momento de escribir estas líneas, los proveedores de Internet han empezado a ofrecer un servicio doméstico de conexión que permite conexiones del orden de centenares de Mb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En els dos casos, si hi enviem un missatge, el reben tots els inscrits, de manera que es pot usar per a establir, per exemple, fòrums de discussió.&lt;p0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115905Z" creationid="fsanchez" creationdate="20161019T115905Z">
@@ -6866,6 +6874,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153740Z" creationid="fsanchez" creationdate="20161027T153740Z">
         <seg>[Hojas de cálculo,] que permiten automatizar cálculos que se repiten sobre un conjunto más o menos grande de datos (por ejemplo, para calcular la nota media de cada estudiante de una clase entera a partir de las notas parciales), y presentar los resultados de varias maneras, por ejemplo, en gráficos de muchos tipos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[GHz:] vegeu gigahertz.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093235Z" creationid="fsanchez" creationdate="20161028T093235Z">
+        <seg>[GHz:] véase gigahertz.</seg>
       </tuv>
     </tu>
     <tu>
