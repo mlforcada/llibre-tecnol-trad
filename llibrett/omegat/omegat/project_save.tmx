@@ -2166,6 +2166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Actualment no és estrany tenir en ordinadors de taula o portàtils resolucions com l'anomenada &lt;i3&gt;HD 1080&lt;/i3&gt; (1920 $&lt;u3&gt;$ 1080) o fins i tot més grans.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092601Z" creationid="fsanchez" creationdate="20161028T092601Z">
+        <seg>Actualmente no es extraño tener en ordenadores de sobremesa o portátiles resoluciones como la llamada &lt;i3&gt;HD 1080&lt;/i3&gt; (1920 $&lt;u3&gt;$ 1080) o incluso más grandes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ací en teniu alguns exemples: &lt;n2&gt; &lt;u4&gt;[Editors i processadors de text] per a preparar, modificar, emmagatzemar i imprimir documents de text (vegeu la secció &lt;n7&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153720Z" creationid="fsanchez" creationdate="20161027T153720Z">
@@ -6762,6 +6770,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104953Z" creationid="fsanchez" creationdate="20161025T104953Z">
         <seg>Queremos tener una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[ADSL] (de l'anglés &lt;i0&gt;asymmetric digital subscriber line&lt;/i0&gt;, línia d'abonat digital asimètrica): Versió asimètrica de DSL (vegeu DSL).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092603Z" creationid="fsanchez" creationdate="20161028T092603Z">
+        <seg>[ADSL] (del inglés &lt;i0&gt; Asymmetric digital subscriber line &lt;/ i0&gt;, línea de abonado digital asimétrica): Versión asimétrica de DSL (ver DSL).</seg>
       </tuv>
     </tu>
     <tu>
