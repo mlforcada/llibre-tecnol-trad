@@ -2470,6 +2470,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquests dispositius han desplaçat els antics &lt;i3&gt;handhelds&lt;/i3&gt; o dispositius de mà, que eren una evolució de les antigues agendes electròniques i se solien anomenar &lt;i4&gt;PDA&lt;/i4&gt; per &lt;i5&gt;Personal Digital Assistant&lt;/i5&gt;, `assistent digital personal'.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084545Z" creationid="fsanchez" creationdate="20161028T084545Z">
+        <seg>Estos dispositivos han desplazado a los antiguos &lt;i3&gt;handhelds&lt;/i3&gt; o dispositivos de mano, que eran una evolución de las antiguas agendas electrónicas y se solían denominar &lt;i4&gt;PDA&lt;/i4&gt; por &lt;i5&gt;Personal Digital Assistant&lt;/i5&gt;, "asistente digital personal'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquests indicatius apareixen en la taula &lt;n1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145401Z" creationid="fsanchez" creationdate="20161018T145401Z">
