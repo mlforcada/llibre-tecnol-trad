@@ -4526,6 +4526,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La configuració clàssica d'un ordinador personal de sobretaula model 2015 sol ser més o menys com segueix: &lt;n0&gt; &lt;u0&gt; La unitat base (la ``caixa'' o la ``torre'') conté: &lt;n1&gt; &lt;u1&gt; Un processador compost de quatre nuclis o processadors individuals (&lt;i0&gt;quad-core&lt;/i0&gt;) o més, com ara un &lt;i1&gt;Intel Core i5&lt;/i1&gt; o més o un processador equivalent de la marca AMD (vegeu el glossari, apartat &lt;n2&gt;) a 3 GHz.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085009Z" creationid="fsanchez" creationdate="20161028T085009Z">
+        <seg>La configuración clásica de un ordenador personal de sobremesa modelo 2015 suele ser más o menos la siguiente: &lt;n0&gt; &lt;u0&gt; La unidad base (la ``caja'' o la ``torre'') contiene: &lt;n1&gt; &lt;u1&gt; Un procesador compuesto de cuatro núcleos o procesadores individuales (&lt;i0&gt;quad-core&lt;/i0&gt;) o más, como por ejemplo un &lt;i1&gt;Intel Core i5&lt;/i1&gt; o más o un procesador equivalente de la marca AMD (véase el glosario, apartado &lt;n2&gt;) a 3 GHz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La creació i el manteniment d'una bona base de dades terminològica requereix un gran esforç i moltes hores de treball.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104249Z" creationid="fsanchez" creationdate="20161025T104249Z">
