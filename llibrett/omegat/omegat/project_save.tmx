@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Els mòdems converteixen informació digital en senyals analògics però no al revés.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095924Z" creationid="fsanchez" creationdate="20161028T095924Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Los módems convierten información digital en señales analógicas pero no a la inversa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Es duplica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105711Z" creationid="fsanchez" creationdate="20161025T105711Z">
@@ -6150,6 +6158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quina d'aquestes afirmacions és incorrecta?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095919Z" creationid="fsanchez" creationdate="20161028T095919Z">
+        <seg>¿Cuál de estas afirmaciones es incorrecta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quina?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114048Z" creationid="fsanchez" creationdate="20161014T114048Z">
@@ -6930,6 +6946,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084109Z" creationid="fsanchez" creationdate="20161028T084109Z">
         <seg>Una clasificación no muy exhaustiva de los diferentes tipos de ordenadores que podemos encontrarnos hoy en día es la siguiente:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una d'aquestes tres &lt;i1&gt;no&lt;/i1&gt; pot ser la velocitat del seu servei d'ADSL: &lt;n1&gt; &lt;u1&gt; 1 Mb/s &lt;u2&gt; 6 Mb/s &lt;u3&gt; 4 Mb/s</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095916Z" creationid="fsanchez" creationdate="20161028T095916Z">
+        <seg>Una de estas tres &lt;i1&gt;no&lt;/i1&gt; puede ser la velocidad de su servicio de ADSL: &lt;n1&gt; &lt;u1&gt; 1 Mb/s &lt;u2&gt; 6 Mb/s &lt;u3&gt; 4 Mb/s</seg>
       </tuv>
     </tu>
     <tu>
