@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Depenent de la codificació escollida per als caràcters de la imatge, entre 400 000 i 800 000.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101448Z" creationid="fsanchez" creationdate="20161028T101448Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Dependiendo de la codificación escogida para los caracteres de la imagen, entre 400 000 y 800 000.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Depén; si els camps són numèrics, no és necessari.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105031Z" creationid="fsanchez" creationdate="20161025T105031Z">
@@ -6842,6 +6850,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090630Z" creationid="fsanchez" creationdate="20161025T090630Z">
         <seg>Si las consultas más frecuentes de una base de datos se refieren a un campo ---o a una combinación de campos, como por ejemplo el día, el mes y el año que forman una fecha--- que toma valores que se pueden ordenar, los registros se pueden ordenar por este campo, igual que el fichero de fichas de cartulina.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si les imatges enviades per una vella càmera digital sense colors (blanc i negre) tenen 100$&lt;u4&gt;$100 píxels, quantes d'aquestes imatges podríem emmagatzemar en una memòria USB d'1 GB?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101441Z" creationid="fsanchez" creationdate="20161028T101441Z">
+        <seg>Si las imágenes enviadas por una vieja cámara digital sin colores (blanco y negro) tienen 100$&lt;u4&gt;$100 píxeles, ¿cuántas de estas imágenes podríamos almacenar en una memoria USB de 1 GB?</seg>
       </tuv>
     </tu>
     <tu>
