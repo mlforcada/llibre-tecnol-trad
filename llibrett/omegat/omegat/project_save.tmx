@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Sí, si els ordinadors estan connectats formant una xarxa local.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100154Z" creationid="fsanchez" creationdate="20161028T100154Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Sí, si los ordenadores están conectados formando una red local.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Un conjunt de dades que es manipula com un tot, resideix en algun mitjà d'emmagatzemament i té un nom.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100102Z" creationid="fsanchez" creationdate="20161028T100102Z">
@@ -1182,6 +1190,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Només si la impressora està connectada a Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100201Z" creationid="fsanchez" creationdate="20161028T100201Z">
+        <seg>&lt;u2&gt; Sólo si la impresora está conectada a Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Que està ordenada pel camp pel qual estem buscant.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105925Z" creationid="fsanchez" creationdate="20161025T105925Z">
@@ -1746,6 +1762,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105741Z" creationid="fsanchez" creationdate="20161025T105741Z">
         <seg>&lt;u3&gt; Se incrementa de media, en 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí, instal·lant-li un mòdem ADSL a la impressora.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100205Z" creationid="fsanchez" creationdate="20161028T100205Z">
+        <seg>&lt;u3&gt; Sí, instalándole un módem ADSL en la impresora.</seg>
       </tuv>
     </tu>
     <tu>
