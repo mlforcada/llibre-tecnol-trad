@@ -4510,6 +4510,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'asimetria fa referència al fet que la velocitat de transmissió de dades de la central cap a l'abonat és superior que la velocitat de transmissió de dades de l'abonat cap a la central (per exemple, 8 Mb/s cap a l'abonat i 512 kb/s cap a la central).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092706Z" creationid="fsanchez" creationdate="20161028T092706Z">
+        <seg>La asimetría se refiere a que la velocidad de transmisión de datos de la central hacia el abonado es superior que la velocidad de transmisión de datos del abonado hacia la central (por ejemplo 8 Mb/s hacia el abonado y 512 kB/s hacia la central).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'element a cercar és ``Garrido''.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090144Z" creationid="fsanchez" creationdate="20161025T090144Z">
