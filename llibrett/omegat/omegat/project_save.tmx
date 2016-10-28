@@ -2110,6 +2110,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Actualment no és estrany que una unitat de CD-ROM tinga una velocitat punta de lectura i d'escriptura de 52$&lt;u2&gt;$ o més.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084855Z" creationid="fsanchez" creationdate="20161028T084855Z">
+        <seg>Actualmente no es extraño que una unidad de CD-ROM tenga una velocidad punta de lectura y de escritura de 52$&lt;u2&gt;$ o más.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ací en teniu alguns exemples: &lt;n2&gt; &lt;u4&gt;[Editors i processadors de text] per a preparar, modificar, emmagatzemar i imprimir documents de text (vegeu la secció &lt;n7&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153720Z" creationid="fsanchez" creationdate="20161027T153720Z">
@@ -2890,6 +2898,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113956Z" creationid="fsanchez" creationdate="20161014T113956Z">
         <seg>¿De qué clase es la ambigüedad que presenta la oración &lt;i0&gt;Expulsarán al portavoz del partido&lt;/i0&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>De tota manera, les velocitats &lt;i3&gt;mitjanes&lt;/i3&gt; de tot un procés de lectura i escriptura solen ser més baixes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084902Z" creationid="fsanchez" creationdate="20161028T084902Z">
+        <seg>De todas formas, las velocidades &lt;i3&gt;medias&lt;/i3&gt; de todo un proceso de lectura y escritura suelen ser más bajas.</seg>
       </tuv>
     </tu>
     <tu>
