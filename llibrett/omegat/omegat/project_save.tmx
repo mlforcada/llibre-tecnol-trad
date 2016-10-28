@@ -734,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; (b): 2GB són $ 2&lt;u5&gt; 1.024 &lt;u6&gt; 1.024 = 2.097.152$ kB.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102607Z" creationid="fsanchez" creationdate="20161028T102607Z">
+        <seg>&lt;u1&gt; (b): 2GB son $ 2&lt;u5&gt; 1.024 &lt;u6&gt; 1.024 = 2.097.152$ kB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; (c): Una memòria USB de 6 GB (gigaoctets o gigabytes) conté aproximadament 6.000.000.000 octets.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102124Z" creationid="fsanchez" creationdate="20161028T102124Z">
@@ -2814,6 +2822,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Així, cada dígit decimal ocupa 4 bits; si n'hi ha 9, necessitem 36 bits.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102600Z" creationid="fsanchez" creationdate="20161028T102600Z">
+        <seg>Así, cada dígito decimal ocupa 4 bits; si hay 9, necesitamos 36 bits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Així, els registres d'una base de dades bibliogràfica contenen informació en camps: un per als autors, altre per al títol, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084250Z" creationid="fsanchez" creationdate="20161025T084250Z">
@@ -4746,6 +4762,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114644Z" creationid="fsanchez" creationdate="20161014T114644Z">
         <seg>En la primera interpretación es un participio en forma pasiva &lt;i1&gt;haber sido soldado&lt;/i1&gt;; en la segunda es un sustantivo masculino singular.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En la targeta Compact Flash hi caben $ 2.097.152 / 2.048 = 1.024$ imatges.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102611Z" creationid="fsanchez" creationdate="20161028T102611Z">
+        <seg>En la tarjeta Compact Flash caben $ 2.097.152 / 2.048 = 1.024$ imágenes.</seg>
       </tuv>
     </tu>
     <tu>
