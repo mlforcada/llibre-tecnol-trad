@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; En el disc dur.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100047Z" creationid="fsanchez" creationdate="20161028T100047Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; En el disco duro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; En qualsevol dispositiu d'emmagatzemament (disc dur, CD-ROM, memòria USB) sempre hi ha un directori principal o arrel.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100005Z" creationid="fsanchez" creationdate="20161028T100005Z">
@@ -938,6 +946,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114256Z" creationid="fsanchez" creationdate="20161014T114256Z">
         <seg>&lt;u2&gt; El problema de la síntesis se refiere a la ambigüedad de los textos traducidos automáticamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; En la memòria RAM (almenys parcialment).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100049Z" creationid="fsanchez" creationdate="20161028T100049Z">
+        <seg>&lt;u2&gt; En la memoria RAM (al menos parcialmente).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5422,6 +5438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>On resideix un programa d'ordinador mentre l'estem executant?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100045Z" creationid="fsanchez" creationdate="20161028T100045Z">
+        <seg>¿Dónde reside un programa de ordenador mientras lo estamos ejecutante?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Operacions amb bases de dades</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084338Z" creationid="fsanchez" creationdate="20161025T084338Z">
@@ -6222,6 +6246,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quin dels tres mitjans d'emmagatzemament següents no és òptic: &lt;n0&gt; &lt;u1&gt; Un CD-ROM &lt;u2&gt; Un DVD &lt;u3&gt; Un disc fix.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100042Z" creationid="fsanchez" creationdate="20161028T100042Z">
+        <seg>¿Cuál de los tres medios de almacenamiento siguientes no es óptico: &lt;n0&gt; &lt;u1&gt; Un CD-ROM &lt;u2&gt; Un DVD &lt;u3&gt; Un disco fijo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quin tipus d'ambigüitat es dóna en l'oració &lt;i0&gt;La mata l'enveja&lt;/i0&gt; (1: ``l'enveja l'està matant''; 2: ``la planta li té enveja a ella'')?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114219Z" creationid="fsanchez" creationdate="20161014T114219Z">
@@ -6258,6 +6290,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095919Z" creationid="fsanchez" creationdate="20161028T095919Z">
         <seg>¿Cuál de estas afirmaciones es incorrecta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quina d'aquestes definicions de fitxer és més correcta?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100056Z" creationid="fsanchez" creationdate="20161028T100056Z">
+        <seg>¿Cuál de estas definiciones de fichero es más correcta?</seg>
       </tuv>
     </tu>
     <tu>
