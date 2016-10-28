@@ -390,6 +390,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Només si el fitxer ha estat creat pel sistema operatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101524Z" creationid="fsanchez" creationdate="20161028T101524Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Sólo si el fichero ha sido creado por el sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Que comencen a executar-se en connectar l'ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101504Z" creationid="fsanchez" creationdate="20161028T101504Z">
@@ -1254,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Només si es tracta del directori arrel.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101527Z" creationid="fsanchez" creationdate="20161028T101527Z">
+        <seg>&lt;u2&gt; Sólo si se trata del directorio raíz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Només si està escrit en un llenguatge de programació d'alt nivell, perquè només així serà un text i podrà guardar-se en un fitxer.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101428Z" creationid="fsanchez" creationdate="20161028T101428Z">
@@ -1866,6 +1882,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142400Z" creationid="fsanchez" creationdate="20161019T142400Z">
         <seg>&lt;u3&gt; Puede no coincidir nada porque los números IP se asignan aleatoriamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Que s'encarreguen de la gestió de tots els recursos del maquinari de l'ordinador on s'executen.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101513Z" creationid="fsanchez" creationdate="20161028T101513Z">
+        <seg>&lt;u3&gt; Que se encargan de la gestión de todos los recursos del hardware del ordenador donde se ejecutan.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8530,6 +8554,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100559Z" creationid="fsanchez" creationdate="20161028T100559Z">
         <seg>¿Es posible poner un fichero de texto en el directorio (carpeta) raíz?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És possible que un fitxer de text i la carpeta en què està inclòs tinguen el mateix nom?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101520Z" creationid="fsanchez" creationdate="20161028T101520Z">
+        <seg>¿Es posible que un fichero de texto y la carpeta en que está incluido tengan el mismo nombre?</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
