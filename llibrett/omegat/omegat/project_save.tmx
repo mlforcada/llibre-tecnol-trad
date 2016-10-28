@@ -4214,6 +4214,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Exemples de programari lliure són: el sistema operatiu &lt;i5&gt;GNU/Linux&lt;/i5&gt;, el navegador &lt;i6&gt;Firefox&lt;/i6&gt;, o el processador de textos &lt;i7&gt;LibreOffice&lt;/i7&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095152Z" creationid="fsanchez" creationdate="20161028T095152Z">
+        <seg>Ejemplos de software libre son: el sistema operativo &lt;i5&gt;GNU/Linux&lt;/i5&gt;, el navegador &lt;i6&gt;Firefox&lt;/i6&gt;, o el procesador de textos &lt;i7&gt;LibreOffice&lt;/i7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Exemples de recerques: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;megamòndria&lt;/i0&gt;: documents que continguen el mot &lt;i4&gt;megamòndria&lt;/i4&gt; i potser formes del mateix com ara el plural &lt;i5&gt;megamòndries&lt;/i5&gt;, el compost &lt;i6&gt;mega-mòndria&lt;/i6&gt;, o la forma sense accent &lt;i7&gt;megamondria&lt;/i7&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152649Z" creationid="fsanchez" creationdate="20161018T152649Z">
@@ -5202,6 +5210,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141443Z" creationid="fsanchez" creationdate="20161010T141443Z">
         <seg>Sin embargo, hay otras que sólo pueden ser tratadas si se hace un análisis sintáctico (a pesar de que la ambigüedad sea de tipo léxico) e incluso las hay que requerirían un análisis semántico para resolverlas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>No s'ha de confondre &lt;i8&gt;programari lliure&lt;/i8&gt; amb &lt;i9&gt;programari gratuït&lt;/i9&gt; (o &lt;i10&gt;freeware&lt;/i10&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095205Z" creationid="fsanchez" creationdate="20161028T095205Z">
+        <seg>No se debe confundir &lt;i8&gt;software libre&lt;/i8&gt; con &lt;i9&gt;software gratuito&lt;/i9&gt; (o &lt;i10&gt;freeware&lt;/i10&gt;).</seg>
       </tuv>
     </tu>
     <tu>
