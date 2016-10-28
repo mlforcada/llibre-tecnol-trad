@@ -3798,6 +3798,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En el cas dels &lt;i4&gt;Mac&lt;/i4&gt; des de l'any 2006 incorporen processadors Intel, així que podem instal·lar-hi Microsoft Windows o GNU/Linux amb tots els seus programes, encara que també podem usar el sistema operatiu propi dels Mac, anomenat &lt;i5&gt;MacOS&lt;/i5&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093511Z" creationid="fsanchez" creationdate="20161028T093511Z">
+        <seg>En el caso de los &lt;i4&gt;Mac&lt;/i4&gt; desde el año 2006 incorporan procesadores Intel, así que se puede instalar Microsoft Windows o GNU/Linux con todos sus programas, aunque también podemos usar el sistema operativo propio de los Mac, llamado &lt;i5&gt;MacOS&lt;/i5&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En el cas dels pronoms de tercera persona, la interpretació estarà determinada pels antecedents que se'ls assignen (ambigüitat lèxica per anàfora).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114545Z" creationid="fsanchez" creationdate="20161014T114545Z">
@@ -3850,6 +3858,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084128Z" creationid="fsanchez" creationdate="20161025T084128Z">
         <seg>En informática, los ficheros de este tipo se suelen denominar normalmente &lt;i0&gt;bases de datos&lt;/i0&gt; (BD); las fichas se denominan &lt;i1&gt;registros&lt;/i1&gt; y cada elemento de información de la ficha se denomina &lt;i2&gt;campo&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En l'actualitat aquesta diferència no existeix i tant uns com altres empren processadors de la família x86.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093459Z" creationid="fsanchez" creationdate="20161028T093459Z">
+        <seg>En la actualidad esta diferencia no existe y tanto unos como otros emplean procesadores de la familia x86.</seg>
       </tuv>
     </tu>
     <tu>
