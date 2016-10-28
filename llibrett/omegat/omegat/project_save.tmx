@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; 4 &lt;i1&gt;bits&lt;/i1&gt; i sobren 4 combinacions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102043Z" creationid="fsanchez" creationdate="20161028T102043Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; 4 &lt;i1&gt;bits&lt;/i1&gt; y sobran 4 combinaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; &lt;i0&gt;http://&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;mailto:&lt;/i1&gt; &lt;u3&gt; L'esquema d'Internet</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141756Z" creationid="fsanchez" creationdate="20161019T141756Z">
@@ -874,6 +882,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141728Z" creationid="fsanchez" creationdate="20161010T141728Z">
         <seg>&lt;u2&gt; ... se debe a la anáfora.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; 12 &lt;i2&gt;bits&lt;/i2&gt;, un per cada mes de l'any.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102045Z" creationid="fsanchez" creationdate="20161028T102045Z">
+        <seg>&lt;u2&gt; 12 &lt;i2&gt;bits&lt;/i2&gt;, uno por cada mes del año.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1634,6 +1650,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085415Z" creationid="fsanchez" creationdate="20161025T085415Z">
         <seg>&lt;u3&gt; 4ª consulta: o la encontramos, o tenemos que buscar en 77 fichas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; 6 &lt;i3&gt;bits&lt;/i3&gt;, un per cada dos mesos.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102048Z" creationid="fsanchez" creationdate="20161028T102048Z">
+        <seg>&lt;u3&gt; 6 &lt;i3&gt;bits&lt;/i3&gt;, uno por cada dos meses.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4094,6 +4118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els programes d'aplicació &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; solen estar escrits per ser executats sobre un sistema operatiu concret.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102056Z" creationid="fsanchez" creationdate="20161028T102056Z">
+        <seg>Los programas de aplicación &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; suelen estar escritos para ser ejecutados sobre un sistema operativo concreto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els programes navegadors es coneixen també per altres noms: &lt;i0&gt;browsers&lt;/i0&gt; (fullejadors), &lt;i1&gt;exploradors&lt;/i1&gt;, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151354Z" creationid="fsanchez" creationdate="20161018T151354Z">
@@ -5058,6 +5090,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101921Z" creationid="fsanchez" creationdate="20161028T101921Z">
         <seg>Indicad cuál de las afirmaciones siguientes es cierta: &lt;n0&gt; &lt;u1&gt; La memoria RAM almacena programas y datos mientras se ejecutan los programas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu quina de les afirmacions següents és falsa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102051Z" creationid="fsanchez" creationdate="20161028T102051Z">
+        <seg>Indicad cuál de las afirmaciones siguientes es falsa.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6706,6 +6746,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100730Z" creationid="fsanchez" creationdate="20161028T100730Z">
         <seg>¿Cuánta memoria ocupa una imagen de 1024$&lt;u4&gt;$1024 puntos en la que cada punto puede tener 8 colores?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quants &lt;i0&gt;bits&lt;/i0&gt; fan falta per representar els 12 mesos de l'any?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102040Z" creationid="fsanchez" creationdate="20161028T102040Z">
+        <seg>¿Cuántos &lt;i0&gt;bits&lt;/i0&gt; hacen falta para representar los 12 meses del año?</seg>
       </tuv>
     </tu>
     <tu>
