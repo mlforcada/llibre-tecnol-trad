@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(a) &lt;u1&gt; (b) &lt;u2&gt; (a) &lt;u3&gt; (a): Cada punt pot prendre un de 256 colors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102313Z" creationid="fsanchez" creationdate="20161028T102313Z">
+        <seg>(a) &lt;u1&gt; (b) &lt;u2&gt; (a) &lt;u3&gt; (a): Cada punto puede tomar uno de 256 colores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(a) &lt;u1&gt; (b) &lt;u2&gt; (a) &lt;u3&gt; (b): Cada número del 0 al 255 es pot emmagatzemar en 8 bits ($2^8=256$) i n'hi ha quatre: $8&lt;u5&gt; 4=32$.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144530Z" creationid="fsanchez" creationdate="20161019T144530Z">
@@ -6090,6 +6098,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141526Z" creationid="fsanchez" creationdate="20161010T141526Z">
         <seg>Para inspiraros, fijaos en los siguientes ejemplos: &lt;n0&gt; &lt;u1&gt; &lt;i0&gt;Aprendió en dos minutos a afeitarse&lt;/i0&gt; &lt;u2&gt; &lt;i1&gt;Aprendió a afeitarse en dos minutos&lt;/i1&gt; &lt;u3&gt; &lt;i2&gt;Tráeme las llaves del armario grande&lt;/i2&gt; &lt;u4&gt; &lt;i3&gt;Tráeme del armario grande las llaves&lt;/i3&gt; &lt;u5&gt; &lt;i4&gt;Tráeme las llaves de la silla verde&lt;/i4&gt; &lt;u6&gt; &lt;i5&gt;Toni comprará las naranjas que tiene que vender a Reme&lt;/i5&gt; &lt;u7&gt; &lt;i6&gt;Toni comprará a Reme las naranjas que tiene que vender</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per a poder emmagatzemar el color cal un nombre de bits suficient per a fer 256 combinacions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102318Z" creationid="fsanchez" creationdate="20161028T102318Z">
+        <seg>Para poder almacenar el color hace falta un número de bits suficiente para hacer 256 combinaciones.</seg>
       </tuv>
     </tu>
     <tu>
