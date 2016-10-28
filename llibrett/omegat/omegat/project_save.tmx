@@ -2230,6 +2230,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Això permetia enviar una carta d'una pàgina en unes dècimes de segon però no seria suficient per a la major part dels usos actuals d'Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T094330Z" creationid="fsanchez" creationdate="20161028T094330Z">
+        <seg>Esto permitía mandar una carta de una página en unas décimas de segundo pero no sería suficiente para la mayor parte de los usos actuales de Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Això s'aconsegueix mitjançant un procediment anomenat &lt;i0&gt;indexació&lt;/i0&gt;: bàsicament, s'assigna un número a cada fitxa i es construeix una taula o &lt;i1&gt;índex&lt;/i1&gt; ordenat (una altra base de dades) que conté registres amb dos camps: un, el camp pel qual es vol ordenar, i l'altre, la posició en la base de dades del registre que conté aquest valor del camp (en cert sentit, aquest índex no és massa diferent de l'índex alfabètic que hi ha al final d'alguns llibres: busquem el mot alfabèticament i ens diu en quina o en quines pàgines se'n parla).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090908Z" creationid="fsanchez" creationdate="20161025T090908Z">
@@ -6866,6 +6874,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150559Z" creationid="fsanchez" creationdate="20161018T150559Z">
         <seg>Una vez resuelto, nuestro ordenador se guarda la IP durando un tiempo para evitar preguntar de nuevo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una velocitat clàssica en mòdems domèstics era 33.600 b/s (més recentment, 57.600 b/s; les línies telefòniques actuals poden admetre potser velocitats al voltant dels 100.000 b/s).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T094320Z" creationid="fsanchez" creationdate="20161028T094320Z">
+        <seg>Una velocidad clásica en módems domésticos era 33.600 b/s (más recientemente, 57.600 b/s; las líneas telefónicas actuales podrían admitir velocidades alrededor de los 100.000 b/s).</seg>
       </tuv>
     </tu>
     <tu>
