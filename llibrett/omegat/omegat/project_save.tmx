@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} estalviar espai quan es guarden els fitxers.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101650Z" creationid="fsanchez" creationdate="20161028T101650Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} ahorrar espacio cuando se guardan los ficheros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; {&lt;u6&gt;} executarà els programes més lentament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101629Z" creationid="fsanchez" creationdate="20161028T101629Z">
@@ -2090,6 +2098,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113902Z" creationid="fsanchez" creationdate="20161014T113902Z">
         <seg>&lt;u3&gt; {&lt;u7&gt;} se intenta resolver normalmente con reglas basadas en las categorías léxicas de las palabras que la acompañan en la frase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} saber si estan buits o contenen text.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101653Z" creationid="fsanchez" creationdate="20161028T101653Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} saber si están vacíos o contienen texto.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7430,6 +7446,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un mòdem és un dispositiu que{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} converteix la informació digital en senyals analògics.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101657Z" creationid="fsanchez" creationdate="20161028T101657Z">
+        <seg>Un módem es un dispositivo que{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} convierte la información digital en señales analógicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un octet pot contenir, per tant, molt poca informació (un caràcter, una instrucció senzilla del processador central, un nombre de 0 (``{&lt;u5&gt; 00000000}'') a 255 (``{&lt;u6&gt; 11111111}''), etc.).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154836Z" creationid="fsanchez" creationdate="20161027T154836Z">
@@ -7658,6 +7682,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104953Z" creationid="fsanchez" creationdate="20161025T104953Z">
         <seg>Queremos tener una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Windows usa les &lt;i0&gt;extensions&lt;/i0&gt; dels noms de fitxers per a{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} associar-los el programa que els obrirà quan fem doble clic sobre la icona del fitxer.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101647Z" creationid="fsanchez" creationdate="20161028T101647Z">
+        <seg>Windows usa las &lt;i0&gt;extensiones&lt;/i0&gt; de los nombres de ficheros para{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} asociarlos el programa que los abrirá cuando hagamos doble clic sobre el icono del fichero.</seg>
       </tuv>
     </tu>
     <tu>
