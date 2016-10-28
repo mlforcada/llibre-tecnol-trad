@@ -3422,6 +3422,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els Pentium més recents tenen més d'un &lt;i1&gt;nucli&lt;/i1&gt; o sub-processador, i poden, per tant, executar instruccions de programa en paral·lel.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095333Z" creationid="fsanchez" creationdate="20161028T095333Z">
+        <seg>Los Pentium más recientes tienen más de un &lt;i1&gt;núcleo&lt;/i1&gt; o sub-procesador, y pueden, por lo tanto, ejecutar instrucciones de programa en paralelo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els URI no només serveixen per enllaçar hipertextos: l'URI &lt;u0&gt;{mailto:anton@dlsi.ua.es} serveix per a enviar correu electrònic (&lt;i0&gt;mailto&lt;/i0&gt;) a l'usuari que té l'adreça de correu electrònic &lt;u1&gt;{anton@dlsi.ua.es}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151144Z" creationid="fsanchez" creationdate="20161018T151144Z">
@@ -3538,6 +3546,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151540Z" creationid="fsanchez" creationdate="20161018T151540Z">
         <seg>Los navegadores más usados son &lt;i0&gt;Firefox&lt;/i0&gt; (un programa libre y de código fuente abierto desarrollado por centenares de colaboradores en todo el mundo), &lt;i1&gt;Chrome&lt;/i1&gt; (el navegador de la compañía Google, el cual tiene una versión libre y de código fuente abierto denominada &lt;i2&gt;Chromium&lt;/i2&gt;), &lt;i3&gt;Microsoft Internet Explorer&lt;/i3&gt; (incorporado en el sistema operativo Windows), &lt;i4&gt;Safari&lt;/i4&gt; (el cual forma parte del sistema operativo MacOS), y otros cómo &lt;i5&gt;Opera&lt;/i5&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Els nous processadors tenien jocs d'instruccions més complexos i eren capaços d'executar els programes que executaven els anteriors (per exemple, un Pentium pot executar qualsevol programa escrit per a un 386) però introduïen millores que permetien ordinadors més ràpids, amb capacitat més gran de càlcul, capaços de processar més dades en cada instrucció (8, 16, 32 ---a partir del 386---, i actualment 64 bits) i de gestionar més memòria.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095326Z" creationid="fsanchez" creationdate="20161028T095326Z">
+        <seg>Los nuevos procesadores tenían juegos de instrucciones más complejos y eran capaces de ejecutar los programas que ejecutaban los anteriores (por ejemplo, un Pentium puede ejecutar cualquier programa escrito para un 386) pero introducían mejoras que permitían ordenadores más rápidos, con capacidad más grande de cálculo, capaces de procesar más datos en cada instrucción (8, 16, 32 ---a partir del 386---, y actualmente 64 bits) y de gestionar más memoria.</seg>
       </tuv>
     </tu>
     <tu>
