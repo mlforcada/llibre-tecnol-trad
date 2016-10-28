@@ -5502,6 +5502,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però, el seu volum reduït limita les possibilitats de fer-hi ampliacions i, per tant, el seu temps de vida pot ser més curt que el dels ordinadors de sobretaula.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084524Z" creationid="fsanchez" creationdate="20161028T084524Z">
+        <seg>Pero, su volumen reducido limita las posibilidades de hacer ampliaciones y, por lo tanto, su tiempo de vida puede ser más corto que el de los ordenadores de sobremesa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però, en contrast amb l'agenda del nostre mòbil, és impracticable tenir tots els noms i els números IP corresponents a tots els ordinadors del món en el nostre ordinador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145752Z" creationid="fsanchez" creationdate="20161018T145752Z">
