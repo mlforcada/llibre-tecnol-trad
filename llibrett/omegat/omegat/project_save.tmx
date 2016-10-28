@@ -1070,6 +1070,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Les velocitats típiques de connexió a Internet via ADSL són d'uns quants Mb/s.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095931Z" creationid="fsanchez" creationdate="20161028T095931Z">
+        <seg>&lt;u2&gt; Las velocidades típicas de conexión a Internet vía ADSL son de unos cuantos Mb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Lèxica categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141602Z" creationid="fsanchez" creationdate="20161010T141602Z">
@@ -1482,6 +1490,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114305Z" creationid="fsanchez" creationdate="20161014T114305Z">
         <seg>&lt;u3&gt; El problema de la descripción consiste en el hecho que es impracticable describir de forma suficiente y computacionalmente eficiente todo el conocimiento necesario para traducir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; El servei ADSL aprofita les línies de telefonia convencional per a oferir connexió a Internet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095937Z" creationid="fsanchez" creationdate="20161028T095937Z">
+        <seg>&lt;u3&gt; El servicio ADSL aprovecha las líneas de telefonía convencional para ofrecer conexión a Internet.</seg>
       </tuv>
     </tu>
     <tu>
