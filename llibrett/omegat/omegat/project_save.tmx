@@ -4206,6 +4206,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Fa uns anys hi havia diferències significatives entre els PC i els &lt;i1&gt;Mac&lt;/i1&gt; de manera que no eren compatibles, és a dir, que els programes d'un no funcionaven en l'altre, s'havien d'adaptar a les característiques particulars de cadascun.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093412Z" creationid="fsanchez" creationdate="20161028T093412Z">
+        <seg>Hace unos años había diferencias significativas entre los PC y los &lt;i1&gt;Mac&lt;/i1&gt; de manera que no eran compatibles, es decir, que los programas de uno no funcionaban en el otro, tenían que adaptarse a las características particulares de cada uno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Fitxers i directoris</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160137Z" creationid="fsanchez" creationdate="20161027T160137Z">
