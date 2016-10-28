@@ -438,6 +438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n4&gt; &lt;u9&gt; Un monitor o pantalla, normalment una pantalla LCD&lt;p2&gt; de 17 o més polzades, &lt;u10&gt; Un teclat separat i un ratolí.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085200Z" creationid="fsanchez" creationdate="20161028T085200Z">
+        <seg>&lt;n4&gt; &lt;u9&gt; Un monitor o pantalla, normalmente una pantalla LCD&lt;p2&gt; de 17 o más pulgadas, &lt;u10&gt; Un teclado aparte y un ratón.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n5&gt; Aquesta oració té, fonamentalment, dues interpretacions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151200Z" creationid="fsanchez" creationdate="20161009T151200Z">
@@ -530,6 +538,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153936Z" creationid="fsanchez" creationdate="20161027T153936Z">
         <seg>&lt;u11&gt; Guarda el valor del acumulador en &lt;i6&gt;índice&lt;/i6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u11&gt; Una impressora (d'injecció o de raig de tinta ---la més típica---, o làser&lt;p3&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085208Z" creationid="fsanchez" creationdate="20161028T085208Z">
+        <seg>&lt;u11&gt; Una impresora (de inyección o de tinta ---la más típica ---, o láser&lt;p3&gt;).</seg>
       </tuv>
     </tu>
     <tu>
