@@ -2270,6 +2270,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Altres components, com ara la memòria RAM, també funcionen a una determinada velocitat, independent de la del processador, que es mesura també en MHz.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093643Z" creationid="fsanchez" creationdate="20161028T093643Z">
+        <seg>Otros componentes, como la memoria RAM, también funcionan con una velocidad determinada, independiente de la del procesador, que se mide también en MHz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Altres dispositius d'eixida són les impressores, els altaveus, els vibradors dels dispositius mòbils, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152702Z" creationid="fsanchez" creationdate="20161027T152702Z">
@@ -6986,6 +6994,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153810Z" creationid="fsanchez" creationdate="20161027T153810Z">
         <seg>[Juegos] de muchas clases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[MHz:] vegeu megahertz.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093658Z" creationid="fsanchez" creationdate="20161028T093658Z">
+        <seg>[MHz:] véase megahercio.</seg>
       </tuv>
     </tu>
     <tu>
