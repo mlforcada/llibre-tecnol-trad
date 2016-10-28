@@ -6062,6 +6062,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Se n'ha de considerar la &lt;i0&gt;resolució&lt;/i0&gt;, és a dir, el nombre de punts, elements d'imatge (&lt;i1&gt;píxels&lt;/i1&gt;) que caben en una imatge, per exemple $1024 &lt;u1&gt;768$ (horitzontal $&lt;u2&gt;$ vertical), la &lt;i2&gt;profunditat de color&lt;/i2&gt; (en bits: per exemple 24 bits permeten $2^{24}=16 777 216$ colors diferents) i altres paràmetres com la {&lt;u4&gt; freqüència de refrescament} (que es mesura en hertzs o cicles per segon; vegeu ``megahertz'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092542Z" creationid="fsanchez" creationdate="20161028T092542Z">
+        <seg>Se tiene que considerar la resolución &lt;i0&gt;&lt;/i0&gt;, es decir, el número de puntos, elementos de imagen (&lt;i1&gt;píxeles&lt;/i1&gt;) que caben en una imagen, por ejemplo $1024 &lt;u1&gt;768$ (horizontal $&lt;u2&gt;$ vertical), la profundidad &lt;i2&gt;de color&lt;/i2&gt; (en bits: por ejemplo 24 bits permiten $2^{24}=16 777 216$ colores diferentes) y otros parámetros como la frecuencia {&lt;u4&gt; de refresco} (que se mide en hercios o ciclos por segundo; véase ``megahercio'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Se'n podrien fer dos grups: &lt;n0&gt; &lt;u1&gt;[Programari d'ús específic:] programari dissenyat per a un usuari molt concret amb unes necessitats molt concretes: per exemple, el programa que gestiona els préstecs, les quotes i les adquisicions d'un videoclub, fet a mida per a ell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153649Z" creationid="fsanchez" creationdate="20161027T153649Z">
