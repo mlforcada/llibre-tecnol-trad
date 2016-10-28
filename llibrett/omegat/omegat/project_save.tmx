@@ -4406,6 +4406,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Hi ha programari gratuït que no és lliure perquè no atorga totes les llibertats (per exemple, el lector de PDF &lt;i11&gt;Adobe Acrobat&lt;/i11&gt;, o el programa de telefonia per Internet &lt;i12&gt;Skype&lt;/i12&gt;: per exemple, tot i tenir el programari executable, no tenim accés al seu codi font).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095238Z" creationid="fsanchez" creationdate="20161028T095238Z">
+        <seg>Hay softwares gratuitos que no son libres porque no otorgan todas las libertades (por ejemplo, el lector de PDF &lt;i11&gt;Adobe Acrobat&lt;/i11&gt;, o el programa de telefonía por Internet &lt;i12&gt;Skype&lt;/i12&gt;: por ejemplo, a pesar de tener el software ejecutable, no tenemos acceso a su código fuente).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Hi ha tres classes bàsiques de programari:</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152715Z" creationid="fsanchez" creationdate="20161027T152715Z">
