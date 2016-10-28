@@ -6678,6 +6678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un dels paràmetres més interessants d'un mòdem és la &lt;i1&gt;velocitat&lt;/i1&gt; de transmissió de dades, que es mesura en b/s (bits per segon).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T094246Z" creationid="fsanchez" creationdate="20161028T094246Z">
+        <seg>Uno de los parámetros más interesantes de un módem es la &lt;i1&gt;velocidad&lt;/i1&gt; de transmisión de datos, que se mide en b/s (bits por segundo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un dels programes més comunament usats pels professionals de la traducció són els gestors de bases de dades lèxiques (normalment anomenats gestors de bases de dades &lt;i0&gt;terminològiques&lt;/i0&gt;, encara que es poden usar per a moltes altres aplicacions a més de les estrictament terminològiques).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091943Z" creationid="fsanchez" creationdate="20161025T091943Z">
