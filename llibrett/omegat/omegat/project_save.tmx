@@ -1862,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí, perquè els programes en execució i les seues dades estaven tots en la memòria RAM (si no eren ja al disc).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101341Z" creationid="fsanchez" creationdate="20161028T101341Z">
+        <seg>&lt;u3&gt; Sí, porque los programas en ejecución y sus datos estaban todos en la memoria RAM (si no estaban ya en el disco).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Sí, perquè, si no, no les podrien executar.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100658Z" creationid="fsanchez" creationdate="20161028T100658Z">
