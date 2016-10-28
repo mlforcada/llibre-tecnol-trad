@@ -1998,6 +1998,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u7&gt; Una càmera (de vegades anomenada &lt;i4&gt;webcam&lt;/i4&gt;) &lt;u8&gt; Una o més targetes de comunicacions incorporades (amb fils o sense fils, vegeu el glossari, apartat &lt;n3&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T085121Z" creationid="fsanchez" creationdate="20161028T085121Z">
+        <seg>&lt;u7&gt; Una cámara (a veces llamada &lt;i4&gt;webcam&lt;/i4&gt;) &lt;u8&gt; Una o más tarjetas de comunicaciones incorporadas (con cables o inalámbricos, véase el glosario, apartado &lt;n3&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u8&gt; 9a consulta: o la trobem, o hem de buscar en 2 fitxes.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085453Z" creationid="fsanchez" creationdate="20161025T085453Z">
