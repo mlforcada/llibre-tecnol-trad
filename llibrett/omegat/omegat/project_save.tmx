@@ -5718,6 +5718,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quant als ordinadors de taula i els portàtils, sovint es fa la distinció entre els ordinadors de tipus PC i els Macintosh (sovint anomenats Mac).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084712Z" creationid="fsanchez" creationdate="20161028T084712Z">
+        <seg>En cuanto a los ordenadores de sobremesa y los portátiles, a menudo se hace la distinción entre los ordenadores de tipo PC y los Macintosh (a menudo denominados Mac).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quants bits són necessaris per a emmagatzemar un número IP?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141725Z" creationid="fsanchez" creationdate="20161019T141725Z">
