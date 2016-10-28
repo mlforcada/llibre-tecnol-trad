@@ -3494,6 +3494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els models actuals poden executar, en determinades circumstàncies, més d'una instrucció al mateix temps, el que fa que de vegades s'execute una instrucció per cicle de rellotge o fins i tot més d'una.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093611Z" creationid="fsanchez" creationdate="20161028T093611Z">
+        <seg>Los modelos actuales pueden ejecutar, en determinadas circunstancias, más de una instrucción a la vez, lo que hace que a veces se ejecute una instrucción por ciclo o incluso más de una.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els mots &lt;i0&gt;la&lt;/i0&gt; i &lt;i1&gt;bata&lt;/i1&gt; poden pertànyer cada un a dues categories lèxiques diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115720Z" creationid="fsanchez" creationdate="20161014T115720Z">
@@ -6834,6 +6842,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150559Z" creationid="fsanchez" creationdate="20161018T150559Z">
         <seg>Una vez resuelto, nuestro ordenador se guarda la IP durando un tiempo para evitar preguntar de nuevo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una velocitat típica en l'actualitat és 3 GHz, és a dir, 3000 MHz.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093614Z" creationid="fsanchez" creationdate="20161028T093614Z">
+        <seg>Una velocidad típica en la actualidad es 3 GHz, es decir, 3000 MHz.</seg>
       </tuv>
     </tu>
     <tu>
