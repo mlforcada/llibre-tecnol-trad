@@ -6382,6 +6382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quanta memòria ocupa una imatge de 1024$&lt;u4&gt;$1024 punts on cada punt pot tenir 8 colors?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100730Z" creationid="fsanchez" creationdate="20161028T100730Z">
+        <seg>¿Cuánta memoria ocupa una imagen de 1024$&lt;u4&gt;$1024 puntos en la que cada punto puede tener 8 colores?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quants &lt;i0&gt;kilobytes&lt;/i0&gt; (kilooctets) hi ha en un &lt;i1&gt;gigabyte&lt;/i1&gt; (gigaoctet)?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095818Z" creationid="fsanchez" creationdate="20161028T095818Z">
@@ -6866,6 +6874,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142606Z" creationid="fsanchez" creationdate="20161010T142606Z">
         <seg>¿Si una palabra tiene sólo una forma léxica y una única traducción a una determinada lengua, puede ser todavía ambigua?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si una carpeta està dividida en subcarpetes, no pot contenir documents; els documents haurien d'anar dins de les subcarpetes &lt;u2&gt; Només en la carpeta arrel.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100710Z" creationid="fsanchez" creationdate="20161028T100710Z">
+        <seg>Si una carpeta está dividida en subcarpetas, no puede contener documentos; los documentos tendrían que ir dentro de las subcarpetas &lt;u2&gt; Sólo en la carpeta raíz.</seg>
       </tuv>
     </tu>
     <tu>
