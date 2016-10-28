@@ -1918,6 +1918,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Sí, no importa el nom de la carpeta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101530Z" creationid="fsanchez" creationdate="20161028T101530Z">
+        <seg>&lt;u3&gt; Sí, no importa el nombre de la carpeta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Sí, només mirant la categoria lèxica dels mots anteriors i la dels posteriors ja hi ha prou per a saber en quin dels dos casos ens trobem.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141932Z" creationid="fsanchez" creationdate="20161010T141932Z">
@@ -5406,6 +5414,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La targeta Compact Flash on s'emmagatzemen les fotografies d'una càmera digital té 2 GB.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101541Z" creationid="fsanchez" creationdate="20161028T101541Z">
+        <seg>La tarjeta Compact Flash donde se almacenan las fotografías de una cámara digital tiene 2 GB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La taula &lt;n0&gt; dóna alguns exemples d'indicatius de països.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145344Z" creationid="fsanchez" creationdate="20161018T145344Z">
@@ -6522,6 +6538,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095818Z" creationid="fsanchez" creationdate="20161028T095818Z">
         <seg>¿Cuántos &lt;i0&gt;kilobytes&lt;/i0&gt; hay en &lt;i1&gt;un gigabyte&lt;/i1&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quants bits necessitem per codificar un número de telèfon de 9 xifres suposant que codifiquem els dígits un a un?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101534Z" creationid="fsanchez" creationdate="20161028T101534Z">
+        <seg>¿Cuántos bits necesitamos para codificar un número de teléfono de 9 cifras suponiendo que codificamos los dígitos uno a uno?</seg>
       </tuv>
     </tu>
     <tu>
