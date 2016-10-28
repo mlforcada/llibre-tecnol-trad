@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; és lenta, volàtil i d'accés aleatori.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100142Z" creationid="fsanchez" creationdate="20161028T100142Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; es lenta, volátil y de acceso aleatorio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; &lt;u2&gt;[Programari específic per a professionals de la traducció:] sistemes de traducció automàtica (capítols &lt;n3&gt; a &lt;n4&gt;), sistemes de traducció assistida basats en memòries de traducció (capítol &lt;n5&gt;) i bases de dades terminològiques (capítol &lt;n6&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153658Z" creationid="fsanchez" creationdate="20161027T153658Z">
@@ -1342,6 +1350,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; és ràpida, volàtil i d'accés aleatori.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100144Z" creationid="fsanchez" creationdate="20161028T100144Z">
+        <seg>&lt;u2&gt; es rápida, volátil y de acceso aleatorio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt;[(b)] *Dius que Jordi ha explicat &lt;i7&gt;com&lt;/i7&gt; que vindria?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151522Z" creationid="fsanchez" creationdate="20161009T151447Z">
@@ -1866,6 +1882,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105123Z" creationid="fsanchez" creationdate="20161025T105058Z">
         <seg>&lt;u3&gt; {&lt;u7&gt;}siempre es necesario conocer su categoría léxica e indicarsela al gestor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; és ràpida, permanent i d'accés seqüencial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100146Z" creationid="fsanchez" creationdate="20161028T100146Z">
+        <seg>&lt;u3&gt; es rápida, permanente y de acceso secuencial.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4314,6 +4338,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085228Z" creationid="fsanchez" creationdate="20161025T085228Z">
         <seg>Se puede demostrar que la búsqueda dicotómica consulta como mucho $n$ fichas si el fichero tiene entre^{2^{n-1}$ y $2^n$ fichas, porque tras cada consulta se reduce a la mitad el tamaño del fichero que hay que explorar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es pot fer que diversos ordinadors compartisquen un recurs connectat a un d'ells com, per exemple, una impressora?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100151Z" creationid="fsanchez" creationdate="20161028T100151Z">
+        <seg>¿Se puede hacer que varios ordenadores compartan un recurso conectado a uno de ellos como, por ejemplo, una impresora?</seg>
       </tuv>
     </tu>
     <tu>
