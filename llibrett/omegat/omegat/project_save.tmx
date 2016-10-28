@@ -974,6 +974,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; En el disc dur.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100553Z" creationid="fsanchez" creationdate="20161028T100553Z">
+        <seg>&lt;u2&gt; En el disco duro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; En la memòria RAM (almenys parcialment).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100049Z" creationid="fsanchez" creationdate="20161028T100049Z">
@@ -1594,6 +1602,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095937Z" creationid="fsanchez" creationdate="20161028T095937Z">
         <seg>&lt;u3&gt; El servicio ADSL aprovecha las líneas de telefonía convencional para ofrecer conexión a Internet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; En la memòria RAM.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100554Z" creationid="fsanchez" creationdate="20161028T100554Z">
+        <seg>&lt;u3&gt; En la memoria RAM.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2818,6 +2834,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145205Z" creationid="fsanchez" creationdate="20161018T145205Z">
         <seg>Cada nodo (cada ordenador) de la red Internet tiene un {&lt;u0&gt; número IP} único, el cual se compone de 4 bytes (4 enteros del 0 al 255) separados por puntos, como por ejemplo {&lt;u1&gt; 192.168.5.5}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Cada punt d'una pantalla pot tenir 256 colors: quants octets (&lt;i0&gt;bytes&lt;/i0&gt;) de memòria ocupa cada punt?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100543Z" creationid="fsanchez" creationdate="20161028T100543Z">
+        <seg>Cada punto de una pantalla puede tener 256 colores: ¿cuántos &lt;i0&gt;bytes&lt;/i0&gt; de memoria ocupa cada punto?</seg>
       </tuv>
     </tu>
     <tu>
@@ -6154,6 +6178,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091221Z" creationid="fsanchez" creationdate="20161025T091221Z">
         <seg>Cuando creamos una nueva base de datos y definimos la estructura de campos que tendrá cada uno de sus registros, podemos designar qué campos corresponden a los índices; el gestor de la base de datos creará automáticamente los índices correspondientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan el processador central està executant un programa, on espera trobar la següent instrucció?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100548Z" creationid="fsanchez" creationdate="20161028T100548Z">
+        <seg>Cuando el procesador central está ejecutando un programa, ¿dónde espera encontrar la siguiente instrucción?</seg>
       </tuv>
     </tu>
     <tu>
