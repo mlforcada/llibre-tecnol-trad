@@ -6334,6 +6334,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quines són les característiques de la memòria RAM d'un ordinador de taula?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100120Z" creationid="fsanchez" creationdate="20161028T100120Z">
+        <seg>¿Cuáles son las características de la memoria RAM de un ordenador de sobremesa?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Què es pot dir dels números IP de dues màquines que es troben en la mateixa subxarxa?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141801Z" creationid="fsanchez" creationdate="20161019T141801Z">
