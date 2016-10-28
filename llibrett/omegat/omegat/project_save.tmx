@@ -6158,6 +6158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Solen venir amb un sistema operatiu gràfic: el més comú és Android, però els de la marca Apple usen iOS.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084614Z" creationid="fsanchez" creationdate="20161028T084614Z">
+        <seg>Suelen venir con un sistema operativo gráfico: el más común es Android, pero los de la marca Apple usan iOS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Solucions</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114356Z" creationid="fsanchez" creationdate="20161014T114356Z">
