@@ -2534,6 +2534,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquestes diferències eren degudes al fet que el processador del &lt;i2&gt;Mac&lt;/i2&gt; no era de la família x86 (vegeu &lt;i3&gt;Pentium&lt;/i3&gt;), sinó d'una altra (antigament la família 68000 de Motorola, i després l'anomenat PowerPC).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093438Z" creationid="fsanchez" creationdate="20161028T093438Z">
+        <seg>Estas diferencias se debían al hecho de que el procesador del &lt;i2&gt;Mac&lt;/i2&gt; no era de la familia x86 (véase &lt;i3&gt;Pentium&lt;/i3&gt;, sino de otra (antiguamente de la familia 68000 de Motorola, y después del llamado PowerPC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquestes estratègies són d'utilitat en els sistemes de traducció automàtica per transferència sintàctica pura (vegeu la secció &lt;n3&gt;), ja que no s'hi fa cap processament semàntic.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130523Z" creationid="fsanchez" creationdate="20161010T130523Z">
