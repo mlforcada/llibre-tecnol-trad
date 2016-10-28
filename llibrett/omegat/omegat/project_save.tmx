@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(c) &lt;u1&gt; (c) &lt;u2&gt; (c): Cada imatge ocupa $100&lt;u5&gt;100 = 10.000$ bits, que són $10.000 / 8 = 1.250$ octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102526Z" creationid="fsanchez" creationdate="20161028T102526Z">
+        <seg>(c) &lt;u1&gt; (c) &lt;u2&gt; (c): Cada imagen ocupa $100&lt;u5&gt;100 = 10.000$ bits, que son $10.000 / 8 = 1.250$ bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(c): Un gigaoctet té 1.024 megaoctets, i un megaoctet, 1.024 kilooctets: $1.024 &lt;u5&gt; 1.024 = 1.048.576$.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102119Z" creationid="fsanchez" creationdate="20161028T102119Z">
@@ -154,6 +162,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T140959Z" creationid="fsanchez" creationdate="20161010T140959Z">
         <seg>-- I les creus?'&lt;/i0&gt; (1: ``¿Crees estas noticias?" 2: ``¿Los crucifijos también han rebrotado?").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>1 GB = $1.024 &lt;u6&gt; 1.024 &lt;u7&gt; 1.204 = 1.073.741.824 $ octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102533Z" creationid="fsanchez" creationdate="20161028T102533Z">
+        <seg>1 GB = $1.024 &lt;u6&gt; 1.024 &lt;u7&gt; 1.204 = 1.073.741.824 $ bytes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6690,6 +6706,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141526Z" creationid="fsanchez" creationdate="20161009T141526Z">
         <seg>Podemos decir que un enunciado (una oración, un texto) es ambiguo cuando es susceptible de dos o más interpretaciones &lt;u0&gt;{alcaraz97b}.&lt;p0&gt; lo expresan diciendo que la ambigüedad es ``el fenómeno por el cual una expresión tiene más de un significado''.} Por tanto, un enunciado ambiguo puede tener más de una traducción a otro idioma, aunque a veces puede tener una sola traducción a otro idioma porque dicha traducción conserva la ambigüedad de la frase original;&lt;p1&gt; a esto se le suele llamar &lt;i2&gt;free ride&lt;/i2&gt; (``pase gratuito'') y es más frecuente cuanto más cercanas sean las lenguas involucradas en la traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Podem emmagatzemar més de 800.000 imatges.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102537Z" creationid="fsanchez" creationdate="20161028T102537Z">
+        <seg>Podemos almacenar más de 800.000 imágenes.</seg>
       </tuv>
     </tu>
     <tu>
