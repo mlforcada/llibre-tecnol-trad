@@ -3174,6 +3174,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El nom &lt;i0&gt;Pentium&lt;/i0&gt; es va triar perquè Intel no podia registrar ``586'' com a marca.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095249Z" creationid="fsanchez" creationdate="20161028T095249Z">
+        <seg>El nombre &lt;i0&gt;Pentium&lt;/i0&gt; se eligió porque Intel no podía registrar ``586'' como marca.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El nom &lt;i0&gt;navegador&lt;/i0&gt; s'usa per l'analogia ---dèbil--- existent entre els mecanismes d'accés als documents de la Internet i la navegació mitjançant un mapa en una zona desconeguda.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153801Z" creationid="fsanchez" creationdate="20161027T153801Z">
