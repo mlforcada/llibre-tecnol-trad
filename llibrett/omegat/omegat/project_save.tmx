@@ -910,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; (a) &lt;u3&gt; (c) &lt;u4&gt; (b): Cada punt pot presentar-se en 8 colors diferents.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102423Z" creationid="fsanchez" creationdate="20161028T102423Z">
+        <seg>&lt;u2&gt; (a) &lt;u3&gt; (c) &lt;u4&gt; (b): Cada punto puede presentarse en 8 colores diferentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; (a): Una velocitat de 300 kilooctets per segon equival a uns $300 &lt;u7&gt; 8=2.400$ kilobits per segon; al voltant 2,3 Mb/s.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102157Z" creationid="fsanchez" creationdate="20161028T102157Z">
@@ -2910,6 +2918,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Amb 3 bits podem emmagatzemar \(2&lt;u7&gt;2&lt;u8&gt;2=8\) colors.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102427Z" creationid="fsanchez" creationdate="20161028T102427Z">
+        <seg>Con 3 bits podemos almacenar \(2&lt;u7&gt;2&lt;u8&gt;2=8\) colores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Amb 8 bits podem fer \(2^8=2&lt;u5&gt;2&lt;u6&gt; 2&lt;u7&gt; 2&lt;u8&gt; 2&lt;u9&gt; 2&lt;u10&gt; 2&lt;u11&gt; 2=256\) combinacions.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102322Z" creationid="fsanchez" creationdate="20161028T102322Z">
@@ -3294,6 +3310,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Cal fer-ho 16 vegades; per tant, necessitem 16 bits.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102400Z" creationid="fsanchez" creationdate="20161028T102400Z">
+        <seg>Hay que hacerlo 16 veces; por lo tanto, necesitamos 16 bits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com en el cas dels CD, podem parlar de DVD-ROM, DVD-R i DVD-RW.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152015Z" creationid="fsanchez" creationdate="20161027T152015Z">
@@ -3330,6 +3354,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123022Z" creationid="fsanchez" creationdate="20161010T123022Z">
         <seg>Como &lt;i3&gt;sobre&lt;/i3&gt; va seguido de &lt;i4&gt;de&lt;/i4&gt;, que sólo puede ser preposición, podemos descartar que &lt;i5&gt;sobre&lt;/i5&gt; sea una preposición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com que cada octet són 8 bits, són necessaris 2 octets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102418Z" creationid="fsanchez" creationdate="20161028T102418Z">
+        <seg>Como cada byte son 8 bits, son necesarios 2 bytes.</seg>
       </tuv>
     </tu>
     <tu>
