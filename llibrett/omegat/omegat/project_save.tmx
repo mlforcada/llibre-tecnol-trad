@@ -6710,6 +6710,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Tauletes i &lt;i0&gt;smartphones&lt;/i0&gt;]: les tauletes (en anglés &lt;i1&gt;tablets&lt;/i1&gt;) i els telèfons mòbils més moderns, anomenats &lt;i2&gt;smartphones&lt;/i2&gt;, són veritables ordinadors por­tà­tils, amb una pantalla tàctil i sense teclat, amb càmera, connectivitat Wi-Fi i Bluetooth, receptor GPS, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084606Z" creationid="fsanchez" creationdate="20161028T084606Z">
+        <seg>[Tabletas y &lt;i0&gt;smartphones&lt;/i0&gt;]: las tabletas (en inglés &lt;i1&gt;tablets&lt;/i1&gt;) y los teléfonos móviles más modernos, denominados &lt;i2&gt;smartphones&lt;/i2&gt;, son verdaderos ordenadores portátiles, con una pantalla táctil y sin teclado, con cámara, conectividad Wi-Fi y Bluetooth, receptor GPS, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Tercer i últim pas: mirem l'element 9 i trobem l'element buscat.]{ &lt;n0&gt;{|l||l||l||l||l|}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090130Z" creationid="fsanchez" creationdate="20161025T090130Z">
