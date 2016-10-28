@@ -718,6 +718,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt;[Portàtils] (en anglés &lt;i2&gt;laptop&lt;/i2&gt;, encara que quan són menuts se'n diu de vegades &lt;i3&gt;notebook&lt;/i3&gt; o &lt;i4&gt;netbook&lt;/i4&gt;): Tenen una grandària menor que la d'un maletí i un pes lleuger que permet dur-los sense massa esforç d'un lloc a un altre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084512Z" creationid="fsanchez" creationdate="20161028T084512Z">
+        <seg>&lt;u1&gt;[Portátiles] (en inglés &lt;i2&gt;laptop&lt;/i2&gt;, aunque cuando son pequeños se les llama a veces &lt;i3&gt;notebook&lt;/i3&gt; o &lt;i4&gt;netbook&lt;/i4&gt;): Tienen un tamaño menor que el de un maletín y un peso ligero que permite llevarlos sin demasiado esfuerzo de un lugar a otro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt;[autoritat:] identifica pel seu nom o número IP l'ordinador (&lt;i1&gt;servidor&lt;/i1&gt;) on és el recurs.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150833Z" creationid="fsanchez" creationdate="20161018T150833Z">
@@ -6162,6 +6170,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151510Z" creationid="fsanchez" creationdate="20161018T151510Z">
         <seg>Son programas que permiten acceder de manera sencilla a los documentos o servicios de Internet en ordenadores conectados a esta red; entre otras cosas, los navegadores interpretan los hipertextos escritos en HTML y los presentan a la persona usuaria en el formato que indican las marcas, de forma que los enlaces a otros hipertextos queden claramente destacados y sean &lt;i2&gt;activos&lt;/i2&gt;, es decir, que respondan a un clic del ratón &lt;i3&gt;saltando&lt;/i3&gt; al hipertexto o recurso enlazado; además, los navegadores pueden &lt;i4&gt;ejecutar&lt;/i4&gt; automáticamente otros programas de aplicación para poder abrir el recurso correspondiente si no es un hipertexto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Són, amb diferència, els ordinadors més habituals.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084455Z" creationid="fsanchez" creationdate="20161028T084455Z">
+        <seg>Son, con diferencia, los ordenadores más habituales.</seg>
       </tuv>
     </tu>
     <tu>
