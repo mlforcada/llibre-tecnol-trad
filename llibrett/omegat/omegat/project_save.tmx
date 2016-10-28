@@ -6806,6 +6806,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[DSL] (de l'anglés &lt;i0&gt;digital subscriber line&lt;/i0&gt;, línia d'abonat digital), tecnologia de connexió que permet aprofitar les línies telefòniques i elèctriques per a fer connexions d'alta velocitat (fins a uns 10 Mb/s).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093120Z" creationid="fsanchez" creationdate="20161028T093120Z">
+        <seg>[DSL] (del inglés &lt;i0&gt;digital subscriber line&lt;/i0&gt;, línea de abonado digital), tecnología de conexión que permite aprovechar las líneas telefónicas y eléctricas para hacer conexiones de alta velocidad (hasta unos 10 Mb/s).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[De sobretaula] (en anglés &lt;i0&gt;desktop&lt;/i0&gt;): Estan formats per una &lt;i1&gt;caixa&lt;/i1&gt; amb dispositius de processament i emmagatzematge i un conjunt de perifèrics (dispositius d'entrada o d'eixida) com ara el teclat, el ratolí o la pantalla.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084452Z" creationid="fsanchez" creationdate="20161028T084452Z">
