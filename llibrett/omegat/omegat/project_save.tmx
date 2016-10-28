@@ -942,6 +942,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; accedeixen als recursos i dispositius connectats a l'ordinador a través del sistema operatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102101Z" creationid="fsanchez" creationdate="20161028T102101Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; acceden a los recursos y dispositivos conectados al ordenador a través del sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; consulta un índex que ha construït prèviament en visitar els diferents documents d'Internet.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144301Z" creationid="fsanchez" creationdate="20161019T144301Z">
@@ -1714,6 +1722,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105836Z" creationid="fsanchez" creationdate="20161025T105836Z">
         <seg>&lt;u3&gt; &lt;u7&gt; se corresponde con un registro en el cual se encuentran los términos usados en cada lengua para representar este concepto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; mai necessiten del sistema operatiu una vegada que han començat a executar-se.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102108Z" creationid="fsanchez" creationdate="20161028T102108Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; nunca necesitan del sistema operativo una vez que han empezado a ejecutarse.</seg>
       </tuv>
     </tu>
     <tu>
