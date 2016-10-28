@@ -2574,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquests ordinadors, llançats al mercat el 1984, popularitzaren la interfície gràfica d'usuari, tota una revolució per a l'època.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093402Z" creationid="fsanchez" creationdate="20161028T093402Z">
+        <seg>Estos ordenadores, lanzados al mercado en 1984, popularizaron la interfaz gráfica de usuario, toda una revolución para la época.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Ara repetim el procés i mirem l'element d'enmig (el 6) de la nova subllista i hi trobem l'element ``Esteve''; com que és menor alfabèticament que l'element que estem buscant, ens quedem amb la meitat alta (que inclou els elements del 7 al 12) de la subllista actual.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085849Z" creationid="fsanchez" creationdate="20161025T085849Z">
@@ -4098,6 +4106,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085228Z" creationid="fsanchez" creationdate="20161025T085228Z">
         <seg>Se puede demostrar que la búsqueda dicotómica consulta como mucho $n$ fichas si el fichero tiene entre^{2^{n-1}$ y $2^n$ fichas, porque tras cada consulta se reduce a la mitad el tamaño del fichero que hay que explorar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Es pot instal·lar GNU/Linux (que es presenta en moltes &lt;i2&gt;distribucions&lt;/i2&gt; diferents com ara &lt;i3&gt;Ubuntu&lt;/i3&gt;, &lt;i4&gt;Mint&lt;/i4&gt;, &lt;i5&gt;Fedora&lt;/i5&gt;, etc.) en un PC amb processador de la família x86 (vegeu &lt;i6&gt;Pentium&lt;/i6&gt;) o superior i en molts altres tipus d'ordinador.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093350Z" creationid="fsanchez" creationdate="20161028T093350Z">
+        <seg>Se puede instalar GNU/Linux (que se presenta en muchas &lt;i2&gt;distribuciones&lt;/i2&gt; diferentes como por ejemplo &lt;i3&gt;Ubuntu&lt;/i3&gt;, &lt;i4&gt;Mint&lt;/i4&gt;, &lt;i5&gt;Fedora&lt;/i5&gt;, etc.) en un PC con procesador de la familia x86 (véase &lt;i6&gt;Pentium&lt;/i6&gt;) o superior y en otros muchos tipos de ordenador.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6898,6 +6914,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153810Z" creationid="fsanchez" creationdate="20161027T153810Z">
         <seg>[Juegos] de muchas clases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Macintosh] o &lt;i0&gt;Mac&lt;/i0&gt;: nom genèric (i comercial) d'una família d'ordinadors construïts per Apple Computer i que són bàsicament equivalents als PC.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093357Z" creationid="fsanchez" creationdate="20161028T093357Z">
+        <seg>[Macintosh] o &lt;i0&gt;Mac&lt;/i0&gt;: nombre genérico (y comercial) de una familia de ordenadores construidos por Apple Computer y que son básicamente equivalentes a los PC.</seg>
       </tuv>
     </tu>
     <tu>
