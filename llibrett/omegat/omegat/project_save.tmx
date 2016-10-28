@@ -5350,6 +5350,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, en un ordinador amb 512 kilooctets (524.288 octets) de &lt;i1&gt;memòria cau&lt;/i1&gt;, després d'accedir a la posició 2.000.000 és molt probable que el processador vulga accedir a la posició 2.000.003.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092805Z" creationid="fsanchez" creationdate="20161028T092805Z">
+        <seg>Por ejemplo, en un ordenador con 512 kilobytes (524.288 bytes) de &lt;i1&gt;memoria caché&lt;/i1&gt;, tras acceder a la posición 2.000.000 es muy probable que el procesador quiera acceder a la posición 2.000.003.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, es poden preferir &lt;n0&gt; &lt;u0&gt; els antecedents més recents, &lt;u1&gt; els antecedents que fan de subjecte als que fan d'objecte, o &lt;u2&gt; els antecedents que han estat introduïts explícitament com l'assumpte del discurs o de la conversa: &lt;i1&gt;Doncs, pel que fa a &lt;u3&gt;{Joan&lt;/i1&gt;&lt;u4&gt;}.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125239Z" creationid="fsanchez" creationdate="20161010T124944Z">
