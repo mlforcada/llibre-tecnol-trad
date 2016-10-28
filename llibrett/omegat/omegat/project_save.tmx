@@ -6550,6 +6550,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[De sobretaula] (en anglés &lt;i0&gt;desktop&lt;/i0&gt;): Estan formats per una &lt;i1&gt;caixa&lt;/i1&gt; amb dispositius de processament i emmagatzematge i un conjunt de perifèrics (dispositius d'entrada o d'eixida) com ara el teclat, el ratolí o la pantalla.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084452Z" creationid="fsanchez" creationdate="20161028T084452Z">
+        <seg>[De sobremesa] (en inglés &lt;i0&gt;desktop&lt;/i0&gt;): Están formados por &lt;i1&gt;una caja&lt;/i1&gt; con dispositivos de procesamiento y almacenamiento y un conjunto de periféricos (dispositivos de entrada o de salida) como por ejemplo el teclado, el ratón o la pantalla.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Eixida:] Aquesta és la família dels dispositius que l'ordinador usa per a comunicar dades o informació a l'usuari.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152652Z" creationid="fsanchez" creationdate="20161027T152652Z">
