@@ -1118,6 +1118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; No, perquè no hi cap.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095954Z" creationid="fsanchez" creationdate="20161028T095954Z">
+        <seg>&lt;u2&gt; No, porque no cabe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; No, sempre cal utilitzar informació de caràcter sintàctic per resoldre-la.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142559Z" creationid="fsanchez" creationdate="20161010T142559Z">
@@ -1618,6 +1626,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142320Z" creationid="fsanchez" creationdate="20161019T142320Z">
         <seg>&lt;u3&gt; Mediante una etiqueta HTML.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; No, perquè un suport és electrònic i l'altre òptic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095957Z" creationid="fsanchez" creationdate="20161028T095957Z">
+        <seg>&lt;u3&gt; No, porque un soporte es electrónico y el otro óptico.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4206,6 +4222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Es podria enregistrar (guardar) en un CD-ROM tota la informació continguda en un instant determinat en la memòria RAM d'un ordinador vell que en té 512 MB?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095948Z" creationid="fsanchez" creationdate="20161028T095948Z">
+        <seg>¿Se podría grabar (guardar) en un CD-ROM toda la información contenida en un instante determinado en la memoria RAM de un ordenador viejo que tiene 512 MB?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Es pot construir un índex per a cada un dels camps associats a les consultes més freqüents i així s'evita recórrer tota la base de dades cada vegada que es fa una consulta: es busca el valor del camp en el registre corresponent i, quan es troba, s'usa la posició del registre per a accedir-hi directament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090931Z" creationid="fsanchez" creationdate="20161025T090931Z">
@@ -6170,6 +6194,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113929Z" creationid="fsanchez" creationdate="20161014T113929Z">
         <seg>¿Qué tipo de ambigüedad se produce en el pronombre débil &lt;i0&gt;li&lt;/i0&gt; de la frase &lt;i1&gt;Vaig veure Mario i sa madre; li vaig dir que m'agradava molt el seu fill&lt;/i1&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quina d'aquestes afirmacions es certa?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095959Z" creationid="fsanchez" creationdate="20161028T095959Z">
+        <seg>¿Cuál de estas afirmaciones es cierta?</seg>
       </tuv>
     </tu>
     <tu>
