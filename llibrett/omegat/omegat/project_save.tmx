@@ -1166,6 +1166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; La memòria RAM és permanent i més ràpida que la memòria secundària.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101923Z" creationid="fsanchez" creationdate="20161028T101923Z">
+        <seg>&lt;u2&gt; La memoria RAM es permanente y más rápida que la memoria secundaria.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; La part final.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142355Z" creationid="fsanchez" creationdate="20161019T142355Z">
@@ -4970,6 +4978,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130935Z" creationid="fsanchez" creationdate="20161010T130935Z">
         <seg>Indicad qué clase de ambigüedad presentan estas frases (justificad muy brevemente vuestra respuesta): &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Expulsarán al alcalde de la ciudad&lt;/i0&gt; (1: ``El alcalde de la ciudad será expulsado.'' 2: ``El alcalde será expulsado de la ciudad'').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Indiqueu quina de les afirmacions següents és certa: &lt;n0&gt; &lt;u1&gt; La memòria RAM emmagatzema programes i dades mentre s'executen els programes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101921Z" creationid="fsanchez" creationdate="20161028T101921Z">
+        <seg>Indicad cuál de las afirmaciones siguientes es cierta: &lt;n0&gt; &lt;u1&gt; La memoria RAM almacena programas y datos mientras se ejecutan los programas.</seg>
       </tuv>
     </tu>
     <tu>
