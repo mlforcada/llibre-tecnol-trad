@@ -1238,6 +1238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Només si està escrit en un llenguatge de programació d'alt nivell, perquè només així serà un text i podrà guardar-se en un fitxer.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101428Z" creationid="fsanchez" creationdate="20161028T101428Z">
+        <seg>&lt;u2&gt; Sólo si está escrito en un lenguaje de programación de alto nivel, porque sólo así será un texto y podrá guardarse en un fichero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Només si la impressora està connectada a Internet.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100201Z" creationid="fsanchez" creationdate="20161028T100201Z">
@@ -6242,6 +6250,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115926Z" creationid="fsanchez" creationdate="20161014T115926Z">
         <seg>Puede tener más de un árbol de análisis sintáctico (ambigüedad estructural).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Pot un fitxer contenir les instruccions d'un programa executable?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101421Z" creationid="fsanchez" creationdate="20161028T101421Z">
+        <seg>¿Puede un fichero contener las instrucciones de un programa ejecutable?</seg>
       </tuv>
     </tu>
     <tu>
