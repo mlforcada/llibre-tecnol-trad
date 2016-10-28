@@ -4414,6 +4414,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Hi ha diversos estàndards de connexió en xarxa; els més anomenats són Ethernet (per a connexions amb fils) i &lt;i0&gt;Wi-Fi&lt;/i0&gt; (vegeu &lt;i1&gt;Wi-Fi&lt;/i1&gt; en aquest glossari).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095420Z" creationid="fsanchez" creationdate="20161028T095420Z">
+        <seg>Hay varios estándares de conexión en red; los más usados son Ethernet (para conexiones con cables) y &lt;i0&gt;Wi-Fi&lt;/i0&gt; (véase &lt;i1&gt;Wi-Fi&lt;/i1&gt; en este glosario).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Hi ha dues famílies bàsiques de processadors de llenguatges: els &lt;i0&gt;compiladors&lt;/i0&gt;, que tradueixen tot el programa al llenguatge de la màquina abans d'executar-lo, i els &lt;i1&gt;intèrprets&lt;/i1&gt;, que lligen el programa línia a línia i executen petits programes ja escrits en el llenguatge de la màquina i que corresponen a les sentències del llenguatge de programació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154132Z" creationid="fsanchez" creationdate="20161027T154132Z">
@@ -7282,6 +7290,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095343Z" creationid="fsanchez" creationdate="20161028T095343Z">
         <seg>[placa de sonido:] En los ordenadores más antiguos, se tenía que comprar a parte una placa (o tarjeta) de sonido si se quería usar el ordenador para procesar, grabar, reproducir, y manipular sonidos digitalizados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[targeta de xarxa:] En els ordinadors més antics, per a connectar ordinadors i formar una xarxa (normalment local) per a compartir recursos, calia dotar a cada ordinador d'una placa o targeta de xarxa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095355Z" creationid="fsanchez" creationdate="20161028T095355Z">
+        <seg>[tarjeta de red:] En los ordenadores más antiguos, para conectar ordenadores y formar una red (normalmente local) para compartir recursos, había que dotar a cada ordenador de una placa o tarjeta de red.</seg>
       </tuv>
     </tu>
     <tu>
