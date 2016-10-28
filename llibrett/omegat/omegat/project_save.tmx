@@ -6526,6 +6526,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Si una memòria USB té 6 &lt;i0&gt;gigabytes&lt;/i0&gt; (gigaoctets), una pàgina de text (europeu occidental) típica té 50 línies de 60 caràcters (contant els blancs) i cada caràcter ocupa 1 &lt;i1&gt;byte&lt;/i1&gt; (octet), quantes pàgines caben aproximadament en la memòria?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095840Z" creationid="fsanchez" creationdate="20161028T095840Z">
+        <seg>Si una memoria USB tiene 6 &lt;i0&gt;gigabytes&lt;/i0&gt;, una página de texto (europeo occidental) típica tiene 50 líneas de 60 caracteres (contando los blancos) y cada carácter ocupa 1 &lt;i1&gt;byte&lt;/i1&gt;, ¿cuántas páginas caben aproximadamente en la memoria?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Si una oració té només una ambigüitat lèxica pura&lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; té un únic arbre d'anàlisi sintàctica, però més d'una anàlisi morfològica.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141535Z" creationid="fsanchez" creationdate="20161010T141535Z">
