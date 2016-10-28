@@ -7118,6 +7118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[Pentium:] nom genèric d'una família actual de processadors centrals de la companyia Intel, els més recents de la sèrie ``x86'' de processadors que començà amb el 8086 a principis dels anys 80, passant pel 80286, el (80)386 i el (80)486.&lt;p0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095306Z" creationid="fsanchez" creationdate="20161028T095306Z">
+        <seg>[Pentium:] nombre genérico de una familia actual de procesadores centrales de la compañía Intel, los más recientes de la serie ``x86'' de procesadores que empezó con el 8086 a principios de los años 80, pasando por el 80286, el (80)386 y el (80)486.&lt;p0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Per què és difícil la TA?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161005T115756Z" creationid="fsanchez" creationdate="20161005T115756Z">
