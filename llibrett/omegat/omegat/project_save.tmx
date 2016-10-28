@@ -7014,6 +7014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[gigahertz:] un gigahertz són 1000 megahertzs (vegeu &lt;i0&gt;megahertz&lt;/i0&gt; en aquest glossari).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093252Z" creationid="fsanchez" creationdate="20161028T093252Z">
+        <seg>[gigahertz:] un gigahertz son 1000 megahertzs (véase &lt;i0&gt;megahercio&lt;/i0&gt; en este glosario).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>`&lt;u8&gt;{tt1}{txt}' ) ) ) ) &lt;n1&gt; &lt;u9&gt;{Exemple d'estructura de fitxers i directoris en un dispositiu d'emmagatzemament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164254Z" creationid="fsanchez" creationdate="20161027T164254Z">
