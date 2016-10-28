@@ -6886,6 +6886,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>[GNU/Linux:] un sistema operatiu multitasca i multiusuari gratu&lt;u1&gt;{&lt;u2&gt;}t, de l'estil de l'Unix que es podia trobar en els anomenats &lt;i0&gt;miniordinadors&lt;/i0&gt; dels anys 70 i 80, desenvolupat de manera col·laborativa per milers de voluntaris independents i per empreses arreu del món i que és &lt;i1&gt;programari lliure&lt;/i1&gt; (vegeu l'entrada en aquest glossari): es pot copiar lliurement si es compleixen certes condicions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093329Z" creationid="fsanchez" creationdate="20161028T093329Z">
+        <seg>[GNU/Linux:] un sistema operativo multitarea y multiusuario gratuito, del estilo del Unix que se podía encontrar en los llamados &lt;i0&gt;miniordenadores&lt;/i0&gt; de los años 70 y 80, desarrollado de manera colaborativa por miles de voluntarios independientes y por empresas en todo el mundo y que es &lt;i1&gt;software libre&lt;/i1&gt; (véase la entrada en este glosario): se puede copiar libremente si se cumplen ciertas condiciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[Jocs] de moltes classes.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153810Z" creationid="fsanchez" creationdate="20161027T153810Z">
