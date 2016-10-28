@@ -4598,6 +4598,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'execució d'una instrucció per part del processador sol consumir un nombre menut de cicles, quasi sempre més d'un.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093602Z" creationid="fsanchez" creationdate="20161028T093602Z">
+        <seg>La ejecución de una instrucción por parte del procesador suele consumir un número pequeño de ciclos, casi siempre más de uno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'experiència ens ajuda a fer prediccions que en general tenen èxit, però de vegades hi ha oracions ``enganyoses'' que ``ens porten a l'hort'' (anomenades, per això, en anglés &lt;i2&gt;garden-path sentences&lt;/i2&gt;, de l'anglés &lt;i3&gt;lead up the garden path&lt;/i3&gt;) ja que en cert punt del procés ens obliguen a descartar la predicció feta i reinterpretar el que havíem llegit fins a aquell punt (l'estudi dels moviments oculars, en anglés &lt;i4&gt;eyetracking&lt;/i4&gt;) durant la lectura donen pistes molt rellevants sobre l'existència d'aquests processos).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125818Z" creationid="fsanchez" creationdate="20161010T125818Z">
@@ -4946,6 +4954,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151045Z" creationid="fsanchez" creationdate="20161027T151045Z">
         <seg>La velocidad a la que una CPU ejecuta las instrucciones básicas de un programa se mide en megaherzios (MHz) o gigaherzios (GHz; un gigaherzio son 1000 megaherzios).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La velocitat de les unitats centrals dels ordinadors es mesura en MHz i més recentment en GHz, és a dir, en milions o milers de milions de cicles bàsics de processament d'informació ---corresponents als &lt;i0&gt;tics&lt;/i0&gt; o impulsos del rellotge que sincronitza tots els circuits de l'ordinador--- per segon.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T093552Z" creationid="fsanchez" creationdate="20161028T093552Z">
+        <seg>La velocidad de las unidades centrales de los ordenadores se miden en MHz o GHz, es decir, en millones o millares de millones de ciclos básicos de procesamiento de información ---correspondientes a los &lt;i0&gt;tics&lt;/i0&gt; o impulsos del reloj que sincroniza todos los dispositivos del ordenador--- por segundo.</seg>
       </tuv>
     </tu>
     <tu>
