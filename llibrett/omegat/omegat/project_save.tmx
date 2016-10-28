@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Sí, com en qualsevol directori.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100601Z" creationid="fsanchez" creationdate="20161028T100601Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Sí, como en cualquier directorio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Sí, si els ordinadors estan connectats formant una xarxa local.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100154Z" creationid="fsanchez" creationdate="20161028T100154Z">
@@ -1206,6 +1214,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Només si és un fitxer propi del sistema operatiu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100603Z" creationid="fsanchez" creationdate="20161028T100603Z">
+        <seg>&lt;u2&gt; Sólo si es un fichero propio del sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Que està ordenada pel camp pel qual estem buscant.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105925Z" creationid="fsanchez" creationdate="20161025T105925Z">
@@ -1738,6 +1754,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095957Z" creationid="fsanchez" creationdate="20161028T095957Z">
         <seg>&lt;u3&gt; No, porque un soporte es electrónico y el otro óptico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; No, primer s'hi ha de crear una carpeta (un directori).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100606Z" creationid="fsanchez" creationdate="20161028T100606Z">
+        <seg>&lt;u3&gt; No, primero se tiene que crear una carpeta (un directorio).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4170,6 +4194,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151656Z" creationid="fsanchez" creationdate="20161009T151656Z">
         <seg>En la oración &lt;n0&gt; No me gusta la manera como dijiste que vivía todavía.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En la Universitat d'Alacant hi ha al voltant de 35.000 alumnes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100609Z" creationid="fsanchez" creationdate="20161028T100609Z">
+        <seg>En la Universidad de Alicante hay alrededor de 35.000 alumnos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8290,6 +8322,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123509Z" creationid="fsanchez" creationdate="20161010T123509Z">
         <seg>Es posible aplicar restricciones para resolver la polisemia pero se tienen que basar en un análisis de naturaleza bastante profunda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És possible posar un fitxer de text en el directori (carpeta) arrel?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100559Z" creationid="fsanchez" creationdate="20161028T100559Z">
+        <seg>¿Es posible poner un fichero de texto en el directorio (carpeta) raíz?</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
