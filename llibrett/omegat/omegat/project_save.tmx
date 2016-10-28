@@ -2902,6 +2902,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Amb 8 bits podem fer \(2^8=2&lt;u5&gt;2&lt;u6&gt; 2&lt;u7&gt; 2&lt;u8&gt; 2&lt;u9&gt; 2&lt;u10&gt; 2&lt;u11&gt; 2=256\) combinacions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102322Z" creationid="fsanchez" creationdate="20161028T102322Z">
+        <seg>Con 8 bits podemos hacer \(2^8=2&lt;u5&gt;2&lt;u6&gt; 2&lt;u7&gt; 2&lt;u8&gt; 2&lt;u9&gt; 2&lt;u10&gt; 2&lt;u11&gt; 2=256\) combinaciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Amb el temps, els programes que inclouen una base de dades terminològica van incorporant la capacitat de llegir i escriure documents en format TBX.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104355Z" creationid="fsanchez" creationdate="20161025T104355Z">
@@ -6530,6 +6538,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123044Z" creationid="fsanchez" creationdate="20161010T123044Z">
         <seg>Por lo tanto, hay que considerar el uso de preferencias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per tant, es necessiten 8 bits, és a dir, un octet.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102324Z" creationid="fsanchez" creationdate="20161028T102324Z">
+        <seg>Por lo tanto, se necesitan 8 bits, es decir, un byte.</seg>
       </tuv>
     </tu>
     <tu>
