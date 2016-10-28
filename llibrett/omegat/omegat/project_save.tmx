@@ -2046,6 +2046,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Un kilooctet o &lt;i4&gt;kilobyte&lt;/i4&gt; equival a 1024 octets o &lt;i5&gt;bytes&lt;/i5&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102017Z" creationid="fsanchez" creationdate="20161028T102003Z">
+        <seg>&lt;u3&gt; Un &lt;i4&gt;kilobyte&lt;/i4&gt; equivale a 1024 &lt;i5&gt;bytes&lt;/i5&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Una ambigüitat sintàctica de l'oració subordinada ``el que fa''.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113755Z" creationid="fsanchez" creationdate="20161014T113755Z">
@@ -5378,6 +5386,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123703Z" creationid="fsanchez" creationdate="20161010T123703Z">
         <seg>La información presente en diccionarios electrónicos preexistentes puede servir para construir estas redes o ser usada directamente para la resolución de la polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La informació s'emmagatzema en la memòria de l'ordinador en forma binària.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102020Z" creationid="fsanchez" creationdate="20161028T102020Z">
+        <seg>La información se almacena en la memoria del ordenador en forma binaria.</seg>
       </tuv>
     </tu>
     <tu>
