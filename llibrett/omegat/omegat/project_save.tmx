@@ -2502,6 +2502,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Alguns ordinadors portàtils estan dissenyats de manera que, quan les bateries estan a punt d'esgotar-se (o l'ordinador no s'està usant), copien &lt;i0&gt;tota&lt;/i0&gt; la memòria RAM al disc dur i s'apaguen.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100911Z" creationid="fsanchez" creationdate="20161028T100911Z">
+        <seg>Algunos ordenadores portátiles están diseñados de forma que, cuando las baterías están a punto de agotarse (o el ordenador no se está usando), copian &lt;i0&gt;toda&lt;/i0&gt; la memoria RAM al disco duro y se apagan.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Als dispositius de la nostra xarxa local l'encaminador els assigna un número IP privat al que només tenen accés els ordinadors que formen part d'aquesta xarxa local; tots els dispositius d'aquesta xarxa local es connecten a Internet usant el mateix número IP, el número IP públic assignat al nostre encaminador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140345Z" creationid="fsanchez" creationdate="20161019T140345Z">
@@ -6190,6 +6198,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Podem esperar que l'execució dels programes continue en el mateix punt on es trobava quan les bateries van fallar?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100923Z" creationid="fsanchez" creationdate="20161028T100923Z">
+        <seg>¿Podemos esperar que la ejecución de los programas continúe en el mismo punto donde se encontraba cuando las baterías fallaron?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Pot haver-hi dos carpetes amb el mateix nom una dins de l'altra?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100017Z" creationid="fsanchez" creationdate="20161028T100017Z">
@@ -6850,6 +6866,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154854Z" creationid="fsanchez" creationdate="20161027T154854Z">
         <seg>Si son de colores, hay más de un bit por cada punto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Si tornem a carregar les bateries i encenem l'ordinador, fan l'operació inversa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100916Z" creationid="fsanchez" creationdate="20161028T100916Z">
+        <seg>Si volvemos a cargar las baterías y encendemos el ordenador, hacen la operación inversa.</seg>
       </tuv>
     </tu>
     <tu>
