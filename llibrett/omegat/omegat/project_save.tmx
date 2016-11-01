@@ -4550,6 +4550,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En aquests casos, la comparació de versions diferents del que és essencialment el mateix text i la traducció repetitiva de textos similars és innecessàriament laboriosa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T151824Z" creationid="fsanchez" creationdate="20161101T151824Z">
+        <seg>En estos casos, la comparación de versiones diferentes del que es esencialmente el mismo texto y la traducción repetitiva de textos similares es innecesariamente laboriosa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En canvi, en l'oració &lt;n10&gt; no considerem la primera interpretació (encara que siga la preferida sintàcticament segons la regla de clausura tardana), perquè no és gens versemblant que les cadires tinguen pany (hem usat informació semàntica basada en les nostres creences sobre el món).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T130854Z" creationid="fsanchez" creationdate="20161010T130854Z">
