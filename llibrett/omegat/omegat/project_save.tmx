@@ -2766,6 +2766,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A més, moltes vegades el treball de traducció comporta un esforç creatiu considerable, com ara quan es tracta de trobar una equivalència adequada a alguna expressió especialment difícil de traduir; les memòries de traducció permetrien no haver de repetir aquest esforç en el futur.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153148Z" creationid="fsanchez" creationdate="20161101T153148Z">
+        <seg>Además, muchas veces el trabajo de traducción comporta un esfuerzo creativo considerable, como por ejemplo cuando se trata de encontrar una equivalencia adecuada a alguna expresión especialmente difícil de traducir; las memorias de traducción permitirían no tener que repetir este esfuerzo en el futuro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>A més, per reduir el tràfic a Internet els proveïdors de serveis d'Internet i els servidors de noms consultats també es guarden temporalment aquesta informació de manera que no sempre es desencadena el procés complet de consultes descrit.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150609Z" creationid="fsanchez" creationdate="20161018T150609Z">
@@ -5418,6 +5426,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144007Z" creationid="fsanchez" creationdate="20161009T144007Z">
         <seg>Joan vio como caía rodando &lt;n2&gt; quién cayó rodando, ¿Anna o Marta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'&lt;i0&gt;objectiu&lt;/i0&gt; és, per tant, aprofitar traduccions anteriors per a no repetir l'esforç quan s'han de fer traduccions noves.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153154Z" creationid="fsanchez" creationdate="20161101T153154Z">
+        <seg>El &lt;i0&gt;objetivo&lt;/i0&gt; es, por tanto, aprovechar traducciones anteriores para a no repetir el esfuerzo cuando se tienen que hacer traducciones nuevas.</seg>
       </tuv>
     </tu>
     <tu>
