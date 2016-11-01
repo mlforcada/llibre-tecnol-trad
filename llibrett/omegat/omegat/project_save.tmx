@@ -3486,6 +3486,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com veurem més avall, en comptes de traduir mot a mot fent una simple substitució de cada mot origen pel(s) mot(s) meta corresponents, les memòries de traducció fan substitucions de fragments de més d'un mot, i, en lloc d'usar un diccionari bilingüe, usen una base de dades de fragments de més d'un mot prèviament traduïts.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T151641Z" creationid="fsanchez" creationdate="20161101T151641Z">
+        <seg>Como veremos más abajo, en vez de traducir palabra por palabra haciendo una simple sustitución de cada palabra origen por la(s) palabra(s) meta correspondientes, las memorias de traducción hacen sustituciones de fragmentos de más de una palabra, y, en lugar de usar un diccionario bilingüe, usan una base de datos de fragmentos de más de una palabra previamente traducidos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com veurem, les restriccions són normalment de naturalesa lingüística ---per tant, requereixen un cert nivell d'anàlisi del text--- i permeten descartar certes interpretacions, però no eliminen completament l'ambigüitat.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122803Z" creationid="fsanchez" creationdate="20161010T122803Z">
