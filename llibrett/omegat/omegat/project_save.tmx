@@ -2566,6 +2566,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt;{1-1} &lt;n0&gt; &lt;n1&gt; &lt;u6&gt;{Els bitextos $E$ i $D$, segmentats, respectivament, en $L$ i $M$ segments: $E=e_1e_2&lt;u2&gt; e_L$ i $D=d_1d_2&lt;u3&gt; d_M$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153943Z" creationid="fsanchez" creationdate="20161101T153943Z">
+        <seg>&lt;u5&gt;{1-1} &lt;n0&gt; &lt;n1&gt; &lt;u6&gt;{Los bitextos $E$ y $D$, segmentados, respectivamente, en $L$ y $M$ segmentos: $E=e_1e_2&lt;u2&gt; e_L$ y $D=d_1d_2&lt;u3&gt; d_M$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u6&gt; 7a consulta: o la trobem, o hem de buscar en 9 fitxes.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085436Z" creationid="fsanchez" creationdate="20161025T085436Z">
