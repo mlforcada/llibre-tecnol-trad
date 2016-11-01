@@ -3606,6 +3606,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De fet, certs tipus de textos com ara documents tècnics, informes anuals o manuals d'instruccions, els quals se solen revisar freqüentment, sovint tenen moltes repeticions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T151804Z" creationid="fsanchez" creationdate="20161101T151804Z">
+        <seg>De hecho, ciertos tipos de textos como por ejemplo documentos técnicos, informes anuales o manuales de instrucciones, los cuales se suelen revisar frecuentemente, a menudo tienen muchas repeticiones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De fet, com en el cas dels kilooctets, no exactament: $$1 &lt;i20&gt;MB&lt;/i20&gt; = 1.024 &lt;u5&gt; 1.024 &lt;i21&gt;octets&lt;/i21&gt;= 1.048.576 &lt;i22&gt;octets&lt;/i22&gt;.$$ &lt;u2&gt; &lt;i4&gt;gigaoctets&lt;/i4&gt; o &lt;i5&gt;gigabytes&lt;/i5&gt; (GB), o milers de milions ---una mica més--- d'octets: $$1 &lt;i23&gt;GB&lt;/i23&gt;=1.024 &lt;i24&gt;MB&lt;/i24&gt;=1.048.576 &lt;i25&gt;kB&lt;/i25&gt;=1.073.741.824 &lt;i26&gt;octets&lt;/i26&gt;.$$ &lt;u3&gt; &lt;i6&gt;teraoctets&lt;/i6&gt; o &lt;i7&gt;terabytes&lt;/i7&gt; (TB), o bilions (milions de milions) ---de nou, una mica més--- d'octets: &lt;u6&gt; &lt;n1&gt;{c} $$1 &lt;i27&gt;TB&lt;/i27&gt;=1.024 &lt;i28&gt;GB&lt;/i28&gt;=1.048.576 &lt;i29&gt;MB&lt;/i29&gt;=1.073.741.824 &lt;i30&gt;kB&lt;/i30&gt;=&lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160039Z" creationid="fsanchez" creationdate="20161027T160011Z">
@@ -7994,6 +8002,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143214Z" creationid="fsanchez" creationdate="20161009T143214Z">
         <seg>Una ambigüedad que es muy parecida a la ambigüedad léxica pura se produce cuando una expresión idiomática se toma bien como tal o bien en sentido literal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una aproximació a la traducció humana assistida per ordinador (és a dir, semiautomàtica) que està molt relacionada amb la traducció directa és la que s'usa en les anomenades &lt;i0&gt;memòries de traducció&lt;/i0&gt;.&lt;p0&gt; La noció bàsica &lt;u0&gt;{somers96b,samuelson-brown96b} és la utilitat de tenir a mà, quan s'està traduint un text nou, exemples de frases similars i de les traduccions corresponents, provinents de traduccions realitzades anteriorment.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T151756Z" creationid="fsanchez" creationdate="20161101T151756Z">
+        <seg>Una aproximación a la traducción humana asistida por ordenador (es decir, semiautomática) que está muy relacionada con la traducción directa es la que se usa en las llamadas &lt;i0&gt;memorias de traducción&lt;/i0&gt;.&lt;p0&gt; La noción básica &lt;u0&gt;{somers96b,samuelson-brown96b} es la utilidad de tener a mano, cuando se está traduciendo un texto nuevo, ejemplos de frases similares y de las traducciones correspondientes, procedentes de traducciones realizadas anteriormente.</seg>
       </tuv>
     </tu>
     <tu>
