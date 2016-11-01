@@ -6350,6 +6350,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per això, necessitem obtenir a partir d'ells bitextos més menuts, amb parts esquerres que tinguen possibilitat d'aparéixer de nou en el futur.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153413Z" creationid="fsanchez" creationdate="20161101T153413Z">
+        <seg>Por eso, necesitamos obtener a partir de ellos bitextos más pequeños, con partes izquierdas que tengan posibilidad de aparecer de nuevo en el futuro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per això, no és possible assignar una interpretació clara a oracions sin­tàc­ti­ca­ment incorrectes, com ara &lt;n0&gt; *Llegeix mare llibres la &lt;n3&gt; encara que els mots tinguen interpretació independentment, ni tampoc a una oració sintàcticament correcta que continga algun mot al qual no podem assignar cap interpretació: &lt;n1&gt; La mare *ingurpleix llibres &lt;n4&gt; Com veurem més endavant, trobem una complicació addicional: en algunes oracions, hi ha parts de l'estructura sintàctica que no es reflecteixen en cap mot, perquè generen &lt;i0&gt;categories buides&lt;/i0&gt; que no tenen una representació fonètica o gràfica explícita.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141728Z" creationid="fsanchez" creationdate="20161009T141728Z">
