@@ -6014,6 +6014,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Memòries de traducció</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T151526Z" creationid="fsanchez" creationdate="20161101T151526Z">
+        <seg>Memorias de traducción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Missatgeria instantània i xat</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120046Z" creationid="fsanchez" creationdate="20161019T120046Z">
