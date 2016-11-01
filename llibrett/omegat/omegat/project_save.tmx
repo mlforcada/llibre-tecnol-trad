@@ -5678,6 +5678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La figura &lt;n0&gt; mostra el resultat de la segmentació dels textos $E$ i $D$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153435Z" creationid="fsanchez" creationdate="20161101T153435Z">
+        <seg>La figura &lt;n0&gt; muestra el resultado de la segmentación de los textos $E$ y $D$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La frase &lt;i0&gt;Baixa i puja amb ascensor&lt;/i0&gt; pot voler dir ``(baixa) i (puja amb ascensor)'' o ``(baixa i puja) amb ascensor''.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141647Z" creationid="fsanchez" creationdate="20161010T141647Z">
@@ -8970,6 +8978,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123813Z" creationid="fsanchez" creationdate="20161010T123813Z">
         <seg>{Resolución de la anáfora.} La resolución de la anáfora ---es decir, la determinación del {&lt;u1&gt; antecedente} de un pronombre o de otra expresión anafórica--- se puede basar también en restricciones y preferencias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Segmentació de bitextos} La primera operació consisteix a &lt;i0&gt;segmentar&lt;/i0&gt; o &lt;i1&gt;dividir&lt;/i1&gt; automàticament cada un dels dos textos en unitats més menudes, que anomenarem &lt;i2&gt;segments&lt;/i2&gt;, usant algun criteri programable (vegeu més avall).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153426Z" creationid="fsanchez" creationdate="20161101T153426Z">
+        <seg>{Segmentación de bitextos} La primera operación consiste en &lt;i0&gt;segmentar&lt;/i0&gt; o &lt;i1&gt;dividir&lt;/i1&gt; automáticamente cada uno de los dos textos en unidades más pequeñas, que llamaremos &lt;i2&gt;segmentos&lt;/i2&gt;, usando algún criterio programable (véase más abajo).</seg>
       </tuv>
     </tu>
     <tu>
