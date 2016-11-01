@@ -3478,6 +3478,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com s'hi veu, pot ser que inicialment el nombre de segments del text esquerre $E$ siga diferent del nombre de segments del text dret $D$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153911Z" creationid="fsanchez" creationdate="20161101T153911Z">
+        <seg>Como se ve, puede ser que inicialmente el número de segmentos del texto izquierdo $E$ sea diferente del número de segmentos del texto derecho $D$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com s'indica en Internet on és un recurs concret?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142303Z" creationid="fsanchez" creationdate="20161019T142303Z">
