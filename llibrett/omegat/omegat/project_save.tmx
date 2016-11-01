@@ -5366,6 +5366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Introducció</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T151614Z" creationid="fsanchez" creationdate="20161101T151614Z">
+        <seg>Introducción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Itàlia &lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145435Z" creationid="fsanchez" creationdate="20161018T145435Z">
