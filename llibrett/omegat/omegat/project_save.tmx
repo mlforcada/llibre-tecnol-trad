@@ -4046,6 +4046,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El que sí que és probable és que algunes parts del text nou $E'$ apareguen també en la part esquerra d'alguns dels bitextos que ja tenim.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153357Z" creationid="fsanchez" creationdate="20161101T153357Z">
+        <seg>Lo que sí es probable es que algunas partes del texto nuevo $E'$ aparezcan también en la parte izquierda de algunos de los bitextos que ya tenemos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El sintagma (oració subordinada de relatiu) &lt;i4&gt;que s'hagen fet en euros&lt;/i4&gt; pot modificar al segon sintagma nominal &lt;i5&gt;les despeses&lt;/i5&gt; o al sintagma nominal complet &lt;i6&gt;les entrades i les despeses&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115323Z" creationid="fsanchez" creationdate="20161014T115323Z">
@@ -6754,6 +6762,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122908Z" creationid="fsanchez" creationdate="20161010T122908Z">
         <seg>Pero a veces, las restricciones sólo reducen la ambigüedad sin eliminarla completamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però els bitextos complets no es poden aprofitar tal com estan perquè és molt improbable que ens encarreguen de nou exactament la mateixa tasca de traducció, és a dir, que ens encarreguen traduir de nou un text $E'$ quan tenim ja el bitext $(E',D')$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153349Z" creationid="fsanchez" creationdate="20161101T153349Z">
+        <seg>Pero los bitextos completos no se pueden aprovechar tal como están porque es muy improbable que nos encarguen de nuevo exactamente la misma tarea de traducción, es decir, que nos encarguen traducir de nuevo un texto $E'$ cuando ya tenemos el bitexto $(E',D')$.</seg>
       </tuv>
     </tu>
     <tu>
