@@ -5174,6 +5174,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Ha de quedar clar que, per a poder fer-ho, els textos originals i les traduccions han d'estar en format informatitzat (fitxers de text).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153218Z" creationid="fsanchez" creationdate="20161101T153218Z">
+        <seg>Debe quedar claro que, para poder hacerlo, los textos originales y las traducciones tienen que estar en formato informatizado (ficheros de texto).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Hem cronometrat el temps que tarda un programa gestor de bases de dades en trobar la fitxa que té un determinat valor per un camp determinat, quan augmenta el nombre de fitxes.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105855Z" creationid="fsanchez" creationdate="20161025T105855Z">
@@ -6242,6 +6250,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150441Z" creationid="fsanchez" creationdate="20161027T150441Z">
         <seg>Ordenadores y programas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Parlem d'&lt;i4&gt;esquerra&lt;/i4&gt; i &lt;i5&gt;dreta&lt;/i5&gt; perquè pot ser que no siga important (o que no se sàpia) quin dels dos textos és l'original i quin és la traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153230Z" creationid="fsanchez" creationdate="20161101T153230Z">
+        <seg>Hablamos de&lt;i4&gt;izquierda&lt;/i4&gt; y &lt;i5&gt;derecha&lt;/i5&gt; porque puede que no sea importante (o que no se sepa) cuál de los dos textos es el original y cuál es la traducción.</seg>
       </tuv>
     </tu>
     <tu>
