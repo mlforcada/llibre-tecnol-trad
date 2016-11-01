@@ -7702,6 +7702,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Suposarem que, com a resultat del treball anterior de traducció, tenim parells de textos $(E,D)$ on $E$ és el &lt;i0&gt;text esquerre&lt;/i0&gt; (en la &lt;i1&gt;llengua esquerra&lt;/i1&gt;) i $D$ és el &lt;i2&gt;text dret&lt;/i2&gt; (en la &lt;i3&gt;llengua dreta&lt;/i3&gt;), i volem traduir de la llengua esquerra a la llengua dreta.&lt;p0&gt; De fet, quan dos textos $E$ i $D$ són equivalents (és a dir, traducció un de l'altre) direm que el parell $(E,D)$ és un &lt;i6&gt;bitext&lt;/i6&gt; o &lt;i7&gt;text paral·lel&lt;/i7&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153251Z" creationid="fsanchez" creationdate="20161101T153251Z">
+        <seg>Supondremos que, como resultado del trabajo anterior de traducción, tenemos pares de textos $(E,D)$ donde $E$ es el &lt;i0&gt;texto izquierdo&lt;/i0&gt; (en la &lt;i1&gt;lengua izquierda&lt;/i1&gt;) y $D$ es el &lt;i2&gt;texto derecho&lt;/i2&gt; (en la &lt;i3&gt;lengua derecha&lt;/i3&gt;), y queremos traducir de la lengua izquierda a la lengua derecha.&lt;p0&gt; De hecho, cuando dos textos $E$ y $D$ son equivalentes (es decir, traducción uno del otro) diremos que el par $(E,D)$ es un &lt;i6&gt;bitexto&lt;/i6&gt; o &lt;i7&gt;texto paralelo&lt;/i7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Són plataformes informàtiques que usen Internet (a través d'un navegador i freqüentment també a través de programes d'aplicació específics, molt populars per a telèfons mòbils) per a construir xarxes de persones que comparteixen interessos o objectius.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120433Z" creationid="fsanchez" creationdate="20161019T120433Z">
@@ -8178,6 +8186,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144552Z" creationid="fsanchez" creationdate="20161018T144552Z">
         <seg>Usando protocolos bien especificados, normalmente a través de API, &lt;i0&gt;Application Program Interfaces&lt;/i0&gt; o &lt;i1&gt;interfaces de programación de aplicaciones&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vegeu aquest exemple on la llengua esquerra és el català i la llengua dreta, l'espanyol: &lt;n0&gt; $E$: ``Tenim textos equivalents i els volem aprofitar per a fer noves traduccions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161101T153303Z" creationid="fsanchez" creationdate="20161101T153303Z">
+        <seg>Observad este ejemplo donde la lengua izquierda es el catalán y la lengua derecha, el español: &lt;n0&gt; $E$: ``Tenim textos equivalents i els volem aprofitar per a fer noves traduccions.</seg>
       </tuv>
     </tu>
     <tu>
