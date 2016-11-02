@@ -1294,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; els textos a traduir són molt repetitius.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143207Z" creationid="fsanchez" creationdate="20161102T143207Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; los textos a traducir son muy repetitivos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; &lt;u6&gt; es correspon amb múltiples registres, un per cadascun dels termes usats en cada llengua per a representar aquest concepte.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105831Z" creationid="fsanchez" creationdate="20161025T105831Z">
@@ -2170,6 +2178,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114318Z" creationid="fsanchez" creationdate="20161014T114318Z">
         <seg>&lt;u3&gt; &lt;u7&gt; no puede resolver la polisemia con ninguno de los programas mencionados en las otras dos opciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; primer cal convertir el bitext al format binari que use el programa d'ajuda a la traducció que estiguem utilitzant.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143154Z" creationid="fsanchez" creationdate="20161102T143154Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; primero hay que convertir el bitexto al formato binario que uso el programa de ayuda a la traducción que estemos utilizando.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5370,6 +5386,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150918Z" creationid="fsanchez" creationdate="20161027T150918Z">
         <seg>En los ordenadores personales, la unidad central es un único chip de silicio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En general, l'ús d'un programa gestor de memòries de traducció fa que el procés de traducció siga més eficient quan &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; els textos a traduir són curts.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143206Z" creationid="fsanchez" creationdate="20161102T143206Z">
+        <seg>En general, el uso de un programa gestor de memorias de traducción hace que el proceso de traducción sea más eficiente cuando &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; los textos a traducir son cortos.</seg>
       </tuv>
     </tu>
     <tu>
