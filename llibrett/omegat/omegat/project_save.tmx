@@ -4382,6 +4382,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els mecanismes de segmentació usuals intenten identificar unitats similars a l'oració usant la puntuació i el format com a indicadors, amb la idea que el nombre d'oracions serà bàsicament el mateix en el text dret i l'esquerre (això pot fallar).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114331Z" creationid="fsanchez" creationdate="20161102T114331Z">
+        <seg>Los mecanismos de segmentación usuales intentan identificar unidades similares a la oración usando la puntuación y el formato como indicadores, con la idea de que el número de oraciones será básicamente el mismo en el texto derecho y el izquierdo (esto puede fallar).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els missatges poden contenir, a més del text mateix del missatge, fitxers &lt;i2&gt;annexos&lt;/i2&gt; (o &lt;i3&gt;adjunts&lt;/i3&gt;, en anglés &lt;i4&gt;attachments&lt;/i4&gt;) com ara imatges, documents, missatges reenviats, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T115527Z" creationid="fsanchez" creationdate="20161019T115527Z">
