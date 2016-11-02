@@ -4398,6 +4398,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els documents de text, a més de caràcters i paraules, contenen informació de &lt;i0&gt;format&lt;/i0&gt; que cal considerar en el procés de segmentació i alineament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114519Z" creationid="fsanchez" creationdate="20161102T114519Z">
+        <seg>Los documentos de texto, además de caracteres y palabras, contienen información de &lt;i0&gt;formato&lt;/i0&gt; que hay que considerar en el proceso de segmentación y alineación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els elements ombrejats han sigut descartat durant la recerca, és a dir, sabem que l'element buscat no hi serà entre ells.}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090159Z" creationid="fsanchez" creationdate="20161025T090159Z">
