@@ -3694,6 +3694,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>D'altra banda, si els fragments són massa llargs, és més improbable que siguen ambigus, però és molt menys probable que es repetisquen exactament en textos futurs.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114747Z" creationid="fsanchez" creationdate="20161102T114747Z">
+        <seg>Por otro lado, si los fragmentos son demasiado largos, es más improbable que sean ambiguos, pero es mucho menos probable que se repitan exactamente en textos futuros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>D'aquesta operació se'n diu &lt;i1&gt;alinear&lt;/i1&gt; el bitext.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113241Z" creationid="fsanchez" creationdate="20161102T113241Z">
