@@ -8062,6 +8062,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>S'hi mostren només dues unitats de traducció (&lt;i0&gt;tu&lt;/i0&gt;) dins del cos (&lt;i1&gt;body&lt;/i1&gt;), cada una amb el seu identificador únic (&lt;i2&gt;tuid&lt;/i2&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141046Z" creationid="fsanchez" creationdate="20161102T141046Z">
+        <seg>Se muestran sólo dos unidades de traducción (&lt;i0&gt;tu&lt;/i0&gt;) dentro del cuerpo (&lt;i1&gt;body&lt;/i1&gt;), cada una con su identificador único (&lt;i2&gt;tuid&lt;/i2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>S'hi poden distingir diversos casos: &lt;n1&gt; &lt;u1&gt; &lt;i0&gt;Ambigüitat estructural d'origen coordinatiu&lt;/i0&gt;: Per exemple, si diem &lt;n2&gt; Posa els llençols i els cobertors nets a l'armari &lt;n3&gt; hi ha dues possibles interpretacions; en una els llençols no estan nets, en l'altra sí, segons que es considere que l'adjectiu &lt;i1&gt;nets&lt;/i1&gt; modifica els dos substantius coordinats o només l'últim (vegeu la fig. &lt;n4&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144205Z" creationid="fsanchez" creationdate="20161009T144205Z">
