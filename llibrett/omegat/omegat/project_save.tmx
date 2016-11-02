@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133312Z" creationid="fsanchez" creationdate="20161102T133312Z">
+        <seg>&lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;i0&gt;Cantamos&lt;/i0&gt; pot ser present o passat.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115931Z" creationid="fsanchez" creationdate="20161014T115931Z">
@@ -8462,6 +8470,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>UTs</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133309Z" creationid="fsanchez" creationdate="20161102T133309Z">
+        <seg>UTs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un &lt;i2&gt;adjunt&lt;/i2&gt; és un sintagma o constituent que, conjuntament amb un altre sintagma o constituent, forma un constituent del mateix tipus que aquest últim (per exemple, un sintagma nominal més un sintagma preposicional formen un sintagma nominal); en un cert sentit, l'adjunt no és necessari sinó opcional.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144433Z" creationid="fsanchez" creationdate="20161009T144433Z">
@@ -8874,6 +8890,22 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101647Z" creationid="fsanchez" creationdate="20161028T101647Z">
         <seg>Windows usa las &lt;i0&gt;extensiones&lt;/i0&gt; de los nombres de ficheros para{&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} asociarlos el programa que los abrirá cuando hagamos doble clic sobre el icono del fichero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[0.5cm]</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133314Z" creationid="fsanchez" creationdate="20161102T133314Z">
+        <seg>[0.5cm]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[0.8cm]</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133306Z" creationid="fsanchez" creationdate="20161102T133306Z">
+        <seg>[0.8cm]</seg>
       </tuv>
     </tu>
     <tu>
@@ -9434,6 +9466,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144349Z" creationid="fsanchez" creationdate="20161018T144349Z">
         <seg>{ Lista de cosas a hacer del capítulo: &lt;n1&gt; &lt;u1&gt; Definir &lt;i0&gt;buscadores&lt;/i0&gt; y &lt;i1&gt;directorios&lt;/i1&gt; y diferenciarlos claramente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;i2&gt;postedició&lt;/i0&gt;&lt;/i2&gt;} &lt;u1&gt; &lt;i1&gt;&lt;u3&gt;{1.4cm&lt;/i1&gt;{&lt;i3&gt;text dret traduït i segmentat&lt;/i3&gt;}} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133303Z" creationid="fsanchez" creationdate="20161102T133303Z">
+        <seg>{&lt;i2&gt;postedición&lt;/i0&gt;&lt;/i2&gt;} &lt;u1&gt; &lt;i1&gt;&lt;u3&gt;{1.4cm&lt;/i1&gt;{&lt;i3&gt;texto derecho traducido y segmentado&lt;/i3&gt;}} &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
