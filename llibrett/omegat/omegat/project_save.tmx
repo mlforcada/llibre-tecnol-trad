@@ -2862,6 +2862,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Així és més probable que quan ens donen un text nou $E'$ tinguem traduccions per a alguns dels seus fragments.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113402Z" creationid="fsanchez" creationdate="20161102T113402Z">
+        <seg>Así es más probable que cuando nos den un texto nuevo $E'$ tengamos traducciones para algunos de sus fragmentos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Així, cada dígit decimal ocupa 4 bits; si n'hi ha 9, necessitem 36 bits.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102600Z" creationid="fsanchez" creationdate="20161028T102600Z">
@@ -3906,6 +3914,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152034Z" creationid="fsanchez" creationdate="20161027T152034Z">
         <seg>El DVD (&lt;i0&gt;digital versatil dics&lt;/i0&gt;)&lt;p0&gt; es un tipo más avanzado de sistemas de almacenamiento basado en discos ópticos; básicamente, se trata de un CD más rápido y con más capacidad, que ha desplazado casi completamente a los CD-ROM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El bitext de més amunt es podria alinear per a formar les unitats de traducció &lt;n0&gt; &lt;u0&gt;{&lt;u4&gt; Tenemos}{&lt;u5&gt; Tenim}&lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113414Z" creationid="fsanchez" creationdate="20161102T113414Z">
+        <seg>El bitexto de más arriba se podría alinear para formar las unidades de traducción &lt;n0&gt; &lt;u0&gt;{&lt;u4&gt; Tenemos}{&lt;u5&gt; Tenim}&lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
