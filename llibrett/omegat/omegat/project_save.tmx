@@ -6358,6 +6358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La repetició del cicle pretraducció--correcció--enviament de noves UT a la memòria enriqueix la memòria de traducció i permet traduir cada vegada amb menys esforç, ja que la cobertura de la memòria augmenta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133830Z" creationid="fsanchez" creationdate="20161102T133830Z">
+        <seg>La repetición del ciclo pretraducción--corrección--envío de nuevas UT a la memoria enriquece la memoria de traducción y permite obtener cada vez pretraducciones más completas y correctas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La resolució de la polisèmia s'ha abordat des de perspectives molt diverses (vegeu &lt;u0&gt;{ide98j}).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123427Z" creationid="fsanchez" creationdate="20161010T123427Z">
@@ -7490,6 +7498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142501Z" creationid="fsanchez" creationdate="20161010T142501Z">
         <seg>¿Puede una oración tener más de una traducción a otro idioma a pesar de estar formada completamente por palabras que no son ni homógrafas ni polisémicas en la lengua original?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Productes</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133831Z" creationid="fsanchez" creationdate="20161102T133831Z">
+        <seg>Productos</seg>
       </tuv>
     </tu>
     <tu>
@@ -9810,6 +9826,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123126Z" creationid="fsanchez" creationdate="20161010T123126Z">
         <seg>{estrategias de resolución de la ambigüedad} &lt;u0&gt;{Resolución de la polisemia.} La resolución de la polisemia (en inglés &lt;i0&gt;word sense disambiguation&lt;/i0&gt;) consiste en asignar a una palabra polisémica, en un texto o discurso, una interpretación concreta, posiblemente diferente de las que podría tener en otros textos (o contextos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{http://www.omegat.org</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133833Z" creationid="fsanchez" creationdate="20161102T133833Z">
+        <seg>{http://www.omegat.org</seg>
       </tuv>
     </tu>
     <tu>
