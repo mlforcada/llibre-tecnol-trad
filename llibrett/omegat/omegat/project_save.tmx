@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; La repetitivitat dels textos.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143126Z" creationid="fsanchez" creationdate="20161102T143126Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; La repetitividad de los textos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Lèxica categorial.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141649Z" creationid="fsanchez" creationdate="20161010T141649Z">
@@ -1038,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; Els mots que cal canviar en el segment meta de la unitat de traducció proposada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143115Z" creationid="fsanchez" creationdate="20161102T143115Z">
+        <seg>&lt;u1&gt; Las palabras que hay que cambiar en el segmento meta de la unidad de traducción propuesta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Guarda el valor de l'acumulador en una posició de memòria que anomenarem &lt;i0&gt;índex&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153912Z" creationid="fsanchez" creationdate="20161027T153912Z">
@@ -1390,6 +1406,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Els mots del segment origen de la unitat de traducció proposada que es diferencien de les del nou segment a traduir.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143121Z" creationid="fsanchez" creationdate="20161102T143121Z">
+        <seg>&lt;u2&gt; Las palabras del segmento origen de la unidad de traducción propuesta que se diferencian de las del nuevo segmento a traducir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; En el disc dur.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100553Z" creationid="fsanchez" creationdate="20161028T100553Z">
@@ -1538,6 +1562,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142355Z" creationid="fsanchez" creationdate="20161019T142355Z">
         <seg>&lt;u2&gt; La parte final.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; La proximitat entre les llengües origen i meta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143129Z" creationid="fsanchez" creationdate="20161102T143129Z">
+        <seg>&lt;u2&gt; La proximidad entre las lenguas origen y meta.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8242,6 +8274,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095919Z" creationid="fsanchez" creationdate="20161028T095919Z">
         <seg>¿Cuál de estas afirmaciones es incorrecta?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quina d'aquestes característiques d'un treball de traducció el fa més tractable amb memòries de traducció?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143124Z" creationid="fsanchez" creationdate="20161102T143124Z">
+        <seg>¿Cuál de estas características de un trabajo de traducción lo hace más tratable con memorias de traducción?</seg>
       </tuv>
     </tu>
     <tu>
