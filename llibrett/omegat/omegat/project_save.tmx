@@ -262,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;i0&gt;Solució:&lt;/i0&gt; si detectem [majúscula] ``.'' [majúscula] (sense blancs), no segmentem.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143323Z" creationid="fsanchez" creationdate="20161102T143323Z">
+        <seg>&lt;i0&gt;Solución:&lt;/i0&gt; si detectamos [mayúscula] ``.'' [mayúscula] (sin blancos), no segmentamos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;i1&gt;&lt;i3&gt;text dret $D$</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114041Z" creationid="fsanchez" creationdate="20161102T114041Z">
@@ -8102,6 +8110,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Punts al final d'abreviatura de cortesia: Sr(.), Dra(.), Excm(.), etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143327Z" creationid="fsanchez" creationdate="20161102T143327Z">
+        <seg>Puntos al final de abreviatura de cortesía: Sr(.), Dra(.), Excm(.), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Punts en mig de sigles: CC(.)OO., EE(.)UU., etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143319Z" creationid="fsanchez" creationdate="20161102T143319Z">
@@ -10138,6 +10154,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145632Z" creationid="fsanchez" creationdate="20161018T145632Z">
         <seg>museos (patrocinado por MuseDoma) &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>o d'altres que precedeixen noms propis (Avda., Pça.) o números (Tel.).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143331Z" creationid="fsanchez" creationdate="20161102T143331Z">
+        <seg>u otros que preceden nombres propios (Avda., Pça.) o números (Tel.).</seg>
       </tuv>
     </tu>
     <tu>
