@@ -2998,6 +2998,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Abans del cos, l'element arrel &lt;i8&gt;tmx&lt;/i8&gt; conté una capçalera (&lt;i9&gt;header&lt;/i9&gt;) amb informació sobre la creació i les característiques de la memòria.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141115Z" creationid="fsanchez" creationdate="20161102T141115Z">
+        <seg>Antes del cuerpo, el elemento raíz &lt;i8&gt;tmx&lt;/i8&gt; contiene una cabecera (&lt;i9&gt;header&lt;/i9&gt;) con información sobre la creación y las características de la memoria.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Actualment no és estrany que una unitat de CD-ROM tinga una velocitat punta de lectura i d'escriptura de 52$&lt;u2&gt;$ o més.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084855Z" creationid="fsanchez" creationdate="20161028T084855Z">
