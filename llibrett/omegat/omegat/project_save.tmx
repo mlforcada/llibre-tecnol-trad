@@ -6494,6 +6494,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La majoria de les memòries de traducció comercials divideixen els bitextos en unitats de traducció {&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} aproximadament equivalents a una oració, usant regles senzilles i relativament independents de la llengua per a segmentar (dividir) cada text en oracions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142510Z" creationid="fsanchez" creationdate="20161102T142510Z">
+        <seg>La mayoría de las memorias de traducción comerciales dividen los bitextos en unidades de traducción {&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} aproximadamente equivalentes a una oración, usando reglas sencillas y relativamente independientes de la lengua para segmentar (dividir) cada texto en oraciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La majoria dels programes de memòria de traducció ofereixen a la persona usuària la possibilitat de validar o modificar (unint o dividint segments en el text esquerre o en el text dret) l'alineament automàtic inicial usant una interfície senzilla i intuïtiva abans d'incorporar els segments resultants a la memòria de traducció.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114650Z" creationid="fsanchez" creationdate="20161102T114650Z">
