@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Cal segmentar i alinear els segments.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143220Z" creationid="fsanchez" creationdate="20161102T143220Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Hay que segmentar y alinear los segmentos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Depenent de la codificació escollida per als caràcters de la imatge, entre 400 000 i 800 000.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101448Z" creationid="fsanchez" creationdate="20161028T101448Z">
@@ -1398,6 +1406,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Cal segmentar el text, però l'alineament no és necessari perquè ja sabem que un text és traducció de l'altre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143226Z" creationid="fsanchez" creationdate="20161102T143226Z">
+        <seg>&lt;u2&gt; Hay que segmentar el texto, pero el alineamiento no es necesario porque ya sabemos que un texto es traducción del otro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Crear, moure i esborrar directoris de fitxers.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153541Z" creationid="fsanchez" creationdate="20161027T153541Z">
@@ -2154,6 +2170,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105836Z" creationid="fsanchez" creationdate="20161025T105836Z">
         <seg>&lt;u3&gt; &lt;u7&gt; se corresponde con un registro en el cual se encuentran los términos usados en cada lengua para representar este concepto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; &lt;u7&gt; la llengua origen i meta de la traducció pertanyen a la mateixa família de llengües.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143212Z" creationid="fsanchez" creationdate="20161102T143212Z">
+        <seg>&lt;u3&gt; &lt;u7&gt; la lengua origen y meta de la traducción pertenecen a la misma familia de lenguas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3922,6 +3946,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113627Z" creationid="fsanchez" creationdate="20161102T113627Z">
         <seg>Como ya se ha dicho más arriba, una operación muy importante para la reutilización o el &lt;i0&gt;reciclaje&lt;/i0&gt; de traducciones antiguas es la de &lt;i1&gt;alinear&lt;/i1&gt; los textos y las traducciones existentes para identificar fragmentos o unidades &lt;i2&gt;de traducción&lt;/i2&gt; que se puedan reutilizar posteriormente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Com podem generar una memòria de traducció a partir d'un text i de la seua traducció?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143217Z" creationid="fsanchez" creationdate="20161102T143217Z">
+        <seg>¿Cómo podemos generar una memoria de traducción a partir de un texto y de su traducción?</seg>
       </tuv>
     </tu>
     <tu>
