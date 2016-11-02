@@ -4838,6 +4838,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En agost de 1998 es va aprovar la versió 1.1 d'un format estàndard anomenat TMX (&lt;i0&gt;Translation Memory eXchange&lt;/i0&gt;, ``intercanvi de memòries de traducció''); quasi tots els programes gestors de memòries de traducció poden escriure i llegir memòries en aquest format.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140441Z" creationid="fsanchez" creationdate="20161102T140441Z">
+        <seg>En agosto de 1998 se aprobó la versión 1.1 de un formato estándar llamado TMX (&lt;i0&gt;Translation Memory eXchange&lt;/i0&gt;, ``intercambio de memorias de traducción''); casi todos los programes gestores de memorias de traducción pueden escribir y leer memorias en este formato.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En algunes llengües romàniques (en italià, espanyol i català però no en francés) és comuna l'absència del subjecte quan és de tercera persona.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143926Z" creationid="fsanchez" creationdate="20161009T143926Z">
@@ -7346,6 +7354,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160513Z" creationid="fsanchez" creationdate="20161027T160513Z">
         <seg>Por razones históricas, los nombres de ficheros suelen tener dos partes: el &lt;i1&gt;nombre&lt;/i1&gt; propiamente dicho y la &lt;i2&gt;extensión&lt;/i2&gt;, separadas por un punto (por ejemplo, &lt;i3&gt;alacant.txt&lt;/i3&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per sort, no.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140431Z" creationid="fsanchez" creationdate="20161102T140431Z">
+        <seg>Por suerte, no.</seg>
       </tuv>
     </tu>
     <tu>
