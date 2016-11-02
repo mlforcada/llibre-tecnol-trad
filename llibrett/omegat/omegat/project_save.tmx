@@ -982,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt;[Pretraducció:] Qui està traduint rep com a molt una única proposta per a cada nou segment $e'$, elegida automàticament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T120028Z" creationid="fsanchez" creationdate="20161102T120028Z">
+        <seg>&lt;u1&gt;[Pretraducción:] Quien está traduciendo recibe como mucho una única propuesta para cada nuevo segmento $e'$, elegida automáticamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt;[autoritat:] identifica pel seu nom o número IP l'ordinador (&lt;i1&gt;servidor&lt;/i1&gt;) on és el recurs.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150833Z" creationid="fsanchez" creationdate="20161018T150833Z">
