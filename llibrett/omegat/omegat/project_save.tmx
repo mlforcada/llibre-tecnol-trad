@@ -3878,6 +3878,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>D'altra banda, l'organització, el manteniment i l'explotació de grans memòries de traducció distribuïdes (en les diverses màquines d'una xarxa) està lluny de ser trivial.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141319Z" creationid="fsanchez" creationdate="20161102T141319Z">
+        <seg>Por otro lado, la organización, el mantenimiento y la explotación de grandes memorias de traducción distribuidas (en las diversas máquinas de una red) está lejos de ser trivial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>D'altra banda, si els fragments són massa llargs, és més improbable que siguen ambigus, però és molt menys probable que es repetisquen exactament en textos futurs.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114747Z" creationid="fsanchez" creationdate="20161102T114747Z">
@@ -3906,6 +3914,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141416Z" creationid="fsanchez" creationdate="20161009T141416Z">
         <seg>De estos cuatro, dedicaremos el resto del capítulo a describir con más detalle lo más importante para la traducción automática (y, en general, para cualquier programa que tenga que procesar textos en lenguaje natural): la ambigüedad inherente al lenguaje humano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>D'una banda, es poden produir incoherències terminològiques i d'estil entre els fragments procedents de grups diferents; les decisions en cas de conflicte comporten mecanismes complexos de reconeixement d'autoritat o de prestigi, que poden ser difícils de consensuar.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141306Z" creationid="fsanchez" creationdate="20161102T141306Z">
+        <seg>Por un lado, se pueden producir incoherencias terminológicas y de estilo entre los fragmentos procedentes de grupos diferentes; las decisiones en caso de conflicto comportan mecanismos complejos de reconocimiento de autoridad o de prestigio, que pueden ser difíciles de consensuar.</seg>
       </tuv>
     </tu>
     <tu>
