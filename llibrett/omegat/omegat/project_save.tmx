@@ -4070,6 +4070,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El resultat de la segmentació encara no és útil: no queda clara la correspondència entre els segments esquerres i els segments drets.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113230Z" creationid="fsanchez" creationdate="20161102T113230Z">
+        <seg>El resultado de la segmentación todavía no es útil: no queda clara la correspondencia entre los segmentos izquierdos y los segmentos derechos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El sintagma (oració subordinada de relatiu) &lt;i4&gt;que s'hagen fet en euros&lt;/i4&gt; pot modificar al segon sintagma nominal &lt;i5&gt;les despeses&lt;/i5&gt; o al sintagma nominal complet &lt;i6&gt;les entrades i les despeses&lt;/i6&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115323Z" creationid="fsanchez" creationdate="20161014T115323Z">
@@ -8238,6 +8246,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Unitats de traducció}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113216Z" creationid="fsanchez" creationdate="20161102T113216Z">
+        <seg>Unidades de traducción}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Usant protocols ben especificats, normalment a través d'API, &lt;i0&gt;Application Program Interfaces&lt;/i0&gt; o &lt;i1&gt;interfícies de programació d'aplicacions&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144552Z" creationid="fsanchez" creationdate="20161018T144552Z">
@@ -8866,6 +8882,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140933Z" creationid="fsanchez" creationdate="20161019T140933Z">
         <seg>{Acceso móvil} Cada vez nos conectamos menos a Internet desde casa, y más desde nuestros dispositivos móviles como por ejemplo los &lt;i0&gt;smartphones&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Alineament de bitextos.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113213Z" creationid="fsanchez" creationdate="20161102T113213Z">
+        <seg>{Alineación de bitextos.</seg>
       </tuv>
     </tu>
     <tu>
