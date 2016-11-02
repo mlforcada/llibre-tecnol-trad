@@ -2614,6 +2614,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u4&gt; Que es done una concordança parcial, com en el cas dels segments $e'_2$ (similar a $e_{112}$) i $e'_3$ (similar a $e_{47}$), i calga posteditar, respectivament, les propostes $d_{112}$ i $d_{47}$ de la memòria de traducció, per a produir $d'_2$ i $d'_3$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133127Z" creationid="fsanchez" creationdate="20161102T133127Z">
+        <seg>&lt;u4&gt; Que se dé una concordancia parcial, como en el caso de los segmentos $e'_2$ (similar a $e_{112}$) y $e'_3$ (similar a $e_{47}$), y haya que posteditar, respectivamente, las propuestas $d_{112}$ y $d_{47}$ de la memoria de traducción para producir $d'_2$ y $d'_3$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u4&gt;[LinkedIn] serveix per a construir xarxes relacionades amb l'activitat professional.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120533Z" creationid="fsanchez" creationdate="20161019T120533Z">
