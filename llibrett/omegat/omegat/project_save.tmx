@@ -5574,6 +5574,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Freqüentment, els traductors formen equips que col·laboren a l'hora de produir les traduccions; quan usen memòries de traducció, és possible que hi haja traductors que preferisquen un programa i uns altres que en preferisquen un altre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140419Z" creationid="fsanchez" creationdate="20161102T140419Z">
+        <seg>Frecuentemente, los traductores forman equipos que colaboran a la hora de producir las traducciones; cuando usan memorias de traducción, es posible que haya traductores que prefieran un programa y otros que prefieran otro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>General Packet Radio Service&lt;/i3&gt; ``Servei general de paquets [de dades] per ràdio''</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140858Z" creationid="fsanchez" creationdate="20161019T140858Z">
@@ -8970,6 +8978,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141837Z" creationid="fsanchez" creationdate="20161009T141837Z">
         <seg>Véase la nota al pie de la pág.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Vol dir això que no podran compartir les memòries de traducció que hagen anat construint?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140429Z" creationid="fsanchez" creationdate="20161102T140429Z">
+        <seg>¿Quiere decir esto que no podrán compartir las memorias de traducción que hayan ido construyendo?</seg>
       </tuv>
     </tu>
     <tu>
