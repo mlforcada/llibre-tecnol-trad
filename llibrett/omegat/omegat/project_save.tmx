@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;i0&gt;Solució:&lt;/i0&gt; Si detectem [xifra] ``.'' [xifra] (sense blancs), no segmentem.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143314Z" creationid="fsanchez" creationdate="20161102T143314Z">
+        <seg>&lt;i0&gt;Solución:&lt;/i0&gt; Si detectamos [cifra] ``.'' [cifra] (sin espacios), no segmentamos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;i1&gt;&lt;i3&gt;text dret $D$</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114041Z" creationid="fsanchez" creationdate="20161102T114041Z">
@@ -666,6 +674,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153658Z" creationid="fsanchez" creationdate="20161027T153658Z">
         <seg>&lt;n1&gt; &lt;u2&gt;[Software específico para profesionales de la traducción:] sistemas de traducción automática (capítulos &lt;n3&gt; a &lt;n4&gt;), sistemas de traducción asistida basados en memorias de traducción (capítulo &lt;n5&gt;) y bases de datos terminológicas (capítulo &lt;n6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;n1&gt; &lt;u7&gt; Punts de milers (1.259), milions (1.032.200), decimals saxons (3.4), números de telèfon francesos (01.10.23.87.49), dates (20.01.1999), etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143307Z" creationid="fsanchez" creationdate="20161102T143307Z">
+        <seg>&lt;n1&gt; &lt;u7&gt; Puntos de miles (1.259), millones (1.032.200), decimales anglosajones (3.4), números de teléfono franceses (01.10.23.87.49), fechas (20.01.1999), etc.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8082,6 +8098,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100642Z" creationid="fsanchez" creationdate="20161028T100642Z">
         <seg>Prácticamente todos los programas necesitan hacer operaciones básicas como por ejemplo abrir y cerrar archivos o gestionar el ratón y la pantalla.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Punts en mig de sigles: CC(.)OO., EE(.)UU., etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143319Z" creationid="fsanchez" creationdate="20161102T143319Z">
+        <seg>Puntos en medio de siglas: CC(.)OO., EE(.)UU., etc.</seg>
       </tuv>
     </tu>
     <tu>
