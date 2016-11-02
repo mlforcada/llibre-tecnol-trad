@@ -7238,6 +7238,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quan es tracta de traduir documents de text, la persona usuària vol alinear &lt;i1&gt;text&lt;/i1&gt; i en molts casos probablement no necessita veure els codis de format per a validar o corregir un alineament.&lt;p0&gt; A més, les unitats de traducció que se n'obtinguen de l'alineament haurien de ser independents del format del document.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114538Z" creationid="fsanchez" creationdate="20161102T114538Z">
+        <seg>Cuando se trata de traducir documentos de texto, el usuario quiere alinear &lt;i1&gt;texto&lt;/i1&gt; y en muchos casos probablemente no necesita ver los códigos de formato para validar o corregir una alineación.&lt;p0&gt; Además, las unidades de traducción que se obtengan de la alineación tendrían que ser independientes del formato del documento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quan l'abast d'un quantificador (és a dir, els mots que afecta) és imprecís, una oració pot tenir més d'una interpretació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122225Z" creationid="fsanchez" creationdate="20161010T122225Z">
