@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; $$ } &lt;u0&gt;{Esquema del procés de traducció d'un nou text esquerre usant una memòria de traducció.}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133327Z" creationid="fsanchez" creationdate="20161102T133327Z">
+        <seg>&lt;n0&gt; $$ &lt;u0&gt;{Esquema del proceso de pretraducción de un nuevo texto izquierdo utilizando una memoria de traducción.}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;n1&gt; Els programes d'aplicació els activa l'usuari per mitjà del sistema operatiu, utilitzen el sistema operatiu per a accedir als recursos (maquinari i altres programes) del sistema i interaccionen amb l'usuari mitjançant el dispositius d'entrada i d'eixida (vegeu la figura &lt;n3&gt;).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153824Z" creationid="fsanchez" creationdate="20161027T153824Z">
@@ -9510,6 +9518,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{&lt;u1&gt;{1.9cm&lt;/i0&gt;{&lt;i1&gt;Memòria de traducció&lt;/i1&gt;}}}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133317Z" creationid="fsanchez" creationdate="20161102T133317Z">
+        <seg>{&lt;u1&gt;{1.9cm&lt;/i0&gt;{&lt;i1&gt;Memoria de traducción&lt;/i1&gt;}}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{&lt;u1&gt;{1.9cm&lt;/i0&gt;{&lt;i1&gt;concordança i selecció de propostes&lt;/i1&gt;}}}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133156Z" creationid="fsanchez" creationdate="20161102T133156Z">
@@ -9594,6 +9610,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152112Z" creationid="fsanchez" creationdate="20161009T152112Z">
         <seg>{Ambigüedades mixtas} Hay oraciones que son ambiguas porque contienen palabras ambiguas o porque tienen más de una estructura sintáctica posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{Ampliació de la memòria}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133329Z" creationid="fsanchez" creationdate="20161102T133329Z">
+        <seg>{Ampliación de la memoria}</seg>
       </tuv>
     </tu>
     <tu>
