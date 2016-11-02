@@ -7070,6 +7070,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però si el fragment és massa menut és més probable que la traducció present en la memòria de traducció siga més imprecisa per ambigua (poden aparéixer correspondències múltiples entre les quals s'hauria d'elegir: per exemple a una part esquerra $e$ li poden correspondre dues parts dretes $d$ i $d'$ diferents en unitats de traducció diferents).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114738Z" creationid="fsanchez" creationdate="20161102T114738Z">
+        <seg>Pero si el fragmento es demasiado pequeño es más probable que la traducción presente en la memoria de traducción sea más imprecisa por ser ambigua (pueden aparecer correspondencias múltiples entre las cuales se tendría que elegir: por ejemplo a una parte izquierda $e$ le pueden corresponder dos partes derechas $d$ y $d'$ diferentes en unidades de traducción diferentes).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però un dels avantatges més clars de les bases de dades és que permeten que els registres estiguen ordenats per més d'un camp, sense haver de duplicar la base de dades (Tot i que la duplicació d'una base de dades menuda pot no semblar en principi problemàtica, les coses canvien si considerem una base de dades amb milers de registres i amb un gran nombre de camps, tots plens d'informació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090707Z" creationid="fsanchez" creationdate="20161025T090707Z">
