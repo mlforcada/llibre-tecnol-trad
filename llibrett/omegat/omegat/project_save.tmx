@@ -7662,6 +7662,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>S'ha de tenir en compte que la utilitat de les memòries de traducció millora considerablement amb la grandària del corpus de traduccions usades per a omplir-les; per tant, no és estrany que una memòria de traducció haja de gestionar una gran quantitat d'unitats de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114937Z" creationid="fsanchez" creationdate="20161102T114937Z">
+        <seg>Se tiene que tener en cuenta que la utilidad de las memorias de traducción mejora considerablemente con el tamaño del corpus de traducciones usadas para llenarlas; por lo tanto, no es extraño que una memoria de traducción tenga que gestionar una gran cantidad de unidades de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>S'han de construir dos índexs, un per a cada camp.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105021Z" creationid="fsanchez" creationdate="20161025T105021Z">
@@ -8490,6 +8498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095904Z" creationid="fsanchez" creationdate="20161028T095904Z">
         <seg>Una persona conectada a Internet por teléfono observa que las velocidades de transferencia que le indica su navegador (véase el capítulo &lt;n0&gt;) varían alrededor de los 300 &lt;i0&gt;kilobytes&lt;/i0&gt; por segundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una vegada alineats els bitextos les unitats de traducció s'organitzen perquè tant el programa com la persona usuària hi puguen accedir eficientment; per exemple, com una base de dades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114927Z" creationid="fsanchez" creationdate="20161102T114927Z">
+        <seg>Una vez alineados los bitextos las unidades de traducción se organizan para que tanto el programa como el usuario puedan acceder a ellas eficientemente; por ejemplo, como una base de datos.</seg>
       </tuv>
     </tu>
     <tu>
