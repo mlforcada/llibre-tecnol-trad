@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; El fet que els textos estiguen escrits amb un lèxic monosèmic, és a dir, precís i no gens ambigu.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141822Z" creationid="fsanchez" creationdate="20161102T141822Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; El hecho que los textos estén escritos con un léxico monosémico, es decir, preciso y no ambiguo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Els mòdems converteixen informació digital en senyals analògics però no al revés.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095924Z" creationid="fsanchez" creationdate="20161028T095924Z">
