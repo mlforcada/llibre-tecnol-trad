@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(a) &lt;u1&gt; (c) &lt;u2&gt; (a) &lt;u3&gt; (b) &lt;u4&gt; (a) &lt;u5&gt; (b) &lt;u6&gt; (b) &lt;u7&gt; (a) &lt;u8&gt; (c)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143444Z" creationid="fsanchez" creationdate="20161102T143444Z">
+        <seg>(a) &lt;u1&gt; (c) &lt;u2&gt; (a) &lt;u3&gt; (b) &lt;u4&gt; (a) &lt;u5&gt; (b) &lt;u6&gt; (b) &lt;u7&gt; (a) &lt;u8&gt; (c)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(a): Tenim 12 valors diferents (de gener a desembre).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102629Z" creationid="fsanchez" creationdate="20161028T102629Z">
@@ -274,6 +282,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143416Z" creationid="fsanchez" creationdate="20161102T143416Z">
         <seg>&lt;i0&gt;Solución:&lt;/i0&gt; la mejor sería una regla general (patrón o expresión regular) que detectara estas entidades y evitara segmentarlas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;i0&gt;Solució:&lt;/i0&gt; no segmentar mai ``...'' si es troba.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143443Z" creationid="fsanchez" creationdate="20161102T143443Z">
+        <seg>&lt;i0&gt;Solución:&lt;/i0&gt; no segmentar nunca ``...'' si se encuentra.</seg>
       </tuv>
     </tu>
     <tu>
