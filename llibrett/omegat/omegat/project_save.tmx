@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;i0&gt;Estratègia de solució:&lt;/i0&gt; si detectem ``.'' [blanc] [minúscula], no segmentem; si detectem ``.'' [blanc] [número], no segmentem; si detectem ``.'' [blanc] [majúscula], què fem?: depén de l'abreviatura (la decisió és impracticable sense vocabularis de noms propis).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143348Z" creationid="fsanchez" creationdate="20161102T143348Z">
+        <seg>&lt;i0&gt;Estrategia de solución:&lt;/i0&gt; si detectamos ``.'' [espacio] [minúscula], no segmentamos; si detectamos ``.'' [espacio] [número], no segmentamos; si detectamos ``.'' [espacio] [mayúscula], ¿qué hacemos?: depende de la abreviatura (la decisión es impracticable sin vocabularios de nombres propios).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;i0&gt;Solució:&lt;/i0&gt; Si detectem [xifra] ``.'' [xifra] (sense blancs), no segmentem.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143314Z" creationid="fsanchez" creationdate="20161102T143314Z">
@@ -8114,6 +8122,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143327Z" creationid="fsanchez" creationdate="20161102T143327Z">
         <seg>Puntos al final de abreviatura de cortesía: Sr(.), Dra(.), Excm(.), etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Punts al final de sigles: CC.OO(.), O.N.U(.).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143357Z" creationid="fsanchez" creationdate="20161102T143357Z">
+        <seg>Puntos al final de siglas: CC.OO(.), O.N.U(.).</seg>
       </tuv>
     </tu>
     <tu>
