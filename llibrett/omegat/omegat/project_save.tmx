@@ -614,6 +614,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Sí, si tracten del mateix tema.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143238Z" creationid="fsanchez" creationdate="20161102T143238Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Sí, si tratan del mismo tema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Un conjunt de dades que es manipula com un tot, resideix en algun mitjà d'emmagatzemament i té un nom.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100102Z" creationid="fsanchez" creationdate="20161028T100102Z">
@@ -1830,6 +1838,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Sí, si la longitud dels segments és la mateixa.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143239Z" creationid="fsanchez" creationdate="20161102T143239Z">
+        <seg>&lt;u2&gt; Sí, si la longitud de los segmentos es la misma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Sí, si tenen data i hora diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100020Z" creationid="fsanchez" creationdate="20161028T100020Z">
@@ -2462,6 +2478,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; No es pot, les memòries de traducció es creen en anar traduint els segments.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143230Z" creationid="fsanchez" creationdate="20161102T143230Z">
+        <seg>&lt;u3&gt; No se puede, las memorias de traducción se crean al ir traduciendo los segmentos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; No, perquè un suport és electrònic i l'altre òptic.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095957Z" creationid="fsanchez" creationdate="20161028T095957Z">
@@ -2474,6 +2498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100606Z" creationid="fsanchez" creationdate="20161028T100606Z">
         <seg>&lt;u3&gt; No, primero se tiene que crear una carpeta (un directorio).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; No.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143241Z" creationid="fsanchez" creationdate="20161102T143241Z">
+        <seg>&lt;u3&gt; No.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7962,6 +7994,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100923Z" creationid="fsanchez" creationdate="20161028T100923Z">
         <seg>¿Podemos esperar que la ejecución de los programas continúe en el mismo punto donde se encontraba cuando las baterías fallaron?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Podem usar una memòria de traducció amb segments en anglés i espanyol per traduir de l'alemany a l'espanyol?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143236Z" creationid="fsanchez" creationdate="20161102T143236Z">
+        <seg>¿Podemos usar una memoria de traducción con segmentos en inglés y español para traducir del alemán al español?</seg>
       </tuv>
     </tu>
     <tu>
