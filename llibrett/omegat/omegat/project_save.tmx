@@ -6358,6 +6358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La puntuació de concordança parcial per davall de la qual propostes de la memòria de traducció comencen a ser menys útils que la traducció automàtica depén de la cobertura de la memòria de traducció per al tipus de text, de la llengua origen i la llengua meta, i, per descomptat, del sistema concret de traducció automàtica: per a llengües molt similars com ara l'espanyol i el català, podria passar que només les concordances millors que, diguem-ne, el 95% foren acceptables, mentre que si les llengües són més distants, com l'espanyol i el turc, podria passar que la traducció automàtica només fóra útil per a puntuacions de concordança molt baixes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T134934Z" creationid="fsanchez" creationdate="20161102T134934Z">
+        <seg>La puntuación de concordancia parcial por debajo de la cual las propuestas de la memoria de traducción empiezan a ser menos útiles que la traducción automática depende de la cobertura de la memoria de traducción para el tipo de texto, de la lengua origen y la lengua meta, y, por supuesto, del sistema concreto de traducción automática: para lenguas muy similares como por ejemplo el español y el catalán, podría pasar que sólo las concordancias mejores que, digamos, el 95% fueran aceptables, mientras que si las lenguas son más distantes, como el español y el turco, podría pasar que la traducción automática sólo fuera útil para puntuaciones de concordancia muy bajas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La recerca dicotòmica és només una de les moltes tècniques que es poden fer servir per a accelerar les consultes que es refereixen a un camp ordenat; el programa gestor de bases de dades pot usar una altra tècnica de recerca depenent del seu disseny o del tipus de camp.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090213Z" creationid="fsanchez" creationdate="20161025T090213Z">
