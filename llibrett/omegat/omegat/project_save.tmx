@@ -5694,6 +5694,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Hi ha tecnologies de traducció automàtica que s'assemblen molt al funcionament de les memòries de traducció, com ara la traducció automàtica estadística (vegeu l'apartat &lt;n0&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140345Z" creationid="fsanchez" creationdate="20161102T140345Z">
+        <seg>Hay tecnologías de traducción automática que se asemejan mucho al funcionamiento de las memorias de traducción, como por ejemplo la traducción automática estadística (véase el apartado &lt;n0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Hi ha tres classes bàsiques de programari:</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152715Z" creationid="fsanchez" creationdate="20161027T152715Z">
