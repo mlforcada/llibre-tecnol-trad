@@ -5582,6 +5582,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'alineament automàtic de textos traduïts no és una tasca senzilla; són necessaris coneixements previs sobre les llengües involucrades (per exemple, correspondències entre mots o alineaments prèviament validats per una persona experta&lt;p0&gt;), per això, la majoria dels sistemes de memòria de traducció usen mecanismes molt senzills per a segmentar els textos, tant per a alinear bitextos com per a dividir un text esquerre nou en segments per a cercar-los en la base de dades.&lt;p1&gt; Per tant, els segments obtinguts no són en general els &lt;i0&gt;ideals&lt;/i0&gt; (vegeu més avall).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114320Z" creationid="fsanchez" creationdate="20161102T114320Z">
+        <seg>El alineamiento automático de textos traducidos no es una tarea sencilla; son necesarios conocimientos previos sobre las lenguas involucradas (por ejemplo, correspondencias entre palabras o alineamientos previamente validados por una persona experta&lt;p0&gt;), por eso, la mayoría de los sistemas de memorias de traducción usan mecanismos muy sencillos para segmentar los textos, tanto para alinear bitextos como para dividir un texto izquierdo nuevo en segmentos para buscarlos en la base de datos.&lt;p1&gt; Por tanto, los segmentos obtenidos no son en general los &lt;i0&gt;ideales&lt;/i0&gt; (véase más abajo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'ambigüitat d'una oració pot ser causada per diversos tipus bàsics d'ambigüitat lèxica: &lt;n0&gt; &lt;u0&gt; L'oració conté una o més unitats lèxiques (per exemple mots) polisèmiques: si diem que algú &lt;n1&gt; Treballa en l'estudi que li van encarregar &lt;n2&gt; podem referir-nos a un investigador o a un decorador, depenent de quina interpretació assignem al mot polisèmic &lt;i0&gt;estudi&lt;/i0&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143118Z" creationid="fsanchez" creationdate="20161009T143118Z">
