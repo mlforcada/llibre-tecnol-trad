@@ -2846,6 +2846,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>A voltes, qui tradueix ha de gestionar explícitament les etiquetes de format per assegurar una bona traducció: tots els programes ofereixen la possibilitat d'&lt;i6&gt;editar etiquetes&lt;/i6&gt; manualment: les etiquetes s'agrupen i simplifiquen per fer més fàcil la faena.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114503Z" creationid="fsanchez" creationdate="20161102T114503Z">
+        <seg>A veces, quien traduce tiene que gestionar explícitamente las etiquetas de formato para asegurar una buena traducción: todos los programas ofrecen la posibilidad de&lt;i6&gt;editar etiquetas&lt;/i6&gt; manualmente: las etiquetas se agrupan y simplifican para hacer más fácil el trabajo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Abans del cos (&lt;i3&gt;body&lt;/i3&gt;), l'element arrel {&lt;u2&gt; martif} conté una capçalera (&lt;i4&gt;martifHeader&lt;/i4&gt;) amb informació sobre l'origen de la base de dades.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T104536Z" creationid="fsanchez" creationdate="20161025T104536Z">
@@ -3642,6 +3650,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141404Z" creationid="fsanchez" creationdate="20161009T141404Z">
         <seg>Construir un sistema de traducción automática conlleva la gestión de una gran cantidad de conocimiento, que se debe recopilar, y representar en un formato útil para su procesamiento mediante un ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Convé, a més, esmentar un altre aspecte addicional important.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114506Z" creationid="fsanchez" creationdate="20161102T114506Z">
+        <seg>Conviene, además, mencionar otro aspecto adicional importante.</seg>
       </tuv>
     </tu>
     <tu>
