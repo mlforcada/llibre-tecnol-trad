@@ -24,8 +24,8 @@
       <tuv lang="CA">
         <seg>$d'_1=d_{234}$ &lt;br0&gt;</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132123Z" creationid="fsanchez" creationdate="20161102T132123Z">
-        <seg>&lt;i1&gt;&lt;i3&gt;texto derecho $D$</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132143Z" creationid="fsanchez" creationdate="20161102T132123Z">
+        <seg>$de=1=d_{234}$ &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -738,6 +738,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T151519Z" creationid="fsanchez" creationdate="20161009T151519Z">
         <seg>&lt;n9&gt; En la primera interpretación se pregunta por la manera de decirlo, en la segunda por la manera de explicarlo y en la tercera por la manera de venir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u0&gt; $e'_2&lt;u1&gt; e_{112}$ (87%)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132135Z" creationid="fsanchez" creationdate="20161102T132135Z">
+        <seg>E-03071 Alicante }</seg>
       </tuv>
     </tu>
     <tu>
