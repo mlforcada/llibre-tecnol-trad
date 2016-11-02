@@ -4286,6 +4286,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Doneu almenys &lt;i1&gt;quatre&lt;/i1&gt; excepcions diferents a aquesta regla i descrigueu, en cada cas, una regla senzilla que permeta decidir amb seguretat raonable quan ens trobem en cada una d'aquestes excepcions, usant el mínim possible d'anàlisi lingüística del text.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142458Z" creationid="fsanchez" creationdate="20161102T142458Z">
+        <seg>Dad al menos &lt;i1&gt;cuatro&lt;/i1&gt; excepciones diferentes a esta regla y describid, en cada caso, una regla sencilla que permita decidir con seguridad razonable cuando nos encontramos en cada una de estas excepciones, usando el mínimo posible de análisis lingüístico del texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Dos fitxers ---també dos directoris--- només poden tenir el mateix nom si es troben en directoris diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T160436Z" creationid="fsanchez" creationdate="20161027T160436Z">
