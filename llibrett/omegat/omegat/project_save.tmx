@@ -8070,6 +8070,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Possibles escapatòries: si detectem [minúscula] ``.'' [minúscula] (sense blancs), no segmentem.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143423Z" creationid="fsanchez" creationdate="20161102T143423Z">
+        <seg>Posibles escapatorias: si detectamos [minúscula] ``.'' [minúscula] (sin espacios), no segmentamos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Pot haver-hi dos carpetes amb el mateix nom una dins de l'altra?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100017Z" creationid="fsanchez" creationdate="20161028T100017Z">
@@ -8162,6 +8170,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143319Z" creationid="fsanchez" creationdate="20161102T143319Z">
         <seg>Puntos en medio de siglas: CC(.)OO., EE(.)UU., etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Punts suspensius (``...'').</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143425Z" creationid="fsanchez" creationdate="20161102T143425Z">
+        <seg>Puntos suspensivos (``...'').</seg>
       </tuv>
     </tu>
     <tu>
