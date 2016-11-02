@@ -3838,6 +3838,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Direm que un bitext $(E,D)$ està &lt;i0&gt;alineat&lt;/i0&gt; si les dues parts tenen el mateix nombre $N$ de segments, $E= e_1 e_2 e_3 &lt;u0&gt; e_N$ i $D= d_1 d_2 d_3 &lt;u1&gt; d_N$, i els seus segments són traducció mútua: $e_1$ és traducció de $d_1$ (o viceversa), $e_2$ és traducció de $d_2$, etc.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113259Z" creationid="fsanchez" creationdate="20161102T113259Z">
+        <seg>Diremos que un bitexto $(E,D)$ está &lt;i0&gt;alineado&lt;/i0&gt; si las dos partes tienen el mismo número $N$ de segmentos, $E= e_1 e_2 e_3 &lt;u0&gt; e_N$ y $D= d_1 d_2 d_3 &lt;u1&gt; d_N$, y sus segmentos son traducción mutua: $e_1$ es traducción de $d_1$ (o viceversa), $e_2$ es traducción de $d_2$, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Donada la URI &lt;u4&gt;{http://edu.gob.es/educacion/universidades.html}, indica quina de les següents afirmacions és falsa: &lt;n0&gt; &lt;u1&gt; El recurs &lt;i0&gt;universidades.html&lt;/i0&gt; està allotjat en un ordinador el nom del qual és &lt;i1&gt;edu.gob.es&lt;/i1&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144456Z" creationid="fsanchez" creationdate="20161019T144456Z">
