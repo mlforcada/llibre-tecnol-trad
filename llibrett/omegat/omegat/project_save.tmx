@@ -1702,6 +1702,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Segmentar cada un dels dos textos en oracions.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142536Z" creationid="fsanchez" creationdate="20161102T142536Z">
+        <seg>&lt;u2&gt; Segmentar cada uno de los dos textos en oraciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Sí, de segur que els tècnics vindran a passar cables arreu la casa.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144210Z" creationid="fsanchez" creationdate="20161019T144210Z">
@@ -2426,6 +2434,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105741Z" creationid="fsanchez" creationdate="20161025T105741Z">
         <seg>&lt;u3&gt; Se incrementa de media, en 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Segmentar els dos textos i alinear-los.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142539Z" creationid="fsanchez" creationdate="20161102T142539Z">
+        <seg>&lt;u3&gt; Segmentar los dos textos y alinearlos.</seg>
       </tuv>
     </tu>
     <tu>
