@@ -6526,6 +6526,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Normalment, els sistemes, quan troben un segment similar però no idèntic, destaquen gràficament les diferències (per exemple, amb colors); així, la persona usuària pot fer-hi les modificacions necessàries perquè la traducció resultant siga correcta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115330Z" creationid="fsanchez" creationdate="20161102T115330Z">
+        <seg>Normalmente, los sistemas, cuando encuentran un segmento similar pero no idéntico, destacan gráficamente las diferencias (por ejemplo, con colores); así, el usuario puede hacer las modificaciones necesarias para que la traducción resultante sea correcta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Noteu la diferència entre &lt;i3&gt;accés aleatori&lt;/i3&gt; (a voluntat) i &lt;i4&gt;accés seqüencial&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151140Z" creationid="fsanchez" creationdate="20161027T151140Z">
