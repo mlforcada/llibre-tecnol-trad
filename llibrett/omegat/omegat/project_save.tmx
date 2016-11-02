@@ -3614,6 +3614,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Cada unitat de traducció conté dues variants (&lt;i3&gt;tuv&lt;/i3&gt;), cada una en una llengua (&lt;i4&gt;xml:lang="&lt;/i4&gt;&lt;u0&gt;&lt;i5&gt;"&lt;/i5&gt;), a més d'un element &lt;i6&gt;prop&lt;/i6&gt; que conté la clau (&lt;i7&gt;key&lt;/i7&gt;) per a cercar la unitat de traducció en la base de dades.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141107Z" creationid="fsanchez" creationdate="20161102T141107Z">
+        <seg>Cada unidad de traducción contiene dos variantes (&lt;i3&gt;tuv&lt;/i3&gt;), cada una en una lengua (&lt;i4&gt;xml:lang="&lt;/i4&gt;&lt;u0&gt;&lt;i5&gt;"&lt;/i5&gt;), además de un elemento &lt;i6&gt;prop&lt;/i6&gt; que contiene la clave (&lt;i7&gt;key&lt;/i7&gt;) para buscar la unidad de traducción en la base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Cal definir clarament les regles de segmentació; els programes de memòries de traducció solen permetre que la persona usuària modifique o refine aquestes regles.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114425Z" creationid="fsanchez" creationdate="20161102T114425Z">
