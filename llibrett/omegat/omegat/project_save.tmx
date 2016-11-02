@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; &lt;u4&gt; on cada registre és una oració i cada camp un mot.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141735Z" creationid="fsanchez" creationdate="20161102T141735Z">
+        <seg>&lt;u1&gt; &lt;u4&gt; donde cada registro es una oración y cada campo una palabra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; Ambigüitat estructural d'origen coordinatiu.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115330Z" creationid="fsanchez" creationdate="20161014T115310Z">
@@ -1194,6 +1202,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152804Z" creationid="fsanchez" creationdate="20161018T152804Z">
         <seg>&lt;u2&gt; &lt;i2&gt;megamondrío síngulo site:ua.es&lt;/i2&gt;: documentos que contengan estas dos palabras o variantes y que estén en documentos cuyo URI acabe en &lt;i8&gt;ua.es&lt;/i8&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u5&gt; on cada registre és una unitat de traducció i la variant en cada llengua es guarda en un camp diferent.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141740Z" creationid="fsanchez" creationdate="20161102T141740Z">
+        <seg>&lt;u2&gt; &lt;u5&gt; donde cada registro es una unidad de traducción y la variante en cada lengua se guarda en un campo diferente.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9666,6 +9682,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145632Z" creationid="fsanchez" creationdate="20161018T145632Z">
         <seg>museos (patrocinado por MuseDoma) &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>on cada registre és una llengua i cada camp una unitat de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141732Z" creationid="fsanchez" creationdate="20161102T141732Z">
+        <seg>donde cada registro es una lengua y cada campo una unidad de traducción.</seg>
       </tuv>
     </tu>
     <tu>
