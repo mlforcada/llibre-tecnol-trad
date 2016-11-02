@@ -1502,6 +1502,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; La repetitivitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141824Z" creationid="fsanchez" creationdate="20161102T141824Z">
+        <seg>&lt;u2&gt; La repetitividad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; La ruta d'accés al recurs és &lt;i2&gt;educacion/universidades.html&lt;/i2&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T144503Z" creationid="fsanchez" creationdate="20161019T144503Z">
@@ -2242,6 +2250,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113948Z" creationid="fsanchez" creationdate="20161014T113948Z">
         <seg>&lt;u3&gt; La polisemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; La similitud entre les llengües origen i meta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141832Z" creationid="fsanchez" creationdate="20161102T141832Z">
+        <seg>&lt;u3&gt; La similitud entre las lenguas origen y meta.</seg>
       </tuv>
     </tu>
     <tu>
