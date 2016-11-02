@@ -1486,6 +1486,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Les memòries de traducció usen informació sobre les categories lèxiques dels mots per a decidir els alineaments.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141709Z" creationid="fsanchez" creationdate="20161102T141709Z">
+        <seg>&lt;u2&gt; Las memorias de traducción usan información sobre las categorías léxicas de las palabras para decidir los alineamientos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Les velocitats típiques de connexió a Internet via ADSL són d'uns quants Mb/s.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095931Z" creationid="fsanchez" creationdate="20161028T095931Z">
