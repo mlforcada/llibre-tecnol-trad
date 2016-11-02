@@ -662,6 +662,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n4&gt; &lt;n1&gt; &lt;n2&gt; &lt;n3&gt;{p{3cm}p{4cm}} $E'$</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132334Z" creationid="fsanchez" creationdate="20161102T132334Z">
+        <seg>&lt;n4&gt; &lt;n1&gt; &lt;n2&gt; &lt;n3&gt;{p{3cm}p{4cm}} $E'$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n4&gt; &lt;n5&gt; Aquest exemple pot tenir dues interpretacions &lt;n2&gt; &lt;u4&gt;[(a)] No totes les dones s'estimen els abrics de pell.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122247Z" creationid="fsanchez" creationdate="20161010T122247Z">
@@ -9330,6 +9338,22 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142211Z" creationid="fsanchez" creationdate="20161009T142211Z">
         <seg>persona del singular, imperativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>posteditar $d_{112} &lt;u0&gt; d'_2$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132338Z" creationid="fsanchez" creationdate="20161102T132338Z">
+        <seg>posteditar $d_{112} &lt;u0&gt; d'_2$ &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>posteditar $d_{47} &lt;u0&gt; d'_3$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132345Z" creationid="fsanchez" creationdate="20161102T132345Z">
+        <seg>posteditar $d_{47} &lt;u0&gt; d'_3$ &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
