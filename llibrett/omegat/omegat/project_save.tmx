@@ -7966,6 +7966,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quina característica dels textos que s'han de traduir fa que l'ús de memòries de traducció siga la solució adequada?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141804Z" creationid="fsanchez" creationdate="20161102T141804Z">
+        <seg>¿Qué característica de los textos que se tienen que traducir hace que el uso de memorias de traducción sea la solución adecuada?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quina característica és comuna a tots els tipus de programari?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101502Z" creationid="fsanchez" creationdate="20161028T101502Z">
