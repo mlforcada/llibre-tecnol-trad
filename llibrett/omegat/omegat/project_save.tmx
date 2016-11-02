@@ -270,10 +270,26 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;i0&gt;Solució:&lt;/i0&gt; la millor seria una regla general (patró o expressió regular) que detectara aquestes entitats i evitara segmentar-les.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143416Z" creationid="fsanchez" creationdate="20161102T143416Z">
+        <seg>&lt;i0&gt;Solución:&lt;/i0&gt; la mejor sería una regla general (patrón o expresión regular) que detectara estas entidades y evitara segmentarlas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;i0&gt;Solució:&lt;/i0&gt; si detectem [majúscula] ``.'' [majúscula] (sense blancs), no segmentem.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143323Z" creationid="fsanchez" creationdate="20161102T143323Z">
         <seg>&lt;i0&gt;Solución:&lt;/i0&gt; si detectamos [mayúscula] ``.'' [mayúscula] (sin blancos), no segmentamos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;i0&gt;Solució:&lt;/i0&gt; si detectem [majúscules] ``.'' [majúscules] ``.'', no segmentar.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143403Z" creationid="fsanchez" creationdate="20161102T143403Z">
+        <seg>&lt;i0&gt;Solución:&lt;/i0&gt; si detectamos [mayúsculas] ``.'' [mayúsculas] ``.'', no segmentar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8130,6 +8146,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143357Z" creationid="fsanchez" creationdate="20161102T143357Z">
         <seg>Puntos al final de siglas: CC.OO(.), O.N.U(.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Punts en URIs i adreces de correu electrònic.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143405Z" creationid="fsanchez" creationdate="20161102T143405Z">
+        <seg>Puntos en URIs y direcciones de correo electrónico.</seg>
       </tuv>
     </tu>
     <tu>
