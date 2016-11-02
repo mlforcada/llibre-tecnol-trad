@@ -3286,6 +3286,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Aquesta modalitat comporta l'accés per part de qui tradueix a la memòria de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T120021Z" creationid="fsanchez" creationdate="20161102T120021Z">
+        <seg>Esta modalidad conlleva el acceso por parte de quien traduce a la memoria de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Aquesta omissió dóna lloc a una ambigüitat.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144017Z" creationid="fsanchez" creationdate="20161009T144017Z">
@@ -5490,6 +5498,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T154132Z" creationid="fsanchez" creationdate="20161027T154132Z">
         <seg>Hay dos familias básicas de procesadores de lenguajes: los &lt;i0&gt;compiladores&lt;/i0&gt;, que traducen todo el programa al lenguaje de la máquina antes de ejecutarlo, y los &lt;i1&gt;intérpretes&lt;/i1&gt;, que leen el programa línea a línea y ejecutan pequeños programas ya escritos en el lenguaje de la máquina y que corresponden a las sentencias del lenguaje de programación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Hi ha dues modalitats d'ús de les memòries de traducció: &lt;n0&gt; &lt;u0&gt;[Interactiva:] Qui està traduint rep diverses propostes per a cada nou segment $e'$, entre les quals elegeix la més adequada per a produir la traducció corresponent $d'$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T120016Z" creationid="fsanchez" creationdate="20161102T120016Z">
+        <seg>Hay dos modalidades de uso de las memorias de traducción: &lt;n0&gt; &lt;u0&gt;[Interactiva:] Quien está traduciendo recibe diversas propuestas para cada nuevo segmento $e'$, entre las cuales elige la más adecuada para producir la traducción correspondiente $d'$.</seg>
       </tuv>
     </tu>
     <tu>
