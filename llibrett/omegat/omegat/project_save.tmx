@@ -630,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n1&gt; {&lt;u0&gt; $$ &lt;n2&gt;{rcl} &lt;i0&gt;&lt;i2&gt;text esquerre&lt;/i0&gt;&lt;/i2&gt; &lt;u1&gt;&lt;i1&gt;&lt;u3&gt;{&lt;i3&gt;segmentació&lt;/i1&gt;&lt;/i3&gt;}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133154Z" creationid="fsanchez" creationdate="20161102T133154Z">
+        <seg>&lt;n1&gt; {&lt;u0&gt; $$ &lt;n2&gt;{rcl} &lt;i0&gt;&lt;i2&gt;texto izquierdo&lt;/i0&gt;&lt;/i2&gt; &lt;u1&gt;&lt;i1&gt;&lt;u3&gt;{&lt;i3&gt;segmentación&lt;/i1&gt;&lt;/i3&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n2&gt; Hi ha molts altres d'abast mundial (Pinterest, Reddit, Tumblr, etc.) i alguns particulars de determinades àrees geogràfiques (com ara VK en els països on es parla rus).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120556Z" creationid="fsanchez" creationdate="20161019T120556Z">
@@ -4258,6 +4266,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144014Z" creationid="fsanchez" creationdate="20161009T144014Z">
         <seg>El problema es que falta el sujeto de la oración subordinada &lt;i0&gt;cómo caía rodando&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El procés es mostra en la figura &lt;n0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133149Z" creationid="fsanchez" creationdate="20161102T133149Z">
+        <seg>El proceso se muestra en la figura &lt;n0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9450,6 +9466,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T091248Z" creationid="fsanchez" creationdate="20161025T091248Z">
         <seg>{&lt;u0&gt; serbo-croata}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u1&gt;{1.9cm&lt;/i0&gt;{&lt;i1&gt;concordança i selecció de propostes&lt;/i1&gt;}}}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133156Z" creationid="fsanchez" creationdate="20161102T133156Z">
+        <seg>{&lt;u1&gt;{1.9cm&lt;/i0&gt;{&lt;i1&gt;concordancia y selección de propuestas&lt;/i1&gt;}}}</seg>
       </tuv>
     </tu>
     <tu>
