@@ -550,6 +550,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Passar-los a XML.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142533Z" creationid="fsanchez" creationdate="20161102T142533Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; Pasarlos a XML.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Que cada dada és una seqüència d'&lt;i0&gt;octets&lt;/i0&gt; i cada octet pot adoptar 512 valors.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102027Z" creationid="fsanchez" creationdate="20161028T102027Z">
@@ -1838,6 +1846,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} en mots i petites unitats multimot (entre dos i quatre mots) de gran repetitivitat.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142518Z" creationid="fsanchez" creationdate="20161102T142518Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} en palabras y pequeñas unidades multipalabra (entre dos y cuatro palabras) de gran repetitividad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; {&lt;u6&gt;} es pot resoldre usant regles derivades d'un estudi de les preferències sintàctiques observades en experiments psicolingüístics.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T142535Z" creationid="fsanchez" creationdate="20161010T142535Z">
@@ -2562,6 +2578,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141649Z" creationid="fsanchez" creationdate="20161019T141649Z">
         <seg>&lt;u3&gt; el directorio donde se encuentra el servicio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} equivalents a una oració, usant una anàlisi lingüística detallada del text per a determinar l'extensió de cada oració.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142523Z" creationid="fsanchez" creationdate="20161102T142523Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} equivalentes a una oración, usando un análisis lingüístico detallado del texto para determinar la extensión de cada oración.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8050,6 +8074,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100032Z" creationid="fsanchez" creationdate="20161028T100032Z">
         <seg>¿Cuántos valores posibles puede tomar un &lt;i0&gt;byte&lt;/i0&gt;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Que hem de fer amb els bitextos existents per a poder reutilitzar la informació que contenen per a fer noves traduccions amb una memòria de traducció?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142529Z" creationid="fsanchez" creationdate="20161102T142529Z">
+        <seg>¿Qué tenemos que hacer con los bitextos existentes para poder reutilizar la información que contienen para hacer nuevas traducciones con una memoria de traducción?</seg>
       </tuv>
     </tu>
     <tu>
