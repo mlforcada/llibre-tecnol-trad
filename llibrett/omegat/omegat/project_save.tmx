@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; Als sistemes de traducció automàtica directes o mot per mot.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141849Z" creationid="fsanchez" creationdate="20161102T141849Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; A los sistemas de traducción automática directa o palabra por palabra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Ambigüitat lèxica per polisèmia.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114221Z" creationid="fsanchez" creationdate="20161014T114221Z">
@@ -1286,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Als sistemes de traducció automàtica per interlingua.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141851Z" creationid="fsanchez" creationdate="20161102T141851Z">
+        <seg>&lt;u2&gt; A los sistemas de traducción automática por interlingua.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Ambigüitat de l'oració deguda a l'ambigüitat lèxica per anàfora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T115346Z" creationid="fsanchez" creationdate="20161014T115346Z">
@@ -2066,6 +2082,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141542Z" creationid="fsanchez" creationdate="20161010T141542Z">
         <seg>&lt;u3&gt; &lt;u7&gt; tiene más de un árbol de análisis sintáctico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Als sistemes de traducció automàtica per transferència.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141853Z" creationid="fsanchez" creationdate="20161102T141853Z">
+        <seg>&lt;u3&gt; A los sistemas de traducción automática por transferencia.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7874,6 +7898,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152951Z" creationid="fsanchez" creationdate="20161027T152951Z">
         <seg>En cuanto a la &lt;i0&gt;interfaz de uso&lt;/i0&gt;, es decir, la apariencia y la forma de interaccionar con el usuario, la mayoría de los sistemas operativos son &lt;i1&gt;gráficos&lt;/i1&gt;, es decir, basados en ratón o pantalla táctil, punteros, ventanas, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quant al funcionament, a quins sistemes de traducció automàtica s'assemblen més les memòries de traducció?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141842Z" creationid="fsanchez" creationdate="20161102T141842Z">
+        <seg>En cuanto al funcionamiento, ¿a qué sistemas de traducción automática se asemejan más las memorias de traducción?</seg>
       </tuv>
     </tu>
     <tu>
