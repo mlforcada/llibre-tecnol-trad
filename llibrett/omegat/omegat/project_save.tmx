@@ -9046,6 +9046,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Word is ending the current session.&lt;/&lt;i9&gt;seg&lt;/i9&gt;&gt; &lt;/&lt;i10&gt;tuv&lt;/i10&gt;&gt; &lt;&lt;i11&gt;tuv&lt;/i11&gt; xml:lang='FR-FR'&gt; &lt;&lt;i12&gt;seg&lt;/i12&gt;&gt;Une erreur s'est produite pendant l'exécution du dictionnaire des synonymes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140508Z" creationid="fsanchez" creationdate="20161102T140508Z">
+        <seg>Word is ending the current session.&lt;/&lt;i9&gt;seg&lt;/i9&gt;&gt; &lt;/&lt;i10&gt;tuv&lt;/i10&gt;&gt; &lt;&lt;i11&gt;tuv&lt;/i11&gt; xml:lang='FR-FR'&gt; &lt;&lt;i12&gt;seg&lt;/i12&gt;&gt;Une erreur s'est produite pendant l'exécution du dictionnaire des synonymes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>[0.5cm]</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133314Z" creationid="fsanchez" creationdate="20161102T133314Z">
