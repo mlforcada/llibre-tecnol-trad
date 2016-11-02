@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n0&gt; &lt;u1&gt; El percentatge de concordança parcial de la millor proposta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143100Z" creationid="fsanchez" creationdate="20161102T143100Z">
+        <seg>&lt;n0&gt; &lt;u1&gt; El porcentaje de concordancia parcial de la mejor propuesta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n0&gt; &lt;u1&gt; Els mòdems converteixen informació digital en senyals analògics però no al revés.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095924Z" creationid="fsanchez" creationdate="20161028T095924Z">
@@ -1366,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; El nombre de propostes.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143101Z" creationid="fsanchez" creationdate="20161102T143101Z">
+        <seg>&lt;u2&gt; El número de propuestas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; El problema de la síntesi es refereix a l'ambigüitat dels textos traduïts automàticament.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114256Z" creationid="fsanchez" creationdate="20161014T114256Z">
@@ -2298,6 +2314,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T103905Z" creationid="fsanchez" creationdate="20161025T103905Z">
         <seg>&lt;u3&gt; La fecha de creación y de modificación de la ficha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; La longitud en paraules de la millor proposta (com més llarga, millor).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143104Z" creationid="fsanchez" creationdate="20161102T143104Z">
+        <seg>&lt;u3&gt; La longitud en palabras de la mejor propuesta (cuanto más larga, mejor).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4486,6 +4510,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El percentatge de coincidència entre el nou segment a traduir i el segment origen de la unitat de traducció proposada.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143112Z" creationid="fsanchez" creationdate="20161102T143112Z">
+        <seg>El porcentaje de coincidencia entre el nuevo segmento a traducir y el segmento origen de la unidad de traducción propuesta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El principi de composicionalitat diu que la interpretació d'una oració està determinada per les interpretacions dels mots i per la sintaxi.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113802Z" creationid="fsanchez" creationdate="20161014T113802Z">
@@ -6554,6 +6586,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114650Z" creationid="fsanchez" creationdate="20161102T114650Z">
         <seg>La mayoría de los programas de memoria de traducción ofrecen al usuario la posibilidad de validar o modificar (uniendo o dividiendo segmentos en el texto izquierdo o en el texto derecho) el alineamiento automático inicial usando una interfaz sencilla e intuitiva antes de incorporar los segmentos resultantes a la memoria de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La majoria dels programes de traducció assistida basats en memòries de traducció no donen una de les tres informacions següents:</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143108Z" creationid="fsanchez" creationdate="20161102T143108Z">
+        <seg>La mayoría de los programas de traducción asistida basados en memorias de traducción no dan una de las tres informaciones siguientes:</seg>
       </tuv>
     </tu>
     <tu>
