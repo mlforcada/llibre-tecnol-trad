@@ -2998,6 +2998,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Alguns programes, si no troben una UT que té la part esquerra idèntica a l'observada en el nou text ($e'$), però troben una, $(e,d)$, la part esquerra $e$ de la qual es diferencia en un mot o en un cert percentatge dels mots de $e'$, presenten com a &lt;i0&gt;traducció aproximada&lt;/i0&gt; la part dreta ($d$) corresponent a $e$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115318Z" creationid="fsanchez" creationdate="20161102T115318Z">
+        <seg>Algunos programas, si no encuentran una UT que tenga la parte izquierda idéntica a la observada en el nuevo texto ($e'$), pero encuentran una, $(e,d)$, cuya parte izquierda $e$ se diferencia en una palabra o en un cierto porcentaje de las palabras de $e'$, presenta como &lt;i0&gt;traducción aproximada&lt;/i0&gt; la parte derecha ($d$) correspondiente a $e$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Als dispositius de la nostra xarxa local l'encaminador els assigna un número IP privat al que només tenen accés els ordinadors que formen part d'aquesta xarxa local; tots els dispositius d'aquesta xarxa local es connecten a Internet usant el mateix número IP, el número IP públic assignat al nostre encaminador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140345Z" creationid="fsanchez" creationdate="20161019T140345Z">
