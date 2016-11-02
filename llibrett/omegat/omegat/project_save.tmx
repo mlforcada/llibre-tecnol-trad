@@ -5814,6 +5814,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Indica quina d'aquestes afirmacions és certa: &lt;n0&gt; &lt;u1&gt; Les memòries de traducció són bàsicament sistemes de traducció directa i, per tant, la unitat bàsica de traducció que usen és el mot.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141649Z" creationid="fsanchez" creationdate="20161102T141649Z">
+        <seg>Indica cuál de estas afirmaciones es cierta: &lt;n0&gt; &lt;u1&gt; Las memorias de traducción son básicamente sistemas de traducción directa y, por lo tanto, la unidad básica de traducción que usan es la palabra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Indiqueu de quina classe d'ambigüitat es tracta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141556Z" creationid="fsanchez" creationdate="20161010T141556Z">
