@@ -3998,6 +3998,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>El &lt;i5&gt;fragment ideal&lt;/i5&gt; seria el que és suficientment menut per a aparéixer sovint però suficientment complet com per a tenir una traducció constant.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114812Z" creationid="fsanchez" creationdate="20161102T114812Z">
+        <seg>El &lt;i5&gt;fragmento ideal&lt;/i5&gt; sería el que es lo suficientemente pequeño para aparecer a menudo pero lo suficientemente completo como para tener una traducción constante.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>El DVD (&lt;i0&gt;digital versatil dics&lt;/i0&gt;)&lt;p0&gt; és un tipus més avançat de sistemes d'emmagatzematge basat en discs òptics; bàsicament, es tracta d'un CD més ràpid i amb més capacitat, que ha desplaçat quasi completament els CD-ROM.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152034Z" creationid="fsanchez" creationdate="20161027T152034Z">
@@ -6658,6 +6666,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085319Z" creationid="fsanchez" creationdate="20161025T085319Z">
         <seg>Por supuesto, es posible calcular el número máximo de consultas de manera más pedestre, dividiendo el número de fichas por 2 y poniéndonos en el caso peor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, el fragment espanyol &lt;i0&gt;las decepciones&lt;/i0&gt; es pot correspondre en català amb &lt;i1&gt;les decebes&lt;/i1&gt; o &lt;i2&gt;les decepcions&lt;/i2&gt; però el fragment &lt;i3&gt;las decepciones sufridas&lt;/i3&gt; només pot aparéixer alineat amb &lt;i4&gt;les decepcions patides&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114804Z" creationid="fsanchez" creationdate="20161102T114804Z">
+        <seg>Por ejemplo, el fragmento &lt;i0&gt;las decepciones&lt;/i0&gt; se puede corresponder en catalán con &lt;i1&gt;les decebes&lt;/i1&gt; o &lt;i2&gt;les decepcions&lt;/i2&gt; pero el fragmento &lt;i3&gt;las decepciones sufridas&lt;/i3&gt; sólo puede aparecer alineado con &lt;i4&gt;les decepcions patides&lt;/i4&gt;.</seg>
       </tuv>
     </tu>
     <tu>
