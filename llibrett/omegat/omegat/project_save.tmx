@@ -6158,6 +6158,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La figura &lt;n0&gt; mostra part d'una memòria de traducció en el format TMX.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140622Z" creationid="fsanchez" creationdate="20161102T140622Z">
+        <seg>La figura &lt;n0&gt; muestra parte de una memoria de traducción en el formato TMX.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La figura &lt;n0&gt; mostra un esquema de l'accés domèstic a Internet des de diversos dispositius.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T121039Z" creationid="fsanchez" creationdate="20161019T121039Z">
