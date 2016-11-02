@@ -632,8 +632,8 @@
       <tuv lang="CA">
         <seg>&lt;n1&gt; {&lt;u0&gt; $$ &lt;n2&gt;{rcl} &lt;i0&gt;&lt;i2&gt;text esquerre&lt;/i0&gt;&lt;/i2&gt; &lt;u1&gt;&lt;i1&gt;&lt;u3&gt;{&lt;i3&gt;segmentació&lt;/i1&gt;&lt;/i3&gt;}</seg>
       </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133210Z" creationid="fsanchez" creationdate="20161102T133154Z">
-        <seg>&lt;n1&gt; {&lt;u0&gt; $$ &lt;n2&gt;{rcl} &lt;i0&gt;&lt;i2&gt;text esquerre&lt;/i0&gt;&lt;/i2&gt; &lt;u1&gt;&lt;i1&gt;&lt;u3&gt;{&lt;i3&gt;segmentació&lt;/i1&gt;&lt;/i3&gt;}</seg>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133226Z" creationid="fsanchez" creationdate="20161102T133154Z">
+        <seg>&lt;n1&gt; {&lt;u0&gt; $$ &lt;n2&gt;{rcl} &lt;i0&gt;&lt;i2&gt;texto izquierdo&lt;/i0&gt;&lt;/i2&gt; &lt;u1&gt;&lt;i1&gt;&lt;u3&gt;{&lt;i3&gt;segmentación&lt;/i1&gt;&lt;/i3&gt;}</seg>
       </tuv>
     </tu>
     <tu>
