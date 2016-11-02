@@ -5694,6 +5694,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Estem traduint un segment en un programa de traducció assistida (com ara OmegaT) i el programa ens dóna una sèrie de propostes que vénen de la memòria de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142622Z" creationid="fsanchez" creationdate="20161102T142622Z">
+        <seg>Estamos traduciendo un segmento con un programa de traducción asistida (como por ejemplo OmegaT) y el programa nos da una serie de propuestas que vienen de la memoria de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Exemples de programari lliure són: el sistema operatiu &lt;i5&gt;GNU/Linux&lt;/i5&gt;, el navegador &lt;i6&gt;Firefox&lt;/i6&gt;, o el processador de textos &lt;i7&gt;LibreOffice&lt;/i7&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T095152Z" creationid="fsanchez" creationdate="20161028T095152Z">
@@ -8114,6 +8122,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T142215Z" creationid="fsanchez" creationdate="20161019T142215Z">
         <seg>¿Quién tiene razón?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quin d'aquests indicadors indica millor l'esforç que haurem de fer per acabar de traduir el segment?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T142627Z" creationid="fsanchez" creationdate="20161102T142627Z">
+        <seg>¿Cuál de estos indicadores indica mejor el esfuerzo que tendremos que hacer para acabar de traducir el segmento?</seg>
       </tuv>
     </tu>
     <tu>
