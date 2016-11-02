@@ -3086,6 +3086,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Això pot ser, d'una banda, perquè els professionals tenen així la impressió que el programa no tradueix i els relega a un mer paper de correctors, sinó que &lt;i4&gt;organitza&lt;/i4&gt; i fa més eficient el treball de traducció professional i, d'altra banda, perquè les memòries de traducció &lt;i5&gt;conserven l'estil&lt;/i5&gt; i &lt;i6&gt;les decisions terminològiques&lt;/i6&gt; de traduccions anteriors, que poden variar d'un equip a altre, mentre que els sistemes de traducció automàtica solen basar-se en seleccions terminològiques i d'estil de propòsit general, encara que siga dins d'una temàtica concreta.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T134038Z" creationid="fsanchez" creationdate="20161102T134038Z">
+        <seg>Esto puede ser debido, por un lado, a que los profesionales tienen así la impresión de que el programa no traduce y los relega a un mero papel de correctores, sino que &lt;i4&gt;organiza&lt;/i4&gt; y hace más eficiente el trabajo de traducción profesional y, por otro lado, a que las memorias de traducción &lt;i5&gt;conservan el estilo&lt;/i5&gt; y las &lt;i6&gt;decisiones terminológicas&lt;/i6&gt; de traducciones anteriores, que pueden variar de un equipo a otro, mientras que los sistemas de traducción automática suelen basarse en selecciones terminológicas y de estilo de propósito general, aunque sea dentro de una temática concreta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Això s'aconsegueix mitjançant un procediment anomenat &lt;i0&gt;indexació&lt;/i0&gt;: bàsicament, s'assigna un número a cada fitxa i es construeix una taula o &lt;i1&gt;índex&lt;/i1&gt; ordenat (una altra base de dades) que conté registres amb dos camps: un, el camp pel qual es vol ordenar, i l'altre, la posició en la base de dades del registre que conté aquest valor del camp (en cert sentit, aquest índex no és massa diferent de l'índex alfabètic que hi ha al final d'alguns llibres: busquem el mot alfabèticament i ens diu en quina o en quines pàgines se'n parla).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090908Z" creationid="fsanchez" creationdate="20161025T090908Z">
@@ -7954,6 +7962,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152726Z" creationid="fsanchez" creationdate="20161027T152726Z">
         <seg>Se denomina &lt;i1&gt;firmware&lt;/i1&gt; al software del sistema que se usa tan frecuentemente que se almacena permanentemente en chips ROM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>S'ha de tenir en compte que la traducció automàtica pot constituir una alternativa acceptable en aquells segments on la memòria de traducció no pot fer una proposta raonable, i, de fet, molts programes de traducció assistida per ordinador combinen l'accés a memòries de traducció amb l'accés a la traducció automàtica.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T134052Z" creationid="fsanchez" creationdate="20161102T134052Z">
+        <seg>Se tiene que tener en cuenta que la traducción automática puede constituir una alternativa aceptable en aquellos segmentos donde la memoria de traducción no puede hacer una propuesta razonable, y, de hecho, muchos programas de traducción asistida por ordenador combinan el acceso a memorias de traducción con el acceso a la traducción automática.</seg>
       </tuv>
     </tu>
     <tu>
