@@ -4526,6 +4526,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els programes més recents resolen això amb &lt;i4&gt;filtres&lt;/i4&gt; o &lt;i5&gt;conversors&lt;/i5&gt; per als formats de text més freqüents, filtres que tracten d'ocultar al màxim possible a la persona usuària les característiques de format dels documents perquè puguen concentrar-se en les textuals.&lt;p1&gt; Els professionals valoren molt la capacitat de gestionar el format de manera senzilla i eficient, ja que la preservació del format de les traduccions és una de les tasques que els fa perdre més temps.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114606Z" creationid="fsanchez" creationdate="20161102T114606Z">
+        <seg>Los programas más recientes resuelven esto con &lt;i4&gt;filtros&lt;/i4&gt; o &lt;i5&gt;conversores&lt;/i5&gt; para los formatos de texto más frecuentes, filtros que tratan de ocultar al máximo al usuario las características de formato de los documentos para que puedan concentrarse en las textuales.&lt;p1&gt; Los profesionales valoran mucho la capacidad de gestionar el formato de manera sencilla y eficiente, puesto que la preservación del formato de las traducciones es una de las tareas que les hace perder más tiempo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els programes navegadors es coneixen també per altres noms: &lt;i0&gt;browsers&lt;/i0&gt; (fullejadors), &lt;i1&gt;exploradors&lt;/i1&gt;, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151354Z" creationid="fsanchez" creationdate="20161018T151354Z">
