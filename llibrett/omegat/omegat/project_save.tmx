@@ -9582,6 +9582,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>És possible que els dos textos no tinguen el mateix nombre d'``oracions'' o que l'estratègia per a segmentar-los falle per alguna causa i l'alineament no siga perfecte.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114637Z" creationid="fsanchez" creationdate="20161102T114637Z">
+        <seg>Es posible que los dos textos no tengan el mismo número de ``oraciones'' o que la estrategia para segmentarlos falle por algún motivo y el alineamiento no sea perfecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>És possible que un fitxer de text i la carpeta en què està inclòs tinguen el mateix nom?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101520Z" creationid="fsanchez" creationdate="20161028T101520Z">
