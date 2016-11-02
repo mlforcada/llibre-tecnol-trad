@@ -7134,6 +7134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Per exemple, en el cas de l'espanyol i el català, una gran memòria de traducció alimentada amb les traduccions fetes només en l'àmbit de les administracions autonòmiques i locals estalviaria grans quantitats de temps i diners a l'hora de mantenir la documentació bilingüe d'aquestes institucions, però encara no s'ha substanciat un recurs d'aquesta mena, malgrat la gran quantitat de veus que n'han expressat la necessitat i la conveniència.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141339Z" creationid="fsanchez" creationdate="20161102T141339Z">
+        <seg>Por ejemplo, en el caso del español y el catalán, una gran memoria de traducción alimentada con las traducciones hechas sólo en el ámbito de las administraciones autonómicas y locales ahorraría grandes cantidades de tiempo y dinero a la hora de mantener la documentación bilingüe de estas instituciones, pero todavía no se ha sustanciado un recurso de este tipo, a pesar de la gran cantidad de voces que han expresado la necesidad y la conveniencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Per exemple, en l'oració &lt;i4&gt;Maria va parlar amb ella&lt;/i4&gt;, el pronom &lt;i5&gt;ella&lt;/i5&gt; no es pot mai referir a &lt;i6&gt;Maria&lt;/i6&gt;, però en l'oració &lt;i7&gt;Maria va parlar amb una amiga d'ella&lt;/i7&gt;, sí que pot, i això és degut al fet que en l'estructura sintàctica de la primera oració hi ha una &lt;i8&gt;barrera&lt;/i8&gt; a la coreferència que en la segona no existeix.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152646Z" creationid="fsanchez" creationdate="20161009T152646Z">
