@@ -6534,6 +6534,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Normalment, se sol establir un &lt;i1&gt;llindar&lt;/i1&gt; (en anglés &lt;i2&gt;fuzzy match threshold&lt;/i2&gt;) de manera que no es presenten propostes per davall d'una certa &lt;i3&gt;puntuació de concordança parcial&lt;/i3&gt; mínima (en anglés &lt;i4&gt;fuzzy match score&lt;/i4&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115418Z" creationid="fsanchez" creationdate="20161102T115418Z">
+        <seg>Normalmente, se suele establecer un &lt;i1&gt;umbral&lt;/i1&gt; (en inglés &lt;i2&gt;fuzzy match threshold&lt;/i2&gt;), de manera que no se presenten propuestas por debajo de una cierta &lt;i3&gt;puntuación de concordancia parcial&lt;/i3&gt; mínima (en inglés &lt;i4&gt;fuzzy match score&lt;/i4&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Noteu la diferència entre &lt;i3&gt;accés aleatori&lt;/i3&gt; (a voluntat) i &lt;i4&gt;accés seqüencial&lt;/i4&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151140Z" creationid="fsanchez" creationdate="20161027T151140Z">
