@@ -742,14 +742,6 @@
     </tu>
     <tu>
       <tuv lang="CA">
-        <seg>&lt;u0&gt; $e'_2&lt;u1&gt; e_{112}$ (87%)</seg>
-      </tuv>
-      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132135Z" creationid="fsanchez" creationdate="20161102T132135Z">
-        <seg>E-03071 Alicante }</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="CA">
         <seg>&lt;u0&gt; &lt;n0&gt; &lt;n1&gt; &lt;u1&gt;{Els bitextos $E$ i $D$, segmentats i alineats, en $N$ unitats de traducció $(e_1,d_1), (e_2,d_2), &lt;u2&gt; (e_N,d_N)$}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113350Z" creationid="fsanchez" creationdate="20161102T113350Z">
@@ -9306,6 +9298,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T142211Z" creationid="fsanchez" creationdate="20161009T142211Z">
         <seg>persona del singular, imperativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>posteditar $d_{112} &lt;u0&gt; d'_2$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132148Z" creationid="fsanchez" creationdate="20161102T132148Z">
+        <seg>&lt;i1&gt;&lt;i3&gt;texto de la derecha $D$</seg>
       </tuv>
     </tu>
     <tu>
