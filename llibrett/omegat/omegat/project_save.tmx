@@ -2686,6 +2686,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u5&gt; Que no es done cap concordança raonable, com en el cas del segment $e'_4$, i calga generar la traducció $d'_4$ des de zero.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133135Z" creationid="fsanchez" creationdate="20161102T133135Z">
+        <seg>&lt;u5&gt; Que no se dé ninguna concordancia razonable, como en el caso del segmento $e'_4$, y haya que generar la traducción $d'_4$ desde cero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u5&gt; Suma el valor d'&lt;i3&gt;índex&lt;/i3&gt; a l'acumulador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153923Z" creationid="fsanchez" creationdate="20161027T153923Z">
@@ -8338,6 +8346,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120042Z" creationid="fsanchez" creationdate="20161019T120042Z">
         <seg>También es muy frecuente, acceder al correo electrónico desde cualquier lugar usando un navegador, a través de un servicio llamado &lt;i1&gt;webmail&lt;/i1&gt;; son comunes los &lt;i2&gt;webmails&lt;/i2&gt; gratuitos (GMail, Yahoo Mail, Microsoft Outlook); cada alumna o alumno de la Universitat d'Alacant tiene, por serlo, una dirección de correo de la forma &lt;i3&gt;xxxx&lt;/i3&gt;&lt;i5&gt;@alu.ua.es&lt;/i5&gt;, accesible a través de la sección &lt;i4&gt;webmail&lt;/i4&gt; de la página web de la Universidad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tant en el cas interactiu com en el de la pretraducció, qui tradueix ha d'acabar la traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133146Z" creationid="fsanchez" creationdate="20161102T133146Z">
+        <seg>Tanto en el caso interactivo como en el de la pretraducción, quién traduce ha de acabar la traducción.</seg>
       </tuv>
     </tu>
     <tu>
