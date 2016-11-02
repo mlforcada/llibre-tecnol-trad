@@ -3614,6 +3614,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>D'aquesta operació se'n diu &lt;i1&gt;alinear&lt;/i1&gt; el bitext.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113241Z" creationid="fsanchez" creationdate="20161102T113241Z">
+        <seg>A esta operación se la llama &lt;i1&gt;alinear&lt;/i1&gt; el bitexto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>D'aquests quatre, dedicarem la resta del capítol a descriure amb més detall el més important per a la traducció automàtica (i en general, per a qualsevol programa que haja de processar textos en llenguatge natural): l'ambigüitat inherent al llenguatge humà.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141416Z" creationid="fsanchez" creationdate="20161009T141416Z">
@@ -6186,6 +6194,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151207Z" creationid="fsanchez" creationdate="20161018T151207Z">
         <seg>Navegadores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Necessitem &lt;i0&gt;revisar la segmentació&lt;/i0&gt;, és a dir, ajuntar segments o partir segments, en un costat o en altre, fins que tinguem el mateix nombre de segments i siguen traducció mútua.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113238Z" creationid="fsanchez" creationdate="20161102T113238Z">
+        <seg>Necesitamos &lt;i0&gt;revisar la segmentación&lt;/i0&gt;, es decir, unir o partir segmentos, en un lado o en el otro, hasta que tengamos el mismo número de segmentos y sean traducción mutua.</seg>
       </tuv>
     </tu>
     <tu>
