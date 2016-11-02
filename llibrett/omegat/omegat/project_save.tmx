@@ -3870,6 +3870,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Després van anar [...] [...] per CC.OO.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114354Z" creationid="fsanchez" creationdate="20161102T114354Z">
+        <seg>Después fueron [...] [...] por CC.OO.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Dins d'una carpeta (directori) podem posar carpetes i documents (fitxers) mesclats?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100703Z" creationid="fsanchez" creationdate="20161028T100703Z">
@@ -6994,6 +7002,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085128Z" creationid="fsanchez" creationdate="20161025T085128Z">
         <seg>Pero es común que los ficheros estén ordenados según uno de sus campos: por ejemplo, un fichero bibliográfico puede estar ordenado por el apellido del primer autor, o por la materia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Però és que, al contrari del que podria semblar, no és gens senzill distingir quan un punt representa el final d'una oració: &lt;n1&gt; [...] molt tard.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114348Z" creationid="fsanchez" creationdate="20161102T114348Z">
+        <seg>Pero es que, al contrario de lo que podría parecer, no es nada sencillo distinguir cuando un punto representa el final de una oración: &lt;n1&gt; [...] muy tarde.</seg>
       </tuv>
     </tu>
     <tu>
