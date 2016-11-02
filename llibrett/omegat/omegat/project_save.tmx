@@ -3742,6 +3742,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>De fet, hi ha un format XML estàndard per a especificar i intercanviar regles de segmentació, anomenat SRX&lt;p2&gt;} (&lt;i1&gt;segmentation rules exchange&lt;/i1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114436Z" creationid="fsanchez" creationdate="20161102T114436Z">
+        <seg>De hecho, hay un formato XML estándar para especificar e intercambiar reglas de segmentación, llamado SRX&lt;p2&gt;} (&lt;i1&gt;segmentation rules exchange&lt;/i1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>De fet, per a evitar aquesta ambigüitat, es considera convenient &lt;i1&gt;però no obligatòria&lt;/i1&gt; en català la solució alternativa amb preposició &lt;i2&gt;als gal·lesos&lt;/i2&gt; per a la segona interpretació.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144804Z" creationid="fsanchez" creationdate="20161009T144804Z">
@@ -6066,6 +6074,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T164231Z" creationid="fsanchez" creationdate="20161027T164231Z">
         <seg>La secuencia de los nombres de las carpetas que hay que ir abriendo hasta que lleguemos a un fichero se conoce como la &lt;i0&gt;trayectoria&lt;/i0&gt; o &lt;i1&gt;ruta&lt;/i1&gt; del fichero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La situació és diferent quan s'estan traduint els missatges o textos inclosos en &lt;i2&gt;programes&lt;/i2&gt; d'ordinador, com a part de les tasques anomenades genèricament de &lt;i3&gt;localització&lt;/i3&gt; (adaptació de programes d'ordinador als usuaris d'una regió i idioma concrets); en aquest cas, pot ser molt útil veure tot el programa a més dels textos.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114451Z" creationid="fsanchez" creationdate="20161102T114451Z">
+        <seg>La situación es diferente cuando se están traduciendo los mensajes o textos incluidos en &lt;i2&gt;programas&lt;/i2&gt; de ordenador, como parte de las tareas llamadas genéricamente de &lt;i3&gt;localización&lt;/i3&gt; (adaptación de programas de ordenador a los usuarios de una región e idioma concretos); en este caso, puede ser muy útil ver todo el programa además de los textos.</seg>
       </tuv>
     </tu>
     <tu>
