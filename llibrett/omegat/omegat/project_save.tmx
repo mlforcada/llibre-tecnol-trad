@@ -5822,6 +5822,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>L'organització de les UT en una base de dades permet, a més, &lt;i0&gt;recuperar&lt;/i0&gt; de la memòria de traducció, quan s'està traduint un text nou $E'$, els segments esquerres, $e'_1, e'_2, &lt;u0&gt;$ i &lt;i1&gt;construir&lt;/i1&gt;, partint dels segments drets corresponents, la traducció desitjada $D'$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115009Z" creationid="fsanchez" creationdate="20161102T115009Z">
+        <seg>La organización de las UT en una base de datos permite, además, &lt;i0&gt;recuperar&lt;/i0&gt; de la memoria de traducción, cuando se está traduciendo un texto nuevo $E'$, los segmentos izquierdos, $e'_1, e'_2, &lt;u0&gt;$ y &lt;i1&gt;construir&lt;/i1&gt;, partiendo de los segmentos derechos correspondientes, la traducción deseada $D'$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>L'organització dels ordinadors en una xarxa local permet la comunicació d'informació entre ells i la compartició de recursos, com ara una impressora.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T153008Z" creationid="fsanchez" creationdate="20161027T153008Z">
@@ -6074,6 +6082,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151844Z" creationid="fsanchez" creationdate="20161027T151844Z">
         <seg>La memoria USB es un dispositivo de memoria flash, un chip de memoria que mantiene su contenido en ausencia de alimentación, que se conecta al puerto USB del ordenador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La memòria de traducció pot contenir unitats de traducció amb segments esquerres idèntics o similars.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115013Z" creationid="fsanchez" creationdate="20161102T115013Z">
+        <seg>La memoria de traducción puede contener unidades de traducción con segmentos izquierdos idénticos o similares.</seg>
       </tuv>
     </tu>
     <tu>
