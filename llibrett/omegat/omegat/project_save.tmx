@@ -7174,6 +7174,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Però, com que això succeeïx poques vegades, ja que els segments són normalment oracions i és difícil que es repetisquen &lt;i0&gt;exactament&lt;/i0&gt;, la major part dels sistemes comercials usen estratègies per a no desaprofitar unitats de traducció que continguen parts esquerres &lt;i1&gt;similars&lt;/i1&gt; a la nova (les anomenades &lt;i2&gt;concordances parcials&lt;/i2&gt;, o, en anglés, &lt;i3&gt;fuzzy matches&lt;/i3&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115041Z" creationid="fsanchez" creationdate="20161102T115041Z">
+        <seg>Pero, como esto sucede pocas veces, puesto que los segmentos son normalmente oraciones y es difícil que se repitan &lt;i0&gt;exactamente&lt;/i0&gt;, la mayor parte de los sistemas comerciales usan estrategias para no desaprovechar unidades de traducción que contengan partes izquierdas &lt;i1&gt;similares&lt;/i1&gt; a la nueva (las llamadas &lt;i2&gt;concordancias parciales&lt;/i2&gt;, o, en inglés, &lt;i3&gt;fuzzy matches&lt;/i3&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Però, el seu volum reduït limita les possibilitats de fer-hi ampliacions i, per tant, el seu temps de vida pot ser més curt que el dels ordinadors de sobretaula.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T084524Z" creationid="fsanchez" creationdate="20161028T084524Z">
