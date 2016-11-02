@@ -3718,6 +3718,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>D'altres programes usen estratègies pròpies (no descrites) per a construir traduccions usant fragments de parts dretes de més d'una UT.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115518Z" creationid="fsanchez" creationdate="20161102T115518Z">
+        <seg>Otros programas usan estrategias propias (no descritas) para construir traducciones usando fragmentos de partes derechas de más de una UT.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>D'aquesta operació se'n diu &lt;i1&gt;alinear&lt;/i1&gt; el bitext.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113241Z" creationid="fsanchez" creationdate="20161102T113241Z">
@@ -6978,6 +6986,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T150326Z" creationid="fsanchez" creationdate="20161018T150326Z">
         <seg>Por ejemplo, cuando queremos conectarnos a &lt;u0&gt;{cercador.dlsi.ua.es}, el servidor de nombres de nuestro proveedor de acceso a Internet ve que el nombre acaba en &lt;i0&gt;.es&lt;/i0&gt; y pregunta al servidor de nombres que se encarga de este &lt;i5&gt;dominio&lt;/i5&gt;; este servidor ve que el elemento anterior es &lt;i1&gt;.ua&lt;/i1&gt; y pregunta al servidor de nombres de la Universitat d'Alacant (UA), y éste, a su vez, pregunta al servidor de nombres del Departamento de Lenguajes y Sistemas Informáticos, puesto que el elemento anterior es &lt;i2&gt;.dlsi&lt;/i2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per exemple, si a la memòria hi ha la UT &lt;u0&gt;{&lt;u3&gt; Connecteu l'ordinador a la impressora.}{&lt;u4&gt; Conecte el ordenador a la impresora} però el nou text conté la frase &lt;i0&gt;Connecteu l'ordinador a la &lt;u10&gt;{xarxa&lt;/i0&gt;}, el programa pot trobar les correspondències &lt;u1&gt;{&lt;u5&gt; xarxa}{&lt;u6&gt; red} i &lt;u2&gt;{&lt;u7&gt; impressora}{&lt;u8&gt; impresora} en una base de dades lèxica i usar-les per a proposar la traducció correcta (&lt;i1&gt;Conecte el ordenador a la red&lt;/i1&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115516Z" creationid="fsanchez" creationdate="20161102T115516Z">
+        <seg>Por ejemplo, si en la memoria está la UT &lt;u0&gt;{&lt;u3&gt; Connecteu l'ordinador a la impressora.}{&lt;u4&gt; Conecte el ordenador a la impresora} pero el nuevo texto contiene la frase &lt;i0&gt;Connecteu l'ordinador a la &lt;u10&gt;{xarxa&lt;/i0&gt;}, el programa puede encontrar las correspondencias &lt;u1&gt;{&lt;u5&gt; xarxa}{&lt;u6&gt; red} e &lt;u2&gt;{&lt;u7&gt; impressora}{&lt;u8&gt; impresora} en una base de datos léxica y usarlas para proponer la traducción correcta (&lt;i1&gt;Conecte el ordenador a la red&lt;/i1&gt;).</seg>
       </tuv>
     </tu>
     <tu>
