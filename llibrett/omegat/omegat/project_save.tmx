@@ -5438,6 +5438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En particular, l'aparició d'un punt (``&lt;i0&gt;.&lt;/i0&gt;'') és moltes vegades un bon indicador del final d'una oració, però no sempre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141942Z" creationid="fsanchez" creationdate="20161102T141942Z">
+        <seg>En particular, la aparición de un punto (``&lt;i0&gt;.&lt;/i0&gt;'') es muchas veces un buen indicador del final de una oración, pero no siempre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En particular, és possible organitzar les bases de dades de manera que estiguen instal·lades en un o més servidors i que es puguen consultar i explotar des d'un altre ordinador a través d'Internet.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084943Z" creationid="fsanchez" creationdate="20161025T084943Z">
@@ -7890,6 +7898,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T152320Z" creationid="fsanchez" creationdate="20161027T152320Z">
         <seg>Cuando la imagen es la de un texto impreso, un programa de &lt;i2&gt;reconocimiento óptico de caracteres&lt;/i2&gt; (OCR, &lt;i3&gt;optical character recognition&lt;/i3&gt;) la puede convertir en una representación del texto adecuada para ser manipulada con un procesador de textos (véase la sección &lt;n1&gt;), generalmente con algunos errores tipográficos menores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Quan no?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141952Z" creationid="fsanchez" creationdate="20161102T141952Z">
+        <seg>¿Cuándo no?</seg>
       </tuv>
     </tu>
     <tu>
