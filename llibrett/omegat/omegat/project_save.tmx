@@ -750,6 +750,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u0&gt; $e'_2&lt;u1&gt; e_{112}$ (87%)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132328Z" creationid="fsanchez" creationdate="20161102T132328Z">
+        <seg>&lt;u0&gt; $e'_2&lt;u1&gt; e_{112}$ (87%)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u0&gt; $e'_5=e_{51}$ (100%)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132322Z" creationid="fsanchez" creationdate="20161102T132322Z">
+        <seg>&lt;u0&gt; $e'_5=e_{51}$ (100%)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u0&gt; &lt;n0&gt; &lt;n1&gt; &lt;u1&gt;{Els bitextos $E$ i $D$, segmentats i alineats, en $N$ unitats de traducció $(e_1,d_1), (e_2,d_2), &lt;u2&gt; (e_N,d_N)$}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113350Z" creationid="fsanchez" creationdate="20161102T113350Z">
