@@ -3438,6 +3438,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Cal definir clarament les regles de segmentació; els programes de memòries de traducció solen permetre que la persona usuària modifique o refine aquestes regles.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114425Z" creationid="fsanchez" creationdate="20161102T114425Z">
+        <seg>Hay que definir claramente las reglas de segmentación; los programas de memorias de traducción suelen permitir que el usuario modifique o refine estas reglas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Cal fer-ho 16 vegades; per tant, necessitem 16 bits.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102400Z" creationid="fsanchez" creationdate="20161028T102400Z">
@@ -8922,6 +8930,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145535Z" creationid="fsanchez" creationdate="20161018T145535Z">
         <seg>gubernamental &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>i per UGT [...] [...] per al Sr. Martínez [...] &lt;n2&gt; En els dos primers casos el punt és el final de l'oració però en els dos últims no.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114417Z" creationid="fsanchez" creationdate="20161102T114417Z">
+        <seg>y por UGT [...] [...] para el Sr. Martínez [...] &lt;n2&gt; En los dos primeros casos el punto es el final de la oración pero en los dos últimos no.</seg>
       </tuv>
     </tu>
     <tu>
