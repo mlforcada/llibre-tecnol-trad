@@ -5974,6 +5974,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La longitud de les unitats de traducció pot anar des dels mots fins a les oracions senceres.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114709Z" creationid="fsanchez" creationdate="20161102T114709Z">
+        <seg>La longitud de las unidades de traducción puede ir desde las palabras hasta las oraciones enteras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La major part d'aquests buscadors tenen interfícies d'ús en moltes llengües.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152934Z" creationid="fsanchez" creationdate="20161018T152934Z">
@@ -6082,6 +6090,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141631Z" creationid="fsanchez" creationdate="20161019T141611Z">
         <seg>La primera parte de un URI (identificador uniforme de recursos) especifica &lt;u4&gt;&lt;n0&gt; &lt;u1&gt; &lt;u5&gt; el esquema de acceso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>La probabilitat que un fragment esquerre (procedent dels bitextos ja existents) $e$ aparega en un nou text $E'$ és tant més gran com més menut és el fragment.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114717Z" creationid="fsanchez" creationdate="20161102T114717Z">
+        <seg>La probabilidad de que un fragmento izquierdo (procedente de los bitextos ya existentes) $e$ aparezca en un nuevo texto $E'$ es tanto más grande cuanto más pequeño es el fragmento.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9530,6 +9546,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113324Z" creationid="fsanchez" creationdate="20161102T113324Z">
         <seg>Es decir, el texto alineado nos proporciona $N$ bitextos (segmentos paralelos) $(e_1,d_1)$, $(e_2,d_2)$, $(e_3,d_3)$, etc., más pequeños (por eso los escribimos en minúscula); estos bitextos se denominan normalmente &lt;i1&gt;unidades de traducción&lt;/i1&gt; (UT): véase la figura &lt;n0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És a dir, quina seria la millor manera de dividir-lo en unitats de traducció?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114704Z" creationid="fsanchez" creationdate="20161102T114704Z">
+        <seg>Es decir, ¿cuál sería la mejor manera de dividirlo en unidades de traducción?</seg>
       </tuv>
     </tu>
     <tu>
