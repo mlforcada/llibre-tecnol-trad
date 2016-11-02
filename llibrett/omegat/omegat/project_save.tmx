@@ -3006,6 +3006,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Alguns sistemes, fins i tot, són capaços d'usar les bases de dades lèxiques o terminològiques de la persona usuària per a proposar traduccions per als mots discordants.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115433Z" creationid="fsanchez" creationdate="20161102T115433Z">
+        <seg>Algunos sistemas incluso son capaces de usar las bases de datos léxicas o terminológicas del usuario para proponer traducciones para las palabras discordantes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Als dispositius de la nostra xarxa local l'encaminador els assigna un número IP privat al que només tenen accés els ordinadors que formen part d'aquesta xarxa local; tots els dispositius d'aquesta xarxa local es connecten a Internet usant el mateix número IP, el número IP públic assignat al nostre encaminador.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T140345Z" creationid="fsanchez" creationdate="20161019T140345Z">
@@ -6346,6 +6354,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T122815Z" creationid="fsanchez" creationdate="20161010T122815Z">
         <seg>Las preferencias se suelen basar frecuentemente en métodos estadísticos, basados en observaciones obtenidas en grandes cantidades de texto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les puntuacions de concordança parcial se solen expressar com a percentatges, on el 0% indica falta total de concordança i el 100% concordança exacta, i el llindar se sol establir per damunt del 60%.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115426Z" creationid="fsanchez" creationdate="20161102T115426Z">
+        <seg>Las puntuaciones de concordancia parcial se suelen expresar como porcentajes, donde el 0% indica falta total de concordancia y el 100% concordancia exacta, y el umbral se suele establecer por encima del 60%.</seg>
       </tuv>
     </tu>
     <tu>
