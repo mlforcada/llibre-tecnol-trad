@@ -1886,6 +1886,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} usant la informació sintàctica com a pista.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141905Z" creationid="fsanchez" creationdate="20161102T141905Z">
+        <seg>&lt;u2&gt; {&lt;u6&gt;} usando la información sintáctica como pista.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; {&lt;u6&gt;}no es pot resoldre si no es fa l'anàlisi sintàctica completa de la frase, ja aquesta és l'única manera d'elegir l'anàlisi morfològica correcta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T113850Z" creationid="fsanchez" creationdate="20161014T113850Z">
@@ -2602,6 +2610,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T101620Z" creationid="fsanchez" creationdate="20161028T101620Z">
         <seg>&lt;u3&gt; {&lt;u7&gt;} una manera de especificar el formato de los textos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} usant regles que analitzen la puntuació i el format.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141908Z" creationid="fsanchez" creationdate="20161102T141908Z">
+        <seg>&lt;u3&gt; {&lt;u7&gt;} usando reglas que analizan la puntuación y el formato.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5902,6 +5918,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Indica quina d'aquestes afirmacions és falsa: &lt;n0&gt; &lt;u1&gt; Els resultats produïts per una memòria de traducció no necessiten revisió, ja que es basen en traduccions correctes realitzades anteriorment per professionals.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141918Z" creationid="fsanchez" creationdate="20161102T141918Z">
+        <seg>Indica cuál de estas afirmaciones es falsa: &lt;n0&gt; &lt;u1&gt; Los resultados producidos por una memoria de traducción no necesitan revisión, ya que se basan en traducciones correctas realizadas anteriormente por profesionales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Indiqueu de quina classe d'ambigüitat es tracta.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141556Z" creationid="fsanchez" creationdate="20161010T141556Z">
@@ -6714,6 +6738,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102222Z" creationid="fsanchez" creationdate="20161028T102222Z">
         <seg>Las líneas ADSL domésticas actuales admiten conexiones vía módem telefónico de unos cuántos megabits por segundo (véase la sección &lt;n1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les memòries de traducció comercials actuals segmenten i alineen els textos {&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} fent un balanç òptim entre cobertura i precisió.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141902Z" creationid="fsanchez" creationdate="20161102T141902Z">
+        <seg>Las memorias de traducción comerciales actuales segmentan y alinean los textos {&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} haciendo un balance óptimo entre cobertura y precisión.</seg>
       </tuv>
     </tu>
     <tu>
