@@ -5118,6 +5118,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'actualitat, hi ha molts programes de traducció assistida per ordinador basats en memòries de traducció disponibles comercialment (&lt;i0&gt;SDL Trados&lt;/i0&gt; de SDL International, &lt;i1&gt;Déjà Vu&lt;/i1&gt; d'Atril, &lt;i2&gt;IBM Translation Manager&lt;/i2&gt;, &lt;i3&gt;Transit&lt;/i3&gt; de Star, etc., per nomenar algunes de les més conegudes).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133906Z" creationid="fsanchez" creationdate="20161102T133906Z">
+        <seg>En la actualidad, hay muchos programas de memoria de traducción de propósito general disponibles comercialmente (&lt;i0&gt;SDL Trados&lt;/i0&gt; de SDL International, &lt;i1&gt;Déjà Vu&lt;/i1&gt; de Atril, &lt;i2&gt;IBM Translation Manager&lt;/i2&gt;, &lt;i3&gt;Transit&lt;/i3&gt; de Star, etc., por nombrar algunos de los más conocidos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'actualitat, podem comprar paquets de dades i pagar uns 5--7 euros per GB, o una quota mensual de desenes d'euros i tenir dades il·limitades.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T141503Z" creationid="fsanchez" creationdate="20161019T141503Z">
