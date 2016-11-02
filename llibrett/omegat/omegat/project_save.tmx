@@ -966,6 +966,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt;{&lt;u6&gt; textos equivalents}{&lt;u7&gt; textos equivalents}&lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113611Z" creationid="fsanchez" creationdate="20161102T113611Z">
+        <seg>&lt;u1&gt;{&lt;u6&gt; textos equivalents}{&lt;u7&gt; textos equivalentes}&lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; (a) &lt;u3&gt; (c) &lt;u4&gt; (b): Cada punt pot presentar-se en 8 colors diferents.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102423Z" creationid="fsanchez" creationdate="20161028T102423Z">
@@ -3446,6 +3454,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Com ja s'ha dit més amunt, una operació molt important per a la reutilització o el &lt;i0&gt;reciclatge&lt;/i0&gt; de traduccions antigues és la d'&lt;i1&gt;alinear&lt;/i1&gt; els textos i les traduccions existents per a identificar fragments o &lt;i2&gt;unitats de traducció&lt;/i2&gt; que es puguen reutilitzar posteriorment.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113627Z" creationid="fsanchez" creationdate="20161102T113627Z">
+        <seg>Como ya se ha dicho más arriba, una operación muy importante para la reutilización o el &lt;i0&gt;reciclaje&lt;/i0&gt; de traducciones antiguas es la de &lt;i1&gt;alinear&lt;/i1&gt; los textos y las traducciones existentes para identificar fragmentos o unidades &lt;i2&gt;de traducción&lt;/i2&gt; que se puedan reutilizar posteriormente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Com que &lt;i3&gt;sobre&lt;/i3&gt; va seguit de &lt;i4&gt;de&lt;/i4&gt;, que només pot ser preposició, podem descartar que &lt;i5&gt;sobre&lt;/i5&gt; siga una preposició.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T123022Z" creationid="fsanchez" creationdate="20161010T123022Z">
@@ -5634,6 +5650,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T125818Z" creationid="fsanchez" creationdate="20161010T125818Z">
         <seg>La experiencia nos ayuda a hacer predicciones que en general tienen éxito, pero a veces hay oraciones ``engañosas'' que ``nos llevan al huerto'' (llamadas, por eso, en inglés &lt;i2&gt;garden-path sentences&lt;/i2&gt;, del inglés &lt;i3&gt;lead up the garden path&lt;/i3&gt;) puesto que en cierto punto del proceso nos obligan a descartar la predicción hecha y reinterpretar lo que habíamos leído hasta aquel punto (el estudio de los movimientos oculares, en inglés &lt;i4&gt;eyetracking&lt;/i4&gt;) durante la lectura dan pistas muy relevantes sobre la existencia de estos procesos).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>L'operació d'alineament de bitextos existents és una de les tasques que es pot realitzar amb l'ajuda d'un programa de memòries de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113642Z" creationid="fsanchez" creationdate="20161102T113642Z">
+        <seg>La operación de alineación de bitextos existentes es una de las tareas que se puede realizar con la ayuda de un programa de memorias de traducción.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8130,6 +8154,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161014T114311Z" creationid="fsanchez" creationdate="20161014T114311Z">
         <seg>Un traductor automático por transferencia morfológica avanzada &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; resuelve la polisemia mediante el uso de un analizador morfológico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una &lt;i3&gt;memòria de traducció&lt;/i3&gt; és una base de dades en la qual cada fitxa (registre) conté una unitat de traducció, i té, per tant, com a mínim dos camps: el text esquerre i el text dret.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113637Z" creationid="fsanchez" creationdate="20161102T113637Z">
+        <seg>Una &lt;i3&gt;memoria de traducción&lt;/i3&gt; es una base de datos en la que cada ficha (registro) contiene una unidad de traducción, y tiene, por lo tanto, como mínimo dos campos: el texto izquierdo y el texto derecho.</seg>
       </tuv>
     </tu>
     <tu>
