@@ -4326,6 +4326,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Els d'UGT no van [...] [...] per CC.OO.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114402Z" creationid="fsanchez" creationdate="20161102T114402Z">
+        <seg>Los de UGT no  [...] [...] por CC.OO.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Els diccionaris anglesos, que solen agrupar els mots polisèmics en una entrada, típicament en fan dues entrades diferents, i, de fet, en lexicografia no és estrany referir-se a &lt;i13&gt;case&lt;/i13&gt; com un homògraf.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T143017Z" creationid="fsanchez" creationdate="20161009T143017Z">
