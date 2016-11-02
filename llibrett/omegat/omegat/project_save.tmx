@@ -830,6 +830,22 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u1&gt; $e'_3&lt;u2&gt; e_{47}$ (93%)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132353Z" creationid="fsanchez" creationdate="20161102T132353Z">
+        <seg>&lt;u1&gt; $e'_3&lt;u2&gt; e_{47}$ (93%)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; $e'_4$</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132356Z" creationid="fsanchez" creationdate="20161102T132356Z">
+        <seg>&lt;u1&gt; $e'_4$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u1&gt; (b): 2GB són $ 2&lt;u5&gt; 1.024 &lt;u6&gt; 1.024 = 2.097.152$ kB.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102607Z" creationid="fsanchez" creationdate="20161028T102607Z">
@@ -890,6 +906,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T155931Z" creationid="fsanchez" creationdate="20161027T155931Z">
         <seg>&lt;u1&gt; &lt;i2&gt;megabytes&lt;/i2&gt; (MB), o millones de bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; &lt;n0&gt; &lt;n1&gt; &lt;u2&gt;{Traducció d'un nou bitext $E'$ i els tipus de situacions de concordança que s'hi poden donar: concordança exacta per a $e'_1$ i $e'_5$, concordança parcial per a $e'_2$ i $e'_3$, i absència de concordança raonable per a $e'_4$.} &lt;n4&gt; &lt;n2&gt; Tant en un cas com en l'altre, poden passar tres coses, tal com es veu en l'exemple de la figura &lt;n5&gt;: &lt;n6&gt; &lt;u3&gt; Que es done una concordança exacta, com en el cas dels segments $e'_1$ i $e'_5$ i per tant, només calga comprovar que la proposta de la memòria es pot usar com la seua traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132351Z" creationid="fsanchez" creationdate="20161102T132351Z">
+        <seg>&lt;u1&gt; &lt;n0&gt; &lt;n1&gt; &lt;u2&gt;{La traducción de un bitexto nuevo $E'$ y los tipos de situaciones de concordancia que se pueden dar: concordancia exacta para $e'_1$ y $e'_5$, concordancia parcial para $e'_2$ y $e'_3$, y ausencia de concordancia razonable para $e'_4$.} &lt;n4&gt; &lt;n2&gt; Tanto en un caso como en el otro, pueden pasar tres cosas, tal y como se ve en el ejemplo de la figura &lt;n5&gt;: &lt;n6&gt; &lt;u3&gt; Que se dé una concordancia exacta, como en el caso de los segmentos $e'_1$ y $e'_5$ y por tanto, solo haya que comprobar que la propuesta de la memoria se pueda usar como su traducción.</seg>
       </tuv>
     </tu>
     <tu>
