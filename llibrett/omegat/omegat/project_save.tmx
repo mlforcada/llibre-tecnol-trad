@@ -1326,6 +1326,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; &lt;u6&gt; és necessari alinear els segments prèviament; aquesta operació es pot fer automàticament, encara que pot requerir supervisió.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143150Z" creationid="fsanchez" creationdate="20161102T143150Z">
+        <seg>&lt;u2&gt; &lt;u6&gt; es necesario alinear los segmentos previamente; esta operación se puede hacer automáticamente, aunque puede requerir supervisión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Als sistemes de traducció automàtica per interlingua.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141851Z" creationid="fsanchez" creationdate="20161102T141851Z">
@@ -2466,6 +2474,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102037Z" creationid="fsanchez" creationdate="20161028T102037Z">
         <seg>&lt;u3&gt; Que cada dato es una secuencia de &lt;i1&gt;bits&lt;/i1&gt;, cada uno de los cuales sólo puede adoptar dos valores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Que els textos origen i meta estiguen codificats en ISO-8859-1 (&lt;i0&gt;Latin-1&lt;/i0&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143133Z" creationid="fsanchez" creationdate="20161102T143133Z">
+        <seg>&lt;u3&gt; Que los textos origen y meta estén codificados en ISO-8859-1 (&lt;i0&gt;Latin-1&lt;/i0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -7690,6 +7706,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T120012Z" creationid="fsanchez" creationdate="20161019T120012Z">
         <seg>Para leer, escribir o enviar los mensajes de correo electrónico, se usan &lt;i0&gt;programas gestores de correo electrónico&lt;/i0&gt;, como por ejemplo Thunderbird, Outlook, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Per poder explotar les traduccions presents en un bitext (o text paral·lel) en un programa d'ajuda a la traducció basat en memòries de traducció &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; hi ha prou amb incloure els bitexts com a font d'unitats de traducció per al seu ús.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143145Z" creationid="fsanchez" creationdate="20161102T143145Z">
+        <seg>Para poder explotar las traducciones presentes en un bitexto (o texto paralelo) en un programa de ayuda a la traducción basado en memorias de traducción &lt;u4&gt; &lt;n0&gt; &lt;u1&gt; &lt;u5&gt; basta con incluir los bitextos como fuente de unidades de traducción para su uso.</seg>
       </tuv>
     </tu>
     <tu>
