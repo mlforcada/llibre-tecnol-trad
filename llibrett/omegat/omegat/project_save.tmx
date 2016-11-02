@@ -9134,6 +9134,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{Alineament assistit}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114620Z" creationid="fsanchez" creationdate="20161102T114620Z">
+        <seg>{Alineamiento asistido}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{Alineament automàtic}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114209Z" creationid="fsanchez" creationdate="20161102T114209Z">
