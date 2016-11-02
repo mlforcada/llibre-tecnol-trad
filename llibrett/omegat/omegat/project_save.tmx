@@ -6006,6 +6006,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>La majoria dels programes de memòria de traducció ofereixen a la persona usuària la possibilitat de validar o modificar (unint o dividint segments en el text esquerre o en el text dret) l'alineament automàtic inicial usant una interfície senzilla i intuïtiva abans d'incorporar els segments resultants a la memòria de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114650Z" creationid="fsanchez" creationdate="20161102T114650Z">
+        <seg>La mayoría de los programas de memoria de traducción ofrecen al usuario la posibilidad de validar o modificar (uniendo o dividiendo segmentos en el texto izquierdo o en el texto derecho) el alineamiento automático inicial usando una interfaz sencilla e intuitiva antes de incorporar los segmentos resultantes a la memoria de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>La majoria dels sistemes contenen una CPU ({&lt;u1&gt; central processing unit}, unitat central [de processament]), o senzillament, un &lt;i0&gt;processador&lt;/i0&gt; que és el responsable d'executar totes les instruccions de programa, de processar dades, i de controlar el funcionament d'altres components del maquinari.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150915Z" creationid="fsanchez" creationdate="20161027T150915Z">
@@ -9354,6 +9362,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T092029Z" creationid="fsanchez" creationdate="20161025T092029Z">
         <seg>{https://es.wikipedia.org/wiki/Terminología</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{l'alineament ideal} Hem descrit un tipus d'alineament possible, basat en unitats fonamentalment equivalent a les oracions, però, quin seria l'alineament òptim d'un bitext?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114701Z" creationid="fsanchez" creationdate="20161102T114701Z">
+        <seg>{el alineamiento ideal} Hemos descrito un tipo de alineamiento posible, basado en unidades fundamentalmente equivalente a las oraciones, pero, ¿cuál sería el alineamiento óptimo de un bitexto?</seg>
       </tuv>
     </tu>
     <tu>
