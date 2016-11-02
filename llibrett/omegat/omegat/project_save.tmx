@@ -14,6 +14,30 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>$D'$ en construcció &lt;n0&gt; &lt;n1&gt;{|p{3cm}|p{4cm}|}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132120Z" creationid="fsanchez" creationdate="20161102T132120Z">
+        <seg>$D'$ en construcción &lt;n0&gt; &lt;n1&gt;{|p{3cm}|p{4cm}|}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>$d'_1=d_{234}$ &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132123Z" creationid="fsanchez" creationdate="20161102T132123Z">
+        <seg>&lt;i1&gt;&lt;i3&gt;texto derecho $D$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>$e'_1=e_{234}$ (100%)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132121Z" creationid="fsanchez" creationdate="20161102T132121Z">
+        <seg>$e'_1=e{234}$ (100%)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(*) Considereu l'homògraf espanyol &lt;i0&gt;vendo&lt;/i0&gt; (``Te vendo un coche'' ``Y yo, ¿para qué quiero un coche vendado?'').</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141810Z" creationid="fsanchez" creationdate="20161010T141810Z">
@@ -4778,6 +4802,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T083940Z" creationid="fsanchez" creationdate="20161028T083940Z">
         <seg>En este dispositivo, el directorio principal o raíz (representado con el símbolo $&lt;u0&gt;$) contiene un único (sub)directorio &lt;u1&gt;{prac1}; este directorio contiene dos (sub)directorios, &lt;u2&gt;{tt} (que contiene los ficheros &lt;i0&gt;tt1.txt&lt;/i0&gt; y &lt;i1&gt;tt2.txt&lt;/i1&gt;) y &lt;u3&gt;{reserva}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>En aquesta modalitat, qui tradueix no té accés a la memòria de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T132114Z" creationid="fsanchez" creationdate="20161102T132114Z">
+        <seg>En esta modalidad, quien traduce no tiene acceso a la memoria de traducción.</seg>
       </tuv>
     </tu>
     <tu>
