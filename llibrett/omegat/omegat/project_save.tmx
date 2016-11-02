@@ -1534,6 +1534,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u2&gt; Les memòries de traducció poden organitzar els segments i les traduccions corresponents en bases de dades similars a les bases de dades lèxiques o terminològiques.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141924Z" creationid="fsanchez" creationdate="20161102T141924Z">
+        <seg>&lt;u2&gt; Las memorias de traducción organizan los fragmentos y las traducciones correspondientes en bases de datos similares a las bases de datos léxicas o terminológicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u2&gt; Les memòries de traducció usen informació sobre les categories lèxiques dels mots per a decidir els alineaments.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141709Z" creationid="fsanchez" creationdate="20161102T141709Z">
@@ -2522,6 +2530,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T100111Z" creationid="fsanchez" creationdate="20161028T100111Z">
         <seg>&lt;u3&gt; Una estructura de datos que representa el texto generado por un procesador de textos y que tiene un nombre asociado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u3&gt; Una memòria de traducció és un sistema de traducció directa amb equivalències entre segments de text observades en textos anteriorment traduïts.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141930Z" creationid="fsanchez" creationdate="20161102T141930Z">
+        <seg>&lt;u3&gt; Una memoria de traducción es un sistema de traducción directa con equivalencias entre fragmentos de texto extraídas de textos anteriormente traducidos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6746,6 +6762,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141902Z" creationid="fsanchez" creationdate="20161102T141902Z">
         <seg>Las memorias de traducción comerciales actuales segmentan y alinean los textos {&lt;u4&gt;} &lt;n0&gt; &lt;u1&gt; {&lt;u5&gt;} haciendo un balance óptimo entre cobertura y precisión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Les memòries de traducció usen els signes de puntuació per a segmentar les oracions abans d'alinear els textos.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T141934Z" creationid="fsanchez" creationdate="20161102T141934Z">
+        <seg>Las memorias de traducción usan los signos de puntuación para segmentar las oraciones antes de alinear los textos.</seg>
       </tuv>
     </tu>
     <tu>
