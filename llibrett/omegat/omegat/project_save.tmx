@@ -4782,6 +4782,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En cas de trobar un segment idèntic (&lt;i0&gt;concordança exacta&lt;/i0&gt;, en anglés &lt;i1&gt;exact match&lt;/i1&gt;) per al qual només hi haja una traducció disponible, només cal inserir-ne la traducció directament.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115026Z" creationid="fsanchez" creationdate="20161102T115026Z">
+        <seg>En caso de encontrar un segmento idéntico (&lt;i0&gt;concordancia exacta&lt;/i0&gt;, en inglés &lt;i1&gt;exact match&lt;/i1&gt;) para el cual sólo haya una traducción disponible, sólo hay que insertar la traducción directamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En català ---i en general en les llengües romàniques--- són molt comunes les ambigüitats degudes a la combinació d'un mot que pot ser pronom feble de tercera persona o article (&lt;i13&gt;el&lt;/i13&gt;, &lt;i14&gt;la&lt;/i14&gt;, &lt;i15&gt;l'&lt;/i15&gt;, &lt;i16&gt;els&lt;/i16&gt;, &lt;i17&gt;les&lt;/i17&gt;) i un altre mot que pot ser substantiu o verb conjugat.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T152547Z" creationid="fsanchez" creationdate="20161009T152547Z">
