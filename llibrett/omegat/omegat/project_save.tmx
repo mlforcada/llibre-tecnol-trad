@@ -6510,6 +6510,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Les noves unitats de traducció $(e',d')$ que s'hagen produït en el procés es poden enviar a la memòria de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133818Z" creationid="fsanchez" creationdate="20161102T133818Z">
+        <seg>Las nuevas unidades de traducción $(e',d')$ que se hayan producido en el proceso se pueden enviar a la memoria de traduccuión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Les operacions més comunes que es realitzen sobre una base de dades també són similars a aquelles que podem fer amb un fitxer de fitxes de cartolina, però la gestió és més senzilla i són possibles molts més usos: &lt;n0&gt; &lt;u0&gt; &lt;i0&gt;Creació de l'estructura de la base de dades&lt;/i0&gt;: definir cada taula, definint l'estructura de les fitxes i el tipus de dades de cada camp.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084400Z" creationid="fsanchez" creationdate="20161025T084400Z">
@@ -8794,6 +8802,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114927Z" creationid="fsanchez" creationdate="20161102T114927Z">
         <seg>Una vez alineados los bitextos las unidades de traducción se organizan para que tanto el programa como el usuario puedan acceder a ellas eficientemente; por ejemplo, como una base de datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Una vegada feta la pretraducció o la selecció interactiva de propostes de traducció para cada un dels segments del text esquerre $E'$, el programa les mostra alineades amb els segments del text esquerre perquè la persona usuària les puga posteditar i produir el text dret correcte $D'$.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133809Z" creationid="fsanchez" creationdate="20161102T133809Z">
+        <seg>Una vez hecha la pretraducción o la selección interactiva de propuestas de traducción para cada uno de los segmentos del texto izquierdo $E'$, el programa las muestra alineadas con los segmentos del texto izquierdo para que la persona usuaria las pueda posteditar y producir el texto derecho correcto $D'$.</seg>
       </tuv>
     </tu>
     <tu>
