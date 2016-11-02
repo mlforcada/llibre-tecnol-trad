@@ -694,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u0&gt; &lt;n0&gt; &lt;n1&gt; &lt;u1&gt;{Els bitextos $E$ i $D$, segmentats i alineats, en $N$ unitats de traducció $(e_1,d_1), (e_2,d_2), &lt;u2&gt; (e_N,d_N)$}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113350Z" creationid="fsanchez" creationdate="20161102T113350Z">
+        <seg>&lt;u0&gt; &lt;n0&gt; &lt;n1&gt; &lt;u1&gt;{Los bitextos $E$ y $D$ segmentados y alineados en $N$ unidades de traducción, $(e_1,d_1), (e_2,d_2), &lt;u2&gt; (e_N,d_N)$}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u0&gt;&lt;n0&gt; &lt;n1&gt; &lt;u1&gt;{Alguns indicatius Internet usats originalment als Estats Units d'Amèrica i més recentment arreu del món, alguns d'ells patrocinats per determinades institucions.}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145712Z" creationid="fsanchez" creationdate="20161018T145712Z">
