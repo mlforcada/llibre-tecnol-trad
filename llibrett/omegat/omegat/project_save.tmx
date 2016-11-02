@@ -5814,6 +5814,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Intercanvi de memòries de traducció</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140358Z" creationid="fsanchez" creationdate="20161102T140358Z">
+        <seg>El intercambio de memorias de traducción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Internet</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144256Z" creationid="fsanchez" creationdate="20161018T144256Z">
@@ -8670,6 +8678,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un exemple clàssic és l'edició bilingüe (espanyol--català) d'&lt;i0&gt;El Periódico de Catalunya&lt;/i0&gt; (vegeu l'epígraf &lt;n1&gt;), que es prepara diàriament amb un mètode completament automàtic que funciona en molts aspectes de manera similar a una memòria de traducció.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140356Z" creationid="fsanchez" creationdate="20161102T140356Z">
+        <seg>Un ejemplo clásico es la edición bilingüe (español--catalán) de &lt;i0&gt;El Periódico de Cataluña&lt;/i0&gt; (véase el epígrafe &lt;n1&gt;), que se prepara diariamente con un método completamente automático que funciona en muchos aspectos de manera similar a una memoria de traducción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un megahertzs equival a un milió de hertzs (Hz), és a dir, un milió de cicles de processament d'informació per segon.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T151050Z" creationid="fsanchez" creationdate="20161027T151050Z">
@@ -9702,6 +9718,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{El format d'intercanvi TMX}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140400Z" creationid="fsanchez" creationdate="20161102T140400Z">
+        <seg>{El formato de intercambio TMX}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{Esquema d'accés domèstic a Internet des de diversos dispositius connectats a un mòdem-encaminador.}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161019T121046Z" creationid="fsanchez" creationdate="20161019T121046Z">
@@ -9882,6 +9906,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133833Z" creationid="fsanchez" creationdate="20161102T133833Z">
         <seg>{http://www.omegat.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{http://www.ttt.org/oscarstandards/tmx/tmx14b.html</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140401Z" creationid="fsanchez" creationdate="20161102T140401Z">
+        <seg>{http://www.ttt.org/oscarstandards/tmx/tmx14b.html</seg>
       </tuv>
     </tu>
     <tu>
