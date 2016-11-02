@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;?xml version='1.0' encoding='ISO-8859-1' ?&gt; &lt;!DOCTYPE tmx SYSTEM 'tmx13.dtd'&gt; &lt;&lt;i0&gt;tmx&lt;/i0&gt; version='1.3'&gt; &lt;&lt;i1&gt;header&lt;/i1&gt; creationtool='Waikoloa' creationtoolversion='1.00' datatype='plaintext' segtype='paragraph' adminlang='EN-US' srclang='EN-US' o-tmf='okLiteTM'&gt; &lt;/&lt;i2&gt;header&lt;/i2&gt;&gt; &lt;&lt;i3&gt;body&lt;/i3&gt;&gt; &lt;!-- ... --&gt; &lt;&lt;i4&gt;tu&lt;/i4&gt; tuid='511'&gt; &lt;&lt;i5&gt;prop&lt;/i5&gt; type='tmkey'&gt;a thesaurus error occurred word is ending the current session&lt;/&lt;i6&gt;prop&lt;/i6&gt;&gt; &lt;&lt;i7&gt;tuv&lt;/i7&gt; xml:lang='EN-US'&gt; &lt;&lt;i8&gt;seg&lt;/i8&gt;&gt;A thesaurus error occurred.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140501Z" creationid="fsanchez" creationdate="20161102T140501Z">
+        <seg>&lt;?xml version='1.0' encoding='ISO-8859-1' ?&gt; &lt;!DOCTYPE tmx SYSTEM 'tmx13.dtd'&gt; &lt;&lt;i0&gt;tmx&lt;/i0&gt; version='1.3'&gt; &lt;&lt;i1&gt;header&lt;/i1&gt; creationtool='Waikoloa' creationtoolversion='1.00' datatype='plaintext' segtype='paragraph' adminlang='EN-US' srclang='EN-US' o-tmf='okLiteTM'&gt; &lt;/&lt;i2&gt;header&lt;/i2&gt;&gt; &lt;&lt;i3&gt;body&lt;/i3&gt;&gt; &lt;!-- ... --&gt; &lt;&lt;i4&gt;tu&lt;/i4&gt; tuid='511'&gt; &lt;&lt;i5&gt;prop&lt;/i5&gt; type='tmkey'&gt;a thesaurus error occurred word is ending the current session&lt;/&lt;i6&gt;prop&lt;/i6&gt;&gt; &lt;&lt;i7&gt;tuv&lt;/i7&gt; xml:lang='EN-US'&gt; &lt;&lt;i8&gt;seg&lt;/i8&gt;&gt;A thesaurus error occurred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133312Z" creationid="fsanchez" creationdate="20161102T133312Z">
@@ -4226,6 +4234,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T151115Z" creationid="fsanchez" creationdate="20161018T151115Z">
         <seg>El fichero que contiene el hipertexto se denomina &lt;i10&gt;index.html&lt;/i10&gt;, donde las siglas HTML corresponden a &lt;i5&gt;hypertext markup language&lt;/i5&gt;, nombre del lenguaje o sistema de marcas más usado para dar formato a los hipertextos (véase el apartado &lt;n6&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>El format TMX segueix les especificacions XML (vegeu l'apartat &lt;n0&gt;); és a dir, les memòries TMX són un tipus de document XML, definit, per tant, per una DTD concreta.&lt;p0&gt;}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T140457Z" creationid="fsanchez" creationdate="20161102T140457Z">
+        <seg>El formato TMX sigue las especificaciones XML (veáse el apartado &lt;n0&gt;); es decir, las memorias TMX son un tipo de documento XML, definido, por lo tanto, por una DTD concreta.&lt;p0&gt;}</seg>
       </tuv>
     </tu>
     <tu>
