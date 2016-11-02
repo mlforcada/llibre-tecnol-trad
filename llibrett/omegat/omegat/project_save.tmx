@@ -6390,6 +6390,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Molts programes marquen les unitats de traducció amb un codi que indica la temàtica o la naturalesa o el nom del bitext del qual s'ha extret les unitats de traducció, de manera que la temàtica del nou document servisca per a localitzar les unitats de traducció més adequades en cada cas.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114948Z" creationid="fsanchez" creationdate="20161102T114948Z">
+        <seg>Muchos programas marcan las unidades de traducción con un código que indica la temática o la naturaleza o el nombre del bitexto del cual se han extraído las unidades de traducción, de forma que la temática del nuevo documento sirva para localizar las unidades de traducción más adecuadas en cada caso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Més exemples: &lt;n1&gt; Va parlar amb l'encarregat de la neteja de la seua casa &lt;n4&gt; &lt;n2&gt; Hi ha una bossa de roba perduda en la Secretaria de l'Escola &lt;n7&gt; &lt;n5&gt; &lt;u2&gt;{tuson99b} explica que aquesta última oració pot tenir fins a 12 interpretacions possibles.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144616Z" creationid="fsanchez" creationdate="20161009T144616Z">
@@ -8178,6 +8186,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161027T150611Z" creationid="fsanchez" creationdate="20161027T150611Z">
         <seg>Todos los sistemas informáticos&lt;p0&gt; se pueden dividir en dos partes: &lt;i0&gt;hardware&lt;/i0&gt; y &lt;i1&gt;software&lt;/i1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Traducció amb memòries de traducció</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114952Z" creationid="fsanchez" creationdate="20161102T114952Z">
+        <seg>Traducción con memorias de traducción</seg>
       </tuv>
     </tu>
     <tu>
