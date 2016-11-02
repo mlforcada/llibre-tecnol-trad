@@ -4774,6 +4774,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En l'exemple, el text esquerre té dos segments més (és a dir, $L=M+2$).}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113212Z" creationid="fsanchez" creationdate="20161102T113212Z">
+        <seg>En el ejemplo, el texto izquierdo tiene dos segmentos más (es decir, $L=M+2$).}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En l'oració &lt;i0&gt;El cotxe s'ha cremat amb el garatge i l'assegurança no el cobreix&lt;/i0&gt; no se sap quina de les dues coses està coberta per l'assegurança, el garatge o el cotxe.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141721Z" creationid="fsanchez" creationdate="20161010T141721Z">
