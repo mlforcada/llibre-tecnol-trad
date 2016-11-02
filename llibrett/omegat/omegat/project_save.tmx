@@ -6374,6 +6374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>O obtingut mitjançant mètodes estadístics com els descrits en l'apartat &lt;n0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114239Z" creationid="fsanchez" creationdate="20161102T114239Z">
+        <seg>U obtenido mediante métodos estadísticos como los descritos en el apartado &lt;n0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>O per exemple, els idiomes difereixen en la manera en la qual expressen les relacions entre dos noms: on en català diem &lt;i14&gt;president &lt;i18&gt;de&lt;/i14&gt; Kazakhstan&lt;/i18&gt;, el rus diu &lt;i15&gt;prezident Kazakhstan&lt;i19&gt;a&lt;/i15&gt;&lt;/i19&gt;, el basc diu &lt;i16&gt;Kazakstan&lt;i20&gt;go&lt;/i16&gt; presidente&lt;/i20&gt;, o el Kazakh diu &lt;i17&gt;Qazaqstan prezident&lt;i21&gt;i&lt;/i17&gt;&lt;/i21&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141248Z" creationid="fsanchez" creationdate="20161009T141248Z">
@@ -9418,6 +9426,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T090751Z" creationid="fsanchez" creationdate="20161025T090751Z">
         <seg>Es evidente, por tanto, que hay que establecer un sistema alternativo para poder hacer búsquedas rápidas por más de un campo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>És important usar el mateix mètode per a segmentar el bitext abans d'alinear-lo i per a segmentar el nou text esquerre a traduir.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T114244Z" creationid="fsanchez" creationdate="20161102T114244Z">
+        <seg>Es importante usar el mismo método para segmentar el bitexto antes de alinearlo y para segmentar el nuevo texto izquierdo a traducir.</seg>
       </tuv>
     </tu>
     <tu>
