@@ -4918,6 +4918,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>En general, la utilitat d'una memòria de traducció depén en gran part de la capacitat del sistema per a proposar traduccions per a segments {&lt;u9&gt; similars} (i per a això s'han de definir i usar criteris adequats de &lt;i2&gt;similitud&lt;/i2&gt;).</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T115714Z" creationid="fsanchez" creationdate="20161102T115714Z">
+        <seg>En general, la utilidad de una memoria de traducción depende en gran parte de la capacidad del sistema para proponer traducciones para segmentos {&lt;u9&gt; similares} (y para esto se tienen que definir y usar criterios adecuados de &lt;i2&gt;similitud&lt;/i2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>En informàtica, els fitxers d'aquesta mena se solen anomenar normalment &lt;i0&gt;bases de dades&lt;/i0&gt; (BD); les fitxes s'anomenen &lt;i1&gt;registres&lt;/i1&gt; i cada element d'informació de la fitxa s'anomena &lt;i2&gt;camp&lt;/i2&gt;.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T084128Z" creationid="fsanchez" creationdate="20161025T084128Z">
