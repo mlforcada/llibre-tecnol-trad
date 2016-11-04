@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaTN" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.6.0_3_r9207:9217" segtype="sentence" srclang="CA"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="CA"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -774,6 +774,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n1&gt; i afegeixen la pregunta clau: ``Què vol dir &lt;i2&gt;bo&lt;/i2&gt; o &lt;i3&gt;millor&lt;/i3&gt; en aquest context?'' La resposta a totes aquestes preguntes és molt difícil, com diu &lt;u1&gt;{minnis94j}: ``el fet que no s'haja proposat cap mètode d'avaluació o de mesurament estàndard és un bon indicador de la magnitud del problema''.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="mlf" changedate="20161104T222329Z" creationid="mlf" creationdate="20161104T222329Z">
+        <seg>&lt;n1&gt; y añaden la pregunta clave: ¿``Qué quiere decir &lt;i2&gt;bueno&lt;/i2&gt; o &lt;i3&gt;mejor&lt;/i3&gt; en este contexto''? La respuesta a todas estas preguntas es muy difícil, como dice &lt;u1&gt;{minnis94j}: ``el hecho que no se haya propuesto ningún método de evaluación o de medición estándar es un buen indicador de la magnitud del problema''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n1&gt; {&lt;u0&gt; $$ &lt;i0&gt;&lt;i2&gt;bitext&lt;/i0&gt;&lt;/i2&gt;&lt;u1&gt;&lt;u2&gt;&lt;u3&gt;&lt;u4&gt;&lt;n2&gt;{rcl} &lt;i1&gt;&lt;i3&gt;text esquerre $E$</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T113657Z" creationid="fsanchez" creationdate="20161102T113657Z">
@@ -954,6 +962,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T144106Z" creationid="fsanchez" creationdate="20161009T144106Z">
         <seg>&lt;u0&gt;{alcaraz97b} definen la &lt;i1&gt;elipsis&lt;/i1&gt;&lt;n0&gt; como la omisión o la ausencia de alguna parte de una oración.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u0&gt;{arnold94b} plantegen el problema així: &lt;n0&gt; &lt;u2&gt; Com es pot decidir si un sistema de TA és &lt;i0&gt;bo&lt;/i0&gt;?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="mlf" changedate="20161104T222313Z" creationid="mlf" creationdate="20161104T222313Z">
+        <seg>&lt;u0&gt;{arnold94b} plantean el problema así: &lt;n0&gt; &lt;u2&gt;¿Cómo se puede decidir si un sistema de TA es &lt;i0&gt;bueno&lt;/i0&gt;?</seg>
       </tuv>
     </tu>
     <tu>
@@ -2358,6 +2374,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;u3&gt; Com es pot decidir si un sistema de TA és &lt;i1&gt;millor&lt;/i1&gt; que un altre?</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="mlf" changedate="20161104T222316Z" creationid="mlf" creationdate="20161104T222316Z">
+        <seg>&lt;u3&gt;¿ Cómo se puede decidir si un sistema de TA es &lt;i1&gt;mejor&lt;/i1&gt; que otro?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;u3&gt; Depén.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105811Z" creationid="fsanchez" creationdate="20161025T105811Z">
@@ -3690,6 +3714,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T144813Z" creationid="fsanchez" creationdate="20161018T144813Z">
         <seg>Se denomina &lt;i0&gt;Internet&lt;/i0&gt; a un conjunto de ordenadores, distribuidos en todo el mundo e interconectados mediante un protocolo estándar (el &lt;i1&gt;protocolo de Internet&lt;/i1&gt; o IP) de forma que los recursos presentes en unos ordenadores (normalmente, información) están disponibles para ser usados por los usuarios de otros ordenadores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Aquest capítol pretén enunciar i descriure molt breument alguns dels aspectes rellevants de l'avaluació dels sistemes de traducció automàtica i donar algunes referències que puguen ser d'interés per a qui vulga aprofundir en aquest tema.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="mlf" changedate="20161104T222253Z" creationid="mlf" creationdate="20161104T222253Z">
+        <seg>Este capítulo pretende enunciar y describir muy brevemente algunos de los aspectos relevantes de la evaluación de los sistemas de traducción automática y dar algunas referencias que puedan ser de interés para quien quiera profundizar en este tema.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8238,6 +8270,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Quan ens plantegem l'avaluació dels sistemes de traducció automàtica (TA), hi ha algunes preguntes bàsiques que cal respondre.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="mlf" changedate="20161104T222259Z" creationid="mlf" creationdate="20161104T222259Z">
+        <seg>Cuando nos planteamos la evaluación de los sistemas de traducción automática (TA), hay algunas preguntas básicas que hay que responder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Quan es duplica el nombre de fitxes d'una taula determinada d'una base de dades, què succeeix amb el nombre de consultes que realitza una recerca dicotòmica?</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105708Z" creationid="fsanchez" creationdate="20161025T105708Z">
@@ -8610,6 +8650,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T083812Z" creationid="fsanchez" creationdate="20161025T083812Z">
         <seg>¿Qué es una base de datos?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Qüestions bàsiques</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="mlf" changedate="20161104T222255Z" creationid="mlf" creationdate="20161104T222255Z">
+        <seg>Cuestiones básicas</seg>
       </tuv>
     </tu>
     <tu>
@@ -9318,6 +9366,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Un concepte clau és el d'&lt;i0&gt;utilitat&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="mlf" changedate="20161104T222340Z" creationid="mlf" creationdate="20161104T222340Z">
+        <seg>Un concepto clave es el de &lt;i0&gt;utilidad&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Un dels buscadors més populars a l'hora d'escriure aquestes línies és &lt;i0&gt;Google&lt;/i0&gt; (&lt;u0&gt;{http://www.google.com}); però també hi ha altres com &lt;i1&gt;Duckduckgo!&lt;/i1&gt;, &lt;i2&gt;StartPage&lt;/i2&gt;, etc.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T152927Z" creationid="fsanchez" creationdate="20161018T152927Z">
@@ -9730,6 +9786,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T092639Z" creationid="fsanchez" creationdate="20161028T092603Z">
         <seg>[ADSL] (del inglés &lt;i0&gt;asymmetric digital subscriber line&lt;/i0&gt;, línea de abonado digital asimétrica): Versión asimétrica de DSL (véase DSL).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>[Avaluació dels sistemes de TA]{Avaluació dels sistemes de traducció automàtica}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="mlf" changedate="20161104T222240Z" creationid="mlf" creationdate="20161104T222132Z">
+        <seg>[Evaluación de los sistemas de TA]{Evaluación de los sistemas de traducción automática}</seg>
       </tuv>
     </tu>
     <tu>
