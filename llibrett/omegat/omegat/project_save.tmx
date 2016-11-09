@@ -7318,6 +7318,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Niue &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160220Z" creationid="fsanchez" creationdate="20161109T160220Z">
+        <seg>Niue &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>No obstant això, hi ha d'altres que només poden ser tractades si es fa una anàlisi sintàctica (tot i que l'ambigüitat siga de tipus lèxic) i fins i tot n'hi ha que requeririen una anàlisi semàntica per a resoldre-les.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161010T141443Z" creationid="fsanchez" creationdate="20161010T141443Z">
@@ -9254,6 +9262,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Tonga &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160217Z" creationid="fsanchez" creationdate="20161109T160217Z">
+        <seg>Tonga &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Tornem a repetir el procés, aquesta vegada considerant només la subllista d'elements entre el 7 i el 12; tenim sort i en mirar l'element central (el 9) ens adonem que coincideix amb l'element buscat: la recerca, doncs, acaba amb èxit.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T085903Z" creationid="fsanchez" creationdate="20161025T085903Z">
@@ -9314,6 +9330,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102634Z" creationid="fsanchez" creationdate="20161028T102634Z">
         <seg>Tres bits por mes no son suficientes (permiten sólo 8 combinaciones); cuatro sí (permiten 16 combinaciones).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Tuvalu &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160213Z" creationid="fsanchez" creationdate="20161109T160213Z">
+        <seg>Tuvalu &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10406,6 +10430,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{&lt;u0&gt; .fm}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160222Z" creationid="fsanchez" creationdate="20161109T160222Z">
+        <seg>{&lt;u0&gt; .fm}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{&lt;u0&gt; .fr}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160150Z" creationid="fsanchez" creationdate="20161109T160150Z">
@@ -10430,6 +10462,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>{&lt;u0&gt; .nu}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160218Z" creationid="fsanchez" creationdate="20161109T160218Z">
+        <seg>{&lt;u0&gt; .nu}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>{&lt;u0&gt; .pt}</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160152Z" creationid="fsanchez" creationdate="20161109T160152Z">
@@ -10442,6 +10482,22 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160201Z" creationid="fsanchez" creationdate="20161109T160201Z">
         <seg>{&lt;u0&gt; .ru}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .to}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160215Z" creationid="fsanchez" creationdate="20161109T160215Z">
+        <seg>{&lt;u0&gt; .to}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .tv}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160212Z" creationid="fsanchez" creationdate="20161109T160212Z">
+        <seg>{&lt;u0&gt; .tv}</seg>
       </tuv>
     </tu>
     <tu>
