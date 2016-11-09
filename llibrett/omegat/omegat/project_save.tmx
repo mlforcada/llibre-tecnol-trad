@@ -6406,6 +6406,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>Irlanda &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160208Z" creationid="fsanchez" creationdate="20161109T160208Z">
+        <seg>Irlanda &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>Itàlia &lt;br0&gt;</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161018T145435Z" creationid="fsanchez" creationdate="20161018T145435Z">
@@ -8130,6 +8138,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T143236Z" creationid="fsanchez" creationdate="20161102T143236Z">
         <seg>¿Podemos usar una memoria de traducción con segmentos en inglés y español para traducir del alemán al español?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>Portugal &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160155Z" creationid="fsanchez" creationdate="20161109T160155Z">
+        <seg>Portugal &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10386,6 +10402,62 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133303Z" creationid="fsanchez" creationdate="20161102T133303Z">
         <seg>{&lt;i2&gt;postedición&lt;/i0&gt;&lt;/i2&gt;} &lt;u1&gt; &lt;i1&gt;&lt;u3&gt;{1.4cm&lt;/i1&gt;{&lt;i3&gt;texto derecho traducido y segmentado&lt;/i3&gt;}} &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .fr}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160150Z" creationid="fsanchez" creationdate="20161109T160150Z">
+        <seg>{&lt;u0&gt; .fr}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .ie}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160206Z" creationid="fsanchez" creationdate="20161109T160206Z">
+        <seg>{&lt;u0&gt; .ie}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .it}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160157Z" creationid="fsanchez" creationdate="20161109T160157Z">
+        <seg>{&lt;u0&gt; .it}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .pt}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160152Z" creationid="fsanchez" creationdate="20161109T160152Z">
+        <seg>{&lt;u0&gt; .pt}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .ru}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160201Z" creationid="fsanchez" creationdate="20161109T160201Z">
+        <seg>{&lt;u0&gt; .ru}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .uk}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160159Z" creationid="fsanchez" creationdate="20161109T160159Z">
+        <seg>{&lt;u0&gt; .uk}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; .za}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160204Z" creationid="fsanchez" creationdate="20161109T160204Z">
+        <seg>{&lt;u0&gt; .za}</seg>
       </tuv>
     </tu>
     <tu>
