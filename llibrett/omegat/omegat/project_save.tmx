@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>(a) &lt;u1&gt; (c) &lt;u2&gt; (b) &lt;u3&gt; (b) &lt;u4&gt; (c)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160244Z" creationid="fsanchez" creationdate="20161109T160244Z">
+        <seg>(a) &lt;u1&gt; (c) &lt;u2&gt; (b) &lt;u3&gt; (b) &lt;u4&gt; (c)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>(a): Tenim 12 valors diferents (de gener a desembre).</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102629Z" creationid="fsanchez" creationdate="20161028T102629Z">
@@ -1306,6 +1314,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161028T102157Z" creationid="fsanchez" creationdate="20161028T102157Z">
         <seg>&lt;u2&gt; (a): Una velocidad de 300 kilobytes por segundo equivale a unos $300 &lt;u7&gt; 8=2.400$ kilobits por segundo; alrededor 2,3 Mb/s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u2&gt; (b) &lt;u3&gt; (a) &lt;u4&gt; (c)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160240Z" creationid="fsanchez" creationdate="20161109T160240Z">
+        <seg>&lt;u2&gt; (b) &lt;u3&gt; (a) &lt;u4&gt; (c)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2970,6 +2986,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T150957Z" creationid="fsanchez" creationdate="20161009T150957Z">
         <seg>&lt;u3&gt;{Decir que en este caso el borrador de las partes repetidas es obligatorio en la mayor parte de las lenguas} Consideremos el ejemplo siguiente, sacado de &lt;u4&gt;[p.399]{radford09b}: &lt;n2&gt; &lt;n4&gt; Los escoceses aprecian el whisky más que los galeses &lt;n5&gt; La oración tiene dos interpretaciones: &lt;n3&gt; &lt;u1&gt;[(a)] Los escoceses aprecian el whisky más que los galeses (aprecian el whisky) &lt;u2&gt;[(b)] Los escoceses aprecian el whisky más que (los escoceses aprecian) a los galeses&lt;p0&gt; &lt;n6&gt; En estos dos casos, la ambigüedad está causada por el hecho de que son posibles dos estructuras sintácticas para la segunda oración coordinada: en la primera estructura, el sintagma &lt;i3&gt;los galeses&lt;/i3&gt; es el sujeto mientras que en la segunda estructura es el objeto (véanse los árboles de la fig. &lt;n7&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u4&gt; (a)</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160235Z" creationid="fsanchez" creationdate="20161109T160235Z">
+        <seg>&lt;u4&gt; (a)</seg>
       </tuv>
     </tu>
     <tu>
