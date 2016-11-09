@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="CA"/>
+  <header creationtool="OmegaTN" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.6.0_3_r9207:9217" segtype="sentence" srclang="CA"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -806,6 +806,14 @@
     </tu>
     <tu>
       <tuv lang="CA">
+        <seg>&lt;n2&gt; }</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160133Z" creationid="fsanchez" creationdate="20161109T160133Z">
+        <seg>&lt;n2&gt; }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
         <seg>&lt;n3&gt; &lt;u0&gt; Que no està ordenada pel camp pel qual estem buscant.</seg>
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161025T105914Z" creationid="fsanchez" creationdate="20161025T105914Z">
@@ -1202,6 +1210,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161009T141809Z" creationid="fsanchez" creationdate="20161009T141809Z">
         <seg>&lt;u1&gt; la oración tiene más de una estructura sintáctica posible (es decir, es &lt;i1&gt;estructuralmente ambigua&lt;/i1&gt; o &lt;i2&gt;sintácticamente ambigua&lt;/i2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>&lt;u1&gt; {&lt;u2&gt; .es}</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160147Z" creationid="fsanchez" creationdate="20161109T160147Z">
+        <seg>&lt;u1&gt; {&lt;u2&gt; .es}</seg>
       </tuv>
     </tu>
     <tu>
@@ -10370,6 +10386,14 @@
       </tuv>
       <tuv lang="es-ES" changeid="fsanchez" changedate="20161102T133303Z" creationid="fsanchez" creationdate="20161102T133303Z">
         <seg>{&lt;i2&gt;postedición&lt;/i0&gt;&lt;/i2&gt;} &lt;u1&gt; &lt;i1&gt;&lt;u3&gt;{1.4cm&lt;/i1&gt;{&lt;i3&gt;texto derecho traducido y segmentado&lt;/i3&gt;}} &lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="CA">
+        <seg>{&lt;u0&gt; País} &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="es-ES" changeid="fsanchez" changedate="20161109T160144Z" creationid="fsanchez" creationdate="20161109T160144Z">
+        <seg>{&lt;u0&gt; País} &lt;br0&gt;</seg>
       </tuv>
     </tu>
     <tu>
