@@ -1,0 +1,438 @@
+\chapter[¿Por qué es difícil la TA? Ambigüedad]{¿Por qué es difícil la traducción automática? Ambigüedad} \label{se:ambig} 
+
+\section{Los cuatro problemas de la traducción automática} ¿Por qué es tan difícil para un sistema informático traducir como un profesional? Una clasificación interesante de los problemas que se dan en la traducción automática \cite{arnold03p}. Según este autor, la traducción automática tiene cuatro grandes problemas: \begin{enumerate} \item \emph{La forma no determina completamente el contenido} (es decir, la \emph{interpretación}): no siempre es fácil determinar la interpretación que se pretendía dar a lo que se ha escrito. Este es el \emph{problema del análisis}, también llamado \emph{ambigüedad}. Ejemplos: \emph{Traían noticias de Grecia} (¿tema o procedencia?), \emph{Ha vendido las naranjas que ha comprado a Juan} (¿Juan vende las naranjas o las compra?), \emph{Trabaja en el estudio que le han encargado} (¿prepara un documento o está diseñando un espacio de trabajo?), etc. 
+
+\item \emph{El contenido no determina completamente la forma}. Es decir, es difícil determinar como se tiene que expresar una interpretación concreta porque hay más de una manera de decir lo mismo en cualquier lengua. Este es el \emph{problema de la síntesis}. Ejemplos: ¿cómo se dice en qué momento del día nos encontramos? Cada idioma lo hace de una forma distinta: catalán: \emph{Quina hora és?}; portugués: \emph{Que horas são?} (\emph{¿Qué horas son?}); alemán: \emph{Wie spät ist es?} (\emph{¿Cómo de tarde es?}); alemán : \emph{Wie viel Uhr ist es?} (\emph{¿Cuántas del reloj son?}), etc.\footnote{Véase el ejemplo \emph{me gusta nadar} en la p.~\pageref{pg:magradanadar}} 
+
+\item \emph{Las lenguas divergen.} Es decir, hay diferencias irreducibles en la manera de expresar el mismo contenido en diferentes lenguas. Este es el \emph{problema de la transferencia}, porque se manifiesta habitualmente en los sistemas de traducción automática por transferencia (véase~\ref{ss:classtrans}). Por ejemplo, el orden estándar de las oraciones en español es \emph{sujeto}--\emph{verbo}--\emph{objeto}, mientras que en vasco o en turco es \emph{sujeto}--\emph{objeto}--\emph{verbo}, en irlandés es \emph{verbo}--\emph{sujeto}--\emph{objeto} y en malgache es \emph{verbo}--\emph{objeto}--\emph{sujeto}. O por ejemplo, los idiomas difieren en la manera en la que expresan las relaciones entre dos nombres: mientras que en español se dice \emph{presidente \textbf{de} Kazajistán}, en ruso se dice \emph{prezident Kazakhstan\textbf{a}}, en vasco se dice \emph{Kazakstan\textbf{go} presidente}, y en kazajo se dice \emph{Qazaqstan prezident\textbf{i}}. 
+
+\item Construir un sistema de traducción automática conlleva la gestión de una gran cantidad de conocimiento, que se debe recopilar, y representar en un formato útil para su procesamiento mediante un ordenador. Este es el \emph{problema de la descripción}. \end{enumerate} 
+
+De estos cuatro, dedicaremos el resto del capítulo a describir con más detalle lo más importante para la traducción automática (y, en general, para cualquier programa que tenga que procesar textos en lenguaje natural): la ambigüedad inherente al lenguaje humano. 
+
+\section{Ambigüedad} 
+
+Podemos decir que un enunciado (una oración, un texto) es ambiguo cuando es susceptible de dos o más interpretaciones \citep{alcaraz97b}.\footnote{\citet{don96u} lo expresan diciendo que la ambigüedad es ``el fenómeno por el cual una expresión tiene más de un significado''.} Por tanto, un enunciado ambiguo puede tener más de una traducción a otro idioma, aunque a veces puede tener una sola traducción a otro idioma porque dicha traducción conserva la ambigüedad de la frase original;\footnote{Por ejemplo, la oración en español \emph{Aprendió a afeitarse en dos minutos} se puede traducir al catalán \emph{Va aprendre a afaitar-se en dos minuts} sin resolver la siguiente ambigüedad: ¿es el tiempo que tardó en aprender o el tiempo que emplea en afeitarse?} a esto se le suele llamar \emph{free ride} (``pase gratuito'') y es más frecuente cuanto más cercanas sean las lenguas involucradas en la traducción. En este capítulo nos fijaremos especialmente en la ambigüedad de las oraciones. 
+
+Una de las perspectivas más interesantes para analizar y ordenar los tipos de ambigüedad descritos más arriba nos la proporciona el llamado \emph{principio de composicionalidad} \citep[cap.~23]{radford09b}: \begin{quote} {\sl La interpretación de una oración está determinada por la interpretación de las palabras que aparecen en la oración y por la estructura sintáctica de la oración.} \end{quote} Este principio explica por qué la interpretación de la oración \begin{exemple} \label{eq:pare} El padre escurre los platos \end{exemple} es diferente de la de la oración \begin{exemple} La madre lee libros \label{eq:mare} \end{exemple} Las oraciones (\ref{eq:pare}) i (\ref{eq:mare}) tienen la misma sintaxis pero diferente interpretación porque contienen palabras diferentes con interpretaciones diferentes. También explica por qué la oración \begin{exemple} El perro mordió al hombre \end{exemple} no tiene la misma interpretación que la frase \begin{exemple} El hombre mordió al perro \end{exemple} Estas oraciones no quieren decir lo mismo porque, a pesar de tener las mismas palabras, la estructura sintáctica no es la misma. 
+
+Por eso, no es posible asignar una interpretación clara a oraciones sintácticamente incorrectas, como \begin{exemple} *Lee madre libros la \end{exemple} aunque cada palabra tenga una interpretación independiente, y tampoco a una oración sintácticamente correcta que contenga alguna palabra a la que no podemos asignar ninguna interpretación : \begin{exemple} La madre *ingurplee libros \end{exemple} Como veremos más adelante, existe una complicación adicional: en algunas ocasiones, hay partes de la estructura sintáctica que no se reflejan en ninguna palabra, porque generan \emph{categorías vacías} que no tienen una representación fonética o gráfica explícita. Por ejemplo, la oración \begin{exemple} Tiene muchos amigos \end{exemple} tiene un sujeto vacío (también denominado elíptico). En estos casos podemos considerar que las categorías vacías son palabras ``de cero letras'' que tienen una interpretación. 
+
+Si una oración es ambigua cuando tiene más de una interpretación posible, esto puede tener dos causas básicas: \begin{itemize} \item una o más palabras de la oración tienen más de una interpretación posible (es decir, son \emph{léxicamente ambiguas}). \item la oración tiene más de una estructura sintáctica posible (es decir, es \emph{estructuralmente ambigua} o \emph{sintácticamente ambigua}). \end{itemize} Las dos causas pueden concurrir. De hecho, estudiaremos tres casos: la ambigüedad puramente debida a la ambigüedad de las palabras (explícitas o nulas); la ambigüedad debida a la existencia de más de una estructura sintáctica, y la ambigüedad debida a ambas causas. 
+
+\subsection{Ambigüedad debida a la ambigüedad léxica} \label{ss:amblex} En muchas lenguas, las palabras se flexionan y toman formas diferentes. Una palabra (y, en general, una unidad léxica de más de una palabra) se puede ver desde dos perspectivas; por un lado, la \emph{forma superficial} de la palabra es la forma concreta que aparece en el texto: \emph{cantábamos}; por otra parte, tenemos la \emph{forma léxica}, que consiste en \begin{itemize} \item un \emph{lema} o \emph{forma canónica} (\emph{cantar}), \item una \emph{categoría léxica},\label{pg:catlex}\footnote{Véase la nota al pie de la pág.~\pageref{pg:catgra}} clase de palabra, o parte de la oración (verbo) y \item unos \emph{indicadores de flexión} que expresan las características morfológicas o flexivas (primera persona, nombre plural, tiempo pretérito imperfecto, modo indicativo). \end{itemize} Cuando dos formas léxicas diferentes tienen la misma forma superficial; es decir, cuando se escriben del mismo modo, se suele decir que son \emph{homógrafas}\label{pg:homografia}; además, se denomina simplemente \emph{homógrafa} a la forma superficial a la que corresponde más de una forma léxica; el fenómeno se denomina \emph{homografía}. Por ejemplo, la palabra catalana \emph{riu} es homógrafa porque tiene tres formes léxicas: \emph{riu}, sustantivo, masculino singular; \emph{riure}, verbo, 3a.\ persona del singular, presente de indicativo, y \emph{riure}, verbo, 2a. persona del singular, imperativo. Podemos diferenciar tres tipos de ambigüedad por homografía: \begin{enumerate} \item \emph{Ambigüedad entre categorías léxicas diferentes}. Por ejemplo, la palabra \emph{ahorro} tiene dos formas léxicas posibles, cada una con una categoría léxica diferente: \emph{ahorro}, sustantivo, masculino, singular; \emph{ahorrar}, verbo, 1ª\ persona del singular, presente de indicativo. \item \emph{Ambigüedad dentro de la misma categoría léxica sin cambio de lema}. Por ejemplo, la palabra \emph{canta} tiene dos formas léxicas con el mismo lema, la misma categoría léxica, pero distinta información de flexión: \emph{cantar} verbo, 3ª\ persona del singular, presente de indicativo; \emph{cantar}, verbo, 2ª\ persona del singular, imperativo. \item \emph{Ambigüedad dentro de la misma categoría léxica con cambio de lema}. Por ejemplo, la palabra en catalán \emph{poden} tiene, entre otras, dos formas léxicas con la misma categoría léxica, la misma información de flexión, pero distinto lema: \emph{poder}, verbo, 3ª\ persona del plural, presente de indicativo; \emph{podar} verbo, 3ª\ persona del plural, presente de indicativo. \end{enumerate} 
+
+Pero la homografía no es la única causa posible de ambigüedad léxica; hay palabras que son ambiguas a pesar de tener la misma forma léxica, porque lo que es ambiguo es la interpretación del lema. Estas palabras se denominan habitualmente \emph{polisémicas} y este tipo de ambigüedad, \emph{polisemia}. Por ejemplo, la palabra \emph{estación} (forma léxica: \emph{estación}, sustantivo, femenino singular) es polisémica porque el lema correspondiente tiene más de una interpretación: lugar donde se paran temporalmente los trenes, parte del año comprendida entre un solsticio y un equinoccio, conjunto de instalaciones para un propósito determinado (por ejemplo, el esquí), etc. La polisemia afecta a todas las formas flexionadas de una determinada palabra del mismo modo (\emph{estaciones} tiene exactamente la misma ambigüedad que \emph{estación}), puesto que es una propiedad del \emph{lema}.\footnote{Hay casos que no son tan sencillos. Por ejemplo, en inglés, la palabra \emph{case}, un sustantivo singular, puede referirse a un tipo de contenedor (\emph{a case of wine}) o a un ejemplo o situación particular (\emph{It does not apply in this case}). Cada una de las palabras viene de una palabra latina diferente: la primera de la palabra femenina \emph{capsa}, y la segunda de \emph{casus}, el participio de \emph{cado} `caer'. Los diccionarios ingleses, que suelen agrupar las palabras polisémicas en una entrada, típicamente hacen dos entradas diferentes, y, de hecho, en lexicografía no es extraño referirse a \emph{case} como un homógrafo.} 
+
+La ambigüedad de una oración puede ser causada por varios tipos básicos de ambigüedad léxica: \begin{enumerate} \item La oración contiene una o más unidades léxicas (por ejemplo palabras) polisémicas: si decimos que alguien \begin{exemple} Trabaja en el estudio que le encargaron \end{exemple} podemos referirnos a un investigador o a un decorador, dependiendo de qué interpretación asignemos a la palabra polisémica \emph{estudio}. A la ambigüedad de estas unidades léxicas, también se la suele llamar {\em ambigüedad léxica pura}. Esta oración la tenemos que desambiguar si la queremos traducir, por ejemplo, al inglés, porque en el primer caso tendríamos que decir \emph{study} y en el segundo, \emph{studio}; por eso el efecto de la polisemia en traducción puede causar en muchos casos la llamada {\em ambigüedad de transferencia}. La ambigüedad léxica de transferencia es especialmente peligrosa cuando afecta a una palabra de la lengua origen no percibida como ambigua; por ejemplo, la palabra española \emph{destino} se puede traducir al catalán como {\em destí} (suerte futura) o \emph{destinació} (punto de llegada). 
+
+Otro ejemplo: la oración \begin{exemple} Han puesto un banco nuevo en la plaza \end{exemple} puede tener dos interpretaciones, según la interpretación que se asigne a la palabra polisémica \emph{banco} (``asiento estrecho y largo'' o bien "institución financiera''). 
+
+Una ambigüedad que es muy parecida a la ambigüedad léxica pura se produce cuando una expresión idiomática se toma bien como tal o bien en sentido literal. Por ejemplo, la interpretación de la expresión catalana \emph{enviar algú a pastar fang} puede ser la idiomática de decir a alguien que deje de molestar (español \emph{mandar a freír espárragos}) pero podría ser también la literal en un taller de alfarería. 
+
+\item La oración contiene un homógrafo que tiene dos o más interpretaciones pero la misma categoría léxica, y no afecta, por lo tanto, a la estructura de la oración. Hay tres situaciones posibles: \begin{itemize} \item cambia sólo el lema pero no los indicadores de flexión: la palabra española \emph{creo} puede ser la 1ª\ persona del singular del presente de indicativo del verbo \emph{creer} o del verbo \emph{crear}. \item no cambia el lema pero sí los indicadores de flexión: la palabra española \emph{cantamos} puede ser la 1ª\ persona del plural del presente de indicativo o del pretérito perfecto del verbo \emph{cantar}. \item cambian el lema y los indicadores de flexión: la palabra española \emph{salan} puede ser la 3ª\ persona del plural del presente de indicativo del verbo salir o del presente de subjuntivo del verbo \emph{salar}. \end{itemize} 
+
+\item La oración contiene una \emph{expresión anafórica}, como por ejemplo un pronombre, adjetivo posesivo, etc., la cual puede tener, en principio, más de una posible interpretación, pero esta interpretación está determinada por la relación de \emph{coreferencia} entre la expresión y su \emph{antecedente} (un sintagma que se puede encontrar en la misma oración o en otra oración del texto) o porque se refiere a algún objeto o concepto exterior al texto. La relación que asigna una interpretación a una expresión anafórica se denomina \emph{deixis}: cuando la interpretación es por \emph{correferencia} con un antecedente que aparece anteriormente en el texto se denomina \emph{anáfora}\label{pg:anafora}, y \emph{catáfora} si el antecedente es posterior. En la frase \begin{exemple} Abrí [la puerta]$_i$ a [la cocinera]$_j$ y la$_{i/j?}$ hice pasar \end{exemple} los índices ($i$, $j$, $i/j?$) indican que el pronombre débil \emph{la } se puede referir a la misma persona a la cual nos hemos referido con el sintagma nominal \emph{la cocinera}, pero no hay ninguna razón sintáctica para que el referente no sea el mismo que el del sintagma \emph{la puerta}: esta puede ser una posible causa de ambigüedad en la segunda oración coordinada. 
+
+\item La oración tiene constituyentes que no se reflejan como palabras, pero a los que hay que asignar una interpretación. En algunas lenguas románicas (en italiano, español y catalán, pero no en francés) es común la ausencia del sujeto cuando es de tercera persona. En este caso, la posición donde tendría que ir el sujeto se puede suponer ocupada por un pronombre sin forma superficial que da lugar a ambigüedad mediante mecanismos muy similares a los de la anáfora y por lo tanto, se los puede considerar mecanismos léxicos. En el fragmento \begin{exemple} Anna apuñaló a Marta. Joan vio como caía rodando \end{exemple} quién cayó rodando, ¿Anna o Marta? ¿O alguna otra persona? El problema es que falta el sujeto de la oración subordinada \emph{cómo caía rodando}. Esta omisión da lugar a una ambigüedad. Cuando se trata de la omisión del sujeto, se suele postular en lingüística la existencia de un pronombre especial llamado PRO, sin forma superficial, que hace de sujeto nulo, \begin{exemple} Joan vio como PRO caía rodando \end{exemple} y al cual se asigna interpretación mediante procesos dícticos\footnote{Relacionados con la \emph{deixis}.} o anafóricos como los descritos para otras expresiones anafóricas. 
+
+Esta clase de ambigüedades se suele incluir dentro de un grupo de fenómenos más generales denominados \emph{ambigüedades por elipsis}. \citet{alcaraz97b} definen la \emph{elipsis}\label{pg:ellipsi} como la omisión o la ausencia de alguna parte de una oración. Como veremos más abajo, a veces la elipsis da lugar a la existencia de más de un árbol de análisis sintáctico para la oración y por lo tanto estos tipos de elipsis no se pueden incluir propiamente en este apartado dedicado a la ambigüedad puramente léxica. \end{enumerate} 
+
+\subsection{Ambigüedad estructural pura} \label{ss:ambest} La ambigüedad de una oración también puede ser debida al simple hecho que tenga más de un árbol de análisis sintáctico. Se pueden distinguir varios casos: \begin{enumerate} \item \emph{Ambigüedad estructural de origen coordinativo}: Por ejemplo, si decimos \begin{exemple} Pon las sábanas y las colchas limpias en el armario \end{exemple} hay dos posibles interpretaciones; en una las sábanas no están limpias, en la otra sí, según se considere que el adjetivo \emph{limpias} modifica a los dos sustantivos coordinados o sólo al último (véase la fig.~\ref{fg:cobertors}). La ambigüedad estructural asociada a las conjunciones coordinativas se suele denominar \emph{de origen coordinativo} 
+
+\begin{figure} \begin{center} \begin{parsetree} ( .SN. (SN. (SN. ~ `las sábanas' ) `y' (.SN. ~ `las colchas' ) ) (.SA. ~ `limpias' ) ) \end{parsetree} \end{center} \begin{center} \begin{parsetree} ( .SN. (SN. ~ `las sábanas' ) `y' (.SN. (SN. ~ `las colchas' ) (.SA. ~`limpias' ) ) ) \end{parsetree} \end{center} \caption{Dos árboles para la frase ``Pon las sábanas y las colchas limpias en el armario'' (SN = sintagma nominal, SA = sintagma adjetival).} \label{fg:cobertors} \end{figure} 
+
+\item \emph{Ambigüedad estructural de adjunción} (en inglés \emph{attachment ambiguity}): se trata de un caso típico de ambigüedad estructural que se manifiesta cuando hay un {\em adjunto}\footnote{Un \emph{adjunto} es un sintagma o constituyente que, conjuntamente con otro sintagma o constituyente, forma un constituyente del mismo tipo que este último (por ejemplo, un sintagma nominal más un sintagma preposicional forman un sintagma nominal); en un cierto sentido, el adjunto no es necesario sino opcional.} (normalmente un sintagma preposicional) que se puede insertar de varias maneras en el árbol de análisis sintáctico de la oración. Por ejemplo, la frase \begin{exemple} Juan ha traído noticias de Grecia \end{exemple} se puede interpretar de dos maneras: en una, el sintagma preposicional \emph{de Grecia} modifica \emph{noticias}; en la otra, modifica \emph{traer} (véanse los árboles de la figura~\ref{fg:noticies}). Más ejemplos: \begin{exemple} Habló con el encargado de la limpieza de su casa \end{exemple} \begin{exemple} Hay una bolsa de tela perdida en la Secretaría de la Escuela \label{ex:bossa} \end{exemple} \citet{tuson99b} explica que esta última oración puede tener hasta 12 interpretaciones posibles. 
+
+\begin{figure} \begin{center} \begin{parsetree} (.SI. (SN. ~ `Juan') (.{\={I}}. 
+
+(.I. `ha' ) (.SV. (.V. `traído' ) (.SN. (.N. `noticias' ) (.SP. `de Grecia' ) ) ) ) ) \end{parsetree} \end{center} \begin{center} \begin{parsetree} (.SI. (SN. ~ `Juan') (.{\={I}}. (.I. `ha' ) (.SV. (.SV. (.V. `traído' ) (.N. `noticias' ) ) (.SP. ~ `de Grecia' ) ) ) ) \end{parsetree} \end{center} \caption{Dos árboles para la frase ``Juan ha traído noticias de Grecia'' (SI = sintagma inflexional, \={I =} proyección intermedia de la inflexión, I = inflexión, SV = sintagma verbal, V = verbo, N = nombre, SP = sintagma preposicional). } \label{fg:noticies} \end{figure} \end{enumerate} 
+
+\begin{persabermes}{ambigüedad estructural} Otros tipos de ambigüedad estructural: \begin{enumerate} \item \emph{Ambigüedad estructural debida a la elipsis} de uno o más constituyentes de la oración, especialmente cuando esta oración tendría que tener, si se hubiera producido en forma explícita, una estructura paralela a la de una oración anterior (por ejemplo, en coordinaciones, comparaciones, etc.). \com{Decir que en este caso el borrador de las partes repetidas es obligatorio en la mayor parte de las lenguas} Consideremos el ejemplo siguiente, sacado de \citet[p.399]{radford09b}: \begin{exemple} \label{eq:escocesos} Los escoceses aprecian el whisky más que los galeses \end{exemple} La oración tiene dos interpretaciones: \begin{exemple} \item[(a)] Los escoceses aprecian el whisky más que los galeses (aprecian el whisky) \item[(b)] Los escoceses aprecian el whisky más que (los escoceses aprecian) a los galeses\footnote{De hecho, para evitar esta ambigüedad, se considera conveniente \emph{pero no obligatoria} en catalán la solución alternativa con preposición \emph{als gal·lesos} para la segunda interpretación.} \end{exemple} En estos dos casos, la ambigüedad está causada por el hecho de que son posibles dos estructuras sintácticas para la segunda oración coordinada: en la primera estructura, el sintagma \emph{los galeses} es el sujeto mientras que en la segunda estructura es el objeto (véanse los árboles de la fig.~\ref{fg:whisky}). 
+
+\item \emph{Ambigüedad estructural por movimiento de Qu.}. A veces, el análisis sintáctico de una oración se complica por la presencia de fenómenos de movimiento de constituyentes. Consideremos la oración \begin{example} ¿Quién dice que vendrá? \end{example} Esta oración tiene, básicamente, dos interpretaciones. Una es \begin{example} ¿Quién dice que PRO vendrá? \end{example} y la otra \begin{example} *¿PRO dice que quién vendrá? \end{example} Es decir, en la primera, el pronombre interrogativo \emph{quién} es el sujeto de la oración principal; en la segunda, es el sujeto de la oración subordinada, el cual ha experimentado el \emph{movimiento de Qu} (en inglés \emph{Wh-movement}) al principio de la oración, que es obligatorio en muchos idiomas --- no en todos: el chino o el turco no lo hacen, por ejemplo --- para las palabras con función interrogativa. En este caso, como en el ejemplo~\ref{eq:escocesos}, la elipsis permite dos posicionamientos diferentes del pronombre \emph{quién} antes del movimiento de Qu, pero las ambigüedades causadas por el movimiento de Qu pueden producirse también sin elipsis, como en el ejemplo \begin{exemple} ¿Cómo dices que Jordi ha explicado que vendría? \end{exemple} donde la posición inicial del adverbio interrogativo \emph{Cómo} puede ser el resultado de la transformación por movimiento de Qu de tres estructuras hipotéticas diferentes; en cada una de ellas, el adverbio es adjunto de un sintagma verbal diferente: \begin{exemple} \item[(a)] *¿Dices \emph{cómo} ha explicado que vendría? \item[(b)] *¿Dices que ha explicado \emph{cómo} vendría? \item[(c)] *¿Dices que ha explicado que vendría \emph{cómo}? \end{exemple} En la primera interpretación se pregunta por la manera de decirlo, en la segunda por la manera de explicarlo y en la tercera por la manera de venir. 
+
+Se producen también movimientos similares con los relativos; por ejemplo, estos se mueven \emph{hacia afuera}, es decir, hacia la raíz del árbol de análisis sintáctico, desde las subordinadas sustantivas completivas con verbos del tipo de {\em decir}, \emph{explicar}, etc. En la oración \begin{example} No me gusta la manera como dijiste que vivía todavía. \end{example} el primer \emph{cómo} es un relativo que puede modificar \emph{decir} en la oración \emph{dijiste que vivía todavía} (``no me gusta la manera de decirlo'') o puede modificar {\em vivía} pero ha sido movido fuera de la subordinada completiva \emph{vivía todavía}, que modifica {\em la manera} (``no me gusta la manera como vivía, según que dijiste''). \end{enumerate} \end{persabermes} 
+
+\begin{figure} \begin{center} \begin{parsetree} (.SI. (.SD. (.D. `los' ) (.N. `galeses' ) ) (.{\={I}}. (.I. `$\emptyset$' ) (.SV. (.V. `[aprecian]' ) (.SD. (.D. `[el]' ) (.N. `[whisky]' ) ) ) ) ) \end{parsetree} \end{center} \begin{center} \begin{parsetree} (.SI. (.SD. (.D. `[los]' ) (.N. `[escoceses]' ) ) (.{\={I}}. (.I. `$\emptyset$' ) (.SV. (.V. `[aprecian]' ) (.SD. (.D. `los' ) (.N. `galeses' ) ) ) ) ) \end{parsetree} \end{center} \caption{Dos árboles para la segunda parte ("los galeses") de la comparación ``Los escoceses aprecian más el whisky que a los galeses'' (SD =sintagma determinante, D = determinante).} \label{fg:whisky} \end{figure} 
+
+\subsection{Ambigüedades mixtas} Hay oraciones que son ambiguas porque contienen palabras ambiguas o porque tienen más de una estructura sintáctica posible. Estudiaremos dos casos: \begin{enumerate} \item La oración contiene palabras afectadas por ambigüedad léxica categorial con cambio de categoría (véase la pág.~\pageref{pg:catlex}). Por ejemplo, la palabra catalana \emph{deu} puede querer decir "nueve más uno'' (numeral) o ``tiene que dar o pagar'' (verbo). O la palabra también catalana \emph{cap} puede ser un sustantivo (``parte superior del cuerpo''), un verbo (forma del verbo ``cabre''), un adjetivo o pronombre (``no hay ninguno''), o parte de la preposición compuesta ``cap a' (hacia)'. 
+
+Este tipo de ambigüedad léxica puede provocar a veces ambigüedad estructural, causada por la presencia de más de un análisis sintáctico aceptable (si, a pesar de los homógrafos, sólo hay un análisis aceptable, la ambigüedad pasa desapercibida para el receptor; esto es así porque habitualmente sólo se consideran estructuras aceptables cuando se quiere asignar interpretación a una oración). Por ejemplo, la frase inglesa \begin{exemple} Time flies like an arrow \end{exemple} quiere decir normalmente \emph{El tiempo vuela (como una flecha)} pero también son posibles otras dos interpretaciones (semánticamente alocadas pero sintácticamente impecables): \emph{A las moscas del tiempo les gusta una flecha} o \emph{Cronometra las moscas como una flecha}. Esta variedad de interpretaciones se debe al hecho de que hay tres palabras en la frase que pueden pertenecer a dos categorías léxicas diferentes: \emph{time} puede ser verbo (\emph{cronometrar}) y sustantivo (\emph{tiempo}), \emph{flies} puede ser verbo (\emph{vuela}) y sustantivo (\emph{moscas}) y like \emph{} puede ser verbo (\emph{gustar}) y preposición (\emph{cómo}). De los 8 ($2\times 2\times 2$) análisis morfológicos posibles de la frase, tres resultan sintácticamente aceptables, con interpretaciones muy diferentes. Este tipo de ambigüedad se suele denominar \emph{ambigüedad estructural de origen categorial}. En español ---y en general en las lenguas románicas--- son muy comunes las ambigüedades debidas a la combinación de una palabra que puede ser pronombre débil de tercera persona o artículo (\emph{el}, \emph{la}, \emph{} \emph{los}, \emph{las}) y otra palabra que puede ser sustantivo o verbo conjugado. Por ejemplo, la oración catalana \begin{exemple} La mata el vol \end{exemple} puede querer decir dos cosas, según la elección de categorías léxicas (``el acto de volar le provoca la muerte'' o ``la planta siente aprecio por él''). 
+
+\item Otro tipo de ambigüedad mixta sucede cuando la ambigüedad léxica categorial de algunas palabras se combina con mecanismos de elipsis como los descritos más arriba para construcciones coordinativas o comparativas. Por ejemplo, la oración \begin{exemple} Las gallinas han destrozado el sembrado, pero no las matas \end{exemple} tiene dos interpretaciones: \begin{exemple} \label{eq:gallines} \item[(a)] Las gallinas han destrozado el sembrado, pero (las gallinas) no (han destrozado) las matas. \item[(b)] [Las gallinas]$_i$ han destrozado el sembrado, pero (tú) no las$_i$ matas. \end{exemple} En (\ref{eq:gallines}a) \emph{las matas} es un sintagma determinante compuesto de un artículo y un sustantivo, que hace de objeto del verbo elíptico \emph{destrozado}, mientras que en (\ref{eq:gallines}b) \emph{las matas} es un sintagma verbal compuesto de un pronombre ({\em las}) que se refiere a \emph{Las gallinas} y un verbo ({\em matas}), sintagma que constituye un sintagma verbal en la segunda oración coordinada (véase la fig.~\ref{fg:mates}).\footnote{Decir que la anáfora es sólo un proceso léxico es una simplificación. Hay involucrados aspectos sintácticos. Por ejemplo, en la oración \emph{María habló con ella}, el pronombre \emph{ella} no puede nunca referirse a \emph{María}, pero en la oración \emph{María habló con una amiga de ella}, sí que puede, y esto es debido al hecho de que en la estructura sintáctica de la primera oración hay una \emph{barrera} a la correferencia que en la segunda no existe.} \end{enumerate} 
+
+\begin{figure} \begin{center} \begin{parsetree} (.SI. (.SD. ~ `[las gallinas]' ) (.{\={I}}. (.NEG. `no' ) (.{\={I}}. (.I. `[han]' ) (.SV. (.V. `[destrozado]' ) (.SD. ~ `las matas' ) ) ) ) ) \end{parsetree} \end{center} \begin{center} \begin{parsetree} (.SÍ. (.SD. `[tú]' ) (.{\={I}}. (.NEG. `no' ) (.{\={I}}. ~`les mates" ) ) ) \end{parsetree} \end{center} \caption{Dos árboles para la segunda oración coordinada en ``Las gallinas han destrozado el sembrado pero no las matas" (NEG = negación). Los triángulos se usan para no tener que indicar todos los detalles de un subárbol concreto.} \label{fg:mates} \end{figure} 
+
+\begin{persabermes}{ambigüedades más complejas} Hay también ciertos tipos de ambigüedad que no se pueden explicar de manera sencilla con el principio de composicionalidad, como por ejemplo {\em la ambigüedad en el alcance de los cuantificadores}. Los cuantificadores son palabras como \emph{alguno}, \emph{todo}, \emph{cada}. Cuando el alcance de un cuantificador (es decir, las palabras a las que afecta) es impreciso, una oración puede tener más de una interpretación. Consideremos el ejemplo en catalán de \cite{hutchins92b} \begin{exemple} Totes les dones no s'estimen els abrics de pell. \label{eq:abric} \end{exemple} Este ejemplo puede tener dos interpretaciones \begin{exemple} \item[(a)] No todas las mujeres aprecian los abrigos de piel. \item[(b)] A ninguna mujer le gustan los abrigos de piel. \end{exemple} a pesar de no tener ninguna ambigüedad léxica ni estructural aparente. Este tipo de ambigüedad se puede explicar por el hecho de que el principio de composicionalidad por sí solo no es suficiente para especificar completamente la asignación de interpretación a una oración. En palabras de \citet[p.364]{radford99b} ``tenemos que reconocer [la existencia] de un vacío inaceptable entre lo que proporciona la sintaxis y lo que la semántica necesita en el caso de oraciones que contengan sintagmas nominales cuantificados''. La interpretación de las oraciones se suele explicar a veces en términos de {\em formas lógicas} \citep[cap.23]{radford09b}; en el caso de las oraciones con cuantificadores, estas formas lógicas contienen por un lado, \emph{variables} que pueden referirse a un rango de objetos que hay que considerar y, por otro, operaciones sobre estas variables. Pues bien, en estos casos, se puede asignar más de una forma lógica a una oración. 
+
+\mbox{} 
+
+\end{persabermes} 
+
+\subsection{Estrategias de resolución de la ambigüedad} En general, los humanos usamos nuestros conocimientos, nuestras expectativas y nuestras creencias sobre el funcionamiento del mundo real (o de un mundo ficticio concreto, como en una novela) para elegir una de las interpretaciones como la más verosímil (es decir, para \emph{resolver la ambigüedad}); cuando los conocimientos, las creencias y las expectativas están compartidas entre el emisor y el receptor, se puede usar la ambigüedad como un mecanismo muy eficiente para producir mensajes más cortos. 
+
+Como hemos visto, las causas de la ambigüedad son muy diversas; por eso, también son muy diversas las estrategias de resolución. Este epígrafe recoge unas notas ---no exhaustivas--- sobre las estrategias de resolución de algunos tipos de ambigüedad en sistemas automáticos de tratamiento del lenguaje humano. 
+
+Las estrategias de resolución de la ambigüedad suelen basarse en \emph{restricciones} y \emph{preferencias}. Como veremos, las restricciones son normalmente de naturaleza lingüística ---por lo tanto, requieren un cierto nivel de análisis del texto--- y permiten descartar ciertas interpretaciones, pero no eliminan completamente la ambigüedad. Para acabar de resolver la ambigüedad, se usan preferencias: se asigna algún tipo de puntuación o valor a cada interpretación para elegir la mejor. Las preferencias se suelen basar frecuentemente en métodos estadísticos, basados en observaciones obtenidas en grandes cantidades de texto. 
+
+\subsubsection{Resolución de la ambigüedad léxica categorial} \label{s3:reshom} La resolución de la ambigüedad léxica categorial de las palabras homógrafas, también conocida como etiquetado (de las palabras) con partes de la oración (en inglés, \emph{part of speech (PoS) tagging}) está muy bien estudiada. La ambigüedad se reduce normalmente usando restricciones basadas en el conocimiento lingüístico, y, como normalmente con esto no suele ser suficiente, se establecen preferencias basadas en el estudio estadístico de la frecuencia de aparición conjunta en los textos de determinadas secuencias cortas de categorías léxicas. 
+
+En algunos casos, las restricciones pueden ser suficientes. Por ejemplo, la palabra \emph{ahorro} puede ser sustantivo o verbo. Si aparece entre un artículo y un adjetivo como por ejemplo en \emph{el ahorro doméstico} no hay ninguna duda de que se trata de un sustantivo: la secuencia determinante--verbo personal no está permitida. 
+
+Pero a veces, las restricciones sólo reducen la ambigüedad sin eliminarla completamente. Por ejemplo, la palabra \emph{sobre} puede ser un sustantivo masculino singular, una preposición, y tres formas del verbo \emph{sobrar} (presente de subjuntivo, 1ª\ y 3ª\ persona del singular, e imperativo de cortesía, 3ª\ persona del singular). En el contexto \emph{Tráeme aquel sobre de la caja}, una vez hecho el análisis morfológico de las palabras de la oración, se podrían aplicar restricciones lingüísticas basadas en secuencias de dos categorías léxicas para reducir la ambigüedad. Por ejemplo, una preposición no puede ir seguida de otra preposición. Como \emph{sobre} va seguido de \emph{de}, que sólo puede ser preposición, podemos descartar que \emph{sobre} sea una preposición. Pero no se pueden descartar el resto de formas léxicas: si \emph{aquel} es un determinante, \emph{sobre} puede ser un nombre (como es el caso); si \emph{aquel} es un pronombre, \emph{sobre} podría ser un verbo (como en las oraciones \emph{Ahora nos han sobrado dos coches, pero puede ser que aquel sobre también más adelante.}). 
+
+Por lo tanto, hay que considerar el uso de preferencias. Por ejemplo, podemos usar la aproximación estadística. Si cogemos un corpus (conjunto) suficientemente grande de textos en el que un experto ha indicado la categoría léxica de cada palabra y contamos cuántas veces aparecen todas las secuencias posibles de dos categorías léxicas, podemos usar estas frecuencias para asignar la categoría de una palabra ambigua: de todas las secuencias de tres palabras posibles que se puedan formar con esta palabra, cogeremos la más frecuente. 
+
+\begin{persabermes}{estrategias de resolución de la ambigüedad} \paragraph{Resolución de la polisemia.} La resolución de la polisemia (en inglés \emph{word sense disambiguation}) consiste en asignar a una palabra polisémica, en un texto o discurso, una interpretación concreta, posiblemente diferente de las que podría tener en otros textos (o contextos). La desambiguación se efectúa usando información procedente de tres fuentes: el \emph{cotexto} (interno al texto o discurso) y el \emph{contexto} (externo al texto o discurso pero relacionado con él) y fuentes de conocimiento adicionales. En traducción automática, estamos interesados en elegir una de las interpretaciones posibles, porque es habitual que las palabras polisémicas tengan varias traducciones (la \emph{ambigüedad de transferencia} mencionada en el apartado~\ref{ss:amblex}). 
+
+Se acepta comúnmente que la mayor parte de las palabras polisémicas de un texto (o de un fragmento del texto) suelen tener una única interpretación en un texto dado, pero este principio se tiene que concretar en un método específico para resolver la polisemia. 
+
+La resolución de la polisemia se ha abordado desde perspectivas muy diversas (véase \citet{ide98j}). Es posible aplicar restricciones para resolver la polisemia pero se tienen que basar en un análisis de naturaleza bastante profunda. Por ejemplo, podemos decidir que la palabra \emph{gato} es un animal y no una herramienta para levantar vehículos en la frase \emph{El gato me miró desde debajo del coche}, porque \emph{gato} es el sujeto de \emph{miró}, y el verbo \emph{mirar} requiere un sujeto animado, pero como puede verse, esto requiere que se haya hecho un análisis sintáctico y semántico. 
+
+Por eso, en general se usan métodos basados en preferencias. He aquí dos ejemplos: \begin{itemize} \item El uso de \emph{redes semánticas} donde los conceptos se sitúan en los nodos (nudos) de la red y se agrupan jerárquicamente en superconceptos cada vez más generales (por ejemplo, los conceptos \emph{manzana}, \emph{pera}, \emph{naranja} se agruparían bajo el concepto \emph{fruta}): un ejemplo de redes semánticas es \emph{Wordnet}, \url{http://wordnet.princeton.edu}, que se está generalizando a otras lenguas de Europa (\url{http://www.illc.uva.nl/eurowordnet/}). Cuando tenemos una palabra polisémica, le podemos asociar más de un concepto o \emph{sentido}. Para elegir uno, podemos, por ejemplo, tomar todos los posibles sentidos de la palabra ambigua y asignarles el sentido asociado al concepto que está más cerca de los conceptos representados por las palabras vecinas en el texto. La información presente en diccionarios electrónicos preexistentes puede servir para construir estas redes o ser usada directamente para la resolución de la polisemia. \item La estadística de aparición conjunta de palabras en corpus bilingües de textos puede ayudar a resolver directamente la ambigüedad de transferencia cuando se dispone de diccionarios de transferencia o cuando los textos están alineados. Por ejemplo, si en un corpus bilingüe español--catalán la aparición de \emph{destino} cerca de\emph{incierto} en español coincide con la aparición de \emph{destí} en catalán, podemos decir que la palabra \emph{destino} tiene en este caso la interpretación de ``suerte futura''; en cambio, si la aparición de {\em destino} cerca de\emph{estación} o \emph{aeropuerto} en español coincide con la aparición \emph{destinació} en catalán, podemos elegir el sentido de ``punto de llegada''. Esta información podría servir para traducir después del español al inglés y elegir {\em destiny} o \emph{destination} en cada caso con mucha probabilidad de éxito. 
+
+%\todo{Potser caldria esmentar ací els sistemes de TA%estadística basat en frases}
+\end{itemize} 
+
+\paragraph{Resolución de la anáfora.} La resolución de la anáfora ---es decir, la determinación del {\em antecedente} de un pronombre o de otra expresión anafórica--- se puede basar también en restricciones y preferencias. 
+
+Las \emph{restricciones} se pueden basar en información morfológica, sintáctica, o incluso semántica; todo depende del nivel de análisis que esté disponible: \begin{itemize} \item Un pronombre masculino no puede tener un antecedente femenino (restricción morfológica): \emph{María} no puede ser el antecedente de \emph{él} en la oración \emph{María se pasó todo el día hablando de él}. \item La información sintáctica puede ser más relevante de lo que parece: si decimos \begin{exemple} Marta la vio \end{exemple} el antecedente de \emph{la} no puede ser \emph{Marta}, a causa de las llamadas \emph{barreras}, restricciones asociadas a determinadas características de la estructura sintáctica de la oración. En cambio, si decimos \begin{exemple} Marta habló con quien la vió \end{exemple} no se puede descartar completamente que el antecedente de \emph{la} sea \emph{Marta}. \item Hay veces que sólo podemos recurrir a un análisis semántico; en el ejemplo (ya discutido en la sección~\ref{ss:UTA}) \begin{exemple} [Los soldados]$_i$ dispararon [a los niños]$_j$. Los$_{i/j?}$ vi caer \end{exemple} se tiene que usar información semántica para saber cuál es el antecedente de \emph{los} en la segunda oración (\emph{los soldados} o \emph{los niños}). \end{itemize} 
+
+Las restricciones no suelen ser suficientes, y suele ser necesario el establecimiento de \emph{preferencias}. Por ejemplo, se pueden preferir \begin{itemize} \item los antecedentes más recientes, \item los antecedentes que hacen de sujeto a los que hacen de objeto, o \item los antecedentes que han sido introducidos explícitamente como el asunto del discurso o de la conversación: \emph{Pues, en cuanto a \underline{Joan}\ldots}. \end{itemize} Esto se suele instrumentar a través de un sistema que asigna \emph{puntuaciones} a cada una de las características: se suman las puntuaciones para todos los antecedentes posibles y se elige el que obtiene la puntuación más alta \citep{lappin94j}. 
+
+\paragraph{Resolución de la ambigüedad estructural.} \label{s3:resambest} En principio, se podría decir que las personas resuelven la ambigüedad estructural ---pura o de origen categorial--- eligiendo, usando las interpretaciones asignadas a cada una de las estructuras posibles (principio de composicionalidad), cuáles son \emph{aceptables} y, entre las aceptables, cuál es la más verosímil y por tanto preferible en una situación comunicativa determinada. Según este modelo, las personas consideraríamos siempre \emph{todas} las estructuras sintácticas. Se podría argumentar en contra fácilmente diciendo que en frases complejas (por ejemplo, la oración~\ref{ex:bossa}) hay demasiadas estructuras a considerar. De hecho, hay experimentos psicolingüísticos que indican que a veces usamos estrategias puramente sintácticas, eligiendo entre las posibles estructuras incluso cuando no hemos oído o leído toda la oración, quizás para evitar un esfuerzo intelectual excesivo, puesto que puede haber muchísimas interpretaciones parciales. A cambio, tenemos que hacer el esfuerzo (presumiblemente más ligero) de predecir una entre las posibles continuaciones (sintácticas) de lo que hemos leído; según llegan palabras, las vamos encajando en la estructura predicha y usamos la sintaxis y la interpretación de las palabras para ir construyendo poco a poco la interpretación de la oración completa. La experiencia nos ayuda a hacer predicciones que en general tienen éxito, pero a veces hay oraciones ``engañosas'' que ``nos llevan al huerto'' (llamadas, por eso, en inglés \emph{garden-path sentences}, del inglés \emph{lead up the garden path}) puesto que en cierto punto del proceso nos obligan a descartar la predicción hecha y reinterpretar lo que habíamos leído hasta aquel punto (el estudio de los movimientos oculares, en inglés \emph{eyetracking}) durante la lectura dan pistas muy relevantes sobre la existencia de estos procesos). He aquí algunos ejemplos de oraciones que ``nos llevan al huerto'', con una continuación inesperada en las notas a pie de página: \begin{exemple} Juan besó a Maria y a su hermana\ldots\footnote{\ldots lo recriminó por haberlo hecho.} \end{exemple} \begin{exemple} Com que Joan sempre corre un parell de quilòmetres\ldots\footnote{\ldots le parecen poco.} \end{exemple} \begin{exemple} En el otro accidente murieron sesenta y cinco\ldots\footnote{\ldots resultaron heridos.} \end{exemple} \begin{exemple} The horse raced by the barn\ldots\footnote{\ldots fell down.} \end{exemple} Estos procesos de selección puramente sintáctica dan como resultado que hay ciertas estructuras finales que se prefieren a otras, quizás porque simplifican la comprensión. Por ejemplo, si leemos \begin{exemple} Aprendió a afeitarse en dos minutos \end{exemple} podríamos considerar la interpretación en la que se habla de la duración del afeitado (lo que \emph{aprendió} es a \emph{afeitarse en dos minutos}) como más probable que la que interpreta que se habla de la duración del aprendizaje (\emph{aprender a afeitarse} le costó \emph{dos minutos}), puesto que en el segundo caso quizás habría sido más natural decir \begin{exemple} Aprendió en dos minutos a afeitarse \end{exemple} La regla que favorece que los adjuntos se asocien al último sintagma que los admita ---y que permite, por lo tanto, ir construyendo el árbol de análisis sintáctico gradualmente sin tener que hacer grandes reorganizaciones--- se suele denominar regla de \emph{clausura tardía} ---en inglés \emph{late closure}---; por ejemplo, esta regla favorece el primero de los árboles de la figura~\ref{fg:noticies}. Otra regla que se suele usar es la de \emph{adjunción mínima} ---en inglés \emph{minimal attachment}--- que favorece el árbol sintáctico con el mínimo de nodos (puntos de ramificación). Estas estrategias son de utilidad en los sistemas de traducción automática por transferencia sintáctica pura (véase la sección \ref{ss:classtrans}), puesto que no se hace ningún procesamiento semántico. 
+
+El punto de vista puramente sintáctico se puede considerar una simplificación excesiva; muchas veces, las personas resolvemos la ambigüedad estructural usando restricciones semánticas o incluso lèxico-semánticas: \begin{itemize} \item Por ejemplo, el verbo \emph{vender} admite un objeto directo y uno de indirecto, pero el verbo \emph{comer} sólo el directo, de forma que si decimos ``Le presentó al hombre que vendía naranjas a Joan'' se puede interpretar de dos maneras a causa de la ambigüedad estructural, pero si decimos la frase estructuralmente idéntica ---y por lo tanto idénticamente ambigua--- ``Le presentó al hombre que comía naranjas a Joan'' no hay más que una interpretación posible. \item Considerad estas dos frases estructuralmente idénticas afectadas por la misma ambigüedad estructural pura de adjunción: \begin{exemple} \label{eq:armari} Tráeme las llaves del armario grande \end{exemple} \begin{exemple} \label{eq:cadira} Tráeme las llaves de la silla verde \end{exemple} En la oración~\ref{eq:armari}, podemos dudar, puesto que no sabemos si las llaves son las que abren el armario o las que están allá guardadas. En cambio, en la oración~\ref{eq:cadira} no consideramos la primera interpretación (aunque sea la preferida sintácticamente según la regla de clausura tardía), porque no es nada verosímil que las sillas tengan cerradura (hemos usado información semántica basada en nuestras creencias sobre el mundo). Si el sistema que resuelve la ambigüedad es capaz de usar información semántica, podría elegir correctamente en este caso. \end{itemize} \end{persabermes} 
+
+\section{Cuestiones y ejercicios} Para poder responder a las preguntas marcadas con (*) hace falta que os leáis los cuadros \emph{Para saber más}. 
+
+\begin{enumerate} \item Indicad qué clase de ambigüedad presentan estas frases (justificad muy brevemente vuestra respuesta): \begin{enumerate} \item \emph{Expulsarán al alcalde de la ciudad} (1: ``El alcalde de la ciudad será expulsado.'' 2: ``El alcalde será expulsado de la ciudad''). \item \emph{ Había un gato bajo el automóvil} (1: ``...porque acababan de reparar una rueda''; 2: ``...y salió corriendo cuando lo puse en marcha'') \item \emph{María entró con una bolsa grande. Yo la puse encima de la mesa} (1: ``Puse a María encima de la mesa''; 2: ``Puse la bolsa encima de la mesa'') \item \emph{¿Qué quieres, galletas o pan de la tía Pepa?} (¿Las galletas son también de la tía Pepa?) \item \emph{Pon una mano de papel en la impresora y conéctala.} (¿Tiene que conectar la mano de papel o la impresora?) \item \emph{¿Os han dicho que vaya?} (¿Quién tiene que ir?). \item \emph{Vale más que las} comas (1: ``...que los signos de puntuación''; 2:``...que las ingieras'') \item \emph{El mecánico revisó la suspensión del auto de Garzón} (1: ``Este mecánico es un experto en legislación y se ha leído la resolución judicial entera''; 2: ``Los amortiguadores del coche de Garzón ya necesitaban una revisión''). 
+
+%\item ``Mi vecino aseguró que había bajado la bolsa'' (1: La bossa
+%  d'escombraries ja és al contenidor; 2: Les meues accions de borsa
+%  no deixen de donar-me disgustos).
+%\item \emph{A qui has dit que telefonarien?}  (1: ``Per a qui seria la
+%  telefonada que has dit que farien?'' 2: ``A qui has dit que es
+%  produiria una telefonada?'')
+\item \emph{A pesar de haber sido soldado, salió despedido del avión} (1: ``El sistema fotográfico estaba fuertemente fijado al fuselaje pero se soltó del aparato cuando el avión giró en pleno vuelo''; 2: ``A pesar de su pasado militar glorioso, el presidente lo destituyó antes de llegar al aeropuerto de destino''). \item \emph{Los ladrones fueron atrapados en una fábrica incendiada por un policía} (1: ``Los ladrones fueron capturados por el comisario en una fábrica abandonada"; 2: ``La fábrica donde fueron capturados fue el objetivo de un agente pirómano"). \item \emph{Coto privado de caza'} (1: ``Esta área de caza no es pública"; 2: ``Esta es una área sin caza"). \item \emph{Quiero bailar y cantar canciones de cuna} (1: ``Bailaremos durante un rato y después te cantaré para que te duermas"; 2: ``Quiero tanto bailar canciones de cuna como cantarlas"). \item \emph{El manifestante se recupera de la paliza que le dieron en el hospital} (1: ``La manifestación fue un poco violenta y algunas personas han tenido que ser trasladadas al hospital"; 2: ``¡Qué paliza le dio la enfermera en el quirófano!"). \item \emph{Servirán pulpo a la gallega} (1: ``Servirán pulpo a una señora de Galicia"; 2: ``Servirán pulpo preparado al estilo gallego"). \item \emph{No puedo ver bien la foto que me has enviado por correo electrónico porque no puedo cerrar todas las ventanas} (1: ``Todavía entra sol y se refleja en la pantalla"; 2: ``Tengo el escritorio lleno de documentos abiertos"). 
+
+% \item ``Ens va explicar com deien que vindria'' (1: Ens va
+%   explicar de quina manera ho deien; 2: Ens va explicar de quina
+%   manera vindria segons deien'').
+\item \emph{--- Hemos recibido noticias que dicen que, a causa de la humedad y el calor en el interior del templo, los bancos y los altares de madera han rebrotado y les han crecido ramas y hojas. -- I les creus?'} (1: ``¿Crees estas noticias?" 2: ``¿Los crucifijos también han rebrotado?"). \item \emph{Se tienen que repasar las entradas y los gastos que se hayan hecho en euros} (1: ``Las entradas se tienen que repasar todas; los gastos sólo si se han hecho en euros"; 2: ``De las entradas, se tienen que repasar sólo las hechas en euros"). \item \emph{Después de que la vendedora acabara la descripción de las ventajas de la urbanización proyectada, el comentario unánime de los inversores fue que les parecía muy interesante'}. (1: ``Los inversores, la verdad, prestaban más atención a la vendedora que al producto"; 2: ``Les gustó el estilo de la descripción"; 3: ``La vendedora no hablaba claro, la descripción estaba incompleta, pero a pesar de todo, la urbanización era una inversión prometedora"). 
+
+%\item Els professors han renyat els alumnes. És que, quan es
+%  barallen, se'ls nota. (1: Els professors estan barallats i al
+%  final els alumnes ho paguen; 2: La baralla d'alumnes havia acabat,
+%  però els professors ho van detectar i els van recriminar).
+\item \emph{A la trapecista, últimamente, no le salían los números} (1: ``Siempre acababa cayendo en la red"; 2: ``tenía más gastos que ingresos"). 
+
+% \item ``Van fer una manifestació pel parc científic'' (1: Van
+%   desfilar a través del parc científic; 2: La manifestació era a
+%   favor del parc científic)
+% \item ``Els assassins són policies o milicians rebels'' (Els
+%   policies eren també rebels?)
+% \item ``Com penses que han arribat al cim?'' (1: Com és possible
+%   que penses això? 2: Saps de quina manera hi han arribat?)
+% \item ``Ocultó el rollo para que nadie conociese su verdadera
+%   orientación sexual'' (1: Les fotos, si les revelaven, podien
+%   descobrir les seues preferències sexuals; 2: aquella relació
+%   deixaria clares les seues orientacions sexuals)
+% \item ``Els professors acompanyaven els xiquets quan els
+%   policies els van cridar'' (A qui van cridar?)
+% \item ``És difícil però no impossible'' (Què és difícil?)
+% \item ``Será mejor que verse sobre la nueva construcción'' (1:
+%   Més val que tracte sobre el mateix tema; 2: és millor citar-se
+%   en aquell altre lloc).
+% \item ``Aureli explicarà les històries que ha escoltat a Martí''
+%   (1: li les explicarà a Martí; 2: li les ha escoltades a
+%   Martí);
+% \item ``Com dius que l'has matat?'' (1: Com l'has matat?; 2: Com
+%   dius això?)
+% \item ``Un problema de llengua li impedeix parlar bé'' (1: el
+%   problema és físic, anatòmic; 2: el problema és lingüístic,
+%   psicològic)
+% \item ``Li he dit que vindria més tard'' (qui?)
+% \item ``Connecteu el ratolí a l'ordinador i activeu-lo'' (1:
+%   activeu el ratolí; 2: activeu l'ordinador).
+% \item ``Han trobat gerres i àmfores ibèriques'' (les gerres
+%   també són ibèriques?).
+% \item ``Les gallines han destrossat el sembrat, però no les
+%   mates'' (1: no les sacrifiques; 2: no les plantes).
+\end{enumerate} 
+
+\item (*) Hay ambigüedades de tipo léxico que pueden ser siempre correctamente resueltas después de hacer un análisis morfológico. Sin embargo, hay otras que sólo pueden ser tratadas si se hace un análisis sintáctico (a pesar de que la ambigüedad sea de tipo léxico) e incluso las hay que requerirían un análisis semántico para resolverlas. 
+
+Elegid una lengua origen y una lengua meta (francés, inglés, alemán, catalán o español) y poned un ejemplo de oración para cada uno de los tres casos anteriores, donde sea necesario un determinado nivel de análisis para resolver una ambigüedad y producir la traducción correcta. Explicad qué información usa el sistema en cada caso para tomar una decisión. 
+
+\item (*) Indicad brevemente qué estrategias se podrían usar para resolver la ambigüedad sintáctica de adjunción. Para inspiraros, fijaos en los siguientes ejemplos: \begin{itemize} \item \emph{Aprendió en dos minutos a afeitarse} \item \emph{Aprendió a afeitarse en dos minutos} \item \emph{Tráeme las llaves del armario grande} \item \emph{Tráeme del armario grande las llaves} \item \emph{Tráeme las llaves de la silla verde} \item \emph{Toni comprará las naranjas que tiene que vender a Reme} \item \emph{Toni comprará a Reme las naranjas que tiene que vender} \end{itemize} 
+
+\item Si una oración tiene sólo una ambigüedad léxica pura\ldots \begin{enumerate} \item \ldots tiene un único árbol de análisis sintáctico, pero más de un análisis morfológico. \item \ldots tiene un único árbol de análisis sintáctico y un único análisis morfológico, pero dos interpretaciones semánticas diferentes. \item \ldots tiene más de un árbol de análisis sintáctico. \end{enumerate} 
+
+\item La frase \emph{``Me gusta más que la bata''} puede tener dos interpretaciones; en la primera se habla de una prenda de vestir; en la segunda, de una preferencia a la hora de preparar, por ejemplo, una salsa. Indicad de qué clase de ambigüedad se trata. \begin{enumerate} \item Estructural de adjunción. \item Léxica categorial. \item Estructural de origen categorial. \end{enumerate} 
+
+\item La frase \emph{Baja y sube con ascensor} puede querer decir ``(baja) y (sube con ascensor)'' o ``(baja y sube) con ascensor''. ¿De qué tipo de ambigüedad se trata? \begin{enumerate} \item Léxica categorial. \item Estructural de origen categorial. \item Estructural de origen coordinativo. \end{enumerate} 
+
+\item En la oración \emph{El coche se ha quemado con el garaje y el seguro no lo cubre} no se sabe cuál de las dos cosas está cubierta por el seguro, el garaje o el coche. La ambigüedad... \begin{enumerate} \item ... se debe a la elipsis. \item ... se debe a la anáfora. \item ... es estructural de origen coordinativo. \end{enumerate} 
+
+\item ¿De qué clase es la ambigüedad de la oración \emph{Vendió las naranjas que había comprado a María}? \begin{enumerate} \item Estructural de origen coordinativo. \item Estructural de adjunción. \item Extrasentencial por anáfora. \end{enumerate} 
+
+\item Considerad el homógrafo \emph{vendo} (``Te vendo un coche'' ``Y yo, ¿para qué quiero un coche vendado?''). ¿Se puede resolver la ambigüedad léxica a la que da lugar usando sólo información sintáctica (es decir, sobre las categorías léxicas que lo acompañan en la oración)? \begin{enumerate} \item No, porque las dos formas \emph{vendo} se escriben exactamente igual. \item No, porque las dos formas \emph{vendo} tienen la misma categoría léxica y el mismo análisis morfológico, salvo por el lema, y, por lo tanto, pueden hacer exactamente las mismas funciones sintácticas. \item Sí, sólo mirando la categoría léxica de las palabras anteriores y la de los posteriores ya hay bastante para saber en cuál de los dos casos nos encontramos. \end{enumerate} 
+
+% \item Imagineu que teniu un text de 1.000.000 de mots en l'idioma
+%   \emph{séverla} i un diccionari de correspondències
+%   espanyol--\emph{séverla}. El diccionari estableix (entre d'altres)
+%   les correspondències següents (s'hi indica la freqüència del mot en
+%   el text en \emph{séverla}).\todo{Relacionar amb els models de
+%     llengua quan parlem de TA estadística?}
+%   \begin{center}
+%     \begin{tabular}{l|l|l}
+%       \hline\hline
+%       \textsc{Espanyol} & \textsc{séverla} & \textsc{freqüència} \\
+%       \hline
+%       \textsf{asistido, -a} & \textsf{aduya} & 123 \\
+%       \textsf{aspecto} & \textsf{atnip} & 44 \\ 
+%       \textsf{dirección} & \textsf{obmur} & 150  \\
+%       \textsf{dirección} & \textsf{odnam} & 55 \\
+%       \textsf{dirección} & \textsf{ragul} & 128 \\
+%       \textsf{diseño} & \textsf{atnip} & 43 \\
+%       \textsf{diseño} & \textsf{raerc} & 100 \\
+%       \textsf{electrónico, -a} & \textsf{dered} & 100 \\
+%       \textsf{general} & \textsf{latot}  & 43 \\
+%       \textsf{moderno, -a} & \textsf{aídla} & 56 \\
+%       \textsf{postal} & \textsf{atrac} & 188 \\
+%       \hline
+%     \end{tabular}
+%   \end{center}
+%   En el text en \emph{séverla} trobem, a més, les freqüències següents
+%   per a grups de dos mots (només es llisten els grups que apareixen
+%   alguna vegada):
+%   \begin{center}
+%     \begin{tabular}{l|l}
+%       \hline\hline 
+%       \textsc{Grup} & \textsc{freqüència} \\\hline
+%       \textsf{atrac ragul} & 25 \\
+%       \textsf{atrac odnam} & 3 \\
+%       \textsf{dered ragul} & 12 \\
+%       \textsf{dered odnam} & 2 \\
+%       \textsf{latot odnam} & 10 \\
+%       \textsf{latot atnip} & 8 \\
+%       \textsf{aduya odnam} & 10 \\
+%       \textsf{aídla raerc} & 3 \\
+%       \textsf{aídla atnip} & 15 \\
+%       \textsf{aduya raerc} & 12 \\
+%       \hline
+%     \end{tabular}
+%   \end{center}
+%   Indiqueu com traduïríeu les següents expressions espanyoles al
+%   séverla i perquè heu elegit aqueixa traducció i no una altra:
+%   \begin{enumerate}
+%   \item \textsf{dirección postal}
+%   \item \textsf{dirección electrónica}
+%   \item \textsf{dirección asistida}
+%   \item \textsf{dirección general}
+%   \item \textsf{diseño moderno}
+%   \item \textsf{diseño asistido}
+%   \end{enumerate}
+% \item Imaginem que tenim textos en la llengua $L_1$ i les traduccions
+%   (correctes) corresponents en la llengua $L_2$, fetes per una persona
+%   de manera que s'hi respecte tant com siga possible l'estructura de
+%   les frases del text original. Indiqueu com es podria usar la
+%   informació present en aquestes traduccions per a resoldre les
+%   ambigüitats que es troba un sistema de traducció automàtica quan
+%   tradueix \emph{els mateixos textos} a una altra llengua $L_3$
+%   (Martin Kay, de Xerox Palo Alto, Califòrnia, anomena aquest procés
+%   \emph{triangulació en la traducció}). Si voleu, fixeu-vos només en
+%   les ambigüitats lèxiques.
+\item (*) Muchas veces, la ambigüedad léxica no es ni polisemia (\emph{estación}, \emph{bomba}), ni ambigüedad léxica con cambio de categoría gramatical (\emph{sobre} [preposición y sustantivo], \emph{río} [sustantivo y verbo]) sino que sucede porque dos formas \emph{de la misma categoría léxica} son homógrafas: en catalán \emph{volem} puede ser una forma del verbo \emph{volar} y del verbo \emph{voler}; en catalán \emph{podeu} puede ser una forma del verbo \emph{poder} y del verbo \emph{podar}; en español, \emph{creo} es una forma de \emph{creer} o del verbo \emph{crear}, \emph{fui} es una forma de \emph{ir} o de \emph{ser}, etc. Para resolver la ambigüedad de una palabra polisémica se tiene que usar información semántica; para resolver la ambigüedad léxica categorial suele ser suficiente con usar información sintáctica (por ejemplo, la categoría gramatical de la palabra anterior y posterior); pero, ¿es posible resolver la ambigüedad debida a la homografía de palabras de la misma categoría usando sólo la sintaxis o es necesario el uso de información semántica? 
+
+\item Los sistemas de traducción palabra por palabra pueden cometer, por ejemplo, errores debidos a la elección incorrecta de la categoría gramatical de una palabra léxicamente ambigua. Elegid dos lenguas, $L_1$ y $L_2$ y poned dos ejemplos de traducciones erróneas de $L_1$ a $L_2$, indicando la frase original, la frase mal traducida y la frase correcta. 
+
+\item Si una forma superficial es ambigua pero tiene tan solo una forma léxica{\ldots} \begin{enumerate} \item {\ldots} se trata de una palabra homógrafa. \item {\ldots} hay algún error en el análisis morfológico. \item {\ldots} podemos decir que el lema es polisémico. \end{enumerate} 
+
+\item ¿Puede una oración tener más de una traducción a otro idioma a pesar de estar formada completamente por palabras que no son ni homógrafas ni polisémicas en la lengua original? \begin{enumerate} \item No: lo prohíbe el principio de composicionalidad semántica. \item Sí, aunque no contenga pronombres u otras expresiones anafóricas susceptibles de tener más de un antecedente posible. \item Sí, pero sólo si contiene pronombres u otras expresiones anafóricas susceptibles de tener más de un antecedente posible. \end{enumerate} 
+
+\item (*) En ausencia de información léxica o semántica, la ambigüedad estructural{\ldots} \begin{enumerate} \item {\ldots} es imposible de resolver. \item {\ldots} se puede resolver usando reglas derivadas de un estudio de las preferencias sintácticas observadas en experimentos psicolingüísticos. \item {\ldots} no puede afectar nunca al resultado de la traducción automática. \end{enumerate} 
+
+\item (*) ¿Es posible resolver en algunos casos la ambigüedad debida a una palabra homógrafa utilizando exclusivamente información morfológica? \begin{enumerate} \item No, este tipo de ambigüedad exige un tratamiento semántico como mínimo. \item No, siempre hay que utilizar información de carácter sintáctico para resolverla. \item Sí, usando la información morfológica de las palabras adyacentes. \end{enumerate} 
+
+\item ¿Si una palabra tiene sólo una forma léxica y una única traducción a una determinada lengua, puede ser todavía ambigua? \begin{enumerate} \item No. \item Sí, puede ser polisémica aunque la traducción a esta lengua de todas las interpretaciones sea la misma. \item Sí; puede ser homógrafa y tratarse de un pase gratuito. \end{enumerate} 
+
+\item Si traducimos automáticamente la frase \emph{Ayer cantamos las mismas canciones} y obtenemos en inglés \emph{Yesterday we sing the same songs} o en francés \emph{Hier nous chantons las mêmes chansons}, ¿qué tipo de ambigüedad ha sido mal resuelta? \begin{enumerate} \item Una ambigüedad léxica por homografía de una palabra. \item Una ambigüedad léxica pura por polisemia de una palabra. \item Una anáfora. \end{enumerate} 
+
+\item Si traducimos automáticamente la frase catalana \emph{Hilari no coneix bé la Mariona: cada dia troba sorprenent el que fa} y obtenemos en inglés \emph{Hilari does not know Mariona well: every day he finds what he does astonishing} o en francés \emph{Hilari ne connaît bien Mariona: tous les jours elle trouve ce qu''il fait etonnant}, ¿qué tipo de ambigüedad ha sido mal resuelta? \begin{enumerate} \item La anáfora de un pronombre vacío. \item La anáfora del pronombre \emph{que}. \item Una ambigüedad sintáctica de la oración subordinada ``el que fa''. \end{enumerate} 
+
+\item El principio de composicionalidad dice que la interpretación de una oración está determinada por las interpretaciones de las palabras y por la sintaxis. Cuando se produce una ambigüedad porque no queda clara la adscripción de un sintagma preposicional, como \emph{trae la llave del armario grande}, ¿cuál es la razón? \begin{enumerate} \item La existencia de más de una estructura sintáctica posible. \item La ambigüedad categorial de la preposición. \item La polisemia de la preposición. \end{enumerate} 
+
+% \item En les frases comparatives de l'estil de
+%   \begin{center}\emph{Els processadors processen més ràpidament les
+%       dades que els dispositius perifèrics}\end{center} què fa que
+%   siga possible la existència de dues interpretacions (els
+%   \emph{dispositius perifèrics} són processats o processen?).
+%   \begin{enumerate}
+%   \item L'ambigüitat d'adjunció del sintagma que comença per
+%     \emph{que}.
+%   \item L'elipsi d'un sintagma nominal, que queda substituït per un
+%     pronom nul PRO.
+%   \item L'elipsi simultània d'un sintagma nominal i un sintagma
+%     verbal, que fa dubtosa l'adscripció del sintagma nominal restant.
+%   \end{enumerate}
+\item La ambigüedad léxica categorial de una palabra{\ldots} \begin{enumerate} \item {\ldots}no se puede resolver nunca si no se usa información semántica sobre el texto o sobre las palabras contiguas. \item {\ldots}no se puede resolver si no se hace el análisis sintáctico completo de la frase, ya que ésta es la única manera de elegir el análisis morfológico correcto. \item {\ldots} se intenta resolver normalmente con reglas basadas en las categorías léxicas de las palabras que la acompañan en la frase. \end{enumerate} 
+
+\item ¿Qué tipo de ambigüedad se produce en el pronombre débil \emph{li} de la frase \emph{Vaig veure Mario i sa madre; li vaig dir que m'agradava molt el seu fill}? \begin{enumerate} \item Homografía, porque el pronombre puede, en principio, estar sustituyendo un nombre u otro. \item Una anáfora. \item Polisemia. \end{enumerate} 
+
+\item Una de estas tres no es un tipo de ambigüedad léxica: \begin{enumerate} \item La homografía. \item La ambigüedad de adjunción. \item La polisemia. \end{enumerate} 
+
+\item ¿De qué clase es la ambigüedad que presenta la oración \emph{Expulsarán al portavoz del partido}? \begin{enumerate} \item Léxica, debida al hecho de que la palabra \emph{expulsar} es polisémica. \item Estructural de origen coordinativo: no sabemos si el sintagma preposicional \emph{del partido} modifica sólo al segundo elemento \emph{el portavoz} o a todo el sintagma \emph{Expulsarán al portavoz}. \item Estructural de adjunción: el sintagma preposicional \emph{del partido} puede ser un adjunto del sintagma verbal \emph{Expulsarán al portavoz} o del sintagma nominal \emph{el portavoz}. \end{enumerate} 
+
+\item Solo una de estas tres afirmaciones es correcta. ¿Cuál? \begin{enumerate} \item Una oración puede ser ambigua sin que ninguna de sus palabras sea ambigua por si misma. \item Una oración sólo puede ser ambigua si al menos una de sus palabras es ambigua. \item El hecho que una oración sea ambigua implica necesariamente que las traducciones de las diversas interpretaciones a otra lengua tienen que ser diferentes. \end{enumerate} 
+
+\item ¿Qué tipo de ambigüedad se da en la oración \emph{La mata la envidia} (1: ``la envidia la está matando''; 2: ``la planta le tiene envidia a ella'')? \begin{enumerate} \item Ambigüedad léxica por polisemia. \item Ambigüedad léxica debida a la anáfora. \item Ambigüedad estructural debida a la ambigüedad léxica categorial. \end{enumerate} 
+
+\item Cuando un adjetivo presenta la misma ambigüedad (por ejemplo, puede tener más de una traducción), independientemente de cómo se encuentrw flexionado en género y número, diremos que el adjetivo es{\ldots} \begin{enumerate} \item {\ldots} anafórico. \item {\ldots} homógrafo. \item {\ldots} polisémico. \end{enumerate} 
+
+\item Según Arnold (2003) los problemas a los cuales se enfrenta la traducción automática son cuatro. Indicad cuál de las afirmaciones siguientes es falsa: \begin{enumerate} \item El problema del análisis se refiere a la dificultad para resolver la ambigüedad de un enunciado. \item El problema de la síntesis se refiere a la ambigüedad de los textos traducidos automáticamente. \item El problema de la descripción consiste en el hecho que es impracticable describir de forma suficiente y computacionalmente eficiente todo el conocimiento necesario para traducir. \end{enumerate} 
+
+\item Un traductor automático por transferencia morfológica avanzada \ldots \begin{enumerate} \item \ldots resuelve la polisemia mediante el uso de un analizador morfológico. \item \ldots resuelve la polisemia mediante el uso de un desambiguador léxico categorial. \item \ldots no puede resolver la polisemia con ninguno de los programas mencionados en las otras dos opciones. \end{enumerate} 
+
+\item ¿Qué tipo de ambigüedad se da en la oración ``\emph{Aston Family Man era el bajo de The Wailers}" (Aston era el más bajo del grupo; Aston tocaba el bajo en el grupo)? \begin{enumerate} \item Ambigüedad léxica por polisemia. \item Ambigüedad léxica categorial dentro de la misma categoría léxica. \item Ambigüedad léxica categorial entre categorías léxicas diferentes. \end{enumerate} 
+
+\item Indicad cuál de las afirmaciones siguientes es falsa: \begin{enumerate} \item Hay casos en los cuales no hace falta resolver la ambigüedad para producir una traducción adecuada en la lengua meta. \item La ambigüedad siempre representa un problema a la hora de traducir entre dos lenguas. \item La ambigüedad es uno de los problemas a los cuales tiene que enfrentarse un traductor automático. \end{enumerate} \end{enumerate} 
+
+\section{Soluciones} 
+
+\begin{enumerate} \item \begin{enumerate} \item Ambigüedad sintáctica o estructural (pura) de adjunción: el sintagma preposicional \emph{de la ciudad} se puede insertar en dos posiciones diferentes de la oración: puede modificar \emph{alcalde} o expulsarán \emph{[el alcalde]}. \item Ambigüedad léxica pura (polisemia) de la palabra \emph{gato}. \item Ambigüedad léxica por anáfora: el pronombre \emph{la} puede tener dos antecedentes: \emph{Maria} y la \emph{bolsa}. \item Ambigüedad sintáctica o estructural (pura) de origen coordinativo: el sintagma \emph{de la tía Pepa} puede modificar a los dos sintagmas nominales coordinados (\emph{galletas y pan}) o sólo al segundo (\emph{pan}). \item Ambigüedad léxica por anáfora: el pronombre \emph{la} puede tener dos antecedentes: \emph{mano [de papel]} y la \emph{impresora}. \item Ambigüedad por elipsis: el sujeto de \emph{vaya} puede ser \emph{yo}, \emph{él}, \emph{ella}, etc. En el caso de los pronombres de tercera persona, la interpretación estará determinada por los antecedentes que se les asignen (ambigüedad léxica por anáfora). \item Ambigüedad sintáctica o estructural de origen categorial debido al hecho de que las palabras \emph{las} (artículo o pronombre) y \emph{comas} (sustantivo o verbo) son homógrafos afectados de ambigüedad léxica categorial. De las cuatro combinaciones posibles, dos son sintácticamente aceptables. \item La oración es ambigua porque dos de sus palabras presentan ambigüedad léxica pura (polisemia): \emph{auto} puede ser un automóvil o un tipo de resolución judicial; \emph{suspensión} puede ser la acción de suspender (la resolución) o el sistema de amortiguadores del automóvil. De las cuatro combinaciones posibles, dos tienen cierto sentido. 
+
+%  \item Ambigüitat estructural amb el·lipsi i moviment: en una
+%    interpretació \emph{la bolsa} pot ser l'objecte de l'acció
+%    (transitiva) de baixar si el subjecte (nul) és el mateix que
+%    \emph{mi vecino} (``Mi vecino aseguró que (él mismo) había bajado
+%    la bolsa''); en l'altra, \emph{la bolsa} és el subjecte (mogut a
+%    posició postverbal) de l'acció intransitiva de baixar.
+%  \item Ambigüitat estructural pura per moviment de Qu. El SP \emph{a
+%      qui} pot ser l'objecte indirecte del verb telefonar en l'oració
+%    subordinada (\emph{Has dit [que [PRO telefonarien a qui]]}) o
+%    l'objecte indirecte del verb dir en l'oració principal (\emph{Has
+%      dit [que [PRO telefonarien]] a qui}).
+\item La oración es ambigua por la ambigüedad léxica (homografía) de \emph{soldado}. En la primera interpretación es un participio en forma pasiva \emph{haber sido soldado}; en la segunda es un sustantivo masculino singular. También interviene la ambigüedad léxica pura (polisemia) de \emph{despedir} (en la primera \emph{lanzar}; en la segunda, \emph{dejar sin trabajo}). Dos de las cuatro combinaciones tienen sentido. \item Ambigüedad estructural pura de adjunción. El sintagma preposicional \emph{por un policía} puede modificar el sintagma verbal \emph{atrapados en una fábrica incendiada} o sólo el sintagma verbal \emph{incendiada}. \item Ambigüedad mixta. Por un lado, léxica: la palabra \emph{privado} puede ser un adjetivo (interpretación 1) o un participio (interpretación 2). Por otro lado, estructural: en la primera interpretación, el sintagma preposicional \emph{de caza} modifica el sintagma nominal \emph{coto privado} (\emph{[[coto privado] [de caza]]}); en el segundo, sólo el participio \emph{privado} (\emph{[[coto] [[privado] [de caza]]]}). \item Ambigüedad estructural de origen coordinativo. El sintagma nominal \emph{canciones de cuna} puede modificar sólo el segundo sintagma verbal \emph{cantar} o el sintagma verbal completo \emph{bailar y cantar} (es decir, \emph{canciones de cuna} puede ser objeto directo sólo del segundo verbo o de los dos). \item Ambigüedad estructural pura de adjunción. El sintagma preposicional \emph{en el hospital} puede modificar el sintagma verbal \emph{le dieron} o el sintagma verbal \emph{se recupera de la paliza que le dieron}. \item Ambigüedad estructural de adjunción: el sintagma preposicional \emph{a la gallega} puede modificar el nombre \emph{pulpo} para formar el sintagma nominal \emph{pulpo a la gallega} o modificar el sintagma verbal \emph{servirán pulpo} (con núcleo \emph{servirán}) y formar el sintagma verbal \emph{servirán pulpo a la gallega}. \item La oración es ambigua por polisemia (ambigüedad léxica) del sustantivo \emph{ventana} (de la pared/ del sistema operativo) 
+
+% \item Ambigüitat estructural per moviment de constituents (en
+%   concret, per moviment de l'element Qu \emph{com}). Aquest element
+%   pot modificar els verbs \emph{deien} i \emph{vindria}.  Les
+%   estructures, abans del moviment, i de la formació de l'estructura
+%   de relatiu, es podrien representar així:
+%   \begin{itemize}
+%   \item Ens va explicar \emph{de quina manera}. Deien
+%     \emph{d'aquella manera} que vindria.
+%   \item Ens va explicar \emph{de quina manera}. Deien que vindria
+%     \emph{d'aquella manera}.
+%    \end{itemize}
+%    Noteu que l'el·lipsi dels subjectes no hi està involucrada perquè
+%    l'element Qu que es mou no és un sintagma nominal.
+\item Ambigüedad estructural de origen categorial. En la primera interpretación de la frase en catalán \emph{les} es un pronombre y \emph{creus} es un verbo, y forman juntos un sintagma verbal; en la segunda \emph{les} es un artículo y \emph{creus} es un sustantivo y forman juntos un sintagma nominal. \item Ambigüedad estructural de origen coordinativo. El sintagma (oración subordinada de relativo) \emph{que se hayan hecho en euros} puede modificar al segundo sintagma nominal \emph{los gastos} o al sintagma nominal completo \emph{las entradas y los gastos}. \item Ambigüedad de la oración debida a la ambigüedad léxica por anáfora. El pronombre \emph{la} puede tener tres antecedentes: \emph{la vendedora}, \emph{la descripción} o \emph{la urbanización proyectada} y, por lo tanto, tres interpretaciones diferentes. 
+
+%\item Ambigüitat de l'oració deguda a l'ambigüitat lèxica per
+%  anàfora: el pronom \emph{'ls} i el pronom nul PRO que fa de
+%  subjecte de \emph{es barallen} poden tenir els antecedents
+%  \emph{els professors} i \emph{els alumnes} i, per tant, poden
+%  tenir interpretacions diferents.
+\item Ambigüedad de la oración por polisemia (ambigüedad léxica) de la palabra \emph{número} (parte de una actuación / cuentas económicas) 
+
+% \item ``Van fer una manifestació pel parc científic'' (1: Van
+%   desfilar a través del parc científic; 2: La manifestació era a
+%   favor del parc científic)
+% \item ``Els assassins són policies o milicians rebels'' (Els
+%   policies eren també rebels?)
+% \item ``Com penses que han arribat al cim?'' (1: Com és possible
+%   que penses això? 2: Saps de quina manera hi han arribat?)
+% \item ``Ocultó el rollo para que nadie conociese su verdadera
+%   orientación sexual'' (1: Les fotos, si les revelaven, podien
+%   descobrir les seues preferències sexuals; 2: aquella relació
+%   deixaria clares les seues orientacions sexuals)
+% \item ``Els professors acompanyaven els xiquets quan els policies
+%   els van cridar'' (A qui van cridar?)
+% \item ``És difícil però no impossible'' (Què és difícil?)
+% \item ``Será mejor que verse sobre la nueva construcción'' (1: Més
+%   val que tracte sobre el mateix tema; 2: és millor citar-se en
+%   aquell altre lloc).
+% \item Ambigüitat estructural pura d'adjunció: el sintagma
+%   preposicional ``a Martí'' pot modificar a ``explicarà'' (oració
+%   principal) o a ``ha escoltat'' (oració subordinada).
+% \item Ambigüitat estructural pura (d'adjunció): l'adverbi
+%   interrogatiu ``com'' pot pertànyer a l'oració principal o pot
+%   pertànyer a la subordinada i haver estat desplaçat
+%   obligatòriament (``moviment de Qu'') a la posició inicial.
+% \item Ambigüitat lèxica del mot ``llengua''.
+% \item Ambigüitat deguda a l'el·lipsi: el subjecte del verb
+%   ``vindria'' pot ser ``jo'', ``ell'', ``ella''.
+% \item Ambigüitat extrasentencial deguda a l'anàfora: el pronom
+%   ``lo'' pot tenir dos antecedents diferents: ``l'ordinador'' i
+%   ``el ratolí''.
+% \item Ambigüitat estructural pura d'origen coordinatiu:
+%   ``ibèriques'' pot modificar tot el sintagma nominal coordinat o
+%   només el segon.
+% \item Ambigüitat estructural d'origen coordinatiu, deguda a dues
+%   ambigüitats lèxiques categorials: ``les'' (pronom o article) i
+%   ``mates'' (substantiu i verb); de les quatre combinacions, dues
+%   són sintàcticament acceptables. 
+\end{enumerate} 
+
+\item (*) Ejemplos del español al catalán: \begin{itemize} \item Ambigüedad que se puede resolver después de hacer un análisis morfológico de la oración: en \emph{mi trabajo}, el homógrafo \emph{trabajo} puede ser sustantivo o verbo, pero la presencia de \emph{mi} (determinante posesivo) desambigua el homógrafo perfectamente. \item Ambigüedad léxica que necesita un análisis sintáctico para ser resuelta: la expresión multipalabra \emph{sesenta y cinco} puede ser un único numeral (\emph{65}) o dos numerales coordinados (\emph{60 y 5}). El análisis morfológico no es suficiente para detectar que en la frase \emph{En el lugar donde murieron sesenta y cinco quedaron restos} es el primer caso y en la frase \emph{Murieron sesenta y cinco quedaron malheridos} es el segundo. \item Ambigüedad léxica que necesita un análisis semántico para resolverla: la palabra polisémica \emph{destino} en la oración \emph{El destino estaba escrito en el pasaje arrugado que encontraron} se traduciría al catalán por \emph{destinació} y en cambio en la oración \emph{El destino estaba escrito en el libro sagrado que encontraron} se traduciría al catalán por \emph{destí}; la elección exige identificar relaciones semánticas entre las interpretaciones de las palabras. \end{itemize} 
+
+\item (*) Véase el cuadro \emph{Para saber más} de la sección~\ref{s3:resambest}. En el caso de las frases ``Toni comprará...'', parece lógico usar la regla de {\em clausura tardía}, puesto que se corresponde bastante bien con las interpretaciones preferidas por las personas. 
+
+\item (b) \item (c). Las palabras \emph{la} y \emph{bata} pueden pertenecer cada una a dos categorías léxicas diferentes. De las cuatro combinaciones resultantes, dos son sintácticamente aceptables. \item (c) \item (b). El pronombre átono \emph{lo} puede referirse a  \emph{garaje} o a \emph{coche}. \item (b). El sintagma preposicional ``a María'' puede ser el objeto indirecto de la oración principal y de la subordinada. \item (b) 
+
+% \item Cada mot en espanyol es correspon, de vegades, amb més d'un mot
+%   en séverla: es tracta d'un cas típic d'ambigüitat lèxica de
+%   transferència. Buscarem, entre les possibles traduccions dels grups
+%   de dos mots, les que apareguen més freqüentment en el corpus i les
+%   elegirem.
+%   \begin{description}
+%   \item[dirección postal:] \emph{dirección} pot ser \emph{obmur},
+%     \emph{odnam} o \emph{ragul}; \emph{postal} només és
+%     \emph{atrac}. Les úniques combinacions (col·locacions) que
+%     apareixen en els textos són \emph{atrac odnam} i \emph{atrac
+%       ragul}; la segona és la més freqüent i, per tant, l'elegim.
+%   \item[dirección electrónica:] \emph{electrónica} és \emph{dered}; la
+%     combinació \emph{dered obmur} no s'hi dóna, i \emph{dered odnam}
+%     és menys freqüent que \emph{dered ragul}. Així doncs, elegim la
+%     segona.
+%   \item[dirección asistida:] \emph{asistida} és \emph{aduya} i només
+%     trobem \emph{aduya odnam}: per tant, l'elegim.
+%   \item[dirección general:] \emph{general} és \emph{latot} i només
+%     trobem \emph{latot odnam}. Per tant, l'elegim.
+%   \item[diseño moderno:] \emph{diseño} pot ser \emph{raerc} o
+%     \emph{atnip}; \emph{moderno} és \emph{aídla}; \emph{aídla atnip}
+%     és molt més freqüent que \emph{aídla raerc}. Per tant, elegim la
+%     primera.
+%   \item[diseño asistido:] \emph{asistido} és \emph{aduya}. Només
+%     trobem \emph{aduya raerc}; per tant, l'elegim.
+%   \end{description}
+%   Nota: \emph{séverla} és \emph{alrevés} al revés. Si llegiu els mots
+%   al revés, veureu per què s'han elegit.
+% \item La traducció (humana) de les frases en la llengua $L_1$ a la
+%   llengua $L_2$ ens pot servir per a determinar quina de les anàlisis
+%   (interpretacions) de les frases en $L_1$ s'hauria d'elegir i usar
+%   aquesta elecció abans de traduir automàticament a $L_3$.
+%   Fixem-nos en l'ambigüitat lèxica deguda als mots polisèmics, i
+%   imaginem que tenim $L_1$=espanyol, $L_2$=anglés i $L_3$=català.  Si
+%   la traducció del mot \emph{destino} a l'anglés és
+%   \emph{destination}, la traducció correcta al català és
+%   \emph{destinació}, ja que s'ha elegit la interpretació ``punt final
+%   o finalitat d'un procés o desplaçament''; si és \emph{destiny}, la
+%   traducció correcta al català és \emph{destí}, ja que s'ha elegit la
+%   interpretació ``sort futura que ens reserva l'atzar''. Es podria fer
+%   similarment en el cas dels mots homògrafs.
+%   Aquesta \emph{triangulació} també pot servir per a tractar altres
+%   tipus d'ambigüitat, com ara la sintàctica.
+\item La solución semántica es más potente y general pero exige un análisis muy profundo de la frase. En algunos casos, la sintaxis podría dar pistas que permitirían una desambiguación muy aproximada. Por ejemplo, si {\em fui\/} va seguido de la preposición {\em a}, es muy probable que se trate del verbo {\em ir}; por otro lado, si va seguido de un participio pasado, es muy probable que se trate del verbo {\em ser\/}: se podría hacer una categoría gramatical especial para el verbo ser y usar técnicas de desambiguación categorial. Si encontramos en catalán {\em podem\/} ({\em volem\/}) seguido de infinitivo, es mucho más probable que se trate del verbo {\em poder\/} ({\em voler\/}) que del verbo {\em podar} ({\em volar\/}); de nuevo, habría que usar una categoría gramatical especial, en este caso para los verbos modales. 
+
+\item Se pueden encontrar muchos ejemplos; por ejemplo, entre $L_1 =$ español y $L_2 =$ catalán, tenemos: \begin{itemize} \item Ayer por la mañana vino tarde $\rightarrow$ *Ahir pel demà vi vesprada (Ahir de matí va venir tard). \item Río porque no llegó a la meta $\rightarrow$ *Riu perquè no va arribar a la fique (Ric perquè no va arribar a la meta). \end{itemize} 
+
+\item (c) \item (b). Puede tener más de un árbol de análisis sintáctico (ambigüedad estructural). \item (b) \item (c) \item (b) \item (a). \emph{Cantamos} puede ser presente o pasado. \item (a). El pronombre átono que hace de sujeto en catalán de \emph{fa}. \item (a) 
+
+%\item (c). Mireu l'exemple~\ref{eq:escocesos}
+\item (c) \item (b). El pronombre \emph{li} puede tener los antecedentes \emph{Mario} y \emph{su madre} \item (b) \item (c) \item (a) \item (c) \item (c) \item (b) \item (c) \item (c) \item (b) \end{enumerate} 
+

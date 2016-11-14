@@ -1,0 +1,444 @@
+\chapter{Ordenadores y programas} 
+
+\com{Lista de cosas a hacer en este capítulo: \begin{itemize} \item Explicar que los módems internos actuales (\emph{winmodems}) y algunas impresoras son \emph{medio módems} y \emph{medio impresoras} porque no contienen todo el hardware y software necesarios para realizar las tareas correspondientes, sino que se apoyan en el sistema operativo (y por eso no funcionan, en general, con sistemas diferentes de Windows). \end{itemize} } \label{se:OiP} 
+
+Todos los sistemas informáticos\footnote{Es decir, todas las instalaciones basadas en ordenadores} se pueden dividir en dos partes: \emph{hardware} y \emph{software}. 
+
+\begin{description} \item[\emph{Hardware}:] el equipo físico que se puede ver y tocar. Por ejemplo, la pantalla, el procesador central, el teclado, el ratón, los chips\footnote{El chip es el elemento básico de la microelectrónica y de la microinformática; se trata de uno o más circuitos integrados en una placa de silicio de dimensiones muy reducidas, que normalmente se coloca en una caja hermética con contactos metálicos.} de memoria y las impresoras. 
+
+\item[\emph{Software}]: uno o más \emph{programas} (y los datos asociados) que realizan alguna función útil para el usuario o para otro \emph{programa}. Por ejemplo, un procesador de textos como LibreOffice o Microsoft Word puede estar compuesto por más de un \emph{programa}. Un \emph{programa} es una secuencia (lista o conjunto ordenado) de instrucciones que el hardware sigue o ejecuta, de tal manera que realizan alguna tarea determinada.\footnote{El uso de la palabra \emph{programa} en informática (secuencia de operaciones o acontecimientos) es paralelo a muchos usos de esta palabra en la vida cotidiana: programa \emph{de fiestas}, \emph{de un concierto}, \emph{de la lavadora}, etc.; aunque para el usuario un programa de ordenador es más parecido a una especie de caja de herramientas para hacer una tarea determinada, como, por ejemplo, editar un documento de texto.} Normalmente, los ordenadores están organizados alrededor de un \emph{procesador central} (véase más adelante) que es capaz de comprender y ejecutar instrucciones básicas tomadas de un conjunto determinado (el \emph{conjunto de instrucciones} del procesador). Los programas pueden estar guardados en un disco o cargados en la memoria del ordenador mientras el procesador los ejecuta. \end{description} 
+
+%escrits a mà en un paper,
+A continuación se considerarán el hardware y el software con más detalle. 
+
+\section{Hardware} 
+
+Todos los sistemas informáticos tienen hardware de las siguientes clases: 
+
+\begin{description} \item[Procesamiento:] Los dispositivos de procesamiento son los que hacen realmente el trabajo. La mayoría de los sistemas contienen un CPU ({\em central processing unit}, unidad central [de procesamiento]), o sencillamente, un \emph{procesador} que es el responsable de ejecutar todas las instrucciones de programa, de procesar datos, y de controlar el funcionamiento de otros componentes del hardware. En los ordenadores personales, la unidad central es un único chip de silicio. Además, la mayoría de los sistemas actuales contienen también una GPU (\emph{graphics processing unit}, unidad de procesamiento de gráficos), una CPU especializada en el tratamiento de imágenes, pero que también se puede usar para otras tareas computacionalmente intensivas. 
+
+La velocidad a la que una CPU ejecuta las instrucciones básicas de un programa se mide en megaherzios (MHz) o gigaherzios (GHz; un gigaherzio son 1000 megaherzios). Un megaherzio equivale a un millón de herzios (Hz), es decir, un millón de ciclos de procesamiento de información por segundo. Cada ciclo de procesamiento de información se corresponde con un \emph{tic} del reloj que todos los dispositivos de procesamiento tienen para sincronizar todos los circuitos del ordenador. Normalmente, una instrucción requiere unos cuantos ciclos de procesamiento para ser ejecutada, aunque algunos sistemas son capaces de procesar más de una instrucción al mismo tiempo. La velocidad típica de la CPU de un ordenador en la actualidad es de 3 Ghz. 
+
+\item[Almacenamiento:] los dispositivos de almacenamiento se pueden dividir en dos grupos: \begin{description} \item[Memoria primaria:] memoria rápida a corto plazo, volátil (se borra cuando se apaga el ordenador), que sirve para guardar los programas y datos mientras el ordenador está en funcionamiento; si los programas y los datos no caben en la memoria primaria, el sistema operativo ---véase el apartado~\ref{ss:programari}--- se encarga de copiarlos desde la memoria al disco duro cuando no se están usando y copiarlos de vuelta desde el disco duro a la memoria cuando son necesarios, operación que se llama \emph{intercambio}.\footnote{En inglés \emph{swapping}. Como el disco duro es más lento que la memoria primaria, el intercambio hace que el ordenador vaya más lento: por eso, ampliar la memoria primaria suele hacer que el ordenador vaya más rápido.} La memoria primaria normalmente consiste en chips RAM (\emph{random-access memory}, memoria de acceso aleatorio\footnote{Nótese la diferencia entre \emph{acceso aleatorio} (a voluntad) y \emph{acceso secuencial}. Un CD-ROM de música es de acceso aleatorio porque podemos acceder a la decimosexta canción directamente; en cambio, un casete (cinta magnética) es de acceso secuencial porque para acceder a la decimosexta canción directamente tenemos que pasar por las 15 anteriores.}) de silicio. 
+
+\item[Memoria secundaria:] memoria de largo plazo, permanente. Ejemplos: los antiguos disquetes, discos fijos o duros internos y externos, memorias USB (también llamadas \emph{pendrive}) y diversas formas de ROM (\emph{read-only memory}, memoria de sólo lectura), como los chips ROM, los CD-ROM o los DVD. 
+
+Los discos fijos (y los antiguos disquetes) son dispositivos de almacenamiento magnético, más o menos como lo eran los antiguos casetes. La información se almacena haciendo servir las propiedades magnéticas de determinados materiales magnetizables. En la actualidad el tamaño típico de un disco fijo es de 500~GB o 1~TB (véase el apartado \ref{ss:memoria} para conocer las medidas de almacenamiento de información). 
+
+La memoria USB es un dispositivo de memoria flash, un chip de memoria que mantiene su contenido en ausencia de alimentación, que se conecta al puerto USB del ordenador. El tamaño de estas memorias puede llegar hasta 1~TB, a pesar de que los tamaños más típicos son 16, 32 y 64 GB. 
+
+La memoria ROM suele estar hecha de chips de silicio. Los CD-ROM (\emph{compact dics read-only memory}) ---idénticos en apariencia y similares en muchos aspectos a los CD de música--- almacenan la información ópticamente.\footnote{Otros términos habituales son CD-R (\emph{compact disc recordable}) ---que identifica los CD en los que se puede escribir información solo una vez con la ayuda de dispositivos conocidos como grabadoras--- y CD-RW (\emph{compact disc rewritable}) ---utilizado para los CD que se pueden borrar y reescribir un número ilimitado de veces.} El tamaño de un CR-ROM suele ser de 650 MB o de 700 MB. 
+
+El DVD (\emph{digital versatil dics})\footnote{Como en el caso de los CD, podemos hablar de DVD-ROM, DVD-R y DVD-RW.} es un tipo más avanzado de sistemas de almacenamiento basado en discos ópticos; básicamente, se trata de un CD más rápido y con más capacidad, que ha desplazado casi completamente a los CD-ROM. El tamaño de un DVD depende del tipo de DVD y suele estar entre 4,7~GB y 17~GB. 
+
+La manera más común de almacenar los datos en una memoria secundaria es organizarlos en {\em ficheros} o \emph{documentos} organizados en \emph{directorios} o \emph{carpetas}; la sección~\ref{se:fitxers} explica estos conceptos en detalle.\label{pg:menciofitxer} \end{description} 
+
+\item[Entrada:] La función primaria de los dispositivos de entrada es que el usuario pueda interactuar con la máquina y con los programas que ejecuta con el fin de \emph{introducir} datos o información. Los dispositivos de entrada más comunes son el teclado, el ratón, la pantalla táctil, la palanca de mando (\emph{joystick}), las cámaras de fotos y \emph{webcams} o el escáner ---un dispositivo que lee una imagen impresa y la convierte en un fichero (véase el apartado~\ref{se:fitxers}) que contiene la imagen digitalizada.\footnote{Cuando la imagen es la de un texto impreso, un programa de \emph{reconocimiento óptico de caracteres} (OCR, \emph{optical character recognition}) la puede convertir en una representación del texto adecuada para ser manipulada con un procesador de textos (véase la sección~\ref{ss:proctext}), generalmente con algunos errores tipográficos menores.} 
+
+\item[Salida:] Esta es la familia de los dispositivos que el ordenador usa para comunicar datos o información al usuario. El monitor (la pantalla) es el más común. Otros dispositivos de salida son las impresoras, los altavoces, los vibradores de los dispositivos móviles, etc. 
+
+\end{description} En la figura~\ref{fg:ordinador} se resume esquemáticamente el hardware de un ordenador. \begin{figure} \centering
+
+\includegraphics[scale=1.0]{ordinador4} \caption{Esquema del hardware de un ordenador.} \label{fg:ordinador} \end{figure} 
+
+\section{Software} \label{ss:programari} 
+
+Hay tres tipos básicos de software: 
+
+\begin{description} \item[Sistemas operativos y \emph{firmware}:] son los programas que permiten el funcionamiento básico del ordenador. Se denomina \emph{firmware} al software del sistema que se usa tan frecuentemente que se almacena permanentemente en chips ROM. Este software ofrece al sistema operativo servicios básicos de acceso a los dispositivos de entrada y de salida más habituales. 
+
+Cuando conectamos el ordenador, el primer programa en ejecutarse es el \emph{firmware}, el cual se encarga de hacer algunas comprobaciones, como por ejemplo que hay un teclado conectado al ordenador o que la memoria RAM no tiene defectos, y de cargar el sistema operativo. 
+
+El sistema operativo, por un lado, permite que el usuario ejecute programas y gestione los ficheros de datos, etc.; para eso, ofrece una \emph{interfaz de uso} (véase más adelante). Por otro lado, el sistema operativo ofrece servicios básicos (véase más abajo) a los programas de aplicación que se ejecutan en el ordenador (los cuales pueden tener su propia interfaz de uso). 
+
+En cuanto a la \emph{interfaz de uso}, es decir, la apariencia y la forma de interaccionar con el usuario, la mayoría de los sistemas operativos son \emph{gráficos}, es decir, basados en ratón o pantalla táctil, punteros, ventanas, etc. (GNU/Linux, Windows, MacOS, iOS, Android); antiguamente, los sistemas operativos eran de {\em línea de órdenes}, es decir, basados en texto (Unix primigenio, MS-DOS). 
+
+Los sistemas más antiguos eran a veces \emph{monousuario} (MS-DOS, Windows 3.11), es decir, sólo podían ser usados por un único usuario a la vez, o \emph{monotarea}, es decir, no podían ejecutar más de un programa al mismo tiempo. La mayor parte de los actuales sistemas operativos son \emph{multiusuarios}, es decir, pueden ser usados por más de un usuario a la vez, y \emph{multitarea} (GNU/Linux, versiones recientes de Windows, MacOS). La mayor parte de los sistemas operativos actuales están además preparados para interaccionar con otros dispositivos a través de diferentes tipos de \emph{redes}.\footnote{La organización de los ordenadores en una red local permite la comunicación de información entre ellos y que se compartan recursos, como por ejemplo una impresora. Internet (véase el capítulo~\ref{se:Internet}) no es más que una gran red global que interconecta muchas redes más locales.} 
+
+Algunas de las operaciones básicas que hacen los sistemas operativos son: \begin{itemize} \item Controlar el hardware del ordenador donde se ejecutan. \item Copiar, mover y borrar ficheros de datos. \item Crear, mover y borrar directorios de ficheros. \item Establecer conexiones entre ordenadores. \item Ejecutar programas y controlar su ejecución. \item Establecer conexiones con otros ordenadores o dispositivos en red. \end{itemize} De hecho, los programas de aplicación suelen estar escritos para ser ejecutados \emph{sobre un sistema operativo}, es decir, los programas de aplicación \emph{asumen} que el sistema operativo hará todas estas operaciones sencillas y no contienen instrucciones de programa para hacerlas, sino sólo instrucciones para invocar los programas correspondientes del sistema operativo, cosa que simplifica enormemente la escritura de los programas por parte de los programadores. Por eso, cuando se especifican las características de un programa de ordenador se tiene que decir para qué sistema operativo está escrito, puesto que cada sistema operativo ofrece servicios diferentes e interacciona de manera diferente con los programas de aplicación. 
+
+% \footnote{En cert sentit, el sistema operatiu és com el
+% \emph{factor comú} de tots els programes d'aplicació.}
+\item[Programas de aplicación:] software diseñado específicamente para satisfacer las necesidades de los usuarios (a veces se denominan simplemente {\em aplicaciones}). Se podrían hacer dos grupos: \begin{description} \item[Software de uso específico:] software diseñado para un usuario muy concreto con unas necesidades muy concretas: por ejemplo, el programa que gestiona los préstamos, las cuotas y las adquisiciones de un videoclub, hecho a medida para él. \begin{description} \item[Software específico para profesionales de la traducción:] sistemas de traducción automática (capítulos~\ref{se:TiTA} a \ref{se:ASTA}), sistemas de traducción asistida basados en memorias de traducción (capítulo~\ref{se:memtrad}) y bases de datos terminológicas (capítulo~\ref{se:basesdades}). \end{description} \item[Software de uso general:] software diseñado para hacer tareas más genéricas, interesantes para muchos tipos de usuarios. Aquí tenéis algunos ejemplos: \begin{description} \item[Editores y procesadores de texto] para preparar, modificar, almacenar e imprimir documentos de texto (véase la sección~\ref{ss:proctext}). 
+
+% \item[Programes d'autopublicació o autoedició,]
+%   que% integren textos, imatges, etc. fins a produir un document
+%   imprés amb característiques de publicació. Quan el disseny
+%   de la publicació no és massa complex, és possible usar
+%   senzillament un processador de textos.
+\item[Hojas de cálculo,] que permiten automatizar cálculos que se repiten sobre un conjunto más o menos grande de datos (por ejemplo, para calcular la nota media de cada estudiante de una clase entera a partir de las notas parciales), y presentar los resultados de varias maneras, por ejemplo, en gráficos de muchos tipos. \item[Gestores de bases de datos] \label{pg:BD} que sirven para almacenar, organizar y gestionar de varias maneras la información contenida en \emph{bases} o bancos de datos (véase el capítulo~\ref{se:basesdades}). 
+
+% \item[Programes de comunicacions,] que permeten connectar el
+%   nostre ordinador a altres ordinadors, transferir fitxers,
+%   etc. Actualment, en molts casos, els programes de
+%   comunicació formen part dels sistemes operatius i l'usuari
+%   no s'adona que estiguen actius.
+\item[Navegadores de Internet:] \label{pg:navegadors} programas que permiten acceder de manera sencilla a los documentos de Internet en máquinas conectadas a esta red.\footnote{El nombre \emph{navegador} se usa por la analogía ---débil--- existente entre los mecanismos de acceso a los documentos de Internet y la navegación mediante un mapa en una zona desconocida.} Véase la sección \ref{ss:navegadors}. 
+
+% \item[Programes de gràfics,] que ens ajuden a presentar de
+%   manera més útil les dades de què disposem (aquests programes
+%   apareixen moltes voltes associats a fulls de càlcul).
+\item[Juegos] de muchas clases. \end{description} \end{description} Los programas de aplicación los activa el usuario por medio del sistema operativo, utilizan el sistema operativo para acceder a los recursos (hardware y otros programas) del sistema e interaccionan con el usuario mediante los dispositivos de entrada y de salida (véase la figura~\ref{fg:aplicacio-so}). \end{description} 
+
+\begin{figure} \centering
+
+\includegraphics[scale=1.0]{aplicacio-so} \caption{Esquema de la interacción entre el usuario, el sistema operativo y los programas de aplicación.} \label{fg:aplicacio-so} \end{figure} 
+
+\begin{persabermes}{software} Como ya se ha dicho más arriba, un software es un conjunto de programas, cada uno de los cuales consiste en una lista de instrucciones válidas (ejecutables por el ordenador) que se ejecutan en el orden indicado, de la primera a la última, excepto cuando se presenta alguna instrucción de \emph{salto} que indica cuál es la siguiente instrucción que se tiene que ejecutar. 
+
+Por ejemplo, un programa que suma todos los números enteros del 1 al 10 podría ser el siguiente, que usa dos posiciones de memoria RAM para guardar valores necesarios para el cálculo. Cada una de las órdenes se corresponde con una instrucción básica de las que puede entender cualquier procesador. \begin{enumerate} \item Haz que el acumulador (un registro de la memoria interna del procesador) valga 1. \item Guarda el valor del acumulador en una posición de memoria que denominaremos \emph{índice}. \item Haz que el acumulador valga 0. \item Guarda el valor del acumulador en una posición de memoria que denominaremos \emph{suma}, la cual contendrá la suma total. \item \label{en:z} Carga el valor de \emph{suma} en el acumulador. \item Suma el valor de \emph{índice} al acumulador. \item Guarda el valor del acumulador en \emph{suma}. \item Carga el valor de \emph{índice} en el acumulador. \item Compara el valor del acumulador con 10. \item Si es igual, salta a la instrucción~\ref{en:q} \item Incrementa en 1 el valor del acumulador. \item Guarda el valor del acumulador en \emph{índice}. \item Salta a la instrucción~\ref{en:z}. \item \label{en:q} Para. \end{enumerate} 
+
+Muchas veces se usan nombres cortos (en inglés \emph{mnemonics}) para las instrucciones del procesador y también nombres elegidos por el programador para referirse a posiciones del programa (esta notación se suele denominar \emph{lenguaje ensamblador}). El programa de arriba tendría la apariencia siguiente: \begin{verbatim} mov #1,A mov A,index mov #0,A mov A,suma otro: mov suma,A add A,index mov A,suma mov index,A cmp A,#10 jeq final inc A mov A,index jmp otro final: hlt \end{verbatim} 
+
+\paragraph{Procesadores de lenguajes de programación:} las instrucciones que ejecuta el procesador central de un ordenador son demasiado sencillas para que un programador humano haga programas útiles; sería largo y engorroso, como hemos visto en el ejemplo de programa que sumaba los enteros del 1 al 10. Los programadores normalmente escriben sus programas en {\em lenguajes de programación} basados en instrucciones más potentes (como por ejemplo BASIC, Java, C, C++, Pascal, Perl o Python) y usan programas especiales ---los procesadores de lenguajes--- para traducirlos a las instrucciones sencillas que entiende la máquina.\footnote{Hay dos familias básicas de procesadores de lenguajes: los \emph{compiladores}, que traducen todo el programa al lenguaje de la máquina antes de ejecutarlo, y los \emph{intérpretes}, que leen el programa línea a línea y ejecutan pequeños programas ya escritos en el lenguaje de la máquina y que corresponden a las sentencias del lenguaje de programación.} Casi todos los programas que se ejecutan en un ordenador han sido escritos en algún lenguaje de programación. El programa que suma los números del 1 al 10 quedaría así en el lenguaje Pascal: \begin{verbatim} program SUMA; var index, suma: integer; begin suma:=0; for index:=1 to 10 suma:=suma+index; end. \end{verbatim} 
+
+% \paragraph{Programes i algorismes:} Moltes voltes, un programa és la
+% realització (entre informàtics se'n diu {\em implementació}) d'un
+% \emph{algorisme}. Un algorisme (també \emph{algoritme}, per
+% interferència amb \emph{aritmètica}) és una seqüència finita
+% d'operacions executables i no ambigües\footnote{Aquestes operacions no
+% necessàriament han de ser comprensibles per a un ordinador.} que
+% defineix un procediment que sempre es deté. El nom \emph{algorisme} ve
+% del nom d'un matemàtic que treballava a Bagdad vora l'any 825 de la
+% nostra era, Muhammad ibn Musa al Khwarizmi, anomenat així perquè
+% sembla que era d'una ciutat al sud del mar d'Aral anomenada Khwarizm
+% (ara Kheva). Aquest matemàtic va introduir el sistema decimal hindú en
+% el món àrab. El seu llibre, \emph{Kitab al-jabr wa al-muqabalah}, o
+% {\em Llibre de la integració i l'equació}, va donar nom també a
+% l'\emph{àlgebra} quan es va traduir al llatí en el segle XII. El
+% llibre és bàsicament una compilació de procediments algebraics i
+% geomètrics, és a dir, d'\emph{algorismes}.
+% Normalment els algorismes especifiquen un mètode general per a obtenir
+% la resposta (correcta o incorrecta) a qualsevol cas particular d'un
+% problema o pregunta, com ara ``quin és el quocient de la divisió de
+% dos nombres enters''?  Els algorismes es poden convertir fàcilment en
+% programes d'ordinador si es canvien les instruccions bàsiques de
+% l'algorisme per instruccions en un llenguatge de programació que es
+% puguen traduir a les instruccions senzilles que entén la màquina.
+% Un exemple d'algorisme/programa és el següent, que diu si dues
+% seqüències de caràcters (també anomenades \emph{cadenes} de caràcters)
+% són iguals o no. Aquest algorisme està relacionat amb la recerca d'un
+% mot en un diccionari, per exemple.  Els algorismes s'enuncien \emph{en
+% imperatiu}, com si fossen ordres que es donen a algú perquè les
+% execute seqüencialment, excepte quan es trenca l'ordre amb una
+% instrucció ``Vés a''.  \vspace{0.4cm}
+% {\sf
+% \noindent ALGORISME COMPARA\newline
+% \noindent Entrada: Dues seqüències de caràcters $A$ i $B$.\newline
+% Eixida:  \emph{Sí}, si són iguals; \emph{no} si no ho són.
+% \begin{itemize}
+% \item[1.] Fes que $p$ valga 1 ($p$ indica la posició actual dins
+%   de les seqüències que estem comparant: $p=1$, per al primer
+%   caràcter, $p=2$, per al segon, etc.)
+% \item[2.] Si no existeix la posició $p$ de $A$, vés a 7.
+% \item[3.] Si no existeix la posició $p$ de $B$, vés a 8.
+% \item[4.] Si el caràcter en la posició  $p$ de $A$ no és
+%   igual al caràcter en la posició $p$ de $B$, vés
+%   a 8.
+% \item[5.] Suma 1 a $p$.
+% \item[6.] Vés al pas 2.
+% \item[7.] Si no existeix la posició $p$ de $B$, digues \emph{sí} i
+%   para.
+% \item[8.] Digues \emph{no} i para.
+% \end{itemize} 
+% } %
+%   Si es pot suposar que a les cadenes de caràcters s'afegeix un símbol
+%   especial de final de cadena (per exemple, `\$'), l'algorisme se
+%   simplifica: \vspace{0.4cm}
+%   {\sf
+%   \noindent ALGORISME COMPARA2\newline
+%   \noindent Entrada: Dues seqüències de caràcters $A$ i $B$,
+%   acabades en `\$'.\newline
+%   Eixida:  \emph{Sí}, si són iguals; \emph{no} si no ho són.
+%   \begin{itemize}
+%   \item[1.] Fes que $p$ valga 1.
+%   \item[2.] Si el caràcter en la posició  $p$ de $A$ no és
+%     igual al caràcter en la posició $p$ de $B$, digues
+%     \emph{no} i para.
+%   \item[3.] Si el caràcter en la posició  $p$ de $A$ és `\$',
+%     digues \emph{sí} i para.
+%   \item[4.] Suma 1 a p.
+%   \item[5.] Vés al pas 2.
+%   \end{itemize}
+% } 
+%   Aquest algorisme es pot convertir a un programa d'ordinador.  Per
+%   exemple, en Pascal tindria una forma com aquesta:
+%   \begin{alltt}
+%     function compare(A, B : string);
+%     var p : int ;
+%     labels : 2 ;
+%     begin
+%     p:=1;
+%     2: if A[p]<>B[p] then return "no";
+%     if A[p]='\$' then return "yes"
+%     p:=p+1;
+%     goto 2;
+%     end;
+%   \end{alltt}
+%   \noindent on \texttt{A[p]} representa el caràcter que hi ha en la
+%   posició \texttt{p} de la seqüència \texttt{A}.
+\end{persabermes} 
+
+\section{Memoria} \label{ss:memoria} 
+
+Toda la información --- instrucciones de programa o datos --- que se almacena en la memoria de un ordenador se guarda en forma binaria, es decir, cada dato es una cadena de dígitos binarios o \emph{bits}. Un bit puede tener dos valores: 0 (apagado, inactivo) o 1 (encendido, activo); esto es porque el dispositivo electrónico correspondiente puede estar en dos estados. Si necesitamos guardar objetos o unidades de información que tienen más de dos valores posibles, no tendremos suficiente con 1 bit; tendremos que combinar más de un bit. Por ejemplo, si tenemos una unidad de información que puede presentarse en 778 formas diferentes,\footnote{Cómo, por ejemplo, los signos de algún sistema de escritura no alfabético} necesitaremos 10 bits, porque con 9 bits solo podemos hacer $$2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 = 2^9 = 512$$ combinaciones diferentes, pero con 10, ya podemos hacer suficientes, porque $2^{10}=1~024$ (quedarían $1~024-778=246$ combinaciones sin usar). 
+
+Los bits se agrupan normalmente en grupos de ocho, llamados \emph{bytes}. Un byte puede estar, por lo tanto, en $2^8=256$ estados diferentes. Por ejemplo, los caracteres y símbolos más comúnmente usados en textos se guardaban históricamente cada uno en un byte, usando el código ASCII\label{pg:ASCII} (\emph{American Standard Code for Information Interchange}), donde el código de la ``{\tt A ''} es ``{\tt 01000001}'' o el de la ``{\tt z}'' es ``{\tt 01111010}'' (véase el epígrafe~\ref{ss:formats}). El código ASCII fue el primer código estándar para almacenar textos; cuando los textos son más ricos y contienen información sobre tipos y tamaño de letra, diagramación, notas a pie de página, etc., se usan formatos más avanzados que se explican en el epígrafe~\ref{ss:formats}. Un byte puede contener, por tanto, muy poca información (un carácter, una instrucción sencilla del procesador central, un número del 0 (``{\tt 00000000}'') al 255 (``{\tt 11111111}''), etc.). Por ejemplo, un documento de texto como éste tiene decenas de miles de caracteres, y una enciclopedia, cientos de millones. En las imágenes en blanco y negro, cada punto es un bit, una pantalla de ordenador contiene más o menos un millón. Si son de colores, hay más de un bit por cada punto. Las instrucciones de los programas que ejecuta el procesador central también se almacenan en bytes.\footnote{En el ejemplo de la sección anterior, la instrucción {\tt inc A}, que incrementa el valor almacenado en el acumulador en 1, podría ser el byte {\tt 11010110}} 
+
+Como un byte puede contener poca información, normalmente se habla de: \begin{itemize} \item \emph{kilobytes} (kB), o miles de bytes. De hecho, por fidelidad al sistema binario, un kilobyte no tiene 1.000, sino 1.024 bytes ($2^{10}$ es $1.024$), es decir, 1.024$\times$8=8.192 bits. \item \emph{megabytes} (MB), o millones de bytes. De hecho, como en el caso de los kilobytes, no exactamente: $$1~\mbox{MB} = 1.024 \times 1.024~\mbox{bytes}= 1.048.576~\mbox{bytes}.$$ \item \emph{gigabytes} (GB), o miles de millones ---un poco más--- de bytes: $$1~\mbox{GB}=1.024~\mbox{MB}=1.048.576~\mbox{kB}=1.073.741.824~\mbox{bytes}.$$ \item \emph{terabytes} (TB), o billones (millones de miliones) ---de nuevo, un poco más--- de bytes: \[ \begin{array}{c} $$1~\mbox{TB}=1.024~\mbox{GB}=1.048.576~\mbox{MB}=1.073.741.824~\mbox{kB}=\\ =1.099.511.627.776~\mbox{bytes}.$$ \end{array} \] \end{itemize} Puesto que los prefijos \emph{k}, \emph{M}, \emph{G} y \emph{T} se usan en el resto de las disciplinas científicas para expresar en potencias exactas de 10 (de 1.000), hay quien prefiere hablar de \emph{kibibytes} (kiB), \emph{mibibytes} (MiB), \emph{gibibytes} (GiB) y \emph{tebibytes} (TiB) para referirse a las unidades de capacidad de almacenamiento basadas en múltiplos de 1.024. 
+
+% Per exemple, actualment (any 2015) és comú que un PC de taula
+% tinga 8~GB de memòria RAM i un disc dur d'1~TB.
+% Quant a l'emmagatzematge òptic, un CD-ROM conté uns 700~MB, tot i
+% que també n'hi ha varietats que arriben als 900~MB. Els DVD actuals
+% contenen uns 4,7~GB, però ja s'han desenvolupat tècniques que n'amplien
+% considerablement la capacitat.
+% Les memòries USB típiques (i també les targetes de memòria SD, micro
+% SD, etc. que s'usen de memòria suplementària en mòbils, tauletes i
+% càmeres) solen tenir 16, 32 o 64~GB.
+\section{Ficheros y directorios} \label{se:fitxers} \label{pg:fitxer} 
+
+Como ya se ha dicho en la página~\pageref{pg:menciofitxer}, es habitual que los datos ---de cualquier clase: textos, instrucciones de programas, datos gráficos, sonido, vídeo, etc.--- almacenados en memoria secundaria estén organizados en {\em ficheros}, también llamados \emph{documentos} o \emph{archivos}. Los ficheros son conjuntos de datos con un nombre que los identifica y que se manipulan ---se abren, se cierran, se copian, se borran--- como un todo. En discos grandes, sería muy incómodo tener todos los archivos uno tras otro, por lo que es normal que los archivos estén organizados en {\em directorios}, también llamados \emph{carpetas}. Los directorios son ficheros especiales que agrupan los nombres y las características de otros ficheros; de hecho, los directorios pueden contener cero o más ficheros o también cero o más directorios (sin restricciones de cantidad), y así sucesivamente, de forma que la persona usuaria puede establecer una estructuración jerárquica o arbórea de sus ficheros en el disco. 
+
+Normalmente, cada disco tiene un {\em directorio principal} o \emph{ directorio raíz} (el más elevado en la jerarquía de directorios), dentro del cual se encuentra el resto de directorios. Dos ficheros --- también dos directorios --- sólo pueden tener el mismo nombre si se encuentran en directorios diferentes. Por razones históricas, los nombres de ficheros suelen tener dos partes: el \emph{nombre} propiamente dicho y la \emph{extensión}, separadas por un punto (por ejemplo, \texttt{alacant.txt}). El nombre suele ser libre, pero la extensión suele ser corta (entre una y cuatro letras) y el sistema operativo suele usarla para identificar el programa que se debe usar para procesarlo o el formato en que se encuentran los datos que contiene (por ejemplo, la extensión \texttt{.txt} identifica normalmente un fichero de texto plano, véase el apartado \ref{ss:formats}; la extensión \texttt{.exe} se usa para los programas de ordenador, etc.). 
+
+La secuencia de los nombres de las carpetas que hay que ir abriendo hasta que lleguemos a un fichero se conoce como la \emph{trayectoria} o \emph{ruta} del fichero. De hecho, conviene considerar la trayectoria como parte del nombre del archivo, lo que nos permitiría decir, sencillamente, que en un disco no puede haber dos archivos con el mismo nombre. 
+
+\begin{figure} \centering
+
+\begin{parsetree} ( .{$\Box$}. (.{\carpeta{prac1}}. (.{\carpeta{tt}}. `\fitxer{tt1}{txt}' `\fitxer{tt2}{txt}' ) (.{\carpeta{reserva}}. (.{\carpeta{tt}}. `\fitxer{tt1}{txt}' ) ) ) ) \end{parsetree} \caption{Ejemplo de estructura de ficheros y directorios en un dispositivo de almacenamiento. El directorio principal o raíz está representado por el símbolo $\Box$.}\label{fg:fitxersdirs} \end{figure} 
+
+Todos estos conceptos se ven quizás más claros con el ejemplo de la figura \ref{fg:fitxersdirs} en que se muestra la estructura de ficheros y directorios en un dispositivo de almacenamiento cualquiera. En este dispositivo, el directorio principal o raíz (representado con el símbolo $\Box$) contiene un único (sub)directorio \carp{prac1}; este directorio contiene dos (sub)directorios, \carp{tt} (que contiene los ficheros \texttt{tt1.txt} y \texttt{tt2.txt}) y \carp{reserva}. El directorio \carp{reserva} contiene un subdirectorio \carp{tt} (que contiene el archivo \texttt{tt1.txt}). Fijaos que dos carpetas diferentes contienen archivos con el mismo nombre \texttt{tt1.txt}; esto no es problema si consideramos la trayectoria completa como nombre del fichero. Si el disco se llama \texttt{C:} (típico en el caso del disco duro de un PC con sistema operativo Windows), las trayectorias de estos dos ficheros serían \texttt{C:}\barra\carp{prac1}\barra\carp{tt}\barra\texttt{tt1.txt} y C: \texttt{}\barra\carp{prac1}\barra\carp{reserva}\barra\carp{tt}\barra\texttt{tt1.txt}, y, por lo tanto, serían diferentes. En el caso del sistema operativo GNU/Linux las trayectorias de estos dos ficheros serían \texttt{/}\carp{prac1/}\carp{tt/}\texttt{tt1.txt} y / \texttt{}\carp{prac1/}\carp{reserva/}\carp{tt/}\texttt{tt1.txt}. Fijaos que cada sistema operativo usa un símbolo diferente para el directorio principal o raíz y para separar los nombres de los directorios y archivos dentro de la ruta o trayectoria. 
+
+\section{Tipos de ordenadores} Una clasificación no muy exhaustiva de los diferentes tipos de ordenadores que podemos encontrarnos hoy en día es la siguiente: 
+
+\begin{description} \item[De sobremesa] (en inglés \emph{desktop}): Están formados por \emph{una caja} con dispositivos de procesamiento y almacenamiento y un conjunto de periféricos (dispositivos de entrada o de salida) como por ejemplo el teclado, el ratón o la pantalla. Son, con diferencia, los ordenadores más habituales. \item[Portátiles] (en inglés \emph{laptop}, aunque cuando son pequeños se les llama a veces \emph{notebook} o \emph{netbook}): Tienen un tamaño menor que el de un maletín y un peso ligero que permite llevarlos sin demasiado esfuerzo de un lugar a otro. Pero, su volumen reducido limita las posibilidades de hacer ampliaciones y, por lo tanto, su tiempo de vida puede ser más corto que el de los ordenadores de sobremesa. 
+
+% Tot i que fa uns anys el seu preu era molt superior al d'un
+% ordinador de sobretaula, avui la diferència és cada vegada
+% més reduïda.
+\item[Tabletas y \emph{smartphones}]: las tabletas (en inglés \emph{tablets}) y los teléfonos móviles más modernos, denominados \emph{smartphones}, son verdaderos ordenadores portátiles, con una pantalla táctil y sin teclado, con cámara, conectividad Wi-Fi y Bluetooth, receptor GPS, etc. Suelen venir con un sistema operativo gráfico: el más común es Android, pero los de la marca Apple usan iOS.\footnote{Estos dispositivos han desplazado a los antiguos \emph{handhelds} o dispositivos de mano, que eran una evolución de las antiguas agendas electrónicas y se solían denominar \emph{PDA} por \emph{Personal Digital Assistant}, "asistente digital personal'.} 
+
+\item[Servidores:] Los servidores son ordenadores que contienen y gestionan información que se utilizará en otros ordenadores (``clientes") conectados a ellos a través de una red interna o a través de Internet; no son demasiado diferentes de un ordenador de sobremesa, normalmente más potentes en cuanto a memoria, disco y procesador, pero como nadie tiene que sentarse delante de ellos no suelen tener pantallas, teclados o ratones y están pensados para ser ubicados horizontalmente en armarios especiales llamados \emph{racks}. Estos ordenadores se pueden presentar en grupos conectados entre sí para ofrecer mayor potencia y capacidad. \end{description} 
+
+En cuanto a los ordenadores de sobremesa y los portátiles, a menudo se hace la distinción entre los ordenadores de tipo PC y los Macintosh (a menudo denominados Mac). Los PC son la evolución de los primeros ordenadores personales desarrollados por IBM, a pesar de que actualmente son fabricados por un número muy grande de empresas. Los Mac, a estas alturas también son ordenadores de tipo PC, pero antiguamente eran ordenadores tipo PowerPC fabricados exclusivamente por la empresa Apple. Los Mac usan un sistema operativo propio (MacOS) y tienen una cuota de mercado más reducida entre el público general pero más grande en determinadas aplicaciones especializadas (por ejemplo, el diseño gráfico). 
+
+% Una classificació que pràcticament ha passat de moda és la següent:
+% \begin{description}
+% \item[``Mainframes'':] Ordinadors que normalment contenen més d'un
+%   processador central i són capa\c{c}os de donar servei a més d'un
+%   usuari alhora mitjan\c{c}ant estratègies de compartició del
+%   temps. La noció de ``mainframe'' està associada a la de ``centre
+%   de processament de dades'' (d'una universitat, d'un ministeri,
+%   d'una gran empresa, etc.).  N'hi ha alguns que es diuen
+%   ``supercomputadors'' i s'usen en enginyeria i en ciència.
+% \item[Miniordinadors:] Versió redu\"{\i}da dels ``mainframes''
+%   (normalment basats en un processador únic) que s'usen molt
+%   comunament en ambients de recerca i de manufacturació. També poden
+%   ser usats per més d'un usuari i executar més d'una tasca alhora.
+% \item[Microordinadors:] Ara se'ls anomena més comunament
+%   \emph{ordinadors personals}, i estan dissenyats per a ser usats
+%   per un únic usuari. Els PC i els Macintosh en són exemples.
+% \end{description}
+% La classificació no pot ser molt rígida. En concret, els PC són cada
+% volta més potents i, amb un sistema operatiu adequat ---multitasca i
+% multiusuari--- poden fer les funcions que fa uns cinc anys només
+% feien els miniordinadors i en fa uns deu només feien els
+% ``mainframes''.
+\section{Configuración típica de un ordenador personal} La configuración clásica de un ordenador personal de sobremesa modelo 2015 suele ser más o menos la siguiente: \begin{itemize} \item La unidad base (la ``caja'' o la ``torre'') contiene: \begin{itemize} \item Un procesador compuesto de cuatro núcleos o procesadores individuales (\emph{quad-core}) o más, como por ejemplo un \emph{Intel Core i5} o más o un procesador equivalente de la marca AMD (véase el glosario, apartado~\ref{ss:OiPgloss}) a 3~GHz. \item La memoria RAM (por ejemplo, de 8~GB). \item Una buena tarjeta gráfica, con su propia unidad independiente de procesamiento gráfico o GPU (\emph{graphics processing units}), \item Un disco fijo con una capacidad del orden de 1~TB \item Una unidad grabadora de DVD y de CD-ROM\footnote{En las unidades de CD-ROM es importante la velocidad máxima de transferencia de datos, que se da como múltiple del estándar (la de un CD de música, del orden de unos 150 kilobytes por segundo): cuádruplo (4$\times$), séxtuplo (6$\times$), etc. Actualmente no es extraño que una unidad de CD-ROM tenga una velocidad punta de lectura y de escritura de 52$\times$ o más. De todas formas, las velocidades \emph{medias} de todo un proceso de lectura y escritura suelen ser más bajas.} \item Una tarjeta de sonido con altavoces y micrófono. \item Una cámara (a veces llamada \emph{webcam}) \item Una o más tarjetas de comunicaciones incorporadas (con cables o inalámbricos, véase el glosario, apartado~\ref{ss:OiPgloss}). \end{itemize} \item Un monitor o pantalla, normalmente una pantalla LCD\footnote{\emph{liquid-crystal display} o pantalla de cristal líquido} de 17 o más pulgadas, \item Un teclado aparte y un ratón. \item Una impresora (de inyección o de tinta ---la más típica ---, o láser\footnote{Las impresoras \emph{matriciales} o de \emph{agujas} sólo se usan para aplicaciones muy específicas.}). \end{itemize} Las especificaciones de los portátiles (memoria, procesador) suelen ser similares, normalmente un poquito más reducidas. Los teléfonos móviles inteligentes o \emph{smartphones} y las tabletas no suelen tener disco, sino una memoria flash no volátil, por ejemplo, de 8~GB, y una memoria RAM del orden de 1~GB. 
+
+\section{Un pequeño glosario} \label{ss:OiPgloss} Este glosario recoge algunos términos de uso común en la descripción de ordenadores y programas que no han sido definidos más arriba. 
+
+\begin{description} \item[adaptador de vídeo] (también llamado tarjeta gráfica o controlador de vídeo): Dispositivo (tarjeta independiente, o integrada en la placa base) que permite conectar un monitor al ordenador. Hay muchos tipos de adaptadores de vídeo. Se tiene que considerar la resolución \emph{}, es decir, el número de puntos, elementos de imagen (\emph{píxeles}) que caben en una imagen, por ejemplo $1024 \times768$ (horizontal $\times$ vertical), la profundidad \emph{de color} (en bits: por ejemplo 24 bits permiten $2^{24}=16~777~216$ colores diferentes) y otros parámetros como la frecuencia {\em de refresco} (que se mide en hercios o ciclos por segundo; véase ``megahercio''). Actualmente no es extraño tener en ordenadores de sobremesa o portátiles resoluciones como la llamada \emph{HD 1080} (1920 $\times$ 1080) o incluso más grandes. 
+
+\item[ADSL] (del inglés \emph{asymmetric digital subscriber line}, línea de abonado digital asimétrica): Versión asimétrica de DSL (véase DSL). La asimetría se refiere a que la velocidad de transmisión de datos de la central hacia el abonado es superior que la velocidad de transmisión de datos del abonado hacia la central (por ejemplo 8 Mb/s hacia el abonado y 512 kB/s hacia la central). 
+
+\item[cache] o \emph{memoria caché}: Memoria RAM intermedia, de acceso más rápido por parte del procesador, donde se copia de cuando en cuando un bloque (también ``página") completo de posiciones consecutivas de la memoria RAM general para simplificar accesos repetidos a posiciones en la misma zona. Por ejemplo, en un ordenador con 512 kilobytes (524.288 bytes) de \emph{memoria caché}, tras acceder a la posición 2.000.000 es muy probable que el procesador quiera acceder a la posición 2.000.003. Si cuando se ha pedido la 2.000.000 se copian en la \emph{memoria caché} las 524.288 posiciones que van de la 1.572.864 a la 2.097.151, el acceso a la posición 2.000.003 será más rápido. 
+
+% \item[densitat alta:] Quan els disquets de 3 polzades i mitja (uns
+%   90~mm) són de densitat alta solen estar marcats amb les lletres
+%   HD (\emph{high density}) i poden emmagatzemar 1,44~MB de
+%   dades. Els anomenats de \emph{densitat doble} (DD) ---molt poc
+%   usats actualment--- poden contenir 720~kB, és a dir, la
+%   meitat. Es distingeixen perquè els primers tenen un petit
+%   foradet quadrat addicional (a la part inferior dreta si posem la
+%   finestra dalt).
+\item[DSL] (del inglés \emph{digital subscriber line}, línea de abonado digital), tecnología de conexión que permite aprovechar las líneas telefónicas y eléctricas para hacer conexiones de alta velocidad (hasta unos 10 Mb/s). En el caso de las líneas eléctricas, la tecnología recibe también el nombre de PLC (\emph{power line communications} o comunicaciones a través de líneas de fuerza), pero en España no se usa para proveer servicios de Internet doméstico. 
+
+\item[fibra óptica:] tecnología que transporta los datos usando una luz láser que se propaga a través de un cable muy fino de material transparente. En el momento de escribir estas líneas, los proveedores de Internet han empezado a ofrecer un servicio doméstico de conexión que permite conexiones del orden de centenares de Mb/s. 
+
+\item[GHz:] véase gigahertz. 
+
+\item[gigahertz:] un gigahertz son 1000 megahertzs (véase \emph{megahercio} en este glosario). 
+
+\item[GNU/Linux:] un sistema operativo multitarea y multiusuario gratuito, del estilo del Unix que se podía encontrar en los llamados \emph{miniordenadores} de los años 70 y 80, desarrollado de manera colaborativa por miles de voluntarios independientes y por empresas en todo el mundo y que es \emph{software libre} (véase la entrada en este glosario): se puede copiar libremente si se cumplen ciertas condiciones. Se puede instalar GNU/Linux (que se presenta en muchas \emph{distribuciones} diferentes como por ejemplo \emph{Ubuntu}, \emph{Mint}, \emph{Fedora}, etc.) en un PC con procesador de la familia x86 (véase \emph{Pentium}) o superior y en otros muchos tipos de ordenador. 
+
+\item[Macintosh] o \emph{Mac}: nombre genérico (y comercial) de una familia de ordenadores construidos por Apple Computer y que son básicamente equivalentes a los PC. Estos ordenadores, lanzados al mercado en 1984, popularizaron la interfaz gráfica de usuario, toda una revolución para la época. Hace unos años había diferencias significativas entre los PC y los \emph{Mac} de manera que no eran compatibles, es decir, que los programas de uno no funcionaban en el otro, tenían que adaptarse a las características particulares de cada uno. Estas diferencias se debían al hecho de que el procesador del \emph{Mac} no era de la familia x86 (véase \emph{Pentium}, sino de otra (antiguamente de la familia 68000 de Motorola, y después del llamado PowerPC). En la actualidad esta diferencia no existe y tanto unos como otros emplean procesadores de la familia x86. En el caso de los \emph{Mac} desde el año 2006 incorporan procesadores Intel, así que se puede instalar Microsoft Windows o GNU/Linux con todos sus programas, aunque también podemos usar el sistema operativo propio de los Mac, llamado \emph{MacOS}. 
+
+\item[megahercio:] Un megahercio (MHz) es un millón de hercios (Hz), es decir, un millón de ciclos por segundo. La velocidad de las unidades centrales de los ordenadores se miden en MHz o GHz, es decir, en millones o millares de millones de ciclos básicos de procesamiento de información ---correspondientes a los \emph{tics} o impulsos del reloj que sincroniza todos los dispositivos del ordenador--- por segundo. La ejecución de una instrucción por parte del procesador suele consumir un número pequeño de ciclos, casi siempre más de uno. Los modelos actuales pueden ejecutar, en determinadas circunstancias, más de una instrucción a la vez, lo que hace que a veces se ejecute una instrucción por ciclo o incluso más de una. Una velocidad típica en la actualidad es 3~GHz, es decir, 3000~MHz. Una velocidad más alta implica una velocidad de ejecución más alta, siempre que no haya otras circunstancias limitantes (por ejemplo, falta de memoria). Otros componentes, como la memoria RAM, también funcionan con una velocidad determinada, independiente de la del procesador, que se mide también en MHz. 
+
+\item[MHz:] véase megahercio. 
+
+\item[módem:] abreviatura de modulador-desmodulador. En el caso del módem más común, el \emph{módem telefónico}, se trata de un dispositivo (normalmente una placa interna, aunque también puede ser externo) que permite usar la línea telefónica (señales analógicas) para comunicaciones informáticas (digitales) entre dos ordenadores, estableciendo una llamada; antiguamente era la manera estándar de acceder a Internet desde casa. Uno de los parámetros más interesantes de un módem es la \emph{velocidad} de transmisión de datos, que se mide en b/s (bits por segundo). Una velocidad clásica en módems domésticos era 33.600 b/s (más recientemente, 57.600 b/s; las líneas telefónicas actuales podrían admitir velocidades alrededor de los 100.000 b/s). Esto permitía mandar una carta de una página en unas décimas de segundo pero no sería suficiente para la mayor parte de los usos actuales de Internet. 
+
+La palabra \emph{módem} se puede usar también para otros tipos de módems, normalmente más rápidos: los \emph{módems de cable}, que permiten conectar el ordenador a Internet a través de los cables de empresas especializadas que ofrecen televisión, teléfono e Internet, los \emph{módems ADSL} (véase \emph{ADSL} en este glosario), los \emph{módems de fibra óptica} (véase \emph{fibra óptica} en este glosario), etc. 
+
+% \item[PCMCIA] (de l'anglés \emph{Personal Computer Memory Card
+%   International Association}, associació internacional de targetes
+%   de memòria per a ordinadors personals): nom d'un estàndard de
+%   targetes de memòria, mòdems, discos, unitats de disquets, targetes
+%   de xarxa i altres dispositius perifèrics per a ordinadors
+%   portàtils.  Aquestes targetes no són massa diferents en grandària
+%   d'una targeta de crèdit i s'insereixen en el port corresponent de
+%   l'ordinador, amb la peculiaritat que en permeten l'inserció i
+%   l'extracció ``en calent'', és a dir, sense haver d'apagar
+%   l'ordinador.
+\item[Software libre:] (\emph{free software}, también llamado \emph{software de código fuente abierto} u \emph{open-source software}) es el software que se distribuye con licencias que dan una serie de libertades a quien recibe el software: la libertad de usarlo para cualquier propósito sin restricción, la libertad de examinarlo para ver como funciona y modificarlo para adaptarlo a un nuevo uso, y la libertad de distribuir copias ---originales o modificadas--- libremente a quienes se desee. Para poder modificar el software, no es suficiente con tener acceso a la versión ejecutable en el ordenador: tenemos que tener acceso al llamado \emph{código fuente}, es decir, a la versión del software que escriben y modifican las personas que programan (de ahí el nombre \emph{de código fuente abierto}) y que después se convierte automáticamente en la versión ejecutable. Ejemplos de software libre son: el sistema operativo \emph{GNU/Linux}, el navegador \emph{Firefox}, o el procesador de textos \emph{LibreOffice}. No se debe confundir \emph{software libre} con \emph{software gratuito} (o \emph{freeware}). Hay softwares gratuitos que no son libres porque no otorgan todas las libertades (por ejemplo, el lector de PDF \emph{Adobe Acrobat}, o el programa de telefonía por Internet \emph{Skype}: por ejemplo, a pesar de tener el software ejecutable, no tenemos acceso a su código fuente). 
+
+\item[Pentium:] nombre genérico de una familia actual de procesadores centrales de la compañía Intel, los más recientes de la serie ``x86'' de procesadores que empezó con el 8086 a principios de los años 80, pasando por el 80286, el (80)386 y el (80)486.\footnote{El nombre \emph{Pentium} se eligió porque Intel no podía registrar ``586'' como marca.}. Los nuevos procesadores tenían juegos de instrucciones más complejos y eran capaces de ejecutar los programas que ejecutaban los anteriores (por ejemplo, un Pentium puede ejecutar cualquier programa escrito para un 386) pero introducían mejoras que permitían ordenadores más rápidos, con capacidad más grande de cálculo, capaces de procesar más datos en cada instrucción (8, 16, 32 ---a partir del 386---, y actualmente 64 bits) y de gestionar más memoria. Los Pentium más recientes tienen más de un \emph{núcleo} o sub-procesador, y pueden, por lo tanto, ejecutar instrucciones de programa en paralelo. 
+
+\item[placa de sonido:] En los ordenadores más antiguos, se tenía que comprar a parte una placa (o tarjeta) de sonido si se quería usar el ordenador para procesar, grabar, reproducir, y manipular sonidos digitalizados. En la actualidad todos los ordenadores llevan estas capacidades incorporadas. 
+
+\item[tarjeta de red:] En los ordenadores más antiguos, para conectar ordenadores y formar una red (normalmente local) para compartir recursos, había que dotar a cada ordenador de una placa o tarjeta de red. Hay varios estándares de conexión en red; los más usados son Ethernet (para conexiones con cables) y \emph{Wi-Fi} (véase \emph{Wi-Fi} en este glosario). 
+
+\item[USB] (del inglés \emph{universal serial bus}, bus serie universal): Estándar o norma de conexión de dispositivos periféricos (impresoras, módems, reproductores digitales de música, cámaras digitales, unidades de memoria) que transmite los datos en serie (es decir, un bit detrás del otro) a velocidades que en las versiones más modernas del estándar pueden llegar a los Gb/s, y que permite la conexión y desconexión de dispositivos de muchas clases ``en caliente'', es decir, sin tener que apagar el ordenador. 
+
+\item[Wi-Fi] (probablemente del inglés \emph{wireless fidelity}, fidelidad inalámbrica): tecnología de conexión inalámbrica (vía radio), principalmente para formar redes locales, y que en la actualidad (estándar IEEE 802.11ac, enero de 2014) permite velocidades de transmisión de hasta 6.77~Gb/s. \end{description} 
+
+\section{Cuestiones y ejercicios} \begin{enumerate} \item ¿Cuántos \emph{kilobytes} hay en \emph{un gigabyte}? \begin{enumerate} \item 1.024 \item 1.073.741.824 \item 1.048.576 \end{enumerate} 
+
+\item Si una memoria USB tiene 6~\emph{gigabytes}, una página de texto (europeo occidental) típica tiene 50 líneas de 60 caracteres (contando los blancos) y cada carácter ocupa 1~\emph{byte}, ¿cuántas páginas caben aproximadamente en la memoria? \begin{enumerate} \item 200 \item 20000 \item 2000000 \end{enumerate} 
+
+\item Una persona conectada a Internet por teléfono observa que las velocidades de transferencia que le indica su navegador (véase el capítulo~\ref{se:Internet}) varían alrededor de~los 300~\emph{kilobytes} por segundo. Una de estas tres \emph{no} puede ser la velocidad de su servicio de ADSL: \begin{enumerate} \item 1 Mb/s \item 6 Mb/s \item 4 Mb/s \end{enumerate} 
+
+% \item Quina d'aquestes condicions impedeix
+%   que un procediment o mètode siga un \emph{algorisme}?
+%   \begin{enumerate}
+%   \item Que la resposta siga incorrecta.
+%   \item Que s'execute indefinidament.
+%   \item Que continga instruccions innecesàries però que no
+%     destorben el seu funcionament.
+%   \end{enumerate}
+\item ¿Cuál de estas afirmaciones es incorrecta? \begin{enumerate} \item Los módems convierten información digital en señales analógicas pero no a la inversa. \item Las velocidades típicas de conexión a Internet vía ADSL son de unos cuantos Mb/s. \item El servicio ADSL aprovecha las líneas de telefonía convencional para ofrecer conexión a Internet. \end{enumerate} 
+
+\item ¿Se podría grabar (guardar) en un CD-ROM toda la información contenida en un instante determinado en la memoria RAM de un ordenador viejo que tiene 512 MB? \begin{enumerate} \item Sí. \item No, porque no cabe. \item No, porque un soporte es electrónico y el otro óptico. \end{enumerate} 
+
+\item ¿Cuál de estas afirmaciones es cierta? \begin{enumerate} \item En cualquier dispositivo de almacenamiento (disco duro, CD-ROM, memoria USB) siempre hay un directorio principal o raíz. \item Un disco no puede contener más de dos niveles de jerarquía de carpetas. \item Una carpeta no puede contener sólo otra carpeta. \end{enumerate} 
+
+\item ¿Puede haber dos carpetas con el mismo nombre una dentro de la otra? \begin{enumerate} \item No. \item Sí, si tienen fecha y hora diferentes. \item Sí. \end{enumerate} 
+
+\item ¿Cuántos valores posibles puede tomar un \emph{byte}? \begin{enumerate} \item 2 \item 256 \item 8 \end{enumerate} 
+
+\item ¿Cuál de los tres medios de almacenamiento siguientes no es óptico: \begin{enumerate} \item Un CD-ROM \item Un DVD \item Un disco fijo. \end{enumerate} 
+
+\item ¿Dónde reside un programa de ordenador mientras lo estamos ejecutante? \begin{enumerate} \item En el disco duro. \item En la memoria RAM (al menos parcialmente). \item En el CD-ROM. \end{enumerate} 
+
+\item ¿Cuál de estas definiciones de fichero es más correcta? \begin{enumerate} \item Un conjunto de datos que se manipula como un todo, reside en algún medio de almacenamiento y tiene un nombre. \item Una estructura que contiene los nombres de otros ficheros. \item Una estructura de datos que representa el texto generado por un procesador de textos y que tiene un nombre asociado. \end{enumerate} 
+
+\item ¿Cuáles son las características de la memoria RAM de un ordenador de sobremesa? \begin{enumerate} \item es lenta, volátil y de acceso aleatorio. \item es rápida, volátil y de acceso aleatorio. \item es rápida, permanente y de acceso secuencial. \end{enumerate} 
+
+\item ¿Se puede hacer que varios ordenadores compartan un recurso conectado a uno de ellos como, por ejemplo, una impresora? \begin{enumerate} \item Sí, si los ordenadores están conectados formando una red local. \item Sólo si la impresora está conectada a Internet. \item Sí, instalándole un módem ADSL en la impresora. \end{enumerate} 
+
+\item Cada punto de una pantalla puede tener 256 colores: ¿cuántos \emph{bytes} de memoria ocupa cada punto? \begin{enumerate} \item 1 \item 256 \item 8 \end{enumerate} 
+
+% \item Quant es tarda aproximadament en enviar a través d'una connexió
+%   via mòdem de 28800 bits per segon el contingut d'un disquet de
+%   densitat alta de 3 polzades i mitja completament ple?
+%   \begin{enumerate}
+%   \item Un minut aproximadament
+%   \item Uns 7 minuts
+%   \item Uns set segons
+%   \end{enumerate}
+\item Cuando el procesador central está ejecutando un programa, ¿dónde espera encontrar la siguiente instrucción? \begin{enumerate} \item En el CD-ROM. \item En el disco duro. \item En la memoria RAM. \end{enumerate} 
+
+\item ¿Es posible poner un fichero de texto en el directorio (carpeta) raíz? \begin{enumerate} \item Sí, como en cualquier directorio. \item Sólo si es un fichero propio del sistema operativo. \item No, primero se tiene que crear una carpeta (un directorio). \end{enumerate} 
+
+\item En la Universidad de Alicante hay alrededor de 35.000 alumnos. Si asignamos un número a cada alumno, ¿cuántos \emph{bytes} hacen falta para guardar el número de cada alumno? \begin{enumerate} \item 15 \item 2 \item 3 \end{enumerate} 
+
+% \item Quin d'aquests tres mitjans d'emmagatzematge és el més ràpid?
+%   \begin{enumerate}
+%   \item La memòria RAM.
+%   \item Un CD-ROM.
+%   \item Un disc dur.
+%   \end{enumerate}
+% \item Tenim dues unitats lectores de CD-ROM. La velocitat de la
+%   primera és 40$\times$ i la de la segona 4$\times$. Si en la segona
+%   unitat un programa tarda a carregar-se 10 segons, quant tarda en la
+%   primera?
+%   \begin{enumerate}
+%   \item 1 segon aproximadament
+%   \item 100 segons aproximadament
+%   \item el mateix temps
+%   \end{enumerate}
+\item Prácticamente todos los programas necesitan hacer operaciones básicas como por ejemplo abrir y cerrar archivos o gestionar el ratón y la pantalla. ¿Quiere decir esto que tanto un navegador como un procesador de textos como una memoria de traducción contienen instrucciones de programa para ejecutar estas operaciones básicas? \begin{enumerate} \item No, sólo instrucciones para invocar los correspondientes programas del sistema operativo. \item Sí, porque forman parte del procesador central. \item Sí, porque, si no, no las podrían ejecutar. \end{enumerate} 
+
+\item ¿Dentro de una carpeta (directorio) podemos poner carpetas y documentos (ficheros) mezclados? \begin{enumerate} \item No. Si una carpeta está dividida en subcarpetas, no puede contener documentos; los documentos tendrían que ir dentro de las subcarpetas \item Sólo en la carpeta raíz. \item Sí. \end{enumerate} 
+
+\item ¿Cuánta memoria ocupa una imagen de 1024$\times$1024 puntos en la que cada punto puede tener 8 colores? \begin{enumerate} \item 1 \emph{megabyte} \item 384 \emph{kilobytes} \item 8 \emph{megabytes} \end{enumerate} 
+
+\item Algunos ordenadores portátiles están diseñados de forma que, cuando las baterías están a punto de agotarse (o el ordenador no se está usando), copian \emph{toda} la memoria RAM al disco duro y se apagan. Si volvemos a cargar las baterías y encendemos el ordenador, hacen la operación inversa. ¿Podemos esperar que la ejecución de los programas continúe en el mismo punto donde se encontraba cuando las baterías fallaron? \begin{enumerate} \item No, porque la memoria RAM se borra cuando falta la alimentación eléctrica. \item No, porque sólo se ha guardado el sistema operativo. \item Sí, porque los programas en ejecución y sus datos estaban todos en la memoria RAM (si no estaban ya en el disco). \end{enumerate} 
+
+\item ¿Puede un fichero contener las instrucciones de un programa ejecutable? \begin{enumerate} \item No. \item Sólo si está escrito en un lenguaje de programación de alto nivel, porque sólo así será un texto y podrá guardarse en un fichero. \item Sí. \end{enumerate} 
+
+\item Si las imágenes enviadas por una vieja cámara digital sin colores (blanco y negro) tienen 100$\times$100 píxeles, ¿cuántas de estas imágenes podríamos almacenar en una memoria USB de~1~GB? \begin{enumerate} \item Dependiendo de la codificación escogida para los caracteres de la imagen, entre 400~000 y 800~000. \item Unas 10~000. \item Unas 800~000. \end{enumerate} 
+
+\item ¿Qué característica es común a todos los tipos de software? \begin{enumerate} \item Que empiezan a ejecutarse al conectar el ordenador. \item Que consisten en una lista de instrucciones ejecutables. \item Que se encargan de la gestión de todos los recursos del hardware del ordenador donde se ejecutan. \end{enumerate} 
+
+\item ¿Es posible que un fichero de texto y la carpeta en que está incluido tengan el mismo nombre? \begin{enumerate} \item Sólo si el fichero ha sido creado por el sistema operativo. \item Sólo si se trata del directorio raíz. \item Sí, no importa el nombre de la carpeta. \end{enumerate} 
+
+\item ¿Cuántos bits necesitamos para codificar un número de teléfono de 9 cifras suponiendo que codificamos los dígitos uno a uno? \begin{enumerate} \item 27 \item 36 \item 9 \end{enumerate} 
+
+\item La tarjeta Compact Flash donde se almacenan las fotografías de una cámara digital tiene 2~GB. Si suponemos que hemos elegido una resolución y un formato de imagen que hace que cada fotografía necesito un espacio de 2.048 kB, ¿cuántas tarjetas de estas tenemos que comprar si queremos hacer 2.500 fotos a lo largo de un viaje? \begin{enumerate} \item 1 \item 3 \item 4 \end{enumerate} 
+
+\item El \emph{sistema operativo} de un ordenador es{\ldots} \begin{enumerate} \item {\ldots} \emph{hardware}. \item {\ldots} \emph{software}. \item {\ldots} una manera de especificar el formato de los textos. \end{enumerate} 
+
+\item Si reducimos de 3.000~MHz a 1.500~MHz la frecuencia del reloj de un ordenador y todavía funciona{\ldots} \begin{enumerate} \item {\ldots} ejecutará los programas a la misma velocidad. \item {\ldots} ejecutará los programas más lentamente. \item {\ldots} tardará menos en ejecutar los programas. \end{enumerate} 
+
+% \item Són les tres de la matinada i ja és hora d'anar a dormir. Abans
+%   d'apagar l'ordinador, on es guarda el treball que s'ha fet per a
+%   continuar-lo demà?
+%   \begin{enumerate}
+%   \item En l'acumulador del processador central.
+%   \item En la memòria RAM de l'ordinador.
+%   \item En un suport magnètic, normalment.
+%   \end{enumerate}
+\item Windows usa las \emph{extensiones} de los nombres de ficheros para{\ldots} \begin{enumerate} \item {\ldots} asociarlos el programa que los abrirá cuando hagamos doble clic sobre el icono del fichero. \item {\ldots} ahorrar espacio cuando se guardan los ficheros. \item {\ldots} saber si están vacíos o contienen texto. \end{enumerate} 
+
+\item Un módem es un dispositivo que{\ldots} \begin{enumerate} \item {\ldots} convierte la información digital en señales analógicas. \item {\ldots} convierte señales analógicas en información digital. \item {\ldots} hace las dos cosas. \end{enumerate} 
+
+\item Indicad cuál de las afirmaciones siguientes es cierta: \begin{enumerate} \item La memoria RAM almacena programas y datos mientras se ejecutan los programas. \item La memoria RAM es permanente y más rápida que la memoria secundaria. \item Las otras dos afirmaciones son falsas. \end{enumerate} 
+
+\item Los programas de aplicación \ldots \begin{enumerate} \item \ldots siempre interactúan directamente con el hardware del ordenador. \item \ldots los pone en ejecución el sistema operativo. \item \ldots no pueden comunicarse con otras aplicaciones. \end{enumerate} 
+
+\item Indicad cuál de las afirmaciones siguientes es falsa: \begin{enumerate} \item Un \emph{gigabyte} equivale a 1.024 \emph{kilobytes}. \item Un \emph{byte} equivale a \emph{8 bits}. \item Un \emph{kilobyte} equivale a 1024 \emph{bytes}. \end{enumerate} 
+
+\item La información se almacena en la memoria del ordenador en forma binaria. ¿Qué quiere decir esto? \begin{enumerate} \item Que cada dato es una secuencia de \emph{bytes} y cada byte puede adoptar 512 valores. \item Que cada dato es una secuencia de números codificados en ASCII. \item Que cada dato es una secuencia de \emph{bits}, cada uno de los cuales sólo puede adoptar dos valores. \end{enumerate} 
+
+\item ¿Cuántos \emph{bits} hacen falta para representar los 12 meses del año? \begin{enumerate} \item 4 \emph{bits} y sobran 4 combinaciones. \item 12 \emph{bits}, uno por cada mes del año. \item 6 \emph{bits}, uno por cada dos meses. \end{enumerate} 
+
+\item Indicad cuál de las afirmaciones siguientes es falsa. Los programas de aplicación \ldots \begin{enumerate} \item \ldots suelen estar escritos para ser ejecutados sobre un sistema operativo concreto. \item \ldots acceden a los recursos y dispositivos conectados al ordenador a través del sistema operativo. \item \ldots nunca necesitan del sistema operativo una vez que han empezado a ejecutarse. \end{enumerate} 
+
+\end{enumerate} 
+
+\section{Soluciones} \begin{enumerate} \item (c): Un gigabyte tiene 1.024 megabytes, y un megabyte, 1.024 kilobytes: $1.024 \times 1.024 = 1.048.576$. \item (c): Una memoria USB de 6 GB (gigabytes) contiene aproximadamente 6.000.000.000 bytes. Un carácter, en las codificaciones usadas comúnmente en Europa occidental, ocupa un byte; por lo tanto, la página de $50\times60$ ocupa 3.000 bytes. Caben $6.000.000.000/3.000=2.000.000$ páginas en un disco. \item (a): Una velocidad de 300 kilobytes por segundo equivale a unos $300 \times 8=2.400$ kilobits por segundo; alrededor 2,3 Mb/s. \item (a): Los módems modulan (convierten señales digitales en analógicas) y desmodulan (convierten señales analógicas en digitales) para enviar y recibir datos a través de un determinado medio. Las líneas ADSL domésticas actuales admiten conexiones vía módem telefónico de unos cuántos megabits por segundo (véase la sección~\ref{ss:OiPgloss}). \item (a): Un CD-ROM puede almacenar como mínimo 650~MB. 
+
+%5
+\item (a) \item (c) \item (b): $2^8=2\times 2\times 2\times 2\times 2\times 2\times 2\times 2=256$. \item (c): Los discos fijos son generalmente magnéticos. \item (b): Al menos la porción del programa que se está ejecutando tiene que residir en la RAM. 
+
+%10
+\item (a) \item (b) \item (a) \item (a): Cada punto puede tomar uno de 256 colores. Para poder almacenar el color hace falta un número de bits suficiente para hacer 256 combinaciones. Con 8 bits podemos hacer \(2^8=2\times2\times 2\times 2\times 2\times 2\times 2\times 2=256\) combinaciones. Por lo tanto, se necesitan 8 bits, es decir, un byte. \item (c) 
+
+%15
+\item (a) \item (b): El número de bits necesario para poder generar 35.000 combinaciones es el número de veces que hay que multiplicar \(2\times 2\times\ldots\) justo hasta el punto en que se supera 35.000. Hay que hacerlo 16 veces; por lo tanto, necesitamos 16 bits. Como cada byte son 8 bits, son necesarios 2 bytes. \item (a) \item (c) \item (b): Cada punto puede presentarse en 8 colores diferentes. Con 3 bits podemos almacenar \(2\times2\times2=8\)~colores. Por lo tanto, la imagen ocupa $1.024 \times 1024 \times 3 = 3.145.728$ bits, que son $3.145.728/8=393.216$ bytes, que son $393.216/1024=384$ kilobytes. 
+
+%20
+\item (c) \item (c) \item (c): Cada imagen ocupa $100\times100 = 10.000$ bits, que son $10.000 / 8 = 1.250$ bytes. 1 GB = $1.024 \times 1.024 \times 1.204 = 1.073.741.824 $ bytes. $ 1.073.741.824 / 1.250 = 858.993$. Podemos almacenar más de 800.000 imágenes. \item (b) \item (c) 
+
+%25
+\item (b): Cada dígito decimal puede tomar, por separado, 10 valores diferentes (del cero al nueve). Tres bits por dígito decimal no son suficientes (permiten sólo 8 combinaciones); cuatro, sí. Así, cada dígito decimal ocupa 4 bits; si hay 9, necesitamos 36 bits. \item (b): 2GB son $ 2\times 1.024 \times 1.024 = 2.097.152$ kB. En la tarjeta Compact Flash caben $ 2.097.152 / 2.048 = 1.024$ imágenes. Con 3 tarjetas puedo almacenar $ 3 * 1024 = 3.072$ imágenes. \item (b) \item (b) \item (a) 
+
+%30
+\item (c) \item (a) \item (b) \item (a) \item (c) 
+
+%35
+\item (a): Tenemos 12 valores diferentes (de enero a diciembre). Tres bits por mes no son suficientes (permiten sólo 8 combinaciones); cuatro sí (permiten 16 combinaciones). \item (c) \end{enumerate} 
