@@ -1,0 +1,238 @@
+\chapter{Bases de datos} \label{se:basesdades} 
+
+Los gestores de terminología son unos de los programas más usados por los traductores para la traducción humana asistida por una máquina (MAHT; véase el apartado~\ref{se:cat}). Como que se trata de un caso especial de aquello que se denomina en informática \emph{bases de datos}, en este capítulo introduciremos primero este concepto y después estudiaremos la aplicación a la gestión terminológica a través de las bases de datos terminológicas. 
+
+\section{¿Qué es una base de datos?} 
+
+Cómo se explica en la pág.~\pageref{pg:fitxer}, un \emph{fichero} es un conjunto de datos que se guardan en un medio de almacenamiento secundario, que se manipulan como un todo y que se identifican por un nombre. Muchos de los ficheros que usan las personas que se dedican a la traducción son ficheros (o \emph{documentos}) de texto en varios formatos (como los descritos en el epígrafe~\ref{ss:formats}) pero también los hay que se corresponden con el significado de la palabra \emph{fichero} fuera de la informática: contienen \emph{fichas}, todas con un formato más o menos constante; por ejemplo, todas las fichas de un fichero bibliográfico contienen información sobre los autores, el título, el año de publicación, etc. 
+
+En informática, los ficheros de este tipo se suelen denominar normalmente \emph{bases de datos} (BD); las fichas se denominan \emph{registros} y cada elemento de información de la ficha se denomina \emph{campo}. 
+
+Más generalmente, una BD se puede ver (en el llamado modelo \emph{plano} o de \emph{tablas}) como un conjunto de tablas en las cuales las columnas o \emph{campos} guardan valores del mismo tipo y donde los elementos de una fila o \emph{registro} están relacionados entre ellos. Así, una tabla es un conjunto de registros (fichas) cada uno de los cuales tiene la misma estructura de campos (datos), almacenadas en un fichero informático. 
+
+Así, los registros de una base de datos bibliográfica contienen información en campos: uno para los autores, otro para el título, etc. Por otro lado, los registros de las bases de datos usadas para la gestión de un videoclub contienen campos para almacenar la información en lo referente a los socios (como por ejemplo, el nombre, el teléfono o el domicilio), a las películas (el título, la persona que la ha dirigido o el número de copias disponibles) y a los préstamos (los datos de inicio y plazo del préstamo o el precio de alquiler). Los campos pueden ser de varios \emph{tipos}, según la naturaleza de los datos que se guarden (cadenas de caracteres, valores numéricos enteros o con decimales, fechas de calendario, etc.) 
+
+\section{Operaciones con bases de datos} 
+
+Las operaciones más comunes que se realizan sobre una base de datos también son similares a aquellas que podemos hacer con un fichero de fichas de cartulina, pero la gestión es más sencilla y son posibles muchos más usos: \begin{itemize} \item \emph{Creación de la estructura de la base de datos}: definir cada tabla, definiendo la estructura de las fichas y el tipo de datos de cada campo. \item \emph{Altas o adiciones:} añadir un nuevo registro a la base de datos, haciendo que sus campos tomen los valores correspondientes. \item \emph{Bajas o supresiones:} eliminar uno o más registros. \item \emph{Modificaciones:} cambiar el valor de uno o más campos de uno o más registros de la base de datos. \item \emph{Búsquedas o consultas:} buscar uno o más registros que cumplen un determinado criterio de búsqueda. La organización de la información en forma de base de datos simplifica enormemente las consultas, puesto que los ordenadores son mucho más rápidos y seguros a la hora de, por ejemplo, comparar el contenido de un determinado campo de todas las fichas con un cierto valor o patrón (por ejemplo, los autores que empiezan por \emph{Ant}) y listar el contenido de otro campo (por ejemplo, el título) para cada ficha coincidente. 
+
+La combinación de varias estrategias de búsqueda permite la \emph{explotación} de los datos almacenados en una base de datos. Por ejemplo, se puede generar, a partir de un fichero bibliográfico, las referencias bibliográficas citadas en un texto ordenadas alfabéticamente y en el formato requerido por una determinada revista, o generar, a partir de una base de datos de clientes, una carta de recordatorio para los morosos, con detalles sobre sus deudas. 
+
+%\item \emph{Explotació:} a més de fer recerques o consultes, es pot
+%  explotar la informació obtinguda de la base de dades, combinant
+%  diverses estratègies de recerca i presentant només els camps
+%  necessaris en algun format convenient per a la reutilització
+%  informatitzada o per a la publicació: per exemple, generar, a partir
+%  d'un fitxer bibliogràfic, les referències bibliogràfiques citades en
+%  un text ordenades alfabèticament i en el format requerit per una
+%  determinada revista, o generar, a partir d'una base de dades de
+%  clients, una carta de recordatori per als morosos, amb detalls sobre
+%  els seus deutes.  
+\end{itemize} El programa que permite hacer, entre otros, estas operaciones de manera sencilla o incluso automática (aspecto muy importante cuando la base de datos contiene miles de registros) es un programa \emph{gestor de bases de datos}.\footnote{A veces se denomina por metonimia \emph{base de datos} al programa gestor.} Normalmente, los usuarios reales no ejecutan un programa gestor de bases de datos universal o genérico, sino que usan programas o \emph{aplicaciones} que simplifican la creación, el mantenimiento y el uso de la base de datos para un perfil de usuario concreto; también pueden hacer uso de programas que internamente incluyen un gestor de bases de datos o lo invocan. En particular, es posible organizar las bases de datos de forma que estén instaladas en uno o más servidores y se puedan consultar y explotar desde otro ordenador a través de Internet. 
+
+\subsection{Búsquedas} 
+
+Cuando queremos buscar una determinada información en un fichero de fichas de cartulina (por ejemplo, qué autores han usado la palabra \emph{árbol} en el título de sus obras), y este fichero no está ordenado de acuerdo con ningún criterio conveniente, nos veremos obligados a mirar todas las fichas una a una. Pero es común que los ficheros estén ordenados según uno de sus campos: por ejemplo, un fichero bibliográfico puede estar ordenado por el apellido del primer autor, o por la materia. Si la consulta o la búsqueda que queremos hacer se refiere al campo por el cual se ha establecido la ordenación, es mucho más sencilla que si se refiere a otro campo, y se puede completar sin mirar todas las fichas; por ejemplo, haciendo una\emph{búsqueda dicotómica}. 
+
+En una búsqueda dicotómica miramos la ficha que hay en medio del fichero; si nos hemos pasado, repetimos la operación con la primera mitad del fichero, y si nos hemos quedado cortos, lo hacemos con la segunda mitad. Se puede demostrar que la búsqueda dicotómica consulta como mucho $n$ fichas si el fichero tiene entre $2^{n-1}$ y $2^n$ fichas, porque tras cada consulta se reduce a la mitad el tamaño del fichero que hay que explorar. Por ejemplo, si el fichero tiene 1234 fichas, hay suficiente con $n=11$ consultas porque $2^{10}=1024$ y $2^{11}=2048$. 
+
+Por supuesto, es posible calcular el número máximo de consultas de manera más pedestre, dividiendo el número de fichas por 2 y poniéndonos en el caso peor. En el ejemplo de las 1234 fichas: \begin{itemize} \item Después de la 1ª consulta, si la ficha central no es la que buscamos, nos quedan dos mitades: una de 616 fichas, y otra de 617. Imaginad que vamos al peor caso: 617 fichas. \item Después de la 2ª consulta, si la ficha central no es la que buscamos, nos quedan dos mitades de 308 fichas. \item 3ª consulta: o la encontramos, o tenemos que buscar en 154 fichas. \item 4ª consulta: o la encontramos, o tenemos que buscar en 77 fichas. \item 5ª consulta: o la encontramos, o tenemos que buscar en 38 fichas. \item 6ª consulta: o la encontramos, o tenemos que buscar en 19 fichas. \item 7ª consulta: o la encontramos, o tenemos que buscar en 9 fichas. \item 8ª consulta: o la encontramos, o tenemos que buscar en 4 fichas. \item 9ª consulta: o la encontramos, o tenemos que buscar en 2 fichas. \item 10ª consulta: o la encontramos, o tenemos que buscar en 1 ficha. \item 11ª consulta: o es la que buscamos, o no existe. \end{itemize} Total, 11 consultas como mucho. 
+
+Otro ejemplo: la tabla~\ref{tb:dicotomica} ilustra gráficamente el proceso de búsqueda dicotómica sobre una lista de apellidos ordenados alfabéticamente. Para cada paso de la búsqueda, se muestra una tabla donde el elemento consultado en cada momento está en negritas y la parte de la lista descartada está sombreada. Imaginad, en primer lugar, que queremos buscar el elemento ``Garrido''. Inicialmente, miramos el elemento de en medio (el 13) de la lista entera (la lista que incluye los elementos del 1 al 25) y encontramos ``Larrañaga''; como nos hemos pasado, nos quedamos con la mitad baja de la lista (que incluye los elementos del 1 al 12) olvidándonos de la otra mitad. Ahora repetimos el proceso y miramos el elemento de en medio (el 6) de la nueva sublista y encontramos el elemento ``Esteve''; como es menor alfabéticamente que el elemento que estamos buscando, nos quedamos con la mitad alta (que incluye los elementos del 7 al 12) de la sublista actual. Volvemos a repetir el proceso, esta vez considerando sólo la sublista de elementos entre el 7 y el 12; tenemos suerte y al mirar el elemento central (el 9) nos damos cuenta de que coincide con el elemento buscado: la búsqueda acaba pues con éxito. Si la búsqueda hubiera sido del elemento ``González'', los pasos anteriores habrían sido los mismos, pero además habríamos mirado el elemento 11, el elemento 10 y, finalmente, habríamos concluido que el elemento no se encuentra en la lista. En este caso, el número de consultas habría sido 5 y, por tanto, se cumple la afirmación anterior: la búsqueda dicotómica consulta como mucho $n$ fichas si el fichero tiene entre $2^{n-1}$ y $2^n$ fichas; aquí el número de elementos total (25) está entre $2^4=16$ y $2^5=32$, y el número de elementos consultados ha sido $n=5$. 
+
+\begin{table} \begin{center} \begin{small} \subtable[Estado antes de empezar la búsqueda.]{ \begin{tabular}{|l||l||l||l||l|} \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{1}}l||}{1 Beléndez} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{2 Canals} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{3 Carrasco} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{4 Escolano} &\multicolumn{1}{>{\columncolor[gray]{1}}l|}{5 Espí} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{1}}l||}{6 Esteve} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{7 Forcada} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{8 Garcia} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{9 Garrido} &\multicolumn{1}{>{\columncolor[gray]{1}}l|}{10 Gómez} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{1}}l||}{11 Guardiola} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{12 Iturraspe} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{13 Larrañaga} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{14 Marco} &\multicolumn{1}{>{\columncolor[gray]{1}}l|}{15 Micó} \\ \hline \multicolumn{1}{|>{\columncolor[gray]{1}}l||}{16 Montserrat} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{17 Muñoz} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{18 Nogueroles} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{19 Odriozola} &\multicolumn{1}{>{\columncolor[gray]{1}}l|}{20 Oncina} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{1}}l||}{21 Ortiz} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{22 Pastor} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{23 Pérez} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{24 Sempere} &\multicolumn{1}{>{\columncolor[gray]{1}}l|}{25 Zubizarreta} \\ \hline
+
+\end{tabular}} 
+
+\subtable[Primer paso: miramos el elemento 13 y nos quedamos con la mitad baja de la lista.]{ \begin{tabular}{|l||l||l||l||l|} \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{1}}l||}{1 Beléndez} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{2 Canals} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{3 Carrasco} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{4 Escolano} &\multicolumn{1}{>{\columncolor[gray]{1}}l|}{5 Espí} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{1}}l||}{6 Esteve} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{7 Forcada} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{8 Garcia} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{9 Garrido} &\multicolumn{1}{>{\columncolor[gray]{1}}l|}{10 Gómez} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{1}}l||}{11 Guardiola} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{12 Iturraspe} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{\bf 13 Larrañaga} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{14 Marco} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{15 Micó} \\ \hline \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{16 Montserrat} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{17 Muñoz} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{18 Nogueroles} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{19 Odriozola} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{20 Oncina} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{21 Ortiz} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{22 Pastor} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{23 Pérez} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{24 Sempere} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{25 Zubizarreta} \\ \hline
+
+\end{tabular}} \subtable[Segundo paso: miramos el elemento 6 y nos quedamos con la mitad alta de la subllista anterior.]{ \begin{tabular}{|l||l||l||l||l|} \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{1 Beléndez} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{2 Canals} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{3 Carrasco} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{4 Escolano} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{5 Espí} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{\bf 6 Esteve} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{7 Forcada} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{8 Garcia} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{9 Garrido} &\multicolumn{1}{>{\columncolor[gray]{1}}l|}{10 Gómez} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{1}}l||}{11 Guardiola} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{12 Iturraspe} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{13 Larrañaga} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{14 Marco} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{15 Micó} \\ \hline \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{16 Montserrat} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{17 Muñoz} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{18 Nogueroles} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{19 Odriozola} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{20 Oncina} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{21 Ortiz} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{22 Pastor} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{23 Pérez} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{24 Sempere} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{25 Zubizarreta} \\ \hline
+
+\end{tabular}} 
+
+\subtable[Tercero y último paso: miramos el elemento 9 y encontramos el elemento buscado.]{ \begin{tabular}{|l||l||l||l||l|} \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{1 Beléndez} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{2 Canals} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{3 Carrasco} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{4 Escolano} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{5 Espí} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{6 Esteve} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{7 Forcada} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{8 Garcia} &\multicolumn{1}{>{\columncolor[gray]{1}}l||}{\bf 9 Garrido} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{10 Gómez} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{11 Guardiola} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{12 Iturraspe} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{13 Larrañaga} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{14 Marco} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{15 Micó} \\ \hline \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{16 Montserrat} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{17 Muñoz} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{18 Nogueroles} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{19 Odriozola} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{20 Oncina} \\ \hline
+
+\multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{21 Ortiz} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{22 Pastor} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{23 Pérez} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{24 Sempere} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{25 Zubizarreta} \\ \hline
+
+\end{tabular}} \end{small} \end{center} \caption{Ejemplo de búsqueda dicotómica sobre una lista de apellidos ordenada alfabéticamente. El elemento a buscar es ``Garrido''. Los elementos sombreados han sido descartado durante la búsqueda, es decir, sabemos que el elemento buscado no está entre ellos.} \label{tb:dicotomica} \end{table} 
+
+La búsqueda dicotómica es sólo una de las muchas técnicas que se pueden usar para acelerar las consultas que se refieren a un campo ordenado; el programa gestor de bases de datos puede usar otra técnica de búsqueda dependiente de su diseño o del tipo de campo. 
+
+Pero un fichero de fichas de cartulina sólo se puede ordenar siguiendo un único criterio. Si queremos facilitar las consultas asociadas a más de un campo (por ejemplo, autores y materias) nos veremos obligados a mantener dos copias del fichero entero, cada copia ordenada por un criterio; con un sistema de bases de datos no hay que hacer esta duplicación: sólo hay que marcar los campos por los cuales buscaremos más frecuentemente (los cuales a veces se suelen denominar \emph{índices}), y el programa gestor de bases de datos \emph{indexará} la base de datos para permitir búsquedas rápidas por estos campos. 
+
+\begin{persabermes}{la indexación de bases de datos} 
+
+Si las consultas más frecuentes de una base de datos se refieren a un campo ---o a una combinación de campos, como por ejemplo el día, el mes y el año que forman una fecha--- que toma valores que se pueden ordenar, los registros se pueden ordenar por este campo, igual que el fichero de fichas de cartulina. Pero uno de las ventajas más claras de las bases de datos es que permiten que los registros estén ordenados por más de un campo, sin tener que duplicar la base de datos (a pesar de que la duplicación de una base de datos pequeña puede no parecer en principio problemática, las cosas cambian si consideramos una base de datos con miles de registros y con un gran número de campos, todos llenos de información. Es evidente, por tanto, que hay que establecer un sistema alternativo para poder hacer búsquedas rápidas por más de un campo). Esto se consigue mediante un procedimiento denominado \emph{indexación}: básicamente, se asigna un número a cada ficha y se construye una tabla o \emph{índice} ordenado (otra base de datos) que contiene registros con dos campos: uno, el campo por el cual se quiere ordenar, y el otro, la posición en la base de datos del registro que contiene este valor del campo (en cierto sentido, este índice no es demasiado diferente del índice alfabético que hay al final de algunos libros: buscamos la palabra alfabéticamente y nos dice en qué páginas se encuentra). 
+
+Se puede construir un índice para cada uno de los campos asociados a las consultas más frecuentes y así se evita recorrer toda la base de datos cada vez que se hace una consulta: se busca el valor del campo en el registro correspondiente y, cuando se encuentra, se usa la posición del registro para acceder directamente. Una base de datos con estas propiedades está \emph{indexada}. 
+% A més de fer-hi \emph{consultes}, hi ha altres operacions que es
+% poden fer amb una base de dades; les més importants són les
+% \emph{altes} o addicions de registres, les \emph{baixes} o
+% eliminacions de registres, i les \emph{modificacions} de la
+% informació continguda en un o més registres.
+Los índices se tienen que rehacer parcialmente cuando se hacen altas, bajas o modificaciones de registros para que las consultas continúen siendo eficientes. Cuando creamos una nueva base de datos y definimos la estructura de campos que tendrá cada uno de sus registros, podemos designar qué campos corresponden a los índices; el gestor de la base de datos creará automáticamente los índices correspondientes. 
+
+Considerad la base de datos con 10 registros de la tabla siguiente: \begin{center} \begin{tabular}{clll} \hline
+
+{\sc núm} &{\sc vasco} &{\sc serbo-croata} &{\sc catalán} \\ \hline \hline
+
+1 &bat &jedin &un \\ 2 &bi &dva &dos \\ 3 &hiru &tri &tres \\ 4 &lau &\v{c}etiri &quatre \\ 5 &bost &pet &cinc \\ 6 &sei &\v{s}est &sis \\ 7 &zazpi &sedam &set \\ 8 &zortzi &osam &vuit \\ 9 &bederatzi &devet &nou \\ 10 &hamar &deset &deu \\ \hline
+
+\end{tabular} \end{center} 
+
+Como podéis ver, la base de datos contiene 10 registros con 4 campos; los registros están ordenados por el campo ``\texttt{NÚM}'', que indica la posición de cada registro. Si queremos hacer consultas rápidas por los campos ``\texttt{VASCO}'' y ``\texttt{SERBO-CROATA}'' sin tener que visitar (en el peor caso) todos los registros, el gestor de bases de datos tiene que definir un índice para cada uno de estos campos como los de las tablas siguientes, que muestran los índices correspondientes a los campos ``\texttt{SERBO-CROATA}'' (izquierda) y ``\texttt{VASCO}'' (derecha) de la base de datos de la tabla anterior: \begin{center} \parbox{0.25\textwidth}{ \begin{tabular}{lc} \hline
+
+{\sc serbo-croata} &{\sc núm} \\ \hline
+
+\hline
+
+\v{c}etiri &4 \\ deset &10 \\ devet &9 \\ dva &2 \\ jedin &1 \\ osam &8 \\ pet &5 \\ sedam &7 \\ \v{s}est &6 \\ tri &3 \\ \hline
+
+\end{tabular}} \hspace{0.2\textwidth} \parbox{0.25\textwidth}{ \begin{tabular}{lc} \hline
+
+%%
+{\sc basc\phantom{o-croat}} &{\sc núm} \\ \hline
+
+\hline
+
+bat &1 \\ bederatzi &9 \\ bi &2 \\ bost &5 \\ hamar &10 \\ hiru &3 \\ lau &4 \\ sei &6 \\ zazpi &7 \\ zortzi &8 \\ \hline
+
+\end{tabular}} \end{center} Podéis comprobar como cada ficha del índice contiene sólo el campo indexado y una referencia a su posición en la base de datos. Si pensáis en el supuesto de que la base de datos de la tabla anterior tuviera, digamos, 20 campos más (con los equivalentes en 20 lenguas más), os podéis hacer una idea del ahorro que se consigue respecto a la duplicación entera. \end{persabermes} 
+
+%
+\section{Bases de datos léxicas o terminológicas} \label{ss:bdterm} 
+
+Uno de los programas más comúnmente usados por los profesionales de la traducción son los gestores de bases de datos léxicas (normalmente llamados gestores de bases de datos \emph{terminológicas}, aunque se pueden usar para otras muchas aplicaciones además de las estrictamente terminológicas). Los profesionales de la traducción gestionan, con estos gestores, bases de datos léxicas que les ayudan a traducir consistentemente los términos y, quizás, las locuciones y frases de una determinada área de conocimiento (terminología). 
+
+Los registros o las fichas de una base de datos léxica multilingüe establecen correspondencias entre los términos usados en varias lenguas en un campo determinado de conocimiento. En estas bases de datos, \emph{cada ficha representa un concepto} y contiene un campo índice para almacenar el término correspondiente en cada lengua. Esta organización (una ficha por concepto) es coherente con la definición de terminología como la disciplina cuyo objeto es el estudio sistemático del etiquetado o designación de \emph{conceptos} particulares de una o más áreas temáticas o de uno o más ámbitos de la actividad humana con el propósito de documentar y promover el uso correcto;\footnote{\url{https://es.wikipedia.org/wiki/Terminología}} además, es especialmente adecuada cuando la base de datos terminológica es multilingüe. 
+
+Las bases de datos léxicas o terminológicas pueden contener muchos tipos de campos: \begin{itemize} \item El término en cada una de las lenguas (campos que normalmente se usan de índice para hacer las búsquedas más eficientes). \item El sentido (entre los posibles sentidos del término) al cual se refiere la ficha o registro actual. \item El autor de la ficha (cuando más de una persona gestiona la base de datos). \item La fecha de creación y de modificación de la ficha. \item La definición del término en una o más lenguas. La mayor parte de los gestores permiten que en los términos usados en la definición de un determinado término se marquen \emph{remisiones}, es decir, enlaces activos a las fichas donde se definen. \item El campo temático de la ficha. \item Otros términos relacionados. \item Información sobre la morfología o la flexión del término en cada una de las lenguas. \item Variantes ortográficas o geográficas; sinónimos; antónimos; etimología, etc. \end{itemize} 
+
+Una base de datos de este tipo la puede consultar una persona mientras está haciendo una traducción manualmente o puede estar incluida dentro de un programa de traducción automática o asistida por ordenador. Por ejemplo, muchos programas de traducción asistida por ordenador (véase el capítulo~\ref{se:memtrad}) incluyen bases de datos terminológicas de este tipo y permiten que la persona usuaria las mantenga y las consulte, bien usando un programa independiente, o bien desde el procesador de textos que prefiera. 
+
+También hay bases de datos terminológicas que se pueden consultar en linea: \begin{itemize} \item El Institut d'Estudis Catalans mantiene el TERMCAT (\url{http://www.termcat.cat}). La intención de TERMCAT es principalmente normativa: se asocia a cada concepto el término preferido en catalán (y también los términos usuales en español, inglés, francés, etc.). \item IATE (\emph{Inter-Active Terminology for Europe}, \url{http://iate.europa.eu/}) es la base de datos terminológica de referencia de la Unión Europea y proporciona términos para cada concepto en las 24 lenguas oficiales de la Unión Europea y en latín. La base de datos, en formato TBX (véase el apartado~\ref{s3:tbx}) se puede descargar totalmente o parcialmente para usarla fuera de línea. \end{itemize} 
+
+\subsection{El intercambio de bases de datos terminológicas} \label{s3:tbx} 
+
+La creación y el mantenimiento de una buena base de datos terminológica requiere de un gran esfuerzo y muchas horas de trabajo. Esto, la convierte en un recurso valioso y a menudo los traductores se las intercambian. Pero la información almacenada sobre cada término puede ser muy diferente de una base de datos a otra y, por tanto, usar una base de datos terminológica en diferentes sistemas a la vez no es una tarea fácil. Afortunadamente, en los últimos años se ha desarrollado un conjunto de formatos estándares para facilitar este intercambio; uno de los más conocidos se TBX\footnote{El URI para más información es \url{http://www.lisa.org/tbx/}.}, (por \emph{TermBase eXchange}, ``intercambio de bases de datos terminológicas''), aunque hay otras como OLIF (\emph{Open Lexicon Interchange Format}). Con el tiempo, los programas que incluyen una base de datos terminológica van incorporando la capacidad de leer y escribir documentos en formato TBX. 
+
+\begin{persabermes}{el formato TBX} El formato TBX sigue las especificaciones XML (véase el apartado \ref{s3:SGML}); es decir, los documentos TBX son un tipo de documento XML definido por una DTD concreta. Además, también sigue las directrices del estándar ISO 12620, que define un conjunto de campos, y sus posibles valores, para la información terminológica. 
+
+He aquí un ejemplo de documento TBX: 
+\begin{alltt}
+<?xml version='1.0'?>
+<!DOCTYPE martif SYSTEM  "./TBXcoreStructureDTD-v-1-0.DTD">
+<\textbf{martif} type='TBX' xml:lang='en' >
+ <\textbf{martifHeader}>
+  <\textbf{fileDesc}>
+   <\textbf{sourceDesc}>
+    <\textbf{p}>from an Oracle corporation termBase</\textbf{p}>
+   </\textbf{sourceDesc}>
+  </\textbf{fileDesc}>
+  <\textbf{encodingDesc}>
+   <\textbf{p} type='DCSName'>TBXdefaultXCS-v-1-0.XML</\textbf{p}>
+  </\textbf{encodingDesc}>
+ </\textbf{martifHeader}>
+ <\textbf{text}> 
+  <\textbf{body}>
+    <\textbf{termEntry} id='eid-Oracle-67'>
+      <\textbf{descrip} type='subjectField'>
+        manufacturing
+      </\textbf{descrip}>
+      <\textbf{descrip} type='definition'>
+        A value between 0 and 1 used in ...
+      </\textbf{descrip}>
+      <\textbf{langSet} xml:lang='en'>
+       <\textbf{tig}>
+        <\textbf{term} tid='tid-Oracle-67-en1'>
+          alpha smoothing factor
+        </\textbf{term}>
+        <\textbf{termNote} type='termType'>
+          fullForm
+        </\textbf{termNote}>
+       </\textbf{tig}>
+      </\textbf{langSet}>
+      <\textbf{langSet} xml:lang='hu'>
+        <\textbf{tig}>
+         <\textbf{term} tid='tid-Oracle-67-hu1'>
+           Alfa sim&#x00ED;t&#x00E1;si t&#x00E9;nyez&#x0151; 
+         </\textbf{term}>
+        </\textbf{tig}>
+      </\textbf{langSet}>
+    </\textbf{termEntry}>
+  </\textbf{body}> 
+ </\textbf{text}>
+</\textbf{martif}>
+\end{alltt}
+
+La información de cada término (en el ejemplo solo uno) se incluye dentro del elemento {\tt termEntry}, que contiene descripciones (\texttt{descrip}) sobre el dominio de uso y la definición del término, además de una sección {\tt langSet} para cada idioma (aquí, inglés y húngaro) donde se especifica el término (\texttt{term}) y su información (\texttt{termNote}).  Antes del cuerpo (\texttt{body}), el elemento raíz {\tt martif} contiene una cabecera (\texttt{martifHeader}) con información sobre el origen de la base de datos. El término húngaro es ``{\usefont{T1}{ec}{m}{n}Alfa simítási tényez\symbol{'256}}''; en el documento de ejemplo, los caracteres especiales se indican con su código Unicode (por ejemplo,\,\verb+&#x0151;+ \ es el carácter ``{\usefont{T1}{ec}{m}{n}\symbol{'256}}'') \end{persabermes} 
+
+\section{Cuestiones y ejercicios} \begin{enumerate} 
+
+\item Tenemos una base de datos con fichas de 100 alumnos ordenada por el NIF. Si buscamos una alumna por el NIF, ¿cuántas consultas hace, como máximo, el programa gestor de la base de datos hasta llegar a la ficha deseada? \begin{enumerate} \item 100. \item La mitad, 50. \item 7, porque \(2^6=64 < 100 < 2^7=128\). \end{enumerate} 
+
+\item Queremos tener una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas. ¿Es esto posible? ¿Cómo? \begin{enumerate} \item No es posible. \item Sí, pero es necesario duplicar todas las fichas en memoria. \item Sí. Se tienen que construir dos índices, uno para cada campo. \end{enumerate} 
+
+\item ¿Es necesario tener dos copias de todas las fichas de una base de datos para poderla tener ordenada por más de un campo? \begin{enumerate} \item Depende; si los campos son numéricos no es necesario. \item No hay ningún otro remedio: hay que duplicar la base de datos. \item No; se puede crear más de un \emph{índice}. \end{enumerate} 
+
+\item Cuando usamos uno programa gestor de bases de datos terminológicas para buscar un término en una base de datos{\ldots} \begin{enumerate} \item {\ldots} algunos gestores nos permiten buscarlo sin conocer la forma exacta. \item {\ldots} tenemos que conocer como se escribe exactamente el término para poder encontrarlo. \item {\ldots}siempre es necesario conocer su categoría léxica e indicarsela al gestor \end{enumerate} 
+
+\item Si buscamos en una base de datos de 240 fichas de alumnos una ficha (un registro) por el número de teléfono, un campo por el cual no está ordenada, ¿cuántas consultas tendrá que hacer, como máximo, el programa gestor de la base de datos hasta llegar a la ficha deseada? \begin{enumerate} \item 240 \item 120 \item 9 \end{enumerate} 
+
+\item Cuando queremos tener los registros (las fichas) de una base de datos ordenada simultáneamente por dos campos para optimizar las búsquedas construimos dos índices. Los índices contienen{\ldots} \begin{enumerate} \item Entradas compuestas por el valor del campo índice y el número de la ficha (del registro). \item Sólo los números de las fichas ordenados según el valor del campo. \item Una copia de las fichas ordenadas por el campo índice correspondiente. \end{enumerate} 
+
+\item ¿Qué tienen en común todos los campos de una ficha terminológica? \begin{enumerate} \item Se refieren al mismo concepto. \item Se refieren al mismo término. \item Se encuentran en el mismo índice. \end{enumerate} 
+
+\item ¿En qué se diferencia un campo clave o campo índice del resto de los campos de una ficha?{\ldots} \begin{enumerate} \item Se guarda en un tipo de memoria RAM más rápida llamada \emph{caché}. \item La manera de almacenar el campo es diferente (los campos índice o clave se almacenan de manera comprimida y los otros no). \item Las búsquedas de fichas por este campo son mucho más rápidas que las que se hacen por campos que no son clave o índice. \end{enumerate} 
+
+\item Cuando se duplica el número de fichas de una tabla determinada de una base de datos, ¿qué sucede con el número de consultas que realiza una búsqueda dicotómica? \begin{enumerate} \item Se duplica. \item Se queda exactamente como está. \item Se incrementa de media, en 1. \end{enumerate} 
+
+\item En una base de datos léxica o terminológica con 2.000 fichas, cuando pedimos al programa gestor que busque un determinado término en una determinada lengua, ¿cuántas consultas tiene que hacer en el peor caso para entregarnos la ficha? \begin{enumerate} \item Tiene que hacer, necesariamente, 2.000 consultas porque hay 2.000 fichas. \item No tiene que hacer ninguna consulta, va directamente a la ficha. \item Depende. Si está indexada por el término en aquella lengua, hará como mucho 11 consultas, y si no, como mucho 2.000 consultas. \end{enumerate} 
+
+\item En una base de datos terminológica, cada concepto \ldots\begin{enumerate} \item \ldots se corresponde con un campo de un registro general. \item \ldots se corresponde con múltiples registros, uno por cada uno de los términos usados en cada lengua para representar este concepto. \item \ldots se corresponde con un registro en el cual se encuentran los términos usados en cada lengua para representar este concepto. \end{enumerate} 
+
+\item Hemos cronometrado el tiempo que tarda un programa gestor de bases de datos en encontrar la ficha que tiene un determinado valor por un campo determinado, cuando aumenta el número de fichas. Los resultados son: \begin{center} \begin{tabular}{c|c} \hline\hline \textsc{Número de fichas} &\textsc{Tiempo} \\ \hline
+
+1.000.000 &4,9~s \\ 2.000.000 &5,1~s \\ 3.000.000 &5,3~s \\ 4.000.000 &5,4~s \\ 6.000.000 &5,5~s \\ \hline
+
+\end{tabular} \end{center} ¿Qué podemos decir de la base de datos? \begin{enumerate} \item Que no está ordenada por el campo por el cual estamos buscando. \item Que usa XML para obtener una velocidad aceptable. \item Que está ordenada por el campo por el cual estamos buscando. \end{enumerate} 
+
+\item Lo programa gestor de una base de datos léxica hacía en el peor caso 480 consultas antes de encontrar la ficha correspondiente a un término inglés concreto, antes de ordenarla por el término en inglés. Después de ordenarla hace \begin{enumerate} \item 240, la mitad. \item muchas menos consultas: 9. \item 480 consultas igualmente. \end{enumerate} \end{enumerate} 
+
+\section{Soluciones} \com{Repasarlas} \begin{enumerate} \item (c) \item (c) \item (c) \item (a) \item (a) 
+
+% 5
+\item (a) \item (a) \item (c) \item (c) \item (c) 
+
+% 10
+\item (c) \item (c) \item (b) \end{enumerate} 
