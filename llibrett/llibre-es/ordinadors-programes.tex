@@ -4,9 +4,9 @@
 
 Todos los sistemas informáticos\footnote{Es decir, todas las instalaciones basadas en ordenadores} se pueden dividir en dos partes: \emph{hardware} y \emph{software}. 
 
-\begin{description} \item[\emph{Hardware}:] el equipo físico que se puede ver y tocar. Por ejemplo, la pantalla, el procesador central, el teclado, el ratón, los chips\footnote{El chip es el elemento básico de la microelectrónica y de la microinformática; se trata de uno o más circuitos integrados en una placa de silicio de dimensiones muy reducidas, que normalmente se coloca en una caja hermética con contactos metálicos.} de memoria y las impresoras. 
+\begin{description} \item[Hardware:] el equipo físico que se puede ver y tocar. Por ejemplo, la pantalla, el procesador central, el teclado, el ratón, los chips\footnote{El chip es el elemento básico de la microelectrónica y de la microinformática; se trata de uno o más circuitos integrados en una placa de silicio de dimensiones muy reducidas, que normalmente se coloca en una caja hermética con contactos metálicos.} de memoria y las impresoras. 
 
-\item[\emph{Software}]: uno o más \emph{programas} (y los datos asociados) que realizan alguna función útil para el usuario o para otro \emph{programa}. Por ejemplo, un procesador de textos como LibreOffice o Microsoft Word puede estar compuesto por más de un \emph{programa}. Un \emph{programa} es una secuencia (lista o conjunto ordenado) de instrucciones que el hardware sigue o ejecuta, de tal manera que realizan alguna tarea determinada.\footnote{El uso de la palabra \emph{programa} en informática (secuencia de operaciones o acontecimientos) es paralelo a muchos usos de esta palabra en la vida cotidiana: programa \emph{de fiestas}, \emph{de un concierto}, \emph{de la lavadora}, etc.; aunque para el usuario un programa de ordenador es más parecido a una especie de caja de herramientas para hacer una tarea determinada, como, por ejemplo, editar un documento de texto.} Normalmente, los ordenadores están organizados alrededor de un \emph{procesador central} (véase más adelante) que es capaz de comprender y ejecutar instrucciones básicas tomadas de un conjunto determinado (el \emph{conjunto de instrucciones} del procesador). Los programas pueden estar guardados en un disco o cargados en la memoria del ordenador mientras el procesador los ejecuta. \end{description} 
+\item[Software:] uno o más \emph{programas} (y los datos asociados) que realizan alguna función útil para el usuario o para otro \emph{programa}. Por ejemplo, un procesador de textos como LibreOffice o Microsoft Word puede estar compuesto por más de un \emph{programa}. Un \emph{programa} es una secuencia (lista o conjunto ordenado) de instrucciones que el hardware sigue o ejecuta, de tal manera que realizan alguna tarea determinada.\footnote{El uso de la palabra \emph{programa} en informática (secuencia de operaciones o acontecimientos) es paralelo a muchos usos de esta palabra en la vida cotidiana: programa \emph{de fiestas}, \emph{de un concierto}, \emph{de la lavadora}, etc.; aunque para el usuario un programa de ordenador es más parecido a una especie de caja de herramientas para hacer una tarea determinada, como, por ejemplo, editar un documento de texto.} Normalmente, los ordenadores están organizados alrededor de un \emph{procesador central} (véase más adelante) que es capaz de comprender y ejecutar instrucciones básicas tomadas de un conjunto determinado (el \emph{conjunto de instrucciones} del procesador). Los programas pueden estar guardados en un disco o cargados en la memoria del ordenador mientras el procesador los ejecuta. \end{description} 
 
 %escrits a mà en un paper,
 A continuación se considerarán el hardware y el software con más detalle. 
@@ -66,7 +66,7 @@ Algunas de las operaciones básicas que hacen los sistemas operativos son: \begi
 %   imprés amb característiques de publicació. Quan el disseny
 %   de la publicació no és massa complex, és possible usar
 %   senzillament un processador de textos.
-\item[Hojas de cálculo,] que permiten automatizar cálculos que se repiten sobre un conjunto más o menos grande de datos (por ejemplo, para calcular la nota media de cada estudiante de una clase entera a partir de las notas parciales), y presentar los resultados de varias maneras, por ejemplo, en gráficos de muchos tipos. \item[Gestores de bases de datos] \label{pg:BD} que sirven para almacenar, organizar y gestionar de varias maneras la información contenida en \emph{bases} o bancos de datos (véase el capítulo~\ref{se:basesdades}). 
+\item[Hojas de cálculo] que permiten automatizar cálculos que se repiten sobre un conjunto más o menos grande de datos (por ejemplo, para calcular la nota media de cada estudiante de una clase entera a partir de las notas parciales), y presentar los resultados de varias maneras, por ejemplo, en gráficos de muchos tipos. \item[Gestores de bases de datos] \label{pg:BD} que sirven para almacenar, organizar y gestionar de varias maneras la información contenida en \emph{bases} o bancos de datos (véase el capítulo~\ref{se:basesdades}). 
 
 % \item[Programes de comunicacions,] que permeten connectar el
 %   nostre ordinador a altres ordinadors, transferir fitxers,
@@ -88,9 +88,36 @@ Algunas de las operaciones básicas que hacen los sistemas operativos son: \begi
 
 Por ejemplo, un programa que suma todos los números enteros del 1 al 10 podría ser el siguiente, que usa dos posiciones de memoria RAM para guardar valores necesarios para el cálculo. Cada una de las órdenes se corresponde con una instrucción básica de las que puede entender cualquier procesador. \begin{enumerate} \item Haz que el acumulador (un registro de la memoria interna del procesador) valga 1. \item Guarda el valor del acumulador en una posición de memoria que denominaremos \emph{índice}. \item Haz que el acumulador valga 0. \item Guarda el valor del acumulador en una posición de memoria que denominaremos \emph{suma}, la cual contendrá la suma total. \item \label{en:z} Carga el valor de \emph{suma} en el acumulador. \item Suma el valor de \emph{índice} al acumulador. \item Guarda el valor del acumulador en \emph{suma}. \item Carga el valor de \emph{índice} en el acumulador. \item Compara el valor del acumulador con 10. \item Si es igual, salta a la instrucción~\ref{en:q} \item Incrementa en 1 el valor del acumulador. \item Guarda el valor del acumulador en \emph{índice}. \item Salta a la instrucción~\ref{en:z}. \item \label{en:q} Para. \end{enumerate} 
 
-Muchas veces se usan nombres cortos (en inglés \emph{mnemonics}) para las instrucciones del procesador y también nombres elegidos por el programador para referirse a posiciones del programa (esta notación se suele denominar \emph{lenguaje ensamblador}). El programa de arriba tendría la apariencia siguiente: \begin{verbatim} mov #1,A mov A,index mov #0,A mov A,suma otro: mov suma,A add A,index mov A,suma mov index,A cmp A,#10 jeq final inc A mov A,index jmp otro final: hlt \end{verbatim} 
+Muchas veces se usan nombres cortos (en inglés \emph{mnemonics}) para las instrucciones del procesador y también nombres elegidos por el programador para referirse a posiciones del programa (esta notación se suele denominar \emph{lenguaje ensamblador}). El programa de arriba tendría la apariencia siguiente: 
+\begin{verbatim} 
+         mov #1,A
+         mov A,index
+         mov #0,A
+         mov A,suma
+ otro:   mov suma,A
+         add A,index
+         mov A,suma
+         mov index,A
+         cmp A,#10
+         jeq final
+         inc A
+         mov A,index
+         jmp otro
+ final:  hlt
+\end{verbatim}
 
-\paragraph{Procesadores de lenguajes de programación:} las instrucciones que ejecuta el procesador central de un ordenador son demasiado sencillas para que un programador humano haga programas útiles; sería largo y engorroso, como hemos visto en el ejemplo de programa que sumaba los enteros del 1 al 10. Los programadores normalmente escriben sus programas en {\em lenguajes de programación} basados en instrucciones más potentes (como por ejemplo BASIC, Java, C, C++, Pascal, Perl o Python) y usan programas especiales ---los procesadores de lenguajes--- para traducirlos a las instrucciones sencillas que entiende la máquina.\footnote{Hay dos familias básicas de procesadores de lenguajes: los \emph{compiladores}, que traducen todo el programa al lenguaje de la máquina antes de ejecutarlo, y los \emph{intérpretes}, que leen el programa línea a línea y ejecutan pequeños programas ya escritos en el lenguaje de la máquina y que corresponden a las sentencias del lenguaje de programación.} Casi todos los programas que se ejecutan en un ordenador han sido escritos en algún lenguaje de programación. El programa que suma los números del 1 al 10 quedaría así en el lenguaje Pascal: \begin{verbatim} program SUMA; var index, suma: integer; begin suma:=0; for index:=1 to 10 suma:=suma+index; end. \end{verbatim} 
+
+\paragraph{Procesadores de lenguajes de programación:} las instrucciones que ejecuta el procesador central de un ordenador son demasiado sencillas para que un programador humano haga programas útiles; sería largo y engorroso, como hemos visto en el ejemplo de programa que sumaba los enteros del 1 al 10. Los programadores normalmente escriben sus programas en {\em lenguajes de programación} basados en instrucciones más potentes (como por ejemplo BASIC, Java, C, C++, Pascal, Perl o Python) y usan programas especiales ---los procesadores de lenguajes--- para traducirlos a las instrucciones sencillas que entiende la máquina.\footnote{Hay dos familias básicas de procesadores de lenguajes: los \emph{compiladores}, que traducen todo el programa al lenguaje de la máquina antes de ejecutarlo, y los \emph{intérpretes}, que leen el programa línea a línea y ejecutan pequeños programas ya escritos en el lenguaje de la máquina y que corresponden a las sentencias del lenguaje de programación.} Casi todos los programas que se ejecutan en un ordenador han sido escritos en algún lenguaje de programación. El programa que suma los números del 1 al 10 quedaría así en el lenguaje Pascal: 
+\begin{verbatim}
+program SUMA;
+var
+   index, suma: integer;
+begin
+   suma:=0;
+   for index:=1 to 10
+      suma:=suma+index;
+end.
+\end{verbatim}
 
 % \paragraph{Programes i algorismes:} Moltes voltes, un programa és la
 % realització (entre informàtics se'n diu {\em implementació}) d'un
@@ -208,7 +235,30 @@ La secuencia de los nombres de las carpetas que hay que ir abriendo hasta que ll
 
 \begin{parsetree} ( .{$\Box$}. (.{\carpeta{prac1}}. (.{\carpeta{tt}}. `\fitxer{tt1}{txt}' `\fitxer{tt2}{txt}' ) (.{\carpeta{reserva}}. (.{\carpeta{tt}}. `\fitxer{tt1}{txt}' ) ) ) ) \end{parsetree} \caption{Ejemplo de estructura de ficheros y directorios en un dispositivo de almacenamiento. El directorio principal o raíz está representado por el símbolo $\Box$.}\label{fg:fitxersdirs} \end{figure} 
 
-Todos estos conceptos se ven quizás más claros con el ejemplo de la figura \ref{fg:fitxersdirs} en que se muestra la estructura de ficheros y directorios en un dispositivo de almacenamiento cualquiera. En este dispositivo, el directorio principal o raíz (representado con el símbolo $\Box$) contiene un único (sub)directorio \carp{prac1}; este directorio contiene dos (sub)directorios, \carp{tt} (que contiene los ficheros \texttt{tt1.txt} y \texttt{tt2.txt}) y \carp{reserva}. El directorio \carp{reserva} contiene un subdirectorio \carp{tt} (que contiene el archivo \texttt{tt1.txt}). Fijaos que dos carpetas diferentes contienen archivos con el mismo nombre \texttt{tt1.txt}; esto no es problema si consideramos la trayectoria completa como nombre del fichero. Si el disco se llama \texttt{C:} (típico en el caso del disco duro de un PC con sistema operativo Windows), las trayectorias de estos dos ficheros serían \texttt{C:}\barra\carp{prac1}\barra\carp{tt}\barra\texttt{tt1.txt} y C: \texttt{}\barra\carp{prac1}\barra\carp{reserva}\barra\carp{tt}\barra\texttt{tt1.txt}, y, por lo tanto, serían diferentes. En el caso del sistema operativo GNU/Linux las trayectorias de estos dos ficheros serían \texttt{/}\carp{prac1/}\carp{tt/}\texttt{tt1.txt} y / \texttt{}\carp{prac1/}\carp{reserva/}\carp{tt/}\texttt{tt1.txt}. Fijaos que cada sistema operativo usa un símbolo diferente para el directorio principal o raíz y para separar los nombres de los directorios y archivos dentro de la ruta o trayectoria. 
+Todos estos conceptos se ven quizás más claros con el ejemplo de la
+figura \ref{fg:fitxersdirs} en que se muestra la estructura de
+ficheros y directorios en un dispositivo de almacenamiento
+cualquiera. En este dispositivo, el directorio principal o raíz
+(representado con el símbolo $\Box$) contiene un único (sub)directorio
+\carp{prac1}; este directorio contiene dos (sub)directorios, \carp{tt}
+(que contiene los ficheros \texttt{tt1.txt} y \texttt{tt2.txt}) y
+\carp{reserva}. El directorio \carp{reserva} contiene un subdirectorio
+\carp{tt} (que contiene el archivo \texttt{tt1.txt}). Fijaos que dos
+carpetas diferentes contienen archivos con el mismo nombre
+\texttt{tt1.txt}; esto no es problema si consideramos la trayectoria
+completa como nombre del fichero. Si el disco se llama \texttt{C:}
+(típico en el caso del disco duro de un PC con sistema operativo
+Windows), las trayectorias de estos dos ficheros serían
+\texttt{C:}\barra\carp{prac1}\barra\carp{tt}\barra\texttt{tt1.txt} y
+C:
+\texttt{}\barra\carp{prac1}\barra\carp{reserva}\barra\carp{tt}\barra\texttt{tt1.txt},
+y, por lo tanto, serían diferentes. En el caso del sistema operativo
+GNU/Linux las trayectorias de estos dos ficheros serían
+\texttt{/}\carp{prac1/}\carp{tt/}\texttt{tt1.txt} y \\
+\texttt{/}\carp{prac1/}\carp{reserva/}\carp{tt/}\texttt{tt1.txt}. Fijaos
+que cada sistema operativo usa un símbolo diferente para el directorio
+principal o raíz y para separar los nombres de los directorios y
+archivos dentro de la ruta o trayectoria.
 
 \section{Tipos de ordenadores} Una clasificación no muy exhaustiva de los diferentes tipos de ordenadores que podemos encontrarnos hoy en día es la siguiente: 
 
@@ -217,7 +267,7 @@ Todos estos conceptos se ven quizás más claros con el ejemplo de la figura \re
 % Tot i que fa uns anys el seu preu era molt superior al d'un
 % ordinador de sobretaula, avui la diferència és cada vegada
 % més reduïda.
-\item[Tabletas y \emph{smartphones}]: las tabletas (en inglés \emph{tablets}) y los teléfonos móviles más modernos, denominados \emph{smartphones}, son verdaderos ordenadores portátiles, con una pantalla táctil y sin teclado, con cámara, conectividad Wi-Fi y Bluetooth, receptor GPS, etc. Suelen venir con un sistema operativo gráfico: el más común es Android, pero los de la marca Apple usan iOS.\footnote{Estos dispositivos han desplazado a los antiguos \emph{handhelds} o dispositivos de mano, que eran una evolución de las antiguas agendas electrónicas y se solían denominar \emph{PDA} por \emph{Personal Digital Assistant}, "asistente digital personal'.} 
+\item[Tabletas y \emph{smartphones}:] las tabletas (en inglés \emph{tablets}) y los teléfonos móviles más modernos, denominados \emph{smartphones}, son verdaderos ordenadores portátiles, con una pantalla táctil y sin teclado, con cámara, conectividad Wi-Fi y Bluetooth, receptor GPS, etc. Suelen venir con un sistema operativo gráfico: el más común es Android, pero los de la marca Apple usan iOS.\footnote{Estos dispositivos han desplazado a los antiguos \emph{handhelds} o dispositivos de mano, que eran una evolución de las antiguas agendas electrónicas y se solían denominar \emph{PDA} por \emph{Personal Digital Assistant}, "asistente digital personal'.} 
 
 \item[Servidores:] Los servidores son ordenadores que contienen y gestionan información que se utilizará en otros ordenadores (``clientes") conectados a ellos a través de una red interna o a través de Internet; no son demasiado diferentes de un ordenador de sobremesa, normalmente más potentes en cuanto a memoria, disco y procesador, pero como nadie tiene que sentarse delante de ellos no suelen tener pantallas, teclados o ratones y están pensados para ser ubicados horizontalmente en armarios especiales llamados \emph{racks}. Estos ordenadores se pueden presentar en grupos conectados entre sí para ofrecer mayor potencia y capacidad. \end{description} 
 
@@ -305,7 +355,8 @@ La palabra \emph{módem} se puede usar también para otros tipos de módems, nor
 
 \item[Wi-Fi] (probablemente del inglés \emph{wireless fidelity}, fidelidad inalámbrica): tecnología de conexión inalámbrica (vía radio), principalmente para formar redes locales, y que en la actualidad (estándar IEEE 802.11ac, enero de 2014) permite velocidades de transmisión de hasta 6.77~Gb/s. \end{description} 
 
-\section{Cuestiones y ejercicios} \begin{enumerate} \item ¿Cuántos \emph{kilobytes} hay en \emph{un gigabyte}? \begin{enumerate} \item 1.024 \item 1.073.741.824 \item 1.048.576 \end{enumerate} 
+\section{Cuestiones y ejercicios} \begin{enumerate} \item ¿Cuántos
+  \emph{kilobytes} hay en un \emph{gigabyte}? \begin{enumerate} \item 1.024 \item 1.073.741.824 \item 1.048.576 \end{enumerate} 
 
 \item Si una memoria USB tiene 6~\emph{gigabytes}, una página de texto (europeo occidental) típica tiene 50 líneas de 60 caracteres (contando los blancos) y cada carácter ocupa 1~\emph{byte}, ¿cuántas páginas caben aproximadamente en la memoria? \begin{enumerate} \item 200 \item 20000 \item 2000000 \end{enumerate} 
 
@@ -429,10 +480,10 @@ La palabra \emph{módem} se puede usar también para otros tipos de módems, nor
 \item (a) \item (b) \item (a) \item (a): Cada punto puede tomar uno de 256 colores. Para poder almacenar el color hace falta un número de bits suficiente para hacer 256 combinaciones. Con 8 bits podemos hacer \(2^8=2\times2\times 2\times 2\times 2\times 2\times 2\times 2=256\) combinaciones. Por lo tanto, se necesitan 8 bits, es decir, un byte. \item (c) 
 
 %15
-\item (a) \item (b): El número de bits necesario para poder generar 35.000 combinaciones es el número de veces que hay que multiplicar \(2\times 2\times\ldots\) justo hasta el punto en que se supera 35.000. Hay que hacerlo 16 veces; por lo tanto, necesitamos 16 bits. Como cada byte son 8 bits, son necesarios 2 bytes. \item (a) \item (c) \item (b): Cada punto puede presentarse en 8 colores diferentes. Con 3 bits podemos almacenar \(2\times2\times2=8\)~colores. Por lo tanto, la imagen ocupa $1.024 \times 1024 \times 3 = 3.145.728$ bits, que son $3.145.728/8=393.216$ bytes, que son $393.216/1024=384$ kilobytes. 
+\item (a) \item (b): El número de bits necesario para poder generar 35.000 combinaciones es el número de veces que hay que multiplicar \(2\times 2\times\ldots\) justo hasta el punto en que se supera 35.000. Hay que hacerlo 16 veces; por lo tanto, necesitamos 16 bits. Como cada byte son 8 bits, son necesarios 2 bytes. \item (a) \item (c) \item (b): Cada punto puede presentarse en 8 colores diferentes. Con 3 bits podemos almacenar \(2\times2\times2=8\)~colores. Per tant, la imatge ocupa $1.024 \times 1024 \times 3 = 3.145.728$ bits, que són $3.145.728/8=393.216$ octets, que són $393.216/1024=384$ kilooctets. 
 
 %20
-\item (c) \item (c) \item (c): Cada imagen ocupa $100\times100 = 10.000$ bits, que son $10.000 / 8 = 1.250$ bytes. 1 GB = $1.024 \times 1.024 \times 1.204 = 1.073.741.824 $ bytes. $ 1.073.741.824 / 1.250 = 858.993$. Podemos almacenar más de 800.000 imágenes. \item (b) \item (c) 
+\item (c) \item (c) \item (c): Cada imagen ocupa $100\times100 = 10.000$ bits, que son $10.000 / 8 = 1.250$ bytes. 1 GB = $1.024 \times 1.024 \times 1.204 = 1.073.741.824 $ bytes.\\ $ 1.073.741.824 / 1.250 = 858.993$. Podemos almacenar más de 800.000 imágenes. \item (b) \item (c) 
 
 %25
 \item (b): Cada dígito decimal puede tomar, por separado, 10 valores diferentes (del cero al nueve). Tres bits por dígito decimal no son suficientes (permiten sólo 8 combinaciones); cuatro, sí. Así, cada dígito decimal ocupa 4 bits; si hay 9, necesitamos 36 bits. \item (b): 2GB son $ 2\times 1.024 \times 1.024 = 2.097.152$ kB. En la tarjeta Compact Flash caben $ 2.097.152 / 2.048 = 1.024$ imágenes. Con 3 tarjetas puedo almacenar $ 3 * 1024 = 3.072$ imágenes. \item (b) \item (b) \item (a) 
