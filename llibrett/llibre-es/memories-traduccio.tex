@@ -1,0 +1,273 @@
+\chapter{Memorias de traducción} \label{se:memtrad} 
+
+\begin{quote} \textsl{Existing translations contain more solutions to more translation problems than any other existing resource} \citep{isabelle93p} \end{quote} 
+
+\section{Introducción} 
+
+Una aproximación a la traducción humana asistida por ordenador (es decir, semiautomática) que está muy relacionada con la traducción directa es la que se usa en las llamadas \emph{memorias de traducción}.\footnote{Como veremos más abajo, en vez de traducir palabra por palabra haciendo una simple sustitución de cada palabra origen por la(s) palabra(s) meta correspondientes, las memorias de traducción hacen sustituciones de fragmentos de más de una palabra, y, en lugar de usar un diccionario bilingüe, usan una base de datos de fragmentos de más de una palabra previamente traducidos.} La noción básica \citep{somers96b,samuelson-brown96b} es la utilidad de tener a mano, cuando se está traduciendo un texto nuevo, ejemplos de frases similares y de las traducciones correspondientes, procedentes de traducciones realizadas anteriormente. De hecho, ciertos tipos de textos como por ejemplo documentos técnicos, informes anuales o manuales de instrucciones, los cuales se suelen revisar frecuentemente, a menudo tienen muchas repeticiones. En estos casos, la comparación de versiones diferentes del que es esencialmente el mismo texto y la traducción repetitiva de textos similares es innecesariamente laboriosa. Además, muchas veces el trabajo de traducción comporta un esfuerzo creativo considerable, como por ejemplo cuando se trata de encontrar una equivalencia adecuada a alguna expresión especialmente difícil de traducir; las memorias de traducción permitirían no tener que repetir este esfuerzo en el futuro. 
+
+El \textbf{objetivo} es, por tanto, aprovechar traducciones anteriores para a no repetir el esfuerzo cuando se tienen que hacer traducciones nuevas. Debe quedar claro que, para poder hacerlo, los textos originales y las traducciones tienen que estar en formato informatizado (ficheros de texto). 
+
+\section{Bitextos} \label{ss:bitextos} 
+
+Supondremos que, como resultado del trabajo anterior de traducción, tenemos pares de textos $(E,D)$ donde $E$ es el \emph{texto izquierdo} (en la \emph{lengua izquierda}) y $D$ es el \emph{texto derecho} (en la \emph{lengua derecha}), y queremos traducir de la lengua izquierda a la lengua derecha.\footnote{Hablamos de\emph{izquierda} y \emph{derecha} porque puede que no sea importante (o que no se sepa) cuál de los dos textos es el original y cuál es la traducción.} De hecho, cuando dos textos $E$ y $D$ son equivalentes (es decir, traducción uno del otro) diremos que el par $(E,D)$ es un \emph{bitexto} o \emph{texto paralelo}. 
+
+Observad este ejemplo donde la lengua izquierda es el catalán y la lengua derecha, el español: \begin{quote} $E$: ``Tenim textos equivalents i els volem aprofitar per a fer noves traduccions. Quan dos textos són equivalents diem que formen un bitext.'' 
+
+$D$: ``Tenemos textos equivalentes y los queremos aprovechar para hacer nuevas traducciones. Cuando dos textos son equivalentes decimos que forman un bitexto.'' \end{quote} 
+
+Pero los bitextos completos no se pueden aprovechar tal como están porque es muy improbable que nos encarguen de nuevo exactamente la misma tarea de traducción, es decir, que nos encarguen traducir de nuevo un texto $E'$ cuando ya tenemos el bitexto $(E',D')$. Lo que sí es probable es que algunas partes del texto nuevo $E'$ aparezcan también en la parte izquierda de algunos de los bitextos que ya tenemos. Por eso, necesitamos obtener a partir de ellos bitextos más pequeños, con partes izquierdas que tengan posibilidad de aparecer de nuevo en el futuro. 
+
+\subsection{Segmentación de bitextos} La primera operación consiste en \emph{segmentar} o \emph{dividir} automáticamente cada uno de los dos textos en unidades más pequeñas, que llamaremos \emph{segmentos}, usando algún criterio programable (véase más abajo). La figura~\ref{fg:segmentat} muestra el resultado de la segmentación de los textos $E$ y $D$. Como se ve, puede ser que inicialmente el número de segmentos del texto izquierdo $E$ sea diferente del número de segmentos del texto derecho $D$. \begin{figure} \begin{center} \begin{tabular}{p{3cm}p{3cm}} $E$ &$D$ \end{tabular} \begin{tabular}{|p{3cm}|p{3cm}|} \hline
+
+$e_1$ &$d_1$ \\\hline $e_2$ &$d_2$ \\\hline $e_3$ &$d_3$ \\\hline \ldots &\ldots \\\hline \ldots &$d_M$ \\\hline \ldots \\\cline{1-1} $e_L$ \\\cline{1-1} \end{tabular} \end{center} \caption{Los bitextos $E$ y $D$, segmentados, respectivamente, en $L$ y $M$ segmentos: $E=e_1e_2\ldots e_L$ y $D=d_1d_2\ldots d_M$. En el ejemplo, el texto izquierdo tiene dos segmentos más (es decir, $L=M+2$).} \label{fg:segmentat} \end{figure} 
+
+\subsection{Alineación de bitextos. Unidades de traducción} 
+
+El resultado de la segmentación todavía no es útil: no queda clara la correspondencia entre los segmentos izquierdos y los segmentos derechos. Necesitamos \emph{revisar la segmentación}, es decir, unir o partir segmentos, en un lado o en el otro, hasta que tengamos el mismo número de segmentos y sean traducción mutua. A esta operación se la llama \emph{alinear} el bitexto. 
+
+Diremos que un bitexto $(E,D)$ está \emph{alineado} si las dos partes tienen el mismo número $N$ de segmentos, $E= e_1 e_2 e_3 \ldots e_N$ y $D= d_1 d_2 d_3 \ldots d_N$, y sus segmentos son traducción mutua: $e_1$ es traducción de $d_1$ (o viceversa), $e_2$ es traducción de $d_2$, etc. Es decir, el texto alineado nos proporciona $N$ bitextos (segmentos paralelos) $(e_1,d_1)$, $(e_2,d_2)$, $(e_3,d_3)$, etc., más pequeños (por eso los escribimos en minúscula); estos bitextos se denominan normalmente \emph{unidades de traducción} (UT): véase la figura~\ref{fg:alineat}. \begin{figure} \begin{center} \begin{tabular}{p{3cm}p{3cm}} $E$ &$D$ \end{tabular} \begin{tabular}{|p{3cm}|p{3cm}|} \hline
+
+$e_1$ &$d_1$ \\\hline $e_2$ &$d_2$ \\\hline $e_3$ &$d_3$ \\\hline \ldots &\ldots \\\hline $e_N$ &$d_N$ \\\hline \end{tabular} \end{center} \caption{Los bitextos $E$ y $D$ segmentados y alineados en $N$ unidades de traducción, $(e_1,d_1), (e_2,d_2), \ldots (e_N,d_N)$} \label{fg:alineat} \end{figure} 
+
+Así es más probable que cuando nos den un texto nuevo $E'$ tengamos traducciones para algunos de sus fragmentos. El bitexto de más arriba se podría alinear para formar las unidades de traducción \begin{center} \pair{\em Tenemos}{\em Tenim}\\ \pair{\em textos equivalents}{\em textos equivalentes}\\ \pair{\em i els volem aprofitar}{\em y los queremos aprovechar}\\ \ldots\\ \pair{\em formen un bitext}{\em forman un bitexto} \end{center} 
+
+Como ya se ha dicho más arriba, una operación muy importante para la reutilización o el \emph{reciclaje} de traducciones antiguas es la de \emph{alinear} los textos y las traducciones existentes para identificar fragmentos o unidades \emph{de traducción} que se puedan reutilizar posteriormente. Una \emph{memoria de traducción} es una base de datos en la que cada ficha (registro) contiene una unidad de traducción, y tiene, por lo tanto, como mínimo dos campos: el texto izquierdo y el texto derecho. 
+
+La operación de alineación de bitextos existentes es una de las tareas que se puede realizar con la ayuda de un programa de memorias de traducción. La figura~\ref{fg:aliMT} muestra un esquema del proceso. \begin{figure} {\small $$ \mbox{\textsf{bitexto}}\;\;\left\{\begin{array}{rcl} \mbox{\textsf{texto izquierdo $E$}} &\to \mbox{\framebox{\parbox{1.25cm}{\textsf{segmen- tación}}}} \to \\ \mbox{\textsf{texto derecho $D$}} &\to \mbox{\framebox{\parbox{1.25cm}{\textsf{segmen- tación}}}} \to \\ \end{array} \right. \mbox{\framebox{\parbox{1.6cm}{\textsf{alineador-corrector asistido}}}} \to \mbox{\parbox{1cm}{\textsf{UTs} $(e,d)$}} \to \mbox{\framebox{\parbox{1.4cm}{\textsf{Memoria de traducción}}}} $$ } \caption{Esquema del proceso de\emph{alineamiento} de un bitexto existente para alimentar una memoria de traducción.} \label{fg:aliMT} \end{figure} 
+
+\subsubsection{Alineamiento automático} 
+
+El alineamiento automático de textos traducidos no es una tarea
+sencilla; son necesarios conocimientos previos sobre las lenguas
+involucradas (por ejemplo, correspondencias entre palabras o
+alineamientos previamente validados por una persona experta\footnote{U
+  obtenido mediante métodos estadísticos como los descritos en el
+  apartado~\ref{ss:induc}.}), por eso, la mayoría de los sistemas de
+memorias de traducción usan mecanismos muy sencillos para segmentar
+los textos, tanto para alinear bitextos como para dividir un texto
+izquierdo nuevo en segmentos para buscarlos en la base de
+datos.\footnote{Es importante usar el mismo método para segmentar el
+  bitexto antes de alinearlo y para segmentar el nuevo texto izquierdo
+  a traducir.} Por tanto, los segmentos obtenidos no son en general
+los \emph{ideales} (véase más abajo). Los mecanismos de segmentación
+usuales intentan identificar unidades similares a la oración usando la
+puntuación y el formato como indicadores, con la idea de que el número
+de oraciones será básicamente el mismo en el texto derecho y el
+izquierdo (esto puede fallar). Pero es que, al contrario de lo que
+podría parecer, no es nada sencillo distinguir cuando un punto
+representa el final de una oración: 
+\begin{verbatim} 
+     [...] muy  tarde.   Después fueron [...] 
+     [...] por CC.OO.    Los de UGT no [...]
+     [...] por CC.OO.    y por UGT [...] 
+     [...] para el Sr.   Martínez [...] 
+\end{verbatim} 
+En los dos primeros casos el punto es el final
+de la oración pero en los dos últimos no. Hay que definir claramente
+las reglas de segmentación; los programas de memorias de traducción
+suelen permitir que el usuario modifique o refine estas reglas. De
+hecho, hay un formato XML estándar para especificar e intercambiar
+reglas de segmentación, llamado
+SRX\footnote{\url{http://www.unicode.org/uli/pas/srx/srx20.html}}
+(\emph{segmentation rules exchange}).
+
+Conviene, además, mencionar otro aspecto adicional importante. Los documentos de texto, además de caracteres y palabras, contienen información de \emph{formato} que hay que considerar en el proceso de segmentación y alineación. Cuando se trata de traducir documentos de texto, el usuario quiere alinear \emph{texto} y en muchos casos probablemente no necesita ver los códigos de formato para validar o corregir una alineación.\footnote{La situación es diferente cuando se están traduciendo los mensajes o textos incluidos en \emph{programas} de ordenador, como parte de las tareas llamadas genéricamente de \emph{localización} (adaptación de programas de ordenador a los usuarios de una región e idioma concretos); en este caso, puede ser muy útil ver todo el programa además de los textos.} Además, las unidades de traducción que se obtengan de la alineación tendrían que ser independientes del formato del documento. Los programas más recientes resuelven esto con \emph{filtros} o \emph{conversores} para los formatos de texto más frecuentes, filtros que tratan de ocultar al máximo al usuario las características de formato de los documentos para que puedan concentrarse en las textuales.\footnote{A veces, quien traduce tiene que gestionar explícitamente las etiquetas de formato para asegurar una buena traducción: todos los programas ofrecen la posibilidad de\emph{editar etiquetas} manualmente: las etiquetas se agrupan y simplifican para hacer más fácil el trabajo.} Los profesionales valoran mucho la capacidad de gestionar el formato de manera sencilla y eficiente, puesto que la preservación del formato de las traducciones es una de las tareas que les hace perder más tiempo. 
+
+\subsubsection{Alineamiento asistido} 
+
+Es posible que los dos textos no tengan el mismo número de ``oraciones'' o que la estrategia para segmentarlos falle por algún motivo y el alineamiento no sea perfecto. La mayoría de los programas de memoria de traducción ofrecen al usuario la posibilidad de validar o modificar (uniendo o dividiendo segmentos en el texto izquierdo o en el texto derecho) el alineamiento automático inicial usando una interfaz sencilla e intuitiva antes de incorporar los segmentos resultantes a la memoria de traducción. 
+
+\begin{persabermes}{el alineamiento ideal} Hemos descrito un tipo de alineamiento posible, basado en unidades fundamentalmente equivalente a las oraciones, pero, ¿cuál sería el alineamiento óptimo de un bitexto? Es decir, ¿cuál sería la mejor manera de dividirlo en unidades de traducción? La longitud de las unidades de traducción puede ir desde las palabras hasta las oraciones enteras. La probabilidad de que un fragmento izquierdo (procedente de los bitextos ya existentes) $e$ aparezca en un nuevo texto $E'$ es tanto más grande cuanto más pequeño es el fragmento. Pero si el fragmento es demasiado pequeño es más probable que la traducción presente en la memoria de traducción sea más imprecisa por ser ambigua (pueden aparecer correspondencias múltiples entre las cuales se tendría que elegir: por ejemplo a una parte izquierda $e$ le pueden corresponder dos partes derechas $d$ y $d'$ diferentes en unidades de traducción diferentes). Por otro lado, si los fragmentos son demasiado largos, es más improbable que sean ambiguos, pero es mucho menos probable que se repitan exactamente en textos futuros. Por ejemplo, el fragmento \emph{las decepciones} se puede corresponder en catalán con \emph{les decebes} o \emph{les decepcions} pero el fragmento \emph{las decepciones sufridas} sólo puede aparecer alineado con \emph{les decepcions patides}. El \emph{fragmento ideal} sería el que es lo suficientemente pequeño para aparecer a menudo pero lo suficientemente completo como para tener una traducción constante. Es decir, por un lado, se da un compromiso entre la \emph{cobertura} (fracción de un texto nuevo que podría ser traducido usando los fragmentos alineados) y la \emph{precisión} (corrección de las traducciones resultantes). El tamaño ideal es, por lo tanto, un compromiso entre la cobertura de los fragmentos pequeños y la precisión de los fragmentos más grandes. \end{persabermes} 
+
+\subsection{La memoria de traducción como base de datos} 
+
+Una vez alineados los bitextos las unidades de traducción se organizan para que tanto el programa como el usuario puedan acceder a ellas eficientemente; por ejemplo, como una base de datos. Se tiene que tener en cuenta que la utilidad de las memorias de traducción mejora considerablemente con el tamaño del corpus de traducciones usadas para llenarlas; por lo tanto, no es extraño que una memoria de traducción tenga que gestionar una gran cantidad de unidades de traducción. Muchos programas marcan las unidades de traducción con un código que indica la temática o la naturaleza o el nombre del bitexto del cual se han extraído las unidades de traducción, de forma que la temática del nuevo documento sirva para localizar las unidades de traducción más adecuadas en cada caso. 
+
+\section{Traducción con memorias de traducción} 
+
+La organización de las UT en una base de datos permite, además, \emph{recuperar} de la memoria de traducción, cuando se está traduciendo un texto nuevo $E'$, los segmentos izquierdos, $e'_1, e'_2, \ldots$ y \emph{construir}, partiendo de los segmentos derechos correspondientes, la traducción deseada $D'$. 
+
+La memoria de traducción puede contener unidades de traducción con segmentos izquierdos idénticos o similares. En caso de encontrar un segmento idéntico (\emph{concordancia exacta}, en inglés \emph{exact match}) para el cual sólo haya una traducción disponible, sólo hay que insertar la traducción directamente. 
+
+Pero, como esto sucede pocas veces, puesto que los segmentos son normalmente oraciones y es difícil que se repitan \emph{exactamente}, la mayor parte de los sistemas comerciales usan estrategias para no desaprovechar unidades de traducción que contengan partes izquierdas \emph{similares} a la nueva (las llamadas \emph{concordancias parciales}, o, en inglés, \emph{fuzzy matches}). 
+
+Algunos programas, si no encuentran una UT que tenga la parte izquierda idéntica a la observada en el nuevo texto ($e'$), pero encuentran una, $(e,d)$, cuya parte izquierda $e$ se diferencia en una palabra o en un cierto porcentaje de las palabras de $e'$, presenta como \emph{traducción aproximada} la parte derecha ($d$) correspondiente a $e$. Normalmente, los sistemas, cuando encuentran un segmento similar pero no idéntico, destacan gráficamente las diferencias (por ejemplo, con colores); así, el usuario puede hacer las modificaciones necesarias para que la traducción resultante sea correcta. Normalmente, se suele establecer un \emph{umbral} (en inglés \emph{fuzzy match threshold}), de manera que no se presenten propuestas por debajo de una cierta \emph{puntuación de concordancia parcial} mínima (en inglés \emph{fuzzy match score}). Las puntuaciones de concordancia parcial se suelen expresar como porcentajes, donde el 0\% indica falta total de concordancia y el 100\% concordancia exacta, y el umbral se suele establecer por encima del 60\%. 
+
+Algunos sistemas incluso son capaces de usar las bases de datos
+léxicas o terminológicas del usuario para proponer traducciones para
+las palabras discordantes. Por ejemplo, si en la memoria está la UT
+\pair{\emph{Connecteu l'ordinador a la impressora}}{\emph{Conecte el
+    ordenador a la impresora}} pero el nuevo texto contiene la frase
+  \emph{Connecteu l'ordinador a la \underline{xarxa}}, el programa
+  puede encontrar las correspondencias \pair{\emph{xarxa}}{\emph{red}}
+  e \pair{\emph{impressora}}{\emph{impresora}} en una base de datos
+  léxica y usarlas para proponer la traducción correcta (\emph{Conecte
+    el ordenador a la red}). Otros programas usan estrategias propias
+  (no descritas) para construir traducciones usando fragmentos de
+  partes derechas de más de una UT. En general, la utilidad de una
+  memoria de traducción depende en gran parte de la capacidad del
+  sistema para proponer traducciones para segmentos \emph{similares}
+  (y para esto se tienen que definir y usar criterios adecuados de
+  \emph{similitud}).
+
+Hay dos modalidades de uso de las memorias de traducción: \begin{description} \item[Interactiva:] Quien está traduciendo recibe diversas propuestas para cada nuevo segmento $e'$, entre las cuales elige la más adecuada para producir la traducción correspondiente $d'$. Esta modalidad conlleva el acceso por parte de quien traduce a la memoria de traducción. \item[Pretraducción:] Quien está traduciendo recibe como mucho una única propuesta para cada nuevo segmento $e'$, elegida automáticamente. En esta modalidad, quien traduce no tiene acceso a la memoria de traducción. \end{description} \begin{figure} \begin{center} \begin{tabular}{p{3cm}p{4cm}} $E'$ &$D'$ en construcción \end{tabular} \begin{tabular}{|p{3cm}|p{4cm}|} \hline
+
+$e'_1=e_{234}$ (100\%)& $de=1=d_{234}$ \\\hline $e'_2\simeq e_{112}$ (87\%) &posteditar $d_{112} \to d'_2$ \\\hline $e'_3\simeq e_{47}$ (93\%) &posteditar $d_{47} \to d'_3$ \\\hline $e'_4$ &generar $d_4$ desde cero \\\hline $e'_5=e_{51}$ (100\%) &$d'_5=d_{51}$ \\\hline \ldots &\ldots \\\hline \end{tabular} \end{center} \caption{La traducción de un bitexto nuevo $E'$ y los tipos de situaciones de concordancia que se pueden dar: concordancia exacta para $e'_1$ y $e'_5$, concordancia parcial para $e'_2$ y $e'_3$, y ausencia de concordancia razonable para $e'_4$.} \label{fg:pretrad} \end{figure} Tanto en un caso como en el otro, pueden pasar tres cosas, tal y como se ve en el ejemplo de la figura~\ref{fg:pretrad}: \begin{itemize} \item Que se dé una concordancia exacta, como en el caso de los segmentos $e'_1$ y $e'_5$ y por tanto, solo haya que comprobar que la propuesta de la memoria se pueda usar como su traducción. \item Que se dé una concordancia parcial, como en el caso de los segmentos $e'_2$ (similar a $e_{112}$) y $e'_3$ (similar a $e_{47}$), y haya que posteditar, respectivamente, las propuestas $d_{112}$ y $d_{47}$ de la memoria de traducción para producir $d'_2$ y $d'_3$. \item Que no se dé ninguna concordancia razonable, como en el caso del segmento $e'_4$, y haya que generar la traducción $d'_4$ desde cero. \end{itemize} 
+
+Tanto en el caso interactivo como en el de la pretraducción, quién traduce ha de acabar la traducción. El proceso se muestra en la figura~\ref{fg:preMT}. \begin{figure} {\small $$ \begin{array}{rcl} \mbox{\textsf{texto izquierdo}} \to\mbox{\framebox{\textsf{segmentación}}} \to &\mbox{\framebox{\parbox{1.9cm}{\textsf{concordancia y selección de propuestas}}}} &\to \mbox{\framebox{\textsf{postedición}}} \to \mbox{\parbox{1.4cm}{\textsf{texto derecho traducido y segmentado}}} \\[0.8cm] &\uparrow \downarrow \mbox{\textsf{UTs}}& \\[0.5cm] &\mbox{\framebox{\parbox{1.9cm}{\textsf{Memoria de traducción}}}} &\\ \end{array} $$ } \caption{Esquema del proceso de pretraducción de un nuevo texto izquierdo utilizando una memoria de traducción.} \label{fg:preMT} \end{figure} 
+
+\subsection{Ampliación de la memoria} 
+
+Una vez hecha la pretraducción o la selección interactiva de propuestas de traducción para cada uno de los segmentos del texto izquierdo $E'$, el programa las muestra alineadas con los segmentos del texto izquierdo para que la persona usuaria las pueda posteditar y producir el texto derecho correcto $D'$. Las nuevas unidades de traducción $(e',d')$ que se hayan producido en el proceso se pueden enviar a la memoria de traduccuión. La repetición del ciclo pretraducción--corrección--envío de nuevas UT a la memoria enriquece la memoria de traducción y permite obtener cada vez pretraducciones más completas y correctas. 
+
+% FIGURA ELIMINADA POR CONFUSA
+% \begin{figure}
+% $$
+% \begin{array}{r}
+% \mbox{\textsf{text esquerre segmentat}} \to \\
+% \mbox{\textsf{text dret pretraduït i segmentat}} \to \\ \end{array}
+% \mbox{\framebox{\parbox{1.6cm}{\textsf{alineador- corrector assistit}}}}
+% \begin{array}{l}\to \mbox{\textsf{UTs}} \to
+%   \mbox{\framebox{\parbox{2.1cm}{\textsf{Memòria de traducció}}}} \\
+%   \to \mbox{\textsf{text dret corregit}}\end{array}
+% $$
+% \caption{Esquema del procés de \emph{correcció} del text pretraduït i
+%   \emph{actualització} de la memòria de traducció.}
+% \label{fg:corMT}
+% \end{figure}
+% TEXT que n'he eliminat...
+%  També es pot donar el cas que una frase nova es
+% puga traduir de més d'una manera perquè hi haja més d'una combinació
+% de fragments pretraduïts que la cobrisca; en aquest cas, es pot usar
+% un sistema d'avaluació (per exemple, estadístic) per a elegir la
+% millor fragmentació o donar a la persona usuària la possibilitat de
+% triar entre les possibles fragmentacions.
+\section{Productos} 
+
+En la actualidad, hay muchos programas de memoria de traducción de propósito general disponibles comercialmente (\emph{SDL Trados} de SDL International, \emph{Déjà Vu} de Atril, \emph{IBM Translation Manager}, \emph{Transit} de Star, etc., por nombrar algunos de los más conocidos). También hay una alternativa interesante de código abierto y distribución gratuita, llamada OmegaT.\footnote{\url{http://www.omegat.org}} Estos programas de traducción asistida son muy populares entre las personas que se dedican profesionalmente a la traducción, mucho más populares que los programas de traducción automática. Esto puede ser debido, por un lado, a que los profesionales tienen así la impresión de que el programa no traduce y los relega a un mero papel de correctores, sino que \emph{organiza} y hace más eficiente el trabajo de traducción profesional y, por otro lado, a que las memorias de traducción \emph{conservan el estilo} y las \emph{decisiones terminológicas} de traducciones anteriores, que pueden variar de un equipo a otro, mientras que los sistemas de traducción automática suelen basarse en selecciones terminológicas y de estilo de propósito general, aunque sea dentro de una temática concreta. 
+
+Se tiene que tener en cuenta que la traducción automática puede constituir una alternativa aceptable en aquellos segmentos donde la memoria de traducción no puede hacer una propuesta razonable, y, de hecho, muchos programas de traducción asistida por ordenador combinan el acceso a memorias de traducción con el acceso a la traducción automática. La puntuación de concordancia parcial por debajo de la cual las propuestas de la memoria de traducción empiezan a ser menos útiles que la traducción automática depende de la cobertura de la memoria de traducción para el tipo de texto, de la lengua origen y la lengua meta, y, por supuesto, del sistema concreto de traducción automática: para lenguas muy similares como por ejemplo el español y el catalán, podría pasar que sólo las concordancias mejores que, digamos, el 95\% fueran aceptables, mientras que si las lenguas son más distantes, como el español y el turco, podría pasar que la traducción automática sólo fuera útil para puntuaciones de concordancia muy bajas. 
+
+Hay tecnologías de traducción automática que se asemejan mucho al funcionamiento de las memorias de traducción, como por ejemplo la traducción automática estadística (véase el apartado \ref{ss:induc}). Un ejemplo clásico es la edición bilingüe (español--catalán) de \emph{El Periódico de Cataluña} (véase el epígrafe~\ref{ss:ePdC}), que se prepara diariamente con un método completamente automático que funciona en muchos aspectos de manera similar a una memoria de traducción. 
+
+% no són completament automàtiques, però no és imposible una
+%automatització total del procés, especialment quan es disposa d'una
+%gran quantitat de documents pretraduïts.  
+\section{El intercambio de memorias de traducción} 
+
+\subsection{El formato de intercambio TMX} 
+
+Frecuentemente, los traductores forman equipos que colaboran a la hora de producir las traducciones; cuando usan memorias de traducción, es posible que haya traductores que prefieran un programa y otros que prefieran otro. ¿Quiere decir esto que no podrán compartir las memorias de traducción que hayan ido construyendo? Por suerte, no. En agosto de 1998 se aprobó la versión 1.1 de un formato estándar llamado TMX (\emph{Translation Memory eXchange}, ``intercambio de memorias de traducción''); casi todos los programes gestores de memorias de traducción pueden escribir y leer memorias en este formato. El formato TMX sigue las especificaciones XML (veáse el apartado~\ref{s3:SGML}); es decir, las memorias TMX son un tipo de documento XML, definido, por lo tanto, por una DTD concreta.\footnote{\url{http://www.ttt.org/oscarstandards/tmx/tmx14b.html}} 
+
+\begin{figure}
+\begin{center}
+\begin{alltt}
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE tmx SYSTEM 'tmx13.dtd'>
+<\textbf{tmx} version='1.3'>
+ <\textbf{header} creationtool='Waikoloa' 
+                  creationtoolversion='1.00'
+                  datatype='plaintext'
+                  segtype='paragraph'
+                  adminlang='EN-US'
+                  srclang='EN-US'
+                  o-tmf='okLiteTM'>
+ </\textbf{header}>
+ <\textbf{body}>
+ <!-- ... -->
+   <\textbf{tu} tuid='511'>
+   <\textbf{prop} type='tmkey'>a thesaurus error occurred word 
+   is ending the current session</\textbf{prop}>
+   <\textbf{tuv} xml:lang='EN-US'> 
+    <\textbf{seg}>A thesaurus error occurred. Word is ending 
+    the current session.</\textbf{seg}>
+   </\textbf{tuv}>
+   <\textbf{tuv} xml:lang='FR-FR'> 
+    <\textbf{seg}>Une erreur s'est produite pendant l'exécution 
+    du dictionnaire des synonymes. Word met fin à la 
+    session en cours.</\textbf{seg}>
+   </\textbf{tuv}>
+  </\textbf{tu}>
+  <\textbf{tu} tuid='512'>
+   <\textbf{prop} type='tmkey'>a thumbnail preview is not 
+    available for this file</\textbf{prop}>
+   <\textbf{tuv} xml:lang='EN-US'>
+    <\textbf{seg}>A thumbnail preview is not available for
+         this file.</\textbf{seg}>
+   </\textbf{tuv}>
+   <\textbf{tuv} xml:lang='FR-FR'>
+    <\textbf{seg}>Il n'y a pas d'aperçu disponible pour
+         cette image.</\textbf{seg}>
+   </\textbf{tuv}>
+  </\textbf{tu}>
+  <!-- ... -->
+</\textbf{body}>
+</\textbf{tmx}>
+\end{alltt}
+\end{center}
+\caption{Ejemplo de memoria de traducción en TMX; sólo se muestran dos
+  unidades de traducción.}
+\label{fg:tmx}
+\end{figure}
+
+La figura \ref{fg:tmx} muestra parte de una memoria de traducción en el formato TMX. Se muestran sólo dos unidades de traducción (\texttt{tu}) dentro del cuerpo (\texttt{body}), cada una con su identificador único (\texttt{tuid}). Cada unidad de traducción contiene dos variantes (\texttt{tuv}), cada una en una lengua (\texttt{xml:lang="}\ldots\texttt{"}), además de un elemento \texttt{prop} que contiene la clave (\texttt{key}) para buscar la unidad de traducción en la base de datos. Antes del cuerpo, el elemento raíz \texttt{tmx} contiene una cabecera (\texttt{header}) con información sobre la creación y las características de la memoria. 
+
+\subsection{Otros problemas} Pero, incluso cuando ya se ha resuelto este problema técnico, el intercambio de memorias de traducción entre traductores o equipos de traducción diferentes no está exento de problemas. Por un lado, se pueden producir incoherencias terminológicas y de estilo entre los fragmentos procedentes de grupos diferentes; las decisiones en caso de conflicto comportan mecanismos complejos de reconocimiento de autoridad o de prestigio, que pueden ser difíciles de consensuar. Por otro lado, la organización, el mantenimiento y la explotación de grandes memorias de traducción distribuidas (en las diversas máquinas de una red) está lejos de ser trivial. Por ejemplo, en el caso del español y el catalán, una gran memoria de traducción alimentada con las traducciones hechas sólo en el ámbito de las administraciones autonómicas y locales ahorraría grandes cantidades de tiempo y dinero a la hora de mantener la documentación bilingüe de estas instituciones, pero todavía no se ha sustanciado un recurso de este tipo, a pesar de la gran cantidad de voces que han expresado la necesidad y la conveniencia. 
+
+\section{Cuestiones y ejercicios} 
+
+\begin{enumerate} 
+
+\item Indica cuál de estas afirmaciones es cierta: \begin{enumerate} \item Las memorias de traducción son básicamente sistemas de traducción directa y, por lo tanto, la unidad básica de traducción que usan es la palabra. \item Las memorias de traducción usan información sobre las categorías léxicas de las palabras para decidir los alineamientos. \item Para no tener que traducir un texto nuevo desde cero con un sistema de ayuda a la traducción basado en memorias de traducción, es necesario que haya textos originales y traducidos que hayan sido alineados. \end{enumerate} 
+
+\item Una memoria de traducción se puede ver como una base de datos \ldots
+
+\begin{enumerate} \item \ldots donde cada registro es una lengua y cada campo una unidad de traducción. \item \ldots donde cada registro es una oración y cada campo una palabra. \item \ldots donde cada registro es una unidad de traducción y la variante en cada lengua se guarda en un campo diferente. \end{enumerate} 
+
+\item ¿Qué característica de los textos que se tienen que traducir hace que el uso de memorias de traducción sea la solución adecuada? \begin{enumerate} \item El hecho que los textos estén escritos con un léxico monosémico, es decir, preciso y no ambiguo. \item La repetitividad. \item La similitud entre las lenguas origen y meta. \end{enumerate} 
+
+\item En cuanto al funcionamiento, ¿a qué sistemas de traducción automática se asemejan más las memorias de traducción? \begin{enumerate} \item A los sistemas de traducción automática directa o palabra por palabra. \item A los sistemas de traducción automática por interlingua. \item A los sistemas de traducción automática por transferencia. \end{enumerate} 
+
+\item Las memorias de traducción comerciales actuales segmentan y alinean los textos {\ldots} \begin{enumerate} \item {\ldots} haciendo un balance óptimo entre cobertura y precisión. \item {\ldots} usando la información sintáctica como pista. \item {\ldots} usando reglas que analizan la puntuación y el formato. \end{enumerate} 
+
+\item Indica cuál de estas afirmaciones es falsa: \begin{enumerate} \item Los resultados producidos por una memoria de traducción no necesitan revisión, ya que se basan en traducciones correctas realizadas anteriormente por profesionales. \item Las memorias de traducción organizan los fragmentos y las traducciones correspondientes en bases de datos similares a las bases de datos léxicas o terminológicas. \item Una memoria de traducción es un sistema de traducción directa con equivalencias entre fragmentos de texto extraídas de textos anteriormente traducidos. \end{enumerate} 
+
+\item Las memorias de traducción usan los signos de puntuación para segmentar las oraciones antes de alinear los textos. En particular, la aparición de un punto (``\texttt{.}'') es muchas veces un buen indicador del final de una oración, pero no siempre. ¿Cuándo no? Dad al menos \emph{cuatro} excepciones diferentes a esta regla y describid, en cada caso, una regla sencilla que permita decidir con seguridad razonable cuando nos encontramos en cada una de estas excepciones, usando el mínimo posible de análisis lingüístico del texto. 
+
+\item La mayoría de las memorias de traducción comerciales dividen los bitextos en unidades de traducción {\ldots} \begin{enumerate} \item {\ldots} aproximadamente equivalentes a una oración, usando reglas sencillas y relativamente independientes de la lengua para segmentar (dividir) cada texto en oraciones. \item {\ldots} en palabras y pequeñas unidades multipalabra (entre dos y cuatro palabras) de gran repetitividad. \item {\ldots} equivalentes a una oración, usando un análisis lingüístico detallado del texto para determinar la extensión de cada oración. \end{enumerate} 
+
+\item ¿Qué tenemos que hacer con los bitextos existentes para poder reutilizar la información que contienen para hacer nuevas traducciones con una memoria de traducción? \begin{enumerate} \item Pasarlos a XML. \item Segmentar cada uno de los dos textos en oraciones. \item Segmentar los dos textos y alinearlos. \end{enumerate} 
+
+\item Estamos traduciendo un segmento con un programa de traducción asistida (como por ejemplo OmegaT) y el programa nos da una serie de propuestas que vienen de la memoria de traducción. ¿Cuál de estos indicadores indica mejor el esfuerzo que tendremos que hacer para acabar de traducir el segmento? \begin{enumerate} \item El porcentaje de concordancia parcial de la mejor propuesta. \item El número de propuestas. \item La longitud en palabras de la mejor propuesta (cuanto más larga, mejor). \end{enumerate} 
+
+\item La mayoría de los programas de traducción asistida basados en memorias de traducción no dan una de las tres informaciones siguientes: \begin{enumerate} 
+
+\item El porcentaje de coincidencia entre el nuevo segmento a traducir y el segmento origen de la unidad de traducción propuesta. \item Las palabras que hay que cambiar en el segmento meta de la unidad de traducción propuesta. \item Las palabras del segmento origen de la unidad de traducción propuesta que se diferencian de las del nuevo segmento a traducir. \end{enumerate} 
+
+\item ¿Cuál de estas características de un trabajo de traducción lo hace más tratable con memorias de traducción? \begin{enumerate} \item La repetitividad de los textos. \item La proximidad entre las lenguas origen y meta. \item Que los textos origen y meta estén codificados en ISO-8859-1 (\emph{Latin-1}). \end{enumerate} 
+
+\item Para poder explotar las traducciones presentes en un bitexto (o texto paralelo) en un programa de ayuda a la traducción basado en memorias de traducción \ldots \begin{enumerate} \item \ldots basta con incluir los bitextos como fuente de unidades de traducción para su uso. \item \ldots es necesario alinear los segmentos previamente; esta operación se puede hacer automáticamente, aunque puede requerir supervisión. \item \ldots primero hay que convertir el bitexto al formato binario que uso el programa de ayuda a la traducción que estemos utilizando. \end{enumerate} 
+
+\item En general, el uso de un programa gestor de memorias de traducción hace que el proceso de traducción sea más eficiente cuando \ldots\begin{enumerate} \item \ldots los textos a traducir son cortos. \item \ldots los textos a traducir son muy repetitivos. \item \ldots la lengua origen y meta de la traducción pertenecen a la misma familia de lenguas. \end{enumerate} 
+
+\item ¿Cómo podemos generar una memoria de traducción a partir de un texto y de su traducción? \begin{enumerate} \item Hay que segmentar y alinear los segmentos. \item Hay que segmentar el texto, pero el alineamiento no es necesario porque ya sabemos que un texto es traducción del otro. \item No se puede, las memorias de traducción se crean al ir traduciendo los segmentos. \end{enumerate} 
+
+\item ¿Podemos usar una memoria de traducción con segmentos en inglés y español para traducir del alemán al español? \begin{enumerate} \item Sí, si tratan del mismo tema. \item Sí, si la longitud de los segmentos es la misma. \item No. \end{enumerate} \end{enumerate} 
+
+\section{Soluciones} \begin{enumerate} \item (c) \item (c) \item (b) \item (a) \item (c) \item (a) \item El punto aparece en muchas construcciones que no indican el final de una oración. He aquí unos ejemplos y cómo detectarlos para no segmentar. \begin{enumerate} \item Puntos de miles (1.259), millones (1.032.200), decimales anglosajones (3.4), números de teléfono franceses (01.10.23.87.49), fechas (20.01.1999), etc. \emph{Solución:} Si detectamos [cifra] ``.'' [cifra] (sin espacios), no segmentamos. 
+
+\item Puntos en medio de siglas: CC(.)OO., EE(.)UU., etc. \emph{Solución:} si detectamos [mayúscula] ``.'' [mayúscula] (sin blancos), no segmentamos. 
+
+\item Puntos al final de abreviatura de cortesía: Sr(.), Dra(.), Excm(.), etc. u otros que preceden nombres propios (Avda., Pça.) o números (Tel.). \emph{Estrategia de solución:} si detectamos ``.'' [espacio] [minúscula], no segmentamos; si detectamos ``.'' [espacio] [número], no segmentamos; si detectamos ``.'' [espacio] [mayúscula], ¿qué hacemos?: depende de la abreviatura (la decisión es impracticable sin vocabularios de nombres propios). 
+
+\item Puntos al final de siglas: CC.OO(.), O.N.U(.). \emph{Solución:} si detectamos [mayúsculas] ``.'' [mayúsculas] ``.'', no segmentar. 
+
+\item Puntos en URIs y direcciones de correo electrónico. \emph{Solución:} la mejor sería una regla general (patrón o expresión regular) que detectara estas entidades y evitara segmentarlas. Posibles escapatorias: si detectamos [minúscula] ``.'' [minúscula] (sin espacios), no segmentamos. 
+
+\item Puntos suspensivos (``...''). \emph{Solución:} no segmentar nunca ``...'' si se encuentra. \end{enumerate} 
+
+\item (a) \item (c) \item (a) \item (b) \item (a) \item (b) \item (b) \item (a) \item (c) 
+
+\end{enumerate} 
+
