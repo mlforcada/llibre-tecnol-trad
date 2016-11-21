@@ -1,4 +1,4 @@
-FIGS=connex-internet.pdf ordinador4.pdf aplicacio-so.pdf
+FIGS=connex-internet.pdf ordinador4.pdf aplicacio-so.pdf angoixa.pdf triangle.pdf alin-paraules.pdf 
 #angoixa.pdf triangle.pdf ordinador4.pdf aplicacio-so.pdf \
 #     connex-internet.pdf alin-paraules.pdf \
 #     ibm1/ibm2.pdf ibm1/ibm3.pdf ibm1/ibm4.pdf ibm1/ibm5.pdf
