@@ -14,7 +14,7 @@ Hay dos grandes grupos de sistemas de traducción automática: \begin{itemize} \
 
 Los sistemas de traducción automática \emph{reales}, es decir, los que se usan en la realidad, son el resultado de hacer una serie de aproximaciones sobre la traducción automática \emph{ideal} para hacer el problema de la traducción computacionalmente abordable. 
 
-La mayoría de los sistemas de traducción automática, independientemente de si son basados en reglas o en corpus, adoptan la que podrían denominar \textbf{aproximación oracional}, según la cual \emph{traducir textos es traducir oraciones}. Aquesta aproximació exclou el tractament d'alguns aspectes de l'estructura del discurs. 
+La mayoría de los sistemas de traducción automática, independientemente de si son basados en reglas o en corpus, adoptan la que podrían denominar \textbf{aproximación oracional}, según la cual \emph{traducir textos es traducir oraciones}. Esta aproximación excluye el tratamiento de algunos aspectos de la estructura del discurso. 
 
 Una vez hecha esta aproximación general, el resto de aproximaciones dependen del tipo de sistema de traducción automática. La mayoría de los sistemas de traducción automática basados en conocimiento abordan la traducción como la aplicación del \emph{principio de composicionalidad semántica} (PCS, capítulo~\ref{se:ambig}), el cual afirma que la interpretación (el significado) de una oración se construye composicionalment a partir de las interpretaciones de las palabras, siguiendo los agrupamientos dictados por su árbol de análisis sintáctico, y también a la inversa, que las oraciones se pueden construir composicionalmente a partir de las interpretaciones \citep{tellier00p}. Traducir una oración, en este esquema, compuerta: \begin{itemize} \item hacer el análisis sintáctico completo, \item asignar interpretación a cada palabra, \item construir composicionalment una interpretación de la oración, \item analizarla para obtener palabras y un árbol de análisis sintáctico para la lengua meta (LM), y generar \item una oración en LM a partir de las palabras y el árbol. \end{itemize} Este es básicamente el \emph{modus operandi} de los sistemas de \emph{interlingua} (que se discutirán en la sección~\ref{ss:interlingua}) y constituye la \textbf{aproximación composicional}. No olvidemos que esta descripción asume que la ambigüedad léxica (múltiples interpretaciones de las palabras) y estructural (más de un árbol de análisis sintáctico) ha sido idealmente resuelta. 
 
@@ -104,7 +104,7 @@ Las representaciones abstractas \emph{acercan} las dos lenguas eliminando alguno
 % \end{figure}
 La arquitectura de transferencia es el modelo estándar para la traducción automática basada en reglas o conocimiento contemporánea, y lo ha sido por muchos años \citep{arnold93j}. 
 
-Els sistemes de transferència es classifiquen segons la naturalesa de les representacions abstractes que utilitzen: es pot parlar, en ordre de profunditat de l'anàlisi, de sistemes de \emph{transferència morfològica}, de \emph{transferència sintàctica} o de {\em transferència semàntica}. La elección de la profundidad del análisis se debe fundamentar en la naturaleza y la profundidad de las divergencias de traducción \citep{vandooren93b} entre las lenguas implicadas. 
+Los sistemas de transferencia se clasifican según la naturaleza de las representaciones abstractas que utilizan: se puede hablar, en orden de profundidad del análisis, de sistemas de \emph{transferencia morfológica}, de \emph{transferencia sintáctica} o de {\em transferencia semántica}. La elección de la profundidad del análisis se debe fundamentar en la naturaleza y la profundidad de las divergencias de traducción \citep{vandooren93b} entre las lenguas implicadas. 
 
 La arquitectura de transferencia tiene tres características interesantes que merecen ser mencionadas: \begin{description} \item[Funcionamiento como cadena de montaje.] El sistema de transferencia funciona como una \emph{cadena de montaje}: cómo los tres módulos trabajan de izquierda a derecha y en una única pasada, no hace falta que un módulo espere que el anterior acabo con el texto: pueden trabajar paralelamente; ello hace que los sistemas de esta naturaleza sean muy rápidos. \item[Modularitat.] La división en \emph{módulos} o etapas bien diferenciadas (análisis, transferencia y generación)  permite la reutilización. Por ejemplo, si hemos construido un sistema de transferencia que traduce del inglés al español: \begin{center} \parbox{0.5cm}{en} $\to$ \framebox{\parbox{0.5cm}{A\(_\mathrm{en}\)}} $\to$ \framebox{\parbox{1.125cm}{T\(_\mathrm{en\to es}\)}} $\to$ \framebox{\parbox{0.5cm}{G\(_\mathrm{es}\)}} $\to$ \parbox{0.5cm}{es} \end{center} podemos aprovechar el módulo de análisis del inglés  (A\(_\mathrm{en}\)) para construir un sistema del inglés al catalán: \begin{center} \parbox{0.5cm}{en} $\to$ \framebox{\parbox{0.5cm}{A\(_\mathrm{en}\)}} $\to$ \framebox{\parbox{1.125cm}{T\(_\mathrm{en\to ca}\)}} $\to$ \framebox{\parbox{0.5cm}{G\(_\mathrm{ca}\)}} $\to$ \parbox{0.5cm}{ca} \end{center} o usar el módulo de generación del español G\(_\mathrm{es}\) para construir un sistema del neerlandés al español: \begin{center} \parbox{0.5cm}{en} $\to$ \framebox{\parbox{0.5cm}{A\(_\mathrm{nl}\)}} $\to$ \framebox{\parbox{1.125cm}{T\(_\mathrm{nl\to es}\)}} $\to$ \framebox{\parbox{0.5cm}{G\(_\mathrm{es}\)}} $\to$ \parbox{0.5cm}{es} \end{center} \item[Reversibilidad parcial.] Si se separan los datos lingüísticos usados por cada uno de los tres módulos, \label{pg:separacio} es posible una \emph{reversibilidad parcial}. Si en el sistema inglés--español de arriba separamos los \emph{datos lingüísticos} de cada uno de los tres módulos del \emph{software} que procesa estos datos (dA\(_\mathrm{en}\), dT\(_\mathrm{en\to es}\), dg\(_\mathrm{es}\)) podemos definir un \emph{motor} genérico de traducción (A, T, G) que vale para cualquier par de lenguas: \begin{center} \parbox{0.5cm}{en} $\to$ \framebox{\parbox{0.75cm}{dA\(_\mathrm{en}\)\\ A}} $\to$ \framebox{\parbox{1.5cm}{dT\(_\mathrm{en\to es}\)\\ T}} $\to$ \framebox{\parbox{0.75cm}{dG\(_\mathrm{es}\)\\ G}} $\to$ \parbox{0.5cm}{es} \end{center} Si ahora queremos escribir el sistema de traducción inverso, español--inglés, es decir, \begin{center} \parbox{0.5cm}{es} $\to$ \framebox{\parbox{0.75cm}{dA\(_\mathrm{es}\)\\ A}} $\to$ \framebox{\parbox{1.5cm}{dT\(_\mathrm{es\to en}\)\\ T}} $\to$ \framebox{\parbox{0.75cm}{dG\(_\mathrm{en}\)\\ G}} $\to$ \parbox{0.5cm}{en} \end{center} podríamos sacar ventaja del hecho que hay grandes parecidos entre los datos lingüísticos de este sistema y las del sistema anterior: \begin{itemize} \item los datos que necesitamos para el análisis del español dA\(_\mathrm{es}\) son muy similares a los datos de generación del español dg\(_\mathrm{es}\) del sistema existente: para analizar el español podemos reciclar una buena parte de los datos que se usaban para generarlo en el sistema anterior; \item los datos que necesitamos para la generación del inglés dg\(_\mathrm{en}\) son muy similares a los datos de análisis del inglés dA\(_\mathrm{en}\) del sistema existente: para generar el inglés podemos reciclar una buena parte de los datos que se usaban para analizarlo en el sistema anterior; \item los datos de transferencia del español al inglés dT\(_\mathrm{es\to en}\) son muy similares a los datos de transferencia del inglés al español dT\(_\mathrm{en\to en}\) del sistema existente: para transferir de español a inglés podemos usar una buena parte de los datos que se usaban para transferir desde el inglés al español en el sistema anterior (por ejemplo, podemos ``dar la vuelta'' a los diccionarios bilingües y podríamos aprovechar muchas entradas). \end{itemize} \end{description} 
 
@@ -137,10 +137,63 @@ La estrategia de \emph{transferencia morfológica avanzada} se puede ver como un
 \begin{figure} \textsf{ \begin{center} TEXTO ORIGEN: \\ \textsl{\ldots the complex situations \ldots} \\ $\downarrow$ \\ \parbox{10cm}{\hfill \textbf{ANÁLISIS}} \framebox{\parbox{10cm}{ \begin{center} $\downarrow$ \\ \framebox{\textbf{Análisis morfológico}} \\ $\downarrow$ \\ \texttt{\ldots} , \\ \texttt{det[lema="the"],} \\ \texttt{n[lema="{}complex", num="sg"] + adj[lema="{}complex"],} \\ \texttt{n[lema="situation", num="pl"], }\\ \texttt{\ldots} \\ $\downarrow$ \\ \framebox{\parbox{9cm}{\begin{center} \textbf{Desambiguación categorial}\\ Reglas: \\ \ldots \\ \framebox{\parbox{7cm}{ $$\mbox{det} \left\{ \begin{array}{c}\mbox{n} \\ \mbox{adj}\end{array}\right\} \mbox{n} \rightarrow\mbox{det}\; \mbox{adj}\; \mbox{n}$$}} \\ \ldots \\ \end{center} }} \\ $\downarrow$ \end{center} } } \\ $\downarrow$ \\ \textbf{Representación abstracta del texto origen:} \\ \texttt{\ldots} , \\ \texttt{det[lema="the"],} \\ \texttt{adj[lema="{}complex"],} \\ \texttt{n[lema="situation", num="pl"], }\\ \texttt{\ldots} \\ \end{center} } \caption{Fase d'anàlisi d'un sistema senzill de transferència morfològica avançada. El segmento de texto \emph{the complex situations} contiene la palabra \emph{complex} que puede ser un adjetivo (\textsf{adj}) o un sustantivo (\textsf{n}); entre las reglas del desambiguador categorial hay una regla que en este caso asigna la categoría de adjetivo cuando va entre un determinante y un sustantivo.} \label{fg:tmaa} \end{figure} 
 
 %textsf
-\begin{figure} \textsf{ \begin{center} \textbf{Representación abstracta del texto origen:} \\ \texttt{\ldots} , \\ \texttt{art[lema="the"],} \\ \texttt{adj[lema="complex"],} \\ \texttt{n[lema="situation", num="pl"], }\\ \texttt{\ldots} \\ $\downarrow$ \\ \parbox{10cm}{\hfill \textbf{TRANSFERENCIA}} \framebox{\parbox{10cm}{ \begin{center} \framebox{\parbox{9cm}{ \begin{center} \textbf{Transferencia léxica:}\\ diccionario bilingüe \\ \ldots \\ complex \textbf{adj} $\rightarrow$ complex \textbf{adj} \\ \ldots \\ situation \textbf{n} $\rightarrow$ situación \textbf{n}, \texttt{gen=f} \\ \ldots \\ the \textbf{det} $\rightarrow$ el \textbf{det} \\ \ldots \\ \end{center} }} \\[0.2cm] \framebox{\parbox{9cm}{ \begin{center} \textbf{Transferencia estructural}\\ (reglas de reordenamiento y concordancia) \\ \ldots \\[0.2cm] \framebox{\parbox{8cm}{ \begin{center} $\mbox{\textbf{det}}\;\mbox{\textbf{adj}}\;\mbox{\textbf{n}}\;\rightarrow\;\mbox{\textbf{det}}\;\mbox{\textbf{n}}\;\mbox{\textbf{adj}}$\\ Propaga \texttt{gen} de  \textbf{n} a \textbf{det}, \textbf{adj} \\ Propaga \texttt{num} de  \textbf{n} a \textbf{det}, \textbf{adj} \end{center} }}\\[0.2cm] \ldots
-
-\end{center} }} \\ \end{center} }} \\ $\downarrow$ \\ \textbf{Representación abstracta del texto meta}: \\ \texttt{\ldots} , \\ \texttt{det[lema="el", num="pl", gen="f"],} \\ \texttt{adj[lema="{}complex", num="pl", gen="f"],} \\ \texttt{n[lema="situación", num="pl", gen="f"], }\\ \texttt{\ldots} \end{center} } 
-
+\begin{figure}
+\textsf{
+\begin{center}
+\textbf{Representación abstracta del texto origen:} \\
+\texttt{\ldots} , \\
+\texttt{art[lema="the"],} \\
+\texttt{adj[lema="complex"],} \\
+\texttt{n[lema="situation", num="pl"], }\\
+\texttt{\ldots} \\
+$\downarrow$ \\ 
+\parbox{10cm}{\hfill \textbf{TRANSFERENCIA}}
+\framebox{\parbox{10cm}{
+\begin{center}
+\framebox{\parbox{9cm}{
+\begin{center}
+\textbf{Transferencia léxica:}\\
+diccionari bilingüe \\
+\ldots \\
+complex \textbf{adj} $\rightarrow$ complex \textbf{adj} \\
+\ldots \\
+situation \textbf{n} $\rightarrow$ situació \textbf{n}, \texttt{gen=f} \\
+\ldots \\
+the \textbf{det} $\rightarrow$ el \textbf{det} \\
+\ldots \\
+\end{center}
+}} 
+\\[0.2cm]
+\framebox{\parbox{9cm}{
+\begin{center}
+ \textbf{Transferencia estructural}\\
+ (reglas de reordenamiento y concordancia) \\
+ \ldots \\[0.2cm]
+ \framebox{\parbox{8cm}{
+ \begin{center}
+ $\mbox{\textbf{det}}\;\mbox{\textbf{adj}}\;\mbox{\textbf{n}}\;\rightarrow\;\mbox{\textbf{det}}\;\mbox{\textbf{n}}\;\mbox{\textbf{adj}}$\\
+ Propaga \texttt{gen} de \textbf{n} a
+ \textbf{det}, \textbf{adj}
+ \\
+ Propaga \texttt{num} de \textbf{n} a
+ \textbf{det}, \textbf{adj}
+ \end{center}
+ }}\\[0.2cm]
+\ldots
+\end{center}
+}} \\
+\end{center}
+}}
+ \\
+$\downarrow$ \\
+\textbf{Representación abstracta del texto meta}: \\
+\texttt{\ldots} , \\
+\texttt{det[lema="el", num="pl", gen="f"],} \\
+\texttt{adj[lema="{}complex", num="pl", gen="f"],} \\
+\texttt{n[lema="situació", num="pl", gen="f"], }\\
+\texttt{\ldots} 
+\end{center}
+}
 %textsf
 \caption{Fase de transferencia de un sistema sencillo de transferencia morfológica avanzada, con reglas de transferencia estructural que realizan el reordenamiento y aseguran la concordancia, entre las cuales hay la regla para reordenar la secuencia determinante--adjetivo--sustantivo y asegurar la concordancia de número y género en la lengua meta.} \label{fg:tmat} \end{figure} 
 
@@ -245,7 +298,7 @@ Es cierto que estos casos se podrían tratar de manera particular en un sistema 
 
 Los sistemas denominados de \emph{interlingua}\footnote{Se tiene que tener en cuenta que el término \emph{interlingua} se puede referir también a una lengua internacional planificada ---no tan famosa como el \emph{esperanto}--- muy basada en el latín y con vocabulario europeo, y que no tiene nada que ver con la traducción automática.} aparecen en el caso extremo en que el análisis de la frase de origen es tan profunda que la traducción se puede generar directamente a partir de esta sin hacer transferencia (véase la fig.~\ref{fg:triangle}). En particular, se habla de \emph{interlingua} cuando la representación interna que se obtiene del análisis es independiente de cuáles sean la LO y la LM, es decir, la interlingua es {\em lingüísticamente neutral}. 
 
-\begin{figure} \begin{center} \includegraphics{triangle} \end{center} \caption{Com més profunda i complexa és l'anàlisi del text origen, més senzilla és (menys esforç comporta) la transferència a la representació corresponent de la llengua meta i més complexa la generació. El análisis del texto origen es tan profunda en los sistemas de interlingua clásicos que no es necesaria la transferencia.} \label{fg:triangle} \end{figure} 
+\begin{figure} \begin{center} \includegraphics{triangle} \end{center} \caption{Cuanto más profundo y complejo es el análisis del texto origen, más sencilla es (menos esfuerzo requiere) la transferencia a la representación correspondiente de la lengua meta y más compleja la generación. El análisis del texto origen es tan profunda en los sistemas de interlingua clásicos que no es necesaria la transferencia.} \label{fg:triangle} \end{figure} 
 
 Las interlinguas pueden ser de muchos tipos. Los sistemas clásicos usan representaciones estructurales más o menos complejas para representar las relaciones semánticas entre los elementos de la frase. 
 
@@ -499,15 +552,32 @@ Dejad a un lado la concordancia y centraos sólo en los reordenamientos. Señala
 
 \item (*) La traducción de una oración se puede ver como una interpretación de esta (es decir, como la expresión en la lengua meta de su significado). El \emph{principio de composicionalidad semántica} postula que la interpretación de una oración se construye combinando las interpretaciones de las palabras siguiendo precisamente las agrupaciones sucesivas (constituyentes) que indica el árbol de análisis sintáctico de la oración, partiendo de las palabras y yendo hacia la raíz del árbol. Indicad en qué tipo (o tipos) de sistema de traducción automática encontramos un diseño que aplica, exactamente o aproximadamente, el principio de composicionalidad. Razonad brevemente la respuesta. 
 
-\item \label{ex:zkanagg} El software que llevan instalado las naves de la confederación galáctica incluye un programa que traduce una de las lenguas mayoritárias del planta Zkanagg, el tazkannwat, al catalán. El sistema es un sistema de transferencia morfológica avanczada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada. Algunas traducciones son erroneas porque el sistema no tiene un catálago demasiado completo de reglas.	  Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas. \begin{example} \gll Thlong u knaar uw phlagyw. {Adquirió} el navegante el-OBJ control-OBJ \glt TU: El navegante adquirió el control (correcta). \glend
-
-\end{example} \begin{example} \gll Thlong u knaar qimratt uw phlagyw. {Adquirió} el navegante estelar el-OBJ control-OBJ \glt TA: El navegante estelar adquirió el control (correcta).. \glend
-
-\end{example} \begin{example} \gll Thlong u knaar na Zkannag uw phlagyw. {Adquirió} el navegante de Zkannag el-OBJ control-OBJ \glt TA: El navegante de Zkannag adquirió el control (correcta). \glend
-
-\end{example} \begin{example} \gll Thlong u knaar qimratt na Zkannag uw phlagyw. {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ \glt TA: *El navegante estelar adquirió de Zkannag el control. \glt Correcta: El navegante estelar de Zkannag adquirió el control. \glend
-
-\end{example} 
+\item \label{ex:zkanagg} El software que llevan instalado las naves de la confederación galáctica incluye un programa que traduce una de las lenguas mayoritárias del planta Zkanagg, el tazkannwat, al catalán. El sistema es un sistema de transferencia morfológica avanczada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada. Algunas traducciones son erroneas porque el sistema no tiene un catálago demasiado completo de reglas.	  Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas.
+   \begin{example} 
+   \gll Thlong u knaar uw phlagyw. 
+        {Adquirió} el navegante el-OBJ control-OBJ 
+   \glt TA: El navegante adquirió el control (correcta). 
+   \glend
+   \end{example} 
+   \begin{example} 
+   \gll Thlong u knaar qimratt uw phlagyw. 
+        {Adquirió} el navegante estelar el-OBJ control-OBJ 
+   \glt TA: El navegante estelar adquirió el control (correcta). 
+   \glend
+   \end{example} 
+   \begin{example} 
+   \gll Thlong u knaar na Zkannag uw phlagyw. 
+        {Adquirió} el navegante de Zkannag el-OBJ control-OBJ 
+   \glt TA: El navegante de Zkannag adquirió el control (correcta). 
+   \glend
+   \end{example} 
+   \begin{example} 
+   \gll Thlong u knaar qimratt na Zkannag uw phlagyw. 
+        {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ 
+   \glt TA: *El navegante estelar adquirió de Zkannag el control. 
+   \glt Correcta: El navegante estelar de Zkannag adquirió el control.
+   \glend
+   \end{example} 
 
 % \item \label{exer:agradar} Les estructures sintàctiques usades per diverses llengües a
 %   l'hora d'expressar el fet que alguna acció agrada a algú són molt
@@ -591,25 +661,41 @@ Dejad a un lado la concordancia y centraos sólo en los reordenamientos. Señala
 
 \item (*) Estudiad los siguientes sintagmas nominales en maorí (una lengua polinesia hablada en Nueva Zelanda): 
 
-\begin{example} \gll Te whare. \textsf{Art.\ def.\ sg.} casa . \glt La casa. \glend
+     \begin{example} 
+     \gll Te whare. 
+          \textsf{Art.\ def.\ sg.} casa . 
+     \glt La casa. 
+     \glend
+     \end{example} 
 
-\end{example} 
+     \begin{example} 
+     \gll Ng\={a} whare . 
+          \textsf{Art.\ def.\ pl.} casa . 
+     \glt Las casas. 
+     \glend
+     \end{example} 
 
-\begin{example} \gll Ng\={a} whare . \textsf{Art.\ def.\ pl.} casa . \glt Las casas. \glend
+     \begin{example} 
+     \gll Te whare nui . 
+          \textsf{Art.\ def.\ sg.} casa grande. 
+     \glt La casa grande. 
+     \glend
+     \end{example} 
 
-\end{example} 
+     \begin{example} 
+     \gll Te whare nui o te aroha . 
+          \textsf{Art.\ def.\ sg.} casa grande de \textsf{Art.\ def.\ 
+          sg.} amor . 
+     \glt La casa grande del amor. 
+     \glend
+     \end{example} 
 
-\begin{example} \gll Te whare nui . \textsf{Art.\ def.\ sg.} casa grande. \glt La casa grande. \glend
-
-\end{example} 
-
-\begin{example} \gll Te whare nui o te aroha . \textsf{Art.\ def.\ sg.} casa grande de \textsf{Art.\ def.\ sg.} amor . \glt La casa grande del amor. \glend
-
-\end{example} 
-
-\begin{example} \gll Ng\={a} whare nui . \textsf{Art.\ def.\ pl.} casa grande. \glt Las casas grandes. \glend
-
-\end{example} 
+     \begin{example} 
+     \gll Ng\={a} whare nui . 
+          \textsf{Art.\ def.\ pl.} casa grande. 
+     \glt Las casas grandes. 
+     \glend
+     \end{example} 
 
 Como en los ejemplos, en maorí la mayoría de los nombres y adjetivos son invariables. Imaginad que sois parte de un equipo de desarrollo de un sistema de traducción automática del maorí al catalán (o al español) basado en la estrategia que hemos denominado en el apartado~\ref{s3:STMorf} \emph{transferencia morfológica avanzada}.\footnote{Es decir, lee las oraciones palabra por palabra de izquierda a derecha y hace el análisis morfológico de cada palabra, prueba a detectar la secuencia más larga de palabras que concuerda con alguna secuencia de categorías léxicas que tiene en su catálogo, procesa la secuencia, y continúa inmediatamente después de la secuencia procesada.} Especifica completamente \emph{dos} reglas (indicando posibles reordenamientos y operaciones para asegurar la concordancia) que permiten dar la traducción correcta de las oraciones de arriba y de las siguientes. No os preocupéis de la contracción preposición--artículo. 
 
@@ -667,35 +753,49 @@ Como en los ejemplos, en maorí la mayoría de los nombres y adjetivos son invar
 
 \item (sólo a modo de ejemplo) Si la lengua origen es el catalán y la lengua meta es el inglés, tenemos: \begin{enumerate} \item homografía mal resuelta de una palabra: \emph{ara rius} $\to$ \emph{now *rivers} en vez de \emph{now you laugh}. \item polisemia mal resuelta de una palabra: \emph{recibiremos el presidente a la estación} $\to$ \emph{we will welcome the president at the *season} en vez de \emph{at the station}. \item problemas de concordancia: \emph{aquella gente estaba feliz} $\to$ \emph{*that people *was happy} en vez de  \emph{those people were happy}. \item ambigüedad estructural mal resuelta: \emph{Dame la llave de aquel sistema} $\to$ \emph{give me the key *from that system} en vez de  \emph{give me the key to that system}. \item problemas con la orden de las palabras: \emph{Yo he sido siempre un profesional responsable} $\to$ \emph{I have been always a professional responsible} en vez de \emph{I have always been a responsible professional} \end{enumerate} 
 
-\item S'hi indiquen les traduccions i, entre claudàtors, la regla aplicada en cada cas: \begin{enumerate} \item \emph{Un $[_{R_4}$ longe viage $]$} $\to$ \emph{Un viatge llarg} \item \emph{Un $[_{R_4}$ longe viages $]$} $\to$ *\emph{Un viatges llargs} \item \emph{$[_{R_2}$ Un viages longe $]$} $\to$ \emph{Uns viatges llargs} \item \emph{$[_{R_4}$ Longe viages $]$} $\to$ \emph{Viatges llargs} \item \emph{$[_{R_1}$ Un governamento $]$ non democratic} $\to$ \emph{Un govern no democràtic} \item \emph{$[_{R_1}$ Un governamentos $]$ non democratic} $\to$ *\emph{Uns governs no democràtic} \item \emph{Tu $[_{R_4}$ melior ideales $]$} $\to$ *\emph{El teu millors ideals} \item \emph{Un $[_{R_4}$ bon solution $]$} $\to$ *\emph{Un bona solució} \end{enumerate} 
+\item Se indican las traducciones y entre corchetes, la regla aplicada en cada caso: \begin{enumerate} \item \emph{Un $[_{R_4}$ longe viage $]$} $\to$ \emph{Un viatge llarg} \item \emph{Un $[_{R_4}$ longe viages $]$} $\to$ *\emph{Un viatges llargs} \item \emph{$[_{R_2}$ Un viages longe $]$} $\to$ \emph{Uns viatges llargs} \item \emph{$[_{R_4}$ Longe viages $]$} $\to$ \emph{Viatges llargs} \item \emph{$[_{R_1}$ Un governamento $]$ non democratic} $\to$ \emph{Un govern no democràtic} \item \emph{$[_{R_1}$ Un governamentos $]$ non democratic} $\to$ *\emph{Uns governs no democràtic} \item \emph{Tu $[_{R_4}$ melior ideales $]$} $\to$ *\emph{El teu millors ideals} \item \emph{Un $[_{R_4}$ bon solution $]$} $\to$ *\emph{Un bona solució} \end{enumerate} 
 
-\item Entre els tipus de sistemes de traducció automàtica indirectes, el primer que comença a aplicar, almenys parcialment, el principi de composicionalitat és el de transferència sintàctica, ja que construeix la traducció usant com a pas intermedi un arbre d'anàlisi sintàctica de l'oració original. Per tant, els sistemes amb anàlisis més avançades (transferència semàntica, interlingua) també l'apliquen. 
+\item Entre los tipos de sistemas de traducción automática indirectas, el primero que empieza a aplicar, al menos parcialmente, el principio de composicionalidad es el de transferencia sintáctica, puesto que construye la traducción usando como paso intermedio un árbol de análisis sintáctico de la oración original. Por lo tanto, los sistemas con análisis más avanzados (transferencia semántica, interlingua) también lo aplican. 
 
-Però els sistemes de transferència sintàctica no apliquen exactament el principi de composicionalitat semàntica, ja que es basen en l'aproximació que es poden traduir separadament: d'una banda, els mots (transferència lèxica) substituint-los pels seus equivalents i, d'altra banda, els arbres, transformant-ne l'estructura. Aquesta aproximació pot no funcionar perquè de vegades les transformacions dels arbres depenen de la interpretació de mots concrets i de parts de l'oració. En aquest sentit, els sistemes de transferència semàntica i d'interlingua proven de construir una representació semàntica a partir de l'arbre i de la semàntica dels mots, de manera que fan una interpretació més general del principi. 
+Pero los sistemas de transferencia sintáctica no aplican exactamente el principio de composicionalidad semántica, ya que se basan en la aproximación de que se pueden traducir separadamente: por un lado, las palabras (transferencia léxica) sustituyéndolas por sus equivalentes y, por otro lado, los árboles, transformando la estructura. Esta aproximación puede no funcionar porque a veces las transformaciones de los árboles dependen de la interpretación de palabras concretas y de partes de la oración. En este sentido, los sistemas de transferencia semántica y de interlingua prueban de construir una representación semántica a partir del árbol y de la semántica de las palabras, de forma que hacen una interpretación más general del principio. 
 
 \item
 
-\begin{example} \gll Thlong u knaar uw phlagyw. {Va adquirir} el navegant el-OBJ control-OBJ \glt TA: El navegant va adquirir el control (correcta). \glend
-
-\end{example} $R_1$: \textbf{verb} \textbf{art} \textbf{nom} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{verb} 
-
-Resultado correcto. 
-
-\begin{example} \gll Thlong u knaar qimratt uw phlagyw. {Adquirió} el navegante estelar el-OBJ control-OBJ \glt TA: El navegante estelar adquirió el control (correcta).. \glend
-
-\end{example} $R_2$: \textbf{verb} \textbf{art} \textbf{nom} \textbf{adj} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{adj} \textbf{verb} \begin{example} 
+     \begin{example} 
+     \gll Thlong u knaar uw phlagyw. 
+          {Adquirió} el navegante el-OBJ control-OBJ 
+     \glt TA: El navegante adquirió el control (correcta). 
+     \glend
+     \end{example} 
+$R_1$: \textbf{verbo} \textbf{art} \textbf{nom} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{verbo} 
 
 Resultado correcto. 
 
-\gll Thlong u knaar na Zkannag uw phlagyw. {Adquirió} el navegante de Zkannag el-OBJ control-OBJ \glt TA: El navegante de Zkannag adquirió el control (correcta). \glend
-
-\end{example} $R_3$: \textbf{verbo} \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} $\rightarrow$ \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} \textbf{verbo} 
+     \begin{example} 
+     \gll Thlong u knaar qimratt uw phlagyw. 
+          {Adquirió} el navegante estelar el-OBJ control-OBJ 
+     \glt TA: El navegante estelar adquirió el control (correcta). 
+     \glend
+     \end{example} 
+$R_2$: \textbf{verbo} \textbf{art} \textbf{nom} \textbf{adj} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{adj} \textbf{verbo} 
+     \begin{example} 
+     Resultado correcto. 
+     \gll Thlong u knaar na Zkannag uw phlagyw. 
+          {Adquirió} el navegante de Zkannag el-OBJ control-OBJ 
+     \glt TA: El navegante de Zkannag adquirió el control (correcta). 
+     \glend
+     \end{example} 
+$R_3$: \textbf{verbo} \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} $\rightarrow$ \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} \textbf{verbo} 
 
 Resultado correcto. 
 
-\begin{example} \gll Thlong u knaar qimratt na Zkannag uw phlagyw. {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ \glt TA: *El navegante estelar adquirió de Zkannag el control. \glt Correcta: El navegante estelar de Zkannag adquirió el control. \glend
-
-\end{example} 
+     \begin{example} 
+     \gll Thlong u knaar qimratt na Zkannag uw phlagyw. 
+          {Adquirió} el navegante estelar de Zkannag el-OBJ  control-OBJ 
+     \glt TA: *El navegante estelar adquirió de Zkannag el control. 
+     \glt Correcta: El navegante estelar de Zkannag adquirió el control. 
+     \glend
+     \end{example} 
 
 No ha sido capaz de detectar el patrón \textbf{verbo} \textbf{arte} \textbf{nombre} \textbf{adj} \textbf{prep} \textbf{nombre-propio} y aplica la regla $R_2$ que es la más larga que concuerda. El resultado es que el sintagma preposicional \emph{de Zkannag} queda detrás del verbo. 
 
@@ -755,7 +855,10 @@ Un estudio de bigramas (parejas) como estos puede servir:
 
 \item secundariamente, para decidir automáticamente, para una palabra que tiene varias traducciones, cuál es la traducción que ``suena más natural'' delante o detrás de la traducción de otra. \end{itemize} 
 
-\item Los siguientes ejemplos están tomados para el par español--catalán; en cada caso, la primera frase es un ejemplo de traducción correcta y el segundo de incorrecta: \begin{description} \item[Homografía:] Le traje un [sombrero] $\rightarrow$ Le traje un [sombrero]; Le traje un [traje] $\rightarrow$ Le traje un [traje]$^$ (correcto: vestit). \item[Polisemia:] El [canto] de la sirena $\rightarrow$ El [canto] de la sirena; El [canto] de la moneda $\rightarrow$ El [canto] de la moneda$^$. (correcto: cantell, viu) \item[Concordancia de género o número]: [La] indicación era [inequívoca] $\rightarrow$ [La] indicació era [inequívoca]; [La] señal era [inequívoca] $\rightarrow$ [La] senyal era [inequívoca]$^*$ (correcte: el, inequívoc) \item[Anáfora:] Cualquier [indicación] es importante para quien la comprenda $\rightarrow$ Qualsevol [indicació] és important per a qui [la] comprenga; Cualquier [señal] es importante para quien la comprenda $\rightarrow$ Qualsevol [senyal] és important per a qui [la] comprenga.$^*$ \end{description} 
+\item Los siguientes ejemplos están tomados para el par
+  español--catalán; en cada caso, la primera frase es un ejemplo de
+  traducción correcta y el segundo de incorrecta: 
+\begin{description} \item[Homografía:] Le traje un [sombrero] $\rightarrow$ Le traje un [sombrero]; Le traje un [traje] $\rightarrow$ Le traje un [traje]$^*$ (correcto: vestit). \item[Polisemia:] El [canto] de la sirena $\rightarrow$ El [canto] de la sirena; El [canto] de la moneda $\rightarrow$ El [canto] de la moneda$^*$. (correcto: cantell, viu) \item[Concordancia de género o número]: [La] indicación era [inequívoca] $\rightarrow$ [La] indicació era [inequívoca]; [La] señal era [inequívoca] $\rightarrow$ [La] senyal era [inequívoca]$^*$ (correcte: el, inequívoc) \item[Anáfora:] Cualquier [indicación] es importante para quien la comprenda $\rightarrow$ Qualsevol [indicació] és important per a qui [la] comprenga; Cualquier [señal] es importante para quien la comprenda $\rightarrow$ Qualsevol [senyal] és important per a qui [la] comprenga.$^*$ \end{description} 
 
 \item Dos reglas son suficientes (el resto va bien palabra por palabra): 
 
