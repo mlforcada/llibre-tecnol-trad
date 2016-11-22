@@ -1,0 +1,213 @@
+140,196c140,143
+< \begin{figure}
+< \textsf{
+< \begin{center}
+< \textbf{Representación abstracta del texto origen:} \\
+< \texttt{\ldots} , \\
+< \texttt{art[lema="the"],} \\
+< \texttt{adj[lema="complex"],} \\
+< \texttt{n[lema="situation", num="pl"], }\\
+< \texttt{\ldots} \\
+< $\downarrow$ \\ 
+< \parbox{10cm}{\hfill \textbf{TRANSFERENCIA}}
+< \framebox{\parbox{10cm}{
+< \begin{center}
+< \framebox{\parbox{9cm}{
+< \begin{center}
+< \textbf{Transferencia léxica:}\\
+< diccionari bilingüe \\
+< \ldots \\
+< complex \textbf{adj} $\rightarrow$ complex \textbf{adj} \\
+< \ldots \\
+< situation \textbf{n} $\rightarrow$ situació \textbf{n}, \texttt{gen=f} \\
+< \ldots \\
+< the \textbf{det} $\rightarrow$ el \textbf{det} \\
+< \ldots \\
+< \end{center}
+< }} 
+< \\[0.2cm]
+< \framebox{\parbox{9cm}{
+< \begin{center}
+<  \textbf{Transferencia estructural}\\
+<  (reglas de reordenamiento y concordancia) \\
+<  \ldots \\[0.2cm]
+<  \framebox{\parbox{8cm}{
+<  \begin{center}
+<  $\mbox{\textbf{det}}\;\mbox{\textbf{adj}}\;\mbox{\textbf{n}}\;\rightarrow\;\mbox{\textbf{det}}\;\mbox{\textbf{n}}\;\mbox{\textbf{adj}}$\\
+<  Propaga \texttt{gen} de \textbf{n} a
+<  \textbf{det}, \textbf{adj}
+<  \\
+<  Propaga \texttt{num} de \textbf{n} a
+<  \textbf{det}, \textbf{adj}
+<  \end{center}
+<  }}\\[0.2cm]
+< \ldots
+< \end{center}
+< }} \\
+< \end{center}
+< }}
+<  \\
+< $\downarrow$ \\
+< \textbf{Representación abstracta del texto meta}: \\
+< \texttt{\ldots} , \\
+< \texttt{det[lema="el", num="pl", gen="f"],} \\
+< \texttt{adj[lema="{}complex", num="pl", gen="f"],} \\
+< \texttt{n[lema="situació", num="pl", gen="f"], }\\
+< \texttt{\ldots} 
+< \end{center}
+< }
+---
+> \begin{figure} \textsf{ \begin{center} \textbf{Representación abstracta del texto origen:} \\ \texttt{\ldots} , \\ \texttt{art[lema="the"],} \\ \texttt{adj[lema="complex"],} \\ \texttt{n[lema="situation", num="pl"], }\\ \texttt{\ldots} \\ $\downarrow$ \\ \parbox{10cm}{\hfill \textbf{TRANSFERENCIA}} \framebox{\parbox{10cm}{ \begin{center} \framebox{\parbox{9cm}{ \begin{center} \textbf{Transferencia léxica:}\\ diccionario bilingüe \\ \ldots \\ complex \textbf{adj} $\rightarrow$ complex \textbf{adj} \\ \ldots \\ situation \textbf{n} $\rightarrow$ situación \textbf{n}, \texttt{gen=f} \\ \ldots \\ the \textbf{det} $\rightarrow$ el \textbf{det} \\ \ldots \\ \end{center} }} \\[0.2cm] \framebox{\parbox{9cm}{ \begin{center} \textbf{Transferencia estructural}\\ (reglas de reordenamiento y concordancia) \\ \ldots \\[0.2cm] \framebox{\parbox{8cm}{ \begin{center} $\mbox{\textbf{det}}\;\mbox{\textbf{adj}}\;\mbox{\textbf{n}}\;\rightarrow\;\mbox{\textbf{det}}\;\mbox{\textbf{n}}\;\mbox{\textbf{adj}}$\\ Propaga \texttt{gen} de  \textbf{n} a \textbf{det}, \textbf{adj} \\ Propaga \texttt{num} de  \textbf{n} a \textbf{det}, \textbf{adj} \end{center} }}\\[0.2cm] \ldots
+> 
+> \end{center} }} \\ \end{center} }} \\ $\downarrow$ \\ \textbf{Representación abstracta del texto meta}: \\ \texttt{\ldots} , \\ \texttt{det[lema="el", num="pl", gen="f"],} \\ \texttt{adj[lema="{}complex", num="pl", gen="f"],} \\ \texttt{n[lema="situación", num="pl", gen="f"], }\\ \texttt{\ldots} \end{center} } 
+> 
+555,580c502,510
+< \item \label{ex:zkanagg} El software que llevan instalado las naves de la confederación galáctica incluye un programa que traduce una de las lenguas mayoritárias del planta Zkanagg, el tazkannwat, al catalán. El sistema es un sistema de transferencia morfológica avanczada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada. Algunas traducciones son erroneas porque el sistema no tiene un catálago demasiado completo de reglas.	  Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas.
+<    \begin{example} 
+<    \gll Thlong u knaar uw phlagyw. 
+<         {Adquirió} el navegante el-OBJ control-OBJ 
+<    \glt TA: El navegante adquirió el control (correcta). 
+<    \glend
+<    \end{example} 
+<    \begin{example} 
+<    \gll Thlong u knaar qimratt uw phlagyw. 
+<         {Adquirió} el navegante estelar el-OBJ control-OBJ 
+<    \glt TA: El navegante estelar adquirió el control (correcta). 
+<    \glend
+<    \end{example} 
+<    \begin{example} 
+<    \gll Thlong u knaar na Zkannag uw phlagyw. 
+<         {Adquirió} el navegante de Zkannag el-OBJ control-OBJ 
+<    \glt TA: El navegante de Zkannag adquirió el control (correcta). 
+<    \glend
+<    \end{example} 
+<    \begin{example} 
+<    \gll Thlong u knaar qimratt na Zkannag uw phlagyw. 
+<         {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ 
+<    \glt TA: *El navegante estelar adquirió de Zkannag el control. 
+<    \glt Correcta: El navegante estelar de Zkannag adquirió el control.
+<    \glend
+<    \end{example} 
+---
+> \item \label{ex:zkanagg} El software que llevan instalado las naves de la confederación galáctica incluye un programa que traduce una de las lenguas mayoritárias del planta Zkanagg, el tazkannwat, al catalán. El sistema es un sistema de transferencia morfológica avanczada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada. Algunas traducciones son erroneas porque el sistema no tiene un catálago demasiado completo de reglas.	  Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas. \begin{example} \gll Thlong u knaar uw phlagyw. {Adquirió} el navegante el-OBJ control-OBJ \glt TU: El navegante adquirió el control (correcta). \glend
+> 
+> \end{example} \begin{example} \gll Thlong u knaar qimratt uw phlagyw. {Adquirió} el navegante estelar el-OBJ control-OBJ \glt TA: El navegante estelar adquirió el control (correcta).. \glend
+> 
+> \end{example} \begin{example} \gll Thlong u knaar na Zkannag uw phlagyw. {Adquirió} el navegante de Zkannag el-OBJ control-OBJ \glt TA: El navegante de Zkannag adquirió el control (correcta). \glend
+> 
+> \end{example} \begin{example} \gll Thlong u knaar qimratt na Zkannag uw phlagyw. {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ \glt TA: *El navegante estelar adquirió de Zkannag el control. \glt Correcta: El navegante estelar de Zkannag adquirió el control. \glend
+> 
+> \end{example} 
+664,698c594,612
+<      \begin{example} 
+<      \gll Te whare. 
+<           \textsf{Art.\ def.\ sg.} casa . 
+<      \glt La casa. 
+<      \glend
+<      \end{example} 
+< 
+<      \begin{example} 
+<      \gll Ng\={a} whare . 
+<           \textsf{Art.\ def.\ pl.} casa . 
+<      \glt Las casas. 
+<      \glend
+<      \end{example} 
+< 
+<      \begin{example} 
+<      \gll Te whare nui . 
+<           \textsf{Art.\ def.\ sg.} casa grande. 
+<      \glt La casa grande. 
+<      \glend
+<      \end{example} 
+< 
+<      \begin{example} 
+<      \gll Te whare nui o te aroha . 
+<           \textsf{Art.\ def.\ sg.} casa grande de \textsf{Art.\ def.\ 
+<           sg.} amor . 
+<      \glt La casa grande del amor. 
+<      \glend
+<      \end{example} 
+< 
+<      \begin{example} 
+<      \gll Ng\={a} whare nui . 
+<           \textsf{Art.\ def.\ pl.} casa grande. 
+<      \glt Las casas grandes. 
+<      \glend
+<      \end{example} 
+---
+> \begin{example} \gll Te whare. \textsf{Art.\ def.\ sg.} casa . \glt La casa. \glend
+> 
+> \end{example} 
+> 
+> \begin{example} \gll Ng\={a} whare . \textsf{Art.\ def.\ pl.} casa . \glt Las casas. \glend
+> 
+> \end{example} 
+> 
+> \begin{example} \gll Te whare nui . \textsf{Art.\ def.\ sg.} casa grande. \glt La casa grande. \glend
+> 
+> \end{example} 
+> 
+> \begin{example} \gll Te whare nui o te aroha . \textsf{Art.\ def.\ sg.} casa grande de \textsf{Art.\ def.\ sg.} amor . \glt La casa grande del amor. \glend
+> 
+> \end{example} 
+> 
+> \begin{example} \gll Ng\={a} whare nui . \textsf{Art.\ def.\ pl.} casa grande. \glt Las casas grandes. \glend
+> 
+> \end{example} 
+764,770c678,680
+<      \begin{example} 
+<      \gll Thlong u knaar uw phlagyw. 
+<           {Adquirió} el navegante el-OBJ control-OBJ 
+<      \glt TA: El navegante adquirió el control (correcta). 
+<      \glend
+<      \end{example} 
+< $R_1$: \textbf{verbo} \textbf{art} \textbf{nom} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{verbo} 
+---
+> \begin{example} \gll Thlong u knaar uw phlagyw. {Adquirió} el navegante el-OBJ control-OBJ \glt TA: El navegante adquirió el control (correcta). \glend
+> 
+> \end{example} $R_1$: \textbf{verbo} \textbf{art} \textbf{nom} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{verbo} 
+774,788c684,686
+<      \begin{example} 
+<      \gll Thlong u knaar qimratt uw phlagyw. 
+<           {Adquirió} el navegante estelar el-OBJ control-OBJ 
+<      \glt TA: El navegante estelar adquirió el control (correcta). 
+<      \glend
+<      \end{example} 
+< $R_2$: \textbf{verbo} \textbf{art} \textbf{nom} \textbf{adj} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{adj} \textbf{verbo} 
+<      \begin{example} 
+<      Resultado correcto. 
+<      \gll Thlong u knaar na Zkannag uw phlagyw. 
+<           {Adquirió} el navegante de Zkannag el-OBJ control-OBJ 
+<      \glt TA: El navegante de Zkannag adquirió el control (correcta). 
+<      \glend
+<      \end{example} 
+< $R_3$: \textbf{verbo} \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} $\rightarrow$ \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} \textbf{verbo} 
+---
+> \begin{example} \gll Thlong u knaar qimratt uw phlagyw. {Adquirió} el navegante estelar el-OBJ control-OBJ \glt TA: El navegante estelar adquirió el control (correcta).. \glend
+> 
+> \end{example} $R_2$: \textbf{verbo} \textbf{art} \textbf{nom} \textbf{adj} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{adj} \textbf{verbo} \begin{example} 
+792,798c690,698
+<      \begin{example} 
+<      \gll Thlong u knaar qimratt na Zkannag uw phlagyw. 
+<           {Adquirió} el navegante estelar de Zkannag el-OBJ  control-OBJ 
+<      \glt TA: *El navegante estelar adquirió de Zkannag el control. 
+<      \glt Correcta: El navegante estelar de Zkannag adquirió el control. 
+<      \glend
+<      \end{example} 
+---
+> \gll Thlong u knaar na Zkannag uw phlagyw. {Adquirió} el navegante de Zkannag el-OBJ control-OBJ \glt TA: El navegante de Zkannag adquirió el control (correcta). \glend
+> 
+> \end{example} $R_3$: \textbf{verbo} \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} $\rightarrow$ \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} \textbf{verbo} 
+> 
+> Resultado correcto. 
+> 
+> \begin{example} \gll Thlong u knaar qimratt na Zkannag uw phlagyw. {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ \glt TA: *El navegante estelar adquirió de Zkannag el control. \glt Correcta: El navegante estelar de Zkannag adquirió el control. \glend
+> 
+> \end{example} 
+858,861c758
+< \item Los siguientes ejemplos están tomados para el par
+<   español--catalán; en cada caso, la primera frase es un ejemplo de
+<   traducción correcta y el segundo de incorrecta: 
+< \begin{description} \item[Homografía:] Le traje un [sombrero] $\rightarrow$ Le traje un [sombrero]; Le traje un [traje] $\rightarrow$ Le traje un [traje]$^*$ (correcto: vestit). \item[Polisemia:] El [canto] de la sirena $\rightarrow$ El [canto] de la sirena; El [canto] de la moneda $\rightarrow$ El [canto] de la moneda$^*$. (correcto: cantell, viu) \item[Concordancia de género o número]: [La] indicación era [inequívoca] $\rightarrow$ [La] indicació era [inequívoca]; [La] señal era [inequívoca] $\rightarrow$ [La] senyal era [inequívoca]$^*$ (correcte: el, inequívoc) \item[Anáfora:] Cualquier [indicación] es importante para quien la comprenda $\rightarrow$ Qualsevol [indicació] és important per a qui [la] comprenga; Cualquier [señal] es importante para quien la comprenda $\rightarrow$ Qualsevol [senyal] és important per a qui [la] comprenga.$^*$ \end{description} 
+---
+> \item Los siguientes ejemplos están tomados para el par español--catalán; en cada caso, la primera frase es un ejemplo de traducción correcta y el segundo de incorrecta: \begin{description} \item[Homografía:] Le traje un [sombrero] $\rightarrow$ Le traje un [sombrero]; Le traje un [traje] $\rightarrow$ Le traje un [traje]$^*$ (correcto: vestit). \item[Polisemia:] El [canto] de la sirena $\rightarrow$ El [canto] de la sirena; El [canto] de la moneda $\rightarrow$ El [canto] de la moneda$^*$. (correcto: cantell, viu) \item[Concordancia de género o número]: [La] indicación era [inequívoca] $\rightarrow$ [La] indicació era [inequívoca]; [La] señal era [inequívoca] $\rightarrow$ [La] senyal era [inequívoca]$^*$ (correcte: el, inequívoc) \item[Anáfora:] Cualquier [indicación] es importante para quien la comprenda $\rightarrow$ Qualsevol [indicació] és important per a qui [la] comprenga; Cualquier [señal] es importante para quien la comprenda $\rightarrow$ Qualsevol [senyal] és important per a qui [la] comprenga.$^*$ \end{description} 
