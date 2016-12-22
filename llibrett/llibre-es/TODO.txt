@@ -1,0 +1,7 @@
+- Arreglar bibiligrafía (aparece en catalán)
+
+
+
+Ya hecho y revisado
+------------------
+intro.tex
