@@ -1,0 +1,87 @@
+91,120c91,93
+< Muchas veces se usan nombres cortos (en inglés \emph{mnemonics}) para las instrucciones del procesador y también nombres elegidos por el programador para referirse a posiciones del programa (esta notación se suele denominar \emph{lenguaje ensamblador}). El programa de arriba tendría la apariencia siguiente: 
+< \begin{verbatim} 
+<          mov #1,A
+<          mov A,index
+<          mov #0,A
+<          mov A,suma
+<  otro:   mov suma,A
+<          add A,index
+<          mov A,suma
+<          mov index,A
+<          cmp A,#10
+<          jeq final
+<          inc A
+<          mov A,index
+<          jmp otro
+<  final:  hlt
+< \end{verbatim}
+< 
+< 
+< \paragraph{Procesadores de lenguajes de programación:} las instrucciones que ejecuta el procesador central de un ordenador son demasiado sencillas para que un programador humano haga programas útiles; sería largo y engorroso, como hemos visto en el ejemplo de programa que sumaba los enteros del 1 al 10. Los programadores normalmente escriben sus programas en {\em lenguajes de programación} basados en instrucciones más potentes (como por ejemplo BASIC, Java, C, C++, Pascal, Perl o Python) y usan programas especiales ---los procesadores de lenguajes--- para traducirlos a las instrucciones sencillas que entiende la máquina.\footnote{Hay dos familias básicas de procesadores de lenguajes: los \emph{compiladores}, que traducen todo el programa al lenguaje de la máquina antes de ejecutarlo, y los \emph{intérpretes}, que leen el programa línea a línea y ejecutan pequeños programas ya escritos en el lenguaje de la máquina y que se corresponden con las sentencias del lenguaje de programación.} Casi todos los programas que se ejecutan en un ordenador han sido escritos en algún lenguaje de programación. El programa que suma los números del 1 al 10 quedaría así en el lenguaje Pascal: 
+< \begin{verbatim}
+< program SUMA;
+< var
+<    index, suma: integer;
+< begin
+<    suma:=0;
+<    for index:=1 to 10
+<       suma:=suma+index;
+< end.
+< \end{verbatim}
+---
+> Muchas veces se usan nombres cortos (en inglés \emph{mnemonics}) para las instrucciones del procesador y también nombres elegidos por el programador para referirse a posiciones del programa (esta notación se suele denominar \emph{lenguaje ensamblador}). El programa de arriba tendría la apariencia siguiente: \begin{verbatim} mov #1,A mov A,index mov #0,A mov A,suma otro: mov suma,A add A,index mov A,suma mov index,A cmp A,#10 jeq final inc A mov A,index jmp otro final: hlt \end{verbatim} 
+> 
+> \paragraph{Procesadores de lenguajes de programación:} las instrucciones que ejecuta el procesador central de un ordenador son demasiado sencillas para que un programador humano haga programas útiles; sería largo y engorroso, como hemos visto en el ejemplo de programa que sumaba los enteros del 1 al 10. Los programadores normalmente escriben sus programas en {\em lenguajes de programación} basados en instrucciones más potentes (como por ejemplo BASIC, Java, C, C++, Pascal, Perl o Python) y usan programas especiales ---los procesadores de lenguajes--- para traducirlos a las instrucciones sencillas que entiende la máquina.\footnote{Hay dos familias básicas de procesadores de lenguajes: los \emph{compiladores}, que traducen todo el programa al lenguaje de la máquina antes de ejecutarlo, y los \emph{intérpretes}, que leen el programa línea a línea y ejecutan pequeños programas ya escritos en el lenguaje de la máquina y que se corresponden con las sentencias del lenguaje de programación.} Casi todos los programas que se ejecutan en un ordenador han sido escritos en algún lenguaje de programación. El programa que suma los números del 1 al 10 quedaría así en el lenguaje Pascal: \begin{verbatim} program SUMA; var index, suma: integer; begin suma:=0; for index:=1 to 10 suma:=suma+index; end. \end{verbatim} 
+213c186
+< Los bits se agrupan normalmente en grupos de ocho, llamados \emph{bytes}. Un byte puede estar, por lo tanto, en $2^8=256$ estados diferentes. Por ejemplo, los caracteres y símbolos más comúnmente usados en textos se guardaban históricamente cada uno en un byte, usando el código ASCII\label{pg:ASCII} (\emph{American Standard Code for Information Interchange}), donde el código de la ``{\tt A}'' es ``{\tt 01000001}'' o el de la ``{\tt z}'' es ``{\tt 01111010}'' (véase el epígrafe~\ref{ss:formats}). El código ASCII fue el primer código estándar para almacenar textos; cuando los textos son más ricos y contienen información sobre tipos y tamaño de letra, diagramación, notas a pie de página, etc., se usan formatos más avanzados que se explican en el epígrafe~\ref{ss:formats}. Un byte puede contener, por tanto, muy poca información (un carácter, una instrucción sencilla del procesador central, un número del 0 (``{\tt 00000000}'') al 255 (``{\tt 11111111}''), etc.). Por ejemplo, un documento de texto como éste tiene decenas de miles de caracteres, y una enciclopedia, cientos de millones. En las imágenes en blanco y negro, cada punto es un bit, una pantalla de ordenador contiene más o menos un millón. Si son de colores, hay más de un bit por cada punto. Las instrucciones de los programas que ejecuta el procesador central también se almacenan en bytes.\footnote{En el ejemplo de la sección anterior, la instrucción {\tt inc A}, que incrementa el valor almacenado en el acumulador en 1, podría ser el byte {\tt 11010110}.} 
+---
+> Los bits se agrupan normalmente en grupos de ocho, llamados \emph{bytes}. Un byte puede estar, por lo tanto, en $2^8=256$ estados diferentes. Por ejemplo, los caracteres y símbolos más comúnmente usados en textos se guardaban históricamente cada uno en un byte, usando el código ASCII\label{pg:ASCII} (\emph{American Standard Code for Information Interchange}), donde el código de la ``{\tt A}'' es ``{\tt 01000001}'' o el de la ``{\tt z}'' es ``{\tt 01111010}'' (véase el epígrafe~\ref{ss:formats}). El código ASCII fue el primer código estándar para almacenar textos; cuando los textos son más ricos y contienen información sobre tipos y tamaño de letra, diagramación, notas a pie de página, etc., se usan formatos más avanzados que se explican en el epígrafe~\ref{ss:formats}. Un byte puede contener, por tanto, muy poca información (un carácter, una instrucción sencilla del procesador central, un número del 0 (``{\tt 00000000}'') al 255 (``{\tt 11111111}''), etc.). Por ejemplo, un documento de texto como éste tiene decenas de miles de caracteres, y una enciclopedia, cientos de millones. En las imágenes en blanco y negro, cada punto es un bit, una pantalla de ordenador contiene más o menos un millón. Si son de colores, hay más de un bit por cada punto. Las instrucciones de los programas que ejecuta el procesador central también se almacenan en bytes.\footnote{En el ejemplo de la sección anterior, la instrucción {\tt inc A}, que incrementa el valor almacenado en el acumulador en 1, podría ser el byte {\tt 11010110}}. 
+238,260c211
+< Todos estos conceptos se ven quizás más claros con el ejemplo de la
+< figura \ref{fg:fitxersdirs} en que se muestra la estructura de
+< ficheros y directorios en un dispositivo de almacenamiento
+< cualquiera. En este dispositivo, el directorio principal o raíz
+< (representado con el símbolo $\Box$) contiene un único (sub)directorio
+< \carp{prac1}; este directorio contiene dos (sub)directorios, \carp{tt}
+< (que contiene los ficheros \texttt{tt1.txt} y \texttt{tt2.txt}) y
+< \carp{reserva}. El directorio \carp{reserva} contiene un subdirectorio
+< \carp{tt} (que contiene el archivo \texttt{tt1.txt}). Fijaos que dos
+< carpetas diferentes contienen archivos con el mismo nombre
+< \texttt{tt1.txt}; esto no es problema si consideramos la trayectoria
+< completa como nombre del fichero. Si el disco se llama \texttt{C:}
+< (típico en el caso del disco duro de un PC con sistema operativo
+< Windows), las trayectorias de estos dos ficheros serían
+< \texttt{C:}\barra\carp{prac1}\barra\carp{tt}\barra\texttt{tt1.txt} y
+< \texttt{C:}\barra\carp{prac1}\barra\carp{reserva}\barra\carp{tt}\barra\texttt{tt1.txt},
+< y, por lo tanto, serían diferentes. En el caso del sistema operativo
+< GNU/Linux las trayectorias de estos dos ficheros serían
+< \texttt{/}\carp{prac1/}\carp{tt/}\texttt{tt1.txt} y \\
+< \texttt{/}\carp{prac1/}\carp{reserva/}\carp{tt/}\texttt{tt1.txt}. Fijaos
+< que cada sistema operativo usa un símbolo diferente para el directorio
+< principal o raíz y para separar los nombres de los directorios y
+< archivos dentro de la ruta o trayectoria.
+---
+> Todos estos conceptos se ven quizás más claros con el ejemplo de la figura \ref{fg:fitxersdirs} en que se muestra la estructura de ficheros y directorios en un dispositivo de almacenamiento cualquiera. En este dispositivo, el directorio principal o raíz (representado con el símbolo $\Box$) contiene un único (sub)directorio \carp{prac1}; este directorio contiene dos (sub)directorios, \carp{tt} (que contiene los ficheros \texttt{tt1.txt} y \texttt{tt2.txt}) y \carp{reserva}. El directorio \carp{reserva} contiene un subdirectorio \carp{tt} (que contiene el archivo \texttt{tt1.txt}). Fijaos que dos carpetas diferentes contienen archivos con el mismo nombre \texttt{tt1.txt}; esto no es problema si consideramos la trayectoria completa como nombre del fichero. Si el disco se llama \texttt{C:} (típico en el caso del disco duro de un PC con sistema operativo Windows), las trayectorias de estos dos ficheros serían \texttt{C:}\barra\carp{prac1}\barra\carp{tt}\barra\texttt{tt1.txt} y \texttt{C:}\barra\carp{prac1}\barra\carp{reserva}\barra\carp{tt}\barra\texttt{tt1.txt}, y, por lo tanto, serían diferentes. En el caso del sistema operativo GNU/Linux las trayectorias de estos dos ficheros serían \texttt{/}\carp{prac1/}\carp{tt/}\texttt{tt1.txt} y \texttt{/}\carp{prac1/}\carp{reserva/}\carp{tt/}\texttt{tt1.txt}. Fijaos que cada sistema operativo usa un símbolo diferente para el directorio principal o raíz y para separar los nombres de los directorios y archivos dentro de la ruta o trayectoria. 
+269c220
+< \item[Tabletas y \emph{smartphones}:] las tabletas (en inglés \emph{tablets}) y los teléfonos móviles más modernos, denominados \emph{smartphones}, son verdaderos ordenadores portátiles, con una pantalla táctil y sin teclado, con cámara, conectividad Wi-Fi y Bluetooth, receptor GPS, etc. Suelen venir con un sistema operativo gráfico: el más común es Android, pero los de la marca Apple usan iOS.\footnote{Estos dispositivos han desplazado a los antiguos \emph{handhelds} o dispositivos de mano, que eran una evolución de las antiguas agendas electrónicas y se solían denominar \emph{PDA} por \emph{Personal Digital Assistant}, `asistente digital personal'.} 
+---
+> \item[Tabletas y \emph{smartphones}]: las tabletas (en inglés \emph{tablets}) y los teléfonos móviles más modernos, denominados \emph{smartphones}, son verdaderos ordenadores portátiles, con una pantalla táctil y sin teclado, con cámara, conectividad Wi-Fi y Bluetooth, receptor GPS, etc. Suelen venir con un sistema operativo gráfico: el más común es Android, pero los de la marca Apple usan iOS.\footnote{Estos dispositivos han desplazado a los antiguos \emph{handhelds} o dispositivos de mano, que eran una evolución de las antiguas agendas electrónicas y se solían denominar \emph{PDA} por \emph{Personal Digital Assistant}, `asistente digital personal'.} 
+357,358c308
+< \section{Cuestiones y ejercicios} \begin{enumerate} \item ¿Cuántos
+<   \emph{kilobytes} hay en un \emph{gigabyte}? \begin{enumerate} \item 1.024 \item 1.073.741.824 \item 1.048.576 \end{enumerate} 
+---
+> \section{Cuestiones y ejercicios} \begin{enumerate} \item ¿Cuántos \emph{kilobytes} hay en un \emph{gigabyte}? \begin{enumerate} \item 1.024 \item 1.073.741.824 \item 1.048.576 \end{enumerate} 
+473c423
+< \section{Soluciones} \begin{enumerate} \item (c): Un gigabyte tiene 1.024 megabytes, y un megabyte, 1.024 kilobytes: $1.024 \times 1.024 = 1.048.576$. \item (c): Una memoria USB de 6 GB (gigabytes) contiene aproximadamente 6.000.000.000 bytes. Un carácter, en las codificaciones usadas común\-mente en Europa occidental, ocupa un byte; por lo tanto, la página de $50\times60$ ocupa 3.000 bytes. Caben $6.000.000.000/3.000=2.000.000$ páginas en un disco. \item (a): Una velocidad de 300 kilobytes por segundo equivale a unos $300 \times 8=2.400$ kilobits por segundo; alrededor 2,3 Mb/s. \item (a): Los módems modulan (convierten señales digitales en analógicas) y desmodulan (convierten señales analógicas en digitales) para enviar y recibir datos a través de un determinado medio. Las líneas ADSL domésticas actuales admiten conexiones vía módem telefónico de unos cuántos megabits por segundo (véase la sección~\ref{ss:OiPgloss}). \item (a): Un CD-ROM puede almacenar como mínimo 650~MB. 
+---
+> \section{Soluciones} \begin{enumerate} \item (c): Un gigabyte tiene 1.024 megabytes, y un megabyte, 1.024 kilobytes: $1.024 \times 1.024 = 1.048.576$. \item (c): Una memoria USB de 6 GB (gigabytes) contiene aproximadamente 6.000.000.000 bytes. Un carácter, en las codificaciones usadas comúnmente en Europa occidental, ocupa un byte; por lo tanto, la página de $50\times60$ ocupa 3.000 bytes. Caben $6.000.000.000/3.000=2.000.000$ páginas en un disco. \item (a): Una velocidad de 300 kilobytes por segundo equivale a unos $300 \times 8=2.400$ kilobits por segundo; alrededor 2,3 Mb/s. \item (a): Los módems modulan (convierten señales digitales en analógicas) y desmodulan (convierten señales analógicas en digitales) para enviar y recibir datos a través de un determinado medio. Las líneas ADSL domésticas actuales admiten conexiones vía módem telefónico de unos cuántos megabits por segundo (véase la sección~\ref{ss:OiPgloss}). \item (a): Un CD-ROM puede almacenar como mínimo 650~MB. 
+485c435
+< \item (c) \item (c) \item (c): Cada imagen ocupa $100\times100 = 10.000$ bits, que son $10.000 / 8 = 1.250$ bytes. 1 GB = $1.024 \times 1.024 \times 1.204 = 1.073.741.824 $ bytes.\\ $ 1.073.741.824 / 1.250 = 858.993$. Podemos almacenar más de 800.000 imágenes. \item (b) \item (c) 
+---
+> \item (c) \item (c) \item (c): Cada imagen ocupa $100\times100 = 10.000$ bits, que son $10.000 / 8 = 1.250$ bytes. 1 GB = $1.024 \times 1.024 \times 1.204 = 1.073.741.824 $ bytes. $ 1.073.741.824 / 1.250 = 858.993$. Podemos almacenar más de 800.000 imágenes. \item (b) \item (c) 
+494c444
+< \item (a): Tenemos 12 valores diferentes (de enero a diciembre). Tres bits por mes no son suficientes (permiten sólo 8 combinaciones); cuatro sí (permiten 16 combinaciones). \item (c) \end{enumerate} 
+---
+> \item (a): Tenemos 12 valores diferentes (de enero a diciembre). Tres bits por mes no son suficientes (permiten sólo 8 combinaciones); cuatro sí (permiten 16 combinaciones). \item (c) \end{enumerate} 
+\ No hay ningún carácter de nueva línea al final del archivo
