@@ -1,0 +1,214 @@
+54c54
+< \subsection{SGML} SGML (\emph{standardized generalized markup language}), el lenguaje estándar generalizado de marcas, tuvo un éxito relativo hasta medios de los noventa; pero la aparición hacia finales de esa década de una versión restringida y simplificada de SGML llamada XML (\emph{extensible markup language}) impulsó notablemente la adopción de los formatos de estructuración de documentos, de tal manera que en la actualidad se usa XML muchísimo más que el SGML original; por eso, nos centraremos en este último formato. En cualquier caso, todavía hay formatos muy importantes que se basan en SGML, como el lenguaje de marcas para hipertextos HTML (véase el apartado~\ref{s3:HTML}), excepto el más reciente (HTML5, estandarizado el 2014) que ya no es una aplicación de SGML. Hay también versiones estándares de HTML conocidas como XHTML, que se basan directamente en XML (véase el apartado~\ref{s3:XML}).\footnote{Nótese que HTML5 también tiene una versión \emph{serializada en XML}, XHTML5.} 
+---
+> \subsection{SGML} SGML (\emph{standardized generalized markup language}), el lenguaje estándar generalizado de marcas, tuvo un éxito relativo hasta medios de los noventa; pero la aparición hacia finales de esa década de una versión restringida y simplificada de SGML llamada XML (\emph{extensible markup language}) impulsó notablemente la adopción de los formatos de estructuración de documentos, de tal manera que en la actualidad se usa XML muchísimo más que el SGML original; por eso, nos centraremos en este último formato. En cualquier caso, todavía hay formatos muy importantes que se basan en SGML, como el lenguaje de marcas para hipertextos HTML (véase el apartado~\ref{s3:HTML}) ,excepto el más reciente (HTML5, estandarizado el 2014) que ya no es una aplicación de SGML. Hay también versiones estándares de HTML conocidas como XHTML, que se basan directamente en XML (véase el apartado~\ref{s3:XML}).\footnote{Nótese que HTML5 también tiene una versión \emph{serializada en XML}, XHTML5.} 
+60,87c60,61
+< \begin{figure}
+< \begin{center}
+< \begin{alltt}
+< <?xml version="1.0" encoding="ISO-8859-1"?>
+< <!DOCTYPE EMAIL SYSTEM "http://www.dlsi.ua.es/%7Efsanchez/tt/email.dtd">
+< <\textbf{EMAIL}>
+<   <\textbf{DESTINATARIO}>
+<     <\textbf{NOMBRE}>Mikel L. Forcada</\textbf{NOMBRE}>
+<     <\textbf{DIRECCION}>mlf@dlsi.ua.es</\textbf{DIRECCION}>
+<   </\textbf{DESTINATARIO}>
+<   <\textbf{REMITENTE}>
+<     <\textbf{NOMBRE}>Felipe Sánchez Martínez</\textbf{NOMBRE}>
+<     <\textbf{DIRECCION}>fsanchez@dlsi.ua.es</\textbf{DIRECCION}>
+<   </\textbf{REMITENTE}>
+<   <\textbf{FECHA}>9 de noviembre de 2015</\textbf{FECHA}>
+<   <\textbf{ASUNTO}>Capítulo 4 del libro de TT</\textbf{ASUNTO}>
+<   <\textbf{TEXTO}>
+<     <\textbf{P}>Mikel, estoy acabando de hacer modificaciones al capítulo
+<     dedicado a textos y formatos. Cuando acabe te aviso.</\textbf{P}>
+<     <\textbf{P}>Por favor, envíame los apuntes que preparamos 
+<     sobre traducción automática que no los encuentro. ¡Gracias!</\textbf{P}>
+<   </\textbf{TEXTO}>
+< </\textbf{EMAIL}>
+< \end{alltt}
+< \end{center}
+< \caption{El texto de un mensaje de correo electrónico en XML.}
+< \label{fg:faxXML}
+< \end{figure}
+---
+> \begin{figure} \begin{center} \begin{alltt} <?xml version="1.0" encoding="ISO-8859-1"?> <!DOCTYPE EMAIL SYSTEM "http://www.dlsi.ua.es/ <\textbf{EMAIL}> <\textbf{DESTINATARIO}> <\textbf{NOMBRE}>Mikel L. Forcada</\textbf{NOMBRE}> <\textbf{DIRECCION}>mlf@dlsi.ua.es</\textbf{DIRECCION}> </\textbf{DESTINATARIO}> <\textbf{REMITENTE}> <\textbf{NOMBRE}>Felipe Sánchez Martínez</\textbf{NOMBRE}> <\textbf{DIRECCION}>fsanchez@dlsi.ua.es</\textbf{DIRECCION}> </\textbf{REMITENTE}> <\textbf{FECHA}>9 de noviembre de 2015</\textbf{FECHA}> <\textbf{ASUNTO}>Capítulo 4 del libro de TT</\textbf{ASUNTO}> <\textbf{TEXTO}> <\textbf{P}>Mikel, estoy acabando de hacer modificaciones al capítulo dedicado a textos y formatos. Cuando acabe te aviso.</\textbf{P}> <\textbf{P}>Por favor, envı́ame los apuntes que preparamos
+> sobre traducción automática que no los encuentro. ¡Gracias!</\textbf{P}> </\textbf{TEXTO}> </\textbf{EMAIL}> \end{alltt} \end{center} \caption{El texto de un mensaje de correo electrónico en XML.} \label{fg:faxXML} \end{figure} 
+89c63,64
+< \subsubsection{Documentos XML bien formados} Estas son algunas de las características que hacen que un documento XML esté \emph{bien formado}, es decir, sea un documento XML y no otra cosa: \begin{itemize} \item Cada etiqueta de inicio de elemento de la forma \texttt{<}\emph{nombre}\texttt{>}, \texttt{<}\emph{nombre} \emph{atributo}\texttt{=}\texttt{"}\emph{valor}\texttt{"}\texttt{>}, \texttt{<}\emph{nombre} \emph{atributo1}\texttt{=}\texttt{"}\emph{valor}\texttt{"} \emph{atributo2}\texttt{=}\texttt{"}\emph{valor}\texttt{"}\texttt{>}, etc. (con cero o más asignaciones de valores a atributos) tiene que estar emparejada con una etiqueta de final de elemento de la forma \texttt{</}\emph{nombre}\texttt{>}, sin atributos pero con el mismo nombre.\footnote{En SGML se permite que algunos elementos se cierren \emph{implícitamente}, sin necesidad de una etiqueta de final de elemento.} Si el elemento es vacío, \texttt{<}\emph{nombre}\ldots\texttt{></}\emph{nombre}\texttt{>}, también se puede escribir \texttt{<}\emph{nombre}\ldots\texttt{/>}. \item Un elemento puede contener cualquier número de elementos. \item Los elementos no se pueden solapar o cruzar: no es posible escribir, por ejemplo, \texttt{<a>texto<b>más texto</a>más texto todavía </b>}. \item El documento contiene un único elemento \emph{raíz} que contiene todos los elementos del texto. \item El documento puede contener comentarios entre \texttt{<!--} y \texttt{-->} o instrucciones de procesamiento del tipo \texttt{<?}\emph{nombre}\ldots\texttt{?>} en cualquier lugar excepto dentro de las etiquetas. \item Los valores de los atributos tienen que ir entre comillas dobles (\texttt{"}\emph{valor}\texttt{"}) o simples (\texttt{'}\emph{valor}\texttt{'}). \item Un elemento no puede tener dos atributos con el mismo nombre. \item Los caracteres \texttt{<} y \texttt{\&} no pueden aparecer en el texto de los elementos ni de los atributos. Esto es porque \texttt{<} indica el comienzo de una etiqueta y \texttt{\&} el comienzo de una \emph{entidad} como, por ejemplo, \texttt{\&copy;} que se puede usar para representar el càracter \emph{©}: si se necesitan estos caracteres, se tienen que escribir las entidades \texttt{\&lt;} y \texttt{\&amp;}, respectivamente. \end{itemize} Como se puede ver, las reglas que definen un documento XML bien formado no dicen qué etiquetas son válidas y cuáles no, o qué atributos puede tener un determinado elemento, o qué elementos pueden ir dentro de un determinado elemento, en qué orden o en qué cantidad. 
+---
+> %7Efsanchez/tt/email.dtd">
+> \subsubsection{Documentos XML bien formados} Estas son algunas de las características que hacen que un documento XML esté \emph{bien formado}, es decir, sea un documento XML y no otra cosa: \begin{itemize} \item Cada etiqueta de inicio de elemento de la forma \texttt{<}\emph{nombre}\texttt{>}, \texttt{<}\emph{nombre} \emph{atributo}\texttt{=}\texttt{"}\emph{valor}\texttt{"}\texttt{>}, \texttt{<}\emph{nombre} \emph{atributo1}\texttt{=}\texttt{"}\emph{valor}\texttt{"} \emph{atributo2}\texttt{=}\texttt{"}\emph{valor}\texttt{"}\texttt{>}, etc. (con cero o más asignaciones de valores a atributos) tiene que estar emparejada con una etiqueta de final de elemento de la forma \texttt{</}\emph{nombre}\texttt{>}, sin atributos pero con el mismo nombre.\footnote{En SGML se permite que algunos elementos se cierren \emph{implícitamente}, sin necesidad de una etiqueta de final de elemento.} Si el elemento está vacío, \texttt{<}\emph{nombre}\ldots\texttt{></}\emph{nombre}\texttt{>}, también se puede escribir \texttt{<}\emph{nombre}\ldots\texttt{/>}. \item Un elemento puede contener cualquier número de elementos. \item Los elementos no se pueden solapar o cruzar: no es posible escribir, por ejemplo, \texttt{<a>texto<b>más texto</a>más texto todavía </b>}. \item El documento contiene un único elemento \emph{raíz} que contiene todos los elementos del texto. \item El documento puede contener comentarios entre \texttt{<!--} y \texttt{-->} o instrucciones de procesamiento del tipo \texttt{<?}\emph{nombre}\ldots\texttt{?>} en cualquier lugar excepto dentro de las etiquetas. \item Los valores de los atributos tienen que ir entre comillas dobles (\texttt{"}\emph{valor}\texttt{"}) o simples (\texttt{'}\emph{valor}\texttt{'}). \item Un elemento no puede tener dos atributos con el mismo nombre. \item Los caracteres \texttt{<} y \texttt{\&} no pueden aparecer en el texto de los elementos ni de los atributos. Esto es porque \texttt{<} indica el comienzo de una etiqueta y \texttt{\&} el comienzo de una \emph{entidad} como, por ejemplo, \texttt{\&copy;} que se puede usar para representar el càracter \emph{©}: si se necesitan estos caracteres, se tienen que escribir las entidades \texttt{\&lt;} y \texttt{\&amp;}, respectivamente. \end{itemize} Como se puede ver, las reglas que definen un documento XML bien formado no dicen qué etiquetas son válidas y cuáles no, o qué atributos puede tener un determinado elemento, o qué elementos pueden ir dentro de un determinado elemento, en qué orden o en qué cantidad. 
+92,111c67,68
+< \begin{figure}
+< \begin{center}
+< \begin{alltt}
+< <?xml version="1.0" encoding="ISO-8859-1"?>
+< <!-- Este es el ejemplo de DTD de EMAIL -->
+< <!ELEMENT EMAIL (DESTINATARIO+, REMITENTE?, FECHA, ASUNTO, TEXTO)>
+< <!ELEMENT DESTINATARIO (NOMBRE?, DIRECCION)>
+< <!ELEMENT REMITENTE (NOMBRE?, DIRECCION)>
+< <!ELEMENT NOMBRE (#PCDATA)>
+< <!ELEMENT DIRECCION (#PCDATA)>
+< <!ELEMENT FECHA (#PCDATA)>
+< <!ELEMENT ASUNTO (#PCDATA)>
+< <!ELEMENT TEXTO (P)+>
+< <!ELEMENT P (#PCDATA)>
+< \end{alltt}
+< \end{center}
+< \caption{La DTD que define mensajes de correo electrónico como el de
+<   la figura~\ref{fg:faxXML}.}
+< \label{fg:faxDTD}
+< \end{figure}
+---
+> 
+> \begin{figure} \begin{center} \begin{alltt} <?xml version="1.0" encoding="ISO-8859-1"?> <!-- Aquest és l'exemple de DTD de EMAIL --> <!ELEMENT EMAIL (DESTINATARIO+, REMITENTE?, FECHA, ASUNTO, TEXTO)> <!ELEMENT DESTINATARIO (NOMBRE?, DIRECCION)> <!ELEMENT REMITENTE (NOMBRE?, DIRECCION)> <!ELEMENT NOMBRE (#PCDATA)> <!ELEMENT DIRECCION (#PCDATA)> <!ELEMENT FECHA (#PCDATA)> <!ELEMENT ASUNTO (#PCDATA)> <!ELEMENT TEXTO (P)+> <!ELEMENT P (#PCDATA)> \end{alltt} \end{center} \caption{La DTD que define mensajes de correo electrónico como el de la figura~\ref{fg:faxXML}.} \label{fg:faxDTD} \end{figure} 
+117c74
+< \item Las líneas siguientes definen la estructura del documento definiendo sus \emph{elementos}. La línea \begin{small}\begin{alltt} <!ELEMENT EMAIL (DESTINATARIO+, REMITENTE?, FECHA, ASUNTO, TEXTO)> \end{alltt}\end{small} define el elemento raíz o principal, \texttt{EMAIL}, y especifica que se compone (en el orden especificado) de uno o más \texttt{DESTINATARIO}s (el símbolo \texttt{+} indica que puede haber uno o más), de un \texttt{REMITENTE} opcional (indicado con \texttt{?}), de una  \texttt{FECHA}, de un \texttt{ASUNTO} y de un \texttt{TEXTO}. 
+---
+> \item Las líneas siguientes definen la estructura del documento definiendo sus \emph{elementos}. La línea \begin{small}\begin{alltt} <!ELEMENT EMAIL (DESTINATARIO+, REMITENTE?, FECHA, ASUNTO, TEXTO)> \end{alltt}\end{small} define el elemento raíz o principal, \texttt{EMAIL}, y especifica que se compone (en el orden especificado) de uno o más \texttt{DESTINATARIO}s (el símbolo \texttt{+} indica que puede haber uno o más), de un \texttt{REMITENTE} opcional (indicado con \texttt{?}), de una \texttt{FECHA}, de un \texttt{ASUNTO} y de un \texttt{TEXTO}. 
+119,124c76
+< \item Un \texttt{DESTINATARIO} del mensaje de correo tiene dos partes: el \texttt{NOMBRE} (opcional) y la dirección de correo (\texttt{DIRECCION}): \begin{small}\begin{alltt} <!ELEMENT DESTINATARIO (NOMBRE?, DIRECCION)> \end{alltt}\end{small} \item El remitente se define igual: \begin{small}\begin{alltt} <!ELEMENT REMITENTE (NOMBRE?, DIRECCION)> \end{alltt}\end{small} \item El \texttt{NOMBRE}, la \texttt{DIRECCION} la \texttt{FECHA} y el \texttt{ASUNTO} contienen texto sin marcas (indicado con \texttt{\#PCDATA}): 
+< \begin{small}\begin{alltt} 
+< <!ELEMENT NOMBRE (#PCDATA)> 
+< <!ELEMENT DIRECCION (#PCDATA)> 
+< <!ELEMENT FECHA (#PCDATA)> 
+< <!ELEMENT ASUNTO (#PCDATA)> \end{alltt}\end{small} 
+---
+> \item Un \texttt{DESTINATARIO} del mensaje de correo tiene dos partes: el \texttt{NOMBRE} (opcional) y la dirección de correo (\texttt{DIRECCION}): \begin{small}\begin{alltt} <!ELEMENT DESTINATARIO (NOMBRE?, DIRECCION)> \end{alltt}\end{small} \item El remitente se define igual: \begin{small}\begin{alltt} <!ELEMENT REMITENTE (NOMBRE?, DIRECCION)> \end{alltt}\end{small} \item El \texttt{NOMBRE}, la \texttt{DIRECCION} la \texttt{FECHA} y el \texttt{ASUNTO} contienen texto sin marcas (indicado con \texttt{\#PCDATA}): \begin{small}\begin{alltt} <!ELEMENT NOMBRE (#PCDATA)> <!ELEMENT DIRECCION (#PCDATA)> <!ELEMENT FECHA (#PCDATA)> <!ELEMENT ASUNTO (#PCDATA)> \end{alltt}\end{small} 
+126c78
+< \item El \texttt{TEXTO} se compone de uno o más (\texttt{+}) párrafos (\texttt{P}). Si quisiéramos que el texto estuviera compuesto por \emph{cero} o más párrafos usaríamos ``\texttt{*}'' en vez de ``\texttt{+}'': \begin{small}\begin{alltt} <!ELEMENT TEXTO (P)+> \end{alltt}\end{small} 
+---
+> \item El \texttt{TEXTO} se compone de uno o más (\texttt{+}) párrafos (\texttt{P}). Si quisiéramos que el texto estuviera compuesto por \emph{cero} o más párrafos usaríamos ``\texttt{*}'' en vez de ``\texttt{+}'': \begin{small}\begin{alltt} <!ELEMENT TEXT (P)+> \end{alltt}\end{small} 
+140a93
+> 
+151,180c104,114
+< \begin{figure} \begin{center} 
+< \begin{alltt} 
+< <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+<       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+< <\textbf{html}> 
+<   <\textbf{head}> 
+<     <\textbf{meta} http-equiv="Content-Type" 
+<           content="text/html; charset=iso-8859-1"/> 
+<     <\textbf{title}>Título del documento</\textbf{title}> 
+<   </\textbf{head}> 
+< 
+<   <\textbf{body}> 
+<     <\textbf{h1}>Encabezado de nivel 1</\textbf{h1}> 
+< 
+<     <\textbf{h2}>Encabezado de nivel 2</\textbf{h2}> 
+< 
+<     <\textbf{p}>Este es el <\textbf{em}>primer</\textbf{em}> párrafo 
+<     de este documento. El navegador decide cómo dividirlo 
+<     en líneas para presentarlo. Idealmente, tendría que 
+<     acabar con una marca de final de párrafo. </\textbf{p}> 
+< 
+<     <\textbf{h2}>Otro encabezado de nivel 2</\textbf{h2}> 
+< 
+<     <\textbf{p}>Este es el <\textbf{em}>último</\textbf{em}> párrafo 
+<     de este documento XHTML. Los documentos XHTML pueden contener 
+<     <\textbf{a} href="http://www.apertium.org">enlaces</\textbf{a}> 
+<     a otros documentos (X)HTML, locales o remotos. </\textbf{p}> 
+<   </\textbf{body}> 
+< </\textbf{html}> 
+< \end{alltt} \end{center} \caption{Un documento XHTML, tal como lo presentaría un editor de textos normal o usando la opción ``view HTML source'' (ver fuente HTML) del navegador.} \label{fg:HTML} \end{figure} 
+---
+> \begin{figure} \begin{center} \begin{alltt} <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <\textbf{html}> <\textbf{head}> <\textbf{meta} http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/> <\textbf{title}>Título del documento</\textbf{title}> </\textbf{head}> 
+> 
+> <\textbf{body}> <\textbf{h1}>Encabezado de nivel 1</\textbf{h1}> 
+> 
+> <\textbf{h2}>Encabezado de nivel 2</\textbf{h2}> 
+> 
+> <\textbf{p}>Este es el <\textbf{em}>primer</\textbf{em}> párrafo de este documento. El navegador decide cómo dividirlo en líneas para presentarlo. Idealmente, tendría que acabar con una marca de final de párrafo. </\textbf{p}> 
+> 
+> <\textbf{h2}>Otro encabezado de nivel 2</\textbf{h2}> 
+> 
+> <\textbf{p}>Este es el <\textbf{em}>último</\textbf{em}> párrafo de este documento XHTML. Los documentos XHTML pueden contener <\textbf{a} href="http://www.apertium.org">enlaces</\textbf{a}> a otros documentos (X)HTML, locales o remotos. </\textbf{p}> </\textbf{body}> </\textbf{html}> \end{alltt} \end{center} \caption{Un documento XHTML, tal como lo presentaría un editor de textos normal o usando la opción ``view HTML source'' (ver fuente HTML) del navegador.} \label{fg:HTML} \end{figure} 
+206,226c140,142
+< \begin{figure}
+< \begin{center}
+< \begin{verbatim}
+< {\rtf1\ansi\ansicpg1252
+< \end{verbatim}
+< [\ldots]
+< \begin{verbatim}
+< \par
+< {\b T\`edtol en negretes}\par
+< Text del par\`a0graf en lletra normal amb alguns incisos 
+< {\i en cursives} i una marca de final de par\`a0graf al 
+< final.\par  
+< Els car\`a0cters que no pertanyen a l'ASCII est\`a0ndard 
+< s'indiquen amb codis especials (en aquest cas s'ha usat 
+< ANSI, amb {\i codepage} 1252, com es veu al principi del 
+< document), com per exemple en el mot 
+< {\i ling\'fc\'edstica}.\par
+< \end{verbatim}
+< [\ldots]
+< \end{center}
+< \caption{Parte de un documento de texto en format RTF.} \label{fg:RTF} \end{figure} 
+---
+> \begin{figure} \begin{center} \begin{verbatim} {\rtf1\ansi\ansicpg1252 \end{verbatim} [\ldots] \begin{verbatim} \par
+> 
+> {\b T\`edtol en negretes}\par Text del par\`a0graf en lletra normal amb alguns incisos {\i en cursives} i una marca de final de par\`a0graf al final.\par Els car\`a0cters que no pertanyen a l'ASCII est\`a0ndard s'indiquen amb codis especials (en aquest cas s'ha usat ANSI, amb {\i codepage} 1252, com es veu al principi del document), com per exemple en el mot {\i ling\'fc\'edstica}.\par \end{verbatim} [\ldots] \end{center} \caption{Parte de un documento de texto en formato RTF.} \label{fg:RTF} \end{figure} 
+238c154
+< En cuanto a la \emph{operación}, los procesadores de texto asumen que la mayor parte de los caracteres que tecleamos se tienen que insertar detrás del carácter que actualmente se encuentra destacado con una marca llamada {\em cursor} de texto (puede ser diferente del cursor o apuntador que indica la posición virtual del ratón en la pantalla), o bien lo tienen que sobrescribir. Sin embargo, se reservan determinadas teclas (algunas sencillas, y otras en combinación con las teclas especiales ``Alt'' o ``Control'') para hacer operaciones, algunas muy básicas como, por ejemplo, mover el cursor de texto o borrar caracteres y otras más complejas, como, por ejemplo, pegar un bloque de texto que habíamos borrado previamente o guardar el texto completo en el disco.\footnote{Estas teclas y combinaciones de teclas que permiten un acceso rápido a operaciones rutinarias se suelen denominar en inglés \emph{hotkeys}; por ejemplo, en Windows, la combinación control--X recorta el texto seleccionado, la combinación control--V inserta un texto previamente recortado, etc.} Pero muchas de estas operaciones, conjuntamente con otras que no se usan tan a menudo, también están accesibles mediante \emph{menús}; los nombres de estos menús suelen estar situados típicamente en la parte de arriba de la ventana: si se  hace clic con el ratón, se despliegan y nos muestran las opciones que contienen, que podemos elegir con el ratón. 
+---
+> En cuanto a la \emph{operación}, los procesadores de texto asumen que la mayor parte de los caracteres que tecleamos se tienen que insertar detrás del carácter que actualmente se encuentra destacado con una marca llamada {\em cursor} de texto (puede ser diferente del cursor o apuntador que indica la posición virtual del ratón en la pantalla), o bien lo tienen que sobrescribir. Sin embargo, se reservan determinadas teclas (algunas sencillas, y otras en combinación con las teclas especiales ``Alt'' o ``Control'') para hacer operaciones, algunas muy básicas como, por ejemplo, mover el cursor de texto o borrar caracteres y otras más complejas, como, por ejemplo, pegar un bloque de texto que habíamos borrado previamente o guardar el texto completo en el disco.\footnote{Estas teclas y combinaciones de teclas que permiten un acceso rápido a operaciones rutinarias se suelen denominar en inglés \emph{hotkeys}; por ejemplo, en Windows, la combinación control--X recorta el texto seleccionado, la combinación control--V inserta un texto previamente recortado, etc.} Pero muchas de estas operaciones, conjuntamente con otras que no se usan tan a menudo, también están accesibles mediante \emph{menús}; los nombres de estos menús suelen estar situados típicamente en la parte de arriba de la ventana: si se hace clic con el ratón, se despliegan y nos muestran las opciones que contienen, que podemos elegir con el ratón. 
+240,241c156,158
+< \paragraph{Sobre la búsqueda de palabras.} Algunos procesadores de textos permiten buscar usando las llamadas \emph{expresiones regulares}, que permiten, mediante caracteres especiales llamados \emph{comodines} (inglés \emph{wildcards}), buscar todas las palabras y todas las porciones de texto que siguen un patrón determinado. Por ejemplo, una búsqueda con la expresión regular \texttt{pres*a} encontraría las palabras \emph{prea}, \emph{presa}, \emph{pressa}, \emph{presssa}, etc., o la expresión regular \texttt{<[\^{}>]+>} que encontraría todas las etiquetas del estilo de XML, puesto que empiezan por \texttt{<}, tienen uno o más (\emph{+}) caracteres que \emph{no} (\texttt{\^}) son \texttt{>}, y acaban con \texttt{>}. Para saber más sobre expresiones regulares podéis consultar la página de la Wikipedia \url{https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular}
+< .
+---
+> \paragraph{Sobre la búsqueda de palabras.} Algunos procesadores de textos permiten buscar usando las llamadas \emph{expresiones regulares}, que permiten, mediante caracteres especiales llamados \emph{comodines} (inglés \emph{wildcards}), buscar todas las palabras y todas las porciones de texto que siguen un patrón determinado. Por ejemplo, una búsqueda con la expresión regular \texttt{pres*a} encontraría las palabras \emph{prea}, \emph{presa}, \emph{pressa}, \emph{presssa}, etc., o la expresión regular \texttt{<[\^{}>]+>} que encontraría todas las etiquetas del estilo de XML, puesto que empiezan por \texttt{<}, tienen uno o más (\emph{+}) caracteres que \emph{no} (\texttt{\^}) son \texttt{>}, y acaban con \texttt{>}. Para saber más sobre expresiones regulares podéis consultar la página de la Wikipedia \url{https://es.wikipedia.org/wiki/Expresi 
+> 
+> %C3%B3_regular}.
+352,378c269,271
+< Las hojas de estilo CSS asignan características de presentación a cada
+< elemento del documento. Por ejemplo, la orden CSS 
+< \begin{verbatim}
+< h2 {   display : block ;
+<        font-size : large ;
+<        font-family : sans-serif ;
+<        text-align : left ;
+<        margin-top: 0.2cm ;
+<        margin-bottom : 0.2cm ; }
+< \end{verbatim}
+< indica que todos los encabezamientos de segundo nivel (\texttt{h2}) de (X)HTML se visualizan (\texttt{display}) como bloques de texto separado (\texttt{block}), con un tamaño de letra (\texttt{font-size}) grande (\texttt{large}) de la familia \emph{sans serif}, alineado (\texttt{text-align}) a la izquierda, y con márgenes superior e inferior de 0,2 cm. 
+< 
+< Las hojas de estilo se pueden usar también para visualizar documentos
+< XML directamente en los navegadores más recientes. Por ejemplo,
+< podemos hacer que la presentación visual del mensaje de correo
+< electrónico de la figura~\ref{fg:faxXML} tenga un encabezamiento con
+< el texto ``\emph{Mensaje de correo}'' centrado, grande y en negritas
+< con esta orden CSS (con comentarios entre \texttt{/*} y  \texttt{*/}): 
+< \begin{verbatim}
+< EMAIL:before {                     /*Antes del EMAIL*/
+<    content : "Mensaje de correo" ; /*El texto deseado*/
+<    display : block ;               /*como un bloque*/
+<    font-weight : bold ;            /*en negrita*/
+<    text-align : center ;           /*centrado */
+<    font-size : x-large ;           /*y con letra extragrande*/
+< }
+< \end{verbatim}
+---
+> Las hojas de estilo CSS asignan características de presentación a cada elemento del documento. Por ejemplo, la orden CSS \begin{verbatim} h2 { display : block ; font-size : large ; font-family : sans-serif ; text-align : left ; margin-top: 0.2cm ; margin-bottom : 0.2cm ; } \end{verbatim} indica que todos los encabezamientos de segundo nivel (\texttt{h2}) de (X)HTML se visualizan (\texttt{display}) como bloques de texto separado (\texttt{block}), con un tamaño de letra (\texttt{font-size}) grande (\texttt{large}) de la familia \emph{sans serif}, alineado (\texttt{text-align}) a la izquierda, y con márgenes superior e inferior de 0,2 cm. 
+> 
+> Las hojas de estilo se pueden usar también para visualizar documentos XML directamente en los navegadores más recientes. Por ejemplo, podemos hacer que la presentación visual del mensaje de correo electrónico de la figura~\ref{fg:faxXML} tenga un encabezamiento con el texto ``\emph{Mensaje de correo}'' centrado, grande y en negritas con esta orden CSS (con comentarios entre \texttt{/*} y  \texttt{*/}): \begin{verbatim} EMAIL:before { /*Antes del EMAIL*/ content : "Mensaje de correo" ; /*El texto deseado*/ display : block ; /*como un bloque*/ font-weight : bold ; /*en negrita*/ text-align : center ; /*centrado */ font-size : x-large ; /*y con letra extra-grande*/ } \end{verbatim} 
+390c283
+< \begin{figure} \centering \setlength{\unitlength}{1cm} \begin{picture}(11,6)(0,1.5) \put(0,1){\makebox(3,2){\sf Fichero de sonido}} \put(4,1){\makebox(3,2){\sf Documento Braille}} \put(8,1){\makebox(3,2){\sf Documento para móviles}} \put(1.5,2.6){\makebox(0,0){\LARGE \twonotes}} \put(5.5,2.6){\makebox(0,0){\LARGE \Printer}} \put(9.5,2.6){\makebox(0,0){\LARGE \Mobilefone}} \put(0,4){\framebox(3,1){\sf Hoja de estilo 1}} \put(4,4){\framebox(3,1){\sf Hoja de estilo 2}} \put(8,4){\framebox(3,1){\sf Hoja de estilo 3}} \put(4,6){\makebox(3,2){\sf Documento XML}} \put(5.5,6.5){\line(0,-1){0.75}} \put(1.5,5.75){\line(1,0){8}} \put(1.5,5.75){\vector(0,-1){0.5}} \put(5.5,5.75){\vector(0,-1){0.5}} \put(9.5,5.75){\vector(0,-1){0.5}} \put(1.5,4){\vector(0,-1){1}} \put(5.5,4){\vector(0,-1){1}} \put(9.5,4){\vector(0,-1){1}} \end{picture} \caption{Obtención de tres presentaciones diferentes de un único documento XML mediante hojas de estilo.} \label{fg:braille} \end{figure} 
+---
+> \begin{figure} \centering \setlength{\unitlength}{1cm} \begin{picture}(11,6)(0,1.5) \put(0,1){\makebox(3,2){\sf Fitxer de so}} \put(4,1){\makebox(3,2){\sf Document Braille}} \put(8,1){\makebox(3,2){\sf Document per a mòbils}} \put(1.5,2.6){\makebox(0,0){\LARGE \twonotes}} \put(5.5,2.6){\makebox(0,0){\LARGE \Printer}} \put(9.5,2.6){\makebox(0,0){\LARGE \Mobilefone}} \put(0,4){\framebox(3,1){\sf Full d'estil 1}} \put(4,4){\framebox(3,1){\sf Full d'estil 2}} \put(8,4){\framebox(3,1){\sf Full d'estil 3}} \put(4,6){\makebox(3,2){\sf Document XML}} \put(5.5,6.5){\line(0,-1){0.75}} \put(1.5,5.75){\line(1,0){8}} \put(1.5,5.75){\vector(0,-1){0.5}} \put(5.5,5.75){\vector(0,-1){0.5}} \put(9.5,5.75){\vector(0,-1){0.5}} \put(1.5,4){\vector(0,-1){1}} \put(5.5,4){\vector(0,-1){1}} \put(9.5,4){\vector(0,-1){1}} \end{picture} \caption{Obtención de tres presentaciones diferentes de un único documento XML mediante hojas de estilo.} \label{fg:braille} \end{figure} 
+426,432c319
+< \item Si en una DTD encontramos las reglas 
+< \begin{verbatim} 
+< <!ELEMENT taula (capçalera?,fila+)> 
+< <!ELEMENT fila (casella*)> 
+< <!ELEMENT casella (#PCDATA|taula)*> 
+< \end{verbatim}
+< ¿cuál de las tres situaciones siguientes es válida de acuerdo con esta DTD? \begin{enumerate} \item \verb|<taula></taula>| \item \verb|<taula><fila><casella>zz<taula><fila></fila></taula>zz| \verb|</casella><fila></taula>| \item \verb|<taula><fila><casella>zz</casella><casella>ww</casella>| \verb|</fila></taula>| \end{enumerate} 
+---
+> \item Si en una DTD encontramos las reglas \begin{verbatim} <!ELEMENT taula (capçalera?,fila+)> <!ELEMENT fila (casella*)> <!ELEMENT casella (#PCDATA|taula)*> \end{verbatim}, ¿cuál de las tres situaciones siguientes es válida de acuerdo con esta DTD? \begin{enumerate} \item \verb|<taula></taula>| \item \verb|<taula><fila><casella>zz<taula><fila></fila></taula>zz| \verb|</casella><fila></taula>| \item \verb|<taula><fila><casella>zz</casella><casella>ww</casella>| \verb|</fila></taula>| \end{enumerate} 
+442c329
+< \item Estamos en Eslovaquia, donde se usa la codificación de caracteres ISO-8859-2 (\emph{Latin-2}). Desde Alacant, nos envían un documento de texto plano, escrito con la codificación ISO-8859-1 (\emph{Latin-1}) y lo abrimos como si fuera ISO-8859-2 (\emph{Latin-2}). ¿Qué pasa? \begin{enumerate} \item No vemos bien ninguna letra: todo son símbolos extraños e ininteligibles. \item Vemos bien todas las letras excepto las acentuadas, las que llevan diéresis, la  \emph{ñ} o la \emph{ç}: en su lugar aparecen otros símbolos o letras típicas de las lenguas de Europa del Este. \item Vemos bien todas las letras excepto las acentuadas, las que llevan diéresis, la \emph{ñ} o la \emph{ç}: en su lugar aparecen las versiones sin acento, la  \emph{n}  o la \emph{c}. \end{enumerate} 
+---
+> \item Estamos en Eslovaquia, donde se usa la codificación de caracteres ISO-8859-2 (\emph{Latin-2}). Desde Alacant, nos envían un documento de texto plano, escrito con la codificación ISO-8859-1 (\emph{Latin-1}) y lo abrimos como si fuera ISO-8859-2 (\emph{Latin-2}). ¿Qué pasa? \begin{enumerate} \item No vemos bien ninguna letra: todo son símbolos extraños e ininteligibles. \item Vemos bien todas las letras excepto las acentuadas, las que llevan diéresis, la \emph{ñ} o la \emph{ç}: en su lugar aparecen otros símbolos o letras típicas de las lenguas de Europa del Este. \item Vemos bien todas las letras excepto las acentuadas, las que llevan diéresis, la \emph{ñ} o la \emph{ç}: en su lugar aparecen las versiones sin acento, la  \emph{n}  o la \emph{c}. \end{enumerate} 
