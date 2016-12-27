@@ -5,3 +5,7 @@
 Ya hecho y revisado
 ------------------
 intro.tex
+ordinadors-programes.tex
+internet.tex
+textos-formats.tex
+bases-dades.tex
