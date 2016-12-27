@@ -1,0 +1,51 @@
+97a98
+> 
+151,196c152
+< He aquí un ejemplo de documento TBX: 
+< \begin{alltt}
+< <?xml version='1.0'?>
+< <!DOCTYPE martif SYSTEM  "./TBXcoreStructureDTD-v-1-0.DTD">
+< <\textbf{martif} type='TBX' xml:lang='en' >
+<  <\textbf{martifHeader}>
+<   <\textbf{fileDesc}>
+<    <\textbf{sourceDesc}>
+<     <\textbf{p}>from an Oracle corporation termBase</\textbf{p}>
+<    </\textbf{sourceDesc}>
+<   </\textbf{fileDesc}>
+<   <\textbf{encodingDesc}>
+<    <\textbf{p} type='DCSName'>TBXdefaultXCS-v-1-0.XML</\textbf{p}>
+<   </\textbf{encodingDesc}>
+<  </\textbf{martifHeader}>
+<  <\textbf{text}> 
+<   <\textbf{body}>
+<     <\textbf{termEntry} id='eid-Oracle-67'>
+<       <\textbf{descrip} type='subjectField'>
+<         manufacturing
+<       </\textbf{descrip}>
+<       <\textbf{descrip} type='definition'>
+<         A value between 0 and 1 used in ...
+<       </\textbf{descrip}>
+<       <\textbf{langSet} xml:lang='en'>
+<        <\textbf{tig}>
+<         <\textbf{term} tid='tid-Oracle-67-en1'>
+<           alpha smoothing factor
+<         </\textbf{term}>
+<         <\textbf{termNote} type='termType'>
+<           fullForm
+<         </\textbf{termNote}>
+<        </\textbf{tig}>
+<       </\textbf{langSet}>
+<       <\textbf{langSet} xml:lang='hu'>
+<         <\textbf{tig}>
+<          <\textbf{term} tid='tid-Oracle-67-hu1'>
+<            Alfa sim&#x00ED;t&#x00E1;si t&#x00E9;nyez&#x0151; 
+<          </\textbf{term}>
+<         </\textbf{tig}>
+<       </\textbf{langSet}>
+<     </\textbf{termEntry}>
+<   </\textbf{body}> 
+<  </\textbf{text}>
+< </\textbf{martif}>
+< \end{alltt}
+---
+> He aquí un ejemplo de documento TBX: \begin{alltt} <?xml version='1.0'?> <!DOCTYPE martif SYSTEM "./TBXcoreStructureDTD-v-1-0.DTD"> <\textbf{martif} type='TBX' xml:lang='en' > <\textbf{martifHeader}> <\textbf{fileDesc}> <\textbf{sourceDesc}> <\textbf{p}>from an Oracle corporation termBase</\textbf{p}> </\textbf{sourceDesc}> </\textbf{fileDesc}> <\textbf{encodingDesc}> <\textbf{p} type='DCSName'>TBXdefaultXCS-v-1-0.XML</\textbf{p}> </\textbf{encodingDesc}> </\textbf{martifHeader}> <\textbf{text}> <\textbf{body}> <\textbf{termEntry} id='eid-Oracle-67'> <\textbf{descrip} type='subjectField'> manufacturing </\textbf{descrip}> <\textbf{descrip} type='definition'> A value between 0 and 1 used in ... </\textbf{descrip}> <\textbf{langSet} xml:lang='en'> <\textbf{tig}> <\textbf{term} tid='tid-Oracle-67-en1'> alpha smoothing factor </\textbf{term}> <\textbf{termNote} type='termType'> fullForm </\textbf{termNote}> </\textbf{tig}> </\textbf{langSet}> <\textbf{langSet} xml:lang='hu'> <\textbf{tig}> <\textbf{term} tid='tid-Oracle-67-hu1'> Alfa sim&#x00ED;t&#x00E1;si t&#x00E9;nyez&#x0151; </\textbf{term}> </\textbf{tig}> </\textbf{langSet}> </\textbf{termEntry}> </\textbf{body}> </\textbf{text}> </\textbf{martif}> \end{alltt} 
