@@ -9,3 +9,4 @@ ordinadors-programes.tex
 internet.tex
 textos-formats.tex
 bases-dades.tex
+ambiguitat.tex
