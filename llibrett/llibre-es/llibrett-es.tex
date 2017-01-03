@@ -14,7 +14,9 @@
 % Per als símbols del gràfic de fulls d'estil:
 \usepackage{marvosym} \usepackage{wasysym} \usepackage{parsetree} \usepackage{graphicx} 
 
-\usepackage{natbib} \usepackage[framemethod=TikZ]{mdframed} \bibpunct{(}{)}{;}{a}{}{,} 
+\usepackage{natbib}
+
+\usepackage[framemethod=TikZ]{mdframed} \bibpunct{(}{)}{;}{a}{}{,} 
 \usepackage{subfigure} 
 
 \newcommand{\comprof}[1]{ \begin{quote} \begin{sf} #1 \end{sf} \end{quote} } 
@@ -115,9 +117,9 @@
 
 \include{tecniques-traduccio-automatica} 
 
-%\newpage
+\newpage
 
-%\include{avaluacio-traduccio-automatica} 
+\include{avaluacio-traduccio-automatica} 
 
 \newpage
 
@@ -125,9 +127,9 @@
 
 \appendix
 
-%\newpage
+\newpage
 
-%\include{problematica-ta-es-ca} 
+\include{problematica-ta-es-ca} 
 
 %\newpage
 %\include{experiencies-ta-es-ca} % serà inclòs en l'anterior, que canviarà de nom
@@ -135,6 +137,7 @@
 
 \backmatter
 
-\bibliographystyle{apalikecat} \bibliography{llibrett} 
+\bibliographystyle{apalikespa} 
+\bibliography{llibrett} 
 
 \end{document} 
