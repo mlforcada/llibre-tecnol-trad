@@ -1,0 +1,68 @@
+41,48c41
+< El alineamiento automático de textos traducidos no es una tarea sencilla; son necesarios conocimientos previos sobre las lenguas involucradas (por ejemplo, correspondencias entre palabras o alineamientos previamente validados por una persona experta\footnote{U obtenido mediante métodos estadísticos como los descritos en el apartado~\ref{ss:induc}.}), por eso, la mayoría de los sistemas de memorias de traducción usan mecanismos muy sencillos para segmentar los textos, tanto para alinear bitextos como para dividir un texto izquierdo nuevo en segmentos para buscarlos en la base de datos.\footnote{Es importante usar el mismo método para segmentar el bitexto antes de alinearlo y para segmentar el nuevo texto izquierdo a traducir.} Por tanto, los segmentos obtenidos no son en general los \emph{ideales} (véase más abajo). Los mecanismos de segmentación usuales intentan identificar unidades similares a la oración usando la puntuación y el formato como indicadores, con la idea de que el número de oraciones será básicamente el mismo en el texto derecho y el izquierdo. Sin embargo, esto puede fallar dado que, al contrario de lo que podría parecer, no es nada sencillo distinguir cuando un punto representa el final de una oración: 
+< \begin{verbatim} 
+<      [...] muy  tarde.   Después fueron [...] 
+<      [...] por CC.OO.    Los de UGT no [...]
+<      [...] por CC.OO.    y por UGT [...] 
+<      [...] para el Sr.   Martínez [...] 
+< \end{verbatim} 
+< En los dos primeros casos el punto es el final de la oración pero en los dos últimos no. Hay que definir claramente las reglas de segmentación; los programas de memorias de traducción suelen permitir que el usuario modifique o refine estas reglas. De hecho, hay un formato XML estándar para especificar e intercambiar reglas de segmentación, llamado SRX\footnote{\url{http://www.unicode.org/uli/pas/srx/srx20.html}} (\emph{segmentation rules exchange}). 
+---
+> El alineamiento automático de textos traducidos no es una tarea sencilla; son necesarios conocimientos previos sobre las lenguas involucradas (por ejemplo, correspondencias entre palabras o alineamientos previamente validados por una persona experta\footnote{U obtenido mediante métodos estadísticos como los descritos en el apartado~\ref{ss:induc}.}), por eso, la mayoría de los sistemas de memorias de traducción usan mecanismos muy sencillos para segmentar los textos, tanto para alinear bitextos como para dividir un texto izquierdo nuevo en segmentos para buscarlos en la base de datos.\footnote{Es importante usar el mismo método para segmentar el bitexto antes de alinearlo y para segmentar el nuevo texto izquierdo a traducir.} Por tanto, los segmentos obtenidos no son en general los \emph{ideales} (véase más abajo). Los mecanismos de segmentación usuales intentan identificar unidades similares a la oración usando la puntuación y el formato como indicadores, con la idea de que el número de oraciones será básicamente el mismo en el texto derecho y el izquierdo. Sin embargo, esto puede fallar dado que, al contrario de lo que podría parecer, no es nada sencillo distinguir cuando un punto representa el final de una oración: \begin{verbatim} [...] muy tarde. Después fueron [...] [...] por CC.OO. Los de UGT no  [...] [...] por CC.OO. y por UGT [...] [...] para el Sr. Martínez [...] \end{verbatim} En los dos primeros casos el punto es el final de la oración pero en los dos últimos no. Hay que definir claramente las reglas de segmentación; los programas de memorias de traducción suelen permitir que el usuario modifique o refine estas reglas. De hecho, hay un formato XML estándar para especificar e intercambiar reglas de segmentación, llamado SRX\footnote{\url{http://www.unicode.org/uli/pas/srx/srx20.html}} (\emph{segmentation rules exchange}). 
+78c71
+< Tanto en el caso interactivo como en el de la pretraducción, quién traduce ha de acabar la traducción. El proceso se muestra en la figura~\ref{fg:preMT}. \begin{figure} {\small $$ \begin{array}{rcl} \mbox{\parbox{1.5cm}{\textsf{texto izquierdo}}} \to\mbox{\framebox{\textsf{segmentación}}} \to &\mbox{\framebox{\parbox{2.0cm}{\textsf{concordancia y selección de propuestas}}}} &\to \mbox{\framebox{\textsf{postedición}}} \to \mbox{\parbox{1.5cm}{\textsf{texto derecho traducido y segmentado}}} \\[0.8cm] &\uparrow \downarrow \mbox{\textsf{UTs}}& \\[0.5cm] &\mbox{\framebox{\parbox{1.9cm}{\textsf{Memoria de traducción}}}} &\\ \end{array} $$ } \caption{Esquema del proceso de pretraducción de un nuevo texto izquierdo utilizando una memoria de traducción.} \label{fg:preMT} \end{figure} 
+---
+> Tanto en el caso interactivo como en el de la pretraducción, quién traduce ha de acabar la traducción. El proceso se muestra en la figura~\ref{fg:preMT}. \begin{figure} {\small $$ \begin{array}{rcl} \mbox{\textsf{texto izquierdo}} \to\mbox{\framebox{\textsf{segmentación}}} \to &\mbox{\framebox{\parbox{1.9cm}{\textsf{concordancia y selección de propuestas}}}} &\to \mbox{\framebox{\textsf{postedición}}} \to \mbox{\parbox{1.4cm}{\textsf{texto derecho traducido y segmentado}}} \\[0.8cm] &\uparrow \downarrow \mbox{\textsf{UTs}}& \\[0.5cm] &\mbox{\framebox{\parbox{1.9cm}{\textsf{Memoria de traducción}}}} &\\ \end{array} $$ } \caption{Esquema del proceso de pretraducción de un nuevo texto izquierdo utilizando una memoria de traducción.} \label{fg:preMT} \end{figure} 
+123,172c116
+< \begin{figure}
+< \begin{center}
+< \begin{alltt}
+< <?xml version='1.0' encoding='ISO-8859-1' ?>
+< <!DOCTYPE tmx SYSTEM 'tmx13.dtd'>
+< <\textbf{tmx} version='1.3'>
+<  <\textbf{header} creationtool='Waikoloa' 
+<                   creationtoolversion='1.00'
+<                   datatype='plaintext'
+<                   segtype='paragraph'
+<                   adminlang='EN-US'
+<                   srclang='EN-US'
+<                   o-tmf='okLiteTM'>
+<  </\textbf{header}>
+<  <\textbf{body}>
+<  <!-- ... -->
+<    <\textbf{tu} tuid='511'>
+<    <\textbf{prop} type='tmkey'>a thesaurus error occurred word 
+<    is ending the current session</\textbf{prop}>
+<    <\textbf{tuv} xml:lang='EN-US'> 
+<     <\textbf{seg}>A thesaurus error occurred. Word is ending 
+<     the current session.</\textbf{seg}>
+<    </\textbf{tuv}>
+<    <\textbf{tuv} xml:lang='FR-FR'> 
+<     <\textbf{seg}>Une erreur s'est produite pendant l'exécution 
+<     du dictionnaire des synonymes. Word met fin à la 
+<     session en cours.</\textbf{seg}>
+<    </\textbf{tuv}>
+<   </\textbf{tu}>
+<   <\textbf{tu} tuid='512'>
+<    <\textbf{prop} type='tmkey'>a thumbnail preview is not 
+<     available for this file</\textbf{prop}>
+<    <\textbf{tuv} xml:lang='EN-US'>
+<     <\textbf{seg}>A thumbnail preview is not available for
+<          this file.</\textbf{seg}>
+<    </\textbf{tuv}>
+<    <\textbf{tuv} xml:lang='FR-FR'>
+<     <\textbf{seg}>Il n'y a pas d'aperçu disponible pour
+<          cette image.</\textbf{seg}>
+<    </\textbf{tuv}>
+<   </\textbf{tu}>
+<   <!-- ... -->
+< </\textbf{body}>
+< </\textbf{tmx}>
+< \end{alltt}
+< \end{center}
+< \caption{Ejemplo de memoria de traducción en TMX; sólo se muestran dos
+<   unidades de traducción.}
+< \label{fg:tmx}
+< \end{figure}
+---
+> \begin{figure} \begin{center} \begin{alltt} <?xml version='1.0' encoding='ISO-8859-1' ?> <!DOCTYPE tmx SYSTEM 'tmx13.dtd'> <\textbf{tmx} version='1.3'> <\textbf{header} creationtool='Waikoloa' creationtoolversion='1.00' datatype='plaintext' segtype='paragraph' adminlang='EN-US' srclang='EN-US' o-tmf='okLiteTM'> </\textbf{header}> <\textbf{body}> <!-- ... --> <\textbf{tu} tuid='511'> <\textbf{prop} type='tmkey'>a thesaurus error occurred word is ending the current session</\textbf{prop}> <\textbf{tuv} xml:lang='EN-US'> <\textbf{seg}>A thesaurus error occurred. Word is ending the current session.</\textbf{seg}> </\textbf{tuv}> <\textbf{tuv} xml:lang='FR-FR'> <\textbf{seg}>Une erreur s'est produite pendant l'exécution du dictionnaire des synonymes. Word met fin à la session en cours.</\textbf{seg}> </\textbf{tuv}> </\textbf{tu}> <\textbf{tu} tuid='512'> <\textbf{prop} type='tmkey'>a thumbnail preview is not available for this file</\textbf{prop}> <\textbf{tuv} xml:lang='EN-US'> <\textbf{seg}>A thumbnail preview is not available for this file.</\textbf{seg}> </\textbf{tuv}> <\textbf{tuv} xml:lang='FR-FR'> <\textbf{seg}>Il n'y a pas d'aperçu disponible pour cette image.</\textbf{seg}> </\textbf{tuv}> </\textbf{tu}> <!-- ... --> </\textbf{body}> </\textbf{tmx}> \end{alltt} \end{center} \caption{Ejemplo de memoria de traducción en TMX; sólo se muestran dos unidades de traducción.} \label{fg:tmx} \end{figure} 
