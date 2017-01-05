@@ -1,6 +1,3 @@
-- Arreglar bibiligrafía (aparece en catalán)
-
-
 
 Ya hecho y revisado
 ------------------
@@ -10,3 +7,4 @@ internet.tex
 textos-formats.tex
 bases-dades.tex
 ambiguitat.tex
+usos-traduccio-automatica.tex
