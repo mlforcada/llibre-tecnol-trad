@@ -1,11 +1,64 @@
-140,196c140,143
+137,284c137,147
+< \begin{figure}
+< \textsf{
+< \begin{center}
+< TEXTO ORIGEN: \\
+< \textsl{\ldots the complex situations \ldots} \\
+< $\downarrow$ \\ 
+< \parbox{10cm}{\hfill \textbf{ANÁLISIS}}
+< \framebox{\parbox{10cm}{
+< \begin{center}
+< $\downarrow$ \\
+< \framebox{\textbf{Análisis morfológico}} \\
+< $\downarrow$ \\
+< \texttt{\ldots} , \\
+< \texttt{det[lema="the"],} \\
+< \texttt{n[lema="{}complex", num="sg"] + adj[lema="{}complex"],} \\
+< \texttt{n[lema="situation", num="pl"], }\\
+< \texttt{\ldots} \\
+< $\downarrow$ \\
+< \framebox{\parbox{9cm}{\begin{center}
+<           \textbf{Desambiguación categorial}\\
+<           Reglas: \\
+<           \ldots \\
+<           \framebox{\parbox{7cm}{
+<            $$\mbox{det} \left\{ \begin{array}{c}\mbox{n} \\
+<                 \mbox{adj}\end{array}\right\} \mbox{n} \rightarrow
+<             \mbox{det}\; \mbox{adj}\; \mbox{n}$$}} \\
+<           \ldots \\
+<           \end{center} 
+<           }} \\
+< $\downarrow$ 
+< \end{center}
+< }
+< } \\
+< $\downarrow$ \\
+< \textbf{Representación abstracta del texto origen:} \\
+< \texttt{\ldots} , \\
+< \texttt{det[lema="the"],} \\
+< \texttt{adj[lema="{}complex"],} \\
+< \texttt{n[lema="situation", num="pl"], }\\
+< \texttt{\ldots} \\
+< \end{center}
+< }%textsf
+< \caption{Fase
+<     de análisis de un sistema sencillo de transferencia morfológica
+<     avanzada. El segmento de texto \emph{the complex situations}
+<     contiene la palabra \emph{complex} que puede ser un adjetivo
+<     (\textsf{adj}) o un sustantivo (\textsf{n}); entre las reglas del
+<     desambiguador categorial hay una regla que en este caso asigna la
+<     categoría de adjetivo cuando va entre un determinante y un
+<     sustantivo.} 
+< \label{fg:tmaa} 
+< \end{figure}
+< 
 < \begin{figure}
 < \textsf{
 < \begin{center}
 < \textbf{Representación abstracta del texto origen:} \\
 < \texttt{\ldots} , \\
 < \texttt{art[lema="the"],} \\
-< \texttt{adj[lema="complex"],} \\
+< \texttt{adj[lema="{}complex"],} \\
 < \texttt{n[lema="situation", num="pl"], }\\
 < \texttt{\ldots} \\
 < $\downarrow$ \\ 
@@ -15,11 +68,11 @@
 < \framebox{\parbox{9cm}{
 < \begin{center}
 < \textbf{Transferencia léxica:}\\
-< diccionari bilingüe \\
+< diccionario bilingüe \\
 < \ldots \\
-< complex \textbf{adj} $\rightarrow$ complex \textbf{adj} \\
+< complex \textbf{adj} $\rightarrow$ complejo \textbf{adj} \\
 < \ldots \\
-< situation \textbf{n} $\rightarrow$ situació \textbf{n}, \texttt{gen=f} \\
+< situation \textbf{n} $\rightarrow$ situación \textbf{n}, \texttt{gen=f} \\
 < \ldots \\
 < the \textbf{det} $\rightarrow$ el \textbf{det} \\
 < \ldots \\
@@ -50,19 +103,151 @@
 < $\downarrow$ \\
 < \textbf{Representación abstracta del texto meta}: \\
 < \texttt{\ldots} , \\
-< \texttt{det[lema="el", num="pl", gen="f"],} \\
-< \texttt{adj[lema="{}complex", num="pl", gen="f"],} \\
-< \texttt{n[lema="situació", num="pl", gen="f"], }\\
+< \texttt{det[lema="{}el", num="pl", gen="f"],} \\
+< \texttt{adj[lema="{}complejo", num="pl", gen="f"],} \\
+< \texttt{n[lema="situación", num="pl", gen="f"], }\\
 < \texttt{\ldots} 
 < \end{center}
+< }%textsf
+< \caption{Fase de transferencia de un sistema sencillo de
+<     transferencia morfológica avanzada con reglas de transferencia
+<     estructural que realizan el reordenamiento y aseguran la
+<     concordancia, entre las cuales hay una regla para reordenar la
+<     secuencia determinante--adjetivo--sustantivo y asegurar la
+<     concordancia de género y número en la lengua
+<     meta.} 
+< \label{fg:tmat} 
+< \end{figure}
+< 
+< \begin{figure}
+< \textsf{
+< \begin{center}
+< \textbf{Representación abstracta del texto meta:} \\
+< \texttt{\ldots} , \\
+< \texttt{det[lema="{}el", num="pl", gen="f"],} \\
+< \texttt{adj[lema="{}complejo", num="pl", gen="f"],} \\
+< \texttt{n[lema="situación", num="pl", gen="f"], }\\
+< \texttt{\ldots} 
+< $\downarrow$ \\
+< \parbox{10cm}{\hfill \textbf{GENERACIÓN}}
+< \framebox{\parbox{10cm}{
+< \begin{center}
+< \framebox{\parbox{9cm}{
+< \textbf{Generación morfológica}
+< }}
+< \end{center}
+< }} \\
+< $\downarrow$ \\
+< \textbf{Text meta}: \\
+< \textsl{\ldots las situaciones complejas \ldots}
+< \end{center}
 < }
+< \caption{Fase de generación de un
+<       sistema sencillo de transferencia morfológica avanzada.
+<     } 
+< \label{fg:tmag} 
+< \end{figure}
 ---
-> \begin{figure} \textsf{ \begin{center} \textbf{Representación abstracta del texto origen:} \\ \texttt{\ldots} , \\ \texttt{art[lema="the"],} \\ \texttt{adj[lema="complex"],} \\ \texttt{n[lema="situation", num="pl"], }\\ \texttt{\ldots} \\ $\downarrow$ \\ \parbox{10cm}{\hfill \textbf{TRANSFERENCIA}} \framebox{\parbox{10cm}{ \begin{center} \framebox{\parbox{9cm}{ \begin{center} \textbf{Transferencia léxica:}\\ diccionario bilingüe \\ \ldots \\ complex \textbf{adj} $\rightarrow$ complex \textbf{adj} \\ \ldots \\ situation \textbf{n} $\rightarrow$ situación \textbf{n}, \texttt{gen=f} \\ \ldots \\ the \textbf{det} $\rightarrow$ el \textbf{det} \\ \ldots \\ \end{center} }} \\[0.2cm] \framebox{\parbox{9cm}{ \begin{center} \textbf{Transferencia estructural}\\ (reglas de reordenamiento y concordancia) \\ \ldots \\[0.2cm] \framebox{\parbox{8cm}{ \begin{center} $\mbox{\textbf{det}}\;\mbox{\textbf{adj}}\;\mbox{\textbf{n}}\;\rightarrow\;\mbox{\textbf{det}}\;\mbox{\textbf{n}}\;\mbox{\textbf{adj}}$\\ Propaga \texttt{gen} de  \textbf{n} a \textbf{det}, \textbf{adj} \\ Propaga \texttt{num} de  \textbf{n} a \textbf{det}, \textbf{adj} \end{center} }}\\[0.2cm] \ldots
+> \begin{figure} \textsf{ \begin{center} TEXTO ORIGEN: \\ \textsl{\ldots the complex situations \ldots} \\ $\downarrow$ \\ \parbox{10cm}{\hfill \textbf{ANÁLISIS}} \framebox{\parbox{10cm}{ \begin{center} $\downarrow$ \\ \framebox{\textbf{Análisis morfológico}} \\ $\downarrow$ \\ \texttt{\ldots} , \\ \texttt{det[lema="the"],} \\ \texttt{n[lema="{}complex", nbr="sg"] + adj[lema="{}complex"],} \\ \texttt{n[lema="situation", num="pl"], }\\ \texttt{\ldots} \\ $\downarrow$ \\ \framebox{\parbox{9cm}{\begin{center} \textbf{Desambiguación categorial}\\ Reglas: \\ \ldots \\ \framebox{\parbox{7cm}{ $$\mbox{det} \left\{ \begin{array}{c}\mbox{n} \\ \mbox{adj}\end{array}\right\} \mbox{n} \rightarrow\mbox{det}\; \mbox{adj}\; \mbox{n}$$}} \\ \ldots \\ \end{center} }} \\ $\downarrow$ \end{center} } } \\ $\downarrow$ \\ \textbf{Representación abstracta del texto origen:} \\ \texttt{\ldots} , \\ \texttt{det[lema="the"],} \\ \texttt{adj[lema="{}complex"],} \\ \texttt{n[lema="situation", num="pl"], }\\ \texttt{\ldots} \\ \end{center} } \caption{Fase de análisis de un sistema sencillo de transferencia morfológica avanzada. El segmento de texto \emph{the complex situations} contiene la palabra \emph{complex} que puede ser un adjetivo (\textsf{adj}) o un sustantivo (\textsf{n}); entre las reglas del desambiguador categorial hay una regla que en este caso asigna la categoría de adjetivo cuando va entre un determinante y un sustantivo.} \label{fg:tmaa} \end{figure} 
 > 
-> \end{center} }} \\ \end{center} }} \\ $\downarrow$ \\ \textbf{Representación abstracta del texto meta}: \\ \texttt{\ldots} , \\ \texttt{det[lema="el", num="pl", gen="f"],} \\ \texttt{adj[lema="{}complex", num="pl", gen="f"],} \\ \texttt{n[lema="situación", num="pl", gen="f"], }\\ \texttt{\ldots} \end{center} } 
+> %textsf
+> \begin{figure} \textsf{ \begin{center} \textbf{Representación abstracta del texto origen:} \\ \texttt{\ldots} , \\ \texttt{art[lema="the"],} \\ \texttt{adj[lema={"}complex"],} \\ \texttt{n[lema="situation", num="pl"], }\\ \texttt{\ldots} \\ $\downarrow$ \\ \parbox{10cm}{\hfill \textbf{TRANSFERENCIA}} \framebox{\parbox{10cm}{ \begin{center} \framebox{\parbox{9cm}{ \begin{center} \textbf{Transferencia léxica:}\\ diccionario bilingüe \\ \ldots \\ complex \textbf{adj} $\rightarrow$ complex \textbf{adj} \\ \ldots \\ situation \textbf{n} $\rightarrow$ situación \textbf{n}, \texttt{gen=f} \\ \ldots \\ the \textbf{det} $\rightarrow$ el \textbf{det} \\ \ldots \\ \end{center} }} \\[0.2cm] \framebox{\parbox{9cm}{ \begin{center} \textbf{Transferencia estructural}\\ (reglas de reordenamiento y concordancia) \\ \ldots \\[0.2cm] \framebox{\parbox{8cm}{ \begin{center} $\mbox{\textbf{det}}\;\mbox{\textbf{adj}}\;\mbox{\textbf{n}}\;\rightarrow\;\mbox{\textbf{det}}\;\mbox{\textbf{n}}\;\mbox{\textbf{adj}}$\\ Propaga \texttt{gen} de  \textbf{n} a \textbf{det}, \textbf{adj} \\ Propaga \texttt{num} de  \textbf{n} a \textbf{det}, \textbf{adj} \end{center} }}\\[0.2cm] \ldots
 > 
-555,580c502,510
-< \item \label{ex:zkanagg} El software que llevan instalado las naves de la confederación galáctica incluye un programa que traduce una de las lenguas mayoritárias del planta Zkanagg, el tazkannwat, al catalán. El sistema es un sistema de transferencia morfológica avanczada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada. Algunas traducciones son erroneas porque el sistema no tiene un catálago demasiado completo de reglas.	  Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas.
+> \end{center} }} \\ \end{center} }} \\ $\downarrow$ \\ \textbf{Representación abstracta del texto meta}: \\ \texttt{\ldots} , \\ \texttt{det[lema={"}el", num="pl", gen="f"],} \\ \texttt{adj[lema="{}complex", num="pl", gen="f"],} \\ \texttt{n[lema="situación", num="pl", gen="f"], }\\ \texttt{\ldots} \end{center} } 
+> 
+> %textsf
+> \caption{Fase de transferencia de un sistema sencillo de transferencia morfológica avanzada con reglas de transferencia estructural que realizan el reordenamiento y aseguran la concordancia, entre las cuales hay una regla para reordenar la secuencia determinante--adjetivo--sustantivo y asegurar la concordancia de género y número en la lengua meta.} \label{fg:tmat} \end{figure} 
+> 
+> \begin{figure} \textsf{ \begin{center} \textbf{Representación abstracta del texto meta:} \\{ \texttt{\ldots} , \\ \texttt{det[lema={"}el", num="pl", gen="f"],} \\ \texttt{adj[lema="{}complex", num="pl", gen="f"],} \\ \texttt{n[lema="situació", num="pl", gen="f"], }\\ \texttt{\ldots} $\downarrow$ \\ \parbox{10cm}{\hfill \textbf{GENERACIÓN}} \framebox{\parbox{10cm}{ \begin{center} \framebox{\parbox{9cm}{ \textbf{Generación morfológica} }} \end{center} }} \\ $\downarrow$ \\ \textbf{Texto meta}: \\ \textsl{\ldots les situacions complexes \ldots} \end{center} } \caption{Fase de generación de un sistema sencillo de transferencia morfológica avanzada } \label{fg:tmag} \end{figure} 
+288c151
+< El \emph{análisis morfológico} es el proceso que determina, para cada palabra de un texto (forma \emph{superficial} o \emph{flexionada}) una o varias \emph{formas léxicas}, consistentes en una \emph{forma canónica} o \emph{lema} e información sobre la categoría léxica de la palabra y la flexión (véase la sección~\ref{ss:amblex}). La {\em generación} morfológica hace la operación inversa. Por ejemplo, el análisis morfológico de la forma superficial catalana \emph{vius} (ambigua) daría como resultado dos formas léxicas: \emph{viure}, verbo, presente de indicativo, 2ª persona del singular y \emph{viu}, adjetivo, masculino, plural, donde los lemas son, respectivamente, \emph{viure} y \emph{viu}. 
+---
+> El \emph{análisis morfológico} es el proceso que determina, para cada palabra de un texto (forma \emph{superficial} o \emph{flexionada}) una o varias \emph{formas léxicas}, consistentes en una \emph{forma canónica} o \emph{lema} e información sobre la categoría léxica de la palabra y la flexión (véase la sección~\ref{ss:amblex}). La {\em generación} morfológica hace la operación inversa. Por ejemplo, el análisis morfológico de la forma superficial catalana \emph{vius} (ambigua) daría como resultado dos formas léxicas: \emph{viure}, verbo, presente de indicativo, 2ª persona del singular y \emph{viu}, adjectivo, masculino, plural, donde los lemas son, respectivamente, \emph{viure} y \emph{viu}. 
+294,344c157
+< \begin{persabermes}{el análisis morfológico} Cuando los mecanismos de
+<   flexión de las lenguas son, como en la mayor parte de las lenguas
+<   indoeuropeas, por modificación de las terminaciones
+<   (\emph{desinencias}) de las palabras, un método atractivo consiste
+<   en procesar la forma superficial letra a letra de izquierda a
+<   derecha y producir la forma léxica incrementalmente, añadiendo a
+<   cada paso más información. Se asume que las primeras letras de la
+<   palabra son la \emph{raíz} y, por lo tanto, determinan el lema, y
+<   que las últimas letras determinan la forma gramatical. Imaginemos
+<   que seguimos este método con la palabra catalana
+<   \emph{angoixaven}: \begin{itemize} \item Cuando sólo hemos visto
+<     \emph{ang-} hay todavía muchas posibilidades: puede ser, entre
+<     otros, cualquier forma de las palabras \emph{angina},
+<     \emph{angle}, \emph{anglés}, \emph{angoixa}, \emph{angoixar},
+<     \emph{angost}, {\em anguila} y \emph{angula}. Como máximo, podemos
+<     decir que el lema empieza por {\tt ang}. \item Cuando hemos leído
+<     \emph{ango-} el abanico de posibilidades se hace reduce:
+<     puede ser una forma de \emph{angoixa}, de \emph{angoixar} o de
+<     \emph{angost}. Ya podemos decir que el lema empieza por {\tt
+<       ango}. \item Cuando hemos leído \emph{angoi-} ya sabemos que el
+<     lema es \emph{angoixar} o \emph{angoixa}, es decir, que comienza
+<     por {\tt angoixa}. \item Leer \emph{angoix-} o \emph{angoixa-} no
+<     nos permite determinar con seguridad más información sobre la
+<     forma léxica; en el caso de \emph{angoixa-} se pueden descartar
+<     algunas formas del verbo angoixar como \emph{angoixem} o
+<     \emph{angoixí}, pero todavía nos quedan muchas. Todavía puede ser
+<     nombre o verbo. \item Cuando hemos visto \emph{angoixav-} ya
+<     podemos decir que el lema es \emph{angoixar}, que se trata de un
+<     verbo, y que estamos, con tota seguridad, ante una forma del
+<     imperfecto de indicativo. El analizador ya puede decirnos
+<     \texttt{angoixar<verb><imp>}. \item Después de ver
+<     \emph{angoixave-} todavía no sabemos la persona del verbo (puede
+<     ser la segunda del singular o la tercera del plural). \item
+<     Finalmente, cuando vemos \emph{angoixaven} ya sabemos que es la
+<     tercera del plural. El analizador produce:
+<     \texttt{angoixar<verb><imp><3p><pl>}. \end{itemize} El proceso se
+<   puede resumir en el alineamiento siguiente: 
+< \begin{verbatim}
+< a n g o i   x a v            e n
+< a n g o ixa - - r<verb><imp> - <3p><pl>
+< \end{verbatim}
+< Si la forma superficial hubiera sido \emph{angostes}, todo el proceso
+< hasta \emph{ango-} habría sido idéntico. En el caso de {\em angoixem},
+< el proceso habría sido idéntico hasta {\em angoixe-}: 
+< \begin{verbatim}
+< a n g o i   x e m
+< a n g o ixa - - r<verb><presind><1p><pl>
+<                 r<verb><pressubj><1p><pl>
+<                 r<verb><imp><1p><pl> 
+< \end{verbatim}
+< En este último caso, la palabra tiene tres análisis morfológicos diferentes. Por otro lado, la parte final del proceso de \emph{angoixaven} y de \emph{cantaven} sería muy similar, ya que los dos verbos se conjugan según el mismo paradigma. 
+---
+> \begin{persabermes}{el análisis morfológico} Cuando los mecanismos de flexión de las lenguas son, como en la mayor parte de las lenguas indoeuropeas, por modificación de las terminaciones (\emph{desinencias}) de las palabras, un método atractivo consiste en procesar la forma superficial letra a letra de izquierda a derecha y producir la forma léxica incrementalmente, añadiendo a cada paso más información. Se asume que las primeras letras de la palabra son la \emph{raíz} y, por lo tanto, determinan el lema, y que las últimas letras determinan la forma gramatical. Imaginemos que seguimos este método con la palabra catalana \emph{angoixaven}: \begin{itemize} \item Cuando sólo hemos visto \emph{ang-} hay todavía muchas posibilidades: puede ser, entre otros, cualquier forma de las palabras \emph{angina}, \emph{angle}, \emph{anglés}, \emph{angoixa}, \emph{angoixar}, \emph{angost}, {\em anguila} y \emph{angula}. Como máximo, podemos decir que el lema empieza por {\tt ang}. \item Cuando hemos leído \emph{ango-} el abanico de posibilidades se reduce: puede ser una forma de \emph{angoixa}, de \emph{angoixar} o de \emph{angost}. Ya podemos decir que el lema empieza por {\tt ango}. \item Cuando hemos leído \emph{angoi-} ya sabemos que el lema es \emph{angoixar} o \emph{angoixa}, es decir, que comienza por {\tt angoixa}. \item Leer \emph{angoix-} o \emph{angoixa-} no nos permite determinar con seguridad más información sobre la forma léxica; en el caso de \emph{angoixa-} se pueden descartar algunas formas del verbo angoixar como \emph{angoixem} o \emph{angoixí}, pero todavía nos quedan muchas. Todavía puede ser  nombre o verbo. \item Cuando hemos visto \emph{angoixav-} ya podemos decir que el lema es \emph{angoixar}, que se trata de un verbo, y que estamos, con tota seguridad, ante una forma del imperfecto de indicativo. El analizador ya puede decirnos \texttt{angoixar<verb><imp>}. \item Después de ver \emph{angoixave-} todavía no sabemos la persona del verbo (puede ser la segunda del singular o la tercera del plural). \item Finalmente, cuando vemos \emph{angoixaven} ya sabemos que es la tercera del plural. El analizador produce: \texttt{angoixar<verb><imp><3p><pl>}. \end{itemize} El proceso se puede resumir en el alineamiento siguiente: \begin{verbatim} a n g o i x a v e n a n g o ixa - - r<verb><imp> - <3p><pl> \end{verbatim} Si la forma superficial hubiera sido \emph{angostes}, todo el proceso hasta \emph{ango-} habría sido idéntico. En el caso de {\em angoixem}, el proceso habría sido idéntico hasta {\em angoixe-}: \begin{verbatim}a n g o i x e m a n g o ixa - - r<verb><presind><1p><pl> r<verb><pressubj><1p><pl> r<verb><imp><1p><pl> \end{verbatim} En este último caso, la palabra tiene tres análisis morfológicos diferentes. Por otro lado, la parte final del proceso de \emph{angoixaven} y de \emph{cantaven} sería muy similar, ya que los dos verbos se conjugan según el mismo paradigma. 
+350c163
+< El grafo es \emph{acíclico} si, siguiendo las flechas, no se puede pasar dos veces por el mismo \emph{vértice}. El GDA de un analizador morfológico tiene un vértice inicial único (indicado con una flecha que no viene de ningún lugar y del cual sólo pueden salir flechas) que representa el estado inicial del analizador antes de empezar a leer una palabra. Los otros vértices representan el estado del analizador después de haber leído una o más letras. Las flechas que salen de un vértice cualquiera del grafo tienen dos etiquetas separadas por ``{\tt :}''. La primera (de entrada) indica la letra que se lee; la segunda (de salida) indica lo que se tiene que producir (cero, uno o más símbolos). Los estados finales (representados con dos círculos concéntricos) indican estados en los cuales el analizador determina que ha leído una forma superficial completa si no quedan más letras para leer; en algunos estados finales se escriben símbolos adicionales para completar el análisis y, en el caso de un homógrafo (ambigüedad léxica), todas las opciones. El analizador lee la forma superficial letra a letra, va de estado en estado, y va produciendo la forma léxica, hasta que lee toda la palabra; si llega a un estado final, acepta la palabra y  devuelve la forma léxica. En la figura anterior se puede ver una parte del analizador morfológico, correspondiendo a las palabras que empiezan por \emph{ang-}. En informática teórica, las máquinas idealizadas que representan esta clase de GDA se llaman \emph{transductores de estados finitos $p$-subsecuenciales sin ciclos}, donde $p$ indica el número de opciones posibles en los estados finales. Los \emph{generadores morfológicos} se pueden organizar de forma muy similar: leen símbolo a símbolo la forma léxica y producen la forma superficial. \end{persabermes} 
+---
+> El grafo es \emph{acíclico} si, siguiendo las flechas, no se puede pasar dos veces por el mismo \emph{vértice}. El GDA de un analizador morfológico tiene un vértice inicial único (indicado con una flecha que no viene de ningún lugar y del cual sólo pueden salir flechas) que representa el estado inicial del analizador antes de empezar a leer una palabra. Los otros vértices representan el estado del analizador después de haber leído una o más letras. Las flechas que salen de un vértice cualquiera del grafo tienen dos etiquetas separadas por ``{\tt :}''. La primera (de entrada) indica la letra que se lee; la segunda (de salida) indica lo que se tiene que producir (cero, uno o más símbolos). Los estados finales (representados con dos círculos concéntricos) indican estados en los cuales el analizador determina que ha leído una forma superficial completa si no quedan más letras para leer; en algunos estados finales se escriben símbolos adicionales para completar el análisis y, en el caso de un homógrafo (ambigüedad léxica), todas las opciones. El analizador lee la forma superficial letra a letra, va de estado en estado, y va produciendo la forma léxica, hasta que lee toda la palabra; si llega a un estado final, acepta la palabra y devuelve la forma léxica. En la figura anterior se puede ver una parte del analizador morfológico, correspondiendo a las palabras que empiezan por \emph{ang-}. En informática teórica, las máquinas idealizadas que representan esta clase de GDA se llaman \emph{transductores de estados finitos $p$-subsecuenciales sin ciclos}, donde $p$ indica el número de opciones posibles en los estados finales. Los \emph{generadores morfológicos} se pueden organizar de forma muy similar: leen símbolo a símbolo la forma léxica y producen la forma superficial. \end{persabermes} 
+358,377c171
+< Imaginemos el sintagma nominal siguiente en inglés: \emph{The old
+<   professor's smart girlfriend's red car}; el sintagma es demasiado
+< largo para la mayor parte de los programas de transferencia
+< morfológica, ya que involucra una secuencia demasiado larga de
+< reordenamiento. Si, en cambio, tenemos un sistema de TA por
+< transferencia sintáctica y suponemos que la gramática contiene las
+< reglas siguientes:\footnote{La sintaxis generativa actual (véase
+<   \cite{chomsky96b}, \cite{ramos92}) predice muchos aspectos de las
+<   lenguas naturales postulando la existencia de un conjunto de reglas
+<   universales muy sencillas o \emph{principios} con variaciones que en
+<   cada lengua están determinadas por \emph{parámetros}; la gramática
+<   que se considera en esta discusión no es, en principio, la postulada
+<   por esta formulación, sino una adecuada para la tarea concreta.} 
+< 
+< \begin{tabular}{l} $\mathrm{SN}\rightarrow \mathrm{SG}\;\mathrm{SN}$\\
+<   $\mathrm{SN} \rightarrow \mathrm{A}\;\mathrm{SN}$\\
+<   $\mathrm{SN}\rightarrow \mathrm{N}$\\ $\mathrm{SG}\rightarrow
+<   \mathrm{SN}\;\mathrm{GS}$\\ 
+< \end{tabular}\\ 
+< donde $\mathrm{SN}$ es un sintagma nominal, $\mathrm{SG}$ un ``sintagma de genitivo'', $\mathrm{A}$ un adjetivo, $\mathrm{N}$ un sustantivo y $\mathrm{GS}$ la partícula de genitivo sajón (\emph{'s}, \emph{'}). La estructura de este sintagma nominal se podría representar, usando un árbol de análisis sintáctico (sin tener en cuenta los determinantes, para simplificar) como se ve en la figura \ref{fg:arbre1}. \begin{figure} \begin{center} \begin{parsetree} (.SN. (.SG. (.SN. (.SG. (.SN. (.A. `old' ) (.SN. (.N. `professor' ) ) ) (.GS. `{'s}' ) ) (.SN. (.A. `smart') (.SN. (.N. `girlfriend' ) ) ) ) (.GS. `{'s}' ) ) (.SN. (.A. `red') (.SN. (.N. `car' ) ) ) ) \end{parsetree} \end{center} \caption{Árbol de análisis sintáctico del sintagma nominal \emph{The old professor's smart girlfriend's red car}.} \label{fg:arbre1} \end{figure} Un sistema de transferencia sintáctica del inglés al español podría usar dos reglas para transformar subárboles (partes del árbol), una para mover los adjetivos:\footnote{Evidentemente, no siempre se deben mover los adjetivos; la traducción correcta de \emph{the last car} es \emph{el último coche}, sin cambiar el orden. Un sistema real de transferencia sintáctica tendría que considerar estos casos de manera especial.} \begin{center} $R_1:$ \begin{parsetree} (.\textrm{SN}$_1$. `A' `SN$_2$' ) \end{parsetree} $\longrightarrow$ \begin{parsetree} (.SN$_1$. `SN$_2$' `A' ) \end{parsetree} \end{center} y otra para reordenar los sintagmas nominales que contienen un genitivo sajón: \begin{center} $R_2:$ \begin{parsetree} (.SN$_1$. (.SG. `SN$_2$' `GS' ) `SN$_3$' ) \end{parsetree} $\longrightarrow$ \begin{parsetree} (.SN$_1$. `SN$_3$' (.SP. (.P. `\textbf{de}' ) `SN$_2$' ) ) \end{parsetree} \end{center} La aplicación de la regla $R_2$ al $\mathrm{SN}$ en la raíz del árbol de análisis sintáctico de la frase da como resultado el árbol que se ve en la figura~\ref{fg:arbre2}. \begin{figure} \begin{center} \begin{parsetree} (.SN. (.SN. (.A. `red') (.SN. (.N. `car' ) ) ) (.SP. (.P. `de' ) (.SN. (.SG. (.SN. (.A. `old' ) (.SN. (.N. `professor' ) ) ) (.GS. `{'s}' ) ) (.SN. (.A. `smart') (.SN. (.N. `girlfriend' ) ) ) ) ) ) \end{parsetree} \end{center} \caption{Árbol de análisis sintáctico del sintagma \emph{The old professor's smart girlfriend's red car} después de aplicarle la regla $R_2$ al $\mathrm{SN}$ principal o raíz (véase el texto y la figura~\protect\ref{fg:arbre1}).} \label{fg:arbre2} \end{figure} Después sería necesario aplicar la regla $R_1$ al $\mathrm{SN}$ que genera \emph{red car}, después la regla $R_2$ al $\mathrm{SN}$ que genera \emph{old professor's smart girlfriend}, etc. El resultado final se muestra en la figura~\ref{fg:arbre3} \begin{figure} \begin{center} \begin{parsetree} (.SN. (.SN. (.SN. (.N. `car' ) ) (.A. `red') ) (.SP. (.P. `de' ) (.SN. (.SN. (.SN. (.N. `girlfriend' ) ) (.A. `smart') ) (.SP. (.P. `de' ) (.SN. (.SN. (.N. `professor' ) (.A. `old' ) ) ) ) ) ) ) \end{parsetree} \end{center} \caption{Árbol de análisis sintáctico del sintagma \emph{The old professor's smart girlfriend's red car} después de haber hecho todos los reordenamientos posibles con las reglas $R_1$ y $R_2$ (véase el texto y las figuras~\protect\ref{fg:arbre1} y \protect\ref{fg:arbre2}).} \label{fg:arbre3} \end{figure} y se corresponde con el árbol de análisis sintáctico de la traducción, \emph{El coche rojo de la amiga inteligente del profesor viejo}, que se podría generar directamente a partir del árbol. 
+---
+> Imaginemos el sintagma nominal siguiente en inglés: \emph{The old professor's smart girlfriend's red car}; el sintagma es demasiado largo para la mayor parte de los programas de transferencia morfológica, ya que involucra una secuencia demasiado larga de reordenamiento. Si, en cambio, tenemos un sistema de TA por transferencia sintáctica y suponemos que la gramática contiene las reglas siguientes:\footnote{La sintaxis generativa actual (véase \cite{chomsky96b}, \cite{ramos92}) predice muchos aspectos de las lenguas naturales postulando la existencia de un conjunto de reglas universales muy sencillas o \emph{principios} con variaciones que en cada lengua están determinadas por \emph{parámetros}; la gramática que se considera en esta discusión no es, en principio, la postulada por esta formulación, sino una adecuada para la tarea concreta.} \begin{tabular}{l} $\mathrm{SN}\rightarrow \mathrm{SG}\;\mathrm{SN}$\\ $\mathrm{SN} \rightarrow \mathrm{A}\;\mathrm{SN}$\\ $\mathrm{SN}\rightarrow \mathrm{N}$\\ $\mathrm{SG}\rightarrow \mathrm{SN}\;\mathrm{GS}$\\ \end{tabular}\\ donde $\mathrm{SN}$ es un sintagma nominal, $\mathrm{SG}$ un ``sintagma de genitivo'', $\mathrm{A}$ un adjetivo, $\mathrm{N}$ un sustantivo y $\mathrm{GS}$ la partícula de genitivo sajón (\emph{'s}, \emph{'}). La estructura de este sintagma nominal se podría representar, usando un árbol de análisis sintáctico (sin tener en cuenta los determinantes, para simplificar) como se ve en la figura \ref{fg:arbre1}. \begin{figure} \begin{center} \begin{parsetree} (.SN. (.SG. (.SN. (.SG. (.SN. (.A. `old' ) (.SN. (.N. `professor' ) ) ) (.GS. `{'s}' ) ) (.SN. (.A. `smart') (.SN. (.N. `girlfriend' ) ) ) ) (.GS. `{'s}' ) ) (.SN. (.A. `red') (.SN. (.N. `car' ) ) ) ) \end{parsetree} \end{center} \caption{Árbol de análisis sintáctico del sintagma nominal \emph{The old professor's smart girlfriend's red car}.} \label{fg:arbre1} \end{figure} Un sistema de transferencia sintáctica del inglés al español podría usar dos reglas para transformar subárboles (partes del árbol), una para mover los adjetivos:\footnote{Evidentemente, no siempre se deben mover los adjetivos; la traducción correcta de \emph{the last car} es \emph{el último coche}, sin cambiar el orden. Un sistema real de transferencia sintáctica tendría que considerar estos casos de manera especial.} \begin{center} $R_1:$ \begin{parsetree} (.\textrm{SN}$_1$. `A' `SN$_2$' ) \end{parsetree} $\longrightarrow$ \begin{parsetree} (.SN$_1$. `SN$_2$' `A' ) \end{parsetree} \end{center} y otra para reordenar los sintagmas nominales que contienen un genitivo sajón: \begin{center} $R_2:$ \begin{parsetree} (.SN$_1$. (.SG. `SN$_2$' `GS' ) `SN$_3$' ) \end{parsetree} $\longrightarrow$ \begin{parsetree} (.SN$_1$. `SN$_3$' (.SP. (.P. `\textbf{de}' ) `SN$_2$' ) ) \end{parsetree} \end{center} La aplicación de la regla $R_2$ al $\mathrm{SN}$ en la raíz del árbol de análisis sintáctico de la frase da como resultado el árbol que se ve en la figura~\ref{fg:arbre2}. \begin{figure} \begin{center} \begin{parsetree} (.SN. (.SN. (.A. `red') (.SN. (.N. `car' ) ) ) (.SP. (.P. `de' ) (.SN. (.SG. (.SN. (.A. `old' ) (.SN. (.N. `professor' ) ) ) (.GS. `{'s}' ) ) (.SN. (.A. `smart') (.SN. (.N. `girlfriend' ) ) ) ) ) ) \end{parsetree} \end{center} \caption{Árbol de análisis sintáctico del sintagma \emph{The old professor's smart girlfriend's red car} después de aplicarle la regla $R_2$ al $\mathrm{SN}$ principal o raíz (véase el texto y la figura~\protect\ref{fg:arbre1}).} \label{fg:arbre2} \end{figure} Después sería necesario aplicar la regla $R_1$ al $\mathrm{SN}$ que genera \emph{red car}, después la regla $R_2$ al $\mathrm{SN}$ que genera \emph{old professor's smart girlfriend}, etc. El resultado final se muestra en la figura~\ref{fg:arbre3} \begin{figure} \begin{center} \begin{parsetree} (.SN. (.SN. (.SN. (.N. `car' ) ) (.A. `red') ) (.SP. (.P. `de' ) (.SN. (.SN. (.SN. (.N. `girlfriend' ) ) (.A. `smart') ) (.SP. (.P. `de' ) (.SN. (.SN. (.N. `professor' ) (.A. `old' ) ) ) ) ) ) ) \end{parsetree} \end{center} \caption{Árbol de análisis sintáctico del sintagma \emph{The old professor's smart girlfriend's red car} después de haber hecho todos los reordenamientos posibles con las reglas $R_1$ y $R_2$ (véase el texto y las figuras~\protect\ref{fg:arbre1} y \protect\ref{fg:arbre2}).} \label{fg:arbre3} \end{figure} y se corresponde con el árbol de análisis sintáctico de la traducción, \emph{El coche rojo de la amiga inteligente del profesor viejo}, que se podría generar directamente a partir del árbol. 
+456a251
+> 
+707,732c502,510
+< \item \label{ex:zkanagg} El software que llevan instalado las naves de la confederación galáctica incluye un programa que traduce una de las lenguas mayoritarias del planeta Zkanagg, el tazkannwat, al español. El sistema es un sistema de transferencia morfológica avanzada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada. Algunas traducciones son erróneas porque el sistema no tiene un catálago demasiado completo de reglas. Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas.
 <    \begin{example} 
 <    \gll Thlong u knaar uw phlagyw. 
 <         {Adquirió} el navegante el-OBJ control-OBJ 
@@ -89,18 +274,18 @@
 <    \glend
 <    \end{example} 
 ---
-> \item \label{ex:zkanagg} El software que llevan instalado las naves de la confederación galáctica incluye un programa que traduce una de las lenguas mayoritárias del planta Zkanagg, el tazkannwat, al catalán. El sistema es un sistema de transferencia morfológica avanczada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada. Algunas traducciones son erroneas porque el sistema no tiene un catálago demasiado completo de reglas.	  Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas. \begin{example} \gll Thlong u knaar uw phlagyw. {Adquirió} el navegante el-OBJ control-OBJ \glt TU: El navegante adquirió el control (correcta). \glend
+> \item \label{ex:zkanagg} El software que llevan instalado las naves de la confederación galáctica incluye un programa que traduce una de las lenguas mayoritarias del planeta Zkanagg, el tazkannwat, al español. El sistema es un sistema de transferencia morfológica avanzada estándar, que lee los textos de izquierda a derecha, palabra a palabra, busca en la entrada los patrones de categorías léxicas que contiene en su catálogo, selecciona el más largo, reordena y concuerda las palabras del patrón, los escribe, y continúa después de la zona reordenada. Algunas traducciones son erróneas porque el sistema no tiene un catálago demasiado completo de reglas.	  Fijaos en los ejemplos y decid cuáles son los patrones que detecta y cuáles las reglas de reordenamiento asociadas. \begin{example} \gll Thlong u knaar uw phlagyw. {Adquirió} el navegante el-OBJ control-OBJ \glt TA: El navegante adquirió el control (correcta). \glend
 > 
-> \end{example} \begin{example} \gll Thlong u knaar qimratt uw phlagyw. {Adquirió} el navegante estelar el-OBJ control-OBJ \glt TA: El navegante estelar adquirió el control (correcta).. \glend
+> \end{example} \begin{example} \gll Thlong u knaar qimratt uw phlagyw. {Adquirió} el navegante estelar el-OBJ control-OBJ \glt TA: El navegante estelar adquirió el control (correcta). \glend
 > 
 > \end{example} \begin{example} \gll Thlong u knaar na Zkannag uw phlagyw. {Adquirió} el navegante de Zkannag el-OBJ control-OBJ \glt TA: El navegante de Zkannag adquirió el control (correcta). \glend
 > 
 > \end{example} \begin{example} \gll Thlong u knaar qimratt na Zkannag uw phlagyw. {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ \glt TA: *El navegante estelar adquirió de Zkannag el control. \glt Correcta: El navegante estelar de Zkannag adquirió el control. \glend
 > 
 > \end{example} 
-664,698c594,612
+816,850c594,612
 <      \begin{example} 
-<      \gll Te whare. 
+<      \gll Te whare .
 <           \textsf{Art.\ def.\ sg.} casa . 
 <      \glt La casa. 
 <      \glend
@@ -135,7 +320,7 @@
 <      \glend
 <      \end{example} 
 ---
-> \begin{example} \gll Te whare. \textsf{Art.\ def.\ sg.} casa . \glt La casa. \glend
+> \begin{example} \gll Te whare . \textsf{Art.\ def.\ sg.} casa . \glt La casa. \glend
 > 
 > \end{example} 
 > 
@@ -154,7 +339,7 @@
 > \begin{example} \gll Ng\={a} whare nui . \textsf{Art.\ def.\ pl.} casa grande. \glt Las casas grandes. \glend
 > 
 > \end{example} 
-764,770c678,680
+915,921c677,679
 <      \begin{example} 
 <      \gll Thlong u knaar uw phlagyw. 
 <           {Adquirió} el navegante el-OBJ control-OBJ 
@@ -166,7 +351,7 @@
 > \begin{example} \gll Thlong u knaar uw phlagyw. {Adquirió} el navegante el-OBJ control-OBJ \glt TA: El navegante adquirió el control (correcta). \glend
 > 
 > \end{example} $R_1$: \textbf{verbo} \textbf{art} \textbf{nom} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{verbo} 
-774,788c684,686
+925,931c683,685
 <      \begin{example} 
 <      \gll Thlong u knaar qimratt uw phlagyw. 
 <           {Adquirió} el navegante estelar el-OBJ control-OBJ 
@@ -174,40 +359,35 @@
 <      \glend
 <      \end{example} 
 < $R_2$: \textbf{verbo} \textbf{art} \textbf{nom} \textbf{adj} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{adj} \textbf{verbo} 
-<      \begin{example} 
-<      Resultado correcto. 
+---
+> \begin{example} \gll Thlong u knaar qimratt uw phlagyw. {Adquirió} el navegante estelar el-OBJ control-OBJ \glt TA: El navegante estelar adquirió el control (correcta). \glend
+> 
+> \end{example} $R_2$: \textbf{verbo} \textbf{art} \textbf{nom} \textbf{adj} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{adj} \textbf{verbo} \begin{example} 
+935,941c689,691
+<      \begin{example}
 <      \gll Thlong u knaar na Zkannag uw phlagyw. 
 <           {Adquirió} el navegante de Zkannag el-OBJ control-OBJ 
 <      \glt TA: El navegante de Zkannag adquirió el control (correcta). 
 <      \glend
-<      \end{example} 
+< \end{example} 
 < $R_3$: \textbf{verbo} \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} $\rightarrow$ \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} \textbf{verbo} 
----
-> \begin{example} \gll Thlong u knaar qimratt uw phlagyw. {Adquirió} el navegante estelar el-OBJ control-OBJ \glt TA: El navegante estelar adquirió el control (correcta).. \glend
-> 
-> \end{example} $R_2$: \textbf{verbo} \textbf{art} \textbf{nom} \textbf{adj} $\rightarrow$ \textbf{art} \textbf{nom} \textbf{adj} \textbf{verbo} \begin{example} 
-792,798c690,698
-<      \begin{example} 
-<      \gll Thlong u knaar qimratt na Zkannag uw phlagyw. 
-<           {Adquirió} el navegante estelar de Zkannag el-OBJ  control-OBJ 
-<      \glt TA: *El navegante estelar adquirió de Zkannag el control. 
-<      \glt Correcta: El navegante estelar de Zkannag adquirió el control. 
-<      \glend
-<      \end{example} 
 ---
 > \gll Thlong u knaar na Zkannag uw phlagyw. {Adquirió} el navegante de Zkannag el-OBJ control-OBJ \glt TA: El navegante de Zkannag adquirió el control (correcta). \glend
 > 
 > \end{example} $R_3$: \textbf{verbo} \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} $\rightarrow$ \textbf{art} \textbf{nombre} \textbf{prep} \textbf{nombre-propio} \textbf{verbo} 
-> 
-> Resultado correcto. 
-> 
+945,951c695,697
+<      \begin{example} 
+<      \gll Thlong u knaar qimratt na Zkannag uw phlagyw. 
+<           {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ 
+<      \glt TA: *El navegante estelar adquirió de Zkannag el control.
+<      \glt Correcta: El navegante estelar de Zkannag adquirió el control. 
+<      \glend
+<      \end{example} 
+---
 > \begin{example} \gll Thlong u knaar qimratt na Zkannag uw phlagyw. {Adquirió} el navegante estelar de Zkannag el-OBJ control-OBJ \glt TA: *El navegante estelar adquirió de Zkannag el control. \glt Correcta: El navegante estelar de Zkannag adquirió el control. \glend
 > 
 > \end{example} 
-858,861c758
-< \item Los siguientes ejemplos están tomados para el par
-<   español--catalán; en cada caso, la primera frase es un ejemplo de
-<   traducción correcta y el segundo de incorrecta: 
-< \begin{description} \item[Homografía:] Le traje un [sombrero] $\rightarrow$ Le traje un [sombrero]; Le traje un [traje] $\rightarrow$ Le traje un [traje]$^*$ (correcto: vestit). \item[Polisemia:] El [canto] de la sirena $\rightarrow$ El [canto] de la sirena; El [canto] de la moneda $\rightarrow$ El [canto] de la moneda$^*$. (correcto: cantell, viu) \item[Concordancia de género o número]: [La] indicación era [inequívoca] $\rightarrow$ [La] indicació era [inequívoca]; [La] señal era [inequívoca] $\rightarrow$ [La] senyal era [inequívoca]$^*$ (correcte: el, inequívoc) \item[Anáfora:] Cualquier [indicación] es importante para quien la comprenda $\rightarrow$ Qualsevol [indicació] és important per a qui [la] comprenga; Cualquier [señal] es importante para quien la comprenda $\rightarrow$ Qualsevol [senyal] és important per a qui [la] comprenga.$^*$ \end{description} 
+994c740
+< \item Veamos qué pasa con cada una de las oraciones: \begin{enumerate} \item {\sf Nos ofreció un postre} $\rightarrow$ {\em Ens va oferir unes postres\/}: La traducción es correcta. Parece que reconoce la secuencia (1)~\textbf{art}--\textbf{subst} y propaga el número y el género del sustantivo al adjetivo. \item {\sf Nos ofreció un postre buenísimo} $\rightarrow$ {\em Ens va oferir unes postres boníssimes\/}: La traducción es correcta. Parece que reconoce la secuencia (2)~\textbf{art}--\textbf{subst}--\textbf{adj} y propaga el número y el género del sustantivo tanto al artículo como el adjetivo, \item {\sf Nos ofreció un buen postre} $\rightarrow$ {\em *Ens va oferir un bon postres}: No funciona. No reconoce la secuencia \textbf{art}--\textbf{adj}--\textbf{subst}, y traduce palabra por palabra. \item {\sf Nos ofreció un postre típico buenísimo\/} $\rightarrow$ {\em *Ens va oferir unes postres típiques boníssim}: funciona incorrectamente porque no reconoce la secuencia completa \textbf{art}--\textbf{subst}--\textbf{adj}--\textbf{adj}; en cambio, sí reconoce la secuencia más corta (2)~\textbf{art}--\textbf{subst}--\textbf{adj} y propaga el género del sustantivo sólo al artículo y al primer adjetivo. Después, el sistema continúa traduciendo palabra por palabra. \item {\sf Nos ofreció un postre muy bueno} $\rightarrow$ {\em *Ens va oferir unes postres molt bo\/}: funciona incorrectamente porque no reconoce la secuencia completa {\bf art}--{\bf subst}--{\bf adv}--{\bf adj}; en cambio, sí reconoce la secuencia más corta (1)~\textbf{art}--\textbf{subst} y propaga el género del sustantivo sólo al artículo. Después, el sistema continúa traduciendo palabra por palabra. \end{enumerate} El sistema sólo ha usado dos secuencias (1: {\bf art}--{\bf subst} y 2: {\bf art}--{\bf subst}--{\bf adj}) para intentar hacer la concordancia. 
 ---
-> \item Los siguientes ejemplos están tomados para el par español--catalán; en cada caso, la primera frase es un ejemplo de traducción correcta y el segundo de incorrecta: \begin{description} \item[Homografía:] Le traje un [sombrero] $\rightarrow$ Le traje un [sombrero]; Le traje un [traje] $\rightarrow$ Le traje un [traje]$^*$ (correcto: vestit). \item[Polisemia:] El [canto] de la sirena $\rightarrow$ El [canto] de la sirena; El [canto] de la moneda $\rightarrow$ El [canto] de la moneda$^*$. (correcto: cantell, viu) \item[Concordancia de género o número]: [La] indicación era [inequívoca] $\rightarrow$ [La] indicació era [inequívoca]; [La] señal era [inequívoca] $\rightarrow$ [La] senyal era [inequívoca]$^*$ (correcte: el, inequívoc) \item[Anáfora:] Cualquier [indicación] es importante para quien la comprenda $\rightarrow$ Qualsevol [indicació] és important per a qui [la] comprenga; Cualquier [señal] es importante para quien la comprenda $\rightarrow$ Qualsevol [senyal] és important per a qui [la] comprenga.$^*$ \end{description} 
+> \item Veamos qué pasa con cada una de las oraciones: \begin{enumerate} \item {\sf Nos ofreció un postre} $\rightarrow$ {\em Ens va oferir unes postres\/}: La traducción es correcta. Parece que reconoce la secuencia (1)~{\bf art}--{\bf subst} y propaga el número y el género del sustantivo al adjetivo. \item {\sf Nos ofreció un postre buenísimo} $\rightarrow$ {\em Ens va oferir unes postres boníssimes\/}: La traducción es correcta. Parece que reconoce la secuencia (2)~{\bf art}--{\bf subst}--{\bf adj} y propaga el número y el género del sustantivo tanto al artículo como el adjetivo, \item {\sf Nos ofreció un buen postre} $\rightarrow$ {\em *Ens va oferir un bon postres}: No funciona. No reconoce la secuencia {\bf art}--{\bf adj}--{\bf subst}, y traduce palabra por palabra. \item {\sf Nos ofreció un postre típico buenísimo\/} $\rightarrow$ {\em *Ens va oferir unes postres típiques boníssim}: funciona incorrectamente porque no reconoce la secuencia completa {\bf art}--{\bf subst}--{\bf adj}--{\bf adj}; en cambio, sí reconoce la secuencia más corta (2)~{\bf art}--{\bf subst}--{\bf adj} y propaga el género del sustantivo sólo al artículo y al primer adjetivo. Después, el sistema continúa traduciendo palabra por palabra. \item {\sf Nos ofreció un postre muy bueno} $\rightarrow$ {\em *Ens va oferir unes postres molt bo\/}: funciona incorrectamente porque no reconoce la secuencia completa {\bf art}--{\bf subst}--{\bf adv}--{\bf adj}; en cambio, sí reconoce la secuencia más corta (1)~{\bf art}--{\bf subst} y propaga el género del sustantivo sólo al artículo. Después, el sistema continúa traduciendo palabra por palabra. \end{enumerate} El sistema sólo ha usado dos secuencias (1: {\bf art}--{\bf subst} y 2: {\bf art}--{\bf subst}--{\bf adj}) para intentar hacer la concordancia. 
