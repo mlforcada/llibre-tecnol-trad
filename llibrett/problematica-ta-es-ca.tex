@@ -259,7 +259,7 @@ adverbi)
 \end{enumerate}
 
 
-\subsection{Divergències de traducció}
+\subsection{Divergències de traducció}\label{se:divergenciestrad}
 
 Imaginem que hem pogut segmentar el text espanyol i que hem resolt 
 correctament les ambigüitats
@@ -340,11 +340,11 @@ $\rightarrow$ \emph{hi havia dues eixides}; \emph{no $\emptyset$
 \section{Experiències de TA espanyol--català}
 \label{se:ETACC}
 
-En aquesta secció es descriuen breument quatre experiències de
-traducció automàtica de l'espanyol al català (SALT, el traductor
-espanyol--català de Lucy Software, els traductors Automatictrans i el
-de \textit{El Periòdico de Catalunya}, interNOSTRUM), i una d'elles
-(Apertium) amb més detall.
+En aquesta secció es descriuen breument cinc experiències de
+traducció automàtica de l'espanyol al català: SALT, el traductor
+espanyol--català de Lucy Software, el traductor de \textit{El
+  Periòdico de Catalunya} i Automatictrans, interNOSTRUM i, amb més
+detall, Apertium.
 
 \subsection{SALT, de la Generalitat Valenciana}
 
@@ -415,7 +415,7 @@ Un programa similar (i, segons les nostres notícies, d'origen comú) a
 l'usat per \emph{El Periódico de Catalunya} s'anomenava abans
 AutomaticTrans i ara probablement el comercialitza l'empresa AT
 Language
-Solutions\footnote{\url{https://www.at-languagesolutions.com/}}
+Solutions.\footnote{\url{https://www.at-languagesolutions.com/}}
 
 
 \subsection{interNOSTRUM}
@@ -481,8 +481,7 @@ operatiu GNU/Linux, però hi ha moltes altres versions que funcionen sense neces
 \item Una aplicació per al sistema operatiu Android, \emph{Apertium
     offline
     translator};\footnote{\url{https://play.google.com/store/apps/details?id=org.apertium.android}}
-\item Una aplicació de sobretaula, \emph{apertium-caffeine}
-  \footnote{\url{http://wiki.apertium.org/wiki/Apertium-Caffeine}} per
+\item Una aplicació de sobretaula, \emph{apertium-caffeine}\footnote{\url{http://wiki.apertium.org/wiki/Apertium-Caffeine}} per
   a GNU/Linux, Windows o MacOS (requereix que s'hi haja instal·lat
   Java);
 \item Una extensió per al programa de traducció assistida OmegaT, anomenada \emph{apertium-omegat}.\footnote{\url{http://wiki.apertium.org/wiki/Apertium-OmegaT}}
@@ -602,11 +601,11 @@ produint, també lletra a lletra, una o més sortides.
   flexió i les connexions entre ells. L'entrada són les formes
   superficials del text i la sortida, formes lèxiques consistents en
   lema, categoria lèxica i informació de flexió.
- \item[Transferència lèxica] (transferència lèxica): El subprograma de
-   consulta del diccionari bilingüe es genera automàticament a partir
-   d'un fitxer que conté les correspondències bilingües. L'entrada és
-   la forma lèxica de la LO i la sortida, la forma lèxica o formes
-   lèxiques corresponents en la llengua meta (LM).
+\item[Transferència lèxica]: El subprograma de consulta del diccionari
+  bilingüe es genera automàticament a partir d'un fitxer que conté les
+  correspondències bilingües. L'entrada és la forma lèxica de la LO i
+  la sortida, la forma lèxica o formes lèxiques corresponents en la
+  llengua meta (LM).
  \item[Generació morfològica:] El generador morfològic fa l'operació
    inversa a l'analitzador morfològic però amb formes de la LM i es
    genera automàticament a partir d'un diccionari morfològic de la LM.
@@ -663,7 +662,7 @@ versemblant) és l'elegida.
  \paragraph{El mòdul de transferència
    estructural:} 
  Malgrat la gran semblança entre l'espanyol i el català, hi ha
- divergències gramaticals considerables (vegeu el capítol~\ref{se:PdTACC}):
+ divergències gramaticals considerables (vegeu la secció~\ref{se:divergenciestrad}):
  \begin{itemize}
  \item perífrasis modals: \emph{tienen que firmar}
  $\rightarrow$ \emph{han de firmar}; 
