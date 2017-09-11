@@ -62,7 +62,7 @@ Otro ejemplo: la tabla~\ref{tb:dicotomica} ilustra gráficamente el proceso de b
 
 \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{21 Ortiz} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{22 Pastor} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{23 Pérez} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{24 Sempere} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{25 Zubizarreta} \\ \hline
 
-\end{tabular}} \subtable[Segundo paso: miramos el elemento 6 y nos quedamos con la mitad alta de la subllista anterior.]{ \begin{tabular}{|l||l||l||l||l|} \hline
+\end{tabular}} \subtable[Segundo paso: miramos el elemento 6 y nos quedamos con la mitad alta de la sublista anterior.]{ \begin{tabular}{|l||l||l||l||l|} \hline
 
 \multicolumn{1}{|>{\columncolor[gray]{0.75}}l||}{1 Beléndez} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{2 Canals} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{3 Carrasco} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l||}{4 Escolano} &\multicolumn{1}{>{\columncolor[gray]{0.75}}l|}{5 Espí} \\ \hline
 
@@ -92,7 +92,7 @@ Pero un fichero de fichas de cartulina sólo se puede ordenar siguiendo un únic
 
 \begin{persabermes}{la indexación de bases de datos} 
 
-Si las consultas más frecuentes de una base de datos se refieren a un campo ---o a una combinación de campos, como por ejemplo el día, el mes y el año que forman una fecha--- que toma valores que se pueden ordenar, los registros se pueden ordenar por este campo, igual que el fichero de fichas de cartulina. Pero uno de las ventajas más claras de las bases de datos es que permiten que los registros estén ordenados por más de un campo, sin tener que duplicar la base de datos a pesar de que la duplicación de una base de datos pequeña puede no parecer en principio problemática, las cosas cambian si consideramos una base de datos con miles de registros y con un gran número de campos, todos llenos de información. Es evidente, por tanto, que hay que establecer un sistema alternativo para poder hacer búsquedas rápidas por más de un campo. Esto se consigue mediante un procedimiento denominado \emph{indexación}: básicamente, se asigna un número a cada ficha y se construye una tabla o \emph{índice} ordenado (otra base de datos) que contiene registros con dos campos: uno, el campo por el cual se quiere ordenar, y el otro, la posición en la base de datos del registro que contiene este valor del campo (en cierto sentido, este índice no es demasiado diferente del índice alfabético que hay al final de algunos libros: buscamos la palabra alfabéticamente y nos dice en qué páginas se encuentra). 
+Si las consultas más frecuentes de una base de datos se refieren a un campo ---o a una combinación de campos, como por ejemplo el día, el mes y el año que forman una fecha--- que toma valores que se pueden ordenar, los registros se pueden ordenar por este campo, igual que el fichero de fichas de cartulina. Pero una de las ventajas más claras de las bases de datos es que permiten que los registros estén ordenados por más de un campo, sin tener que duplicar la base de datos a pesar de que la duplicación de una base de datos pequeña puede no parecer en principio problemática, las cosas cambian si consideramos una base de datos con miles de registros y con un gran número de campos, todos llenos de información. Es evidente, por tanto, que hay que establecer un sistema alternativo para poder hacer búsquedas rápidas por más de un campo. Esto se consigue mediante un procedimiento denominado \emph{indexación}: básicamente, se asigna un número a cada ficha y se construye una tabla o \emph{índice} ordenado (otra base de datos) que contiene registros con dos campos: uno, el campo por el cual se quiere ordenar, y el otro, la posición en la base de datos del registro que contiene este valor del campo (en cierto sentido, este índice no es demasiado diferente del índice alfabético que hay al final de algunos libros: buscamos la palabra alfabéticamente y nos dice en qué páginas se encuentra). 
 
 Se puede construir un índice para cada uno de los campos asociados a las consultas más frecuentes y así se evita recorrer toda la base de datos cada vez que se hace una consulta: se busca el valor del campo en el registro correspondiente y, cuando se encuentra, se usa la posición del registro para acceder directamente. Una base de datos con estas propiedades está \emph{indexada}. 
 % A més de fer-hi \emph{consultes}, hi ha altres operacions que es
@@ -121,7 +121,7 @@ Como podéis ver, la base de datos contiene 10 registros con 4 campos; los regis
 \end{tabular}} \hspace{0.2\textwidth} \parbox{0.25\textwidth}{ \begin{tabular}{lc} \hline
 
 %%
-{\sc basc\phantom{o-croat}} &{\sc núm} \\ \hline
+{\sc vasco\phantom{o-croat}} &{\sc núm} \\ \hline
 
 \hline
 
@@ -205,7 +205,7 @@ La información de cada término (en el ejemplo solo uno) se incluye dentro del 
 
 \item ¿Es necesario tener dos copias de todas las fichas de una base de datos para poderla tener ordenada por más de un campo? \begin{enumerate} \item Depende; si los campos son numéricos no es necesario. \item No hay ningún otro remedio: hay que duplicar la base de datos. \item No; se puede crear más de un \emph{índice}. \end{enumerate} 
 
-\item Cuando usamos uno programa gestor de bases de datos terminológicas para buscar un término en una base de datos{\ldots} \begin{enumerate} \item {\ldots} algunos gestores nos permiten buscarlo sin conocer la forma exacta. \item {\ldots} tenemos que conocer como se escribe exactamente el término para poder encontrarlo. \item {\ldots}siempre es necesario conocer su categoría léxica e indicarsela al gestor \end{enumerate} 
+\item Cuando usamos un programa gestor de bases de datos terminológicas para buscar un término en una base de datos{\ldots} \begin{enumerate} \item {\ldots} algunos gestores nos permiten buscarlo sin conocer la forma exacta. \item {\ldots} tenemos que conocer como se escribe exactamente el término para poder encontrarlo. \item {\ldots}siempre es necesario conocer su categoría léxica e indicársela al gestor \end{enumerate} 
 
 \item Si buscamos en una base de datos de 240 fichas de alumnos una ficha (un registro) por el número de teléfono, un campo por el cual no está ordenada, ¿cuántas consultas tendrá que hacer, como máximo, el programa gestor de la base de datos hasta llegar a la ficha deseada? \begin{enumerate} \item 240 \item 120 \item 9 \end{enumerate} 
 
